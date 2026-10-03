@@ -2,210 +2,227 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Multimodal Communication & AAC | An AUsome Life</title>
-<meta name="description" content="A practical, evidence-informed guide to multimodal communication: speech, AAC, gestures, signs, pictures, writing, eye gaze, switches, partner-assisted scanning, low-tech backups and emerging AI access.">
+<title>Multimodal Communication Field Guide | An AUsome Life</title>
+<meta name="description" content="A practical, evidence-informed field guide to multimodal communication: speech, gestures, signs, gaze, objects, photos, AAC, typing, scanning, low-tech backups, communication partners, and using what is already around you.">
 <meta name="theme-color" content="#10334c">
 <link rel="canonical" href="https://anausomelife.com/multimodal-communication.html">
 <link rel="icon" type="image/x-icon" href="/favicon.ico"><link rel="icon" type="image/png" href="/favicon.png">
-<link rel="stylesheet" href="/assets/site.css?v=multimodal-20261002">
-<link rel="stylesheet" href="/assets/magazine.css?v=magazine-20261003"></head>
-<body class="magazine-shell reader-page">
+<link rel="stylesheet" href="/assets/site.css?v=communication-20261003">
+<link rel="stylesheet" href="/assets/magazine.css?v=communication-20261003">
+<style>
+.communication-guide{--navy:#153a4a;--cream:#f6f0e3;--green:#536b5b;--red:#8e4135;--rule:#d6cbb6}
+.communication-guide .comm-hero{padding:clamp(3.5rem,8vw,7rem) 0 3rem;background:linear-gradient(180deg,#fff 0%,var(--cream) 100%);border-bottom:1px solid var(--rule)}
+.communication-guide .comm-hero-grid{display:grid;grid-template-columns:minmax(0,1.08fr) minmax(280px,.7fr);gap:clamp(2rem,5vw,5rem);align-items:center}
+.communication-guide .comm-hero h1{max-width:13ch}
+.communication-guide .hero-note{background:#fff;border:1px solid #baaF99;padding:1.4rem;box-shadow:9px 9px 0 rgba(21,58,74,.08);transform:rotate(1deg)}
+.communication-guide .hero-note strong{display:block;font-family:Georgia,serif;color:var(--navy);font-size:1.55rem;margin:.3rem 0 .6rem}
+.communication-guide .hero-note p{margin:0;line-height:1.55}
+.communication-guide .section-number{font:800 .78rem/1.2 system-ui,sans-serif;text-transform:uppercase;letter-spacing:.14em;color:var(--red)}
+.communication-guide .route-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1rem;margin:2rem 0}
+.communication-guide .route-card{background:#fff;border:1px solid var(--rule);padding:1.2rem;min-height:180px}
+.communication-guide .route-card .mark{display:inline-grid;place-items:center;width:2.5rem;height:2.5rem;background:var(--cream);border-radius:50%;font-weight:900;color:var(--navy)}
+.communication-guide .route-card h3{font-family:Georgia,serif;color:var(--navy);font-size:1.25rem;margin:.7rem 0 .4rem}
+.communication-guide .route-card p{line-height:1.55;margin:0}
+.communication-guide .use-what-grid,.communication-guide .partner-grid,.communication-guide .scenario-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1rem;margin:1.5rem 0}
+.communication-guide .use-what-grid article,.communication-guide .scenario-grid article{border-top:3px solid var(--navy);background:#fff;padding:1.2rem;border-left:1px solid var(--rule);border-right:1px solid var(--rule);border-bottom:1px solid var(--rule)}
+.communication-guide .use-what-grid h3,.communication-guide .scenario-grid h3{font-family:Georgia,serif;color:var(--navy);margin:.2rem 0 .55rem}
+.communication-guide .partner-grid>div{background:var(--cream);padding:1rem 1.1rem;border-left:4px solid var(--green)}
+.communication-guide .partner-grid strong{display:block;color:var(--navy);margin-bottom:.25rem}
+.communication-guide .field-rule{background:#173541;color:#f8f3e8;padding:clamp(1.3rem,3vw,2rem);margin:2rem 0}
+.communication-guide .field-rule h3{color:#fff;font-family:Georgia,serif;font-size:1.6rem;margin:.25rem 0 .6rem}
+.communication-guide .field-rule p{font-size:1.08rem;line-height:1.6;margin:0}
+.communication-guide .red-line{border-left:4px solid var(--red);padding:1rem 1.2rem;background:#fbf5ed;margin:1.4rem 0}
+.communication-guide .backup-strip{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:.5rem;margin:1.2rem 0}
+.communication-guide .backup-strip span{display:block;border:1px solid var(--navy);padding:.8rem;text-align:center;font-weight:800;color:var(--navy);background:#fff}
+.communication-guide .check-card{border:1px solid var(--rule);background:#fff;padding:1.3rem;margin:1.5rem 0}
+.communication-guide .check-card li{margin:.65rem 0}
+.communication-guide .small-caps{font:800 .75rem/1.2 system-ui,sans-serif;text-transform:uppercase;letter-spacing:.14em;color:var(--red)}
+.communication-guide .source-list p{padding:.85rem 0;border-bottom:1px solid #ddd2bf}
+.communication-guide .source-list p:last-child{border-bottom:0}
+.communication-guide .generator-banner{background:var(--cream);border:1px solid var(--rule);padding:clamp(1.4rem,4vw,2.3rem);display:grid;grid-template-columns:1fr auto;gap:1.5rem;align-items:center}
+.communication-guide .generator-banner h2{margin:.2rem 0 .5rem}
+@media(max-width:850px){.communication-guide .comm-hero-grid,.communication-guide .generator-banner{grid-template-columns:1fr}.communication-guide .route-grid{grid-template-columns:1fr 1fr}.communication-guide .backup-strip{grid-template-columns:1fr 1fr}}
+@media(max-width:620px){.communication-guide .route-grid,.communication-guide .use-what-grid,.communication-guide .partner-grid,.communication-guide .scenario-grid{grid-template-columns:1fr}}
+</style>
+</head>
+<body class="magazine-shell reader-page communication-guide">
 <a class="skip" href="#main">Skip to content</a>
-<a class="skip" href="#main">Skip to content</a><div class="edition-line"><span>New England &amp; the everyday</span><span>A family-life field guide</span></div><header class="mag-masthead"><a class="mag-brand" href="/" aria-label="An AUsome Life home"><img src="/assets/coastal-emblem.webp" alt="" width="80" height="80"><span>An AUsome Life<small>Beautiful. Useful. Lived in.</small></span></a><nav aria-label="Main navigation"><a href="/library.html">The library</a><a href="/favorite-places.html">Favorite places</a><a href="/calendar.html">The calendar</a><a href="/about.html">Our story</a><a class="nav-search" href="/library.html#library-search">Search <span aria-hidden="true">↗</span></a></nav></header>
-<div class="page-tools"><div class="wrap"><div class="breadcrumbs"><a href="/">Home</a><span aria-hidden="true">/</span><a href="/product-guides.html#access">Access + communication</a></div><button type="button" data-print>Print this guide</button></div></div>
+<div class="edition-line"><span>New England &amp; the everyday</span><span>A family-life field guide</span></div>
+<header class="mag-masthead"><a class="mag-brand" href="/" aria-label="An AUsome Life home"><img src="/assets/coastal-emblem.webp" alt="" width="80" height="80"><span>An AUsome Life<small>Beautiful. Useful. Lived in.</small></span></a><nav aria-label="Main navigation"><a href="/library.html">The library</a><a href="/favorite-places.html">Favorite places</a><a href="/calendar.html">The calendar</a><a href="/about.html">Our story</a><a class="nav-search" href="/library.html#library-search">Search <span aria-hidden="true">↗</span></a></nav></header>
+<div class="page-tools"><div class="wrap"><div class="breadcrumbs"><a href="/">Home</a><span aria-hidden="true">/</span><a href="/product-guides.html#access">Access + communication</a><span aria-hidden="true">/</span><span>Communication field guide</span></div><button type="button" data-print>Print this guide</button></div></div>
 
 <main id="main">
-<section class="hero"><div class="wrap">
-<p class="eyebrow">Communication · AAC · Access</p>
+<section class="comm-hero"><div class="wrap comm-hero-grid">
+<div>
+<p class="eyebrow">The Communication Field Guide · Updated October 2026</p>
 <h1>Communication is an ecosystem, not a device.</h1>
-<p class="lede">Speech, an AAC app, a look toward the door, a sign, a photograph, a typed sentence, a switch, a sound, a paper board or an established yes/no signal can all be part of one person’s communication. The goal is not to force one “best” mode. It is to make enough reliable routes available that the person can say what they mean, where they are, with the body and energy they have that day.</p>
-<figure class="guide-art"><img src="/assets/guide-access.svg" alt="Illustration of a communication tablet with choice symbols beside a quiet bench." width="800" height="560"><figcaption>One visual route is useful. A whole communication system includes the person, their access method, their language, their partners, and a backup when the first route is not workable.</figcaption></figure>
-<div class="quick-facts">
-<div><strong>No prerequisites</strong><span>ASHA guidance says AAC should not be withheld because of age or presumed cognitive, language or motor prerequisites.</span></div>
-<div><strong>More than requesting</strong><span>A full system needs room for refusal, opinions, jokes, questions, repair, social closeness and sharing information—not only “I want.”</span></div>
-<div><strong>Always available</strong><span>Communication tools should stay accessible across settings, including low-tech backups when electronics are impractical.</span></div>
+<p class="lede">A word. A look toward the door. A familiar gesture. The actual cereal box. A photograph on a phone. A symbol. A typed sentence. A speech-generating device. A switch. A sound. More than one of these, in the same hour. Multimodal communication means keeping enough reliable routes open that a person can say what they mean in the place, body, energy level, and moment they are actually in.</p>
+<div class="actions"><a class="button" href="/communication-card-generator.html">Make a communication card</a><a class="text-link" href="#use-whats-around">Use what is around you →</a></div>
+<p class="source-note">Evidence and links checked October 3, 2026. This is practical family guidance, not an individualized AAC evaluation.</p>
 </div>
-<p class="source-note">Evidence and links checked October 2, 2026. This is practical family guidance, not an individualized AAC evaluation.</p>
+<div class="hero-note"><span class="small-caps">Field note no. 01</span><strong>The best route is the one that works now.</strong><p>The polished answer is not always the useful one. Sometimes the right communication tool is sophisticated technology. Sometimes it is the photograph you took in the parking lot thirty seconds ago. Prestige is not the point. Being understood is.</p></div>
 </div></section>
 
-<nav class="on-page" aria-label="On this page"><div class="wrap"><strong>In this guide</strong><a href="#what-counts">What counts</a><a href="#access">How a person accesses language</a><a href="#partners">Communication partners</a><a href="#real-life">Real-life examples</a><a href="#emerging">AI + emerging tech</a><a href="#authorship">Authorship + evidence</a><a href="#profile">Printable profile</a></div></nav>
+<nav class="on-page" aria-label="On this page"><div class="wrap"><strong>In this guide</strong><a href="#whole-toolbox">The whole toolbox</a><a href="#use-whats-around">Use what is around you</a><a href="#partners">Partner skill</a><a href="#backup">Primary + backup</a><a href="#settings">Real-life settings</a><a href="#ai">AI as drafting help</a><a href="#agency">Communication belongs to the person</a><a href="#sources">Sources</a></div></nav>
 
-<section class="section" id="what-counts"><div class="wrap">
-<p class="eyebrow">01 / Multimodal by design</p>
-<h2>Use every reliable route. Do not make speech the tollbooth.</h2>
-<p>ASHA describes AAC as inherently multimodal: a person may combine speech or vocalizations with gestures, signs, facial expression, objects, pictures, photographs, writing, spelling, communication boards, text-to-speech and speech-generating devices. The mix can change by place, communication partner, motor access, fatigue, sensory load and message.</p>
+<section class="section" id="whole-toolbox"><div class="wrap">
+<p class="section-number">01 / The whole toolbox</p>
+<h2>There is no prize for using only one route.</h2>
+<p>Augmentative and alternative communication is broader than a particular app or device. ASHA describes AAC as multimodal: people may combine speech or vocalizations, gestures, signs, facial expression, body movement, objects, photographs, visual supports, writing, text, symbols, communication boards or books, speech-generating technology, and different access methods. The mix can change with context, audience, purpose, motor access, fatigue, and sensory conditions.</p>
+<p>A good system therefore asks two questions at once: <strong>What does this person have to say?</strong> and <strong>what is the easiest reliable route for saying it right now?</strong></p>
 
-<div class="comm-map" aria-label="Examples of communication modalities">
-<div class="comm-mode"><span class="mode-mark" aria-hidden="true">Aa</span><h3>Speech + vocalization</h3><p>Words, approximations, sounds, intonation, laughter and other intentional vocal signals.</p></div>
-<div class="comm-mode"><span class="mode-mark" aria-hidden="true">✋</span><h3>Gesture + sign</h3><p>Pointing, reaching, conventional gestures, manual signs, body orientation and established movements.</p></div>
-<div class="comm-mode"><span class="mode-mark" aria-hidden="true">▦</span><h3>Symbols + pictures</h3><p>Photographs, visual scenes, communication books, symbol grids and meaningful objects.</p></div>
-<div class="comm-mode"><span class="mode-mark" aria-hidden="true">⌨</span><h3>Writing + spelling</h3><p>Handwriting, typing, texting, alphabet boards and text-to-speech when independently accessed.</p></div>
-<div class="comm-mode"><span class="mode-mark" aria-hidden="true">◉</span><h3>Eye gaze + scanning</h3><p>Direct eye-gaze selection, switches, auditory or visual scanning, and partner-assisted scanning.</p></div>
-<div class="comm-mode"><span class="mode-mark" aria-hidden="true">▣</span><h3>Speech-generating tech</h3><p>Dedicated devices, tablets or phones with robust symbol- or text-based language systems.</p></div>
+<div class="route-grid" aria-label="Examples of communication routes">
+<div class="route-card"><span class="mark" aria-hidden="true">Aa</span><h3>Speech + vocalization</h3><p>Words, approximations, sounds, laughter, intonation, and other intentional vocal signals.</p></div>
+<div class="route-card"><span class="mark" aria-hidden="true">✋</span><h3>Gesture + sign</h3><p>Pointing, reaching, conventional gestures, manual signs, and familiar movements.</p></div>
+<div class="route-card"><span class="mark" aria-hidden="true">◉</span><h3>Gaze + body</h3><p>Eye gaze, facial expression, orientation, movement, and established body signals that can be confirmed.</p></div>
+<div class="route-card"><span class="mark" aria-hidden="true">●</span><h3>Real objects</h3><p>The actual cup, shoe, snack, ticket, towel, or item in front of you can make a choice concrete immediately.</p></div>
+<div class="route-card"><span class="mark" aria-hidden="true">▧</span><h3>Photos + visual scenes</h3><p>Camera-roll pictures, venue photos, screenshots, visual schedules, maps, and pictures of real choices.</p></div>
+<div class="route-card"><span class="mark" aria-hidden="true">✎</span><h3>Drawing + writing</h3><p>Sketching, handwriting, note apps, typing, texting, saved phrases, and text-to-speech.</p></div>
+<div class="route-card"><span class="mark" aria-hidden="true">▦</span><h3>Symbols + low-tech AAC</h3><p>Symbol displays, communication books, printed backups, and small situation-specific boards alongside robust language.</p></div>
+<div class="route-card"><span class="mark" aria-hidden="true">▣</span><h3>Speech-generating technology</h3><p>Dedicated devices, tablets, and phones with robust symbol- or text-based communication systems.</p></div>
+<div class="route-card"><span class="mark" aria-hidden="true">↳</span><h3>Switch + scanning access</h3><p>Direct or indirect access that lets a communicator select from available choices using an established signal.</p></div>
 </div>
 
-<div class="callout"><h3>A useful distinction: message vs. route</h3><p><strong>“I need a break”</strong> is the message. Speech, pressing a symbol, looking to a “break” card, signing, pointing to the door or selecting “yes” during partner-assisted scanning are possible routes. When one route becomes hard, the message still deserves another route.</p></div>
+<div class="field-rule"><span class="small-caps">The field rule</span><h3>Do not make speech the tollbooth.</h3><p>Speech is one route. It should not be the price of admission to choice, attention, participation, humor, refusal, privacy, or an ordinary conversation.</p></div>
 
-<h3>Behavior can carry information. It is not a mind-reading system.</h3>
-<p>A change in movement, pacing, vocalization or facial expression may tell a familiar partner that something is different. Respond to the person and the situation, but do not assign a precise message without a way to confirm it. “You seem uncomfortable. Is something wrong?” plus an accessible way to answer protects agency better than deciding what the behavior “means.”</p>
+<h3>More than requesting</h3>
+<p>A full communication life includes asking, refusing, commenting, complaining, joking, greeting, telling news, correcting someone, asking questions, changing the subject, seeking help, saying “not that,” and ending the conversation. A system that can only produce “I want” is carrying far too little of the person’s life.</p>
 
-<h3>Visual example: a tiny backup board</h3>
-<p>This is deliberately small: it is the sort of emergency board that might live in a pool bag or glove compartment. It is <em>not</em> a substitute for a person’s full vocabulary.</p>
-<div class="mini-aac-board" role="img" aria-label="Example low-tech backup board with the words yes, no, stop, break, help, more, finished and something else.">
-<span>YES</span><span>NO</span><span>STOP</span><span>BREAK</span><span>HELP</span><span>MORE</span><span>FINISHED</span><span>SOMETHING ELSE</span>
-</div>
-<p class="source-note">ASHA’s 2026 AAC Awareness Month materials specifically highlight public communication boards as useful low-tech access in places such as libraries and parks. A public board is an additional route—not a reason to leave someone’s personal AAC behind.</p>
+<h3>Behavior can tell you that something changed. It cannot safely tell you the whole sentence.</h3>
+<p>Pacing, movement, vocalization, withdrawal, reaching, or a facial change may tell a familiar person that something is different. Treat that as information worth responding to, not as permission to assign a precise meaning. “Something seems different—can we figure it out?” plus an accessible way to answer protects agency better than deciding what the person meant.</p>
 </div></section>
 
-<section class="section" id="access"><div class="wrap">
-<p class="eyebrow">02 / Access is part of language</p>
-<h2>The same vocabulary can be reached in very different ways.</h2>
-<p>Touch is only one access method. ASHA describes direct selection through touch, joystick, eye gaze, head mouse, trackball or other signals, and indirect selection through scanning. In partner-assisted scanning, the partner presents choices in an agreed sequence and the communicator makes the selection with an established independent signal such as a look, blink, movement, sound or switch.</p>
+<section class="section" id="use-whats-around"><div class="wrap">
+<p class="section-number">02 / The useful art of improvising</p>
+<h2>Use what is already around you.</h2>
+<p>Communication does not stop because the perfect material is in another room. Real objects, signs, menus, packaging, maps, tickets, photos, screenshots, timers, calendars, a notes app, a dry-erase board, and the environment itself can all make a message easier to understand or express. These are additions and backups—not reasons to take away a person’s established AAC.</p>
 
-<div class="grid">
-<div class="card"><h3>Direct touch</h3><p>Useful when target size, motor planning and positioning make touch reliable. Do not shrink buttons simply to fit more vocabulary.</p></div>
-<div class="card"><h3>Eye gaze</h3><p>Can be low-tech with an eye-gaze frame or high-tech with a camera-based system. Calibration, positioning, lighting and visual access matter.</p></div>
-<div class="card"><h3>Switch + scanning</h3><p>Items are highlighted or spoken in sequence; the user activates a switch or signal when the desired item appears.</p></div>
-<div class="card"><h3>Partner-assisted scanning</h3><p>Low-tech and powerful when the person has a dependable selection signal. The partner presents; the communicator selects.</p></div>
-<div class="card"><h3>Keyboard / text</h3><p>Typing can be paired with word prediction, stored phrases or text-to-speech to reduce effort while preserving authorship.</p></div>
-<div class="card"><h3>Multiple access methods</h3><p>A person may touch at a table, use partner-assisted scanning in a pool, and use eye gaze when motor fatigue makes direct touch unreliable.</p></div>
+<div class="use-what-grid">
+<article><span class="small-caps">At a café</span><h3>Use the actual menu.</h3><p>Point to categories. Show the picture of the soup. Compare two real items. Let a person point, type, use their device, gesture, or say “none of these.” Keep food choice, size, drink, and “finished” as separate decisions.</p></article>
+<article><span class="small-caps">At the grocery store</span><h3>The shelf is already a visual display.</h3><p>Hold up two packages. Point to the cart. Use a saved photo of the familiar brand. Photograph a new item so it can be talked about later. The real object often carries more information than an abstract placeholder.</p></article>
+<article><span class="small-caps">On an outing</span><h3>Photograph the next step.</h3><p>Take a picture of the entrance, the ticket booth, the pool door, the car, or the bench where a break can happen. A phone camera can turn an unfamiliar sequence into a concrete one in under a minute.</p></article>
+<article><span class="small-caps">At home</span><h3>Let the house do some of the talking.</h3><p>Use the actual cereal box, bath towel, shoes, calendar, timer, laundry basket, or remote. Pair words and AAC with objects already attached to the routine.</p></article>
+<article><span class="small-caps">In a medical office</span><h3>Make the invisible visible.</h3><p>A body diagram, mirror, photo, typed note, or showing the relevant body area can reduce language load. Prepare words such as stop, break, hurts, not sure, explain again, and where.</p></article>
+<article><span class="small-caps">Online or in a group</span><h3>Use the side doors.</h3><p>Chat, advance questions, a shared document, typed responses, and a follow-up message can make participation possible when real-time turn-taking is too fast.</p></article>
 </div>
 
-<div class="callout"><h3>Access changes. That does not mean the person has “lost” communication.</h3><p>Before deciding a system is not working, check positioning, target size, sensory conditions, fatigue, vision, hearing, device volume, charging, vocabulary location, partner familiarity and whether the person has a lower-effort alternative.</p></div>
+<div class="red-line"><strong>A communication tool already in the room still counts.</strong> The aim is not to create a Pinterest-perfect support system. The aim is to make meaning easier to send and receive without taking control away from the communicator.</div>
 
-<h3>Screen time is not the right frame for communication.</h3>
-<p>ASHA explicitly notes that concerns about ordinary recreational screen time do not apply to screens used as part of an AAC system. A communication device is access to language.</p>
+<h3>The camera roll is a surprisingly good communication drawer.</h3>
+<p>Photos can set a topic, show a person or place, represent a choice, clarify which item someone means, prepare for a visit, or help recall what happened. Use current, meaningful pictures where possible. A photograph of the actual pool is often more useful than a generic blue square labeled “swim.”</p>
+
+<h3>Visual supports can explain what language alone leaves fuzzy.</h3>
+<p>A short sequence can show <em>where we are going, what happens first, what happens next, where a break can happen, and how we get home.</em> Keep the sequence flexible enough for real life. If something changes, show the change rather than pretending the original plan is still true.</p>
 </div></section>
 
 <section class="section" id="partners"><div class="wrap">
-<p class="eyebrow">03 / Partner skill</p>
-<h2>The people around AAC are part of the system too.</h2>
-<p>A sophisticated device with rushed or controlling partners can still produce very little real communication. Communication-partner instruction has a research base, and common strategies include aided modeling, expectant delay, responsive interaction and practice across everyday settings.</p>
+<p class="section-number">03 / The person across the table matters too</p>
+<h2>The communication partner is part of the system.</h2>
+<p>Research on AAC partner instruction repeatedly points to partner behavior as consequential. The device can be charged, the vocabulary can be excellent, and communication can still collapse if the people nearby rush, quiz, answer for the communicator, or only notice conventional speech.</p>
 
-<div class="communication-rules">
-<div><strong>Model, do not quiz.</strong><span>Use the person’s AAC while you talk, especially for words beyond requesting. Show language without demanding imitation.</span></div>
-<div><strong>Wait longer than feels natural.</strong><span>Looking, navigating, motor planning and composing a message can take time. Do not fill every silence.</span></div>
-<div><strong>Respond to every credible attempt.</strong><span>A gesture, device selection, word, look or sign deserves a response even when the answer to the request is no.</span></div>
-<div><strong>Talk to the person.</strong><span>Ask the AAC user the question. A support person can help with access without becoming the person being addressed.</span></div>
-<div><strong>Leave room for “no.”</strong><span>A communication system that can only produce compliance is not a full communication system.</span></div>
-<div><strong>Repair together.</strong><span>Try “I think I missed that. Can we try another way?” rather than pretending to understand.</span></div>
+<div class="partner-grid">
+<div><strong>Speak to the person.</strong><span>Ask the communicator the question. A supporter can help with access or context without becoming the person being addressed.</span></div>
+<div><strong>Wait longer than feels natural.</strong><span>Looking, motor planning, navigating vocabulary, composing, or switching routes takes time. Silence is not an emergency.</span></div>
+<div><strong>Model, do not quiz.</strong><span>Use the communication system while you talk when appropriate. Demonstrate language without turning every interaction into a test.</span></div>
+<div><strong>Make “no” work.</strong><span>Offer choices that can genuinely be refused. Include stop, break, finished, not sure, and something else.</span></div>
+<div><strong>Respond to credible attempts.</strong><span>A word, look, gesture, device selection, typed message, or established signal deserves a response even when the answer to the request is no.</span></div>
+<div><strong>Repair honestly.</strong><span>“I think I missed that. Can we try another way?” is better than pretending to understand.</span></div>
+<div><strong>Do not move communication out of reach.</strong><span>Ask before touching or relocating a personal communication device. Communication access should not be treated as a reward.</span></div>
+<div><strong>Check the environment.</strong><span>Noise, glare, seating, positioning, battery, volume, Wi-Fi, visual clutter, and fatigue can all make a familiar route much harder.</span></div>
 </div>
 
-<h3>Model a wide range of reasons to communicate.</h3>
-<div class="tag-row"><span class="tag">refuse</span><span class="tag">ask</span><span class="tag">comment</span><span class="tag">joke</span><span class="tag">tell news</span><span class="tag">complain</span><span class="tag">flirt</span><span class="tag">ask for help</span><span class="tag">say “not that”</span><span class="tag">talk about pain</span><span class="tag">change the subject</span><span class="tag">end the conversation</span></div>
-
-<div class="callout"><h3>Presume a right to communicate, not a message you have already decided.</h3><p>Respecting competence means offering meaningful language, access and time. It does not mean claiming to know what someone intended before they have a reliable way to indicate it.</p></div>
+<div class="field-rule"><span class="small-caps">Field note no. 02</span><h3>Partner skill can lower the effort of being understood.</h3><p>Good support does not make the message for the person. It makes room, time, access, and another route when the first one is difficult.</p></div>
 </div></section>
 
-<section class="section" id="real-life"><div class="wrap">
-<p class="eyebrow">04 / In ordinary life</p>
-<h2>Build redundancy before the hard moment.</h2>
-<p>A multimodal plan is most useful when it answers a simple question: <em>What can this person use here, right now, if their usual route is difficult?</em></p>
+<section class="section" id="backup"><div class="wrap">
+<p class="section-number">04 / Redundancy is civilized</p>
+<h2>Choose a primary route and a backup before you need the backup.</h2>
+<p>Electronics lose power. Sunlight makes screens hard to see. Pools are wet. Restaurants are loud. Motor access can change with fatigue. A familiar staff member is absent. Planning two workable routes ahead of time keeps an ordinary problem from becoming a communication emergency.</p>
+
+<div class="backup-strip" aria-label="Core backup messages"><span>YES</span><span>NO</span><span>STOP</span><span>BREAK</span><span>HELP</span><span>FINISHED</span><span>NOT SURE</span><span>SOMETHING ELSE</span></div>
+
+<div class="check-card">
+<h3>Before leaving the house</h3>
+<ul>
+<li>The person’s primary communication tools are charged, mounted, packed, or otherwise available.</li>
+<li>A low-tech or lower-effort backup covers the urgent messages that matter in this setting.</li>
+<li>At least one adult knows the person’s reliable yes/no or selection signals.</li>
+<li>Situation-specific words have been added without taking away access to the rest of the person’s language.</li>
+<li>There is a plan for water, glare, noise, a dead battery, a broken mount, or a device that suddenly refuses to cooperate.</li>
+<li>The person can refuse, change course, and end the activity—not only request it.</li>
+</ul>
+<div class="actions"><a class="button" href="/communication-card-generator.html">Turn this into a field card</a></div>
+</div>
+
+<p class="source-note">ASHA guidance supports ongoing access to AAC and multiple modalities; concerns about ordinary recreational “screen time” do not apply to a screen being used for communication.</p>
+</div></section>
+
+<section class="section" id="settings"><div class="wrap">
+<p class="section-number">05 / Ordinary places, different demands</p>
+<h2>Build the route around the setting.</h2>
 
 <div class="scenario-grid">
-<article><p class="eyebrow">Pool</p><h3>Electronics and water do not mix.</h3><p>Keep the primary device available in a safe dry place, and add a waterproof or laminated board for words such as stop, more, out, bathroom, cold, help, finished and something else. Decide how yes/no will work in the water.</p></article>
-<article><p class="eyebrow">Restaurant</p><h3>Menus create extra language demands.</h3><p>Use the person’s robust AAC, a photo or actual menu, pointing, text, or a short choice display. Keep “none of these,” “something else,” “not hungry,” and comments available—not only food requests.</p></article>
-<article><p class="eyebrow">School / program</p><h3>Consistency matters more than identical behavior.</h3><p>Keep the same core language available across rooms and staff. A printed backup, charging plan, access instructions and a short communication passport reduce the risk that AAC disappears when one adult is absent.</p></article>
-<article><p class="eyebrow">Medical visit</p><h3>Do not let the historian replace the patient.</h3><p>Ask the person first when possible. Prepare vocabulary for location, intensity, yes/no/not sure, body parts, fear, stop, explain again and “I need a break.” A familiar supporter can clarify access and history without answering everything by default.</p></article>
-<article><p class="eyebrow">High stress</p><h3>Language may need a lower-effort route.</h3><p>Keep a small, predictable set for urgent messages—stop, break, help, pain, bathroom, home, not that, yes/no—while preserving access to the full system when the person wants it.</p></article>
-<article><p class="eyebrow">With unfamiliar people</p><h3>Make the rules visible.</h3><p>A one-sentence note can say: “Please speak directly to me, wait for my answer, and do not move my communication system without asking.”</p></article>
-</div>
-
-<div class="tool-card" data-checklist>
-<h3>Before leaving the house</h3>
-<ul class="pack-list">
-<li><label><input type="checkbox"><span>Primary AAC or established communication tools are charged, mounted or packed.</span></label></li>
-<li><label><input type="checkbox"><span>A low-tech backup can cover yes, no, stop, help, break, finished and something else.</span></label></li>
-<li><label><input type="checkbox"><span>At least one adult knows the person’s reliable yes/no and selection signals.</span></label></li>
-<li><label><input type="checkbox"><span>Vocabulary for this setting has been added without removing access to the rest of the language system.</span></label></li>
-<li><label><input type="checkbox"><span>The person can refuse, change the subject and end an activity—not only request it.</span></label></li>
-<li><label><input type="checkbox"><span>There is a plan for water, battery, Wi-Fi failure, glare, noise or a device that suddenly stops cooperating.</span></label></li>
-</ul>
-<div class="actions"><button class="button" type="button" data-copy-checklist>Copy checklist</button><button class="button secondary" type="button" data-reset-checklist>Reset</button></div><p class="status" role="status" aria-live="polite"></p>
+<article><span class="small-caps">Pool</span><h3>Keep the device dry. Keep communication wet-proof.</h3><p>A waterproof or laminated backup can cover stop, more, out, bathroom, cold, help, finished, and something else. Establish how yes/no will work in the water. Keep the full system nearby in a safe dry place.</p></article>
+<article><span class="small-caps">Restaurant</span><h3>A menu is both language and clutter.</h3><p>Use the actual menu, photos, pointing, text, or a short display. Separate the decisions: entrée, side, cup or glass, more, finished. Keep “none of these” available.</p></article>
+<article><span class="small-caps">School or program</span><h3>Consistency is not sameness.</h3><p>Keep core language and access available across rooms and people. A brief communication profile, charging plan, backup, and access notes make the system less dependent on one familiar adult.</p></article>
+<article><span class="small-caps">Medical visit</span><h3>The historian should not replace the patient.</h3><p>Ask the person first when possible. A supporter can clarify history and access while still leaving room for the patient’s own yes/no, stop, pain, fear, not sure, and questions.</p></article>
+<article><span class="small-caps">High stress</span><h3>Lower effort, not expectations of personhood.</h3><p>Stress may make a usual communication route harder. Offer a familiar lower-effort route, reduce competing sensory demands, wait, and keep urgent messages easy to reach.</p></article>
+<article><span class="small-caps">New people</span><h3>Put the interaction rules on one small card.</h3><p>“Please speak directly to me. I communicate using [routes]. Give me about [time] to answer. If that route is hard, try [backup]. Please do not [ ].”</p></article>
 </div>
 </div></section>
 
-<section class="section" id="emerging"><div class="wrap">
-<p class="eyebrow">05 / What is genuinely new</p>
-<h2>AI can reduce effort. It should not become the author.</h2>
-<p>Current AAC research is exploring smarter prediction, personalized vocabulary, expressive synthetic speech, emotion-related features and new access methods. The useful test is not “does it look futuristic?” but “does it increase speed, independence, precision or participation without taking control of the message?”</p>
+<section class="section" id="ai"><div class="wrap">
+<p class="section-number">06 / AI can do the clerical work</p>
+<h2>Let AI format the support. Do not let it invent the person.</h2>
+<p>AI can be genuinely useful for turning known facts into a clean card, simplifying a venue’s information, organizing a visual sequence, formatting current choices, creating a plain-language version, or drafting a handoff. The safe dividing line is authorship: the tool may help organize and present information; it should not claim to know what the person thinks, wants, understands, or feels.</p>
 
-<div class="tech-now">
-<div><p class="eyebrow">Useful now</p><h3>Prediction + stored language</h3><p>Word prediction, phrase prediction and well-chosen stored messages can reduce keystrokes. A 2025 AAC study explored partner-suggested vocabulary in a dual-tablet system as a way to increase efficiency. Suggestions should remain suggestions: the communicator accepts, rejects or changes them.</p></div>
-<div><p class="eyebrow">Emerging</p><h3>AI-assisted expression</h3><p>A 2026 preliminary study explored AI-based emotion recognition as one possible AAC feature. Interesting is not the same as settled. An algorithm’s guess about emotion should never be treated as the person’s statement of how they feel.</p></div>
-<div><p class="eyebrow">Research frontier</p><h3>Brain-computer interfaces</h3><p>BCI research is advancing for people with severe motor impairment, including communication applications. 2026 reviews describe promise but also major variability, usability, training and ethics questions. It remains an emerging access route, not a general replacement for established AAC.</p></div>
+<div class="use-what-grid">
+<article><span class="small-caps">Good use</span><h3>Turn real facts into a visual plan.</h3><p>Give the AI the actual location, sequence, photos or descriptions, break option, and way home. Ask for a short plan using only those facts.</p></article>
+<article><span class="small-caps">Good use</span><h3>Make current choices easier to scan.</h3><p>Paste today’s actual menu or activity choices. Ask the AI to group them clearly without adding unavailable options.</p></article>
+<article><span class="small-caps">Good use</span><h3>Produce two reading levels.</h3><p>Keep the meaning the same while asking for a compact card and a fuller staff note. The details stay consistent; the presentation changes.</p></article>
+<article><span class="small-caps">Good use</span><h3>Translate a known message.</h3><p>Translation can help bridge languages. Preserve the original alongside the translation when precision matters and verify important wording.</p></article>
+<article><span class="small-caps">Do not</span><h3>Ask AI to read someone’s mind.</h3><p>Do not turn a photo, behavior, movement, or supporter’s hunch into a claimed statement of what the person wants or feels.</p></article>
+<article><span class="small-caps">Do not</span><h3>Upload private history because the prompt has an empty box.</h3><p>Use the minimum information needed for the communication task. A restaurant host does not need a medical chart to wait fifteen seconds for an answer.</p></article>
 </div>
 
-<h3>Privacy deserves a place in the setup.</h3>
-<p>AAC can contain extremely personal language: health information, relationships, location, private conversations and custom vocabulary. When a system adds cloud prediction or AI features, check what is uploaded, stored, used for model improvement, synced across devices or visible to support staff. Convenience should not quietly erase communication privacy.</p>
-
-<div class="callout"><h3>A good AI rule for AAC</h3><p><strong>AI may help find, predict, pronounce or organize a message. It should not decide the person’s meaning.</strong> Keep the final selection under the communicator’s control and make generated suggestions easy to reject.</p></div>
+<div class="generator-banner"><div><p class="eyebrow">Free shared tool</p><h2>The Communication Card Maker</h2><p>Enter the routes, yes/no signals, wait time, backup, and practical notes. It creates a printable field card, a one-page profile, and a reusable AI prompt.</p></div><a class="button" href="/communication-card-generator.html">Open the generator →</a></div>
 </div></section>
 
-<section class="section" id="authorship"><div class="wrap">
-<p class="eyebrow">06 / Authorship matters</p>
-<h2>Support access without confusing the supporter with the author.</h2>
-<p>Some communication methods involve another person, so the key question is who is selecting the message. Partner-assisted scanning can preserve authorship when the partner presents options and the communicator makes each selection using an established independent signal.</p>
+<section class="section" id="agency"><div class="wrap">
+<p class="section-number">07 / Agency first</p>
+<h2>Communication belongs to the person.</h2>
+<p>Support can make access easier without taking over the message. The aim is not for a partner to become a better guesser. The aim is for the communicator to have reliable ways to initiate, choose, refuse, clarify, disagree, repair, and end an interaction.</p>
 
-<h3>Letterboards are not all the same thing.</h3>
-<p>A letterboard or alphabet board can be ordinary low-tech AAC when the person independently points, looks or otherwise selects letters. That is different from methods in which a facilitator physically guides, steadies or cues the person in a way that may determine the selection.</p>
-
-<div class="callout authorship-note"><h3>What major professional guidance says</h3><p>ASHA identifies Facilitated Communication (FC) as discredited and says it should not be used because controlled research has shown facilitator authorship. ASHA also does not recommend Rapid Prompting Method (RPM), including Spelling to Communicate (S2C), because of prompt-dependency and lack of scientific validity; messages produced through these methods should not simply be assumed to be authored by the disabled person. That concern is about authorship and evidence—not about denying nonspeaking people access to spelling, literacy or robust AAC.</p></div>
-
-<h3>Questions that protect authorship</h3>
-<ul>
-<li>Can the person make the selection without another person touching or directing their hand, arm or board?</li>
-<li>Is the person’s selection signal defined and observable?</li>
-<li>Can unfamiliar or differently positioned partners obtain the same kind of response?</li>
-<li>Can the person disagree with the partner, choose unexpected vocabulary and initiate a topic?</li>
-<li>If the message has serious consequences, is there a way to verify authorship without leading the answer?</li>
-</ul>
-</div></section>
-
-<section class="section" id="profile"><div class="wrap">
-<p class="eyebrow">07 / Copy + print</p>
-<h2>A one-page multimodal communication profile</h2>
-<p>Keep this practical. It should help an unfamiliar person communicate better in the next ten minutes—not summarize someone’s life.</p>
-
-<div class="planner" data-planner>
-<h3>My communication routes</h3>
-<div class="form-grid">
-<label>People should speak to me by…<input data-label="Speak to me by" placeholder="e.g., directly, one question at a time"></label>
-<label>I may communicate using…<input data-label="I communicate using" placeholder="device, speech, signs, looks, pictures, typing…"></label>
-<label>My reliable YES is…<input data-label="My reliable YES" placeholder="movement, word, symbol, switch…"></label>
-<label>My reliable NO is…<input data-label="My reliable NO" placeholder="movement, word, symbol, switch…"></label>
-<label>Please give me about…<input data-label="Response time" placeholder="e.g., 10–20 seconds before repeating"></label>
-<label>If my primary method is hard, try…<input data-label="Backup route" placeholder="paper board, scanning, text, photos…"></label>
-<label>Important words for today…<input data-label="Important words" placeholder="stop, break, pain, bathroom, more…"></label>
-<label>Please do NOT…<input data-label="Please do not" placeholder="move device, answer for me, rush…"></label>
-</div>
-<div class="actions"><button class="button" type="button" data-copy-plan>Copy profile</button><button class="button secondary" type="button" data-print-plan>Print profile</button><button class="text-link" type="button" data-reset-plan>Clear</button></div><p class="status" role="status" aria-live="polite"></p>
+<div class="partner-grid">
+<div><strong>Final selections stay with the communicator.</strong><span>Suggestions, prediction, modeling, or visual organization can reduce effort. The person still chooses the message.</span></div>
+<div><strong>Interpretation is labeled as interpretation.</strong><span>If a supporter thinks a behavior may mean discomfort, say “I wonder if…” and seek confirmation rather than presenting the guess as the person’s statement.</span></div>
+<div><strong>Unexpected answers are allowed.</strong><span>A communication system should make it possible to disagree with the supporter, pick the option nobody predicted, or introduce a new topic.</span></div>
+<div><strong>Repair is shared work.</strong><span>When meaning is unclear, both people can slow down, change route, add context, and try again.</span></div>
 </div>
 
-<div class="callout"><h3>One more line worth adding</h3><p>“If you are not sure what I meant, please tell me. Give me another way to try.” Communication repair is a skill shared by both people in the conversation.</p></div>
+<div class="field-rule"><span class="small-caps">Field note no. 03</span><h3>Presume a right to communicate, not a message you have already decided.</h3><p>Respect means access, time, useful language, and the freedom to surprise the person who thought they knew the answer.</p></div>
 </div></section>
 
-<section class="section"><div class="wrap">
-<p class="eyebrow">Sources + further reading</p>
-<h2>Where this guide is grounded.</h2>
+<section class="section" id="sources"><div class="wrap">
+<p class="section-number">08 / Sources + further reading</p>
+<h2>Where this field guide is grounded.</h2>
 <div class="source-list">
-<p><a href="https://www.asha.org/practice-portal/professional-issues/augmentative-and-alternative-communication/" target="_blank" rel="noopener noreferrer"><strong>ASHA Practice Portal: Augmentative and Alternative Communication</strong></a><br>Clinical overview of multimodal AAC, access methods, selection techniques, intervention and ongoing system adaptation.</p>
-<p><a href="https://www.njc-communication.org/communication-bill-of-rights-3rd-edition-guidance-for-advocacy-and-practice/" target="_blank" rel="noopener noreferrer"><strong>National Joint Committee: Communication Bill of Rights, 3rd edition</strong></a><br>Rights-based guidance on dignity, direct communication, participation, refusal and access to individualized working AAC across settings.</p>
-<p><a href="https://www.asha.org/news/2026/communication-boards-impact-communities/" target="_blank" rel="noopener noreferrer"><strong>ASHA, October 2026: Communication Boards Impact Communities</strong></a><br>Current AAC Awareness Month guidance on low-tech communication boards in public places.</p>
-<p><a href="https://www.assistiveware.com/learn-aac/build-communication-partner-skills" target="_blank" rel="noopener noreferrer"><strong>AssistiveWare: Communication partner skills</strong></a><br>Practical modeling, waiting, responding and making robust AAC available.</p>
-<p><a href="https://pubmed.ncbi.nlm.nih.gov/26059542/" target="_blank" rel="noopener noreferrer"><strong>Kent-Walsh et al.: Communication partner instruction meta-analysis</strong></a><br>Evidence supporting partner instruction strategies for people who use AAC.</p>
-<p><a href="https://pubmed.ncbi.nlm.nih.gov/39164980/" target="_blank" rel="noopener noreferrer"><strong>Smart Predict (Augmentative and Alternative Communication, 2025)</strong></a><br>Research on partner-suggested vocabulary and conversational efficiency.</p>
-<p><a href="https://pubmed.ncbi.nlm.nih.gov/42257585/" target="_blank" rel="noopener noreferrer"><strong>AI and emotion expression in AAC (AJSLP, 2026)</strong></a><br>A preliminary study—useful for understanding what is emerging, not as settled practice.</p>
-<p><a href="https://pubmed.ncbi.nlm.nih.gov/41742930/" target="_blank" rel="noopener noreferrer"><strong>Individualized brain-computer interface for people with disabilities (2026 review)</strong></a><br>Current state of BCI-based assistive and communication technology, including limitations and ethics.</p>
-<p><a href="https://www.asha.org/policy/ps2018-00352/" target="_blank" rel="noopener noreferrer"><strong>ASHA: Facilitated Communication</strong></a> · <a href="https://www.asha.org/policy/ps2018-00351/" target="_blank" rel="noopener noreferrer"><strong>ASHA: Rapid Prompting Method</strong></a><br>Professional position statements on message authorship and facilitator-dependent methods.</p>
+<p><a href="https://www.asha.org/practice-portal/professional-issues/augmentative-and-alternative-communication/" target="_blank" rel="noopener noreferrer"><strong>ASHA Practice Portal: Augmentative and Alternative Communication</strong></a><br>Clinical overview of multimodal AAC, no-prerequisite access, selection techniques, partner training, intervention, and ongoing adaptation.</p>
+<p><a href="https://communicationfirst.org/communicating-in-times-of-stress/" target="_blank" rel="noopener noreferrer"><strong>CommunicationFIRST: Communicating in Times of Stress</strong></a><br>Practical guidance on changing communication access under stress, using multiple routes, and preparing a short information page.</p>
+<p><a href="https://communicationfirst.org/best-practices-for-online-meetings/" target="_blank" rel="noopener noreferrer"><strong>CommunicationFIRST: Best Practices for Online Meetings with AAC Users</strong></a><br>Advance questions, adequate response time, chat and asynchronous participation, and avoiding interruption while someone composes a message.</p>
+<p><a href="https://www.assistiveware.com/learn-aac/planning-communication-when-aac-is-not-available" target="_blank" rel="noopener noreferrer"><strong>AssistiveWare: Planning for communication when AAC is not available</strong></a><br>Practical multimodal backups using gestures, photos, real objects, writing, environmental clues, and low-tech supports.</p>
+<p><a href="https://pubmed.ncbi.nlm.nih.gov/26059542/" target="_blank" rel="noopener noreferrer"><strong>Kent-Walsh et al.: Communication partner instruction meta-analysis</strong></a><br>Research synthesis on partner-instruction strategies for people who use AAC.</p>
+<p><a href="https://pubmed.ncbi.nlm.nih.gov/39164980/" target="_blank" rel="noopener noreferrer"><strong>Smart Predict (Augmentative and Alternative Communication, 2025)</strong></a><br>Research on partner-suggested vocabulary and conversational efficiency; useful as an example of technology supporting selection rather than replacing it.</p>
+<p><a href="https://pubmed.ncbi.nlm.nih.gov/41742930/" target="_blank" rel="noopener noreferrer"><strong>Individualized assistive and communication technology review (2026)</strong></a><br>A current look at emerging access technologies and the importance of individualized usability.</p>
 </div>
-<p class="source-note">The research base changes. Technology descriptions here are deliberately separated into established practice, emerging tools and research-frontier approaches.</p>
+<p class="source-note">The evidence base and technology change. The practical principles here are deliberately separated from individualized clinical recommendations. For a person-specific AAC assessment, involve appropriately qualified professionals and the communicator themselves.</p>
 </div></section>
 
-<section class="section"><div class="wrap"><div class="callout"><p class="eyebrow">Keep going</p><h2>Related guides</h2><div class="tag-row"><a href="/aac-outing-note.html">AAC-friendly outing note</a><a href="/caregiver-handover-guide.html">Caregiver handover</a><a href="/quiet-break-plan.html">Quiet-break plan</a><a href="/profoundly-awesome.html">Profoundly Awesome</a><a href="/language.html">Language + representation</a></div></div></div></section>
+<section class="section"><div class="wrap"><div class="generator-banner"><div><p class="eyebrow">Take the useful part with you</p><h2>Make a card. Print it. Copy it. Use it with AI.</h2><p>The free generator turns the details that matter into something another person can actually use in the next ten minutes.</p></div><a class="button" href="/communication-card-generator.html">Make a communication card →</a></div></div></section>
 </main>
 
-<aside class="reading-next"><div class="wrap"><div><p class="eyebrow">The full library</p><h2>Find the next useful thing.</h2><p>Browse every category, from New England weekends to older-teen life and the practical details in between.</p></div><a class="button secondary" href="/product-guides.html">Open the guide directory →</a></div></aside>
-<footer class="mag-footer"><div class="wrap"><div><a class="footer-wordmark" href="/">An AUsome Life</a><p>Simple good things.<br>The practical details left in.</p></div><nav aria-label="Footer navigation"><a href="/library.html">The library</a><a href="/favorite-places.html">Favorite places</a><a href="/calendar.html">The calendar</a><a href="/visit-story.html">Visual visit planner</a><a href="/little-black-book.html">The little black book</a><a href="/contact.html">Contact</a><a href="/media/">Media &amp; partnerships</a></nav><div class="footer-small"><a href="/language.html">Language &amp; representation</a><a href="/disclosure.html">Disclosure</a><a href="/privacy.html">Privacy</a><a href="/accessibility.html">Accessibility</a><a href="https://www.instagram.com/anausomelife/">Instagram ↗</a><span>© 2026 An AUsome Life · New England</span></div></div></footer>
-<script src="/assets/site.js?v=multimodal-20261002" defer></script>
-<script src="/assets/magazine.js?v=magazine-20261003" defer></script></body></html>
+<aside class="reading-next"><div class="wrap"><div><p class="eyebrow">Related field notes</p><h2>Keep the next useful thing close.</h2><p>Shorter communication, outing, break, and handoff tools live in the same practical library.</p></div><div class="actions"><a class="button secondary" href="/aac-outing-note.html">AAC outing note</a><a class="text-link" href="/caregiver-handover-guide.html">Caregiver handover →</a></div></div></aside>
+<footer class="mag-footer"><div class="wrap"><div><a class="footer-wordmark" href="/">An AUsome Life</a><p>Simple good things.<br>The practical details left in.</p></div><nav aria-label="Footer navigation"><a href="/library.html">The library</a><a href="/favorite-places.html">Favorite places</a><a href="/calendar.html">The calendar</a><a href="/visit-story.html">Visual visit planner</a><a href="/communication-card-generator.html">Communication card maker</a><a href="/little-black-book.html">The little black book</a><a href="/contact.html">Contact</a><a href="/media/">Media &amp; partnerships</a></nav><div class="footer-small"><a href="/language.html">Language &amp; representation</a><a href="/disclosure.html">Disclosure</a><a href="/privacy.html">Privacy</a><a href="/accessibility.html">Accessibility</a><a href="https://www.instagram.com/anausomelife/">Instagram ↗</a><span>© 2026 An AUsome Life · New England</span></div></div></footer>
+<script src="/assets/site.js?v=communication-20261003" defer></script>
+<script src="/assets/magazine.js?v=communication-20261003" defer></script>
+</body></html>
