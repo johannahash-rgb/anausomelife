@@ -66,3 +66,39 @@ if(heading&&!heading.querySelector('.heading-visuals')){
 // Retain links to the original homepage's established practical notes.
 if(location.pathname==='/'||location.pathname==='/index.html'){const legacy=['resources','guide','access-request','hotel-questions','communication','respect','when-plans-change','make-a-plan','everyday-life','practical-style','journal','standards'];if(legacy.includes(location.hash.slice(1)))location.replace('/field-notes.html'+location.hash);}
 })();
+
+
+// 2026-10-03 sortable black book
+(() => {
+ const book=document.querySelector('[data-black-book]');
+ if(book){
+  const form=book.querySelector('.directory-controls'),q=form.elements.q,kind=form.elements.kind,relationship=form.elements.relationship,sort=form.elements.sort;
+  const cards=[...book.querySelectorAll('[data-directory-card]')],sections=[...book.querySelectorAll('[data-directory-section]')],status=book.querySelector('[role=status]'),empty=book.querySelector('.directory-empty');
+  const original=new Map(cards.map((c,i)=>[c,i]));
+  const foldBook=v=>(v||'').toLocaleLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'');
+  function apply(){
+   const terms=foldBook(q.value.trim()).split(/\s+/).filter(Boolean);let shown=0;
+   for(const c of cards){
+    const kinds=(c.dataset.kind||'').split(/\s+/),hay=foldBook(c.textContent+' '+(c.dataset.location||'')+' '+(c.dataset.name||''));
+    const ok=(!kind.value||kinds.includes(kind.value))&&(!relationship.value||c.dataset.relationship===relationship.value)&&terms.every(t=>hay.includes(t));
+    c.hidden=!ok;if(ok)shown++;
+   }
+   for(const section of sections){
+    const grid=section.querySelector('.directory-grid');if(!grid)continue;
+    const sectionCards=[...grid.querySelectorAll('[data-directory-card]')];
+    sectionCards.sort((a,b)=>sort.value==='az'?(a.dataset.name||'').localeCompare(b.dataset.name||''):sort.value==='za'?(b.dataset.name||'').localeCompare(a.dataset.name||''):original.get(a)-original.get(b));
+    sectionCards.forEach(c=>grid.append(c));section.hidden=!sectionCards.some(c=>!c.hidden);
+   }
+   status.textContent=shown+' '+(shown===1?'entry':'entries')+' in the little black book';empty.hidden=shown>0;
+   const p=new URLSearchParams();if(q.value)p.set('q',q.value);if(kind.value)p.set('kind',kind.value);if(relationship.value)p.set('relationship',relationship.value);if(sort.value!=='featured')p.set('sort',sort.value);
+   history.replaceState({},'',location.pathname+(p.size?'?'+p:'')+location.hash);
+  }
+  const p=new URLSearchParams(location.search);q.value=p.get('q')||'';kind.value=p.get('kind')||'';relationship.value=p.get('relationship')||'';sort.value=p.get('sort')||'featured';
+  q.addEventListener('input',apply);[kind,relationship,sort].forEach(el=>el.addEventListener('change',apply));form.addEventListener('submit',e=>e.preventDefault());form.addEventListener('reset',e=>{e.preventDefault();q.value='';kind.value='';relationship.value='';sort.value='featured';apply();q.focus()});apply();
+ }
+ const nav=document.querySelector('.mag-masthead nav');
+ if(nav&&!nav.querySelector('a[href="/little-black-book.html"]')){
+  const a=document.createElement('a');a.href='/little-black-book.html';a.textContent='The black book';
+  const cal=nav.querySelector('a[href="/calendar.html"]');nav.insertBefore(a,cal||nav.querySelector('.nav-search'));
+ }
+})();
