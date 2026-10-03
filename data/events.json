@@ -1810,6 +1810,30 @@
       "weather": "Indoors.",
       "evidence": "Organizer event page checked Oct 3, 2026.",
       "accessibilityUrl": "https://www.stjathenaeum.org/youth-events-1/2026/10/30/sensory-friendly-halloween-event"
+    },
+    "Children’s Museum & Theatre of Maine": {
+      "mobility": "The full Museum & Theatre is ADA accessible; an elevator serves all three floors. A limited number of adult wheelchairs, walkers and strollers are available free at the Welcome Desk.",
+      "terrain": "Indoor museum route has no sloping floors except access ramps. Outdoor playground/lawn conditions can vary with weather.",
+      "sensory": "Sound-reducing earmuffs are available; quiet spaces are built into each floor. The Play Your Way program is designed as a quieter, lower-key visit.",
+      "visionHearing": "Exhibit design uses high-contrast flooring/signage and natural lighting. Theatre performances may offer hearing-assistance devices and selected ASL-interpreted performances; confirm for the specific date.",
+      "restrooms": "Accessible building; confirm the nearest accessible family restroom with Guest Services on arrival.",
+      "changing": "Adult-size changing equipment was not confirmed in the current public accessibility information reviewed.",
+      "parking": "Four accessible parking spaces are identified near the yellow front doors/outdoor playground; accessible-space users are not required to pay for parking.",
+      "weather": "Halloween Play Your Way is primarily indoors; outdoor areas may be weather-dependent.",
+      "evidence": "Official CMTM general accessibility and exhibit-access pages checked Oct 3, 2026.",
+      "accessibilityUrl": "https://www.kitetails.org/general-accessibility-information"
+    },
+    "Mt. Pleasant Library, Children’s Area": {
+      "mobility": "Mt. Pleasant Library is currently listed by Community Libraries of Providence as ADA Accessible.",
+      "terrain": "Indoor library program; outdoor seating exists but is not required for the storytime.",
+      "sensory": "The branch lists sensory-friendly aids, and the storytime itself provides fidget toys, visuals and other supports.",
+      "visionHearing": "Specific low-vision, ASL or assistive-listening supports for this branch/event were not confirmed in the current page reviewed.",
+      "restrooms": "Detailed current accessible-restroom information was not confirmed on the branch page we reviewed; call the branch if restroom setup is essential.",
+      "changing": "Adult-size changing equipment was not confirmed in the current public information reviewed.",
+      "parking": "Confirm the easiest accessible parking/drop-off route with the branch before travel.",
+      "weather": "Indoors.",
+      "evidence": "Current Community Libraries of Providence branch and sensory-storytime pages checked Oct 3, 2026.",
+      "accessibilityUrl": "https://clpvd.org/clpvd_library/mt-pleasant-library/"
     }
   },
   "watchlist": [
