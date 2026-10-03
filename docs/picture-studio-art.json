@@ -1,0 +1,35 @@
+{
+  "created": "2026-10-03",
+  "method": "Built-in image generation",
+  "purpose": "Original photorealistic artwork for An AUsome Life picture-card studio; not family photographs.",
+  "assets": [
+    {
+      "path": "assets/card-studio/studio.webp",
+      "prompt": "Use case: photorealistic-natural. Asset: wide editorial hero photograph for An AUsome Life's picture communication card maker. Nantucket meets Vermont, the preppiest refined New England family lifestyle aesthetic: an inviting honey-pine desk beside a sunlit white clapboard cottage window, navy-and-cream ticking stripe chair cushion, neatly folded soft moss green wool, a small wicker basket, one navy pencil, a modest little glass vase of blue hydrangeas. On desk several small square white photo cards with a clearly photographed glass of water and a red apple, no words. Glimpse soft green Vermont trees and shingled coastal cottage outside, believable New England interior. Photorealistic editorial home photography, natural material detail, crisp but warm, elegant approachable restful, no people, no logos, no text, no UI. Landscape 1536x1024 composition."
+    },
+    {
+      "path": "assets/card-studio/water.webp",
+      "prompt": "Use case: photorealistic-natural. Asset: one square picture for an accessible picture-and-word communication card. An AUsome Life style: refined preppy Nantucket meets Vermont. Photorealistic studio editorial photograph, natural material texture, warm clear daylight, crisp true-to-life recognizable proportions. One clear everyday drinking tumbler three quarters full of plain water. Isolated on pure white seamless background, whole subject visible centered, enough clean margin, very gentle contact shadow. No text, word, logo, border, frame, extra props, collage, watercolor, drawing, cartoon or people. Do not add any lettering or UI. Square 1024x1024."
+    },
+    {
+      "path": "assets/card-studio/break.webp",
+      "prompt": "Use case: photorealistic-natural. Asset: one square picture for an accessible picture-and-word communication card. An AUsome Life style: refined preppy Nantucket meets Vermont. Photorealistic studio editorial photograph, natural material texture, warm clear daylight, crisp true-to-life recognizable proportions. One inviting classic white painted wooden armchair with a single navy-and-cream broad ticking stripe seat cushion. A simple ordinary straight-backed armchair, all legs visible, no other objects. Isolated on pure white seamless background, whole subject visible centered, enough clean margin, very gentle contact shadow. No text, word, logo, border, frame, extra props, collage, watercolor, drawing, cartoon or people. Do not add any lettering or UI. Square 1024x1024."
+    },
+    {
+      "path": "assets/card-studio/apple.webp",
+      "prompt": "Use case: photorealistic-natural. Asset: one square picture for an accessible picture-and-word communication card. An AUsome Life style: refined preppy Nantucket meets Vermont. Photorealistic studio editorial photograph, natural material texture, warm clear daylight, crisp true-to-life recognizable proportions. One ripe red apple with a short brown stem and a single small green leaf. Whole apple, no bite. Isolated on pure white seamless background, whole subject visible centered, enough clean margin, very gentle contact shadow. No text, word, logo, border, frame, extra props, collage, watercolor, drawing, cartoon or people. Do not add any lettering or UI. Square 1024x1024."
+    },
+    {
+      "path": "assets/card-studio/toilet.webp",
+      "prompt": "Use case: photorealistic-natural. Asset: one square picture for an accessible picture-and-word communication card. An AUsome Life style: refined preppy Nantucket meets Vermont. Photorealistic studio editorial photograph, natural material texture, warm clear daylight, crisp true-to-life recognizable proportions. One recognizable clean white ceramic household toilet with its tank, seat and bowl fully visible in three-quarter view, lid raised, seat down, all parts ordinary and accurate. Isolated on pure white seamless background, whole subject visible centered, enough clean margin, very gentle contact shadow. No text, word, logo, border, frame, extra props, collage, watercolor, drawing, cartoon or people. Do not add any lettering or UI. Square 1024x1024."
+    },
+    {
+      "path": "assets/card-studio/coat.webp",
+      "prompt": "Use case: photorealistic-natural. Asset: one square picture for an accessible picture-and-word communication card. An AUsome Life style: refined preppy Nantucket meets Vermont. Photorealistic studio editorial photograph, natural material texture, warm clear daylight, crisp true-to-life recognizable proportions. One classic dark navy quilted hip-length zip-up jacket, unbranded, hanging straight as an isolated garment, front facing, all sleeves and collar fully visible. Isolated on pure white seamless background, whole subject visible centered, enough clean margin, very gentle contact shadow. No text, word, logo, border, frame, extra props, collage, watercolor, drawing, cartoon or people. Do not add any lettering or UI. Square 1024x1024."
+    },
+    {
+      "path": "assets/card-studio/car.webp",
+      "prompt": "Use case: photorealistic-natural. Asset: one square picture for an accessible picture-and-word communication card. An AUsome Life style: refined preppy Nantucket meets Vermont. Photorealistic studio editorial photograph, natural material texture, warm clear daylight, crisp true-to-life recognizable proportions. One classic unbranded navy blue family station wagon, side-three-quarter view, complete car including all wheels visible, realistic ordinary vehicle proportions, blank neutral registration plate. Isolated on pure white seamless background, whole subject visible centered, enough clean margin, very gentle contact shadow. No text, word, logo, border, frame, extra props, collage, watercolor, drawing, cartoon or people. Do not add any lettering or UI. Square 1024x1024."
+    }
+  ]
+}
