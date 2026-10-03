@@ -37,3 +37,23 @@
     box.querySelector('[data-print-plan]').addEventListener('click',()=>{clearPrint();document.body.classList.add('print-one');box.classList.add('print-target');box.closest('.section').classList.add('print-section');window.print();});
   });
 })();
+
+(() => {
+  const clearFavoritePrint = () => {
+    document.body.classList.remove('favorite-print-one');
+    document.querySelectorAll('.favorite-print-section,.favorite-print-target').forEach(el => el.classList.remove('favorite-print-section','favorite-print-target'));
+  };
+  window.addEventListener('afterprint', clearFavoritePrint);
+  document.querySelectorAll('[data-print-favorite]').forEach(button => {
+    button.addEventListener('click', () => {
+      clearFavoritePrint();
+      const target = button.closest('.favorite-print-card');
+      const section = target?.closest('.section');
+      if (!target || !section) return window.print();
+      document.body.classList.add('favorite-print-one');
+      target.classList.add('favorite-print-target');
+      section.classList.add('favorite-print-section');
+      window.print();
+    });
+  });
+})();
