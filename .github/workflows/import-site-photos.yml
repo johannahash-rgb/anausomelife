@@ -1,0 +1,40 @@
+name: Import selected site photos
+
+on:
+  push:
+    paths:
+      - '.github/workflows/import-site-photos.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  import-photos:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Import selected An AUsome Life photos
+        env:
+          ORCHARD_URL: 'https://scontent-sjc3-1.cdninstagram.com/v/t51.82787-15/627693907_18345972262227624_8757365882578970875_n.jpg?stp=c160.0.480.480a_dst-jpg_e35_s640x640_tt6&_nc_cat=106&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=pd-JlfLquOgQ7kNvwGd9Pyl&_nc_oc=AdrTp157aGWd6lRu2wJ7lf5OWRXe2vGDNJdspqQu_9LsPY-1uj_jTSuLguFmKuiyeDI&_nc_zt=23&_nc_ht=scontent-sjc3-1.cdninstagram.com&_nc_gid=x22gC9EU1RNRv0XS-AWulQ&_nc_ss=7b689&oh=00_AQN0idgY4iaBDH3UKjn2i9a81Y-U_4-VJFUt8_8IawgZXA'
+          YORK_URL: 'https://scontent-sjc3-1.cdninstagram.com/v/t51.82787-15/626562331_18341004610242784_1342312806374691978_n.jpg?stp=c160.0.480.480a_dst-jpg_e35_s640x640_tt6&_nc_cat=100&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=RzMgg8ePqVsQ7kNvwEDNxg_&_nc_oc=AdoyuXOBJSO5PNQviBLDVpB-0eAyVCjYxX6fXMERHhEB0_AgWajA3qHVmVbrrO51aLo&_nc_zt=23&_nc_ht=scontent-sjc3-1.cdninstagram.com&_nc_gid=YTu3V-RhNrriFuiwa4bffg&_nc_ss=7b689&oh=00_AQNUK7aKGG0a4pJl9hSxgj9on8Ry7PW8nD6srjTNybE9eQ'
+          BOOK_URL: 'https://scontent-sjc3-1.cdninstagram.com/v/t51.82787-15/639495076_18569039437047188_2572522804330665487_n.jpg?stp=c160.0.480.480a_dst-jpg_e35_s640x640_tt6&_nc_cat=106&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=OQ56xri089cQ7kNvwHP8m_U&_nc_oc=AdpP0ezl3LmP9a9x0-H8BN-jWptYdiJ1Jr2KW7LWtfEYLQ1WTKbx-xgNhQDM6CbfOpU&_nc_zt=23&_nc_ht=scontent-sjc3-1.cdninstagram.com&_nc_gid=-AoP64GGZXtyn5y7pF7O2g&_nc_ss=7b689&oh=00_AQPQZWfK_2vN3vFrPjmGQ_gjlM0fA4-mQMClje-IrreSzA'
+        run: |
+          set -euo pipefail
+          mkdir -p assets
+          curl -L --fail --retry 2 -A 'Mozilla/5.0' -H 'Referer: https://www.instagram.com/' "$ORCHARD_URL" -o assets/orchard-afternoon.jpg
+          curl -L --fail --retry 2 -A 'Mozilla/5.0' -H 'Referer: https://www.instagram.com/' "$YORK_URL" -o assets/york-maine.jpg
+          curl -L --fail --retry 2 -A 'Mozilla/5.0' -H 'Referer: https://www.instagram.com/' "$BOOK_URL" -o assets/book-barn-ct.jpg
+          file assets/orchard-afternoon.jpg assets/york-maine.jpg assets/book-barn-ct.jpg
+          test "$(head -c 2 assets/orchard-afternoon.jpg | xxd -p)" = "ffd8"
+          test "$(head -c 2 assets/york-maine.jpg | xxd -p)" = "ffd8"
+          test "$(head -c 2 assets/book-barn-ct.jpg | xxd -p)" = "ffd8"
+      - name: Commit imported photos
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add assets/orchard-afternoon.jpg assets/york-maine.jpg assets/book-barn-ct.jpg
+          if ! git diff --cached --quiet; then
+            git commit -m 'Add selected New England photos'
+            git push
+          fi
