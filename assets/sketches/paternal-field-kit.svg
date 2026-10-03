@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" role="img" aria-labelledby="t d">
+<title id="t">Paternal field kit</title><desc id="d">A preppy field-kit sketch with a canvas tote, football, cones, thermos, blanket and small notebook.</desc>
+<rect width="900" height="600" fill="#f3ecdf"/>
+<text x="70" y="85" font-family="Georgia,serif" font-size="44" fill="#163b4b">THE FIELD KIT</text>
+<text x="72" y="118" font-family="Georgia,serif" font-size="20" fill="#5f6b68">Useful things. Nothing precious. Most have a no-buy version.</text>
+<g stroke="#163b4b" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round">
+<!-- tote -->
+<path d="M95 225h210l-16 215H112z"/><path d="M145 225c0-75 110-75 110 0"/><path d="M125 270h155M122 315h161M118 360h168"/>
+<!-- football -->
+<path d="M375 245c84-55 167-35 218 35-52 78-145 87-216 35-33-25-34-49-2-70z"/>
+<path d="M453 260l67 48M470 260l-18 34M490 274l-18 34M510 288l-18 34"/>
+<!-- thermos -->
+<path d="M674 224h88l8 218h-104z"/><path d="M686 182h64v42h-64z"/><path d="M678 305h79"/>
+<!-- cones -->
+<path d="M370 430l28-85 30 85z"/><path d="M455 430l28-85 30 85z"/>
+<!-- notebook -->
+<path d="M555 365h95v90h-95z"/><path d="M572 390h55M572 410h48M572 430h59"/>
+<!-- blanket -->
+<path d="M120 480h520v62H120z"/><path d="M180 480v62M240 480v62M300 480v62M360 480v62M420 480v62M480 480v62M540 480v62"/>
+</g>
+<g fill="#c76f59"><path d="M383 430h32l-6-18h-20z"/><path d="M468 430h32l-6-18h-20z"/></g>
+</svg>
