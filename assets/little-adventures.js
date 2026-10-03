@@ -1,0 +1,11 @@
+(() => { 'use strict';
+const root=document.querySelector('[data-story-reader]');if(!root)return;
+const pages=[["A small beginning.", "The little navy boot had four coral wheels and nowhere it had to hurry."], ["A choice at the green.", "At the village green, two paths waited. The boot could roll a little farther, or stay beside the maple tree."], ["Something worth noticing.", "One golden leaf floated down. The boot stopped to watch. That was a perfectly good thing to do."], ["Time for a pause.", "The wind rustled the branches. The boot rested in the quiet. The path would still be there."], ["A little more\u2014or finished.", "After a while, the boot rolled one small circle. Another circle was a choice. So was going home."], ["A good little day.", "The golden leaf came along for the ride. One little outing. One good thing. Enough."]];let page=0;
+const $=s=>root.querySelector(s),tune=document.querySelector('#boot-tune'),status=$('[data-story-status]');
+function stop(){if('speechSynthesis' in window)speechSynthesis.cancel();tune.pause();tune.currentTime=0;status.textContent='Sound stopped.'}
+function show(){stop();$('[data-story-heading]').textContent=pages[page][0];$('[data-story-line]').textContent=pages[page][1];$('[data-page-number]').textContent=`Page ${page+1} of ${pages.length}`;$('[data-prev]').disabled=page===0;$('[data-next]').disabled=page===pages.length-1;status.textContent='';}
+$('[data-next]').addEventListener('click',()=>{if(page<pages.length-1){page++;show()}});$('[data-prev]').addEventListener('click',()=>{if(page>0){page--;show()}});$('[data-stop]').addEventListener('click',stop);
+if(!('speechSynthesis' in window)){$('[data-read]').disabled=true;status.textContent='This browser has no read-aloud voice. The complete text is available below.'}
+else $('[data-read]').addEventListener('click',()=>{stop();const words=new SpeechSynthesisUtterance(pages[page].join(' '));words.rate=.85;words.lang='en-US';words.onend=()=>status.textContent='Page finished. Choose when to continue.';words.onerror=()=>status.textContent='Read-aloud is unavailable. The text is still here.';speechSynthesis.speak(words);status.textContent='Reading this page.'});
+tune.addEventListener('play',()=>{if('speechSynthesis' in window)speechSynthesis.cancel()});window.addEventListener('pagehide',stop);
+})();

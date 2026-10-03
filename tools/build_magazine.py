@@ -79,7 +79,7 @@ def existing_records():
    if not any(st in a['location'] for st in ['Maine','Massachusetts','Connecticut','Rhode Island']): a['location']='New England'
   out.append(a)
  out.append(dict(slug='little-black-book',url='/little-black-book.html',title='The little black book',summary='Eight businesses from our published Favorite Places, with field notes and official links.',category='brands',format='Guide',minutes=2,image='/assets/catalog-tote.webp',search='brands businesses favorites logos ice cream books groceries shopping',existing=True))
- out.append(dict(slug='family-notebook',url='/family-notebook.html',title='From the family camera roll',summary='Original photographs from an orchard afternoon, the Book Barn, York and an aquarium visit.',category='stories',format='Story',minutes=1,image='/assets/orchard-afternoon-clean.jpg',search='photographs family stories orchard New England Book Barn York aquarium',existing=True))
+ out.append(dict(slug='family-notebook',url='/family-notebook.html',title='From the family camera roll',summary='Original photographs from an orchard afternoon, the Book Barn, York and the L.L.Bean trout pond.',category='stories',format='Story',minutes=1,image='/assets/orchard-afternoon-clean.jpg',search='photographs family stories orchard New England Book Barn York L.L.Bean trout pond',existing=True))
  return out
 
 def load_new():

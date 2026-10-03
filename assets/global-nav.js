@@ -29,9 +29,13 @@
     .aal-search-shell{padding:26px}.aal-search-top{display:flex;align-items:flex-start;justify-content:space-between;gap:24px}.aal-search-top .eyebrow{margin:0 0 7px}.aal-search-top h2{font:400 clamp(2rem,5vw,3.2rem)/1 Georgia,serif;margin:0;color:#173c4c}.aal-search-close{width:44px;height:44px;border:1px solid #d4d6cc!important;background:#fff!important;display:grid!important;place-items:center!important;padding:0!important}.aal-search-close svg{width:20px;height:20px;fill:none;stroke:#173c4c;stroke-width:1.6;stroke-linecap:round}
     .aal-search-form{margin-top:24px}.aal-search-input-wrap{display:grid;grid-template-columns:1fr auto;border:2px solid #173c4c;background:white}.aal-search-input-wrap input{border:0!important;padding:17px 18px!important;font-size:1.05rem!important;min-width:0;background:white!important}.aal-search-input-wrap button{border:0;border-left:1px solid #d4d6cc;background:#173c4c;color:white;padding:0 22px;font-weight:700;cursor:pointer}.aal-search-hint{font-size:.76rem;color:#52656c;margin:9px 0 0}.aal-search-chips{display:flex;flex-wrap:wrap;gap:8px;margin:20px 0 4px}.aal-search-chips button{border:1px solid #cfd5d2;background:#fbf8f1;color:#173c4c;padding:8px 12px;min-height:38px;font-size:.76rem;cursor:pointer}.aal-search-chips button:hover{background:#eef2ef}
     .aal-search-results{margin-top:24px;border-top:1px solid #d4d6cc;max-height:44vh;overflow:auto}.aal-search-empty{padding:24px 0;color:#52656c}.aal-search-result{display:grid;grid-template-columns:100px 1fr auto;gap:18px;align-items:center;padding:17px 0;border-bottom:1px solid #e1e0d8;text-decoration:none;color:#173c4c}.aal-search-result:hover h3{text-decoration:underline;text-underline-offset:4px}.aal-search-result .aal-result-kind{font-size:.61rem;letter-spacing:.11em;text-transform:uppercase;color:#65757b}.aal-search-result h3{font:400 1.2rem/1.2 Georgia,serif;margin:0}.aal-search-result p{font-size:.79rem;line-height:1.5;color:#52656c;margin:5px 0 0;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}.aal-search-result .aal-go{font-size:1.2rem}.aal-search-footer{display:flex;justify-content:space-between;gap:18px;align-items:center;padding-top:18px;font-size:.78rem}.aal-search-footer a{font-weight:700}.aal-search-status{color:#52656c}
+    .aal-unified-nav .mag-masthead nav,.aal-unified-nav .masthead nav{display:none}.aal-unified-nav .mag-masthead{padding-block:14px}.aal-wayfinder a,.aal-wayfinder button{font-size:.875rem;min-height:72px}.aal-search-shortcut{display:none!important}.aal-search-hint,.aal-search-chips button,.aal-search-result p,.aal-search-footer,.aal-search-result .aal-result-kind{font-size:.875rem}.aal-search-result{grid-template-columns:90px 1fr}.aal-search-result .aal-go{display:none}.aal-search-result h3{font-size:1.3rem}.aal-search-input-wrap input{font-size:1rem!important}.aal-section-dialog{box-sizing:border-box;width:min(1100px,calc(100vw - 24px));max-height:88vh;overflow:auto;border:1px solid #7a8e8f;background:#fffdf8;color:#173c4c;padding:28px}.aal-section-dialog::backdrop{background:#173c4caa}.aal-section-head{display:flex;justify-content:space-between;align-items:start;gap:20px;border-bottom:1px solid #bcc9c5;padding-bottom:20px}.aal-section-head h2{font:400 clamp(1.8rem,4vw,2.6rem)/1.1 Georgia;margin:8px 0}.aal-section-head button{min-height:44px;padding:10px 16px;border:1px solid #173c4c;background:#fff;color:#173c4c;font:1rem Arial;cursor:pointer}.aal-section-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:24px;padding-top:24px}.aal-section-grid h3{font:400 1.45rem Georgia;margin:0 0 12px}.aal-section-grid a{display:block;padding:10px 0;font:1rem/1.35 Arial;color:#173c4c;text-underline-offset:4px}.aal-section-grid a[aria-current]{font-weight:bold}.aal-section-dialog :focus-visible,.aal-wayfinder :focus-visible,.aal-search-dialog :focus-visible{outline:3px solid #b8432d;outline-offset:3px}
+    @media(max-width:820px){.aal-wayfinder-inner{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));overflow:visible}.aal-wayfinder a,.aal-wayfinder button{min-width:0;font-size:.875rem;min-height:63px;padding:8px 2px;word-break:normal}.aal-wayfinder-label{white-space:normal}.aal-section-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.aal-section-dialog{padding:18px}.aal-search-result{grid-template-columns:1fr}.aal-wayfinder svg{height:19px}.aal-unified-nav .mag-masthead{padding-block:10px}.aal-wayfinder{position:relative}}
+    @media print{.aal-section-dialog{display:none!important}}
     .aal-start-link{font-weight:700!important}
     @media(max-width:820px){.aal-wayfinder{position:relative}.aal-wayfinder-inner{width:100%;display:flex;overflow-x:auto;scroll-snap-type:x proximity;scrollbar-width:none}.aal-wayfinder-inner::-webkit-scrollbar{display:none}.aal-wayfinder a,.aal-wayfinder button{min-width:88px;border-bottom:0;scroll-snap-align:start}.aal-wayfinder a:first-child{border-left:0}.aal-search-shortcut{display:none}.aal-search-shell{padding:20px}.aal-search-result{grid-template-columns:78px 1fr;gap:12px}.aal-search-result .aal-go{display:none}.aal-search-footer{align-items:flex-start;flex-direction:column}}
     @media(max-width:520px){.aal-wayfinder a,.aal-wayfinder button{min-width:82px;min-height:64px;font-size:.65rem}.aal-wayfinder svg{width:20px;height:20px}.aal-search-input-wrap{grid-template-columns:1fr}.aal-search-input-wrap button{min-height:46px;border-left:0;border-top:1px solid #d4d6cc}.aal-search-result{grid-template-columns:1fr}.aal-search-result .aal-result-kind{margin-bottom:-6px}}
+    @media(max-width:520px){.aal-wayfinder a,.aal-wayfinder button{font-size:.875rem;min-width:0}.aal-search-shell{padding:16px}}
     @media print{.aal-wayfinder,.aal-search-dialog{display:none!important}}
   `;
   document.head.append(style);
@@ -39,27 +43,39 @@
   const shortcuts = [
     {label:'Home',href:'/',icon:'home',match:['/','/index.html']},
     {label:'Find anything',action:'search',icon:'search',hint:'⌘K'},
-    {label:'Start here',href:'/start-here.html',icon:'compass',match:['/start-here.html']},
+    {label:'All sections',action:'sections',icon:'compass'},
     {label:'Outings',href:'/favorite-places.html',icon:'outing',match:['/favorite-places.html'],prefix:'/favorite-places/'},
-    {label:'Family',href:'/topics/family.html',icon:'family',match:['/topics/family.html','/family-roles.html','/paternal-role.html','/family-planning-toolkit.html']},
+    {label:'Family',href:'/family-roles.html',icon:'family',match:['/topics/family.html','/family-roles.html','/paternal-role.html','/family-planning-toolkit.html']},
     {label:'Communication',href:'/communication-card-generator.html',icon:'talk',match:['/communication-card-generator.html','/visit-story.html','/aac-outing-note.html']},
     {label:'Calendar',href:'/calendar.html',icon:'calendar',match:['/calendar.html']},
     {label:'Directory',href:'/little-black-book.html',icon:'book',match:['/little-black-book.html']}
   ];
 
+  const sectionGroups=[["Begin here", [["The visual directory", "/start-here.html"], ["Every guide", "/library.html"], ["The blog", "/blog.html"], ["Meet us", "/about.html"]]], ["Out & about", [["Favorite places", "/favorite-places.html"], ["Calendar & maps", "/calendar.html"], ["New England weekends", "/new-england-weekends.html"], ["Make a visit story", "/visit-story.html"]]], ["Communication", [["Picture card maker", "/communication-card-generator.html"], ["Notes & profiles", "/communication-notes.html"], ["Multimodal guide", "/multimodal-communication.html"], ["AAC outing note", "/aac-outing-note.html"]]], ["Family life", [["Family roles", "/family-roles.html"], ["Paternal field notes", "/paternal-role.html"], ["Family agreements", "/family-agreements.html"], ["Plans & handoffs", "/family-planning-toolkit.html"]]], ["Little adventures", [["Kid fun & videos", "/kid-fun.html"], ["The little boot story", "/little-adventures.html"], ["One simple game", "/paternal-football-card.html"], ["The family notebook", "/family-notebook.html"]]], ["Home & wardrobe", [["At home", "/at-home.html"], ["Household reset", "/household-reset.html"], ["Family wardrobe", "/family-wardrobe.html"], ["School & advocacy", "/topics/advocacy.html"]]], ["Useful discoveries", [["Brands & organizations", "/little-black-book.html"], ["Product guides", "/product-guides.html"], ["Coffee field note", "/eight-oclock-colombian-peaks-field-note.html"], ["Copyable field notes", "/field-notes.html"]]], ["Our editorial rules", [["Language & representation", "/language.html"], ["How we choose", "/how-we-choose.html"], ["Disclosure", "/disclosure.html"], ["Privacy", "/privacy.html"], ["Accessibility", "/accessibility.html"], ["Contact", "/contact.html"]]]];
   const current = location.pathname.replace(/\/+$/,'') || '/';
   const bar = document.createElement('nav');
   bar.className = 'aal-wayfinder';
   bar.setAttribute('aria-label','Site shortcuts');
   bar.innerHTML = '<div class="aal-wayfinder-inner">' + shortcuts.map(item => {
     const active = item.match?.includes(current) || (item.prefix && current.startsWith(item.prefix));
+    if (item.action === 'sections') return `<button type="button" data-aal-open-sections aria-haspopup="dialog">${icon(item.icon)}<span class="aal-wayfinder-label">${item.label}</span></button>`;
     if (item.action === 'search') return `<button type="button" data-aal-open-search aria-haspopup="dialog">${icon(item.icon)}<span class="aal-wayfinder-label">${item.label}</span><span class="aal-search-shortcut">${item.hint}</span></button>`;
     return `<a href="${item.href}"${active?' aria-current="page"':''}>${icon(item.icon)}<span class="aal-wayfinder-label">${item.label}</span></a>`;
   }).join('') + '</div>';
 
   const edition = document.querySelector('.edition-line');
   const masthead = document.querySelector('.mag-masthead,.masthead,header');
-  if (edition) edition.after(bar); else if (masthead) masthead.before(bar); else document.body.prepend(bar);
+  if (masthead) masthead.after(bar); else if (edition) edition.after(bar); else document.body.prepend(bar);
+
+  const sectionDialog=document.createElement('dialog');
+  sectionDialog.className='aal-section-dialog';sectionDialog.setAttribute('aria-labelledby','aal-section-title');
+  sectionDialog.innerHTML='<div class="aal-section-head"><div><p class="eyebrow">The whole field guide</p><h2 id="aal-section-title">Where would you like to go?</h2></div><button type="button" data-close-sections aria-label="Close all sections">Close</button></div><div class="aal-section-grid">'+sectionGroups.map(([heading,links])=>'<section><h3>'+esc(heading)+'</h3>'+links.map(([label,url])=>'<a href="'+url+'"'+(current===url?' aria-current="page"':'')+'>'+esc(label)+'</a>').join('')+'</section>').join('')+'</div>';
+  document.body.append(sectionDialog);document.body.classList.add('aal-unified-nav');
+  const sectionButton=bar.querySelector('[data-aal-open-sections]');
+  sectionButton.addEventListener('click',()=>{sectionDialog.showModal();document.documentElement.style.overflow='hidden'});
+  sectionDialog.querySelector('[data-close-sections]').addEventListener('click',()=>sectionDialog.close());
+  sectionDialog.addEventListener('click',e=>{if(e.target===sectionDialog)sectionDialog.close()});
+  sectionDialog.addEventListener('close',()=>{document.documentElement.style.overflow='';sectionButton.focus()});
 
   const primaryNav = document.querySelector('.mag-masthead nav,.masthead nav');
   if (primaryNav && !primaryNav.querySelector('a[href="/start-here.html"]')) {
@@ -89,6 +105,9 @@
   let data = null;
 
   const staticItems = [
+    {url:'/family-agreements.html',title:'Family agreements',summary:'Communication, choice, short outings, clear handoffs and privacy.',category:'family',format:'Guide',aliases:'family rules house rules internal rules routine agreements'},
+    {url:'/little-adventures.html',title:'Little adventures',summary:'An original illustrated New England story with optional read-aloud and a gentle tune.',category:'family',format:'Story',aliases:'kids children fun preppy songs boot wheels videos'},
+    {url:'/communication-notes.html',title:'Communication notes and profiles',summary:'Make a written support card, one-page profile or AI-ready prompt.',category:'family',format:'Tool',aliases:'caregiver handoff communication passport notes'},
     {url:'/start-here.html',title:'Start here: the visual directory',summary:'The clearest map of the site: outings, communication, family plans, school, home, style, products, calendar and more.',category:'start here',format:'Directory',aliases:'where do i start site map visual directory icons navigation'},
     {url:'/blog.html',title:'The blog',summary:'Stories, field notes and practical ideas from An AUsome Life.',category:'stories',format:'Blog',aliases:'journal posts articles family notebook'},
     {url:'/library.html',title:'The library',summary:'Every useful guide, place, toolkit, story and advice note in one searchable directory.',category:'library',format:'Directory',aliases:'everything all guides search index'},
@@ -111,20 +130,22 @@
     {url:'/contact.html',title:'Contact',summary:'Get in touch with An AUsome Life.',category:'site',format:'Page',aliases:'email contact reach us'}
   ];
 
+  let loading = null;
   async function loadData(){
     if (data) return data;
-    try {
-      const [library, manifest] = await Promise.all([
-        fetch('/data/library.json').then(r => r.ok ? r.json() : Promise.reject()),
-        fetch('/data/search-manifest.json').then(r => r.ok ? r.json() : Promise.reject())
-      ]);
-      const chunks = await Promise.all(manifest.map(url => fetch(url).then(r => r.ok ? r.json() : [])));
-      const full = new Map(chunks.flat().map(row => [row.url,row.search || '']));
-      const merged = library.map(item => ({...item,search:full.get(item.url)||''}));
-      const seen = new Set(merged.map(x => x.url));
-      data = [...staticItems.filter(x => !seen.has(x.url)), ...merged];
-    } catch (_) { data = staticItems; }
-    return data;
+    if (loading) return loading;
+    loading = (async()=>{
+      try {
+        const response=await fetch('/data/site-index.json?v=20261003');
+        if(!response.ok) throw Error('Search unavailable');
+        const rows=await response.json();
+        const aliases=new Map(staticItems.map(item=>[item.url,item]));
+        const seen=new Set(rows.map(item=>item.url));
+        data=[...rows.map(item=>({...aliases.get(item.url),...item,aliases:((aliases.get(item.url)||{}).aliases||'')+' '+(item.aliases||'')})),...staticItems.filter(item=>!seen.has(item.url))];
+      } catch (_) { data=staticItems; }
+      return data;
+    })();
+    return loading;
   }
 
   const scoreItem = (item, words) => {
@@ -144,16 +165,20 @@
     return score - ((item.minutes || 0) * .02);
   };
 
+  let searchRevision=0;
   async function search(value){
+    const revision=++searchRevision;
     const q = value.trim();
     if (!q) { results.innerHTML='<p class="aal-search-empty">Start typing and the most useful matches will appear here.</p>'; status.textContent='Tip: press / from almost anywhere to search.'; return; }
     status.textContent='Searching the site…';
     const words=fold(q).split(/\s+/).filter(Boolean); const rows=await loadData();
-    const hits=rows.map(item=>({item,score:scoreItem(item,words)})).filter(x=>x.score>=0).sort((a,b)=>b.score-a.score || (a.item.title||'').localeCompare(b.item.title||'')).slice(0,9);
-    status.textContent=hits.length ? `${hits.length} best ${hits.length===1?'match':'matches'} shown` : 'No close match yet';
-    results.innerHTML = hits.length ? hits.map(({item})=>`<a class="aal-search-result" href="${esc(item.url)}"><span class="aal-result-kind">${esc(item.format || item.category || 'Page')}</span><span><h3>${esc(item.title)}</h3><p>${esc(item.summary || item.location || '')}</p></span><span class="aal-go" aria-hidden="true">→</span></a>`).join('') : `<p class="aal-search-empty">No close match for “${esc(q)}.” Try fewer words, or search the full library.</p>`;
+    if(revision!==searchRevision)return;
+    const hits=rows.map(item=>({item,score:scoreItem(item,words)})).filter(x=>x.score>=0).sort((a,b)=>b.score-a.score || (a.item.title||'').localeCompare(b.item.title||''));
+    status.textContent=hits.length ? `${hits.length} ${hits.length===1?'match':'matches'}` : 'No close match yet';
+    results.innerHTML = hits.length ? hits.map(({item})=>`<a class="aal-search-result" href="${esc(item.url)}"><span class="aal-result-kind">${esc(item.format || item.category || 'Page')}</span><span><h3>${esc(item.title)}</h3><p>${esc(item.summary || item.location || '')}</p></span><span class="aal-go" aria-hidden="true">→</span></a>`).join('') : `<p class="aal-search-empty">No close match for “${esc(q)}.” Try fewer words, or browse All sections.</p>`;
   }
 
+  dialog.querySelector('form').addEventListener('submit',e=>{e.preventDefault();clearTimeout(debounce);search(input.value)});
   let debounce;
   input.addEventListener('input',()=>{clearTimeout(debounce);debounce=setTimeout(()=>search(input.value),90)});
   dialog.querySelectorAll('[data-q]').forEach(button=>button.addEventListener('click',()=>{input.value=button.dataset.q;search(input.value);input.focus()}));

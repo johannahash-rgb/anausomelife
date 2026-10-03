@@ -1055,5 +1055,75 @@
     "url": "/guides/keep-the-student-in-the-conversation.html",
     "minutes": 4,
     "image": "/assets/catalog-advice.webp"
+  },
+  {
+    "slug": "communication-card-generator",
+    "url": "/communication-card-generator.html",
+    "title": "A picture. A word. Ready.",
+    "summary": "Make clear picture-and-word communication cards with your own photos. Print a card sheet or save a PNG.",
+    "category": "family",
+    "format": "Tool",
+    "minutes": 2,
+    "image": "/assets/catalog-family.webp"
+  },
+  {
+    "slug": "communication-notes",
+    "url": "/communication-notes.html",
+    "title": "Make the note that helps the next person get it right.",
+    "summary": "A free communication-card generator: make a clear printable note, one-page profile, or AI-ready prompt using the communication routes that work for the person today.",
+    "category": "family",
+    "format": "Tool",
+    "minutes": 2,
+    "image": "/assets/catalog-family.webp"
+  },
+  {
+    "slug": "family-agreements",
+    "url": "/family-agreements.html",
+    "title": "A few things we can count on.",
+    "summary": "Simple family agreements, communication access, choice and clear handoffs.",
+    "category": "family",
+    "format": "Guide",
+    "minutes": 2,
+    "image": "/assets/catalog-family.webp"
+  },
+  {
+    "slug": "little-adventures",
+    "url": "/little-adventures.html",
+    "title": "The little boot that took its time.",
+    "summary": "An original, gentle New England picture story with optional read-aloud, a short tune and room to choose.",
+    "category": "family",
+    "format": "Story",
+    "minutes": 2,
+    "image": "/assets/little-boot-story.webp"
+  },
+  {
+    "slug": "kid-fun",
+    "url": "/kid-fun.html",
+    "title": "Ausome Field Notes.",
+    "summary": "Short, bright, age-respectful New England videos with maps, movement, captions, simple interaction and predictable recaps.",
+    "category": "family",
+    "format": "Story",
+    "minutes": 2,
+    "image": "/assets/catalog-family.webp"
+  },
+  {
+    "slug": "family-roles",
+    "url": "/family-roles.html",
+    "title": "A family has roles.It does not need uniforms.",
+    "summary": "Practical, age-respectful ways for fathers, mothers, siblings, grandparents, co-parents and caregivers to build small shared rituals and good family days.",
+    "category": "family",
+    "format": "Guide",
+    "minutes": 2,
+    "image": "/assets/catalog-family.webp"
+  },
+  {
+    "slug": "paternal-role",
+    "url": "/paternal-role.html",
+    "title": "A good Saturdaycan be twenty minutes.",
+    "summary": "Easy, practical, age-respectful shared rituals for fathers, stepfathers, grandfathers, uncles, co-parents and anyone who identifies with a paternal role.",
+    "category": "family",
+    "format": "Guide",
+    "minutes": 2,
+    "image": "/assets/catalog-family.webp"
   }
 ]
