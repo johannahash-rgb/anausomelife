@@ -1,152 +1,332 @@
 {
-  "version": 1,
+  "version": 2,
   "created": "2026-10-03",
   "artworkType": "Original AI-generated event-inspired ink-and-watercolor illustrations",
-  "disclosure": "Concept sketches inspired by each program, not venue photographs, maps, or depictions of confirmed exhibits. Repeat dates of the same program share their illustration.",
-  "programs": {
-    "Morningstar Access|Boston Children’s Museum": {
+  "disclosure": "Original AI-generated conceptual illustrations inspired by each dated listing. Every dated event has its own distinct composition. Not venue photographs, access maps or depictions of confirmed exhibits.",
+  "events": {
+    "bcm-2026-10-03": {
       "src": "/assets/event-sketches/morningstar-museum.webp",
       "alt": "Ink-and-watercolor study of wooden building forms and a prism in morning light.",
       "width": 720,
-      "height": 480
+      "height": 480,
+      "title": "Morningstar Access",
+      "venue": "Boston Children’s Museum",
+      "start": "2026-10-03T08:00:00-04:00"
     },
-    "Sensory Friendly Hour|VINS Nature Center": {
+    "vins-2026-10-03": {
       "src": "/assets/event-sketches/vins-nature-hour.webp",
       "alt": "A barred owl, autumn branches and a woodland trail in ink and watercolor.",
       "width": 720,
-      "height": 480
+      "height": 480,
+      "title": "Sensory Friendly Hour",
+      "venue": "VINS Nature Center",
+      "start": "2026-10-03T09:00:00-04:00"
     },
-    "Storytime & Smiles at the Autism Welcoming Center|Autism Welcoming Center": {
+    "autism-alliance-storytime-2026-10-03": {
       "src": "/assets/event-sketches/storytime-smiles.webp",
       "alt": "A storybook, colored pencils, paper crafts and apple slices sketched in watercolor.",
       "width": 720,
-      "height": 480
+      "height": 480,
+      "title": "Storytime & Smiles at the Autism Welcoming Center",
+      "venue": "Autism Welcoming Center",
+      "start": "2026-10-03T11:30:00-04:00"
     },
-    "Sensory Friendly Storytime Early Opening|The Westport Library": {
+    "westport-early-2026-10-04": {
       "src": "/assets/event-sketches/westport-early-opening.webp",
       "alt": "An open storybook and brass reading lamp in quiet morning light.",
       "width": 720,
-      "height": 480
+      "height": 480,
+      "title": "Sensory Friendly Storytime Early Opening",
+      "venue": "The Westport Library",
+      "start": "2026-10-04T12:00:00-04:00"
     },
-    "Sensory-Friendly Storytime|The Westport Library": {
+    "westport-story-2026-10-04": {
       "src": "/assets/event-sketches/westport-storytime.webp",
       "alt": "A navy reading chair with an open book, cranberry throw and basket of books.",
       "width": 720,
-      "height": 480
+      "height": 480,
+      "title": "Sensory-Friendly Storytime",
+      "venue": "The Westport Library",
+      "start": "2026-10-04T13:30:00-04:00"
     },
-    "Sensory Friendly Storytime|Mt. Pleasant Library, Children’s Area": {
+    "westport-story-2026-10-05": {
+      "src": "/assets/event-sketches/westport-story-2026-10-05.webp",
+      "alt": "A low wooden library cart with picture books and a basket of felt story shapes.",
+      "width": 720,
+      "height": 480,
+      "title": "Sensory-Friendly Storytime",
+      "venue": "The Westport Library",
+      "start": "2026-10-05T10:45:00-04:00"
+    },
+    "clpvd-2026-10-06": {
       "src": "/assets/event-sketches/providence-storytime.webp",
       "alt": "An open storybook, bubble wand and floating soap bubbles in watercolor.",
       "width": 720,
-      "height": 480
+      "height": 480,
+      "title": "Sensory Friendly Storytime",
+      "venue": "Mt. Pleasant Library, Children’s Area",
+      "start": "2026-10-06T10:30:00-04:00"
     },
-    "Autism-Friendly Evening|Discovery Museum": {
+    "discovery-2026-10-10": {
       "src": "/assets/event-sketches/discovery-evening.webp",
       "alt": "Hands-on wooden gears and a balancing sculpture in evening light.",
       "width": 720,
-      "height": 480
+      "height": 480,
+      "title": "Autism-Friendly Evening",
+      "venue": "Discovery Museum",
+      "start": "2026-10-10T17:00:00-04:00"
     },
-    "Montshh… Montshire Sensory Hour|Montshire Museum of Science": {
+    "clpvd-2026-10-13": {
+      "src": "/assets/event-sketches/clpvd-2026-10-13.webp",
+      "alt": "A brass-jingled tambourine, storybooks, navy movement scarf and floating soap bubbles.",
+      "width": 720,
+      "height": 480,
+      "title": "Sensory Friendly Storytime",
+      "venue": "Mt. Pleasant Library, Children’s Area",
+      "start": "2026-10-13T10:30:00-04:00"
+    },
+    "autism-alliance-storytime-2026-10-13": {
+      "src": "/assets/event-sketches/autism-alliance-storytime-2026-10-13.webp",
+      "alt": "Story pages, a paper-leaf collage, colored pencils, yarn and apple slices on a craft table.",
+      "width": 720,
+      "height": 480,
+      "title": "Storytime & Smiles at the Autism Welcoming Center",
+      "venue": "Autism Welcoming Center",
+      "start": "2026-10-13T13:30:00-04:00"
+    },
+    "montshire-2026-10-17": {
       "src": "/assets/event-sketches/montshire-science.webp",
       "alt": "A bubble wand, iridescent bubbles, prism and fern in ink and watercolor.",
       "width": 720,
-      "height": 480
+      "height": 480,
+      "title": "Montshh… Montshire Sensory Hour",
+      "venue": "Montshire Museum of Science",
+      "start": "2026-10-17T09:00:00-04:00"
     },
-    "Sensory-Friendly Trunk-or-Treat|Bierman Autism Centers - Bedford": {
+    "bierman-bedford-2026-10-17": {
       "src": "/assets/event-sketches/bierman-bedford-trunk-treat.webp",
       "alt": "An open navy station wagon with a pumpkin garland, treats and a tartan blanket.",
       "width": 720,
-      "height": 480
+      "height": 480,
+      "title": "Sensory-Friendly Trunk-or-Treat",
+      "venue": "Bierman Autism Centers - Bedford",
+      "start": "2026-10-17T10:00:00-04:00"
     },
-    "Sensory-Friendly Jack-O-Lantern Spectacular|Roger Williams Park Zoo": {
+    "westport-story-2026-10-19": {
+      "src": "/assets/event-sketches/westport-story-2026-10-19.webp",
+      "alt": "A woodland storybook on a wooden easel, autumn felt leaves and a comfortable textile cushion.",
+      "width": 720,
+      "height": 480,
+      "title": "Sensory-Friendly Storytime",
+      "venue": "The Westport Library",
+      "start": "2026-10-19T10:45:00-04:00"
+    },
+    "clpvd-2026-10-20": {
+      "src": "/assets/event-sketches/clpvd-2026-10-20.webp",
+      "alt": "Illustrated autumn story pages, a bubble wand, wooden rhythm shaker and ochre scarf.",
+      "width": 720,
+      "height": 480,
+      "title": "Sensory Friendly Storytime",
+      "venue": "Mt. Pleasant Library, Children’s Area",
+      "start": "2026-10-20T10:30:00-04:00"
+    },
+    "rwpzoo-2026-10-20": {
       "src": "/assets/event-sketches/pumpkin-trail.webp",
       "alt": "Glowing carved pumpkins along a winding woodland path at twilight.",
       "width": 720,
-      "height": 480
+      "height": 480,
+      "title": "Sensory-Friendly Jack-O-Lantern Spectacular",
+      "venue": "Roger Williams Park Zoo",
+      "start": "2026-10-20T17:00:00-04:00"
     },
-    "Sensory-Friendly Trunk-or-Treat|Bierman Autism Centers - Danvers": {
+    "rwpzoo-2026-10-21": {
+      "src": "/assets/event-sketches/rwpzoo-2026-10-21.webp",
+      "alt": "Three glowing pumpkins with botanical carvings along a woodland rail among ferns and copper leaves.",
+      "width": 720,
+      "height": 480,
+      "title": "Sensory-Friendly Jack-O-Lantern Spectacular",
+      "venue": "Roger Williams Park Zoo",
+      "start": "2026-10-21T17:00:00-04:00"
+    },
+    "bierman-danvers-2026-10-24": {
       "src": "/assets/event-sketches/bierman-danvers-trunk-treat.webp",
       "alt": "A green hatchback with an open trunk, pumpkin pail, bunting and autumn leaves.",
       "width": 720,
-      "height": 480
+      "height": 480,
+      "title": "Sensory-Friendly Trunk-or-Treat",
+      "venue": "Bierman Autism Centers - Danvers",
+      "start": "2026-10-24T10:00:00-04:00"
     },
-    "Sensory Saturday|The Aldrich Contemporary Art Museum": {
+    "aldrich-2026-10-24": {
       "src": "/assets/event-sketches/aldrich-sensory-art.webp",
       "alt": "Watercolor paints, brushes, abstract shapes and a small wood sculpture.",
       "width": 720,
-      "height": 480
+      "height": 480,
+      "title": "Sensory Saturday",
+      "venue": "The Aldrich Contemporary Art Museum",
+      "start": "2026-10-24T10:30:00-04:00"
     },
-    "Autism-Friendly Halloween Party|Beals Memorial Library": {
+    "beals-2026-10-24": {
       "src": "/assets/event-sketches/beals-library-halloween.webp",
       "alt": "A storybook, paper pumpkin craft and basket of treats beside a reading lamp.",
       "width": 720,
-      "height": 480
+      "height": 480,
+      "title": "Autism-Friendly Halloween Party",
+      "venue": "Beals Memorial Library",
+      "start": "2026-10-24T11:00:00-04:00"
     },
-    "Sensory Friendly Trick or Treat Night|Venture Dudley II Day Program": {
+    "venture-2026-10-27": {
       "src": "/assets/event-sketches/venture-trick-treat.webp",
       "alt": "A warmly lit indoor doorway with pumpkin decorations, treats and craft supplies.",
       "width": 720,
-      "height": 480
+      "height": 480,
+      "title": "Sensory Friendly Trick or Treat Night",
+      "venue": "Venture Dudley II Day Program",
+      "start": "2026-10-27T17:00:00-04:00"
     },
-    "Play Your Way: Sensory-Friendly Halloween|Children’s Museum & Theatre of Maine": {
+    "cmtm-2026-10-30": {
       "src": "/assets/event-sketches/maine-halloween-play.webp",
       "alt": "Small theatre curtains, a pumpkin treat basket, brushes and paper woodland masks.",
       "width": 720,
-      "height": 480
+      "height": 480,
+      "title": "Play Your Way: Sensory-Friendly Halloween",
+      "venue": "Children’s Museum & Theatre of Maine",
+      "start": "2026-10-30T16:30:00-04:00"
     },
-    "Sensory-Friendly Halloween|Discovery Museum": {
+    "discovery-2026-10-30": {
       "src": "/assets/event-sketches/discovery-halloween.webp",
       "alt": "A pumpkin, magnifying glass, wooden gears and paper bat for Halloween discovery.",
       "width": 720,
-      "height": 480
+      "height": 480,
+      "title": "Sensory-Friendly Halloween",
+      "venue": "Discovery Museum",
+      "start": "2026-10-30T17:00:00-04:00"
     },
-    "Sensory-Friendly Halloween Event|St. Johnsbury Athenaeum": {
+    "stj-halloween-2026-10-30": {
       "src": "/assets/event-sketches/athenaeum-halloween.webp",
       "alt": "A jack-o-lantern, clothbound books and autumn leaves on an antique library table.",
       "width": 720,
-      "height": 480
+      "height": 480,
+      "title": "Sensory-Friendly Halloween Event",
+      "venue": "St. Johnsbury Athenaeum",
+      "start": "2026-10-30T17:00:00-04:00"
     },
-    "Sensory Friendly Fun Night|SEE Science Center": {
+    "see-2026-11-06": {
       "src": "/assets/event-sketches/see-science-night.webp",
       "alt": "A microscope, prism, paper pinwheel and horseshoe magnet in evening light.",
       "width": 720,
-      "height": 480
+      "height": 480,
+      "title": "Sensory Friendly Fun Night",
+      "venue": "SEE Science Center",
+      "start": "2026-11-06T17:00:00-05:00"
     },
-    "Inclusive Afternoon|Discovery Museum": {
+    "bcm-2026-11-07": {
+      "src": "/assets/event-sketches/bcm-2026-11-07.webp",
+      "alt": "A wooden building bridge, winding ball track and colored window panes in morning light.",
+      "width": 720,
+      "height": 480,
+      "title": "Morningstar Access",
+      "venue": "Boston Children’s Museum",
+      "start": "2026-11-07T08:00:00-05:00"
+    },
+    "westport-early-2026-11-15": {
+      "src": "/assets/event-sketches/westport-early-2026-11-15.webp",
+      "alt": "A botanical book on a wooden bookrest, checked wool scarf and rain-streaked autumn window.",
+      "width": 720,
+      "height": 480,
+      "title": "Sensory Friendly Storytime Early Opening",
+      "venue": "The Westport Library",
+      "start": "2026-11-15T12:00:00-05:00"
+    },
+    "discovery-inclusive-2026-11-17": {
       "src": "/assets/event-sketches/discovery-inclusive-afternoon.webp",
       "alt": "A wooden balance sculpture, magnifying lens and fern in afternoon sunshine.",
       "width": 720,
-      "height": 480
+      "height": 480,
+      "title": "Inclusive Afternoon",
+      "venue": "Discovery Museum",
+      "start": "2026-11-17T13:30:00-05:00"
     },
-    "Eveningstar Access|Boston Children’s Museum": {
+    "bcm-2026-11-20": {
       "src": "/assets/event-sketches/eveningstar-museum.webp",
       "alt": "A wooden marble run and copper globe beside a starry evening window.",
       "width": 720,
-      "height": 480
+      "height": 480,
+      "title": "Eveningstar Access",
+      "venue": "Boston Children’s Museum",
+      "start": "2026-11-20T17:00:00-05:00"
     },
-    "Sensory-Friendly Open Barnyard|Weir River Farm": {
+    "montshire-2026-11-21": {
+      "src": "/assets/event-sketches/montshire-2026-11-21.webp",
+      "alt": "Geometric bubble frames, a glass tray, magnifier, fern and seedpods.",
+      "width": 720,
+      "height": 480,
+      "title": "Montshh… Montshire Sensory Hour",
+      "venue": "Montshire Museum of Science",
+      "start": "2026-11-21T09:00:00-05:00"
+    },
+    "weir-2026-11-21": {
       "src": "/assets/event-sketches/weir-open-barnyard.webp",
       "alt": "A woolly sheep and russet hen beside a weathered New England farm fence.",
       "width": 720,
-      "height": 480
+      "height": 480,
+      "title": "Sensory-Friendly Open Barnyard",
+      "venue": "Weir River Farm",
+      "start": "2026-11-21T11:00:00-05:00"
     },
-    "Sensory Friendly Winter Lights|Shelburne Museum": {
+    "shelburne-2026-11-30": {
       "src": "/assets/event-sketches/shelburne-winter-lights.webp",
       "alt": "Warm white lights on winter trees beside a winding gravel path at blue dusk.",
       "width": 720,
-      "height": 480
+      "height": 480,
+      "title": "Sensory Friendly Winter Lights",
+      "venue": "Shelburne Museum",
+      "start": "2026-11-30T16:30:00-05:00"
     },
-    "Sensory Friendly Nutcracker|Citizens Bank Opera House": {
+    "boston-ballet-2026-12-04": {
       "src": "/assets/event-sketches/sensory-nutcracker.webp",
       "alt": "A traditional wooden nutcracker, ballet slippers, pine and a velvet curtain.",
       "width": 720,
-      "height": 480
+      "height": 480,
+      "title": "Sensory Friendly Nutcracker",
+      "venue": "Citizens Bank Opera House",
+      "start": "2026-12-04T13:30:00-05:00"
     },
-    "Morningstar Access: All Masks On|Boston Children’s Museum": {
+    "bcm-2026-12-05": {
       "src": "/assets/event-sketches/masked-morningstar.webp",
       "alt": "Wooden construction blocks, a pale-blue mask and an entry leaflet in winter light.",
       "width": 720,
-      "height": 480
+      "height": 480,
+      "title": "Morningstar Access: All Masks On",
+      "venue": "Boston Children’s Museum",
+      "start": "2026-12-05T08:00:00-05:00"
+    },
+    "westport-early-2026-12-13": {
+      "src": "/assets/event-sketches/westport-early-2026-12-13.webp",
+      "alt": "A winter scarf, navy books, illustrated snowflakes and blue reading lamp beside a snowy window.",
+      "width": 720,
+      "height": 480,
+      "title": "Sensory Friendly Storytime Early Opening",
+      "venue": "The Westport Library",
+      "start": "2026-12-13T12:00:00-05:00"
+    },
+    "shelburne-2026-12-14": {
+      "src": "/assets/event-sketches/shelburne-2026-12-14.webp",
+      "alt": "Snow-dusted evergreens frame an arch of warm lights and lanterns beside a quiet winter path.",
+      "width": 720,
+      "height": 480,
+      "title": "Sensory Friendly Winter Lights",
+      "venue": "Shelburne Museum",
+      "start": "2026-12-14T16:30:00-05:00"
+    },
+    "montshire-2026-12-19": {
+      "src": "/assets/event-sketches/montshire-2026-12-19.webp",
+      "alt": "A prism and mirror cast colored light across paper snowflakes beside a wooden balancing toy.",
+      "width": 720,
+      "height": 480,
+      "title": "Montshh… Montshire Sensory Hour",
+      "venue": "Montshire Museum of Science",
+      "start": "2026-12-19T09:00:00-05:00"
     }
   },
   "watchlist": {

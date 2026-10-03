@@ -27,6 +27,13 @@
 @media(max-width:650px){.calendar-page .event-card.has-sketch{grid-template-columns:45px minmax(0,1fr);gap:20px 16px;grid-template-areas:'art art' 'date copy'}.calendar-page .event-card.has-sketch>.event-art{grid-area:art;width:100%;max-width:480px;justify-self:center}.calendar-page .event-card.has-sketch>.event-date{grid-area:date}.calendar-page .event-card.has-sketch>.event-copy{grid-area:copy}.calendar-page .event-card .event-facts{grid-template-columns:1fr}.calendar-page .event-card h2{font-size:1.7rem}.calendar-page .event-art figcaption{text-align:center}.calendar-page .event-filters{gap:14px 12px}.calendar-page .event-filters input,.calendar-page .event-filters select{padding:10px 8px}.calendar-page .event-month-filter{grid-column:1/-1}.calendar-page .event-filters label:last-of-type{grid-column:auto}.calendar-page .event-actions{gap:5px 16px}.calendar-page .event-actions a,.calendar-page .event-actions button{font-size:.8rem}.calendar-page .calendar-toolbar-head{align-items:start}.calendar-page .calendar-view-toggle{flex-wrap:wrap}}
 @media(prefers-reduced-motion:reduce){.calendar-page *{scroll-behavior:auto!important}}
 
+.calendar-page .calendar-feature-callout{grid-template-columns:64px minmax(0,1fr)}
+.calendar-page .calendar-feature-illustration .calendar-sketch-icon{width:58px;height:58px;stroke-width:1.2}
+@media(max-width:650px){.calendar-page .calendar-feature-callout{grid-template-columns:1fr}}
+
+.calendar-page .event-map-view[hidden]{display:none!important}
+.calendar-page .calendar-view-toggle{flex-wrap:wrap;border-radius:18px}
+.calendar-page .calendar-view-toggle button{white-space:nowrap}
 
 /* Immersive New England state selector · 3 October 2026 */
 .calendar-page .calendar-state-section{position:relative;isolation:isolate;padding-block:30px 56px}
