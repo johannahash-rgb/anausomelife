@@ -264,7 +264,7 @@ def prepare(curated, previous, sources, queue, now, fetcher=None):
                'lastAttempt': checked, 'lastSuccessfulRun': checked if successes and not failures else previous.get('refresh', {}).get('lastSuccessfulRun'),
                'liveFeedVerified': False, 'sourcesChecked': successes, 'sourcesFailed': failures,
                'note': 'Past listings are removed automatically. New structured listings are queued for review. Source reachability does not verify event details.'}
-    output = {'schemaVersion': 1, 'generatedAt': checked, 'lastEditorialReview': previous.get('lastEditorialReview'),
+    output = {'schemaVersion': previous.get('schemaVersion', 2), 'generatedAt': checked, 'lastEditorialReview': previous.get('lastEditorialReview'),
               'timezone': 'America/New_York', 'coverage': previous.get('coverage', 'Selected New England events; not exhaustive.'),
               'refresh': refresh, 'sources': results, 'events': sorted(published, key=lambda e:(e['start'], e['id']))}
     return output, live_queue
