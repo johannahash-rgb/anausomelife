@@ -46,7 +46,7 @@
     {label:'All sections',action:'sections',icon:'compass'},
     {label:'Outings',href:'/favorite-places.html',icon:'outing',match:['/favorite-places.html'],prefix:'/favorite-places/'},
     {label:'Family',href:'/family-roles.html',icon:'family',match:['/topics/family.html','/family-roles.html','/paternal-role.html','/family-planning-toolkit.html']},
-    {label:'Communication',href:'/communication-card-generator.html',icon:'talk',match:['/communication-card-generator.html','/visit-story.html','/aac-outing-note.html']},
+    {label:'Communicate',href:'/communication-card-generator.html',icon:'talk',match:['/communication-card-generator.html','/visit-story.html','/aac-outing-note.html']},
     {label:'Calendar',href:'/calendar.html',icon:'calendar',match:['/calendar.html']},
     {label:'Directory',href:'/little-black-book.html',icon:'book',match:['/little-black-book.html']}
   ];
@@ -136,7 +136,7 @@
     if (loading) return loading;
     loading = (async()=>{
       try {
-        const response=await fetch('/data/site-index.json?v=20261003');
+        const response=await fetch('/data/site-index.json?v=village-20261003');
         if(!response.ok) throw Error('Search unavailable');
         const rows=await response.json();
         const aliases=new Map(staticItems.map(item=>[item.url,item]));

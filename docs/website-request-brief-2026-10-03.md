@@ -77,3 +77,13 @@ Still requiring further work or verification:
 - Confirm the scheduled calendar refresh actually executes successfully.
 
 Before publishing each future change, fetch current source, preserve concurrent edits, regenerate universal search, and check the changed interactive journeys.
+
+## Immersive visual update — October 3, 2026
+
+The user requested a much stronger feeling of arrival, cohesion, warmth and empowerment, referencing KJP, Muffy Aldrich, Martha Stewart and the connected sense of place of Main Street. Treat this as an original New England editorial world: rich seasonal scenery, family photographs, useful illustrated landmarks, clear paths between sections, restrained heritage details, and generous readable controls. Avoid leaving broad, empty stretches or reverting to disconnected small-image cards.
+
+Implemented: an original autumn village hero (clearly labeled as an illustration), enlarged real-photo stories, a visual section directory, connected outing-to-calendar-to-picture-plan journey, shared forest/navy/cream/brass styling, related links, circular footer emblem, consistent brand line, and a visible two-row phone menu. No autoplay or required motion. Existing tools and page content are retained.
+
+The shared theme is in assets/immersion.css and assets/immersion.js. Homepage editorial markup lives in content/home-entrance.html. Run tools/apply_immersion.py after older generators to retain the shared theme and current homepage, then tools/build_site_index.py. The old generators do not otherwise own the new homepage. Preserve concurrent changes before publishing.
+
+Artwork: assets/autumn-village.webp is an original AI-generated illustration created for this website, not a photographed destination. Existing family images retain their actual place associations. The original photo filename aquarium-visit.webp depicts the L.L.Bean trout pond; do not describe it as an aquarium visit.
