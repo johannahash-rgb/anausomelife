@@ -57,3 +57,17 @@
     });
   });
 })();
+
+
+/* Favorite Places printable guide */
+(() => {
+  const buttons = document.querySelectorAll('[data-print-place]');
+  if (!buttons.length) return;
+  const clear = () => document.body.classList.remove('print-place');
+  buttons.forEach(button => button.addEventListener('click', () => {
+    clear();
+    document.body.classList.add('print-place');
+    window.print();
+  }));
+  window.addEventListener('afterprint', clear);
+})();
