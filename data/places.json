@@ -44,7 +44,7 @@
     "url": "/favorite-places/new-england-aquarium.html",
     "title": "New England Aquarium",
     "summary": "Water is inherently regulating for many people, but aquariums are also echoey, dim, crowded and full of transitions. The Aquarium earns a place here because it publishes concrete sensory supports…",
-    "image": "/assets/aquarium-visit.webp",
+    "image": "/assets/favorites/new-england-aquarium.svg",
     "location": "Boston, Massachusetts"
   },
   {
@@ -132,7 +132,7 @@
     "url": "/favorite-places-llbean-freeport.html",
     "title": "L.L.Bean Flagship",
     "summary": "A store that can function like a destination: walk around, look at the trout pond, get a coffee, sit for a minute, buy nothing or buy the one thing you came for.",
-    "image": "",
+    "image": "/assets/aquarium-visit.webp",
     "location": "Freeport, Maine"
   },
   {
