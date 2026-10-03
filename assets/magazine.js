@@ -16,6 +16,53 @@ if (main) {
 }
 const places=document.querySelector('[data-places]');if(places){const form=places.querySelector('form'),q=form.elements.q,state=form.elements.state,kind=form.elements.kind,rows=[...places.querySelectorAll('.place-row')],status=places.querySelector('[role=status]');function apply(){const terms=fold(q.value.trim()).split(/\s+/).filter(Boolean);let n=0;for(const r of rows){const kinds=(r.dataset.placeKind||'').split(/\s+/);const match=(!state.value||r.dataset.placeState.includes(state.value))&&(!kind.value||kinds.includes(kind.value))&&terms.every(t=>fold(r.textContent).includes(t));r.hidden=!match;if(match)n++;}status.textContent=n+' '+(n===1?'place':'places')+' to know';const empty=places.querySelector('.place-empty');if(empty)empty.hidden=n>0;const p=new URLSearchParams();if(q.value)p.set('q',q.value);if(state.value)p.set('state',state.value);if(kind.value)p.set('kind',kind.value);history.replaceState({},'',location.pathname+(p.size?'?'+p:''));}const p=new URLSearchParams(location.search);q.value=p.get('q')||'';state.value=p.get('state')||'';kind.value=p.get('kind')||'';q.addEventListener('input',apply);state.addEventListener('change',apply);kind.addEventListener('change',apply);form.addEventListener('submit',e=>e.preventDefault());form.addEventListener('reset',e=>{e.preventDefault();q.value='';state.value='';kind.value='';apply();q.focus()});apply();}
 document.querySelectorAll('[data-print]').forEach(b=>{if(!document.querySelector('script[src*="site.js"]'))b.addEventListener('click',()=>window.print())});
+// Visual-first navigation and readable editorial cues.
+const mastNav=document.querySelector('.mag-masthead nav');
+if(mastNav&&!mastNav.querySelector('a[href="/blog.html"]')){
+ const blog=document.createElement('a');blog.href='/blog.html';blog.textContent='Blog';
+ const library=mastNav.querySelector('a[href="/library.html"]');mastNav.insertBefore(blog,library||mastNav.firstChild);
+}
+const categoryArt={
+ home:'/assets/catalog-home.webp',
+ outings:'/assets/catalog-outings.webp',
+ family:'/assets/catalog-family.webp',
+ style:'/assets/catalog-style.webp',
+ beauty:'/assets/catalog-manicure.webp',
+ holidays:'/assets/catalog-celebrations.webp',
+ advocacy:'/assets/catalog-advice.webp',
+ advice:'/assets/catalog-advice.webp',
+ brands:'/assets/catalog-home.webp',
+ stories:'/assets/catalog-family.webp'
+};
+document.querySelectorAll('.index-card').forEach(card=>{
+ if(card.querySelector(':scope > img'))return;
+ let src=categoryArt[card.dataset.category]||'/assets/catalog-family.webp';
+ if((card.dataset.url||'').includes('llbean'))src='/assets/aquarium-visit.webp';
+ if((card.dataset.url||'').includes('new-england-aquarium'))src='/assets/favorites/new-england-aquarium.svg';
+ const img=document.createElement('img');img.src=src;img.alt='';img.loading='lazy';img.decoding='async';img.className='entry-thumb';
+ card.prepend(img);card.classList.add('auto-visual');
+});
+const placeSketches={water:'/assets/sketches/water.svg',farm:'/assets/sketches/farm.svg',food:'/assets/sketches/treat.svg',outdoors:'/assets/sketches/outdoors.svg',books:'/assets/sketches/books.svg',stay:'/assets/sketches/stay.svg',everyday:'/assets/sketches/everyday.svg'};
+document.querySelectorAll('.place-row').forEach(row=>{
+ if(row.querySelector('.place-sketch'))return;
+ const kind=(row.dataset.placeKind||'everyday').split(/\s+/).find(k=>placeSketches[k])||'everyday';
+ const img=document.createElement('img');img.src=placeSketches[kind];img.alt='';img.loading='lazy';img.className='place-sketch';row.prepend(img);
+});
+document.querySelectorAll('.visual-story .visual-step').forEach((step,i)=>{
+ if(step.querySelector('.visual-step-icon'))return;
+ const icons=['/assets/visuals/getting-there.svg','/assets/visuals/arriving.svg','/assets/visuals/choose.svg','/assets/visuals/break.svg','/assets/visuals/leaving.svg'];
+ const img=document.createElement('img');img.src=icons[i%icons.length];img.alt='';img.className='visual-step-icon';step.prepend(img);
+});
+const heading=document.querySelector('.library-heading');
+if(heading&&!heading.querySelector('.heading-visuals')){
+ const wrap=document.createElement('div');wrap.className='heading-visuals';wrap.setAttribute('aria-hidden','true');
+ let icons=['/assets/visuals/communication.svg','/assets/sketches/everyday.svg','/assets/sketches/outdoors.svg'];
+ if(document.body.classList.contains('visit-story-page'))icons=['/assets/visuals/getting-there.svg','/assets/visuals/choose.svg','/assets/visuals/leaving.svg'];
+ if(document.body.classList.contains('places-page'))icons=['/assets/sketches/outdoors.svg','/assets/sketches/treat.svg','/assets/sketches/water.svg'];
+ icons.forEach(src=>{const img=document.createElement('img');img.src=src;img.alt='';img.loading='lazy';wrap.append(img);});
+ heading.append(wrap);
+}
+
 // Retain links to the original homepage's established practical notes.
 if(location.pathname==='/'||location.pathname==='/index.html'){const legacy=['resources','guide','access-request','hotel-questions','communication','respect','when-plans-change','make-a-plan','everyday-life','practical-style','journal','standards'];if(legacy.includes(location.hash.slice(1)))location.replace('/field-notes.html'+location.hash);}
 })();
