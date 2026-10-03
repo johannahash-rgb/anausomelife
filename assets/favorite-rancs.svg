@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 700" role="img" aria-labelledby="t d">
+<title id="t">Rancatore's ice cream field-note illustration</title>
+<desc id="d">A New England ice cream shop window with a striped awning, a cone, a cup, and a small town sidewalk.</desc>
+<rect width="1000" height="700" fill="#edf3f4"/>
+<rect y="535" width="1000" height="165" fill="#f8f5ee"/>
+<rect x="105" y="120" width="790" height="430" fill="#fffefb" stroke="#10334c" stroke-width="8"/>
+<rect x="150" y="260" width="300" height="235" fill="#dce9ec" stroke="#10334c" stroke-width="6"/>
+<rect x="550" y="260" width="220" height="290" fill="#edf3f4" stroke="#10334c" stroke-width="6"/>
+<rect x="790" y="260" width="65" height="290" fill="#f8f5ee" stroke="#10334c" stroke-width="6"/>
+<path d="M105 120h790v112H105z" fill="#10334c"/>
+<path d="M105 232h790" stroke="#10334c" stroke-width="8"/>
+<g>
+<path d="M105 120h98v112h-98z" fill="#fffefb"/>
+<path d="M301 120h98v112h-98z" fill="#fffefb"/>
+<path d="M497 120h98v112h-98z" fill="#fffefb"/>
+<path d="M693 120h98v112h-98z" fill="#fffefb"/>
+</g>
+<text x="500" y="195" text-anchor="middle" fill="#10334c" font-family="Georgia,serif" font-size="42" font-weight="700">RANC'S</text>
+<path d="M245 340c0-50 42-90 94-90s94 40 94 90" fill="#e8c9bd"/>
+<circle cx="300" cy="317" r="50" fill="#997443"/>
+<circle cx="365" cy="315" r="54" fill="#c96f61"/>
+<path d="M273 352l66 125 67-125z" fill="#d9b37b" stroke="#10334c" stroke-width="5"/>
+<path d="M594 356h128l-17 122H611z" fill="#fffefb" stroke="#10334c" stroke-width="5"/>
+<path d="M611 356c5-48 91-48 96 0z" fill="#c96f61"/>
+<path d="M614 390h91" stroke="#997443" stroke-width="8"/>
+<path d="M160 573h680" stroke="#997443" stroke-width="5"/>
+<circle cx="820" cy="600" r="28" fill="#10334c"/>
+<circle cx="178" cy="600" r="28" fill="#10334c"/>
+<text x="500" y="635" text-anchor="middle" fill="#203c4c" font-family="Arial,sans-serif" font-size="26" letter-spacing="3">ONE SCOOP IS A PLAN</text>
+</svg>
