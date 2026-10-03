@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 820" role="img" aria-labelledby="title desc">
+<title id="title">Paternal coffee field note illustration</title>
+<desc id="desc">A hand-drawn style morning coffee scene with mug, notebook, thermos, coffee beans and an autumn window.</desc>
+<rect width="1200" height="820" fill="#f6efe3"/>
+<rect x="44" y="42" width="1112" height="736" rx="26" fill="#fbf7ef" stroke="#163b4b" stroke-width="4"/>
+<path d="M88 600 C250 556 392 575 547 592 C720 610 895 594 1104 551" fill="none" stroke="#c76f59" stroke-width="5" stroke-linecap="round"/>
+<rect x="735" y="110" width="300" height="255" rx="18" fill="#e8efe9" stroke="#163b4b" stroke-width="4"/>
+<line x1="885" y1="110" x2="885" y2="365" stroke="#163b4b" stroke-width="3"/>
+<line x1="735" y1="238" x2="1035" y2="238" stroke="#163b4b" stroke-width="3"/>
+<path d="M760 325 C795 284 830 303 851 269 C875 230 913 246 930 208 C960 239 982 263 1012 295" fill="none" stroke="#76917d" stroke-width="8" stroke-linecap="round"/>
+<circle cx="975" cy="158" r="28" fill="#d6a85f" opacity=".9"/>
+<path d="M245 497 C222 454 224 366 261 321 C285 292 356 289 390 315 C426 342 433 425 409 486 C390 533 272 540 245 497Z" fill="#e7d6bf" stroke="#163b4b" stroke-width="5"/>
+<path d="M393 346 C463 334 481 384 469 421 C458 457 427 471 403 464" fill="none" stroke="#163b4b" stroke-width="5"/>
+<path d="M278 286 C274 250 297 237 290 204" fill="none" stroke="#8b7a6c" stroke-width="5" stroke-linecap="round"/>
+<path d="M329 285 C323 245 350 229 342 190" fill="none" stroke="#8b7a6c" stroke-width="5" stroke-linecap="round"/>
+<path d="M373 286 C368 258 390 241 384 215" fill="none" stroke="#8b7a6c" stroke-width="5" stroke-linecap="round"/>
+<rect x="485" y="390" width="174" height="210" rx="16" fill="#d9e1d2" stroke="#163b4b" stroke-width="5"/>
+<rect x="516" y="342" width="112" height="58" rx="12" fill="#163b4b"/>
+<line x1="530" y1="445" x2="614" y2="445" stroke="#163b4b" stroke-width="4" stroke-linecap="round"/>
+<line x1="530" y1="480" x2="614" y2="480" stroke="#163b4b" stroke-width="4" stroke-linecap="round"/>
+<line x1="530" y1="515" x2="586" y2="515" stroke="#163b4b" stroke-width="4" stroke-linecap="round"/>
+<rect x="708" y="455" width="250" height="155" rx="14" fill="#fffdf8" stroke="#163b4b" stroke-width="4" transform="rotate(-3 708 455)"/>
+<line x1="748" y1="495" x2="895" y2="487" stroke="#c76f59" stroke-width="4" stroke-linecap="round"/>
+<line x1="746" y1="530" x2="918" y2="520" stroke="#76917d" stroke-width="4" stroke-linecap="round"/>
+<line x1="744" y1="565" x2="876" y2="558" stroke="#76917d" stroke-width="4" stroke-linecap="round"/>
+<ellipse cx="170" cy="610" rx="30" ry="17" fill="#7f4d31" transform="rotate(-18 170 610)"/>
+<path d="M153 610 C169 602 182 604 190 612" fill="none" stroke="#f6efe3" stroke-width="3"/>
+<ellipse cx="225" cy="640" rx="30" ry="17" fill="#7f4d31" transform="rotate(14 225 640)"/>
+<path d="M207 639 C225 631 238 635 246 641" fill="none" stroke="#f6efe3" stroke-width="3"/>
+<ellipse cx="1030" cy="610" rx="30" ry="17" fill="#7f4d31" transform="rotate(-6 1030 610)"/>
+<path d="M1012 610 C1028 602 1042 604 1051 611" fill="none" stroke="#f6efe3" stroke-width="3"/>
+<path d="M118 186 C166 145 221 139 265 160" fill="none" stroke="#c76f59" stroke-width="4" stroke-linecap="round"/>
+<path d="M98 708 C225 669 357 675 485 706" fill="none" stroke="#76917d" stroke-width="4" stroke-linecap="round"/>
+<text x="102" y="126" font-family="Georgia, serif" font-size="34" fill="#163b4b">PATERNAL FIELD NOTE</text>
+<text x="102" y="166" font-family="Georgia, serif" font-size="22" fill="#5f6b68">coffee before the car keys</text>
+<text x="742" y="685" font-family="Georgia, serif" font-size="24" fill="#163b4b">make it • sit down • choose one thing</text>
+</svg>
