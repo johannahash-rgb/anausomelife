@@ -1,0 +1,39 @@
+{
+  "slug": "a-better-hair-appointment",
+  "title": "A better hair appointment begins before the chair",
+  "category": "beauty",
+  "topics": [
+    "beauty",
+    "hair",
+    "salon",
+    "communication",
+    "appointments"
+  ],
+  "format": "Practical guide",
+  "summary": "The booking questions, haircut brief and small comforts that make a salon appointment easier to use.",
+  "body_html": "<p>A haircut can be a pleasant hour with a magazine and someone else handling the details. It can also involve a noisy dryer, an unfamiliar sink, a long wait and a conversation that leaves everybody agreeing to something slightly different. The useful preparation is specific: decide what you want done, what you want to skip and what would make the visit comfortable.</p>\n<p>This is an appointment-planning guide. It does not name a family-tested salon or prescribe a haircut for anyone else's hair. A good fit includes the person in the chair, the stylist's skills and the actual service being booked.</p>\n<h2>Write a haircut brief that fits on a phone screen</h2>\n<p>Bring one or two reference pictures and explain the feature you mean. It might be the length at the neck, the way the fringe sits or the amount of hair left around the ears. A reference picture contains plenty of other information, including texture and styling, that may have little to do with your own hair. Ask the stylist what is achievable and what the daily upkeep would involve.</p>\n<p>Add the ordinary-day constraint. Perhaps you want to wash and go, tie it back, wear a hat comfortably or spend only a few minutes styling. Those details give the conversation somewhere practical to begin. Save room for professional advice without treating a photograph as a promise.</p>\n<h2>Book the service you actually want</h2>\n<p>Ask what the appointment includes: consultation, wash, cut, drying and styling. Confirm the expected length of the appointment and the total for the agreed service. If you would rather leave without a blow-dry, ask whether that is available and how it affects the booking. Do the same for optional treatments before they begin.</p>\n<p>For Massachusetts readers, the state's <a href=\"https://www.mass.gov/info-details/hairdressers-manicurists-and-aestheticians-consumer-fact-sheet\">salon consumer guidance</a> explains the licensing framework. The <a href=\"https://www.mass.gov/info-details/division-of-occupational-licensure-check-a-license\">official license lookup</a> is a useful basic check. A license is not a personal recommendation, and a beautiful social feed does not answer appointment-specific questions.</p>\n<h2>Say the comfort part plainly</h2>\n<p>A short request is often clearer than a long explanation. “Could you tell me before turning on the dryer?” “Can we agree on the length before you begin?” “I prefer a quiet appointment.” “Please give me a moment to answer.” The salon can then say what it can accommodate.</p>\n<p>If the visit is for someone who uses communication support, address them directly and keep that support available. Ask about permission before sharing personal information with staff. A list of useful preferences usually serves the appointment better than a public account of someone's difficulties. A support person can help explain the plan while leaving room for the client's own choices.</p>\n<h2>Leave space around the appointment</h2>\n<p>Choose a time that does not force a race between commitments. Ask whether the first appointment of the day is usually quieter, rather than assuming it is. Check parking and the route into the building if either affects the visit. A quiet waiting area, an alternative to waiting inside or a chance to pause may matter more than the refreshments menu.</p>\n<p>Before leaving, take a moment to look at the result in the way you will normally wear it. Ask how to manage the chosen style with the tools already at home. Write down only the details worth repeating: stylist, service, useful wording and preferred booking time. A little continuity can make the next appointment much simpler, without turning personal care into a project.</p>",
+  "related_slugs": [
+    "the-pedicure-menu",
+    "small-weekend-beauty-bag"
+  ],
+  "sources": [
+    {
+      "source_id": "ma-salon",
+      "url": "https://www.mass.gov/info-details/hairdressers-manicurists-and-aestheticians-consumer-fact-sheet",
+      "title": "Massachusetts Board of Cosmetology and Barbering: consumer fact sheet",
+      "accessed": "2026-10-03"
+    },
+    {
+      "source_id": "ma-license",
+      "url": "https://www.mass.gov/info-details/division-of-occupational-licensure-check-a-license",
+      "title": "Massachusetts DOL: Check a license",
+      "accessed": "2026-10-03"
+    },
+    {
+      "source_id": "site-family",
+      "url": "https://anausomelife.com/profoundly-awesome.html",
+      "title": "An AUsome Life: Profoundly Awesome",
+      "accessed": "2026-10-03"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "slug": "the-pedicure-menu",
+  "title": "Read the pedicure menu before choosing the chair",
+  "category": "beauty",
+  "topics": [
+    "beauty",
+    "pedicures",
+    "salon",
+    "self-care",
+    "appointments"
+  ],
+  "format": "Practical guide",
+  "summary": "A practical look at service menus, polish choices, timing and comfort, with no pressure to book the longest treatment.",
+  "body_html": "<p>The most useful line on a pedicure menu may be the one that says how long it takes. Before choosing by the name of a package, find out what happens during it. A service described as deluxe can include steps you enjoy, steps you would rather skip and extras that change the price. The right appointment is the one you actually want.</p>\n<p>This is a guide to booking and communicating about a cosmetic service. It is not foot-care advice, a hygiene inspection or a recommendation for a particular salon. Questions about a skin or nail condition belong with an appropriate healthcare professional.</p>\n<h2>Begin with the occasion</h2>\n<p>Are you looking for a little time out, polish for an occasion or a straightforward grooming appointment? The answer changes the value of a long package. If your only aim is a particular color, ask whether the salon offers a suitable shorter service. If the quiet hour is the point, check how much of the appointment is treatment, waiting and drying.</p>\n<p>Put the appointment in the real day's timetable. You may have parking, a walk afterward, shoes to put back on or somebody expecting you home. Tell the technician about timing constraints before choosing the finish. Ask what the product instructions require and how much time to allow, rather than relying on a generic internet drying estimate.</p>\n<h2>Translate the menu into actual steps</h2>\n<p>Ask which steps are included, which are optional and which cost extra. Clarify whether old polish removal, a particular polish type, nail art or extra time changes the total. If you have an existing finish, name it when booking so the salon can advise on the service and time needed.</p>\n<p>You can ask to skip a scent, a scrub, a massage or a particular finishing step. Make the request before treatment starts and let the provider explain whether the selected service can be adapted. There is no requirement to enjoy every part of a package simply because it appears on the menu.</p>\n<p>In Massachusetts, use the state's <a href=\"https://www.mass.gov/info-details/division-of-occupational-licensure-check-a-license\">public license lookup</a> for a basic provider check. The Board's <a href=\"https://www.mass.gov/info-details/hairdressers-manicurists-and-aestheticians-consumer-fact-sheet\">consumer information</a> also explains salon licensing. These checks support a considered choice; they do not replace your own questions or establish that a service suits your individual circumstances.</p>\n<h2>Choose the color at your own pace</h2>\n<p>A wall of small bottles can make a simple decision oddly difficult. Narrow the choice before the appointment: pale, dark or bright; sheer or opaque; an old favorite or one new color. A photograph of a previous shade can help describe the direction, although screens and lighting change how colors look.</p>\n<p>Ask what the finish looks like in ordinary light and what removing it later will involve. A color you like is enough. It need not coordinate with an entire season's wardrobe, and a plain finish does not need an explanation.</p>\n<h2>Make the comfort request ordinary</h2>\n<p>Ask about the chair, access to the service area, fragrance, background music or conversation level if those details matter. A salon may be unable to promise silence when dryers and other services are running. A concrete answer lets you choose sensibly.</p>\n<p>If the appointment is for someone else, include them in these choices through their usual communication. Do not turn the visit into a test of how long they can tolerate it. Agree on how to pause or stop, and respect the answer in the moment.</p>\n<p>Before you leave, confirm any care instructions for the chosen product with the provider. Then save a short note about the service, color and booking details you would repeat. The useful souvenir is an easier next appointment, along with the pleasure of having chosen something for yourself.</p>",
+  "related_slugs": [
+    "a-better-hair-appointment",
+    "small-weekend-beauty-bag"
+  ],
+  "sources": [
+    {
+      "source_id": "ma-license",
+      "url": "https://www.mass.gov/info-details/division-of-occupational-licensure-check-a-license",
+      "title": "Massachusetts DOL: Check a license",
+      "accessed": "2026-10-03"
+    },
+    {
+      "source_id": "ma-salon",
+      "url": "https://www.mass.gov/info-details/hairdressers-manicurists-and-aestheticians-consumer-fact-sheet",
+      "title": "Massachusetts Board of Cosmetology and Barbering: consumer fact sheet",
+      "accessed": "2026-10-03"
+    },
+    {
+      "source_id": "site-family",
+      "url": "https://anausomelife.com/profoundly-awesome.html",
+      "title": "An AUsome Life: Profoundly Awesome",
+      "accessed": "2026-10-03"
+    }
+  ]
+}

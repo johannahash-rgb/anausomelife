@@ -1,0 +1,33 @@
+{
+  "slug": "household-instruction-cards",
+  "title": "The household instructions worth writing down",
+  "category": "home",
+  "topics": [
+    "home",
+    "communication",
+    "organization",
+    "practical-tech",
+    "routines"
+  ],
+  "format": "Practical guide",
+  "summary": "A small set of useful cards for ordinary repeat tasks, written with the people who will use them.",
+  "body_html": "<p>Some household knowledge lives entirely in one person's head: which remote changes the volume, where the spare towels are or what to do with a parcel that needs returning. Writing down a few of those details can make the home easier to use. The trick is to choose repeat tasks that benefit from a brief explanation, then put that explanation where it is needed.</p>\n<p>This is ordinary household organization. It is not a replacement for individualized communication support, professional instructions or a person's existing care plan. Keep private care information in the appropriate private channel.</p>\n<h2>Choose a task with a clear beginning and end</h2>\n<p>Start with something small and low risk. “Find a clean tea towel” or “put library books in the return bag” is easier to explain than “help with the house.” Ask the people doing the task where it becomes unclear. Sometimes the better fix is moving the object or removing a step, so no instruction is needed at all.</p>\n<p>A useful card answers three questions: what is this for, what do I do, and how do I know I am finished? Keep it close to the task without covering controls, vents or safety information.</p>\n<h2>Write from the actual sequence</h2>\n<p>Walk through the task as it happens. Use the names people already use for objects and places. “Blue bag beside the door” is easier to locate than “outgoing materials receptacle.” Choose words, photographs or other formats that make sense to the person, rather than assuming one presentation will work for everyone.</p>\n<p>For a library return bag, the card might say: “Put finished library books in this bag. Keep books you are still reading on the shelf. Check the due date before the next library trip.” That is a constructed household example. Change it to match your own arrangement.</p>\n<p>Keep optional extras separate. A card becomes harder to use when the necessary step is buried among suggestions, exceptions and decorative reminders.</p>\n<h2>Test the card with permission</h2>\n<p>Ask somebody willing to use the instructions to try the ordinary task. Notice whether they can find the card, read or recognize it and identify the next step. Invite their changes. A confusing instruction is a design problem to improve, not a reason to quiz or correct the person using it.</p>\n<p>If assistance is part of the task, include that clearly. An instruction can say when to ask for help. It should not invite somebody to operate equipment, reach a difficult place or handle a hazard beyond what is appropriate for them.</p>\n<h2>Keep the appearance calm and readable</h2>\n<p>Use enough contrast, a comfortable text size and space between steps. A decorative typeface may look lovely on a label but make a longer instruction difficult to read. Avoid relying only on color when a word, shape or photograph can carry the same meaning.</p>\n<p>Print one draft on ordinary paper before laminating or buying a label system. You may discover that the location or wording needs to change. A pencil note that works is a better starting point than a beautifully finished sign nobody uses.</p>\n<h2>Separate public household information from private information</h2>\n<p>A Wi-Fi guest instruction, television guide and towel label are different from account credentials or personal schedules. Think about who can see each card. Do not put passwords, access codes, health information or private routines on a surface visible to visitors.</p>\n<p>If you use a digital note, check who can access it and what happens when it is shared. Keep the amount of information proportional to the job.</p>\n<h2>Retire the stale versions</h2>\n<p>Date the instruction where that helps and give one person responsibility for updating it. When the remote changes or the books move, replace the old card. Avoid having several conflicting versions around the house.</p>\n<p>Our <a href=\"/at-home.html\">At Home guides</a> favor systems that remove repeated work. A few thoughtfully written instructions can do that quietly, especially when they are created with the people who use the space and kept small enough to maintain.</p>",
+  "related_slugs": [
+    "wet-weather-entryway",
+    "the-grocery-list-handoff"
+  ],
+  "sources": [
+    {
+      "source_id": "site-about",
+      "url": "https://anausomelife.com/about.html",
+      "title": "An AUsome Life: About",
+      "accessed": "2026-10-03"
+    },
+    {
+      "source_id": "site-family",
+      "url": "https://anausomelife.com/profoundly-awesome.html",
+      "title": "An AUsome Life: Profoundly Awesome",
+      "accessed": "2026-10-03"
+    }
+  ]
+}

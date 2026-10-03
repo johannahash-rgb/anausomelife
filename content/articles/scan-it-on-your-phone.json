@@ -1,0 +1,34 @@
+{
+  "slug": "scan-it-on-your-phone",
+  "title": "Scan it on your phone, then make it findable",
+  "category": "home",
+  "topics": [
+    "home",
+    "practical-tech",
+    "paperwork",
+    "organization",
+    "phone"
+  ],
+  "format": "Practical guide",
+  "summary": "A simple scan-and-file routine for ordinary household paper, using tools you may already have.",
+  "body_html": "<p>The difficult part of digitizing household paper is often what happens after the scan. A perfectly straight PDF called “Scan 47” can be almost as hard to find as the original piece of paper. A useful system needs three decisions: what to scan, what to call it and where it will live.</p>\n<p>Start with a low-sensitivity everyday item such as an appliance instruction sheet. Practice the method before working with private or important documents. This is a filing guide, not advice about which original records can legally be discarded.</p>\n<h2>Use the tool you already have</h2>\n<p>On supported Apple devices, the <a href=\"https://support.apple.com/en-gb/108963\">Notes and Files apps can scan documents</a>. In Notes, create or open a note, choose the attachment control and Scan Documents, capture the pages, adjust the boundaries if needed and save. The exact labels can vary with software version.</p>\n<p>The <a href=\"https://support.google.com/drive/answer/3145835?co=GENIE.Platform%3DAndroid&hl=en-GB\">Google Drive app for Android</a> also supports document scanning, page adjustment and saving as a PDF or image. Select the correct account and destination before saving. Follow the current official instructions for your device rather than downloading an unfamiliar scanning app for a task the existing software can handle.</p>\n<h2>Check the page before filing it</h2>\n<p>Use good, even light and keep fingers, unrelated paperwork and private information out of the frame. Check every page at a readable size. Look for cropped edges, glare, a missing reverse side or a page captured in the wrong order.</p>\n<p>Text recognition can help with searching, but it is not a guarantee that every word or number has been read correctly. If a detail matters, inspect the actual image. Do not edit a record to remove meaningful information merely to make it look cleaner.</p>\n<p>For an instruction booklet, include the cover or model information that makes the pages identifiable. A page explaining three buttons is less helpful if you cannot remember which appliance it belongs to.</p>\n<h2>Name it for the question you will ask later</h2>\n<p>Use a simple pattern, such as object, document type and date where the date is useful. “Desk lamp instructions” is a sensible name for an ordinary manual. “Washer model ABC instructions” is better if the household has changed machines over time. These are constructed examples, not product recommendations.</p>\n<p>Avoid putting sensitive details in file names that may appear in notifications, search results or shared-folder listings. The folder and account deserve the same privacy consideration as the document itself.</p>\n<h2>Choose one destination</h2>\n<p>Create a small number of folders based on how you retrieve information. A household manuals folder can hold everyday instructions without also becoming a home for financial records, personal care documents and old school paperwork. Keep categories distinct when access needs differ.</p>\n<p>Check who can see the destination. Saving to a shared account or folder can expose more than intended. Share a copy or grant access only when appropriate, and make sure the recipient can actually open it.</p>\n<h2>Keep originals until you have a reasoned plan</h2>\n<p>A successful scan is not a reason to discard every original. Some papers need to be retained, and the relevant issuer or professional can advise where necessary. Put the original back in its usual place while you establish what the digital copy is for.</p>\n<p>For the small practice item, verify that the file opens from its saved destination, has all the pages and can be found using the words you chose. Decide how it will be backed up before assuming the job is finished.</p>\n<h2>Stop after a useful first batch</h2>\n<p>Try five items rather than the whole cupboard. If the naming or folder arrangement feels awkward, change it while the collection is small. Once the method works, use it when paper arrives instead of waiting for another ambitious sorting day.</p>\n<p>A modest, dependable filing habit is more valuable than a beautiful digital cabinet full of documents nobody can retrieve.</p>",
+  "related_slugs": [
+    "a-photo-box-with-a-story",
+    "offline-outing-folder",
+    "household-instruction-cards"
+  ],
+  "sources": [
+    {
+      "source_id": "apple-scan",
+      "url": "https://support.apple.com/en-gb/108963",
+      "title": "Apple: Scan documents on iPhone or iPad",
+      "accessed": "2026-10-03"
+    },
+    {
+      "source_id": "google-scan",
+      "url": "https://support.google.com/drive/answer/3145835?co=GENIE.Platform%3DAndroid&hl=en-GB",
+      "title": "Google Drive: Scan documents",
+      "accessed": "2026-10-03"
+    }
+  ]
+}

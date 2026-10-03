@@ -1,0 +1,27 @@
+{
+  "slug": "a-photo-box-with-a-story",
+  "title": "A photo box with a story you can find again",
+  "category": "home",
+  "topics": [
+    "home",
+    "photographs",
+    "family-history",
+    "organization",
+    "keepsakes"
+  ],
+  "format": "Practical guide",
+  "summary": "A manageable first pass through printed photographs, with careful handling, useful context and a small finished collection.",
+  "body_html": "<p>A box of photographs is often several projects at once. There are pictures to identify, duplicates to sort, relatives to ask and albums you may eventually want to make. Start smaller: choose one event, one year or one modest stack, and make that part easier to understand and find.</p>\n<p>The first goal is a usable little collection. You can decide about the grand family archive another day.</p>\n<h2>Set up a small, clear work area</h2>\n<p>Keep food and drinks away from the photographs. The <a href=\"https://www.loc.gov/preservation/care/photo.html\">Library of Congress</a> recommends careful handling, avoiding the image surface, and labeling suitable housing materials instead of marking photographs where possible. Its guidance also warns against adhesives and mechanical fasteners on prints and recommends photo-safe enclosures. For fragile, damaged or unfamiliar photographic materials, read the full guidance or ask a qualified conservator before attempting treatment.</p>\n<p>Work with a small group that can be safely put away at the end of the session. A project left spread across the dining table can become much larger than intended when the room needs to be used again.</p>\n<h2>Give the group a simple identity</h2>\n<p>Choose a name that another person could understand: “Seaside weekend, summer 2019” is more useful than “old favorites.” If the date or place is uncertain, say so. A question mark preserves an honest gap; a confident guess can become mistaken family history.</p>\n<p>Create a separate note with the people, place, approximate date and source of the information. Keep each photograph associated with the right note through an appropriate enclosure or simple inventory. Avoid numbering or sticking labels directly onto the print unless you have confirmed a suitable method for that material.</p>\n<h2>Ask one specific question</h2>\n<p>If a relative might recognize a picture, make the question easy. “Do you remember which beach this was?” gives them a starting point. “Tell me everything about the family photos” is a much bigger request. Let them distinguish memory from inference, and record whose recollection it is.</p>\n<p>Permission matters when sharing copies, especially photographs involving children or private moments. A request for help identifying one picture does not require sending the entire album. Keep the circle as small as the task needs.</p>\n<h2>Preserve the ordinary context</h2>\n<p>An archive benefits from details beyond formal occasions. A shop sign, the layout of a room or the name of a favorite book can help explain a period of life. Write down the things you genuinely know, and separate them from feelings or reactions you would be inventing for someone else.</p>\n<p>A caption can be very short: where, when, who and why this particular picture was kept. If the photograph will eventually appear publicly, create a separate public caption. Leave private identities, precise routines and sensitive details in the private record when there is a legitimate reason to keep them at all.</p>\n<h2>Choose a sensible place to keep it</h2>\n<p>The Library of Congress emphasizes a cool, relatively dry, stable storage environment, away from light, leaks and extremes. It advises against attics and basements and identifies standards for photo-safe sleeves and boxes. Follow the guidance appropriate to your materials rather than assuming every product labeled “archival” is equivalent.</p>\n<p>A decorative box can still be useful for an outer layer, but check what touches the photograph. Keep the collection somewhere it can be retrieved without unpacking half a cupboard.</p>\n<h2>Finish one small collection</h2>\n<p>Make a brief inventory of what you have completed and what remains uncertain. If you make digital copies, give them matching names and check that they actually open. Keep original files intact when experimenting with edits.</p>\n<p>The finished result might be only twenty photographs and a page of notes. That is enough to turn an anonymous pile into something another family member can understand. It also gives the next session a clear beginning, which is often the best reason to stop while the work still feels pleasant.</p>",
+  "related_slugs": [
+    "scan-it-on-your-phone",
+    "household-instruction-cards"
+  ],
+  "sources": [
+    {
+      "source_id": "loc-photos",
+      "url": "https://www.loc.gov/preservation/care/photo.html",
+      "title": "Library of Congress: Care, handling and storage of photographs",
+      "accessed": "2026-10-03"
+    }
+  ]
+}

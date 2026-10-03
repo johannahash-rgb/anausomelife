@@ -1,0 +1,44 @@
+{
+  "llbean": {
+    "asset": "/assets/logos/llbean.svg",
+    "sourceUrl": "https://www.llbean.com/llb/shop/1000001705",
+    "width": 146,
+    "height": 29,
+    "alt": "L.L.Bean logo"
+  },
+  "book-barn": {
+    "asset": "/assets/logos/book-barn.webp",
+    "sourceUrl": "https://www.bookbarnniantic.com/",
+    "width": 816,
+    "height": 756,
+    "alt": "The Book Barn logo"
+  },
+  "wegmans": {
+    "asset": "/assets/logos/wegmans.webp",
+    "sourceUrl": "https://www.wegmans.com/news-media/photo-logo-gallery",
+    "width": 1000,
+    "height": 379,
+    "alt": "Wegmans logo"
+  },
+  "rancatores": {
+    "asset": "/assets/logos/rancatores.webp",
+    "sourceUrl": "https://www.rancs.com/",
+    "width": 333,
+    "height": 158,
+    "alt": "Rancatore’s logo"
+  },
+  "lacascias": {
+    "asset": "/assets/logos/lacascias.webp",
+    "sourceUrl": "https://www.lacascias.com/",
+    "width": 357,
+    "height": 226,
+    "alt": "LaCascia’s Bakery & Deli logo"
+  },
+  "wilson-farm": {
+    "asset": "/assets/logos/wilson-farm.webp",
+    "sourceUrl": "https://www.wilsonfarm.com/v2.0/home.php",
+    "width": 250,
+    "height": 146,
+    "alt": "Wilson Farm logo"
+  }
+}

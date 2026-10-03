@@ -1,0 +1,34 @@
+{
+  "slug": "offline-outing-folder",
+  "title": "The outing folder that works without a signal",
+  "category": "outings",
+  "topics": [
+    "outings",
+    "practical-tech",
+    "travel",
+    "offline",
+    "planning"
+  ],
+  "format": "Practical guide",
+  "summary": "Put the essential route, tickets and contact details in one tested place before leaving home.",
+  "body_html": "<p>A useful phone folder is small. It holds the information that would be annoying to lose at the exact moment you need it: the correct entrance, the route back, a ticket and a contact number. It does not need every screenshot taken while planning the trip.</p>\n<p>Build the folder while you have a reliable connection, then test the parts you expect to use offline. A page being open on your phone does not automatically mean it will remain available when the signal disappears.</p>\n<h2>Save the right destination</h2>\n<p>Begin with the entrance you actually need. A large property may have several parking areas or a separate accessible entrance. Confirm the relevant route on the venue's official site or with its staff. Save the public address, the useful entrance note and the return destination in a place you can find quickly.</p>\n<p>If you take a screenshot, include enough context to recognize it later. Name it or place it in a clearly titled album. A collection of unrelated blue map fragments is difficult to use in a car park.</p>\n<h2>Download a map rather than assuming one is cached</h2>\n<p>Apple's <a href=\"https://support.apple.com/en-us/105084\">offline Maps guidance</a> explains how to download a selected area on supported iPhones and notes that offline maps are not available everywhere. In Google Maps, download the area using the app's <a href=\"https://support.google.com/maps/answer/6291838?hl=en\">official offline-map instructions</a>. Google says an offline driving route must lie inside the downloaded area; offline transit, cycling and walking directions are unavailable, as are traffic information and alternative driving routes.</p>\n<p>Those differences matter. Save the relevant route information for the app and travel mode you actually use. Keep maps updated, check the download completed and make sure the device has enough storage. Do not treat an old downloaded map as proof of current road or trail conditions.</p>\n<h2>Put tickets in their proper place</h2>\n<p>Use the ticket provider's supported wallet or offline method where available. Some tickets use changing codes or have display requirements, so a screenshot may not be accepted. Read the provider's instructions and test that you can open the ticket before leaving.</p>\n<p>Keep booking references and barcodes private. A screenshot intended for a public trip post should not show them. If another adult needs a ticket, use the provider's approved transfer or sharing method and confirm they can access it.</p>\n<h2>Add a short human-readable note</h2>\n<p>Include the venue's official contact number, the date, the important timing and any confirmed access arrangement. State when you checked it. “Staff confirmed this entrance on Friday” is more informative than “accessible entrance,” particularly if the note will be reused months later.</p>\n<p>Keep personal support information separate and share only with the people who need it. The general outing folder can say where to meet without displaying private care information or a detailed daily routine.</p>\n<h2>Do one short test</h2>\n<p>Open the saved materials in the way you intend to use them. Check the map area, ticket and key note. If you test with connectivity disabled, restore your normal connection afterward and confirm important services work as expected. Do not change a communication or safety setup casually in the process.</p>\n<p>Bring an appropriate charging arrangement for the device, following its instructions. A small paper note with the public destination and an agreed meeting place can also be useful. It is an option, not a requirement to build a second filing system.</p>\n<h2>Clear it after the trip</h2>\n<p>Keep the few details that would help on a return visit and remove stale tickets or obsolete instructions when appropriate. Date anything retained. Next time, check the current source again.</p>\n<p>The reward is fairly ordinary: less searching at a busy doorway, a clearer route back and the information you expected to have when you need it.</p>",
+  "related_slugs": [
+    "library-pass-day-trip",
+    "reading-a-trail-access-sign",
+    "scan-it-on-your-phone"
+  ],
+  "sources": [
+    {
+      "source_id": "apple-maps",
+      "url": "https://support.apple.com/en-us/105084",
+      "title": "Apple: Download maps to use offline on iPhone",
+      "accessed": "2026-10-03"
+    },
+    {
+      "source_id": "google-maps",
+      "url": "https://support.google.com/maps/answer/6291838?hl=en",
+      "title": "Google Maps: Download areas and navigate offline",
+      "accessed": "2026-10-03"
+    }
+  ]
+}

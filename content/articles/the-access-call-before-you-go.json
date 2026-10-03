@@ -1,0 +1,34 @@
+{
+  "slug": "the-access-call-before-you-go",
+  "title": "The access call before you go",
+  "category": "outings",
+  "topics": [
+    "outings",
+    "access",
+    "communication",
+    "planning",
+    "bathrooms"
+  ],
+  "format": "Practical guide",
+  "summary": "Ask a venue for the specific entrance, seating and bathroom information that will decide whether an outing works.",
+  "body_html": "<p>“Is it accessible?” can be a difficult question for a venue to answer usefully. The staff member may be thinking about a front door while you are thinking about a bathroom, a place to sit or room for another person to assist. A better call begins with the particular feature you need to understand.</p>\n<p>This is a practical communication guide. It does not assess a venue's legal compliance or guarantee that an arrangement will meet any individual's needs.</p>\n<h2>Write the deciding questions first</h2>\n<p>Choose the two or three details that could change the plan. For one visit, those may be the distance from parking and a step-free entrance. For another, it may be bathroom equipment or whether a seat can be reserved. Put those questions before the optional details about the café.</p>\n<p>Use measurements when you know they matter, and ask for facts rather than a general reassurance. “Which entrance is step-free, and how do we reach it from the car park?” gives staff something specific to check. Avoid assuming that an accessible entrance is open whenever the rest of the building is open.</p>\n<h2>Ask about the actual bathroom arrangement</h2>\n<p>A bathroom symbol can stand for several different spaces. Ask about the feature that matters: single-user or multi-user layout, room for assistance, the route to it, opening arrangements and any equipment you require. A baby-changing surface does not answer a question about an adult-sized changing facility.</p>\n<p>If equipment is important, ask the venue to confirm its type, current availability and how it is accessed. Do not infer dimensions, weight limits or suitability from a photograph. A staff member may need to ask a colleague; allow that rather than pressing for an immediate guess.</p>\n<p>Share only the personal information needed to explain the practical requirement. You can ask about space and equipment without giving a diagnosis or a private care history.</p>\n<h2>Ask who can confirm an uncertain answer</h2>\n<p>If the first person does not know, ask whether a relevant staff member can check and reply. It may help to send a short written question through the venue's official contact channel. Keep the wording focused enough that it can be forwarded without losing the point.</p>\n<p>A useful constructed example is: “Before booking, could you confirm which entrance we should use, whether the single-user bathroom will be open during our visit and whether there is seating near the activity? Those details will help us decide whether the visit works.” Adapt the questions to the actual outing.</p>\n<h2>Record the answer with its date</h2>\n<p>Write down what was confirmed, when and by whom or by which department, without turning the note into a collection of unnecessary personal staff details. Separate a confirmed arrangement from a suggestion. “Staff will try to find a chair” is different from “a chair is reserved.”</p>\n<p>If something is essential, ask how to check it again close to the visit and whom to speak to on arrival. Keep any written confirmation where the person handling the outing can find it.</p>\n<h2>Decide before paying or promising</h2>\n<p>An unclear answer is information too. You may need to wait, choose another activity or ask a more precise question. Avoid filling a gap with optimism when the missing detail determines whether someone can comfortably take part.</p>\n<p>For an outdoor option, official resources such as <a href=\"https://www.mass.gov/resource/independent-accessible-recreation-opportunities-at-dcr\">DCR's accessible recreation guide</a> can help identify places to investigate. They do not remove the need to check the particular facilities and current conditions that matter to you.</p>\n<h2>Keep the person in the decision</h2>\n<p>The final question is whether the outing suits the person going, including their own interest in it. Access planning should make participation possible while preserving the option to decline. The useful result of the call is a clearer decision, with fewer surprises and more room to enjoy the day.</p>",
+  "related_slugs": [
+    "reading-a-trail-access-sign",
+    "offline-outing-folder",
+    "library-pass-day-trip"
+  ],
+  "sources": [
+    {
+      "source_id": "dcr-access",
+      "url": "https://www.mass.gov/resource/independent-accessible-recreation-opportunities-at-dcr",
+      "title": "Massachusetts DCR: Independent accessible recreation",
+      "accessed": "2026-10-03"
+    },
+    {
+      "source_id": "site-family",
+      "url": "https://anausomelife.com/profoundly-awesome.html",
+      "title": "An AUsome Life: Profoundly Awesome",
+      "accessed": "2026-10-03"
+    }
+  ]
+}

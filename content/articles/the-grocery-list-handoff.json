@@ -1,0 +1,33 @@
+{
+  "slug": "the-grocery-list-handoff",
+  "title": "The grocery list someone else can actually use",
+  "category": "home",
+  "topics": [
+    "home",
+    "practical-tech",
+    "groceries",
+    "shared-work",
+    "organization"
+  ],
+  "format": "Practical guide",
+  "summary": "Make a shared shopping list specific enough to hand over, with clear quantities and a plan for substitutions.",
+  "body_html": "<p>A shared grocery list only shares the work if another person can use it without sending a question from every aisle. “Yogurt” might be perfectly clear to the person who wrote it and nearly useless to the person looking at forty versions. The answer is a little specificity, placed where it saves the most effort.</p>\n<p>Start with one shopping trip. Keep the list short enough to test and use an app, note or piece of paper that the actual shoppers can comfortably access. A complicated system is unnecessary if a simple one does the job.</p>\n<h2>Decide when an item belongs on the list</h2>\n<p>Agree on the trigger. Does the household add something when the last unopened packet is taken out, when the supply runs low or when the next meal plan calls for it? The answer can vary by item, but the people maintaining the list need to know.</p>\n<p>Check existing supplies before adding duplicates. A useful list reflects what needs to arrive, not every item that might be nice to have. If several people shop, choose one place where the current version lives.</p>\n<h2>Make the important items specific</h2>\n<p>Include the details that change whether a purchase works: quantity, size, variety or the exact version when that matters. A short description or photograph can help with an unfamiliar item, provided the image is current and easy to identify.</p>\n<p>Avoid turning the whole list into a catalog. Everyday flexible items may need only a name and quantity. Save the extra detail for the things that have caused confusion before. Ask the people using the food what they want rather than assuming a substitute is interchangeable.</p>\n<p>For dietary requirements or allergies, use the household's established arrangements and check labels appropriately. This guide does not determine whether a food is suitable for a particular person.</p>\n<h2>Put the substitution decision on the list</h2>\n<p>For each item where it matters, choose a simple instruction: this exact version, one acceptable alternative or skip if unavailable. If the shopper needs to ask, agree on how and when. A message that goes unanswered while someone stands beside a freezer is not much of a plan.</p>\n<p>Keep private reasons out of a broadly shared list. The shopper can know which item is needed without being given unrelated personal information about the person who uses it.</p>\n<h2>Let the app do a small useful job</h2>\n<p>On compatible iPhones, Apple's <a href=\"https://support.apple.com/en-gb/105086\">Groceries list type in Reminders</a> can sort items into categories. Apple says the feature requires iCloud Reminders and supports manually moving an item when its automatic category is unhelpful. It remembers that category choice for the next addition.</p>\n<p>Automatic sorting can save a little work, but the list still needs clear items and the right people able to see it. Check sharing before relying on it. If the shoppers use different devices or accounts, choose a tool that works for both rather than forcing the household into a new setup for one feature.</p>\n<h2>Define what checked off means</h2>\n<p>Agree whether checking an item means it is in the trolley, purchased or put away at home. The distinction matters if two people could shop at once. Use the same convention for a few trips and adjust if duplicates still appear.</p>\n<p>After shopping, update the list for items that were unavailable. Do not leave an old request indistinguishable from a new one. If a substitute worked well, record it only with the relevant person's agreement.</p>\n<h2>Make the handoff complete</h2>\n<p>Before leaving, the shopper should know the list, any spending constraint and how to handle uncertainty. Afterward, somebody still needs to bring the food in and put it away appropriately. Include that part when sharing the work.</p>\n<p>The best list gradually needs fewer explanations. It keeps enough detail to be useful while leaving the rest of the household free to think about something other than groceries.</p>",
+  "related_slugs": [
+    "household-instruction-cards",
+    "holiday-meal-two-timetables"
+  ],
+  "sources": [
+    {
+      "source_id": "apple-groceries",
+      "url": "https://support.apple.com/en-gb/105086",
+      "title": "Apple: Create grocery lists in Reminders",
+      "accessed": "2026-10-03"
+    },
+    {
+      "source_id": "site-choose",
+      "url": "https://anausomelife.com/how-we-choose.html",
+      "title": "An AUsome Life: How we choose",
+      "accessed": "2026-10-03"
+    }
+  ]
+}
