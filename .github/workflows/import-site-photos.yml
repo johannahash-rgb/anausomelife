@@ -29,11 +29,29 @@ jobs:
           test "$(head -c 2 assets/orchard-afternoon.jpg | xxd -p)" = "ffd8"
           test "$(head -c 2 assets/york-maine.jpg | xxd -p)" = "ffd8"
           test "$(head -c 2 assets/book-barn-ct.jpg | xxd -p)" = "ffd8"
+      - name: Make clean website crops
+        run: |
+          python3 -m pip install --quiet pillow
+          python3 - <<'PY'
+          from PIL import Image
+
+          jobs = [
+              ("assets/orchard-afternoon.jpg", "assets/orchard-afternoon-clean.jpg", 0.1125, 0.8875),
+              ("assets/york-maine.jpg", "assets/york-maine-clean.jpg", 0.1125, 0.8425),
+              ("assets/book-barn-ct.jpg", "assets/book-barn-ct-clean.jpg", 0.1125, 0.8425),
+          ]
+          for src, dst, top_f, bottom_f in jobs:
+              im = Image.open(src).convert("RGB")
+              w, h = im.size
+              top, bottom = round(h * top_f), round(h * bottom_f)
+              im = im.crop((0, top, w, bottom))
+              im.save(dst, "JPEG", quality=90, optimize=True, progressive=True)
+          PY
       - name: Commit imported photos
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add assets/orchard-afternoon.jpg assets/york-maine.jpg assets/book-barn-ct.jpg
+          git add assets/orchard-afternoon.jpg assets/york-maine.jpg assets/book-barn-ct.jpg assets/orchard-afternoon-clean.jpg assets/york-maine-clean.jpg assets/book-barn-ct-clean.jpg
           if ! git diff --cached --quiet; then
             git commit -m 'Add selected New England photos'
             git push
