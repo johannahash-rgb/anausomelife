@@ -63,3 +63,14 @@
   .directory-page .resource-card{min-height:0}
   .category-strip{margin-top:26px}
 }
+
+.directory-visual-section{padding-top:18px!important}
+.directory-visual-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:18px}
+.directory-visual-grid a{display:block;text-decoration:none;background:var(--paper);border:1px solid var(--rule)}
+.directory-visual-grid img{display:block;width:100%;aspect-ratio:4/3;object-fit:cover}
+.directory-visual-grid span{display:block;padding:17px 18px 20px}
+.directory-visual-grid strong{display:block;font:400 1.35rem/1.2 var(--serif);color:var(--navy)}
+.directory-visual-grid small{display:block;color:var(--muted);font-size:.82rem;line-height:1.55;margin-top:8px}
+.directory-visual-grid a:hover strong{text-decoration:underline;text-underline-offset:5px}
+@media(max-width:900px){.directory-visual-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:650px){.directory-visual-grid{grid-template-columns:1fr}}
