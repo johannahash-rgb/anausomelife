@@ -1,0 +1,14 @@
+{
+  "asset": "/assets/outing-studio/freeport-boot.webp",
+  "created": "2026-10-03",
+  "tool": "built-in image generation",
+  "type": "AI-created photorealistic editorial interpretation",
+  "research_sources": [
+    "https://www.llbean.com/llb/shop/1000001705",
+    "https://www.llbean.com/llb/shop/20011038",
+    "https://www.wbrcae.com/project/llbean-flagship-store-campus/"
+  ],
+  "prompt": "Create original editorial travel artwork inspired by the L.L.Bean flagship in Freeport: iconic giant tan and dark-brown duck boot with yellow-tan laces, pine-green architectural details, timber character, cream facade, natural stone/brick forecourt, evergreen planting and early-autumn golden foliage. Preppy Nantucket meets Vermont, warm clear natural light, immersive photorealism, original composition, 3:2 landscape, no people, no text overlay or watermark. Interpretive artwork, not a precise architectural record or current wayfinding photograph. Label as AI-created on the website.",
+  "usage": "Decorative recognition preview only. The actual family reference image remains separate.",
+  "review": "Checked for requested New England aesthetic, full boot subject, absence of people and no misleading added labels. Original PNG preserved; web asset converted to WebP."
+}

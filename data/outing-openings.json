@@ -1,0 +1,238 @@
+{
+  "boston-common-frog-pond": {
+    "title": "A Boston afternoon, made small.",
+    "kind": "visit idea",
+    "story": "For a Boston day, we would let Frog Pond be the little center of the adventure: one seasonal activity, a pause, and time to look around. The rest of the Common can wait for another day.",
+    "tip": "Choose one seasonal activity, then leave room for a bench break.",
+    "activity": "choose one seasonal activity",
+    "url": "/favorite-places/boston-common-frog-pond.html"
+  },
+  "great-brook-farm": {
+    "title": "A little country in the afternoon.",
+    "kind": "visit idea",
+    "story": "Our version of a Great Brook day would start with the smallest good plan: a look around the farm and a little time outdoors. Anything extra can be decided after we arrive, with the whole afternoon still our own.",
+    "tip": "Choose a short route before adding another activity.",
+    "activity": "look around the farm",
+    "url": "/favorite-places/great-brook-farm.html"
+  },
+  "lacascias-burlington": {
+    "title": "A good lunch is an outing.",
+    "kind": "on our list",
+    "story": "LaCascia’s is on our list for the kind of outing that comes home with you: something for lunch and perhaps something for later. We like a plan with a useful little reward and no obligation to turn it into a grand event.",
+    "tip": "Look at the current menu together before leaving.",
+    "activity": "choose something to eat",
+    "url": "/favorite-places/lacascias-burlington.html"
+  },
+  "marginal-way-ogunquit": {
+    "title": "Just enough ocean.",
+    "kind": "visit idea",
+    "story": "For Marginal Way, we would begin with the view and let the walk follow. A little sea air, somewhere to pause, and permission to turn back make a lovely plan all by themselves.",
+    "tip": "Choose an access point and a comfortable turn-around point first.",
+    "activity": "look at the ocean",
+    "url": "/favorite-places/marginal-way-ogunquit.html"
+  },
+  "minute-man-battle-road": {
+    "title": "History at our own pace.",
+    "kind": "visit idea",
+    "story": "Our Battle Road plan would leave plenty of room between the history and the doing. One familiar stretch, one thing to notice, and an unhurried return are a fine afternoon’s worth.",
+    "tip": "Start with one trailhead and check its current conditions.",
+    "activity": "take a short walk",
+    "url": "/favorite-places/minute-man-battle-road.html"
+  },
+  "new-england-aquarium": {
+    "title": "Let one wonderful thing be enough.",
+    "kind": "visit idea",
+    "story": "For an Aquarium visit, we would give the day one clear beginning and plenty of room to pause. One tank or favorite animal can be the whole story; we can decide about the next chapter together.",
+    "tip": "Review the Aquarium’s current sensory and access information before choosing a route.",
+    "activity": "choose an animal to watch",
+    "url": "/favorite-places/new-england-aquarium.html"
+  },
+  "walden-pond": {
+    "title": "The pond is the occasion.",
+    "kind": "visit idea",
+    "story": "Our Walden plan would keep the water in view and the timetable light. We would choose one part of the visit to enjoy, with everything else left as an invitation.",
+    "tip": "Check current access and swimming conditions before setting out.",
+    "activity": "look at the pond",
+    "url": "/favorite-places/walden-pond.html"
+  },
+  "wegmans-burlington": {
+    "title": "Pizza, then home.",
+    "kind": "from our family life",
+    "story": "Wegmans pizza has been part of our welcome-home routine after a trip. It is an ordinary pleasure we are happy to count: something familiar to eat, a useful stop, and the next part of the day made a little easier.",
+    "tip": "Decide on the food stop first; keep extra shopping optional.",
+    "activity": "choose our food",
+    "url": "/favorite-places/wegmans-burlington.html"
+  },
+  "wildwood-park-burlington": {
+    "title": "The everyday kind of lovely.",
+    "kind": "visit idea",
+    "story": "For a park afternoon, we would start with room to move and one thing that looks inviting. A familiar rhythm can make an ordinary place feel like exactly where we meant to be.",
+    "tip": "Choose one activity and an easy meeting point.",
+    "activity": "choose something to do at the park",
+    "url": "/favorite-places/wildwood-park-burlington.html"
+  },
+  "favorite-places-book-barn-niantic": {
+    "title": "A few pages of a good day.",
+    "kind": "visit idea",
+    "story": "Our Book Barn plan would leave space for a little wandering and one promising shelf. There is no need to agree on the same book for it to become a shared afternoon.",
+    "tip": "Pick one area to explore before adding another.",
+    "activity": "look at the books",
+    "url": "/favorite-places-book-barn-niantic.html"
+  },
+  "favorite-places-codman-community-farms": {
+    "title": "A little farm time, close to home.",
+    "kind": "visit idea",
+    "story": "For Codman, we would keep the plan close to the simple things: the farm, a little fresh air, and something to notice together. It is a lovely shape for an outing that can stay as small as we need.",
+    "tip": "Check what is open and choose one part of the farm to visit.",
+    "activity": "look around the farm",
+    "url": "/favorite-places-codman-community-farms.html"
+  },
+  "favorite-places-decordova": {
+    "title": "Art with room to move.",
+    "kind": "from our family life",
+    "story": "deCordova belongs among the outdoor places we keep close to home. Our kind of visit leaves room to look, move, pause and decide together which sculpture gets the next few minutes.",
+    "tip": "Choose a small part of the grounds and check the route before you go.",
+    "activity": "look at a sculpture",
+    "url": "/favorite-places-decordova.html"
+  },
+  "favorite-places-drumlin-farm": {
+    "title": "A familiar bit of countryside.",
+    "kind": "from our family life",
+    "story": "Drumlin is one of the local places in our family’s orbit. We like the idea of a day with animals, a little movement and a gentle beginning, with home still close when we are ready.",
+    "tip": "Choose one animal area and check the route and opening information.",
+    "activity": "look at the animals",
+    "url": "/favorite-places-drumlin-farm.html"
+  },
+  "favorite-places-gilsland-farm": {
+    "title": "A quieter chapter near Portland.",
+    "kind": "visit idea",
+    "story": "For Gilsland, we would build the day around looking rather than rushing: a bit of landscape, something moving in the trees, a place to pause. The plan can be as light as the afternoon asks.",
+    "tip": "Use the current trail information to choose a comfortable route.",
+    "activity": "look around outdoors",
+    "url": "/favorite-places-gilsland-farm.html"
+  },
+  "favorite-places-kittery-food-mart-fort-mcclary": {
+    "title": "Lunch, with a view.",
+    "kind": "our Maine lunch idea",
+    "story": "Our Maine lunch idea starts with a stop at Kittery Food Mart and leaves room to take the food somewhere with a view. Fort McClary is the picnic stop in this guide—a little fresh air around an otherwise very practical plan.",
+    "tip": "Choose the picnic spot after checking the weather and access route.",
+    "activity": "have our picnic",
+    "url": "/favorite-places-kittery-food-mart-fort-mcclary.html"
+  },
+  "favorite-places-lifetime-burlington": {
+    "title": "Sometimes the whole plan is water.",
+    "kind": "from our family life",
+    "story": "Life Time Burlington is part of our family’s regular rhythm, and the pool can be the entire outing. There is something lovely about returning to a familiar pleasure without having to invent a whole new day around it.",
+    "tip": "Check the current swim schedule and pack the familiar pool things first.",
+    "activity": "spend time at the pool",
+    "url": "/favorite-places-lifetime-burlington.html"
+  },
+  "favorite-places-llbean-freeport": {
+    "title": "The trout pond was part of the story.",
+    "kind": "from our Maine visit",
+    "story": "At L.L.Bean in Freeport, James spent time watching the trout pond—a little moment from our Maine trip that made it into the family camera roll. The flagship belongs in our story as a place to wander, look and enjoy together, with the shopping only one possible part.",
+    "tip": "Start with the trout pond; keep any extra browsing optional.",
+    "activity": "look at the trout pond",
+    "url": "/favorite-places-llbean-freeport.html",
+    "art": "/assets/outing-studio/freeport-boot.webp",
+    "artCaption": "AI-created Freeport scene · an imaginative interpretation, not a current entrance photo.",
+    "researchUrl": "https://www.llbean.com/llb/shop/1000001705",
+    "researchDate": "2026-10-03"
+  },
+  "favorite-places-misty-harbor-wells": {
+    "title": "A little room for a Maine weekend.",
+    "kind": "from our Maine visit",
+    "story": "Misty Harbor was our base for a Wells getaway. The pool and the practical shape of the stay belong to the sort of trip we like: time together, a few good stops, and room to come back and settle in.",
+    "tip": "Plan the pool time first, then decide whether an outing still sounds good.",
+    "activity": "enjoy some pool time",
+    "url": "/favorite-places-misty-harbor-wells.html"
+  },
+  "favorite-places-pineland-farms": {
+    "title": "Pick one good thing.",
+    "kind": "visit idea",
+    "story": "Our Pineland plan would begin by choosing what sounds best today, with the rest saved for another visit. A farm outing feels more inviting when the whole day does not have to be decided in the car.",
+    "tip": "Choose one destination on the property and check its hours and route.",
+    "activity": "choose one farm activity",
+    "url": "/favorite-places-pineland-farms.html"
+  },
+  "favorite-places-quiero-cafe-portland": {
+    "title": "A small Portland pleasure.",
+    "kind": "visit idea",
+    "story": "For a Quiero Cafe stop, we would start with something good to eat and keep the rest of Portland optional. A little food adventure can have a beginning, a middle and a perfectly happy return to the car.",
+    "tip": "Review the current menu and choose dine-in or takeout before arrival.",
+    "activity": "choose our food",
+    "url": "/favorite-places-quiero-cafe-portland.html"
+  },
+  "favorite-places-rancatores-lexington": {
+    "title": "A scoop and a little time together.",
+    "kind": "from our family life",
+    "story": "Our Lexington ice-cream photographs include Michael and James at Rancatore’s. It is the kind of small family outing we want more of: something good to eat and an ordinary moment worth keeping.",
+    "tip": "Check today’s flavors and offer only the choices that will be useful.",
+    "activity": "choose our ice cream",
+    "url": "/favorite-places-rancatores-lexington.html"
+  },
+  "favorite-places-rococo-kennebunk": {
+    "title": "Our little sweet stop.",
+    "kind": "from our family life",
+    "story": "Rococo is one of the sweet stops we love around Kennebunk. We like letting the ice cream be the occasion—a small, lovely part of a Maine day, with no need to hurry on to the next thing.",
+    "tip": "Check the current flavors before building a picture choice card.",
+    "activity": "choose our ice cream",
+    "url": "/favorite-places-rococo-kennebunk.html"
+  },
+  "favorite-places-scarborough-state-beach": {
+    "title": "A beach day with breathing room.",
+    "kind": "visit idea",
+    "story": "For Scarborough, we would begin with the practical details and leave the rest to the sea. A view of the water and a little time together can be a complete beach day.",
+    "tip": "Confirm current beach access, equipment and seasonal facilities directly.",
+    "activity": "look at the ocean",
+    "url": "/favorite-places-scarborough-state-beach.html"
+  },
+  "favorite-places-shermans-freeport": {
+    "title": "A bookshop-sized adventure.",
+    "kind": "visit idea",
+    "story": "Our Sherman’s plan would be a little browse with space for everyone’s own interests. One good find—or simply a few pleasant minutes among the books—is enough to give a Freeport day another texture.",
+    "tip": "Treat the bookshop as one optional stop, with a clear place to meet.",
+    "activity": "look at the books",
+    "url": "/favorite-places-shermans-freeport.html"
+  },
+  "favorite-places-watch-hill-napatree": {
+    "title": "A postcard, at our own pace.",
+    "kind": "visit idea",
+    "story": "For Watch Hill, we would put the arrival plan first and let the water be the reward. A little looking, a comfortable pause and an easy return can make a seaside outing feel beautifully complete.",
+    "tip": "Sort out parking and facilities before choosing how far to walk.",
+    "activity": "look at the water",
+    "url": "/favorite-places-watch-hill-napatree.html"
+  },
+  "favorite-places-wells-beach": {
+    "title": "A little more sea air.",
+    "kind": "visit idea",
+    "story": "On a Wells trip, we would leave room for the simplest beach visit: look at the water, take a breath, decide what comes next. It does not need to fill the day to become a good part of it.",
+    "tip": "Check weather, tides and current access before choosing your stop.",
+    "activity": "look at the ocean",
+    "url": "/favorite-places-wells-beach.html"
+  },
+  "favorite-places-wilson-farm": {
+    "title": "Bring a little of the day home.",
+    "kind": "visit idea",
+    "story": "Our Wilson Farm plan would give an ordinary food errand a little room to become an outing. Choose something lovely or useful, have a look around, and let dinner benefit from the adventure.",
+    "tip": "Choose one thing to buy before adding a browse.",
+    "activity": "choose something to bring home",
+    "url": "/favorite-places-wilson-farm.html"
+  },
+  "favorite-places-wolfes-neck": {
+    "title": "A distinctly Maine kind of afternoon.",
+    "kind": "visit idea",
+    "story": "For Wolfe’s Neck, we would choose one part of the farm and let that be the beginning. Animals, landscape and a little time outdoors make an inviting plan without filling every minute.",
+    "tip": "Check the current visitor information and choose one route or activity.",
+    "activity": "look around the farm",
+    "url": "/favorite-places-wolfes-neck.html"
+  },
+  "favorite-places-york-nubble": {
+    "title": "A view worth keeping.",
+    "kind": "from our family camera roll",
+    "story": "York made it into our family camera roll, and those pictures belong to the Maine days we like to return to. A visit with a lovely view can be small, unhurried and still feel like somewhere special.",
+    "tip": "Choose one viewpoint and check parking and footing before getting out.",
+    "activity": "look at the lighthouse",
+    "url": "/favorite-places-york-nubble.html"
+  }
+}
