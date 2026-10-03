@@ -61,3 +61,6 @@
 @media(max-width:950px){.calendar-page .state-tile{grid-template-columns:minmax(0,1fr) 92px}.calendar-page .state-scene{width:92px}.calendar-page .state-tile.all-states{grid-template-columns:minmax(0,1fr) 140px}.calendar-page .state-tile.all-states .state-scene{width:140px}}
 @media(max-width:700px){.calendar-page .calendar-state-section{padding-block:24px 44px}.calendar-page .state-tile,.calendar-page .state-tile.all-states{grid-column:auto;grid-template-columns:minmax(0,1fr) 96px;min-height:136px;padding:18px}.calendar-page .state-tile.all-states .state-scene,.calendar-page .state-scene{width:96px;height:72px}.calendar-page .state-flavor{font-size:.72rem!important}}
 @media(prefers-reduced-motion:reduce){.calendar-page .state-tile,.calendar-page .state-scene{transition:none}.calendar-page .state-tile:hover,.calendar-page .state-tile:focus-visible,.calendar-page .state-tile.is-selected{transform:none}.calendar-page .state-tile:hover .state-scene,.calendar-page .state-tile:focus-visible .state-scene{transform:none}}
+
+/* Keep decorative state-selector washes inside the page at every width. */
+.calendar-page .calendar-state-section:before{left:0;right:0}

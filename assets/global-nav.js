@@ -4,11 +4,12 @@
   if (window.__AAL_GLOBAL_NAV__) return;
   window.__AAL_GLOBAL_NAV__ = true;
 
+  document.querySelectorAll('use[href^="/assets/editorial-icons.svg#"]').forEach(use => use.setAttribute('href', use.getAttribute('href').replace('/assets/editorial-icons.svg#','/assets/editorial-icons.svg?v=20261003-journal#')));
   const fold = value => (value || '').toLocaleLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
   const esc = value => (value || '').replace(/[&<>"']/g, char => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));
   const icon = name => {
     const drawings={home:'home',compass:'compass',outing:'compass',family:'heart',talk:'picture',calendar:'calendar',book:'address-book',journal:'journal',search:'search',menu:'menu'};
-    if(drawings[name])return '<svg viewBox="0 0 32 32" aria-hidden="true" focusable="false"><use href="/assets/editorial-icons.svg#'+drawings[name]+'"></use></svg>';
+    if(drawings[name])return '<svg viewBox="0 0 32 32" aria-hidden="true" focusable="false"><use href="/assets/editorial-icons.svg?v=20261003-journal#'+drawings[name]+'"></use></svg>';
     return ({
     home:'<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 11.2 12 4l9 7.2v8.3a.5.5 0 0 1-.5.5h-5.2v-6.2H8.7V20H3.5a.5.5 0 0 1-.5-.5z"/><path d="M1.8 12.2 12 4l10.2 8.2"/></svg>',
     search:'<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.8" cy="10.8" r="6.6"/><path d="m16 16 5 5"/></svg>',
