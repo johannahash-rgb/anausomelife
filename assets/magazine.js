@@ -102,3 +102,13 @@ if(location.pathname==='/'||location.pathname==='/index.html'){const legacy=['re
   const cal=nav.querySelector('a[href="/calendar.html"]');nav.insertBefore(a,cal||nav.querySelector('.nav-search'));
  }
 })();
+
+/* Shared site-wide wayfinding + universal search */
+(() => {
+  if (document.querySelector('script[data-aal-global-nav]')) return;
+  const s=document.createElement('script');
+  s.src='/assets/global-nav.js?v=wayfinding-20261003';
+  s.dataset.aalGlobalNav='true';
+  s.async=false;
+  document.head.append(s);
+})();
