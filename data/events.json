@@ -1,9 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-10-03T02:31:26Z",
-  "lastEditorialReview": "2026-10-03T02:31:26Z",
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-03T11:04:00Z",
+  "lastEditorialReview": "2026-10-03T11:04:00Z",
   "timezone": "America/New_York",
-  "coverage": "New England; selected organizer-confirmed listings, not exhaustive.",
+  "coverage": "New England accessibility-focused family calendar: organizer-confirmed listings plus a clearly separated annual-event watchlist. Not exhaustive.",
   "refresh": {
     "mode": "curated-with-source-checks",
     "schedule": "Daily maintenance workflow supplied; first deployed run not yet verified.",
@@ -155,6 +155,193 @@
       "sourceCheckedAt": "2026-10-03T02:31:26Z",
       "status": "manually-checked",
       "lastChecked": "2026-10-03T02:31:26Z"
+    },
+    {
+      "id": "vins",
+      "name": "Vermont Institute of Natural Science",
+      "url": "https://vinsweb.org/events/month/2026-10/",
+      "state": "VT",
+      "mode": "manual",
+      "enabled": false,
+      "timezone": "America/New_York",
+      "allowedHosts": [
+        "vinsweb.org"
+      ],
+      "autoPublish": false,
+      "feedVerified": false,
+      "sourceCheckedAt": "2026-10-03T11:04:00Z",
+      "status": "manually-checked",
+      "lastChecked": "2026-10-03T11:04:00Z"
+    },
+    {
+      "id": "autism-alliance",
+      "name": "Autism Alliance",
+      "url": "https://autismalliance.org/events",
+      "state": "MA",
+      "mode": "manual",
+      "enabled": false,
+      "timezone": "America/New_York",
+      "allowedHosts": [
+        "autismalliance.org"
+      ],
+      "autoPublish": false,
+      "feedVerified": false,
+      "sourceCheckedAt": "2026-10-03T11:04:00Z",
+      "status": "manually-checked",
+      "lastChecked": "2026-10-03T11:04:00Z"
+    },
+    {
+      "id": "westport-library",
+      "name": "The Westport Library",
+      "url": "https://westportlibrary.org/calendar/",
+      "state": "CT",
+      "mode": "manual",
+      "enabled": false,
+      "timezone": "America/New_York",
+      "allowedHosts": [
+        "westportlibrary.org"
+      ],
+      "autoPublish": false,
+      "feedVerified": false,
+      "sourceCheckedAt": "2026-10-03T11:04:00Z",
+      "status": "manually-checked",
+      "lastChecked": "2026-10-03T11:04:00Z"
+    },
+    {
+      "id": "bierman",
+      "name": "Bierman Autism Centers",
+      "url": "https://www.biermanautism.com/resources/sensory-friendly-events/",
+      "state": "MA",
+      "mode": "manual",
+      "enabled": false,
+      "timezone": "America/New_York",
+      "allowedHosts": [
+        "www.biermanautism.com"
+      ],
+      "autoPublish": false,
+      "feedVerified": false,
+      "sourceCheckedAt": "2026-10-03T11:04:00Z",
+      "status": "manually-checked",
+      "lastChecked": "2026-10-03T11:04:00Z"
+    },
+    {
+      "id": "aldrich",
+      "name": "The Aldrich Contemporary Art Museum",
+      "url": "https://thealdrich.org/events",
+      "state": "CT",
+      "mode": "manual",
+      "enabled": false,
+      "timezone": "America/New_York",
+      "allowedHosts": [
+        "thealdrich.org"
+      ],
+      "autoPublish": false,
+      "feedVerified": false,
+      "sourceCheckedAt": "2026-10-03T11:04:00Z",
+      "status": "manually-checked",
+      "lastChecked": "2026-10-03T11:04:00Z"
+    },
+    {
+      "id": "beals",
+      "name": "Beals Memorial Library",
+      "url": "https://www.bealslibrary.org/events",
+      "state": "MA",
+      "mode": "manual",
+      "enabled": false,
+      "timezone": "America/New_York",
+      "allowedHosts": [
+        "www.bealslibrary.org"
+      ],
+      "autoPublish": false,
+      "feedVerified": false,
+      "sourceCheckedAt": "2026-10-03T11:04:00Z",
+      "status": "manually-checked",
+      "lastChecked": "2026-10-03T11:04:00Z"
+    },
+    {
+      "id": "venture",
+      "name": "Venture Community Services",
+      "url": "https://venturecs.org/events/",
+      "state": "MA",
+      "mode": "manual",
+      "enabled": false,
+      "timezone": "America/New_York",
+      "allowedHosts": [
+        "venturecs.org"
+      ],
+      "autoPublish": false,
+      "feedVerified": false,
+      "sourceCheckedAt": "2026-10-03T11:04:00Z",
+      "status": "manually-checked",
+      "lastChecked": "2026-10-03T11:04:00Z"
+    },
+    {
+      "id": "stj-athenaeum",
+      "name": "St. Johnsbury Athenaeum",
+      "url": "https://www.stjathenaeum.org/youth-events-1",
+      "state": "VT",
+      "mode": "manual",
+      "enabled": false,
+      "timezone": "America/New_York",
+      "allowedHosts": [
+        "www.stjathenaeum.org"
+      ],
+      "autoPublish": false,
+      "feedVerified": false,
+      "sourceCheckedAt": "2026-10-03T11:04:00Z",
+      "status": "manually-checked",
+      "lastChecked": "2026-10-03T11:04:00Z"
+    },
+    {
+      "id": "trustees-weir",
+      "name": "The Trustees — Weir River Farm",
+      "url": "https://thetrustees.org/event/448729/",
+      "state": "MA",
+      "mode": "manual",
+      "enabled": false,
+      "timezone": "America/New_York",
+      "allowedHosts": [
+        "thetrustees.org"
+      ],
+      "autoPublish": false,
+      "feedVerified": false,
+      "sourceCheckedAt": "2026-10-03T11:04:00Z",
+      "status": "manually-checked",
+      "lastChecked": "2026-10-03T11:04:00Z"
+    },
+    {
+      "id": "shelburne",
+      "name": "Shelburne Museum",
+      "url": "https://shelburnemuseum.org/calendar/",
+      "state": "VT",
+      "mode": "manual",
+      "enabled": false,
+      "timezone": "America/New_York",
+      "allowedHosts": [
+        "shelburnemuseum.org"
+      ],
+      "autoPublish": false,
+      "feedVerified": false,
+      "sourceCheckedAt": "2026-10-03T11:04:00Z",
+      "status": "manually-checked",
+      "lastChecked": "2026-10-03T11:04:00Z"
+    },
+    {
+      "id": "boston-ballet",
+      "name": "Boston Ballet",
+      "url": "https://www.bostonballet.org/performances/sensory-friendly-nutcracker/",
+      "state": "MA",
+      "mode": "manual",
+      "enabled": false,
+      "timezone": "America/New_York",
+      "allowedHosts": [
+        "www.bostonballet.org"
+      ],
+      "autoPublish": false,
+      "feedVerified": false,
+      "sourceCheckedAt": "2026-10-03T11:04:00Z",
+      "status": "manually-checked",
+      "lastChecked": "2026-10-03T11:04:00Z"
     }
   ],
   "events": [
@@ -187,7 +374,189 @@
       "lastVerified": "2026-10-03T02:31:26Z",
       "verificationMethod": "Official organizer page reviewed",
       "reviewRequired": false,
-      "status": "scheduled"
+      "status": "scheduled",
+      "category": "Sensory-friendly",
+      "format": "In person"
+    },
+    {
+      "timezone": "America/New_York",
+      "ticketUrl": null,
+      "cancellationPolicy": "Not stated in the checked listing; confirm with the organizer.",
+      "notes": [],
+      "lastVerified": "2026-10-03T11:04:00Z",
+      "verificationMethod": "Official organizer/event page reviewed",
+      "reviewRequired": false,
+      "status": "scheduled",
+      "format": "In person",
+      "category": "Sensory-friendly",
+      "id": "vins-2026-10-03",
+      "title": "Sensory Friendly Hour",
+      "start": "2026-10-03T09:00:00-04:00",
+      "end": "2026-10-03T10:00:00-04:00",
+      "state": "VT",
+      "city": "Quechee",
+      "venue": "VINS Nature Center",
+      "address": "149 Natures Way, Quechee, VT 05059",
+      "cost": "Regular admission; confirm current rate",
+      "ages": "Visitors who prefer a quieter, less-crowded environment",
+      "summary": "A quieter opening hour with minimized noise, crowds and other sensory stimuli across exhibits and trails; guests may stay after the hour.",
+      "accessibility": [
+        "Reduced noise and crowd levels",
+        "Wheelchair/stroller accessible main campus",
+        "Accessible Forest Canopy Walk"
+      ],
+      "sourceId": "vins",
+      "sourceUrl": "https://vinsweb.org/events/month/2026-10/",
+      "registration": "Check organizer for current admission/ticket details.",
+      "visualStory": {
+        "arrival": "We can arrive during the quieter morning hour and check in at the Welcome Center.",
+        "activity": "We can look at birds, exhibits or an accessible trail. We can skip anything we do not want.",
+        "break": "We can move away from a busy exhibit or ask staff for a calmer place."
+      }
+    },
+    {
+      "timezone": "America/New_York",
+      "ticketUrl": null,
+      "cancellationPolicy": "Not stated in the checked listing; confirm with the organizer.",
+      "notes": [],
+      "lastVerified": "2026-10-03T11:04:00Z",
+      "verificationMethod": "Official organizer/event page reviewed",
+      "reviewRequired": false,
+      "status": "scheduled",
+      "format": "In person",
+      "category": "Sensory-friendly",
+      "id": "autism-alliance-storytime-2026-10-03",
+      "title": "Storytime & Smiles at the Autism Welcoming Center",
+      "start": "2026-10-03T11:30:00-04:00",
+      "end": "2026-10-03T12:30:00-04:00",
+      "state": "MA",
+      "city": "Natick",
+      "venue": "Autism Welcoming Center",
+      "address": "1245 Worcester Street, Natick, MA 01760",
+      "cost": "Free",
+      "ages": "Children with autism or sensory sensitivities and their families",
+      "summary": "Drop-in stories, crafts, snacks and play in a purpose-built sensory-supportive space.",
+      "accessibility": [
+        "Sensory tools",
+        "Flexible seating",
+        "Movement opportunities",
+        "Calming spaces",
+        "No expectation to sit still or stay quiet"
+      ],
+      "sourceId": "autism-alliance",
+      "sourceUrl": "https://autismalliance.org/events/storytime-smiles-autism-welcoming-center",
+      "registration": "No registration required; caregiver supervision required.",
+      "visualStory": {
+        "arrival": "We can enter the Autism Welcoming Center and choose where to start.",
+        "activity": "There may be a story, craft, snack and play. We can join, watch or skip.",
+        "break": "We can use sensory tools, move around or choose a calming space."
+      }
+    },
+    {
+      "timezone": "America/New_York",
+      "ticketUrl": null,
+      "cancellationPolicy": "Not stated in the checked listing; confirm with the organizer.",
+      "notes": [],
+      "lastVerified": "2026-10-03T11:04:00Z",
+      "verificationMethod": "Official organizer/event page reviewed",
+      "reviewRequired": false,
+      "status": "scheduled",
+      "format": "In person",
+      "category": "Sensory-friendly",
+      "id": "westport-early-2026-10-04",
+      "title": "Sensory Friendly Storytime Early Opening",
+      "start": "2026-10-04T12:00:00-04:00",
+      "end": "2026-10-04T13:00:00-04:00",
+      "state": "CT",
+      "city": "Westport",
+      "venue": "The Westport Library",
+      "address": "20 Jesup Road, Westport, CT 06880",
+      "cost": "Free",
+      "ages": "Designed for ages 2+ with multi-sensory needs; all ages and abilities welcome",
+      "summary": "A sensory-friendly library session before regular Sunday opening, with stories, rhymes, songs and sensory activities.",
+      "accessibility": [
+        "Wheelchair-accessible library and meeting rooms",
+        "Lower-crowd early opening",
+        "Multi-sensory activities"
+      ],
+      "sourceId": "westport-library",
+      "sourceUrl": "https://westportlibrary.org/series/sensory-storytime-early-opening/",
+      "registration": "Advance registration required for early-opening sessions.",
+      "visualStory": {
+        "arrival": "We can arrive while the library is open early for this smaller group.",
+        "activity": "We may hear a story, sing, rhyme or try a sensory activity. We can participate in our own way.",
+        "break": "We can step away from the group and use a quieter part of the library."
+      }
+    },
+    {
+      "timezone": "America/New_York",
+      "ticketUrl": null,
+      "cancellationPolicy": "Not stated in the checked listing; confirm with the organizer.",
+      "notes": [],
+      "lastVerified": "2026-10-03T11:04:00Z",
+      "verificationMethod": "Official organizer/event page reviewed",
+      "reviewRequired": false,
+      "status": "scheduled",
+      "format": "In person",
+      "category": "Sensory-friendly",
+      "id": "westport-story-2026-10-04",
+      "title": "Sensory-Friendly Storytime",
+      "start": "2026-10-04T13:30:00-04:00",
+      "end": "2026-10-04T14:00:00-04:00",
+      "state": "CT",
+      "city": "Westport",
+      "venue": "The Westport Library",
+      "address": "20 Jesup Road, Westport, CT 06880",
+      "cost": "Free",
+      "ages": "Designed for ages 2+ with multi-sensory needs; all ages and abilities welcome",
+      "summary": "A short sensory-friendly storytime with multi-sensory supports and flexible participation.",
+      "accessibility": [
+        "Wheelchair-accessible library",
+        "Multi-sensory activities"
+      ],
+      "sourceId": "westport-library",
+      "sourceUrl": "https://westportlibrary.org/calendar/",
+      "registration": "No registration required; space is limited.",
+      "visualStory": {
+        "arrival": "We can go to the Higgins Room and find a comfortable place.",
+        "activity": "There will be a short storytime with sensory-friendly activities. We can watch or join.",
+        "break": "We can leave the room for a break if we need one."
+      }
+    },
+    {
+      "timezone": "America/New_York",
+      "ticketUrl": null,
+      "cancellationPolicy": "Not stated in the checked listing; confirm with the organizer.",
+      "notes": [],
+      "lastVerified": "2026-10-03T11:04:00Z",
+      "verificationMethod": "Official organizer/event page reviewed",
+      "reviewRequired": false,
+      "status": "scheduled",
+      "format": "In person",
+      "category": "Sensory-friendly",
+      "id": "westport-story-2026-10-05",
+      "title": "Sensory-Friendly Storytime",
+      "start": "2026-10-05T10:45:00-04:00",
+      "end": "2026-10-05T11:15:00-04:00",
+      "state": "CT",
+      "city": "Westport",
+      "venue": "The Westport Library",
+      "address": "20 Jesup Road, Westport, CT 06880",
+      "cost": "Free",
+      "ages": "Designed for ages 2+ with multi-sensory needs; all ages and abilities welcome",
+      "summary": "A short sensory-friendly storytime with multi-sensory supports and flexible participation.",
+      "accessibility": [
+        "Wheelchair-accessible library",
+        "Multi-sensory activities"
+      ],
+      "sourceId": "westport-library",
+      "sourceUrl": "https://westportlibrary.org/calendar/",
+      "registration": "No registration required; space is limited.",
+      "visualStory": {
+        "arrival": "We can go to the Higgins Room and find a comfortable place.",
+        "activity": "There will be a short storytime with sensory-friendly activities. We can watch or join.",
+        "break": "We can leave the room for a break if we need one."
+      }
     },
     {
       "id": "clpvd-2026-10-06",
@@ -215,7 +584,9 @@
       "lastVerified": "2026-10-03T02:31:26Z",
       "verificationMethod": "Official organizer page reviewed",
       "reviewRequired": false,
-      "status": "scheduled"
+      "status": "scheduled",
+      "category": "Sensory-friendly",
+      "format": "In person"
     },
     {
       "id": "discovery-2026-10-10",
@@ -248,7 +619,9 @@
       "lastVerified": "2026-10-03T02:31:26Z",
       "verificationMethod": "Official organizer page reviewed",
       "reviewRequired": false,
-      "status": "scheduled"
+      "status": "scheduled",
+      "category": "Sensory-friendly",
+      "format": "In person"
     },
     {
       "id": "clpvd-2026-10-13",
@@ -276,7 +649,47 @@
       "lastVerified": "2026-10-03T02:31:26Z",
       "verificationMethod": "Official organizer page reviewed",
       "reviewRequired": false,
-      "status": "scheduled"
+      "status": "scheduled",
+      "category": "Sensory-friendly",
+      "format": "In person"
+    },
+    {
+      "timezone": "America/New_York",
+      "ticketUrl": null,
+      "cancellationPolicy": "Not stated in the checked listing; confirm with the organizer.",
+      "notes": [],
+      "lastVerified": "2026-10-03T11:04:00Z",
+      "verificationMethod": "Official organizer/event page reviewed",
+      "reviewRequired": false,
+      "status": "scheduled",
+      "format": "In person",
+      "category": "Sensory-friendly",
+      "id": "autism-alliance-storytime-2026-10-13",
+      "title": "Storytime & Smiles at the Autism Welcoming Center",
+      "start": "2026-10-13T13:30:00-04:00",
+      "end": "2026-10-13T14:30:00-04:00",
+      "state": "MA",
+      "city": "Natick",
+      "venue": "Autism Welcoming Center",
+      "address": "1245 Worcester Street, Natick, MA 01760",
+      "cost": "Free",
+      "ages": "Children with autism or sensory sensitivities and their families",
+      "summary": "Drop-in stories, crafts, snacks and play in a purpose-built sensory-supportive space.",
+      "accessibility": [
+        "Sensory tools",
+        "Flexible seating",
+        "Movement opportunities",
+        "Calming spaces",
+        "No expectation to sit still or stay quiet"
+      ],
+      "sourceId": "autism-alliance",
+      "sourceUrl": "https://autismalliance.org/events/storytime-smiles-autism-welcoming-center",
+      "registration": "No registration required; caregiver supervision required.",
+      "visualStory": {
+        "arrival": "We can enter the Autism Welcoming Center and choose where to start.",
+        "activity": "There may be a story, craft, snack and play. We can join, watch or skip.",
+        "break": "We can use sensory tools, move around or choose a calming space."
+      }
     },
     {
       "id": "montshire-2026-10-17",
@@ -306,7 +719,81 @@
       "lastVerified": "2026-10-03T02:31:26Z",
       "verificationMethod": "Official organizer page reviewed",
       "reviewRequired": false,
-      "status": "scheduled"
+      "status": "scheduled",
+      "category": "Sensory-friendly",
+      "format": "In person"
+    },
+    {
+      "timezone": "America/New_York",
+      "ticketUrl": "https://www.eventbrite.com/e/sensory-friendly-trunk-or-treat-in-bedford-tickets-1999719288222",
+      "cancellationPolicy": "Not stated in the checked listing; confirm with the organizer.",
+      "notes": [
+        "Organizer ticket page includes a photo/video policy; review it before registering."
+      ],
+      "lastVerified": "2026-10-03T11:04:00Z",
+      "verificationMethod": "Official organizer/event page reviewed",
+      "reviewRequired": false,
+      "status": "scheduled",
+      "format": "In person",
+      "category": "Halloween",
+      "id": "bierman-bedford-2026-10-17",
+      "title": "Sensory-Friendly Trunk-or-Treat",
+      "start": "2026-10-17T10:00:00-04:00",
+      "end": "2026-10-17T12:00:00-04:00",
+      "state": "MA",
+      "city": "Bedford",
+      "venue": "Bierman Autism Centers - Bedford",
+      "address": "23 Crosby Drive, Suite 300, Bedford, MA 01730",
+      "cost": "Free",
+      "ages": "Special-needs community; families welcome",
+      "summary": "Sensory-friendly trunk-or-treat with decorated trunks, simple games, crafts, face painting and a quiet comfort zone.",
+      "accessibility": [
+        "Quiet sensory-friendly break area",
+        "Activities designed for a range of abilities"
+      ],
+      "sourceId": "bierman",
+      "sourceUrl": "https://www.biermanautism.com/resources/sensory-friendly-events/",
+      "registration": "Free RSVP recommended.",
+      "visualStory": {
+        "arrival": "We can arrive at the Bedford center and see decorated cars or activity areas.",
+        "activity": "We can collect treats, try a simple game, make a craft or just look.",
+        "break": "A quiet comfort area is available if we want less noise or fewer people."
+      }
+    },
+    {
+      "timezone": "America/New_York",
+      "ticketUrl": null,
+      "cancellationPolicy": "Not stated in the checked listing; confirm with the organizer.",
+      "notes": [],
+      "lastVerified": "2026-10-03T11:04:00Z",
+      "verificationMethod": "Official organizer/event page reviewed",
+      "reviewRequired": false,
+      "status": "scheduled",
+      "format": "In person",
+      "category": "Sensory-friendly",
+      "id": "westport-story-2026-10-19",
+      "title": "Sensory-Friendly Storytime",
+      "start": "2026-10-19T10:45:00-04:00",
+      "end": "2026-10-19T11:15:00-04:00",
+      "state": "CT",
+      "city": "Westport",
+      "venue": "The Westport Library",
+      "address": "20 Jesup Road, Westport, CT 06880",
+      "cost": "Free",
+      "ages": "Designed for ages 2+ with multi-sensory needs; all ages and abilities welcome",
+      "summary": "A short sensory-friendly storytime with flexible participation and sensory-friendly activities.",
+      "accessibility": [
+        "Wheelchair-accessible library",
+        "Multi-sensory activities"
+      ],
+      "sourceId": "westport-library",
+      "sourceUrl": "https://westportlibrary.org/calendar/",
+      "registration": "No registration required; space is limited.",
+      "visualStory": {
+        "arrival": "We can go to the Higgins Room and find a comfortable place.",
+        "activity": "There will be a short storytime with sensory-friendly activities. We can watch or join.",
+        "break": "We can leave the room for a break if we need one."
+      }
     },
     {
       "id": "clpvd-2026-10-20",
@@ -334,7 +821,9 @@
       "lastVerified": "2026-10-03T02:31:26Z",
       "verificationMethod": "Official organizer page reviewed",
       "reviewRequired": false,
-      "status": "scheduled"
+      "status": "scheduled",
+      "category": "Sensory-friendly",
+      "format": "In person"
     },
     {
       "id": "rwpzoo-2026-10-20",
@@ -363,7 +852,9 @@
       "lastVerified": "2026-10-03T02:31:26Z",
       "verificationMethod": "Official organizer page reviewed",
       "reviewRequired": false,
-      "status": "scheduled"
+      "status": "scheduled",
+      "category": "Halloween",
+      "format": "In person"
     },
     {
       "id": "rwpzoo-2026-10-21",
@@ -392,7 +883,155 @@
       "lastVerified": "2026-10-03T02:31:26Z",
       "verificationMethod": "Official organizer page reviewed",
       "reviewRequired": false,
-      "status": "scheduled"
+      "status": "scheduled",
+      "category": "Halloween",
+      "format": "In person"
+    },
+    {
+      "timezone": "America/New_York",
+      "ticketUrl": "https://www.eventbrite.com/e/sensory-friendly-trunk-or-treat-in-danvers-tickets-1999721276168",
+      "cancellationPolicy": "Not stated in the checked listing; confirm with the organizer.",
+      "notes": [
+        "Organizer ticket page includes a photo/video policy; review it before registering."
+      ],
+      "lastVerified": "2026-10-03T11:04:00Z",
+      "verificationMethod": "Official organizer/event page reviewed",
+      "reviewRequired": false,
+      "status": "scheduled",
+      "format": "In person",
+      "category": "Halloween",
+      "id": "bierman-danvers-2026-10-24",
+      "title": "Sensory-Friendly Trunk-or-Treat",
+      "start": "2026-10-24T10:00:00-04:00",
+      "end": "2026-10-24T12:00:00-04:00",
+      "state": "MA",
+      "city": "Danvers",
+      "venue": "Bierman Autism Centers - Danvers",
+      "address": "75 Sylvan Street, Suite C105, Danvers, MA 01923",
+      "cost": "Free",
+      "ages": "Special-needs community; families welcome",
+      "summary": "Sensory-friendly trunk-or-treat with decorated trunks, simple games, crafts, face painting and a quiet comfort zone.",
+      "accessibility": [
+        "Quiet sensory-friendly break area",
+        "Activities designed for a range of abilities"
+      ],
+      "sourceId": "bierman",
+      "sourceUrl": "https://www.biermanautism.com/resources/sensory-friendly-events/",
+      "registration": "Free RSVP recommended.",
+      "visualStory": {
+        "arrival": "We can arrive at the Danvers center and see decorated cars or activity areas.",
+        "activity": "We can collect treats, try a simple game, make a craft or just look.",
+        "break": "A quiet comfort area is available if we want less noise or fewer people."
+      }
+    },
+    {
+      "timezone": "America/New_York",
+      "ticketUrl": null,
+      "cancellationPolicy": "Not stated in the checked listing; confirm with the organizer.",
+      "notes": [],
+      "lastVerified": "2026-10-03T11:04:00Z",
+      "verificationMethod": "Official organizer/event page reviewed",
+      "reviewRequired": false,
+      "status": "scheduled",
+      "format": "In person",
+      "category": "Accessible arts",
+      "id": "aldrich-2026-10-24",
+      "title": "Sensory Saturday",
+      "start": "2026-10-24T10:30:00-04:00",
+      "end": "2026-10-24T11:30:00-04:00",
+      "state": "CT",
+      "city": "Ridgefield",
+      "venue": "The Aldrich Contemporary Art Museum",
+      "address": "258 Main Street, Ridgefield, CT 06877",
+      "cost": "$30 per family up to five people",
+      "ages": "Children ages 4–12 with developmental/learning disabilities, autism, and family members",
+      "summary": "Relaxed gallery exploration through touch, sound and movement followed by art-making.",
+      "accessibility": [
+        "Step-free museum route",
+        "Wheelchairs available",
+        "Sensory bags",
+        "Braille directional signage",
+        "Verbal artwork descriptions available"
+      ],
+      "sourceId": "aldrich",
+      "sourceUrl": "https://thealdrich.org/events",
+      "registration": "Advance registration required.",
+      "visualStory": {
+        "arrival": "We can enter without steps from the parking area and take the elevator if we need it.",
+        "activity": "We can explore art with touch, sound and movement, then make art in the Studio.",
+        "break": "We can ask staff for a quiet space or use a sensory bag."
+      }
+    },
+    {
+      "timezone": "America/New_York",
+      "ticketUrl": null,
+      "cancellationPolicy": "Not stated in the checked listing; confirm with the organizer.",
+      "notes": [],
+      "lastVerified": "2026-10-03T11:04:00Z",
+      "verificationMethod": "Official organizer/event page reviewed",
+      "reviewRequired": false,
+      "status": "scheduled",
+      "format": "In person",
+      "category": "Halloween",
+      "id": "beals-2026-10-24",
+      "title": "Autism-Friendly Halloween Party",
+      "start": "2026-10-24T11:00:00-04:00",
+      "end": "2026-10-24T12:30:00-04:00",
+      "state": "MA",
+      "city": "Winchendon",
+      "venue": "Beals Memorial Library",
+      "address": "50 Pleasant Street, Winchendon, MA 01475",
+      "cost": "Free",
+      "ages": "Neurodivergent people, autistic people, people with other support needs, and families",
+      "summary": "A not-too-spooky indoor Halloween celebration with crafts, stories, an indoor Storywalk, snacks and drinks.",
+      "accessibility": [
+        "Noise-reducing earmuffs/headphones available",
+        "Costumes optional"
+      ],
+      "sourceId": "beals",
+      "sourceUrl": "https://www.bealslibrary.org/events",
+      "registration": "Registration encouraged, not required.",
+      "visualStory": {
+        "arrival": "We can enter the library and see Halloween decorations. A costume is optional.",
+        "activity": "We can do a craft, hear a story, walk the indoor Storywalk, have a snack or skip an activity.",
+        "break": "Noise-reducing earmuffs/headphones are available if sound feels like too much."
+      }
+    },
+    {
+      "timezone": "America/New_York",
+      "ticketUrl": null,
+      "cancellationPolicy": "Not stated in the checked listing; confirm with the organizer.",
+      "notes": [],
+      "lastVerified": "2026-10-03T11:04:00Z",
+      "verificationMethod": "Official organizer/event page reviewed",
+      "reviewRequired": false,
+      "status": "scheduled",
+      "format": "In person",
+      "category": "Halloween",
+      "id": "venture-2026-10-27",
+      "title": "Sensory Friendly Trick or Treat Night",
+      "start": "2026-10-27T17:00:00-04:00",
+      "end": "2026-10-27T18:30:00-04:00",
+      "state": "MA",
+      "city": "Dudley",
+      "venue": "Venture Dudley II Day Program",
+      "address": "245 West Main Street, Dudley, MA 01571",
+      "cost": "Free",
+      "ages": "Children 18 and under with autism or sensory concerns and their families",
+      "summary": "Indoor trick-or-treat rooms, sensory bins, crafts, snacks and a photo booth.",
+      "accessibility": [
+        "Indoor event",
+        "Sensory bins and flexible activities",
+        "Use rear entrance and rear parking lot"
+      ],
+      "sourceId": "venture",
+      "sourceUrl": "https://venturecs.org/event/halloween26/",
+      "registration": "RSVP requested by organizer.",
+      "visualStory": {
+        "arrival": "We will use the rear entrance and rear parking lot.",
+        "activity": "There will be trick-or-treat rooms, sensory bins, crafts, snacks and a photo area. We can choose what to do.",
+        "break": "We can step away from a room or activity whenever we need a break."
+      }
     },
     {
       "id": "cmtm-2026-10-30",
@@ -422,7 +1061,9 @@
       "lastVerified": "2026-10-03T02:31:26Z",
       "verificationMethod": "Official organizer page reviewed",
       "reviewRequired": false,
-      "status": "scheduled"
+      "status": "scheduled",
+      "category": "Halloween",
+      "format": "In person"
     },
     {
       "id": "discovery-2026-10-30",
@@ -455,7 +1096,81 @@
       "lastVerified": "2026-10-03T02:31:26Z",
       "verificationMethod": "Official organizer page reviewed",
       "reviewRequired": false,
-      "status": "scheduled"
+      "status": "scheduled",
+      "category": "Halloween",
+      "format": "In person"
+    },
+    {
+      "timezone": "America/New_York",
+      "ticketUrl": null,
+      "cancellationPolicy": "Not stated in the checked listing; confirm with the organizer.",
+      "notes": [],
+      "lastVerified": "2026-10-03T11:04:00Z",
+      "verificationMethod": "Official organizer/event page reviewed",
+      "reviewRequired": false,
+      "status": "scheduled",
+      "format": "In person",
+      "category": "Halloween",
+      "id": "stj-halloween-2026-10-30",
+      "title": "Sensory-Friendly Halloween Event",
+      "start": "2026-10-30T17:00:00-04:00",
+      "end": "2026-10-30T18:00:00-04:00",
+      "state": "VT",
+      "city": "St. Johnsbury",
+      "venue": "St. Johnsbury Athenaeum",
+      "address": "1171 Main Street, St. Johnsbury, VT 05819",
+      "cost": "Check organizer",
+      "ages": "Youth with sensory sensitivities and families",
+      "summary": "A calm, welcoming Halloween hour with local organizations offering activities and treats.",
+      "accessibility": [
+        "Calm, welcoming event design"
+      ],
+      "sourceId": "stj-athenaeum",
+      "sourceUrl": "https://www.stjathenaeum.org/youth-events-1/2026/10/30/sensory-friendly-halloween-event",
+      "registration": "Check organizer for current participation details.",
+      "visualStory": {
+        "arrival": "We can enter the Athenaeum and take our time looking around.",
+        "activity": "There may be treats and activities from local groups. We can choose one thing or skip things.",
+        "break": "We can ask for a quieter place or step away if the room feels busy."
+      }
+    },
+    {
+      "timezone": "America/New_York",
+      "ticketUrl": null,
+      "cancellationPolicy": "Not stated in the checked listing; confirm with the organizer.",
+      "notes": [],
+      "lastVerified": "2026-10-03T11:04:00Z",
+      "verificationMethod": "Official organizer/event page reviewed",
+      "reviewRequired": false,
+      "status": "scheduled",
+      "format": "In person",
+      "category": "Sensory-friendly",
+      "id": "see-2026-11-06",
+      "title": "Sensory Friendly Fun Night",
+      "start": "2026-11-06T17:00:00-05:00",
+      "end": "2026-11-06T19:00:00-05:00",
+      "state": "NH",
+      "city": "Manchester",
+      "venue": "SEE Science Center",
+      "address": "200 Bedford Street, Manchester, NH 03101",
+      "cost": "Free",
+      "ages": "Visitors who benefit from a sensory-friendly, limited-capacity science-center visit",
+      "summary": "A lower-stimulation, limited-capacity evening with exhibits, demonstrations, make-and-take activities and a break room.",
+      "accessibility": [
+        "Ramps and push-button entrances",
+        "Elevator to exhibit levels",
+        "Accessible restroom stalls",
+        "Sensory materials, sensory story and map",
+        "Break room"
+      ],
+      "sourceId": "see",
+      "sourceUrl": "https://see-sciencecenter.org/",
+      "registration": "Advance registration required; organizer says registration opens one month before.",
+      "visualStory": {
+        "arrival": "We can enter using the ramp or push-button entrance and take the elevator if we need it.",
+        "activity": "We can explore exhibits, watch a demonstration or make something. This is a lower-stimulation evening.",
+        "break": "A break room is available if we need a quieter space."
+      }
     },
     {
       "id": "bcm-2026-11-07",
@@ -486,7 +1201,81 @@
       "lastVerified": "2026-10-03T02:31:26Z",
       "verificationMethod": "Official organizer page reviewed",
       "reviewRequired": false,
-      "status": "scheduled"
+      "status": "scheduled",
+      "category": "Sensory-friendly",
+      "format": "In person"
+    },
+    {
+      "timezone": "America/New_York",
+      "ticketUrl": null,
+      "cancellationPolicy": "Not stated in the checked listing; confirm with the organizer.",
+      "notes": [],
+      "lastVerified": "2026-10-03T11:04:00Z",
+      "verificationMethod": "Official organizer/event page reviewed",
+      "reviewRequired": false,
+      "status": "scheduled",
+      "format": "In person",
+      "category": "Sensory-friendly",
+      "id": "westport-early-2026-11-15",
+      "title": "Sensory Friendly Storytime Early Opening",
+      "start": "2026-11-15T12:00:00-05:00",
+      "end": "2026-11-15T13:00:00-05:00",
+      "state": "CT",
+      "city": "Westport",
+      "venue": "The Westport Library",
+      "address": "20 Jesup Road, Westport, CT 06880",
+      "cost": "Free",
+      "ages": "Designed for ages 2+ with multi-sensory needs; all ages and abilities welcome",
+      "summary": "A sensory-friendly library session during a quieter early opening.",
+      "accessibility": [
+        "Wheelchair-accessible library and meeting rooms",
+        "Lower-crowd early opening"
+      ],
+      "sourceId": "westport-library",
+      "sourceUrl": "https://westportlibrary.org/series/sensory-storytime-early-opening/",
+      "registration": "Advance registration required for early-opening sessions.",
+      "visualStory": {
+        "arrival": "We can arrive while the library is open early for this smaller group.",
+        "activity": "We can listen, move, rhyme or try a sensory activity in our own way.",
+        "break": "We can step away from the group and use a quieter part of the library."
+      }
+    },
+    {
+      "timezone": "America/New_York",
+      "ticketUrl": "https://www.discoveryacton.org/visit/especially-me",
+      "cancellationPolicy": "Not stated in the checked listing; confirm with the organizer.",
+      "notes": [],
+      "lastVerified": "2026-10-03T11:04:00Z",
+      "verificationMethod": "Official organizer/event page reviewed",
+      "reviewRequired": false,
+      "status": "scheduled",
+      "format": "In person",
+      "category": "Inclusive access",
+      "id": "discovery-inclusive-2026-11-17",
+      "title": "Inclusive Afternoon",
+      "start": "2026-11-17T13:30:00-05:00",
+      "end": "2026-11-17T16:30:00-05:00",
+      "state": "MA",
+      "city": "Acton",
+      "venue": "Discovery Museum",
+      "address": "177 Main Street, Acton, MA 01720",
+      "cost": "Free",
+      "ages": "Any family or group that would benefit from an accessible, lower-visitation museum visit",
+      "summary": "A free inclusive afternoon during a time when lower general visitation is expected.",
+      "accessibility": [
+        "ADA-compliant museum and Discovery Woods",
+        "Noise-reducing headphones",
+        "Sensory map and Social Story",
+        "Take a Break space"
+      ],
+      "sourceId": "discovery",
+      "sourceUrl": "https://www.discoveryacton.org/visit/especially-me",
+      "registration": "Advance registration required.",
+      "visualStory": {
+        "arrival": "We can enter the museum and check in. The museum expects lower attendance during this afternoon.",
+        "activity": "We can choose exhibits inside or outdoors and go at our own pace.",
+        "break": "We can use the Take a Break space, headphones or sunglasses if they help."
+      }
     },
     {
       "id": "bcm-2026-11-20",
@@ -517,7 +1306,9 @@
       "lastVerified": "2026-10-03T02:31:26Z",
       "verificationMethod": "Official organizer page reviewed",
       "reviewRequired": false,
-      "status": "scheduled"
+      "status": "scheduled",
+      "category": "Sensory-friendly",
+      "format": "In person"
     },
     {
       "id": "montshire-2026-11-21",
@@ -547,7 +1338,121 @@
       "lastVerified": "2026-10-03T02:31:26Z",
       "verificationMethod": "Official organizer page reviewed",
       "reviewRequired": false,
-      "status": "scheduled"
+      "status": "scheduled",
+      "category": "Sensory-friendly",
+      "format": "In person"
+    },
+    {
+      "timezone": "America/New_York",
+      "ticketUrl": "https://thetrustees.org/event/448729/",
+      "cancellationPolicy": "Not stated in the checked listing; confirm with the organizer.",
+      "notes": [],
+      "lastVerified": "2026-10-03T11:04:00Z",
+      "verificationMethod": "Official organizer/event page reviewed",
+      "reviewRequired": false,
+      "status": "scheduled",
+      "format": "In person",
+      "category": "Outdoors",
+      "id": "weir-2026-11-21",
+      "title": "Sensory-Friendly Open Barnyard",
+      "start": "2026-11-21T11:00:00-05:00",
+      "end": "2026-11-21T12:00:00-05:00",
+      "state": "MA",
+      "city": "Hingham",
+      "venue": "Weir River Farm",
+      "address": "140 Turkey Hill Lane, Hingham, MA 02043",
+      "cost": "Members $5 per person; nonmembers $10 per person",
+      "ages": "Any family that benefits from a quieter, limited-capacity farm visit",
+      "summary": "A quieter, reduced-capacity hour at a working farm with opportunities to experience the barnyard.",
+      "accessibility": [
+        "Limited capacity",
+        "Quieter sensory-friendly environment"
+      ],
+      "sourceId": "trustees-weir",
+      "sourceUrl": "https://thetrustees.org/event/448729/",
+      "registration": "Advance registration recommended/required by ticketing page.",
+      "visualStory": {
+        "arrival": "We can park at the farm and check the path before heading toward the barnyard.",
+        "activity": "We can look at farm animals and move at our own pace during the quieter hour.",
+        "break": "We can move back toward the parking/picnic area if we need more space."
+      }
+    },
+    {
+      "timezone": "America/New_York",
+      "ticketUrl": "https://shelburnemuseum.org/visit/winter-lights/",
+      "cancellationPolicy": "Not stated in the checked listing; confirm with the organizer.",
+      "notes": [],
+      "lastVerified": "2026-10-03T11:04:00Z",
+      "verificationMethod": "Official organizer/event page reviewed",
+      "reviewRequired": false,
+      "status": "scheduled",
+      "format": "In person",
+      "category": "Holiday",
+      "id": "shelburne-2026-11-30",
+      "title": "Sensory Friendly Winter Lights",
+      "start": "2026-11-30T16:30:00-05:00",
+      "end": "2026-11-30T20:00:00-05:00",
+      "state": "VT",
+      "city": "Shelburne",
+      "venue": "Shelburne Museum",
+      "address": "6000 Shelburne Road, Shelburne, VT 05482",
+      "cost": "Organizer lists sensory-program pricing; confirm at booking",
+      "ages": "Children, teens and adults with sensory needs; families",
+      "summary": "A lower-capacity Winter Lights evening with a social narrative, Know-Before-You-Go materials and education-staff support.",
+      "accessibility": [
+        "Lower ticket density",
+        "Social narrative and pre-visit materials",
+        "Packed-gravel outdoor route with slopes",
+        "Accessible restrooms"
+      ],
+      "sourceId": "shelburne",
+      "sourceUrl": "https://shelburnemuseum.org/event/sensory-friendly-winter-lights-2-4/",
+      "registration": "Advance registration strongly recommended.",
+      "visualStory": {
+        "arrival": "We can arrive after dark and check in for Winter Lights. It will be outdoors and cold-weather clothing may help.",
+        "activity": "We can walk through gentle light displays. The route is about a half-mile with gravel and hills.",
+        "break": "We can slow down, stop, or ask Education staff for help. We can leave if weather or sensory conditions are too much."
+      }
+    },
+    {
+      "timezone": "America/New_York",
+      "ticketUrl": "https://www.bostonballet.org/performances/sensory-friendly-nutcracker/",
+      "cancellationPolicy": "Not stated in the checked listing; confirm with the organizer.",
+      "notes": [],
+      "lastVerified": "2026-10-03T11:04:00Z",
+      "verificationMethod": "Official organizer/event page reviewed",
+      "reviewRequired": false,
+      "status": "scheduled",
+      "format": "In person",
+      "category": "Accessible arts",
+      "id": "boston-ballet-2026-12-04",
+      "title": "Sensory Friendly Nutcracker",
+      "start": "2026-12-04T13:30:00-05:00",
+      "end": "2026-12-04T14:50:00-05:00",
+      "state": "MA",
+      "city": "Boston",
+      "venue": "Citizens Bank Opera House",
+      "address": "539 Washington Street, Boston, MA 02111",
+      "cost": "Ticketed; check current seat availability/pricing",
+      "ages": "Neurodiverse guests, people with sensory sensitivities, and anyone needing additional accessibility accommodations",
+      "summary": "An abbreviated 80-minute Nutcracker with modified sensory conditions and broad in-theater accessibility supports.",
+      "accessibility": [
+        "House lights partly on; no flashing/strobes",
+        "Restricted loud stage noises",
+        "Movement, talking and re-entry permitted",
+        "Quiet spaces",
+        "Audio description",
+        "ASL ushers/interpreted announcements",
+        "Large-print programs"
+      ],
+      "sourceId": "boston-ballet",
+      "sourceUrl": "https://www.bostonballet.org/performances/sensory-friendly-nutcracker/",
+      "registration": "Tickets required.",
+      "visualStory": {
+        "arrival": "We can enter the Opera House and ask an usher for the elevator, accessible seating or other help.",
+        "activity": "The ballet lasts about 80 minutes including intermission. Lights will not go completely dark and loud/strobe effects are reduced.",
+        "break": "We can leave our seat and return. Quiet spaces are available in the lower-lobby VIP lounge."
+      }
     },
     {
       "id": "bcm-2026-12-05",
@@ -578,7 +1483,81 @@
       "lastVerified": "2026-10-03T02:31:26Z",
       "verificationMethod": "Official organizer page reviewed",
       "reviewRequired": false,
-      "status": "scheduled"
+      "status": "scheduled",
+      "category": "Sensory-friendly",
+      "format": "In person"
+    },
+    {
+      "timezone": "America/New_York",
+      "ticketUrl": null,
+      "cancellationPolicy": "Not stated in the checked listing; confirm with the organizer.",
+      "notes": [],
+      "lastVerified": "2026-10-03T11:04:00Z",
+      "verificationMethod": "Official organizer/event page reviewed",
+      "reviewRequired": false,
+      "status": "scheduled",
+      "format": "In person",
+      "category": "Sensory-friendly",
+      "id": "westport-early-2026-12-13",
+      "title": "Sensory Friendly Storytime Early Opening",
+      "start": "2026-12-13T12:00:00-05:00",
+      "end": "2026-12-13T13:00:00-05:00",
+      "state": "CT",
+      "city": "Westport",
+      "venue": "The Westport Library",
+      "address": "20 Jesup Road, Westport, CT 06880",
+      "cost": "Free",
+      "ages": "Designed for ages 2+ with multi-sensory needs; all ages and abilities welcome",
+      "summary": "A sensory-friendly library session during a quieter early opening.",
+      "accessibility": [
+        "Wheelchair-accessible library and meeting rooms",
+        "Lower-crowd early opening"
+      ],
+      "sourceId": "westport-library",
+      "sourceUrl": "https://westportlibrary.org/series/sensory-storytime-early-opening/",
+      "registration": "Advance registration required for early-opening sessions.",
+      "visualStory": {
+        "arrival": "We can arrive while the library is open early for this smaller group.",
+        "activity": "We can listen, move, rhyme or try a sensory activity in our own way.",
+        "break": "We can step away from the group and use a quieter part of the library."
+      }
+    },
+    {
+      "timezone": "America/New_York",
+      "ticketUrl": "https://shelburnemuseum.org/visit/winter-lights/",
+      "cancellationPolicy": "Not stated in the checked listing; confirm with the organizer.",
+      "notes": [],
+      "lastVerified": "2026-10-03T11:04:00Z",
+      "verificationMethod": "Official organizer/event page reviewed",
+      "reviewRequired": false,
+      "status": "scheduled",
+      "format": "In person",
+      "category": "Holiday",
+      "id": "shelburne-2026-12-14",
+      "title": "Sensory Friendly Winter Lights",
+      "start": "2026-12-14T16:30:00-05:00",
+      "end": "2026-12-14T20:00:00-05:00",
+      "state": "VT",
+      "city": "Shelburne",
+      "venue": "Shelburne Museum",
+      "address": "6000 Shelburne Road, Shelburne, VT 05482",
+      "cost": "Organizer lists sensory-program pricing; confirm at booking",
+      "ages": "Children, teens and adults with sensory needs; families",
+      "summary": "A lower-capacity Winter Lights evening with a social narrative, Know-Before-You-Go materials and education-staff support.",
+      "accessibility": [
+        "Lower ticket density",
+        "Social narrative and pre-visit materials",
+        "Packed-gravel outdoor route with slopes",
+        "Accessible restrooms"
+      ],
+      "sourceId": "shelburne",
+      "sourceUrl": "https://shelburnemuseum.org/event/sensory-friendly-winter-lights-2/",
+      "registration": "Advance registration strongly recommended.",
+      "visualStory": {
+        "arrival": "We can arrive after dark and check in for Winter Lights. It will be outdoors and cold-weather clothing may help.",
+        "activity": "We can walk through gentle light displays. The route is about a half-mile with gravel and hills.",
+        "break": "We can slow down, stop, or ask Education staff for help. We can leave if weather or sensory conditions are too much."
+      }
     },
     {
       "id": "montshire-2026-12-19",
@@ -608,7 +1587,245 @@
       "lastVerified": "2026-10-03T02:31:26Z",
       "verificationMethod": "Official organizer page reviewed",
       "reviewRequired": false,
-      "status": "scheduled"
+      "status": "scheduled",
+      "category": "Sensory-friendly",
+      "format": "In person"
+    }
+  ],
+  "accessibilityStandard": {
+    "checkedAt": "2026-10-03T11:04:00Z",
+    "note": "Access field notes prioritize current organizer/venue information, then public visitor reports when useful. Organizer-confirmed facts and community observations stay distinct. Missing information is labeled not confirmed rather than guessed.",
+    "fields": [
+      "mobility",
+      "terrain",
+      "sensory",
+      "visionHearing",
+      "restrooms",
+      "changing",
+      "parking",
+      "weather"
+    ]
+  },
+  "venueProfiles": {
+    "Boston Children’s Museum": {
+      "mobility": "Building and exhibits are wheelchair accessible; the main elevator serves all three floors. Adult- and child-size manual wheelchairs are available first come.",
+      "terrain": "Indoor museum. Strollers are allowed, but parking is limited and some exhibits cannot accommodate them.",
+      "sensory": "Quieter areas, sound-reducing earmuffs, fidgets, weighted blankets and a pre-visit Social Story are available.",
+      "visionHearing": "Large-print maps and assistive listening devices are available; check the calendar for ASL-interpreted programs.",
+      "restrooms": "Wheelchair-accessible family restrooms are on all three floors.",
+      "changing": "A height-adjustable adult-size changing table is available in the first-aid room; ask staff to unlock it.",
+      "parking": "The museum validates selected nearby parking garages; confirm current garage details.",
+      "weather": "Primarily indoors.",
+      "evidence": "Organizer accessibility page checked Oct 3, 2026.",
+      "accessibilityUrl": "https://bostonchildrensmuseum.org/visit/accessibility/"
+    },
+    "Discovery Museum": {
+      "mobility": "Museum building, exhibits, Discovery Woods and Treehouse are wheelchair accessible; two elevators serve the museum.",
+      "terrain": "Discovery Woods has an accessible pathway. Snow or ice can affect the outdoor path in winter.",
+      "sensory": "Noise-reducing headphones, sunglasses, sensory map, multilingual Social Story and a Take a Break space are available.",
+      "visionHearing": "ASL interpretation can be requested with at least two weeks’ notice, subject to availability. Especially for Me includes Deaf, Blind and DeafBlind programming.",
+      "restrooms": "Accessible family restroom on the first floor; additional accessible restrooms on first and second floors.",
+      "changing": "All five restrooms have changing tables. Adult-size changing equipment was not confirmed in the current public information reviewed.",
+      "parking": "Accessible parking spaces are near the rear of the building.",
+      "weather": "Outdoor Discovery Woods is weather-sensitive and closes at sunset.",
+      "evidence": "Organizer accessibility and plan-your-visit pages checked Oct 3, 2026.",
+      "accessibilityUrl": "https://www.discoveryacton.org/visit/accessibility"
+    },
+    "Montshire Museum of Science": {
+      "mobility": "First-floor exhibits and bathrooms are wheelchair accessible; second-floor exhibits are reached by elevator. Some outdoor trails are wheelchair accessible with assistance.",
+      "terrain": "Science Park includes loose gravel. Some trails use compacted crushed stone, dirt, pine needles and wood chips; an all-terrain chair/jogger can help in some outdoor areas.",
+      "sensory": "Sensory Hour reduces sound on select exhibits, limits visitors and offers respite space/sensory supplies.",
+      "visionHearing": "Current public information reviewed focused mainly on mobility and sensory access; confirm specific low-vision/hearing supports.",
+      "restrooms": "First-floor bathrooms are wheelchair accessible.",
+      "changing": "Adult-size changing equipment was not confirmed.",
+      "parking": "Confirm the easiest accessible arrival route before travel.",
+      "weather": "Outdoor trails and surfaces can change with weather.",
+      "evidence": "Organizer FAQ and trail-access notes checked Oct 3, 2026.",
+      "accessibilityUrl": "https://montshire.org/visit/museum-faqs/"
+    },
+    "Roger Williams Park Zoo": {
+      "mobility": "Most of the roughly one-mile zoo route is wheelchair accessible, but there are hills and uneven or unpaved sections. Manual wheelchairs, strollers and ECVs are available to rent first come.",
+      "terrain": "Expect hills and some uneven/unpaved ground across a roughly 40-acre zoo.",
+      "sensory": "KultureCity-certified sensory-inclusive venue with free sensory bags and designated quiet zones.",
+      "visionHearing": "Specific low-vision/hearing supports beyond sensory resources were not confirmed on the page reviewed; contact admissions.",
+      "restrooms": "Confirm the most convenient accessible restroom for the event route.",
+      "changing": "Adult-size changing equipment was not confirmed.",
+      "parking": "Free accessible spaces are in Lots A and B, first come.",
+      "weather": "Outdoor route; conditions can change with weather.",
+      "evidence": "Organizer accessibility page checked Oct 3, 2026; public visitor Q&A cross-checked for mobility context.",
+      "accessibilityUrl": "https://www.rwpzoo.org/visit/accessibility-programs-services/"
+    },
+    "The Westport Library": {
+      "mobility": "Library and meeting rooms are wheelchair accessible; a motorized wheelchair is available for use inside.",
+      "terrain": "Indoor library.",
+      "sensory": "Sensory-friendly early-opening sessions reduce crowds and include multi-sensory activities.",
+      "visionHearing": "Large-print materials are available. The Trefz Forum supports Sennheiser mobile audio through a visitor’s own phone/headphones.",
+      "restrooms": "Confirm the most convenient accessible restroom with staff on arrival.",
+      "changing": "Adult-size changing equipment was not confirmed.",
+      "parking": "Confirm current accessible parking/drop-off details before travel.",
+      "weather": "Indoors.",
+      "evidence": "Organizer accessibility and event pages checked Oct 3, 2026.",
+      "accessibilityUrl": "https://westportlibrary.org/services/accessibility-services/"
+    },
+    "The Aldrich Contemporary Art Museum": {
+      "mobility": "Fully accessible to mobility devices; ramp from parking, no steps from parking to the front doors, and elevators to both floors.",
+      "terrain": "Main museum route is step-free; sculpture-garden conditions may vary outdoors.",
+      "sensory": "Sensory bags include noise-canceling headphones, fidgets and shades; staff can help locate quiet space. A social narrative is available.",
+      "visionHearing": "Braille directional signage; staff can provide verbal artwork descriptions/wayfinding; multimedia is captioned when possible.",
+      "restrooms": "ADA-compliant gender-inclusive restrooms are on the first floor.",
+      "changing": "Adult-size changing equipment was not confirmed.",
+      "parking": "Free parking adjacent to the museum.",
+      "weather": "Main program indoors; sculpture garden outdoors.",
+      "evidence": "Organizer accessibility page checked Oct 3, 2026.",
+      "accessibilityUrl": "https://thealdrich.org/learn/accessibility-programs"
+    },
+    "VINS Nature Center": {
+      "mobility": "Campus, main exhibits and Forest Canopy Walk are wheelchair/stroller accessible. Main route includes about a 5% grade; staff can direct guests to alternate accessible parking that avoids it.",
+      "terrain": "McKnight Trail has a hard-packed surface suitable for wheelchairs and strollers; other nature trails may be less accessible.",
+      "sensory": "Sensory Friendly Hour minimizes noise, crowds and other sensory stimuli throughout exhibits and trails.",
+      "visionHearing": "Specific low-vision/hearing supports were not confirmed on the public pages reviewed.",
+      "restrooms": "Confirm the closest accessible restroom on arrival.",
+      "changing": "Adult-size changing equipment was not confirmed.",
+      "parking": "Accessible parking at the main entrance; alternate accessible parking can eliminate the 5% grade after check-in.",
+      "weather": "Indoor and outdoor experience; trail conditions are weather-sensitive.",
+      "evidence": "Organizer visit and trail-access pages checked Oct 3, 2026.",
+      "accessibilityUrl": "https://vinsweb.org/visit/"
+    },
+    "Shelburne Museum": {
+      "mobility": "Grounds and nearly all buildings are accessible, but the campus has varying slopes and surfaces. Standard wheelchairs can be reserved or requested.",
+      "terrain": "Packed gravel/slate, inclines and declines. Winter Lights is about a half-mile walk; wet, muddy, icy or snowy conditions can make wheels harder to use.",
+      "sensory": "Sensory Friendly Winter Lights limits ticket density and provides a social narrative and Know-Before-You-Go materials. Lights/sound are not turned off but are described as gentle.",
+      "visionHearing": "The museum publishes sensory-condition and physical-access guides; lower light levels occur in parts of Winter Lights.",
+      "restrooms": "Accessible restrooms are available at Admissions, Weathervane Café and Train Station during Winter Lights.",
+      "changing": "Winter Lights restrooms list infant changing tables; adult-size changing equipment was not confirmed.",
+      "parking": "Confirm winter accessible parking/drop-off; regular-season golf-cart shuttles do not operate on walk-through Winter Lights nights.",
+      "weather": "Outdoor winter event; snow, rain, ice and cold can materially affect footing and wheels.",
+      "evidence": "Organizer accessibility and 2026 Winter Lights pages checked Oct 3, 2026.",
+      "accessibilityUrl": "https://shelburnemuseum.org/visit/accessibility/"
+    },
+    "SEE Science Center": {
+      "mobility": "Outdoor ramps, push-button entrances and an interior elevator provide access to exhibit levels.",
+      "terrain": "Indoor science center.",
+      "sensory": "Sensory materials, sensory story and sensory map are available. The venue notes the space can be loud; Friendly Fun Night lowers stimulation and capacity.",
+      "visionHearing": "A science-museum signing glossary is available for Deaf/hard-of-hearing visitors; several exhibits have multilingual translations.",
+      "restrooms": "Wheelchair-accessible restroom stalls are in the main hallway.",
+      "changing": "Adult-size changing equipment was not confirmed.",
+      "parking": "Confirm the closest accessible parking route before travel.",
+      "weather": "Indoors.",
+      "evidence": "Organizer accessibility FAQ checked Oct 3, 2026.",
+      "accessibilityUrl": "https://see-sciencecenter.org/faq-items/accessibility/"
+    },
+    "Citizens Bank Opera House": {
+      "mobility": "ADA-accessible theater with wheelchair seating on every level and elevator service to all levels/floors.",
+      "terrain": "Indoor historic theater; use elevator routes if stairs are not workable.",
+      "sensory": "Sensory Friendly Nutcracker keeps house lights partly on, removes flashing/strobes, restricts loud stage noises, permits movement/talking/re-entry and provides quiet spaces.",
+      "visionHearing": "Audio-description headsets, ASL ushers/interpreted announcements, large-print programs and assistive listening systems are available for the sensory-friendly performance.",
+      "restrooms": "ADA-accessible restrooms are in the lower lobby.",
+      "changing": "Adult-size changing equipment was not confirmed.",
+      "parking": "Downtown Boston; plan parking/transit and drop-off before arrival.",
+      "weather": "Indoors, with an urban outdoor arrival route.",
+      "evidence": "Boston Ballet sensory-friendly and accessibility pages checked Oct 3, 2026.",
+      "accessibilityUrl": "https://www.bostonballet.org/home/tickets-performances/accessibility/"
+    },
+    "Weir River Farm": {
+      "mobility": "For published farm events, the picnic lawn is described as a flat grassy field accessible for most strollers and wheelchairs. Confirm the exact barnyard route for this program.",
+      "terrain": "Working farm with grass and outdoor farm surfaces; conditions may be softer or uneven after wet weather.",
+      "sensory": "This program uses reduced capacity and a quieter sensory-friendly hour.",
+      "visionHearing": "Specific low-vision/hearing supports were not confirmed.",
+      "restrooms": "For some farm events, accessible indoor restrooms are reserved for those who need them; porta-toilets may serve general guests.",
+      "changing": "A changing table is referenced for accessible indoor bathrooms at some farm events; adult-size equipment was not specified.",
+      "parking": "On-site farm parking; confirm the shortest accessible route for this event.",
+      "weather": "Outdoor working-farm conditions; rain/mud can affect wheels and footing.",
+      "evidence": "Organizer event page plus current farm-event accessibility notes checked Oct 3, 2026.",
+      "accessibilityUrl": "https://thetrustees.org/event/448729/"
+    },
+    "Autism Welcoming Center": {
+      "mobility": "Physical mobility details were not clearly stated on the event page; contact the center if step-free entry, doorway width or restroom setup matters.",
+      "terrain": "Indoor center.",
+      "sensory": "Purpose-built autism-welcoming space with sensory tools, flexible seating, movement opportunities and calming spaces; no expectation to sit still or stay quiet.",
+      "visionHearing": "Specific low-vision/hearing accommodations were not stated.",
+      "restrooms": "Not confirmed in the current public event information.",
+      "changing": "Adult-size changing equipment was not confirmed.",
+      "parking": "Confirm the easiest entrance and parking route before travel.",
+      "weather": "Indoors.",
+      "evidence": "Organizer event page checked Oct 3, 2026.",
+      "accessibilityUrl": "https://autismalliance.org/events/storytime-smiles-autism-welcoming-center"
+    },
+    "Bierman Autism Centers - Bedford": {
+      "mobility": "Event listing does not provide a detailed physical-access route; confirm step-free entrance/parking if needed.",
+      "terrain": "Trunk-or-treat components may use indoor and outdoor areas; confirm event-day layout.",
+      "sensory": "Dedicated quiet corner/comfort zone; simple games and sensory-friendly pacing are advertised.",
+      "visionHearing": "Specific low-vision/hearing accommodations were not stated.",
+      "restrooms": "Not confirmed.",
+      "changing": "Adult-size changing equipment was not confirmed.",
+      "parking": "Office-center parking; confirm the closest accessible entrance.",
+      "weather": "Part of the event may be outdoors.",
+      "evidence": "Organizer event listing and ticket page checked Oct 3, 2026.",
+      "accessibilityUrl": "https://www.biermanautism.com/resources/sensory-friendly-events/"
+    },
+    "Bierman Autism Centers - Danvers": {
+      "mobility": "Event listing does not provide a detailed physical-access route; confirm step-free entrance/parking if needed.",
+      "terrain": "Trunk-or-treat components may use indoor and outdoor areas; confirm event-day layout.",
+      "sensory": "Dedicated quiet corner/comfort zone; simple games and sensory-friendly pacing are advertised.",
+      "visionHearing": "Specific low-vision/hearing accommodations were not stated.",
+      "restrooms": "Not confirmed.",
+      "changing": "Adult-size changing equipment was not confirmed.",
+      "parking": "Office-center parking; confirm the closest accessible entrance.",
+      "weather": "Part of the event may be outdoors.",
+      "evidence": "Organizer event listing and ticket page checked Oct 3, 2026.",
+      "accessibilityUrl": "https://www.biermanautism.com/resources/sensory-friendly-events/"
+    },
+    "Beals Memorial Library": {
+      "mobility": "The event is indoors. A detailed current mobility route was not found in the event listing; confirm step-free entrance/restroom access if needed.",
+      "terrain": "Indoor library.",
+      "sensory": "Not-too-spooky format; noise-reducing earmuffs/headphones are available.",
+      "visionHearing": "Specific low-vision/hearing accommodations were not stated.",
+      "restrooms": "Confirm accessible restroom details with the library.",
+      "changing": "Adult-size changing equipment was not confirmed.",
+      "parking": "Confirm the easiest accessible parking/drop-off with the library.",
+      "weather": "Indoors.",
+      "evidence": "Library and Town event pages checked Oct 3, 2026.",
+      "accessibilityUrl": "https://www.bealslibrary.org/events"
+    },
+    "Venture Dudley II Day Program": {
+      "mobility": "Organizer directs visitors to the rear entrance and rear parking lot; detailed wheelchair route/restroom information was not stated.",
+      "terrain": "Indoor event.",
+      "sensory": "Sensory-friendly event with themed rooms, sensory bins, crafts and flexible family participation.",
+      "visionHearing": "Specific low-vision/hearing accommodations were not stated.",
+      "restrooms": "Not confirmed.",
+      "changing": "Adult-size changing equipment was not confirmed.",
+      "parking": "Use the entrance and parking lot at the back of the building.",
+      "weather": "Indoors.",
+      "evidence": "Organizer event page checked Oct 3, 2026.",
+      "accessibilityUrl": "https://venturecs.org/event/halloween26/"
+    },
+    "St. Johnsbury Athenaeum": {
+      "mobility": "Historic library; the event listing does not provide enough current physical-access detail to characterize the full route. Confirm step-free access if needed.",
+      "terrain": "Indoor library event.",
+      "sensory": "Event is described as calm and welcoming for families with sensory sensitivities.",
+      "visionHearing": "Specific accommodations were not stated.",
+      "restrooms": "Not confirmed.",
+      "changing": "Adult-size changing equipment was not confirmed.",
+      "parking": "Confirm best accessible arrival/parking route before travel.",
+      "weather": "Indoors.",
+      "evidence": "Organizer event page checked Oct 3, 2026.",
+      "accessibilityUrl": "https://www.stjathenaeum.org/youth-events-1/2026/10/30/sensory-friendly-halloween-event"
+    }
+  },
+  "watchlist": [
+    {
+      "id": "lurie-trunk-or-treat-watch",
+      "title": "Lurie Center + Spaulding Sensory-Friendly Trunk-or-Treat",
+      "state": "MA",
+      "city": "Lexington",
+      "venue": "Lurie Center for Autism / Spaulding Outpatient Center for Children",
+      "address": "1 Maguire Road, Lexington, MA 02421",
+      "status": "Watching for 2026 date",
+      "lastKnown": "The third annual event was held Sunday, October 26, 2025.",
+      "note": "This annual event belongs on our radar. As of our Oct. 3, 2026 public-source and connected-email check, we did not find a reliable current 2026 date, so we are not inventing one. Confirm directly with Lurie before making plans.",
+      "sourceUrl": "https://www.massgeneral.org/assets/mgh/pdf/children/lurie-center-lurienow-connecting-community.pdf",
+      "organizerUrl": "https://www.massgeneral.org/children/autism/lurie-center",
+      "evidence": "Official Lurie Center newsletter confirms the 2025 event; current 2026 date not yet verified."
     }
   ]
 }
