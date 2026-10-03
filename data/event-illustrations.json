@@ -1,0 +1,160 @@
+{
+  "version": 1,
+  "created": "2026-10-03",
+  "artworkType": "Original AI-generated event-inspired ink-and-watercolor illustrations",
+  "disclosure": "Concept sketches inspired by each program, not venue photographs, maps, or depictions of confirmed exhibits. Repeat dates of the same program share their illustration.",
+  "programs": {
+    "Morningstar Access|Boston Children’s Museum": {
+      "src": "/assets/event-sketches/morningstar-museum.webp",
+      "alt": "Ink-and-watercolor study of wooden building forms and a prism in morning light.",
+      "width": 720,
+      "height": 480
+    },
+    "Sensory Friendly Hour|VINS Nature Center": {
+      "src": "/assets/event-sketches/vins-nature-hour.webp",
+      "alt": "A barred owl, autumn branches and a woodland trail in ink and watercolor.",
+      "width": 720,
+      "height": 480
+    },
+    "Storytime & Smiles at the Autism Welcoming Center|Autism Welcoming Center": {
+      "src": "/assets/event-sketches/storytime-smiles.webp",
+      "alt": "A storybook, colored pencils, paper crafts and apple slices sketched in watercolor.",
+      "width": 720,
+      "height": 480
+    },
+    "Sensory Friendly Storytime Early Opening|The Westport Library": {
+      "src": "/assets/event-sketches/westport-early-opening.webp",
+      "alt": "An open storybook and brass reading lamp in quiet morning light.",
+      "width": 720,
+      "height": 480
+    },
+    "Sensory-Friendly Storytime|The Westport Library": {
+      "src": "/assets/event-sketches/westport-storytime.webp",
+      "alt": "A navy reading chair with an open book, cranberry throw and basket of books.",
+      "width": 720,
+      "height": 480
+    },
+    "Sensory Friendly Storytime|Mt. Pleasant Library, Children’s Area": {
+      "src": "/assets/event-sketches/providence-storytime.webp",
+      "alt": "An open storybook, bubble wand and floating soap bubbles in watercolor.",
+      "width": 720,
+      "height": 480
+    },
+    "Autism-Friendly Evening|Discovery Museum": {
+      "src": "/assets/event-sketches/discovery-evening.webp",
+      "alt": "Hands-on wooden gears and a balancing sculpture in evening light.",
+      "width": 720,
+      "height": 480
+    },
+    "Montshh… Montshire Sensory Hour|Montshire Museum of Science": {
+      "src": "/assets/event-sketches/montshire-science.webp",
+      "alt": "A bubble wand, iridescent bubbles, prism and fern in ink and watercolor.",
+      "width": 720,
+      "height": 480
+    },
+    "Sensory-Friendly Trunk-or-Treat|Bierman Autism Centers - Bedford": {
+      "src": "/assets/event-sketches/bierman-bedford-trunk-treat.webp",
+      "alt": "An open navy station wagon with a pumpkin garland, treats and a tartan blanket.",
+      "width": 720,
+      "height": 480
+    },
+    "Sensory-Friendly Jack-O-Lantern Spectacular|Roger Williams Park Zoo": {
+      "src": "/assets/event-sketches/pumpkin-trail.webp",
+      "alt": "Glowing carved pumpkins along a winding woodland path at twilight.",
+      "width": 720,
+      "height": 480
+    },
+    "Sensory-Friendly Trunk-or-Treat|Bierman Autism Centers - Danvers": {
+      "src": "/assets/event-sketches/bierman-danvers-trunk-treat.webp",
+      "alt": "A green hatchback with an open trunk, pumpkin pail, bunting and autumn leaves.",
+      "width": 720,
+      "height": 480
+    },
+    "Sensory Saturday|The Aldrich Contemporary Art Museum": {
+      "src": "/assets/event-sketches/aldrich-sensory-art.webp",
+      "alt": "Watercolor paints, brushes, abstract shapes and a small wood sculpture.",
+      "width": 720,
+      "height": 480
+    },
+    "Autism-Friendly Halloween Party|Beals Memorial Library": {
+      "src": "/assets/event-sketches/beals-library-halloween.webp",
+      "alt": "A storybook, paper pumpkin craft and basket of treats beside a reading lamp.",
+      "width": 720,
+      "height": 480
+    },
+    "Sensory Friendly Trick or Treat Night|Venture Dudley II Day Program": {
+      "src": "/assets/event-sketches/venture-trick-treat.webp",
+      "alt": "A warmly lit indoor doorway with pumpkin decorations, treats and craft supplies.",
+      "width": 720,
+      "height": 480
+    },
+    "Play Your Way: Sensory-Friendly Halloween|Children’s Museum & Theatre of Maine": {
+      "src": "/assets/event-sketches/maine-halloween-play.webp",
+      "alt": "Small theatre curtains, a pumpkin treat basket, brushes and paper woodland masks.",
+      "width": 720,
+      "height": 480
+    },
+    "Sensory-Friendly Halloween|Discovery Museum": {
+      "src": "/assets/event-sketches/discovery-halloween.webp",
+      "alt": "A pumpkin, magnifying glass, wooden gears and paper bat for Halloween discovery.",
+      "width": 720,
+      "height": 480
+    },
+    "Sensory-Friendly Halloween Event|St. Johnsbury Athenaeum": {
+      "src": "/assets/event-sketches/athenaeum-halloween.webp",
+      "alt": "A jack-o-lantern, clothbound books and autumn leaves on an antique library table.",
+      "width": 720,
+      "height": 480
+    },
+    "Sensory Friendly Fun Night|SEE Science Center": {
+      "src": "/assets/event-sketches/see-science-night.webp",
+      "alt": "A microscope, prism, paper pinwheel and horseshoe magnet in evening light.",
+      "width": 720,
+      "height": 480
+    },
+    "Inclusive Afternoon|Discovery Museum": {
+      "src": "/assets/event-sketches/discovery-inclusive-afternoon.webp",
+      "alt": "A wooden balance sculpture, magnifying lens and fern in afternoon sunshine.",
+      "width": 720,
+      "height": 480
+    },
+    "Eveningstar Access|Boston Children’s Museum": {
+      "src": "/assets/event-sketches/eveningstar-museum.webp",
+      "alt": "A wooden marble run and copper globe beside a starry evening window.",
+      "width": 720,
+      "height": 480
+    },
+    "Sensory-Friendly Open Barnyard|Weir River Farm": {
+      "src": "/assets/event-sketches/weir-open-barnyard.webp",
+      "alt": "A woolly sheep and russet hen beside a weathered New England farm fence.",
+      "width": 720,
+      "height": 480
+    },
+    "Sensory Friendly Winter Lights|Shelburne Museum": {
+      "src": "/assets/event-sketches/shelburne-winter-lights.webp",
+      "alt": "Warm white lights on winter trees beside a winding gravel path at blue dusk.",
+      "width": 720,
+      "height": 480
+    },
+    "Sensory Friendly Nutcracker|Citizens Bank Opera House": {
+      "src": "/assets/event-sketches/sensory-nutcracker.webp",
+      "alt": "A traditional wooden nutcracker, ballet slippers, pine and a velvet curtain.",
+      "width": 720,
+      "height": 480
+    },
+    "Morningstar Access: All Masks On|Boston Children’s Museum": {
+      "src": "/assets/event-sketches/masked-morningstar.webp",
+      "alt": "Wooden construction blocks, a pale-blue mask and an entry leaflet in winter light.",
+      "width": 720,
+      "height": 480
+    }
+  },
+  "watchlist": {
+    "lurie-trunk-or-treat-watch": {
+      "src": "/assets/event-sketches/lurie-trunk-treat.webp",
+      "alt": "An autumn treat basket and pumpkins in an ivory estate car’s open trunk.",
+      "width": 720,
+      "height": 480
+    }
+  }
+}

@@ -1,0 +1,28 @@
+/* Event-specific artwork and native, labeled calendar controls. */
+.calendar-page .event-filters{display:grid;grid-template-columns:1fr 1fr 1.15fr 1fr 1.4fr;gap:16px}
+.calendar-page .event-filters label{font-size:.78rem}
+.calendar-page .event-filters label>span{display:flex;align-items:center;gap:7px;min-height:28px}
+.calendar-page .event-filters input,.calendar-page .event-filters select{font:inherit;font-size:1rem;min-height:48px;background:#fffdf7;color:#173c49;border:1px solid #9eaaa7;border-radius:3px}
+.calendar-page .event-filters>button{grid-column:1/-1;justify-self:start;min-height:44px;margin:0;padding:4px 0}
+.calendar-sketch-icon{width:23px;height:23px;flex:0 0 23px;fill:none;stroke:currentColor;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;color:#244b4d;vertical-align:middle}
+.calendar-page .calendar-view-toggle button,.calendar-page .event-actions button{display:inline-flex;align-items:center;gap:8px;min-height:46px}
+.calendar-page .calendar-view-toggle button.is-active .calendar-sketch-icon{color:inherit}
+.calendar-page .event-card.has-sketch{grid-template-columns:65px minmax(0,1fr) minmax(210px,30%);gap:28px;align-items:start}
+.calendar-page .event-card:focus{outline:2px solid #315b64;outline-offset:8px}
+.calendar-page .event-art{margin:0;min-width:0;align-self:start}
+.calendar-page .event-sketch{display:block;width:100%;height:auto;aspect-ratio:3/2;object-fit:contain;background:#fbf7ed;mix-blend-mode:multiply}
+.calendar-page .event-art figcaption{font-size:.65rem;line-height:1.5;color:#536467;letter-spacing:.025em;margin-top:8px}
+.calendar-page .event-art-note{font-size:.75rem;line-height:1.65;color:#536467;max-width:85ch;margin:0 0 12px}
+.calendar-page .event-card h2{font-size:1.8rem;line-height:1.2}
+.calendar-page .event-card summary .calendar-sketch-icon{margin-right:7px;width:19px;height:19px}
+.calendar-page .event-card details summary{padding-block:10px;min-height:44px;line-height:1.65}
+.calendar-page .event-card .event-facts{grid-template-columns:85px minmax(0,1fr)}
+.calendar-page .month-event{display:block;min-height:44px;overflow:hidden;text-align:left}
+.calendar-page .month-event-sketch{display:block;width:100%;height:auto;aspect-ratio:3/2;object-fit:contain;background:#fbf7ed;margin-bottom:5px}
+.calendar-page .month-event-title{display:block}
+.calendar-page .watch-card .event-art{max-width:340px;margin:0 0 20px}
+.calendar-page :is(button,input,select,a,summary):focus-visible{outline:3px solid #8d453b;outline-offset:4px}
+@media(min-width:1250px){.calendar-page .event-card.has-sketch{grid-template-columns:65px minmax(0,1fr) 340px}}
+@media(max-width:900px){.calendar-page .event-filters{grid-template-columns:repeat(2,minmax(0,1fr))}.calendar-page .event-filters label:last-of-type{grid-column:1/-1}.calendar-page .event-card.has-sketch{grid-template-columns:52px minmax(0,1fr) 28%;gap:20px}.calendar-page .event-card h2{font-size:1.6rem}}
+@media(max-width:650px){.calendar-page .event-card.has-sketch{grid-template-columns:45px minmax(0,1fr);gap:20px 16px;grid-template-areas:'art art' 'date copy'}.calendar-page .event-card.has-sketch>.event-art{grid-area:art;width:100%;max-width:480px;justify-self:center}.calendar-page .event-card.has-sketch>.event-date{grid-area:date}.calendar-page .event-card.has-sketch>.event-copy{grid-area:copy}.calendar-page .event-card .event-facts{grid-template-columns:1fr}.calendar-page .event-card h2{font-size:1.7rem}.calendar-page .event-art figcaption{text-align:center}.calendar-page .event-filters{gap:14px 12px}.calendar-page .event-filters input,.calendar-page .event-filters select{padding:10px 8px}.calendar-page .event-month-filter{grid-column:1/-1}.calendar-page .event-filters label:last-of-type{grid-column:auto}.calendar-page .event-actions{gap:5px 16px}.calendar-page .event-actions a,.calendar-page .event-actions button{font-size:.8rem}.calendar-page .calendar-toolbar-head{align-items:start}.calendar-page .calendar-view-toggle{flex-wrap:wrap}}
+@media(prefers-reduced-motion:reduce){.calendar-page *{scroll-behavior:auto!important}}

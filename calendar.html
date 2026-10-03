@@ -14,7 +14,7 @@
 <link rel="icon" href="/favicon.ico">
 <link rel="stylesheet" href="/assets/site.css?v=magazine-20261003">
 <link rel="stylesheet" href="/assets/magazine.css?v=calendar-20261003b">
-<link rel="stylesheet" href="/assets/immersion.css?v=village-20261003"><link rel="stylesheet" href="/assets/editorial.css?v=20261003-mainstreet"></head>
+<link rel="stylesheet" href="/assets/immersion.css?v=village-20261003"><link rel="stylesheet" href="/assets/editorial.css?v=20261003-mainstreet"><link rel="stylesheet" href="/assets/calendar-sketches.css?v=20261003-event-art"></head>
 <body class="magazine-shell calendar-page">
 <a class="skip" href="#main">Skip to content</a>
 <div class="edition-line"><span>New England &amp; the everyday</span><span>A family-life field guide</span></div>
@@ -45,18 +45,20 @@
 <div class="calendar-toolbar-head">
 <div><p class="eyebrow">Plan the day</p><h2>Upcoming events.</h2></div>
 <div class="calendar-view-toggle" aria-label="Calendar display">
-<button type="button" data-calendar-view="list" aria-pressed="true" class="is-active">Field-note list</button>
-<button type="button" data-calendar-view="month" aria-pressed="false">Month calendar</button>
+<button type="button" data-calendar-view="list" data-sketch-icon="list" aria-pressed="true" class="is-active">Field-note list</button>
+<button type="button" data-calendar-view="month" data-sketch-icon="calendar" aria-pressed="false">Month calendar</button>
 </div>
 </div>
 <form class="event-filters" role="search">
-<label>Where?<select name="state"><option value="">All New England</option><option value="CT">Connecticut</option><option value="ME">Maine</option><option value="MA">Massachusetts</option><option value="NH">New Hampshire</option><option value="RI">Rhode Island</option><option value="VT">Vermont</option></select></label>
-<label>What kind?<select name="category"><option value="">All event types</option></select></label>
-<label>From<input name="from" type="date"></label>
-<label>Search<input name="q" type="search" placeholder="Museum, Halloween, wheelchair, quiet…"></label>
+<label><span data-sketch-icon="pin">Where?</span><select name="state"><option value="">All New England</option><option value="CT">Connecticut</option><option value="ME">Maine</option><option value="MA">Massachusetts</option><option value="NH">New Hampshire</option><option value="RI">Rhode Island</option><option value="VT">Vermont</option></select></label>
+<label><span data-sketch-icon="leaf">What kind?</span><select name="category"><option value="">All event types</option></select></label>
+<label class="event-month-filter"><span data-sketch-icon="calendar">Choose a month</span><select name="month"><option value="">All upcoming months</option></select></label>
+<label><span data-sketch-icon="calendar">From a date</span><input name="from" type="date"></label>
+<label><span data-sketch-icon="search">Search</span><input name="q" type="search" placeholder="Museum, Halloween, wheelchair, quiet…"></label>
 <button type="reset" class="reset-link">Clear filters</button>
 </form>
 <p class="event-summary" role="status" aria-live="polite">Loading upcoming listings…</p>
+<p class="event-art-note">Original AI ink-and-watercolor sketches, inspired by each event. They are illustrations, not venue photographs or access maps.</p>
 <div class="event-list"></div>
 <div class="event-month-view" hidden></div>
 <div class="event-empty empty-state" hidden><h2>No dated listings in this view.</h2><p>Try another date, state or event type. The source directory and annual-event watchlist below may still help.</p></div>
@@ -103,6 +105,7 @@
 </main>
 <footer class="mag-footer"><div class="wrap"><div><a class="footer-wordmark" href="/">An AUsome Life</a><p>Simple good things.<br>The practical details left in.</p></div><nav aria-label="Footer navigation"><a href="/library.html">The library</a><a href="/favorite-places.html">Favorite places</a><a href="/calendar.html">The calendar</a><a href="/visit-story.html">Visual visit planner</a><a href="/little-black-book.html">The little black book</a><a href="/contact.html">Contact</a><a href="/media/">Media &amp; partnerships</a></nav><div class="footer-small"><a href="/language.html">Language &amp; representation</a><a href="/disclosure.html">Disclosure</a><a href="/privacy.html">Privacy</a><a href="/accessibility.html">Accessibility</a><a href="https://www.instagram.com/anausomelife/">Instagram ↗</a><span>© 2026 An AUsome Life · New England</span></div></div></footer>
 <script src="/assets/magazine.js?v=20261003-mainstreet" defer></script>
-<script src="/assets/events.js?v=calendar-20261003b" defer></script>
+<script src="/assets/events.js?v=20261003-event-art" defer></script>
 <script src="/assets/immersion.js?v=20261003-mainstreet" defer></script></body>
 </html>
+
