@@ -53,7 +53,7 @@
   root.querySelectorAll('[data-preset]').forEach(button=>button.addEventListener('click',()=>{
     word.value=button.dataset.label;
     description.value=`Illustration for ${button.dataset.label}`;
-    setImage(`/assets/visuals/${button.dataset.preset}.svg`); draw();
+    setImage(button.dataset.preset==='water'?'/assets/card-water.webp':`/assets/visuals/${button.dataset.preset}.svg`); draw();
   }));
   word.addEventListener('input',draw); description.addEventListener('input',draw);
   function download(blob, name) {
@@ -87,5 +87,5 @@
   subject.addEventListener('input',setPrompt);setPrompt();
   get('[data-copy-image-prompt]').addEventListener('click',async()=>{try{await navigator.clipboard.writeText(prompt.value);status.textContent='Image prompt copied. Paste into your image tool, then add the finished image here.';}catch(_){prompt.focus();prompt.select();status.textContent='Select and copy the prompt below.';}});
   window.addEventListener('pagehide',()=>{if(localUrl)URL.revokeObjectURL(localUrl)});
-  draw();updateSheet();setImage('/assets/visuals/break.svg');
+  draw();updateSheet();setImage('/assets/card-water.webp');
 })();
