@@ -8,8 +8,17 @@
     function filter() {
       const query = input.value.trim().toLocaleLowerCase(); let visible = 0;
       cards.forEach(card => { const match = !query || card.textContent.toLocaleLowerCase().includes(query); card.hidden = !match; if(match) visible++; });
-      status.textContent = query ? `${visible} ${visible === 1 ? 'guide' : 'guides'} found.` : '';
-      document.getElementById('no-results').hidden = visible > 0;
+      const favoriteHub = document.body.classList.contains('favorite-hub');
+      const noun = favoriteHub ? (visible === 1 ? 'place' : 'places') : (visible === 1 ? 'guide' : 'guides');
+      status.textContent = query ? `${visible} ${noun} found.` : '';
+      const noResults = document.getElementById('no-results');
+      if (noResults) noResults.hidden = visible > 0;
+      if (favoriteHub) {
+        document.querySelectorAll('.favorite-group').forEach(section => {
+          const sectionCards = [...section.querySelectorAll('.guide-card')];
+          section.hidden = !!query && sectionCards.every(card => card.hidden);
+        });
+      }
     }
     input.addEventListener('input', filter);
     document.getElementById('clear-search').addEventListener('click', () => { input.value = ''; filter(); input.focus(); });
