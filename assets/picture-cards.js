@@ -86,9 +86,23 @@ async function generateNewPicture(){
  const buttons=[...root.querySelectorAll('[data-generate-new-picture]')],genStatus=get('[data-imagegen-status]')||get('[data-prompt-status]');
  buttons.forEach(button=>button.disabled=true);
  if(!imageApi){
-  window.open('https://chatgpt.com/','_blank','noopener,noreferrer');
   const copied=await copyImagePrompt();
-  genStatus.textContent=copied?'ChatGPT opened and your approved image prompt is copied. Paste it there, make the picture, then return here and choose “Use my own photo.”':'ChatGPT opened. Copy the prompt below, paste it there, then return with the finished picture.';
+  if(copied){
+   genStatus.textContent='Your approved image prompt is copied. Opening ChatGPT now…';
+   sessionStorage.setItem('aal-picture-return','1');
+   window.location.assign('https://chatgpt.com/');
+  }else{
+   genStatus.textContent='Your browser blocked automatic copying. Copy the prompt shown below, then use the Open ChatGPT link.';
+   let link=get('[data-open-chatgpt]');
+   if(!link){
+    link=document.createElement('a');
+    link.href='https://chatgpt.com/';
+    link.className='button secondary';
+    link.dataset.openChatgpt='';
+    link.textContent='Open ChatGPT';
+    get('[data-prompt-status]').after(link);
+   }
+  }
   buttons.forEach(button=>button.disabled=false);
   return;
  }
