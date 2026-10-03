@@ -80,3 +80,70 @@
   }));
   window.addEventListener('afterprint', clear);
 })();
+
+
+/* Favorite Places copy + share tools */
+(() => {
+  if (!document.body.classList.contains('favorite-place-page')) return;
+  const actions = document.querySelector('#print .no-print.actions');
+  const checklist = document.querySelector('#print .place-checklist');
+  const title = document.querySelector('.favorite-hero h1')?.textContent.trim() || document.title;
+  const place = document.querySelector('.favorite-place-name')?.textContent.trim() || '';
+  if (!actions || !checklist) return;
+
+  const status = document.createElement('p');
+  status.className = 'copy-note favorite-tool-status';
+  status.setAttribute('role','status');
+  status.setAttribute('aria-live','polite');
+  actions.after(status);
+
+  const copyButton = document.createElement('button');
+  copyButton.type = 'button';
+  copyButton.className = 'button secondary';
+  copyButton.textContent = 'Copy checklist';
+
+  const shareButton = document.createElement('button');
+  shareButton.type = 'button';
+  shareButton.className = 'text-link';
+  shareButton.textContent = 'Share this place';
+
+  actions.append(copyButton, shareButton);
+
+  const checklistText = () => {
+    const items = [...checklist.querySelectorAll('li')].map(li => '- ' + li.textContent.replace(/^□\s*/, '').trim());
+    return [title, place, '', 'Before we go:', ...items, '', location.href].join('\n');
+  };
+
+  async function copy(value, success) {
+    try {
+      if (!navigator.clipboard || !window.isSecureContext) throw new Error('clipboard unavailable');
+      await navigator.clipboard.writeText(value);
+      status.textContent = success;
+    } catch (_) {
+      const area = document.createElement('textarea');
+      area.className = 'copy-fallback';
+      area.readOnly = true;
+      area.value = value;
+      status.before(area);
+      area.focus();
+      area.select();
+      status.textContent = 'Select and copy the text above.';
+    }
+  }
+
+  copyButton.addEventListener('click', () => copy(checklistText(), 'Checklist copied.'));
+
+  shareButton.addEventListener('click', async () => {
+    const data = { title: title + ' | Favorite Places', text: title + ' — ' + place, url: location.href };
+    try {
+      if (navigator.share) {
+        await navigator.share(data);
+        status.textContent = 'Guide shared.';
+      } else {
+        await copy(location.href, 'Link copied.');
+      }
+    } catch (error) {
+      if (error.name !== 'AbortError') await copy(location.href, 'Link copied.');
+    }
+  });
+})();
