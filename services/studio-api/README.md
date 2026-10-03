@@ -1,10 +1,10 @@
-# An AUsome Life studio API — release candidate, not live
+# An AUsome Life studio API — deployed candidate, generation disabled
 
 This directory is the **intended Vercel project root for the outing research service**. The concurrently added `generator-api` package is a separate, still-disabled picture-card candidate. The main `anausomelife.com` website stays on GitHub Pages. Do not import or deploy the repository root, change its domain, or replace its hosting.
 
 ## Current state
 
-The service is implemented and disabled by default. It has not been deployed or tested against live OpenAI/Redis services. No website JavaScript calls it. No credentials are included. The Vercel connector returned zero accessible teams; the dashboard showed a sign-in page. Automatic approval review rejected a generic “deploy current project” call because its scope could include the existing website. This isolated package gives the next deployment an explicit boundary.
+The isolated service was deployed on 3 October 2026 after the owner authorized the official Vercel CLI device flow. The ChatGPT Vercel connector still returned an empty team list and a team-scope 403 after reconnection; CLI access succeeded for the same workspace. No website JavaScript calls the service, and generation is disabled. No OpenAI or Redis credentials are configured, and those providers have not been tested live. See `../../docs/studio-api-deployment-2026-10-03.md` for verified deployment details and remaining setup.
 
 ## Request and release flow
 
@@ -20,10 +20,11 @@ Failures return a short recoverable message without raw provider errors, prompts
 
 ## Deployment boundary and remaining configuration
 
-- Project name: `anausomelife-studio-api` (proposed, not yet created).
-- Repository: `johannahash-rgb/anausomelife`; **Root Directory: `services/studio-api`**.
+- Project name: `anausomelife-studio-api`, workspace `johannahash-3896`.
+- Repository: `johannahash-rgb/anausomelife`; **local deployment directory: `services/studio-api`**. Git integration is not connected. If enabled later, explicitly set the repository Root Directory to `services/studio-api` before accepting automatic deployments.
 - Framework: Other; Node.js 24; no dependencies or build step; Vercel Functions.
-- Keep `STUDIO_ENABLED=false` for the first preview. Health reports configuration state, not successful live verification.
+- Keep `STUDIO_ENABLED=false` during setup. Vercel classified the first deployment as production despite an explicit preview target; the separate service remained disabled and its deployment URL retained Vercel authentication protection. Health reports configuration state, not successful live provider verification.
+- Only `public/` is served as static content. `.vercelignore` excludes local credentials, environment files and tests from deployment uploads. Function dependencies remain bundled server-side.
 - Add private server variables from `.env.example` using a secure credential flow or the host's settings; never chat or public code. A text model supporting vision, structured output and web search is required; the image model must support the configured GPT Image parameters. Choose available models and review their current costs in the actual provider project.
 - Redis uses the Upstash REST API and atomic Lua. Do not replace the limiter with in-memory counters on serverless instances.
 - Configure provider/host budget controls, alerts and an emergency disable procedure before enabling public requests. The code's hard request caps bound attempts, not a dollar amount; calls and infrastructure can still incur costs.
