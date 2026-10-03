@@ -1,0 +1,1639 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-10-03",
+  "coverage": {
+    "scope": "Published Favorite Places directory and calendar venue profiles",
+    "totalVenues": 48,
+    "orientationMaps": 1,
+    "officialMapCollections": 2,
+    "note": "Coverage is in progress. A venue listing is not a verified accessible map."
+  },
+  "venues": [
+    {
+      "id": "boston-common-frog-pond",
+      "aliases": [
+        "boston-common-frog-pond",
+        "Frog Pond"
+      ],
+      "name": "Frog Pond",
+      "pageUrl": "/favorite-places/boston-common-frog-pond.html",
+      "status": "orientation-map",
+      "statusLabel": "Landmark map · access notes checked",
+      "group": "favorite-places",
+      "summary": "Find the pond, pavilion, playground and carousel. Choose one thing to do; keep your exit plan simple.",
+      "reviewedAt": "2026-10-03",
+      "map": {
+        "desktop": "/assets/venue-maps/frog-pond.svg",
+        "mobile": "/assets/venue-maps/frog-pond-mobile.svg",
+        "alt": "North-up landmark map: Frog Pond at the center, pavilion south, Tadpole Playground east, and carousel west. Numbered details follow.",
+        "mode": "Geographic orientation map",
+        "routeStatus": "Pale paths show geography; short dashed marks show mapped steps. A continuous step-free route has not been verified.",
+        "credit": "© OpenStreetMap contributors. Map data available under ODbL.",
+        "creditUrl": "https://www.openstreetmap.org/copyright",
+        "dataUrl": "/assets/venue-maps/frog-pond-map-data.geojson",
+        "printUrl": "/assets/venue-maps/frog-pond-print.html",
+        "printPdfUrl": "/assets/venue-maps/frog-pond-print.pdf"
+      },
+      "officialMaps": [],
+      "facts": [
+        {
+          "label": "Step-free features",
+          "text": "The City lists stair-free access to spray play and the playground on Boston Common. It does not identify a continuous route here.",
+          "sourceIds": [
+            "city-access"
+          ]
+        },
+        {
+          "label": "Restrooms",
+          "text": "The City lists an accessible portable toilet on the Common. Its exact current location and opening are not verified on this map.",
+          "sourceIds": [
+            "city-access"
+          ]
+        },
+        {
+          "label": "A place to pause",
+          "text": "The City lists shaded seating and benches along paths. No designated quiet or sensory room is verified.",
+          "sourceIds": [
+            "city-access"
+          ]
+        },
+        {
+          "label": "Parking",
+          "text": "The operator directs drivers to Boston Common Garage, with vehicle entry on Charles Street. Garage elevator location and current operation need confirmation.",
+          "sourceIds": [
+            "directions"
+          ]
+        }
+      ],
+      "unknowns": [
+        "Confirm the step-free entrance and path from your actual parking or transit stop.",
+        "Ask staff which restroom is open, accessible and suitable for the changing support you need.",
+        "Choose a pause spot and return route when you arrive; open park space is not guaranteed quiet."
+      ],
+      "sources": [
+        {
+          "id": "city-access",
+          "label": "City of Boston access inventory",
+          "url": "https://www.boston.gov/departments/disabilities-commission/accessible-and-sensory-friendly-features-boston-parks",
+          "checkedAt": "2026-10-03"
+        },
+        {
+          "id": "directions",
+          "label": "Frog Pond directions & parking",
+          "url": "https://bostonfrogpond.com/general-info/directions/",
+          "checkedAt": "2026-10-03"
+        },
+        {
+          "id": "operator",
+          "label": "Frog Pond current information",
+          "url": "https://bostonfrogpond.com/general-info/",
+          "checkedAt": "2026-10-03"
+        },
+        {
+          "id": "cafe",
+          "label": "Frog Pond Café",
+          "url": "https://bostonfrogpond.com/cafe/",
+          "checkedAt": "2026-10-03"
+        },
+        {
+          "id": "winter",
+          "label": "City of Boston winter facilities",
+          "url": "https://www.cityofboston.gov/parks/TTD/frogpond_winter.asp",
+          "checkedAt": "2026-10-03"
+        },
+        {
+          "id": "site-plan",
+          "label": "Boston Common existing-conditions plan, page 112",
+          "url": "https://www.boston.gov/sites/default/files/file/2023/05/bmcp-full-report.pdf#page=112",
+          "checkedAt": "2026-10-03"
+        },
+        {
+          "id": "osm",
+          "label": "OpenStreetMap contributors / ODbL",
+          "url": "https://www.openstreetmap.org/copyright",
+          "checkedAt": "2026-10-03"
+        }
+      ],
+      "landmarks": [
+        {
+          "number": 1,
+          "name": "Frog Pond",
+          "detail": "Seasonal skating or spray-pool area. Check the operator for today’s activity and closure notices.",
+          "sourceIds": [
+            "operator"
+          ],
+          "coordinate": [
+            -71.0659183,
+            42.3560644
+          ]
+        },
+        {
+          "number": 2,
+          "name": "Pavilion & café",
+          "detail": "Service building beside the pond. The City lists winter restrooms; café operation is seasonal. Accessible stall, changing equipment and current opening need confirmation.",
+          "sourceIds": [
+            "site-plan",
+            "winter",
+            "cafe"
+          ],
+          "coordinate": [
+            -71.0656928,
+            42.3558966
+          ]
+        },
+        {
+          "number": 3,
+          "name": "Tadpole Playground",
+          "detail": "Playground beside Frog Pond. Play access listed by the City does not verify every item or the route from your arrival point.",
+          "sourceIds": [
+            "site-plan",
+            "city-access"
+          ],
+          "coordinate": [
+            -71.06469,
+            42.35609
+          ]
+        },
+        {
+          "number": 4,
+          "name": "Carousel",
+          "detail": "A separate seasonal activity west of the pond. Ask the operator about boarding and transfer arrangements.",
+          "sourceIds": [
+            "site-plan",
+            "operator"
+          ],
+          "coordinate": [
+            -71.0667588,
+            42.3559521
+          ]
+        }
+      ]
+    },
+    {
+      "id": "great-brook-farm",
+      "aliases": [
+        "great-brook-farm",
+        "Great Brook Farm"
+      ],
+      "name": "Great Brook Farm",
+      "pageUrl": "/favorite-places/great-brook-farm.html",
+      "status": "research-needed",
+      "statusLabel": "Venue map not yet verified",
+      "group": "favorite-places",
+      "summary": "Use the venue’s current information before choosing an entrance or relying on a facility.",
+      "reviewedAt": null,
+      "map": null,
+      "officialMaps": [],
+      "facts": [],
+      "unknowns": [
+        "Which entrance gives us a continuous step-free route?",
+        "Where is the nearest usable restroom and changing space?",
+        "Where could we pause, and which exit would we use?"
+      ],
+      "sources": [
+        {
+          "id": "existing-venue-link",
+          "label": "Venue information",
+          "url": "https://www.mass.gov/locations/great-brook-farm-state-park",
+          "verification": "Carried from place directory; detailed mapping review pending"
+        }
+      ]
+    },
+    {
+      "id": "lacascias-burlington",
+      "aliases": [
+        "lacascias-burlington",
+        "LaCascia’s"
+      ],
+      "name": "LaCascia’s",
+      "pageUrl": "/favorite-places/lacascias-burlington.html",
+      "status": "research-needed",
+      "statusLabel": "Venue map not yet verified",
+      "group": "favorite-places",
+      "summary": "Use the venue’s current information before choosing an entrance or relying on a facility.",
+      "reviewedAt": null,
+      "map": null,
+      "officialMaps": [],
+      "facts": [],
+      "unknowns": [
+        "Which entrance gives us a continuous step-free route?",
+        "Where is the nearest usable restroom and changing space?",
+        "Where could we pause, and which exit would we use?"
+      ],
+      "sources": [
+        {
+          "id": "existing-venue-link",
+          "label": "Venue information",
+          "url": "https://www.lacascias.com/",
+          "verification": "Carried from place directory; detailed mapping review pending"
+        }
+      ]
+    },
+    {
+      "id": "marginal-way-ogunquit",
+      "aliases": [
+        "marginal-way-ogunquit",
+        "Marginal Way"
+      ],
+      "name": "Marginal Way",
+      "pageUrl": "/favorite-places/marginal-way-ogunquit.html",
+      "status": "research-needed",
+      "statusLabel": "Venue map not yet verified",
+      "group": "favorite-places",
+      "summary": "Use the venue’s current information before choosing an entrance or relying on a facility.",
+      "reviewedAt": null,
+      "map": null,
+      "officialMaps": [],
+      "facts": [],
+      "unknowns": [
+        "Which entrance gives us a continuous step-free route?",
+        "Where is the nearest usable restroom and changing space?",
+        "Where could we pause, and which exit would we use?"
+      ],
+      "sources": [
+        {
+          "id": "existing-venue-link",
+          "label": "Venue information",
+          "url": "https://www.marginalwayfund.org/faq",
+          "verification": "Carried from place directory; detailed mapping review pending"
+        }
+      ]
+    },
+    {
+      "id": "minute-man-battle-road",
+      "aliases": [
+        "minute-man-battle-road",
+        "Battle Road"
+      ],
+      "name": "Battle Road",
+      "pageUrl": "/favorite-places/minute-man-battle-road.html",
+      "status": "research-needed",
+      "statusLabel": "Venue map not yet verified",
+      "group": "favorite-places",
+      "summary": "Use the venue’s current information before choosing an entrance or relying on a facility.",
+      "reviewedAt": null,
+      "map": null,
+      "officialMaps": [],
+      "facts": [],
+      "unknowns": [
+        "Which entrance gives us a continuous step-free route?",
+        "Where is the nearest usable restroom and changing space?",
+        "Where could we pause, and which exit would we use?"
+      ],
+      "sources": [
+        {
+          "id": "existing-venue-link",
+          "label": "Venue information",
+          "url": "https://www.nps.gov/mima/planyourvisit/accessibility.htm",
+          "verification": "Carried from place directory; detailed mapping review pending"
+        }
+      ]
+    },
+    {
+      "id": "new-england-aquarium",
+      "aliases": [
+        "new-england-aquarium",
+        "New England Aquarium"
+      ],
+      "name": "New England Aquarium",
+      "pageUrl": "/favorite-places/new-england-aquarium.html",
+      "status": "research-needed",
+      "statusLabel": "Venue map not yet verified",
+      "group": "favorite-places",
+      "summary": "Use the venue’s current information before choosing an entrance or relying on a facility.",
+      "reviewedAt": null,
+      "map": null,
+      "officialMaps": [],
+      "facts": [],
+      "unknowns": [
+        "Which entrance gives us a continuous step-free route?",
+        "Where is the nearest usable restroom and changing space?",
+        "Where could we pause, and which exit would we use?"
+      ],
+      "sources": [
+        {
+          "id": "existing-venue-link",
+          "label": "Venue information",
+          "url": "https://www.neaq.org/visit/accessibility/",
+          "verification": "Carried from place directory; detailed mapping review pending"
+        }
+      ]
+    },
+    {
+      "id": "walden-pond",
+      "aliases": [
+        "walden-pond",
+        "Walden Pond"
+      ],
+      "name": "Walden Pond",
+      "pageUrl": "/favorite-places/walden-pond.html",
+      "status": "research-needed",
+      "statusLabel": "Venue map not yet verified",
+      "group": "favorite-places",
+      "summary": "Use the venue’s current information before choosing an entrance or relying on a facility.",
+      "reviewedAt": null,
+      "map": null,
+      "officialMaps": [],
+      "facts": [],
+      "unknowns": [
+        "Which entrance gives us a continuous step-free route?",
+        "Where is the nearest usable restroom and changing space?",
+        "Where could we pause, and which exit would we use?"
+      ],
+      "sources": [
+        {
+          "id": "existing-venue-link",
+          "label": "Venue information",
+          "url": "https://www.mass.gov/locations/walden-pond-state-reservation",
+          "verification": "Carried from place directory; detailed mapping review pending"
+        }
+      ]
+    },
+    {
+      "id": "wegmans-burlington",
+      "aliases": [
+        "wegmans-burlington",
+        "Wegmans Burlington"
+      ],
+      "name": "Wegmans Burlington",
+      "pageUrl": "/favorite-places/wegmans-burlington.html",
+      "status": "research-needed",
+      "statusLabel": "Venue map not yet verified",
+      "group": "favorite-places",
+      "summary": "Use the venue’s current information before choosing an entrance or relying on a facility.",
+      "reviewedAt": null,
+      "map": null,
+      "officialMaps": [],
+      "facts": [],
+      "unknowns": [
+        "Which entrance gives us a continuous step-free route?",
+        "Where is the nearest usable restroom and changing space?",
+        "Where could we pause, and which exit would we use?"
+      ],
+      "sources": [
+        {
+          "id": "existing-venue-link",
+          "label": "Venue information",
+          "url": "https://www.wegmans.com/stores/burlington-ma",
+          "verification": "Carried from place directory; detailed mapping review pending"
+        }
+      ]
+    },
+    {
+      "id": "wildwood-park-burlington",
+      "aliases": [
+        "wildwood-park-burlington",
+        "Wildwood Park"
+      ],
+      "name": "Wildwood Park",
+      "pageUrl": "/favorite-places/wildwood-park-burlington.html",
+      "status": "research-needed",
+      "statusLabel": "Venue map not yet verified",
+      "group": "favorite-places",
+      "summary": "Use the venue’s current information before choosing an entrance or relying on a facility.",
+      "reviewedAt": null,
+      "map": null,
+      "officialMaps": [],
+      "facts": [],
+      "unknowns": [
+        "Which entrance gives us a continuous step-free route?",
+        "Where is the nearest usable restroom and changing space?",
+        "Where could we pause, and which exit would we use?"
+      ],
+      "sources": [
+        {
+          "id": "existing-venue-link",
+          "label": "Venue information",
+          "url": "https://www.burlington.org/178/Parent-Portal",
+          "verification": "Carried from place directory; detailed mapping review pending"
+        }
+      ]
+    },
+    {
+      "id": "book-barn-niantic",
+      "aliases": [
+        "favorite-places-book-barn-niantic",
+        "The Book Barn"
+      ],
+      "name": "The Book Barn",
+      "pageUrl": "/favorite-places-book-barn-niantic.html",
+      "status": "research-needed",
+      "statusLabel": "Venue map not yet verified",
+      "group": "favorite-places",
+      "summary": "Use the venue’s current information before choosing an entrance or relying on a facility.",
+      "reviewedAt": null,
+      "map": null,
+      "officialMaps": [],
+      "facts": [],
+      "unknowns": [
+        "Which entrance gives us a continuous step-free route?",
+        "Where is the nearest usable restroom and changing space?",
+        "Where could we pause, and which exit would we use?"
+      ],
+      "sources": [
+        {
+          "id": "existing-venue-link",
+          "label": "Venue information",
+          "url": "https://www.bookbarnniantic.com/",
+          "verification": "Carried from place directory; detailed mapping review pending"
+        }
+      ]
+    },
+    {
+      "id": "codman-community-farms",
+      "aliases": [
+        "favorite-places-codman-community-farms",
+        "Codman Community Farms"
+      ],
+      "name": "Codman Community Farms",
+      "pageUrl": "/favorite-places-codman-community-farms.html",
+      "status": "research-needed",
+      "statusLabel": "Venue map not yet verified",
+      "group": "favorite-places",
+      "summary": "Use the venue’s current information before choosing an entrance or relying on a facility.",
+      "reviewedAt": null,
+      "map": null,
+      "officialMaps": [],
+      "facts": [],
+      "unknowns": [
+        "Which entrance gives us a continuous step-free route?",
+        "Where is the nearest usable restroom and changing space?",
+        "Where could we pause, and which exit would we use?"
+      ],
+      "sources": [
+        {
+          "id": "existing-venue-link",
+          "label": "Venue information",
+          "url": "https://codmanfarm.org/visit",
+          "verification": "Carried from place directory; detailed mapping review pending"
+        }
+      ]
+    },
+    {
+      "id": "decordova",
+      "aliases": [
+        "favorite-places-decordova",
+        "deCordova Sculpture Park"
+      ],
+      "name": "deCordova Sculpture Park",
+      "pageUrl": "/favorite-places-decordova.html",
+      "status": "research-needed",
+      "statusLabel": "Venue map not yet verified",
+      "group": "favorite-places",
+      "summary": "Use the venue’s current information before choosing an entrance or relying on a facility.",
+      "reviewedAt": null,
+      "map": null,
+      "officialMaps": [],
+      "facts": [],
+      "unknowns": [
+        "Which entrance gives us a continuous step-free route?",
+        "Where is the nearest usable restroom and changing space?",
+        "Where could we pause, and which exit would we use?"
+      ],
+      "sources": [
+        {
+          "id": "existing-venue-link",
+          "label": "Venue information",
+          "url": "https://thetrustees.org/place/decordova/",
+          "verification": "Carried from place directory; detailed mapping review pending"
+        }
+      ]
+    },
+    {
+      "id": "drumlin-farm",
+      "aliases": [
+        "favorite-places-drumlin-farm",
+        "Drumlin Farm Wildlife Sanctuary"
+      ],
+      "name": "Drumlin Farm Wildlife Sanctuary",
+      "pageUrl": "/favorite-places-drumlin-farm.html",
+      "status": "research-needed",
+      "statusLabel": "Venue map not yet verified",
+      "group": "favorite-places",
+      "summary": "Use the venue’s current information before choosing an entrance or relying on a facility.",
+      "reviewedAt": null,
+      "map": null,
+      "officialMaps": [],
+      "facts": [],
+      "unknowns": [
+        "Which entrance gives us a continuous step-free route?",
+        "Where is the nearest usable restroom and changing space?",
+        "Where could we pause, and which exit would we use?"
+      ],
+      "sources": [
+        {
+          "id": "existing-venue-link",
+          "label": "Venue information",
+          "url": "https://www.massaudubon.org/places-to-explore/wildlife-sanctuaries/drumlin-farm",
+          "verification": "Carried from place directory; detailed mapping review pending"
+        }
+      ]
+    },
+    {
+      "id": "gilsland-farm",
+      "aliases": [
+        "favorite-places-gilsland-farm",
+        "Gilsland Farm Audubon Center"
+      ],
+      "name": "Gilsland Farm Audubon Center",
+      "pageUrl": "/favorite-places-gilsland-farm.html",
+      "status": "research-needed",
+      "statusLabel": "Venue map not yet verified",
+      "group": "favorite-places",
+      "summary": "Use the venue’s current information before choosing an entrance or relying on a facility.",
+      "reviewedAt": null,
+      "map": null,
+      "officialMaps": [],
+      "facts": [],
+      "unknowns": [
+        "Which entrance gives us a continuous step-free route?",
+        "Where is the nearest usable restroom and changing space?",
+        "Where could we pause, and which exit would we use?"
+      ],
+      "sources": [
+        {
+          "id": "existing-venue-link",
+          "label": "Venue information",
+          "url": "https://maineaudubon.org/visit/gilsland-farm/",
+          "verification": "Carried from place directory; detailed mapping review pending"
+        }
+      ]
+    },
+    {
+      "id": "kittery-food-mart-fort-mcclary",
+      "aliases": [
+        "favorite-places-kittery-food-mart-fort-mcclary",
+        "Kittery Food Mart + Fort McClary"
+      ],
+      "name": "Kittery Food Mart + Fort McClary",
+      "pageUrl": "/favorite-places-kittery-food-mart-fort-mcclary.html",
+      "status": "research-needed",
+      "statusLabel": "Venue map not yet verified",
+      "group": "favorite-places",
+      "summary": "Use the venue’s current information before choosing an entrance or relying on a facility.",
+      "reviewedAt": null,
+      "map": null,
+      "officialMaps": [],
+      "facts": [],
+      "unknowns": [
+        "Which entrance gives us a continuous step-free route?",
+        "Where is the nearest usable restroom and changing space?",
+        "Where could we pause, and which exit would we use?"
+      ],
+      "sources": [
+        {
+          "id": "existing-venue-link",
+          "label": "Venue information",
+          "url": "https://www.thekitteryfoodmart.com/",
+          "verification": "Carried from place directory; detailed mapping review pending"
+        }
+      ]
+    },
+    {
+      "id": "lifetime-burlington",
+      "aliases": [
+        "favorite-places-lifetime-burlington",
+        "Life Time Burlington"
+      ],
+      "name": "Life Time Burlington",
+      "pageUrl": "/favorite-places-lifetime-burlington.html",
+      "status": "arrival-notes",
+      "statusLabel": "Interior map awaiting verification",
+      "group": "favorite-places",
+      "summary": "For a swim visit, ask the front desk to show the route from check-in to changing, pool entry and the exit before you get everyone changed.",
+      "reviewedAt": "2026-10-03",
+      "map": null,
+      "officialMaps": [],
+      "facts": [
+        {
+          "label": "Location",
+          "text": "Life Time Burlington is at 186 Middlesex Turnpike. The club lists pools and locker rooms; an accessible interior route is not established by that amenities list.",
+          "sourceIds": [
+            "club"
+          ]
+        },
+        {
+          "label": "Ask the club",
+          "text": "Call 617-761-7107 for current arrangements and a preview or tour.",
+          "sourceIds": [
+            "club"
+          ]
+        }
+      ],
+      "unknowns": [
+        "Which step-free entrance and changing room should we use?",
+        "What pool-entry equipment is available, working and staffed for our visit?",
+        "Is there an all-gender/family changing room, adult-size changing table or space for a support person?",
+        "Where can we take a quieter break, and which exit returns us to the car?"
+      ],
+      "sources": [
+        {
+          "id": "club",
+          "label": "Life Time Burlington",
+          "url": "https://www.lifetime.life/locations/ma/burlington.html",
+          "checkedAt": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "id": "llbean-freeport",
+      "aliases": [
+        "favorite-places-llbean-freeport",
+        "L.L.Bean Flagship",
+        "L.L.Bean Freeport",
+        "llbean-freeport"
+      ],
+      "name": "L.L.Bean Flagship",
+      "pageUrl": "/favorite-places-llbean-freeport.html",
+      "status": "official-maps",
+      "statusLabel": "Current official indoor & campus maps",
+      "group": "favorite-places",
+      "summary": "Use the current store map for elevators and restrooms, then the campus map for arrival. The flagship layout changed in September 2026.",
+      "reviewedAt": "2026-10-03",
+      "map": null,
+      "officialMaps": [
+        {
+          "label": "Open indoor store map (PDF)",
+          "url": "https://www.llbean.net/firstspirit/media/pdf_files/260810_LLBean_FlagshipStoreMap.pdf"
+        },
+        {
+          "label": "Open campus & parking map (PDF)",
+          "url": "https://www.llbean.net/firstspirit/media/pdf_files/LLB_Campus_Map.pdf"
+        }
+      ],
+      "facts": [
+        {
+          "label": "Elevators",
+          "text": "Elevators are marked on the official floor plan. Match your arrival entrance to a working elevator with staff.",
+          "sourceIds": [
+            "interior"
+          ]
+        },
+        {
+          "label": "Restrooms",
+          "text": "The map marks restrooms on Levels 1 and 2, including beside the Kids’ area on Level 2. Individual stall features are not specified.",
+          "sourceIds": [
+            "interior"
+          ]
+        },
+        {
+          "label": "Wellness room",
+          "text": "A wellness room is marked on Level 2 near Kids’. The map does not describe it as a sensory room; ask staff about access and use.",
+          "sourceIds": [
+            "interior"
+          ]
+        }
+      ],
+      "unknowns": [
+        "Which entrance is step-free from your chosen parking space?",
+        "Which restroom has the changing equipment your family needs?",
+        "Is the wellness room available and appropriate for the kind of break you need?"
+      ],
+      "sources": [
+        {
+          "id": "campus",
+          "label": "Current official campus map (PDF)",
+          "url": "https://www.llbean.net/firstspirit/media/pdf_files/LLB_Campus_Map.pdf",
+          "checkedAt": "2026-10-03"
+        },
+        {
+          "id": "interior",
+          "label": "Current official store map (PDF)",
+          "url": "https://www.llbean.net/firstspirit/media/pdf_files/260810_LLBean_FlagshipStoreMap.pdf",
+          "checkedAt": "2026-10-03"
+        },
+        {
+          "id": "visit",
+          "label": "L.L.Bean visit information",
+          "url": "https://www.llbean.com/llb/shop/20011038",
+          "checkedAt": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "id": "misty-harbor-wells",
+      "aliases": [
+        "favorite-places-misty-harbor-wells",
+        "Misty Harbor Resort"
+      ],
+      "name": "Misty Harbor Resort",
+      "pageUrl": "/favorite-places-misty-harbor-wells.html",
+      "status": "research-needed",
+      "statusLabel": "Venue map not yet verified",
+      "group": "favorite-places",
+      "summary": "Use the venue’s current information before choosing an entrance or relying on a facility.",
+      "reviewedAt": null,
+      "map": null,
+      "officialMaps": [],
+      "facts": [],
+      "unknowns": [
+        "Which entrance gives us a continuous step-free route?",
+        "Where is the nearest usable restroom and changing space?",
+        "Where could we pause, and which exit would we use?"
+      ],
+      "sources": [
+        {
+          "id": "existing-venue-link",
+          "label": "Venue information",
+          "url": "https://mistyharborresort.com/",
+          "verification": "Carried from place directory; detailed mapping review pending"
+        }
+      ]
+    },
+    {
+      "id": "pineland-farms",
+      "aliases": [
+        "favorite-places-pineland-farms",
+        "Pineland Farms"
+      ],
+      "name": "Pineland Farms",
+      "pageUrl": "/favorite-places-pineland-farms.html",
+      "status": "research-needed",
+      "statusLabel": "Venue map not yet verified",
+      "group": "favorite-places",
+      "summary": "Use the venue’s current information before choosing an entrance or relying on a facility.",
+      "reviewedAt": null,
+      "map": null,
+      "officialMaps": [],
+      "facts": [],
+      "unknowns": [
+        "Which entrance gives us a continuous step-free route?",
+        "Where is the nearest usable restroom and changing space?",
+        "Where could we pause, and which exit would we use?"
+      ],
+      "sources": [
+        {
+          "id": "existing-venue-link",
+          "label": "Venue information",
+          "url": "https://pinelandfarms.org/experience/visit-pineland/",
+          "verification": "Carried from place directory; detailed mapping review pending"
+        }
+      ]
+    },
+    {
+      "id": "quiero-cafe-portland",
+      "aliases": [
+        "favorite-places-quiero-cafe-portland",
+        "Quiero Cafe"
+      ],
+      "name": "Quiero Cafe",
+      "pageUrl": "/favorite-places-quiero-cafe-portland.html",
+      "status": "research-needed",
+      "statusLabel": "Venue map not yet verified",
+      "group": "favorite-places",
+      "summary": "Use the venue’s current information before choosing an entrance or relying on a facility.",
+      "reviewedAt": null,
+      "map": null,
+      "officialMaps": [],
+      "facts": [],
+      "unknowns": [
+        "Which entrance gives us a continuous step-free route?",
+        "Where is the nearest usable restroom and changing space?",
+        "Where could we pause, and which exit would we use?"
+      ],
+      "sources": [
+        {
+          "id": "existing-venue-link",
+          "label": "Venue information",
+          "url": "https://www.quierocafemaine.com/portland-sub/index/",
+          "verification": "Carried from place directory; detailed mapping review pending"
+        }
+      ]
+    },
+    {
+      "id": "rancatores-lexington",
+      "aliases": [
+        "favorite-places-rancatores-lexington",
+        "Rancatore’s Ice Cream"
+      ],
+      "name": "Rancatore’s Ice Cream",
+      "pageUrl": "/favorite-places-rancatores-lexington.html",
+      "status": "research-needed",
+      "statusLabel": "Venue map not yet verified",
+      "group": "favorite-places",
+      "summary": "Use the venue’s current information before choosing an entrance or relying on a facility.",
+      "reviewedAt": null,
+      "map": null,
+      "officialMaps": [],
+      "facts": [],
+      "unknowns": [
+        "Which entrance gives us a continuous step-free route?",
+        "Where is the nearest usable restroom and changing space?",
+        "Where could we pause, and which exit would we use?"
+      ],
+      "sources": [
+        {
+          "id": "existing-venue-link",
+          "label": "Venue information",
+          "url": "https://www.rancs.com/",
+          "verification": "Carried from place directory; detailed mapping review pending"
+        }
+      ]
+    },
+    {
+      "id": "rococo-kennebunk",
+      "aliases": [
+        "favorite-places-rococo-kennebunk",
+        "Rococo Ice Cream"
+      ],
+      "name": "Rococo Ice Cream",
+      "pageUrl": "/favorite-places-rococo-kennebunk.html",
+      "status": "research-needed",
+      "statusLabel": "Venue map not yet verified",
+      "group": "favorite-places",
+      "summary": "Use the venue’s current information before choosing an entrance or relying on a facility.",
+      "reviewedAt": null,
+      "map": null,
+      "officialMaps": [],
+      "facts": [],
+      "unknowns": [
+        "Which entrance gives us a continuous step-free route?",
+        "Where is the nearest usable restroom and changing space?",
+        "Where could we pause, and which exit would we use?"
+      ],
+      "sources": [
+        {
+          "id": "existing-venue-link",
+          "label": "Venue information",
+          "url": "https://rococoicecream.com/pages/kport",
+          "verification": "Carried from place directory; detailed mapping review pending"
+        }
+      ]
+    },
+    {
+      "id": "scarborough-state-beach",
+      "aliases": [
+        "favorite-places-scarborough-state-beach",
+        "Scarborough State Beach"
+      ],
+      "name": "Scarborough State Beach",
+      "pageUrl": "/favorite-places-scarborough-state-beach.html",
+      "status": "research-needed",
+      "statusLabel": "Venue map not yet verified",
+      "group": "favorite-places",
+      "summary": "Use the venue’s current information before choosing an entrance or relying on a facility.",
+      "reviewedAt": null,
+      "map": null,
+      "officialMaps": [],
+      "facts": [],
+      "unknowns": [
+        "Which entrance gives us a continuous step-free route?",
+        "Where is the nearest usable restroom and changing space?",
+        "Where could we pause, and which exit would we use?"
+      ],
+      "sources": [
+        {
+          "id": "existing-venue-link",
+          "label": "Venue information",
+          "url": "https://riparks.ri.gov/beaches/scarborough-north-state-beach",
+          "verification": "Carried from place directory; detailed mapping review pending"
+        }
+      ]
+    },
+    {
+      "id": "shermans-freeport",
+      "aliases": [
+        "favorite-places-shermans-freeport",
+        "Sherman’s Maine Coast Book Shop"
+      ],
+      "name": "Sherman’s Maine Coast Book Shop",
+      "pageUrl": "/favorite-places-shermans-freeport.html",
+      "status": "research-needed",
+      "statusLabel": "Venue map not yet verified",
+      "group": "favorite-places",
+      "summary": "Use the venue’s current information before choosing an entrance or relying on a facility.",
+      "reviewedAt": null,
+      "map": null,
+      "officialMaps": [],
+      "facts": [],
+      "unknowns": [
+        "Which entrance gives us a continuous step-free route?",
+        "Where is the nearest usable restroom and changing space?",
+        "Where could we pause, and which exit would we use?"
+      ],
+      "sources": [
+        {
+          "id": "existing-venue-link",
+          "label": "Venue information",
+          "url": "https://www.shermans.com/",
+          "verification": "Carried from place directory; detailed mapping review pending"
+        }
+      ]
+    },
+    {
+      "id": "watch-hill-napatree",
+      "aliases": [
+        "favorite-places-watch-hill-napatree",
+        "Watch Hill + Napatree Point"
+      ],
+      "name": "Watch Hill + Napatree Point",
+      "pageUrl": "/favorite-places-watch-hill-napatree.html",
+      "status": "research-needed",
+      "statusLabel": "Venue map not yet verified",
+      "group": "favorite-places",
+      "summary": "Use the venue’s current information before choosing an entrance or relying on a facility.",
+      "reviewedAt": null,
+      "map": null,
+      "officialMaps": [],
+      "facts": [],
+      "unknowns": [
+        "Which entrance gives us a continuous step-free route?",
+        "Where is the nearest usable restroom and changing space?",
+        "Where could we pause, and which exit would we use?"
+      ],
+      "sources": [
+        {
+          "id": "existing-venue-link",
+          "label": "Venue information",
+          "url": "https://thewatchhillconservancy.org/napatree/planning-your-visit/",
+          "verification": "Carried from place directory; detailed mapping review pending"
+        }
+      ]
+    },
+    {
+      "id": "wells-beach",
+      "aliases": [
+        "favorite-places-wells-beach",
+        "Wells Beach"
+      ],
+      "name": "Wells Beach",
+      "pageUrl": "/favorite-places-wells-beach.html",
+      "status": "official-map-source",
+      "statusLabel": "Official beach map & seasonal access notes",
+      "group": "favorite-places",
+      "summary": "Pick one beach access point before setting off. A parking lot, a beach wheelchair and a step-free route are different things to confirm.",
+      "reviewedAt": "2026-10-03",
+      "map": null,
+      "officialMaps": [
+        {
+          "label": "Open town parking page & beach map",
+          "url": "https://www.wellstown.org/1134/Beach-Parking"
+        }
+      ],
+      "facts": [
+        {
+          "label": "Parking",
+          "text": "The Town lists Eastern Shore and Mile Road as paid Wells Beach lots, and Casino Square as a free lot. Check the current season and signs.",
+          "sourceIds": [
+            "parking"
+          ]
+        },
+        {
+          "label": "Beach wheelchairs",
+          "text": "The Town’s published 2024 policy places seasonal, first-come chair checkout at 513 Atlantic Avenue. Confirm this year’s operation before relying on it.",
+          "sourceIds": [
+            "chairs"
+          ]
+        },
+        {
+          "label": "Restrooms & unloading",
+          "text": "The parking page says restrooms close with the lots at 11 p.m. It requires loading and unloading within designated public parking areas.",
+          "sourceIds": [
+            "parking"
+          ]
+        }
+      ],
+      "unknowns": [
+        "Which current beach entrance has step-free access and usable beach matting?",
+        "Where is the nearest accessible restroom to that exact entrance?",
+        "Confirm wheelchair availability, return time and transfer support with the Town."
+      ],
+      "sources": [
+        {
+          "id": "parking",
+          "label": "Town of Wells parking & map",
+          "url": "https://www.wellstown.org/1134/Beach-Parking",
+          "checkedAt": "2026-10-03"
+        },
+        {
+          "id": "chairs",
+          "label": "Town beach wheelchair policy (published 2024)",
+          "url": "https://www.wellstown.org/DocumentCenter/View/7274/Beach-Wheelchair-Policy-2024",
+          "checkedAt": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "id": "wilson-farm",
+      "aliases": [
+        "favorite-places-wilson-farm",
+        "Wilson Farm"
+      ],
+      "name": "Wilson Farm",
+      "pageUrl": "/favorite-places-wilson-farm.html",
+      "status": "research-needed",
+      "statusLabel": "Venue map not yet verified",
+      "group": "favorite-places",
+      "summary": "Use the venue’s current information before choosing an entrance or relying on a facility.",
+      "reviewedAt": null,
+      "map": null,
+      "officialMaps": [],
+      "facts": [],
+      "unknowns": [
+        "Which entrance gives us a continuous step-free route?",
+        "Where is the nearest usable restroom and changing space?",
+        "Where could we pause, and which exit would we use?"
+      ],
+      "sources": [
+        {
+          "id": "existing-venue-link",
+          "label": "Venue information",
+          "url": "https://www.wilsonfarm.com/v2.0/home.php",
+          "verification": "Carried from place directory; detailed mapping review pending"
+        }
+      ]
+    },
+    {
+      "id": "wolfes-neck",
+      "aliases": [
+        "favorite-places-wolfes-neck",
+        "Wolfe’s Neck Center"
+      ],
+      "name": "Wolfe’s Neck Center",
+      "pageUrl": "/favorite-places-wolfes-neck.html",
+      "status": "research-needed",
+      "statusLabel": "Venue map not yet verified",
+      "group": "favorite-places",
+      "summary": "Use the venue’s current information before choosing an entrance or relying on a facility.",
+      "reviewedAt": null,
+      "map": null,
+      "officialMaps": [],
+      "facts": [],
+      "unknowns": [
+        "Which entrance gives us a continuous step-free route?",
+        "Where is the nearest usable restroom and changing space?",
+        "Where could we pause, and which exit would we use?"
+      ],
+      "sources": [
+        {
+          "id": "existing-venue-link",
+          "label": "Venue information",
+          "url": "https://wolfesneck.org/visit/explore/",
+          "verification": "Carried from place directory; detailed mapping review pending"
+        }
+      ]
+    },
+    {
+      "id": "york-nubble",
+      "aliases": [
+        "favorite-places-york-nubble",
+        "York + the Nubble"
+      ],
+      "name": "York + the Nubble",
+      "pageUrl": "/favorite-places-york-nubble.html",
+      "status": "research-needed",
+      "statusLabel": "Venue map not yet verified",
+      "group": "favorite-places",
+      "summary": "Use the venue’s current information before choosing an entrance or relying on a facility.",
+      "reviewedAt": null,
+      "map": null,
+      "officialMaps": [],
+      "facts": [],
+      "unknowns": [
+        "Which entrance gives us a continuous step-free route?",
+        "Where is the nearest usable restroom and changing space?",
+        "Where could we pause, and which exit would we use?"
+      ],
+      "sources": [
+        {
+          "id": "existing-venue-link",
+          "label": "Venue information",
+          "url": "https://www.yorkparksandrec.org/nubble-light-house",
+          "verification": "Carried from place directory; detailed mapping review pending"
+        }
+      ]
+    },
+    {
+      "id": "boston-children-s-museum",
+      "aliases": [
+        "Boston Children’s Museum"
+      ],
+      "name": "Boston Children’s Museum",
+      "status": "research-needed",
+      "statusLabel": "Venue map not yet verified",
+      "group": "calendar",
+      "summary": "Check the organizer’s accessibility information and ask for the current venue map.",
+      "reviewedAt": null,
+      "map": null,
+      "officialMaps": [],
+      "facts": [],
+      "unknowns": [
+        "Which entrance gives us a continuous step-free route?",
+        "Where is the nearest usable restroom and changing space?",
+        "Where could we pause, and which exit would we use?"
+      ],
+      "sources": [
+        {
+          "id": "organizer",
+          "label": "Organizer accessibility information",
+          "url": "https://bostonchildrensmuseum.org/visit/accessibility/",
+          "verification": "From calendar source inventory; floor-plan review pending"
+        }
+      ]
+    },
+    {
+      "id": "discovery-museum",
+      "aliases": [
+        "Discovery Museum"
+      ],
+      "name": "Discovery Museum",
+      "status": "research-needed",
+      "statusLabel": "Venue map not yet verified",
+      "group": "calendar",
+      "summary": "Check the organizer’s accessibility information and ask for the current venue map.",
+      "reviewedAt": null,
+      "map": null,
+      "officialMaps": [],
+      "facts": [],
+      "unknowns": [
+        "Which entrance gives us a continuous step-free route?",
+        "Where is the nearest usable restroom and changing space?",
+        "Where could we pause, and which exit would we use?"
+      ],
+      "sources": [
+        {
+          "id": "organizer",
+          "label": "Organizer accessibility information",
+          "url": "https://www.discoveryacton.org/visit/accessibility",
+          "verification": "From calendar source inventory; floor-plan review pending"
+        }
+      ]
+    },
+    {
+      "id": "montshire-museum-of-science",
+      "aliases": [
+        "Montshire Museum of Science"
+      ],
+      "name": "Montshire Museum of Science",
+      "status": "research-needed",
+      "statusLabel": "Venue map not yet verified",
+      "group": "calendar",
+      "summary": "Check the organizer’s accessibility information and ask for the current venue map.",
+      "reviewedAt": null,
+      "map": null,
+      "officialMaps": [],
+      "facts": [],
+      "unknowns": [
+        "Which entrance gives us a continuous step-free route?",
+        "Where is the nearest usable restroom and changing space?",
+        "Where could we pause, and which exit would we use?"
+      ],
+      "sources": [
+        {
+          "id": "organizer",
+          "label": "Organizer accessibility information",
+          "url": "https://montshire.org/visit/museum-faqs/",
+          "verification": "From calendar source inventory; floor-plan review pending"
+        }
+      ]
+    },
+    {
+      "id": "roger-williams-park-zoo",
+      "aliases": [
+        "Roger Williams Park Zoo"
+      ],
+      "name": "Roger Williams Park Zoo",
+      "status": "research-needed",
+      "statusLabel": "Venue map not yet verified",
+      "group": "calendar",
+      "summary": "Check the organizer’s accessibility information and ask for the current venue map.",
+      "reviewedAt": null,
+      "map": null,
+      "officialMaps": [],
+      "facts": [],
+      "unknowns": [
+        "Which entrance gives us a continuous step-free route?",
+        "Where is the nearest usable restroom and changing space?",
+        "Where could we pause, and which exit would we use?"
+      ],
+      "sources": [
+        {
+          "id": "organizer",
+          "label": "Organizer accessibility information",
+          "url": "https://www.rwpzoo.org/visit/accessibility-programs-services/",
+          "verification": "From calendar source inventory; floor-plan review pending"
+        }
+      ]
+    },
+    {
+      "id": "the-westport-library",
+      "aliases": [
+        "The Westport Library"
+      ],
+      "name": "The Westport Library",
+      "status": "research-needed",
+      "statusLabel": "Venue map not yet verified",
+      "group": "calendar",
+      "summary": "Check the organizer’s accessibility information and ask for the current venue map.",
+      "reviewedAt": null,
+      "map": null,
+      "officialMaps": [],
+      "facts": [],
+      "unknowns": [
+        "Which entrance gives us a continuous step-free route?",
+        "Where is the nearest usable restroom and changing space?",
+        "Where could we pause, and which exit would we use?"
+      ],
+      "sources": [
+        {
+          "id": "organizer",
+          "label": "Organizer accessibility information",
+          "url": "https://westportlibrary.org/services/accessibility-services/",
+          "verification": "From calendar source inventory; floor-plan review pending"
+        }
+      ]
+    },
+    {
+      "id": "the-aldrich-contemporary-art-museum",
+      "aliases": [
+        "The Aldrich Contemporary Art Museum"
+      ],
+      "name": "The Aldrich Contemporary Art Museum",
+      "status": "research-needed",
+      "statusLabel": "Venue map not yet verified",
+      "group": "calendar",
+      "summary": "Check the organizer’s accessibility information and ask for the current venue map.",
+      "reviewedAt": null,
+      "map": null,
+      "officialMaps": [],
+      "facts": [],
+      "unknowns": [
+        "Which entrance gives us a continuous step-free route?",
+        "Where is the nearest usable restroom and changing space?",
+        "Where could we pause, and which exit would we use?"
+      ],
+      "sources": [
+        {
+          "id": "organizer",
+          "label": "Organizer accessibility information",
+          "url": "https://thealdrich.org/learn/accessibility-programs",
+          "verification": "From calendar source inventory; floor-plan review pending"
+        }
+      ]
+    },
+    {
+      "id": "vins-nature-center",
+      "aliases": [
+        "VINS Nature Center"
+      ],
+      "name": "VINS Nature Center",
+      "status": "research-needed",
+      "statusLabel": "Venue map not yet verified",
+      "group": "calendar",
+      "summary": "Check the organizer’s accessibility information and ask for the current venue map.",
+      "reviewedAt": null,
+      "map": null,
+      "officialMaps": [],
+      "facts": [],
+      "unknowns": [
+        "Which entrance gives us a continuous step-free route?",
+        "Where is the nearest usable restroom and changing space?",
+        "Where could we pause, and which exit would we use?"
+      ],
+      "sources": [
+        {
+          "id": "organizer",
+          "label": "Organizer accessibility information",
+          "url": "https://vinsweb.org/visit/",
+          "verification": "From calendar source inventory; floor-plan review pending"
+        }
+      ]
+    },
+    {
+      "id": "shelburne-museum",
+      "aliases": [
+        "Shelburne Museum"
+      ],
+      "name": "Shelburne Museum",
+      "status": "research-needed",
+      "statusLabel": "Venue map not yet verified",
+      "group": "calendar",
+      "summary": "Check the organizer’s accessibility information and ask for the current venue map.",
+      "reviewedAt": null,
+      "map": null,
+      "officialMaps": [],
+      "facts": [],
+      "unknowns": [
+        "Which entrance gives us a continuous step-free route?",
+        "Where is the nearest usable restroom and changing space?",
+        "Where could we pause, and which exit would we use?"
+      ],
+      "sources": [
+        {
+          "id": "organizer",
+          "label": "Organizer accessibility information",
+          "url": "https://shelburnemuseum.org/visit/accessibility/",
+          "verification": "From calendar source inventory; floor-plan review pending"
+        }
+      ]
+    },
+    {
+      "id": "see-science-center",
+      "aliases": [
+        "SEE Science Center"
+      ],
+      "name": "SEE Science Center",
+      "status": "research-needed",
+      "statusLabel": "Venue map not yet verified",
+      "group": "calendar",
+      "summary": "Check the organizer’s accessibility information and ask for the current venue map.",
+      "reviewedAt": null,
+      "map": null,
+      "officialMaps": [],
+      "facts": [],
+      "unknowns": [
+        "Which entrance gives us a continuous step-free route?",
+        "Where is the nearest usable restroom and changing space?",
+        "Where could we pause, and which exit would we use?"
+      ],
+      "sources": [
+        {
+          "id": "organizer",
+          "label": "Organizer accessibility information",
+          "url": "https://see-sciencecenter.org/faq-items/accessibility/",
+          "verification": "From calendar source inventory; floor-plan review pending"
+        }
+      ]
+    },
+    {
+      "id": "citizens-bank-opera-house",
+      "aliases": [
+        "Citizens Bank Opera House"
+      ],
+      "name": "Citizens Bank Opera House",
+      "status": "research-needed",
+      "statusLabel": "Venue map not yet verified",
+      "group": "calendar",
+      "summary": "Check the organizer’s accessibility information and ask for the current venue map.",
+      "reviewedAt": null,
+      "map": null,
+      "officialMaps": [],
+      "facts": [],
+      "unknowns": [
+        "Which entrance gives us a continuous step-free route?",
+        "Where is the nearest usable restroom and changing space?",
+        "Where could we pause, and which exit would we use?"
+      ],
+      "sources": [
+        {
+          "id": "organizer",
+          "label": "Organizer accessibility information",
+          "url": "https://www.bostonballet.org/home/tickets-performances/accessibility/",
+          "verification": "From calendar source inventory; floor-plan review pending"
+        }
+      ]
+    },
+    {
+      "id": "weir-river-farm",
+      "aliases": [
+        "Weir River Farm"
+      ],
+      "name": "Weir River Farm",
+      "status": "research-needed",
+      "statusLabel": "Venue map not yet verified",
+      "group": "calendar",
+      "summary": "Check the organizer’s accessibility information and ask for the current venue map.",
+      "reviewedAt": null,
+      "map": null,
+      "officialMaps": [],
+      "facts": [],
+      "unknowns": [
+        "Which entrance gives us a continuous step-free route?",
+        "Where is the nearest usable restroom and changing space?",
+        "Where could we pause, and which exit would we use?"
+      ],
+      "sources": [
+        {
+          "id": "organizer",
+          "label": "Organizer accessibility information",
+          "url": "https://thetrustees.org/event/448729/",
+          "verification": "From calendar source inventory; floor-plan review pending"
+        }
+      ]
+    },
+    {
+      "id": "autism-welcoming-center",
+      "aliases": [
+        "Autism Welcoming Center"
+      ],
+      "name": "Autism Welcoming Center",
+      "status": "research-needed",
+      "statusLabel": "Venue map not yet verified",
+      "group": "calendar",
+      "summary": "Check the organizer’s accessibility information and ask for the current venue map.",
+      "reviewedAt": null,
+      "map": null,
+      "officialMaps": [],
+      "facts": [],
+      "unknowns": [
+        "Which entrance gives us a continuous step-free route?",
+        "Where is the nearest usable restroom and changing space?",
+        "Where could we pause, and which exit would we use?"
+      ],
+      "sources": [
+        {
+          "id": "organizer",
+          "label": "Organizer accessibility information",
+          "url": "https://autismalliance.org/events/storytime-smiles-autism-welcoming-center",
+          "verification": "From calendar source inventory; floor-plan review pending"
+        }
+      ]
+    },
+    {
+      "id": "bierman-autism-centers-bedford",
+      "aliases": [
+        "Bierman Autism Centers - Bedford"
+      ],
+      "name": "Bierman Autism Centers - Bedford",
+      "status": "research-needed",
+      "statusLabel": "Venue map not yet verified",
+      "group": "calendar",
+      "summary": "Check the organizer’s accessibility information and ask for the current venue map.",
+      "reviewedAt": null,
+      "map": null,
+      "officialMaps": [],
+      "facts": [],
+      "unknowns": [
+        "Which entrance gives us a continuous step-free route?",
+        "Where is the nearest usable restroom and changing space?",
+        "Where could we pause, and which exit would we use?"
+      ],
+      "sources": [
+        {
+          "id": "organizer",
+          "label": "Organizer accessibility information",
+          "url": "https://www.biermanautism.com/resources/sensory-friendly-events/",
+          "verification": "From calendar source inventory; floor-plan review pending"
+        }
+      ]
+    },
+    {
+      "id": "bierman-autism-centers-danvers",
+      "aliases": [
+        "Bierman Autism Centers - Danvers"
+      ],
+      "name": "Bierman Autism Centers - Danvers",
+      "status": "research-needed",
+      "statusLabel": "Venue map not yet verified",
+      "group": "calendar",
+      "summary": "Check the organizer’s accessibility information and ask for the current venue map.",
+      "reviewedAt": null,
+      "map": null,
+      "officialMaps": [],
+      "facts": [],
+      "unknowns": [
+        "Which entrance gives us a continuous step-free route?",
+        "Where is the nearest usable restroom and changing space?",
+        "Where could we pause, and which exit would we use?"
+      ],
+      "sources": [
+        {
+          "id": "organizer",
+          "label": "Organizer accessibility information",
+          "url": "https://www.biermanautism.com/resources/sensory-friendly-events/",
+          "verification": "From calendar source inventory; floor-plan review pending"
+        }
+      ]
+    },
+    {
+      "id": "beals-memorial-library",
+      "aliases": [
+        "Beals Memorial Library"
+      ],
+      "name": "Beals Memorial Library",
+      "status": "research-needed",
+      "statusLabel": "Venue map not yet verified",
+      "group": "calendar",
+      "summary": "Check the organizer’s accessibility information and ask for the current venue map.",
+      "reviewedAt": null,
+      "map": null,
+      "officialMaps": [],
+      "facts": [],
+      "unknowns": [
+        "Which entrance gives us a continuous step-free route?",
+        "Where is the nearest usable restroom and changing space?",
+        "Where could we pause, and which exit would we use?"
+      ],
+      "sources": [
+        {
+          "id": "organizer",
+          "label": "Organizer accessibility information",
+          "url": "https://www.bealslibrary.org/events",
+          "verification": "From calendar source inventory; floor-plan review pending"
+        }
+      ]
+    },
+    {
+      "id": "venture-dudley-ii-day-program",
+      "aliases": [
+        "Venture Dudley II Day Program"
+      ],
+      "name": "Venture Dudley II Day Program",
+      "status": "research-needed",
+      "statusLabel": "Venue map not yet verified",
+      "group": "calendar",
+      "summary": "Check the organizer’s accessibility information and ask for the current venue map.",
+      "reviewedAt": null,
+      "map": null,
+      "officialMaps": [],
+      "facts": [],
+      "unknowns": [
+        "Which entrance gives us a continuous step-free route?",
+        "Where is the nearest usable restroom and changing space?",
+        "Where could we pause, and which exit would we use?"
+      ],
+      "sources": [
+        {
+          "id": "organizer",
+          "label": "Organizer accessibility information",
+          "url": "https://venturecs.org/event/halloween26/",
+          "verification": "From calendar source inventory; floor-plan review pending"
+        }
+      ]
+    },
+    {
+      "id": "st-johnsbury-athenaeum",
+      "aliases": [
+        "St. Johnsbury Athenaeum"
+      ],
+      "name": "St. Johnsbury Athenaeum",
+      "status": "research-needed",
+      "statusLabel": "Venue map not yet verified",
+      "group": "calendar",
+      "summary": "Check the organizer’s accessibility information and ask for the current venue map.",
+      "reviewedAt": null,
+      "map": null,
+      "officialMaps": [],
+      "facts": [],
+      "unknowns": [
+        "Which entrance gives us a continuous step-free route?",
+        "Where is the nearest usable restroom and changing space?",
+        "Where could we pause, and which exit would we use?"
+      ],
+      "sources": [
+        {
+          "id": "organizer",
+          "label": "Organizer accessibility information",
+          "url": "https://www.stjathenaeum.org/youth-events-1/2026/10/30/sensory-friendly-halloween-event",
+          "verification": "From calendar source inventory; floor-plan review pending"
+        }
+      ]
+    },
+    {
+      "id": "children-s-museum-theatre-of-maine",
+      "aliases": [
+        "Children’s Museum & Theatre of Maine"
+      ],
+      "name": "Children’s Museum & Theatre of Maine",
+      "status": "research-needed",
+      "statusLabel": "Venue map not yet verified",
+      "group": "calendar",
+      "summary": "Check the organizer’s accessibility information and ask for the current venue map.",
+      "reviewedAt": null,
+      "map": null,
+      "officialMaps": [],
+      "facts": [],
+      "unknowns": [
+        "Which entrance gives us a continuous step-free route?",
+        "Where is the nearest usable restroom and changing space?",
+        "Where could we pause, and which exit would we use?"
+      ],
+      "sources": [
+        {
+          "id": "organizer",
+          "label": "Organizer accessibility information",
+          "url": "https://www.kitetails.org/general-accessibility-information",
+          "verification": "From calendar source inventory; floor-plan review pending"
+        }
+      ]
+    },
+    {
+      "id": "mt-pleasant-library-children-s-area",
+      "aliases": [
+        "Mt. Pleasant Library, Children’s Area"
+      ],
+      "name": "Mt. Pleasant Library, Children’s Area",
+      "status": "research-needed",
+      "statusLabel": "Venue map not yet verified",
+      "group": "calendar",
+      "summary": "Check the organizer’s accessibility information and ask for the current venue map.",
+      "reviewedAt": null,
+      "map": null,
+      "officialMaps": [],
+      "facts": [],
+      "unknowns": [
+        "Which entrance gives us a continuous step-free route?",
+        "Where is the nearest usable restroom and changing space?",
+        "Where could we pause, and which exit would we use?"
+      ],
+      "sources": [
+        {
+          "id": "organizer",
+          "label": "Organizer accessibility information",
+          "url": "https://clpvd.org/clpvd_library/mt-pleasant-library/",
+          "verification": "From calendar source inventory; floor-plan review pending"
+        }
+      ]
+    }
+  ]
+}

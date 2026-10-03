@@ -7,7 +7,7 @@
   const fold = value => (value || '').toLocaleLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
   const esc = value => (value || '').replace(/[&<>"']/g, char => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));
   const icon = name => {
-    const drawings={home:'home',compass:'compass',outing:'compass',family:'heart',talk:'picture',calendar:'calendar',book:'book'};
+    const drawings={home:'home',compass:'compass',outing:'compass',family:'heart',talk:'picture',calendar:'calendar',book:'address-book',journal:'journal',search:'search',menu:'menu'};
     if(drawings[name])return '<svg viewBox="0 0 32 32" aria-hidden="true" focusable="false"><use href="/assets/editorial-icons.svg#'+drawings[name]+'"></use></svg>';
     return ({
     home:'<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 11.2 12 4l9 7.2v8.3a.5.5 0 0 1-.5.5h-5.2v-6.2H8.7V20H3.5a.5.5 0 0 1-.5-.5z"/><path d="M1.8 12.2 12 4l10.2 8.2"/></svg>',
@@ -41,6 +41,9 @@
     @media(max-width:520px){.aal-wayfinder a,.aal-wayfinder button{min-width:82px;min-height:64px;font-size:.65rem}.aal-wayfinder svg{width:20px;height:20px}.aal-search-input-wrap{grid-template-columns:1fr}.aal-search-input-wrap button{min-height:46px;border-left:0;border-top:1px solid #d4d6cc}.aal-search-result{grid-template-columns:1fr}.aal-search-result .aal-result-kind{margin-bottom:-6px}}
     @media(max-width:520px){.aal-wayfinder a,.aal-wayfinder button{font-size:.875rem;min-width:0}.aal-search-shell{padding:16px}}
     @media print{.aal-wayfinder,.aal-search-dialog{display:none!important}}
+
+    .aal-wayfinder svg{width:27px;height:27px;stroke-width:1.4}.aal-wayfinder-label{line-height:1.25}.aal-wayfinder a,.aal-wayfinder button{min-height:58px;font-size:.84rem}
+    @media(max-width:820px){.aal-wayfinder-inner{display:grid!important;grid-template-columns:repeat(4,minmax(0,1fr))!important;width:calc(100% - 18px);overflow:visible;gap:0}.aal-wayfinder a,.aal-wayfinder button{min-width:0!important;min-height:56px!important;padding:7px 3px;font-size:.78rem!important;flex-direction:column!important;gap:4px!important}.aal-wayfinder svg{height:24px!important;width:24px!important}.aal-wayfinder-label{white-space:normal}.aal-wayfinder{position:relative}}
   `;
   document.head.append(style);
   if (!document.querySelector('link[href*="/assets/editorial.css"]')) {
@@ -51,10 +54,10 @@
   const shortcuts = [
     {label:'Home',href:'/',icon:'home',match:['/','/index.html']},
     {label:'Find anything',action:'search',icon:'search',hint:'⌘K'},
-    {label:'All sections',action:'sections',icon:'compass'},
+    {label:'Menu',action:'sections',icon:'menu'},
     {label:'Outings',href:'/favorite-places.html',icon:'outing',match:['/favorite-places.html'],prefix:'/favorite-places/'},
-    {label:'Family',href:'/family-roles.html',icon:'family',match:['/topics/family.html','/family-roles.html','/paternal-role.html','/family-planning-toolkit.html']},
-    {label:'Communicate',href:'/communication-card-generator.html',icon:'talk',match:['/communication-card-generator.html','/visit-story.html','/aac-outing-note.html']},
+    {label:'Journal',href:'/blog.html',icon:'journal',match:['/blog.html','/older-teen-swim-guide.html','/hotel-pool-checklist.html','/pool-weekend-kit.html']},
+    {label:'Make cards',href:'/communication-card-generator.html',icon:'talk',match:['/communication-card-generator.html','/visit-story.html','/aac-outing-note.html']},
     {label:'Calendar',href:'/calendar.html',icon:'calendar',match:['/calendar.html']},
     {label:'Directory',href:'/little-black-book.html',icon:'book',match:['/little-black-book.html']}
   ];

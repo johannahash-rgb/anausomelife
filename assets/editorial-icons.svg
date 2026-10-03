@@ -8,4 +8,12 @@
   <symbol id="cup" viewBox="0 0 32 32"><path d="M5 11h17v10a7 7 0 0 1-7 7h-3a7 7 0 0 1-7-7Zm17 2h3a4 4 0 0 1 0 8h-3M2 30h27M9 3v4m8-4v4"/></symbol>
   <symbol id="leaf" viewBox="0 0 32 32"><path d="M6 25C-2 10 12 3 28 4c0 16-7 28-20 20M4 29 23 10M13 20v-7m0 7h7"/></symbol>
   <symbol id="heart" viewBox="0 0 32 32"><path d="M16 27 5 17C-4 8 7-2 16 8c9-10 20 0 11 9Z"/><path d="M11 16h10m-5-5v10"/></symbol>
+
+  <symbol id="journal" viewBox="0 0 32 32"><path d="M7 4 25 3l1 25-19 1zM10 4l1 24M14 9l8-.5m-8 5 8-.5m-8 5 6-.5M4 8l4-.3M4 14l4-.3M4 20l4-.3"/></symbol>
+  <symbol id="address-book" viewBox="0 0 32 32"><path d="M7 4h18v25H7zM4 8h6M4 14h6M4 20h6M4 26h6M25 9h3v6h-3m0 2h3v6h-3"/><circle cx="17" cy="11" r="3"/><path d="M12 23v-3c0-5 10-5 10 0v3z"/></symbol>
+  <symbol id="search" viewBox="0 0 32 32"><circle cx="13" cy="13" r="9"/><path d="m20 20 9 9m-7-10-3 3M8 9c1-2 3-3 5-3"/></symbol>
+  <symbol id="menu" viewBox="0 0 32 32"><path d="M6 4h20l-1 25H7zM11 10h10m-10 6h10m-10 6h10M3 8h3m-3 8h3m-3 8h3"/></symbol>
+  <symbol id="swim" viewBox="0 0 32 32"><path d="M3 23c4-4 7 4 11 0s7 4 15 0M3 28c4-4 7 4 11 0s7 4 15 0M7 19l9-8 9 5M10 7l6 4"/><circle cx="23" cy="7" r="3"/></symbol>
+  <symbol id="parking" viewBox="0 0 32 32"><path d="M5 4h22v24H5zM12 23V9h6a4 4 0 0 1 0 8h-6M8 30h16"/></symbol>
+  <symbol id="print" viewBox="0 0 32 32"><path d="M9 11V3h14v8M8 24H4V12h24v12h-4M9 19h14v10H9zM22 15h2M12 23h8m-8 3h8"/></symbol>
 </svg>

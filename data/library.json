@@ -227,8 +227,8 @@
   {
     "slug": "favorite-places-lifetime-burlington",
     "url": "/favorite-places-lifetime-burlington.html",
-    "title": "Life Time Burlington",
-    "summary": "For us, water can be the whole plan. An indoor pool and whirlpool make this a dependable reset when weather, daylight or outdoor logistics are not cooperating.",
+    "title": "Let the water be the plan.",
+    "summary": "Life Time Burlington: check the exact pool session, pack the familiar things and leave room for an easy finish.",
     "category": "outings",
     "format": "Place",
     "minutes": 3,
@@ -282,22 +282,22 @@
   {
     "slug": "favorite-places-rancatores-lexington",
     "url": "/favorite-places-rancatores-lexington.html",
-    "title": "Rancatore’s Ice Cream",
-    "summary": "Why Rancatore’s—Ranc’s—stays on our local favorites list: homemade ice cream, an easy tiny-outing formula, practical access notes and a printable Lexington field guide.",
+    "title": "A scoop and a little time.",
+    "summary": "Rancatore’s Ice Cream, with the flavor choice, the arrival and the easy way home considered.",
     "category": "outings",
     "format": "Place",
-    "minutes": 4,
+    "minutes": 3,
     "image": "",
     "location": "Lexington, Massachusetts"
   },
   {
     "slug": "favorite-places-rococo-kennebunk",
     "url": "/favorite-places-rococo-kennebunk.html",
-    "title": "Rococo Ice Cream",
-    "summary": "A genuinely special ice-cream stop that can still be just an ice-cream stop. Pick a flavor, enjoy the beautiful little moment, and keep the rest of the day loose.",
+    "title": "A small scoop of a Maine afternoon.",
+    "summary": "Rococo Ice Cream: a changing flavor board and a little stop worth keeping simple.",
     "category": "outings",
     "format": "Place",
-    "minutes": 3,
+    "minutes": 2,
     "image": "",
     "location": "Kennebunk, Maine · our Kennebunkport-area sweet stop"
   },
@@ -481,11 +481,11 @@
   {
     "slug": "older-teen-swim-guide",
     "url": "/older-teen-swim-guide.html",
-    "title": "A better swim outing for an older teen",
-    "summary": "The best swim plan is age-respectful, practical and built around the person who is actually getting in the water — not around what an activity is ‘supposed’ to look like.",
+    "title": "A good swim, from the first towel to the last dry sock.",
+    "summary": "A practical, age-respectful pool plan for older teens: arrival, changing, communication, water supervision and an easier way home.",
     "category": "family",
     "format": "Guide",
-    "minutes": 2,
+    "minutes": 5,
     "image": ""
   },
   {
