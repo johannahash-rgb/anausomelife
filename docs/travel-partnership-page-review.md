@@ -4,7 +4,7 @@ Requested public landing page lives entirely under `/media/travel-partnerships.h
 
 ## Asset basis
 
-Reuses the existing original generated `assets/editorial/coastal-walk.webp` in the website's editorial context. Its creation prompt, source research and review are recorded in `docs/editorial-image-provenance.json`. Inspected the image again for this page: no identifiable people, hotel, logos or signage. It remains explicitly labeled AI-created and does not stand in for a documented visit or property photo. The existing publication emblem and ordinary shared header/footer are unchanged. No third-party hotel photography, family photographs, new identifiable people, music or video are republished.
+Reuses the existing original generated `assets/editorial/coastal-walk.webp` in the website's editorial context. Its creation prompt, source research and review are recorded in `docs/editorial-image-provenance.json`. Inspected the image again for this page: no identifiable people, hotel, logos or signage. The initial release explicitly labeled it AI-created; the owner subsequently requested a simpler presentation. The visible caption and alt text now identify it as an editorial illustration. It does not stand in for a documented visit or property photo; original generation provenance is preserved in the existing record. The existing publication emblem and ordinary shared header/footer are unchanged. No third-party hotel photography, family photographs, new identifiable people, music or video are republished.
 
 ## Publication checks
 
