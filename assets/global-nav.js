@@ -6,7 +6,10 @@
 
   const fold = value => (value || '').toLocaleLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
   const esc = value => (value || '').replace(/[&<>"']/g, char => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));
-  const icon = name => ({
+  const icon = name => {
+    const drawings={home:'home',compass:'compass',outing:'compass',family:'heart',talk:'picture',calendar:'calendar',book:'book'};
+    if(drawings[name])return '<svg viewBox="0 0 32 32" aria-hidden="true" focusable="false"><use href="/assets/editorial-icons.svg#'+drawings[name]+'"></use></svg>';
+    return ({
     home:'<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 11.2 12 4l9 7.2v8.3a.5.5 0 0 1-.5.5h-5.2v-6.2H8.7V20H3.5a.5.5 0 0 1-.5-.5z"/><path d="M1.8 12.2 12 4l10.2 8.2"/></svg>',
     search:'<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.8" cy="10.8" r="6.6"/><path d="m16 16 5 5"/></svg>',
     compass:'<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="m15.8 8.2-2.1 5.5-5.5 2.1 2.1-5.5z"/></svg>',
@@ -17,6 +20,7 @@
     book:'<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5.5c3.5-.7 6.1 0 8 2v11c-1.9-2-4.5-2.7-8-2zM20 5.5c-3.5-.7-6.1 0-8 2v11c1.9-2 4.5-2.7 8-2z"/></svg>',
     close:'<svg viewBox="0 0 24 24" aria-hidden="true"><path d="m5 5 14 14M19 5 5 19"/></svg>'
   }[name] || '');
+  };
 
   const style = document.createElement('style');
   style.id = 'aal-global-nav-style';
@@ -39,6 +43,10 @@
     @media print{.aal-wayfinder,.aal-search-dialog{display:none!important}}
   `;
   document.head.append(style);
+  if (!document.querySelector('link[href*="/assets/editorial.css"]')) {
+    const theme=document.createElement('link');theme.rel='stylesheet';theme.href='/assets/editorial.css?v=20261003-magazine';document.head.append(theme);
+  }
+
 
   const shortcuts = [
     {label:'Home',href:'/',icon:'home',match:['/','/index.html']},

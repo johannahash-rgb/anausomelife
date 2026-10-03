@@ -11,6 +11,7 @@ This is a practical publication review, not legal advice, a full legal audit or 
 - Updated the old directory builder so it cannot reintroduce logo artwork without both a cleared status and permission evidence.
 - Added photo consent/permission guidance and stronger original-content instructions to the image-prompt helper. Prompt instructions are not enforceable moderation.
 - Updated privacy to explain local photo/text processing, downloads, shared URLs, clipboard prompts, GitHub Pages security logging and activated external services.
+- Corrected LaCascia’s directory entry to “On our list,” matching the documented interest rather than implying a hands-on review.
 - Added a lightweight reference check for retired logos, broken local media, external media and possible affiliate URLs. It does not inspect pixels, judge fair use, verify licenses, detect all tracking or clear music/video.
 
 ## Publication standard going forward
@@ -38,3 +39,9 @@ Primary references checked:
 - USPTO trademark infringement overview: https://www.uspto.gov/page/about-trademark-infringement
 - U.S. Copyright Office AI initiative and reports: https://www.copyright.gov/ai/
 - GitHub Pages data collection: https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages#data-collection
+
+## Magazine and directory revision
+
+The homepage now uses an original AI-created still life with its label directly below the image. See `editorial-image-provenance.json` for the prompt and review record. Real family photos remain separately labeled in the notebook section. Browsing surfaces use original line icons and ordinary text listings; no retired third-party logo was restored.
+
+Vercel is now installed. Its team listing returned no accessible teams on 3 October. The generic deploy tool was rejected by automatic approval review because it could ambiguously deploy the existing GitHub Pages project. No Vercel deployment or credentials were created. The separately scoped generator service still needs a confirmed project and secure provider configuration before public activation.

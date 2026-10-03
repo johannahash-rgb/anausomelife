@@ -3,7 +3,7 @@
 from pathlib import Path
 import re
 ROOT = Path(__file__).resolve().parent.parent
-VERSION = 'village-20261003'
+VERSION = 'editorial-20261003'
 for p in ROOT.rglob('*.html'):
     if any(x in p.parts for x in ('.git', 'content')):
         continue
@@ -17,6 +17,8 @@ for p in ROOT.rglob('*.html'):
         s = s.replace('</head>', f'<link rel="stylesheet" href="/assets/immersion.css?v={VERSION}"></head>')
     if '/assets/immersion.js' not in s:
         s = s.replace('</body>', f'<script src="/assets/immersion.js?v={VERSION}" defer></script></body>')
+    if '/assets/editorial.css' not in s:
+        s = s.replace('</head>', '<link rel="stylesheet" href="/assets/editorial.css?v=20261003-magazine"></head>')
     s = re.sub(r'(/assets/(?:magazine|site)\.js)\?[^"\s]+', rf'\1?v={VERSION}', s)
     s = s.replace('Beautiful. Useful. Lived in.', 'In pursuit of the Good New England Life')
     p.write_text(s)

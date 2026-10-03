@@ -30,19 +30,13 @@
     if(group.url!==path){const link=el('a','',group.name);link.href=group.url;crumb.append(link,el('span','','/'));}
     const label=el('span','',current||document.title.split('|')[0].trim());label.setAttribute('aria-current','page');crumb.append(label);main.prepend(crumb);
   }
-  if (!isHome && !isTool && !isPolicy) {
-    const heading=main.querySelector('.library-heading');
-    if(heading && !heading.querySelector(':scope > img, :scope > figure')) heading.prepend(img(group.art,'aal-section-portrait'));
-    const hero=main.querySelector('.hero>.wrap:not(.favorite-hero-grid)');
-    if(hero && !hero.querySelector('img'))hero.prepend(img(group.art,'aal-section-portrait'));
-  }
   if (!isHome && !isPolicy && !document.querySelector('.aal-more')) {
     const more=el('section','aal-more');more.setAttribute('aria-labelledby','aal-more-title');
     const inner=el('div','wrap');const title=el('h2','','A little more to explore.');title.id='aal-more-title';inner.append(title);
     const grid=el('div','aal-more-grid');
     let links=group.links.filter(row=>row[0]!==path);
     for(const row of groups.general.links)if(links.length<3 && row[0]!==path && !links.some(x=>x[0]===row[0]))links.push(row);
-    links.slice(0,3).forEach(([href,title,description,art])=>{const a=el('a');a.href=href;const copy=el('div');copy.append(el('strong','',title),el('span','',description));a.append(img(art),copy);grid.append(a);});
+    links.slice(0,3).forEach(([href,title,description,art])=>{const a=el('a');a.href=href;const copy=el('div');copy.append(el('strong','',title),el('span','',description));a.append(copy);grid.append(a);});
     inner.append(grid);more.append(inner);footer.before(more);
   }
 })();
