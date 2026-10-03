@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" role="img" aria-labelledby="t d">
+<title id="t">Family roles field-note illustration</title><desc id="d">A hand-drawn style family field-note page with a compass, thermos, tote, notebook and five flexible family-role labels.</desc>
+<rect width="900" height="600" fill="#f5efe4"/>
+<path d="M35 45h830v510H35z" fill="none" stroke="#163b4b" stroke-width="3"/>
+<path d="M470 130c92 0 168 75 168 168s-76 168-168 168-168-75-168-168 76-168 168-168z" fill="#fbf7ef" stroke="#163b4b" stroke-width="3"/>
+<circle cx="470" cy="298" r="100" fill="none" stroke="#c76f59" stroke-width="2" stroke-dasharray="7 10"/>
+<path d="M470 178l24 95 94 25-94 25-24 95-24-95-94-25 94-25z" fill="#e7d7b8" stroke="#163b4b" stroke-width="3"/>
+<circle cx="470" cy="298" r="14" fill="#c76f59"/>
+<g fill="#163b4b" font-family="Georgia,serif" font-size="22">
+<text x="430" y="105">WAYS TO SHOW UP</text>
+<text x="95" y="155">PATERNAL</text><text x="660" y="155">MATERNAL</text>
+<text x="76" y="430">SIBLING</text><text x="676" y="430">GRANDPARENT</text>
+<text x="375" y="515">CAREGIVER / SUPPORT</text>
+</g>
+<g stroke="#163b4b" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round">
+<path d="M95 185c35 10 70 10 105 0"/><path d="M690 185c30 10 60 10 90 0"/>
+<path d="M100 458c28 9 56 9 84 0"/><path d="M692 458c37 9 74 9 111 0"/>
+<path d="M415 540c38 8 76 8 114 0"/>
+<!-- tote -->
+<path d="M105 260h120l-10 115H115z"/><path d="M135 260c0-42 60-42 60 0"/>
+<path d="M130 285h80M128 315h84M126 345h88"/>
+<!-- thermos -->
+<path d="M710 250h62l8 118h-78z"/><path d="M718 222h46v28h-46z"/><path d="M716 300h50"/>
+<!-- notebook -->
+<path d="M88 470h145v62H88z"/><path d="M106 486h93M106 501h76M106 516h84"/>
+<!-- little football -->
+<path d="M720 480c38-22 78-10 95 24-18 34-59 44-94 20-15-11-16-33-1-44z"/>
+<path d="M748 492l26 19M755 489l-12 16M766 498l-12 16M778 506l-12 16"/>
+</g>
+<g fill="#c76f59"><path d="M258 93l8 18 20 2-15 13 4 19-17-10-17 10 4-19-15-13 20-2z"/><path d="M780 86l7 16 18 2-13 12 4 17-16-9-15 9 4-17-14-12 18-2z"/></g>
+</svg>
