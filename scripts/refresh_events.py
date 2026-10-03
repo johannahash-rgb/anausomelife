@@ -267,6 +267,9 @@ def prepare(curated, previous, sources, queue, now, fetcher=None):
     output = {'schemaVersion': previous.get('schemaVersion', 2), 'generatedAt': checked, 'lastEditorialReview': previous.get('lastEditorialReview'),
               'timezone': 'America/New_York', 'coverage': previous.get('coverage', 'Selected New England events; not exhaustive.'),
               'refresh': refresh, 'sources': results, 'events': sorted(published, key=lambda e:(e['start'], e['id']))}
+    for key in ('accessibilityStandard', 'venueProfiles', 'watchlist'):
+        if key in previous:
+            output[key] = copy.deepcopy(previous[key])
     return output, live_queue
 
 
