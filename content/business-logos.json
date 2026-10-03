@@ -1,44 +1,56 @@
 {
   "llbean": {
-    "asset": "/assets/logos/llbean.svg",
     "sourceUrl": "https://www.llbean.com/llb/shop/1000001705",
     "width": 146,
     "height": 29,
-    "alt": "L.L.Bean logo"
+    "alt": "L.L.Bean logo",
+    "retiredAsset": "/assets/logos/llbean.svg",
+    "reuseStatus": "not-cleared",
+    "reviewNote": "Source URL is recorded but no reuse permission or license terms are documented. Removed from the published site; use an original editorial card."
   },
   "book-barn": {
-    "asset": "/assets/logos/book-barn.webp",
     "sourceUrl": "https://www.bookbarnniantic.com/",
     "width": 816,
     "height": 756,
-    "alt": "The Book Barn logo"
+    "alt": "The Book Barn logo",
+    "retiredAsset": "/assets/logos/book-barn.webp",
+    "reuseStatus": "not-cleared",
+    "reviewNote": "Source URL is recorded but no reuse permission or license terms are documented. Removed from the published site; use an original editorial card."
   },
   "wegmans": {
-    "asset": "/assets/logos/wegmans.webp",
     "sourceUrl": "https://www.wegmans.com/news-media/photo-logo-gallery",
     "width": 1000,
     "height": 379,
-    "alt": "Wegmans logo"
+    "alt": "Wegmans logo",
+    "retiredAsset": "/assets/logos/wegmans.webp",
+    "reuseStatus": "not-cleared",
+    "reviewNote": "Source URL is recorded but no reuse permission or license terms are documented. Removed from the published site; use an original editorial card."
   },
   "rancatores": {
-    "asset": "/assets/logos/rancatores.webp",
     "sourceUrl": "https://www.rancs.com/",
     "width": 333,
     "height": 158,
-    "alt": "Rancatore’s logo"
+    "alt": "Rancatore’s logo",
+    "retiredAsset": "/assets/logos/rancatores.webp",
+    "reuseStatus": "not-cleared",
+    "reviewNote": "Source URL is recorded but no reuse permission or license terms are documented. Removed from the published site; use an original editorial card."
   },
   "lacascias": {
-    "asset": "/assets/logos/lacascias.webp",
     "sourceUrl": "https://www.lacascias.com/",
     "width": 357,
     "height": 226,
-    "alt": "LaCascia’s Bakery & Deli logo"
+    "alt": "LaCascia’s Bakery & Deli logo",
+    "retiredAsset": "/assets/logos/lacascias.webp",
+    "reuseStatus": "not-cleared",
+    "reviewNote": "Source URL is recorded but no reuse permission or license terms are documented. Removed from the published site; use an original editorial card."
   },
   "wilson-farm": {
-    "asset": "/assets/logos/wilson-farm.webp",
     "sourceUrl": "https://www.wilsonfarm.com/v2.0/home.php",
     "width": 250,
     "height": 146,
-    "alt": "Wilson Farm logo"
+    "alt": "Wilson Farm logo",
+    "retiredAsset": "/assets/logos/wilson-farm.webp",
+    "reuseStatus": "not-cleared",
+    "reviewNote": "Source URL is recorded but no reuse permission or license terms are documented. Removed from the published site; use an original editorial card."
   }
 }

@@ -263,3 +263,6 @@ body.magazine-shell{background:var(--mag-paper);color:var(--mag-ink);font-family
 @media(max-width:800px){.kid-fun-split{grid-template-columns:1fr;gap:28px}.field-note-heading{display:block}.field-note-heading .quiet-link{margin-top:8px}.kid-fun-grid{grid-template-columns:1fr 1fr}.field-note-rhythm{grid-template-columns:1fr 1fr}.field-note-stage,.field-note-overlay,.field-note-stage iframe{min-height:320px}.field-note-overlay{padding:26px}}
 @media(max-width:520px){.kid-fun-grid,.field-note-rhythm{grid-template-columns:1fr}.field-note-stage,.field-note-overlay,.field-note-stage iframe{min-height:250px}.field-note-stage>img{padding:18px}.field-note-overlay strong{font-size:2rem}}
 @media print{.field-note-video-section,.kid-fun-home{display:none!important}}
+
+/* Independent directory artwork; ordinary names, never simulated brand logos. */
+.editorial-mark--brand{flex-direction:column;gap:7px;min-height:124px;border:1px solid #aebea5;border-top:4px solid #2e513f;background:linear-gradient(135deg,#eaf0e5,#fffdf4);color:#2e513f}.editorial-mark--brand>span{font:400 1.6rem/1.2 Georgia,serif;letter-spacing:0}.editorial-mark--brand>small{font-size:.62rem;color:#445d4b;max-width:22ch}
