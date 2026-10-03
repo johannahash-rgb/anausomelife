@@ -1,0 +1,7 @@
+{
+  "functions": {
+    "api/generate-card.js": {
+      "maxDuration": 120
+    }
+  }
+}
