@@ -26,3 +26,31 @@
 @media(max-width:900px){.calendar-page .event-filters{grid-template-columns:repeat(2,minmax(0,1fr))}.calendar-page .event-filters label:last-of-type{grid-column:1/-1}.calendar-page .event-card.has-sketch{grid-template-columns:52px minmax(0,1fr) 28%;gap:20px}.calendar-page .event-card h2{font-size:1.6rem}}
 @media(max-width:650px){.calendar-page .event-card.has-sketch{grid-template-columns:45px minmax(0,1fr);gap:20px 16px;grid-template-areas:'art art' 'date copy'}.calendar-page .event-card.has-sketch>.event-art{grid-area:art;width:100%;max-width:480px;justify-self:center}.calendar-page .event-card.has-sketch>.event-date{grid-area:date}.calendar-page .event-card.has-sketch>.event-copy{grid-area:copy}.calendar-page .event-card .event-facts{grid-template-columns:1fr}.calendar-page .event-card h2{font-size:1.7rem}.calendar-page .event-art figcaption{text-align:center}.calendar-page .event-filters{gap:14px 12px}.calendar-page .event-filters input,.calendar-page .event-filters select{padding:10px 8px}.calendar-page .event-month-filter{grid-column:1/-1}.calendar-page .event-filters label:last-of-type{grid-column:auto}.calendar-page .event-actions{gap:5px 16px}.calendar-page .event-actions a,.calendar-page .event-actions button{font-size:.8rem}.calendar-page .calendar-toolbar-head{align-items:start}.calendar-page .calendar-view-toggle{flex-wrap:wrap}}
 @media(prefers-reduced-motion:reduce){.calendar-page *{scroll-behavior:auto!important}}
+
+
+/* Immersive New England state selector · 3 October 2026 */
+.calendar-page .calendar-state-section{position:relative;isolation:isolate;padding-block:30px 56px}
+.calendar-page .calendar-state-section:before{content:"";position:absolute;z-index:-1;inset:-18px -4vw -8px;border-block:1px solid rgba(36,75,62,.08);background:radial-gradient(ellipse at 12% 8%,rgba(188,169,121,.14),transparent 34%),radial-gradient(ellipse at 86% 88%,rgba(49,91,100,.09),transparent 34%),linear-gradient(180deg,rgba(248,244,234,.34),rgba(255,253,247,.05))}
+.calendar-page .state-index{gap:14px}
+.calendar-page .state-tile{position:relative;overflow:hidden;grid-template-columns:minmax(0,1fr) 106px;align-items:center;gap:14px;min-height:150px;padding:21px 22px;border-radius:20px;border:1px solid rgba(36,75,62,.18);background:linear-gradient(145deg,#fffdf8 0%,#f4f0e6 100%);box-shadow:0 7px 22px rgba(25,59,64,.045);color:#193b40}
+.calendar-page .state-tile:before{content:"";position:absolute;inset:auto -34px -44px auto;width:140px;height:140px;border:1px solid rgba(36,75,62,.07);border-radius:50%;box-shadow:0 0 0 18px rgba(36,75,62,.025),0 0 0 38px rgba(36,75,62,.018);pointer-events:none}
+.calendar-page .state-tile:hover,.calendar-page .state-tile:focus-visible,.calendar-page .state-tile.is-selected{transform:translateY(-3px);border-color:#8d453b;box-shadow:0 14px 32px rgba(25,59,64,.10)}
+.calendar-page .state-tile.is-selected{background:linear-gradient(145deg,#fdf8ed,#edf1e7)}
+.calendar-page .state-tile-copy{position:relative;z-index:1;display:flex;flex-direction:column;align-items:flex-start;gap:4px;min-width:0}
+.calendar-page .state-tile .state-code{font-size:.67rem;letter-spacing:.16em;font-weight:700;color:#58716c;opacity:1}
+.calendar-page .state-tile strong{font:400 clamp(1.2rem,1.7vw,1.48rem)/1.1 Georgia,serif;color:#173c49}
+.calendar-page .state-count{font-size:.78rem!important;color:#36575a;margin-top:3px}
+.calendar-page .state-flavor{font:italic .74rem/1.4 Georgia,serif!important;color:#65746d;margin-top:6px}
+.calendar-page .state-scene{position:relative;z-index:1;display:block;width:106px;height:76px;color:#315d57;opacity:.94;transition:transform .2s ease,color .2s ease}
+.calendar-page .state-scene svg{display:block;width:100%;height:100%;fill:none;stroke:currentColor;stroke-width:1.55;stroke-linecap:round;stroke-linejoin:round}
+.calendar-page .state-tile:hover .state-scene,.calendar-page .state-tile:focus-visible .state-scene{transform:translateY(-2px) scale(1.025);color:#8d453b}
+.calendar-page .state-tile.all-states{grid-column:span 2;grid-template-columns:minmax(0,1fr) 170px;min-height:168px;background:linear-gradient(110deg,rgba(22,59,75,.98),rgba(31,79,82,.96));color:#fffdf5;border-color:#8d453b}
+.calendar-page .state-tile.all-states:before{width:210px;height:210px;right:-32px;bottom:-82px;border-color:rgba(255,255,255,.12);box-shadow:0 0 0 22px rgba(255,255,255,.035),0 0 0 48px rgba(255,255,255,.022)}
+.calendar-page .state-tile.all-states .state-code,.calendar-page .state-tile.all-states .state-count,.calendar-page .state-tile.all-states .state-flavor{color:#e8e0cf}
+.calendar-page .state-tile.all-states strong{color:#fffdf5;font-size:clamp(1.35rem,2vw,1.7rem)}
+.calendar-page .state-tile.all-states .state-scene{width:170px;height:104px;color:#eadfbd;opacity:.96}
+.calendar-page .state-tile.all-states:hover .state-scene,.calendar-page .state-tile.all-states:focus-visible .state-scene{color:#fff2c9}
+.calendar-page .state-tile:disabled .state-scene{opacity:.45}
+@media(max-width:950px){.calendar-page .state-tile{grid-template-columns:minmax(0,1fr) 92px}.calendar-page .state-scene{width:92px}.calendar-page .state-tile.all-states{grid-template-columns:minmax(0,1fr) 140px}.calendar-page .state-tile.all-states .state-scene{width:140px}}
+@media(max-width:700px){.calendar-page .calendar-state-section{padding-block:24px 44px}.calendar-page .state-tile,.calendar-page .state-tile.all-states{grid-column:auto;grid-template-columns:minmax(0,1fr) 96px;min-height:136px;padding:18px}.calendar-page .state-tile.all-states .state-scene,.calendar-page .state-scene{width:96px;height:72px}.calendar-page .state-flavor{font-size:.72rem!important}}
+@media(prefers-reduced-motion:reduce){.calendar-page .state-tile,.calendar-page .state-scene{transition:none}.calendar-page .state-tile:hover,.calendar-page .state-tile:focus-visible,.calendar-page .state-tile.is-selected{transform:none}.calendar-page .state-tile:hover .state-scene,.calendar-page .state-tile:focus-visible .state-scene{transform:none}}
