@@ -10,24 +10,24 @@ VERSION = '20261003-mainstreet'
 def replacement(src):
     if src.startswith('/assets/favorites/') or src.startswith('/assets/favorite-'):
         if 'llbean' in src:
-            return '/assets/outing-studio/freeport-boot.webp', 'AI-created Freeport-inspired editorial scene; not a current venue photograph.'
+            return '/assets/outing-studio/freeport-boot.webp', 'Freeport-inspired editorial illustration.'
         if any(k in src for k in ('coast','marginal','kittery','walden')):
-            return PHOTO+'coastal-walk.webp', 'AI-created New England coastal scene; not a photograph of this destination.'
+            return PHOTO+'coastal-walk.webp', 'New England coastal illustration.'
         if any(k in src for k in ('farm','wildwood','minute-man','decordova','frog-pond')):
-            return PHOTO+'farm-meadow.webp', 'AI-created New England countryside scene; not a photograph of this destination.'
+            return PHOTO+'farm-meadow.webp', 'New England countryside illustration.'
         if any(k in src for k in ('pool','lifetime','misty','aquarium')):
-            return PHOTO+'autumn-table.webp', 'AI-created editorial still life for a day out; not a venue photograph.'
-        return PHOTO+'main-street.webp', 'AI-created Main Street scene; a fictional village, not this business.'
+            return PHOTO+'autumn-table.webp', 'Editorial still-life illustration for a day out.'
+        return PHOTO+'main-street.webp', 'Illustration of a fictional New England village.'
     if src.startswith('/assets/catalog-') or src.startswith('/assets/guide-'):
-        return PHOTO+'autumn-table.webp', 'AI-created New England editorial still life.'
+        return PHOTO+'autumn-table.webp', 'New England still-life illustration.'
     if src.startswith('/assets/sketches/') and not src.endswith('family-roles-map.svg'):
         if any(k in src for k in ('outdoors','farm','football')):
-            return PHOTO+'farm-meadow.webp', 'AI-created New England countryside scene.'
+            return PHOTO+'farm-meadow.webp', 'New England countryside illustration.'
         if any(k in src for k in ('books','everyday','treat','stay')):
-            return PHOTO+'main-street.webp', 'AI-created fictional New England Main Street.'
+            return PHOTO+'main-street.webp', 'Illustration of a fictional New England Main Street.'
         if 'water' in src:
-            return PHOTO+'coastal-walk.webp', 'AI-created New England coastal scene.'
-        return PHOTO+'autumn-table.webp', 'AI-created New England editorial still life.'
+            return PHOTO+'coastal-walk.webp', 'New England coastal illustration.'
+        return PHOTO+'autumn-table.webp', 'New England still-life illustration.'
     return None
 
 def image(match):
