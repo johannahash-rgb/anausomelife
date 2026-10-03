@@ -8,8 +8,13 @@ The public site must never contain an OpenAI API key. This service receives only
 
 The service fails closed unless all required moderation and abuse-control infrastructure is configured.
 
+**Release candidate: not connected.** Keep `IMAGE_SERVICE_ENABLED=false` until live verification. This package is for picture cards; `services/studio-api` is the separate outing research candidate. Neither package replaces GitHub Pages.
+
+Before enabling this candidate, finish the stricter content-policy review, use a trusted Vercel client-IP header, verify atomic limits and provider timeout handling, and test failures with real services. A health response alone is not a release gate.
+
 ## Required environment variables
 
+- `IMAGE_SERVICE_ENABLED` — keep `false` until all release checks pass
 - `OPENAI_API_KEY`
 - `UPSTASH_REDIS_REST_URL`
 - `UPSTASH_REDIS_REST_TOKEN`
@@ -29,7 +34,7 @@ Optional:
 4. Verify CORS rejects other origins.
 5. Test allowed, ambiguous, disallowed, rate-limited and provider-error requests.
 6. Map a dedicated HTTPS host such as `https://image.anausomelife.com`.
-7. In `communication-card-generator.html`, set the `ausome-image-api` meta value to the full `/api/generate-card` URL.
+7. Only after checks pass, enable the service. In `communication-card-generator.html`, set the `ausome-image-api` meta value to the full `/api/generate-card` URL.
 8. Re-run the repository editorial-rights checks and live keyboard/screen-reader checks before treating generation as released.
 
-The static page already falls back to a safe ChatGPT handoff while this service is not connected.
+The static page already falls back to a explicit ChatGPT handoff while this service is not connected.

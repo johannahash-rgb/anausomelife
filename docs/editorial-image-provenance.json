@@ -1,9 +1,50 @@
 {
-  "asset": "assets/editorial/autumn-table.webp",
-  "created": "2026-10-03",
-  "origin": "Built-in image generation tool",
-  "purpose": "Original editorial mood image for the magazine homepage and generic studio welcome. Not a real destination or family photograph.",
-  "review": "Inspected the generated result before publication: no people, legible lettering, logos, protected characters or third-party source photos. AI origin does not guarantee legal clearance.",
-  "style": "Photorealistic New England still life, Nantucket meets Vermont: natural canvas tote with navy straps, navy cable-knit sweater, apples, notebook, pencil and coffee by a forest-green window. Warm pine, cedar shingles, autumn foliage and distant sea. No recognizable real venue.",
-  "prompt": "Use case: photorealistic-natural. Asset type: the main editorial photograph for An AUsome Life, an independent New England family-life magazine and practical directory. Create a genuinely photorealistic, sophisticated editorial still-life, Nantucket meets Vermont, autumn, warm lived-in restraint. A close three-quarter view of a beautifully worn honey-pine table beside an open window with deep forest-green painted trim. On the table: a large natural canvas boat tote with navy straps (plain, no recognizable brand design marks), a navy cable-knit sweater loosely folded over its edge, a few fresh red apples in a small simple ceramic bowl, an open blank cream notebook and a pencil, and one white ceramic cup of coffee. Outside the softly focused window: a modest weathered cedar shingle cottage wall and a glimpse of russet foliage and the sea. Natural cool morning window light with gentle warm interior tones, elegant authentic material texture, crisp linen, wool and canvas, no glossy CGI, no illustration, no theatrical fantasy village. Composition: landscape 3:2, objects fill the frame with confident magazine photography cropping, eye level slightly above the table, no added border, no typography or text. Calm, tactile, inviting, wonderfully preppy but unpretentious. No people, no logos, no lettering, no watermarks, no protected character, no copied photograph, no claim to depict an identifiable real place."
+  "images": [
+    {
+      "asset": "assets/editorial/autumn-table.webp",
+      "created": "2026-10-03",
+      "origin": "Built-in image generation tool",
+      "purpose": "Original editorial mood image for the magazine homepage and generic studio welcome. Not a real destination or family photograph.",
+      "review": "Inspected the generated result before publication: no people, legible lettering, logos, protected characters or third-party source photos. AI origin does not guarantee legal clearance.",
+      "style": "Photorealistic New England still life, Nantucket meets Vermont: natural canvas tote with navy straps, navy cable-knit sweater, apples, notebook, pencil and coffee by a forest-green window. Warm pine, cedar shingles, autumn foliage and distant sea. No recognizable real venue.",
+      "prompt": "Use case: photorealistic-natural. Asset type: the main editorial photograph for An AUsome Life, an independent New England family-life magazine and practical directory. Create a genuinely photorealistic, sophisticated editorial still-life, Nantucket meets Vermont, autumn, warm lived-in restraint. A close three-quarter view of a beautifully worn honey-pine table beside an open window with deep forest-green painted trim. On the table: a large natural canvas boat tote with navy straps (plain, no recognizable brand design marks), a navy cable-knit sweater loosely folded over its edge, a few fresh red apples in a small simple ceramic bowl, an open blank cream notebook and a pencil, and one white ceramic cup of coffee. Outside the softly focused window: a modest weathered cedar shingle cottage wall and a glimpse of russet foliage and the sea. Natural cool morning window light with gentle warm interior tones, elegant authentic material texture, crisp linen, wool and canvas, no glossy CGI, no illustration, no theatrical fantasy village. Composition: landscape 3:2, objects fill the frame with confident magazine photography cropping, eye level slightly above the table, no added border, no typography or text. Calm, tactile, inviting, wonderfully preppy but unpretentious. No people, no logos, no lettering, no watermarks, no protected character, no copied photograph, no claim to depict an identifiable real place."
+    },
+    {
+      "asset": "assets/outing-studio/arrival-door.webp",
+      "origin": "Built-in image generation tool",
+      "created": "2026-10-03",
+      "purpose": "General arriving example; never a verified entrance, route or access reference.",
+      "review": "Inspected: fictional building, no people, logos, lettering or third-party input imagery. The result has a small step: no accessibility claim is made.",
+      "prompt": "Use case: photorealistic-natural. Asset type: a clear general arriving picture for a family visual outing planner. One original photorealistic image of a welcoming, fictional New England community hall entrance, straight-on centered composition at ordinary eye level. Cream clapboard siding, a simple tall forest-green open door with an uncluttered softly lit interior behind it, level pale stone threshold and a broad flat stone path in front. A single terracotta pot of blue hydrangeas sits well to one side without blocking the door. Natural soft daylight, tactile honest painted wood, refined Nantucket-meets-Vermont palette of deep green, cream, warm stone. The doorway fills most of the image and is instantly understandable at small sizes. No people, no logos, no words or signs, no cars, no extra small objects, no brand styling, no fantasy, no illustration or CGI sheen, no copied photo or identifiable real building. Landscape 3:2. This image will be labeled a general AI-created example, never a factual arrival or accessibility reference for a real venue."
+    },
+    {
+      "asset": "assets/editorial/coastal-walk.webp",
+      "created": "2026-10-03",
+      "origin": "Built-in image generation tool",
+      "prompt": "Photorealistic-natural. Create one original high-end editorial photograph-style landscape for An AUsome Life, a preppy Nantucket-meets-Vermont family magazine. Beautiful New England rocky Atlantic shoreline: layered weathered grey rock ledges, navy-blue ocean, frothy small waves, coastal grasses and wild rose foliage in foreground, muted early-autumn sunshine. Natural colors, detailed true photographic texture, restrained elegant editorial framing, inviting and immersive. Landscape 3:2. Research grounding: the official Marginal Way Preservation Fund describes Ogunquit's Marginal Way as a paved cliff walk along a rocky coastline. Create an original coastal interpretation, not a documentary view or a copy of any photograph. Show the ocean and rocky coast, not invented paths, entrances, buildings or access facilities. No people, no text, no logos, no lighthouse, no clip art, no drawings, no watercolors. Camera photograph aesthetic, not an oversaturated fantasy.",
+      "purpose": "Original photographic editorial mood image; not an actual venue, current access reference or family photograph.",
+      "review": "Visually reviewed: no people, readable signage, logos or protected characters; no third-party source images supplied. Main Street and farm are fictional; coast is an interpretation. AI origin is not legal clearance.",
+      "research_sources": [
+        "https://www.marginalwayfund.org/history"
+      ]
+    },
+    {
+      "asset": "assets/editorial/main-street.webp",
+      "created": "2026-10-03",
+      "origin": "Built-in image generation tool",
+      "prompt": "Photorealistic-natural. One original professional editorial photograph-style landscape for a refined preppy New England magazine, Nantucket meets Vermont. A fictional charming small-town Main Street at eye level: warm cream clapboard storefronts, understated pine green wooden doors and window trim, brick sidewalk, two restrained blue hydrangea planters, a glimpse of a bookshop window with unlettered books and a simple cafe window, early autumn natural morning light and subtle gold leaves. Rich real wood, old brick, authentic human-scale details, quietly welcoming, ordinary local village life. Landscape 3:2. It is a fictional composite, not any real business or actual street. No people, no readable signage or lettering, no logos, no flags, no branding, no copyrighted artwork, no watercolors, no drawing, no clip art, no excessive fantasy. Crisp realistic magazine photography, natural greens, navy accents and creamy whites.",
+      "purpose": "Original photographic editorial mood image; not an actual venue, current access reference or family photograph.",
+      "review": "Visually reviewed: no people, readable signage, logos or protected characters; no third-party source images supplied. Main Street and farm are fictional; coast is an interpretation. AI origin is not legal clearance.",
+      "research_sources": []
+    },
+    {
+      "asset": "assets/editorial/farm-meadow.webp",
+      "created": "2026-10-03",
+      "origin": "Built-in image generation tool",
+      "prompt": "Photorealistic-natural. One original landscape editorial photograph-style image for An AUsome Life, the preppy Nantucket-meets-Vermont New England family magazine. An inviting fictional New England farm meadow on a gentle early-autumn morning, beautifully weathered split-rail fence across foreground, green grass, distant simple old red timber barn, sugar maples just beginning to turn gold, blue-grey rounded hills, natural tactile detail and quiet luminous daylight. Composition feels like real professional travel magazine photography; refined, immersive, not over-saturated. 3:2 landscape. Generic fictional countryside, no actual business or access route represented. No people, no signs, no words, no logos, no vehicles, no watercolors, no illustration, no clip art. Do not copy a particular photograph.",
+      "purpose": "Original photographic editorial mood image; not an actual venue, current access reference or family photograph.",
+      "review": "Visually reviewed: no people, readable signage, logos or protected characters; no third-party source images supplied. Main Street and farm are fictional; coast is an interpretation. AI origin is not legal clearance.",
+      "research_sources": []
+    }
+  ]
 }

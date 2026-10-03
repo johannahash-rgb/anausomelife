@@ -18,7 +18,7 @@ for p in ROOT.rglob('*.html'):
     if '/assets/immersion.js' not in s:
         s = s.replace('</body>', f'<script src="/assets/immersion.js?v={VERSION}" defer></script></body>')
     if '/assets/editorial.css' not in s:
-        s = s.replace('</head>', '<link rel="stylesheet" href="/assets/editorial.css?v=20261003-magazine"></head>')
+        s = s.replace('</head>', '<link rel="stylesheet" href="/assets/editorial.css?v=20261003-mainstreet"></head>')
     s = re.sub(r'(/assets/(?:magazine|site)\.js)\?[^"\s]+', rf'\1?v={VERSION}', s)
     s = s.replace('Beautiful. Useful. Lived in.', 'In pursuit of the Good New England Life')
     p.write_text(s)

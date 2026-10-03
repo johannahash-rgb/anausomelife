@@ -21,7 +21,7 @@ This release has **no live research or image API**. It does not claim to search 
 
 ## Connection needed
 
-A private server host, protected search/image service credentials and enforced abuse/budget controls must be provisioned and verified before exposing live generation. Keep the current GitHub Pages hosting. No API key belongs in this public repository, site JavaScript, generated HTML or chat. The installed secure OpenAI key-setup skill was not available in this session; no key was created and no API backend was deployed.
+A private server host, protected search/image service credentials and enforced abuse/budget controls must be provisioned and verified before exposing live generation. Keep the current GitHub Pages hosting. No API key belongs in this public repository, site JavaScript, generated HTML or chat. A separate service candidate is now implemented at `services/studio-api`, with default-off configuration, text-only input, sourced research, input/output moderation, a stricter family-content review, atomic rate limits and no prompt/photo logging. Eighteen local tests cover its fail-closed orchestration and request boundaries. Vercel is installed, but its connector returns no accessible teams and its dashboard requires sign-in. No provider credentials were available and no API was deployed or tested live. See the service README for the exact remaining release gates.
 
 Official implementation references checked 3 October 2026:
 - https://developers.openai.com/api/docs/guides/tools-web-search

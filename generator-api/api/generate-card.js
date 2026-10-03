@@ -98,7 +98,8 @@ async function textIsAllowed(text) {
     input: text
   });
   if (!response.ok) throw new Error("moderation_unavailable");
-  return !payload?.results?.[0]?.flagged;
+  if (!Array.isArray(payload?.results) || !payload.results.length || !payload.results.every(r => typeof r.flagged === "boolean" && r.categories && typeof r.categories.sexual === "boolean" && Object.values(r.categories).every(v => typeof v === "boolean"))) throw new Error("moderation_unavailable");
+  return payload.results.every(r => !r.flagged && !Object.values(r.categories).some(Boolean));
 }
 
 async function imageIsAllowed(imageDataUrl, text) {
@@ -110,7 +111,8 @@ async function imageIsAllowed(imageDataUrl, text) {
     ]
   });
   if (!response.ok) throw new Error("moderation_unavailable");
-  return !payload?.results?.[0]?.flagged;
+  if (!Array.isArray(payload?.results) || !payload.results.length || !payload.results.every(r => typeof r.flagged === "boolean" && r.categories && typeof r.categories.sexual === "boolean" && Object.values(r.categories).every(v => typeof v === "boolean"))) throw new Error("moderation_unavailable");
+  return payload.results.every(r => !r.flagged && !Object.values(r.categories).some(Boolean));
 }
 
 function makePrompt(subject, situation) {
@@ -138,6 +140,8 @@ export default async function handler(req, res) {
 
   const length = Number(req.headers["content-length"] || 0);
   if (length > 5000) return res.status(413).json({ message: "That request is too long." });
+
+  if (process.env.IMAGE_SERVICE_ENABLED !== "true") return res.status(503).json({ message: "The picture service is not enabled yet." });
 
   try {
     const limits = await enforceLimits(req);

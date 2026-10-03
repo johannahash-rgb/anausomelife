@@ -1,0 +1,18 @@
+{
+  "created": "2026-10-03",
+  "method": "built-in imagegen",
+  "images": [
+    {
+      "key": "coastal-walk",
+      "prompt": "Photorealistic-natural. Create one original high-end editorial photograph-style landscape for An AUsome Life, a preppy Nantucket-meets-Vermont family magazine. Beautiful New England rocky Atlantic shoreline: layered weathered grey rock ledges, navy-blue ocean, frothy small waves, coastal grasses and wild rose foliage in foreground, muted early-autumn sunshine. Natural colors, detailed true photographic texture, restrained elegant editorial framing, inviting and immersive. Landscape 3:2. Research grounding: the official Marginal Way Preservation Fund describes Ogunquit's Marginal Way as a paved cliff walk along a rocky coastline. Create an original coastal interpretation, not a documentary view or a copy of any photograph. Show the ocean and rocky coast, not invented paths, entrances, buildings or access facilities. No people, no text, no logos, no lighthouse, no clip art, no drawings, no watercolors. Camera photograph aesthetic, not an oversaturated fantasy."
+    },
+    {
+      "key": "main-street",
+      "prompt": "Photorealistic-natural. One original professional editorial photograph-style landscape for a refined preppy New England magazine, Nantucket meets Vermont. A fictional charming small-town Main Street at eye level: warm cream clapboard storefronts, understated pine green wooden doors and window trim, brick sidewalk, two restrained blue hydrangea planters, a glimpse of a bookshop window with unlettered books and a simple cafe window, early autumn natural morning light and subtle gold leaves. Rich real wood, old brick, authentic human-scale details, quietly welcoming, ordinary local village life. Landscape 3:2. It is a fictional composite, not any real business or actual street. No people, no readable signage or lettering, no logos, no flags, no branding, no copyrighted artwork, no watercolors, no drawing, no clip art, no excessive fantasy. Crisp realistic magazine photography, natural greens, navy accents and creamy whites."
+    },
+    {
+      "key": "farm-meadow",
+      "prompt": "Photorealistic-natural. One original landscape editorial photograph-style image for An AUsome Life, the preppy Nantucket-meets-Vermont New England family magazine. An inviting fictional New England farm meadow on a gentle early-autumn morning, beautifully weathered split-rail fence across foreground, green grass, distant simple old red timber barn, sugar maples just beginning to turn gold, blue-grey rounded hills, natural tactile detail and quiet luminous daylight. Composition feels like real professional travel magazine photography; refined, immersive, not over-saturated. 3:2 landscape. Generic fictional countryside, no actual business or access route represented. No people, no signs, no words, no logos, no vehicles, no watercolors, no illustration, no clip art. Do not copy a particular photograph."
+    }
+  ]
+}

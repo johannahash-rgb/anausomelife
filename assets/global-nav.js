@@ -44,7 +44,7 @@
   `;
   document.head.append(style);
   if (!document.querySelector('link[href*="/assets/editorial.css"]')) {
-    const theme=document.createElement('link');theme.rel='stylesheet';theme.href='/assets/editorial.css?v=20261003-magazine';document.head.append(theme);
+    const theme=document.createElement('link');theme.rel='stylesheet';theme.href='/assets/editorial.css?v=20261003-mainstreet';document.head.append(theme);
   }
 
 

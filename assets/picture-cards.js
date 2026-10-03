@@ -81,14 +81,17 @@ async function copyImagePrompt(){
  try{await navigator.clipboard.writeText(prompt.value);get('[data-prompt-status]').textContent='Copied. Your prompt is ready.';return true;}
  catch(_){prompt.focus();prompt.select();get('[data-prompt-status]').textContent='Select and copy the prompt below.';return false;}
 }
-async function generateNewPicture(){
+async function generateNewPicture(event){
+ const panel=get('.image-prompt');
+ if(event?.currentTarget&&!panel.contains(event.currentTarget)){panel.open=true;subject.focus();panel.scrollIntoView({behavior:'auto',block:'start'});return;}
+ if(!subject.value.trim()){get('[data-imagegen-status]').textContent='Describe the picture you would like first.';subject.focus();return;}
  if(!setPrompt())return;
  const buttons=[...root.querySelectorAll('[data-generate-new-picture]')],genStatus=get('[data-imagegen-status]')||get('[data-prompt-status]');
  buttons.forEach(button=>button.disabled=true);
  if(!imageApi){
   const copied=await copyImagePrompt();
   if(copied){
-   genStatus.textContent='Your approved image prompt is copied. Opening ChatGPT now…';
+   genStatus.textContent='Your image prompt is copied. Opening ChatGPT now…';
    sessionStorage.setItem('aal-picture-return','1');
    window.location.assign('https://chatgpt.com/');
   }else{
