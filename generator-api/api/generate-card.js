@@ -41,15 +41,25 @@ function clientIp(req) {
   return forwarded || String(req.headers["x-real-ip"] || "unknown");
 }
 
+async function fetchWithTimeout(url, options = {}, timeoutMs = 15000) {
+  const controller = new AbortController();
+  const timer = setTimeout(() => controller.abort(), timeoutMs);
+  try {
+    return await fetch(url, { ...options, signal: controller.signal });
+  } finally {
+    clearTimeout(timer);
+  }
+}
+
 async function redis(command) {
   const base = process.env.UPSTASH_REDIS_REST_URL;
   const token = process.env.UPSTASH_REDIS_REST_TOKEN;
   if (!base || !token) throw new Error("rate_limit_unconfigured");
   const url = base.replace(/\/$/, "") + "/" + command.map(v => encodeURIComponent(String(v))).join("/");
-  const response = await fetch(url, {
+  const response = await fetchWithTimeout(url, {
     headers: { Authorization: `Bearer ${token}` },
     cache: "no-store"
-  });
+  }, 8000);
   if (!response.ok) throw new Error("rate_limit_unavailable");
   const payload = await response.json();
   return payload.result;
@@ -78,7 +88,7 @@ async function enforceLimits(req) {
 async function openai(path, body) {
   const key = process.env.OPENAI_API_KEY;
   if (!key) throw new Error("openai_unconfigured");
-  const response = await fetch(`https://api.openai.com/v1/${path}`, {
+  const response = await fetchWithTimeout(`https://api.openai.com/v1/${path}`, {
     method: "POST",
     headers: {
       Authorization: `Bearer ${key}`,
@@ -86,7 +96,7 @@ async function openai(path, body) {
     },
     body: JSON.stringify(body),
     cache: "no-store"
-  });
+  }, path === "images/generations" ? 100000 : 20000);
   const payload = await response.json().catch(() => ({}));
   return { response, payload };
 }
@@ -137,6 +147,9 @@ export default async function handler(req, res) {
   }
   if (req.method === "OPTIONS") return res.status(204).end();
   if (req.method !== "POST") return res.status(405).json({ message: "Method not allowed." });
+
+  const contentType = String(req.headers["content-type"] || "").toLowerCase();
+  if (!contentType.includes("application/json")) return res.status(415).json({ message: "Send this request as JSON." });
 
   const length = Number(req.headers["content-length"] || 0);
   if (length > 5000) return res.status(413).json({ message: "That request is too long." });
