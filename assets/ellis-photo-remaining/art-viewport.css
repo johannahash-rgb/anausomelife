@@ -1,0 +1,11 @@
+/* Asset viewports only. The approved Ellis layout and its three inline style blocks are unchanged. */
+.ellis-review .er-art-frame{display:flex;align-items:center;justify-content:center;height:var(--panel-height);width:100%}
+.ellis-review .er-art-window{display:block;position:relative;overflow:hidden;aspect-ratio:3/2;width:min(100%,calc(var(--panel-height)*1.5))}
+.ellis-review .er-art-window img{position:absolute!important;width:200%!important;height:200%!important;max-width:none!important;left:var(--panel-x);top:var(--panel-y);object-fit:fill!important;margin:0!important}
+.ellis-review .er-arrival-sketch .er-art-frame{--panel-height:220px}
+.ellis-review .er-research-note figure .er-art-frame{--panel-height:230px}
+.ellis-review .er-pedicab-sketch .er-art-frame{--panel-height:325px}
+.ellis-review .er-crossing-scene .er-art-frame{height:auto;aspect-ratio:3/1}
+.ellis-review .er-crossing-scene .er-art-window{width:50%}
+@media(max-width:700px){.ellis-review .er-arrival-sketch .er-art-frame{--panel-height:205px}.ellis-review .er-pedicab-sketch .er-art-frame{--panel-height:280px}}
+@media(max-width:480px){.ellis-review .er-arrival-sketch .er-art-frame{--panel-height:145px}}
