@@ -1,11 +1,10 @@
-/* Local card editor plus a safe, backend-ready image-generation handoff. */
+/* Local-only picture card editor. No on-site AI image generation. */
 (() => {
 'use strict';
 const root=document.querySelector('[data-picture-desk]');if(!root)return;
 const get=s=>root.querySelector(s), canvas=get('#card-canvas'),ctx=canvas.getContext('2d');
 const word=get('#card-word'),description=get('#card-description'),status=get('[data-card-status]'),sheet=get('[data-card-sheet]');
 const size=get('#card-size'),file=get('#card-photo'),situation=get('#card-situation'),results=get('#card-options'),editor=get('#card-editor');
-const imageApi=(document.querySelector('meta[name="ausome-image-api"]')?.content||'').trim();
 const catalog=[
  {id:'water',label:'water',description:'A clear glass of drinking water',terms:/\b(water|drink|thirst\w*)\b/},
  {id:'break',label:'break',description:'A white armchair with a navy striped cushion',terms:/\b(break|quiet|rest|sit|chair|calm|loud|noise|noisy|overwhelm\w*)\b/},
@@ -37,7 +36,7 @@ function setImage(src,owned=false){
  next.onerror=()=>{if(owned)URL.revokeObjectURL(src);if(request!==loadId)return;photo=null;draw();enableExport(false);announce('This picture could not be opened. Choose another picture or upload a JPG, PNG or WebP.');};next.src=src;
 }
 function chooseCard(card){
- selectedId=card.id;file.value='';word.value=card.label;description.value=card.description;get('#image-subject').value=card.description;setPrompt();
+ selectedId=card.id;file.value='';word.value=card.label;description.value=card.description;
  root.querySelectorAll('[data-card-option]').forEach(button=>button.setAttribute('aria-pressed',String(button.dataset.cardOption===card.id)));
  photo=null;draw();revealEditor();setImage(srcFor(card.id));
 }
@@ -49,10 +48,10 @@ function matchingCards(text){
 function showOptions(all=false){
  const text=situation.value.trim(),matched=matchingCards(text),cards=all||!matched.length?catalog:matched;results.hidden=false;
  get('[data-options-title]').textContent=all?'Choose a starting picture':matched.length?'A few pictures to start with':'Start with a picture, or use your own';
- get('[data-options-note]').textContent=!all&&text&&!matched.length?'We do not have an exact picture for that yet. Browse these, add your own photo, or create a new picture below.':'These are suggestions from our starter collection. Choose a picture that means the right thing to you.';
+ get('[data-options-note]').textContent=!all&&text&&!matched.length?'We do not have an exact picture for that yet. Browse these starter pictures or add your own familiar photo.':'These are suggestions from our starter collection. Choose a picture that means the right thing to you.';
  const grid=get('[data-picture-options]');grid.replaceChildren();
  cards.forEach(card=>{const button=document.createElement('button'),img=document.createElement('img'),label=document.createElement('span'),hint=document.createElement('small');button.type='button';button.className='studio-picture-option';button.dataset.cardOption=card.id;button.setAttribute('aria-pressed',String(card.id===selectedId));img.src=srcFor(card.id);img.alt='';img.width=180;img.height=150;label.textContent=card.label;hint.textContent=card.id==='break'?'Chair picture · use if familiar':'Use this picture';button.append(img,label,hint);button.addEventListener('click',()=>chooseCard(card));grid.append(button);});
- get('[data-options-title]').focus({preventScroll:true});results.scrollIntoView({behavior:'auto',block:'start'});get('#image-subject').value=text||'the object I need to communicate';setPrompt();
+ get('[data-options-title]').focus({preventScroll:true});results.scrollIntoView({behavior:'auto',block:'start'});
 }
 get('#situation-form').addEventListener('submit',event=>{event.preventDefault();showOptions();});
 root.querySelectorAll('[data-example]').forEach(button=>button.addEventListener('click',()=>{situation.value=button.dataset.example;showOptions();}));
@@ -69,60 +68,5 @@ size.addEventListener('change',updateSheet);
 get('[data-add-card]').addEventListener('click',()=>{if(!ready())return;if(sheet.children.length>=6){announce('Six cards are ready. Print or remove one before adding another.');return;}draw();const card=document.createElement('figure'),img=document.createElement('img'),remove=document.createElement('button');card.className='printable-picture';img.src=canvas.toDataURL('image/png');img.alt=canvas.getAttribute('aria-label');remove.type='button';remove.textContent='Remove';remove.setAttribute('aria-label',`Remove ${word.value.trim()} card`);remove.addEventListener('click',()=>{card.remove();updateSheet();get('[data-add-card]').focus();});card.append(img,remove);sheet.append(card);updateSheet();announce('Added to your sheet. Choose another picture or print your sheet below.');});
 get('[data-clear-cards]').addEventListener('click',()=>{if(confirm('Remove every card from this sheet? Your current preview stays.')){sheet.replaceChildren();updateSheet();announce('Sheet cleared.');}});
 get('[data-print-cards]').addEventListener('click',()=>window.print());
-const subject=get('#image-subject'),prompt=get('#image-prompt-text');
-function setPrompt(){const context=situation.value.trim();
-const unsafe=/\b(porn(?:ography|ographic)?|nudes?|naked|sexual(?:ized|isation|ization)?|sexually|erotic|fetish|gore|gory|dismember(?:ment|ed)?|behead(?:ing|ed)?|tortur(?:e|ing)|swastika|nazi|deepfake|revenge porn)\b/i.test(subject.value+' '+context);
-get('[data-copy-image-prompt]').disabled=unsafe;
-if(unsafe){prompt.value='';get('[data-prompt-status]').textContent='Please choose a family-friendly everyday object, activity or place. This tool cannot prepare that image request.';return false;}
-get('[data-prompt-status]').textContent='';prompt.value=`Create one photorealistic communication-card picture. Requested subject: ${subject.value.trim()||'the object I name'}. ${context?`The situation is: ${context}. Use this only to clarify the subject, not as a request for a busy scene. `:''}An AUsome Life aesthetic: Nantucket meets Vermont; refined, preppy New England, natural materials, true-to-life detail, warm daylight, restrained navy, cream and pine green where appropriate. Show one complete familiar object or one clearly recognizable action, centered on a clean white background. Retain the subject's real colors and recognizable shape. No added props, lettering, words, logos, border or collage. Realistic photographic detail, no cartoon or watercolor. Square composition with breathing room. Do not invent a real place, specific person's likeness, or actual product details. For an actual person, entrance, menu item or personal possession, use my supplied reference photograph. The card's familiar word will be added separately underneath. Content requirements: lawful, family-friendly, respectful and non-deceptive. No sexual content, graphic violence, hate imagery, harassment, exploitation, or deceptive real-person images. Preserve dignity; never portray disability as spectacle. Use only original or authorized visual references. Do not copy a protected character, logo, recognizable artwork, branded interface or specific published photograph. Do not remove a watermark or impersonate a person. If a request depends on third-party rights that are not established, offer an original unbranded alternative. Do not describe AI output as copyright-free or legally cleared.`;return true;}
-subject.addEventListener('input',setPrompt);situation.addEventListener('input',setPrompt);setPrompt();
-async function copyImagePrompt(){
- if(!setPrompt())return false;
- try{await navigator.clipboard.writeText(prompt.value);get('[data-prompt-status]').textContent='Copied. Your prompt is ready.';return true;}
- catch(_){prompt.focus();prompt.select();get('[data-prompt-status]').textContent='Select and copy the prompt below.';return false;}
-}
-async function generateNewPicture(event){
- const panel=get('.image-prompt');
- if(event?.currentTarget&&!panel.contains(event.currentTarget)){panel.open=true;subject.focus();panel.scrollIntoView({behavior:'auto',block:'start'});return;}
- if(!subject.value.trim()){get('[data-imagegen-status]').textContent='Describe the picture you would like first.';subject.focus();return;}
- if(!setPrompt())return;
- const buttons=[...root.querySelectorAll('[data-generate-new-picture]')],genStatus=get('[data-imagegen-status]')||get('[data-prompt-status]');
- buttons.forEach(button=>button.disabled=true);
- if(!imageApi){
-  const copied=await copyImagePrompt();
-  if(copied){
-   genStatus.textContent='Your image prompt is copied. Opening ChatGPT now…';
-   sessionStorage.setItem('aal-picture-return','1');
-   window.location.assign('https://chatgpt.com/');
-  }else{
-   genStatus.textContent='Your browser blocked automatic copying. Copy the prompt shown below, then use the Open ChatGPT link.';
-   let link=get('[data-open-chatgpt]');
-   if(!link){
-    link=document.createElement('a');
-    link.href='https://chatgpt.com/';
-    link.className='button secondary';
-    link.dataset.openChatgpt='';
-    link.textContent='Open ChatGPT';
-    get('[data-prompt-status]').after(link);
-   }
-  }
-  buttons.forEach(button=>button.disabled=false);
-  return;
- }
- try{
-  genStatus.textContent='Creating your picture…';
-  const response=await fetch(imageApi,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({subject:subject.value.trim(),situation:situation.value.trim()})});
-  const data=await response.json().catch(()=>({}));
-  if(!response.ok||!data.imageDataUrl)throw new Error('image generation failed');
-  selectedId=null;file.value='';description.value=data.description||subject.value.trim();if(!word.value.trim()&&data.suggestedWord)word.value=String(data.suggestedWord).slice(0,36);
-  root.querySelectorAll('[data-card-option]').forEach(button=>button.setAttribute('aria-pressed','false'));
-  photo=null;draw();revealEditor();setImage(data.imageDataUrl);
-  genStatus.textContent='Your new picture is ready. Add or confirm the familiar word, then save or print.';
- }catch(_){
-  genStatus.textContent='We could not create that picture right now. Your words are still here. Try again, use a starter picture, or upload your own photo.';
- }finally{buttons.forEach(button=>button.disabled=false);}
-}
-get('[data-copy-image-prompt]').addEventListener('click',copyImagePrompt);
-root.querySelectorAll('[data-generate-new-picture]').forEach(button=>button.addEventListener('click',generateNewPicture));
 window.addEventListener('pagehide',()=>{if(localUrl)URL.revokeObjectURL(localUrl);if(downloadUrl)URL.revokeObjectURL(downloadUrl);});draw();updateSheet();enableExport(false);
 })();
