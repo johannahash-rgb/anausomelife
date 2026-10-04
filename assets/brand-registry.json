@@ -1,0 +1,323 @@
+{
+  "version": 1,
+  "categories": [
+    {
+      "id": "all",
+      "label": "All the names"
+    },
+    {
+      "id": "food",
+      "label": "Food & markets"
+    },
+    {
+      "id": "home",
+      "label": "Home & family"
+    },
+    {
+      "id": "style",
+      "label": "Clothing & gear"
+    },
+    {
+      "id": "travel",
+      "label": "Travel & stays"
+    },
+    {
+      "id": "outings",
+      "label": "Places & outings"
+    }
+  ],
+  "brands": [
+    {
+      "id": "llbean",
+      "name": "L.L.Bean",
+      "image": "/assets/brand-sketches/llbean.webp",
+      "alt": "Original watercolor of leather and rubber duck boots.",
+      "categories": [
+        "style",
+        "outings"
+      ]
+    },
+    {
+      "id": "wegmans",
+      "name": "Wegmans",
+      "image": "/assets/brand-sketches/wegmans.webp",
+      "alt": "Original watercolor of a basket of fresh groceries.",
+      "categories": [
+        "food",
+        "home"
+      ]
+    },
+    {
+      "id": "life-time",
+      "name": "Life Time",
+      "image": "/assets/brand-sketches/life-time.webp",
+      "alt": "Original watercolor of a towel, water bottle and swimming goggles.",
+      "categories": [
+        "outings"
+      ]
+    },
+    {
+      "id": "patagonia",
+      "name": "Patagonia",
+      "image": "/assets/brand-sketches/patagonia.webp",
+      "alt": "Original watercolor of a navy textured fleece jacket.",
+      "categories": [
+        "style",
+        "outings"
+      ]
+    },
+    {
+      "id": "pottery-barn-kids",
+      "name": "Pottery Barn Kids",
+      "image": "/assets/brand-sketches/pottery-barn-kids.webp",
+      "alt": "Original watercolor of a reading chair, quilt and book.",
+      "categories": [
+        "home"
+      ]
+    },
+    {
+      "id": "nordstrom",
+      "name": "Nordstrom",
+      "image": "/assets/brand-sketches/nordstrom.webp",
+      "alt": "Original watercolor of suede loafers and a cashmere scarf.",
+      "categories": [
+        "style"
+      ]
+    },
+    {
+      "id": "hearth",
+      "name": "Hearth",
+      "image": "/assets/brand-sketches/hearth.webp",
+      "alt": "Original watercolor of a wood-framed family calendar display.",
+      "categories": [
+        "home"
+      ]
+    },
+    {
+      "id": "bentgo",
+      "name": "Bentgo",
+      "image": "/assets/brand-sketches/bentgo.webp",
+      "alt": "Original watercolor of an open divided lunchbox.",
+      "categories": [
+        "food",
+        "home"
+      ]
+    },
+    {
+      "id": "museum-of-science",
+      "name": "Museum of Science",
+      "image": "/assets/brand-sketches/museum-of-science.webp",
+      "alt": "Original watercolor of a mounted dinosaur skeleton.",
+      "categories": [
+        "outings"
+      ]
+    },
+    {
+      "id": "hyatt",
+      "name": "Hyatt",
+      "image": "/assets/brand-sketches/hyatt.webp",
+      "alt": "Original watercolor of a weekend bag, hotel towel and key.",
+      "categories": [
+        "travel"
+      ]
+    },
+    {
+      "id": "ocean-house",
+      "name": "Ocean House",
+      "image": "/assets/brand-sketches/ocean-house.webp",
+      "alt": "Original architectural watercolor inspired by the yellow Watch Hill hotel.",
+      "categories": [
+        "travel"
+      ]
+    },
+    {
+      "id": "great-wolf-lodge",
+      "name": "Great Wolf Lodge",
+      "image": "/assets/brand-sketches/great-wolf-lodge.webp",
+      "alt": "Original watercolor of a timber lodge and water slide.",
+      "categories": [
+        "travel",
+        "outings"
+      ]
+    },
+    {
+      "id": "sams-club",
+      "name": "Sam's Club",
+      "image": "/assets/brand-sketches/sams-club.webp",
+      "alt": "Original watercolor of a cart of household provisions.",
+      "categories": [
+        "food",
+        "home"
+      ]
+    },
+    {
+      "id": "poshmark",
+      "name": "Poshmark",
+      "image": "/assets/brand-sketches/poshmark.webp",
+      "alt": "Original watercolor of a handbag, sweater and parcel.",
+      "categories": [
+        "style"
+      ]
+    },
+    {
+      "id": "le-creuset",
+      "name": "Le Creuset",
+      "image": "/assets/brand-sketches/le-creuset.webp",
+      "alt": "Original watercolor of a copper-colored enameled Dutch oven.",
+      "categories": [
+        "home",
+        "food"
+      ]
+    },
+    {
+      "id": "kerrygold",
+      "name": "Kerrygold",
+      "image": "/assets/brand-sketches/kerrygold.webp",
+      "alt": "Original watercolor of butter in golden foil.",
+      "categories": [
+        "food"
+      ]
+    },
+    {
+      "id": "ben-jerrys",
+      "name": "Ben & Jerry's",
+      "image": "/assets/brand-sketches/ben-jerrys.webp",
+      "alt": "Original watercolor of ice cream in a plain pint.",
+      "categories": [
+        "food"
+      ]
+    },
+    {
+      "id": "lafayette-hotels",
+      "name": "Lafayette Hotels",
+      "image": "/assets/brand-sketches/lafayette-hotels.webp",
+      "alt": "Original watercolor of a coastal map, brass key and model sailboat.",
+      "categories": [
+        "travel"
+      ]
+    },
+    {
+      "id": "the-common-man",
+      "name": "The Common Man",
+      "image": "/assets/brand-sketches/the-common-man.webp",
+      "alt": "Original watercolor of a welcoming restaurant table and lantern.",
+      "categories": [
+        "food"
+      ]
+    },
+    {
+      "id": "idylwilde-farm",
+      "name": "Idylwilde Farm",
+      "image": "/assets/brand-sketches/idylwilde-farm.webp",
+      "alt": "Original architectural watercolor inspired by a farm market with a striped awning.",
+      "categories": [
+        "food",
+        "outings"
+      ]
+    },
+    {
+      "id": "american-flatbread",
+      "name": "American Flatbread",
+      "image": "/assets/brand-sketches/american-flatbread.webp",
+      "alt": "Original watercolor of a wood-fired flatbread on a wooden peel.",
+      "categories": [
+        "food"
+      ]
+    },
+    {
+      "id": "veselka",
+      "name": "Veselka",
+      "image": "/assets/brand-sketches/veselka.webp",
+      "alt": "Original watercolor of pierogi with dill and sour cream.",
+      "categories": [
+        "food"
+      ]
+    },
+    {
+      "id": "garnet-hill",
+      "name": "Garnet Hill",
+      "image": "/assets/brand-sketches/garnet-hill.webp",
+      "alt": "Original watercolor of folded linen and a knitted throw.",
+      "categories": [
+        "home",
+        "style"
+      ]
+    },
+    {
+      "id": "mountain-hardwear",
+      "name": "Mountain Hardwear",
+      "image": "/assets/brand-sketches/mountain-hardwear.webp",
+      "alt": "Original watercolor of a technical rucksack and climbing rope.",
+      "categories": [
+        "style",
+        "outings"
+      ]
+    },
+    {
+      "id": "dale-of-norway",
+      "name": "Dale of Norway",
+      "image": "/assets/brand-sketches/dale-of-norway.webp",
+      "alt": "Original watercolor of a cream and navy Nordic wool sweater.",
+      "categories": [
+        "style"
+      ]
+    },
+    {
+      "id": "vermont-country-store",
+      "name": "The Vermont Country Store",
+      "image": "/assets/brand-sketches/vermont-country-store.webp",
+      "alt": "Original watercolor of a New England country store.",
+      "categories": [
+        "home",
+        "food",
+        "outings"
+      ]
+    },
+    {
+      "id": "omni-parker-house",
+      "name": "Omni Parker House",
+      "image": "/assets/brand-sketches/omni-parker-house.webp",
+      "alt": "Original watercolor of Boston cream pie and Parker House rolls.",
+      "categories": [
+        "travel",
+        "food"
+      ]
+    },
+    {
+      "id": "discovery-museum",
+      "name": "Discovery Museum",
+      "image": "/assets/brand-sketches/discovery-museum.webp",
+      "alt": "Original watercolor of a wooden rolling-ball exhibit.",
+      "categories": [
+        "outings"
+      ]
+    },
+    {
+      "id": "new-england-aquarium",
+      "name": "New England Aquarium",
+      "image": "/assets/brand-sketches/new-england-aquarium.webp",
+      "alt": "Original watercolor of a sea turtle, kelp and a small fish.",
+      "categories": [
+        "outings"
+      ]
+    },
+    {
+      "id": "frank-pepe",
+      "name": "Frank Pepe",
+      "image": "/assets/brand-sketches/frank-pepe.webp",
+      "alt": "Original watercolor of a New Haven-style white clam pizza.",
+      "categories": [
+        "food"
+      ]
+    },
+    {
+      "id": "mikes-pastry",
+      "name": "Mike’s Pastry",
+      "image": "/assets/brand-sketches/mikes-pastry.webp",
+      "alt": "Original watercolor of cannoli and a bakery box.",
+      "categories": [
+        "food"
+      ]
+    }
+  ]
+}
