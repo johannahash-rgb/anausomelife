@@ -47,7 +47,7 @@ for row in ROWS:
 <body class="magazine-shell fn-page"><a class="skip" href="#main">Skip to content</a>{edition}{masthead}<main id="main">
 <div class="wrap fn-breadcrumb"><a href="/blog.html">The journal</a> / Family field notes</div>
 <header class="wrap fn-cover"><div><p class="fn-kicker">{e(row['category'])}</p><h1>{title}</h1>
-<p class="fn-dek">{e(row['dek'])}</p><p class="fn-byline">JoHannah Ash · {e(row['place'])}</p>
+<p class="fn-dek">{e(row['dek'])}</p><p class="fn-byline">{e(row['place'])}</p>
 <nav class="fn-jump" aria-label="In this field note"><a href="#story">Read the story ↓</a><a href="#planning-guide">The practical details ↓</a></nav></div>
 {photograph(row['photo'], True)}</header>'''
     glance = '<dl class="wrap fn-glance" id="at-a-glance">'+''.join('<div><dt>'+e(k)+'</dt><dd>'+e(v)+'</dd></div>' for k,v in row['glance'])+'</dl>'
