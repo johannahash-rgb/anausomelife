@@ -4,5 +4,8 @@
   "type": "module",
   "engines": {
     "node": "24.x"
+  },
+  "dependencies": {
+    "ai": "7.0.122"
   }
 }
