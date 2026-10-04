@@ -56,7 +56,7 @@
 .brand-marquee::before,.brand-marquee::after{content:"";position:absolute;z-index:2;top:0;bottom:0;width:64px;pointer-events:none}
 .brand-marquee::before{left:0;background:linear-gradient(90deg,#f8f4e9,rgba(248,244,233,0))}
 .brand-marquee::after{right:0;background:linear-gradient(270deg,#f8f4e9,rgba(248,244,233,0))}
-.brand-track{display:flex;width:max-content;will-change:transform;animation:brand-scroll 92s linear infinite}
+.brand-track{display:flex;width:max-content;will-change:transform}
 .brand-marquee:hover .brand-track{animation-play-state:paused}
 .brand-set{display:flex;gap:10px;padding-right:10px;align-items:center}
 .brand-art{width:142px;height:158px;flex:0 0 auto;border:1px solid #d7d4c9;border-radius:3px;background:#fffdf7;box-shadow:0 2px 8px rgba(23,60,76,.05);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px;padding:13px 10px}
@@ -66,8 +66,7 @@
 .brand-art:nth-child(3n+1) svg{color:#173c4c}
 .brand-art:nth-child(3n+2) svg{color:#52675f}
 .brand-art:nth-child(3n) svg{color:#6a6256}
-@keyframes brand-scroll{from{transform:translateX(0)}to{transform:translateX(-50%)}}
-@media(prefers-reduced-motion:reduce){.brand-marquee{overflow-x:auto}.brand-track{animation:none}.brand-marquee::before,.brand-marquee::after{display:none}}
+@media(prefers-reduced-motion:reduce){.brand-marquee{overflow-x:auto;scrollbar-width:thin}.brand-marquee::before,.brand-marquee::after{display:none}}
 
 .media-note{font-size:.77rem;color:var(--muted);max-width:90ch}
 .media-calendar{display:grid;grid-template-columns:repeat(2,1fr);gap:16px;margin:30px 0}
@@ -294,6 +293,37 @@
 </main>
 
 <footer class="mag-footer"><div class="wrap"><div><a class="footer-wordmark" href="/">An AUsome Life</a><p>Simple good things.<br>The practical details left in.</p></div><nav aria-label="Footer navigation"><a href="/library.html">The library</a><a href="/favorite-places.html">Favorite places</a><a href="/calendar.html">The calendar</a><a href="/visit-story.html">Visual visit planner</a><a href="/little-black-book.html">The little black book</a><a href="/contact.html">Contact</a><a href="/media/">Media &amp; partnerships</a></nav><div class="footer-small"><a href="/language.html">Language &amp; representation</a><a href="/disclosure.html">Disclosure</a><a href="/privacy.html">Privacy</a><a href="/accessibility.html">Accessibility</a><a href="https://www.instagram.com/anausomelife/">Instagram ↗</a><span>© 2026 An AUsome Life · New England</span></div></div></footer>
+<script>
+(function(){
+  function startBrandMarquee(){
+    var box=document.querySelector('.brand-marquee');
+    var track=box&&box.querySelector('.brand-track');
+    var first=track&&track.querySelector('.brand-set');
+    if(!box||!track||!first)return;
+    var reduced=window.matchMedia&&window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    if(reduced){box.style.overflowX='auto';return;}
+    var x=0,last=performance.now(),paused=false;
+    function tick(now){
+      var dt=Math.min(50,now-last); last=now;
+      if(!paused){
+        x+=dt*0.025;
+        var w=first.getBoundingClientRect().width+10;
+        if(w>0&&x>=w)x-=w;
+        track.style.transform='translate3d('+(-x)+'px,0,0)';
+      }
+      requestAnimationFrame(tick);
+    }
+    box.addEventListener('mouseenter',function(){paused=true;});
+    box.addEventListener('mouseleave',function(){paused=false;});
+    box.addEventListener('focusin',function(){paused=true;});
+    box.addEventListener('focusout',function(){paused=false;});
+    document.addEventListener('visibilitychange',function(){last=performance.now();});
+    requestAnimationFrame(tick);
+  }
+  if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',startBrandMarquee);
+  else startBrandMarquee();
+})();
+</script>
 <script src="/assets/site.js" defer></script>
 <script src="/assets/magazine.js?v=20261003-mainstreet" defer></script>
 <script src="/assets/immersion.js?v=20261003-mainstreet" defer></script>
