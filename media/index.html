@@ -52,11 +52,20 @@
 .media-card p{font-size:.9rem;color:#4e625c}
 .customer-strip{background:var(--paper);border-block:1px solid var(--rule);padding-block:34px}
 .customer-strip h2{font:400 clamp(2rem,3.6vw,3.35rem)/1.08 Georgia,serif;color:var(--ink);margin:8px 0 13px}
-.brand-gallery{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:10px;margin:24px 0 12px}
-.brand-mark{min-height:92px;border:1px solid #b9c0b5;background:#fffdf7;display:flex;align-items:center;justify-content:center;padding:17px 13px;text-align:center}
-.brand-mark img{display:block;max-width:100%;max-height:46px;width:auto;height:auto}
-.brand-mark .brand-typeset{font:400 1.08rem/1.1 Georgia,serif;color:var(--ink);letter-spacing:-.02em}
+.brand-marquee{position:relative;overflow:hidden;margin:24px 0 12px;border-block:1px solid var(--rule);background:#fffdf7}
+.brand-marquee::before,.brand-marquee::after{content:"";position:absolute;z-index:2;top:0;bottom:0;width:54px;pointer-events:none}
+.brand-marquee::before{left:0;background:linear-gradient(90deg,#fffdf7,rgba(255,253,247,0))}
+.brand-marquee::after{right:0;background:linear-gradient(270deg,#fffdf7,rgba(255,253,247,0))}
+.brand-track{display:flex;width:max-content;will-change:transform;animation:brand-scroll 42s linear infinite}
+.brand-marquee:hover .brand-track{animation-play-state:paused}
+.brand-set{display:flex;align-items:stretch}
+.brand-mark{width:184px;min-height:96px;border-right:1px solid #d8dcd2;display:flex;align-items:center;justify-content:center;padding:18px 20px;text-align:center;flex:0 0 auto}
+.brand-mark img{display:block;max-width:132px;max-height:44px;width:auto;height:auto}
+.brand-mark .brand-typeset{font:400 1.1rem/1.12 Georgia,serif;color:var(--ink);letter-spacing:-.025em}
 .brand-mark .brand-typeset.strong{font-weight:700;letter-spacing:-.035em}
+.brand-mark .brand-typeset.small{font-size:.98rem}
+@keyframes brand-scroll{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+@media(prefers-reduced-motion:reduce){.brand-marquee{overflow-x:auto}.brand-track{animation:none}.brand-marquee::before,.brand-marquee::after{display:none}}
 .media-note{font-size:.77rem;color:var(--muted);max-width:90ch}
 .media-calendar{display:grid;grid-template-columns:repeat(2,1fr);gap:16px;margin:30px 0}
 .media-calendar-card{background:var(--paper);border:1px solid var(--rule);padding:22px}
@@ -86,11 +95,11 @@
 @media(max-width:800px){
 .media-cover{grid-template-columns:1fr;gap:24px;padding-block:32px}.media-photo-stack{grid-template-rows:230px 170px}
 .media-facts{grid-template-columns:1fr 1fr}.media-section-head,.media-split,.media-contact .wrap{grid-template-columns:1fr;gap:22px}
-.media-grid{grid-template-columns:1fr 1fr}.brand-gallery{grid-template-columns:repeat(3,1fr)}.media-calendar{grid-template-columns:1fr}.media-contact aside{border-left:0;border-top:1px solid #789099;padding:24px 0 0}
+.media-grid{grid-template-columns:1fr 1fr}.media-calendar{grid-template-columns:1fr}.media-contact aside{border-left:0;border-top:1px solid #789099;padding:24px 0 0}
 }
 @media(max-width:540px){
 .media-cover h1{font-size:3.25rem}.media-photo-stack{grid-template-rows:200px 145px}
-.media-grid,.media-lanes{grid-template-columns:1fr}.brand-gallery{grid-template-columns:repeat(2,1fr)}.media-facts strong{font-size:1.55rem}
+.media-grid,.media-lanes{grid-template-columns:1fr}.media-facts strong{font-size:1.55rem}.brand-mark{width:158px;min-height:88px;padding:15px}
 .media-section{padding-block:38px}.media-nav .wrap{gap:18px}
 }
 </style>
@@ -129,17 +138,40 @@
 
 <section class="customer-strip" aria-labelledby="customers-title">
 <div class="wrap">
-<p class="eyebrow">Brands &amp; places we feature</p>
-<h2 id="customers-title">Already part of our editorial world.</h2>
-<p>An AUsome Life covers brands, destinations, products and services that genuinely show up in our family life, our travels and the stories we think are worth telling. Material relationships are disclosed with the applicable coverage.</p>
-<div class="brand-gallery" aria-label="Examples of brands already present in our family life and editorial coverage">
+<p class="eyebrow">Brands we love · independent editorial</p>
+<h2 id="customers-title">Things that have earned a place in our real life.</h2>
+<p>An AUsome Life covers brands, places and products we genuinely use, visit or choose for ourselves. Inclusion here reflects our independent editorial world; it does not mean a brand sponsors, approves or endorses An AUsome Life. Any gifted, hosted, affiliate or paid relationship is disclosed with the applicable coverage.</p>
+<div class="brand-marquee" aria-label="Brands and places we genuinely use, visit or cover">
+<div class="brand-track">
+<div class="brand-set">
 <div class="brand-mark"><span class="brand-typeset strong">L.L.Bean</span></div>
 <div class="brand-mark"><img src="https://images.wegmans.com/is/image/wegmanscsprod/media-Wegmans-Logo-p?fmt=png-alpha&amp;hei=379&amp;wid=1000" alt="Wegmans" width="1000" height="379" loading="lazy"></div>
 <div class="brand-mark"><span class="brand-typeset strong">Life Time</span></div>
 <div class="brand-mark"><span class="brand-typeset">Kerrygold</span></div>
 <div class="brand-mark"><span class="brand-typeset strong">Le Creuset</span></div>
 <div class="brand-mark"><span class="brand-typeset">Ben &amp; Jerry's</span></div>
+<div class="brand-mark"><span class="brand-typeset">Great Wolf Lodge</span></div>
+<div class="brand-mark"><span class="brand-typeset">Ocean House</span></div>
+<div class="brand-mark"><span class="brand-typeset strong">Sam's Club</span></div>
+<div class="brand-mark"><span class="brand-typeset">Poshmark</span></div>
+<div class="brand-mark"><span class="brand-typeset small">Method</span></div>
 </div>
+<div class="brand-set" aria-hidden="true">
+<div class="brand-mark"><span class="brand-typeset strong">L.L.Bean</span></div>
+<div class="brand-mark"><img src="https://images.wegmans.com/is/image/wegmanscsprod/media-Wegmans-Logo-p?fmt=png-alpha&amp;hei=379&amp;wid=1000" alt="" width="1000" height="379" loading="lazy"></div>
+<div class="brand-mark"><span class="brand-typeset strong">Life Time</span></div>
+<div class="brand-mark"><span class="brand-typeset">Kerrygold</span></div>
+<div class="brand-mark"><span class="brand-typeset strong">Le Creuset</span></div>
+<div class="brand-mark"><span class="brand-typeset">Ben &amp; Jerry's</span></div>
+<div class="brand-mark"><span class="brand-typeset">Great Wolf Lodge</span></div>
+<div class="brand-mark"><span class="brand-typeset">Ocean House</span></div>
+<div class="brand-mark"><span class="brand-typeset strong">Sam's Club</span></div>
+<div class="brand-mark"><span class="brand-typeset">Poshmark</span></div>
+<div class="brand-mark"><span class="brand-typeset small">Method</span></div>
+</div>
+</div>
+</div>
+<p class="media-note">Trademark note: Wegmans' official news-media gallery expressly permits news media to use the logos it provides. Other brand names in this ribbon are rendered in An AUsome Life's own typography for identification rather than copied brand artwork. All trademarks belong to their respective owners; inclusion does not imply sponsorship or endorsement.</p>
 </div>
 </section>
 
