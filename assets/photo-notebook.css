@@ -146,3 +146,53 @@
   .notebook-photo-break figure { max-width: 78%; }
   .notebook-photo-pair { gap: .65rem; }
 }
+
+.camera-roll-section { margin-block: clamp(4rem, 8vw, 7rem); }
+.camera-roll-section .home-section-head { margin-bottom: clamp(1.25rem, 3vw, 2.25rem); }
+.camera-roll-strip {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: clamp(.75rem, 2vw, 1.5rem);
+}
+.camera-roll-card { margin: 0; }
+.camera-roll-card a { color: inherit; text-decoration: none; }
+.camera-roll-card img,
+.about-photo-band img {
+  width: 100%;
+  display: block;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+}
+.camera-roll-card:nth-child(2) img { aspect-ratio: 1 / 1; }
+.camera-roll-card figcaption {
+  padding-top: .7rem;
+  font-size: .9rem;
+  line-height: 1.45;
+}
+.camera-roll-note {
+  max-width: 44rem;
+  margin-top: 1.25rem;
+  line-height: 1.65;
+}
+.about-photo-band {
+  display: grid;
+  grid-template-columns: 1.15fr .85fr .85fr;
+  gap: clamp(.65rem, 1.8vw, 1.25rem);
+  margin-block: clamp(2rem, 5vw, 4.5rem);
+}
+.about-photo-band figure { margin: 0; }
+.about-photo-band figure:first-child img { aspect-ratio: 5 / 4; }
+.about-photo-band figcaption {
+  padding-top: .55rem;
+  font-size: .82rem;
+  line-height: 1.4;
+  opacity: .75;
+}
+
+@media (max-width: 760px) {
+  .camera-roll-strip,
+  .about-photo-band { grid-template-columns: 1fr 1fr; }
+  .camera-roll-card:first-child,
+  .about-photo-band figure:first-child { grid-column: 1 / -1; }
+  .camera-roll-card:first-child img { aspect-ratio: 5 / 4; }
+}
