@@ -82,14 +82,57 @@
 @media(max-width:700px){.ellis-review.er-arrival-edition .er-cover{grid-template-columns:1fr;gap:23px}.ellis-review .er-welcome{display:grid;grid-template-columns:1fr 1.1fr;gap:0 20px;align-items:center;padding-top:16px;border-top:1px solid var(--er-line)}.ellis-review .er-arrival-sketch{grid-column:1;grid-row:1/5;margin:0}.ellis-review .er-arrival-sketch img{height:210px}.ellis-review .er-welcome .er-kicker,.ellis-review .er-welcome h2,.ellis-review .er-welcome-copy,.ellis-review .er-story-doors,.ellis-review .er-quiet-jump{grid-column:2}.ellis-review .er-welcome h2{font-size:1.9rem}.ellis-review .er-story-doors{margin-top:0}.ellis-review .er-research-scene,.ellis-review .er-pedicab-scene,.ellis-review .er-planning-grid{grid-template-columns:1fr;gap:23px}.ellis-review .er-research-note{max-width:500px;margin:auto}.ellis-review .er-research-note figure img{height:230px}.ellis-review .er-pedicab-sketch{order:2}.ellis-review .er-pedicab-sketch img{height:280px}.ellis-review .er-pedicab-scene .er-story{order:1}.ellis-review .er-planning-grid .er-glance dl{display:grid;grid-template-columns:1fr 1fr}.ellis-review .er-planning-grid .er-ferry-guide{grid-template-columns:1fr 1fr;gap:20px}.ellis-review .er-planning-grid .er-guide-copy{padding-top:0}.ellis-review .er-planning-grid .er-harbor-art img{height:230px}}
 @media(max-width:480px){.ellis-review .er-welcome{display:block}.ellis-review .er-arrival-sketch{float:right;width:45%;margin:0 -4px 8px 14px}.ellis-review .er-arrival-sketch img{height:145px}.ellis-review .er-welcome h2{font-size:1.8rem;line-height:1.12}.ellis-review .er-welcome-copy{font-size:1rem;line-height:1.6}.ellis-review .er-story-doors{clear:both;margin-top:15px}.ellis-review .er-research-scene .er-story h2{font-size:2rem}.ellis-review .er-pedicab-scene .er-story h2{font-size:2.2rem}.ellis-review .er-planning-grid .er-glance dl,.ellis-review .er-planning-grid .er-ferry-guide{grid-template-columns:1fr}.ellis-review .er-planning-grid .er-harbor-art img{height:240px}.ellis-review .er-pocket-note{margin:0}.ellis-review .er-pedicab-scene blockquote p{font-size:1.35rem}}
 @media print{.ellis-review .er-story-doors,.ellis-review .er-quiet-jump{display:none}.ellis-review .er-cover,.ellis-review .er-research-scene,.ellis-review .er-pedicab-scene,.ellis-review .er-planning-grid{display:block}.ellis-review .er-arrival-sketch,.ellis-review .er-research-note figure,.ellis-review .er-pedicab-sketch{max-width:220px;float:right;margin:0 0 15px 20px}.ellis-review .er-planning-gateway{clear:both}.ellis-review .er-pocket-note{break-inside:avoid}}
-</style></head><body><a class="skip" href="#main">Skip to content</a><header class="mag-masthead"><a class="mag-brand" href="/" aria-label="An AUsome Life home"><img src="/assets/coastal-emblem.webp" alt="" width="80" height="80"><span>An AUsome Life<small>In pursuit of the Good New England Life</small></span></a><nav aria-label="Main navigation"><a href="/blog.html">Blog</a><a href="/library.html">The library</a><a href="/favorite-places.html">Favorite places</a><a href="/kid-fun.html">Kid fun</a><a href="/calendar.html">The calendar</a><a href="/about.html">Our story</a><a class="nav-search" href="/library.html#library-search">Search <span aria-hidden="true">↗</span></a></nav></header><main id="main" class="ellis-review er-arrival-edition">
+/* This chapter's atmosphere and interactive chart are isolated to the preview. */
+.ellis-review.er-map-edition{position:relative;isolation:isolate;background-color:var(--ed-paper,#faf8f1);background-image:radial-gradient(ellipse at 3% 19%,rgba(36,75,62,.028),transparent 45%),radial-gradient(ellipse at 98% 57%,rgba(36,75,62,.035),transparent 42%)}
+.ellis-review.er-map-edition::before{content:"";position:absolute;inset:0;z-index:-1;pointer-events:none;opacity:.032;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180' viewBox='0 0 180 180'%3E%3Cfilter id='p'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.72' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23p)' opacity='.7'/%3E%3C/svg%3E");background-size:180px 180px}
+.ellis-review.er-map-edition .er-arrival-sketch{margin:-12px -14px 8px -5px}.ellis-review.er-map-edition .er-arrival-sketch img{height:220px}
+.ellis-review.er-map-edition .er-research-scene{border-top:0;margin-top:16px;padding-top:17px}.ellis-review.er-map-edition .er-pedicab-scene{border-top:0;padding-top:23px}
+.ellis-review.er-map-edition .er-research-note{position:relative}.ellis-review.er-map-edition .er-research-note::before{content:"";position:absolute;inset:5% 0 18%;background:radial-gradient(ellipse,rgba(36,75,62,.037),transparent 70%);z-index:-1}
+.ellis-review.er-map-edition .er-pedicab-sketch{position:relative}.ellis-review.er-map-edition .er-pedicab-sketch::before{content:"";position:absolute;inset:3% -4% 10%;background:radial-gradient(ellipse at 54% 61%,rgba(36,75,62,.035),transparent 70%);z-index:-1}
+.ellis-review .er-map-destination{padding:24px 0 29px;border-top:1px solid var(--er-line);margin-top:10px}
+.ellis-review .er-harbor-threshold{display:grid;grid-template-columns:minmax(0,1fr) minmax(300px,.95fr);gap:28px;align-items:center;margin-bottom:16px}
+.ellis-review .er-harbor-threshold h2{font:400 clamp(2.25rem,4vw,3rem)/1.08 Georgia,serif;letter-spacing:-.03em;margin:0 0 18px}.ellis-review .er-harbor-threshold>div>p:not(.er-kicker):not(.er-map-whisper){font:1rem/1.65 Georgia,serif;max-width:49ch;margin-bottom:12px}
+.ellis-review .er-map-whisper{font:italic 1.15rem/1.4 Georgia,serif;color:var(--er-green);margin:16px 0 0}
+.ellis-review .er-harbor-border{margin:-8px -12px 0 0}.ellis-review .er-harbor-border img{width:100%;height:245px;object-fit:contain;opacity:.95}.ellis-review .er-harbor-border figcaption{text-align:center;font-size:.75rem;margin:0}
+.ellis-review .er-map-experience{display:grid;grid-template-columns:minmax(0,1.9fr) minmax(285px,.88fr);gap:28px;align-items:start;padding-top:20px}
+.ellis-review .er-map-paper{min-width:0}
+.ellis-review .er-harbor-map{position:relative;aspect-ratio:943/697;width:100%;overflow:visible;background:transparent}
+.ellis-review .er-harbor-map>svg{width:100%;height:100%;display:block}
+.ellis-review .er-harbor-map svg text{font-family:Georgia,'Times New Roman',serif}
+.ellis-review .er-map-pin{position:absolute;left:var(--pin-x);top:var(--pin-y);transform:translate(-50%,-50%);width:44px;height:44px;padding:5px;border:0;background:transparent;color:var(--er-ink);cursor:pointer;display:grid;place-items:center;z-index:2}
+.ellis-review .er-map-pin>span:first-child{display:grid;place-items:center;width:32px;height:32px;background:var(--er-paper);border:2px solid var(--er-green);border-radius:50%;font:700 1rem/1 Georgia,serif;box-shadow:0 1px 0 var(--er-line)}
+.ellis-review .er-map-pin[aria-expanded=true]>span:first-child{background:var(--er-green);color:var(--er-paper);outline:2px solid var(--er-paper);outline-offset:1px}
+.ellis-review .er-map-pin:hover>span:first-child{outline:2px solid var(--er-green);outline-offset:2px}.ellis-review .er-map-pin:focus-visible{outline:3px solid var(--er-green);outline-offset:2px;border-radius:50%}
+.ellis-review .er-sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+.ellis-review .er-harbor-map[data-active-place=battery] .er-route-nj,.ellis-review .er-harbor-map[data-active-place=newjersey] .er-route-ny{opacity:.22}
+.ellis-review .er-map-key{display:grid;grid-template-columns:1fr 1fr;gap:13px 19px;padding:14px 0 9px;border-top:1px solid var(--er-line);margin-top:12px}
+.ellis-review .er-map-key p{display:grid;grid-template-columns:34px 1fr;gap:3px 10px;margin:0;font-size:.79rem;line-height:1.45}.ellis-review .er-map-key strong{font:700 .9rem Georgia,serif}.ellis-review .er-map-key p>span:last-child{grid-column:2;font-size:.72rem}
+.ellis-review .er-line-key{display:block;width:32px;height:9px;align-self:center;border-top:2px dashed var(--er-ink)}.ellis-review .er-line-key--nj{border-top:3px dotted var(--er-green)}
+.ellis-review .er-map-caption{font:italic .75rem/1.5 Georgia,serif;color:var(--ed-muted,#50635a);margin:8px 0 10px}
+.ellis-review .er-original-map-button{min-height:44px;padding:9px 14px;border:1px solid var(--er-line);background:transparent;color:var(--er-ink);font:600 .8rem Arial;cursor:pointer}
+.ellis-review .er-place-notes{padding-top:5px;min-width:0}.ellis-review .er-place-notes>h3{font:italic 1.6rem/1.15 Georgia,serif;margin:0 0 16px}.ellis-review .er-place-notes>.er-kicker{font-size:.65rem}
+.ellis-review .er-access-list{border-bottom:1px solid var(--er-line)}.ellis-review .er-access-list details{border-top:1px solid var(--er-line)}
+.ellis-review .er-access-list summary{list-style:none;display:grid;grid-template-columns:24px minmax(0,1fr) 12px;gap:11px;align-items:center;min-height:64px;padding:13px 0;cursor:pointer;font:400 1.15rem/1.2 Georgia,serif}.ellis-review .er-access-list summary::-webkit-details-marker{display:none}
+.ellis-review .er-note-number{width:24px;height:24px;display:grid;place-items:center;border:1px solid var(--er-green);border-radius:50%;font:700 .76rem Georgia,serif}
+.ellis-review .er-access-list summary small{display:block;font:.72rem/1.4 Arial,sans-serif;color:var(--ed-muted,#50635a);margin-top:5px}.ellis-review .er-access-list summary b{font:400 1rem Arial;color:var(--er-green)}
+.ellis-review .er-access-list details[open] summary b{transform:rotate(45deg)}.ellis-review .er-access-list details[open] .er-note-number{color:var(--er-paper);background:var(--er-green)}
+.ellis-review .er-access-list details>div{padding:0 0 17px 35px;font-size:.84rem;line-height:1.6}.ellis-review .er-access-list details>div>p{margin-bottom:11px}.ellis-review .er-access-list details>div>a{font-size:.74rem;display:inline-block;min-height:30px}
+.ellis-review .er-map-verify{font-style:italic;font-family:Georgia,serif;color:var(--er-green)}.ellis-review .er-map-smallprint{font-size:.7rem;line-height:1.6;color:var(--ed-muted,#50635a);margin:14px 0 0}
+.ellis-review .er-skim-notes{padding:23px 0 26px;border-block:1px solid var(--er-line);margin:9px 0 25px}.ellis-review .er-skim-notes>.er-kicker{margin-bottom:7px}.ellis-review .er-skim-notes>h2{font:italic 2rem Georgia,serif;margin:0 0 18px}.ellis-review .er-skim-notes>dl{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:24px}.ellis-review .er-skim-notes>dl>div{padding:0;border-top:0}.ellis-review .er-skim-notes dt{font:700 1rem/1.3 Georgia,serif}.ellis-review .er-skim-notes dd{font-size:.85rem;line-height:1.5}.ellis-review .er-skim-notes .er-date-note{max-width:none;margin:18px 0 0;padding:0;background:transparent}.ellis-review .er-skim-notes .er-date-note p{font-size:.8rem}.ellis-review .er-skim-notes .er-jumps{display:none}
+@media(max-width:1000px){.ellis-review .er-map-experience{grid-template-columns:minmax(0,1.55fr) minmax(260px,.9fr);gap:22px}.ellis-review .er-harbor-threshold{gap:20px}.ellis-review .er-harbor-border img{height:220px}.ellis-review .er-map-key{grid-template-columns:1fr}.ellis-review .er-skim-notes>dl{grid-template-columns:1fr 1fr}}
+@media(max-width:760px){.ellis-review .er-harbor-threshold{grid-template-columns:1fr 1fr;gap:18px}.ellis-review .er-harbor-threshold h2{font-size:2rem}.ellis-review .er-harbor-border img{height:200px}.ellis-review .er-map-experience{grid-template-columns:1fr;gap:25px}.ellis-review .er-place-notes{padding-top:0}.ellis-review .er-access-list{display:grid;grid-template-columns:1fr 1fr;gap:0 23px;align-items:start}.ellis-review .er-map-key{grid-template-columns:1fr 1fr}.ellis-review .er-access-list details>div{font-size:.9rem}.ellis-review .er-access-list details>div>a{font-size:.82rem;min-height:35px}.ellis-review .er-map-smallprint{font-size:.75rem}}
+@media(max-width:700px){.ellis-review.er-map-edition .er-arrival-sketch{margin:0}.ellis-review.er-map-edition .er-arrival-sketch img{height:205px}.ellis-review .er-harbor-border{margin:0}.ellis-review .er-research-scene{border-top:0}}
+@media(max-width:480px){.ellis-review.er-map-edition .er-arrival-sketch img{height:145px}.ellis-review .er-harbor-threshold{display:block}.ellis-review .er-harbor-border{margin:10px 0 0}.ellis-review .er-harbor-border img{height:190px}.ellis-review .er-harbor-threshold h2{font-size:2.2rem}.ellis-review .er-harbor-threshold>div>p:not(.er-kicker):not(.er-map-whisper){font-size:1rem}.ellis-review .er-map-whisper{font-size:1rem}.ellis-review .er-map-experience{padding-top:10px}.ellis-review .er-map-key{grid-template-columns:1fr}.ellis-review .er-access-list{grid-template-columns:1fr}.ellis-review .er-map-key p{font-size:.84rem}.ellis-review .er-map-key p>span:last-child{font-size:.8rem}.ellis-review .er-map-caption{font-size:.8rem}.ellis-review .er-map-pin{width:44px;height:44px}.ellis-review .er-map-pin>span:first-child{width:29px;height:29px;font-size:.9rem}.ellis-review .er-skim-notes>dl{grid-template-columns:1fr;gap:18px}.ellis-review .er-skim-notes dd{font-size:.94rem}.ellis-review .er-skim-notes .er-date-note p{font-size:.84rem}}
+@media(prefers-reduced-motion:reduce){.ellis-review .er-map-pin,.ellis-review .er-harbor-map *, .ellis-review .er-access-list *{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+@media print{.ellis-review.er-map-edition{background:#fff!important}.ellis-review.er-map-edition::before{display:none}.ellis-review .er-harbor-threshold{display:block}.ellis-review .er-harbor-border{display:none}.ellis-review .er-map-experience{display:block}.ellis-review .er-map-paper{max-width:550px;margin:auto}.ellis-review .er-original-map-button{display:none}.ellis-review .er-access-list{display:block}.ellis-review .er-access-list details{break-inside:avoid}.ellis-review .er-map-pin{pointer-events:none}.ellis-review .er-skim-notes>dl{grid-template-columns:1fr 1fr}}
+</style></head><body><a class="skip" href="#main">Skip to content</a><header class="mag-masthead"><a class="mag-brand" href="/" aria-label="An AUsome Life home"><img src="/assets/coastal-emblem.webp" alt="" width="80" height="80"><span>An AUsome Life<small>In pursuit of the Good New England Life</small></span></a><nav aria-label="Main navigation"><a href="/blog.html">Blog</a><a href="/library.html">The library</a><a href="/favorite-places.html">Favorite places</a><a href="/kid-fun.html">Kid fun</a><a href="/calendar.html">The calendar</a><a href="/about.html">Our story</a><a class="nav-search" href="/library.html#library-search">Search <span aria-hidden="true">↗</span></a></nav></header><main id="main" class="ellis-review er-arrival-edition er-map-edition">
   <div class="er-meta"><a href="/blog.html">The journal</a><span>New York Harbor</span><span class="er-preview-label">Article preview</span></div>
   <section class="er-cover" aria-labelledby="er-title">
     <div class="er-lead">
       <figure class="er-family-photo"><img src="/assets/preview-ellis/family-ferry.jpeg" alt="Our family seated together on the ferry, with Manhattan beyond the windows" width="1536" height="1152" fetchpriority="high"><figcaption>Ellis Island ferry · from our family camera roll.</figcaption></figure>
       <div class="er-cover-text"><p class="er-kicker">A family field note · Ellis Island &amp; New York</p><h1 id="er-title">New York,<br><em>year after year.</em></h1><p class="er-deck">Ellis Island, Grandpa’s history, and a Thanksgiving-morning pedicab we probably paid too much for.</p></div>
     </div>
-    <aside class="er-welcome" aria-labelledby="er-welcome-title"><figure class="er-arrival-sketch"><img src="/assets/preview-ellis/city-arrival.webp" alt="Original illustrated New York shopfronts, a streetlamp and one small street cart" width="1152" height="768" fetchpriority="high"></figure><p class="er-kicker">Come along</p><h2 id="er-welcome-title">This is why we<br>keep coming back.</h2><p class="er-welcome-copy">New York around the parade is one of our family traditions. Ellis Island belongs to that larger story, on a different day: our family on the ferry, Manhattan outside the windows, and a bit of family history waiting on the other shore.</p><nav class="er-story-doors" aria-label="Follow the family story"><a href="#the-story"><span>01</span> A question for Grandpa</a><a href="#the-ride"><span>02</span> A ride worth taking</a></nav><a class="er-quiet-jump" href="#at-a-glance">Looking for practical details?</a></aside>
+    <aside class="er-welcome" aria-labelledby="er-welcome-title"><figure class="er-arrival-sketch"><img src="/assets/preview-ellis/city-arrival.webp" alt="Original illustrated New York shopfronts, a streetlamp and one small street cart" width="1152" height="768" fetchpriority="high"></figure><p class="er-kicker">Come along</p><h2 id="er-welcome-title">This is why we<br>keep coming back.</h2><p class="er-welcome-copy">New York around the parade is one of our family traditions. Ellis Island belongs to that larger story, on a different day: our family on the ferry, Manhattan outside the windows, and a bit of family history waiting on the other shore.</p><nav class="er-story-doors" aria-label="Follow the family story"><a href="#the-story"><span>01</span> A question for Grandpa</a><a href="#the-ride"><span>02</span> A ride worth taking</a></nav><a class="er-quiet-jump" href="#ferry-guide">Looking for practical details?</a></aside>
   </section>
 
 <section class="er-story-grid er-research-scene" id="the-story" aria-labelledby="er-story-title"><article class="er-story"><p class="er-kicker">On Ellis Island</p><h2 id="er-story-title">Grandpa’s five-minute discovery.</h2>
@@ -103,7 +146,147 @@
       <p>That is the New York we keep coming back to: the tradition, with enough room to do it our way. Ask for help. Sit down. Leave something for another day. Keep the part everybody came for.</p>
       
     </article></section>
-<section class="er-planning-gateway" aria-labelledby="er-next-visit-title"><div class="er-section-heading"><div><p class="er-kicker">When you’re ready to make your own day of it</p><h2 id="er-next-visit-title">The good part, with a little planning.</h2></div><p class="er-handnote">Keep these details close.</p></div><div class="er-planning-grid">    <aside class="er-glance" id="at-a-glance" aria-labelledby="er-glance-title">
+<section class="er-map-destination" id="ferry-guide" aria-labelledby="er-ferry-title">
+  <header class="er-harbor-threshold"><div><p class="er-kicker">New York Harbor · find your own way in</p><h2 id="er-ferry-title">Two shores.<br>A little room to explore.</h2><p>Choose a numbered stop for the access details worth knowing before you go. The same notes are listed beside the map.</p><p class="er-map-whisper">A place to pause, a question to ask, a way aboard.</p></div><figure class="er-harbor-border"><img src="/assets/preview-ellis/harbor-illustration-transparent-v2.webp" alt="Original ink-and-watercolor impression of Ellis Island across the harbor" width="1536" height="1024" loading="lazy"><figcaption>Ellis Island, in ink and watercolor.</figcaption></figure></header>
+  <div class="er-map-experience">
+    <div class="er-map-paper">
+      <div class="er-harbor-map" data-active-place="ellis" aria-label="Illustrated New York Harbor orientation map">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 943 697" role="img" aria-labelledby="er-harbor-title er-harbor-desc">
+  <title id="er-harbor-title">Ellis Island and Liberty Island: illustrated harbor orientation</title>
+  <desc id="er-harbor-desc">A simplified, north-up drawing based on the National Park Service harbor ferry map. Jersey City and Liberty State Park are on the upper left; Lower Manhattan and The Battery are on the upper right. Ellis Island is north-northeast of Liberty Island. Governors Island lies to their east. The dashed New York ferry route runs from The Battery to Liberty Island, then Ellis Island, then The Battery. The dotted New Jersey route runs from Liberty State Park to Ellis Island, then Liberty Island, then Liberty State Park. Routes are schematic ferry connections, not navigation, walking routes, or verified step-free paths.</desc>
+  <metadata>Coastline and relative positions simplified from the HFC ferry map linked on https://www.nps.gov/elis/planyourvisit/directions.htm . Ferry stop order checked against that NPS directions page on 2026-10-04. NPS HFC map information: https://home.nps.gov/subjects/hfc/map-information.htm . Original SVG styling and drawing. Local illustration; no surveyed coordinates or scale asserted.</metadata>
+  <defs>
+    <filter id="er-wash-edge" x="-5%" y="-5%" width="110%" height="110%" color-interpolation-filters="sRGB">
+      <feTurbulence type="fractalNoise" baseFrequency=".025" numOctaves="3" seed="14" result="paper"/>
+      <feDisplacementMap in="SourceGraphic" in2="paper" scale="2.1" xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+    <filter id="er-soft-wash" x="-10%" y="-10%" width="120%" height="120%"><feGaussianBlur stdDeviation="5"/></filter>
+    <pattern id="er-water-grain" width="73" height="67" patternUnits="userSpaceOnUse">
+      <path d="M7 16l1 .3M33 6l.7 .2M62 28l1 .4M20 49l.8 -.2M49 60l.7 .1" stroke="#244b3e" stroke-opacity=".09" stroke-width="1.2" stroke-linecap="round"/>
+    </pattern>
+    <marker id="er-arrow-ny" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="8" markerHeight="8" orient="auto" markerUnits="userSpaceOnUse"><path d="M1 1.7 9 5 1 8.3 3 5Z" fill="#193b40"/></marker>
+    <marker id="er-arrow-nj" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="8" markerHeight="8" orient="auto" markerUnits="userSpaceOnUse"><path d="M1 1.7 9 5 1 8.3 3 5Z" fill="#244b3e"/></marker>
+    <path id="er-nj-shore" d="M0 0H441L438 12 458 16 456 24 431 20 422 75 412 90 394 84 355 77 352 85 366 94 363 112 307 106 300 98 299 62 293 63 294 55 283 55 280 96 189 91 181 90 187 101 178 107 177 116 220 121 267 128 349 133 410 140C419 140 424 130 432 135L439 143C444 151 422 159 410 157L412 171 407 190 403 212 388 212 381 203 293 195 284 203 302 221 292 241 277 232 219 326 187 308 158 363 113 455 101 476 114 486 102 504 65 483 72 464 14 434 17 426 0 417Z"/>
+    <path id="er-manhattan-shore" d="M666 0H943V153L909 176 913 189 888 208 879 204 858 221 835 243 809 262 780 280 748 298 710 303C688 291 667 263 655 235L663 224 657 217 651 221C633 214 626 205 629 186S644 169 649 154L632 146 653 41 672 41 676 24 661 18Z"/>
+    <path id="er-brooklyn-shore" d="M943 307V697H663L711 658 744 636 756 652 744 662 735 657 727 675 738 689 725 697H750L785 655 803 624 814 616 806 608 786 628 772 615 794 598 804 577 817 582 824 568 846 577 854 557 838 548 844 533 865 542 873 525 851 512 858 493 884 508 891 493 861 477 868 458 897 474 905 462 873 449 881 431 906 445 915 429 888 417 899 395 925 408 937 389 908 376Z"/>
+    <path id="er-governors-shore" d="M638 449 685 444 720 454 738 477 750 491 751 497 758 498 755 505 748 505 745 519 737 545 717 561 695 566 679 580 625 612 582 632C565 639 548 632 541 619S539 592 548 578L578 537 605 492 624 470Z"/>
+    <path id="er-ellis-shore" d="M282 347 298 329 312 310 318 315 328 302 337 311 341 307 365 327 359 349 348 353 337 377 311 394 275 365 290 348Z"/>
+    <path id="er-liberty-shore" d="M226 502C235 494 252 501 266 510S287 526 285 536 275 552 264 550 242 541 233 532 220 511 226 502Z"/>
+    <clipPath id="er-nj-clip"><use href="#er-nj-shore"/></clipPath>
+    <clipPath id="er-manhattan-clip"><use href="#er-manhattan-shore"/></clipPath>
+    <clipPath id="er-governors-clip"><use href="#er-governors-shore"/></clipPath>
+  </defs>
+  <style>
+    .ellis-review .er-map-water { fill: #e7ede4; }
+    .ellis-review .er-map-land { fill: var(--ed-paper, #faf8f1); stroke: var(--ed-green, #244b3e); stroke-opacity: .57; stroke-width: 1.65; stroke-linejoin: round; }
+    .ellis-review .er-island { fill: #adbf9b; }
+    .ellis-review .er-map-text { fill: var(--ed-ink, #193b40); font-family: Georgia, 'Times New Roman', serif; }
+    .ellis-review .er-map-small { fill: var(--ed-muted, #50635a); font-family: Arial, Helvetica, sans-serif; }
+    .ellis-review .er-route-ny { fill: none; stroke: var(--ed-ink, #193b40); stroke-width: 2.8; stroke-dasharray: 10 7; stroke-linecap: round; stroke-linejoin: round; }
+    .ellis-review .er-route-nj { fill: none; stroke: var(--ed-green, #244b3e); stroke-width: 3.4; stroke-dasharray: .4 8; stroke-linecap: round; stroke-linejoin: round; }
+    .ellis-review .er-route-arrow { fill: none; stroke-width: 2; stroke-linecap: round; }
+    .ellis-review .er-stop { fill: var(--ed-paper, #faf8f1); stroke: var(--ed-green, #244b3e); stroke-width: 1.6; }
+  </style>
+  <!-- Water and broad, softly uneven pigment washes. -->
+  <path class="er-map-water" fill="#e7ede4" d="M0 0H943V697H0Z"/>
+  <g fill="#aebfa4" opacity=".13" filter="url(#er-soft-wash)">
+    <path d="M439 0H601C586 97 577 123 550 191S550 269 579 321C569 362 551 383 510 392 486 313 479 242 448 192S422 76 439 0Z"/>
+    <path d="M59 451C138 471 167 497 190 555S277 620 375 623 528 638 571 697H0V506Z"/>
+    <path d="M943 175V418C907 423 863 439 833 459L787 415C821 350 876 290 943 175Z"/>
+  </g>
+  <path fill="url(#er-water-grain)" d="M0 0H943V697H0Z"/>
+  <!-- The angular shore forms and island positions follow the NPS source image. -->
+  <g filter="url(#er-wash-edge)">
+    <use href="#er-nj-shore" class="er-map-land" fill="#faf8f1" stroke="#244b3e"/>
+    <use href="#er-manhattan-shore" class="er-map-land" fill="#faf8f1" stroke="#244b3e"/>
+    <use href="#er-brooklyn-shore" class="er-map-land" fill="#faf8f1" stroke="#244b3e"/>
+    <use href="#er-governors-shore" class="er-map-land" fill="#faf8f1" stroke="#244b3e"/>
+    <g clip-path="url(#er-nj-clip)">
+      <path d="M0 213 109 113 192 121 287 130 405 145 408 196 390 226 304 221 278 235 224 329 187 308 158 359 100 475 75 465 4 426 0 279Z" fill="#b6c6a5" opacity=".64"/>
+      <path d="M0 274 91 329 55 404 0 366Z" fill="#faf8f1" opacity=".68"/>
+      <path d="M97 151C178 136 279 152 358 162L342 195C249 175 177 188 93 198Z" fill="#91ad85" opacity=".13" filter="url(#er-soft-wash)"/>
+    </g>
+    <path clip-path="url(#er-manhattan-clip)" d="M650 225 720 227 752 292 711 306 674 268Z" fill="#b6c6a5" opacity=".65"/>
+    <g clip-path="url(#er-governors-clip)">
+      <path d="M621 445 686 442 727 458 748 495 733 533 684 541 659 501 638 480 616 482Z" fill="#b6c6a5" opacity=".63"/>
+      <path d="M651 458 699 461 714 478 709 503 667 497 658 476 641 474Z" fill="#91ad85" opacity=".35"/>
+    </g>
+    <use href="#er-ellis-shore" class="er-map-land er-island" fill="#adbf9b" stroke="#244b3e"/>
+    <use href="#er-liberty-shore" class="er-map-land er-island" fill="#adbf9b" stroke="#244b3e"/>
+  </g>
+  <!-- Short water ripples are decorative water texture, never walking routes. -->
+  <g fill="none" stroke="#718b77" stroke-width="1" stroke-opacity=".20" stroke-linecap="round">
+    <path d="M531 176q14 -3 27 0m-22 7q12 -2 20 0M555 217q13 -3 26 0M131 531q14 -3 29 0m-23 7q10 -2 19 0M496 605q13 -3 28 0m-19 8q12 -2 22 0M804 372q13 -3 25 0m-17 7q10 -2 18 0M429 650q13 -3 27 0"/>
+  </g>
+  <!-- NY: The Battery -> Liberty -> Ellis -> The Battery. Endpoints below are schematic dock approaches. -->
+  <g aria-label="Dashed New York ferry route">
+    <path class="er-route-ny" d="M698 292C642 352 623 423 551 486S382 591 289 589 201 550 225 517"/>
+    <path class="er-route-ny" d="M225 517C202 541 219 574 266 582S357 576 377 546 389 450 365 393L331 351"/>
+    <path class="er-route-ny" d="M331 351C369 393 405 422 454 420S594 400 644 348L698 292"/>
+    <path class="er-route-arrow" stroke="#193b40" marker-end="url(#er-arrow-ny)" d="M484 535 466 545"/><path class="er-route-arrow" stroke="#193b40" marker-end="url(#er-arrow-ny)" d="M384 502 383 483"/><path class="er-route-arrow" stroke="#193b40" marker-end="url(#er-arrow-ny)" d="M512 411 531 405"/>
+  </g>
+  <!-- NJ: Liberty State Park -> Ellis -> Liberty -> Liberty State Park. -->
+  <g aria-label="Dotted New Jersey ferry route">
+    <path class="er-route-nj" d="M416 190C466 186 505 235 505 297S486 382 443 393 368 394 331 351"/>
+    <path class="er-route-nj" d="M331 351C373 377 397 410 399 458S405 544 372 573 283 605 246 591 198 550 225 517"/>
+    <path class="er-route-nj" d="M225 517C202 541 210 570 243 589S334 598 370 568 431 509 462 450 498 351 503 298 474 193 416 190"/>
+    <path class="er-route-arrow" stroke="#244b3e" marker-end="url(#er-arrow-nj)" d="M449 391 430 395"/><path class="er-route-arrow" stroke="#244b3e" marker-end="url(#er-arrow-nj)" d="M397 445 399 465"/><path class="er-route-arrow" stroke="#244b3e" marker-end="url(#er-arrow-nj)" d="M438 497 449 478"/>
+  </g>
+  <!-- Small underlying anchors; the parent page supplies separate accessible HTML hotspot buttons. -->
+  <g aria-hidden="true">
+    <circle class="er-stop" cx="414" cy="189" r="5"/><circle fill="#244b3e" cx="414" cy="189" r="1.8"/>
+    <circle class="er-stop" cx="691" cy="258" r="5"/><circle fill="#244b3e" cx="691" cy="258" r="1.8"/>
+    <circle class="er-stop" cx="331" cy="342" r="5"/><circle fill="#244b3e" cx="331" cy="342" r="1.8"/>
+    <circle class="er-stop" cx="250" cy="527" r="5"/><circle fill="#244b3e" cx="250" cy="527" r="1.8"/>
+  </g>
+  <!-- Labels stay clean and unfiltered for legibility. -->
+  <g class="er-map-text" fill="#193b40">
+    <text x="210" y="81" text-anchor="middle" font-size="25" letter-spacing="3">NEW JERSEY</text>
+    <text x="210" y="108" text-anchor="middle" class="er-map-small" font-size="14" letter-spacing="3">JERSEY CITY</text>
+    <text x="783" y="100" text-anchor="middle" font-size="25" letter-spacing="3">NEW YORK</text>
+    <text x="784" y="127" text-anchor="middle" class="er-map-small" font-size="14" letter-spacing="3">MANHATTAN</text>
+    <text x="221" y="175" text-anchor="middle" font-size="23">Liberty State Park</text>
+    <text x="221" y="200" text-anchor="middle" class="er-map-small" font-size="13">New Jersey departure</text>
+    <text x="744" y="210" font-size="23">The Battery</text>
+    <text x="744" y="234" class="er-map-small" font-size="13" paint-order="stroke" stroke="#faf8f1" stroke-width="3" stroke-linejoin="round">New York departure</text>
+    <text x="375" y="308" font-size="27">Ellis Island</text>
+    <text x="190" y="496" text-anchor="end" font-size="26">Liberty</text>
+    <text x="190" y="524" text-anchor="end" font-size="26">Island</text>
+    <text x="662" y="527" text-anchor="middle" font-size="19" fill="#50635a">Governors</text>
+    <text x="662" y="550" text-anchor="middle" font-size="19" fill="#50635a">Island</text>
+    <text x="812" y="675" text-anchor="middle" class="er-map-small" font-size="13" letter-spacing="3">BROOKLYN</text>
+    <text x="543" y="73" text-anchor="middle" font-size="21" font-style="italic" fill="#647f6d">Hudson</text>
+    <text x="543" y="99" text-anchor="middle" font-size="21" font-style="italic" fill="#647f6d">River</text>
+    <text x="582" y="333" text-anchor="middle" font-size="17" font-style="italic" fill="#647f6d">New York Harbor</text>
+    <text x="844" y="374" text-anchor="middle" font-size="19" font-style="italic" fill="#647f6d" transform="rotate(-47 844 374)">East River</text>
+  </g>
+  <g transform="translate(872 608)" fill="none" stroke="#244b3e" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-label="North is up">
+    <path d="M0 25V-13M-8-4 0-14 8-4"/>
+    <text x="0" y="-26" fill="#244b3e" stroke="none" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="17">N</text>
+  </g>
+</svg>
+
+        <div class="er-map-pins" role="group" aria-label="Select a place for access notes">
+          <button type="button" class="er-map-pin" data-map-stop="battery" style="--pin-x:73.276%;--pin-y:37.016%" aria-controls="er-access-battery" aria-expanded="false"><span aria-hidden="true">1</span><span class="er-sr-only">The Battery: access notes</span></button>
+          <button type="button" class="er-map-pin" data-map-stop="newjersey" style="--pin-x:43.902%;--pin-y:27.116%" aria-controls="er-access-newjersey" aria-expanded="false"><span aria-hidden="true">2</span><span class="er-sr-only">Liberty State Park: access notes</span></button>
+          <button type="button" class="er-map-pin" data-map-stop="ellis" style="--pin-x:35.101%;--pin-y:49.068%" aria-controls="er-access-ellis" aria-expanded="true"><span aria-hidden="true">3</span><span class="er-sr-only">Ellis Island: access notes</span></button>
+          <button type="button" class="er-map-pin" data-map-stop="liberty" style="--pin-x:26.511%;--pin-y:75.61%" aria-controls="er-access-liberty" aria-expanded="false"><span aria-hidden="true">4</span><span class="er-sr-only">Liberty Island: access notes</span></button>
+        </div>
+      </div>
+      <div class="er-map-key" aria-label="Ferry routes"><p><span class="er-line-key er-line-key--ny" aria-hidden="true"></span><strong>New York ferry</strong><span>The Battery · Liberty · Ellis · The Battery</span></p><p><span class="er-line-key er-line-key--nj" aria-hidden="true"></span><strong>New Jersey ferry</strong><span>Liberty State Park · Ellis · Liberty · Liberty State Park</span></p></div>
+      <p class="er-map-caption">Illustrated orientation map based on the NPS ferry map. Geography is simplified. Ferry lines do not mark walking or step-free routes.</p>
+      <button class="er-original-map-button" type="button" id="er-open-map" aria-haspopup="dialog" aria-controls="er-map-dialog">Open the original NPS map</button>
+    </div>
+    <aside class="er-place-notes" aria-labelledby="er-access-notes-title"><p class="er-kicker">A little local knowledge</p><h3 id="er-access-notes-title">Before you arrive.</h3><div class="er-access-list">
+      <details id="er-access-battery" data-access-stop="battery"><summary><span class="er-note-number">1</span><span>The Battery<small>New York departure</small></span><b aria-hidden="true">+</b></summary><div><p>NPS lists accessible restrooms at Castle Clinton. Check parking or drop-off and the route to security before setting out.</p><p class="er-map-verify">Ask which boarding arrangement will work for your group.</p><a href="https://www.nps.gov/elis/planyourvisit/directions.htm">NPS departure information</a></div></details>
+      <details id="er-access-newjersey" data-access-stop="newjersey"><summary><span class="er-note-number">2</span><span>Liberty State Park<small>New Jersey departure</small></span><b aria-hidden="true">+</b></summary><div><p>NPS lists designated parking for placard holders and terminal restrooms. Confirm the current walk from security to ferry boarding.</p><p class="er-map-verify">Allow for the approach as well as the crossing.</p><a href="https://www.nps.gov/elis/planyourvisit/directions.htm">NPS parking and terminal notes</a><br><a href="https://www.nps.gov/elis/planyourvisit/physical-mobility.htm">Boarding and approach information</a></div></details>
+      <details id="er-access-ellis" data-access-stop="ellis" open><summary><span class="er-note-number">3</span><span>Ellis Island<small>Museum &amp; family history</small></span><b aria-hidden="true">+</b></summary><div><p>NPS lists entrance ramps and two museum elevators. Ask the first-floor Information Desk for the route and facilities you need.</p><p class="er-map-verify">Start with the question that matters to your visit. That is what helped Grandpa.</p><a href="https://www.nps.gov/elis/planyourvisit/physical-mobility.htm">NPS museum mobility information</a></div></details>
+      <details id="er-access-liberty" data-access-stop="liberty"><summary><span class="er-note-number">4</span><span>Liberty Island<small>Grounds &amp; museum</small></span><b aria-hidden="true">+</b></summary><div><p>NPS lists ramp access to the Statue of Liberty Museum and accessible restrooms. Access inside the monument has separate requirements.</p><p class="er-map-verify">Check your ticket and the specific part you want to visit.</p><a href="https://www.nps.gov/stli/planyourvisit/physical-mobility.htm">NPS Liberty Island access information</a></div></details>
+    </div><p class="er-map-smallprint">Published NPS information, checked October 4, 2026. Confirm current operation. These pins identify places, not exact doors or verified accessible routes.</p></aside>
+  </div>
+</section>
+
+<aside class="er-glance er-skim-notes" id="at-a-glance" aria-labelledby="er-glance-title">
       <p class="er-kicker">The useful part, close at hand</p><h2 id="er-glance-title">At a Glance</h2>
       <dl>
         <div><dt>The outing</dt><dd>Ellis Island and a harbor crossing. Choose the museum stop that matters to your family.</dd></div>
@@ -113,14 +296,8 @@
       </dl>
       <div class="er-date-note"><svg aria-hidden="true" viewBox="0 0 32 32"><use href="/assets/editorial-icons.svg#calendar"></use></svg><p><strong>Check the holiday.</strong><br>Ellis Island is closed on Thanksgiving Day and December 25. <a href="https://www.nps.gov/elis/planyourvisit/hours.htm">NPS hours &amp; closures</a></p></div>
       <nav class="er-jumps" aria-label="In this field note"><a href="#practical-details">Access &amp; facilities</a><a href="#ferry-guide">Ferry guide</a><a href="#visual-plan">Visual plan</a><a href="#practical-details">Practical details</a></nav>
-    </aside><aside class="er-ferry-guide" id="ferry-guide" aria-labelledby="er-ferry-title">
-      <figure class="er-harbor-art"><img src="/assets/preview-ellis/harbor-illustration.webp" alt="Original ink-and-watercolor impression of Ellis Island and New York Harbor" width="1536" height="1024" loading="lazy"><figcaption>Ellis Island, in ink and watercolor.</figcaption></figure>
-      <div class="er-guide-copy"><p class="er-kicker">Before boarding</p><h2 id="er-ferry-title">Two shores. One important choice.</h2><p>Decide where you are leaving from before you buy your ferry tickets.</p>
-      <dl class="er-departures"><div><dt>New York</dt><dd>The Battery, Lower Manhattan</dd></div><div><dt>New Jersey</dt><dd>Liberty State Park, Jersey City</dd></div></dl>
-      <button class="er-map-link" type="button" id="er-open-map" aria-haspopup="dialog" aria-controls="er-map-dialog"><img class="er-map-thumb" src="/assets/preview-ellis/nps-ferry-map.webp" alt="" width="943" height="697" loading="lazy"><span>Open the official ferry map<small>New York &amp; New Jersey routes · NPS</small></span></button>
-      <p class="er-caption">Statue City Cruises is the NPS-authorized island ferry. A sightseeing cruise is not necessarily a ticket to get off at Ellis Island. <a href="https://www.nps.gov/elis/planyourvisit/fees.htm">Official ticket guidance</a></p></div>
-    </aside></div></section>
-  <section class="er-choices" aria-labelledby="er-choices-title"><div class="er-section-heading"><div><p class="er-kicker">Choose your own outing</p><h2 id="er-choices-title">Leave room in the day.</h2></div><p class="er-handnote">One good part can be enough.</p></div>
+    </aside>
+<section class="er-choices" aria-labelledby="er-choices-title"><div class="er-section-heading"><div><p class="er-kicker">Choose your own outing</p><h2 id="er-choices-title">Leave room in the day.</h2></div><p class="er-handnote">One good part can be enough.</p></div>
     <div class="er-choice-grid"><article><span class="er-choice-number">01</span><h3>Make Ellis the main thing</h3><p>Choose the family-history question or museum stop you came for. Allow for security, boarding, the crossing and your return.</p></article><article><span class="er-choice-number">02</span><h3>Add Liberty, if it fits</h3><p>Check the actual sailing sequence and leave enough time for both islands. A late departure may limit your options.</p></article><article><span class="er-choice-number">03</span><h3>Save the island for another day</h3><p>If ferry logistics are too much today, choose a separate mainland outing. Ellis Island is not a twenty-minute stop.</p></article></div>
   </section>
 
@@ -147,4 +324,37 @@
   </div></section>
 <dialog id="er-map-dialog" class="er-map-dialog" aria-labelledby="er-map-heading"><div class="er-map-dialog-head"><div><p class="er-kicker">National Park Service · Harpers Ferry Center</p><h2 id="er-map-heading">The two ferry routes</h2></div><button type="button" id="er-close-map" aria-label="Close ferry map">Close</button></div><img src="/assets/preview-ellis/nps-ferry-map.webp" alt="Official NPS map showing the New York ferry from The Battery to Liberty Island and Ellis Island, and the New Jersey ferry from Liberty State Park to Ellis Island and Liberty Island" width="943" height="697"><p>Official NPS/HFC map, 2024. Reproduced unchanged. Check the current sailing schedule before your visit. <a href="https://www.nps.gov/elis/planyourvisit/directions.htm">Open NPS directions and map</a>.</p></dialog>
 </main>
-<footer class="mag-footer"><div class="wrap"><strong>An AUsome Life</strong><p>Simple good things. The practical details left in.</p><p><a href="/contact.html">Contact</a> · <a href="/privacy.html">Privacy</a> · <a href="/accessibility.html">Accessibility</a></p></div></footer><script>(()=>{let saved=[];window.addEventListener('beforeprint',()=>{if(saved.length)return;saved=Array.from(document.querySelectorAll('.ellis-review details'),detail=>({detail,open:detail.open}));saved.forEach(({detail})=>detail.open=true);});window.addEventListener('afterprint',()=>{saved.forEach(({detail,open})=>detail.open=open);saved=[];});const map=document.getElementById('er-map-dialog');document.getElementById('er-open-map').addEventListener('click',()=>map.showModal());document.getElementById('er-close-map').addEventListener('click',()=>map.close());document.getElementById('er-print').addEventListener('click',()=>window.print());})();</script><script src="/assets/site.js"></script></body></html>
+<footer class="mag-footer"><div class="wrap"><strong>An AUsome Life</strong><p>Simple good things. The practical details left in.</p><p><a href="/contact.html">Contact</a> · <a href="/privacy.html">Privacy</a> · <a href="/accessibility.html">Accessibility</a></p></div></footer><script>(()=>{let saved=[];let savedMapStop=null;window.addEventListener('beforeprint',()=>{if(saved.length)return;const harbor=document.querySelector('.er-harbor-map');savedMapStop=harbor?harbor.dataset.activePlace:null;saved=Array.from(document.querySelectorAll('.ellis-review details'),detail=>({detail,open:detail.open}));saved.forEach(({detail})=>detail.open=true);});window.addEventListener('afterprint',()=>{saved.forEach(({detail,open})=>detail.open=open);saved=[];const harbor=document.querySelector('.er-harbor-map');if(harbor&&savedMapStop!==null)harbor.dataset.activePlace=savedMapStop;savedMapStop=null;});const map=document.getElementById('er-map-dialog');document.getElementById('er-open-map').addEventListener('click',()=>map.showModal());document.getElementById('er-close-map').addEventListener('click',()=>map.close());document.getElementById('er-print').addEventListener('click',()=>window.print());})();</script><script src="/assets/site.js"></script><script>(() => {
+  const map = document.querySelector('.er-harbor-map');
+  if (!map) return;
+  const pins = Array.from(map.querySelectorAll('[data-map-stop]'));
+  const notes = Array.from(document.querySelectorAll('[data-access-stop]'));
+  function syncPins() {
+    pins.forEach(pin => {
+      const note = document.getElementById(pin.getAttribute('aria-controls'));
+      pin.setAttribute('aria-expanded', String(Boolean(note && note.open)));
+    });
+  }
+  pins.forEach(pin => {
+    pin.addEventListener('click', () => {
+      const stop = pin.dataset.mapStop;
+      const note = document.getElementById(pin.getAttribute('aria-controls'));
+      if (!note) return;
+      notes.forEach(other => { other.open = other === note; });
+      map.dataset.activePlace = stop;
+      syncPins();
+      if (window.matchMedia('(max-width:760px)').matches) {
+        note.querySelector('summary')?.focus({preventScroll:true});
+        note.scrollIntoView({block:'nearest',behavior:'instant'});
+      }
+    });
+  });
+  notes.forEach(note => {
+    note.querySelector('summary')?.addEventListener('click', () => {
+      map.dataset.activePlace = note.dataset.accessStop;
+    });
+    note.addEventListener('toggle', syncPins);
+  });
+  syncPins();
+})();
+</script></body></html>
