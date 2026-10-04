@@ -121,7 +121,7 @@ Every new outing, destination, journal story, product review or practical field 
 ### Required include
 Add this before `</body>`:
 ```html
-<script src="/assets/article-picture-card.js?v=20261004-static1" defer></script>
+<script src="/assets/article-picture-card.js?v=20261004-static4" defer></script>
 ```
 
 The script uses the page's existing approved hero photo or illustration and prepares a 1200×1200 PNG locally in the browser. It does **not** call an AI image service or upload the visitor's data.
