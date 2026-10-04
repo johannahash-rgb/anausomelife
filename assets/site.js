@@ -153,7 +153,7 @@
 (() => {
   if (document.querySelector('script[data-aal-global-nav]')) return;
   const s=document.createElement('script');
-  s.src='/assets/global-nav.js?v=20261004-approved';
+  s.src='/assets/global-nav.js?v=20261004-restore1';
   s.dataset.aalGlobalNav='true';
   s.async=false;
   document.head.append(s);
