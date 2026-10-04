@@ -125,7 +125,48 @@
 @media(max-width:480px){.ellis-review.er-map-edition .er-arrival-sketch img{height:145px}.ellis-review .er-harbor-threshold{display:block}.ellis-review .er-harbor-border{margin:10px 0 0}.ellis-review .er-harbor-border img{height:190px}.ellis-review .er-harbor-threshold h2{font-size:2.2rem}.ellis-review .er-harbor-threshold>div>p:not(.er-kicker):not(.er-map-whisper){font-size:1rem}.ellis-review .er-map-whisper{font-size:1rem}.ellis-review .er-map-experience{padding-top:10px}.ellis-review .er-map-key{grid-template-columns:1fr}.ellis-review .er-access-list{grid-template-columns:1fr}.ellis-review .er-map-key p{font-size:.84rem}.ellis-review .er-map-key p>span:last-child{font-size:.8rem}.ellis-review .er-map-caption{font-size:.8rem}.ellis-review .er-map-pin{width:44px;height:44px}.ellis-review .er-map-pin>span:first-child{width:29px;height:29px;font-size:.9rem}.ellis-review .er-skim-notes>dl{grid-template-columns:1fr;gap:18px}.ellis-review .er-skim-notes dd{font-size:.94rem}.ellis-review .er-skim-notes .er-date-note p{font-size:.84rem}}
 @media(prefers-reduced-motion:reduce){.ellis-review .er-map-pin,.ellis-review .er-harbor-map *, .ellis-review .er-access-list *{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
 @media print{.ellis-review.er-map-edition{background:#fff!important}.ellis-review.er-map-edition::before{display:none}.ellis-review .er-harbor-threshold{display:block}.ellis-review .er-harbor-border{display:none}.ellis-review .er-map-experience{display:block}.ellis-review .er-map-paper{max-width:550px;margin:auto}.ellis-review .er-original-map-button{display:none}.ellis-review .er-access-list{display:block}.ellis-review .er-access-list details{break-inside:avoid}.ellis-review .er-map-pin{pointer-events:none}.ellis-review .er-skim-notes>dl{grid-template-columns:1fr 1fr}}
-</style></head><body><a class="skip" href="#main">Skip to content</a><header class="mag-masthead"><a class="mag-brand" href="/" aria-label="An AUsome Life home"><img src="/assets/coastal-emblem.webp" alt="" width="80" height="80"><span>An AUsome Life<small>In pursuit of the Good New England Life</small></span></a><nav aria-label="Main navigation"><a href="/blog.html">Blog</a><a href="/library.html">The library</a><a href="/favorite-places.html">Favorite places</a><a href="/kid-fun.html">Kid fun</a><a href="/calendar.html">The calendar</a><a href="/about.html">Our story</a><a class="nav-search" href="/library.html#library-search">Search <span aria-hidden="true">↗</span></a></nav></header><main id="main" class="ellis-review er-arrival-edition er-map-edition">
+</style><style>
+/* Preview-only visual plan: an illustrated spread with details available on demand. */
+.ellis-review.er-visual-notes .er-harbor-threshold h2{font-size:clamp(3.2rem,5.6vw,5.2rem);line-height:1.04;margin:.35rem 0 1rem}
+.ellis-review.er-visual-notes .er-harbor-threshold>div>p:not(.er-kicker){max-width:29ch}
+.ellis-review.er-visual-notes .er-visit-spread{margin:1.3rem 0 3rem;padding:2rem 0 0;border-top:1px solid var(--er-line);scroll-margin-top:7rem}
+.ellis-review.er-visual-notes .er-visit-heading{display:flex;justify-content:space-between;gap:1rem;align-items:end;margin-bottom:1rem}
+.ellis-review.er-visual-notes .er-visit-heading h2{font:normal clamp(2rem,3.4vw,3.15rem)/1.08 Georgia,'Times New Roman',serif;margin:.4rem 0 0;color:var(--er-ink)}
+.ellis-review.er-visual-notes .er-visit-invitation{font:italic 1.13rem/1.5 Georgia,'Times New Roman',serif;color:var(--er-green);margin:0}
+.ellis-review.er-visual-notes .er-visit-steps{list-style:none;padding:1.5rem 0 .75rem;margin:0;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:2rem}
+.ellis-review.er-visual-notes .er-visit-steps li{display:grid;grid-template-columns:1.6rem 1fr;gap:.65rem;align-items:baseline;margin:0;padding:0;border:0}
+.ellis-review.er-visual-notes .er-visit-steps li>span{font:italic .95rem/1.4 Georgia,'Times New Roman',serif;color:var(--er-green)}
+.ellis-review.er-visual-notes .er-visit-steps h3{font:normal 1.25rem/1.25 Georgia,'Times New Roman',serif;color:var(--er-ink);margin:0 0 .3rem}
+.ellis-review.er-visual-notes .er-visit-steps p{font:normal .86rem/1.5 Arial,Helvetica,sans-serif;margin:0;max-width:31ch}
+.ellis-review.er-visual-notes .er-crossing-scene{margin:0;min-width:0}
+.ellis-review.er-visual-notes .er-crossing-scene img{display:block;width:100%;height:auto;object-fit:contain;border:0;border-radius:0;box-shadow:none}
+.ellis-review.er-visual-notes .er-crossing-scene figcaption{text-align:center;font:italic .9rem/1.4 Georgia,'Times New Roman',serif;color:var(--er-green);margin:.25rem 0 0}
+.ellis-review.er-visual-notes .er-visit-afterword{display:flex;align-items:baseline;justify-content:space-between;gap:1rem;padding:1.1rem 0;margin-top:.7rem;border-top:1px solid var(--er-line)}
+.ellis-review.er-visual-notes .er-holiday-note{font:.79rem/1.55 Arial,Helvetica,sans-serif;max-width:76ch;margin:0}
+.ellis-review.er-visual-notes .er-holiday-note strong{color:var(--er-green)}
+.ellis-review.er-visual-notes .er-picture-plan-link{font:.8rem/1.4 Arial,Helvetica,sans-serif;flex-shrink:0}
+.ellis-review.er-visual-notes .er-visit-pocket{border-top:1px solid var(--er-line);border-bottom:1px solid var(--er-line);scroll-margin-top:7rem}
+.ellis-review.er-visual-notes .er-visit-pocket summary{display:flex;justify-content:space-between;gap:1rem;list-style:none;cursor:pointer;padding:1rem 0;font:normal 1.08rem/1.4 Georgia,'Times New Roman',serif;color:var(--er-ink)}
+.ellis-review.er-visual-notes .er-visit-pocket summary::-webkit-details-marker{display:none}
+.ellis-review.er-visual-notes .er-visit-pocket summary b{font:normal 1.1rem/1.3 Arial,Helvetica,sans-serif}
+.ellis-review.er-visual-notes .er-visit-pocket[open] summary b{transform:rotate(45deg)}
+.ellis-review.er-visual-notes .er-visit-pocket-content{display:grid;grid-template-columns:1fr 1fr;gap:2rem;padding:0 0 1.35rem;max-width:1100px}
+.ellis-review.er-visual-notes .er-visit-pocket-content dl{margin:0;display:grid;gap:1rem}
+.ellis-review.er-visual-notes .er-visit-pocket-content dt,.ellis-review.er-visual-notes .er-visit-pocket-content h3{font:bold 1rem/1.4 Georgia,'Times New Roman',serif;margin:0 0 .25rem}
+.ellis-review.er-visual-notes .er-visit-pocket-content dd,.ellis-review.er-visual-notes .er-visit-pocket-content p{font:.88rem/1.65 Arial,Helvetica,sans-serif;margin:0 0 .7rem}
+.ellis-review.er-visual-notes .er-visit-pocket summary:focus-visible,.ellis-review.er-visual-notes .er-visit-spread a:focus-visible{outline:2px solid var(--er-green);outline-offset:5px}
+@media(max-width:760px){
+.ellis-review.er-visual-notes .er-visit-heading{display:block}
+.ellis-review.er-visual-notes .er-visit-invitation{margin:.7rem 0 0}
+.ellis-review.er-visual-notes .er-visit-steps{grid-template-columns:1fr;gap:1rem;padding:1.2rem 0 .5rem}
+.ellis-review.er-visual-notes .er-visit-steps p{max-width:none}
+.ellis-review.er-visual-notes .er-visit-afterword{display:block}
+.ellis-review.er-visual-notes .er-picture-plan-link{display:inline-block;margin-top:.8rem;min-height:44px;padding:.4rem 0}
+.ellis-review.er-visual-notes .er-visit-pocket-content{grid-template-columns:1fr;gap:1rem}
+}
+@media print{.ellis-review.er-visual-notes .er-visit-spread{break-inside:avoid}.ellis-review.er-visual-notes .er-visit-pocket-content{display:block}.ellis-review.er-visual-notes .er-picture-plan-link{display:none}}
+</style>
+</head><body><a class="skip" href="#main">Skip to content</a><header class="mag-masthead"><a class="mag-brand" href="/" aria-label="An AUsome Life home"><img src="/assets/coastal-emblem.webp" alt="" width="80" height="80"><span>An AUsome Life<small>In pursuit of the Good New England Life</small></span></a><nav aria-label="Main navigation"><a href="/blog.html">Blog</a><a href="/library.html">The library</a><a href="/favorite-places.html">Favorite places</a><a href="/kid-fun.html">Kid fun</a><a href="/calendar.html">The calendar</a><a href="/about.html">Our story</a><a class="nav-search" href="/library.html#library-search">Search <span aria-hidden="true">↗</span></a></nav></header><main id="main" class="ellis-review er-arrival-edition er-map-edition er-visual-notes">
   <div class="er-meta"><a href="/blog.html">The journal</a><span>New York Harbor</span><span class="er-preview-label">Article preview</span></div>
   <section class="er-cover" aria-labelledby="er-title">
     <div class="er-lead">
@@ -147,7 +188,7 @@
       
     </article></section>
 <section class="er-map-destination" id="ferry-guide" aria-labelledby="er-ferry-title">
-  <header class="er-harbor-threshold"><div><p class="er-kicker">New York Harbor · find your own way in</p><h2 id="er-ferry-title">Two shores.<br>A little room to explore.</h2><p>Choose a numbered stop for the access details worth knowing before you go. The same notes are listed beside the map.</p><p class="er-map-whisper">A place to pause, a question to ask, a way aboard.</p></div><figure class="er-harbor-border"><img src="/assets/preview-ellis/harbor-illustration-transparent-v2.webp" alt="Original ink-and-watercolor impression of Ellis Island across the harbor" width="1536" height="1024" loading="lazy"><figcaption>Ellis Island, in ink and watercolor.</figcaption></figure></header>
+  <header class="er-harbor-threshold"><div><p class="er-kicker">New York Harbor · find your own way in</p><h2 id="er-ferry-title">Ellis Island</h2><p>Choose a stop. Find the access notes for your day.</p></div><figure class="er-harbor-border"><img src="/assets/preview-ellis/harbor-illustration-transparent-v2.webp" alt="Original ink-and-watercolor impression of Ellis Island across the harbor" width="1536" height="1024" loading="lazy"><figcaption>Ellis Island, in ink and watercolor.</figcaption></figure></header>
   <div class="er-map-experience">
     <div class="er-map-paper">
       <div class="er-harbor-map" data-active-place="ellis" aria-label="Illustrated New York Harbor orientation map">
@@ -286,23 +327,16 @@
   </div>
 </section>
 
-<aside class="er-glance er-skim-notes" id="at-a-glance" aria-labelledby="er-glance-title">
-      <p class="er-kicker">The useful part, close at hand</p><h2 id="er-glance-title">At a Glance</h2>
-      <dl>
-        <div><dt>The outing</dt><dd>Ellis Island and a harbor crossing. Choose the museum stop that matters to your family.</dd></div>
-        <div><dt>The tip we brought home</dt><dd>Ask the people who work there. Staff found what Grandpa wanted in about five minutes.</dd></div>
-        <div><dt>The part to plan first</dt><dd>Your departure point, boarding needs and the return ferry.</dd></div>
-        <div><dt>Our unexpected splurge</dt><dd>A Thanksgiving-morning pedicab. Probably overpriced. Warm blanket included.</dd></div>
-      </dl>
-      <div class="er-date-note"><svg aria-hidden="true" viewBox="0 0 32 32"><use href="/assets/editorial-icons.svg#calendar"></use></svg><p><strong>Check the holiday.</strong><br>Ellis Island is closed on Thanksgiving Day and December 25. <a href="https://www.nps.gov/elis/planyourvisit/hours.htm">NPS hours &amp; closures</a></p></div>
-      <nav class="er-jumps" aria-label="In this field note"><a href="#practical-details">Access &amp; facilities</a><a href="#ferry-guide">Ferry guide</a><a href="#visual-plan">Visual plan</a><a href="#practical-details">Practical details</a></nav>
-    </aside>
-<section class="er-choices" aria-labelledby="er-choices-title"><div class="er-section-heading"><div><p class="er-kicker">Choose your own outing</p><h2 id="er-choices-title">Leave room in the day.</h2></div><p class="er-handnote">One good part can be enough.</p></div>
-    <div class="er-choice-grid"><article><span class="er-choice-number">01</span><h3>Make Ellis the main thing</h3><p>Choose the family-history question or museum stop you came for. Allow for security, boarding, the crossing and your return.</p></article><article><span class="er-choice-number">02</span><h3>Add Liberty, if it fits</h3><p>Check the actual sailing sequence and leave enough time for both islands. A late departure may limit your options.</p></article><article><span class="er-choice-number">03</span><h3>Save the island for another day</h3><p>If ferry logistics are too much today, choose a separate mainland outing. Ellis Island is not a twenty-minute stop.</p></article></div>
-  </section>
-
-  <section class="er-visual-plan" id="visual-plan" aria-labelledby="er-plan-title"><div class="er-section-heading"><div><p class="er-kicker">A simple look at the visit</p><h2 id="er-plan-title">Our visual plan</h2></div><a href="/visit-story.html">Make your own picture plan</a></div>
-    <ol class="er-plan"><li><span>01</span><svg aria-hidden="true" viewBox="0 0 32 32"><use href="/assets/editorial-icons.svg#calendar"></use></svg><h3>Check the day</h3><p>Tickets, hours, departure point.</p></li><li><span>02</span><svg aria-hidden="true" viewBox="0 0 32 32"><use href="/assets/editorial-icons.svg#compass"></use></svg><h3>Arrive &amp; ask</h3><p>Security, boarding and the help you need.</p></li><li><span>03</span><svg aria-hidden="true" viewBox="0 0 32 32"><use href="/assets/editorial-icons.svg#picture"></use></svg><h3>Cross the harbor</h3><p>Keep communication and comfort close.</p></li><li><span>04</span><svg aria-hidden="true" viewBox="0 0 32 32"><use href="/assets/editorial-icons.svg#book"></use></svg><h3>Find your one thing</h3><p>Ask staff. Explore. Leave space for a pause.</p></li><li><span>05</span><svg aria-hidden="true" viewBox="0 0 32 32"><use href="/assets/editorial-icons.svg#home"></use></svg><h3>Keep the return</h3><p>Check the ferry before you need it.</p></li></ol>
+<section class="er-visit-spread" id="visual-plan" aria-labelledby="er-visit-title">
+    <header class="er-visit-heading"><div><p class="er-kicker">Ellis Island · a simple plan</p><h2 id="er-visit-title">Picture the day.</h2></div><p class="er-visit-invitation">One good thing. A little room around it.</p></header>
+    <figure class="er-crossing-scene"><img src="/assets/preview-ellis/ellis-harbor-arrival-v2.webp" alt="Original ink-and-watercolor harbor-arrival study, looking past a ferry railing toward Ellis Island" width="2172" height="724" loading="lazy"><figcaption>The crossing is part of the day.</figcaption></figure>
+    <ol class="er-visit-steps">
+      <li><span aria-hidden="true">01</span><div><h3>Choose your crossing.</h3><p>Tickets, boarding help, a place to begin.</p></div></li>
+      <li><span aria-hidden="true">02</span><div><h3>Find your one thing.</h3><p>A family-history question. A museum stop. Time to look.</p></div></li>
+      <li><span aria-hidden="true">03</span><div><h3>Keep room for the return.</h3><p>Watch the sailing time. Another island can wait.</p></div></li>
+    </ol>
+    <div class="er-visit-afterword"><p class="er-holiday-note"><strong>Choose the day, too.</strong> Ellis Island is closed on Thanksgiving Day and December 25. <a href="https://www.nps.gov/elis/planyourvisit/hours.htm">Check NPS hours.</a></p><a class="er-picture-plan-link" href="/visit-story.html">Make your own picture plan</a></div>
+    <details class="er-visit-pocket" id="at-a-glance"><summary><span>At a glance &amp; choosing your day</span><b aria-hidden="true">+</b></summary><div class="er-visit-pocket-content"><dl><div><dt>Begin on either shore</dt><dd>Ferries depart from The Battery in New York and Liberty State Park in New Jersey. The sailing order differs; use the map above.</dd></div><div><dt>The tip we brought home</dt><dd>Ask the people who work there. Staff found what Grandpa wanted in about five minutes. That was our experience, not a promised research time.</dd></div></dl><div><h3>Keep it as small as you need.</h3><p>Make Ellis the main thing. Add Liberty only if the sailing sequence and your time allow. If the ferry logistics are too much today, save the island for another visit and choose a separate mainland outing.</p><p>Allow for security, boarding, the crossing and your return. Ellis Island is not a twenty-minute stop.</p></div></div></details>
   </section>
 
   <section class="er-practical" id="practical-details" aria-labelledby="er-practical-title"><div class="er-section-heading"><div><p class="er-kicker">The details that make the lovely part possible</p><h2 id="er-practical-title">Know before you go.</h2></div><span class="er-caption">Open just what you need.</span></div>
