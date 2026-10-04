@@ -3,11 +3,14 @@
   'use strict';
   if (window.__AAL_GLOBAL_NAV__) return;
   window.__AAL_GLOBAL_NAV__ = true;
+  if(!document.querySelector('link[href*="/assets/illustrated-navigation.css"]')){const illustrated=document.createElement('link');illustrated.rel='stylesheet';illustrated.href='/assets/illustrated-navigation.css?v=20261004-approved';document.head.append(illustrated);}
 
   document.querySelectorAll('use[href^="/assets/editorial-icons.svg#"]').forEach(use => use.setAttribute('href', use.getAttribute('href').replace('/assets/editorial-icons.svg#','/assets/editorial-icons.svg?v=20261003-journal#')));
   const fold = value => (value || '').toLocaleLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
   const esc = value => (value || '').replace(/[&<>"']/g, char => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));
   const icon = name => {
+    const miniatures={home:'home',search:'search',menu:'menu',compass:'menu',outing:'outings',family:'home',talk:'picture-cards',calendar:'calendar',book:'directory',journal:'journal'};
+    if(miniatures[name])return '<img class="aal-nav-miniature" src="/assets/navigation-watercolors/'+miniatures[name]+'-128.webp" alt="" aria-hidden="true" width="64" height="64">';
     const drawings={home:'home',compass:'compass',outing:'compass',family:'heart',talk:'picture',calendar:'calendar',book:'address-book',journal:'journal',search:'search',menu:'menu'};
     if(drawings[name])return '<svg viewBox="0 0 32 32" aria-hidden="true" focusable="false"><use href="/assets/editorial-icons.svg?v=20261003-journal#'+drawings[name]+'"></use></svg>';
     return ({
@@ -56,7 +59,7 @@
     {label:'Home',href:'/',icon:'home',match:['/','/index.html']},
     {label:'Find anything',action:'search',icon:'search',hint:'⌘K'},
     {label:'Menu',action:'sections',icon:'menu'},
-    {label:'Outings',href:'/favorite-places.html',icon:'outing',match:['/favorite-places.html'],prefix:'/favorite-places/'},
+    {label:'Outings',href:'/favorite-places.html',icon:'outing',match:['/favorite-places.html'],prefix:'/favorite-places'},
     {label:'Journal',href:'/blog.html',icon:'journal',match:['/blog.html','/older-teen-swim-guide.html','/hotel-pool-checklist.html','/pool-weekend-kit.html']},
     {label:'Make cards',href:'/communication-card-generator.html',icon:'talk',match:['/communication-card-generator.html','/visit-story.html','/aac-outing-note.html']},
     {label:'Calendar',href:'/calendar.html',icon:'calendar',match:['/calendar.html']},
@@ -148,9 +151,17 @@
     if (loading) return loading;
     loading = (async()=>{
       try {
-        const response=await fetch('/data/site-index.json?v=village-20261003');
-        if(!response.ok) throw Error('Search unavailable');
-        const rows=await response.json();
+        let rows;
+        try {
+          const manifestResponse=await fetch('/data/site-index-manifest.json?v=20261004-illustrated');
+          if(!manifestResponse.ok)throw Error('Search manifest unavailable');
+          const paths=await manifestResponse.json();
+          rows=(await Promise.all(paths.map(async path=>{const response=await fetch(path);if(!response.ok)throw Error('Search chunk unavailable');return response.json();}))).flat();
+        } catch (_) {
+          const response=await fetch('/data/site-index.json?v=village-20261003');
+          if(!response.ok)throw Error('Search unavailable');
+          rows=await response.json();
+        }
         const aliases=new Map(staticItems.map(item=>[item.url,item]));
         const seen=new Set(rows.map(item=>item.url));
         data=[...rows.map(item=>({...aliases.get(item.url),...item,aliases:((aliases.get(item.url)||{}).aliases||'')+' '+(item.aliases||'')})),...staticItems.filter(item=>!seen.has(item.url))];

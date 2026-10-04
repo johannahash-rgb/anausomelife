@@ -4,40 +4,26 @@
     {
       "asset": "assets/family-outings/lexington-ice-cream-family.webp",
       "caption": "Ice cream in Lexington, September 2026.",
-      "rights": "Owner-provided family photograph, used for the owner\u2019s website at their direction. Not licensed for third-party reuse.",
+      "rights": "Owner-provided family photograph, used for the owner’s website at their direction. Not licensed for third-party reuse.",
       "transformations": "EXIF orientation applied; whole frame resized to maximum 1800px; WebP compression. No retouching, generative editing, crops, overlays, person alterations, or color changes. GPS and personal EXIF stripped from web copy."
     },
     {
       "asset": "assets/family-outings/fort-mcclary-waterfront.webp",
       "caption": "At the Fort McClary waterfront, September 2026.",
-      "rights": "Owner-provided family photograph, used for the owner\u2019s website at their direction. Not licensed for third-party reuse.",
+      "rights": "Owner-provided family photograph, used for the owner’s website at their direction. Not licensed for third-party reuse.",
       "transformations": "EXIF orientation applied; whole frame resized to maximum 1800px; WebP compression. No retouching, generative editing, crops, overlays, person alterations, or color changes. GPS and personal EXIF stripped from web copy."
     },
     {
       "asset": "assets/family-outings/llbean-freeport-games.webp",
       "caption": "A games stop at L.L.Bean in Freeport, September 2026.",
-      "rights": "Owner-provided family photograph, used for the owner\u2019s website at their direction. Not licensed for third-party reuse.",
+      "rights": "Owner-provided family photograph, used for the owner’s website at their direction. Not licensed for third-party reuse.",
       "transformations": "EXIF orientation applied; whole frame resized to maximum 1800px; WebP compression. No retouching, generative editing, crops, overlays, person alterations, or color changes. GPS and personal EXIF stripped from web copy."
     },
     {
       "asset": "assets/family-outings/wells-beach-family.webp",
       "caption": "A windy morning beside Wells Beach, September 2026.",
-      "rights": "Owner-provided family photograph, used for the owner\u2019s website at their direction. Not licensed for third-party reuse.",
+      "rights": "Owner-provided family photograph, used for the owner’s website at their direction. Not licensed for third-party reuse.",
       "transformations": "EXIF orientation applied; whole frame resized to maximum 1800px; WebP compression. No retouching, generative editing, crops, overlays, person alterations, or color changes. GPS and personal EXIF stripped from web copy."
-    },
-    {
-      "asset": "assets/family-outings/frog-pond-carousel-2025.webp",
-      "caption": "Frog Pond Carousel, April 2025. Photo: Daderot / Wikimedia Commons, CC0.",
-      "rights": "CC0",
-      "transformations": "Whole frame resized to maximum 1800px; converted to WebP. No other edits.",
-      "source": "https://commons.wikimedia.org/wiki/File:Frog_Pond_Carousel_-_Boston_Common_-_Boston,_MA.jpg"
-    },
-    {
-      "asset": "assets/family-outings/cornell-community-pool-2015.webp",
-      "caption": "An indoor pool example: Cornell Community Centre, Ontario, July 2015. Photo: Raysonho / Wikimedia Commons, CC0.",
-      "rights": "CC0",
-      "transformations": "Whole frame resized to maximum 1800px; converted to WebP. No other edits.",
-      "source": "https://commons.wikimedia.org/wiki/File:CornellCommunityCentreSwimmingPool.jpg"
     }
   ]
 }

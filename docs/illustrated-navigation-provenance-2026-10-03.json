@@ -1,0 +1,112 @@
+{
+  "created": "2026-10-03",
+  "kind": "Original pen-and-watercolor navigation illustrations",
+  "generation": "OpenAI built-in image generation, one original generation per subject",
+  "use": "Decorative navigation miniatures with separate visible text labels. Architecture and map details are illustrative, not verified venue references.",
+  "assets": [
+    {
+      "id": "home",
+      "files": [
+        "assets/navigation-watercolors/home-128.webp",
+        "assets/navigation-watercolors/home-320.webp"
+      ],
+      "dimensions": [
+        128,
+        320
+      ],
+      "alpha": "Transparent background preserved",
+      "processing": "Whole-frame resizing and lossless WebP conversion; no crop"
+    },
+    {
+      "id": "search",
+      "files": [
+        "assets/navigation-watercolors/search-128.webp",
+        "assets/navigation-watercolors/search-320.webp"
+      ],
+      "dimensions": [
+        128,
+        320
+      ],
+      "alpha": "Transparent background preserved",
+      "processing": "Whole-frame resizing and lossless WebP conversion; no crop"
+    },
+    {
+      "id": "menu",
+      "files": [
+        "assets/navigation-watercolors/menu-128.webp",
+        "assets/navigation-watercolors/menu-320.webp"
+      ],
+      "dimensions": [
+        128,
+        320
+      ],
+      "alpha": "Transparent background preserved",
+      "processing": "Whole-frame resizing and lossless WebP conversion; no crop"
+    },
+    {
+      "id": "outings",
+      "files": [
+        "assets/navigation-watercolors/outings-128.webp",
+        "assets/navigation-watercolors/outings-320.webp"
+      ],
+      "dimensions": [
+        128,
+        320
+      ],
+      "alpha": "Transparent background preserved",
+      "processing": "Whole-frame resizing and lossless WebP conversion; no crop"
+    },
+    {
+      "id": "journal",
+      "files": [
+        "assets/navigation-watercolors/journal-128.webp",
+        "assets/navigation-watercolors/journal-320.webp"
+      ],
+      "dimensions": [
+        128,
+        320
+      ],
+      "alpha": "Transparent background preserved",
+      "processing": "Whole-frame resizing and lossless WebP conversion; no crop"
+    },
+    {
+      "id": "picture-cards",
+      "files": [
+        "assets/navigation-watercolors/picture-cards-128.webp",
+        "assets/navigation-watercolors/picture-cards-320.webp"
+      ],
+      "dimensions": [
+        128,
+        320
+      ],
+      "alpha": "Transparent background preserved",
+      "processing": "Whole-frame resizing and lossless WebP conversion; no crop"
+    },
+    {
+      "id": "calendar",
+      "files": [
+        "assets/navigation-watercolors/calendar-128.webp",
+        "assets/navigation-watercolors/calendar-320.webp"
+      ],
+      "dimensions": [
+        128,
+        320
+      ],
+      "alpha": "Transparent background preserved",
+      "processing": "Whole-frame resizing and lossless WebP conversion; no crop"
+    },
+    {
+      "id": "directory",
+      "files": [
+        "assets/navigation-watercolors/directory-128.webp",
+        "assets/navigation-watercolors/directory-320.webp"
+      ],
+      "dimensions": [
+        128,
+        320
+      ],
+      "alpha": "Transparent background preserved",
+      "processing": "Whole-frame resizing and lossless WebP conversion; no crop"
+    }
+  ]
+}

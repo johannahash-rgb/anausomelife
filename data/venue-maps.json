@@ -5,7 +5,7 @@
     "scope": "Published Favorite Places directory and calendar venue profiles",
     "totalVenues": 48,
     "orientationMaps": 1,
-    "officialMapCollections": 2,
+    "officialMapCollections": 4,
     "note": "Coverage is in progress. A venue listing is not a verified accessible map."
   },
   "venues": [
@@ -566,15 +566,43 @@
         "Kittery Food Mart + Fort McClary"
       ],
       "name": "Kittery Food Mart + Fort McClary",
-      "pageUrl": "/favorite-places-kittery-food-mart-fort-mcclary.html",
-      "status": "research-needed",
-      "statusLabel": "Venue map not yet verified",
+      "pageUrl": "/favorite-places/kittery-food-mart-fort-mcclary.html",
+      "status": "official-maps",
+      "statusLabel": "Official map & access notes",
       "group": "favorite-places",
-      "summary": "Use the venue’s current information before choosing an entrance or relying on a facility.",
-      "reviewedAt": null,
+      "summary": "Keep the picnic and harbor-view route separate from the fort’s rough steps and steep paths.",
+      "reviewedAt": "2026-10-03",
       "map": null,
-      "officialMaps": [],
-      "facts": [],
+      "officialMaps": [
+        {
+          "label": "Open the official Fort McClary map",
+          "url": "https://www.maine.gov/dacf/parks/docs/maps/fortmclary.pdf"
+        }
+      ],
+      "facts": [
+        {
+          "label": "Fort terrain",
+          "text": "Maine describes rough steps and steep paths at the fort and blockhouse, and lists the trails as not accessible.",
+          "sourceIds": [
+            "maine-access"
+          ]
+        },
+        {
+          "label": "Picnic and bay views",
+          "text": "The state lists accessible parking, picnic tables and a shelter, and generally accessible bay views. Confirm the route and current conditions for your group.",
+          "sourceIds": [
+            "maine-access"
+          ]
+        },
+        {
+          "label": "Restrooms and season",
+          "text": "Read the state’s restroom caveat and seasonal facility information before relying on a picnic-area toilet or changing space.",
+          "sourceIds": [
+            "maine-access",
+            "maine-visit"
+          ]
+        }
+      ],
       "unknowns": [
         "Which entrance gives us a continuous step-free route?",
         "Where is the nearest usable restroom and changing space?",
@@ -582,10 +610,14 @@
       ],
       "sources": [
         {
-          "id": "existing-venue-link",
-          "label": "Venue information",
-          "url": "https://www.thekitteryfoodmart.com/",
-          "verification": "Carried from place directory; detailed mapping review pending"
+          "id": "maine-access",
+          "label": "Maine access guide",
+          "url": "https://apps.web.maine.gov/cgi-bin/online/doc/parksearch/access.pl?park_id=38"
+        },
+        {
+          "id": "maine-visit",
+          "label": "Fort McClary visitor information",
+          "url": "https://www.maine.gov/fortmcclary"
         }
       ]
     },
@@ -808,14 +840,41 @@
       ],
       "name": "Rancatore’s Ice Cream",
       "pageUrl": "/favorite-places-rancatores-lexington.html",
-      "status": "research-needed",
-      "statusLabel": "Venue map not yet verified",
+      "status": "official-map-source",
+      "statusLabel": "Town map & public-facility notes",
       "group": "favorite-places",
-      "summary": "Use the venue’s current information before choosing an entrance or relying on a facility.",
-      "reviewedAt": null,
+      "summary": "Choose a short Lexington Center walk, a turning point and a public-facility backup before setting off.",
+      "reviewedAt": "2026-10-03",
       "map": null,
-      "officialMaps": [],
-      "facts": [],
+      "officialMaps": [
+        {
+          "label": "Open the official Lexington Center map",
+          "url": "https://www.tourlexington.us/wp-content/uploads/2024/03/Center-Map.pdf"
+        }
+      ],
+      "facts": [
+        {
+          "label": "A center walk",
+          "text": "The visitor map locates Rancatore’s, the Visitors Center, the Battle Green and center parking. Pick a short stretch; a continuous step-free route has not been verified here.",
+          "sourceIds": [
+            "center-map"
+          ]
+        },
+        {
+          "label": "Public restrooms",
+          "text": "The town lists public restrooms on the Visitors Center’s lower floor, reached by stairs and elevator. Check current hours and elevator operation.",
+          "sourceIds": [
+            "visitor-services"
+          ]
+        },
+        {
+          "label": "Parking choices",
+          "text": "The town lists Mass Avenue meters, Depot Square and NStar lots. Check the current signs, payment rules and route from the space you actually use.",
+          "sourceIds": [
+            "parking"
+          ]
+        }
+      ],
       "unknowns": [
         "Which entrance gives us a continuous step-free route?",
         "Where is the nearest usable restroom and changing space?",
@@ -823,10 +882,19 @@
       ],
       "sources": [
         {
-          "id": "existing-venue-link",
-          "label": "Venue information",
-          "url": "https://www.rancs.com/",
-          "verification": "Carried from place directory; detailed mapping review pending"
+          "id": "center-map",
+          "label": "Lexington visitor map",
+          "url": "https://www.tourlexington.us/wp-content/uploads/2024/03/Center-Map.pdf"
+        },
+        {
+          "id": "visitor-services",
+          "label": "Visitors Center services",
+          "url": "https://www.lexingtonma.gov/2012/Visitors-Center-Hours-Services"
+        },
+        {
+          "id": "parking",
+          "label": "Town parking information",
+          "url": "https://www.lexingtonma.gov/367/Parking-in-Lexington-Center"
         }
       ]
     },

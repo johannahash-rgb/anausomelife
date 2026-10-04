@@ -1,0 +1,13 @@
+/* Draft-only structural helpers. No new imagery or icon system. */
+.caregiver-notes .article-body h2{padding-top:0}
+.caregiver-notes .article-body h2::before{display:none}
+.caregiver-notes .article-toc a{display:inline-block;padding-block:5px}
+.caregiver-notes .role-directory{list-style:none;padding-left:0}
+.caregiver-notes .role-directory>li{padding-block:12px;border-bottom:1px solid var(--ed-line)}
+.caregiver-notes .role-directory a{display:inline-block;min-height:44px;padding-block:8px}
+.caregiver-notes .role-directory p{margin:0;font-size:.95rem}
+.caregiver-notes .handover-template{border-block:1px solid var(--ed-line);padding-block:16px}
+.caregiver-notes .handover-template dt{font-weight:700;margin-top:14px}
+.caregiver-notes .handover-template dd{margin-left:0}
+.caregiver-notes .family-return{margin-top:35px;padding-top:20px;border-top:1px solid var(--ed-line)}
+@media print{.caregiver-notes .article-heading{break-after:avoid}.caregiver-notes .handover-template dt{break-after:avoid}.caregiver-notes .family-return{display:none}.caregiver-notes .article-body h2{padding-top:0}}
