@@ -15,6 +15,8 @@
 
     const selectors = [
       '.favorite-cover img',
+      '.favorite-hero-art img',
+      '.hero figure img',
       '.notebook-story-cover img',
       '.coffee-hero figure img',
       '.coffee-hero img',
@@ -37,8 +39,9 @@
 
     const exact = document.querySelector('meta[name="aal-picture-card-label"]')?.content?.trim();
     const heading = h1.textContent.replace(/\s+/g, ' ').trim();
-    const isPlace = document.body.classList.contains('favorite-place-page');
+    const isPlace = document.body.classList.contains('favorite-place-page') || document.body.classList.contains('favorite-page');
     let label = exact || heading;
+    if (!exact && isPlace && label.includes(':')) label = label.split(':')[0].trim();
     if (!exact && !isPlace && label.length > 34) {
       const firstClause = label.split(/[,;:—–]/)[0].trim();
       if (firstClause.length >= 4) label = firstClause;
@@ -47,6 +50,7 @@
 
     const place = document.querySelector('meta[name="aal-picture-card-place"]')?.content?.trim()
       || main.querySelector('.favorite-place-name')?.textContent?.replace(/\s+/g, ' ').trim()
+      || (isPlace ? main.querySelector('.hero .lede')?.textContent?.replace(/\s+/g, ' ').trim() : '')
       || '';
     const description = hero.getAttribute('alt')?.trim() || heading;
 
