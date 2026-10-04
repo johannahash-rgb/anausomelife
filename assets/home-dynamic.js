@@ -4,7 +4,10 @@
   const root = document.querySelector('.home-welcome');
   if (!root) return;
 
-  const analytics = (name, params) => window.AALAnalytics?.track(name, params);
+  const analytics = (name, params) => {
+    if (window.AALAnalytics) window.AALAnalytics.track(name, params);
+    else (window.__AAL_PENDING_EVENTS__ ||= []).push({ name, params });
+  };
 
   // Stable 50/50 hero experiment. A visitor keeps the same version.
   const experimentId = 'home_hero_v1';
