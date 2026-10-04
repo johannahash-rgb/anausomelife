@@ -51,7 +51,7 @@ function cleanText(value, max) {
 async function classifyInput(text) {
   if (SITE_BLOCK.test(text)) return false;
   const result = await generateText({
-    model: "openai/gpt-6-luna",
+    model: "openai/gpt-oss-safeguard-120b",
     system: INPUT_MODERATION_SYSTEM,
     prompt: `Classify this communication-card request:\n\n${text}`,
     reasoning: "none",
@@ -70,7 +70,7 @@ async function classifyInput(text) {
 
 async function classifyOutput(image, requestText) {
   const result = await generateText({
-    model: "openai/gpt-6-luna",
+    model: "google/gemini-3.1-flash-lite",
     system: OUTPUT_MODERATION_SYSTEM,
     messages: [{
       role: "user",
@@ -92,7 +92,7 @@ async function classifyOutput(image, requestText) {
     abortSignal: AbortSignal.timeout(25000),
     providerOptions: {
       gateway: {
-        only: ["openai"],
+        only: ["google"],
         tags: ["feature:picture-card", "stage:output-moderation"]
       }
     }
