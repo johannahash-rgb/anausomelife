@@ -1,10 +1,6 @@
 /* Self-contained deterministic downloadable picture card for eligible An AUsome Life stories. No AI, no API. */
 (() => {
   'use strict';
-  const __debug=new URLSearchParams(location.search).has('carddebug');
-  const __mark=s=>{if(__debug)document.title=document.title.replace(/ · CARD:[^·]+$/,'')+' · CARD:'+s;};
-  __mark('loaded');
-
   function clean(value){ return String(value || '').replace(/\s+/g,' ').trim(); }
   function slugify(value){
     return clean(value).toLocaleLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'')
@@ -85,13 +81,13 @@
   }
 
   function start(){
-    if(document.body.classList.contains('picture-card-page')||document.body.classList.contains('picture-card-library-page')){__mark('excluded');return;}
-    if(document.querySelector('[data-aal-article-picture-card]')){__mark('exists');return;}
-    __mark('start');
+    if(document.body.classList.contains('picture-card-page')||document.body.classList.contains('picture-card-library-page'))return;
+    const existing=document.querySelector('[data-aal-article-picture-card]');
+    if(existing?.dataset.aalArticlePictureCardVersion==='static4')return;
+    if(existing)existing.remove();
 
     const main=document.querySelector('main'),h1=main?.querySelector('h1');
-    if(!main||!h1){__mark('no-h1');return;}
-    __mark('h1');
+    if(!main||!h1)return;
 
     const selectors=[
       '.favorite-cover img','.favorite-hero-art img','.hero figure img',
@@ -104,14 +100,12 @@
       const candidate=main.querySelector(selector);
       if(candidate){hero=candidate;break;}
     }
-    if(!hero){__mark('no-hero');return;}
-    __mark('hero');
+    if(!hero)return;
 
     const rawSrc=hero.currentSrc||hero.getAttribute('src')||'';
-    if(!rawSrc){__mark('no-src');return;}
+    if(!rawSrc)return;
     const imageUrl=new URL(rawSrc,location.href);
-    if(imageUrl.origin!==location.origin){__mark('cross-origin');return;}
-    __mark('image');
+    if(imageUrl.origin!==location.origin)return;
 
     const exact=document.querySelector('meta[name="aal-picture-card-label"]')?.content?.trim();
     const heading=clean(h1.textContent);
@@ -122,8 +116,7 @@
       const firstClause=label.split(/[,;:—–]/)[0].trim();
       if(firstClause.length>=4)label=firstClause;
     }
-    if(!label){__mark('no-label');return;}
-    __mark('label');
+    if(!label)return;
 
     const place=document.querySelector('meta[name="aal-picture-card-place"]')?.content?.trim()
       ||clean(main.querySelector('.favorite-place-name')?.textContent)
@@ -146,7 +139,7 @@
     }
 
     const box=document.createElement('div');
-    box.className='aal-article-card-box';box.dataset.aalArticlePictureCard='';
+    box.className='aal-article-card-box';box.dataset.aalArticlePictureCard='';box.dataset.aalArticlePictureCardVersion='static4';
     const button=document.createElement('button');
     button.type='button';button.className='aal-article-card-button';button.textContent='Download picture card';
     const note=document.createElement('span');
@@ -163,7 +156,7 @@
       else h1.insertAdjacentElement('afterend',box);
     }
 
-    __mark('inserted');
+    window.__AAL_ARTICLE_PICTURE_CARD__=true;
 
     button.addEventListener('click',async()=>{
       button.disabled=true;status.textContent='Preparing your PNG…';
