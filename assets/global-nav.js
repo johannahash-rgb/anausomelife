@@ -5,6 +5,7 @@
   window.__AAL_GLOBAL_NAV__ = true;
   if(!document.querySelector('script[data-aal-analytics]')){const analytics=document.createElement('script');analytics.src='/assets/analytics.js?v=20261004-ab1';analytics.defer=true;analytics.dataset.aalAnalytics='true';document.head.append(analytics);}
   if(!document.querySelector('link[href*="/assets/illustrated-navigation.css"]')){const illustrated=document.createElement('link');illustrated.rel='stylesheet';illustrated.href='/assets/illustrated-navigation.css?v=20261004-approved';document.head.append(illustrated);}
+  if(document.body.classList.contains('journal-place')&&!document.querySelector('script[data-aal-journal-place]')){const story=document.createElement('script');story.src='/assets/journal-place.js?v=20261004-photo-first';story.defer=true;story.dataset.aalJournalPlace='true';document.head.append(story);}
 
   document.querySelectorAll('use[href^="/assets/editorial-icons.svg#"]').forEach(use => use.setAttribute('href', use.getAttribute('href').replace('/assets/editorial-icons.svg#','/assets/editorial-icons.svg?v=20261003-journal#')));
   const fold = value => (value || '').toLocaleLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
