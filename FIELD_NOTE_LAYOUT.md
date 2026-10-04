@@ -112,3 +112,47 @@ Avoid:
 5. Generic editorial illustration only when it is clearly labeled as such
 
 Never lead a family-tested place story with generic art when a meaningful real photograph exists.
+
+---
+
+## Downloadable picture card
+Every new outing, destination, journal story, product review or practical field note with a usable hero image should ship with a deterministic downloadable picture communication card.
+
+### Required include
+Add this before `</body>`:
+```html
+<script src="/assets/article-picture-card.js?v=20261004-static1" defer></script>
+```
+
+The script uses the page's existing approved hero photo or illustration and prepares a 1200×1200 PNG locally in the browser. It does **not** call an AI image service or upload the visitor's data.
+
+### Familiar label
+By default the card uses the page `<h1>`. For a shorter, more useful communication label, add:
+```html
+<meta name="aal-picture-card-label" content="Drumlin Farm">
+```
+For a destination/location line, add when the page markup does not already expose one:
+```html
+<meta name="aal-picture-card-place" content="Lincoln, Massachusetts">
+```
+
+Prefer a familiar place/product/activity name over an editorial headline. Examples:
+- `Drumlin Farm`, not `A familiar bit of countryside`;
+- `apple picking`, not the full essay headline;
+- `coffee` or the actual product name, depending on the purpose of the card;
+- `swimming`, `hotel`, `pool`, `Wegmans`, etc., when that is what the picture is meant to communicate.
+
+### Visual rule
+The downloadable card should keep:
+- one large familiar picture;
+- a white field;
+- restrained coastal-navy/pine border;
+- one clear word or short phrase underneath;
+- optional place line only when it helps.
+
+Do not turn the card into a mini article, ad, collage or branded graphic. Real family photos must remain real photos; do not restyle them to look AI-generated.
+
+### Central library
+Evergreen cards that are broadly useful should also be added to `/picture-card-library.html` via `/assets/picture-card-library.js`. The page-level download still exists even when a card is not promoted in the central library.
+
+These are picture communication cards, not official PECS® materials or the PECS® teaching protocol.
