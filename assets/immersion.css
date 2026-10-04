@@ -40,3 +40,57 @@ a,button{-webkit-tap-highlight-color:transparent}
 @media(max-width:480px){.mag-brand>span{font-size:1.95rem}.mag-brand small{font-size:.625rem;letter-spacing:.025em}.mag-brand img{width:50px;height:50px}.edition-line span:last-child{display:none}.edition-line{justify-content:center}.aal-arrival{min-height:510px}.aal-arrival h1{font-size:3.8rem}.aal-arrival .eyebrow{font-size:.75rem!important;max-width:30ch}.aal-arrival-content>p:not(.eyebrow){max-width:32ch}.aal-arrival-content>p br{display:none}.aal-arrival .actions{gap:12px}.aal-arrival .button{padding:12px 15px}.aal-art-credit{font-size:.6875rem;bottom:30px}.aal-welcome-desk{grid-template-columns:repeat(2,1fr)}.aal-welcome-desk>a{flex-direction:row;text-align:left;padding:5px;font-size:.9375rem}.aal-welcome-desk img{width:50px;height:50px}.aal-photo-story{min-height:310px}.aal-photo-story-main{min-height:380px}.aal-photo-story h3{font-size:1.75rem}.aal-photo-story span{font-size:.875rem}.aal-photo-story .eyebrow{font-size:.75rem!important}.aal-photo-story>div{padding:15px}.aal-district-grid{gap:12px}.aal-district-grid>a{padding:0 14px 17px}.aal-district-picture{height:140px;margin-inline:-14px}.aal-district-grid h3{font-size:1.5rem}.aal-district-grid p{font-size:.9375rem}.aal-district-grid .eyebrow{font-size:.6875rem!important;letter-spacing:.06em}.aal-desk-grid>a{grid-template-columns:105px minmax(0,1fr)}.aal-desk-grid>a>div{padding:16px}.aal-desk-grid h3{font-size:1.45rem}.aal-desk-grid p{font-size:.9375rem}.aal-desk-grid .eyebrow{font-size:.75rem!important}.aal-section-portrait{width:100px;height:110px}.library-heading h1{font-size:2.6rem}.library-heading .article-dek{font-size:1.2rem}.blog-story{grid-template-columns:90px minmax(0,1fr)}.blog-story img{width:90px;height:125px}.blog-story p{font-size:.9375rem}.mag-footer>.wrap{grid-template-columns:1fr}.footer-small span{margin-left:0}.topic-grid{gap:12px}.topic-grid>a{padding:12px}.topic-grid img{height:125px}.place-row .place-sketch{display:none}.aal-belong h2{font-size:2.15rem}}
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;transition:none!important;animation:none!important}}
 @media print{.aal-arrival,.aal-welcome-desk,.aal-more,.aal-breadcrumb,.aal-section-portrait,.footer-emblem{display:none!important}.mag-footer{background:white!important;color:#183c49!important}.section{padding-block:18px}.aal-photo-story{min-height:280px}.aal-neighborhood,.aal-play-band,.aal-belong{background:white;color:#183c49}.aal-play-inner h2,.aal-play-inner .eyebrow{color:#183c49}}
+
+
+/* Global immersive long-form rhythm — major guide sections should feel like a field guide, not a document. */
+.magazine-shell:not(.caregiver-notes) .article-body>h2{
+  position:relative;
+  min-height:92px;
+  display:flex;
+  align-items:center;
+  margin:62px 0 24px;
+  padding:20px 26px 20px 94px;
+  background:linear-gradient(135deg,#f2eee2,#eef2e8);
+  border:1px solid #cbd2c5;
+  border-left:4px solid #315440;
+  box-shadow:0 8px 24px rgba(23,60,76,.035)
+}
+.magazine-shell:not(.caregiver-notes) .article-body>h2:first-child{margin-top:0}
+.magazine-shell:not(.caregiver-notes) .article-body>h2::before{
+  content:"";
+  position:absolute;
+  left:15px;
+  top:12px;
+  width:62px;
+  height:62px;
+  background:url('/assets/navigation-watercolors/menu-128.webp') center/contain no-repeat;
+  mix-blend-mode:multiply;
+  opacity:.82
+}
+.magazine-shell:not(.caregiver-notes) .article-body>h2:nth-of-type(4n+2)::before{background-image:url('/assets/navigation-watercolors/outings-128.webp')}
+.magazine-shell:not(.caregiver-notes) .article-body>h2:nth-of-type(4n+3)::before{background-image:url('/assets/navigation-watercolors/picture-cards-128.webp')}
+.magazine-shell:not(.caregiver-notes) .article-body>h2:nth-of-type(4n+4)::before{background-image:url('/assets/navigation-watercolors/directory-128.webp')}
+.magazine-shell:not(.caregiver-notes) .article-body>p{max-width:67ch}
+.magazine-shell:not(.caregiver-notes) .article-body>ol:not(.checklist),
+.magazine-shell:not(.caregiver-notes) .article-body>ul:not(.checklist):not(.role-directory){
+  padding:22px 28px 22px 48px;
+  background:#fbf6eb;
+  border:1px solid #ddd4c4
+}
+.magazine-shell:not(.caregiver-notes) .article-body>.callout,
+.magazine-shell:not(.caregiver-notes) .article-body>blockquote{
+  margin-block:32px;
+  box-shadow:6px 7px 0 rgba(49,84,64,.08)
+}
+@media(max-width:700px){
+  .magazine-shell:not(.caregiver-notes) .article-body>h2{min-height:80px;padding:17px 16px 17px 77px;margin-top:48px}
+  .magazine-shell:not(.caregiver-notes) .article-body>h2::before{left:11px;top:11px;width:54px;height:54px}
+  .magazine-shell:not(.caregiver-notes) .article-body>ol:not(.checklist),
+  .magazine-shell:not(.caregiver-notes) .article-body>ul:not(.checklist):not(.role-directory){padding:18px 20px 18px 38px}
+}
+@media print{
+  .magazine-shell:not(.caregiver-notes) .article-body>h2{min-height:0;padding:10px 0;background:#fff;border:0;box-shadow:none}
+  .magazine-shell:not(.caregiver-notes) .article-body>h2::before{display:none}
+  .magazine-shell:not(.caregiver-notes) .article-body>ol:not(.checklist),
+  .magazine-shell:not(.caregiver-notes) .article-body>ul:not(.checklist):not(.role-directory){background:#fff;border:0;padding-left:22px}
+}
