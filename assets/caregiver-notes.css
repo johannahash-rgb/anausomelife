@@ -9,7 +9,7 @@
 .caregiver-notes .article-heading .article-dek{position:relative;z-index:1;font:italic 1.3rem/1.55 Georgia,serif;color:#526653}
 .caregiver-notes .article-utility{position:relative;z-index:1}
 .caregiver-notes .article-layout{grid-template-columns:220px minmax(0,800px);gap:48px;padding-top:34px}
-.caregiver-notes .article-toc{top:86px;border:1px solid #ccd4c6;border-top:4px solid #315440;background:#f5f1e6;padding:14px 18px 20px;box-shadow:0 10px 25px rgba(23,60,76,.04)}
+.caregiver-notes .article-toc{top:110px;border:1px solid #ccd4c6;border-top:4px solid #315440;background:#f5f1e6;padding:14px 18px 20px;box-shadow:0 10px 25px rgba(23,60,76,.04)}
 .caregiver-notes .article-toc summary{font-weight:800;color:#315440}
 .caregiver-notes .article-toc ol{margin-bottom:0}
 .caregiver-notes .article-toc li{padding-left:5px}
@@ -27,12 +27,13 @@
 .caregiver-notes #prompt::before{background-image:url('/assets/navigation-watercolors/outings-320.webp')}
 
 .caregiver-notes .role-directory{list-style:none;padding:0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:15px;margin:28px 0 12px}
-.caregiver-notes .role-directory>li{position:relative;overflow:hidden;min-height:168px;padding:25px 22px 22px 92px;border:1px solid #c9d1c1;border-top:4px solid #59745e;background:linear-gradient(145deg,#f7f2e7,#eef2e8)}
-.caregiver-notes .role-directory>li:before{content:"";position:absolute;left:17px;top:23px;width:58px;height:58px;background:url('/assets/navigation-watercolors/home-128.webp') center/contain no-repeat;opacity:.86;mix-blend-mode:multiply}
+.caregiver-notes .role-directory>li{display:grid;grid-template-columns:58px minmax(0,1fr);column-gap:16px;align-content:start;position:relative;min-height:168px;padding:22px;border:1px solid #c9d1c1;border-top:4px solid #59745e;background:linear-gradient(145deg,#f7f2e7,#eef2e8)}
+.caregiver-notes .role-directory>li:before{content:"";position:static;grid-column:1;grid-row:1/3;width:58px;height:58px;background:url('/assets/navigation-watercolors/home-128.webp') center/contain no-repeat;opacity:.86;mix-blend-mode:multiply}
+.caregiver-notes .role-directory>li>a,.caregiver-notes .role-directory>li>p{grid-column:2;min-width:0}
 .caregiver-notes .role-directory>li:nth-child(2n):before{background-image:url('/assets/navigation-watercolors/outings-128.webp')}
 .caregiver-notes .role-directory>li:nth-child(3n):before{background-image:url('/assets/navigation-watercolors/directory-128.webp')}
 .caregiver-notes .role-directory>li:nth-child(4n):before{background-image:url('/assets/navigation-watercolors/picture-cards-128.webp')}
-.caregiver-notes .role-directory a{display:inline-block;min-height:40px;padding:0;color:#244b3e}
+.caregiver-notes .role-directory a{display:inline-block;min-height:44px;padding:0;color:#244b3e}
 .caregiver-notes .role-directory strong{font:400 1.35rem/1.2 Georgia,serif}
 .caregiver-notes .role-directory p{margin:8px 0 0;font-size:.92rem;line-height:1.6;color:#405b50}
 
@@ -65,7 +66,7 @@
   .caregiver-notes .article-body h2{min-height:88px;padding:19px 18px 19px 88px}
   .caregiver-notes .article-body h2::before{left:14px;top:13px;width:60px;height:60px}
   .caregiver-notes .article-body>ol{grid-template-columns:1fr}
-  .caregiver-notes .role-directory>li{padding-left:82px}
+  .caregiver-notes .role-directory>li{column-gap:12px}
 }
 @media print{
   .caregiver-notes{background:#fff}

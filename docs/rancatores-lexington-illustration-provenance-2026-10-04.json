@@ -1,0 +1,44 @@
+{
+  "asset": "assets/venue-illustrations/rancatores-lexington-original-study-v2.webp",
+  "venue": "Rancatore\u2019s Ice Cream, 1752 Massachusetts Avenue, Lexington, Massachusetts",
+  "alt": "Original ink-and-watercolor interpretation of Rancatore\u2019s Lexington shop window, with brickwork, cream window trim and an ordinary-text shop name.",
+  "caption": "Rancatore\u2019s, Lexington. An original illustrated interpretation.",
+  "creation_date": "2026-10-04",
+  "provider": "OpenAI built-in image_gen.imagegen",
+  "generation_mode": "New text-only generation; neither referenced_image_paths nor num_last_images_to_include was supplied. No photographic or illustrated input file was submitted to this generation.",
+  "intended_use": "Decorative Favorite Places editorial card on the owner\u2019s An AUsome Life website. No claim of sponsorship, endorsement, current-condition photography or literal architectural documentation.",
+  "rights_basis": {
+    "original_composition": "Independently composed straight-on architectural window study from a factual written brief. No source photograph, source illustration or brand artwork was used as generation input or copied into the delivered asset. Public visual references were inspected solely to identify ordinary factual building features.",
+    "input_contents": "Original prompt describes the factual venue identity, brick facade, cream window trim, multi-pane windows, rectangular sign and gooseneck lamps. Broad ink-and-watercolor medium description; no artist, brand-specific illustration style or proprietary lettering requested.",
+    "photographic_expression_avoided": "No recreation of any inspected source photo\u2019s oblique viewpoint, lighting pattern, street reflection, detailed planting arrangement, exact framing or color treatment. Windows use abstract washes, modest independently arranged foliage and front-on composition.",
+    "trademark_handling": "Business name appears only in ordinary serif-capital lettering for editorial identification. Proprietary logo art is not reproduced. Sign lettering and ornamental details are interpretive rather than exact venue replicas.",
+    "provider_terms": "OpenAI Terms of Use, Content section, assigns any OpenAI rights in output to the user, subject to applicable law and terms. This does not grant rights in third-party material or guarantee unique or non-infringing output.",
+    "provider_terms_url": "https://openai.com/policies/terms-of-use/",
+    "provider_terms_checked": "2026-10-04",
+    "commercial_use": "Intended ordinary editorial website use is not restricted to noncommercial use by the reviewed output-ownership provision; compliance with applicable terms and third-party rights remains required.",
+    "editing": "Own original generated asset may be resized or edited for the stated editorial use; no third-party image license conditions are asserted.",
+    "redistribution": "Delivery and website display of this original asset for the stated use; no third-party source photographs are distributed with the website asset. No broader merchandise, licensing, brand-mascot or endorsement clearance is claimed.",
+    "attribution": "No source-photo license attribution applies because none is reused in this version. Identify the output as an illustration, and retain research provenance. No CC or public-domain claim is made."
+  },
+  "factual_research_sources": [
+    {
+      "url": "https://www.rancs.com/",
+      "use": "Official venue name and Lexington address."
+    },
+    {
+      "url": "https://www.tourlexington.us/listing/ranctores-ice-cream/",
+      "use": "Town tourism listing corroborates venue identity and address."
+    },
+    {
+      "url": "https://www.scenicshopping.com/state-massachusetts-lexington",
+      "use": "Observed ordinary facade features only; photograph is not an input, reproduced, traced or used as compositional template in this version."
+    }
+  ],
+  "accuracy_limits": "Interpretive, independently composed shop-window study. Pane proportions, planter trim and plain name lettering are simplified artistic details, not exact/current shop documentation. Do not use as an entrance, accessibility, current-signage or seasonal-landscaping reference. No people or claimed family visit.",
+  "qa": "Source PNG and web asset visually inspected. No identifiable people, source-photo composition or photographic reflections; no copied logo graphic. Business name spelling correct. Rich ink-and-watercolor treatment, cream paper edges, complete image preserved.",
+  "web_processing": "Whole-frame resize 1536\u00d71024 to 1200\u00d7800, WebP quality 86/method 6. Original PNG retained.",
+  "asset_size_bytes": 253012,
+  "asset_sha256": "4ed6b804b25905a36ade595f88414987f34d85593f56a21269fa52f91765fe2c",
+  "release_assessment": "Original-asset basis documented for parent editorial release review under AGENTS.md. This is a practical provenance review, not a legal guarantee. Supersedes the photo-adapted v1, which remains not cleared and must not be published.",
+  "prior_version": "Do not publish rancatores-lexington-illustration.webp or its original PNG; that first version used a source photograph with no verified reuse license."
+}
