@@ -31,10 +31,14 @@
   // but move it into a later "field sketch" chapter instead of letting it outrank
   // the family's own photograph.
   if (familyFigure && coverFigure && coverFigure !== familyFigure) {
-    coverFigure.classList.add('journal-location-sketch');
+    const source = coverFigure.querySelector('img')?.getAttribute('src') || '';
+    const isIllustration = coverFigure.dataset.mediaKind === 'illustration' || /\/(?:venue-illustrations|sketches)\//.test(source);
+    coverFigure.classList.add(isIllustration ? 'journal-location-sketch' : 'journal-location-photo');
     const sketchChapter = document.createElement('section');
     sketchChapter.className = 'wrap journal-sketch-chapter';
-    sketchChapter.innerHTML = '<div class="journal-sketch-copy"><p class="eyebrow">Field sketch</p><h2>The place, before the practical details.</h2><p>A drawn view gives the setting a little room of its own. The family photograph carries the story; this is the visual note that helps locate it.</p></div>';
+    sketchChapter.innerHTML = isIllustration
+      ? '<div class="journal-sketch-copy"><p class="eyebrow">Field sketch</p><h2>The place, before the practical details.</h2><p>An illustrated impression of the setting. Use the official information below for current entrances, routes and facilities.</p></div>'
+      : '<div class="journal-sketch-copy"><p class="eyebrow">From the family camera roll</p><h2>A little more of our day.</h2></div>';
     sketchChapter.append(coverFigure);
     jumps.after(sketchChapter);
     if (originalFamilySection && !originalFamilySection.querySelector('.journal-photo')) {
