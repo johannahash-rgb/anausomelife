@@ -17,6 +17,8 @@
     Object.entries(params || {}).map(([key, value]) => [key, clean(value)])
   );
 
+  const early = Array.isArray(window.__AAL_PENDING_EVENTS__) ? window.__AAL_PENDING_EVENTS__.splice(0) : [];
+
   window.AALAnalytics = {
     track(name, params = {}) {
       const event = { name: String(name || '').replace(/[^a-zA-Z0-9_]/g, '_').slice(0, 40), params: safeParams(params) };
@@ -26,6 +28,8 @@
     },
     get active() { return live; }
   };
+
+  early.forEach(event => window.AALAnalytics.track(event.name, event.params));
 
   if (navigator.doNotTrack === '1') return;
 
