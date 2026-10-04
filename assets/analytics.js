@@ -67,12 +67,49 @@
     .catch(() => { /* The site must keep working even when analytics does not. */ });
 
   document.addEventListener('click', event => {
-    const link = event.target.closest('a[data-aal-track],button[data-aal-track]');
+    const tracked = event.target.closest('a[data-aal-track],button[data-aal-track]');
+    if (tracked) {
+      window.AALAnalytics.track('site_action', {
+        action_name: tracked.dataset.aalTrack,
+        link_url: tracked.href || '',
+        link_text: (tracked.textContent || '').trim()
+      });
+    }
+    const link = event.target.closest('a[href]');
     if (!link) return;
-    window.AALAnalytics.track('site_action', {
-      action_name: link.dataset.aalTrack,
-      link_url: link.href || '',
-      link_text: (link.textContent || '').trim()
-    });
+    let url;
+    try { url = new URL(link.href, location.href); } catch (_) { return; }
+    if (url.origin !== location.origin && /^https?:$/.test(url.protocol)) {
+      window.AALAnalytics.track('outbound_click', {
+        destination_domain: url.hostname,
+        link_text: (link.textContent || '').trim()
+      });
+    }
+    if (/\.(pdf|docx?|xlsx?|pptx?|zip)(\?|#|$)/i.test(url.pathname + url.search + url.hash)) {
+      window.AALAnalytics.track('file_download', {
+        file_extension: (url.pathname.match(/\.([a-z0-9]+)$/i) || [,''])[1],
+        file_name: url.pathname.split('/').pop() || ''
+      });
+    }
   });
+
+  document.addEventListener('submit', event => {
+    const form = event.target.closest('form[role="search"],form[action*="library"]');
+    if (!form) return;
+    window.AALAnalytics.track('site_search', { search_surface: form.id || form.className || 'site_search' });
+  });
+
+  const thresholds = new Set();
+  function recordDepth() {
+    const max = Math.max(document.documentElement.scrollHeight - innerHeight, 1);
+    const percent = Math.round((scrollY / max) * 100);
+    [50, 90].forEach(mark => {
+      if (percent >= mark && !thresholds.has(mark)) {
+        thresholds.add(mark);
+        window.AALAnalytics.track('scroll_depth', { percent_scrolled: mark });
+      }
+    });
+    if (thresholds.size === 2) removeEventListener('scroll', recordDepth);
+  }
+  addEventListener('scroll', recordDepth, { passive: true });
 })();
