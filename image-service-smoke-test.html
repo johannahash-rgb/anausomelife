@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="robots" content="noindex,nofollow,noarchive">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Image service smoke test</title>
+<style>body{font:16px system-ui,sans-serif;max-width:760px;margin:3rem auto;padding:0 1rem}img{max-width:320px;border:1px solid #ccc}pre{white-space:pre-wrap}</style>
+</head>
+<body>
+<h1>Image service smoke test</h1>
+<p id="status">Running one controlled request…</p>
+<img id="preview" alt="" hidden>
+<script>
+(async()=>{
+ const status=document.getElementById('status');
+ try{
+  const response=await fetch('https://anausomelife-image-service.vercel.app/api/generate-card',{
+   method:'POST',
+   headers:{'Content-Type':'application/json'},
+   body:JSON.stringify({subject:'a clear glass of water',situation:'communication card for asking for water'})
+  });
+  const data=await response.json().catch(()=>({}));
+  if(response.ok && data.imageDataUrl){
+   status.textContent='PASS '+response.status+' · image received · '+(data.description||'');
+   const img=document.getElementById('preview');img.src=data.imageDataUrl;img.hidden=false;
+  }else{
+   status.textContent='FAIL '+response.status+' · '+(data.message||'No message');
+  }
+ }catch(error){status.textContent='ERROR · '+error.message;}
+})();
+</script>
+</body>
+</html>
