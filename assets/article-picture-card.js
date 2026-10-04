@@ -1,6 +1,9 @@
 /* Self-contained deterministic downloadable picture card for eligible An AUsome Life stories. No AI, no API. */
 (() => {
   'use strict';
+  const __debug=new URLSearchParams(location.search).has('carddebug');
+  const __mark=s=>{if(__debug)document.title=document.title.replace(/ · CARD:[^·]+$/,'')+' · CARD:'+s;};
+  __mark('loaded');
 
   function clean(value){ return String(value || '').replace(/\s+/g,' ').trim(); }
   function slugify(value){
@@ -82,11 +85,13 @@
   }
 
   function start(){
-    if(document.body.classList.contains('picture-card-page')||document.body.classList.contains('picture-card-library-page'))return;
-    if(document.querySelector('[data-aal-article-picture-card]'))return;
+    if(document.body.classList.contains('picture-card-page')||document.body.classList.contains('picture-card-library-page')){__mark('excluded');return;}
+    if(document.querySelector('[data-aal-article-picture-card]')){__mark('exists');return;}
+    __mark('start');
 
     const main=document.querySelector('main'),h1=main?.querySelector('h1');
-    if(!main||!h1)return;
+    if(!main||!h1){__mark('no-h1');return;}
+    __mark('h1');
 
     const selectors=[
       '.favorite-cover img','.favorite-hero-art img','.hero figure img',
@@ -99,12 +104,14 @@
       const candidate=main.querySelector(selector);
       if(candidate){hero=candidate;break;}
     }
-    if(!hero)return;
+    if(!hero){__mark('no-hero');return;}
+    __mark('hero');
 
     const rawSrc=hero.currentSrc||hero.getAttribute('src')||'';
-    if(!rawSrc)return;
+    if(!rawSrc){__mark('no-src');return;}
     const imageUrl=new URL(rawSrc,location.href);
-    if(imageUrl.origin!==location.origin)return;
+    if(imageUrl.origin!==location.origin){__mark('cross-origin');return;}
+    __mark('image');
 
     const exact=document.querySelector('meta[name="aal-picture-card-label"]')?.content?.trim();
     const heading=clean(h1.textContent);
@@ -115,7 +122,8 @@
       const firstClause=label.split(/[,;:—–]/)[0].trim();
       if(firstClause.length>=4)label=firstClause;
     }
-    if(!label)return;
+    if(!label){__mark('no-label');return;}
+    __mark('label');
 
     const place=document.querySelector('meta[name="aal-picture-card-place"]')?.content?.trim()
       ||clean(main.querySelector('.favorite-place-name')?.textContent)
@@ -154,6 +162,8 @@
       if(header)header.append(box);
       else h1.insertAdjacentElement('afterend',box);
     }
+
+    __mark('inserted');
 
     button.addEventListener('click',async()=>{
       button.disabled=true;status.textContent='Preparing your PNG…';
