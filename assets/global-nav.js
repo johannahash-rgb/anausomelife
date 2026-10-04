@@ -229,3 +229,20 @@
     if (e.key==='Escape' && dialog.open) dialog.close();
   });
 })();
+
+
+/* Restore the complete site footer when an article carries the compact version. */
+(() => {
+  const fullFooter = "<footer class=\"mag-footer\"><div class=\"wrap\"><div><a class=\"footer-wordmark\" href=\"/\">An AUsome Life</a><p>Simple good things.<br>The practical details left in.</p></div><nav aria-label=\"Footer navigation\"><a href=\"/library.html\">The library</a><a href=\"/favorite-places.html\">Favorite places</a><a href=\"/calendar.html\">The calendar</a><a href=\"/visit-story.html\">Visual visit planner</a><a href=\"/little-black-book.html\">The little black book</a><a href=\"/contact.html\">Contact</a><a href=\"/media/\">Media Kit &amp; partnerships</a></nav><div class=\"footer-small\"><a href=\"/language.html\">Language &amp; representation</a><a href=\"/disclosure.html\">Disclosure</a><a href=\"/privacy.html\">Privacy</a><a href=\"/accessibility.html\">Accessibility</a><a href=\"https://www.instagram.com/anausomelife/\">Instagram ↗</a><span>© 2026 An AUsome Life · New England</span></div></div></footer>";
+  function restoreFooter() {
+    const footer = document.querySelector('footer.mag-footer');
+    if (!footer) return;
+    const navigation = footer.querySelector('nav[aria-label="Footer navigation"]');
+    if (!navigation) { footer.outerHTML = fullFooter; return; }
+    const media = navigation.querySelector('a[href="/media/"]');
+    if (media) media.textContent = 'Media Kit & partnerships';
+    else { const link = document.createElement('a'); link.href = '/media/'; link.textContent = 'Media Kit & partnerships'; navigation.append(link); }
+  }
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', restoreFooter, {once:true});
+  else restoreFooter();
+})();

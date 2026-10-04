@@ -20,7 +20,7 @@
 <link rel="stylesheet" href="/assets/immersion.css?v=village-20261003">
 <link rel="stylesheet" href="/assets/editorial.css?v=20261003-mainstreet">
 <link rel="stylesheet" href="/assets/illustrated-navigation.css?v=20261004-icon-spacing-r2">
-<script src="/assets/global-nav.js?v=20261004-approved" data-aal-global-nav="true" defer></script>
+<script src="/assets/global-nav.js?v=20261004-full-footer" data-aal-global-nav="true" defer></script>
 <style>
 .media-one{--ink:#173c4c;--green:#244b3e;--cream:#faf8f1;--paper:#f3f0e6;--rule:#c7cdc1;--muted:#596963}
 .media-one .media-nav{position:sticky;top:0;z-index:20;background:rgba(250,248,241,.96);backdrop-filter:blur(10px);border-block:1px solid var(--rule)}
@@ -136,7 +136,7 @@
 <p class="eyebrow">Tried &amp; True</p>
 <h2 id="customers-title">Brands, stockists &amp; places we come back to.</h2>
 <p>These are names that genuinely show up in our order confirmations, memberships, reservations, closets, kitchen, weekends and family stories. Paid, gifted, hosted and affiliate relationships are disclosed with the coverage.</p>
-<div class="brand-marquee" aria-label="Watercolor gallery of brands, stockists and places in our real life">
+<div class="brand-marquee" tabindex="0" role="region" aria-label="Watercolor gallery of brands, stockists and places in our real life">
 <div class="brand-track">
 <figure class="brand-panel"><img src="/assets/tried-true-watercolor-banner.webp" alt="Watercolor vignettes representing brands, stockists and places that are part of our real family life." width="900" height="300"></figure>
 <figure class="brand-panel" aria-hidden="true"><img src="/assets/tried-true-watercolor-banner.webp" alt="" width="900" height="300"></figure>
@@ -308,13 +308,13 @@
 </section>
 </main>
 
-<footer class="mag-footer"><div class="wrap"><div><a class="footer-wordmark" href="/">An AUsome Life</a><p>Simple good things.<br>The practical details left in.</p></div><nav aria-label="Footer navigation"><a href="/library.html">The library</a><a href="/favorite-places.html">Favorite places</a><a href="/calendar.html">The calendar</a><a href="/visit-story.html">Visual visit planner</a><a href="/little-black-book.html">The little black book</a><a href="/contact.html">Contact</a><a href="/media/">Media &amp; partnerships</a></nav><div class="footer-small"><a href="/language.html">Language &amp; representation</a><a href="/disclosure.html">Disclosure</a><a href="/privacy.html">Privacy</a><a href="/accessibility.html">Accessibility</a><a href="https://www.instagram.com/anausomelife/">Instagram ↗</a><span>© 2026 An AUsome Life · New England</span></div></div></footer>
+<footer class="mag-footer"><div class="wrap"><div><a class="footer-wordmark" href="/">An AUsome Life</a><p>Simple good things.<br>The practical details left in.</p></div><nav aria-label="Footer navigation"><a href="/library.html">The library</a><a href="/favorite-places.html">Favorite places</a><a href="/calendar.html">The calendar</a><a href="/visit-story.html">Visual visit planner</a><a href="/little-black-book.html">The little black book</a><a href="/contact.html">Contact</a><a href="/media/">Media Kit &amp; partnerships</a></nav><div class="footer-small"><a href="/language.html">Language &amp; representation</a><a href="/disclosure.html">Disclosure</a><a href="/privacy.html">Privacy</a><a href="/accessibility.html">Accessibility</a><a href="https://www.instagram.com/anausomelife/">Instagram ↗</a><span>© 2026 An AUsome Life · New England</span></div></div></footer>
 <script>
 (function(){
   function startBrandMarquee(){
     var box=document.querySelector('.brand-marquee');
     var track=box&&box.querySelector('.brand-track');
-    var first=track&&track.querySelector('.brand-set');
+    var first=track&&track.querySelector('.brand-panel, .brand-set');
     if(!box||!track||!first)return;
     var reduced=window.matchMedia&&window.matchMedia('(prefers-reduced-motion: reduce)').matches;
     if(reduced){box.style.overflowX='auto';return;}
@@ -323,7 +323,10 @@
       var dt=Math.min(50,now-last); last=now;
       if(!paused){
         x+=dt*0.025;
-        var w=first.getBoundingClientRect().width+10;
+        var next=first.nextElementSibling;
+        var style=window.getComputedStyle(first);
+        var w=next ? next.offsetLeft-first.offsetLeft : first.getBoundingClientRect().width+(parseFloat(style.marginLeft)||0)+(parseFloat(style.marginRight)||0);
+        if(w<=0)return requestAnimationFrame(tick);
         if(w>0&&x>=w)x-=w;
         track.style.transform='translate3d('+(-x)+'px,0,0)';
       }
