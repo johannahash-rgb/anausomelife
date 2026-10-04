@@ -24,5 +24,5 @@ class EventIllustrations(unittest.TestCase):
  def test_event_map_hook_and_toggle(self):
   page=(ROOT/'calendar.html').read_text();self.assertIn('data-calendar-view="map"',page);self.assertIn('event-map-view',page);self.assertIn('AUsomeEventMap.render(mapBox,events,showEvent)',(ROOT/'assets/events.js').read_text())
  def test_month_filter_and_return_focus(self):
-  js=(ROOT/'assets/events.js').read_text();self.assertIn("e.start.slice(0,7)===month",js);self.assertIn('focus({preventScroll:true})',js)
+  js=(ROOT/'assets/events.js').read_text();self.assertIn("e.start.slice(0,7)===v.month",js);self.assertIn('focus({preventScroll:true})',js)
 if __name__=='__main__':unittest.main()

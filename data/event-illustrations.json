@@ -1,5 +1,5 @@
 {
-  "version": 2,
+  "version": 3,
   "created": "2026-10-03",
   "artworkType": "Original AI-generated event-inspired ink-and-watercolor illustrations",
   "disclosure": "Original AI-generated conceptual illustrations inspired by each dated listing. Every dated event has its own distinct composition. Not venue photographs, access maps or depictions of confirmed exhibits.",
@@ -327,6 +327,303 @@
       "title": "Montshh… Montshire Sensory Hour",
       "venue": "Montshire Museum of Science",
       "start": "2026-12-19T09:00:00-05:00"
+    },
+    "some-workout-2026-10-06": {
+      "src": "/assets/event-sketches/some-workout-2026-10-06.webp",
+      "alt": "A navy exercise mat, wooden step, towel and cranberry resistance band in autumn window light.",
+      "width": 720,
+      "height": 480,
+      "title": "Special Olympics Workout Class",
+      "venue": "The Point Community Center",
+      "start": "2026-10-06T15:00:00-04:00"
+    },
+    "uap-canoe-whitehall-2026-10-07": {
+      "src": "/assets/event-sketches/uap-canoe-whitehall-2026-10-07.webp",
+      "alt": "A green canoe with a supportive seat, wooden paddle and flotation vest beside a still autumn reservoir.",
+      "width": 720,
+      "height": 480,
+      "title": "Adaptive Canoeing at Whitehall State Park",
+      "venue": "Whitehall State Park",
+      "start": "2026-10-07T10:00:00-04:00"
+    },
+    "cmnh-exploring-2026-10-09": {
+      "src": "/assets/event-sketches/cmnh-exploring-2026-10-09.webp",
+      "alt": "Translucent geometric building pieces and navy hearing protection catch warm autumn light on a wooden table.",
+      "width": 720,
+      "height": 480,
+      "title": "Exploring Our Way: Sensory-Friendly Playtime",
+      "venue": "Children’s Museum of New Hampshire",
+      "start": "2026-10-09T16:30:00-04:00"
+    },
+    "aa-slime-2026-10-12": {
+      "src": "/assets/event-sketches/aa-slime-2026-10-12.webp",
+      "alt": "Hands stretch green slime above glass mixing bowls, with wooden stirrers and a navy cloth.",
+      "width": 720,
+      "height": 480,
+      "title": "Mad Scientist Slime Party",
+      "venue": "Autism Welcoming Center - Natick Mall",
+      "start": "2026-10-12T10:30:00-04:00"
+    },
+    "some-soccer-2026-10-15": {
+      "src": "/assets/event-sketches/some-soccer-2026-10-15.webp",
+      "alt": "A soccer ball and navy cleats beside a line of cranberry cones across an autumn playing field.",
+      "width": 720,
+      "height": 480,
+      "title": "Special Olympics Maine State Soccer",
+      "venue": "Waterville Youth Soccer Association – North Street Fields",
+      "start": "2026-10-15T08:00:00-04:00"
+    },
+    "uap-tandem-boston-2026-10-16": {
+      "src": "/assets/event-sketches/uap-tandem-boston-2026-10-16.webp",
+      "alt": "A green tandem bicycle and two helmets beside a river trail edged with golden marsh grass.",
+      "width": 720,
+      "height": 480,
+      "title": "Adaptive Tandem Cycling on the Lower Neponset River Trail",
+      "venue": "Pope John Paul II Park Reservation / Lower Neponset River Trail",
+      "start": "2026-10-16T10:00:00-04:00"
+    },
+    "aa-zoo-2026-10-16": {
+      "src": "/assets/event-sketches/aa-zoo-2026-10-16.webp",
+      "alt": "A red panda stands on a mossy branch beside an open animal sketchbook and a navy tablet case.",
+      "width": 720,
+      "height": 480,
+      "title": "After School Zoo Club",
+      "venue": "Online with Autism Alliance",
+      "start": "2026-10-16T16:00:00-04:00"
+    },
+    "aa-halloween-dance-2026-10-16": {
+      "src": "/assets/event-sketches/aa-halloween-dance-2026-10-16.webp",
+      "alt": "Navy dancing sneakers, cranberry ribbons and a carved pumpkin in warm stage light.",
+      "width": 720,
+      "height": 480,
+      "title": "Halloween Dance Party",
+      "venue": "Autism Welcoming Center - Natick Mall",
+      "start": "2026-10-16T17:30:00-04:00"
+    },
+    "soma-equestrian-2026-10-18": {
+      "src": "/assets/event-sketches/soma-equestrian-2026-10-18.webp",
+      "alt": "A saddled bay horse beside a timber fence, navy riding helmet and cranberry award ribbon.",
+      "width": 720,
+      "height": 480,
+      "title": "Special Olympics South Shore Equestrian Event",
+      "venue": "Briggs Stable",
+      "start": "2026-10-18T08:00:00-04:00"
+    },
+    "aa-zoo-2026-10-23": {
+      "src": "/assets/event-sketches/aa-zoo-2026-10-23.webp",
+      "alt": "River otters swim near a rocky bank beside a tablet showing an otter study and a closed notebook.",
+      "width": 720,
+      "height": 480,
+      "title": "After School Zoo Club",
+      "venue": "Online with Autism Alliance",
+      "start": "2026-10-23T16:00:00-04:00"
+    },
+    "aa-zoo-2026-11-13": {
+      "src": "/assets/event-sketches/aa-zoo-2026-11-13.webp",
+      "alt": "A barred owl on a pine-framed branch above a desk with a tablet displaying an owl portrait.",
+      "width": 720,
+      "height": 480,
+      "title": "After School Zoo Club",
+      "venue": "Online with Autism Alliance",
+      "start": "2026-11-13T16:00:00-05:00"
+    },
+    "cmnh-exploring-2026-11-13": {
+      "src": "/assets/event-sketches/cmnh-exploring-2026-11-13.webp",
+      "alt": "An open illustrated cat book, colored pencils and a magnifying lens in a warm reading corner.",
+      "width": 720,
+      "height": 480,
+      "title": "Exploring Our Way: Sensory-Friendly Playtime",
+      "venue": "Children’s Museum of New Hampshire",
+      "start": "2026-11-13T16:30:00-05:00"
+    },
+    "soma-flag-state-2026-11-14": {
+      "src": "/assets/event-sketches/soma-flag-state-2026-11-14.webp",
+      "alt": "A football, navy belt with cranberry flags, whistle and cheer pompom beside an autumn playing field.",
+      "width": 720,
+      "height": 480,
+      "title": "Special Olympics Massachusetts Flag Football State Tournament",
+      "venue": "Gillette Stadium",
+      "start": "2026-11-14T09:00:00-05:00"
+    },
+    "uap-hike-carlisle-2026-11-14": {
+      "src": "/assets/event-sketches/uap-hike-carlisle-2026-11-14.webp",
+      "alt": "A woodland trail curves beside a pond, with trekking poles, a navy pack and scarf by a stone wall.",
+      "width": 720,
+      "height": 480,
+      "title": "Adaptive Hiking at Great Brook Farm State Park",
+      "venue": "Great Brook Farm State Park",
+      "start": "2026-11-14T10:00:00-05:00"
+    },
+    "some-bowling-bangor-2026-11-16": {
+      "src": "/assets/event-sketches/some-bowling-bangor-2026-11-16.webp",
+      "alt": "A green marbled bowling ball, three ivory pins and a navy bowling bag on a maple bench.",
+      "width": 720,
+      "height": 480,
+      "title": "Central Maine 10-Pin Bowling",
+      "venue": "Family Fun Lanes",
+      "start": "2026-11-16T08:00:00-05:00"
+    },
+    "some-area-bowling-2026-10-19": {
+      "src": "/assets/event-sketches/some-area-bowling-2026-10-19.webp",
+      "alt": "A navy marbled bowling ball sits on a polished maple lane with pins beyond.",
+      "width": 720,
+      "height": 480,
+      "title": "Area 10-Pin Bowling: Penobscot, Piscataquis & Hancock Counties",
+      "venue": "Family Fun Lanes",
+      "start": "2026-10-19T08:00:00-04:00"
+    },
+    "aa-provider-2026-11-17": {
+      "src": "/assets/event-sketches/aa-provider-2026-11-17.webp",
+      "alt": "A laptop, neatly tabbed folders, open notebook and green mug on a quiet home planning desk.",
+      "width": 720,
+      "height": 480,
+      "title": "Finding a Provider: Practical Tips for Families",
+      "venue": "Online with Autism Alliance",
+      "start": "2026-11-17T18:30:00-05:00"
+    },
+    "carroll-tech-fair-2026-11-20": {
+      "src": "/assets/event-sketches/carroll-tech-fair-2026-11-20.webp",
+      "alt": "A refreshable Braille display, laptop, digital magnifier and headphones on an oak desk.",
+      "width": 720,
+      "height": 480,
+      "title": "Virtual Technology Fair",
+      "venue": "Online with The Carroll Center for the Blind",
+      "start": "2026-11-20T12:00:00-05:00"
+    },
+    "aa-zoo-2026-11-20": {
+      "src": "/assets/event-sketches/aa-zoo-2026-11-20.webp",
+      "alt": "A giraffe leans through leafy branches beside a tablet animal portrait and two books.",
+      "width": 720,
+      "height": 480,
+      "title": "After School Zoo Club",
+      "venue": "Online with Autism Alliance",
+      "start": "2026-11-20T16:00:00-05:00"
+    },
+    "soma-jolly-jaunt-2026-12-05": {
+      "src": "/assets/event-sketches/soma-jolly-jaunt-2026-12-05.webp",
+      "alt": "Navy running shoes, a cranberry scarf and jingle bells on a stone bench beside a wintry park path.",
+      "width": 720,
+      "height": 480,
+      "title": "2026 Boston Jolly Jaunt",
+      "venue": "Boston Common",
+      "start": "2026-12-05T08:00:00-05:00"
+    },
+    "cmnh-exploring-2026-12-11": {
+      "src": "/assets/event-sketches/cmnh-exploring-2026-12-11.webp",
+      "alt": "Blue and green glass pebbles, a wooden balance scale and tactile cloth on a winter-lit exploration tray.",
+      "width": 720,
+      "height": 480,
+      "title": "Exploring Our Way: Sensory-Friendly Playtime",
+      "venue": "Children’s Museum of New Hampshire",
+      "start": "2026-12-11T16:30:00-05:00"
+    },
+    "carroll-movie-2026-12-11": {
+      "src": "/assets/event-sketches/carroll-movie-2026-12-11.webp",
+      "alt": "An audio headset and receiver rest on a navy cinema chair beside popcorn and a cranberry throw.",
+      "width": 720,
+      "height": 480,
+      "title": "Carroll Alumni Movie Night with Audio Description",
+      "venue": "The Carroll Center for the Blind",
+      "start": "2026-12-11T17:00:00-05:00"
+    },
+    "some-bowling-hallowell-2026-10-27": {
+      "src": "/assets/event-sketches/some-bowling-hallowell-2026-10-27.webp",
+      "alt": "Ink-and-watercolor study of a marbled bowling ball, bowling pins and leather bowling shoes.",
+      "width": 720,
+      "height": 480,
+      "title": "Kennebec County Bowling Tournament",
+      "venue": "Interstate Bowling Center",
+      "start": "2026-10-27T09:00:00-04:00"
+    },
+    "aa-zoo-2026-10-30": {
+      "src": "/assets/event-sketches/aa-zoo-2026-10-30.webp",
+      "alt": "Watercolor natural-history study of a red panda among autumn branches, with a small tablet and field book.",
+      "width": 720,
+      "height": 480,
+      "title": "After School Zoo Club",
+      "venue": "Online with Autism Alliance",
+      "start": "2026-10-30T16:00:00-04:00"
+    },
+    "aa-magic-2026-10-31": {
+      "src": "/assets/event-sketches/aa-magic-2026-10-31.webp",
+      "alt": "Watercolor still life of a magician’s top hat, white-tipped wand, silk scarf and autumn pumpkins.",
+      "width": 720,
+      "height": 480,
+      "title": "Tricks, Treats & Magic",
+      "venue": "Autism Welcoming Center - Natick Mall",
+      "start": "2026-10-31T14:00:00-04:00"
+    },
+    "carroll-info-day-2026-11-03": {
+      "src": "/assets/event-sketches/carroll-info-day-2026-11-03.webp",
+      "alt": "Ink-and-watercolor still life of a stand magnifier, reading lamp and tactile book on a wooden desk.",
+      "width": 720,
+      "height": 480,
+      "title": "Information Day at The Carroll Center",
+      "venue": "The Carroll Center for the Blind – Technology Building Auditorium",
+      "start": "2026-11-03T10:00:00-05:00"
+    },
+    "some-workout-2026-11-03": {
+      "src": "/assets/event-sketches/some-workout-2026-11-03.webp",
+      "alt": "Watercolor study of a green exercise mat, athletic shoes, striped towel and sturdy wooden chair.",
+      "width": 720,
+      "height": 480,
+      "title": "Special Olympics Workout Class",
+      "venue": "The Point Community Center",
+      "start": "2026-11-03T15:00:00-05:00"
+    },
+    "uap-cycling-groton-2026-11-06": {
+      "src": "/assets/event-sketches/uap-cycling-groton-2026-11-06.webp",
+      "alt": "Ink-and-watercolor tandem bicycle beside an autumn rail trail with scattered leaves.",
+      "width": 720,
+      "height": 480,
+      "title": "Adaptive Intermediate Tandem Cycling on the Nashua River Rail Trail",
+      "venue": "Nashua River Rail Trail – Broadmeadow Parking Lot",
+      "start": "2026-11-06T10:00:00-05:00"
+    },
+    "aa-zoo-2026-11-06": {
+      "src": "/assets/event-sketches/aa-zoo-2026-11-06.webp",
+      "alt": "Natural-history watercolor of a patterned turtle on a log beside a small tablet and field notebook.",
+      "width": 720,
+      "height": 480,
+      "title": "After School Zoo Club",
+      "venue": "Online with Autism Alliance",
+      "start": "2026-11-06T16:00:00-05:00"
+    },
+    "carroll-90th-2026-11-07": {
+      "src": "/assets/event-sketches/carroll-90th-2026-11-07.webp",
+      "alt": "Watercolor open-house table with a tactile globe, closed keepsake album, tea service and autumn flowers.",
+      "width": 720,
+      "height": 480,
+      "title": "Carroll Center for the Blind 90th Anniversary Open House",
+      "venue": "The Carroll Center for the Blind",
+      "start": "2026-11-07T13:00:00-05:00"
+    },
+    "soma-soccer-state-2026-11-08": {
+      "src": "/assets/event-sketches/soma-soccer-state-2026-11-08.webp",
+      "alt": "Watercolor soccer ball on an autumn field beside a goal net and a plain ribbon medal.",
+      "width": 720,
+      "height": 480,
+      "title": "Special Olympics Massachusetts Soccer State Tournament",
+      "venue": "The Governor’s Academy",
+      "start": "2026-11-08T09:00:00-05:00"
+    },
+    "some-youth-summit-pi-2026-11-09": {
+      "src": "/assets/event-sketches/some-youth-summit-pi-2026-11-09.webp",
+      "alt": "Ink-and-watercolor round table with open notebooks, colored pencils and welcoming chairs for a youth leadership gathering.",
+      "width": 720,
+      "height": 480,
+      "title": "Inclusion Revolution Youth Summit",
+      "venue": "University of Maine at Presque Isle",
+      "start": "2026-11-09T08:30:00-05:00"
+    },
+    "carroll-cane-quest-2026-11-11": {
+      "src": "/assets/event-sketches/carroll-cane-quest-2026-11-11.webp",
+      "alt": "Watercolor white mobility cane with a roller tip beside a tactile route board and cranberry canvas backpack.",
+      "width": 720,
+      "height": 480,
+      "title": "New England Regional Cane Quest",
+      "venue": "Natick Mall",
+      "start": "2026-11-11T09:00:00-05:00"
     }
   },
   "watchlist": {
@@ -335,6 +632,25 @@
       "alt": "An autumn treat basket and pumpkins in an ivory estate car’s open trunk.",
       "width": 720,
       "height": 480
+    },
+    "uap-rowing-fall-2026": {
+      "src": "/assets/event-sketches/uap-rowing-fall-2026.webp",
+      "alt": "A pair of sculling oars, cranberry flotation vest and supportive seat beside a quiet autumn river.",
+      "width": 720,
+      "height": 480
+    },
+    "buildabear-natick-sensory": {
+      "src": "/assets/event-sketches/buildabear-natick-sensory.webp",
+      "alt": "A tan plush bear with a navy bow, soft stuffing and neatly folded fabric accessories on a workshop table.",
+      "width": 720,
+      "height": 480
+    },
+    "soct-holiday-classic-2026": {
+      "src": "/assets/event-sketches/soct-holiday-classic-2026.webp",
+      "alt": "A basketball, volleyball, bowling pin and weight plate arranged beside a navy towel and winter greenery.",
+      "width": 720,
+      "height": 480
     }
-  }
+  },
+  "updated": "2026-10-04"
 }
