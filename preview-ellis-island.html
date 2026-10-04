@@ -166,6 +166,13 @@
 }
 @media print{.ellis-review.er-visual-notes .er-visit-spread{break-inside:avoid}.ellis-review.er-visual-notes .er-visit-pocket-content{display:block}.ellis-review.er-visual-notes .er-picture-plan-link{display:none}}
 </style>
+
+<style>
+/* Preview-only placement for the existing shared picture-card control. */
+.ellis-review .er-cover > .er-card-download-anchor{display:none!important}
+.ellis-review .er-cover > .aal-article-card-box{grid-column:1/-1;margin:0;padding-top:12px;border-top:1px solid var(--er-line)}
+@media(max-width:700px){.ellis-review .er-cover > .aal-article-card-box{margin-top:18px}}
+</style>
 </head><body><a class="skip" href="#main">Skip to content</a><header class="mag-masthead"><a class="mag-brand" href="/" aria-label="An AUsome Life home"><img src="/assets/coastal-emblem.webp" alt="" width="80" height="80"><span>An AUsome Life<small>In pursuit of the Good New England Life</small></span></a><nav aria-label="Main navigation"><a href="/blog.html">Blog</a><a href="/library.html">The library</a><a href="/favorite-places.html">Favorite places</a><a href="/kid-fun.html">Kid fun</a><a href="/calendar.html">The calendar</a><a href="/about.html">Our story</a><a class="nav-search" href="/library.html#library-search">Search <span aria-hidden="true">↗</span></a></nav></header><main id="main" class="ellis-review er-arrival-edition er-map-edition er-visual-notes">
   <div class="er-meta"><a href="/blog.html">The journal</a><span>New York Harbor</span><span class="er-preview-label">Article preview</span></div>
   <section class="er-cover" aria-labelledby="er-title">
@@ -174,6 +181,8 @@
       <div class="er-cover-text"><p class="er-kicker">A family field note · Ellis Island &amp; New York</p><h1 id="er-title">New York,<br><em>year after year.</em></h1><p class="er-deck">Ellis Island, Grandpa’s history, and a Thanksgiving-morning pedicab we probably paid too much for.</p></div>
     </div>
     <aside class="er-welcome" aria-labelledby="er-welcome-title"><figure class="er-arrival-sketch"><img src="/assets/preview-ellis/city-arrival.webp" alt="Original illustrated New York shopfronts, a streetlamp and one small street cart" width="1152" height="768" fetchpriority="high"></figure><p class="er-kicker">Come along</p><h2 id="er-welcome-title">This is why we<br>keep coming back.</h2><p class="er-welcome-copy">New York around the parade is one of our family traditions. Ellis Island belongs to that larger story, on a different day: our family on the ferry, Manhattan outside the windows, and a bit of family history waiting on the other shore.</p><nav class="er-story-doors" aria-label="Follow the family story"><a href="#the-story"><span>01</span> A question for Grandpa</a><a href="#the-ride"><span>02</span> A ride worth taking</a></nav><a class="er-quiet-jump" href="#ferry-guide">Looking for practical details?</a></aside>
+    <!-- Picture-card loader insertion hook: keep the utility row outside the family-photo overlay. -->
+    <div class="actions er-card-download-anchor" hidden></div>
   </section>
 
 <section class="er-story-grid er-research-scene" id="the-story" aria-labelledby="er-story-title"><article class="er-story"><p class="er-kicker">On Ellis Island</p><h2 id="er-story-title">Grandpa’s five-minute discovery.</h2>
