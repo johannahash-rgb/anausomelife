@@ -64,3 +64,18 @@
 
 /* Keep decorative state-selector washes inside the page at every width. */
 .calendar-page .calendar-state-section:before{left:0;right:0}
+
+/* Audience and evidence-based access filters. */
+.calendar-page .event-filters{grid-template-columns:repeat(4,minmax(0,1fr))}
+.calendar-page .event-filters label{min-width:0}
+.calendar-page .event-filters input,.calendar-page .event-filters select{width:100%;max-width:100%}
+.calendar-page .event-filter-help,.calendar-page .event-filter-warning{grid-column:1/-1;max-width:95ch;margin:0;font-size:.79rem;line-height:1.65;color:#38534f}
+.calendar-page .event-filter-warning{border-left:3px solid #8d453b;padding-left:12px}
+.calendar-page .event-classification{display:flex;flex-wrap:wrap;gap:6px;margin:14px 0 4px}
+.calendar-page .event-classification:empty{display:none}
+.calendar-page .event-badge.audience{background:#e8eddf;color:#244b3e;border:1px solid #c4d0bd}
+.calendar-page .event-badge.access-feature{background:#faf4e7;color:#51482d;border:1px solid #d6cba9}
+@media(max-width:950px){.calendar-page .event-filters{grid-template-columns:repeat(2,minmax(0,1fr))}.calendar-page .event-filters label:last-of-type{grid-column:auto}}
+@media(max-width:450px){.calendar-page .event-filters{grid-template-columns:minmax(0,1fr)}.calendar-page .event-month-filter{grid-column:auto}}
+
+.calendar-page .event-source-entry{display:flex;flex-direction:column;gap:4px}.calendar-page .event-source-entry small{font-size:.7rem;color:#536467}.calendar-page .event-filter-sources{font-size:.76rem;line-height:1.6;padding-left:18px}

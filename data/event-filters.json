@@ -1,0 +1,1891 @@
+{
+  "schemaVersion": 1,
+  "checkedAt": "2026-10-04",
+  "method": "Positive organizer evidence only. Missing categories mean not confirmed, never that attendance is prohibited. Read the exact audience, eligibility and route details. Accompanying an eligible participant does not imply an independent adult programme.",
+  "events": {
+    "bcm-2026-10-03": {
+      "ageGroups": [
+        "children",
+        "families"
+      ],
+      "accessFeatures": [
+        "sensory-friendly",
+        "wheelchair-step-free"
+      ],
+      "ageEvidence": {
+        "children": {
+          "evidenceId": "bcm-program",
+          "url": "https://bostonchildrensmuseum.org/visit/accessibility/"
+        },
+        "families": {
+          "evidenceId": "bcm-program",
+          "url": "https://bostonchildrensmuseum.org/visit/accessibility/"
+        }
+      },
+      "accessEvidence": {
+        "sensory-friendly": {
+          "evidenceId": "bcm-program",
+          "url": "https://bostonchildrensmuseum.org/visit/accessibility/"
+        },
+        "wheelchair-step-free": {
+          "evidenceId": "bcm-program",
+          "url": "https://bostonchildrensmuseum.org/visit/accessibility/"
+        }
+      },
+      "checkedAt": "2026-10-04",
+      "ageRange": {
+        "min": null,
+        "max": null,
+        "kind": "not-stated"
+      }
+    },
+    "vins-2026-10-03": {
+      "ageGroups": [],
+      "accessFeatures": [
+        "sensory-friendly",
+        "wheelchair-step-free"
+      ],
+      "ageEvidence": {},
+      "accessEvidence": {
+        "sensory-friendly": {
+          "evidenceId": "vins-event",
+          "url": "https://vinsweb.org/events/month/2026-10/"
+        },
+        "wheelchair-step-free": {
+          "evidenceId": "vins-access",
+          "url": "https://vinsweb.org/visit/",
+          "qualification": "Accessible main routes; several features are inaccessible and some routes slope."
+        }
+      },
+      "checkedAt": "2026-10-04"
+    },
+    "autism-alliance-storytime-2026-10-03": {
+      "ageGroups": [
+        "children",
+        "families"
+      ],
+      "accessFeatures": [
+        "sensory-friendly"
+      ],
+      "ageEvidence": {
+        "children": {
+          "evidenceId": "autism-story",
+          "url": "https://autismalliance.org/events/storytime-smiles-autism-welcoming-center"
+        },
+        "families": {
+          "evidenceId": "autism-story",
+          "url": "https://autismalliance.org/events/storytime-smiles-autism-welcoming-center"
+        }
+      },
+      "accessEvidence": {
+        "sensory-friendly": {
+          "evidenceId": "autism-story",
+          "url": "https://autismalliance.org/events/storytime-smiles-autism-welcoming-center"
+        }
+      },
+      "checkedAt": "2026-10-04"
+    },
+    "westport-early-2026-10-04": {
+      "ageGroups": [
+        "children",
+        "families"
+      ],
+      "accessFeatures": [
+        "sensory-friendly",
+        "wheelchair-step-free"
+      ],
+      "ageEvidence": {
+        "children": {
+          "evidenceId": "westport-early",
+          "url": "https://westportlibrary.org/event/sensory-friendly-storytime-early-opening/2026-12-13/"
+        },
+        "families": {
+          "evidenceId": "westport-early",
+          "url": "https://westportlibrary.org/event/sensory-friendly-storytime-early-opening/2026-12-13/"
+        }
+      },
+      "accessEvidence": {
+        "sensory-friendly": {
+          "evidenceId": "westport-early",
+          "url": "https://westportlibrary.org/event/sensory-friendly-storytime-early-opening/2026-12-13/"
+        },
+        "wheelchair-step-free": {
+          "evidenceId": "westport-access",
+          "url": "https://westportlibrary.org/services/accessibility-services/"
+        }
+      },
+      "checkedAt": "2026-10-04",
+      "ageRange": {
+        "min": 2,
+        "max": null,
+        "kind": "intended-audience",
+        "youngerChildrenWelcome": true
+      }
+    },
+    "westport-story-2026-10-04": {
+      "ageGroups": [
+        "children"
+      ],
+      "accessFeatures": [
+        "sensory-friendly",
+        "wheelchair-step-free"
+      ],
+      "ageEvidence": {
+        "children": {
+          "evidenceId": "westport-story",
+          "url": "https://westportlibrary.org/event/sensory-friendly-family-playtime-2-2/2026-10-19/"
+        }
+      },
+      "accessEvidence": {
+        "sensory-friendly": {
+          "evidenceId": "westport-story",
+          "url": "https://westportlibrary.org/event/sensory-friendly-family-playtime-2-2/2026-10-19/"
+        },
+        "wheelchair-step-free": {
+          "evidenceId": "westport-access",
+          "url": "https://westportlibrary.org/services/accessibility-services/"
+        }
+      },
+      "checkedAt": "2026-10-04",
+      "ageRange": {
+        "min": 2,
+        "max": null,
+        "kind": "intended-audience",
+        "youngerChildrenWelcome": true
+      }
+    },
+    "westport-story-2026-10-05": {
+      "ageGroups": [
+        "children"
+      ],
+      "accessFeatures": [
+        "sensory-friendly",
+        "wheelchair-step-free"
+      ],
+      "ageEvidence": {
+        "children": {
+          "evidenceId": "westport-story",
+          "url": "https://westportlibrary.org/event/sensory-friendly-family-playtime-2-2/2026-10-19/"
+        }
+      },
+      "accessEvidence": {
+        "sensory-friendly": {
+          "evidenceId": "westport-story",
+          "url": "https://westportlibrary.org/event/sensory-friendly-family-playtime-2-2/2026-10-19/"
+        },
+        "wheelchair-step-free": {
+          "evidenceId": "westport-access",
+          "url": "https://westportlibrary.org/services/accessibility-services/"
+        }
+      },
+      "checkedAt": "2026-10-04",
+      "ageRange": {
+        "min": 2,
+        "max": null,
+        "kind": "intended-audience",
+        "youngerChildrenWelcome": true
+      }
+    },
+    "clpvd-2026-10-06": {
+      "ageGroups": [
+        "all-ages",
+        "children",
+        "families"
+      ],
+      "accessFeatures": [
+        "sensory-friendly",
+        "wheelchair-step-free"
+      ],
+      "ageEvidence": {
+        "all-ages": {
+          "evidenceId": "clpvd-series",
+          "url": "https://clpvd.org/series/sensory-friendly-storytime/"
+        },
+        "children": {
+          "evidenceId": "clpvd-series",
+          "url": "https://clpvd.org/series/sensory-friendly-storytime/"
+        },
+        "families": {
+          "evidenceId": "clpvd-series",
+          "url": "https://clpvd.org/series/sensory-friendly-storytime/"
+        }
+      },
+      "accessEvidence": {
+        "sensory-friendly": {
+          "evidenceId": "clpvd-series",
+          "url": "https://clpvd.org/series/sensory-friendly-storytime/"
+        },
+        "wheelchair-step-free": {
+          "evidenceId": "clpvd-access",
+          "url": "https://clpvd.org/clpvd_library/mt-pleasant-library/"
+        }
+      },
+      "checkedAt": "2026-10-04",
+      "ageRange": {
+        "min": 0,
+        "max": 5,
+        "kind": "recommended",
+        "otherAgesWelcome": true
+      }
+    },
+    "discovery-2026-10-10": {
+      "ageGroups": [
+        "families"
+      ],
+      "accessFeatures": [
+        "sensory-friendly",
+        "wheelchair-step-free",
+        "hearing-support"
+      ],
+      "ageEvidence": {
+        "families": {
+          "evidenceId": "discovery-program",
+          "url": "https://www.discoveryacton.org/visit/especially-me"
+        }
+      },
+      "accessEvidence": {
+        "sensory-friendly": {
+          "evidenceId": "discovery-program",
+          "url": "https://www.discoveryacton.org/visit/especially-me"
+        },
+        "wheelchair-step-free": {
+          "evidenceId": "discovery-dates",
+          "url": "https://www.discoveryacton.org/news/schedule-free-events-visitors-disabilities-announced"
+        },
+        "hearing-support": {
+          "url": "https://www.discoveryacton.org/news/schedule-free-events-visitors-disabilities-announced",
+          "summary": "ASL may be requested during registration"
+        }
+      },
+      "checkedAt": "2026-10-04"
+    },
+    "clpvd-2026-10-13": {
+      "ageGroups": [
+        "all-ages",
+        "children",
+        "families"
+      ],
+      "accessFeatures": [
+        "sensory-friendly",
+        "wheelchair-step-free"
+      ],
+      "ageEvidence": {
+        "all-ages": {
+          "evidenceId": "clpvd-series",
+          "url": "https://clpvd.org/series/sensory-friendly-storytime/"
+        },
+        "children": {
+          "evidenceId": "clpvd-series",
+          "url": "https://clpvd.org/series/sensory-friendly-storytime/"
+        },
+        "families": {
+          "evidenceId": "clpvd-series",
+          "url": "https://clpvd.org/series/sensory-friendly-storytime/"
+        }
+      },
+      "accessEvidence": {
+        "sensory-friendly": {
+          "evidenceId": "clpvd-series",
+          "url": "https://clpvd.org/series/sensory-friendly-storytime/"
+        },
+        "wheelchair-step-free": {
+          "evidenceId": "clpvd-access",
+          "url": "https://clpvd.org/clpvd_library/mt-pleasant-library/"
+        }
+      },
+      "checkedAt": "2026-10-04",
+      "ageRange": {
+        "min": 0,
+        "max": 5,
+        "kind": "recommended",
+        "otherAgesWelcome": true
+      }
+    },
+    "autism-alliance-storytime-2026-10-13": {
+      "ageGroups": [
+        "children",
+        "families"
+      ],
+      "accessFeatures": [
+        "sensory-friendly"
+      ],
+      "ageEvidence": {
+        "children": {
+          "evidenceId": "autism-story",
+          "url": "https://autismalliance.org/events/storytime-smiles-autism-welcoming-center"
+        },
+        "families": {
+          "evidenceId": "autism-story",
+          "url": "https://autismalliance.org/events/storytime-smiles-autism-welcoming-center"
+        }
+      },
+      "accessEvidence": {
+        "sensory-friendly": {
+          "evidenceId": "autism-story",
+          "url": "https://autismalliance.org/events/storytime-smiles-autism-welcoming-center"
+        }
+      },
+      "checkedAt": "2026-10-04"
+    },
+    "montshire-2026-10-17": {
+      "ageGroups": [
+        "children",
+        "teens",
+        "adults",
+        "families"
+      ],
+      "accessFeatures": [
+        "sensory-friendly",
+        "wheelchair-step-free"
+      ],
+      "ageEvidence": {
+        "children": {
+          "evidenceId": "montshire-program",
+          "url": "https://montshire.org/event/montshh-montshire-sensory-hour-10/2026-10-17/"
+        },
+        "teens": {
+          "evidenceId": "montshire-program",
+          "url": "https://montshire.org/event/montshh-montshire-sensory-hour-10/2026-10-17/"
+        },
+        "adults": {
+          "evidenceId": "montshire-program",
+          "url": "https://montshire.org/event/montshh-montshire-sensory-hour-10/2026-10-17/"
+        },
+        "families": {
+          "evidenceId": "montshire-program",
+          "url": "https://montshire.org/event/montshh-montshire-sensory-hour-10/2026-10-17/"
+        }
+      },
+      "accessEvidence": {
+        "sensory-friendly": {
+          "evidenceId": "montshire-program",
+          "url": "https://montshire.org/event/montshh-montshire-sensory-hour-10/2026-10-17/"
+        },
+        "wheelchair-step-free": {
+          "evidenceId": "montshire-access",
+          "url": "https://montshire.org/visit/museum-faqs/",
+          "qualification": "Indoor route confirmed; outdoor areas may require assistance."
+        }
+      },
+      "checkedAt": "2026-10-04"
+    },
+    "bierman-bedford-2026-10-17": {
+      "ageGroups": [
+        "children",
+        "families"
+      ],
+      "accessFeatures": [
+        "sensory-friendly",
+        "adaptive-activities",
+        "caregiver-support"
+      ],
+      "ageEvidence": {
+        "children": {
+          "evidenceId": "bierman-2026",
+          "url": "https://www.biermanautism.com/press_release/trunk-or-treat-free-sensory-friendly-events-this-october/"
+        },
+        "families": {
+          "evidenceId": "bierman-2026",
+          "url": "https://www.biermanautism.com/press_release/trunk-or-treat-free-sensory-friendly-events-this-october/"
+        }
+      },
+      "accessEvidence": {
+        "sensory-friendly": {
+          "evidenceId": "bierman-2026",
+          "url": "https://www.biermanautism.com/press_release/trunk-or-treat-free-sensory-friendly-events-this-october/"
+        },
+        "adaptive-activities": {
+          "evidenceId": "bierman-2026",
+          "url": "https://www.biermanautism.com/press_release/trunk-or-treat-free-sensory-friendly-events-this-october/"
+        },
+        "caregiver-support": {
+          "evidenceId": "bierman-2026",
+          "url": "https://www.biermanautism.com/press_release/trunk-or-treat-free-sensory-friendly-events-this-october/"
+        }
+      },
+      "checkedAt": "2026-10-04"
+    },
+    "westport-story-2026-10-19": {
+      "ageGroups": [
+        "children"
+      ],
+      "accessFeatures": [
+        "sensory-friendly",
+        "wheelchair-step-free"
+      ],
+      "ageEvidence": {
+        "children": {
+          "evidenceId": "westport-story",
+          "url": "https://westportlibrary.org/event/sensory-friendly-family-playtime-2-2/2026-10-19/"
+        }
+      },
+      "accessEvidence": {
+        "sensory-friendly": {
+          "evidenceId": "westport-story",
+          "url": "https://westportlibrary.org/event/sensory-friendly-family-playtime-2-2/2026-10-19/"
+        },
+        "wheelchair-step-free": {
+          "evidenceId": "westport-access",
+          "url": "https://westportlibrary.org/services/accessibility-services/"
+        }
+      },
+      "checkedAt": "2026-10-04",
+      "ageRange": {
+        "min": 2,
+        "max": null,
+        "kind": "intended-audience",
+        "youngerChildrenWelcome": true
+      }
+    },
+    "clpvd-2026-10-20": {
+      "ageGroups": [
+        "all-ages",
+        "children",
+        "families"
+      ],
+      "accessFeatures": [
+        "sensory-friendly",
+        "wheelchair-step-free"
+      ],
+      "ageEvidence": {
+        "all-ages": {
+          "evidenceId": "clpvd-series",
+          "url": "https://clpvd.org/series/sensory-friendly-storytime/"
+        },
+        "children": {
+          "evidenceId": "clpvd-series",
+          "url": "https://clpvd.org/series/sensory-friendly-storytime/"
+        },
+        "families": {
+          "evidenceId": "clpvd-series",
+          "url": "https://clpvd.org/series/sensory-friendly-storytime/"
+        }
+      },
+      "accessEvidence": {
+        "sensory-friendly": {
+          "evidenceId": "clpvd-series",
+          "url": "https://clpvd.org/series/sensory-friendly-storytime/"
+        },
+        "wheelchair-step-free": {
+          "evidenceId": "clpvd-access",
+          "url": "https://clpvd.org/clpvd_library/mt-pleasant-library/"
+        }
+      },
+      "checkedAt": "2026-10-04",
+      "ageRange": {
+        "min": 0,
+        "max": 5,
+        "kind": "recommended",
+        "otherAgesWelcome": true
+      }
+    },
+    "rwpzoo-2026-10-20": {
+      "ageGroups": [
+        "children",
+        "adults",
+        "families"
+      ],
+      "accessFeatures": [
+        "sensory-friendly",
+        "wheelchair-step-free"
+      ],
+      "ageEvidence": {
+        "children": {
+          "evidenceId": "zoo-event",
+          "url": "https://www.rwpzoo.org/event/sensory-jack-o-lantern-spectacular/"
+        },
+        "adults": {
+          "evidenceId": "zoo-event",
+          "url": "https://www.rwpzoo.org/event/sensory-jack-o-lantern-spectacular/"
+        },
+        "families": {
+          "evidenceId": "zoo-event",
+          "url": "https://www.rwpzoo.org/event/sensory-jack-o-lantern-spectacular/"
+        }
+      },
+      "accessEvidence": {
+        "sensory-friendly": {
+          "evidenceId": "zoo-event",
+          "url": "https://www.rwpzoo.org/event/sensory-jack-o-lantern-spectacular/"
+        },
+        "wheelchair-step-free": {
+          "evidenceId": "zoo-access",
+          "url": "https://www.rwpzoo.org/visit/accessibility-programs-services/",
+          "qualification": "Mostly accessible route; hills and uneven/unpaved terrain remain."
+        }
+      },
+      "checkedAt": "2026-10-04",
+      "ageRange": {
+        "min": 0,
+        "max": null,
+        "kind": "admission-categories",
+        "childTicketMin": 2,
+        "childTicketMax": 12
+      }
+    },
+    "rwpzoo-2026-10-21": {
+      "ageGroups": [
+        "children",
+        "adults",
+        "families"
+      ],
+      "accessFeatures": [
+        "sensory-friendly",
+        "wheelchair-step-free"
+      ],
+      "ageEvidence": {
+        "children": {
+          "evidenceId": "zoo-event",
+          "url": "https://www.rwpzoo.org/event/sensory-jack-o-lantern-spectacular/"
+        },
+        "adults": {
+          "evidenceId": "zoo-event",
+          "url": "https://www.rwpzoo.org/event/sensory-jack-o-lantern-spectacular/"
+        },
+        "families": {
+          "evidenceId": "zoo-event",
+          "url": "https://www.rwpzoo.org/event/sensory-jack-o-lantern-spectacular/"
+        }
+      },
+      "accessEvidence": {
+        "sensory-friendly": {
+          "evidenceId": "zoo-event",
+          "url": "https://www.rwpzoo.org/event/sensory-jack-o-lantern-spectacular/"
+        },
+        "wheelchair-step-free": {
+          "evidenceId": "zoo-access",
+          "url": "https://www.rwpzoo.org/visit/accessibility-programs-services/",
+          "qualification": "Mostly accessible route; hills and uneven/unpaved terrain remain."
+        }
+      },
+      "checkedAt": "2026-10-04",
+      "ageRange": {
+        "min": 0,
+        "max": null,
+        "kind": "admission-categories",
+        "childTicketMin": 2,
+        "childTicketMax": 12
+      }
+    },
+    "bierman-danvers-2026-10-24": {
+      "ageGroups": [
+        "children",
+        "families"
+      ],
+      "accessFeatures": [
+        "sensory-friendly",
+        "adaptive-activities",
+        "caregiver-support"
+      ],
+      "ageEvidence": {
+        "children": {
+          "evidenceId": "bierman-2026",
+          "url": "https://www.biermanautism.com/press_release/trunk-or-treat-free-sensory-friendly-events-this-october/"
+        },
+        "families": {
+          "evidenceId": "bierman-2026",
+          "url": "https://www.biermanautism.com/press_release/trunk-or-treat-free-sensory-friendly-events-this-october/"
+        }
+      },
+      "accessEvidence": {
+        "sensory-friendly": {
+          "evidenceId": "bierman-2026",
+          "url": "https://www.biermanautism.com/press_release/trunk-or-treat-free-sensory-friendly-events-this-october/"
+        },
+        "adaptive-activities": {
+          "evidenceId": "bierman-2026",
+          "url": "https://www.biermanautism.com/press_release/trunk-or-treat-free-sensory-friendly-events-this-october/"
+        },
+        "caregiver-support": {
+          "evidenceId": "bierman-2026",
+          "url": "https://www.biermanautism.com/press_release/trunk-or-treat-free-sensory-friendly-events-this-october/"
+        }
+      },
+      "checkedAt": "2026-10-04"
+    },
+    "aldrich-2026-10-24": {
+      "ageGroups": [
+        "children",
+        "families"
+      ],
+      "accessFeatures": [
+        "sensory-friendly",
+        "wheelchair-step-free",
+        "adaptive-activities",
+        "vision-support"
+      ],
+      "ageEvidence": {
+        "children": {
+          "evidenceId": "aldrich-event",
+          "url": "https://thealdrich.org/events/sensory-saturday-5"
+        },
+        "families": {
+          "evidenceId": "aldrich-event",
+          "url": "https://thealdrich.org/events/sensory-saturday-5"
+        }
+      },
+      "accessEvidence": {
+        "sensory-friendly": {
+          "evidenceId": "aldrich-event",
+          "url": "https://thealdrich.org/events/sensory-saturday-5"
+        },
+        "wheelchair-step-free": {
+          "evidenceId": "aldrich-access",
+          "url": "https://thealdrich.org/learn/accessibility-programs"
+        },
+        "adaptive-activities": {
+          "evidenceId": "aldrich-event",
+          "url": "https://thealdrich.org/events/sensory-saturday-5"
+        },
+        "vision-support": {
+          "url": "https://thealdrich.org/events",
+          "summary": "Braille directional signage; Verbal artwork descriptions available"
+        }
+      },
+      "checkedAt": "2026-10-04",
+      "ageRange": {
+        "min": 4,
+        "max": 12,
+        "kind": "intended-child-audience",
+        "familyMembersWelcome": true
+      }
+    },
+    "beals-2026-10-24": {
+      "ageGroups": [
+        "families"
+      ],
+      "accessFeatures": [
+        "sensory-friendly"
+      ],
+      "ageEvidence": {
+        "families": {
+          "evidenceId": "beals-event",
+          "url": "https://www.bealslibrary.org/events"
+        }
+      },
+      "accessEvidence": {
+        "sensory-friendly": {
+          "evidenceId": "beals-event",
+          "url": "https://www.bealslibrary.org/events"
+        }
+      },
+      "checkedAt": "2026-10-04"
+    },
+    "venture-2026-10-27": {
+      "ageGroups": [
+        "children",
+        "teens",
+        "families"
+      ],
+      "accessFeatures": [
+        "sensory-friendly"
+      ],
+      "ageEvidence": {
+        "children": {
+          "evidenceId": "venture-event",
+          "url": "https://venturecs.org/event/halloween26/"
+        },
+        "teens": {
+          "evidenceId": "venture-event",
+          "url": "https://venturecs.org/event/halloween26/"
+        },
+        "families": {
+          "evidenceId": "venture-event",
+          "url": "https://venturecs.org/event/halloween26/"
+        }
+      },
+      "accessEvidence": {
+        "sensory-friendly": {
+          "evidenceId": "venture-event",
+          "url": "https://venturecs.org/event/halloween26/"
+        }
+      },
+      "checkedAt": "2026-10-04",
+      "ageRange": {
+        "min": null,
+        "max": 18,
+        "kind": "participant-eligibility",
+        "adultAccompanimentRequired": true
+      }
+    },
+    "cmtm-2026-10-30": {
+      "ageGroups": [
+        "families"
+      ],
+      "accessFeatures": [
+        "sensory-friendly",
+        "wheelchair-step-free"
+      ],
+      "ageEvidence": {
+        "families": {
+          "evidenceId": "cmtm-event",
+          "url": "https://www.kitetails.org/halloween"
+        }
+      },
+      "accessEvidence": {
+        "sensory-friendly": {
+          "evidenceId": "cmtm-event",
+          "url": "https://www.kitetails.org/halloween"
+        },
+        "wheelchair-step-free": {
+          "evidenceId": "cmtm-access",
+          "url": "https://www.kitetails.org/general-accessibility-information"
+        }
+      },
+      "checkedAt": "2026-10-04"
+    },
+    "discovery-2026-10-30": {
+      "ageGroups": [
+        "children",
+        "adults",
+        "families"
+      ],
+      "accessFeatures": [
+        "sensory-friendly",
+        "wheelchair-step-free",
+        "hearing-support"
+      ],
+      "ageEvidence": {
+        "children": {
+          "evidenceId": "discovery-program",
+          "url": "https://www.discoveryacton.org/visit/especially-me"
+        },
+        "adults": {
+          "evidenceId": "discovery-program",
+          "url": "https://www.discoveryacton.org/visit/especially-me"
+        },
+        "families": {
+          "evidenceId": "discovery-program",
+          "url": "https://www.discoveryacton.org/visit/especially-me"
+        }
+      },
+      "accessEvidence": {
+        "sensory-friendly": {
+          "evidenceId": "discovery-program",
+          "url": "https://www.discoveryacton.org/visit/especially-me"
+        },
+        "wheelchair-step-free": {
+          "evidenceId": "discovery-dates",
+          "url": "https://www.discoveryacton.org/news/schedule-free-events-visitors-disabilities-announced"
+        },
+        "hearing-support": {
+          "url": "https://www.discoveryacton.org/news/schedule-free-events-visitors-disabilities-announced",
+          "summary": "ASL may be requested during registration"
+        }
+      },
+      "checkedAt": "2026-10-04"
+    },
+    "stj-halloween-2026-10-30": {
+      "ageGroups": [
+        "families"
+      ],
+      "accessFeatures": [
+        "sensory-friendly"
+      ],
+      "ageEvidence": {
+        "families": {
+          "evidenceId": "stj-event",
+          "url": "https://www.stjathenaeum.org/youth-events-1/2026/10/30/sensory-friendly-halloween-event"
+        }
+      },
+      "accessEvidence": {
+        "sensory-friendly": {
+          "evidenceId": "stj-event",
+          "url": "https://www.stjathenaeum.org/youth-events-1/2026/10/30/sensory-friendly-halloween-event"
+        }
+      },
+      "checkedAt": "2026-10-04"
+    },
+    "see-2026-11-06": {
+      "ageGroups": [],
+      "accessFeatures": [
+        "sensory-friendly",
+        "wheelchair-step-free"
+      ],
+      "ageEvidence": {},
+      "accessEvidence": {
+        "sensory-friendly": {
+          "evidenceId": "see-event",
+          "url": "https://see-sciencecenter.org/"
+        },
+        "wheelchair-step-free": {
+          "evidenceId": "see-access",
+          "url": "https://see-sciencecenter.org/faq-items/accessibility/"
+        }
+      },
+      "checkedAt": "2026-10-04"
+    },
+    "bcm-2026-11-07": {
+      "ageGroups": [
+        "children",
+        "families"
+      ],
+      "accessFeatures": [
+        "sensory-friendly",
+        "wheelchair-step-free"
+      ],
+      "ageEvidence": {
+        "children": {
+          "evidenceId": "bcm-program",
+          "url": "https://bostonchildrensmuseum.org/visit/accessibility/"
+        },
+        "families": {
+          "evidenceId": "bcm-program",
+          "url": "https://bostonchildrensmuseum.org/visit/accessibility/"
+        }
+      },
+      "accessEvidence": {
+        "sensory-friendly": {
+          "evidenceId": "bcm-program",
+          "url": "https://bostonchildrensmuseum.org/visit/accessibility/"
+        },
+        "wheelchair-step-free": {
+          "evidenceId": "bcm-program",
+          "url": "https://bostonchildrensmuseum.org/visit/accessibility/"
+        }
+      },
+      "checkedAt": "2026-10-04",
+      "ageRange": {
+        "min": null,
+        "max": null,
+        "kind": "not-stated"
+      }
+    },
+    "westport-early-2026-11-15": {
+      "ageGroups": [
+        "children",
+        "families"
+      ],
+      "accessFeatures": [
+        "sensory-friendly",
+        "wheelchair-step-free"
+      ],
+      "ageEvidence": {
+        "children": {
+          "evidenceId": "westport-early",
+          "url": "https://westportlibrary.org/event/sensory-friendly-storytime-early-opening/2026-12-13/"
+        },
+        "families": {
+          "evidenceId": "westport-early",
+          "url": "https://westportlibrary.org/event/sensory-friendly-storytime-early-opening/2026-12-13/"
+        }
+      },
+      "accessEvidence": {
+        "sensory-friendly": {
+          "evidenceId": "westport-early",
+          "url": "https://westportlibrary.org/event/sensory-friendly-storytime-early-opening/2026-12-13/"
+        },
+        "wheelchair-step-free": {
+          "evidenceId": "westport-access",
+          "url": "https://westportlibrary.org/services/accessibility-services/"
+        }
+      },
+      "checkedAt": "2026-10-04",
+      "ageRange": {
+        "min": 2,
+        "max": null,
+        "kind": "intended-audience",
+        "youngerChildrenWelcome": true
+      }
+    },
+    "discovery-inclusive-2026-11-17": {
+      "ageGroups": [
+        "families"
+      ],
+      "accessFeatures": [
+        "sensory-friendly",
+        "wheelchair-step-free"
+      ],
+      "ageEvidence": {
+        "families": {
+          "evidenceId": "discovery-dates",
+          "url": "https://www.discoveryacton.org/news/schedule-free-events-visitors-disabilities-announced"
+        }
+      },
+      "accessEvidence": {
+        "sensory-friendly": {
+          "evidenceId": "discovery-program",
+          "url": "https://www.discoveryacton.org/visit/especially-me"
+        },
+        "wheelchair-step-free": {
+          "evidenceId": "discovery-dates",
+          "url": "https://www.discoveryacton.org/news/schedule-free-events-visitors-disabilities-announced"
+        }
+      },
+      "checkedAt": "2026-10-04"
+    },
+    "bcm-2026-11-20": {
+      "ageGroups": [
+        "children",
+        "families"
+      ],
+      "accessFeatures": [
+        "sensory-friendly",
+        "wheelchair-step-free"
+      ],
+      "ageEvidence": {
+        "children": {
+          "evidenceId": "bcm-program",
+          "url": "https://bostonchildrensmuseum.org/visit/accessibility/"
+        },
+        "families": {
+          "evidenceId": "bcm-program",
+          "url": "https://bostonchildrensmuseum.org/visit/accessibility/"
+        }
+      },
+      "accessEvidence": {
+        "sensory-friendly": {
+          "evidenceId": "bcm-program",
+          "url": "https://bostonchildrensmuseum.org/visit/accessibility/"
+        },
+        "wheelchair-step-free": {
+          "evidenceId": "bcm-program",
+          "url": "https://bostonchildrensmuseum.org/visit/accessibility/"
+        }
+      },
+      "checkedAt": "2026-10-04",
+      "ageRange": {
+        "min": null,
+        "max": null,
+        "kind": "not-stated"
+      }
+    },
+    "montshire-2026-11-21": {
+      "ageGroups": [
+        "children",
+        "teens",
+        "adults",
+        "families"
+      ],
+      "accessFeatures": [
+        "sensory-friendly",
+        "wheelchair-step-free"
+      ],
+      "ageEvidence": {
+        "children": {
+          "evidenceId": "montshire-program",
+          "url": "https://montshire.org/event/montshh-montshire-sensory-hour-10/2026-11-21/"
+        },
+        "teens": {
+          "evidenceId": "montshire-program",
+          "url": "https://montshire.org/event/montshh-montshire-sensory-hour-10/2026-11-21/"
+        },
+        "adults": {
+          "evidenceId": "montshire-program",
+          "url": "https://montshire.org/event/montshh-montshire-sensory-hour-10/2026-11-21/"
+        },
+        "families": {
+          "evidenceId": "montshire-program",
+          "url": "https://montshire.org/event/montshh-montshire-sensory-hour-10/2026-11-21/"
+        }
+      },
+      "accessEvidence": {
+        "sensory-friendly": {
+          "evidenceId": "montshire-program",
+          "url": "https://montshire.org/event/montshh-montshire-sensory-hour-10/2026-11-21/"
+        },
+        "wheelchair-step-free": {
+          "evidenceId": "montshire-access",
+          "url": "https://montshire.org/visit/museum-faqs/",
+          "qualification": "Indoor route confirmed; outdoor areas may require assistance."
+        }
+      },
+      "checkedAt": "2026-10-04"
+    },
+    "weir-2026-11-21": {
+      "ageGroups": [
+        "families"
+      ],
+      "accessFeatures": [
+        "sensory-friendly"
+      ],
+      "ageEvidence": {
+        "families": {
+          "evidenceId": "weir-event",
+          "url": "https://thetrustees.org/event/448729/"
+        }
+      },
+      "accessEvidence": {
+        "sensory-friendly": {
+          "evidenceId": "weir-event",
+          "url": "https://thetrustees.org/event/448729/"
+        }
+      },
+      "checkedAt": "2026-10-04"
+    },
+    "shelburne-2026-11-30": {
+      "ageGroups": [
+        "children",
+        "teens",
+        "adults"
+      ],
+      "accessFeatures": [
+        "sensory-friendly"
+      ],
+      "ageEvidence": {
+        "children": {
+          "evidenceId": "shelburne-season",
+          "url": "https://shelburnemuseum.org/visit/winter-lights/"
+        },
+        "teens": {
+          "evidenceId": "shelburne-season",
+          "url": "https://shelburnemuseum.org/visit/winter-lights/"
+        },
+        "adults": {
+          "evidenceId": "shelburne-season",
+          "url": "https://shelburnemuseum.org/visit/winter-lights/"
+        }
+      },
+      "accessEvidence": {
+        "sensory-friendly": {
+          "evidenceId": "shelburne-event",
+          "url": "https://shelburnemuseum.org/event/sensory-friendly-winter-lights-2-4/"
+        }
+      },
+      "checkedAt": "2026-10-04",
+      "ageRange": {
+        "min": 0,
+        "max": null,
+        "kind": "admission-categories",
+        "childTicketMin": 3,
+        "childTicketMax": 17
+      }
+    },
+    "boston-ballet-2026-12-04": {
+      "ageGroups": [
+        "children"
+      ],
+      "accessFeatures": [
+        "sensory-friendly",
+        "wheelchair-step-free",
+        "vision-support",
+        "hearing-support"
+      ],
+      "ageEvidence": {
+        "children": {
+          "evidenceId": "ballet-event",
+          "url": "https://www.bostonballet.org/performances/sensory-friendly-nutcracker/"
+        }
+      },
+      "accessEvidence": {
+        "sensory-friendly": {
+          "evidenceId": "ballet-event",
+          "url": "https://www.bostonballet.org/performances/sensory-friendly-nutcracker/"
+        },
+        "wheelchair-step-free": {
+          "evidenceId": "ballet-access",
+          "url": "https://www.bostonballet.org/home/tickets-performances/frequently-asked-questions-boston-ballet-theater-policies/"
+        },
+        "vision-support": {
+          "url": "https://www.bostonballet.org/performances/sensory-friendly-nutcracker/",
+          "summary": "Audio description"
+        },
+        "hearing-support": {
+          "url": "https://www.bostonballet.org/performances/sensory-friendly-nutcracker/",
+          "summary": "ASL ushers/interpreted announcements"
+        }
+      },
+      "checkedAt": "2026-10-04"
+    },
+    "bcm-2026-12-05": {
+      "ageGroups": [
+        "children",
+        "families"
+      ],
+      "accessFeatures": [
+        "sensory-friendly",
+        "wheelchair-step-free"
+      ],
+      "ageEvidence": {
+        "children": {
+          "evidenceId": "bcm-program",
+          "url": "https://bostonchildrensmuseum.org/visit/accessibility/"
+        },
+        "families": {
+          "evidenceId": "bcm-program",
+          "url": "https://bostonchildrensmuseum.org/visit/accessibility/"
+        }
+      },
+      "accessEvidence": {
+        "sensory-friendly": {
+          "evidenceId": "bcm-program",
+          "url": "https://bostonchildrensmuseum.org/visit/accessibility/"
+        },
+        "wheelchair-step-free": {
+          "evidenceId": "bcm-program",
+          "url": "https://bostonchildrensmuseum.org/visit/accessibility/"
+        }
+      },
+      "checkedAt": "2026-10-04",
+      "ageRange": {
+        "min": null,
+        "max": null,
+        "kind": "not-stated"
+      }
+    },
+    "westport-early-2026-12-13": {
+      "ageGroups": [
+        "children",
+        "families"
+      ],
+      "accessFeatures": [
+        "sensory-friendly",
+        "wheelchair-step-free"
+      ],
+      "ageEvidence": {
+        "children": {
+          "evidenceId": "westport-early",
+          "url": "https://westportlibrary.org/event/sensory-friendly-storytime-early-opening/2026-12-13/"
+        },
+        "families": {
+          "evidenceId": "westport-early",
+          "url": "https://westportlibrary.org/event/sensory-friendly-storytime-early-opening/2026-12-13/"
+        }
+      },
+      "accessEvidence": {
+        "sensory-friendly": {
+          "evidenceId": "westport-early",
+          "url": "https://westportlibrary.org/event/sensory-friendly-storytime-early-opening/2026-12-13/"
+        },
+        "wheelchair-step-free": {
+          "evidenceId": "westport-access",
+          "url": "https://westportlibrary.org/services/accessibility-services/"
+        }
+      },
+      "checkedAt": "2026-10-04",
+      "ageRange": {
+        "min": 2,
+        "max": null,
+        "kind": "intended-audience",
+        "youngerChildrenWelcome": true
+      }
+    },
+    "shelburne-2026-12-14": {
+      "ageGroups": [
+        "children",
+        "teens",
+        "adults"
+      ],
+      "accessFeatures": [
+        "sensory-friendly"
+      ],
+      "ageEvidence": {
+        "children": {
+          "evidenceId": "shelburne-season",
+          "url": "https://shelburnemuseum.org/visit/winter-lights/"
+        },
+        "teens": {
+          "evidenceId": "shelburne-season",
+          "url": "https://shelburnemuseum.org/visit/winter-lights/"
+        },
+        "adults": {
+          "evidenceId": "shelburne-season",
+          "url": "https://shelburnemuseum.org/visit/winter-lights/"
+        }
+      },
+      "accessEvidence": {
+        "sensory-friendly": {
+          "evidenceId": "shelburne-season",
+          "url": "https://shelburnemuseum.org/visit/winter-lights/"
+        }
+      },
+      "checkedAt": "2026-10-04",
+      "ageRange": {
+        "min": 0,
+        "max": null,
+        "kind": "admission-categories",
+        "childTicketMin": 3,
+        "childTicketMax": 17
+      }
+    },
+    "montshire-2026-12-19": {
+      "ageGroups": [
+        "children",
+        "teens",
+        "adults",
+        "families"
+      ],
+      "accessFeatures": [
+        "sensory-friendly",
+        "wheelchair-step-free"
+      ],
+      "ageEvidence": {
+        "children": {
+          "evidenceId": "montshire-program",
+          "url": "https://montshire.org/event/montshh-montshire-sensory-hour-10/2026-12-19/"
+        },
+        "teens": {
+          "evidenceId": "montshire-program",
+          "url": "https://montshire.org/event/montshh-montshire-sensory-hour-10/2026-12-19/"
+        },
+        "adults": {
+          "evidenceId": "montshire-program",
+          "url": "https://montshire.org/event/montshh-montshire-sensory-hour-10/2026-12-19/"
+        },
+        "families": {
+          "evidenceId": "montshire-program",
+          "url": "https://montshire.org/event/montshh-montshire-sensory-hour-10/2026-12-19/"
+        }
+      },
+      "accessEvidence": {
+        "sensory-friendly": {
+          "evidenceId": "montshire-program",
+          "url": "https://montshire.org/event/montshh-montshire-sensory-hour-10/2026-12-19/"
+        },
+        "wheelchair-step-free": {
+          "evidenceId": "montshire-access",
+          "url": "https://montshire.org/visit/museum-faqs/",
+          "qualification": "Indoor route confirmed; outdoor areas may require assistance."
+        }
+      },
+      "checkedAt": "2026-10-04"
+    },
+    "some-workout-2026-10-06": {
+      "ageGroups": [
+        "teens",
+        "adults"
+      ],
+      "accessFeatures": [
+        "adaptive-activities"
+      ],
+      "checkedAt": "2026-10-04",
+      "ageEvidence": {
+        "teens": {
+          "url": "https://www.somaine.org/event/special-olympics-workout-class/2026-10-06",
+          "summary": "Ages 14+; all fitness levels welcome"
+        },
+        "adults": {
+          "url": "https://www.somaine.org/event/special-olympics-workout-class/2026-10-06",
+          "summary": "Ages 14+; all fitness levels welcome"
+        }
+      },
+      "accessEvidence": {
+        "adaptive-activities": {
+          "url": "https://www.somaine.org/event/special-olympics-workout-class/2026-10-06",
+          "summary": "Exercises can be modified; All fitness levels welcome; Drop-in participation"
+        }
+      }
+    },
+    "uap-canoe-whitehall-2026-10-07": {
+      "ageGroups": [],
+      "accessFeatures": [
+        "adaptive-activities"
+      ],
+      "checkedAt": "2026-10-04",
+      "ageEvidence": {},
+      "accessEvidence": {
+        "adaptive-activities": {
+          "url": "https://www.mass.gov/event/oct-7-adaptive-canoeing-at-whitehall-state-park-10-07-2026",
+          "summary": "Adaptive kayaking/canoeing equipment; Instruction designed around individual needs; Small-group format; Cost flexibility based on need"
+        }
+      }
+    },
+    "cmnh-exploring-2026-10-09": {
+      "ageGroups": [
+        "children",
+        "families"
+      ],
+      "accessFeatures": [
+        "sensory-friendly"
+      ],
+      "checkedAt": "2026-10-04",
+      "ageEvidence": {
+        "children": {
+          "url": "https://childrens-museum.org/programs/exploring-our-way/",
+          "summary": "Families of children with special needs, including autism or sensory processing needs"
+        },
+        "families": {
+          "url": "https://childrens-museum.org/programs/exploring-our-way/",
+          "summary": "Families of children with special needs, including autism or sensory processing needs"
+        }
+      },
+      "accessEvidence": {
+        "sensory-friendly": {
+          "url": "https://childrens-museum.org/programs/exploring-our-way/",
+          "summary": "Limited attendance; Reduced sounds and lights; Quiet zone with sensory activities; Noise-canceling headphones available; No medical diagnosis required"
+        }
+      }
+    },
+    "aa-slime-2026-10-12": {
+      "ageGroups": [
+        "children",
+        "teens",
+        "adults"
+      ],
+      "accessFeatures": [],
+      "checkedAt": "2026-10-04",
+      "ageEvidence": {
+        "children": {
+          "url": "https://autismalliance.org/events/mad-scientist-slime-party",
+          "summary": "Ages 5–12 from 10:30–11:30; ages 13–21 from 11:30–12:30"
+        },
+        "teens": {
+          "url": "https://autismalliance.org/events/mad-scientist-slime-party",
+          "summary": "Ages 5–12 from 10:30–11:30; ages 13–21 from 11:30–12:30"
+        },
+        "adults": {
+          "url": "https://autismalliance.org/events/mad-scientist-slime-party",
+          "summary": "Ages 5–12 from 10:30–11:30; ages 13–21 from 11:30–12:30"
+        }
+      },
+      "accessEvidence": {}
+    },
+    "some-soccer-2026-10-15": {
+      "ageGroups": [],
+      "accessFeatures": [
+        "adaptive-activities"
+      ],
+      "checkedAt": "2026-10-04",
+      "ageEvidence": {},
+      "accessEvidence": {
+        "adaptive-activities": {
+          "url": "https://www.somaine.org/event/state-soccer",
+          "summary": "Ability-based Special Olympics competition; Unified Sports participation; Fans are welcome"
+        }
+      }
+    },
+    "uap-tandem-boston-2026-10-16": {
+      "ageGroups": [],
+      "accessFeatures": [
+        "adaptive-activities"
+      ],
+      "checkedAt": "2026-10-04",
+      "ageEvidence": {},
+      "accessEvidence": {
+        "adaptive-activities": {
+          "url": "https://www.mass.gov/event/oct-16-adaptive-tandem-cycling-at-pope-john-paul-ii-park-reservation-10-16-2026",
+          "summary": "Multiple adaptive tandem cycle styles; Supportive seating options; Helmets available; Cost flexibility based on need"
+        }
+      }
+    },
+    "aa-zoo-2026-10-16": {
+      "ageGroups": [
+        "children"
+      ],
+      "accessFeatures": [],
+      "checkedAt": "2026-10-04",
+      "ageEvidence": {
+        "children": {
+          "url": "https://autismalliance.org/events/after-school-zoo-club-ages-5-12?instance=2",
+          "summary": "Ages 5–12 and siblings"
+        }
+      },
+      "accessEvidence": {}
+    },
+    "aa-halloween-dance-2026-10-16": {
+      "ageGroups": [
+        "children",
+        "teens",
+        "adults"
+      ],
+      "accessFeatures": [],
+      "checkedAt": "2026-10-04",
+      "ageEvidence": {
+        "children": {
+          "url": "https://autismalliance.org/events/halloween-dance-party",
+          "summary": "Ages 5–12 from 5:30–6:15; ages 13–21 from 6:30–7:15"
+        },
+        "teens": {
+          "url": "https://autismalliance.org/events/halloween-dance-party",
+          "summary": "Ages 5–12 from 5:30–6:15; ages 13–21 from 6:30–7:15"
+        },
+        "adults": {
+          "url": "https://autismalliance.org/events/halloween-dance-party",
+          "summary": "Ages 5–12 from 5:30–6:15; ages 13–21 from 6:30–7:15"
+        }
+      },
+      "accessEvidence": {}
+    },
+    "soma-equestrian-2026-10-18": {
+      "ageGroups": [
+        "families"
+      ],
+      "accessFeatures": [],
+      "checkedAt": "2026-10-04",
+      "ageEvidence": {
+        "families": {
+          "url": "https://specialolympicsma.org/event/south-shore-equestrian-event",
+          "summary": "Registered Special Olympics athletes; families and supporters may attend"
+        }
+      },
+      "accessEvidence": {}
+    },
+    "some-area-bowling-2026-10-19": {
+      "ageGroups": [
+        "children",
+        "adults"
+      ],
+      "accessFeatures": [
+        "adaptive-activities"
+      ],
+      "checkedAt": "2026-10-04",
+      "ageEvidence": {
+        "children": {
+          "url": "https://www.somaine.org/events",
+          "summary": "School-based and adult Special Olympics athletes"
+        },
+        "adults": {
+          "url": "https://www.somaine.org/events",
+          "summary": "School-based and adult Special Olympics athletes"
+        }
+      },
+      "accessEvidence": {
+        "adaptive-activities": {
+          "url": "https://www.somaine.org/events",
+          "summary": "School-age and adult athlete divisions; Ability-based Special Olympics competition; Multi-day schedule"
+        }
+      }
+    },
+    "aa-zoo-2026-10-23": {
+      "ageGroups": [
+        "children"
+      ],
+      "accessFeatures": [],
+      "checkedAt": "2026-10-04",
+      "ageEvidence": {
+        "children": {
+          "url": "https://autismalliance.org/events/after-school-zoo-club-ages-5-12?instance=2",
+          "summary": "Ages 5–12 and siblings"
+        }
+      },
+      "accessEvidence": {}
+    },
+    "some-bowling-hallowell-2026-10-27": {
+      "ageGroups": [
+        "all-ages",
+        "children",
+        "teens",
+        "adults",
+        "families"
+      ],
+      "accessFeatures": [
+        "adaptive-activities"
+      ],
+      "checkedAt": "2026-10-04",
+      "ageEvidence": {
+        "all-ages": {
+          "url": "https://www.somaine.org/event/kennebec-county-bowling-tournament",
+          "summary": "Special Olympics athletes of all ages in the Kennebec County area"
+        },
+        "children": {
+          "url": "https://www.somaine.org/event/kennebec-county-bowling-tournament",
+          "summary": "Special Olympics athletes of all ages in the Kennebec County area"
+        },
+        "teens": {
+          "url": "https://www.somaine.org/event/kennebec-county-bowling-tournament",
+          "summary": "Special Olympics athletes of all ages in the Kennebec County area"
+        },
+        "adults": {
+          "url": "https://www.somaine.org/event/kennebec-county-bowling-tournament",
+          "summary": "Special Olympics athletes of all ages in the Kennebec County area"
+        },
+        "families": {
+          "url": "https://www.somaine.org/event/kennebec-county-bowling-tournament",
+          "summary": "Special Olympics athletes of all ages in the Kennebec County area"
+        }
+      },
+      "accessEvidence": {
+        "adaptive-activities": {
+          "url": "https://www.somaine.org/event/kennebec-county-bowling-tournament",
+          "summary": "Ability-based divisioning; Supportive competition environment; Athletes of all ages"
+        }
+      }
+    },
+    "aa-zoo-2026-10-30": {
+      "ageGroups": [
+        "children"
+      ],
+      "accessFeatures": [],
+      "checkedAt": "2026-10-04",
+      "ageEvidence": {
+        "children": {
+          "url": "https://autismalliance.org/events/after-school-zoo-club-ages-5-12?instance=2",
+          "summary": "Ages 5–12 and siblings"
+        }
+      },
+      "accessEvidence": {}
+    },
+    "aa-magic-2026-10-31": {
+      "ageGroups": [
+        "children",
+        "teens",
+        "adults",
+        "families"
+      ],
+      "accessFeatures": [],
+      "checkedAt": "2026-10-04",
+      "ageEvidence": {
+        "children": {
+          "url": "https://autismalliance.org/events/tricks-treats-magic",
+          "summary": "Ages 21 and under with families"
+        },
+        "teens": {
+          "url": "https://autismalliance.org/events/tricks-treats-magic",
+          "summary": "Ages 21 and under with families"
+        },
+        "adults": {
+          "url": "https://autismalliance.org/events/tricks-treats-magic",
+          "summary": "Ages 21 and under with families"
+        },
+        "families": {
+          "url": "https://autismalliance.org/events/tricks-treats-magic",
+          "summary": "Ages 21 and under with families"
+        }
+      },
+      "accessEvidence": {}
+    },
+    "carroll-info-day-2026-11-03": {
+      "ageGroups": [],
+      "accessFeatures": [
+        "vision-support"
+      ],
+      "checkedAt": "2026-10-04",
+      "ageEvidence": {},
+      "accessEvidence": {
+        "vision-support": {
+          "url": "https://carroll.org/events/information-day/",
+          "summary": "Blind/low-vision-centered programming; Assistive technology demonstrations; Low-vision device demonstrations; Campus tour and practical resources"
+        }
+      }
+    },
+    "some-workout-2026-11-03": {
+      "ageGroups": [
+        "teens",
+        "adults"
+      ],
+      "accessFeatures": [
+        "adaptive-activities"
+      ],
+      "checkedAt": "2026-10-04",
+      "ageEvidence": {
+        "teens": {
+          "url": "https://www.somaine.org/event/special-olympics-workout-class/2026-11-03",
+          "summary": "Ages 14+; all fitness levels welcome"
+        },
+        "adults": {
+          "url": "https://www.somaine.org/event/special-olympics-workout-class/2026-11-03",
+          "summary": "Ages 14+; all fitness levels welcome"
+        }
+      },
+      "accessEvidence": {
+        "adaptive-activities": {
+          "url": "https://www.somaine.org/event/special-olympics-workout-class/2026-11-03",
+          "summary": "Exercises can be modified; All fitness levels welcome; Drop-in participation"
+        }
+      }
+    },
+    "uap-cycling-groton-2026-11-06": {
+      "ageGroups": [],
+      "accessFeatures": [
+        "adaptive-activities"
+      ],
+      "checkedAt": "2026-10-04",
+      "ageEvidence": {},
+      "accessEvidence": {
+        "adaptive-activities": {
+          "url": "https://www.mass.gov/event/nov-6-adaptive-intermediate-tandem-cycling-on-the-nashua-river-rail-trail-11-06-2026",
+          "summary": "Multiple adaptive tandem cycle styles; Supportive seating options; Helmets available; Cost flexibility based on need"
+        }
+      }
+    },
+    "aa-zoo-2026-11-06": {
+      "ageGroups": [
+        "children"
+      ],
+      "accessFeatures": [],
+      "checkedAt": "2026-10-04",
+      "ageEvidence": {
+        "children": {
+          "url": "https://autismalliance.org/events/after-school-zoo-club-ages-5-12?instance=2",
+          "summary": "Ages 5–12 and siblings"
+        }
+      },
+      "accessEvidence": {}
+    },
+    "carroll-90th-2026-11-07": {
+      "ageGroups": [
+        "families"
+      ],
+      "accessFeatures": [],
+      "checkedAt": "2026-10-04",
+      "ageEvidence": {
+        "families": {
+          "url": "https://carroll.org/events/90th-anniversary/",
+          "summary": "Blind/low-vision community, families, alumni, staff, supporters and visitors"
+        }
+      },
+      "accessEvidence": {}
+    },
+    "soma-soccer-state-2026-11-08": {
+      "ageGroups": [
+        "families"
+      ],
+      "accessFeatures": [],
+      "checkedAt": "2026-10-04",
+      "ageEvidence": {
+        "families": {
+          "url": "https://www.specialolympicsma.org/events/events-calendar",
+          "summary": "Registered Special Olympics athletes; families and supporters may attend"
+        }
+      },
+      "accessEvidence": {}
+    },
+    "some-youth-summit-pi-2026-11-09": {
+      "ageGroups": [
+        "children",
+        "teens"
+      ],
+      "accessFeatures": [
+        "adaptive-activities"
+      ],
+      "checkedAt": "2026-10-04",
+      "ageEvidence": {
+        "children": {
+          "url": "https://www.somaine.org/event/youth-summit-presque-isle",
+          "summary": "Elementary through high-school students with and without intellectual disabilities"
+        },
+        "teens": {
+          "url": "https://www.somaine.org/event/youth-summit-presque-isle",
+          "summary": "Elementary through high-school students with and without intellectual disabilities"
+        }
+      },
+      "accessEvidence": {
+        "adaptive-activities": {
+          "url": "https://www.somaine.org/event/youth-summit-presque-isle",
+          "summary": "Designed for students with and without intellectual disabilities; Large- and small-group programming; Inclusive youth leadership focus"
+        }
+      }
+    },
+    "carroll-cane-quest-2026-11-11": {
+      "ageGroups": [
+        "children",
+        "teens",
+        "families"
+      ],
+      "accessFeatures": [
+        "vision-support",
+        "adaptive-activities"
+      ],
+      "checkedAt": "2026-10-04",
+      "ageEvidence": {
+        "children": {
+          "url": "https://carroll.org/events/cane-quest/",
+          "summary": "Blind and visually impaired school-age youth, grades 2+, who use a white cane; family activities included"
+        },
+        "teens": {
+          "url": "https://carroll.org/events/cane-quest/",
+          "summary": "Blind and visually impaired school-age youth, grades 2+, who use a white cane; family activities included"
+        },
+        "families": {
+          "url": "https://carroll.org/events/cane-quest/",
+          "summary": "Blind and visually impaired school-age youth, grades 2+, who use a white cane; family activities included"
+        }
+      },
+      "accessEvidence": {
+        "vision-support": {
+          "url": "https://carroll.org/events/cane-quest/",
+          "summary": "Blind/low-vision-centered event; Orientation & Mobility skill stations; Family activities; Real-world white-cane navigation"
+        },
+        "adaptive-activities": {
+          "url": "https://carroll.org/events/cane-quest/",
+          "summary": "Blind/low-vision-centered event; Orientation & Mobility skill stations; Family activities; Real-world white-cane navigation"
+        }
+      }
+    },
+    "aa-zoo-2026-11-13": {
+      "ageGroups": [
+        "children"
+      ],
+      "accessFeatures": [],
+      "checkedAt": "2026-10-04",
+      "ageEvidence": {
+        "children": {
+          "url": "https://autismalliance.org/events/after-school-zoo-club-ages-5-12?instance=2",
+          "summary": "Ages 5–12 and siblings"
+        }
+      },
+      "accessEvidence": {}
+    },
+    "cmnh-exploring-2026-11-13": {
+      "ageGroups": [
+        "children",
+        "families"
+      ],
+      "accessFeatures": [
+        "sensory-friendly"
+      ],
+      "checkedAt": "2026-10-04",
+      "ageEvidence": {
+        "children": {
+          "url": "https://childrens-museum.org/programs/exploring-our-way/",
+          "summary": "Families of children with special needs, including autism or sensory processing needs"
+        },
+        "families": {
+          "url": "https://childrens-museum.org/programs/exploring-our-way/",
+          "summary": "Families of children with special needs, including autism or sensory processing needs"
+        }
+      },
+      "accessEvidence": {
+        "sensory-friendly": {
+          "url": "https://childrens-museum.org/programs/exploring-our-way/",
+          "summary": "Limited attendance; Reduced sounds and lights; Quiet zone with sensory activities; Noise-canceling headphones available; No medical diagnosis required"
+        }
+      }
+    },
+    "soma-flag-state-2026-11-14": {
+      "ageGroups": [
+        "families"
+      ],
+      "accessFeatures": [],
+      "checkedAt": "2026-10-04",
+      "ageEvidence": {
+        "families": {
+          "url": "https://www.specialolympicsma.org/events/events-calendar",
+          "summary": "Registered Special Olympics athletes and cheer teams; families and supporters may attend"
+        }
+      },
+      "accessEvidence": {}
+    },
+    "uap-hike-carlisle-2026-11-14": {
+      "ageGroups": [],
+      "accessFeatures": [
+        "adaptive-activities"
+      ],
+      "checkedAt": "2026-10-04",
+      "ageEvidence": {},
+      "accessEvidence": {
+        "adaptive-activities": {
+          "url": "https://www.mass.gov/event/nov-14-adaptive-hiking-at-great-brook-farm-state-park-11-14-2026",
+          "summary": "Adaptive hiking equipment; Instruction adapted to learning style; Small-group format; Cost flexibility based on need"
+        }
+      }
+    },
+    "some-bowling-bangor-2026-11-16": {
+      "ageGroups": [
+        "children",
+        "teens",
+        "adults"
+      ],
+      "accessFeatures": [],
+      "checkedAt": "2026-10-04",
+      "ageEvidence": {
+        "children": {
+          "url": "https://www.somaine.org/event/central-maine-10-pin-bowling",
+          "summary": "Special Olympics bowling delegations, with 21-and-under and 22-and-over tournament groups"
+        },
+        "teens": {
+          "url": "https://www.somaine.org/event/central-maine-10-pin-bowling",
+          "summary": "Special Olympics bowling delegations, with 21-and-under and 22-and-over tournament groups"
+        },
+        "adults": {
+          "url": "https://www.somaine.org/event/central-maine-10-pin-bowling",
+          "summary": "Special Olympics bowling delegations, with 21-and-under and 22-and-over tournament groups"
+        }
+      },
+      "accessEvidence": {}
+    },
+    "aa-provider-2026-11-17": {
+      "ageGroups": [
+        "families"
+      ],
+      "accessFeatures": [
+        "caregiver-support"
+      ],
+      "checkedAt": "2026-10-04",
+      "ageEvidence": {
+        "families": {
+          "url": "https://autismalliance.org/events/finding-provider-practical-tips-families",
+          "summary": "Autistic people, parents, caregivers and families navigating services"
+        }
+      },
+      "accessEvidence": {
+        "caregiver-support": {
+          "url": "https://autismalliance.org/events/finding-provider-practical-tips-families",
+          "summary": "Virtual participation from home; Practical family-service navigation; Zoom link sent to registered participants"
+        }
+      }
+    },
+    "carroll-tech-fair-2026-11-20": {
+      "ageGroups": [],
+      "accessFeatures": [
+        "vision-support"
+      ],
+      "checkedAt": "2026-10-04",
+      "ageEvidence": {},
+      "accessEvidence": {
+        "vision-support": {
+          "url": "https://carroll.org/events/virtual-technology-fair/",
+          "summary": "Blind/low-vision-centered technology content; Virtual attendance; Live Q&A; Join from anywhere"
+        }
+      }
+    },
+    "aa-zoo-2026-11-20": {
+      "ageGroups": [
+        "children"
+      ],
+      "accessFeatures": [],
+      "checkedAt": "2026-10-04",
+      "ageEvidence": {
+        "children": {
+          "url": "https://autismalliance.org/events/after-school-zoo-club-ages-5-12?instance=2",
+          "summary": "Ages 5–12 and siblings"
+        }
+      },
+      "accessEvidence": {}
+    },
+    "soma-jolly-jaunt-2026-12-05": {
+      "ageGroups": [
+        "families"
+      ],
+      "accessFeatures": [],
+      "checkedAt": "2026-10-04",
+      "ageEvidence": {
+        "families": {
+          "url": "https://specialolympicsma.org/events/annual-events/xtra-mile",
+          "summary": "Runners, walkers, families, teams and supporters of Special Olympics Massachusetts"
+        }
+      },
+      "accessEvidence": {}
+    },
+    "cmnh-exploring-2026-12-11": {
+      "ageGroups": [
+        "children",
+        "families"
+      ],
+      "accessFeatures": [
+        "sensory-friendly"
+      ],
+      "checkedAt": "2026-10-04",
+      "ageEvidence": {
+        "children": {
+          "url": "https://childrens-museum.org/programs/exploring-our-way/",
+          "summary": "Families of children with special needs, including autism or sensory processing needs"
+        },
+        "families": {
+          "url": "https://childrens-museum.org/programs/exploring-our-way/",
+          "summary": "Families of children with special needs, including autism or sensory processing needs"
+        }
+      },
+      "accessEvidence": {
+        "sensory-friendly": {
+          "url": "https://childrens-museum.org/programs/exploring-our-way/",
+          "summary": "Limited attendance; Reduced sounds and lights; Quiet zone with sensory activities; Noise-canceling headphones available; No medical diagnosis required"
+        }
+      }
+    },
+    "carroll-movie-2026-12-11": {
+      "ageGroups": [],
+      "accessFeatures": [
+        "vision-support"
+      ],
+      "checkedAt": "2026-10-04",
+      "ageEvidence": {},
+      "accessEvidence": {
+        "vision-support": {
+          "url": "https://carroll.org/events/carroll-alumni-movie-night/",
+          "summary": "Movie includes audio description; Blind/low-vision-centered social event; Indoor seating and refreshments"
+        }
+      }
+    }
+  }
+}

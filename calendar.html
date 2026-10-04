@@ -14,7 +14,9 @@
 <link rel="icon" href="/favicon.ico">
 <link rel="stylesheet" href="/assets/site.css?v=magazine-20261003">
 <link rel="stylesheet" href="/assets/magazine.css?v=calendar-20261003b">
-<link rel="stylesheet" href="/assets/immersion.css?v=village-20261003"><link rel="stylesheet" href="/assets/editorial.css?v=20261003-mainstreet"><link rel="stylesheet" href="/assets/calendar-sketches.css?v=20261003-calendar-final"><link rel="stylesheet" href="/assets/event-map.css?v=20261003-regional"></head>
+<link rel="stylesheet" href="/assets/immersion.css?v=village-20261003"><link rel="stylesheet" href="/assets/editorial.css?v=20261003-mainstreet"><link rel="stylesheet" href="/assets/calendar-sketches.css?v=20261004-age-access"><link rel="stylesheet" href="/assets/event-map.css?v=20261003-regional"><link rel="stylesheet" href="/assets/illustrated-navigation.css?v=20261004-approved">
+<script src="/assets/global-nav.js?v=20261004-approved" data-aal-global-nav="true" defer></script>
+</head>
 <body class="magazine-shell calendar-page">
 <a class="skip" href="#main">Skip to content</a>
 <div class="edition-line"><span>New England &amp; the everyday</span><span>A family-life field guide</span></div>
@@ -50,12 +52,17 @@
 <button type="button" data-calendar-view="map" data-sketch-icon="map" aria-pressed="false">Event map</button>
 </div>
 </div>
-<form class="event-filters" role="search">
+<form class="event-filters" role="search" aria-label="Find an event">
 <label><span data-sketch-icon="pin">Where?</span><select name="state"><option value="">All New England</option><option value="CT">Connecticut</option><option value="ME">Maine</option><option value="MA">Massachusetts</option><option value="NH">New Hampshire</option><option value="RI">Rhode Island</option><option value="VT">Vermont</option></select></label>
-<label><span data-sketch-icon="leaf">What kind?</span><select name="category"><option value="">All event types</option></select></label>
+<label><span data-sketch-icon="access">Who’s going?</span><select name="age" aria-describedby="event-filter-help"><option value="">Any age or audience</option><option value="all-ages">All ages welcome</option><option value="children">Children</option><option value="teens">Teens</option><option value="adults">Adults</option><option value="families">Families</option><option value="unspecified">Age not specified</option></select></label>
+<label><span data-sketch-icon="access">Access &amp; support</span><select name="access" aria-describedby="event-filter-help"><option value="">Any published feature</option><option value="sensory-friendly">Sensory-friendly</option><option value="wheelchair-step-free">Wheelchair / step-free options</option><option value="adaptive-activities">Adaptive activities</option><option value="caregiver-support">Caregiver support</option><option value="vision-support">Blind / low-vision support</option><option value="hearing-support">ASL / hearing support</option><option value="unspecified">Features not yet classified</option></select></label>
 <label class="event-month-filter"><span data-sketch-icon="calendar">Choose a month</span><select name="month"><option value="">All upcoming months</option></select></label>
+<label class="event-search-filter"><span data-sketch-icon="search">Search</span><input name="q" type="search" placeholder="Museum, bowling, audio description…"></label>
+<label><span data-sketch-icon="leaf">What kind?</span><select name="category"><option value="">All event types</option></select></label>
 <label><span data-sketch-icon="calendar">From a date</span><input name="from" type="date"></label>
-<label><span data-sketch-icon="search">Search</span><input name="q" type="search" placeholder="Museum, Halloween, wheelchair, quiet…"></label>
+<label><span data-sketch-icon="map">How to join</span><select name="format"><option value="">In person or online</option><option value="In person">In person</option><option value="Virtual">Online</option></select></label>
+<p class="event-filter-help" id="event-filter-help">Age groups follow the organizer’s wording. Read each listing for exact age limits, eligibility and access details. A published feature does not mean an event suits everyone.</p>
+<p class="event-filter-warning" data-filter-warning hidden></p>
 <button type="reset" class="reset-link">Clear filters</button>
 </form>
 <p class="event-summary" role="status" aria-live="polite">Loading upcoming listings…</p>
@@ -85,7 +92,7 @@
 </section>
 
 <section class="organizer-directory">
-<div class="section-heading-row"><div><p class="eyebrow">Straight to the source</p><h2>New England organizer directory.</h2></div><p>Grouped state by state so it is easy to scan, bookmark and check between calendar updates.</p></div>
+<div class="section-heading-row"><div><p class="eyebrow">Straight to the source</p><h2>More New England calendars &amp; organizers.</h2></div><p>Browse more ideas state by state, including SPED Child and Teen. Discovery calendars lead to organizer pages; our dated listings use the organizer’s own event details.</p></div>
 <div class="state-source-directory" data-organizer-directory></div>
 </section>
 
@@ -106,8 +113,8 @@
 </main>
 <footer class="mag-footer"><div class="wrap"><div><a class="footer-wordmark" href="/">An AUsome Life</a><p>Simple good things.<br>The practical details left in.</p></div><nav aria-label="Footer navigation"><a href="/library.html">The library</a><a href="/favorite-places.html">Favorite places</a><a href="/calendar.html">The calendar</a><a href="/visit-story.html">Visual visit planner</a><a href="/little-black-book.html">The little black book</a><a href="/contact.html">Contact</a><a href="/media/">Media &amp; partnerships</a></nav><div class="footer-small"><a href="/language.html">Language &amp; representation</a><a href="/disclosure.html">Disclosure</a><a href="/privacy.html">Privacy</a><a href="/accessibility.html">Accessibility</a><a href="https://www.instagram.com/anausomelife/">Instagram ↗</a><span>© 2026 An AUsome Life · New England</span></div></div></footer>
 <script src="/assets/magazine.js?v=20261003-mainstreet" defer></script>
-<script src="/assets/event-map.js?v=20261003-regional" defer></script>
-<script src="/assets/events.js?v=20261003-expanded" defer></script>
+<script src="/assets/event-map.js?v=20261004-expanded" defer></script>
+<script src="/assets/events.js?v=20261004-age-access" defer></script>
 <script src="/assets/immersion.js?v=20261003-mainstreet" defer></script></body>
 </html>
 

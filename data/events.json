@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "generatedAt": "2026-10-04T00:00:00Z",
-  "lastEditorialReview": "2026-10-04T00:00:00Z",
+  "lastEditorialReview": "2026-10-04T00:26:00Z",
   "timezone": "America/New_York",
   "coverage": "New England accessibility-focused family calendar: organizer-confirmed listings plus a clearly separated annual-event watchlist. Not exhaustive.",
   "refresh": {
@@ -445,6 +445,86 @@
       "allowedHosts": [
         "www.soct.org"
       ]
+    },
+    {
+      "id": "sped-child-mass",
+      "name": "SPED Child and Teen events calendar",
+      "state": "MA",
+      "url": "https://spedchildmass.com/special-needs-disability-events-calendar-massachusetts/",
+      "status": "directory",
+      "type": "Third-party discovery calendar",
+      "note": "Likely the user's “mass sped calendar” reference. Browse disability, age and recreation categories; follow each listing to organizer before copying facts into a verified event. Write original summaries. The /event/ URL is an archive, while the longer URL is the actual linked events calendar.",
+      "lastChecked": "2026-10-04"
+    },
+    {
+      "id": "nehsa",
+      "name": "New England Healing Sports Association",
+      "state": "NH",
+      "url": "https://nehsa.org/events/list/",
+      "status": "directory",
+      "type": "Official organizer calendar",
+      "note": "Adaptive hiking and pickleball appear in the October2026 calendar. Strong older-youth/adult recreation source; confirm event-specific eligibility before applying all-ages tags.",
+      "lastChecked": "2026-10-04"
+    },
+    {
+      "id": "picnh",
+      "name": "Parent Information Center of New Hampshire",
+      "state": "NH",
+      "url": "https://picnh.org/",
+      "status": "directory",
+      "type": "Official nonprofit workshop/event listings",
+      "note": "Workshops & Events section includes disability-transition and family support programs. No claim that all listed workshops are appropriate for children attending.",
+      "lastChecked": "2026-10-04"
+    },
+    {
+      "id": "aoec",
+      "name": "Adaptive Outdoor Education Center program calendar",
+      "state": "ME",
+      "url": "https://www.adaptiveoutdooreducationcenter.org/calendar",
+      "status": "directory",
+      "type": "Official organizer calendar",
+      "note": "Nature, recreation, music and social programming. Nature-series page has dated October2026 events; all-ages claims vary by activity. No new entries added during this audit.",
+      "lastChecked": "2026-10-04"
+    },
+    {
+      "id": "cpnri",
+      "name": "Community Provider Network of Rhode Island calendar",
+      "state": "RI",
+      "url": "https://cpnri.org/events/",
+      "status": "directory",
+      "type": "Nonprofit mixed organizer/discovery calendar",
+      "note": "Contains public partner events and member/professional meetings. Treat partner listings as discovery and filter for public attendance. No current event is certified from this directory review.",
+      "lastChecked": "2026-10-04"
+    },
+    {
+      "id": "vfn",
+      "name": "Vermont Family Network",
+      "state": "VT",
+      "url": "https://www.vermontfamilynetwork.org/",
+      "status": "directory",
+      "type": "Official nonprofit events and family-support programs",
+      "note": "Current homepage lists inclusive post-secondary and family workshops. Site warns about broken links during redesign. Directory referral only, not a newly certified event.",
+      "lastChecked": "2026-10-04"
+    },
+    {
+      "id": "cpac",
+      "name": "Connecticut Parent Advocacy Center",
+      "state": "CT",
+      "url": "https://cpacinc.org/default.aspx",
+      "status": "directory",
+      "type": "Official nonprofit family/youth workshop listings",
+      "note": "Upcoming events, educational advocacy and transition support; family resource coverage through age26. Check dates carefully because evergreen recurrence text may lag the displayed date.",
+      "lastChecked": "2026-10-04"
+    },
+    {
+      "id": "bushnell",
+      "name": "The Bushnell accessible performances",
+      "state": "CT",
+      "url": "https://www.bushnell.org/visit/accessibility",
+      "status": "directory",
+      "type": "Official venue accessibility calendar",
+      "note": "Useful ASL, audio-description, open-caption and relaxed-performance source for older audiences. Each performance has its own access supports. No event added; exact Mamma Mia end time and age guidance were not published.",
+      "lastChecked": "2026-10-04"
     }
   ],
   "events": [
@@ -485,7 +565,9 @@
       "timezone": "America/New_York",
       "ticketUrl": null,
       "cancellationPolicy": "Not stated in the checked listing; confirm with the organizer.",
-      "notes": [],
+      "notes": [
+        "Accessible main routes; several features are inaccessible and some routes slope."
+      ],
       "lastVerified": "2026-10-03T11:04:00Z",
       "verificationMethod": "Official organizer/event page reviewed",
       "reviewRequired": false,
@@ -575,7 +657,7 @@
       "venue": "The Westport Library",
       "address": "20 Jesup Road, Westport, CT 06880",
       "cost": "Free",
-      "ages": "Designed for ages 2+ with multi-sensory needs; all ages and abilities welcome",
+      "ages": "Designed for children ages 2+ with multi-sensory needs; children of all ages and abilities welcome",
       "summary": "A sensory-friendly library session before regular Sunday opening, with stories, rhymes, songs and sensory activities.",
       "accessibility": [
         "Wheelchair-accessible library and meeting rooms",
@@ -611,7 +693,7 @@
       "venue": "The Westport Library",
       "address": "20 Jesup Road, Westport, CT 06880",
       "cost": "Free",
-      "ages": "Designed for ages 2+ with multi-sensory needs; all ages and abilities welcome",
+      "ages": "Designed for children ages 2+ with multi-sensory needs; children of all ages and abilities welcome",
       "summary": "A short sensory-friendly storytime with multi-sensory supports and flexible participation.",
       "accessibility": [
         "Wheelchair-accessible library",
@@ -646,7 +728,7 @@
       "venue": "The Westport Library",
       "address": "20 Jesup Road, Westport, CT 06880",
       "cost": "Free",
-      "ages": "Designed for ages 2+ with multi-sensory needs; all ages and abilities welcome",
+      "ages": "Designed for children ages 2+ with multi-sensory needs; children of all ages and abilities welcome",
       "summary": "A short sensory-friendly storytime with multi-sensory supports and flexible participation.",
       "accessibility": [
         "Wheelchair-accessible library",
@@ -695,11 +777,13 @@
       "timezone": "America/New_York",
       "ticketUrl": null,
       "cancellationPolicy": "Not stated in the checked listing; confirm with the organizer.",
-      "notes": [],
+      "notes": [
+        "Future occurrence needs organizer confirmation. The current series page only showed a past September 8 event when checked."
+      ],
       "lastVerified": "2026-10-04T00:00:00Z",
-      "verificationMethod": "Official organizer/event page reviewed",
-      "reviewRequired": false,
-      "status": "scheduled",
+      "verificationMethod": "Future occurrence not confirmed; dated organizer link returned 404 on 2026-10-04",
+      "reviewRequired": true,
+      "status": "review",
       "format": "In person",
       "id": "some-workout-2026-10-06",
       "title": "Special Olympics Workout Class",
@@ -1096,7 +1180,9 @@
       "ticketUrl": null,
       "registration": "Check the organizer page before visiting.",
       "cancellationPolicy": "Not stated in the checked listing; confirm with the organizer.",
-      "notes": [],
+      "notes": [
+        "Indoor route confirmed; outdoor areas may require assistance."
+      ],
       "lastVerified": "2026-10-03T02:31:26Z",
       "verificationMethod": "Official organizer page reviewed",
       "reviewRequired": false,
@@ -1223,7 +1309,7 @@
       "venue": "The Westport Library",
       "address": "20 Jesup Road, Westport, CT 06880",
       "cost": "Free",
-      "ages": "Designed for ages 2+ with multi-sensory needs; all ages and abilities welcome",
+      "ages": "Designed for children ages 2+ with multi-sensory needs; children of all ages and abilities welcome",
       "summary": "A short sensory-friendly storytime with flexible participation and sensory-friendly activities.",
       "accessibility": [
         "Wheelchair-accessible library",
@@ -1290,7 +1376,8 @@
       "registration": "Tickets sold in person at the zoo admissions booth on the event evening.",
       "cancellationPolicy": "Not stated in the checked listing; confirm with the organizer.",
       "notes": [
-        "Music and lights start promptly at 6 pm. Arrive early."
+        "Music and lights start promptly at 6 pm. Arrive early.",
+        "Mostly accessible route; hills and uneven/unpaved terrain remain."
       ],
       "lastVerified": "2026-10-03T02:31:26Z",
       "verificationMethod": "Official organizer page reviewed",
@@ -1321,7 +1408,8 @@
       "registration": "Tickets sold in person at the zoo admissions booth on the event evening.",
       "cancellationPolicy": "Not stated in the checked listing; confirm with the organizer.",
       "notes": [
-        "Music and lights start promptly at 6 pm. Arrive early."
+        "Music and lights start promptly at 6 pm. Arrive early.",
+        "Mostly accessible route; hills and uneven/unpaved terrain remain."
       ],
       "lastVerified": "2026-10-03T02:31:26Z",
       "verificationMethod": "Official organizer page reviewed",
@@ -1475,7 +1563,9 @@
       "timezone": "America/New_York",
       "ticketUrl": null,
       "cancellationPolicy": "Not stated in the checked listing; confirm with the organizer.",
-      "notes": [],
+      "notes": [
+        "The bowling venue lists 215 Whitten Road; the event organizer lists 15. Use the venue’s current directions and confirm the address before traveling."
+      ],
       "lastVerified": "2026-10-04T00:00:00Z",
       "verificationMethod": "Official organizer/event page reviewed",
       "reviewRequired": false,
@@ -1488,7 +1578,7 @@
       "state": "ME",
       "city": "Hallowell",
       "venue": "Interstate Bowling Center",
-      "address": "15 Whitten Road, Hallowell, ME 04347",
+      "address": "215 Whitten Road, Hallowell, ME 04347",
       "cost": "Check organizer",
       "ages": "Special Olympics athletes of all ages in the Kennebec County area",
       "summary": "Singles and doubles bowling with divisions organized by ability and an awards ceremony for participants.",
@@ -1738,11 +1828,13 @@
       "timezone": "America/New_York",
       "ticketUrl": null,
       "cancellationPolicy": "Not stated in the checked listing; confirm with the organizer.",
-      "notes": [],
+      "notes": [
+        "Future occurrence needs organizer confirmation. The current series page only showed a past September 8 event when checked."
+      ],
       "lastVerified": "2026-10-04T00:00:00Z",
-      "verificationMethod": "Official organizer/event page reviewed",
-      "reviewRequired": false,
-      "status": "scheduled",
+      "verificationMethod": "Future occurrence not confirmed; dated organizer link returned 404 on 2026-10-04",
+      "reviewRequired": true,
+      "status": "review",
       "format": "In person",
       "id": "some-workout-2026-11-03",
       "title": "Special Olympics Workout Class",
@@ -2171,7 +2263,7 @@
       "venue": "The Westport Library",
       "address": "20 Jesup Road, Westport, CT 06880",
       "cost": "Free",
-      "ages": "Designed for ages 2+ with multi-sensory needs; all ages and abilities welcome",
+      "ages": "Designed for children ages 2+ with multi-sensory needs; children of all ages and abilities welcome",
       "summary": "A sensory-friendly library session during a quieter early opening.",
       "accessibility": [
         "Wheelchair-accessible library and meeting rooms",
@@ -2314,7 +2406,7 @@
       ],
       "sourceId": "carroll",
       "sourceUrl": "https://carroll.org/events/virtual-technology-fair/",
-      "registration": "Advance registration required for the Zoom link.",
+      "registration": "Registration and further details are coming soon; a Zoom link will be provided after registration.",
       "category": "Blind & low vision"
     },
     {
@@ -2405,7 +2497,9 @@
       "ticketUrl": null,
       "registration": "Check the organizer page before visiting.",
       "cancellationPolicy": "Not stated in the checked listing; confirm with the organizer.",
-      "notes": [],
+      "notes": [
+        "Indoor route confirmed; outdoor areas may require assistance."
+      ],
       "lastVerified": "2026-10-03T02:31:26Z",
       "verificationMethod": "Official organizer page reviewed",
       "reviewRequired": false,
@@ -2452,7 +2546,9 @@
       "timezone": "America/New_York",
       "ticketUrl": "https://shelburnemuseum.org/visit/winter-lights/",
       "cancellationPolicy": "Not stated in the checked listing; confirm with the organizer.",
-      "notes": [],
+      "notes": [
+        "The outdoor route includes packed gravel and slopes; snow or ice can affect access. Ask about the current route and conditions."
+      ],
       "lastVerified": "2026-10-03T11:04:00Z",
       "verificationMethod": "Official organizer/event page reviewed",
       "reviewRequired": false,
@@ -2467,7 +2563,7 @@
       "city": "Shelburne",
       "venue": "Shelburne Museum",
       "address": "6000 Shelburne Road, Shelburne, VT 05482",
-      "cost": "Organizer lists sensory-program pricing; confirm at booking",
+      "cost": "Organizer pages differ on adult admission ($15–$20); confirm the current price before booking.",
       "ages": "Children, teens and adults with sensory needs; families",
       "summary": "A lower-capacity Winter Lights evening with a social narrative, Know-Before-You-Go materials and education-staff support.",
       "accessibility": [
@@ -2672,7 +2768,7 @@
       "venue": "The Westport Library",
       "address": "20 Jesup Road, Westport, CT 06880",
       "cost": "Free",
-      "ages": "Designed for ages 2+ with multi-sensory needs; all ages and abilities welcome",
+      "ages": "Designed for children ages 2+ with multi-sensory needs; children of all ages and abilities welcome",
       "summary": "A sensory-friendly library session during a quieter early opening.",
       "accessibility": [
         "Wheelchair-accessible library and meeting rooms",
@@ -2691,7 +2787,9 @@
       "timezone": "America/New_York",
       "ticketUrl": "https://shelburnemuseum.org/visit/winter-lights/",
       "cancellationPolicy": "Not stated in the checked listing; confirm with the organizer.",
-      "notes": [],
+      "notes": [
+        "The outdoor route includes packed gravel and slopes; snow or ice can affect access. Ask about the current route and conditions."
+      ],
       "lastVerified": "2026-10-03T11:04:00Z",
       "verificationMethod": "Official organizer/event page reviewed",
       "reviewRequired": false,
@@ -2706,7 +2804,7 @@
       "city": "Shelburne",
       "venue": "Shelburne Museum",
       "address": "6000 Shelburne Road, Shelburne, VT 05482",
-      "cost": "Organizer lists sensory-program pricing; confirm at booking",
+      "cost": "Organizer pages differ on adult admission ($15–$20); confirm the current price before booking.",
       "ages": "Children, teens and adults with sensory needs; families",
       "summary": "A lower-capacity Winter Lights evening with a social narrative, Know-Before-You-Go materials and education-staff support.",
       "accessibility": [
@@ -2716,7 +2814,7 @@
         "Accessible restrooms"
       ],
       "sourceId": "shelburne",
-      "sourceUrl": "https://shelburnemuseum.org/event/sensory-friendly-winter-lights-2/",
+      "sourceUrl": "https://shelburnemuseum.org/visit/winter-lights/",
       "registration": "Advance registration strongly recommended.",
       "visualStory": {
         "arrival": "We can arrive after dark and check in for Winter Lights. It will be outdoors and cold-weather clothing may help.",
@@ -2748,7 +2846,9 @@
       "ticketUrl": null,
       "registration": "Check the organizer page before visiting.",
       "cancellationPolicy": "Not stated in the checked listing; confirm with the organizer.",
-      "notes": [],
+      "notes": [
+        "Indoor route confirmed; outdoor areas may require assistance."
+      ],
       "lastVerified": "2026-10-03T02:31:26Z",
       "verificationMethod": "Official organizer page reviewed",
       "reviewRequired": false,

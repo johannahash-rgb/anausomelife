@@ -3,7 +3,7 @@
 'use strict';
 const NS='http://www.w3.org/2000/svg', W=1000,H=720,COS=Math.cos(43*Math.PI/180);
 const sourceScript=document.currentScript?.src||new URL('/assets/event-map.js',location.href).href;
-const dataURL=new URL('../data/event-locations.json',sourceScript).href;
+const locationURL=new URL('../data/event-locations.json',sourceScript);locationURL.searchParams.set('v','20261004-expanded');const dataURL=locationURL.href;
 const instances=new WeakMap();let request;
 const el=(tag,cls,text)=>{const n=document.createElement(tag);if(cls)n.className=cls;if(text!==undefined)n.textContent=text;return n};
 const svgEl=(tag,attrs={})=>{const n=document.createElementNS(NS,tag);for(const [k,v]of Object.entries(attrs))n.setAttribute(k,String(v));return n};
@@ -23,7 +23,7 @@ function fit(groups,padding=.22){
 function groupEvents(events,data){
  const groups=new Map();
  for(const event of events){if(!event||!event.id)continue;const key=normalize(event.venue)+'|'+normalize(event.address);
-  if(!groups.has(key)){const location=data?.venues.find(v=>normalize(v.venue)===normalize(event.venue)&&normalize(v.state)===normalize(event.state));groups.set(key,{key,venue:event.venue||event.city||'Event location',city:event.city||'',state:event.state||'',address:event.address||'',location,events:[]});}
+  if(!groups.has(key)){const location=event.format==='Virtual'?null:data?.venues.find(v=>normalize(v.venue)===normalize(event.venue)&&normalize(v.state)===normalize(event.state)&&normalize(v.address)===normalize(event.address));groups.set(key,{key,venue:event.venue||event.city||'Event location',city:event.city||'',state:event.state||'',address:event.address||'',virtual:event.format==='Virtual',location,events:[]});}
   groups.get(key).events.push(event);
  }
  return [...groups.values()].sort((a,b)=>a.state.localeCompare(b.state)||a.city.localeCompare(b.city)||a.venue.localeCompare(b.venue)).map((g,i)=>({...g,number:i+1}));
@@ -32,11 +32,11 @@ function directions(group){return 'https://www.google.com/maps/search/?api=1&que
 function listVenues(state,groups){
  state.list.replaceChildren();
  for(const g of groups){const article=el('article','em-venue');article.dataset.mapVenue=g.key;const heading=el('h3');
-  heading.append(el('span','em-key',String(g.number)),document.createTextNode(g.venue));article.append(heading,el('p','em-town',g.city+', '+g.state),el('p','em-address',g.address));
+  heading.append(el('span','em-key',String(g.number)),document.createTextNode(g.venue));article.append(heading,el('p','em-town',g.virtual?'Online · no travel needed':g.city+', '+g.state),el('p','em-address',g.address));
   const dates=el('ul','em-dates');for(const e of g.events){const li=el('li');let when=e.start;try{when=date.format(new Date(e.start))}catch{}const b=button(when+' · '+e.title,()=>{if(typeof state.onSelect==='function')state.onSelect(e.id);else{const target=document.getElementById('event-'+e.id);target?.focus();target?.scrollIntoView({block:'start'});}},'em-event-link');li.append(b);dates.append(li)}article.append(dates);
-  const actions=el('div','em-venue-actions');actions.append(link('Directions ↗',directions(g),'em-directions'));
+  const actions=el('div','em-venue-actions');if(!g.virtual)actions.append(link('Directions ↗',directions(g),'em-directions'));
   const source=g.location?.addressSource||g.events[0]?.sourceUrl;if(source)actions.append(link('Organizer ↗',source,'em-directions'));article.append(actions);
-  if(!g.location)article.append(el('p','em-location-note','Location not pinned yet. Use the address and organizer directions.'));
+  if(!g.location&&!g.virtual)article.append(el('p','em-location-note','Location not pinned yet. Use the address and organizer directions.'));
   state.list.append(article);
  }
  if(!groups.length)state.list.append(el('p','em-empty','No dated events match these filters. Try another month or region.'));
@@ -67,19 +67,19 @@ function draw(state){
   if(!several){const city=el('span','em-pin-town',cluster.items[0].city);b.append(city)}
   const active=state.selected&&cluster.items.some(g=>state.selected.includes(g.key));b.setAttribute('aria-pressed',String(Boolean(active)));pins.append(b);
  }
- state.mapStatus.textContent=`${groups.filter(g=>g.location).length} mapped places · ${state.events.length} dated listings in your filters`;
+ state.mapStatus.textContent=`${groups.filter(g=>g.location).length} mapped places · ${state.events.length} dated listings in your filters${state.events.some(e=>e.format==='Virtual')?' · online events listed alongside':''}`;
 }
 function build(state){
  state.observer?.disconnect();state.host.replaceChildren();const section=el('section','event-regional-map');state.host.append(section);
- const header=el('div','em-heading');header.append(el('p','em-eyebrow','FIND A LITTLE ADVENTURE'),el('h2','','Where shall we go?'),el('p','em-intro','Choose a place on the map, then a date. The same event filters apply here.'));section.append(header);
+ const header=el('div','em-heading');header.append(el('p','em-eyebrow','FIND A LITTLE ADVENTURE'),el('h2','',state.events.every(e=>e.format==='Virtual')?'Join from home.':'Where shall we go?'),el('p','em-intro','Choose a place on the map, then a date. The same event filters apply here.'));section.append(header);
  if(!state.events.length){section.append(el('p','em-empty','No dated events match these filters. Try another month or region.'));return;}
  const tools=el('div','em-tools');const reset=button('Show all matching places',()=>{state.bounds=fit(state.groups);state.selected=null;listVenues(state,state.groups);draw(state);state.selection.textContent='All matching places are listed below.';});tools.append(reset);const listJump=button('Go to place list ↓',()=>{state.listHeading.focus();state.listHeading.scrollIntoView({block:'nearest',behavior:'auto'});});tools.append(listJump);section.append(tools);
  state.mapStatus=el('p','em-count');state.mapStatus.setAttribute('role','status');section.append(state.mapStatus);
  const layout=el('div','em-layout');const main=el('div','em-map-column');state.canvas=el('div','em-canvas');state.canvas.setAttribute('role','region');state.canvas.setAttribute('aria-label','Regional event location map; matching locations also listed below');state.pins=el('div','em-pins');state.canvas.append(state.pins);main.append(state.canvas,el('p','em-legend','Numbered pins match the place list. “Places” bubbles group nearby venues; select one to look closer.'));
  main.append(el('p','em-note','Regional location guide. Pins are approximate venue locations, not entrances, parking spaces or verified accessible routes.'));
- const credit=el('p','em-credit');credit.append('Geography: ',link('U.S. Census Bureau',state.data.basemap.source),'. Location sources checked October 3, 2026.');main.append(credit);
+ const credit=el('p','em-credit');credit.append('Geography: ',link('U.S. Census Bureau',state.data.basemap.source),'. Location sources checked '+new Date(state.data.checkedAt+'T12:00:00Z').toLocaleDateString('en-US',{timeZone:'UTC',month:'long',day:'numeric',year:'numeric'})+'.');main.append(credit);
  const aside=el('div','em-list-column');state.listHeading=el('h3','em-list-heading','Places & dates');state.listHeading.tabIndex=-1;state.selection=el('p','em-selection','All matching places are listed below.');state.selection.setAttribute('aria-live','polite');state.list=el('div','em-place-list');aside.append(state.listHeading,state.selection,state.list);layout.append(main,aside);section.append(layout);
- listVenues(state,state.selected?state.groups.filter(g=>state.selected.includes(g.key)):state.groups);draw(state);
+ listVenues(state,state.selected?state.groups.filter(g=>state.selected.includes(g.key)):state.groups);draw(state);if(state.events.every(e=>e.format==='Virtual')){main.hidden=true;state.selection.textContent='These matching events are online. Choose a date for registration and joining details.'}
  if(typeof ResizeObserver!=='undefined'){let previous=state.canvas.clientWidth;state.observer=new ResizeObserver(()=>{const next=state.canvas.clientWidth;if(next&&Math.abs(next-previous)>10){previous=next;draw(state)}});state.observer.observe(state.canvas)}
 }
 async function render(host,events,onSelect){
