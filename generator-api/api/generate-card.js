@@ -51,38 +51,10 @@ async function fetchWithTimeout(url, options = {}, timeoutMs = 15000) {
   }
 }
 
-async function redis(command) {
-  const base = process.env.UPSTASH_REDIS_REST_URL;
-  const token = process.env.UPSTASH_REDIS_REST_TOKEN;
-  if (!base || !token) throw new Error("rate_limit_unconfigured");
-  const url = base.replace(/\/$/, "") + "/" + command.map(v => encodeURIComponent(String(v))).join("/");
-  const response = await fetchWithTimeout(url, {
-    headers: { Authorization: `Bearer ${token}` },
-    cache: "no-store"
-  }, 8000);
-  if (!response.ok) throw new Error("rate_limit_unavailable");
-  const payload = await response.json();
-  return payload.result;
-}
-
-async function enforceLimits(req) {
+function hashedUser(req) {
   const salt = process.env.RATE_LIMIT_SALT;
-  if (!salt) throw new Error("rate_limit_unconfigured");
-  const hash = createHash("sha256").update(clientIp(req) + salt).digest("hex");
-  const hourKey = `aal:image:hour:${hash}`;
-  const hourCount = Number(await redis(["incr", hourKey]));
-  if (hourCount === 1) await redis(["expire", hourKey, "3600"]);
-  const perHour = Math.max(1, Math.min(20, Number(process.env.PER_IP_HOURLY_LIMIT || 4)));
-  if (hourCount > perHour) return { ok: false, status: 429 };
-
-  const day = new Date().toISOString().slice(0, 10);
-  const dayKey = `aal:image:day:${day}`;
-  const dayCount = Number(await redis(["incr", dayKey]));
-  if (dayCount === 1) await redis(["expire", dayKey, "172800"]);
-  const daily = Math.max(1, Math.min(500, Number(process.env.DAILY_IMAGE_LIMIT || 60)));
-  if (dayCount > daily) return { ok: false, status: 429 };
-
-  return { ok: true, user: hash.slice(0, 64) };
+  if (!salt) throw new Error("abuse_control_unconfigured");
+  return createHash("sha256").update(clientIp(req) + salt).digest("hex").slice(0, 64);
 }
 
 async function openai(path, body) {
@@ -154,14 +126,13 @@ export default async function handler(req, res) {
   const length = Number(req.headers["content-length"] || 0);
   if (length > 5000) return res.status(413).json({ message: "That request is too long." });
 
-  if (process.env.IMAGE_SERVICE_ENABLED !== "true") return res.status(503).json({ message: "The picture service is not enabled yet." });
+  if (
+    process.env.IMAGE_SERVICE_ENABLED !== "true" ||
+    process.env.ABUSE_CONTROL_MODE !== "vercel-waf"
+  ) return res.status(503).json({ message: "The picture service is not enabled yet." });
 
   try {
-    const limits = await enforceLimits(req);
-    if (!limits.ok) {
-      return res.status(limits.status).json({ message: "The picture studio has reached its current limit. Please try again later." });
-    }
-
+    const user = hashedUser(req);
     const input = bodyFrom(req);
     const subject = cleanText(input.subject, 300);
     const situation = cleanText(input.situation, 600);
@@ -183,7 +154,7 @@ export default async function handler(req, res) {
       output_compression: 90,
       background: "opaque",
       moderation: "auto",
-      user: limits.user
+      user
     });
 
     if (!response.ok) {
