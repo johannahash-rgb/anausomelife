@@ -56,14 +56,14 @@
 .brand-marquee::before,.brand-marquee::after{content:"";position:absolute;z-index:2;top:0;bottom:0;width:54px;pointer-events:none}
 .brand-marquee::before{left:0;background:linear-gradient(90deg,#fffdf7,rgba(255,253,247,0))}
 .brand-marquee::after{right:0;background:linear-gradient(270deg,#fffdf7,rgba(255,253,247,0))}
-.brand-track{display:flex;width:max-content;will-change:transform;animation:brand-scroll 42s linear infinite}
+.brand-track{display:flex;width:max-content;will-change:transform;animation:brand-scroll 78s linear infinite}
 .brand-marquee:hover .brand-track{animation-play-state:paused}
 .brand-set{display:flex;align-items:stretch}
-.brand-mark{width:184px;min-height:96px;border-right:1px solid #d8dcd2;display:flex;align-items:center;justify-content:center;padding:18px 20px;text-align:center;flex:0 0 auto}
+.brand-mark{width:184px;min-height:100px;border-right:1px solid #d8dcd2;display:flex;flex-direction:column;gap:7px;align-items:center;justify-content:center;padding:18px 20px;text-align:center;flex:0 0 auto}
 .brand-mark img{display:block;max-width:132px;max-height:44px;width:auto;height:auto}
-.brand-mark .brand-typeset{font:400 1.1rem/1.12 Georgia,serif;color:var(--ink);letter-spacing:-.025em}
-.brand-mark .brand-typeset.strong{font-weight:700;letter-spacing:-.035em}
-.brand-mark .brand-typeset.small{font-size:.98rem}
+.brand-mark .brand-typeset{font:400 1.08rem/1.12 Georgia,serif;color:var(--ink);letter-spacing:-.02em}
+.brand-mark .brand-typeset.small{font-size:.96rem}
+.brand-context{display:block;font:600 .58rem/1.2 system-ui,sans-serif;letter-spacing:.08em;text-transform:uppercase;color:#74817c}
 @keyframes brand-scroll{from{transform:translateX(0)}to{transform:translateX(-50%)}}
 @media(prefers-reduced-motion:reduce){.brand-marquee{overflow-x:auto}.brand-track{animation:none}.brand-marquee::before,.brand-marquee::after{display:none}}
 .media-note{font-size:.77rem;color:var(--muted);max-width:90ch}
@@ -138,40 +138,66 @@
 
 <section class="customer-strip" aria-labelledby="customers-title">
 <div class="wrap">
-<p class="eyebrow">Brands we love · independent editorial</p>
-<h2 id="customers-title">Things that have earned a place in our real life.</h2>
-<p>An AUsome Life covers brands, places and products we genuinely use, visit or choose for ourselves. Inclusion here reflects our independent editorial world; it does not mean a brand sponsors, approves or endorses An AUsome Life. Any gifted, hosted, affiliate or paid relationship is disclosed with the applicable coverage.</p>
-<div class="brand-marquee" aria-label="Brands and places we genuinely use, visit or cover">
+<p class="eyebrow">Brands &amp; places in our real life · independent editorial</p>
+<h2 id="customers-title">Bought. Booked. Joined. Visited. Kept.</h2>
+<p>This is not a client roster or a sponsor wall. These are names that genuinely show up in our order confirmations, memberships, reservations, closets, kitchen, weekends and family stories. A paid, gifted, hosted or affiliate relationship is never implied; when one exists, we disclose it with the coverage.</p>
+<div class="brand-marquee" aria-label="Brands and places genuinely present in An AUsome Life family life">
 <div class="brand-track">
 <div class="brand-set">
-<div class="brand-mark"><span class="brand-typeset strong">L.L.Bean</span></div>
-<div class="brand-mark"><img src="https://images.wegmans.com/is/image/wegmanscsprod/media-Wegmans-Logo-p?fmt=png-alpha&amp;hei=379&amp;wid=1000" alt="Wegmans" width="1000" height="379" loading="lazy"></div>
-<div class="brand-mark"><span class="brand-typeset strong">Life Time</span></div>
-<div class="brand-mark"><span class="brand-typeset">Kerrygold</span></div>
-<div class="brand-mark"><span class="brand-typeset strong">Le Creuset</span></div>
-<div class="brand-mark"><span class="brand-typeset">Ben &amp; Jerry's</span></div>
-<div class="brand-mark"><span class="brand-typeset">Great Wolf Lodge</span></div>
-<div class="brand-mark"><span class="brand-typeset">Ocean House</span></div>
-<div class="brand-mark"><span class="brand-typeset strong">Sam's Club</span></div>
-<div class="brand-mark"><span class="brand-typeset">Poshmark</span></div>
-<div class="brand-mark"><span class="brand-typeset small">Method</span></div>
+<div class="brand-mark"><span class="brand-typeset">L.L.Bean</span><span class="brand-context">Bought + visited</span></div>
+<div class="brand-mark"><img src="https://images.wegmans.com/is/image/wegmanscsprod/media-Wegmans-Logo-p?fmt=png-alpha&amp;hei=379&amp;wid=1000" alt="Wegmans" width="1000" height="379" loading="lazy"><span class="brand-context">Shopped</span></div>
+<div class="brand-mark"><span class="brand-typeset">Life Time</span><span class="brand-context">Member</span></div>
+<div class="brand-mark"><span class="brand-typeset">Patagonia</span><span class="brand-context">Purchased</span></div>
+<div class="brand-mark"><span class="brand-typeset small">Pottery Barn Kids</span><span class="brand-context">Purchased</span></div>
+<div class="brand-mark"><span class="brand-typeset">Nordstrom</span><span class="brand-context">Purchased</span></div>
+<div class="brand-mark"><span class="brand-typeset">Hearth</span><span class="brand-context">Purchased</span></div>
+<div class="brand-mark"><span class="brand-typeset">Bentgo</span><span class="brand-context">Purchased</span></div>
+<div class="brand-mark"><span class="brand-typeset small">Museum of Science</span><span class="brand-context">Member</span></div>
+<div class="brand-mark"><span class="brand-typeset">Hyatt</span><span class="brand-context">Travel</span></div>
+<div class="brand-mark"><span class="brand-typeset">Ocean House</span><span class="brand-context">Visited</span></div>
+<div class="brand-mark"><span class="brand-typeset small">Great Wolf Lodge</span><span class="brand-context">Stayed</span></div>
+<div class="brand-mark"><span class="brand-typeset">Sam&#39;s Club</span><span class="brand-context">Member + shopped</span></div>
+<div class="brand-mark"><span class="brand-typeset">Poshmark</span><span class="brand-context">Bought + sold</span></div>
+<div class="brand-mark"><span class="brand-typeset">Le Creuset</span><span class="brand-context">At home</span></div>
+<div class="brand-mark"><span class="brand-typeset">Kerrygold</span><span class="brand-context">Pantry staple</span></div>
+<div class="brand-mark"><span class="brand-typeset small">Ben &amp; Jerry&#39;s</span><span class="brand-context">Family favorite</span></div>
+<div class="brand-mark"><span class="brand-typeset small">Lafayette Hotels</span><span class="brand-context">Maine favorite</span></div>
+<div class="brand-mark"><span class="brand-typeset small">The Common Man</span><span class="brand-context">New Hampshire favorite</span></div>
+<div class="brand-mark"><span class="brand-typeset small">Idylwilde Farm</span><span class="brand-context">Local favorite</span></div>
+<div class="brand-mark"><span class="brand-typeset small">American Flatbread</span><span class="brand-context">Family favorite</span></div>
+<div class="brand-mark"><span class="brand-typeset">Veselka</span><span class="brand-context">NYC favorite</span></div>
+<div class="brand-mark"><span class="brand-typeset">Garnet Hill</span><span class="brand-context">Family favorite</span></div>
+<div class="brand-mark"><span class="brand-typeset small">Mountain Hardwear</span><span class="brand-context">Family favorite</span></div>
 </div>
 <div class="brand-set" aria-hidden="true">
-<div class="brand-mark"><span class="brand-typeset strong">L.L.Bean</span></div>
-<div class="brand-mark"><img src="https://images.wegmans.com/is/image/wegmanscsprod/media-Wegmans-Logo-p?fmt=png-alpha&amp;hei=379&amp;wid=1000" alt="" width="1000" height="379" loading="lazy"></div>
-<div class="brand-mark"><span class="brand-typeset strong">Life Time</span></div>
-<div class="brand-mark"><span class="brand-typeset">Kerrygold</span></div>
-<div class="brand-mark"><span class="brand-typeset strong">Le Creuset</span></div>
-<div class="brand-mark"><span class="brand-typeset">Ben &amp; Jerry's</span></div>
-<div class="brand-mark"><span class="brand-typeset">Great Wolf Lodge</span></div>
-<div class="brand-mark"><span class="brand-typeset">Ocean House</span></div>
-<div class="brand-mark"><span class="brand-typeset strong">Sam's Club</span></div>
-<div class="brand-mark"><span class="brand-typeset">Poshmark</span></div>
-<div class="brand-mark"><span class="brand-typeset small">Method</span></div>
+<div class="brand-mark"><span class="brand-typeset">L.L.Bean</span><span class="brand-context">Bought + visited</span></div>
+<div class="brand-mark"><img src="https://images.wegmans.com/is/image/wegmanscsprod/media-Wegmans-Logo-p?fmt=png-alpha&amp;hei=379&amp;wid=1000" alt="Wegmans" width="1000" height="379" loading="lazy"><span class="brand-context">Shopped</span></div>
+<div class="brand-mark"><span class="brand-typeset">Life Time</span><span class="brand-context">Member</span></div>
+<div class="brand-mark"><span class="brand-typeset">Patagonia</span><span class="brand-context">Purchased</span></div>
+<div class="brand-mark"><span class="brand-typeset small">Pottery Barn Kids</span><span class="brand-context">Purchased</span></div>
+<div class="brand-mark"><span class="brand-typeset">Nordstrom</span><span class="brand-context">Purchased</span></div>
+<div class="brand-mark"><span class="brand-typeset">Hearth</span><span class="brand-context">Purchased</span></div>
+<div class="brand-mark"><span class="brand-typeset">Bentgo</span><span class="brand-context">Purchased</span></div>
+<div class="brand-mark"><span class="brand-typeset small">Museum of Science</span><span class="brand-context">Member</span></div>
+<div class="brand-mark"><span class="brand-typeset">Hyatt</span><span class="brand-context">Travel</span></div>
+<div class="brand-mark"><span class="brand-typeset">Ocean House</span><span class="brand-context">Visited</span></div>
+<div class="brand-mark"><span class="brand-typeset small">Great Wolf Lodge</span><span class="brand-context">Stayed</span></div>
+<div class="brand-mark"><span class="brand-typeset">Sam&#39;s Club</span><span class="brand-context">Member + shopped</span></div>
+<div class="brand-mark"><span class="brand-typeset">Poshmark</span><span class="brand-context">Bought + sold</span></div>
+<div class="brand-mark"><span class="brand-typeset">Le Creuset</span><span class="brand-context">At home</span></div>
+<div class="brand-mark"><span class="brand-typeset">Kerrygold</span><span class="brand-context">Pantry staple</span></div>
+<div class="brand-mark"><span class="brand-typeset small">Ben &amp; Jerry&#39;s</span><span class="brand-context">Family favorite</span></div>
+<div class="brand-mark"><span class="brand-typeset small">Lafayette Hotels</span><span class="brand-context">Maine favorite</span></div>
+<div class="brand-mark"><span class="brand-typeset small">The Common Man</span><span class="brand-context">New Hampshire favorite</span></div>
+<div class="brand-mark"><span class="brand-typeset small">Idylwilde Farm</span><span class="brand-context">Local favorite</span></div>
+<div class="brand-mark"><span class="brand-typeset small">American Flatbread</span><span class="brand-context">Family favorite</span></div>
+<div class="brand-mark"><span class="brand-typeset">Veselka</span><span class="brand-context">NYC favorite</span></div>
+<div class="brand-mark"><span class="brand-typeset">Garnet Hill</span><span class="brand-context">Family favorite</span></div>
+<div class="brand-mark"><span class="brand-typeset small">Mountain Hardwear</span><span class="brand-context">Family favorite</span></div>
 </div>
 </div>
 </div>
-<p class="media-note">Trademark note: Wegmans' official news-media gallery expressly permits news media to use the logos it provides. Other brand names in this ribbon are rendered in An AUsome Life's own typography for identification rather than copied brand artwork. All trademarks belong to their respective owners; inclusion does not imply sponsorship or endorsement.</p>
+<p class="media-note"><strong>Trademark note:</strong> Wegmans’ official news-media gallery expressly permits news media to use the logos it provides, so that is the one reproduced brand mark here. The other names are set in An AUsome Life’s own house typography rather than copied logos. Brand and place names are used only to identify products, services and destinations we actually use, buy from, visit or discuss. All trademarks remain the property of their respective owners; inclusion does not imply sponsorship, approval or endorsement.</p>
 </div>
 </section>
 
