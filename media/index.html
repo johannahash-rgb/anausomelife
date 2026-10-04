@@ -52,9 +52,19 @@
 .media-card p{font-size:.9rem;color:#4e625c}
 .customer-strip{background:var(--paper);border-block:1px solid var(--rule);padding-block:34px}
 .customer-strip h2{font:400 clamp(2rem,3.6vw,3.35rem)/1.08 Georgia,serif;color:var(--ink);margin:8px 0 13px}
-.brand-words{display:flex;flex-wrap:wrap;gap:9px;margin:22px 0 13px}
-.brand-words span{border:1px solid #aeb9ab;background:#fffdf7;padding:10px 14px;font:400 .88rem/1.1 Georgia,serif;color:var(--ink)}
+.brand-gallery{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:10px;margin:24px 0 12px}
+.brand-mark{min-height:92px;border:1px solid #b9c0b5;background:#fffdf7;display:flex;align-items:center;justify-content:center;padding:17px 13px;text-align:center}
+.brand-mark img{display:block;max-width:100%;max-height:46px;width:auto;height:auto}
+.brand-mark .brand-typeset{font:400 1.08rem/1.1 Georgia,serif;color:var(--ink);letter-spacing:-.02em}
+.brand-mark .brand-typeset.strong{font-weight:700;letter-spacing:-.035em}
 .media-note{font-size:.77rem;color:var(--muted);max-width:90ch}
+.media-calendar{display:grid;grid-template-columns:repeat(2,1fr);gap:16px;margin:30px 0}
+.media-calendar-card{background:var(--paper);border:1px solid var(--rule);padding:22px}
+.media-calendar-card .season{display:block;font-size:.7rem;line-height:1.2;letter-spacing:.09em;text-transform:uppercase;color:var(--green);font-weight:700;margin-bottom:8px}
+.media-calendar-card h3{font:400 1.55rem/1.18 Georgia,serif;color:var(--ink);margin:0 0 12px}
+.media-calendar-card ul{margin:0;padding-left:18px}
+.media-calendar-card li{margin:0 0 8px;line-height:1.48;font-size:.88rem;color:#4e625c}
+.media-calendar-note{font-size:.8rem;color:var(--muted);max-width:86ch;margin:6px 0 30px}
 .media-split{display:grid;grid-template-columns:1fr 1fr;gap:46px}
 .media-pullquote{background:var(--green);color:#fffcef;padding:30px;font:italic 1.9rem/1.35 Georgia,serif}
 .media-pullquote small{display:block;font:normal .7rem/1.5 system-ui,sans-serif;text-transform:uppercase;letter-spacing:.09em;margin-top:22px;color:#dce5db}
@@ -76,11 +86,11 @@
 @media(max-width:800px){
 .media-cover{grid-template-columns:1fr;gap:24px;padding-block:32px}.media-photo-stack{grid-template-rows:230px 170px}
 .media-facts{grid-template-columns:1fr 1fr}.media-section-head,.media-split,.media-contact .wrap{grid-template-columns:1fr;gap:22px}
-.media-grid{grid-template-columns:1fr 1fr}.media-contact aside{border-left:0;border-top:1px solid #789099;padding:24px 0 0}
+.media-grid{grid-template-columns:1fr 1fr}.brand-gallery{grid-template-columns:repeat(3,1fr)}.media-calendar{grid-template-columns:1fr}.media-contact aside{border-left:0;border-top:1px solid #789099;padding:24px 0 0}
 }
 @media(max-width:540px){
 .media-cover h1{font-size:3.25rem}.media-photo-stack{grid-template-rows:200px 145px}
-.media-grid,.media-lanes{grid-template-columns:1fr}.media-facts strong{font-size:1.55rem}
+.media-grid,.media-lanes{grid-template-columns:1fr}.brand-gallery{grid-template-columns:repeat(2,1fr)}.media-facts strong{font-size:1.55rem}
 .media-section{padding-block:38px}.media-nav .wrap{gap:18px}
 }
 </style>
@@ -91,7 +101,7 @@
 <header class="mag-masthead"><a class="mag-brand" href="/" aria-label="An AUsome Life home"><img src="/assets/coastal-emblem.webp" alt="" width="80" height="80"><span>An AUsome Life<small>In pursuit of the Good New England Life</small></span></a><nav aria-label="Main navigation"><a href="/library.html">The library</a><a href="/favorite-places.html">Favorite places</a><a href="/calendar.html">The calendar</a><a href="/about.html">Our story</a><a class="nav-search" href="/library.html#library-search">Search <span aria-hidden="true">↗</span></a></nav></header>
 
 <nav class="media-nav" aria-label="Media kit sections"><div class="wrap">
-<a href="#media-kit">Media kit</a><a href="#work-with-us">Work with us</a><a href="#travel">Travel</a><a href="#testing">Product testing</a><a href="#editorial">Editorial fit</a><a href="#standards">Standards</a><a href="#contact">Contact</a>
+<a href="#media-kit">Media kit</a><a href="#work-with-us">Work with us</a><a href="#travel">Travel</a><a href="#testing">Product testing</a><a href="#editorial">Upcoming editorial</a><a href="#standards">Standards</a><a href="#contact">Contact</a>
 </div></nav>
 
 <main id="main">
@@ -119,13 +129,17 @@
 
 <section class="customer-strip" aria-labelledby="customers-title">
 <div class="wrap">
-<p class="eyebrow">Customers before collaborators</p>
-<h2 id="customers-title">We were customers first.</h2>
-<p>We do not have a manufactured client wall, and we will not turn an ordinary purchase into a “partnership.” These are examples of brands already present in our family life, family archive or independent editorial world.</p>
-<div class="brand-words" aria-label="Examples of brands already present in our life or coverage">
-<span>L.L.Bean</span><span>Wegmans</span><span>Life Time</span><span>Kerrygold</span><span>Le Creuset</span><span>Ben &amp; Jerry's</span>
+<p class="eyebrow">Brands &amp; places we feature</p>
+<h2 id="customers-title">Already part of our editorial world.</h2>
+<p>An AUsome Life covers brands, destinations, products and services that genuinely show up in our family life, our travels and the stories we think are worth telling. Material relationships are disclosed with the applicable coverage.</p>
+<div class="brand-gallery" aria-label="Examples of brands already present in our family life and editorial coverage">
+<div class="brand-mark"><span class="brand-typeset strong">L.L.Bean</span></div>
+<div class="brand-mark"><img src="https://images.wegmans.com/is/image/wegmanscsprod/media-Wegmans-Logo-p?fmt=png-alpha&amp;hei=379&amp;wid=1000" alt="Wegmans" width="1000" height="379" loading="lazy"></div>
+<div class="brand-mark"><span class="brand-typeset strong">Life Time</span></div>
+<div class="brand-mark"><span class="brand-typeset">Kerrygold</span></div>
+<div class="brand-mark"><span class="brand-typeset strong">Le Creuset</span></div>
+<div class="brand-mark"><span class="brand-typeset">Ben &amp; Jerry's</span></div>
 </div>
-<p class="media-note"><strong>Not a client list.</strong> Inclusion here does not imply sponsorship, gifting, approval or endorsement by these companies. Any actual material relationship is disclosed with the relevant coverage.</p>
 </div>
 </section>
 
@@ -175,8 +189,61 @@
 <section class="media-section" id="editorial" aria-labelledby="editorial-title">
 <div class="wrap">
 <div class="media-section-head">
-<div><p class="eyebrow">Editorial fit</p><h2 id="editorial-title">The stories already on our desk.</h2></div>
-<p class="intro">We are building a recognizable New England editorial world rather than a feed of disconnected sponsored objects. These are the lanes where a good pitch can enter naturally.</p>
+<div><p class="eyebrow">Upcoming editorial · 2026–27</p><h2 id="editorial-title">What we’re working on next.</h2></div>
+<p class="intro">Our calendar gives brands, destinations and PR teams enough context to pitch intelligently while keeping the journalism rooted in what we actually use, visit and live. New England style, useful family life and profound-autism advocacy can belong in the same publication.</p>
+</div>
+
+<div class="media-calendar" aria-label="Upcoming An AUsome Life editorial calendar">
+<article class="media-calendar-card">
+<span class="season">October 2026</span>
+<h3>Fall in New England, without the brochure voice.</h3>
+<ul>
+<li>Misty Harbor Resort in Wells: the two-bedroom-suite stay, pool and hot-tub reality, family logistics and value.</li>
+<li>L.L.Bean Freeport: quiet-room accessibility, service, the flagship experience and why the practical details matter.</li>
+<li>Sensory-friendlier Halloween costumes: what works, what gets in the way and why “no mask” can be a very good costume plan.</li>
+<li>Doe Orchards and apple-picking season: the beautiful part, the family part and the useful-before-you-go part.</li>
+</ul>
+</article>
+
+<article class="media-calendar-card">
+<span class="season">November 2026</span>
+<h3>Things we actually buy, use and keep.</h3>
+<ul>
+<li>Poshmark in real family life: better clothes for less, secondhand sustainability and the condition-and-sizing traps.</li>
+<li>Kerrygold: Irish dairy standards, grass-based farming, butterfat, the Sam’s Club multipack and why butter is apparently infrastructure.</li>
+<li>A beautiful lower-waste soap experiment: draining dishes, refills, bars, mess, packaging, scent and whether the sink still looks nice.</li>
+<li>“Flowers, fidgets and clutter — because life”: making a home feel good without pretending people do not live there.</li>
+</ul>
+</article>
+
+<article class="media-calendar-card">
+<span class="season">Holiday + winter 2026–27</span>
+<h3>Tradition, water, warmth and somewhere to go.</h3>
+<ul>
+<li>Great Wolf Lodge New England over the years: does it still work as your child gets older?</li>
+<li>Boston at Christmas: a real-family seasonal guide with pacing, warmth, bathrooms, exits and the parts worth lingering over.</li>
+<li>Ocean House holiday traditions: an elegant place through the lens of an actual family visit.</li>
+<li>Pool-and-hot-tub weekends: what makes a winter hotel stay genuinely restorative rather than merely photogenic.</li>
+</ul>
+</article>
+
+<article class="media-calendar-card">
+<span class="season">Spring 2027 preview</span>
+<h3>New England comes back outside.</h3>
+<ul>
+<li>Wicked Tulips: color, crowds, walking, photographs and a spring outing that works beyond the Instagram frame.</li>
+<li>Ocean House at Easter: the coast, the event and what the family experience is actually like.</li>
+<li>Accessible day trips and ordinary participation: museums, farms, gardens, waterfronts and places that make it easier to say yes.</li>
+<li>Classic New England family style: clothes and gear that look good, hold up and do not turn getting dressed into another project.</li>
+</ul>
+</article>
+</div>
+
+<p class="media-calendar-note">Editorial timing follows the real experience and reporting rather than a paid-placement calendar. For a pitch, tell us what is genuinely new or useful, the timing, and why it belongs in one of these stories.</p>
+
+<div class="media-section-head" style="margin-top:42px">
+<div><p class="eyebrow">Ongoing editorial lanes</p><h2>Where a good pitch can belong.</h2></div>
+<p class="intro">The calendar changes with the season. These are the enduring lanes behind it.</p>
 </div>
 <div class="media-lanes">
 <div><strong>Places worth the drive</strong><span>New England hotels, towns, museums, farms, attractions and family days out.</span></div>
