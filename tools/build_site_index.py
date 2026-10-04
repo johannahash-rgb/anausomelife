@@ -41,6 +41,6 @@ manifest=[]
 for i,batch in enumerate(chunks):
  name=f'data/site-search/chunk-{i:02d}.json'
  (ROOT/name).write_text(json.dumps(batch,ensure_ascii=False,separators=(',',':'))+'\n')
- manifest.append('/'+name+'?v=20261004-illustrated')
+ manifest.append('/'+name+'?v=20261004-headlines')
 (ROOT/'data/site-index-manifest.json').write_text(json.dumps(manifest,separators=(',',':'))+'\n')
 print('Wrote',len(chunks),'bounded search chunks')
