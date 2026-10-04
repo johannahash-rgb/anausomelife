@@ -2,12 +2,52 @@
   {
     "slug": "apple-orchard-afternoon",
     "url": "/apple-orchard-afternoon.html",
-    "title": "Apple picking, without turning it into a production.",
-    "summary": "A family camera-roll note about one seasonal outing, practical shoes, an uncomplicated exit and letting one good thing be enough.",
+    "title": "Doe Orchards, at our own pace.",
+    "summary": "Apple trees, family photographs and Ruby in the orchard. A Doe Orchards field note with the practical details left in.",
     "category": "stories",
-    "format": "Family notebook",
-    "minutes": 3,
-    "image": "/assets/orchard-afternoon-clean.jpg"
+    "format": "Story",
+    "minutes": 4,
+    "image": "/assets/family-notes/doe-orchards-family.webp"
+  },
+  {
+    "slug": "wegmans-carolines-cart-field-note",
+    "url": "/wegmans-carolines-cart-field-note.html",
+    "title": "A cart, a bouquet, an ordinary errand.",
+    "summary": "Our Wegmans photograph with Caroline’s Cart and a bouquet: why useful design belongs in ordinary family life.",
+    "category": "stories",
+    "format": "Story",
+    "minutes": 4,
+    "image": "/assets/family-notes/wegmans-carolines-cart.webp"
+  },
+  {
+    "slug": "von-trapp-family-field-note",
+    "url": "/von-trapp-family-field-note.html",
+    "title": "The flowers on the table.",
+    "summary": "A family photograph from a von Trapp visit in Vermont, and a note about the small details that make a meal feel like an occasion.",
+    "category": "stories",
+    "format": "Story",
+    "minutes": 4,
+    "image": "/assets/family-notes/von-trapp-table.webp"
+  },
+  {
+    "slug": "wicked-tulips-family-field-note",
+    "url": "/wicked-tulips-family-field-note.html",
+    "title": "A family day in full color.",
+    "summary": "Our Wicked Tulips family photographs: spring color, a portrait and a practical note about enjoying a flower farm at your own pace.",
+    "category": "stories",
+    "format": "Story",
+    "minutes": 4,
+    "image": "/assets/family-notes/wicked-tulips-family.webp"
+  },
+  {
+    "slug": "flowers-fidgets-and-clutter",
+    "url": "/flowers-fidgets-and-clutter.html",
+    "title": "Flowers, fidgets, and clutter. Because life.",
+    "summary": "Yellow roses on a lived-in table: beauty, useful objects and a home that does not need to be perfect before it gets flowers.",
+    "category": "home",
+    "format": "Story",
+    "minutes": 4,
+    "image": "/assets/family-notes/flowers-fidgets-clutter.webp"
   },
   {
     "slug": "aac-outing-note",

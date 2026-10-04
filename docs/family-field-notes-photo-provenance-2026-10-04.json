@@ -1,0 +1,70 @@
+{
+  "date": "2026-10-04",
+  "scope": "Five notes with eight available owner-shared photographs. No new material from Ocean House, Quonset View, Farmer’s Daughter, Halloween or Providence Children’s Museum published in this release. No photographer attribution inferred.",
+  "assets": [
+    {
+      "path": "assets/family-notes/doe-orchards-family.webp",
+      "source": "Owner-shared An AUsome Life site-assets/doe-orchards-family.webp",
+      "sha256": "30f035ae8ee7ec2a258619574be79ff32c8a0d6d31e004117489a65e596fb98d",
+      "permission_basis": "Owner supplied family photographs and explicitly authorized creation and upload of these photo-backed field notes.",
+      "transformations": "None. Existing WebP copied byte-for-byte; full frame displayed.",
+      "use": "apple-orchard-afternoon.html"
+    },
+    {
+      "path": "assets/family-notes/doe-orchards-lane.webp",
+      "source": "Owner-shared An AUsome Life site-assets/doe-orchards-lane.webp",
+      "sha256": "c468ac464c9adf8198b3993dfcc76c8e37c821ec69a836f0ddba20994f8e801e",
+      "permission_basis": "Owner supplied family photographs and explicitly authorized creation and upload of these photo-backed field notes.",
+      "transformations": "None. Existing WebP copied byte-for-byte; full frame displayed.",
+      "use": "apple-orchard-afternoon.html"
+    },
+    {
+      "path": "assets/family-notes/doe-orchards-ruby.webp",
+      "source": "Owner-shared An AUsome Life site-assets/doe-orchards-ruby.webp",
+      "sha256": "85b8254cccd034408c2d779b9f0c256ce18e964b2150bda20c40ecb58f2bb7f9",
+      "permission_basis": "Owner supplied family photographs and explicitly authorized creation and upload of these photo-backed field notes.",
+      "transformations": "None. Existing WebP copied byte-for-byte; full frame displayed.",
+      "use": "apple-orchard-afternoon.html"
+    },
+    {
+      "path": "assets/family-notes/wegmans-carolines-cart.webp",
+      "source": "Owner-shared An AUsome Life site-assets/wegmans-carolines-cart.webp",
+      "sha256": "72c0eca2b260c3524884d6fef209fb0221ce9fb77283d623b2e20c605bd5b063",
+      "permission_basis": "Owner supplied family photographs and explicitly authorized creation and upload of these photo-backed field notes.",
+      "transformations": "None. Existing WebP copied byte-for-byte; full frame displayed.",
+      "use": "wegmans-carolines-cart-field-note.html"
+    },
+    {
+      "path": "assets/family-notes/von-trapp-table.webp",
+      "source": "Owner-shared An AUsome Life site-assets/von-trapp-table.webp",
+      "sha256": "a0141c7979eb7a61149e2ed4f70400996b8521e49da0c62f5138ed7929f146c2",
+      "permission_basis": "Owner supplied family photographs and explicitly authorized creation and upload of these photo-backed field notes.",
+      "transformations": "None. Existing WebP copied byte-for-byte; full frame displayed.",
+      "use": "von-trapp-family-field-note.html"
+    },
+    {
+      "path": "assets/family-notes/wicked-tulips-family.webp",
+      "source": "Owner-shared An AUsome Life site-assets/wicked-tulips-family.webp",
+      "sha256": "62c7bfbf6c8468d291fedd739a4a869eb0215b7f374e3ab8664ace80c8c1c452",
+      "permission_basis": "Owner supplied family photographs and explicitly authorized creation and upload of these photo-backed field notes.",
+      "transformations": "None. Existing WebP copied byte-for-byte; full frame displayed.",
+      "use": "wicked-tulips-family-field-note.html"
+    },
+    {
+      "path": "assets/family-notes/wicked-tulips-portrait.webp",
+      "source": "Owner-shared An AUsome Life site-assets/wicked-tulips-portrait.webp",
+      "sha256": "5950ec086b4a1c69b8bd4514dcf1de99b718739b0f1374736a786bba45d86089",
+      "permission_basis": "Owner supplied family photographs and explicitly authorized creation and upload of these photo-backed field notes.",
+      "transformations": "None. Existing WebP copied byte-for-byte; full frame displayed.",
+      "use": "wicked-tulips-family-field-note.html"
+    },
+    {
+      "path": "assets/family-notes/flowers-fidgets-clutter.webp",
+      "source": "Owner-shared An AUsome Life site-assets/flowers-fidgets-clutter.webp",
+      "sha256": "b5bda69b6f84b307a212072033e8d1d5cd477bd113368d29d109c0ee08cd5b93",
+      "permission_basis": "Owner supplied family photographs and explicitly authorized creation and upload of these photo-backed field notes.",
+      "transformations": "None. Existing WebP copied byte-for-byte; full frame displayed.",
+      "use": "flowers-fidgets-and-clutter.html"
+    }
+  ]
+}

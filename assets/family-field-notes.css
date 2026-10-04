@@ -1,0 +1,55 @@
+/* Family photo essays, within the established An AUsome Life magazine shell. */
+.fn-page{--fn-paper:#faf8f1;--fn-pine:#244b3e;--fn-ink:#193b40;--fn-line:#c9cebf;color:var(--fn-ink)}
+.fn-page main{padding-bottom:48px}
+.fn-breadcrumb{padding-top:24px;font-size:.88rem}
+.fn-breadcrumb a,.fn-page a{color:var(--fn-pine);text-underline-offset:4px}
+.fn-kicker{font:700 .75rem/1.5 Arial,sans-serif;letter-spacing:.12em;text-transform:uppercase;color:#50635a}
+.fn-cover{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:clamp(28px,5vw,72px);align-items:center;padding-top:30px;padding-bottom:38px;border-bottom:1px solid var(--fn-line)}
+.fn-cover h1{font:400 clamp(2.5rem,4.7vw,4.8rem)/1.04 Georgia,serif;letter-spacing:-.035em;margin:14px 0 22px;max-width:14ch}
+.fn-dek{font:400 clamp(1.15rem,1.7vw,1.45rem)/1.55 Georgia,serif;max-width:38ch}
+.fn-byline{font-size:.9rem;margin-top:24px;color:#50635a}
+.fn-jump{display:flex;flex-wrap:wrap;gap:10px 24px;margin-top:24px}
+.fn-jump a{display:inline-flex;align-items:center;min-height:44px;font-weight:700}
+.fn-photo{margin:0;min-width:0}
+.fn-page .fn-photo img{display:block;width:100%;height:auto;max-height:680px;object-fit:contain;background:var(--fn-paper);border-radius:0}
+.fn-photo figcaption{font:400 .84rem/1.5 Arial,sans-serif;color:#50635a;padding-top:10px}
+.fn-glance{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:28px;padding-top:27px;padding-bottom:30px;border-bottom:1px solid var(--fn-line)}
+.fn-glance div+div{border-left:1px solid var(--fn-line);padding-left:24px}
+.fn-glance dt{font:700 .76rem/1.5 Arial,sans-serif;text-transform:uppercase;letter-spacing:.08em;margin-bottom:8px}
+.fn-glance dd{margin:0;font-size:.96rem;line-height:1.55}
+.fn-story{max-width:760px;margin:48px auto 0;padding:0 24px}
+.fn-story p{font:400 1.12rem/1.8 Georgia,serif;margin:0 0 1.3em}
+.fn-story .fn-intro p:first-child{font-size:1.32rem;line-height:1.65}
+.fn-story h2{font:400 clamp(1.75rem,3vw,2.3rem)/1.18 Georgia,serif;letter-spacing:-.02em;margin:38px 0 18px}
+.fn-gallery{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px;margin:40px 0}
+.fn-gallery.fn-single{grid-template-columns:1fr;max-width:500px;margin-inline:auto}
+.fn-pullquote{border-top:1px solid var(--fn-line);border-bottom:1px solid var(--fn-line);margin:40px 0;padding:24px 0;font:400 1.9rem/1.3 Georgia,serif;color:var(--fn-pine)}
+.fn-planning{margin-top:48px;padding-top:32px;border-top:2px solid var(--fn-pine)}
+.fn-planning h2,.fn-related h2{font:400 clamp(1.9rem,3vw,2.7rem)/1.15 Georgia,serif;margin:10px 0 24px}
+.fn-choices{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:30px;margin-bottom:30px}
+.fn-choices h3{font:400 1.4rem/1.25 Georgia,serif;margin:0 0 10px}
+.fn-choices p{font-size:1rem;line-height:1.6}
+.fn-practical{border-top:1px solid var(--fn-line)}
+.fn-practical details{border-bottom:1px solid var(--fn-line);padding:0 16px}
+.fn-practical summary{padding:18px 0;font-weight:700;cursor:pointer;min-height:48px}
+.fn-practical details p{max-width:75ch;margin:0 0 20px;line-height:1.7}
+.fn-sources{font-size:.94rem;line-height:1.65;padding:24px 0}
+.fn-sources p{margin:0 0 10px}
+.fn-sources ul{display:flex;flex-wrap:wrap;gap:10px 26px;list-style:none;padding:0;margin:0}
+.fn-related{margin-top:24px;padding-top:28px;border-top:1px solid var(--fn-line)}
+.fn-related ul{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));column-gap:40px}
+.fn-related li{padding:15px 0;border-bottom:1px solid var(--fn-line)}
+.fn-related a{font:400 1.22rem/1.4 Georgia,serif;display:block}
+.fn-page :focus-visible,.fn-album :focus-visible{outline:3px solid #7a492d;outline-offset:5px}
+.fn-album{padding-top:36px;padding-bottom:36px;border-top:2px solid #244b3e;border-bottom:1px solid #c9cebf;margin-bottom:30px}
+.fn-album h2{font:400 clamp(2rem,3vw,3rem)/1.15 Georgia,serif;margin:10px 0 26px}
+.fn-album-layout{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.2fr);gap:36px;align-items:start}
+.fn-album .fn-photo img{display:block;width:100%;height:auto;object-fit:contain}
+.fn-album ol{list-style:none;counter-reset:notes;padding:0;margin:0}
+.fn-album li{counter-increment:notes;border-top:1px solid #c9cebf;padding:14px 0 14px 38px;position:relative}
+.fn-album li:before{content:"0" counter(notes);position:absolute;left:0;top:17px;font:700 .75rem Arial,sans-serif;color:#50635a}
+.fn-album h3{font:400 1.4rem/1.25 Georgia,serif;margin:0 0 5px}
+.fn-album li p{font-size:.94rem;line-height:1.5;margin:0}
+@media(max-width:760px){.fn-cover,.fn-album-layout{grid-template-columns:1fr}.fn-cover h1{max-width:17ch}.fn-glance{grid-template-columns:repeat(2,minmax(0,1fr));gap:24px}.fn-glance div+div{border-left:0;padding-left:0}.fn-glance div{border-bottom:1px solid var(--fn-line);padding-bottom:16px}.fn-choices{grid-template-columns:1fr;gap:10px}.fn-choices>div{border-bottom:1px solid var(--fn-line);padding-bottom:12px}.fn-story{margin-top:30px}.fn-page .wrap,.fn-album.wrap{width:calc(100% - 36px)}.fn-related ul{grid-template-columns:1fr}}
+@media(max-width:420px){.fn-gallery{grid-template-columns:1fr}.fn-story{padding:0 18px}.fn-cover h1{font-size:2.65rem}}
+@media print{.fn-page .mag-masthead,.fn-page .edition-line,.fn-jump,.fn-page .mag-footer,.fn-related{display:none}.fn-page .wrap{width:100%}.fn-cover{grid-template-columns:1fr 1fr}.fn-cover h1{font-size:30pt}.fn-photo{break-inside:avoid}.fn-story{max-width:none}.fn-story p{font-size:11pt}.fn-practical details>p{display:block!important}.fn-page main{padding:0}}
