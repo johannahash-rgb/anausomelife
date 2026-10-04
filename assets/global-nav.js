@@ -62,4 +62,10 @@
   document.querySelector('[data-aal-theme]')?.addEventListener('click',()=>{document.body.classList.toggle('aal-ink-mode');localStorage.setItem(themeKey,document.body.classList.contains('aal-ink-mode')?'ink':'light')});
 
   document.body.classList.add('aal-immersive-site');
+  if (!document.querySelector('script[src*="image-audit.js"]')) {
+    const audit=document.createElement('script');
+    audit.src='/assets/image-audit.js?v=20261004-1';
+    audit.defer=true;
+    document.body.append(audit);
+  }
 })();
