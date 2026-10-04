@@ -49,3 +49,7 @@ Keep the application-level CORS, request-size, content-type and moderation check
 10. Re-run editorial-rights checks and live keyboard/screen-reader checks before treating generation as released.
 
 The static page continues to use the explicit ChatGPT handoff while this service is not connected.
+
+## Release status
+
+Enabled for production after Vercel firewall rate limiting was published and the AI Gateway/OIDC backend passed build checks on 4 October 2026.
