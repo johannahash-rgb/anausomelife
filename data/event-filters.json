@@ -2581,6 +2581,230 @@
         "max": null,
         "kind": "not-stated"
       }
+    },
+    "bilt-dance-2026-10-16": {
+      "ageGroups": [],
+      "accessFeatures": [],
+      "ageEvidence": {},
+      "accessEvidence": {},
+      "checkedAt": "2026-10-05"
+    },
+    "bilt-bowling-2026-10-17": {
+      "ageGroups": [],
+      "accessFeatures": [],
+      "ageEvidence": {},
+      "accessEvidence": {},
+      "checkedAt": "2026-10-05"
+    },
+    "altitude-billerica-2026-10-10": {
+      "ageGroups": [],
+      "accessFeatures": [
+        "sensory-friendly"
+      ],
+      "ageEvidence": {},
+      "accessEvidence": {
+        "sensory-friendly": {
+          "url": "https://www.altitudeparkma.com/Sensory-friendly-Saturdays"
+        }
+      },
+      "checkedAt": "2026-10-05"
+    },
+    "urban-bellingham-2026-10-11": {
+      "ageGroups": [
+        "children",
+        "families"
+      ],
+      "accessFeatures": [
+        "sensory-friendly"
+      ],
+      "ageEvidence": {
+        "children": {
+          "url": "https://www.urbanair.com/massachusetts-bellingham/"
+        },
+        "families": {
+          "url": "https://www.urbanair.com/massachusetts-bellingham/"
+        }
+      },
+      "accessEvidence": {
+        "sensory-friendly": {
+          "url": "https://www.urbanair.com/massachusetts-bellingham/"
+        }
+      },
+      "checkedAt": "2026-10-05"
+    },
+    "urban-brockton-2026-10-11": {
+      "ageGroups": [
+        "children",
+        "families"
+      ],
+      "accessFeatures": [
+        "sensory-friendly"
+      ],
+      "ageEvidence": {
+        "children": {
+          "url": "https://www.urbanair.com/massachusetts-brockton/"
+        },
+        "families": {
+          "url": "https://www.urbanair.com/massachusetts-brockton/"
+        }
+      },
+      "accessEvidence": {
+        "sensory-friendly": {
+          "url": "https://www.urbanair.com/massachusetts-brockton/"
+        }
+      },
+      "checkedAt": "2026-10-05"
+    },
+    "lego-sensory-2026-11-15": {
+      "ageGroups": [
+        "all-ages"
+      ],
+      "accessFeatures": [
+        "sensory-friendly"
+      ],
+      "ageEvidence": {
+        "all-ages": {
+          "url": "https://www.legodiscoverycenter.com/boston/whats-inside/events/sensory-friendly-mornings/"
+        }
+      },
+      "accessEvidence": {
+        "sensory-friendly": {
+          "url": "https://www.legodiscoverycenter.com/boston/whats-inside/events/sensory-friendly-mornings/"
+        }
+      },
+      "checkedAt": "2026-10-05"
+    },
+    "bridge-trivia-2026-10-21": {
+      "ageGroups": [
+        "adults"
+      ],
+      "accessFeatures": [],
+      "ageEvidence": {
+        "adults": {
+          "url": "https://www.bridgethespectrumct.com/event-details/halloween-trivia-night-is-coming-to-wallingford"
+        }
+      },
+      "accessEvidence": {},
+      "checkedAt": "2026-10-05"
+    },
+    "bridge-movie-2026-10-28": {
+      "ageGroups": [
+        "adults"
+      ],
+      "accessFeatures": [],
+      "ageEvidence": {
+        "adults": {
+          "url": "https://www.bridgethespectrumct.com/event-details/bridge-the-spectrum-halloween-bash-and-movie-night-18"
+        }
+      },
+      "accessEvidence": {},
+      "checkedAt": "2026-10-05"
+    },
+    "bridge-pizza-2026-11-01": {
+      "ageGroups": [
+        "adults"
+      ],
+      "accessFeatures": [],
+      "ageEvidence": {
+        "adults": {
+          "url": "https://www.bridgethespectrumct.com/event-details/make-your-own-pizza-at-pops-pizza-18-only-12-spots-available"
+        }
+      },
+      "accessEvidence": {},
+      "checkedAt": "2026-10-05"
+    },
+    "bridge-disco-2026-12-04": {
+      "ageGroups": [
+        "all-ages"
+      ],
+      "accessFeatures": [],
+      "ageEvidence": {
+        "all-ages": {
+          "url": "https://www.bridgethespectrumct.com/event-details/holiday-silent-disco-night-dinner-included-dancing-fundraiser"
+        }
+      },
+      "accessEvidence": {},
+      "checkedAt": "2026-10-05"
+    },
+    "marc-dance-2026-10-20": {
+      "ageGroups": [],
+      "accessFeatures": [],
+      "ageEvidence": {},
+      "accessEvidence": {},
+      "checkedAt": "2026-10-05"
+    },
+    "fia-bowling-2026-10-15": {
+      "ageGroups": [
+        "teens",
+        "adults"
+      ],
+      "accessFeatures": [],
+      "ageEvidence": {
+        "teens": {
+          "url": "https://friendsinactionnh.org/faqs/"
+        },
+        "adults": {
+          "url": "https://friendsinactionnh.org/faqs/"
+        }
+      },
+      "accessEvidence": {},
+      "checkedAt": "2026-10-05"
+    },
+    "fia-halloween-2026-10-09": {
+      "ageGroups": [
+        "teens",
+        "adults"
+      ],
+      "accessFeatures": [],
+      "ageEvidence": {
+        "teens": {
+          "url": "https://friendsinactionnh.org/faqs/"
+        },
+        "adults": {
+          "url": "https://friendsinactionnh.org/faqs/"
+        }
+      },
+      "accessEvidence": {},
+      "checkedAt": "2026-10-05"
+    },
+    "aoec-horse-2026-10-14": {
+      "ageGroups": [],
+      "accessFeatures": [],
+      "ageEvidence": {},
+      "accessEvidence": {},
+      "checkedAt": "2026-10-05"
+    },
+    "aoec-planetarium-2026-10-28": {
+      "ageGroups": [
+        "all-ages"
+      ],
+      "accessFeatures": [],
+      "ageEvidence": {
+        "all-ages": {
+          "url": "https://www.adaptiveoutdooreducationcenter.org/natureseries"
+        }
+      },
+      "accessEvidence": {},
+      "checkedAt": "2026-10-05"
+    },
+    "aarp-roll-dance-2026-10-06": {
+      "ageGroups": [
+        "all-ages"
+      ],
+      "accessFeatures": [
+        "wheelchair-step-free"
+      ],
+      "ageEvidence": {
+        "all-ages": {
+          "url": "https://events.aarp.org/event/GlowintheDarkParty2026/summary"
+        }
+      },
+      "accessEvidence": {
+        "wheelchair-step-free": {
+          "url": "https://events.aarp.org/event/GlowintheDarkParty2026/summary"
+        }
+      },
+      "checkedAt": "2026-10-05"
     }
   }
 }

@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "generatedAt": "2026-10-04T00:00:00Z",
-  "lastEditorialReview": "2026-10-05T09:48:29Z",
+  "lastEditorialReview": "2026-10-05T09:55:42Z",
   "timezone": "America/New_York",
   "coverage": "Selected New England adaptive and sensory-friendly events, with a verified free-admission filter and free-program directory. Not exhaustive.",
   "refresh": {
@@ -773,6 +773,240 @@
       "sourceCheckedAt": "2026-10-05T09:48:29Z",
       "status": "manually-checked",
       "lastChecked": "2026-10-05T09:48:29Z"
+    },
+    {
+      "id": "bilt",
+      "name": "Bridging Independent Living Together",
+      "url": "https://biltne.org/_events/",
+      "state": "MA",
+      "type": "Dances, bowling and social outings; fees vary",
+      "mode": "check",
+      "enabled": true,
+      "timezone": "America/New_York",
+      "allowedHosts": [
+        "biltne.org"
+      ],
+      "autoPublish": false,
+      "feedVerified": false,
+      "sourceCheckedAt": "2026-10-05T09:55:42Z",
+      "lastChecked": "2026-10-05T09:55:42Z",
+      "status": "manually-checked"
+    },
+    {
+      "id": "altitude-billerica",
+      "name": "Altitude Billerica sensory Saturdays",
+      "url": "https://www.altitudeparkma.com/Sensory-friendly-Saturdays",
+      "state": "MA",
+      "type": "Paid sensory trampoline session",
+      "mode": "check",
+      "enabled": true,
+      "timezone": "America/New_York",
+      "allowedHosts": [
+        "www.altitudeparkma.com"
+      ],
+      "autoPublish": false,
+      "feedVerified": false,
+      "sourceCheckedAt": "2026-10-05T09:55:42Z",
+      "lastChecked": "2026-10-05T09:55:42Z",
+      "status": "manually-checked"
+    },
+    {
+      "id": "urban-bellingham",
+      "name": "Urban Air Bellingham",
+      "url": "https://www.urbanair.com/massachusetts-bellingham/",
+      "state": "MA",
+      "type": "Paid sensory play",
+      "mode": "check",
+      "enabled": true,
+      "timezone": "America/New_York",
+      "allowedHosts": [
+        "www.urbanair.com"
+      ],
+      "autoPublish": false,
+      "feedVerified": false,
+      "sourceCheckedAt": "2026-10-05T09:55:42Z",
+      "lastChecked": "2026-10-05T09:55:42Z",
+      "status": "manually-checked"
+    },
+    {
+      "id": "urban-brockton",
+      "name": "Urban Air Brockton",
+      "url": "https://www.urbanair.com/massachusetts-brockton/",
+      "state": "MA",
+      "type": "Paid sensory play",
+      "mode": "check",
+      "enabled": true,
+      "timezone": "America/New_York",
+      "allowedHosts": [
+        "www.urbanair.com"
+      ],
+      "autoPublish": false,
+      "feedVerified": false,
+      "sourceCheckedAt": "2026-10-05T09:55:42Z",
+      "lastChecked": "2026-10-05T09:55:42Z",
+      "status": "manually-checked"
+    },
+    {
+      "id": "lego-boston",
+      "name": "LEGO Discovery Center Boston",
+      "url": "https://www.legodiscoverycenter.com/boston/whats-inside/events/sensory-friendly-mornings/",
+      "state": "MA",
+      "type": "Ticketed sensory mornings",
+      "mode": "check",
+      "enabled": true,
+      "timezone": "America/New_York",
+      "allowedHosts": [
+        "www.legodiscoverycenter.com"
+      ],
+      "autoPublish": false,
+      "feedVerified": false,
+      "sourceCheckedAt": "2026-10-05T09:55:42Z",
+      "lastChecked": "2026-10-05T09:55:42Z",
+      "status": "manually-checked"
+    },
+    {
+      "id": "bridge-spectrum",
+      "name": "Bridge The Spectrum",
+      "url": "https://www.bridgethespectrumct.com/event-list",
+      "state": "CT",
+      "type": "Mostly adult social events; fees vary",
+      "mode": "check",
+      "enabled": true,
+      "timezone": "America/New_York",
+      "allowedHosts": [
+        "www.bridgethespectrumct.com"
+      ],
+      "autoPublish": false,
+      "feedVerified": false,
+      "sourceCheckedAt": "2026-10-05T09:55:42Z",
+      "lastChecked": "2026-10-05T09:55:42Z",
+      "status": "manually-checked"
+    },
+    {
+      "id": "marc-ct",
+      "name": "MARC recreation",
+      "url": "https://marcct.org/news-events/event-calendar.html",
+      "state": "CT",
+      "type": "Recreation and dances; fees vary",
+      "mode": "check",
+      "enabled": true,
+      "timezone": "America/New_York",
+      "allowedHosts": [
+        "marcct.org"
+      ],
+      "autoPublish": false,
+      "feedVerified": false,
+      "sourceCheckedAt": "2026-10-05T09:55:42Z",
+      "lastChecked": "2026-10-05T09:55:42Z",
+      "status": "manually-checked"
+    },
+    {
+      "id": "friends-in-action",
+      "name": "Friends in Action",
+      "url": "https://friendsinactionnh.org/calendar/",
+      "state": "NH",
+      "type": "High school age and older; intake required",
+      "mode": "check",
+      "enabled": true,
+      "timezone": "America/New_York",
+      "allowedHosts": [
+        "friendsinactionnh.org"
+      ],
+      "autoPublish": false,
+      "feedVerified": false,
+      "sourceCheckedAt": "2026-10-05T09:55:42Z",
+      "lastChecked": "2026-10-05T09:55:42Z",
+      "status": "manually-checked"
+    },
+    {
+      "id": "aarp-ri",
+      "name": "AARP Rhode Island inclusive Walktober",
+      "url": "https://events.aarp.org/event/GlowintheDarkParty2026/summary",
+      "state": "RI",
+      "type": "Free inclusive walk, roll and dance event",
+      "mode": "check",
+      "enabled": true,
+      "timezone": "America/New_York",
+      "allowedHosts": [
+        "events.aarp.org"
+      ],
+      "autoPublish": false,
+      "feedVerified": false,
+      "sourceCheckedAt": "2026-10-05T09:55:42Z",
+      "lastChecked": "2026-10-05T09:55:42Z",
+      "status": "manually-checked"
+    },
+    {
+      "id": "aane-outdoors",
+      "name": "AANE Outdoor Enthusiasts",
+      "url": "https://www.meetup.com/meetup-group-aane-outdoorenthusiasts/",
+      "state": "MA",
+      "type": "Adult hiking group; join Meetup for current details",
+      "mode": "check",
+      "enabled": true,
+      "timezone": "America/New_York",
+      "allowedHosts": [
+        "www.meetup.com"
+      ],
+      "autoPublish": false,
+      "feedVerified": false,
+      "sourceCheckedAt": "2026-10-05T09:55:42Z",
+      "lastChecked": "2026-10-05T09:55:42Z",
+      "status": "manually-checked"
+    },
+    {
+      "id": "strive",
+      "name": "PSL Services/STRIVE",
+      "url": "https://pslstrive.org/strive",
+      "state": "ME",
+      "type": "Social programs grouped by age; confirm fees and support",
+      "mode": "check",
+      "enabled": true,
+      "timezone": "America/New_York",
+      "allowedHosts": [
+        "pslstrive.org"
+      ],
+      "autoPublish": false,
+      "feedVerified": false,
+      "sourceCheckedAt": "2026-10-05T09:55:42Z",
+      "lastChecked": "2026-10-05T09:55:42Z",
+      "status": "manually-checked"
+    },
+    {
+      "id": "zacks-place",
+      "name": "Zack’s Place",
+      "url": "https://zacksplacevt.org/programs/",
+      "state": "VT",
+      "type": "Free weekday enrichment; bring needed personal-care support",
+      "mode": "check",
+      "enabled": true,
+      "timezone": "America/New_York",
+      "allowedHosts": [
+        "zacksplacevt.org"
+      ],
+      "autoPublish": false,
+      "feedVerified": false,
+      "sourceCheckedAt": "2026-10-05T09:55:42Z",
+      "lastChecked": "2026-10-05T09:55:42Z",
+      "status": "manually-checked"
+    },
+    {
+      "id": "launch-warwick",
+      "name": "Launch Warwick",
+      "url": "https://launchfamilyentertainment.com/warwick/",
+      "state": "RI",
+      "type": "Sensory Sunday mentioned; confirm exact session and fee",
+      "mode": "check",
+      "enabled": true,
+      "timezone": "America/New_York",
+      "allowedHosts": [
+        "launchfamilyentertainment.com"
+      ],
+      "autoPublish": false,
+      "feedVerified": false,
+      "sourceCheckedAt": "2026-10-05T09:55:42Z",
+      "lastChecked": "2026-10-05T09:55:42Z",
+      "status": "manually-checked"
     }
   ],
   "events": [
@@ -1108,6 +1342,38 @@
       }
     },
     {
+      "id": "aarp-roll-dance-2026-10-06",
+      "title": "Move, Groove & Glow: Accessible Walk and Dance",
+      "start": "2026-10-06T18:00:00-04:00",
+      "end": "2026-10-06T20:30:00-04:00",
+      "timezone": "America/New_York",
+      "state": "RI",
+      "city": "Providence",
+      "venue": "Michael S. Van Leesten Memorial Bridge, west side",
+      "address": "West side of Michael S. Van Leesten Memorial Bridge, Providence, RI 02903",
+      "cost": "Free",
+      "costCategory": "free",
+      "ages": "All ages and abilities.",
+      "summary": "An inclusive walk, roll and dance outing with the Providence Drum Troupe.",
+      "accessibility": [
+        "Organizer describes flat, accessible paths"
+      ],
+      "sourceId": "aarp-ri",
+      "sourceUrl": "https://events.aarp.org/event/GlowintheDarkParty2026/summary",
+      "ticketUrl": null,
+      "registration": "Register with the organizer; confirm availability and individual support arrangements.",
+      "cancellationPolicy": "Confirm cancellation and refund terms with the organizer.",
+      "notes": [
+        "Expect upbeat live music, performers and glow sticks. This is not a quiet sensory session."
+      ],
+      "lastVerified": "2026-10-05T09:55:42Z",
+      "verificationMethod": "Official organizer event details reviewed.",
+      "reviewRequired": false,
+      "status": "scheduled",
+      "category": "Inclusive outings",
+      "format": "In person"
+    },
+    {
       "timezone": "America/New_York",
       "ticketUrl": null,
       "cancellationPolicy": "Not stated in the checked listing; confirm with the organizer.",
@@ -1183,6 +1449,72 @@
       }
     },
     {
+      "id": "fia-halloween-2026-10-09",
+      "title": "Friends in Action Halloween Social",
+      "start": "2026-10-09T18:30:00-04:00",
+      "end": "2026-10-09T20:30:00-04:00",
+      "timezone": "America/New_York",
+      "state": "NH",
+      "city": "Durham",
+      "venue": "Community Church of Durham",
+      "address": "17 Main Street, Durham, NH 03824",
+      "cost": "Free; complete the participant intake first.",
+      "costCategory": "free",
+      "ages": "High-school-age participants and adults.",
+      "summary": "The October calendar lists a Halloween social during the regular second-Friday social time.",
+      "accessibility": [],
+      "sourceId": "friends-in-action",
+      "sourceUrl": "https://friendsinactionnh.org/calendar/",
+      "ticketUrl": null,
+      "registration": "New participants complete forms and an interview first; contact the program director.",
+      "cancellationPolicy": "Confirm cancellation and refund terms with the organizer.",
+      "notes": [
+        "Time and venue follow the published Friday Night Social program.",
+        "Bring your own 1:1 support if needed."
+      ],
+      "lastVerified": "2026-10-05T09:55:42Z",
+      "verificationMethod": "Official organizer event details reviewed.",
+      "reviewRequired": false,
+      "status": "scheduled",
+      "category": "Social & dance",
+      "format": "In person",
+      "costEvidence": "https://friendsinactionnh.org/faqs/",
+      "scheduleEvidence": "https://friendsinactionnh.org/programs/"
+    },
+    {
+      "id": "altitude-billerica-2026-10-10",
+      "title": "Altitude Sensory-Friendly Saturday",
+      "start": "2026-10-10T09:00:00-04:00",
+      "end": "2026-10-10T10:00:00-04:00",
+      "timezone": "America/New_York",
+      "state": "MA",
+      "city": "Billerica",
+      "venue": "Altitude Trampoline Park Billerica",
+      "address": "700 Boston Road, Billerica, MA 01821",
+      "cost": "$12 per person when requesting the sensory-session rate; confirm any required socks or extras.",
+      "costCategory": "paid",
+      "ages": "People and groups with sensory sensitivities; confirm attraction rules.",
+      "summary": "Saturday jumping with quieter music and no scheduled parties.",
+      "accessibility": [
+        "Music volume lowered",
+        "No parties scheduled during the session"
+      ],
+      "sourceId": "altitude-billerica",
+      "sourceUrl": "https://www.altitudeparkma.com/Sensory-friendly-Saturdays",
+      "ticketUrl": null,
+      "registration": "Mention the sensory-session rate when purchasing; call ahead for a large group.",
+      "cancellationPolicy": "Confirm cancellation and refund terms with the organizer.",
+      "notes": [
+        "The park remains open to the general public."
+      ],
+      "lastVerified": "2026-10-05T09:55:42Z",
+      "verificationMethod": "Official recurring schedule reviewed; date calculated from the published recurrence.",
+      "reviewRequired": false,
+      "status": "scheduled",
+      "category": "Sensory play",
+      "format": "In person"
+    },
+    {
       "id": "jcc-sensory-2026-10-10",
       "title": "Sensory Swim Hour",
       "start": "2026-10-10T15:00:00-04:00",
@@ -1249,6 +1581,70 @@
       "category": "Sensory-friendly",
       "format": "In person",
       "costCategory": "free"
+    },
+    {
+      "id": "urban-bellingham-2026-10-11",
+      "title": "Urban Air Bellingham Sensory Play",
+      "start": "2026-10-11T08:00:00-04:00",
+      "end": "2026-10-11T10:00:00-04:00",
+      "timezone": "America/New_York",
+      "state": "MA",
+      "city": "Bellingham",
+      "venue": "Urban Air Bellingham",
+      "address": "189 Mechanic Street, Bellingham, MA 02019",
+      "cost": "Paid admission; confirm the sensory-session price and required socks.",
+      "costCategory": "paid",
+      "ages": "Children and families; confirm age, height and attraction eligibility.",
+      "summary": "A dedicated sensory-play session at the trampoline and adventure park.",
+      "accessibility": [
+        "Organizer-designated sensory-play hours"
+      ],
+      "sourceId": "urban-bellingham",
+      "sourceUrl": "https://www.urbanair.com/massachusetts-bellingham/",
+      "ticketUrl": null,
+      "registration": "Register with the organizer; confirm availability and individual support arrangements.",
+      "cancellationPolicy": "Confirm cancellation and refund terms with the organizer.",
+      "notes": [
+        "Second Sunday each month; reconfirm the selected date before traveling."
+      ],
+      "lastVerified": "2026-10-05T09:55:42Z",
+      "verificationMethod": "Official recurring schedule reviewed; date calculated from the published recurrence.",
+      "reviewRequired": false,
+      "status": "scheduled",
+      "category": "Sensory play",
+      "format": "In person"
+    },
+    {
+      "id": "urban-brockton-2026-10-11",
+      "title": "Urban Air Brockton Sensory Play",
+      "start": "2026-10-11T09:00:00-04:00",
+      "end": "2026-10-11T11:00:00-04:00",
+      "timezone": "America/New_York",
+      "state": "MA",
+      "city": "Brockton",
+      "venue": "Urban Air Brockton",
+      "address": "435 Westgate Drive, Brockton, MA 02301",
+      "cost": "Paid admission; confirm the sensory-session price and required socks.",
+      "costCategory": "paid",
+      "ages": "Children and families; confirm age, height and attraction eligibility.",
+      "summary": "A dedicated sensory-play session at the trampoline and adventure park.",
+      "accessibility": [
+        "Organizer-designated sensory-play hours"
+      ],
+      "sourceId": "urban-brockton",
+      "sourceUrl": "https://www.urbanair.com/massachusetts-brockton/",
+      "ticketUrl": null,
+      "registration": "Register with the organizer; confirm availability and individual support arrangements.",
+      "cancellationPolicy": "Confirm cancellation and refund terms with the organizer.",
+      "notes": [
+        "Every Sunday; reconfirm the selected date before traveling."
+      ],
+      "lastVerified": "2026-10-05T09:55:42Z",
+      "verificationMethod": "Official recurring schedule reviewed; date calculated from the published recurrence.",
+      "reviewRequired": false,
+      "status": "scheduled",
+      "category": "Sensory play",
+      "format": "In person"
     },
     {
       "id": "jcc-sensory-2026-10-11",
@@ -1426,6 +1822,34 @@
       "costCategory": "free"
     },
     {
+      "id": "aoec-horse-2026-10-14",
+      "title": "AOEC: Meet Toast the Miniature Horse",
+      "start": "2026-10-14T10:00:00-04:00",
+      "end": "2026-10-14T10:40:00-04:00",
+      "timezone": "America/New_York",
+      "state": "ME",
+      "city": "Brunswick",
+      "venue": "Adaptive Outdoor Education Center Brunswick",
+      "address": "675 Old Portland Road, Brunswick, ME 04011",
+      "cost": "$10 per participant.",
+      "costCategory": "paid",
+      "ages": "Confirm age suitability with AOEC.",
+      "summary": "Meet a miniature therapy horse and make a themed craft.",
+      "accessibility": [],
+      "sourceId": "aoec",
+      "sourceUrl": "https://www.adaptiveoutdooreducationcenter.org/natureseries",
+      "ticketUrl": "https://go.theflybook.com/book/325/EntityConfig/5426",
+      "registration": "Register for session 1 and complete the AOEC waiver. Session 2 is listed as full.",
+      "cancellationPolicy": "Confirm cancellation and refund terms with the organizer.",
+      "notes": [],
+      "lastVerified": "2026-10-05T09:55:42Z",
+      "verificationMethod": "Official organizer event details reviewed.",
+      "reviewRequired": false,
+      "status": "scheduled",
+      "category": "Inclusive activities",
+      "format": "In person"
+    },
+    {
       "timezone": "America/New_York",
       "ticketUrl": null,
       "cancellationPolicy": "Not stated in the checked listing; confirm with the organizer.",
@@ -1455,6 +1879,36 @@
       "sourceUrl": "https://www.somaine.org/event/state-soccer",
       "registration": "Athlete and Unified Partner participation requires the organizer’s registration process; spectators may attend.",
       "category": "Inclusive sports"
+    },
+    {
+      "id": "fia-bowling-2026-10-15",
+      "title": "Friends in Action Bowling Night",
+      "start": "2026-10-15T16:30:00-04:00",
+      "end": "2026-10-15T18:00:00-04:00",
+      "timezone": "America/New_York",
+      "state": "NH",
+      "city": "Portsmouth",
+      "venue": "Bowl-O-Rama",
+      "address": "Bowl-O-Rama, Portsmouth, NH",
+      "cost": "$10 covers bowling and shoes; food is extra.",
+      "costCategory": "paid",
+      "ages": "High-school-age participants and adults.",
+      "summary": "Bowling and social time on the first and third Thursdays.",
+      "accessibility": [],
+      "sourceId": "friends-in-action",
+      "sourceUrl": "https://friendsinactionnh.org/programs/",
+      "ticketUrl": null,
+      "registration": "New participants complete forms and an interview with Friends in Action before attending.",
+      "cancellationPolicy": "Confirm cancellation and refund terms with the organizer.",
+      "notes": [
+        "Bring your own 1:1 support if needed."
+      ],
+      "lastVerified": "2026-10-05T09:55:42Z",
+      "verificationMethod": "Official recurring schedule reviewed; date calculated from the published recurrence.",
+      "reviewRequired": false,
+      "status": "scheduled",
+      "category": "Social activities",
+      "format": "In person"
     },
     {
       "timezone": "America/New_York",
@@ -1523,6 +1977,36 @@
       "sourceUrl": "https://autismalliance.org/events/after-school-zoo-club-ages-5-12?instance=2",
       "registration": "Registration required to receive the Zoom link.",
       "category": "Autism community"
+    },
+    {
+      "id": "bilt-dance-2026-10-16",
+      "title": "BILT Halloween Dance",
+      "start": "2026-10-16T16:00:00-04:00",
+      "end": "2026-10-16T19:00:00-04:00",
+      "timezone": "America/New_York",
+      "state": "MA",
+      "city": "Arlington",
+      "venue": "Knights of Columbus Hall",
+      "address": "15 Winslow Street, Arlington, MA 02474",
+      "cost": "$35 for participant and caregiver; financial-barrier and group-home pricing inquiries welcome.",
+      "costCategory": "paid",
+      "ages": "Confirm age eligibility with BILT.",
+      "summary": "Dancing, music and a pizza dinner; costumes are optional.",
+      "accessibility": [],
+      "sourceId": "bilt",
+      "sourceUrl": "https://biltne.org/_event/halloween-dance/",
+      "ticketUrl": null,
+      "registration": "Advance ticket purchase through BILT. Contact info@biltne.org about financial barriers.",
+      "cancellationPolicy": "Confirm cancellation and refund terms with the organizer.",
+      "notes": [
+        "Ask BILT about the sound level, quiet space and caregiver ticket arrangement."
+      ],
+      "lastVerified": "2026-10-05T09:55:42Z",
+      "verificationMethod": "Official organizer event details reviewed.",
+      "reviewRequired": false,
+      "status": "scheduled",
+      "category": "Social & dance",
+      "format": "In person"
     },
     {
       "id": "carroll-alumni-trivia-2026-10-16",
@@ -1693,6 +2177,36 @@
       "format": "In person",
       "costCategory": "free",
       "costEvidence": "https://www.biermanautism.com/resources/sensory-friendly-events/"
+    },
+    {
+      "id": "bilt-bowling-2026-10-17",
+      "title": "BILT Bowling League",
+      "start": "2026-10-17T10:00:00-04:00",
+      "end": "2026-10-17T12:00:00-04:00",
+      "timezone": "America/New_York",
+      "state": "MA",
+      "city": "Tewksbury",
+      "venue": "Wamesit Lanes",
+      "address": "434 Main Street, Tewksbury, MA 01876",
+      "cost": "$80, including bowling, shoes, pizza lunch and soft drinks; optional transport costs extra.",
+      "costCategory": "paid",
+      "ages": "Confirm age eligibility with BILT.",
+      "summary": "A bowling and lunch outing with a planned 1:3 staff ratio; request other support in advance.",
+      "accessibility": [],
+      "sourceId": "bilt",
+      "sourceUrl": "https://biltne.org/_event/bowling-league-16/",
+      "ticketUrl": null,
+      "registration": "Register with the organizer; confirm availability and individual support arrangements.",
+      "cancellationPolicy": "Confirm cancellation and refund terms with the organizer.",
+      "notes": [
+        "Listed time is at Wamesit Lanes. Limited Woburn transport has different pickup times."
+      ],
+      "lastVerified": "2026-10-05T09:55:42Z",
+      "verificationMethod": "Official organizer event details reviewed.",
+      "reviewRequired": false,
+      "status": "scheduled",
+      "category": "Social activities",
+      "format": "In person"
     },
     {
       "id": "jcc-sensory-2026-10-17",
@@ -1925,6 +2439,36 @@
       "format": "In person"
     },
     {
+      "id": "marc-dance-2026-10-20",
+      "title": "MARC Halloween Dance",
+      "start": "2026-10-20T17:30:00-04:00",
+      "end": "2026-10-20T20:00:00-04:00",
+      "timezone": "America/New_York",
+      "state": "CT",
+      "city": "Vernon",
+      "venue": "MARC Halloween Dance venue",
+      "address": "57 Hartford Turnpike, Vernon, CT 06066",
+      "cost": "$15 per person, including dinner.",
+      "costCategory": "paid",
+      "ages": "Confirm age eligibility and guest requirements with MARC.",
+      "summary": "DJ music, a costume contest and a buffet dinner.",
+      "accessibility": [],
+      "sourceId": "marc-ct",
+      "sourceUrl": "https://marcct.org/news-events/event-calendar.html/event/2026/10/20/marc-halloween-dance/579037",
+      "ticketUrl": null,
+      "registration": "Register with the organizer; confirm availability and individual support arrangements.",
+      "cancellationPolicy": "Confirm cancellation and refund terms with the organizer.",
+      "notes": [
+        "MARC does not provide support staff at this event. Bring a chaperone if the attendee needs support."
+      ],
+      "lastVerified": "2026-10-05T09:55:42Z",
+      "verificationMethod": "Official organizer event details reviewed.",
+      "reviewRequired": false,
+      "status": "scheduled",
+      "category": "Social & dance",
+      "format": "In person"
+    },
+    {
       "id": "rwpzoo-2026-10-21",
       "title": "Sensory-Friendly Jack-O-Lantern Spectacular",
       "start": "2026-10-21T17:00:00-04:00",
@@ -1954,6 +2498,34 @@
       "reviewRequired": false,
       "status": "scheduled",
       "category": "Halloween",
+      "format": "In person"
+    },
+    {
+      "id": "bridge-trivia-2026-10-21",
+      "title": "Bridge The Spectrum Halloween Trivia",
+      "start": "2026-10-21T18:00:00-04:00",
+      "end": "2026-10-21T19:30:00-04:00",
+      "timezone": "America/New_York",
+      "state": "CT",
+      "city": "Wallingford",
+      "venue": "David J. Doherty Municipal Building, Room 1",
+      "address": "6 Fairfield Boulevard, Wallingford, CT 06492",
+      "cost": "Free",
+      "costCategory": "free",
+      "ages": "Autistic and neurodivergent adults, and adults with other disabilities; ages 18+.",
+      "summary": "An evening of Halloween trivia with Wallingford Parks & Recreation.",
+      "accessibility": [],
+      "sourceId": "bridge-spectrum",
+      "sourceUrl": "https://www.bridgethespectrumct.com/event-details/halloween-trivia-night-is-coming-to-wallingford",
+      "ticketUrl": null,
+      "registration": "Register with the organizer; confirm availability and individual support arrangements.",
+      "cancellationPolicy": "Confirm cancellation and refund terms with the organizer.",
+      "notes": [],
+      "lastVerified": "2026-10-05T09:55:42Z",
+      "verificationMethod": "Official organizer event details reviewed.",
+      "reviewRequired": false,
+      "status": "scheduled",
+      "category": "Social activities",
       "format": "In person"
     },
     {
@@ -2298,6 +2870,64 @@
       "costCategory": "free"
     },
     {
+      "id": "aoec-planetarium-2026-10-28",
+      "title": "AOEC Northern Stars Planetarium",
+      "start": "2026-10-28T10:00:00-04:00",
+      "end": "2026-10-28T11:00:00-04:00",
+      "timezone": "America/New_York",
+      "state": "ME",
+      "city": "Brunswick",
+      "venue": "Adaptive Outdoor Education Center Brunswick",
+      "address": "675 Old Portland Road, Brunswick, ME 04011",
+      "cost": "$5 per participant.",
+      "costCategory": "paid",
+      "ages": "All ages and abilities.",
+      "summary": "A planetarium presentation followed by a craft or activity.",
+      "accessibility": [],
+      "sourceId": "aoec",
+      "sourceUrl": "https://www.adaptiveoutdooreducationcenter.org/natureseries",
+      "ticketUrl": "https://go.theflybook.com/book/325/EntityConfig/5426",
+      "registration": "Register with the organizer; confirm availability and individual support arrangements.",
+      "cancellationPolicy": "Confirm cancellation and refund terms with the organizer.",
+      "notes": [
+        "Ask about dome entry, seating and sound before booking."
+      ],
+      "lastVerified": "2026-10-05T09:55:42Z",
+      "verificationMethod": "Official organizer event details reviewed.",
+      "reviewRequired": false,
+      "status": "scheduled",
+      "category": "Inclusive activities",
+      "format": "In person"
+    },
+    {
+      "id": "bridge-movie-2026-10-28",
+      "title": "Bridge The Spectrum Halloween Movie Night",
+      "start": "2026-10-28T17:30:00-04:00",
+      "end": "2026-10-28T19:45:00-04:00",
+      "timezone": "America/New_York",
+      "state": "CT",
+      "city": "Bristol",
+      "venue": "Manross Memorial Library",
+      "address": "260 Central Street, Bristol, CT 06010",
+      "cost": "No fee stated; confirm when registering.",
+      "costCategory": "unknown",
+      "ages": "Autistic and neurodivergent adults, and adults with other disabilities; ages 18+.",
+      "summary": "Social time, snacks and a screening of Beetlejuice.",
+      "accessibility": [],
+      "sourceId": "bridge-spectrum",
+      "sourceUrl": "https://www.bridgethespectrumct.com/event-details/bridge-the-spectrum-halloween-bash-and-movie-night-18",
+      "ticketUrl": null,
+      "registration": "Register with the organizer; confirm availability and individual support arrangements.",
+      "cancellationPolicy": "Confirm cancellation and refund terms with the organizer.",
+      "notes": [],
+      "lastVerified": "2026-10-05T09:55:42Z",
+      "verificationMethod": "Official organizer event details reviewed.",
+      "reviewRequired": false,
+      "status": "scheduled",
+      "category": "Social activities",
+      "format": "In person"
+    },
+    {
       "timezone": "America/New_York",
       "ticketUrl": null,
       "cancellationPolicy": "Not stated in the checked listing; confirm with the organizer.",
@@ -2493,6 +3123,34 @@
       "reviewRequired": false,
       "status": "scheduled",
       "category": "Sensory-friendly",
+      "format": "In person"
+    },
+    {
+      "id": "bridge-pizza-2026-11-01",
+      "title": "Bridge The Spectrum Pizza Making",
+      "start": "2026-11-01T14:30:00-05:00",
+      "end": "2026-11-01T16:00:00-05:00",
+      "timezone": "America/New_York",
+      "state": "CT",
+      "city": "Cheshire",
+      "venue": "Pop’s Pizza",
+      "address": "528 West Main Street, Cheshire, CT 06410",
+      "cost": "$25 plus the displayed $0.63 ticket service fee.",
+      "costCategory": "paid",
+      "ages": "Autistic and neurodivergent adults, and adults with other disabilities; ages 18+.",
+      "summary": "Make a personal pizza and eat together; one can of soda is included.",
+      "accessibility": [],
+      "sourceId": "bridge-spectrum",
+      "sourceUrl": "https://www.bridgethespectrumct.com/event-details/make-your-own-pizza-at-pops-pizza-18-only-12-spots-available",
+      "ticketUrl": null,
+      "registration": "Advance booking required; the organizer limits the class to 12 participants.",
+      "cancellationPolicy": "Confirm cancellation and refund terms with the organizer.",
+      "notes": [],
+      "lastVerified": "2026-10-05T09:55:42Z",
+      "verificationMethod": "Official organizer event details reviewed.",
+      "reviewRequired": false,
+      "status": "scheduled",
+      "category": "Social activities",
       "format": "In person"
     },
     {
@@ -3079,6 +3737,36 @@
       "format": "In person"
     },
     {
+      "id": "lego-sensory-2026-11-15",
+      "title": "LEGO Discovery Center Sensory Morning",
+      "start": "2026-11-15T09:00:00-05:00",
+      "end": "2026-11-15T10:00:00-05:00",
+      "timezone": "America/New_York",
+      "state": "MA",
+      "city": "Somerville",
+      "venue": "LEGO Discovery Center Boston",
+      "address": "LEGO Discovery Center Boston, Assembly Row, Somerville, MA",
+      "cost": "Paid admission; event page advertises prices from $26.99. Confirm November tickets.",
+      "costCategory": "paid",
+      "ages": "Organizer lists all ages; check adult/child admission rules.",
+      "summary": "An hour with reduced lighting and music; usual sound and lighting return at 10 a.m.",
+      "accessibility": [
+        "Reduced lighting and music for the first hour"
+      ],
+      "sourceId": "lego-boston",
+      "sourceUrl": "https://www.legodiscoverycenter.com/boston/whats-inside/events/sensory-friendly-mornings/",
+      "ticketUrl": null,
+      "registration": "Register with the organizer; confirm availability and individual support arrangements.",
+      "cancellationPolicy": "Confirm cancellation and refund terms with the organizer.",
+      "notes": [],
+      "lastVerified": "2026-10-05T09:55:42Z",
+      "verificationMethod": "Official organizer event details reviewed.",
+      "reviewRequired": false,
+      "status": "scheduled",
+      "category": "Sensory-friendly",
+      "format": "In person"
+    },
+    {
       "timezone": "America/New_York",
       "ticketUrl": null,
       "cancellationPolicy": "Not stated in the checked listing; confirm with the organizer.",
@@ -3560,6 +4248,36 @@
         "activity": "The ballet lasts about 80 minutes including intermission. Lights will not go completely dark and loud/strobe effects are reduced.",
         "break": "We can leave our seat and return. Quiet spaces are available in the lower-lobby VIP lounge."
       }
+    },
+    {
+      "id": "bridge-disco-2026-12-04",
+      "title": "Bridge The Spectrum Holiday Silent Disco",
+      "start": "2026-12-04T18:00:00-05:00",
+      "end": "2026-12-04T21:00:00-05:00",
+      "timezone": "America/New_York",
+      "state": "CT",
+      "city": "Plantsville",
+      "venue": "The Mountain Room at Mount Southington",
+      "address": "412 Mount Vernon Road, Plantsville, CT 06479",
+      "cost": "$30 plus the displayed $0.75 ticket service fee; dinner included.",
+      "costCategory": "paid",
+      "ages": "All ages welcome for this event.",
+      "summary": "Dinner and a silent disco fundraiser. Ask about headphone options and the room environment.",
+      "accessibility": [],
+      "sourceId": "bridge-spectrum",
+      "sourceUrl": "https://www.bridgethespectrumct.com/event-details/holiday-silent-disco-night-dinner-included-dancing-fundraiser",
+      "ticketUrl": null,
+      "registration": "Register with the organizer; confirm availability and individual support arrangements.",
+      "cancellationPolicy": "Confirm cancellation and refund terms with the organizer.",
+      "notes": [
+        "This event explicitly welcomes all ages, unlike most Bridge The Spectrum outings."
+      ],
+      "lastVerified": "2026-10-05T09:55:42Z",
+      "verificationMethod": "Official organizer event details reviewed.",
+      "reviewRequired": false,
+      "status": "scheduled",
+      "category": "Social & dance",
+      "format": "In person"
     },
     {
       "id": "bcm-2026-12-05",
@@ -4188,6 +4906,16 @@
       "sourceUrl": "https://autismchecked.com/autism-flies/",
       "organizerUrl": "https://autismchecked.com/bdl-form/",
       "address": "Bradley International Airport, Windsor Locks, CT"
+    },
+    {
+      "id": "urban-manchester-reopening",
+      "state": "CT",
+      "title": "Urban Air Manchester sensory play — reopening watch",
+      "status": "Temporarily closed for renovations",
+      "note": "The official page lists Wednesday sensory play but also says the entire park is closed for improvements. Confirm reopening and a new sensory schedule before planning a visit.",
+      "sourceUrl": "https://www.urbanair.com/connecticut-manchester/",
+      "organizerUrl": "https://www.urbanair.com/connecticut-manchester/",
+      "lastKnown": "Closure notice checked October 5, 2026"
     }
   ],
   "freePrograms": [
@@ -4289,6 +5017,30 @@
       "name": "Autism Flies — Bradley",
       "url": "https://autismchecked.com/autism-flies/",
       "summary": "Free airport boarding practice with Breeze Airways, announced for spring 2027. An invitation request is available; the final date and time are not published.",
+      "checkedAt": "2026-10-05"
+    },
+    {
+      "state": "MA",
+      "name": "AANE Outdoor Enthusiasts",
+      "url": "https://www.meetup.com/meetup-group-aane-outdoorenthusiasts/",
+      "summary": "Free monthly outdoor outings for autistic adults in Greater Boston and southeastern Massachusetts. Join the private Meetup group for the next date; parking may cost extra.",
+      "costEvidence": "https://aane.org/services-programs/group-services/social-groups-activities/",
+      "checkedAt": "2026-10-05"
+    },
+    {
+      "state": "NH",
+      "name": "Friends in Action Friday Night Socials",
+      "url": "https://friendsinactionnh.org/programs/",
+      "summary": "Free social nights for high-school-age participants and adults. Intake is required; bring needed 1:1 support. Bowling, meals, movie tickets and some other programs have charges.",
+      "costEvidence": "https://friendsinactionnh.org/faqs/",
+      "checkedAt": "2026-10-05"
+    },
+    {
+      "state": "VT",
+      "name": "Zack’s Place weekday enrichment",
+      "url": "https://zacksplacevt.org/programs/",
+      "summary": "Free arts, music, adaptive sports and outings in Woodstock for people of all ages with disabilities. Arrange a first visit and bring a caregiver for personal-care needs.",
+      "costEvidence": "https://zacksplacevt.org/programs/signing-up-for-zp-programs/",
       "checkedAt": "2026-10-05"
     }
   ]
