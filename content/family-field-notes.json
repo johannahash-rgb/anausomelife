@@ -499,5 +499,98 @@
         "/photo-gifts-from-your-camera-roll.html"
       ]
     ]
+  },
+  {
+    "path": "fort-taber-snowshoes-field-note.html",
+    "title": "Snowshoes on a whim.",
+    "place": "Fort Taber · New Bedford, Massachusetts",
+    "category": "Winter · family outing",
+    "summary": "We rented snowshoes, brought a sled and wandered Fort Taber by the ocean in New Bedford — a winter outing that worked because nobody overplanned it.",
+    "dek": "We rented snowshoes, brought a sled and went wandering beside the ocean. That was enough of a plan.",
+    "photo": {
+      "file": "fort-taber-snowshoe-family.webp",
+      "alt": "A family winter outing at Fort Taber in New Bedford, with snowshoes and a bright green sled beside the ocean.",
+      "caption": "Fort Taber, New Bedford · snowshoes, sled and the ocean · family photograph."
+    },
+    "quote": "The outing did not need to become a hobby to count.",
+    "glance": [
+      [
+        "The idea",
+        "Rent snowshoes on a whim, bring the sled and go outside."
+      ],
+      [
+        "The place",
+        "Fort Taber on New Bedford’s waterfront."
+      ],
+      [
+        "What made it work",
+        "One simple destination and different ways to move through the same outing."
+      ],
+      [
+        "For another winter day",
+        "Check weather, surfaces and the facilities you need before leaving."
+      ]
+    ],
+    "intro": [
+      "This was not one of those outings assembled from six tabs, a color-coded itinerary and a reservation made three weeks earlier. We rented snowshoes because it sounded fun, put the sled in the car and went to Fort Taber in New Bedford.",
+      "There was snow underfoot and the ocean right there beyond it. One person could be on snowshoes. Another could ride in the sled. We were still having the same day together."
+    ],
+    "sections": [
+      {
+        "title": "The whim was the point.",
+        "paragraphs": [
+          "Sometimes planning makes an outing possible. Sometimes too much planning makes an outing feel like a project before anyone has put on a coat. This one worked because the idea was small enough to act on: find snowshoes, bring the sled, go.",
+          "There was no need to turn renting equipment into a declaration that we were now a Snowshoe Family. We could try it once. The equipment did not need to become a hobby, and the outing did not need to prove anything."
+        ]
+      },
+      {
+        "title": "Same place. Different way through it.",
+        "paragraphs": [
+          "The photograph is one of my favorite kinds of access picture because nobody is standing beside a sign announcing accessibility. The adaptation is simply part of the day. Snowshoes for one person, a sled for another, and a rope connecting the two.",
+          "Family participation does not require everybody to do the same physical thing in the same way. The useful question is whether each person has a workable way to be there, move, communicate, stop and enjoy the place."
+        ]
+      },
+      {
+        "title": "Then there was the ocean.",
+        "paragraphs": [
+          "Fort Taber gives a winter outing something slightly ridiculous and wonderful: snow in the foreground and open water beyond it. The City of New Bedford describes the park as a 50-acre waterfront space with more than a mile of ocean frontage and walking, jogging and biking paths.",
+          "That does not make every winter surface predictable. Snow, ice, wind and plowing can change the route quickly. For another visit, I would keep the spontaneity and do one very unromantic thing first: check the weather and the conditions we actually need."
+        ]
+      }
+    ],
+    "choices": [
+      [
+        "One destination",
+        "Let Fort Taber be the outing. The ocean view is already doing plenty."
+      ],
+      [
+        "Different equipment is fine",
+        "Snowshoes, a sled or ordinary winter boots can belong to the same family plan."
+      ],
+      [
+        "Know the finish",
+        "Keep the car, warm layers, communication and the way home easy to reach."
+      ]
+    ],
+    "practical": [
+      [
+        "Winter surfaces",
+        "Snow and ice can change an otherwise familiar route. Check recent weather and choose the part of the park that suits the people, equipment and conditions that day."
+      ],
+      [
+        "Renting snowshoes",
+        "If renting, confirm sizes, pickup and return arrangements before relying on the equipment. The snowshoe rental in this story was part of our day; it is not a claim that Fort Taber rents equipment."
+      ],
+      [
+        "Current park details",
+        "The City describes Fort Taber as a waterfront park with paths, picnic areas, a pier, beach and other recreation features. Current projects or seasonal conditions can affect what is usable, so check City information before a new visit."
+      ]
+    ],
+    "sources": [
+      [
+        "City of New Bedford · Fort Taber park information",
+        "https://engagenb.newbedford-ma.gov/fort-taber-playground"
+      ]
+    ]
   }
 ]
