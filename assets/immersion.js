@@ -30,7 +30,7 @@
     if(group.url!==path){const link=el('a','',group.name);link.href=group.url;crumb.append(link,el('span','','/'));}
     const label=el('span','',current||document.title.split('|')[0].trim());label.setAttribute('aria-current','page');crumb.append(label);main.prepend(crumb);
   }
-  if (!isHome && !isPolicy && !document.querySelector('.aal-more')) {
+  if (!isHome && !isPolicy && !isTool && !document.querySelector('.aal-more, .er-related, .related, .related-guides, .related-links')) {
     const more=el('section','aal-more');more.setAttribute('aria-labelledby','aal-more-title');
     const inner=el('div','wrap');const title=el('h2','','A little more to explore.');title.id='aal-more-title';inner.append(title);
     const grid=el('div','aal-more-grid');

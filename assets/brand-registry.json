@@ -455,6 +455,38 @@
         "travel",
         "outings"
       ]
+    },
+    {
+      "id": "nova",
+      "name": "NOVA",
+      "categories": [
+        "home",
+        "outings"
+      ],
+      "note": "Wheelchairs and mobility products."
+    },
+    {
+      "id": "yoto",
+      "name": "Yoto",
+      "categories": [
+        "home",
+        "travel"
+      ],
+      "note": "Our Yoto Mini."
+    },
+    {
+      "id": "vineyard-vines",
+      "name": "Vineyard Vines",
+      "categories": [
+        "style"
+      ]
+    },
+    {
+      "id": "danskin",
+      "name": "Danskin",
+      "categories": [
+        "style"
+      ]
     }
   ]
 }

@@ -7,7 +7,7 @@ ROOT=Path(__file__).resolve().parent.parent
 rows=[]
 for p in sorted(ROOT.rglob('*.html')):
  rel=p.relative_to(ROOT).as_posix()
- if rel.startswith(('.git/','docs/','tests/')) or rel=='404.html':continue
+ if rel.startswith(('.git/','docs/','tests/')) or rel=='404.html' or rel.startswith('preview-'):continue
  try:d=html.fromstring(p.read_text())
  except Exception:continue
  if d.xpath('//meta[translate(@http-equiv,"REFSH","refsh")="refresh"]'):continue
@@ -41,6 +41,6 @@ manifest=[]
 for i,batch in enumerate(chunks):
  name=f'data/site-search/chunk-{i:02d}.json'
  (ROOT/name).write_text(json.dumps(batch,ensure_ascii=False,separators=(',',':'))+'\n')
- manifest.append('/'+name+'?v=20261004-headlines')
+ manifest.append('/'+name+'?v=20261005-practical')
 (ROOT/'data/site-index-manifest.json').write_text(json.dumps(manifest,separators=(',',':'))+'\n')
 print('Wrote',len(chunks),'bounded search chunks')

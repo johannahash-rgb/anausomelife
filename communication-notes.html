@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Communication Notes & Profiles | An AUsome Life</title>
-<meta name="description" content="A free communication-card generator: make a clear printable note, one-page profile, or AI-ready prompt using the communication routes that work for the person today.">
+<meta name="description" content="Make a printable communication note or blank handoff sheet using the words, signals and support that work for the person today.">
 <meta name="theme-color" content="#163b4b">
 <link rel="canonical" href="https://anausomelife.com/communication-notes.html">
 <link rel="icon" href="/favicon.ico">
@@ -61,15 +61,15 @@
  @page{margin:.55in}
 }
 </style>
-<link rel="stylesheet" href="/assets/immersion.css?v=village-20261003"><link rel="stylesheet" href="/assets/editorial.css?v=20261003-mainstreet"><link rel="stylesheet" href="/assets/illustrated-navigation.css?v=20261004-icon-spacing-r2"><script src="/assets/global-nav.js?v=20261004-approved" data-aal-global-nav="true" defer></script></head>
+<link rel="stylesheet" href="/assets/immersion.css?v=village-20261003"><link rel="stylesheet" href="/assets/editorial.css?v=20261003-mainstreet"><link rel="stylesheet" href="/assets/illustrated-navigation.css?v=20261004-icon-spacing-r2"><script src="/assets/global-nav.js?v=20261005-practical" data-aal-global-nav="true" defer></script></head>
 <body class="magazine-shell reader-page comm-maker">
 <a class="skip" href="#main">Skip to content</a>
 <div class="edition-line"><span>New England &amp; the everyday</span><span>A family-life field guide</span></div>
 <header class="mag-masthead"><a class="mag-brand" href="/" aria-label="An AUsome Life home"><img src="/assets/coastal-emblem.webp" alt="" width="80" height="80"><span>An AUsome Life<small>In pursuit of the Good New England Life</small></span></a><nav aria-label="Main navigation"><a href="/library.html">The library</a><a href="/favorite-places.html">Favorite places</a><a href="/calendar.html">The calendar</a><a href="/about.html">Our story</a><a class="nav-search" href="/library.html#library-search">Search <span aria-hidden="true">↗</span></a></nav></header>
 
-<main id="main">
+<main id="main"><span id="copy-master-prompt" aria-hidden="true"></span>
 <section class="maker-hero"><div class="wrap">
-<div><p class="eyebrow">The Communication Field Desk · Free tool</p><h1>Make the note that helps the next person get it right.</h1><p class="lede">A communication card should not require a dissertation. Tell us the routes that work, the signals that matter, and what makes conversation easier. The tool will turn that into a pocket note, a one-page profile, and an AI-ready prompt you can copy or print.</p><div class="actions"><a class="button" href="#maker">Make a card</a><a class="text-link" href="/multimodal-communication.html">Read the communication field guide →</a></div></div>
+<div><p class="eyebrow">The Communication Field Desk · Free tool</p><h1>Make the note that helps the next person get it right.</h1><p class="lede">A communication card should not require a dissertation. Tell us the routes that work, the signals that matter, and what makes conversation easier. Make a communication note to print, copy or share with a teacher, host or caregiver.</p><div class="actions"><a class="button" href="#maker">Make a card</a><a class="text-link" href="/multimodal-communication.html">Read the communication field guide →</a></div></div>
 <div class="maker-hero-card" aria-label="Example communication field card"><span class="output-kicker">Field note no. 01</span><strong>Speak to me. Then wait.</strong><span>I may answer with my device, a gesture, a look, a sound, a word, or another route. Give me enough time to use the one that works today.</span></div>
 </div></section>
 
@@ -80,7 +80,7 @@
 <div class="input-column maker-form">
 <form id="comm-form">
 <fieldset><legend>1. The situation</legend>
-<label for="format">What are you making?</label><select id="format"><option value="card">Pocket / quick card</option><option value="profile">One-page communication profile</option><option value="ai">AI-ready prompt</option><option value="all" selected>All three</option></select>
+<input type="hidden" id="format" value="profile">
 <label for="situation">Where will this be used?</label><select id="situation"><option>Everyday / general</option><option>New place or outing</option><option>Restaurant or café</option><option>Pool or water</option><option>Medical visit</option><option>School or program</option><option>Caregiver handoff</option><option>High-stress or low-energy day</option><option>Video call or meeting</option></select>
 <label for="name">First name or preferred label <span aria-hidden="true">(optional)</span></label><input id="name" autocomplete="off" placeholder="e.g., Sam, my teen, our family member">
 </fieldset>
@@ -113,13 +113,13 @@
 <label for="plan">Anything about today's plan?</label><textarea id="plan" placeholder="e.g., pool first, snack next, home after; doctor will look at left ear; lunch choices are pizza or pasta"></textarea>
 </fieldset>
 
-<div class="maker-actions"><button type="submit">Generate</button><button class="secondary" type="button" id="blank-card">Make a blank printable</button><button class="quiet" type="reset">Clear</button></div>
+<div class="maker-actions"><button type="submit">Make my note</button><button class="secondary" type="button" id="blank-card">Make a blank printable</button><button class="quiet" type="reset">Clear</button></div>
 </form>
 <p class="status" id="form-status" role="status" aria-live="polite"></p>
 </div>
 
 <aside class="maker-output" aria-live="polite">
-<h2>Your field card</h2><p class="hint">Generate a finished version, then copy, print, or share it.</p>
+<h2>Your field card</h2><p class="hint">Make your note, then copy, print or share it.</p>
 <div class="output-paper" id="output-paper">
 <p class="output-kicker">An AUsome Life · Communication Field Note</p>
 <h2>Ready when you are.</h2>
@@ -132,7 +132,7 @@
 </div></section>
 
 <section class="section field-notes-section"><div class="wrap">
-<div class="section-heading"><p class="eyebrow">The ready-made set</p><h2>Twelve field notes to borrow.</h2><p>Small enough to print. Plain enough to paste into an AI. Distinct enough to find again when the day is moving quickly.</p></div>
+<div class="section-heading"><p class="eyebrow">The ready-made set</p><h2>Field notes to borrow.</h2><p>Copy the note you need, add the details that matter, and share it with the next person.</p></div>
 <div class="field-deck">
 <article class="field-note"><span class="number">Field note 01</span><h3>Speak to me. Then wait.</h3><p>Please speak directly to me. I may answer using more than one route. Give me time to respond before repeating or changing the question.</p><div class="maker-actions"><button class="secondary" data-copy-note>Copy</button></div></article>
 <article class="field-note"><span class="number">Field note 02</span><h3>Yes. No. Not sure.</h3><p>My reliable YES is [ ]. My reliable NO is [ ]. If you are unsure what I meant, say so and let me try another way.</p><div class="maker-actions"><button class="secondary" data-copy-note>Copy</button></div></article>
@@ -145,26 +145,10 @@
 <article class="field-note"><span class="number">Field note 09</span><h3>The handoff.</h3><p>Today’s plan is [ ]. Communication routes: [ ]. Reliable yes/no: [ ]. What helps: [ ]. Backup route: [ ]. Please follow the current safety plan where it is stored.</p><div class="maker-actions"><button class="secondary" data-copy-note>Copy</button></div></article>
 <article class="field-note"><span class="number">Field note 10</span><h3>When stress shrinks language.</h3><p>If my usual route becomes harder, reduce the demand and offer [easier route]. Give me time and space. Do not assume less speech means less to say.</p><div class="maker-actions"><button class="secondary" data-copy-note>Copy</button></div></article>
 <article class="field-note"><span class="number">Field note 11</span><h3>Communication repair.</h3><p>I think I missed that. I will not pretend I understood. Can we try another route—show me, point, type, use your device, use a photo, or try again when you are ready?</p><div class="maker-actions"><button class="secondary" data-copy-note>Copy</button></div></article>
-<article class="field-note"><span class="number">Field note 12</span><h3>The AI drafting prompt.</h3><p>Create a one-page communication support using only the facts I provide. Do not infer thoughts, feelings, ability, or preferences. Keep the person’s own choices and communication routes in control.</p><div class="maker-actions"><button class="secondary" data-copy-note>Copy</button></div></article>
+<article class="field-note"><span class="number">Field note 12</span><h3>When the plan changes.</h3><p>The original plan was [ ]. Now [ ]. The part that stays the same is [ ]. We can choose [ ] or take a break.</p><div class="maker-actions"><button class="secondary" data-copy-note>Copy</button></div></article>
 </div>
 
-<div class="ai-box"><h3>A longer AI prompt you can paste anywhere</h3><pre id="master-ai-prompt">Create a clear, age-respectful communication support using ONLY the facts I give you.
-
-Rules:
-- Do not infer the person's thoughts, feelings, intelligence, diagnosis, or preferences.
-- Do not narrow or replace their existing communication system.
-- Treat speech, vocalizations, gestures, gaze, body movement, signs, real objects, photographs, visual scenes, symbols, AAC, typing, texting, drawing, writing, switch access, and scanning as possible communication routes when I say they are relevant.
-- Speak directly to the person in the finished material.
-- Include how to say or confirm YES and NO when I provide that information.
-- Make room for NO, STOP, BREAK, FINISHED, HELP, NOT SURE, and SOMETHING ELSE when appropriate.
-- Separate confirmed facts from a support person's interpretation.
-- If information is missing, leave a blank rather than inventing it.
-- Keep private medical, school, and family history out unless I explicitly say it is necessary.
-- Use short sentences, generous spacing, and concrete wording.
-- Output two versions: (1) a one-page printable field card and (2) a plain-text version that can be pasted into an email, note, or care handoff.
-
-Here are the facts:
-[PASTE FACTS HERE]</pre><div class="maker-actions"><button class="secondary" type="button" id="copy-master-prompt">Copy the AI prompt</button></div><p class="status" id="prompt-status" role="status" aria-live="polite"></p></div>
+<span id="master-ai-prompt" aria-hidden="true"></span><span id="prompt-status" aria-hidden="true"></span>
 </div></section>
 
 <section class="section"><div class="wrap"><div class="callout"><p class="eyebrow">Why it is built this way</p><h2>Communication is bigger than a form.</h2><p>This generator is a formatting tool, not an assessment. A person may use many communication routes, and the easiest route can change with setting, fatigue, sensory load, positioning, partner familiarity, or the message itself. Keep established systems available and involve qualified AAC professionals when individualized assessment is needed.</p><a class="editorial-link" href="/multimodal-communication.html">Read the full multimodal communication guide →</a></div></div></section>
@@ -189,28 +173,6 @@ Here are the facts:
   function who(){ return value('#name') || 'This person'; }
   function row(label,val){ return val ? '<dt>'+esc(label)+'</dt><dd>'+esc(val)+'</dd>' : ''; }
   function textLine(label,val){ return val ? label+': '+val : ''; }
-  function aiPrompt(data){
-    return `Create a clear, age-respectful communication support using ONLY the facts below.
-
-Do not infer thoughts, feelings, intelligence, diagnosis, or preferences. Do not narrow or replace the person's existing communication system. Speak directly to the person in the finished material. Preserve every communication route listed. Make refusal and repair possible. If information is missing, leave it out rather than inventing it. Keep the final language practical and brief.
-
-Situation: ${data.situation}
-Person / label: ${data.name || '[not specified]'}
-Communication routes: ${data.routes || '[not specified]'}
-Reliable YES: ${data.yes || '[not specified]'}
-Reliable NO: ${data.no || '[not specified]'}
-Helpful response time: ${data.wait || '[not specified]'}
-Backup route: ${data.backup || '[not specified]'}
-What helps: ${data.helps || '[not specified]'}
-Please do not: ${data.dont || '[not specified]'}
-Important words/messages: ${data.words || '[not specified]'}
-Today's plan/details: ${data.plan || '[not specified]'}
-
-Output:
-1. A one-page printable communication field card.
-2. A short plain-text note for staff, hosts, family, or caregivers.
-3. A compact backup section with YES, NO, STOP, BREAK, HELP, FINISHED, NOT SURE, and SOMETHING ELSE when appropriate.`;
-  }
   function collect(){
     return {
       format:value('#format'), situation:value('#situation'), name:value('#name'),
@@ -249,16 +211,9 @@ Output:
       'If you are not sure what I meant, please tell me and let me try another way.',
       'Keep room for NO, STOP, BREAK, HELP, FINISHED, NOT SURE, and SOMETHING ELSE.'
     ].filter(Boolean);
-    const ai=aiPrompt(d);
-    outputText = d.format==='ai' ? ai : d.format==='all' ? lines.join('\n')+'\n\nAI-READY PROMPT\n\n'+ai : lines.join('\n');
-    if(d.format==='ai'){
-      paper.innerHTML='<p class="output-kicker">AI-ready prompt</p><h2>Paste this into the AI tool you use.</h2><pre style="white-space:pre-wrap;font:inherit;line-height:1.55">'+esc(ai)+'</pre>';
-    } else if(d.format==='all'){
-      paper.innerHTML=profileHtml+'<hr><p class="output-kicker">AI-ready companion</p><pre style="white-space:pre-wrap;font:inherit;line-height:1.55">'+esc(ai)+'</pre>';
-    } else {
-      paper.innerHTML=profileHtml;
-    }
-    formStatus.textContent='Generated. Your finished text is on the right.';
+    outputText = lines.join('\n');
+    paper.innerHTML = profileHtml;
+    formStatus.textContent='Your note is ready below. You can copy or print it.';
   }
   function blank(){
     outputText='COMMUNICATION FIELD CARD\n\nName / label: ____________________\nSituation: ________________________\nI may communicate using: __________\n__________________________________\nYES: _____________________________\nNO: ______________________________\nHelpful wait time: _________________\nIf the first route is hard, try: ______\n__________________________________\nWhat helps: _______________________\n__________________________________\nPlease do not: ____________________\n__________________________________\nImportant words/messages: _________\n__________________________________\nToday\'s plan: _____________________\n__________________________________\n\nIf you are not sure what I meant, please tell me and let me try another way.';
@@ -278,8 +233,7 @@ Output:
   $('#share-output').addEventListener('click',async()=>{const textToShare=outputText || paper.innerText;if(navigator.share){try{await navigator.share({title:'Communication field card',text:textToShare});status.textContent='Shared.';}catch(e){if(e.name!=='AbortError') status.textContent='Sharing was not available.';}}else{copy(textToShare,status);}});
   $('#share-generator').addEventListener('click',async()=>{const url=location.href;if(navigator.share){try{await navigator.share({title:'An AUsome Life Communication Card Maker',url});status.textContent='Generator link shared.';}catch(e){if(e.name!=='AbortError') copy(url,status);}}else{copy(url,status);}});
   document.querySelectorAll('[data-copy-note]').forEach(btn=>btn.addEventListener('click',()=>{const card=btn.closest('.field-note');copy(card.querySelector('p').innerText,formStatus);}));
-  $('#copy-master-prompt').addEventListener('click',()=>copy($('#master-ai-prompt').innerText,$('#prompt-status')));
 })();
 </script>
-<script src="/assets/magazine.js?v=20261003-mainstreet" defer></script>
-<script src="/assets/immersion.js?v=20261003-mainstreet" defer></script></body></html>
+<script src="/assets/magazine.js?v=20261005-practical" defer></script>
+<script src="/assets/immersion.js?v=20261005-practical" defer></script></body></html>

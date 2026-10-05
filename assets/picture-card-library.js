@@ -1,4 +1,4 @@
-/* Curated downloadable picture-card library. Existing site images only; no AI. */
+/* Curated downloadable picture-card library. Reviewed object illustrations; local PNG rendering. */
 (() => {
   'use strict';
 
@@ -10,26 +10,7 @@
     {category:'everyday',label:'coat',image:'/assets/card-studio/coat.webp',description:'A navy quilted coat.'},
     {category:'everyday',label:'car',image:'/assets/card-studio/car.webp',description:'A navy family car.'},
 
-    {category:'outings',label:'The Book Barn',place:'Niantic, Connecticut',image:'/assets/book-barn-ct-clean.jpg',page:'/favorite-places-book-barn-niantic.html'},
-    {category:'outings',label:'Codman Community Farms',place:'Lincoln, Massachusetts',image:'/assets/editorial/farm-meadow.webp',page:'/favorite-places-codman-community-farms.html'},
-    {category:'outings',label:'deCordova Sculpture Park',place:'Lincoln, Massachusetts',image:'/assets/editorial/main-street.webp',page:'/favorite-places-decordova.html'},
-    {category:'outings',label:'Drumlin Farm',place:'Lincoln, Massachusetts',image:'/assets/editorial/farm-meadow.webp',page:'/favorite-places-drumlin-farm.html'},
-    {category:'outings',label:'Gilsland Farm',place:'Falmouth, Maine',image:'/assets/editorial/farm-meadow.webp',page:'/favorite-places-gilsland-farm.html'},
-    {category:'outings',label:'Misty Harbor',place:'Wells, Maine',image:'/assets/editorial/autumn-table.webp',page:'/favorite-places-misty-harbor-wells.html'},
-    {category:'outings',label:'Pineland Farms',place:'New Gloucester, Maine',image:'/assets/editorial/farm-meadow.webp',page:'/favorite-places-pineland-farms.html'},
-    {category:'outings',label:'Quiero Cafe',place:'Portland, Maine',image:'/assets/editorial/main-street.webp',page:'/favorite-places-quiero-cafe-portland.html'},
-    {category:'outings',label:'Scarborough State Beach',place:'Narragansett, Rhode Island',image:'/assets/editorial/coastal-walk.webp',page:'/favorite-places-scarborough-state-beach.html'},
-    {category:'outings',label:'Sherman’s Book Shop',place:'Freeport, Maine',image:'/assets/editorial/main-street.webp',page:'/favorite-places-shermans-freeport.html'},
-    {category:'outings',label:'Watch Hill + Napatree',place:'Westerly, Rhode Island',image:'/assets/editorial/coastal-walk.webp',page:'/favorite-places-watch-hill-napatree.html'},
-    {category:'outings',label:'Wells Beach',place:'Wells, Maine',image:'/assets/venue-illustrations/wells-beach-winter-illustration.webp',page:'/favorite-places-wells-beach.html'},
-    {category:'outings',label:'Wilson Farm',place:'Lexington, Massachusetts',image:'/assets/editorial/main-street.webp',page:'/favorite-places-wilson-farm.html'},
-    {category:'outings',label:'Wolfe’s Neck Center',place:'Freeport, Maine',image:'/assets/editorial/farm-meadow.webp',page:'/favorite-places-wolfes-neck.html'},
-    {category:'outings',label:'York + the Nubble',place:'York, Maine',image:'/assets/york-maine-clean.jpg',page:'/favorite-places-york-nubble.html'},
 
-    {category:'stories',label:'apple picking',image:'/assets/orchard-afternoon-clean.jpg',page:'/apple-orchard-afternoon.html',description:'A family apple-orchard afternoon.'},
-    {category:'stories',label:'coffee',image:'/assets/editorial/autumn-table.webp',page:'/eight-oclock-colombian-peaks-field-note.html',description:'A warm New England coffee still life.'},
-    {category:'stories',label:'small outing',image:'/assets/family-outings/lexington-ice-cream-family.webp',page:'/small-outings-count.html',description:'A family outing.'},
-    {category:'stories',label:'swimming',image:'/assets/venue-illustrations/indoor-pool-illustration.webp',page:'/older-teen-swim-guide.html',description:'An indoor swimming pool.'}
   ];
 
   const root = document.querySelector('[data-picture-card-library]');

@@ -21,8 +21,6 @@
   if(!document.querySelector('script[data-aal-analytics]')){const analytics=document.createElement('script');analytics.src='/assets/analytics.js?v=20261004-ab1';analytics.defer=true;analytics.dataset.aalAnalytics='true';document.head.append(analytics);}
   if(!document.querySelector('link[href*="/assets/illustrated-navigation.css"]')){const illustrated=document.createElement('link');illustrated.rel='stylesheet';illustrated.href='/assets/illustrated-navigation.css?v=20261004-approved';document.head.append(illustrated);}
   if(document.body.classList.contains('journal-place')&&!document.querySelector('script[data-aal-journal-place]')){const story=document.createElement('script');story.src='/assets/journal-place.js?v=20261004-media-types';story.defer=true;story.dataset.aalJournalPlace='true';document.head.append(story);}
-  const pictureCardEligible=!document.body.classList.contains('picture-card-page')&&!document.body.classList.contains('picture-card-library-page')&&(document.body.classList.contains('favorite-place-page')||document.body.classList.contains('journal-page')||document.body.classList.contains('reader-page')||document.body.classList.contains('journal-place')||Boolean(document.querySelector('main article')));
-  if(pictureCardEligible&&!document.querySelector('script[data-aal-article-picture-card]')){const card=document.createElement('script');card.src='/assets/article-picture-card.js?v=20261004-static4';card.defer=true;card.dataset.aalArticlePictureCard='true';document.head.append(card);}
 
   document.querySelectorAll('use[href^="/assets/editorial-icons.svg#"]').forEach(use => use.setAttribute('href', use.getAttribute('href').replace('/assets/editorial-icons.svg#','/assets/editorial-icons.svg?v=20261003-journal#')));
   const fold = value => (value || '').toLocaleLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
@@ -172,7 +170,7 @@
       try {
         let rows;
         try {
-          const manifestResponse=await fetch('/data/site-index-manifest.json?v=20261004-illustrated');
+          const manifestResponse=await fetch('/data/site-index-manifest.json?v=20261005-practical');
           if(!manifestResponse.ok)throw Error('Search manifest unavailable');
           const paths=await manifestResponse.json();
           rows=(await Promise.all(paths.map(async path=>{const response=await fetch(path);if(!response.ok)throw Error('Search chunk unavailable');return response.json();}))).flat();

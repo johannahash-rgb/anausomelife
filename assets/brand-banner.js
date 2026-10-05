@@ -1,7 +1,7 @@
 /* Add a brand in brand-registry.json; every banner reads the same registry. */
 (()=>{'use strict';
 const roots=[...document.querySelectorAll('[data-brand-banner]')];if(!roots.length)return;
-const source=document.currentScript?.dataset.registry||'/assets/brand-registry.json?v=20261005-favorites';
+const source=document.currentScript?.dataset.registry||'/assets/brand-registry.json?v=20261005-practical';
 const reduced=window.matchMedia('(prefers-reduced-motion: reduce)');
 const node=(tag,cls,text)=>{const el=document.createElement(tag);if(cls)el.className=cls;if(text!==undefined)el.textContent=text;return el};
 const readCats=value=>(value||'all').split(/[ ,]+/).filter(Boolean);
