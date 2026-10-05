@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": 2,
   "categories": [
     {
       "id": "all",
@@ -24,6 +24,166 @@
     {
       "id": "outings",
       "label": "Places & outings"
+    },
+    {
+      "id": "grocery-markets",
+      "label": "Groceries & farm markets",
+      "parent": "food"
+    },
+    {
+      "id": "pantry-dairy",
+      "label": "Pantry & dairy",
+      "parent": "food"
+    },
+    {
+      "id": "plant-based",
+      "label": "Plant-based food",
+      "parent": "food"
+    },
+    {
+      "id": "bakery-sweets",
+      "label": "Bakeries & ice cream",
+      "parent": "food"
+    },
+    {
+      "id": "pizza-flatbread",
+      "label": "Pizza & flatbread",
+      "parent": "food"
+    },
+    {
+      "id": "restaurants-pubs",
+      "label": "Restaurants & pubs",
+      "parent": "food"
+    },
+    {
+      "id": "cookware-tabletop",
+      "label": "Cookware & tabletop",
+      "parent": "home"
+    },
+    {
+      "id": "linens-bedding",
+      "label": "Linens & bedding",
+      "parent": "home"
+    },
+    {
+      "id": "kids-furnishings",
+      "label": "Children’s furnishings",
+      "parent": "home"
+    },
+    {
+      "id": "family-organization",
+      "label": "Family organization",
+      "parent": "home"
+    },
+    {
+      "id": "visual-timers",
+      "label": "Visual timers",
+      "parent": "home"
+    },
+    {
+      "id": "movement-play",
+      "label": "Movement & sensory play",
+      "parent": "home"
+    },
+    {
+      "id": "cleaning-household",
+      "label": "Cleaning & household",
+      "parent": "home"
+    },
+    {
+      "id": "lunchboxes-drinkware",
+      "label": "Lunchboxes & drinkware",
+      "parent": "home"
+    },
+    {
+      "id": "everyday-clothing",
+      "label": "Everyday clothing",
+      "parent": "style"
+    },
+    {
+      "id": "outerwear-layers",
+      "label": "Coats & outdoor layers",
+      "parent": "style"
+    },
+    {
+      "id": "wool-knitwear",
+      "label": "Wool & knitwear",
+      "parent": "style"
+    },
+    {
+      "id": "swimwear",
+      "label": "Swimwear",
+      "parent": "style"
+    },
+    {
+      "id": "outdoor-gear",
+      "label": "Outdoor gear",
+      "parent": "style"
+    },
+    {
+      "id": "resale",
+      "label": "Secondhand & resale",
+      "parent": "style"
+    },
+    {
+      "id": "hotels-resorts",
+      "label": "Hotels & resorts",
+      "parent": "travel"
+    },
+    {
+      "id": "airlines",
+      "label": "Airlines",
+      "parent": "travel"
+    },
+    {
+      "id": "mountain-getaways",
+      "label": "Mountain getaways",
+      "parent": "travel"
+    },
+    {
+      "id": "theme-park-trips",
+      "label": "Theme-park trips",
+      "parent": "travel"
+    },
+    {
+      "id": "museums-aquariums",
+      "label": "Museums & aquariums",
+      "parent": "outings"
+    },
+    {
+      "id": "parks-outdoors",
+      "label": "Parks & outdoor places",
+      "parent": "outings"
+    },
+    {
+      "id": "fitness-swimming",
+      "label": "Fitness & swimming",
+      "parent": "outings"
+    },
+    {
+      "id": "attractions-arcades",
+      "label": "Attractions & arcades",
+      "parent": "outings"
+    },
+    {
+      "id": "shops-farm-markets",
+      "label": "Shops & farm markets",
+      "parent": "outings"
+    },
+    {
+      "id": "mobility",
+      "label": "Mobility products",
+      "parent": "home"
+    },
+    {
+      "id": "audio-players",
+      "label": "Audio players",
+      "parent": "home"
+    },
+    {
+      "id": "activewear",
+      "label": "Activewear",
+      "parent": "style"
     }
   ],
   "brands": [
@@ -34,8 +194,14 @@
       "alt": "Original watercolor of leather and rubber duck boots.",
       "categories": [
         "style",
-        "outings"
-      ]
+        "outings",
+        "everyday-clothing",
+        "outerwear-layers",
+        "wool-knitwear",
+        "outdoor-gear",
+        "shops-farm-markets"
+      ],
+      "featured": true
     },
     {
       "id": "wegmans",
@@ -44,8 +210,10 @@
       "alt": "Original watercolor of a basket of fresh groceries.",
       "categories": [
         "food",
-        "home"
-      ]
+        "home",
+        "grocery-markets"
+      ],
+      "featured": true
     },
     {
       "id": "life-time",
@@ -53,8 +221,10 @@
       "image": "/assets/brand-sketches/life-time.webp",
       "alt": "Original watercolor of a towel, water bottle and swimming goggles.",
       "categories": [
-        "outings"
-      ]
+        "outings",
+        "fitness-swimming"
+      ],
+      "featured": true
     },
     {
       "id": "patagonia",
@@ -63,8 +233,11 @@
       "alt": "Original watercolor of a navy textured fleece jacket.",
       "categories": [
         "style",
-        "outings"
-      ]
+        "outings",
+        "outerwear-layers",
+        "outdoor-gear"
+      ],
+      "featured": true
     },
     {
       "id": "pottery-barn-kids",
@@ -72,8 +245,11 @@
       "image": "/assets/brand-sketches/pottery-barn-kids.webp",
       "alt": "Original watercolor of a reading chair, quilt and book.",
       "categories": [
-        "home"
-      ]
+        "home",
+        "linens-bedding",
+        "kids-furnishings"
+      ],
+      "featured": true
     },
     {
       "id": "nordstrom",
@@ -81,8 +257,11 @@
       "image": "/assets/brand-sketches/nordstrom.webp",
       "alt": "Original watercolor of suede loafers and a cashmere scarf.",
       "categories": [
-        "style"
-      ]
+        "style",
+        "everyday-clothing",
+        "wool-knitwear"
+      ],
+      "featured": true
     },
     {
       "id": "hearth",
@@ -90,8 +269,10 @@
       "image": "/assets/brand-sketches/hearth.webp",
       "alt": "Original watercolor of a wood-framed family calendar display.",
       "categories": [
-        "home"
-      ]
+        "home",
+        "family-organization"
+      ],
+      "featured": false
     },
     {
       "id": "bentgo",
@@ -100,8 +281,10 @@
       "alt": "Original watercolor of an open divided lunchbox.",
       "categories": [
         "food",
-        "home"
-      ]
+        "home",
+        "lunchboxes-drinkware"
+      ],
+      "featured": true
     },
     {
       "id": "museum-of-science",
@@ -109,8 +292,10 @@
       "image": "/assets/brand-sketches/museum-of-science.webp",
       "alt": "Original watercolor of a mounted dinosaur skeleton.",
       "categories": [
-        "outings"
-      ]
+        "outings",
+        "museums-aquariums"
+      ],
+      "featured": false
     },
     {
       "id": "hyatt",
@@ -118,8 +303,10 @@
       "image": "/assets/brand-sketches/hyatt.webp",
       "alt": "Original watercolor of a weekend bag, hotel towel and key.",
       "categories": [
-        "travel"
-      ]
+        "travel",
+        "hotels-resorts"
+      ],
+      "featured": true
     },
     {
       "id": "ocean-house",
@@ -127,8 +314,10 @@
       "image": "/assets/brand-sketches/ocean-house.webp",
       "alt": "Original architectural watercolor inspired by the yellow Watch Hill hotel.",
       "categories": [
-        "travel"
-      ]
+        "travel",
+        "hotels-resorts"
+      ],
+      "featured": false
     },
     {
       "id": "great-wolf-lodge",
@@ -137,8 +326,11 @@
       "alt": "Original watercolor of a timber lodge and water slide.",
       "categories": [
         "travel",
-        "outings"
-      ]
+        "outings",
+        "hotels-resorts",
+        "fitness-swimming"
+      ],
+      "featured": true
     },
     {
       "id": "sams-club",
@@ -147,8 +339,10 @@
       "alt": "Original watercolor of a cart of household provisions.",
       "categories": [
         "food",
-        "home"
-      ]
+        "home",
+        "grocery-markets"
+      ],
+      "featured": true
     },
     {
       "id": "poshmark",
@@ -156,8 +350,11 @@
       "image": "/assets/brand-sketches/poshmark.webp",
       "alt": "Original watercolor of a handbag, sweater and parcel.",
       "categories": [
-        "style"
-      ]
+        "style",
+        "everyday-clothing",
+        "resale"
+      ],
+      "featured": true
     },
     {
       "id": "le-creuset",
@@ -166,8 +363,10 @@
       "alt": "Original watercolor of a copper-colored enameled Dutch oven.",
       "categories": [
         "home",
-        "food"
-      ]
+        "food",
+        "cookware-tabletop"
+      ],
+      "featured": true
     },
     {
       "id": "kerrygold",
@@ -175,8 +374,10 @@
       "image": "/assets/brand-sketches/kerrygold.webp",
       "alt": "Original watercolor of butter in golden foil.",
       "categories": [
-        "food"
-      ]
+        "food",
+        "pantry-dairy"
+      ],
+      "featured": true
     },
     {
       "id": "ben-jerrys",
@@ -184,8 +385,10 @@
       "image": "/assets/brand-sketches/ben-jerrys.webp",
       "alt": "Original watercolor of ice cream in a plain pint.",
       "categories": [
-        "food"
-      ]
+        "food",
+        "bakery-sweets"
+      ],
+      "featured": true
     },
     {
       "id": "lafayette-hotels",
@@ -193,8 +396,10 @@
       "image": "/assets/brand-sketches/lafayette-hotels.webp",
       "alt": "Original watercolor of a coastal map, brass key and model sailboat.",
       "categories": [
-        "travel"
-      ]
+        "travel",
+        "hotels-resorts"
+      ],
+      "featured": false
     },
     {
       "id": "the-common-man",
@@ -202,8 +407,10 @@
       "image": "/assets/brand-sketches/the-common-man.webp",
       "alt": "Original watercolor of a welcoming restaurant table and lantern.",
       "categories": [
-        "food"
-      ]
+        "food",
+        "restaurants-pubs"
+      ],
+      "featured": false
     },
     {
       "id": "idylwilde-farm",
@@ -212,8 +419,11 @@
       "alt": "Original architectural watercolor inspired by a farm market with a striped awning.",
       "categories": [
         "food",
-        "outings"
-      ]
+        "outings",
+        "grocery-markets",
+        "shops-farm-markets"
+      ],
+      "featured": false
     },
     {
       "id": "american-flatbread",
@@ -221,8 +431,10 @@
       "image": "/assets/brand-sketches/american-flatbread.webp",
       "alt": "Original watercolor of a wood-fired flatbread on a wooden peel.",
       "categories": [
-        "food"
-      ]
+        "food",
+        "pizza-flatbread"
+      ],
+      "featured": false
     },
     {
       "id": "veselka",
@@ -230,8 +442,10 @@
       "image": "/assets/brand-sketches/veselka.webp",
       "alt": "Original watercolor of pierogi with dill and sour cream.",
       "categories": [
-        "food"
-      ]
+        "food",
+        "restaurants-pubs"
+      ],
+      "featured": false
     },
     {
       "id": "garnet-hill",
@@ -240,8 +454,12 @@
       "alt": "Original watercolor of folded linen and a knitted throw.",
       "categories": [
         "home",
-        "style"
-      ]
+        "style",
+        "linens-bedding",
+        "everyday-clothing",
+        "wool-knitwear"
+      ],
+      "featured": false
     },
     {
       "id": "mountain-hardwear",
@@ -250,8 +468,11 @@
       "alt": "Original watercolor of a technical rucksack and climbing rope.",
       "categories": [
         "style",
-        "outings"
-      ]
+        "outings",
+        "outerwear-layers",
+        "outdoor-gear"
+      ],
+      "featured": false
     },
     {
       "id": "dale-of-norway",
@@ -259,8 +480,11 @@
       "image": "/assets/brand-sketches/dale-of-norway.webp",
       "alt": "Original watercolor of a cream and navy Nordic wool sweater.",
       "categories": [
-        "style"
-      ]
+        "style",
+        "outerwear-layers",
+        "wool-knitwear"
+      ],
+      "featured": false
     },
     {
       "id": "vermont-country-store",
@@ -270,8 +494,12 @@
       "categories": [
         "home",
         "food",
-        "outings"
-      ]
+        "outings",
+        "grocery-markets",
+        "linens-bedding",
+        "shops-farm-markets"
+      ],
+      "featured": false
     },
     {
       "id": "omni-parker-house",
@@ -280,8 +508,10 @@
       "alt": "Original watercolor of Boston cream pie and Parker House rolls.",
       "categories": [
         "travel",
-        "food"
-      ]
+        "food",
+        "hotels-resorts"
+      ],
+      "featured": false
     },
     {
       "id": "discovery-museum",
@@ -289,8 +519,10 @@
       "image": "/assets/brand-sketches/discovery-museum.webp",
       "alt": "Original watercolor of a wooden rolling-ball exhibit.",
       "categories": [
-        "outings"
-      ]
+        "outings",
+        "museums-aquariums"
+      ],
+      "featured": false
     },
     {
       "id": "new-england-aquarium",
@@ -298,8 +530,10 @@
       "image": "/assets/brand-sketches/new-england-aquarium.webp",
       "alt": "Original watercolor of a sea turtle, kelp and a small fish.",
       "categories": [
-        "outings"
-      ]
+        "outings",
+        "museums-aquariums"
+      ],
+      "featured": false
     },
     {
       "id": "frank-pepe",
@@ -307,8 +541,10 @@
       "image": "/assets/brand-sketches/frank-pepe.webp",
       "alt": "Original watercolor of a New Haven-style white clam pizza.",
       "categories": [
-        "food"
-      ]
+        "food",
+        "pizza-flatbread"
+      ],
+      "featured": false
     },
     {
       "id": "mikes-pastry",
@@ -316,15 +552,19 @@
       "image": "/assets/brand-sketches/mikes-pastry.webp",
       "alt": "Original watercolor of cannoli and a bakery box.",
       "categories": [
-        "food"
-      ]
+        "food",
+        "bakery-sweets"
+      ],
+      "featured": false
     },
     {
       "id": "physioball",
       "name": "Physioball",
       "categories": [
-        "home"
-      ]
+        "home",
+        "movement-play"
+      ],
+      "featured": false
     },
     {
       "id": "yeti",
@@ -332,161 +572,273 @@
       "categories": [
         "home",
         "style",
-        "outings"
-      ]
+        "outings",
+        "lunchboxes-drinkware",
+        "outdoor-gear"
+      ],
+      "featured": true
     },
     {
       "id": "rei",
       "name": "REI",
       "categories": [
         "style",
-        "outings"
-      ]
+        "outings",
+        "outerwear-layers",
+        "outdoor-gear",
+        "shops-farm-markets"
+      ],
+      "featured": true
     },
     {
       "id": "jetblue",
       "name": "JetBlue",
       "categories": [
-        "travel"
-      ]
+        "travel",
+        "airlines"
+      ],
+      "featured": true
     },
     {
       "id": "southwest",
       "name": "Southwest Airlines",
       "categories": [
-        "travel"
-      ]
+        "travel",
+        "airlines"
+      ],
+      "featured": true
     },
     {
       "id": "parks-canada",
       "name": "Parks Canada",
       "categories": [
         "travel",
-        "outings"
-      ]
+        "outings",
+        "parks-outdoors"
+      ],
+      "featured": false
     },
     {
       "id": "horizon-organic",
       "name": "Horizon Organic",
       "categories": [
-        "food"
-      ]
+        "food",
+        "pantry-dairy"
+      ],
+      "featured": true
     },
     {
       "id": "lundberg",
       "name": "Lundberg Family Farms",
       "categories": [
-        "food"
+        "food",
+        "pantry-dairy"
       ],
-      "note": "James loves the rice cakes."
+      "note": "James loves the rice cakes.",
+      "featured": false
     },
     {
       "id": "time-timer",
       "name": "Time Timer",
       "categories": [
-        "home"
+        "home",
+        "visual-timers"
       ],
-      "note": "Our 12-inch visual timer."
+      "note": "Our 12-inch visual timer.",
+      "featured": false
     },
     {
       "id": "bennington-potters",
       "name": "Bennington Potters",
       "categories": [
-        "home"
-      ]
+        "home",
+        "cookware-tabletop"
+      ],
+      "featured": false
     },
     {
       "id": "stoweflake",
       "name": "Stoweflake, Vermont",
       "categories": [
-        "travel"
-      ]
+        "travel",
+        "hotels-resorts",
+        "mountain-getaways"
+      ],
+      "featured": false
     },
     {
       "id": "smugglers-notch",
       "name": "Smugglers’ Notch (Smuggs)",
       "categories": [
         "travel",
-        "outings"
-      ]
+        "outings",
+        "hotels-resorts",
+        "mountain-getaways",
+        "parks-outdoors"
+      ],
+      "featured": false
     },
     {
       "id": "waterville-valley",
       "name": "Waterville Valley",
       "categories": [
         "travel",
-        "outings"
-      ]
+        "outings",
+        "mountain-getaways",
+        "parks-outdoors"
+      ],
+      "featured": false
     },
     {
       "id": "martha-stewart",
       "name": "Martha Stewart",
       "categories": [
         "home",
-        "food"
+        "food",
+        "cookware-tabletop"
       ],
-      "note": "We love the cast iron."
+      "note": "We love the cast iron.",
+      "featured": true
     },
     {
       "id": "seventh-generation",
       "name": "Seventh Generation",
       "categories": [
-        "home"
-      ]
+        "home",
+        "cleaning-household"
+      ],
+      "featured": true
     },
     {
       "id": "banana-republic",
       "name": "Banana Republic",
       "categories": [
-        "style"
-      ]
+        "style",
+        "everyday-clothing"
+      ],
+      "featured": true
     },
     {
       "id": "lightlife",
       "name": "Lightlife",
       "categories": [
-        "food"
-      ]
+        "food",
+        "plant-based"
+      ],
+      "featured": false
     },
     {
       "id": "disney",
       "name": "Disney",
       "categories": [
         "travel",
-        "outings"
-      ]
+        "outings",
+        "theme-park-trips",
+        "attractions-arcades"
+      ],
+      "featured": true
+    },
+    {
+      "id": "london-fog",
+      "name": "London Fog",
+      "categories": [
+        "style",
+        "outerwear-layers"
+      ],
+      "featured": true
+    },
+    {
+      "id": "craghoppers",
+      "name": "Craghoppers",
+      "categories": [
+        "style",
+        "outings",
+        "outerwear-layers",
+        "outdoor-gear"
+      ],
+      "featured": false
+    },
+    {
+      "id": "speedo",
+      "name": "Speedo",
+      "categories": [
+        "style",
+        "swimwear"
+      ],
+      "featured": true
+    },
+    {
+      "id": "toad-and-co",
+      "name": "Toad&Co",
+      "categories": [
+        "style",
+        "outings",
+        "everyday-clothing",
+        "outerwear-layers",
+        "wool-knitwear"
+      ],
+      "featured": false
+    },
+    {
+      "id": "vermont-pub-brewery",
+      "name": "Vermont Pub & Brewery",
+      "categories": [
+        "food",
+        "outings",
+        "restaurants-pubs"
+      ],
+      "featured": false
+    },
+    {
+      "id": "dave-and-busters",
+      "name": "Dave & Buster’s",
+      "categories": [
+        "food",
+        "outings",
+        "restaurants-pubs",
+        "attractions-arcades"
+      ],
+      "featured": true
     },
     {
       "id": "nova",
       "name": "NOVA",
       "categories": [
         "home",
-        "outings"
+        "outings",
+        "mobility"
       ],
-      "note": "Wheelchairs and mobility products."
+      "note": "Wheelchairs and mobility products.",
+      "featured": false
     },
     {
       "id": "yoto",
       "name": "Yoto",
       "categories": [
         "home",
-        "travel"
+        "travel",
+        "audio-players"
       ],
-      "note": "Our Yoto Mini."
+      "note": "Our Yoto Mini.",
+      "featured": false
     },
     {
       "id": "vineyard-vines",
       "name": "Vineyard Vines",
       "categories": [
-        "style"
-      ]
+        "style",
+        "everyday-clothing"
+      ],
+      "featured": true
     },
     {
       "id": "danskin",
       "name": "Danskin",
       "categories": [
-        "style"
-      ]
+        "style",
+        "activewear"
+      ],
+      "featured": true
     }
   ]
 }

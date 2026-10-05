@@ -25,3 +25,8 @@
 .aal-brand-entry-text{justify-content:center;min-height:214px}
 .aal-brand-entry-text .aal-brand-label{font-size:1.28rem;line-height:1.35;min-height:0;align-items:center}
 .aal-brand-note{font:400 .75rem/1.5 Arial,sans-serif;text-align:center;color:#596963;margin-top:8px;max-width:174px}
+
+.aal-brand-subfilters{display:flex;flex-wrap:wrap;gap:7px;margin:0 0 14px;padding:12px 0;border-top:1px solid var(--brand-rule)}
+.aal-brand-subfilters[hidden]{display:none}
+.aal-brand-subfilters button[aria-pressed="true"]{background:var(--brand-green);border-color:var(--brand-green);color:#faf8f1}
+.aal-brands button{min-height:44px}

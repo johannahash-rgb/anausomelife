@@ -13,3 +13,9 @@ Link maintenance: checked current internal HTML links and section targets, added
 Radio: the purchase-context match is a Yoto Mini (2024 Edition), bought December 22, 2025. Confirm that this is the “little radio” meant before adding its brand.
 
 Additional owner-confirmed Tried & True names: Banana Republic (clothing), Lightlife (food), and Disney (travel and outings). Added as ordinary-text entries; no particular products, parks, trips or partnership relationships inferred.
+
+Further owner-requested names: London Fog, Craghoppers (the coat maker), Speedo, Toad&Co (resolved from the owner’s “toad” outdoor-clothing reference), and Vermont Pub & Brewery. No specific purchases, visit details or sponsorships inferred. Brand spelling references: https://www.craghoppers.com/mens/jackets/ and https://www.toadandco.com/pages/about-us.
+
+Also added at the owner’s request: Dave & Buster’s (food and outings).
+
+Owner direction: provide detailed subcategories, with only widely recognized names in the main roll. The registry now has five broad categories, 32 narrower categories and an explicit featured flag. All 59 names remain browsable; the default roll contains 28 widely recognized names. Brand-level browsing categories do not claim specific family purchases, visits, reviews or partnerships.
