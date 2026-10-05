@@ -1,0 +1,48 @@
+/* Original artwork leads the story; documentary photographs stay distinct. */
+.ellis-review.er-margaritas .er-lead {
+  display: flex;
+  flex-direction: column;
+}
+.ellis-review.er-margaritas .er-cover-text {
+  position: static;
+  order: -1;
+  margin: 0 0 1rem;
+  padding: 0;
+  color: var(--er-ink);
+}
+.ellis-review.er-margaritas .er-cover-text h1 {
+  color: var(--er-ink);
+}
+.ellis-review.er-margaritas .er-cover-text .er-kicker {
+  color: var(--er-green);
+}
+.ellis-review.er-margaritas .er-cover-text .er-deck {
+  color: var(--ed-muted, #50635a);
+}
+.ellis-review.er-margaritas .er-margaritas-sketch img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  background: transparent;
+}
+.ellis-review.er-margaritas .er-margaritas-sketch figcaption {
+  max-width: 52ch;
+}
+.ellis-review.er-margaritas .er-visit-photo {
+  margin: 0 0 1.5rem;
+}
+.ellis-review.er-margaritas .er-visit-photo img {
+  width: 100%;
+  height: auto;
+}
+@media (max-width: 700px) {
+  .ellis-review.er-margaritas .er-research-note {
+    width: 100%;
+    max-width: 420px;
+  }
+}
+@media print {
+  .ellis-review.er-margaritas .er-margaritas-sketch img {
+    max-height: 240px;
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "page": "margaritas-waltham-field-note.html",
+  "asset": "assets/margaritas-waltham/jukebox-watercolor-v1.png",
+  "createdAt": "2026-10-05",
+  "creationMethod": "OpenAI built-in image generation",
+  "ownerDirection": "Owner requested the missing beautiful sketch and responded 'Love it' to this generated artwork before publication.",
+  "sourcePhoto": "assets/margaritas-waltham/IMG_4548.jpeg",
+  "sourcePhotoBasis": "Owner-provided and approved for this website; see margaritas-photo-provenance-2026-10-04.json.",
+  "styleReference": "assets/preview-ellis/pedicab-pause.webp",
+  "styleReferenceBasis": "Existing original AI-assisted editorial artwork in this site's repository.",
+  "intendedUse": "Decorative lead illustration on the owner's Margaritas Waltham field note.",
+  "review": "Inspected generated artwork. No people or identifiable faces, no readable branding or screen interface. Modern jukebox, wooden tables and chairs, brick and windows visibly inspired by original photograph. Decorative interpretation rather than a factual venue/access diagram. Original family photos remain unchanged and separately captioned.",
+  "prompt": "Use case: illustration-story. Create one exquisite original ink-and-watercolor editorial vignette for a refined New England family travel journal, on a truly transparent background. Landscape 3:2 composition, organic feathered paint edges, no rectangular backdrop. Reference image 1 is STYLE ONLY: match its delicate pen contours, richly textured yet restrained watercolor, natural dimensional subjects and generous clean edges. Reference image 2 is SUBJECT REFERENCE ONLY: the real modern rounded-rectangle black digital jukebox, subtly glowing pink and pale aqua, beside an old red-brick wall, tall wooden window mullions, honey-colored wood high-top table and chairs. Draw a lovely intimate composition of that unoccupied restaurant corner, retaining the modern jukebox shape rather than inventing a retro jukebox. Three wooden chairs gathered by the table. Soft muted forest green, navy, warm wood, brick red and just a small bright pink glow. Suggest daylight in the windows with a few loose washes, no invented waterway, geography or route. A few fine musical flourishes can curl into the blank margin, subtle and tasteful. Sophisticated adult editorial sketch, realistic proportions, tactile hand-drawn quality, inviting and joyful. No people, no faces, no text, no logo, no readable screens, no copied brand interface, no caption, no border, no flat clip art. This is separate original artwork; do not alter or reproduce either original reference photo as a photo."
+}
