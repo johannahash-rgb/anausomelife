@@ -22,3 +22,6 @@
 @media(max-width:600px){.aal-brand-tools{gap:12px}.aal-brand-filters{gap:6px}.aal-brands button{font-size:.71rem;padding:8px 9px}.aal-brand-controls{margin-left:0;width:100%;justify-content:flex-end}.aal-brand-count{margin-right:auto}.aal-brand-entry{flex-basis:158px;width:158px}.aal-brand-entry img{width:150px;height:143px}.aal-brand-label{font-size:.95rem;max-width:155px}.aal-brand-set{gap:14px;padding-right:14px}.aal-brand-viewport{padding-top:14px}.aal-brands[data-compact="true"] .aal-brand-entry{flex-basis:148px;width:148px}}
 @media(prefers-reduced-motion:reduce){.aal-brand-viewport{scroll-behavior:auto}}
 .aal-brand-set[hidden]{display:none}
+.aal-brand-entry-text{justify-content:center;min-height:214px}
+.aal-brand-entry-text .aal-brand-label{font-size:1.28rem;line-height:1.35;min-height:0;align-items:center}
+.aal-brand-note{font:400 .75rem/1.5 Arial,sans-serif;text-align:center;color:#596963;margin-top:8px;max-width:174px}

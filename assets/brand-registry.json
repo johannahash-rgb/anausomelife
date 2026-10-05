@@ -318,6 +318,121 @@
       "categories": [
         "food"
       ]
+    },
+    {
+      "id": "physioball",
+      "name": "Physioball",
+      "categories": [
+        "home"
+      ]
+    },
+    {
+      "id": "yeti",
+      "name": "YETI",
+      "categories": [
+        "home",
+        "style",
+        "outings"
+      ]
+    },
+    {
+      "id": "rei",
+      "name": "REI",
+      "categories": [
+        "style",
+        "outings"
+      ]
+    },
+    {
+      "id": "jetblue",
+      "name": "JetBlue",
+      "categories": [
+        "travel"
+      ]
+    },
+    {
+      "id": "southwest",
+      "name": "Southwest Airlines",
+      "categories": [
+        "travel"
+      ]
+    },
+    {
+      "id": "parks-canada",
+      "name": "Parks Canada",
+      "categories": [
+        "travel",
+        "outings"
+      ]
+    },
+    {
+      "id": "horizon-organic",
+      "name": "Horizon Organic",
+      "categories": [
+        "food"
+      ]
+    },
+    {
+      "id": "lundberg",
+      "name": "Lundberg Family Farms",
+      "categories": [
+        "food"
+      ],
+      "note": "James loves the rice cakes."
+    },
+    {
+      "id": "time-timer",
+      "name": "Time Timer",
+      "categories": [
+        "home"
+      ],
+      "note": "Our 12-inch visual timer."
+    },
+    {
+      "id": "bennington-potters",
+      "name": "Bennington Potters",
+      "categories": [
+        "home"
+      ]
+    },
+    {
+      "id": "stoweflake",
+      "name": "Stoweflake, Vermont",
+      "categories": [
+        "travel"
+      ]
+    },
+    {
+      "id": "smugglers-notch",
+      "name": "Smugglers’ Notch (Smuggs)",
+      "categories": [
+        "travel",
+        "outings"
+      ]
+    },
+    {
+      "id": "waterville-valley",
+      "name": "Waterville Valley",
+      "categories": [
+        "travel",
+        "outings"
+      ]
+    },
+    {
+      "id": "martha-stewart",
+      "name": "Martha Stewart",
+      "categories": [
+        "home",
+        "food"
+      ],
+      "note": "We love the cast iron."
+    },
+    {
+      "id": "seventh-generation",
+      "name": "Seventh Generation",
+      "categories": [
+        "home"
+      ]
     }
   ]
 }
