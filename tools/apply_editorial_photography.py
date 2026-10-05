@@ -67,6 +67,7 @@ for path in sorted(ROOT.rglob('*.html')):
     else: new=new.replace('</head>',css+'</head>')
     if 'class="ellis-review' in new and '/assets/editorial-art-direction.css' not in new:
         new=new.replace('</head>', '<link rel="stylesheet" href="/assets/editorial-art-direction.css?v=20261004-watercolor"></head>')
+    new=re.sub(r'/assets/global-nav\.js(?:\?v=[^"\s]+)?', '/assets/global-nav.js?v=20261004-art-direction', new)
     for asset in ('magazine','immersion'):
         new=re.sub(r'/assets/'+asset+r'\.js\?v=[^"\s]+','/assets/'+asset+'.js?v='+VERSION,new)
     new=new.replace('<a class="skip" href="#main">Skip to content</a><a class="skip" href="#main">Skip to content</a>','<a class="skip" href="#main">Skip to content</a>')
