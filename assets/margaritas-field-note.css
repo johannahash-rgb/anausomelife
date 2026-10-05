@@ -15,6 +15,7 @@
 }
 .ellis-review.er-margaritas .er-cover-text .er-kicker {
   color: var(--er-green);
+  text-shadow: none;
 }
 .ellis-review.er-margaritas .er-cover-text .er-deck {
   color: var(--ed-muted, #50635a);

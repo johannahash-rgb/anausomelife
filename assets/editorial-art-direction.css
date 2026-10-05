@@ -1,0 +1,49 @@
+/* Shared presentation for original editorial artwork and its captions. */
+body .ellis-review {
+  --aal-art-caption-size: .82rem;
+  --aal-art-caption-gap: .6rem;
+}
+body .ellis-review figure.aal-editorial-art,
+body .ellis-review figure.er-margaritas-sketch {
+  min-width: 0;
+  overflow: visible;
+  background: transparent;
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
+  clip-path: none;
+}
+body .ellis-review figure.aal-editorial-art:not(.er-family-photo)::before,
+body .ellis-review figure.aal-editorial-art:not(.er-family-photo)::after {
+  content: none;
+}
+body .ellis-review figure.aal-editorial-art img,
+body .ellis-review figure.er-margaritas-sketch img {
+  display: block;
+  max-width: 100%;
+  object-fit: contain;
+  background: transparent;
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
+  clip-path: none;
+  filter: none;
+}
+body .ellis-review figure figcaption,
+body main.ellis-review.er-arrival-edition.er-map-edition figure figcaption {
+  margin-block: var(--aal-art-caption-gap) 0;
+  font: italic var(--aal-art-caption-size)/1.5 Georgia, 'Times New Roman', serif;
+  color: var(--ed-muted, #50635a);
+  text-wrap: pretty;
+}
+body .ellis-review figure.er-visit-photo img {
+  height: auto;
+  object-fit: contain;
+}
+body .ellis-review h1,
+body .ellis-review h2 {
+  text-wrap: balance;
+}
+@media (forced-colors: active) {
+  body .ellis-review figure figcaption { color: CanvasText; }
+}

@@ -3,6 +3,21 @@
   'use strict';
   if (window.__AAL_GLOBAL_NAV__) return;
   window.__AAL_GLOBAL_NAV__ = true;
+  const editorialPage = document.querySelector('.ellis-review');
+  if (editorialPage) {
+    if (!document.querySelector('link[href*="/assets/editorial-art-direction.css"]')) {
+      const artDirection = document.createElement('link');
+      artDirection.rel = 'stylesheet';
+      artDirection.href = '/assets/editorial-art-direction.css?v=20261004-watercolor';
+      document.head.append(artDirection);
+    }
+    editorialPage.querySelectorAll('figure').forEach(figure => {
+      const picture = figure.querySelector('img');
+      if (picture && (/\b(?:watercolor|illustration|illustrated|sketch)\b/i.test(picture.alt) || figure.classList.contains('er-margaritas-sketch'))) {
+        figure.classList.add('aal-editorial-art');
+      }
+    });
+  }
   if(!document.querySelector('script[data-aal-analytics]')){const analytics=document.createElement('script');analytics.src='/assets/analytics.js?v=20261004-ab1';analytics.defer=true;analytics.dataset.aalAnalytics='true';document.head.append(analytics);}
   if(!document.querySelector('link[href*="/assets/illustrated-navigation.css"]')){const illustrated=document.createElement('link');illustrated.rel='stylesheet';illustrated.href='/assets/illustrated-navigation.css?v=20261004-approved';document.head.append(illustrated);}
   if(document.body.classList.contains('journal-place')&&!document.querySelector('script[data-aal-journal-place]')){const story=document.createElement('script');story.src='/assets/journal-place.js?v=20261004-media-types';story.defer=true;story.dataset.aalJournalPlace='true';document.head.append(story);}
