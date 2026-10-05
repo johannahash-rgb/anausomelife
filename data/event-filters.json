@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-10-04",
+  "checkedAt": "2026-10-05",
   "method": "Positive organizer evidence only. Missing categories mean not confirmed, never that attendance is prohibited. Read the exact audience, eligibility and route details. Accompanying an eligible participant does not imply an independent adult programme.",
   "events": {
     "bcm-2026-10-03": {
@@ -1886,6 +1886,401 @@
           "summary": "Movie includes audio description; Blind/low-vision-centered social event; Indoor seating and refreshments"
         }
       }
+    },
+    "jcc-sensory-2026-10-10": {
+      "ageGroups": [
+        "all-ages",
+        "children",
+        "teens",
+        "adults",
+        "families"
+      ],
+      "accessFeatures": [
+        "sensory-friendly",
+        "wheelchair-step-free"
+      ],
+      "ageEvidence": {
+        "all-ages": {
+          "url": "https://www.bostonjcc.org/sensory-swim-hour/"
+        },
+        "children": {
+          "url": "https://www.bostonjcc.org/sensory-swim-hour/"
+        },
+        "teens": {
+          "url": "https://www.bostonjcc.org/sensory-swim-hour/"
+        },
+        "adults": {
+          "url": "https://www.bostonjcc.org/sensory-swim-hour/"
+        },
+        "families": {
+          "url": "https://www.bostonjcc.org/sensory-swim-hour/"
+        }
+      },
+      "accessEvidence": {
+        "sensory-friendly": {
+          "url": "https://www.bostonjcc.org/sensory-swim-hour/"
+        },
+        "wheelchair-step-free": {
+          "url": "https://www.bostonjcc.org/sensory-swim-hour/"
+        }
+      },
+      "checkedAt": "2026-10-05"
+    },
+    "jcc-sensory-2026-10-11": {
+      "ageGroups": [
+        "all-ages",
+        "children",
+        "teens",
+        "adults",
+        "families"
+      ],
+      "accessFeatures": [
+        "sensory-friendly",
+        "wheelchair-step-free"
+      ],
+      "ageEvidence": {
+        "all-ages": {
+          "url": "https://www.bostonjcc.org/sensory-swim-hour/"
+        },
+        "children": {
+          "url": "https://www.bostonjcc.org/sensory-swim-hour/"
+        },
+        "teens": {
+          "url": "https://www.bostonjcc.org/sensory-swim-hour/"
+        },
+        "adults": {
+          "url": "https://www.bostonjcc.org/sensory-swim-hour/"
+        },
+        "families": {
+          "url": "https://www.bostonjcc.org/sensory-swim-hour/"
+        }
+      },
+      "accessEvidence": {
+        "sensory-friendly": {
+          "url": "https://www.bostonjcc.org/sensory-swim-hour/"
+        },
+        "wheelchair-step-free": {
+          "url": "https://www.bostonjcc.org/sensory-swim-hour/"
+        }
+      },
+      "checkedAt": "2026-10-05"
+    },
+    "jcc-sensory-2026-10-17": {
+      "ageGroups": [
+        "all-ages",
+        "children",
+        "teens",
+        "adults",
+        "families"
+      ],
+      "accessFeatures": [
+        "sensory-friendly",
+        "wheelchair-step-free"
+      ],
+      "ageEvidence": {
+        "all-ages": {
+          "url": "https://www.bostonjcc.org/sensory-swim-hour/"
+        },
+        "children": {
+          "url": "https://www.bostonjcc.org/sensory-swim-hour/"
+        },
+        "teens": {
+          "url": "https://www.bostonjcc.org/sensory-swim-hour/"
+        },
+        "adults": {
+          "url": "https://www.bostonjcc.org/sensory-swim-hour/"
+        },
+        "families": {
+          "url": "https://www.bostonjcc.org/sensory-swim-hour/"
+        }
+      },
+      "accessEvidence": {
+        "sensory-friendly": {
+          "url": "https://www.bostonjcc.org/sensory-swim-hour/"
+        },
+        "wheelchair-step-free": {
+          "url": "https://www.bostonjcc.org/sensory-swim-hour/"
+        }
+      },
+      "checkedAt": "2026-10-05"
+    },
+    "jcc-sensory-2026-10-18": {
+      "ageGroups": [
+        "all-ages",
+        "children",
+        "teens",
+        "adults",
+        "families"
+      ],
+      "accessFeatures": [
+        "sensory-friendly",
+        "wheelchair-step-free"
+      ],
+      "ageEvidence": {
+        "all-ages": {
+          "url": "https://www.bostonjcc.org/sensory-swim-hour/"
+        },
+        "children": {
+          "url": "https://www.bostonjcc.org/sensory-swim-hour/"
+        },
+        "teens": {
+          "url": "https://www.bostonjcc.org/sensory-swim-hour/"
+        },
+        "adults": {
+          "url": "https://www.bostonjcc.org/sensory-swim-hour/"
+        },
+        "families": {
+          "url": "https://www.bostonjcc.org/sensory-swim-hour/"
+        }
+      },
+      "accessEvidence": {
+        "sensory-friendly": {
+          "url": "https://www.bostonjcc.org/sensory-swim-hour/"
+        },
+        "wheelchair-step-free": {
+          "url": "https://www.bostonjcc.org/sensory-swim-hour/"
+        }
+      },
+      "checkedAt": "2026-10-05"
+    },
+    "jcc-sensory-2026-10-24": {
+      "ageGroups": [
+        "all-ages",
+        "children",
+        "teens",
+        "adults",
+        "families"
+      ],
+      "accessFeatures": [
+        "sensory-friendly",
+        "wheelchair-step-free"
+      ],
+      "ageEvidence": {
+        "all-ages": {
+          "url": "https://www.bostonjcc.org/sensory-swim-hour/"
+        },
+        "children": {
+          "url": "https://www.bostonjcc.org/sensory-swim-hour/"
+        },
+        "teens": {
+          "url": "https://www.bostonjcc.org/sensory-swim-hour/"
+        },
+        "adults": {
+          "url": "https://www.bostonjcc.org/sensory-swim-hour/"
+        },
+        "families": {
+          "url": "https://www.bostonjcc.org/sensory-swim-hour/"
+        }
+      },
+      "accessEvidence": {
+        "sensory-friendly": {
+          "url": "https://www.bostonjcc.org/sensory-swim-hour/"
+        },
+        "wheelchair-step-free": {
+          "url": "https://www.bostonjcc.org/sensory-swim-hour/"
+        }
+      },
+      "checkedAt": "2026-10-05"
+    },
+    "jcc-sensory-2026-10-25": {
+      "ageGroups": [
+        "all-ages",
+        "children",
+        "teens",
+        "adults",
+        "families"
+      ],
+      "accessFeatures": [
+        "sensory-friendly",
+        "wheelchair-step-free"
+      ],
+      "ageEvidence": {
+        "all-ages": {
+          "url": "https://www.bostonjcc.org/sensory-swim-hour/"
+        },
+        "children": {
+          "url": "https://www.bostonjcc.org/sensory-swim-hour/"
+        },
+        "teens": {
+          "url": "https://www.bostonjcc.org/sensory-swim-hour/"
+        },
+        "adults": {
+          "url": "https://www.bostonjcc.org/sensory-swim-hour/"
+        },
+        "families": {
+          "url": "https://www.bostonjcc.org/sensory-swim-hour/"
+        }
+      },
+      "accessEvidence": {
+        "sensory-friendly": {
+          "url": "https://www.bostonjcc.org/sensory-swim-hour/"
+        },
+        "wheelchair-step-free": {
+          "url": "https://www.bostonjcc.org/sensory-swim-hour/"
+        }
+      },
+      "checkedAt": "2026-10-05"
+    },
+    "jcc-sensory-2026-10-31": {
+      "ageGroups": [
+        "all-ages",
+        "children",
+        "teens",
+        "adults",
+        "families"
+      ],
+      "accessFeatures": [
+        "sensory-friendly",
+        "wheelchair-step-free"
+      ],
+      "ageEvidence": {
+        "all-ages": {
+          "url": "https://www.bostonjcc.org/sensory-swim-hour/"
+        },
+        "children": {
+          "url": "https://www.bostonjcc.org/sensory-swim-hour/"
+        },
+        "teens": {
+          "url": "https://www.bostonjcc.org/sensory-swim-hour/"
+        },
+        "adults": {
+          "url": "https://www.bostonjcc.org/sensory-swim-hour/"
+        },
+        "families": {
+          "url": "https://www.bostonjcc.org/sensory-swim-hour/"
+        }
+      },
+      "accessEvidence": {
+        "sensory-friendly": {
+          "url": "https://www.bostonjcc.org/sensory-swim-hour/"
+        },
+        "wheelchair-step-free": {
+          "url": "https://www.bostonjcc.org/sensory-swim-hour/"
+        }
+      },
+      "checkedAt": "2026-10-05"
+    },
+    "jcc-sensory-2026-11-01": {
+      "ageGroups": [
+        "all-ages",
+        "children",
+        "teens",
+        "adults",
+        "families"
+      ],
+      "accessFeatures": [
+        "sensory-friendly",
+        "wheelchair-step-free"
+      ],
+      "ageEvidence": {
+        "all-ages": {
+          "url": "https://www.bostonjcc.org/sensory-swim-hour/"
+        },
+        "children": {
+          "url": "https://www.bostonjcc.org/sensory-swim-hour/"
+        },
+        "teens": {
+          "url": "https://www.bostonjcc.org/sensory-swim-hour/"
+        },
+        "adults": {
+          "url": "https://www.bostonjcc.org/sensory-swim-hour/"
+        },
+        "families": {
+          "url": "https://www.bostonjcc.org/sensory-swim-hour/"
+        }
+      },
+      "accessEvidence": {
+        "sensory-friendly": {
+          "url": "https://www.bostonjcc.org/sensory-swim-hour/"
+        },
+        "wheelchair-step-free": {
+          "url": "https://www.bostonjcc.org/sensory-swim-hour/"
+        }
+      },
+      "checkedAt": "2026-10-05"
+    },
+    "discovery-inclusive-2026-10-06": {
+      "ageGroups": [
+        "families"
+      ],
+      "accessFeatures": [
+        "sensory-friendly",
+        "wheelchair-step-free"
+      ],
+      "ageEvidence": {
+        "families": {
+          "evidenceId": "discovery-dates",
+          "url": "https://www.discoveryacton.org/news/schedule-free-events-visitors-disabilities-announced"
+        }
+      },
+      "accessEvidence": {
+        "sensory-friendly": {
+          "evidenceId": "discovery-program",
+          "url": "https://www.discoveryacton.org/visit/especially-me"
+        },
+        "wheelchair-step-free": {
+          "evidenceId": "discovery-dates",
+          "url": "https://www.discoveryacton.org/news/schedule-free-events-visitors-disabilities-announced"
+        }
+      },
+      "checkedAt": "2026-10-05"
+    },
+    "discovery-inclusive-2026-12-01": {
+      "ageGroups": [
+        "families"
+      ],
+      "accessFeatures": [
+        "sensory-friendly",
+        "wheelchair-step-free"
+      ],
+      "ageEvidence": {
+        "families": {
+          "evidenceId": "discovery-dates",
+          "url": "https://www.discoveryacton.org/news/schedule-free-events-visitors-disabilities-announced"
+        }
+      },
+      "accessEvidence": {
+        "sensory-friendly": {
+          "evidenceId": "discovery-program",
+          "url": "https://www.discoveryacton.org/visit/especially-me"
+        },
+        "wheelchair-step-free": {
+          "evidenceId": "discovery-dates",
+          "url": "https://www.discoveryacton.org/news/schedule-free-events-visitors-disabilities-announced"
+        }
+      },
+      "checkedAt": "2026-10-05"
+    },
+    "discovery-deaf-blind-2026-12-12": {
+      "ageGroups": [
+        "families"
+      ],
+      "accessFeatures": [
+        "sensory-friendly",
+        "wheelchair-step-free",
+        "hearing-support",
+        "vision-support"
+      ],
+      "ageEvidence": {
+        "families": {
+          "url": "https://www.discoveryacton.org/news/schedule-free-events-visitors-disabilities-announced"
+        }
+      },
+      "accessEvidence": {
+        "sensory-friendly": {
+          "url": "https://www.discoveryacton.org/news/schedule-free-events-visitors-disabilities-announced"
+        },
+        "wheelchair-step-free": {
+          "url": "https://www.discoveryacton.org/news/schedule-free-events-visitors-disabilities-announced"
+        },
+        "hearing-support": {
+          "url": "https://www.discoveryacton.org/news/schedule-free-events-visitors-disabilities-announced"
+        },
+        "vision-support": {
+          "url": "https://www.discoveryacton.org/news/schedule-free-events-visitors-disabilities-announced"
+        }
+      },
+      "checkedAt": "2026-10-05"
     }
   }
 }

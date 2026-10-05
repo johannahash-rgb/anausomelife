@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
   "generatedAt": "2026-10-04T00:00:00Z",
-  "lastEditorialReview": "2026-10-04T00:26:00Z",
+  "lastEditorialReview": "2026-10-05T09:30:00Z",
   "timezone": "America/New_York",
-  "coverage": "New England accessibility-focused family calendar: organizer-confirmed listings plus a clearly separated annual-event watchlist. Not exhaustive.",
+  "coverage": "Selected New England adaptive and sensory-friendly events, with a verified free-admission filter and free-program directory. Not exhaustive.",
   "refresh": {
     "mode": "curated-with-source-checks",
     "schedule": "Daily maintenance workflow supplied; first deployed run not yet verified.",
@@ -525,6 +525,114 @@
       "type": "Official venue accessibility calendar",
       "note": "Useful ASL, audio-description, open-caption and relaxed-performance source for older audiences. Each performance has its own access supports. No event added; exact Mamma Mia end time and age guidance were not published.",
       "lastChecked": "2026-10-04"
+    },
+    {
+      "id": "jcc-sensory",
+      "name": "JCC Greater Boston sensory swim",
+      "url": "https://www.bostonjcc.org/sensory-swim-hour/",
+      "state": "MA",
+      "type": "Free sensory swim; dated registration required",
+      "mode": "check",
+      "enabled": true,
+      "timezone": "America/New_York",
+      "allowedHosts": [
+        "www.bostonjcc.org"
+      ],
+      "autoPublish": false,
+      "feedVerified": false,
+      "sourceCheckedAt": "2026-10-05T09:30:00Z",
+      "status": "manually-checked",
+      "lastChecked": "2026-10-05T09:30:00Z"
+    },
+    {
+      "id": "lexington-tr",
+      "name": "Lexington Therapeutic Recreation",
+      "url": "https://www.lexingtonma.gov/611/Therapeutic-Recreation",
+      "state": "MA",
+      "type": "Local program discovery; fees vary. Current adaptive classes are paid.",
+      "mode": "check",
+      "enabled": true,
+      "timezone": "America/New_York",
+      "allowedHosts": [
+        "www.lexingtonma.gov"
+      ],
+      "autoPublish": false,
+      "feedVerified": false,
+      "sourceCheckedAt": "2026-10-05T09:30:00Z",
+      "status": "manually-checked",
+      "lastChecked": "2026-10-05T09:30:00Z"
+    },
+    {
+      "id": "maine-adaptive",
+      "name": "Maine Adaptive",
+      "url": "https://maineadaptive.org/participate/",
+      "state": "ME",
+      "type": "Free adaptive lessons; application and activity-specific eligibility",
+      "mode": "check",
+      "enabled": true,
+      "timezone": "America/New_York",
+      "allowedHosts": [
+        "maineadaptive.org"
+      ],
+      "autoPublish": false,
+      "feedVerified": false,
+      "sourceCheckedAt": "2026-10-05T09:30:00Z",
+      "status": "manually-checked",
+      "lastChecked": "2026-10-05T09:30:00Z"
+    },
+    {
+      "id": "sori",
+      "name": "Special Olympics Rhode Island",
+      "url": "https://www.specialolympicsri.org/about-us/mission-and-history",
+      "state": "RI",
+      "type": "Free sports training and competition for eligible athletes",
+      "mode": "check",
+      "enabled": true,
+      "timezone": "America/New_York",
+      "allowedHosts": [
+        "www.specialolympicsri.org"
+      ],
+      "autoPublish": false,
+      "feedVerified": false,
+      "sourceCheckedAt": "2026-10-05T09:30:00Z",
+      "status": "manually-checked",
+      "lastChecked": "2026-10-05T09:30:00Z"
+    },
+    {
+      "id": "act-ct",
+      "name": "A.C.T. of Connecticut sensory-friendly performances",
+      "url": "https://actofct.squarespace.com/first-act",
+      "state": "CT",
+      "type": "Free reserved sensory-friendly performances; contact box office",
+      "mode": "check",
+      "enabled": true,
+      "timezone": "America/New_York",
+      "allowedHosts": [
+        "actofct.squarespace.com"
+      ],
+      "autoPublish": false,
+      "feedVerified": false,
+      "sourceCheckedAt": "2026-10-05T09:30:00Z",
+      "status": "manually-checked",
+      "lastChecked": "2026-10-05T09:30:00Z"
+    },
+    {
+      "id": "edd-vt",
+      "name": "EDD Adaptive Sports — Vermont",
+      "url": "https://www.eddfund.org/list-of-programs.html",
+      "state": "VT",
+      "type": "Most programs free; confirm the specific class fee and eligibility",
+      "mode": "check",
+      "enabled": true,
+      "timezone": "America/New_York",
+      "allowedHosts": [
+        "www.eddfund.org"
+      ],
+      "autoPublish": false,
+      "feedVerified": false,
+      "sourceCheckedAt": "2026-10-05T09:30:00Z",
+      "status": "manually-checked",
+      "lastChecked": "2026-10-05T09:30:00Z"
     }
   ],
   "events": [
@@ -635,7 +743,8 @@
         "arrival": "We can enter the Autism Welcoming Center and choose where to start.",
         "activity": "There may be a story, craft, snack and play. We can join, watch or skip.",
         "break": "We can use sensory tools, move around or choose a calming space."
-      }
+      },
+      "costCategory": "free"
     },
     {
       "timezone": "America/New_York",
@@ -671,7 +780,8 @@
         "arrival": "We can arrive while the library is open early for this smaller group.",
         "activity": "We may hear a story, sing, rhyme or try a sensory activity. We can participate in our own way.",
         "break": "We can step away from the group and use a quieter part of the library."
-      }
+      },
+      "costCategory": "free"
     },
     {
       "timezone": "America/New_York",
@@ -706,7 +816,8 @@
         "arrival": "We can go to the Higgins Room and find a comfortable place.",
         "activity": "There will be a short storytime with sensory-friendly activities. We can watch or join.",
         "break": "We can leave the room for a break if we need one."
-      }
+      },
+      "costCategory": "free"
     },
     {
       "timezone": "America/New_York",
@@ -741,7 +852,8 @@
         "arrival": "We can go to the Higgins Room and find a comfortable place.",
         "activity": "There will be a short storytime with sensory-friendly activities. We can watch or join.",
         "break": "We can leave the room for a break if we need one."
-      }
+      },
+      "costCategory": "free"
     },
     {
       "id": "clpvd-2026-10-06",
@@ -753,7 +865,7 @@
       "city": "Providence",
       "venue": "Mt. Pleasant Library, Children’s Area",
       "address": "315 Academy Avenue, Providence, RI 02908",
-      "cost": "Not stated; check organizer",
+      "cost": "Free library program",
       "ages": "Recommended ages 0–5; all ages welcome",
       "summary": "Stories, songs, movement, and bubbles with supports available.",
       "accessibility": [
@@ -771,7 +883,51 @@
       "reviewRequired": false,
       "status": "scheduled",
       "category": "Sensory-friendly",
-      "format": "In person"
+      "format": "In person",
+      "costCategory": "free",
+      "costEvidence": {
+        "url": "https://clpvd.org/learn/",
+        "checkedAt": "2026-10-05",
+        "note": "Organizer states its educational and cultural programming is free."
+      }
+    },
+    {
+      "timezone": "America/New_York",
+      "ticketUrl": "https://www.discoveryacton.org/visit/especially-me",
+      "cancellationPolicy": "Not stated in the checked listing; confirm with the organizer.",
+      "notes": [],
+      "lastVerified": "2026-10-05T09:30:00Z",
+      "verificationMethod": "Official organizer/event page reviewed",
+      "reviewRequired": false,
+      "status": "scheduled",
+      "format": "In person",
+      "category": "Inclusive access",
+      "id": "discovery-inclusive-2026-10-06",
+      "title": "Inclusive Afternoon",
+      "start": "2026-10-06T13:30:00-04:00",
+      "end": "2026-10-06T16:30:00-04:00",
+      "state": "MA",
+      "city": "Acton",
+      "venue": "Discovery Museum",
+      "address": "177 Main Street, Acton, MA 01720",
+      "cost": "Free",
+      "ages": "Any family or group that would benefit from an accessible, lower-visitation museum visit",
+      "summary": "A free inclusive afternoon during a time when lower general visitation is expected.",
+      "accessibility": [
+        "ADA-compliant museum and Discovery Woods",
+        "Noise-reducing headphones",
+        "Sensory map and Social Story",
+        "Take a Break space"
+      ],
+      "sourceId": "discovery",
+      "sourceUrl": "https://www.discoveryacton.org/visit/especially-me",
+      "registration": "Advance registration required.",
+      "visualStory": {
+        "arrival": "We can enter the museum and check in. The museum expects lower attendance during this afternoon.",
+        "activity": "We can choose exhibits inside or outdoors and go at our own pace.",
+        "break": "We can use the Take a Break space, headphones or sunglasses if they help."
+      },
+      "costCategory": "free"
     },
     {
       "timezone": "America/New_York",
@@ -887,6 +1043,38 @@
       }
     },
     {
+      "id": "jcc-sensory-2026-10-10",
+      "title": "Sensory Swim Hour",
+      "start": "2026-10-10T15:00:00-04:00",
+      "end": "2026-10-10T16:00:00-04:00",
+      "timezone": "America/New_York",
+      "state": "MA",
+      "city": "Newton",
+      "venue": "Pool Deck, Leventhal-Sidman JCC",
+      "address": "333 Nahanton Street, Newton, MA 02459",
+      "cost": "Free; members and nonmembers",
+      "costCategory": "free",
+      "ages": "All ages with sensory needs, with family or caregivers",
+      "summary": "A quieter hour in the indoor pool.",
+      "accessibility": [
+        "Sensory-friendly swim"
+      ],
+      "sourceId": "jcc-sensory",
+      "sourceUrl": "https://www.bostonjcc.org/calendar/sensory-swim-october-10/",
+      "ticketUrl": "https://myj.bostonjcc.org/s/registration/?courseSessionId=a2eUH000002fffZYAQ&courseOptionId=a2cUH00001YE0mAYAT",
+      "registration": "Advance registration required for each date.",
+      "cancellationPolicy": "Confirm with JCC.",
+      "notes": [
+        "This date appears in JCC’s live registration calendar. Its general program page describes Saturdays; the dated calendar also lists Sundays."
+      ],
+      "lastVerified": "2026-10-05T09:30:00Z",
+      "verificationMethod": "Official live calendar and date-specific registration links reviewed",
+      "reviewRequired": false,
+      "status": "scheduled",
+      "category": "Sensory-friendly",
+      "format": "In person"
+    },
+    {
       "id": "discovery-2026-10-10",
       "title": "Autism-Friendly Evening",
       "start": "2026-10-10T17:00:00-04:00",
@@ -907,7 +1095,7 @@
       ],
       "sourceId": "discovery",
       "sourceUrl": "https://www.discoveryacton.org/news/schedule-free-events-visitors-disabilities-announced",
-      "ticketUrl": "https://www.discoveryacton.org/news/schedule-free-events-visitors-disabilities-announced",
+      "ticketUrl": "https://www.discoveryacton.org/visit/especially-me",
       "registration": "Advance registration required.",
       "cancellationPolicy": "Not stated in the checked listing; confirm with the organizer.",
       "notes": [
@@ -916,6 +1104,39 @@
       ],
       "lastVerified": "2026-10-03T02:31:26Z",
       "verificationMethod": "Official organizer page reviewed",
+      "reviewRequired": false,
+      "status": "scheduled",
+      "category": "Sensory-friendly",
+      "format": "In person",
+      "costCategory": "free"
+    },
+    {
+      "id": "jcc-sensory-2026-10-11",
+      "title": "Sensory Swim Hour",
+      "start": "2026-10-11T15:00:00-04:00",
+      "end": "2026-10-11T16:00:00-04:00",
+      "timezone": "America/New_York",
+      "state": "MA",
+      "city": "Newton",
+      "venue": "Pool Deck, Leventhal-Sidman JCC",
+      "address": "333 Nahanton Street, Newton, MA 02459",
+      "cost": "Free; members and nonmembers",
+      "costCategory": "free",
+      "ages": "All ages with sensory needs, with family or caregivers",
+      "summary": "A quieter hour in the indoor pool.",
+      "accessibility": [
+        "Sensory-friendly swim"
+      ],
+      "sourceId": "jcc-sensory",
+      "sourceUrl": "https://www.bostonjcc.org/calendar/sensory-swim-october-11/",
+      "ticketUrl": "https://myj.bostonjcc.org/s/registration/?courseSessionId=a2eUH000002fffZYAQ&courseOptionId=a2cUH00001YDerxYAD",
+      "registration": "Advance registration required for each date.",
+      "cancellationPolicy": "Confirm with JCC.",
+      "notes": [
+        "This date appears in JCC’s live registration calendar. Its general program page describes Saturdays; the dated calendar also lists Sundays."
+      ],
+      "lastVerified": "2026-10-05T09:30:00Z",
+      "verificationMethod": "Official live calendar and date-specific registration links reviewed",
       "reviewRequired": false,
       "status": "scheduled",
       "category": "Sensory-friendly",
@@ -967,7 +1188,7 @@
       "city": "Providence",
       "venue": "Mt. Pleasant Library, Children’s Area",
       "address": "315 Academy Avenue, Providence, RI 02908",
-      "cost": "Not stated; check organizer",
+      "cost": "Free library program",
       "ages": "Recommended ages 0–5; all ages welcome",
       "summary": "Stories, songs, movement, and bubbles with supports available.",
       "accessibility": [
@@ -985,7 +1206,13 @@
       "reviewRequired": false,
       "status": "scheduled",
       "category": "Sensory-friendly",
-      "format": "In person"
+      "format": "In person",
+      "costCategory": "free",
+      "costEvidence": {
+        "url": "https://clpvd.org/learn/",
+        "checkedAt": "2026-10-05",
+        "note": "Organizer states its educational and cultural programming is free."
+      }
     },
     {
       "timezone": "America/New_York",
@@ -1023,7 +1250,8 @@
         "arrival": "We can enter the Autism Welcoming Center and choose where to start.",
         "activity": "There may be a story, craft, snack and play. We can join, watch or skip.",
         "break": "We can use sensory tools, move around or choose a calming space."
-      }
+      },
+      "costCategory": "free"
     },
     {
       "timezone": "America/New_York",
@@ -1188,7 +1416,8 @@
       "reviewRequired": false,
       "status": "scheduled",
       "category": "Sensory-friendly",
-      "format": "In person"
+      "format": "In person",
+      "costCategory": "free"
     },
     {
       "timezone": "America/New_York",
@@ -1225,7 +1454,40 @@
         "arrival": "We can arrive at the Bedford center and see decorated cars or activity areas.",
         "activity": "We can collect treats, try a simple game, make a craft or just look.",
         "break": "A quiet comfort area is available if we want less noise or fewer people."
-      }
+      },
+      "costCategory": "free"
+    },
+    {
+      "id": "jcc-sensory-2026-10-17",
+      "title": "Sensory Swim Hour",
+      "start": "2026-10-17T15:00:00-04:00",
+      "end": "2026-10-17T16:00:00-04:00",
+      "timezone": "America/New_York",
+      "state": "MA",
+      "city": "Newton",
+      "venue": "Pool Deck, Leventhal-Sidman JCC",
+      "address": "333 Nahanton Street, Newton, MA 02459",
+      "cost": "Free; members and nonmembers",
+      "costCategory": "free",
+      "ages": "All ages with sensory needs, with family or caregivers",
+      "summary": "A quieter hour in the indoor pool.",
+      "accessibility": [
+        "Sensory-friendly swim"
+      ],
+      "sourceId": "jcc-sensory",
+      "sourceUrl": "https://www.bostonjcc.org/calendar/sensory-swim-october-17/",
+      "ticketUrl": "https://myj.bostonjcc.org/s/registration/?courseSessionId=a2eUH000002fffZYAQ&courseOptionId=a2cUH00001YEdv4YAD",
+      "registration": "Advance registration required for each date.",
+      "cancellationPolicy": "Confirm with JCC.",
+      "notes": [
+        "This date appears in JCC’s live registration calendar. Its general program page describes Saturdays; the dated calendar also lists Sundays."
+      ],
+      "lastVerified": "2026-10-05T09:30:00Z",
+      "verificationMethod": "Official live calendar and date-specific registration links reviewed",
+      "reviewRequired": false,
+      "status": "scheduled",
+      "category": "Sensory-friendly",
+      "format": "In person"
     },
     {
       "timezone": "America/New_York",
@@ -1257,6 +1519,38 @@
       "sourceUrl": "https://specialolympicsma.org/event/south-shore-equestrian-event",
       "registration": "Athlete participation follows Special Olympics registration; check organizer for spectator or volunteer details.",
       "category": "Inclusive sports"
+    },
+    {
+      "id": "jcc-sensory-2026-10-18",
+      "title": "Sensory Swim Hour",
+      "start": "2026-10-18T15:00:00-04:00",
+      "end": "2026-10-18T16:00:00-04:00",
+      "timezone": "America/New_York",
+      "state": "MA",
+      "city": "Newton",
+      "venue": "Pool Deck, Leventhal-Sidman JCC",
+      "address": "333 Nahanton Street, Newton, MA 02459",
+      "cost": "Free; members and nonmembers",
+      "costCategory": "free",
+      "ages": "All ages with sensory needs, with family or caregivers",
+      "summary": "A quieter hour in the indoor pool.",
+      "accessibility": [
+        "Sensory-friendly swim"
+      ],
+      "sourceId": "jcc-sensory",
+      "sourceUrl": "https://www.bostonjcc.org/calendar/copy-of-sensory-swim-october-11/",
+      "ticketUrl": "https://myj.bostonjcc.org/s/registration/?courseSessionId=a2eUH000002fffZYAQ&courseOptionId=a2cUH00001YE8mhYAD",
+      "registration": "Advance registration required for each date.",
+      "cancellationPolicy": "Confirm with JCC.",
+      "notes": [
+        "This date appears in JCC’s live registration calendar. Its general program page describes Saturdays; the dated calendar also lists Sundays."
+      ],
+      "lastVerified": "2026-10-05T09:30:00Z",
+      "verificationMethod": "Official live calendar and date-specific registration links reviewed",
+      "reviewRequired": false,
+      "status": "scheduled",
+      "category": "Sensory-friendly",
+      "format": "In person"
     },
     {
       "timezone": "America/New_York",
@@ -1322,7 +1616,8 @@
         "arrival": "We can go to the Higgins Room and find a comfortable place.",
         "activity": "There will be a short storytime with sensory-friendly activities. We can watch or join.",
         "break": "We can leave the room for a break if we need one."
-      }
+      },
+      "costCategory": "free"
     },
     {
       "id": "clpvd-2026-10-20",
@@ -1334,7 +1629,7 @@
       "city": "Providence",
       "venue": "Mt. Pleasant Library, Children’s Area",
       "address": "315 Academy Avenue, Providence, RI 02908",
-      "cost": "Not stated; check organizer",
+      "cost": "Free library program",
       "ages": "Recommended ages 0–5; all ages welcome",
       "summary": "Stories, songs, movement, and bubbles with supports available.",
       "accessibility": [
@@ -1352,7 +1647,13 @@
       "reviewRequired": false,
       "status": "scheduled",
       "category": "Sensory-friendly",
-      "format": "In person"
+      "format": "In person",
+      "costCategory": "free",
+      "costEvidence": {
+        "url": "https://clpvd.org/learn/",
+        "checkedAt": "2026-10-05",
+        "note": "Organizer states its educational and cultural programming is free."
+      }
     },
     {
       "id": "rwpzoo-2026-10-20",
@@ -1484,7 +1785,8 @@
         "arrival": "We can arrive at the Danvers center and see decorated cars or activity areas.",
         "activity": "We can collect treats, try a simple game, make a craft or just look.",
         "break": "A quiet comfort area is available if we want less noise or fewer people."
-      }
+      },
+      "costCategory": "free"
     },
     {
       "timezone": "America/New_York",
@@ -1557,7 +1859,72 @@
         "arrival": "We can enter the library and see Halloween decorations. A costume is optional.",
         "activity": "We can do a craft, hear a story, walk the indoor Storywalk, have a snack or skip an activity.",
         "break": "Noise-reducing earmuffs/headphones are available if sound feels like too much."
-      }
+      },
+      "costCategory": "free"
+    },
+    {
+      "id": "jcc-sensory-2026-10-24",
+      "title": "Sensory Swim Hour",
+      "start": "2026-10-24T15:00:00-04:00",
+      "end": "2026-10-24T16:00:00-04:00",
+      "timezone": "America/New_York",
+      "state": "MA",
+      "city": "Newton",
+      "venue": "Pool Deck, Leventhal-Sidman JCC",
+      "address": "333 Nahanton Street, Newton, MA 02459",
+      "cost": "Free; members and nonmembers",
+      "costCategory": "free",
+      "ages": "All ages with sensory needs, with family or caregivers",
+      "summary": "A quieter hour in the indoor pool.",
+      "accessibility": [
+        "Sensory-friendly swim"
+      ],
+      "sourceId": "jcc-sensory",
+      "sourceUrl": "https://www.bostonjcc.org/calendar/sensory-swim-october-24/",
+      "ticketUrl": "https://myj.bostonjcc.org/s/registration/?courseSessionId=a2eUH000002fffZYAQ&courseOptionId=a2cUH00001YEU8iYAH",
+      "registration": "Advance registration required for each date.",
+      "cancellationPolicy": "Confirm with JCC.",
+      "notes": [
+        "This date appears in JCC’s live registration calendar. Its general program page describes Saturdays; the dated calendar also lists Sundays."
+      ],
+      "lastVerified": "2026-10-05T09:30:00Z",
+      "verificationMethod": "Official live calendar and date-specific registration links reviewed",
+      "reviewRequired": false,
+      "status": "scheduled",
+      "category": "Sensory-friendly",
+      "format": "In person"
+    },
+    {
+      "id": "jcc-sensory-2026-10-25",
+      "title": "Sensory Swim Hour",
+      "start": "2026-10-25T15:00:00-04:00",
+      "end": "2026-10-25T16:00:00-04:00",
+      "timezone": "America/New_York",
+      "state": "MA",
+      "city": "Newton",
+      "venue": "Pool Deck, Leventhal-Sidman JCC",
+      "address": "333 Nahanton Street, Newton, MA 02459",
+      "cost": "Free; members and nonmembers",
+      "costCategory": "free",
+      "ages": "All ages with sensory needs, with family or caregivers",
+      "summary": "A quieter hour in the indoor pool.",
+      "accessibility": [
+        "Sensory-friendly swim"
+      ],
+      "sourceId": "jcc-sensory",
+      "sourceUrl": "https://www.bostonjcc.org/calendar/sensory-swim-october-25/",
+      "ticketUrl": "https://myj.bostonjcc.org/s/registration/?courseSessionId=a2eUH000002fffZYAQ&courseOptionId=a2cUH00001YEeY6YAL",
+      "registration": "Advance registration required for each date.",
+      "cancellationPolicy": "Confirm with JCC.",
+      "notes": [
+        "This date appears in JCC’s live registration calendar. Its general program page describes Saturdays; the dated calendar also lists Sundays."
+      ],
+      "lastVerified": "2026-10-05T09:30:00Z",
+      "verificationMethod": "Official live calendar and date-specific registration links reviewed",
+      "reviewRequired": false,
+      "status": "scheduled",
+      "category": "Sensory-friendly",
+      "format": "In person"
     },
     {
       "timezone": "America/New_York",
@@ -1626,7 +1993,8 @@
         "arrival": "We will use the rear entrance and rear parking lot.",
         "activity": "There will be trick-or-treat rooms, sensory bins, crafts, snacks and a photo area. We can choose what to do.",
         "break": "We can step away from a room or activity whenever we need a break."
-      }
+      },
+      "costCategory": "free"
     },
     {
       "timezone": "America/New_York",
@@ -1689,7 +2057,8 @@
       "reviewRequired": false,
       "status": "scheduled",
       "category": "Halloween",
-      "format": "In person"
+      "format": "In person",
+      "costCategory": "free"
     },
     {
       "id": "discovery-2026-10-30",
@@ -1712,7 +2081,7 @@
       ],
       "sourceId": "discovery",
       "sourceUrl": "https://www.discoveryacton.org/news/schedule-free-events-visitors-disabilities-announced",
-      "ticketUrl": "https://www.discoveryacton.org/news/schedule-free-events-visitors-disabilities-announced",
+      "ticketUrl": "https://www.discoveryacton.org/visit/especially-me",
       "registration": "Advance registration required.",
       "cancellationPolicy": "Not stated in the checked listing; confirm with the organizer.",
       "notes": [
@@ -1724,7 +2093,8 @@
       "reviewRequired": false,
       "status": "scheduled",
       "category": "Halloween",
-      "format": "In person"
+      "format": "In person",
+      "costCategory": "free"
     },
     {
       "timezone": "America/New_York",
@@ -1791,6 +2161,70 @@
       "sourceUrl": "https://autismalliance.org/events/tricks-treats-magic",
       "registration": "Registration required; space is limited and the organizer may use a lottery.",
       "category": "Halloween"
+    },
+    {
+      "id": "jcc-sensory-2026-10-31",
+      "title": "Sensory Swim Hour",
+      "start": "2026-10-31T15:00:00-04:00",
+      "end": "2026-10-31T16:00:00-04:00",
+      "timezone": "America/New_York",
+      "state": "MA",
+      "city": "Newton",
+      "venue": "Pool Deck, Leventhal-Sidman JCC",
+      "address": "333 Nahanton Street, Newton, MA 02459",
+      "cost": "Free; members and nonmembers",
+      "costCategory": "free",
+      "ages": "All ages with sensory needs, with family or caregivers",
+      "summary": "A quieter hour in the indoor pool.",
+      "accessibility": [
+        "Sensory-friendly swim"
+      ],
+      "sourceId": "jcc-sensory",
+      "sourceUrl": "https://www.bostonjcc.org/calendar/sensory-swim-october-31/",
+      "ticketUrl": "https://myj.bostonjcc.org/s/registration/?courseSessionId=a2eUH000002fffZYAQ&courseOptionId=a2cUH00001YEFWNYA5",
+      "registration": "Advance registration required for each date.",
+      "cancellationPolicy": "Confirm with JCC.",
+      "notes": [
+        "This date appears in JCC’s live registration calendar. Its general program page describes Saturdays; the dated calendar also lists Sundays."
+      ],
+      "lastVerified": "2026-10-05T09:30:00Z",
+      "verificationMethod": "Official live calendar and date-specific registration links reviewed",
+      "reviewRequired": false,
+      "status": "scheduled",
+      "category": "Sensory-friendly",
+      "format": "In person"
+    },
+    {
+      "id": "jcc-sensory-2026-11-01",
+      "title": "Sensory Swim Hour",
+      "start": "2026-11-01T15:00:00-05:00",
+      "end": "2026-11-01T16:00:00-05:00",
+      "timezone": "America/New_York",
+      "state": "MA",
+      "city": "Newton",
+      "venue": "Pool Deck, Leventhal-Sidman JCC",
+      "address": "333 Nahanton Street, Newton, MA 02459",
+      "cost": "Free; members and nonmembers",
+      "costCategory": "free",
+      "ages": "All ages with sensory needs, with family or caregivers",
+      "summary": "A quieter hour in the indoor pool.",
+      "accessibility": [
+        "Sensory-friendly swim"
+      ],
+      "sourceId": "jcc-sensory",
+      "sourceUrl": "https://www.bostonjcc.org/calendar/sensory-swim-november-1/",
+      "ticketUrl": "https://myj.bostonjcc.org/s/registration/?courseSessionId=a2eUH000002fffZYAQ&courseOptionId=a2cUH00001YEn3BYAT",
+      "registration": "Advance registration required for each date.",
+      "cancellationPolicy": "Confirm with JCC.",
+      "notes": [
+        "This date appears in JCC’s live registration calendar. Its general program page describes Saturdays; the dated calendar also lists Sundays."
+      ],
+      "lastVerified": "2026-10-05T09:30:00Z",
+      "verificationMethod": "Official live calendar and date-specific registration links reviewed",
+      "reviewRequired": false,
+      "status": "scheduled",
+      "category": "Sensory-friendly",
+      "format": "In person"
     },
     {
       "timezone": "America/New_York",
@@ -1922,7 +2356,7 @@
     },
     {
       "timezone": "America/New_York",
-      "ticketUrl": null,
+      "ticketUrl": "https://www.eventbrite.com/e/sensory-friendly-fun-night-tickets-1999614379437",
       "cancellationPolicy": "Not stated in the checked listing; confirm with the organizer.",
       "notes": [],
       "lastVerified": "2026-10-03T11:04:00Z",
@@ -1956,7 +2390,8 @@
         "arrival": "We can enter using the ramp or push-button entrance and take the elevator if we need it.",
         "activity": "We can explore exhibits, watch a demonstration or make something. This is a lower-stimulation evening.",
         "break": "A break room is available if we need a quieter space."
-      }
+      },
+      "costCategory": "free"
     },
     {
       "id": "bcm-2026-11-07",
@@ -2114,7 +2549,8 @@
       "sourceId": "carroll",
       "sourceUrl": "https://carroll.org/events/cane-quest/",
       "registration": "Advance registration required through The Carroll Center.",
-      "category": "Blind & low vision"
+      "category": "Blind & low vision",
+      "costCategory": "free"
     },
     {
       "timezone": "America/New_York",
@@ -2276,7 +2712,8 @@
         "arrival": "We can arrive while the library is open early for this smaller group.",
         "activity": "We can listen, move, rhyme or try a sensory activity in our own way.",
         "break": "We can step away from the group and use a quieter part of the library."
-      }
+      },
+      "costCategory": "free"
     },
     {
       "timezone": "America/New_York",
@@ -2344,7 +2781,8 @@
         "arrival": "We can enter the museum and check in. The museum expects lower attendance during this afternoon.",
         "activity": "We can choose exhibits inside or outdoors and go at our own pace.",
         "break": "We can use the Take a Break space, headphones or sunglasses if they help."
-      }
+      },
+      "costCategory": "free"
     },
     {
       "timezone": "America/New_York",
@@ -2407,7 +2845,8 @@
       "sourceId": "carroll",
       "sourceUrl": "https://carroll.org/events/virtual-technology-fair/",
       "registration": "Registration and further details are coming soon; a Zoom link will be provided after registration.",
-      "category": "Blind & low vision"
+      "category": "Blind & low vision",
+      "costCategory": "free"
     },
     {
       "timezone": "America/New_York",
@@ -2505,7 +2944,8 @@
       "reviewRequired": false,
       "status": "scheduled",
       "category": "Sensory-friendly",
-      "format": "In person"
+      "format": "In person",
+      "costCategory": "free"
     },
     {
       "timezone": "America/New_York",
@@ -2580,6 +3020,44 @@
         "activity": "We can walk through gentle light displays. The route is about a half-mile with gravel and hills.",
         "break": "We can slow down, stop, or ask Education staff for help. We can leave if weather or sensory conditions are too much."
       }
+    },
+    {
+      "timezone": "America/New_York",
+      "ticketUrl": "https://www.discoveryacton.org/visit/especially-me",
+      "cancellationPolicy": "Not stated in the checked listing; confirm with the organizer.",
+      "notes": [],
+      "lastVerified": "2026-10-05T09:30:00Z",
+      "verificationMethod": "Official organizer/event page reviewed",
+      "reviewRequired": false,
+      "status": "scheduled",
+      "format": "In person",
+      "category": "Inclusive access",
+      "id": "discovery-inclusive-2026-12-01",
+      "title": "Inclusive Afternoon",
+      "start": "2026-12-01T13:30:00-05:00",
+      "end": "2026-12-01T16:30:00-05:00",
+      "state": "MA",
+      "city": "Acton",
+      "venue": "Discovery Museum",
+      "address": "177 Main Street, Acton, MA 01720",
+      "cost": "Free",
+      "ages": "Any family or group that would benefit from an accessible, lower-visitation museum visit",
+      "summary": "A free inclusive afternoon during a time when lower general visitation is expected.",
+      "accessibility": [
+        "ADA-compliant museum and Discovery Woods",
+        "Noise-reducing headphones",
+        "Sensory map and Social Story",
+        "Take a Break space"
+      ],
+      "sourceId": "discovery",
+      "sourceUrl": "https://www.discoveryacton.org/visit/especially-me",
+      "registration": "Advance registration required.",
+      "visualStory": {
+        "arrival": "We can enter the museum and check in. The museum expects lower attendance during this afternoon.",
+        "activity": "We can choose exhibits inside or outdoors and go at our own pace.",
+        "break": "We can use the Take a Break space, headphones or sunglasses if they help."
+      },
+      "costCategory": "free"
     },
     {
       "timezone": "America/New_York",
@@ -2749,6 +3227,42 @@
       "category": "Blind & low vision"
     },
     {
+      "id": "discovery-deaf-blind-2026-12-12",
+      "title": "Evening for Deaf, Blind, or DeafBlind Visitors",
+      "start": "2026-12-12T17:00:00-05:00",
+      "end": "2026-12-12T20:00:00-05:00",
+      "timezone": "America/New_York",
+      "state": "MA",
+      "city": "Acton",
+      "venue": "Discovery Museum",
+      "address": "177 Main Street, Acton, MA 01720",
+      "cost": "Free",
+      "ages": "Children, adults, and families who benefit from an accessible visit",
+      "summary": "An accessible evening with dinner included.",
+      "accessibility": [
+        "Limited attendance",
+        "Noise-reducing headphones available",
+        "Take-a-break space",
+        "ASL may be requested during registration"
+      ],
+      "sourceId": "discovery",
+      "sourceUrl": "https://www.discoveryacton.org/news/schedule-free-events-visitors-disabilities-announced",
+      "ticketUrl": "https://www.discoveryacton.org/visit/especially-me",
+      "registration": "Advance registration required.",
+      "cancellationPolicy": "Not stated in the checked listing; confirm with the organizer.",
+      "notes": [
+        "A medical diagnosis is not required.",
+        "Dinner includes a gluten-free option."
+      ],
+      "lastVerified": "2026-10-05T09:30:00Z",
+      "verificationMethod": "Official organizer page reviewed",
+      "reviewRequired": false,
+      "status": "scheduled",
+      "category": "Sensory-friendly",
+      "format": "In person",
+      "costCategory": "free"
+    },
+    {
       "timezone": "America/New_York",
       "ticketUrl": null,
       "cancellationPolicy": "Not stated in the checked listing; confirm with the organizer.",
@@ -2781,7 +3295,8 @@
         "arrival": "We can arrive while the library is open early for this smaller group.",
         "activity": "We can listen, move, rhyme or try a sensory activity in our own way.",
         "break": "We can step away from the group and use a quieter part of the library."
-      }
+      },
+      "costCategory": "free"
     },
     {
       "timezone": "America/New_York",
@@ -2854,7 +3369,8 @@
       "reviewRequired": false,
       "status": "scheduled",
       "category": "Sensory-friendly",
-      "format": "In person"
+      "format": "In person",
+      "costCategory": "free"
     }
   ],
   "accessibilityStandard": {
@@ -3099,6 +3615,15 @@
       "weather": "Indoors.",
       "evidence": "Current Community Libraries of Providence branch and sensory-storytime pages checked Oct 3, 2026.",
       "accessibilityUrl": "https://clpvd.org/clpvd_library/mt-pleasant-library/"
+    },
+    "Pool Deck, Leventhal-Sidman JCC": {
+      "mobility": "Elevators and a hydraulic pool lift are available.",
+      "sensory": "Sensory toys and equipment are available; the program limits attendance.",
+      "restrooms": "Accessible restrooms and private family/caregiver changing rooms.",
+      "changing": "Adult-size changing equipment is not confirmed.",
+      "weather": "Indoor pool.",
+      "evidence": "JCC program information checked October 5, 2026.",
+      "accessibilityUrl": "https://www.bostonjcc.org/sensory-swim-hour/"
     }
   },
   "watchlist": [
@@ -3147,6 +3672,80 @@
       "lastKnown": "November 21–22, 2026",
       "sourceUrl": "https://www.soct.org/event-calendar/statewide-games",
       "organizerUrl": "https://www.soct.org/"
+    }
+  ],
+  "freePrograms": [
+    {
+      "state": "CT",
+      "name": "A.C.T. of Connecticut",
+      "url": "https://actofct.squarespace.com/first-act",
+      "summary": "Free sensory-friendly performances reserved for people with sensory sensitivities. Beautiful: The Carole King Musical is listed for October 31, 2026, at 2 p.m. Reserve through the box office: 475-215-5497 or boxoffice@actofct.org. The ending time is not published.",
+      "checkedAt": "2026-10-05"
+    },
+    {
+      "state": "MA",
+      "name": "JCC Greater Boston sensory swim",
+      "url": "https://www.bostonjcc.org/sensory-swim-hour/",
+      "summary": "Free for members and nonmembers. All ages with sensory needs can attend with family or caregivers; each session requires registration. See the dated swim listings above.",
+      "checkedAt": "2026-10-05"
+    },
+    {
+      "state": "MA",
+      "name": "Discovery Museum — Especially for Me",
+      "url": "https://www.discoveryacton.org/visit/especially-me",
+      "summary": "Free access sessions for families and groups who benefit from accommodations. Advance registration is required; a medical diagnosis is not.",
+      "checkedAt": "2026-10-05"
+    },
+    {
+      "state": "MA",
+      "name": "Special Olympics Massachusetts recreational sports",
+      "url": "https://specialolympicsma.org/play-sports/ways-to-play/recreational-sports",
+      "summary": "No participation fee for athletes. Programs are designed for people with intellectual disabilities; ask about local sessions and support needs.",
+      "checkedAt": "2026-10-05"
+    },
+    {
+      "state": "ME",
+      "name": "Maine Adaptive",
+      "url": "https://maineadaptive.org/participate/",
+      "summary": "Free adaptive lessons, equipment and required lift or trail passes. Ages 4+ with permanent physical or cognitive disabilities; activity-specific criteria apply. Apply before requesting lessons. Some specialty programs require a refundable deposit.",
+      "costEvidence": "https://maineadaptive.org/at-a-glance/",
+      "checkedAt": "2026-10-05"
+    },
+    {
+      "state": "ME",
+      "name": "Children’s Museum & Theatre of Maine — Play Your Way",
+      "url": "https://www.kitetails.org/halloween",
+      "summary": "Free sensory-friendly play sessions. The October 30 Halloween session runs 4:30–6:30 p.m.; reservations are recommended. Parking may cost extra.",
+      "checkedAt": "2026-10-05"
+    },
+    {
+      "state": "NH",
+      "name": "SEE Science Center sensory-friendly night",
+      "url": "https://www.eventbrite.com/e/sensory-friendly-fun-night-tickets-1999614379437",
+      "summary": "Free on November 6, 2026, 5–7 p.m., with advance registration for every attendee. Reduced stimulation and a break room are part of this session.",
+      "checkedAt": "2026-10-05"
+    },
+    {
+      "state": "RI",
+      "name": "Community Libraries of Providence sensory storytime",
+      "url": "https://clpvd.org/event/sensory-friendly-storytime/2026-10-06/",
+      "summary": "Free library programming with stories, movement and sensory supports. Recommended for ages 0–5, with all ages welcome; see dated listings for the Mt. Pleasant branch.",
+      "costEvidence": "https://clpvd.org/learn/",
+      "checkedAt": "2026-10-05"
+    },
+    {
+      "state": "RI",
+      "name": "Special Olympics Rhode Island",
+      "url": "https://www.specialolympicsri.org/about-us/mission-and-history",
+      "summary": "Year-round training and competition are free for athletes and their families. Contact the program for local teams, registration and intellectual-disability eligibility.",
+      "checkedAt": "2026-10-05"
+    },
+    {
+      "state": "VT",
+      "name": "Montshire Museum — Montshh… Sensory Hour",
+      "url": "https://montshire.org/event/montshh-montshire-sensory-hour-10/2026-11-21/",
+      "summary": "Free sensory hours for children, teens, adults and families. Reduced sound, a respite space and visual planning supports are available; see dated listings.",
+      "checkedAt": "2026-10-05"
     }
   ]
 }
