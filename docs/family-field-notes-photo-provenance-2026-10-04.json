@@ -1,6 +1,6 @@
 {
   "date": "2026-10-04",
-  "scope": "Five notes with eight available owner-shared photographs. No new material from Ocean House, Quonset View, Farmer’s Daughter, Halloween or Providence Children’s Museum published in this release. No photographer attribution inferred.",
+  "scope": "Six published family field notes with nine owner-shared photographs. This release adds the Fort Taber winter outing photograph; no photographer attribution is inferred.",
   "assets": [
     {
       "path": "assets/family-notes/doe-orchards-family.webp",
@@ -65,6 +65,14 @@
       "permission_basis": "Owner supplied family photographs and explicitly authorized creation and upload of these photo-backed field notes.",
       "transformations": "None. Existing WebP copied byte-for-byte; full frame displayed.",
       "use": "flowers-fidgets-and-clutter.html"
+    },
+    {
+      "path": "assets/family-notes/fort-taber-snowshoe-family.webp",
+      "source": "Owner-shared family photograph from the Fort Taber / New Bedford winter outing.",
+      "sha256": "6d61ea85396b047eca3b5836074902109cf3c7e84fb1d31b5fa3cb90f4104197",
+      "permission_basis": "Owner supplied the family photograph and explicitly asked to crop, write and publish the Fort Taber outing.",
+      "transformations": "Re-encoded to WebP for web delivery; full frame retained; no generative edits.",
+      "use": "fort-taber-snowshoes-field-note.html"
     }
   ]
 }
