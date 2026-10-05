@@ -1,0 +1,9 @@
+# Adaptive programs and Swim Angelfish — October 5, 2026
+
+Owner requested more New England activities, including Wings for Autism, and Swim Angelfish among the programs supported. Added an ordinary-text Swim Angelfish card to Brands We Love under We support, with a contextual link from the older-teen swim guide. No personal visit, use, paid partnership, or logo rights inferred. Verified locations, intake, fees and funding from Swim Angelfish’s official pages. The Stew Leonard III / Step Into Swim 2026 application is closed; other funding links have their own eligibility.
+
+Added confirmed free events: Charles River Center Wings for Autism at Boston Logan, November 7, 9 a.m.–noon; NEHSA adaptive bike demo, October 24, 11 a.m.–2 p.m. Both have official linked registration forms. Did not submit either form for the family. Dates/times use America/New_York, including November standard time. No terminal or access equipment guessed.
+
+Added free-program discovery and date-watch entries for Autism Flies at T. F. Green (November 2026) and Bradley (spring 2027). The PVD search extract specifies November 10 but the opened organizer page states only November, and no start/end times were published. Conservatively retained the month and invitation link. These are not fabricated timed calendar entries. Existing programs across all six New England states and the earlier JCC additions remain intact.
+
+Sources: https://www.charlesrivercenter.org/news-events/major-events/wings-for-autism/ ; https://form.jotform.com/262595659324166 ; https://nehsa.org/events/nehsa-adaptive-bike-demo-day-mount-sunapee/ ; https://autismchecked.com/autism-flies/ ; https://swimangelfish.com/swim-angelfish-locations/ ; https://swimangelfish.com/get-started-services/ ; https://swimangelfish.com/pricing/ ; https://swimangelfish.com/swim-lesson-scholarships/

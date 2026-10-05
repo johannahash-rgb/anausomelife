@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "generatedAt": "2026-10-04T00:00:00Z",
-  "lastEditorialReview": "2026-10-05T09:30:00Z",
+  "lastEditorialReview": "2026-10-05T09:45:00Z",
   "timezone": "America/New_York",
   "coverage": "Selected New England adaptive and sensory-friendly events, with a verified free-admission filter and free-program directory. Not exhaustive.",
   "refresh": {
@@ -461,10 +461,11 @@
       "name": "New England Healing Sports Association",
       "state": "NH",
       "url": "https://nehsa.org/events/list/",
-      "status": "directory",
-      "type": "Official organizer calendar",
+      "status": "manually-checked",
+      "type": "Adaptive recreation; this bike demo is free, other program fees vary",
       "note": "Adaptive hiking and pickleball appear in the October2026 calendar. Strong older-youth/adult recreation source; confirm event-specific eligibility before applying all-ages tags.",
-      "lastChecked": "2026-10-04"
+      "lastChecked": "2026-10-05T09:45:00Z",
+      "sourceCheckedAt": "2026-10-05T09:45:00Z"
     },
     {
       "id": "picnh",
@@ -633,6 +634,60 @@
       "sourceCheckedAt": "2026-10-05T09:30:00Z",
       "status": "manually-checked",
       "lastChecked": "2026-10-05T09:30:00Z"
+    },
+    {
+      "id": "charles-river-wings",
+      "name": "Charles River Center — Wings for Autism",
+      "url": "https://www.charlesrivercenter.org/news-events/major-events/wings-for-autism/",
+      "state": "MA",
+      "type": "Free airport practice events; registration required",
+      "mode": "check",
+      "enabled": true,
+      "timezone": "America/New_York",
+      "allowedHosts": [
+        "www.charlesrivercenter.org"
+      ],
+      "autoPublish": false,
+      "feedVerified": false,
+      "sourceCheckedAt": "2026-10-05T09:45:00Z",
+      "status": "manually-checked",
+      "lastChecked": "2026-10-05T09:45:00Z"
+    },
+    {
+      "id": "autism-flies-ri",
+      "name": "Autism Flies — Rhode Island",
+      "url": "https://autismchecked.com/autism-flies/",
+      "state": "RI",
+      "type": "Free airport boarding practice; invitation and schedule confirmation required",
+      "mode": "check",
+      "enabled": true,
+      "timezone": "America/New_York",
+      "allowedHosts": [
+        "autismchecked.com"
+      ],
+      "autoPublish": false,
+      "feedVerified": false,
+      "sourceCheckedAt": "2026-10-05T09:45:00Z",
+      "status": "manually-checked",
+      "lastChecked": "2026-10-05T09:45:00Z"
+    },
+    {
+      "id": "autism-flies-ct",
+      "name": "Autism Flies — Connecticut",
+      "url": "https://autismchecked.com/autism-flies/",
+      "state": "CT",
+      "type": "Free airport boarding practice; invitation and schedule confirmation required",
+      "mode": "check",
+      "enabled": true,
+      "timezone": "America/New_York",
+      "allowedHosts": [
+        "autismchecked.com"
+      ],
+      "autoPublish": false,
+      "feedVerified": false,
+      "sourceCheckedAt": "2026-10-05T09:45:00Z",
+      "status": "manually-checked",
+      "lastChecked": "2026-10-05T09:45:00Z"
     }
   ],
   "events": [
@@ -1863,6 +1918,39 @@
       "costCategory": "free"
     },
     {
+      "timezone": "America/New_York",
+      "cost": "Free",
+      "costCategory": "free",
+      "cancellationPolicy": "Not stated in the checked listing; confirm with the organizer.",
+      "lastVerified": "2026-10-05T09:45:00Z",
+      "verificationMethod": "Official organizer page and linked registration form reviewed",
+      "reviewRequired": false,
+      "status": "scheduled",
+      "format": "In person",
+      "id": "nehsa-bike-2026-10-24",
+      "title": "NEHSA Adaptive Bike Demo Day",
+      "start": "2026-10-24T11:00:00-04:00",
+      "end": "2026-10-24T14:00:00-04:00",
+      "state": "NH",
+      "city": "Newbury",
+      "venue": "Mount Sunapee Resort",
+      "address": "1398 Route 103, Newbury, NH 03255",
+      "ages": "Community event for people of different abilities; confirm age and equipment fit with NEHSA.",
+      "summary": "Try a range of adaptive bikes at Mount Sunapee. Lunch is provided.",
+      "accessibility": [
+        "Adaptive bikes available to try"
+      ],
+      "sourceId": "nehsa",
+      "sourceUrl": "https://nehsa.org/events/nehsa-adaptive-bike-demo-day-mount-sunapee/",
+      "ticketUrl": "https://docs.google.com/forms/d/e/1FAIpQLSfHHs3-MMuHA1odd_lkUuXQyoqngiepeFs-HKubuUmZOdU1yA/viewform",
+      "registration": "Register through the organizer’s linked form. Current membership is asked about; both members and nonmembers can respond.",
+      "notes": [
+        "Ask NEHSA about equipment fit, transfers, support-person arrangements and the riding surface.",
+        "Check weather and event status before traveling."
+      ],
+      "category": "Adaptive recreation"
+    },
+    {
       "id": "jcc-sensory-2026-10-24",
       "title": "Sensory Swim Hour",
       "start": "2026-10-24T15:00:00-04:00",
@@ -2425,6 +2513,40 @@
       "status": "scheduled",
       "category": "Sensory-friendly",
       "format": "In person"
+    },
+    {
+      "timezone": "America/New_York",
+      "cost": "Free",
+      "costCategory": "free",
+      "cancellationPolicy": "Not stated in the checked listing; confirm with the organizer.",
+      "lastVerified": "2026-10-05T09:45:00Z",
+      "verificationMethod": "Official organizer page and linked registration form reviewed",
+      "reviewRequired": false,
+      "status": "scheduled",
+      "format": "In person",
+      "id": "wings-logan-2026-11-07",
+      "title": "Wings for Autism — Boston Logan Airport",
+      "start": "2026-11-07T09:00:00-05:00",
+      "end": "2026-11-07T12:00:00-05:00",
+      "state": "MA",
+      "city": "Boston",
+      "venue": "Boston Logan International Airport",
+      "address": "Boston Logan International Airport, Boston, MA",
+      "ages": "Families of children with autism; contact the organizer about other participants.",
+      "summary": "Practice airport check-in, security and boarding together. The aircraft stays at the airport.",
+      "accessibility": [
+        "Airport and boarding rehearsal for autistic travelers and their families",
+        "Practice the travel sequence before a future trip"
+      ],
+      "sourceId": "charles-river-wings",
+      "sourceUrl": "https://www.charlesrivercenter.org/news-events/major-events/wings-for-autism/",
+      "ticketUrl": "https://form.jotform.com/262595659324166",
+      "registration": "Advance registration required for every attendee. The online form accepts up to six people; contact the organizer for a larger group.",
+      "notes": [
+        "Confirm terminal, meeting point, parking and individual access arrangements with the organizer.",
+        "Registration availability may change."
+      ],
+      "category": "Travel practice"
     },
     {
       "timezone": "America/New_York",
@@ -3672,6 +3794,28 @@
       "lastKnown": "November 21–22, 2026",
       "sourceUrl": "https://www.soct.org/event-calendar/statewide-games",
       "organizerUrl": "https://www.soct.org/"
+    },
+    {
+      "id": "autism-flies-pvd",
+      "state": "RI",
+      "title": "Autism Flies — Rhode Island T. F. Green International Airport",
+      "status": "November 2026 · full schedule awaiting confirmation",
+      "note": "Free airport check-in, security and boarding practice with Breeze Airways. November 2026 is announced; confirm the final date and session time through the invitation process before making plans.",
+      "lastKnown": "November 2026; organizer information checked October 5, 2026",
+      "sourceUrl": "https://autismchecked.com/autism-flies/",
+      "organizerUrl": "https://autismchecked.com/waitlist-form-pvd/",
+      "address": "Rhode Island T. F. Green International Airport, Warwick, RI"
+    },
+    {
+      "id": "autism-flies-bdl",
+      "state": "CT",
+      "title": "Autism Flies — Bradley International Airport",
+      "status": "Spring 2027 · full schedule awaiting confirmation",
+      "note": "Free airport check-in, security and boarding practice with Breeze Airways. Spring 2027 is announced; confirm the final date and session time through the invitation process before making plans.",
+      "lastKnown": "Spring 2027; organizer information checked October 5, 2026",
+      "sourceUrl": "https://autismchecked.com/autism-flies/",
+      "organizerUrl": "https://autismchecked.com/bdl-form/",
+      "address": "Bradley International Airport, Windsor Locks, CT"
     }
   ],
   "freePrograms": [
@@ -3745,6 +3889,34 @@
       "name": "Montshire Museum — Montshh… Sensory Hour",
       "url": "https://montshire.org/event/montshh-montshire-sensory-hour-10/2026-11-21/",
       "summary": "Free sensory hours for children, teens, adults and families. Reduced sound, a respite space and visual planning supports are available; see dated listings.",
+      "checkedAt": "2026-10-05"
+    },
+    {
+      "state": "MA",
+      "name": "Wings for Autism — Charles River Center",
+      "url": "https://www.charlesrivercenter.org/news-events/major-events/wings-for-autism/",
+      "summary": "Free airport rehearsals for families of children with autism. Boston Logan: November 7, 2026, 9 a.m.–noon. Register all attendees in advance.",
+      "checkedAt": "2026-10-05"
+    },
+    {
+      "state": "NH",
+      "name": "NEHSA Adaptive Bike Demo Day",
+      "url": "https://nehsa.org/events/nehsa-adaptive-bike-demo-day-mount-sunapee/",
+      "summary": "Free adaptive cycling tryout at Mount Sunapee in Newbury on October 24, 2026, 11 a.m.–2 p.m., with lunch provided. Register through NEHSA; other NEHSA activities may have fees.",
+      "checkedAt": "2026-10-05"
+    },
+    {
+      "state": "RI",
+      "name": "Autism Flies — T. F. Green",
+      "url": "https://autismchecked.com/autism-flies/",
+      "summary": "Free airport boarding practice with Breeze Airways, announced for November 2026. Request an invitation and confirm the full schedule before making travel plans.",
+      "checkedAt": "2026-10-05"
+    },
+    {
+      "state": "CT",
+      "name": "Autism Flies — Bradley",
+      "url": "https://autismchecked.com/autism-flies/",
+      "summary": "Free airport boarding practice with Breeze Airways, announced for spring 2027. An invitation request is available; the final date and time are not published.",
       "checkedAt": "2026-10-05"
     }
   ]

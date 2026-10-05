@@ -2281,6 +2281,42 @@
         }
       },
       "checkedAt": "2026-10-05"
+    },
+    "wings-logan-2026-11-07": {
+      "ageGroups": [
+        "children",
+        "families"
+      ],
+      "accessFeatures": [
+        "adaptive-activities"
+      ],
+      "ageEvidence": {
+        "children": {
+          "url": "https://www.charlesrivercenter.org/news-events/major-events/wings-for-autism/"
+        },
+        "families": {
+          "url": "https://www.charlesrivercenter.org/news-events/major-events/wings-for-autism/"
+        }
+      },
+      "accessEvidence": {
+        "adaptive-activities": {
+          "url": "https://www.charlesrivercenter.org/news-events/major-events/wings-for-autism/"
+        }
+      },
+      "checkedAt": "2026-10-05"
+    },
+    "nehsa-bike-2026-10-24": {
+      "ageGroups": [],
+      "accessFeatures": [
+        "adaptive-activities"
+      ],
+      "ageEvidence": {},
+      "accessEvidence": {
+        "adaptive-activities": {
+          "url": "https://nehsa.org/events/nehsa-adaptive-bike-demo-day-mount-sunapee/"
+        }
+      },
+      "checkedAt": "2026-10-05"
     }
   }
 }
