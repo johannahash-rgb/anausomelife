@@ -13,5 +13,25 @@
       "sha256": "7319037b76b808ea4ef65c8580dd22474b128aff8bf42905796c99a9920e9adf",
       "changes": "None. Original JPEG bytes preserved."
     }
+  ],
+  "illustrations": [
+    {
+      "path": "assets/margaritas-waltham/welcome-corner.webp",
+      "sha256": "8633ae421f4ead39c2bffd292b9470a6eff5aa2dc15467811a589e4e717e55a1",
+      "basis": "Original AI-assisted editorial study generated from text for the owner-authorized aesthetic correction. No family photographs used as input.",
+      "label": "Illustration, not documentary venue or route reference."
+    },
+    {
+      "path": "assets/margaritas-waltham/chips-study.webp",
+      "sha256": "bc068656a321218f4d2b7b1dd472388b2010bd83c4ededa6ef05eef2697ac393",
+      "basis": "Original AI-assisted editorial study generated from text for the owner-authorized aesthetic correction. No family photographs used as input.",
+      "label": "Illustration, not documentary venue or route reference."
+    },
+    {
+      "path": "assets/margaritas-waltham/window-jukebox-wide.webp",
+      "sha256": "b154b71aec3944b7c368cb6fbb287b928cfa06bf352c9e79f0cfc9f176f38fc2",
+      "basis": "Original AI-assisted editorial study generated from text for the owner-authorized aesthetic correction. No family photographs used as input.",
+      "label": "Illustration, not documentary venue or route reference."
+    }
   ]
 }
