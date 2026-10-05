@@ -433,6 +433,28 @@
       "categories": [
         "home"
       ]
+    },
+    {
+      "id": "banana-republic",
+      "name": "Banana Republic",
+      "categories": [
+        "style"
+      ]
+    },
+    {
+      "id": "lightlife",
+      "name": "Lightlife",
+      "categories": [
+        "food"
+      ]
+    },
+    {
+      "id": "disney",
+      "name": "Disney",
+      "categories": [
+        "travel",
+        "outings"
+      ]
     }
   ]
 }

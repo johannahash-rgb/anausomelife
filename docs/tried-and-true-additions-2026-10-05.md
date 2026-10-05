@@ -11,3 +11,5 @@ Awaiting exact identity: “nova” and “the omni juice thing.” Neither is p
 Link maintenance: checked current internal HTML links and section targets, added compatibility pages for the Wells Beach and Rancatore’s directory-form URLs, preserved the old Rancatore’s arrival anchor, and flattened existing redirects. The 404 page recovers known extensionless/trailing-slash addresses using a local route list; unknown paths retain a 404. Redirects use HTML/JavaScript on GitHub Pages, not HTTP 301 rules. External websites cannot be redirected by this site.
 
 Radio: the purchase-context match is a Yoto Mini (2024 Edition), bought December 22, 2025. Confirm that this is the “little radio” meant before adding its brand.
+
+Additional owner-confirmed Tried & True names: Banana Republic (clothing), Lightlife (food), and Disney (travel and outings). Added as ordinary-text entries; no particular products, parks, trips or partnership relationships inferred.
