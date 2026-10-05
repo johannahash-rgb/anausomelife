@@ -1,0 +1,24 @@
+{
+  "created": "2026-10-05",
+  "purpose": "Two owner-confirmed Tried & True travel entries. Names identify businesses without implying sponsorship; no review claims or access claims have been added.",
+  "assets": [
+    {
+      "asset": "assets/brand-sketches/pink-jeep-tours-sedona.webp",
+      "origin": "Original artwork generated with the built-in image generation tool; no third-party source images supplied.",
+      "prompt": "Use case: illustration-story. Asset type: small original editorial watercolor for a refined travel brand carousel. Draw one richly detailed, naturally proportioned rose-pink open-air off-road touring vehicle, three-quarter front view, with black tires and a dark canopy, resting on a small organic patch of Sedona rust-red sandstone. A few subtly suggested red sandstone formations rise immediately behind it. Fine navy-gray pen lines, layered delicate watercolor washes, warm desert ocher and muted pine-green scrub, confident sophisticated travel-journal treatment. Recognizable pink vehicle but no logos, lettering, numbers, branded insignia or people. Isolated compact single composition, full objects visible with generous transparent margins all around, organic feathered watercolor edges. Actual transparent background, no white paper rectangle, no badge, border, circle, card, drop shadow or text. Square canvas; landscape subject arranged low and centered; highly detailed editorial sketch rather than a flat icon or cartoon.",
+      "official_name": "Pink Jeep Tours — Sedona",
+      "official_url": "https://www.pinkadventuretours.com/tours/sedona-tours",
+      "intended_use": "Independent editorial identification in the shared Tried & True carousel, with original-illustration disclosure and live HTML name. Not a documentary photograph, factual architectural/access reference, official logo, or sponsored endorsement.",
+      "review": "Visually reviewed for natural proportions, organic transparent edges, no readable logos or lettering, and no people. Encoded to WebP with alpha retained, without cropping. AI origin is not comprehensive legal clearance."
+    },
+    {
+      "asset": "assets/brand-sketches/westward-look-tucson.webp",
+      "origin": "Original artwork generated with the built-in image generation tool; no third-party source images supplied.",
+      "prompt": "Use case: illustration-story. Asset type: small original editorial watercolor for a refined travel brand carousel. A Sonoran Desert hacienda-inspired composition representing Westward Look in Tucson: a low warm-sand adobe building with terracotta roof and shaded porch, one elegant saguaro, restrained desert garden, and soft Santa Catalina-style mountain contours close behind. Original evocative illustration, not a factual architectural diagram. Finely detailed navy-gray pen work and layered delicate transparent watercolor, natural proportions, warm desert ocher, muted terracotta and pine greens, sophisticated hand-painted travel-journal aesthetic. No logos, lettering, people or symbols. Isolated compact composition with all architecture, cactus and mountain contours fully visible and generous transparent margins; organic feathered watercolor edges. Actual transparent background, no paper rectangle, badge, border, circular vignette, frame, drop shadow or text. Square canvas, landscape grouping arranged low and centered. Detailed editorial watercolor, never a flat icon or cartoon.",
+      "official_name": "Westward Look Wyndham Grand Resort & Spa",
+      "official_url": "https://www.westwardlook.com/",
+      "intended_use": "Independent editorial identification in the shared Tried & True carousel, with original-illustration disclosure and live HTML name. Not a documentary photograph, factual architectural/access reference, official logo, or sponsored endorsement.",
+      "review": "Visually reviewed for natural proportions, organic transparent edges, no readable logos or lettering, and no people. Encoded to WebP with alpha retained, without cropping. AI origin is not comprehensive legal clearance."
+    }
+  ]
+}

@@ -184,6 +184,11 @@
       "id": "activewear",
       "label": "Activewear",
       "parent": "style"
+    },
+    {
+      "id": "tours-sightseeing",
+      "label": "Tours & sightseeing",
+      "parent": "outings"
     }
   ],
   "brands": [
@@ -839,6 +844,29 @@
         "activewear"
       ],
       "featured": true
+    },
+    {
+      "id": "pink-jeep-tours-sedona",
+      "name": "Pink Jeep Tours · Sedona",
+      "image": "/assets/brand-sketches/pink-jeep-tours-sedona.webp",
+      "alt": "Original watercolor of a pink touring vehicle among Sedona-inspired red rocks.",
+      "categories": [
+        "travel",
+        "outings",
+        "tours-sightseeing"
+      ],
+      "featured": false
+    },
+    {
+      "id": "westward-look-tucson",
+      "name": "Westward Look · Tucson",
+      "image": "/assets/brand-sketches/westward-look-tucson.webp",
+      "alt": "Original architectural watercolor inspired by a Tucson desert hacienda, saguaro and mountains.",
+      "categories": [
+        "travel",
+        "hotels-resorts"
+      ],
+      "featured": false
     }
   ]
 }
