@@ -101,6 +101,11 @@
       "parent": "style"
     },
     {
+      "id": "bags-accessories",
+      "label": "Bags & accessories",
+      "parent": "style"
+    },
+    {
       "id": "outerwear-layers",
       "label": "Coats & outdoor layers",
       "parent": "style"
@@ -265,6 +270,17 @@
         "style",
         "everyday-clothing",
         "wool-knitwear"
+      ],
+      "featured": true
+    },
+    {
+      "id": "kate-spade",
+      "name": "Kate Spade",
+      "image": "/assets/brand-sketches/kate-spade.webp",
+      "alt": "Original watercolor of a blush-pink handbag with a black-and-cream striped scarf.",
+      "categories": [
+        "style",
+        "bags-accessories"
       ],
       "featured": true
     },

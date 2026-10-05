@@ -1,0 +1,13 @@
+{
+  "created": "2026-10-05",
+  "purpose": "Owner-requested Kate Spade addition to the Tried & True brand reel.",
+  "assets": [
+    {
+      "asset": "assets/brand-sketches/kate-spade.webp",
+      "origin": "Original artwork generated with the built-in image generation tool; no third-party source images supplied.",
+      "prompt": "Use case: illustration-story. Asset type: original editorial watercolor for the Kate Spade entry in An AUsome Life's refined New England brand reel. One elegant blush-pink structured leather top-handle handbag, naturally proportioned, three-quarter view, with restrained warm brass hardware and a small softly tied black-and-cream striped silk scarf at one handle. Beautiful delicate fine navy-gray ink detail with richly layered transparent watercolor washes, subtle leather texture and airy organic edges. Feminine, playful yet classic grown-up style, polished magazine illustration, not a flat icon. Entire bag and scarf fully visible centered on a square canvas with generous margins. Actual transparent background. No logos, spade symbols, lettering, words, signature, watermark or readable brand marks; the name will be typeset separately in HTML. Original generic accessory composition, not a reproduction of a specific retail product. No border, card, mask, artificial drop shadow, flowers or extraneous props.",
+      "intended_use": "Independent editorial illustration beside the ordinary HTML name Kate Spade. Original generic handbag artwork, not a specific product image or official logo. No sponsorship, purchase history or product performance claims added.",
+      "review": "Visually reviewed: full handbag and scarf, natural proportions, transparent background, no text or logos. Encoded as 512px WebP with alpha preserved and no cropping. AI provenance is recorded here; the site disclosure covers original illustrations."
+    }
+  ]
+}
