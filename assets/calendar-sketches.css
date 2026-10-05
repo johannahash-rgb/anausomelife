@@ -79,3 +79,37 @@
 @media(max-width:450px){.calendar-page .event-filters{grid-template-columns:minmax(0,1fr)}.calendar-page .event-month-filter{grid-column:auto}}
 
 .calendar-page .event-source-entry{display:flex;flex-direction:column;gap:4px}.calendar-page .event-source-entry small{font-size:.7rem;color:#536467}.calendar-page .event-filter-sources{font-size:.76rem;line-height:1.6;padding-left:18px}
+
+/* Put finding an event before optional detail. Existing artwork remains inside each listing. */
+.calendar-page .calendar-heading{padding-block:28px 18px}
+.calendar-page .calendar-heading h1{font-size:clamp(2.4rem,5vw,4rem);margin-block:8px}
+.calendar-page .calendar-heading .quiet-copy{max-width:76ch}
+.calendar-page .calendar-jump{display:flex;flex-wrap:wrap;gap:4px 22px;margin-top:14px}
+.calendar-page .calendar-jump a{display:inline-flex;align-items:center;min-height:44px;font-size:.88rem;text-underline-offset:4px}
+.calendar-page .event-workspace{scroll-margin-top:20px}
+.calendar-page .event-filters{display:block;padding:20px 0;border-block:1px solid #a4b0a7}
+.calendar-page .event-primary-filters{display:grid;grid-template-columns:1fr 1fr 1.4fr 1fr;gap:14px}
+.calendar-page .event-primary-filters label,.calendar-page .event-advanced-filters label{display:flex;flex-direction:column;gap:5px;min-width:0}
+.calendar-page .event-primary-filters input,.calendar-page .event-primary-filters select,.calendar-page .event-advanced-filters select,.calendar-page .event-advanced-filters input{width:100%;min-width:0;box-sizing:border-box}
+.calendar-page .event-more-filters{margin-top:14px}
+.calendar-page .event-more-filters>summary{cursor:pointer;min-height:44px;padding:10px 0;font-weight:700}
+.calendar-page .filter-description{margin-left:12px;font-weight:400;font-size:.86rem}
+.calendar-page .event-advanced-filters{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin-top:8px}
+.calendar-page .event-month-filter{grid-column:auto}
+.calendar-page .calendar-filter-actions{display:flex;align-items:center;flex-wrap:wrap;gap:8px 24px}
+.calendar-page .calendar-filter-actions button{min-height:44px;font-size:.9rem}
+.calendar-page [data-share-status]{font-size:.85rem}
+.calendar-page [data-share-link]{flex:1 1 100%}
+.calendar-page .event-list .event-card,.calendar-page .event-list .event-card.has-sketch{display:grid;grid-template-columns:54px minmax(0,1fr);gap:22px;padding-block:24px;grid-template-areas:none}
+.calendar-page .event-list .event-card>.event-date,.calendar-page .event-list .event-card>.event-copy{grid-area:auto}
+.calendar-page .event-card .event-meta-row{display:none}
+.calendar-page .event-card .entry-meta{margin-top:0}
+.calendar-page .event-card h2{font-size:1.55rem;margin-block:5px 8px}
+.calendar-page .event-card .event-description{margin-bottom:8px;max-width:85ch}
+.calendar-page .event-card .event-time,.calendar-page .event-card .event-venue{margin-block:5px}
+.calendar-page .event-full-details>summary{font-weight:700;text-decoration:underline;text-underline-offset:4px;cursor:pointer}
+.calendar-page .event-full-details[open]{padding-bottom:8px}
+.calendar-page .event-full-details .event-art{max-width:340px;margin:18px 0 0}
+@media(max-width:800px){.calendar-page .event-primary-filters,.calendar-page .event-advanced-filters{grid-template-columns:repeat(2,minmax(0,1fr))}.calendar-page .event-filters label:last-of-type{grid-column:auto}}
+@media(max-width:480px){.calendar-page .event-primary-filters,.calendar-page .event-advanced-filters{grid-template-columns:1fr}.calendar-page .filter-description{display:block;margin:4px 0 0 18px}.calendar-page .event-list .event-card,.calendar-page .event-list .event-card.has-sketch{grid-template-columns:38px minmax(0,1fr);gap:12px}.calendar-page .calendar-toolbar-head{display:block}}
+@media print{.calendar-page .calendar-filter-actions,.calendar-page .calendar-jump{display:none}}

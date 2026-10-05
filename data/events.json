@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "generatedAt": "2026-10-04T00:00:00Z",
-  "lastEditorialReview": "2026-10-05T09:45:00Z",
+  "lastEditorialReview": "2026-10-05T09:48:29Z",
   "timezone": "America/New_York",
   "coverage": "Selected New England adaptive and sensory-friendly events, with a verified free-admission filter and free-program directory. Not exhaustive.",
   "refresh": {
@@ -688,6 +688,91 @@
       "sourceCheckedAt": "2026-10-05T09:45:00Z",
       "status": "manually-checked",
       "lastChecked": "2026-10-05T09:45:00Z"
+    },
+    {
+      "id": "old-state-house-sensory",
+      "name": "Old State House",
+      "url": "https://revolutionaryspaces.org/explore/sensory-friendly-mornings/",
+      "state": "MA",
+      "mode": "check",
+      "enabled": true,
+      "timezone": "America/New_York",
+      "allowedHosts": [
+        "revolutionaryspaces.org"
+      ],
+      "autoPublish": false,
+      "feedVerified": false,
+      "sourceCheckedAt": "2026-10-05T09:48:29Z",
+      "status": "manually-checked",
+      "lastChecked": "2026-10-05T09:48:29Z"
+    },
+    {
+      "id": "carroll-alumni-trivia",
+      "name": "The Carroll Center for the Blind",
+      "url": "https://carroll.org/events/carroll-alumni-trivia-night/",
+      "state": "MA",
+      "mode": "check",
+      "enabled": true,
+      "timezone": "America/New_York",
+      "allowedHosts": [
+        "carroll.org"
+      ],
+      "autoPublish": false,
+      "feedVerified": false,
+      "sourceCheckedAt": "2026-10-05T09:48:29Z",
+      "status": "manually-checked",
+      "lastChecked": "2026-10-05T09:48:29Z"
+    },
+    {
+      "id": "bierman-cranston-events",
+      "name": "Bierman Autism Centers – Cranston",
+      "url": "https://www.biermanautism.com/resources/sensory-friendly-events/",
+      "state": "RI",
+      "mode": "check",
+      "enabled": true,
+      "timezone": "America/New_York",
+      "allowedHosts": [
+        "www.biermanautism.com"
+      ],
+      "autoPublish": false,
+      "feedVerified": false,
+      "sourceCheckedAt": "2026-10-05T09:48:29Z",
+      "status": "manually-checked",
+      "lastChecked": "2026-10-05T09:48:29Z"
+    },
+    {
+      "id": "car-bazaar",
+      "name": "Taunton Hotel & Conference Center",
+      "url": "https://givebutter.com/CARBazaar2026",
+      "state": "MA",
+      "mode": "check",
+      "enabled": true,
+      "timezone": "America/New_York",
+      "allowedHosts": [
+        "givebutter.com"
+      ],
+      "autoPublish": false,
+      "feedVerified": false,
+      "sourceCheckedAt": "2026-10-05T09:48:29Z",
+      "status": "manually-checked",
+      "lastChecked": "2026-10-05T09:48:29Z"
+    },
+    {
+      "id": "gilsland-accessible-birding",
+      "name": "Gilsland Farm Audubon Center",
+      "url": "https://maineaudubon.org/events/accessible-beginner-birding-fa26/",
+      "state": "ME",
+      "mode": "check",
+      "enabled": true,
+      "timezone": "America/New_York",
+      "allowedHosts": [
+        "maineaudubon.org"
+      ],
+      "autoPublish": false,
+      "feedVerified": false,
+      "sourceCheckedAt": "2026-10-05T09:48:29Z",
+      "status": "manually-checked",
+      "lastChecked": "2026-10-05T09:48:29Z"
     }
   ],
   "events": [
@@ -1198,6 +1283,38 @@
       "format": "In person"
     },
     {
+      "id": "old-state-house-2026-10-12",
+      "title": "Sensory-Friendly Morning at the Old State House",
+      "start": "2026-10-12T09:00:00-04:00",
+      "end": "2026-10-12T10:00:00-04:00",
+      "timezone": "America/New_York",
+      "state": "MA",
+      "city": "Boston",
+      "venue": "Old State House",
+      "address": "206 Washington Street, Boston, MA 02109",
+      "cost": "$5 adults; ages 18 and under and members free",
+      "ages": "All ages",
+      "summary": "An early museum visit with reduced stimulation. Stairs are required; there is no step-free route.",
+      "accessibility": [
+        "Adjusted sound and lighting",
+        "Capacity: 20 visitors"
+      ],
+      "sourceId": "old-state-house-sensory",
+      "sourceUrl": "https://revolutionaryspaces.org/explore/sensory-friendly-mornings/",
+      "ticketUrl": "https://revolutionaryspaces.thundertix.com/events/249019",
+      "registration": "Check the organizer’s registration page before attending.",
+      "cancellationPolicy": "Confirm with organizer.",
+      "notes": [
+        "Six entrance steps; galleries and basement restrooms require stairs. https://revolutionaryspaces.org/visit/accessibility/"
+      ],
+      "lastVerified": "2026-10-05T09:48:29Z",
+      "verificationMethod": "Official organizer information reviewed",
+      "reviewRequired": false,
+      "status": "scheduled",
+      "category": "Sensory-friendly",
+      "format": "In person"
+    },
+    {
       "timezone": "America/New_York",
       "ticketUrl": null,
       "cancellationPolicy": "Not stated in the checked listing; confirm with the organizer.",
@@ -1408,6 +1525,37 @@
       "category": "Autism community"
     },
     {
+      "id": "carroll-alumni-trivia-2026-10-16",
+      "title": "Carroll Alumni Socials: Trivia Night",
+      "start": "2026-10-16T17:00:00-04:00",
+      "end": "2026-10-16T19:30:00-04:00",
+      "timezone": "America/New_York",
+      "state": "MA",
+      "city": "Newton",
+      "venue": "The Carroll Center for the Blind",
+      "address": "770 Centre St, Newton, MA 02458",
+      "cost": "Fee not stated; ask the organizer",
+      "ages": "Carroll Center alumni; exact age limits not stated",
+      "summary": "A social evening of team trivia for people who have completed a Carroll Center program.",
+      "accessibility": [
+        "For the community of alumni experiencing vision loss"
+      ],
+      "sourceId": "carroll-alumni-trivia",
+      "sourceUrl": "https://carroll.org/events/carroll-alumni-trivia-night/",
+      "ticketUrl": "https://carroll.org/events/carroll-alumni-trivia-night/",
+      "registration": "Check the organizer’s registration page before attending.",
+      "cancellationPolicy": "Confirm with organizer.",
+      "notes": [
+        "Capacity is limited; register ahead. Confirm specific access or support arrangements."
+      ],
+      "lastVerified": "2026-10-05T09:48:29Z",
+      "verificationMethod": "Official organizer information reviewed",
+      "reviewRequired": false,
+      "status": "scheduled",
+      "category": "Community social",
+      "format": "In person"
+    },
+    {
       "timezone": "America/New_York",
       "ticketUrl": null,
       "cancellationPolicy": "Not stated in the checked listing; confirm with the organizer.",
@@ -1511,6 +1659,40 @@
         "break": "A quiet comfort area is available if we want less noise or fewer people."
       },
       "costCategory": "free"
+    },
+    {
+      "id": "bierman-cranston-trunk-treat-2026-10-17",
+      "title": "Sensory-Friendly Trunk-or-Treat in Cranston",
+      "start": "2026-10-17T10:00:00-04:00",
+      "end": "2026-10-17T12:00:00-04:00",
+      "timezone": "America/New_York",
+      "state": "RI",
+      "city": "Cranston",
+      "venue": "Bierman Autism Centers – Cranston",
+      "address": "45 Sockanosset Cross Road, Suite 100, Cranston, RI 02920",
+      "cost": "Free",
+      "ages": "Children and families; exact age limits not stated",
+      "summary": "A family Halloween morning with decorated trunks, games and crafts.",
+      "accessibility": [
+        "Quiet corner available"
+      ],
+      "sourceId": "bierman-cranston-events",
+      "sourceUrl": "https://www.biermanautism.com/resources/sensory-friendly-events/",
+      "ticketUrl": "https://www.eventbrite.com/e/sensory-friendly-trunk-or-treat-in-cranston-tickets-1999272202978",
+      "registration": "Check the organizer’s registration page before attending.",
+      "cancellationPolicy": "Confirm with organizer.",
+      "notes": [
+        "Organizer listing also published by Rhode Island tourism: https://www.visitrhodeisland.com/event/sensory-friendly-trunk-or-treat-in-cranston%21/111934/",
+        "Activities can include balloon popping; confirm sound levels and choose activities that work for your family."
+      ],
+      "lastVerified": "2026-10-05T09:48:29Z",
+      "verificationMethod": "Official organizer event index and organizer-provided Rhode Island tourism listing reviewed; ticket page not retrievable",
+      "reviewRequired": false,
+      "status": "scheduled",
+      "category": "Sensory-friendly",
+      "format": "In person",
+      "costCategory": "free",
+      "costEvidence": "https://www.biermanautism.com/resources/sensory-friendly-events/"
     },
     {
       "id": "jcc-sensory-2026-10-17",
@@ -1804,6 +1986,37 @@
       "sourceUrl": "https://autismalliance.org/events/after-school-zoo-club-ages-5-12?instance=2",
       "registration": "Registration required to receive the Zoom link.",
       "category": "Autism community"
+    },
+    {
+      "id": "gilsland-accessible-birding-2026-10-24",
+      "title": "Accessible Beginner Birding at Gilsland Farm",
+      "start": "2026-10-24T09:00:00-04:00",
+      "end": "2026-10-24T11:00:00-04:00",
+      "timezone": "America/New_York",
+      "state": "ME",
+      "city": "Falmouth",
+      "venue": "Gilsland Farm Audubon Center",
+      "address": "20 Gilsland Farm Road, Falmouth, ME 04105",
+      "cost": "Fee not published; check registration",
+      "ages": "Beginners; age limits not published",
+      "summary": "Birdwatching with pauses and seating along the All Persons Trail.",
+      "accessibility": [
+        "Flat route; accessible restrooms and van parking"
+      ],
+      "sourceId": "gilsland-accessible-birding",
+      "sourceUrl": "https://maineaudubon.org/events/accessible-beginner-birding-fa26/",
+      "ticketUrl": "https://maineaudubon.ticketspice.com/fall-2026-accessible-beginner-birding-at-gilsland-farm",
+      "registration": "Check the organizer’s registration page before attending.",
+      "cancellationPolicy": "Confirm with organizer.",
+      "notes": [
+        "Register for trail and weather updates. Request accommodations at least seven days ahead."
+      ],
+      "lastVerified": "2026-10-05T09:48:29Z",
+      "verificationMethod": "Official organizer information reviewed",
+      "reviewRequired": false,
+      "status": "scheduled",
+      "category": "Nature & outdoors",
+      "format": "In person"
     },
     {
       "timezone": "America/New_York",
@@ -2642,6 +2855,37 @@
       "category": "Disability community"
     },
     {
+      "id": "gilsland-accessible-birding-2026-11-11",
+      "title": "Accessible Beginner Birding at Gilsland Farm",
+      "start": "2026-11-11T08:00:00-05:00",
+      "end": "2026-11-11T09:30:00-05:00",
+      "timezone": "America/New_York",
+      "state": "ME",
+      "city": "Falmouth",
+      "venue": "Gilsland Farm Audubon Center",
+      "address": "20 Gilsland Farm Road, Falmouth, ME 04105",
+      "cost": "Fee not published; check registration",
+      "ages": "Beginners; age limits not published",
+      "summary": "Birdwatching with pauses and seating along the All Persons Trail.",
+      "accessibility": [
+        "Flat route; accessible restrooms and van parking"
+      ],
+      "sourceId": "gilsland-accessible-birding",
+      "sourceUrl": "https://maineaudubon.org/events/accessible-beginner-birding-fa26/",
+      "ticketUrl": "https://maineaudubon.ticketspice.com/fall-2026-accessible-beginner-birding-at-gilsland-farm",
+      "registration": "Check the organizer’s registration page before attending.",
+      "cancellationPolicy": "Confirm with organizer.",
+      "notes": [
+        "Register for trail and weather updates. Request accommodations at least seven days ahead."
+      ],
+      "lastVerified": "2026-10-05T09:48:29Z",
+      "verificationMethod": "Official organizer information reviewed",
+      "reviewRequired": false,
+      "status": "scheduled",
+      "category": "Nature & outdoors",
+      "format": "In person"
+    },
+    {
       "timezone": "America/New_York",
       "ticketUrl": null,
       "cancellationPolicy": "Not stated in the checked listing; confirm with the organizer.",
@@ -2800,6 +3044,39 @@
       "sourceUrl": "https://www.mass.gov/event/nov-14-adaptive-hiking-at-great-brook-farm-state-park-11-14-2026",
       "registration": "Pre-registration required; organizer lists November 12 as the registration deadline.",
       "category": "Adaptive recreation"
+    },
+    {
+      "id": "car-holiday-bazaar-2026-11-14",
+      "title": "Community Autism Resources Holiday Bazaar & Resource Fair",
+      "start": "2026-11-14T10:00:00-05:00",
+      "end": "2026-11-14T14:00:00-05:00",
+      "timezone": "America/New_York",
+      "state": "MA",
+      "city": "Taunton",
+      "venue": "Taunton Hotel & Conference Center",
+      "address": "700 Myles Standish Blvd, Taunton, MA 02780",
+      "cost": "Visitor admission fee not stated; check organizer",
+      "ages": "Autistic people, families and community members; exact age limits not stated",
+      "summary": "Meet local support organizations and browse gifts from regional makers.",
+      "accessibility": [
+        "Governor Rooms 1 and 2; specific accommodations not published"
+      ],
+      "sourceId": "car-bazaar",
+      "sourceUrl": "https://givebutter.com/CARBazaar2026",
+      "ticketUrl": "https://givebutter.com/CARBazaar2026",
+      "registration": "Check the organizer’s registration page before attending.",
+      "cancellationPolicy": "Confirm with organizer.",
+      "notes": [
+        "Use the rear parking lot and rear conference entrance; hotel front doors are closed to event visitors.",
+        "Outside food and drinks are not allowed inside the conference center.",
+        "Event logistics also appear in the city calendar: https://www.taunton-ma.gov/m/calendar/event/detail/5702"
+      ],
+      "lastVerified": "2026-10-05T09:48:29Z",
+      "verificationMethod": "Organizer registration page and organizer-provided municipal event listing reviewed",
+      "reviewRequired": false,
+      "status": "scheduled",
+      "category": "Resource fair",
+      "format": "In person"
     },
     {
       "timezone": "America/New_York",
@@ -3103,6 +3380,69 @@
         "activity": "We can look at farm animals and move at our own pace during the quieter hour.",
         "break": "We can move back toward the parking/picnic area if we need more space."
       }
+    },
+    {
+      "id": "old-state-house-2026-11-28",
+      "title": "Sensory-Friendly Morning at the Old State House",
+      "start": "2026-11-28T09:00:00-05:00",
+      "end": "2026-11-28T10:00:00-05:00",
+      "timezone": "America/New_York",
+      "state": "MA",
+      "city": "Boston",
+      "venue": "Old State House",
+      "address": "206 Washington Street, Boston, MA 02109",
+      "cost": "$5 adults; ages 18 and under and members free",
+      "ages": "All ages",
+      "summary": "An early museum visit with reduced stimulation. Stairs are required; there is no step-free route.",
+      "accessibility": [
+        "Adjusted sound and lighting",
+        "Capacity: 20 visitors"
+      ],
+      "sourceId": "old-state-house-sensory",
+      "sourceUrl": "https://revolutionaryspaces.org/explore/sensory-friendly-mornings/",
+      "ticketUrl": "https://revolutionaryspaces.thundertix.com/events/249019",
+      "registration": "Check the organizer’s registration page before attending.",
+      "cancellationPolicy": "Confirm with organizer.",
+      "notes": [
+        "Six entrance steps; galleries and basement restrooms require stairs. https://revolutionaryspaces.org/visit/accessibility/"
+      ],
+      "lastVerified": "2026-10-05T09:48:29Z",
+      "verificationMethod": "Official organizer information reviewed",
+      "reviewRequired": false,
+      "status": "scheduled",
+      "category": "Sensory-friendly",
+      "format": "In person"
+    },
+    {
+      "id": "gilsland-accessible-birding-2026-11-28",
+      "title": "Accessible Beginner Birding at Gilsland Farm",
+      "start": "2026-11-28T09:00:00-05:00",
+      "end": "2026-11-28T11:00:00-05:00",
+      "timezone": "America/New_York",
+      "state": "ME",
+      "city": "Falmouth",
+      "venue": "Gilsland Farm Audubon Center",
+      "address": "20 Gilsland Farm Road, Falmouth, ME 04105",
+      "cost": "Fee not published; check registration",
+      "ages": "Beginners; age limits not published",
+      "summary": "Birdwatching with pauses and seating along the All Persons Trail.",
+      "accessibility": [
+        "Flat route; accessible restrooms and van parking"
+      ],
+      "sourceId": "gilsland-accessible-birding",
+      "sourceUrl": "https://maineaudubon.org/events/accessible-beginner-birding-fa26/",
+      "ticketUrl": "https://maineaudubon.ticketspice.com/fall-2026-accessible-beginner-birding-at-gilsland-farm",
+      "registration": "Check the organizer’s registration page before attending.",
+      "cancellationPolicy": "Confirm with organizer.",
+      "notes": [
+        "Register for trail and weather updates. Request accommodations at least seven days ahead."
+      ],
+      "lastVerified": "2026-10-05T09:48:29Z",
+      "verificationMethod": "Official organizer information reviewed",
+      "reviewRequired": false,
+      "status": "scheduled",
+      "category": "Nature & outdoors",
+      "format": "In person"
     },
     {
       "timezone": "America/New_York",
@@ -3493,6 +3833,38 @@
       "category": "Sensory-friendly",
       "format": "In person",
       "costCategory": "free"
+    },
+    {
+      "id": "old-state-house-2026-12-19",
+      "title": "Sensory-Friendly Morning at the Old State House",
+      "start": "2026-12-19T09:00:00-05:00",
+      "end": "2026-12-19T10:00:00-05:00",
+      "timezone": "America/New_York",
+      "state": "MA",
+      "city": "Boston",
+      "venue": "Old State House",
+      "address": "206 Washington Street, Boston, MA 02109",
+      "cost": "$5 adults; ages 18 and under and members free",
+      "ages": "All ages",
+      "summary": "An early museum visit with reduced stimulation. Stairs are required; there is no step-free route.",
+      "accessibility": [
+        "Adjusted sound and lighting",
+        "Capacity: 20 visitors"
+      ],
+      "sourceId": "old-state-house-sensory",
+      "sourceUrl": "https://revolutionaryspaces.org/explore/sensory-friendly-mornings/",
+      "ticketUrl": "https://revolutionaryspaces.thundertix.com/events/249019",
+      "registration": "Check the organizer’s registration page before attending.",
+      "cancellationPolicy": "Confirm with organizer.",
+      "notes": [
+        "Six entrance steps; galleries and basement restrooms require stairs. https://revolutionaryspaces.org/visit/accessibility/"
+      ],
+      "lastVerified": "2026-10-05T09:48:29Z",
+      "verificationMethod": "Official organizer information reviewed",
+      "reviewRequired": false,
+      "status": "scheduled",
+      "category": "Sensory-friendly",
+      "format": "In person"
     }
   ],
   "accessibilityStandard": {

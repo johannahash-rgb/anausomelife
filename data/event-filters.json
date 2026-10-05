@@ -2317,6 +2317,270 @@
         }
       },
       "checkedAt": "2026-10-05"
+    },
+    "old-state-house-2026-10-12": {
+      "ageGroups": [
+        "all-ages",
+        "children",
+        "teens",
+        "adults",
+        "families"
+      ],
+      "accessFeatures": [
+        "sensory-friendly"
+      ],
+      "ageEvidence": {
+        "all-ages": {
+          "url": "https://revolutionaryspaces.org/explore/sensory-friendly-mornings/",
+          "evidenceId": "old-state-house-sensory"
+        },
+        "children": {
+          "url": "https://revolutionaryspaces.org/explore/sensory-friendly-mornings/",
+          "evidenceId": "old-state-house-sensory"
+        },
+        "teens": {
+          "url": "https://revolutionaryspaces.org/explore/sensory-friendly-mornings/",
+          "evidenceId": "old-state-house-sensory"
+        },
+        "adults": {
+          "url": "https://revolutionaryspaces.org/explore/sensory-friendly-mornings/",
+          "evidenceId": "old-state-house-sensory"
+        },
+        "families": {
+          "url": "https://revolutionaryspaces.org/explore/sensory-friendly-mornings/",
+          "evidenceId": "old-state-house-sensory"
+        }
+      },
+      "accessEvidence": {
+        "sensory-friendly": {
+          "url": "https://revolutionaryspaces.org/explore/sensory-friendly-mornings/",
+          "evidenceId": "old-state-house-sensory"
+        }
+      },
+      "checkedAt": "2026-10-05",
+      "ageRange": {
+        "min": null,
+        "max": null,
+        "kind": "not-stated"
+      }
+    },
+    "old-state-house-2026-11-28": {
+      "ageGroups": [
+        "all-ages",
+        "children",
+        "teens",
+        "adults",
+        "families"
+      ],
+      "accessFeatures": [
+        "sensory-friendly"
+      ],
+      "ageEvidence": {
+        "all-ages": {
+          "url": "https://revolutionaryspaces.org/explore/sensory-friendly-mornings/",
+          "evidenceId": "old-state-house-sensory"
+        },
+        "children": {
+          "url": "https://revolutionaryspaces.org/explore/sensory-friendly-mornings/",
+          "evidenceId": "old-state-house-sensory"
+        },
+        "teens": {
+          "url": "https://revolutionaryspaces.org/explore/sensory-friendly-mornings/",
+          "evidenceId": "old-state-house-sensory"
+        },
+        "adults": {
+          "url": "https://revolutionaryspaces.org/explore/sensory-friendly-mornings/",
+          "evidenceId": "old-state-house-sensory"
+        },
+        "families": {
+          "url": "https://revolutionaryspaces.org/explore/sensory-friendly-mornings/",
+          "evidenceId": "old-state-house-sensory"
+        }
+      },
+      "accessEvidence": {
+        "sensory-friendly": {
+          "url": "https://revolutionaryspaces.org/explore/sensory-friendly-mornings/",
+          "evidenceId": "old-state-house-sensory"
+        }
+      },
+      "checkedAt": "2026-10-05",
+      "ageRange": {
+        "min": null,
+        "max": null,
+        "kind": "not-stated"
+      }
+    },
+    "old-state-house-2026-12-19": {
+      "ageGroups": [
+        "all-ages",
+        "children",
+        "teens",
+        "adults",
+        "families"
+      ],
+      "accessFeatures": [
+        "sensory-friendly"
+      ],
+      "ageEvidence": {
+        "all-ages": {
+          "url": "https://revolutionaryspaces.org/explore/sensory-friendly-mornings/",
+          "evidenceId": "old-state-house-sensory"
+        },
+        "children": {
+          "url": "https://revolutionaryspaces.org/explore/sensory-friendly-mornings/",
+          "evidenceId": "old-state-house-sensory"
+        },
+        "teens": {
+          "url": "https://revolutionaryspaces.org/explore/sensory-friendly-mornings/",
+          "evidenceId": "old-state-house-sensory"
+        },
+        "adults": {
+          "url": "https://revolutionaryspaces.org/explore/sensory-friendly-mornings/",
+          "evidenceId": "old-state-house-sensory"
+        },
+        "families": {
+          "url": "https://revolutionaryspaces.org/explore/sensory-friendly-mornings/",
+          "evidenceId": "old-state-house-sensory"
+        }
+      },
+      "accessEvidence": {
+        "sensory-friendly": {
+          "url": "https://revolutionaryspaces.org/explore/sensory-friendly-mornings/",
+          "evidenceId": "old-state-house-sensory"
+        }
+      },
+      "checkedAt": "2026-10-05",
+      "ageRange": {
+        "min": null,
+        "max": null,
+        "kind": "not-stated"
+      }
+    },
+    "carroll-alumni-trivia-2026-10-16": {
+      "ageGroups": [],
+      "accessFeatures": [
+        "vision-support"
+      ],
+      "ageEvidence": {},
+      "accessEvidence": {
+        "vision-support": {
+          "url": "https://carroll.org/events/carroll-alumni-trivia-night/",
+          "evidenceId": "carroll-alumni-trivia"
+        }
+      },
+      "checkedAt": "2026-10-05",
+      "ageRange": {
+        "min": null,
+        "max": null,
+        "kind": "not-stated"
+      }
+    },
+    "bierman-cranston-trunk-treat-2026-10-17": {
+      "ageGroups": [
+        "children",
+        "families"
+      ],
+      "accessFeatures": [
+        "sensory-friendly"
+      ],
+      "ageEvidence": {
+        "children": {
+          "url": "https://www.biermanautism.com/resources/sensory-friendly-events/",
+          "evidenceId": "bierman-cranston-events"
+        },
+        "families": {
+          "url": "https://www.biermanautism.com/resources/sensory-friendly-events/",
+          "evidenceId": "bierman-cranston-events"
+        }
+      },
+      "accessEvidence": {
+        "sensory-friendly": {
+          "url": "https://www.biermanautism.com/resources/sensory-friendly-events/",
+          "evidenceId": "bierman-cranston-events"
+        }
+      },
+      "checkedAt": "2026-10-05",
+      "ageRange": {
+        "min": null,
+        "max": null,
+        "kind": "not-stated"
+      }
+    },
+    "car-holiday-bazaar-2026-11-14": {
+      "ageGroups": [
+        "families"
+      ],
+      "accessFeatures": [],
+      "ageEvidence": {
+        "families": {
+          "url": "https://givebutter.com/CARBazaar2026",
+          "evidenceId": "car-bazaar"
+        }
+      },
+      "accessEvidence": {},
+      "checkedAt": "2026-10-05",
+      "ageRange": {
+        "min": null,
+        "max": null,
+        "kind": "not-stated"
+      }
+    },
+    "gilsland-accessible-birding-2026-10-24": {
+      "ageGroups": [],
+      "accessFeatures": [
+        "wheelchair-step-free"
+      ],
+      "ageEvidence": {},
+      "accessEvidence": {
+        "wheelchair-step-free": {
+          "url": "https://maineaudubon.org/events/accessible-beginner-birding-fa26/",
+          "evidenceId": "gilsland-accessible-birding"
+        }
+      },
+      "checkedAt": "2026-10-05",
+      "ageRange": {
+        "min": null,
+        "max": null,
+        "kind": "not-stated"
+      }
+    },
+    "gilsland-accessible-birding-2026-11-11": {
+      "ageGroups": [],
+      "accessFeatures": [
+        "wheelchair-step-free"
+      ],
+      "ageEvidence": {},
+      "accessEvidence": {
+        "wheelchair-step-free": {
+          "url": "https://maineaudubon.org/events/accessible-beginner-birding-fa26/",
+          "evidenceId": "gilsland-accessible-birding"
+        }
+      },
+      "checkedAt": "2026-10-05",
+      "ageRange": {
+        "min": null,
+        "max": null,
+        "kind": "not-stated"
+      }
+    },
+    "gilsland-accessible-birding-2026-11-28": {
+      "ageGroups": [],
+      "accessFeatures": [
+        "wheelchair-step-free"
+      ],
+      "ageEvidence": {},
+      "accessEvidence": {
+        "wheelchair-step-free": {
+          "url": "https://maineaudubon.org/events/accessible-beginner-birding-fa26/",
+          "evidenceId": "gilsland-accessible-birding"
+        }
+      },
+      "checkedAt": "2026-10-05",
+      "ageRange": {
+        "min": null,
+        "max": null,
+        "kind": "not-stated"
+      }
     }
   }
 }
