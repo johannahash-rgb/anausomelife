@@ -6,7 +6,7 @@ An AUsome Life should sound like a real person with taste, a sense of place and 
 **Warm, specific, observant, lightly wry.**
 Classic without cosplay. Autism-aware without therapy-copy. Honest without tragedy framing. Pretty without pretending logistics disappear.
 
-A useful test: could JoHannah plausibly say this out loud to a friend in the car? If not, rewrite it.
+A useful test: could the writer plausibly say this out loud to a friend in the car? If not, rewrite it.
 
 ## What belongs in the voice
 - Concrete observations over abstractions.
