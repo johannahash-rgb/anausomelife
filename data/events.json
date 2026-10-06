@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-10-04T00:00:00Z",
-  "lastEditorialReview": "2026-10-05T09:55:42Z",
+  "generatedAt": "2026-10-06T16:29:41Z",
+  "lastEditorialReview": "2026-10-06T16:29:41Z",
   "timezone": "America/New_York",
   "coverage": "Selected New England adaptive and sensory-friendly events, with a verified free-admission filter and free-program directory. Not exhaustive.",
   "refresh": {
@@ -1007,6 +1007,193 @@
       "sourceCheckedAt": "2026-10-05T09:55:42Z",
       "lastChecked": "2026-10-05T09:55:42Z",
       "status": "manually-checked"
+    },
+    {
+      "id": "echo-sensory",
+      "name": "ECHO, Leahy Center for Lake Champlain",
+      "url": "https://www.echovermont.org/event/sensory-friendly-sunday-2/2026-10-11/",
+      "state": "VT",
+      "mode": "check",
+      "enabled": true,
+      "timezone": "America/New_York",
+      "allowedHosts": [
+        "www.echovermont.org"
+      ],
+      "autoPublish": false,
+      "feedVerified": false,
+      "sourceCheckedAt": "2026-10-06T16:29:41Z",
+      "status": "manually-checked",
+      "lastChecked": "2026-10-06T16:29:41Z"
+    },
+    {
+      "id": "longhill-sensory",
+      "name": "Long Hill",
+      "url": "https://thetrustees.org/event/448968/",
+      "state": "MA",
+      "mode": "check",
+      "enabled": true,
+      "timezone": "America/New_York",
+      "allowedHosts": [
+        "thetrustees.org"
+      ],
+      "autoPublish": false,
+      "feedVerified": false,
+      "sourceCheckedAt": "2026-10-06T16:29:41Z",
+      "status": "manually-checked",
+      "lastChecked": "2026-10-06T16:29:41Z"
+    },
+    {
+      "id": "niantic-halloween",
+      "name": "Niantic Children’s Museum",
+      "url": "https://www.nianticchildrensmuseum.org/event/sensory-friendly-evening-halloween-art-6/",
+      "state": "CT",
+      "mode": "check",
+      "enabled": true,
+      "timezone": "America/New_York",
+      "allowedHosts": [
+        "www.nianticchildrensmuseum.org"
+      ],
+      "autoPublish": false,
+      "feedVerified": false,
+      "sourceCheckedAt": "2026-10-06T16:29:41Z",
+      "status": "manually-checked",
+      "lastChecked": "2026-10-06T16:29:41Z"
+    },
+    {
+      "id": "breakers-halloween",
+      "name": "The Breakers",
+      "url": "https://www.newportmansions.org/events/halloween-trick-or-treat-at-the-breakers-2/",
+      "state": "RI",
+      "mode": "check",
+      "enabled": true,
+      "timezone": "America/New_York",
+      "allowedHosts": [
+        "www.newportmansions.org"
+      ],
+      "autoPublish": false,
+      "feedVerified": false,
+      "sourceCheckedAt": "2026-10-06T16:29:41Z",
+      "status": "manually-checked",
+      "lastChecked": "2026-10-06T16:29:41Z"
+    },
+    {
+      "id": "bso-holiday",
+      "name": "Symphony Hall",
+      "url": "https://www.bso.org/events/2026-holiday-pops-sensory-friendly",
+      "state": "MA",
+      "mode": "check",
+      "enabled": true,
+      "timezone": "America/New_York",
+      "allowedHosts": [
+        "www.bso.org"
+      ],
+      "autoPublish": false,
+      "feedVerified": false,
+      "sourceCheckedAt": "2026-10-06T16:29:41Z",
+      "status": "manually-checked",
+      "lastChecked": "2026-10-06T16:29:41Z"
+    },
+    {
+      "id": "toyshop-sensory",
+      "name": "Hoffman Auditorium, University of Saint Joseph",
+      "url": "https://www.neballettheatre.com/fts",
+      "state": "CT",
+      "mode": "check",
+      "enabled": true,
+      "timezone": "America/New_York",
+      "allowedHosts": [
+        "www.neballettheatre.com"
+      ],
+      "autoPublish": false,
+      "feedVerified": false,
+      "sourceCheckedAt": "2026-10-06T16:29:41Z",
+      "status": "manually-checked",
+      "lastChecked": "2026-10-06T16:29:41Z"
+    },
+    {
+      "id": "northshore-santa",
+      "name": "Northshore Mall — Lower Level near The North Face",
+      "url": "https://www.simon.com/mall/northshore-mall/stores/santa-photo-experience/stream/a-special-visit-with-caring-santa-6289957",
+      "state": "MA",
+      "mode": "check",
+      "enabled": true,
+      "timezone": "America/New_York",
+      "allowedHosts": [
+        "www.simon.com"
+      ],
+      "autoPublish": false,
+      "feedVerified": false,
+      "sourceCheckedAt": "2026-10-06T16:29:41Z",
+      "status": "manually-checked",
+      "lastChecked": "2026-10-06T16:29:41Z"
+    },
+    {
+      "id": "communityhouse-santa",
+      "name": "The Community House",
+      "url": "https://communityhouse.org/santa/",
+      "state": "MA",
+      "mode": "check",
+      "enabled": true,
+      "timezone": "America/New_York",
+      "allowedHosts": [
+        "communityhouse.org"
+      ],
+      "autoPublish": false,
+      "feedVerified": false,
+      "sourceCheckedAt": "2026-10-06T16:29:41Z",
+      "status": "manually-checked",
+      "lastChecked": "2026-10-06T16:29:41Z"
+    },
+    {
+      "id": "castlehill-christmas",
+      "name": "Castle Hill on the Crane Estate",
+      "url": "https://thetrustees.org/event/450153/",
+      "state": "MA",
+      "mode": "check",
+      "enabled": true,
+      "timezone": "America/New_York",
+      "allowedHosts": [
+        "thetrustees.org"
+      ],
+      "autoPublish": false,
+      "feedVerified": false,
+      "sourceCheckedAt": "2026-10-06T16:29:41Z",
+      "status": "manually-checked",
+      "lastChecked": "2026-10-06T16:29:41Z"
+    },
+    {
+      "id": "crc-halloween",
+      "name": "Charles River Center Needham",
+      "url": "https://www.charlesrivercenter.org/event/hello-fall-social-3/",
+      "state": "MA",
+      "mode": "check",
+      "enabled": true,
+      "timezone": "America/New_York",
+      "allowedHosts": [
+        "www.charlesrivercenter.org"
+      ],
+      "autoPublish": false,
+      "feedVerified": false,
+      "sourceCheckedAt": "2026-10-06T16:29:41Z",
+      "status": "manually-checked",
+      "lastChecked": "2026-10-06T16:29:41Z"
+    },
+    {
+      "id": "raisingharts-tricks",
+      "name": "City Arena",
+      "url": "https://www.raisingharts.org/tricks-treats",
+      "state": "MA",
+      "mode": "check",
+      "enabled": true,
+      "timezone": "America/New_York",
+      "allowedHosts": [
+        "www.raisingharts.org"
+      ],
+      "autoPublish": false,
+      "feedVerified": false,
+      "sourceCheckedAt": "2026-10-06T16:29:41Z",
+      "status": "manually-checked",
+      "lastChecked": "2026-10-06T16:29:41Z"
     }
   ],
   "events": [
@@ -1411,6 +1598,41 @@
       }
     },
     {
+      "id": "longhill-sensory-2026-10-09",
+      "title": "Sensory-Friendly Halloween on the Hill",
+      "start": "2026-10-09T16:00:00-04:00",
+      "end": "2026-10-09T17:00:00-04:00",
+      "timezone": "America/New_York",
+      "state": "MA",
+      "city": "Beverly",
+      "venue": "Long Hill",
+      "address": "576 Essex Street, Beverly, MA 01915",
+      "cost": "Members: $27 adult / $10 child; nonmembers: $32 adult / $15 child",
+      "ages": "Families and visitors who benefit from reduced crowds or sensory adjustments",
+      "summary": "A pumpkin-trail visit with an earlier arrival window. Effects may return from 4:30 p.m.; the main trail has stairs and uneven ground.",
+      "sourceId": "longhill-sensory",
+      "sourceUrl": "https://thetrustees.org/event/448968/",
+      "ticketUrl": null,
+      "category": "Halloween",
+      "format": "In person",
+      "accessibility": [
+        "Reduced guest numbers",
+        "Music, strobes and vortex tunnel initially off",
+        "Limited sensory kits and pre-visit story available"
+      ],
+      "registration": "Advance tickets required; none sold on site.",
+      "cancellationPolicy": "Confirm current cancellation and refund terms with the organizer.",
+      "notes": [
+        "The page lists 4–5 p.m. but says staff begin turning on music, fog and other effects at 4:30 p.m. Confirm the practical quiet window before booking.",
+        "The organizer says the route is not wheelchair or stroller accessible. A shorter alternative path shows only part of the display; ask about its suitability."
+      ],
+      "lastVerified": "2026-10-06T16:29:41Z",
+      "verificationMethod": "Official organizer event information reviewed.",
+      "reviewRequired": false,
+      "status": "scheduled",
+      "costCategory": "paid"
+    },
+    {
       "timezone": "America/New_York",
       "ticketUrl": "https://childrens-museum.org/programs/exploring-our-way/",
       "cancellationPolicy": "Not stated in the checked listing; confirm with the organizer.",
@@ -1645,6 +1867,38 @@
       "status": "scheduled",
       "category": "Sensory play",
       "format": "In person"
+    },
+    {
+      "id": "echo-sensory-2026-10-11",
+      "title": "Sensory Friendly Sunday at ECHO",
+      "start": "2026-10-11T09:00:00-04:00",
+      "end": "2026-10-11T10:00:00-04:00",
+      "timezone": "America/New_York",
+      "state": "VT",
+      "city": "Burlington",
+      "venue": "ECHO, Leahy Center for Lake Champlain",
+      "address": "1 College Street, Burlington, VT 05401",
+      "cost": "Free for families with sensory-processing differences",
+      "ages": "Children, teens and adults with sensory-processing differences, autism or developmental disabilities, and their families",
+      "summary": "A free early museum hour with adjusted sound and lighting before public opening.",
+      "sourceId": "echo-sensory",
+      "sourceUrl": "https://www.echovermont.org/event/sensory-friendly-sunday-2/2026-10-11/",
+      "ticketUrl": null,
+      "category": "Sensory-friendly",
+      "format": "In person",
+      "accessibility": [
+        "Museum closed to general public during the hour",
+        "Adjusted lighting and sound",
+        "Sensory backpacks available"
+      ],
+      "registration": "Use the RSVP link on the organizer page.",
+      "cancellationPolicy": "Confirm current cancellation and refund terms with the organizer.",
+      "notes": [],
+      "lastVerified": "2026-10-06T16:29:41Z",
+      "verificationMethod": "Official organizer event information reviewed.",
+      "reviewRequired": false,
+      "status": "scheduled",
+      "costCategory": "free"
     },
     {
       "id": "jcc-sensory-2026-10-11",
@@ -2040,6 +2294,39 @@
       "format": "In person"
     },
     {
+      "id": "niantic-halloween-2026-10-16",
+      "title": "Sensory-Friendly Evening: Halloween Art",
+      "start": "2026-10-16T17:00:00-04:00",
+      "end": "2026-10-16T19:00:00-04:00",
+      "timezone": "America/New_York",
+      "state": "CT",
+      "city": "Niantic",
+      "venue": "Niantic Children’s Museum",
+      "address": "409 Main Street, Niantic, CT 06357",
+      "cost": "Free; pre-registration required",
+      "ages": "Families with children on the autism spectrum or with sensory-processing challenges",
+      "summary": "Choose from Halloween and autumn art activities at your own pace, with quiet corners and sensory bins.",
+      "sourceId": "niantic-halloween",
+      "sourceUrl": "https://www.nianticchildrensmuseum.org/event/sensory-friendly-evening-halloween-art-6/",
+      "ticketUrl": null,
+      "category": "Halloween",
+      "format": "In person",
+      "accessibility": [
+        "Quiet corners",
+        "Sensory bins",
+        "Choose activities and timing within the session",
+        "No diagnosis documentation required"
+      ],
+      "registration": "Free advance registration required.",
+      "cancellationPolicy": "Confirm current cancellation and refund terms with the organizer.",
+      "notes": [],
+      "lastVerified": "2026-10-06T16:29:41Z",
+      "verificationMethod": "Official organizer event information reviewed.",
+      "reviewRequired": false,
+      "status": "scheduled",
+      "costCategory": "free"
+    },
+    {
       "timezone": "America/New_York",
       "ticketUrl": null,
       "cancellationPolicy": "Not stated in the checked listing; confirm with the organizer.",
@@ -2070,6 +2357,34 @@
       "sourceUrl": "https://autismalliance.org/events/halloween-dance-party",
       "registration": "Registration required; space is limited and the organizer may use a lottery.",
       "category": "Halloween"
+    },
+    {
+      "id": "crc-halloween-2026-10-16",
+      "title": "Charles River Center Halloween Social",
+      "start": "2026-10-16T18:30:00-04:00",
+      "end": "2026-10-16T20:00:00-04:00",
+      "timezone": "America/New_York",
+      "state": "MA",
+      "city": "Needham",
+      "venue": "Charles River Center Needham",
+      "address": "59 East Militia Heights Drive, Needham, MA 02492",
+      "cost": "$10 per person; confirm chaperone pricing",
+      "ages": "Ages 16+; every attendee must bring a chaperone",
+      "summary": "An evening Halloween social for the Charles River Center community. A chaperone is required for every attendee.",
+      "sourceId": "crc-halloween",
+      "sourceUrl": "https://www.charlesrivercenter.org/event/hello-fall-social-3/",
+      "ticketUrl": null,
+      "category": "Disability community",
+      "format": "In person",
+      "accessibility": [],
+      "registration": "Use the registration link on the organizer page; confirm eligibility and support arrangements.",
+      "cancellationPolicy": "Confirm current cancellation and refund terms with the organizer.",
+      "notes": [],
+      "lastVerified": "2026-10-06T16:29:41Z",
+      "verificationMethod": "Official organizer event information reviewed.",
+      "reviewRequired": false,
+      "status": "scheduled",
+      "costCategory": "paid"
     },
     {
       "id": "montshire-2026-10-17",
@@ -2209,6 +2524,41 @@
       "format": "In person"
     },
     {
+      "id": "weir-boo-2026-10-17",
+      "title": "Sensory-Friendly Boo in the Barnyard",
+      "start": "2026-10-17T13:00:00-04:00",
+      "end": "2026-10-17T14:00:00-04:00",
+      "timezone": "America/New_York",
+      "state": "MA",
+      "city": "Hingham",
+      "venue": "Weir River Farm",
+      "address": "140 Turkey Hill Lane, Hingham, MA 02043",
+      "cost": "Members: $5 per adult/child; nonmembers: $10; under 2 free",
+      "ages": "Families who benefit from a limited-capacity visit",
+      "summary": "Meet farm animals, try a seasonal craft and enjoy a Halloween scavenger hunt during a smaller session.",
+      "sourceId": "weir",
+      "sourceUrl": "https://thetrustees.org/event/448759/",
+      "ticketUrl": null,
+      "category": "Halloween",
+      "format": "In person",
+      "accessibility": [
+        "Reduced attendance and quieter session",
+        "Limited loan headphones and sensory kits",
+        "Visual visit guide available"
+      ],
+      "registration": "Pre-registration required.",
+      "cancellationPolicy": "Confirm current cancellation and refund terms with the organizer.",
+      "notes": [
+        "Costumes should not have flowing capes around the animals.",
+        "Meet in the barnyard; park across from the Studio and follow the chute downhill. Confirm mobility needs before booking."
+      ],
+      "lastVerified": "2026-10-06T16:29:41Z",
+      "verificationMethod": "Official organizer event information reviewed.",
+      "reviewRequired": false,
+      "status": "scheduled",
+      "costCategory": "paid"
+    },
+    {
       "id": "jcc-sensory-2026-10-17",
       "title": "Sensory Swim Hour",
       "start": "2026-10-17T15:00:00-04:00",
@@ -2302,6 +2652,40 @@
       "status": "scheduled",
       "category": "Sensory-friendly",
       "format": "In person"
+    },
+    {
+      "id": "raisingharts-tricks-2026-10-18",
+      "title": "Tricks + Treats — Sensory-Friendly Hour",
+      "start": "2026-10-18T16:00:00-04:00",
+      "end": "2026-10-18T17:00:00-04:00",
+      "timezone": "America/New_York",
+      "state": "MA",
+      "city": "Pembroke",
+      "venue": "City Arena",
+      "address": "708 Washington Street, Pembroke, MA",
+      "cost": "$15 per child or $25 per family in advance; $30 at the door per organizer",
+      "ages": "All ages and families",
+      "summary": "An inclusive Halloween celebration with a dedicated first hour for sensory-sensitive visitors.",
+      "sourceId": "raisingharts-tricks",
+      "sourceUrl": "https://www.raisingharts.org/tricks-treats",
+      "ticketUrl": null,
+      "category": "Halloween",
+      "format": "In person",
+      "accessibility": [
+        "Lights on during sensory hour",
+        "No strobes, fog machine or music during sensory hour"
+      ],
+      "registration": "Reserve the 4–5 p.m. sensory time; early registration encouraged.",
+      "cancellationPolicy": "Confirm current cancellation and refund terms with the organizer.",
+      "notes": [
+        "The full event runs 4–7 p.m.; sensory changes apply only to 4–5 p.m.",
+        "Date and venue: https://www.raisingharts.org/events-at-raising-harts/85n94bdtc83kph9-s8wsx-999jg-bkmlc-r6jhe-555l9-kj74a-n6kg3-dn84e-6sfnb-zrhnw-455lf-5l469-a65rm-bzpzz"
+      ],
+      "lastVerified": "2026-10-06T16:29:41Z",
+      "verificationMethod": "Official organizer event information reviewed.",
+      "reviewRequired": false,
+      "status": "scheduled",
+      "costCategory": "paid"
     },
     {
       "timezone": "America/New_York",
@@ -2558,6 +2942,74 @@
       "sourceUrl": "https://autismalliance.org/events/after-school-zoo-club-ages-5-12?instance=2",
       "registration": "Registration required to receive the Zoom link.",
       "category": "Autism community"
+    },
+    {
+      "id": "longhill-sensory-2026-10-23",
+      "title": "Sensory-Friendly Halloween on the Hill",
+      "start": "2026-10-23T16:00:00-04:00",
+      "end": "2026-10-23T17:00:00-04:00",
+      "timezone": "America/New_York",
+      "state": "MA",
+      "city": "Beverly",
+      "venue": "Long Hill",
+      "address": "576 Essex Street, Beverly, MA 01915",
+      "cost": "Members: $27 adult / $10 child; nonmembers: $32 adult / $15 child",
+      "ages": "Families and visitors who benefit from reduced crowds or sensory adjustments",
+      "summary": "A pumpkin-trail visit with an earlier arrival window. Effects may return from 4:30 p.m.; the main trail has stairs and uneven ground.",
+      "sourceId": "longhill-sensory",
+      "sourceUrl": "https://thetrustees.org/event/448969/",
+      "ticketUrl": null,
+      "category": "Halloween",
+      "format": "In person",
+      "accessibility": [
+        "Reduced guest numbers",
+        "Music, strobes and vortex tunnel initially off",
+        "Limited sensory kits and pre-visit story available"
+      ],
+      "registration": "Advance tickets required; none sold on site.",
+      "cancellationPolicy": "Confirm current cancellation and refund terms with the organizer.",
+      "notes": [
+        "The page lists 4–5 p.m. but says staff begin turning on music, fog and other effects at 4:30 p.m. Confirm the practical quiet window before booking.",
+        "The organizer says the route is not wheelchair or stroller accessible. A shorter alternative path shows only part of the display; ask about its suitability."
+      ],
+      "lastVerified": "2026-10-06T16:29:41Z",
+      "verificationMethod": "Official organizer event information reviewed.",
+      "reviewRequired": false,
+      "status": "scheduled",
+      "costCategory": "paid"
+    },
+    {
+      "id": "breakers-halloween-2026-10-23",
+      "title": "The Breakers: Sensory-Friendly Trick or Treat",
+      "start": "2026-10-23T17:30:00-04:00",
+      "end": "2026-10-23T18:00:00-04:00",
+      "timezone": "America/New_York",
+      "state": "RI",
+      "city": "Newport",
+      "venue": "The Breakers",
+      "address": "44 Ochre Point Avenue, Newport, RI 02840",
+      "cost": "$10 adults and ages 2–17; under 2 and Preservation Society family-level members free",
+      "ages": "Children and families; children must be accompanied by an adult",
+      "summary": "The first half-hour has the same Halloween decorations and treats with music and strobe lighting removed.",
+      "sourceId": "breakers-halloween",
+      "sourceUrl": "https://www.newportmansions.org/events/halloween-trick-or-treat-at-the-breakers-2/",
+      "ticketUrl": null,
+      "category": "Halloween",
+      "format": "In person",
+      "accessibility": [
+        "No music or strobe lighting during 5:30–6 p.m."
+      ],
+      "registration": "Advance ticket purchase required; choose Friday’s 5:30 p.m. session.",
+      "cancellationPolicy": "Confirm current cancellation and refund terms with the organizer.",
+      "notes": [
+        "Only 5:30–6 p.m. is sensory-friendly. The 6–6:30 p.m. portion of the ticketed session uses the regular experience.",
+        "Spooky decorations remain; prop weapons and pointed costume accessories are prohibited."
+      ],
+      "lastVerified": "2026-10-06T16:29:41Z",
+      "verificationMethod": "Official organizer event information reviewed.",
+      "reviewRequired": false,
+      "status": "scheduled",
+      "costCategory": "paid"
     },
     {
       "id": "gilsland-accessible-birding-2026-10-24",
@@ -2833,6 +3285,42 @@
       "category": "Inclusive sports"
     },
     {
+      "id": "clpvd-2026-10-27",
+      "title": "Sensory Friendly Storytime",
+      "start": "2026-10-27T10:30:00-04:00",
+      "end": "2026-10-27T11:15:00-04:00",
+      "timezone": "America/New_York",
+      "state": "RI",
+      "city": "Providence",
+      "venue": "Mt. Pleasant Library, Children’s Area",
+      "address": "315 Academy Avenue, Providence, RI 02908",
+      "cost": "Free library program",
+      "ages": "Recommended ages 0–5; all ages welcome",
+      "summary": "Stories, songs, movement, and bubbles with supports available.",
+      "accessibility": [
+        "Fidget toys",
+        "Visual supports"
+      ],
+      "sourceId": "clpvd",
+      "sourceUrl": "https://clpvd.org/event/sensory-friendly-storytime/2026-10-27/",
+      "ticketUrl": null,
+      "registration": "Check organizer for registration details.",
+      "cancellationPolicy": "Not stated in the checked listing; confirm with the organizer.",
+      "notes": [],
+      "lastVerified": "2026-10-06T16:29:41Z",
+      "verificationMethod": "Official organizer page reviewed",
+      "reviewRequired": false,
+      "status": "scheduled",
+      "category": "Sensory-friendly",
+      "format": "In person",
+      "costCategory": "free",
+      "costEvidence": {
+        "url": "https://clpvd.org/learn/",
+        "checkedAt": "2026-10-05",
+        "note": "Organizer states its educational and cultural programming is free."
+      }
+    },
+    {
       "timezone": "America/New_York",
       "ticketUrl": null,
       "cancellationPolicy": "Not stated in the checked listing; confirm with the organizer.",
@@ -3060,6 +3548,41 @@
         "activity": "There may be treats and activities from local groups. We can choose one thing or skip things.",
         "break": "We can ask for a quieter place or step away if the room feels busy."
       }
+    },
+    {
+      "id": "weir-boo-2026-10-31",
+      "title": "Sensory-Friendly Boo in the Barnyard",
+      "start": "2026-10-31T13:00:00-04:00",
+      "end": "2026-10-31T14:00:00-04:00",
+      "timezone": "America/New_York",
+      "state": "MA",
+      "city": "Hingham",
+      "venue": "Weir River Farm",
+      "address": "140 Turkey Hill Lane, Hingham, MA 02043",
+      "cost": "Members: $5 per adult/child; nonmembers: $10; under 2 free",
+      "ages": "Families who benefit from a limited-capacity visit",
+      "summary": "Meet farm animals, try a seasonal craft and enjoy a Halloween scavenger hunt during a smaller session.",
+      "sourceId": "weir",
+      "sourceUrl": "https://thetrustees.org/event/448757/",
+      "ticketUrl": null,
+      "category": "Halloween",
+      "format": "In person",
+      "accessibility": [
+        "Reduced attendance and quieter session",
+        "Limited loan headphones and sensory kits",
+        "Visual visit guide available"
+      ],
+      "registration": "Pre-registration required.",
+      "cancellationPolicy": "Confirm current cancellation and refund terms with the organizer.",
+      "notes": [
+        "Costumes should not have flowing capes around the animals.",
+        "Meet in the barnyard; park across from the Studio and follow the chute downhill. Confirm mobility needs before booking."
+      ],
+      "lastVerified": "2026-10-06T16:29:41Z",
+      "verificationMethod": "Official organizer event information reviewed.",
+      "reviewRequired": false,
+      "status": "scheduled",
+      "costCategory": "paid"
     },
     {
       "timezone": "America/New_York",
@@ -3420,6 +3943,40 @@
       "category": "Travel practice"
     },
     {
+      "id": "weir-open-2026-11-07",
+      "title": "Sensory-Friendly Open Barnyard",
+      "start": "2026-11-07T11:00:00-05:00",
+      "end": "2026-11-07T12:00:00-05:00",
+      "timezone": "America/New_York",
+      "state": "MA",
+      "city": "Hingham",
+      "venue": "Weir River Farm",
+      "address": "140 Turkey Hill Lane, Hingham, MA 02043",
+      "cost": "Members: $5 per adult/child; nonmembers: $10; ages 2 and under free",
+      "ages": "Families who benefit from a limited-capacity visit",
+      "summary": "A smaller farm visit to meet the barnyard animals.",
+      "sourceId": "weir",
+      "sourceUrl": "https://thetrustees.org/event/448728/",
+      "ticketUrl": null,
+      "category": "Nature & outdoors",
+      "format": "In person",
+      "accessibility": [
+        "Reduced attendance and quieter session",
+        "Limited loan headphones and sensory kits",
+        "Visual visit guide available"
+      ],
+      "registration": "Pre-registration required.",
+      "cancellationPolicy": "Confirm current cancellation and refund terms with the organizer.",
+      "notes": [
+        "Park across from the Studio; the route to the barnyard runs downhill. Confirm mobility needs."
+      ],
+      "lastVerified": "2026-10-06T16:29:41Z",
+      "verificationMethod": "Official organizer event information reviewed.",
+      "reviewRequired": false,
+      "status": "scheduled",
+      "costCategory": "paid"
+    },
+    {
       "timezone": "America/New_York",
       "ticketUrl": null,
       "cancellationPolicy": "Not stated in the checked listing; confirm with the organizer.",
@@ -3480,6 +4037,38 @@
       "sourceUrl": "https://www.specialolympicsma.org/events/events-calendar",
       "registration": "Athlete participation follows Special Olympics registration; check organizer for spectator or volunteer details.",
       "category": "Inclusive sports"
+    },
+    {
+      "id": "echo-sensory-2026-11-08",
+      "title": "Sensory Friendly Sunday at ECHO",
+      "start": "2026-11-08T09:00:00-05:00",
+      "end": "2026-11-08T10:00:00-05:00",
+      "timezone": "America/New_York",
+      "state": "VT",
+      "city": "Burlington",
+      "venue": "ECHO, Leahy Center for Lake Champlain",
+      "address": "1 College Street, Burlington, VT 05401",
+      "cost": "Free for families with sensory-processing differences",
+      "ages": "Children, teens and adults with sensory-processing differences, autism or developmental disabilities, and their families",
+      "summary": "A free early museum hour with adjusted sound and lighting before public opening.",
+      "sourceId": "echo-sensory",
+      "sourceUrl": "https://www.echovermont.org/event/sensory-friendly-sunday-2/2026-11-08/",
+      "ticketUrl": null,
+      "category": "Sensory-friendly",
+      "format": "In person",
+      "accessibility": [
+        "Museum closed to general public during the hour",
+        "Adjusted lighting and sound",
+        "Sensory backpacks available"
+      ],
+      "registration": "Use the RSVP link on the organizer page.",
+      "cancellationPolicy": "Confirm current cancellation and refund terms with the organizer.",
+      "notes": [],
+      "lastVerified": "2026-10-06T16:29:41Z",
+      "verificationMethod": "Official organizer event information reviewed.",
+      "reviewRequired": false,
+      "status": "scheduled",
+      "costCategory": "free"
     },
     {
       "timezone": "America/New_York",
@@ -3611,8 +4200,10 @@
       "timezone": "America/New_York",
       "ticketUrl": "https://childrens-museum.org/programs/exploring-our-way/",
       "cancellationPolicy": "Not stated in the checked listing; confirm with the organizer.",
-      "notes": [],
-      "lastVerified": "2026-10-04T00:00:00Z",
+      "notes": [
+        "Optional costumed Pete the Cat meeting from 5–5:30 p.m.; ask staff how to bypass the character activity."
+      ],
+      "lastVerified": "2026-10-06T16:29:41Z",
       "verificationMethod": "Official organizer/event page reviewed",
       "reviewRequired": false,
       "status": "scheduled",
@@ -4137,9 +4728,11 @@
       "ticketUrl": "https://shelburnemuseum.org/visit/winter-lights/",
       "cancellationPolicy": "Not stated in the checked listing; confirm with the organizer.",
       "notes": [
-        "The outdoor route includes packed gravel and slopes; snow or ice can affect access. Ask about the current route and conditions."
+        "The outdoor route includes packed gravel and slopes; snow or ice can affect access. Ask about the current route and conditions.",
+        "Lights and sound are not adjusted for sensory-friendly sessions; the organizer describes them as gentle and soft.",
+        "The general Winter Lights page also notes motion lights in some installations; ask the museum about specific displays before booking."
       ],
-      "lastVerified": "2026-10-03T11:04:00Z",
+      "lastVerified": "2026-10-06T16:29:41Z",
       "verificationMethod": "Official organizer/event page reviewed",
       "reviewRequired": false,
       "status": "scheduled",
@@ -4164,7 +4757,7 @@
       ],
       "sourceId": "shelburne",
       "sourceUrl": "https://shelburnemuseum.org/event/sensory-friendly-winter-lights-2-4/",
-      "registration": "Advance registration strongly recommended.",
+      "registration": "Advance registration required through the organizer’s sensory-session booking link.",
       "visualStory": {
         "arrival": "We can arrive after dark and check in for Winter Lights. It will be outdoors and cold-weather clothing may help.",
         "activity": "We can walk through gentle light displays. The route is about a half-mile with gravel and hills.",
@@ -4343,6 +4936,141 @@
       "category": "Disability community"
     },
     {
+      "id": "castlehill-christmas-2026-12-05",
+      "title": "An Artful Christmas — Sensory-Friendly Hours",
+      "start": "2026-12-05T10:00:00-05:00",
+      "end": "2026-12-05T11:30:00-05:00",
+      "timezone": "America/New_York",
+      "state": "MA",
+      "city": "Ipswich",
+      "venue": "Castle Hill on the Crane Estate",
+      "address": "290 Argilla Road, Ipswich, MA 01938",
+      "cost": "Members: $18 adult / $10 child; nonmembers: $28 adult / $20 child; ages 4 and under free. Ipswich resident discount with ID.",
+      "ages": "Families and visitors of all ages; child ticket rate is ages 5–14",
+      "summary": "Explore artist-inspired holiday decorations at your own pace. The second floor requires 30 stairs; there is no elevator.",
+      "sourceId": "castlehill-christmas",
+      "sourceUrl": "https://thetrustees.org/event/450153/",
+      "ticketUrl": null,
+      "category": "Holiday",
+      "format": "In person",
+      "accessibility": [
+        "Reduced attendance during 10–11:30 a.m.",
+        "No music or flickering lights during sensory hours",
+        "Digital display of second-floor rooms for visitors unable to climb stairs"
+      ],
+      "registration": "Advance timed reservations strongly recommended; select a time within the sensory hours.",
+      "cancellationPolicy": "Confirm current cancellation and refund terms with the organizer.",
+      "notes": [
+        "Sensory hours are only December 5 and 12, 10–11:30 a.m. Regular hours extend later.",
+        "The Grand Stair has 30 steps and no elevator; ask about the entrance and first-floor route."
+      ],
+      "lastVerified": "2026-10-06T16:29:41Z",
+      "verificationMethod": "Official organizer event information reviewed.",
+      "reviewRequired": false,
+      "status": "scheduled",
+      "costCategory": "paid"
+    },
+    {
+      "id": "bso-holiday-2026-12-05",
+      "title": "Sensory-Friendly Holiday Pops",
+      "start": "2026-12-05T10:30:00-05:00",
+      "end": "2026-12-05T11:30:00-05:00",
+      "timezone": "America/New_York",
+      "state": "MA",
+      "city": "Boston",
+      "venue": "Symphony Hall",
+      "address": "301 Massachusetts Avenue, Boston, MA 02115",
+      "cost": "Ticketed; check current prices and seat availability",
+      "ages": "Children and adults with autism or sensory sensitivities, and their families",
+      "summary": "A shortened, approximately one-hour holiday concert with relaxed audience rules and quieter support spaces.",
+      "sourceId": "bso-holiday",
+      "sourceUrl": "https://www.bso.org/events/2026-holiday-pops-sensory-friendly",
+      "ticketUrl": null,
+      "category": "Accessible arts",
+      "format": "In person",
+      "accessibility": [
+        "Reduced volume and lighting levels",
+        "Movement welcome",
+        "Noise-reduction headphones available",
+        "Quiet room and support spaces"
+      ],
+      "registration": "Tickets required; contact the box office about seating and accommodations.",
+      "cancellationPolicy": "Confirm current cancellation and refund terms with the organizer.",
+      "notes": [
+        "One-hour end time follows the published program duration."
+      ],
+      "lastVerified": "2026-10-06T16:29:41Z",
+      "verificationMethod": "Official organizer event information reviewed.",
+      "reviewRequired": false,
+      "status": "scheduled",
+      "costCategory": "paid"
+    },
+    {
+      "id": "toyshop-sensory-2026-12-05",
+      "title": "The Fantastic Toyshop — Sensory-Friendly Ballet",
+      "start": "2026-12-05T14:00:00-05:00",
+      "end": "2026-12-05T15:15:00-05:00",
+      "timezone": "America/New_York",
+      "state": "CT",
+      "city": "West Hartford",
+      "venue": "Hoffman Auditorium, University of Saint Joseph",
+      "address": "1678 Asylum Avenue, West Hartford, CT 06117",
+      "cost": "Ticket prices not yet published on the checked page",
+      "ages": "Age range not specified; ask the organizer",
+      "summary": "A Hartford holiday ballet with a designated sensory-friendly Saturday matinee; published running time is approximately 75 minutes.",
+      "sourceId": "toyshop-sensory",
+      "sourceUrl": "https://www.neballettheatre.com/fts",
+      "ticketUrl": null,
+      "category": "Accessible arts",
+      "format": "In person",
+      "accessibility": [
+        "Organizer-designated sensory-friendly performance"
+      ],
+      "registration": "Organizer says tickets are on sale soon; check its page for booking.",
+      "cancellationPolicy": "Confirm current cancellation and refund terms with the organizer.",
+      "notes": [
+        "The 3:15 p.m. finish is approximate, calculated from the published 75-minute running time.",
+        "Use the West Entrance and Lot J. Ask about sound, lighting, breaks and step-free seating before booking."
+      ],
+      "lastVerified": "2026-10-06T16:29:41Z",
+      "verificationMethod": "Official organizer event information reviewed.",
+      "reviewRequired": false,
+      "status": "scheduled",
+      "endApproximate": true
+    },
+    {
+      "id": "northshore-santa-2026-12-06",
+      "title": "Caring Santa at Northshore Mall",
+      "start": "2026-12-06T09:00:00-05:00",
+      "end": "2026-12-06T10:30:00-05:00",
+      "timezone": "America/New_York",
+      "state": "MA",
+      "city": "Peabody",
+      "venue": "Northshore Mall — Lower Level near The North Face",
+      "address": "Northshore Mall, Peabody, MA",
+      "cost": "Photos available for purchase; confirm package prices and any visit fee",
+      "ages": "Children with disabilities and their families",
+      "summary": "A private, reserved sensory-friendly Santa photo session before the regular day.",
+      "sourceId": "northshore-santa",
+      "sourceUrl": "https://www.simon.com/mall/northshore-mall/stores/santa-photo-experience/stream/a-special-visit-with-caring-santa-6289957",
+      "ticketUrl": null,
+      "category": "Holiday",
+      "format": "In person",
+      "accessibility": [
+        "Private sensory-friendly session"
+      ],
+      "registration": "Reservations required through the organizer’s linked booking page.",
+      "cancellationPolicy": "Confirm current cancellation and refund terms with the organizer.",
+      "notes": [
+        "Use the mall entrance between Brooks Brothers and The North Face.",
+        "The listing does not specify lighting, flash photography or a quiet space; confirm those details if needed."
+      ],
+      "lastVerified": "2026-10-06T16:29:41Z",
+      "verificationMethod": "Official organizer event information reviewed.",
+      "reviewRequired": false,
+      "status": "scheduled"
+    },
+    {
       "timezone": "America/New_York",
       "ticketUrl": "https://childrens-museum.org/programs/exploring-our-way/",
       "cancellationPolicy": "Not stated in the checked listing; confirm with the organizer.",
@@ -4407,6 +5135,75 @@
       "category": "Blind & low vision"
     },
     {
+      "id": "communityhouse-santa-2026-12-12",
+      "title": "Breakfast with Santa — Sensory-Friendly Hour",
+      "start": "2026-12-12T08:00:00-05:00",
+      "end": "2026-12-12T09:00:00-05:00",
+      "timezone": "America/New_York",
+      "state": "MA",
+      "city": "South Hamilton",
+      "venue": "The Community House",
+      "address": "284 Bay Road, South Hamilton, MA 01982",
+      "cost": "$60 per family; confirm what the family ticket covers",
+      "ages": "Families; exact age limits not stated",
+      "summary": "Continental breakfast and a Santa photo during the quieter first hour.",
+      "sourceId": "communityhouse-santa",
+      "sourceUrl": "https://communityhouse.org/santa/",
+      "ticketUrl": null,
+      "category": "Holiday",
+      "format": "In person",
+      "accessibility": [
+        "No live music during sensory-friendly hour",
+        "Fewer guests expected"
+      ],
+      "registration": "Registration is announced for fall 2026; check the organizer for opening and availability.",
+      "cancellationPolicy": "Confirm current cancellation and refund terms with the organizer.",
+      "notes": [
+        "Only 8–9 a.m. is the sensory-friendly time; later breakfast sessions may include music.",
+        "Confirm food ingredients, photo arrangements and family ticket limits."
+      ],
+      "lastVerified": "2026-10-06T16:29:41Z",
+      "verificationMethod": "Official organizer event information reviewed.",
+      "reviewRequired": false,
+      "status": "scheduled",
+      "costCategory": "paid"
+    },
+    {
+      "id": "castlehill-christmas-2026-12-12",
+      "title": "An Artful Christmas — Sensory-Friendly Hours",
+      "start": "2026-12-12T10:00:00-05:00",
+      "end": "2026-12-12T11:30:00-05:00",
+      "timezone": "America/New_York",
+      "state": "MA",
+      "city": "Ipswich",
+      "venue": "Castle Hill on the Crane Estate",
+      "address": "290 Argilla Road, Ipswich, MA 01938",
+      "cost": "Members: $18 adult / $10 child; nonmembers: $28 adult / $20 child; ages 4 and under free. Ipswich resident discount with ID.",
+      "ages": "Families and visitors of all ages; child ticket rate is ages 5–14",
+      "summary": "Explore artist-inspired holiday decorations at your own pace. The second floor requires 30 stairs; there is no elevator.",
+      "sourceId": "castlehill-christmas",
+      "sourceUrl": "https://thetrustees.org/event/450153/",
+      "ticketUrl": null,
+      "category": "Holiday",
+      "format": "In person",
+      "accessibility": [
+        "Reduced attendance during 10–11:30 a.m.",
+        "No music or flickering lights during sensory hours",
+        "Digital display of second-floor rooms for visitors unable to climb stairs"
+      ],
+      "registration": "Advance timed reservations strongly recommended; select a time within the sensory hours.",
+      "cancellationPolicy": "Confirm current cancellation and refund terms with the organizer.",
+      "notes": [
+        "Sensory hours are only December 5 and 12, 10–11:30 a.m. Regular hours extend later.",
+        "The Grand Stair has 30 steps and no elevator; ask about the entrance and first-floor route."
+      ],
+      "lastVerified": "2026-10-06T16:29:41Z",
+      "verificationMethod": "Official organizer event information reviewed.",
+      "reviewRequired": false,
+      "status": "scheduled",
+      "costCategory": "paid"
+    },
+    {
       "id": "discovery-deaf-blind-2026-12-12",
       "title": "Evening for Deaf, Blind, or DeafBlind Visitors",
       "start": "2026-12-12T17:00:00-05:00",
@@ -4440,6 +5237,38 @@
       "status": "scheduled",
       "category": "Sensory-friendly",
       "format": "In person",
+      "costCategory": "free"
+    },
+    {
+      "id": "echo-sensory-2026-12-13",
+      "title": "Sensory Friendly Sunday at ECHO",
+      "start": "2026-12-13T09:00:00-05:00",
+      "end": "2026-12-13T10:00:00-05:00",
+      "timezone": "America/New_York",
+      "state": "VT",
+      "city": "Burlington",
+      "venue": "ECHO, Leahy Center for Lake Champlain",
+      "address": "1 College Street, Burlington, VT 05401",
+      "cost": "Free for families with sensory-processing differences",
+      "ages": "Children, teens and adults with sensory-processing differences, autism or developmental disabilities, and their families",
+      "summary": "A free early museum hour with adjusted sound and lighting before public opening.",
+      "sourceId": "echo-sensory",
+      "sourceUrl": "https://www.echovermont.org/event/sensory-friendly-sunday-2/2026-12-13/",
+      "ticketUrl": null,
+      "category": "Sensory-friendly",
+      "format": "In person",
+      "accessibility": [
+        "Museum closed to general public during the hour",
+        "Adjusted lighting and sound",
+        "Sensory backpacks available"
+      ],
+      "registration": "Use the RSVP link on the organizer page.",
+      "cancellationPolicy": "Confirm current cancellation and refund terms with the organizer.",
+      "notes": [],
+      "lastVerified": "2026-10-06T16:29:41Z",
+      "verificationMethod": "Official organizer event information reviewed.",
+      "reviewRequired": false,
+      "status": "scheduled",
       "costCategory": "free"
     },
     {
@@ -4483,9 +5312,11 @@
       "ticketUrl": "https://shelburnemuseum.org/visit/winter-lights/",
       "cancellationPolicy": "Not stated in the checked listing; confirm with the organizer.",
       "notes": [
-        "The outdoor route includes packed gravel and slopes; snow or ice can affect access. Ask about the current route and conditions."
+        "The outdoor route includes packed gravel and slopes; snow or ice can affect access. Ask about the current route and conditions.",
+        "Lights and sound are not adjusted for sensory-friendly sessions; the organizer describes them as gentle and soft.",
+        "The general Winter Lights page also notes motion lights in some installations; ask the museum about specific displays before booking."
       ],
-      "lastVerified": "2026-10-03T11:04:00Z",
+      "lastVerified": "2026-10-06T16:29:41Z",
       "verificationMethod": "Official organizer/event page reviewed",
       "reviewRequired": false,
       "status": "scheduled",
@@ -4499,7 +5330,7 @@
       "city": "Shelburne",
       "venue": "Shelburne Museum",
       "address": "6000 Shelburne Road, Shelburne, VT 05482",
-      "cost": "Organizer pages differ on adult admission ($15–$20); confirm the current price before booking.",
+      "cost": "$20 adults; $10 ages 3–17; under 3 free (per the general Winter Lights ticket information).",
       "ages": "Children, teens and adults with sensory needs; families",
       "summary": "A lower-capacity Winter Lights evening with a social narrative, Know-Before-You-Go materials and education-staff support.",
       "accessibility": [
@@ -4509,8 +5340,8 @@
         "Accessible restrooms"
       ],
       "sourceId": "shelburne",
-      "sourceUrl": "https://shelburnemuseum.org/visit/winter-lights/",
-      "registration": "Advance registration strongly recommended.",
+      "sourceUrl": "https://shelburnemuseum.org/event/sensory-friendly-winter-lights-2/2026-12-14/",
+      "registration": "Advance registration required through the organizer’s sensory-session booking link.",
       "visualStory": {
         "arrival": "We can arrive after dark and check in for Winter Lights. It will be outdoors and cold-weather clothing may help.",
         "activity": "We can walk through gentle light displays. The route is about a half-mile with gravel and hills.",
@@ -4916,6 +5747,26 @@
       "sourceUrl": "https://www.urbanair.com/connecticut-manchester/",
       "organizerUrl": "https://www.urbanair.com/connecticut-manchester/",
       "lastKnown": "Closure notice checked October 5, 2026"
+    },
+    {
+      "id": "canton-santa-2026-watch",
+      "state": "MA",
+      "title": "Canton sensory-friendly Breakfast with Santa",
+      "status": "Date conflict — confirm before booking",
+      "note": "The registration table lists December 19, 2026, 8–8:40 a.m., while the page description says December 16. Ask Canton Recreation to confirm the date; no dated calendar entry is published.",
+      "sourceUrl": "https://cantonma.myrec.com/info/activities/program_details.aspx?ProgramID=29357",
+      "organizerUrl": "https://cantonma.myrec.com/info/activities/program_details.aspx?ProgramID=29357",
+      "lastKnown": "Official page reviewed October 6, 2026"
+    },
+    {
+      "id": "ucp-pumpkins-2026-watch",
+      "state": "ME",
+      "title": "UCP of Maine Pumpkins in the Park — sensory hour",
+      "status": "October 18 announced — sensory time unclear",
+      "note": "The official page prints the sensory hour as “11 pm–12 pm,” before a noon–4 p.m. main event. Confirm the intended hour directly. The main event includes neon, blacklights, fog and music; reduced effects during the sensory hour are not specified.",
+      "sourceUrl": "https://ucpofmaine.org/events/pumpkins-in-the-park/",
+      "organizerUrl": "https://ucpofmaine.org/events/pumpkins-in-the-park/",
+      "lastKnown": "Official page reviewed October 6, 2026"
     }
   ],
   "freePrograms": [

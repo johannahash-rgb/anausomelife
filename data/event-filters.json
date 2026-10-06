@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-10-05",
+  "checkedAt": "2026-10-06",
   "method": "Positive organizer evidence only. Missing categories mean not confirmed, never that attendance is prohibited. Read the exact audience, eligibility and route details. Accompanying an eligible participant does not imply an independent adult programme.",
   "events": {
     "bcm-2026-10-03": {
@@ -37,7 +37,17 @@
         "min": null,
         "max": null,
         "kind": "not-stated"
-      }
+      },
+      "sensory": {
+        "level": "unknown",
+        "note": "Not enough specific sound, lighting or crowd information is published in our checked notes to estimate this event’s sensory level.",
+        "sourceUrl": "https://bostonchildrensmuseum.org/morningstar-program-registration-form/",
+        "checkedAt": "2026-10-06",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-03"
+      },
+      "holidays": [],
+      "holidayEvidence": {}
     },
     "vins-2026-10-03": {
       "ageGroups": [],
@@ -57,7 +67,17 @@
           "qualification": "Accessible main routes; several features are inaccessible and some routes slope."
         }
       },
-      "checkedAt": "2026-10-04"
+      "checkedAt": "2026-10-04",
+      "sensory": {
+        "level": "low",
+        "note": "The early hour reduces noise and crowding; outdoor sounds and weather remain.",
+        "sourceUrl": "https://vinsweb.org/events/month/2026-10/",
+        "checkedAt": "2026-10-06",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-03"
+      },
+      "holidays": [],
+      "holidayEvidence": {}
     },
     "autism-alliance-storytime-2026-10-03": {
       "ageGroups": [
@@ -83,7 +103,17 @@
           "url": "https://autismalliance.org/events/storytime-smiles-autism-welcoming-center"
         }
       },
-      "checkedAt": "2026-10-04"
+      "checkedAt": "2026-10-04",
+      "sensory": {
+        "level": "variable",
+        "note": "Movement and participation are flexible, with calming spaces; stories, crafts and other participants can create sound.",
+        "sourceUrl": "https://autismalliance.org/events/storytime-smiles-autism-welcoming-center",
+        "checkedAt": "2026-10-06",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-03"
+      },
+      "holidays": [],
+      "holidayEvidence": {}
     },
     "westport-early-2026-10-04": {
       "ageGroups": [
@@ -120,7 +150,17 @@
         "max": null,
         "kind": "intended-audience",
         "youngerChildrenWelcome": true
-      }
+      },
+      "sensory": {
+        "level": "variable",
+        "note": "The early opening reduces crowds; songs and multi-sensory activities remain.",
+        "sourceUrl": "https://westportlibrary.org/series/sensory-storytime-early-opening/",
+        "checkedAt": "2026-10-06",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-03"
+      },
+      "holidays": [],
+      "holidayEvidence": {}
     },
     "westport-story-2026-10-04": {
       "ageGroups": [
@@ -152,7 +192,17 @@
         "max": null,
         "kind": "intended-audience",
         "youngerChildrenWelcome": true
-      }
+      },
+      "sensory": {
+        "level": "variable",
+        "note": "Stories and multi-sensory activities allow flexible participation; sound and lighting levels are not specified.",
+        "sourceUrl": "https://westportlibrary.org/calendar/",
+        "checkedAt": "2026-10-06",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-03"
+      },
+      "holidays": [],
+      "holidayEvidence": {}
     },
     "westport-story-2026-10-05": {
       "ageGroups": [
@@ -184,7 +234,17 @@
         "max": null,
         "kind": "intended-audience",
         "youngerChildrenWelcome": true
-      }
+      },
+      "sensory": {
+        "level": "variable",
+        "note": "Stories and multi-sensory activities allow flexible participation; sound and lighting levels are not specified.",
+        "sourceUrl": "https://westportlibrary.org/calendar/",
+        "checkedAt": "2026-10-06",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-03"
+      },
+      "holidays": [],
+      "holidayEvidence": {}
     },
     "clpvd-2026-10-06": {
       "ageGroups": [
@@ -226,7 +286,17 @@
         "max": 5,
         "kind": "recommended",
         "otherAgesWelcome": true
-      }
+      },
+      "sensory": {
+        "level": "variable",
+        "note": "Songs, movement and bubbles are part of storytime; fidgets and visual supports are available.",
+        "sourceUrl": "https://clpvd.org/event/sensory-friendly-storytime/2026-10-06/",
+        "checkedAt": "2026-10-06",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-03"
+      },
+      "holidays": [],
+      "holidayEvidence": {}
     },
     "discovery-2026-10-10": {
       "ageGroups": [
@@ -257,7 +327,17 @@
           "summary": "ASL may be requested during registration"
         }
       },
-      "checkedAt": "2026-10-04"
+      "checkedAt": "2026-10-04",
+      "sensory": {
+        "level": "variable",
+        "note": "Attendance is limited and a break space is available, but exhibit and audience sound can vary.",
+        "sourceUrl": "https://www.discoveryacton.org/news/schedule-free-events-visitors-disabilities-announced",
+        "checkedAt": "2026-10-06",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-03"
+      },
+      "holidays": [],
+      "holidayEvidence": {}
     },
     "clpvd-2026-10-13": {
       "ageGroups": [
@@ -299,7 +379,17 @@
         "max": 5,
         "kind": "recommended",
         "otherAgesWelcome": true
-      }
+      },
+      "sensory": {
+        "level": "variable",
+        "note": "Songs, movement and bubbles are part of storytime; fidgets and visual supports are available.",
+        "sourceUrl": "https://clpvd.org/event/sensory-friendly-storytime/2026-10-13/",
+        "checkedAt": "2026-10-06",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-03"
+      },
+      "holidays": [],
+      "holidayEvidence": {}
     },
     "autism-alliance-storytime-2026-10-13": {
       "ageGroups": [
@@ -325,7 +415,17 @@
           "url": "https://autismalliance.org/events/storytime-smiles-autism-welcoming-center"
         }
       },
-      "checkedAt": "2026-10-04"
+      "checkedAt": "2026-10-04",
+      "sensory": {
+        "level": "variable",
+        "note": "Movement and participation are flexible, with calming spaces; stories, crafts and other participants can create sound.",
+        "sourceUrl": "https://autismalliance.org/events/storytime-smiles-autism-welcoming-center",
+        "checkedAt": "2026-10-06",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-03"
+      },
+      "holidays": [],
+      "holidayEvidence": {}
     },
     "montshire-2026-10-17": {
       "ageGroups": [
@@ -367,7 +467,17 @@
           "qualification": "Indoor route confirmed; outdoor areas may require assistance."
         }
       },
-      "checkedAt": "2026-10-04"
+      "checkedAt": "2026-10-04",
+      "sensory": {
+        "level": "low",
+        "note": "Fewer visitors and lower sound on selected exhibits, with a quiet break space and sensory supplies.",
+        "sourceUrl": "https://montshire.org/event/montshh-montshire-sensory-hour-10/2026-10-17/",
+        "checkedAt": "2026-10-06",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-03"
+      },
+      "holidays": [],
+      "holidayEvidence": {}
     },
     "bierman-bedford-2026-10-17": {
       "ageGroups": [
@@ -403,7 +513,23 @@
           "url": "https://www.biermanautism.com/press_release/trunk-or-treat-free-sensory-friendly-events-this-october/"
         }
       },
-      "checkedAt": "2026-10-04"
+      "checkedAt": "2026-10-04",
+      "sensory": {
+        "level": "unknown",
+        "note": "Not enough specific sound, lighting or crowd information is published in our checked notes to estimate this event’s sensory level.",
+        "sourceUrl": "https://www.biermanautism.com/resources/sensory-friendly-events/",
+        "checkedAt": "2026-10-06",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-03"
+      },
+      "holidays": [
+        "halloween"
+      ],
+      "holidayEvidence": {
+        "halloween": {
+          "url": "https://www.biermanautism.com/resources/sensory-friendly-events/"
+        }
+      }
     },
     "westport-story-2026-10-19": {
       "ageGroups": [
@@ -435,7 +561,17 @@
         "max": null,
         "kind": "intended-audience",
         "youngerChildrenWelcome": true
-      }
+      },
+      "sensory": {
+        "level": "variable",
+        "note": "Stories and multi-sensory activities allow flexible participation; sound and lighting levels are not specified.",
+        "sourceUrl": "https://westportlibrary.org/calendar/",
+        "checkedAt": "2026-10-06",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-03"
+      },
+      "holidays": [],
+      "holidayEvidence": {}
     },
     "clpvd-2026-10-20": {
       "ageGroups": [
@@ -477,7 +613,17 @@
         "max": 5,
         "kind": "recommended",
         "otherAgesWelcome": true
-      }
+      },
+      "sensory": {
+        "level": "variable",
+        "note": "Songs, movement and bubbles are part of storytime; fidgets and visual supports are available.",
+        "sourceUrl": "https://clpvd.org/event/sensory-friendly-storytime/2026-10-20/",
+        "checkedAt": "2026-10-06",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-03"
+      },
+      "holidays": [],
+      "holidayEvidence": {}
     },
     "rwpzoo-2026-10-20": {
       "ageGroups": [
@@ -521,6 +667,22 @@
         "kind": "admission-categories",
         "childTicketMin": 2,
         "childTicketMax": 12
+      },
+      "sensory": {
+        "level": "low",
+        "note": "Music and effects are off during 5–6 p.m.; illuminated pumpkins remain. Regular effects return at 6 p.m.",
+        "sourceUrl": "https://www.rwpzoo.org/event/sensory-jack-o-lantern-spectacular/",
+        "checkedAt": "2026-10-06",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-03"
+      },
+      "holidays": [
+        "halloween"
+      ],
+      "holidayEvidence": {
+        "halloween": {
+          "url": "https://www.rwpzoo.org/event/sensory-jack-o-lantern-spectacular/"
+        }
       }
     },
     "rwpzoo-2026-10-21": {
@@ -565,6 +727,22 @@
         "kind": "admission-categories",
         "childTicketMin": 2,
         "childTicketMax": 12
+      },
+      "sensory": {
+        "level": "low",
+        "note": "Music and effects are off during 5–6 p.m.; illuminated pumpkins remain. Regular effects return at 6 p.m.",
+        "sourceUrl": "https://www.rwpzoo.org/event/sensory-jack-o-lantern-spectacular/",
+        "checkedAt": "2026-10-06",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-03"
+      },
+      "holidays": [
+        "halloween"
+      ],
+      "holidayEvidence": {
+        "halloween": {
+          "url": "https://www.rwpzoo.org/event/sensory-jack-o-lantern-spectacular/"
+        }
       }
     },
     "bierman-danvers-2026-10-24": {
@@ -601,7 +779,23 @@
           "url": "https://www.biermanautism.com/press_release/trunk-or-treat-free-sensory-friendly-events-this-october/"
         }
       },
-      "checkedAt": "2026-10-04"
+      "checkedAt": "2026-10-04",
+      "sensory": {
+        "level": "unknown",
+        "note": "Not enough specific sound, lighting or crowd information is published in our checked notes to estimate this event’s sensory level.",
+        "sourceUrl": "https://www.biermanautism.com/resources/sensory-friendly-events/",
+        "checkedAt": "2026-10-06",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-03"
+      },
+      "holidays": [
+        "halloween"
+      ],
+      "holidayEvidence": {
+        "halloween": {
+          "url": "https://www.biermanautism.com/resources/sensory-friendly-events/"
+        }
+      }
     },
     "aldrich-2026-10-24": {
       "ageGroups": [
@@ -648,7 +842,17 @@
         "max": 12,
         "kind": "intended-child-audience",
         "familyMembersWelcome": true
-      }
+      },
+      "sensory": {
+        "level": "unknown",
+        "note": "Not enough specific sound, lighting or crowd information is published in our checked notes to estimate this event’s sensory level.",
+        "sourceUrl": "https://thealdrich.org/events",
+        "checkedAt": "2026-10-06",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-03"
+      },
+      "holidays": [],
+      "holidayEvidence": {}
     },
     "beals-2026-10-24": {
       "ageGroups": [
@@ -669,7 +873,23 @@
           "url": "https://www.bealslibrary.org/events"
         }
       },
-      "checkedAt": "2026-10-04"
+      "checkedAt": "2026-10-04",
+      "sensory": {
+        "level": "unknown",
+        "note": "Not enough specific sound, lighting or crowd information is published in our checked notes to estimate this event’s sensory level.",
+        "sourceUrl": "https://www.bealslibrary.org/events",
+        "checkedAt": "2026-10-06",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-03"
+      },
+      "holidays": [
+        "halloween"
+      ],
+      "holidayEvidence": {
+        "halloween": {
+          "url": "https://www.bealslibrary.org/events"
+        }
+      }
     },
     "venture-2026-10-27": {
       "ageGroups": [
@@ -706,6 +926,22 @@
         "max": 18,
         "kind": "participant-eligibility",
         "adultAccompanimentRequired": true
+      },
+      "sensory": {
+        "level": "unknown",
+        "note": "Not enough specific sound, lighting or crowd information is published in our checked notes to estimate this event’s sensory level.",
+        "sourceUrl": "https://venturecs.org/event/halloween26/",
+        "checkedAt": "2026-10-06",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-03"
+      },
+      "holidays": [
+        "halloween"
+      ],
+      "holidayEvidence": {
+        "halloween": {
+          "url": "https://venturecs.org/event/halloween26/"
+        }
       }
     },
     "cmtm-2026-10-30": {
@@ -732,7 +968,23 @@
           "url": "https://www.kitetails.org/general-accessibility-information"
         }
       },
-      "checkedAt": "2026-10-04"
+      "checkedAt": "2026-10-04",
+      "sensory": {
+        "level": "low",
+        "note": "A quieter, low-key museum session; activities and trick-or-treat stations still involve other visitors.",
+        "sourceUrl": "https://www.kitetails.org/halloween",
+        "checkedAt": "2026-10-06",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-03"
+      },
+      "holidays": [
+        "halloween"
+      ],
+      "holidayEvidence": {
+        "halloween": {
+          "url": "https://www.kitetails.org/halloween"
+        }
+      }
     },
     "discovery-2026-10-30": {
       "ageGroups": [
@@ -773,7 +1025,23 @@
           "summary": "ASL may be requested during registration"
         }
       },
-      "checkedAt": "2026-10-04"
+      "checkedAt": "2026-10-04",
+      "sensory": {
+        "level": "variable",
+        "note": "Attendance is limited and a break space is available, but exhibit and audience sound can vary.",
+        "sourceUrl": "https://www.discoveryacton.org/news/schedule-free-events-visitors-disabilities-announced",
+        "checkedAt": "2026-10-06",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-03"
+      },
+      "holidays": [
+        "halloween"
+      ],
+      "holidayEvidence": {
+        "halloween": {
+          "url": "https://www.discoveryacton.org/news/schedule-free-events-visitors-disabilities-announced"
+        }
+      }
     },
     "stj-halloween-2026-10-30": {
       "ageGroups": [
@@ -794,7 +1062,23 @@
           "url": "https://www.stjathenaeum.org/youth-events-1/2026/10/30/sensory-friendly-halloween-event"
         }
       },
-      "checkedAt": "2026-10-04"
+      "checkedAt": "2026-10-04",
+      "sensory": {
+        "level": "low",
+        "note": "The organizer describes a calm Halloween space with activities and treats.",
+        "sourceUrl": "https://www.stjathenaeum.org/youth-events-1/2026/10/30/sensory-friendly-halloween-event",
+        "checkedAt": "2026-10-06",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-03"
+      },
+      "holidays": [
+        "halloween"
+      ],
+      "holidayEvidence": {
+        "halloween": {
+          "url": "https://www.stjathenaeum.org/youth-events-1/2026/10/30/sensory-friendly-halloween-event"
+        }
+      }
     },
     "see-2026-11-06": {
       "ageGroups": [],
@@ -813,7 +1097,17 @@
           "url": "https://see-sciencecenter.org/faq-items/accessibility/"
         }
       },
-      "checkedAt": "2026-10-04"
+      "checkedAt": "2026-10-04",
+      "sensory": {
+        "level": "unknown",
+        "note": "Not enough specific sound, lighting or crowd information is published in our checked notes to estimate this event’s sensory level.",
+        "sourceUrl": "https://see-sciencecenter.org/",
+        "checkedAt": "2026-10-06",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-03"
+      },
+      "holidays": [],
+      "holidayEvidence": {}
     },
     "bcm-2026-11-07": {
       "ageGroups": [
@@ -849,7 +1143,17 @@
         "min": null,
         "max": null,
         "kind": "not-stated"
-      }
+      },
+      "sensory": {
+        "level": "unknown",
+        "note": "Not enough specific sound, lighting or crowd information is published in our checked notes to estimate this event’s sensory level.",
+        "sourceUrl": "https://bostonchildrensmuseum.org/morningstar-program-registration-form/",
+        "checkedAt": "2026-10-06",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-03"
+      },
+      "holidays": [],
+      "holidayEvidence": {}
     },
     "westport-early-2026-11-15": {
       "ageGroups": [
@@ -886,7 +1190,17 @@
         "max": null,
         "kind": "intended-audience",
         "youngerChildrenWelcome": true
-      }
+      },
+      "sensory": {
+        "level": "variable",
+        "note": "The early opening reduces crowds; songs and multi-sensory activities remain.",
+        "sourceUrl": "https://westportlibrary.org/series/sensory-storytime-early-opening/",
+        "checkedAt": "2026-10-06",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-03"
+      },
+      "holidays": [],
+      "holidayEvidence": {}
     },
     "discovery-inclusive-2026-11-17": {
       "ageGroups": [
@@ -912,7 +1226,17 @@
           "url": "https://www.discoveryacton.org/news/schedule-free-events-visitors-disabilities-announced"
         }
       },
-      "checkedAt": "2026-10-04"
+      "checkedAt": "2026-10-04",
+      "sensory": {
+        "level": "variable",
+        "note": "Lower attendance is expected during public hours, with headphones and a break space. The museum is not exclusively reserved for this session.",
+        "sourceUrl": "https://www.discoveryacton.org/visit/especially-me",
+        "checkedAt": "2026-10-06",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-03"
+      },
+      "holidays": [],
+      "holidayEvidence": {}
     },
     "bcm-2026-11-20": {
       "ageGroups": [
@@ -948,7 +1272,17 @@
         "min": null,
         "max": null,
         "kind": "not-stated"
-      }
+      },
+      "sensory": {
+        "level": "unknown",
+        "note": "Not enough specific sound, lighting or crowd information is published in our checked notes to estimate this event’s sensory level.",
+        "sourceUrl": "https://bostonchildrensmuseum.org/morningstar-program-registration-form/",
+        "checkedAt": "2026-10-06",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-03"
+      },
+      "holidays": [],
+      "holidayEvidence": {}
     },
     "montshire-2026-11-21": {
       "ageGroups": [
@@ -990,7 +1324,17 @@
           "qualification": "Indoor route confirmed; outdoor areas may require assistance."
         }
       },
-      "checkedAt": "2026-10-04"
+      "checkedAt": "2026-10-04",
+      "sensory": {
+        "level": "low",
+        "note": "Fewer visitors and lower sound on selected exhibits, with a quiet break space and sensory supplies.",
+        "sourceUrl": "https://montshire.org/event/montshh-montshire-sensory-hour-10/2026-11-21/",
+        "checkedAt": "2026-10-06",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-03"
+      },
+      "holidays": [],
+      "holidayEvidence": {}
     },
     "weir-2026-11-21": {
       "ageGroups": [
@@ -1011,7 +1355,17 @@
           "url": "https://thetrustees.org/event/448729/"
         }
       },
-      "checkedAt": "2026-10-04"
+      "checkedAt": "2026-10-04",
+      "sensory": {
+        "level": "low",
+        "note": "A reduced-capacity, quieter barnyard session; animal sounds, smells and outdoor conditions remain.",
+        "sourceUrl": "https://thetrustees.org/event/448729/",
+        "checkedAt": "2026-10-06",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-03"
+      },
+      "holidays": [],
+      "holidayEvidence": {}
     },
     "shelburne-2026-11-30": {
       "ageGroups": [
@@ -1049,6 +1403,26 @@
         "kind": "admission-categories",
         "childTicketMin": 3,
         "childTicketMax": 17
+      },
+      "sensory": {
+        "level": "variable",
+        "note": "Lower attendance, but lights and sound are unchanged. Some installations have motion lights; outdoor conditions also vary.",
+        "sourceUrl": "https://shelburnemuseum.org/visit/winter-lights/",
+        "checkedAt": "2026-10-06",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-06"
+      },
+      "holidays": [
+        "winter-holidays",
+        "winter-lights"
+      ],
+      "holidayEvidence": {
+        "winter-holidays": {
+          "url": "https://shelburnemuseum.org/event/sensory-friendly-winter-lights-2-4/"
+        },
+        "winter-lights": {
+          "url": "https://shelburnemuseum.org/event/sensory-friendly-winter-lights-2-4/"
+        }
       }
     },
     "boston-ballet-2026-12-04": {
@@ -1085,7 +1459,31 @@
           "summary": "ASL ushers/interpreted announcements"
         }
       },
-      "checkedAt": "2026-10-04"
+      "checkedAt": "2026-10-04",
+      "sensory": {
+        "level": "moderate",
+        "note": "A live ballet with restricted stage noise, partly lit seating and no strobes. Music and audience sounds remain; quiet spaces are available.",
+        "sourceUrl": "https://www.bostonballet.org/performances/sensory-friendly-nutcracker/",
+        "checkedAt": "2026-10-06",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-03"
+      },
+      "holidays": [
+        "christmas",
+        "holiday-performance",
+        "winter-holidays"
+      ],
+      "holidayEvidence": {
+        "christmas": {
+          "url": "https://www.bostonballet.org/performances/sensory-friendly-nutcracker/"
+        },
+        "holiday-performance": {
+          "url": "https://www.bostonballet.org/performances/sensory-friendly-nutcracker/"
+        },
+        "winter-holidays": {
+          "url": "https://www.bostonballet.org/performances/sensory-friendly-nutcracker/"
+        }
+      }
     },
     "bcm-2026-12-05": {
       "ageGroups": [
@@ -1121,7 +1519,17 @@
         "min": null,
         "max": null,
         "kind": "not-stated"
-      }
+      },
+      "sensory": {
+        "level": "unknown",
+        "note": "Not enough specific sound, lighting or crowd information is published in our checked notes to estimate this event’s sensory level.",
+        "sourceUrl": "https://bostonchildrensmuseum.org/morningstar-program-registration-form/",
+        "checkedAt": "2026-10-06",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-03"
+      },
+      "holidays": [],
+      "holidayEvidence": {}
     },
     "westport-early-2026-12-13": {
       "ageGroups": [
@@ -1158,7 +1566,17 @@
         "max": null,
         "kind": "intended-audience",
         "youngerChildrenWelcome": true
-      }
+      },
+      "sensory": {
+        "level": "variable",
+        "note": "The early opening reduces crowds; songs and multi-sensory activities remain.",
+        "sourceUrl": "https://westportlibrary.org/series/sensory-storytime-early-opening/",
+        "checkedAt": "2026-10-06",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-03"
+      },
+      "holidays": [],
+      "holidayEvidence": {}
     },
     "shelburne-2026-12-14": {
       "ageGroups": [
@@ -1196,6 +1614,26 @@
         "kind": "admission-categories",
         "childTicketMin": 3,
         "childTicketMax": 17
+      },
+      "sensory": {
+        "level": "variable",
+        "note": "Lower attendance, but lights and sound are unchanged. Some installations have motion lights; outdoor conditions also vary.",
+        "sourceUrl": "https://shelburnemuseum.org/visit/winter-lights/",
+        "checkedAt": "2026-10-06",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-06"
+      },
+      "holidays": [
+        "winter-holidays",
+        "winter-lights"
+      ],
+      "holidayEvidence": {
+        "winter-holidays": {
+          "url": "https://shelburnemuseum.org/visit/winter-lights/"
+        },
+        "winter-lights": {
+          "url": "https://shelburnemuseum.org/visit/winter-lights/"
+        }
       }
     },
     "montshire-2026-12-19": {
@@ -1238,7 +1676,17 @@
           "qualification": "Indoor route confirmed; outdoor areas may require assistance."
         }
       },
-      "checkedAt": "2026-10-04"
+      "checkedAt": "2026-10-04",
+      "sensory": {
+        "level": "low",
+        "note": "Fewer visitors and lower sound on selected exhibits, with a quiet break space and sensory supplies.",
+        "sourceUrl": "https://montshire.org/event/montshh-montshire-sensory-hour-10/2026-12-19/",
+        "checkedAt": "2026-10-06",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-03"
+      },
+      "holidays": [],
+      "holidayEvidence": {}
     },
     "some-workout-2026-10-06": {
       "ageGroups": [
@@ -1264,7 +1712,17 @@
           "url": "https://www.somaine.org/event/special-olympics-workout-class/2026-10-06",
           "summary": "Exercises can be modified; All fitness levels welcome; Drop-in participation"
         }
-      }
+      },
+      "sensory": {
+        "level": "unknown",
+        "note": "Not enough specific sound, lighting or crowd information is published in our checked notes to estimate this event’s sensory level.",
+        "sourceUrl": "https://www.somaine.org/event/special-olympics-workout-class/2026-10-06",
+        "checkedAt": "2026-10-06",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-04"
+      },
+      "holidays": [],
+      "holidayEvidence": {}
     },
     "uap-canoe-whitehall-2026-10-07": {
       "ageGroups": [],
@@ -1278,7 +1736,17 @@
           "url": "https://www.mass.gov/event/oct-7-adaptive-canoeing-at-whitehall-state-park-10-07-2026",
           "summary": "Adaptive kayaking/canoeing equipment; Instruction designed around individual needs; Small-group format; Cost flexibility based on need"
         }
-      }
+      },
+      "sensory": {
+        "level": "unknown",
+        "note": "Not enough specific sound, lighting or crowd information is published in our checked notes to estimate this event’s sensory level.",
+        "sourceUrl": "https://www.mass.gov/event/oct-7-adaptive-canoeing-at-whitehall-state-park-10-07-2026",
+        "checkedAt": "2026-10-06",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-04"
+      },
+      "holidays": [],
+      "holidayEvidence": {}
     },
     "cmnh-exploring-2026-10-09": {
       "ageGroups": [
@@ -1304,7 +1772,17 @@
           "url": "https://childrens-museum.org/programs/exploring-our-way/",
           "summary": "Limited attendance; Reduced sounds and lights; Quiet zone with sensory activities; Noise-canceling headphones available; No medical diagnosis required"
         }
-      }
+      },
+      "sensory": {
+        "level": "low",
+        "note": "Attendance, exhibit sound and lighting are reduced, with a quiet zone and loan headphones.",
+        "sourceUrl": "https://childrens-museum.org/programs/exploring-our-way/",
+        "checkedAt": "2026-10-06",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-04"
+      },
+      "holidays": [],
+      "holidayEvidence": {}
     },
     "aa-slime-2026-10-12": {
       "ageGroups": [
@@ -1328,7 +1806,17 @@
           "summary": "Ages 5–12 from 10:30–11:30; ages 13–21 from 11:30–12:30"
         }
       },
-      "accessEvidence": {}
+      "accessEvidence": {},
+      "sensory": {
+        "level": "variable",
+        "note": "Hands-on slime provides optional tactile input. Ask about ingredients, smells and a place to take a break.",
+        "sourceUrl": "https://autismalliance.org/events/mad-scientist-slime-party",
+        "checkedAt": "2026-10-06",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-04"
+      },
+      "holidays": [],
+      "holidayEvidence": {}
     },
     "some-soccer-2026-10-15": {
       "ageGroups": [],
@@ -1342,7 +1830,17 @@
           "url": "https://www.somaine.org/event/state-soccer",
           "summary": "Ability-based Special Olympics competition; Unified Sports participation; Fans are welcome"
         }
-      }
+      },
+      "sensory": {
+        "level": "unknown",
+        "note": "Not enough specific sound, lighting or crowd information is published in our checked notes to estimate this event’s sensory level.",
+        "sourceUrl": "https://www.somaine.org/event/state-soccer",
+        "checkedAt": "2026-10-06",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-04"
+      },
+      "holidays": [],
+      "holidayEvidence": {}
     },
     "uap-tandem-boston-2026-10-16": {
       "ageGroups": [],
@@ -1356,7 +1854,17 @@
           "url": "https://www.mass.gov/event/oct-16-adaptive-tandem-cycling-at-pope-john-paul-ii-park-reservation-10-16-2026",
           "summary": "Multiple adaptive tandem cycle styles; Supportive seating options; Helmets available; Cost flexibility based on need"
         }
-      }
+      },
+      "sensory": {
+        "level": "unknown",
+        "note": "Not enough specific sound, lighting or crowd information is published in our checked notes to estimate this event’s sensory level.",
+        "sourceUrl": "https://www.mass.gov/event/oct-16-adaptive-tandem-cycling-at-pope-john-paul-ii-park-reservation-10-16-2026",
+        "checkedAt": "2026-10-06",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-04"
+      },
+      "holidays": [],
+      "holidayEvidence": {}
     },
     "aa-zoo-2026-10-16": {
       "ageGroups": [
@@ -1370,7 +1878,17 @@
           "summary": "Ages 5–12 and siblings"
         }
       },
-      "accessEvidence": {}
+      "accessEvidence": {},
+      "sensory": {
+        "level": "variable",
+        "note": "Join from your own space and adjust device volume; on-screen sound, visuals and participation may vary.",
+        "sourceUrl": "https://autismalliance.org/events/after-school-zoo-club-ages-5-12?instance=2",
+        "checkedAt": "2026-10-06",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-04"
+      },
+      "holidays": [],
+      "holidayEvidence": {}
     },
     "aa-halloween-dance-2026-10-16": {
       "ageGroups": [
@@ -1394,7 +1912,23 @@
           "summary": "Ages 5–12 from 5:30–6:15; ages 13–21 from 6:30–7:15"
         }
       },
-      "accessEvidence": {}
+      "accessEvidence": {},
+      "sensory": {
+        "level": "variable",
+        "note": "Movement and dance are central, with participation at each person’s pace. Sound level and lighting are not specified.",
+        "sourceUrl": "https://autismalliance.org/events/halloween-dance-party",
+        "checkedAt": "2026-10-06",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-04"
+      },
+      "holidays": [
+        "halloween"
+      ],
+      "holidayEvidence": {
+        "halloween": {
+          "url": "https://autismalliance.org/events/halloween-dance-party"
+        }
+      }
     },
     "soma-equestrian-2026-10-18": {
       "ageGroups": [
@@ -1408,7 +1942,17 @@
           "summary": "Registered Special Olympics athletes; families and supporters may attend"
         }
       },
-      "accessEvidence": {}
+      "accessEvidence": {},
+      "sensory": {
+        "level": "unknown",
+        "note": "Not enough specific sound, lighting or crowd information is published in our checked notes to estimate this event’s sensory level.",
+        "sourceUrl": "https://specialolympicsma.org/event/south-shore-equestrian-event",
+        "checkedAt": "2026-10-06",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-04"
+      },
+      "holidays": [],
+      "holidayEvidence": {}
     },
     "some-area-bowling-2026-10-19": {
       "ageGroups": [
@@ -1434,7 +1978,17 @@
           "url": "https://www.somaine.org/events",
           "summary": "School-age and adult athlete divisions; Ability-based Special Olympics competition; Multi-day schedule"
         }
-      }
+      },
+      "sensory": {
+        "level": "unknown",
+        "note": "Not enough specific sound, lighting or crowd information is published in our checked notes to estimate this event’s sensory level.",
+        "sourceUrl": "https://www.somaine.org/events",
+        "checkedAt": "2026-10-06",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-04"
+      },
+      "holidays": [],
+      "holidayEvidence": {}
     },
     "aa-zoo-2026-10-23": {
       "ageGroups": [
@@ -1448,7 +2002,17 @@
           "summary": "Ages 5–12 and siblings"
         }
       },
-      "accessEvidence": {}
+      "accessEvidence": {},
+      "sensory": {
+        "level": "variable",
+        "note": "Join from your own space and adjust device volume; on-screen sound, visuals and participation may vary.",
+        "sourceUrl": "https://autismalliance.org/events/after-school-zoo-club-ages-5-12?instance=2",
+        "checkedAt": "2026-10-06",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-04"
+      },
+      "holidays": [],
+      "holidayEvidence": {}
     },
     "some-bowling-hallowell-2026-10-27": {
       "ageGroups": [
@@ -1489,7 +2053,17 @@
           "url": "https://www.somaine.org/event/kennebec-county-bowling-tournament",
           "summary": "Ability-based divisioning; Supportive competition environment; Athletes of all ages"
         }
-      }
+      },
+      "sensory": {
+        "level": "unknown",
+        "note": "Not enough specific sound, lighting or crowd information is published in our checked notes to estimate this event’s sensory level.",
+        "sourceUrl": "https://www.somaine.org/event/kennebec-county-bowling-tournament",
+        "checkedAt": "2026-10-06",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-04"
+      },
+      "holidays": [],
+      "holidayEvidence": {}
     },
     "aa-zoo-2026-10-30": {
       "ageGroups": [
@@ -1503,7 +2077,17 @@
           "summary": "Ages 5–12 and siblings"
         }
       },
-      "accessEvidence": {}
+      "accessEvidence": {},
+      "sensory": {
+        "level": "variable",
+        "note": "Join from your own space and adjust device volume; on-screen sound, visuals and participation may vary.",
+        "sourceUrl": "https://autismalliance.org/events/after-school-zoo-club-ages-5-12?instance=2",
+        "checkedAt": "2026-10-06",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-04"
+      },
+      "holidays": [],
+      "holidayEvidence": {}
     },
     "aa-magic-2026-10-31": {
       "ageGroups": [
@@ -1532,7 +2116,23 @@
           "summary": "Ages 21 and under with families"
         }
       },
-      "accessEvidence": {}
+      "accessEvidence": {},
+      "sensory": {
+        "level": "unknown",
+        "note": "Not enough specific sound, lighting or crowd information is published in our checked notes to estimate this event’s sensory level.",
+        "sourceUrl": "https://autismalliance.org/events/tricks-treats-magic",
+        "checkedAt": "2026-10-06",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-04"
+      },
+      "holidays": [
+        "halloween"
+      ],
+      "holidayEvidence": {
+        "halloween": {
+          "url": "https://autismalliance.org/events/tricks-treats-magic"
+        }
+      }
     },
     "carroll-info-day-2026-11-03": {
       "ageGroups": [],
@@ -1546,7 +2146,17 @@
           "url": "https://carroll.org/events/information-day/",
           "summary": "Blind/low-vision-centered programming; Assistive technology demonstrations; Low-vision device demonstrations; Campus tour and practical resources"
         }
-      }
+      },
+      "sensory": {
+        "level": "unknown",
+        "note": "Not enough specific sound, lighting or crowd information is published in our checked notes to estimate this event’s sensory level.",
+        "sourceUrl": "https://carroll.org/events/information-day/",
+        "checkedAt": "2026-10-06",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-04"
+      },
+      "holidays": [],
+      "holidayEvidence": {}
     },
     "some-workout-2026-11-03": {
       "ageGroups": [
@@ -1572,7 +2182,17 @@
           "url": "https://www.somaine.org/event/special-olympics-workout-class/2026-11-03",
           "summary": "Exercises can be modified; All fitness levels welcome; Drop-in participation"
         }
-      }
+      },
+      "sensory": {
+        "level": "unknown",
+        "note": "Not enough specific sound, lighting or crowd information is published in our checked notes to estimate this event’s sensory level.",
+        "sourceUrl": "https://www.somaine.org/event/special-olympics-workout-class/2026-11-03",
+        "checkedAt": "2026-10-06",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-04"
+      },
+      "holidays": [],
+      "holidayEvidence": {}
     },
     "uap-cycling-groton-2026-11-06": {
       "ageGroups": [],
@@ -1586,7 +2206,17 @@
           "url": "https://www.mass.gov/event/nov-6-adaptive-intermediate-tandem-cycling-on-the-nashua-river-rail-trail-11-06-2026",
           "summary": "Multiple adaptive tandem cycle styles; Supportive seating options; Helmets available; Cost flexibility based on need"
         }
-      }
+      },
+      "sensory": {
+        "level": "unknown",
+        "note": "Not enough specific sound, lighting or crowd information is published in our checked notes to estimate this event’s sensory level.",
+        "sourceUrl": "https://www.mass.gov/event/nov-6-adaptive-intermediate-tandem-cycling-on-the-nashua-river-rail-trail-11-06-2026",
+        "checkedAt": "2026-10-06",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-04"
+      },
+      "holidays": [],
+      "holidayEvidence": {}
     },
     "aa-zoo-2026-11-06": {
       "ageGroups": [
@@ -1600,7 +2230,17 @@
           "summary": "Ages 5–12 and siblings"
         }
       },
-      "accessEvidence": {}
+      "accessEvidence": {},
+      "sensory": {
+        "level": "variable",
+        "note": "Join from your own space and adjust device volume; on-screen sound, visuals and participation may vary.",
+        "sourceUrl": "https://autismalliance.org/events/after-school-zoo-club-ages-5-12?instance=2",
+        "checkedAt": "2026-10-06",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-04"
+      },
+      "holidays": [],
+      "holidayEvidence": {}
     },
     "carroll-90th-2026-11-07": {
       "ageGroups": [
@@ -1614,7 +2254,17 @@
           "summary": "Blind/low-vision community, families, alumni, staff, supporters and visitors"
         }
       },
-      "accessEvidence": {}
+      "accessEvidence": {},
+      "sensory": {
+        "level": "unknown",
+        "note": "Not enough specific sound, lighting or crowd information is published in our checked notes to estimate this event’s sensory level.",
+        "sourceUrl": "https://carroll.org/events/90th-anniversary/",
+        "checkedAt": "2026-10-06",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-04"
+      },
+      "holidays": [],
+      "holidayEvidence": {}
     },
     "soma-soccer-state-2026-11-08": {
       "ageGroups": [
@@ -1628,7 +2278,17 @@
           "summary": "Registered Special Olympics athletes; families and supporters may attend"
         }
       },
-      "accessEvidence": {}
+      "accessEvidence": {},
+      "sensory": {
+        "level": "unknown",
+        "note": "Not enough specific sound, lighting or crowd information is published in our checked notes to estimate this event’s sensory level.",
+        "sourceUrl": "https://www.specialolympicsma.org/events/events-calendar",
+        "checkedAt": "2026-10-06",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-04"
+      },
+      "holidays": [],
+      "holidayEvidence": {}
     },
     "some-youth-summit-pi-2026-11-09": {
       "ageGroups": [
@@ -1654,7 +2314,17 @@
           "url": "https://www.somaine.org/event/youth-summit-presque-isle",
           "summary": "Designed for students with and without intellectual disabilities; Large- and small-group programming; Inclusive youth leadership focus"
         }
-      }
+      },
+      "sensory": {
+        "level": "unknown",
+        "note": "Not enough specific sound, lighting or crowd information is published in our checked notes to estimate this event’s sensory level.",
+        "sourceUrl": "https://www.somaine.org/event/youth-summit-presque-isle",
+        "checkedAt": "2026-10-06",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-04"
+      },
+      "holidays": [],
+      "holidayEvidence": {}
     },
     "carroll-cane-quest-2026-11-11": {
       "ageGroups": [
@@ -1690,7 +2360,17 @@
           "url": "https://carroll.org/events/cane-quest/",
           "summary": "Blind/low-vision-centered event; Orientation & Mobility skill stations; Family activities; Real-world white-cane navigation"
         }
-      }
+      },
+      "sensory": {
+        "level": "unknown",
+        "note": "Not enough specific sound, lighting or crowd information is published in our checked notes to estimate this event’s sensory level.",
+        "sourceUrl": "https://carroll.org/events/cane-quest/",
+        "checkedAt": "2026-10-06",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-04"
+      },
+      "holidays": [],
+      "holidayEvidence": {}
     },
     "aa-zoo-2026-11-13": {
       "ageGroups": [
@@ -1704,7 +2384,17 @@
           "summary": "Ages 5–12 and siblings"
         }
       },
-      "accessEvidence": {}
+      "accessEvidence": {},
+      "sensory": {
+        "level": "variable",
+        "note": "Join from your own space and adjust device volume; on-screen sound, visuals and participation may vary.",
+        "sourceUrl": "https://autismalliance.org/events/after-school-zoo-club-ages-5-12?instance=2",
+        "checkedAt": "2026-10-06",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-04"
+      },
+      "holidays": [],
+      "holidayEvidence": {}
     },
     "cmnh-exploring-2026-11-13": {
       "ageGroups": [
@@ -1730,7 +2420,17 @@
           "url": "https://childrens-museum.org/programs/exploring-our-way/",
           "summary": "Limited attendance; Reduced sounds and lights; Quiet zone with sensory activities; Noise-canceling headphones available; No medical diagnosis required"
         }
-      }
+      },
+      "sensory": {
+        "level": "low",
+        "note": "Attendance, exhibit sound and lighting are reduced, with a quiet zone and loan headphones. An optional costumed character appears 5–5:30 p.m.",
+        "sourceUrl": "https://childrens-museum.org/programs/exploring-our-way/",
+        "checkedAt": "2026-10-06",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-04"
+      },
+      "holidays": [],
+      "holidayEvidence": {}
     },
     "soma-flag-state-2026-11-14": {
       "ageGroups": [
@@ -1744,7 +2444,17 @@
           "summary": "Registered Special Olympics athletes and cheer teams; families and supporters may attend"
         }
       },
-      "accessEvidence": {}
+      "accessEvidence": {},
+      "sensory": {
+        "level": "unknown",
+        "note": "Not enough specific sound, lighting or crowd information is published in our checked notes to estimate this event’s sensory level.",
+        "sourceUrl": "https://www.specialolympicsma.org/events/events-calendar",
+        "checkedAt": "2026-10-06",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-04"
+      },
+      "holidays": [],
+      "holidayEvidence": {}
     },
     "uap-hike-carlisle-2026-11-14": {
       "ageGroups": [],
@@ -1758,7 +2468,17 @@
           "url": "https://www.mass.gov/event/nov-14-adaptive-hiking-at-great-brook-farm-state-park-11-14-2026",
           "summary": "Adaptive hiking equipment; Instruction adapted to learning style; Small-group format; Cost flexibility based on need"
         }
-      }
+      },
+      "sensory": {
+        "level": "unknown",
+        "note": "Not enough specific sound, lighting or crowd information is published in our checked notes to estimate this event’s sensory level.",
+        "sourceUrl": "https://www.mass.gov/event/nov-14-adaptive-hiking-at-great-brook-farm-state-park-11-14-2026",
+        "checkedAt": "2026-10-06",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-04"
+      },
+      "holidays": [],
+      "holidayEvidence": {}
     },
     "some-bowling-bangor-2026-11-16": {
       "ageGroups": [
@@ -1782,7 +2502,17 @@
           "summary": "Special Olympics bowling delegations, with 21-and-under and 22-and-over tournament groups"
         }
       },
-      "accessEvidence": {}
+      "accessEvidence": {},
+      "sensory": {
+        "level": "unknown",
+        "note": "Not enough specific sound, lighting or crowd information is published in our checked notes to estimate this event’s sensory level.",
+        "sourceUrl": "https://www.somaine.org/event/central-maine-10-pin-bowling",
+        "checkedAt": "2026-10-06",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-04"
+      },
+      "holidays": [],
+      "holidayEvidence": {}
     },
     "aa-provider-2026-11-17": {
       "ageGroups": [
@@ -1803,7 +2533,17 @@
           "url": "https://autismalliance.org/events/finding-provider-practical-tips-families",
           "summary": "Virtual participation from home; Practical family-service navigation; Zoom link sent to registered participants"
         }
-      }
+      },
+      "sensory": {
+        "level": "variable",
+        "note": "Join from your own space and adjust device volume; on-screen sound, visuals and participation may vary.",
+        "sourceUrl": "https://autismalliance.org/events/finding-provider-practical-tips-families",
+        "checkedAt": "2026-10-06",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-04"
+      },
+      "holidays": [],
+      "holidayEvidence": {}
     },
     "carroll-tech-fair-2026-11-20": {
       "ageGroups": [],
@@ -1817,7 +2557,17 @@
           "url": "https://carroll.org/events/virtual-technology-fair/",
           "summary": "Blind/low-vision-centered technology content; Virtual attendance; Live Q&A; Join from anywhere"
         }
-      }
+      },
+      "sensory": {
+        "level": "variable",
+        "note": "Join from your own space and adjust device volume; on-screen sound, visuals and participation may vary.",
+        "sourceUrl": "https://carroll.org/events/virtual-technology-fair/",
+        "checkedAt": "2026-10-06",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-04"
+      },
+      "holidays": [],
+      "holidayEvidence": {}
     },
     "aa-zoo-2026-11-20": {
       "ageGroups": [
@@ -1831,7 +2581,17 @@
           "summary": "Ages 5–12 and siblings"
         }
       },
-      "accessEvidence": {}
+      "accessEvidence": {},
+      "sensory": {
+        "level": "variable",
+        "note": "Join from your own space and adjust device volume; on-screen sound, visuals and participation may vary.",
+        "sourceUrl": "https://autismalliance.org/events/after-school-zoo-club-ages-5-12?instance=2",
+        "checkedAt": "2026-10-06",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-04"
+      },
+      "holidays": [],
+      "holidayEvidence": {}
     },
     "soma-jolly-jaunt-2026-12-05": {
       "ageGroups": [
@@ -1845,7 +2605,27 @@
           "summary": "Runners, walkers, families, teams and supporters of Special Olympics Massachusetts"
         }
       },
-      "accessEvidence": {}
+      "accessEvidence": {},
+      "sensory": {
+        "level": "unknown",
+        "note": "Not enough specific sound, lighting or crowd information is published in our checked notes to estimate this event’s sensory level.",
+        "sourceUrl": "https://specialolympicsma.org/events/annual-events/xtra-mile",
+        "checkedAt": "2026-10-06",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-04"
+      },
+      "holidays": [
+        "winter-holidays",
+        "holiday-social"
+      ],
+      "holidayEvidence": {
+        "winter-holidays": {
+          "url": "https://specialolympicsma.org/events/annual-events/xtra-mile"
+        },
+        "holiday-social": {
+          "url": "https://specialolympicsma.org/events/annual-events/xtra-mile"
+        }
+      }
     },
     "cmnh-exploring-2026-12-11": {
       "ageGroups": [
@@ -1871,7 +2651,17 @@
           "url": "https://childrens-museum.org/programs/exploring-our-way/",
           "summary": "Limited attendance; Reduced sounds and lights; Quiet zone with sensory activities; Noise-canceling headphones available; No medical diagnosis required"
         }
-      }
+      },
+      "sensory": {
+        "level": "low",
+        "note": "Attendance, exhibit sound and lighting are reduced, with a quiet zone and loan headphones.",
+        "sourceUrl": "https://childrens-museum.org/programs/exploring-our-way/",
+        "checkedAt": "2026-10-06",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-04"
+      },
+      "holidays": [],
+      "holidayEvidence": {}
     },
     "carroll-movie-2026-12-11": {
       "ageGroups": [],
@@ -1885,7 +2675,17 @@
           "url": "https://carroll.org/events/carroll-alumni-movie-night/",
           "summary": "Movie includes audio description; Blind/low-vision-centered social event; Indoor seating and refreshments"
         }
-      }
+      },
+      "sensory": {
+        "level": "unknown",
+        "note": "Not enough specific sound, lighting or crowd information is published in our checked notes to estimate this event’s sensory level.",
+        "sourceUrl": "https://carroll.org/events/carroll-alumni-movie-night/",
+        "checkedAt": "2026-10-06",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-04"
+      },
+      "holidays": [],
+      "holidayEvidence": {}
     },
     "jcc-sensory-2026-10-10": {
       "ageGroups": [
@@ -1924,7 +2724,17 @@
           "url": "https://www.bostonjcc.org/sensory-swim-hour/"
         }
       },
-      "checkedAt": "2026-10-05"
+      "checkedAt": "2026-10-05",
+      "sensory": {
+        "level": "variable",
+        "note": "A quieter pool hour is advertised; splashing, echoes and pool smells may still be part of the experience.",
+        "sourceUrl": "https://www.bostonjcc.org/calendar/sensory-swim-october-10/",
+        "checkedAt": "2026-10-06",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-05"
+      },
+      "holidays": [],
+      "holidayEvidence": {}
     },
     "jcc-sensory-2026-10-11": {
       "ageGroups": [
@@ -1963,7 +2773,17 @@
           "url": "https://www.bostonjcc.org/sensory-swim-hour/"
         }
       },
-      "checkedAt": "2026-10-05"
+      "checkedAt": "2026-10-05",
+      "sensory": {
+        "level": "variable",
+        "note": "A quieter pool hour is advertised; splashing, echoes and pool smells may still be part of the experience.",
+        "sourceUrl": "https://www.bostonjcc.org/calendar/sensory-swim-october-11/",
+        "checkedAt": "2026-10-06",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-05"
+      },
+      "holidays": [],
+      "holidayEvidence": {}
     },
     "jcc-sensory-2026-10-17": {
       "ageGroups": [
@@ -2002,7 +2822,17 @@
           "url": "https://www.bostonjcc.org/sensory-swim-hour/"
         }
       },
-      "checkedAt": "2026-10-05"
+      "checkedAt": "2026-10-05",
+      "sensory": {
+        "level": "variable",
+        "note": "A quieter pool hour is advertised; splashing, echoes and pool smells may still be part of the experience.",
+        "sourceUrl": "https://www.bostonjcc.org/calendar/sensory-swim-october-17/",
+        "checkedAt": "2026-10-06",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-05"
+      },
+      "holidays": [],
+      "holidayEvidence": {}
     },
     "jcc-sensory-2026-10-18": {
       "ageGroups": [
@@ -2041,7 +2871,17 @@
           "url": "https://www.bostonjcc.org/sensory-swim-hour/"
         }
       },
-      "checkedAt": "2026-10-05"
+      "checkedAt": "2026-10-05",
+      "sensory": {
+        "level": "variable",
+        "note": "A quieter pool hour is advertised; splashing, echoes and pool smells may still be part of the experience.",
+        "sourceUrl": "https://www.bostonjcc.org/calendar/copy-of-sensory-swim-october-11/",
+        "checkedAt": "2026-10-06",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-05"
+      },
+      "holidays": [],
+      "holidayEvidence": {}
     },
     "jcc-sensory-2026-10-24": {
       "ageGroups": [
@@ -2080,7 +2920,17 @@
           "url": "https://www.bostonjcc.org/sensory-swim-hour/"
         }
       },
-      "checkedAt": "2026-10-05"
+      "checkedAt": "2026-10-05",
+      "sensory": {
+        "level": "variable",
+        "note": "A quieter pool hour is advertised; splashing, echoes and pool smells may still be part of the experience.",
+        "sourceUrl": "https://www.bostonjcc.org/calendar/sensory-swim-october-24/",
+        "checkedAt": "2026-10-06",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-05"
+      },
+      "holidays": [],
+      "holidayEvidence": {}
     },
     "jcc-sensory-2026-10-25": {
       "ageGroups": [
@@ -2119,7 +2969,17 @@
           "url": "https://www.bostonjcc.org/sensory-swim-hour/"
         }
       },
-      "checkedAt": "2026-10-05"
+      "checkedAt": "2026-10-05",
+      "sensory": {
+        "level": "variable",
+        "note": "A quieter pool hour is advertised; splashing, echoes and pool smells may still be part of the experience.",
+        "sourceUrl": "https://www.bostonjcc.org/calendar/sensory-swim-october-25/",
+        "checkedAt": "2026-10-06",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-05"
+      },
+      "holidays": [],
+      "holidayEvidence": {}
     },
     "jcc-sensory-2026-10-31": {
       "ageGroups": [
@@ -2158,7 +3018,17 @@
           "url": "https://www.bostonjcc.org/sensory-swim-hour/"
         }
       },
-      "checkedAt": "2026-10-05"
+      "checkedAt": "2026-10-05",
+      "sensory": {
+        "level": "variable",
+        "note": "A quieter pool hour is advertised; splashing, echoes and pool smells may still be part of the experience.",
+        "sourceUrl": "https://www.bostonjcc.org/calendar/sensory-swim-october-31/",
+        "checkedAt": "2026-10-06",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-05"
+      },
+      "holidays": [],
+      "holidayEvidence": {}
     },
     "jcc-sensory-2026-11-01": {
       "ageGroups": [
@@ -2197,7 +3067,17 @@
           "url": "https://www.bostonjcc.org/sensory-swim-hour/"
         }
       },
-      "checkedAt": "2026-10-05"
+      "checkedAt": "2026-10-05",
+      "sensory": {
+        "level": "variable",
+        "note": "A quieter pool hour is advertised; splashing, echoes and pool smells may still be part of the experience.",
+        "sourceUrl": "https://www.bostonjcc.org/calendar/sensory-swim-november-1/",
+        "checkedAt": "2026-10-06",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-05"
+      },
+      "holidays": [],
+      "holidayEvidence": {}
     },
     "discovery-inclusive-2026-10-06": {
       "ageGroups": [
@@ -2223,7 +3103,17 @@
           "url": "https://www.discoveryacton.org/news/schedule-free-events-visitors-disabilities-announced"
         }
       },
-      "checkedAt": "2026-10-05"
+      "checkedAt": "2026-10-05",
+      "sensory": {
+        "level": "variable",
+        "note": "Lower attendance is expected during public hours, with headphones and a break space. The museum is not exclusively reserved for this session.",
+        "sourceUrl": "https://www.discoveryacton.org/visit/especially-me",
+        "checkedAt": "2026-10-06",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-05"
+      },
+      "holidays": [],
+      "holidayEvidence": {}
     },
     "discovery-inclusive-2026-12-01": {
       "ageGroups": [
@@ -2249,7 +3139,17 @@
           "url": "https://www.discoveryacton.org/news/schedule-free-events-visitors-disabilities-announced"
         }
       },
-      "checkedAt": "2026-10-05"
+      "checkedAt": "2026-10-05",
+      "sensory": {
+        "level": "variable",
+        "note": "Lower attendance is expected during public hours, with headphones and a break space. The museum is not exclusively reserved for this session.",
+        "sourceUrl": "https://www.discoveryacton.org/visit/especially-me",
+        "checkedAt": "2026-10-06",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-05"
+      },
+      "holidays": [],
+      "holidayEvidence": {}
     },
     "discovery-deaf-blind-2026-12-12": {
       "ageGroups": [
@@ -2280,7 +3180,17 @@
           "url": "https://www.discoveryacton.org/news/schedule-free-events-visitors-disabilities-announced"
         }
       },
-      "checkedAt": "2026-10-05"
+      "checkedAt": "2026-10-05",
+      "sensory": {
+        "level": "variable",
+        "note": "Limited attendance and a break space are offered; the accessibility program does not imply a quiet environment throughout.",
+        "sourceUrl": "https://www.discoveryacton.org/news/schedule-free-events-visitors-disabilities-announced",
+        "checkedAt": "2026-10-06",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-05"
+      },
+      "holidays": [],
+      "holidayEvidence": {}
     },
     "wings-logan-2026-11-07": {
       "ageGroups": [
@@ -2303,7 +3213,17 @@
           "url": "https://www.charlesrivercenter.org/news-events/major-events/wings-for-autism/"
         }
       },
-      "checkedAt": "2026-10-05"
+      "checkedAt": "2026-10-05",
+      "sensory": {
+        "level": "unknown",
+        "note": "Not enough specific sound, lighting or crowd information is published in our checked notes to estimate this event’s sensory level.",
+        "sourceUrl": "https://www.charlesrivercenter.org/news-events/major-events/wings-for-autism/",
+        "checkedAt": "2026-10-06",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-05"
+      },
+      "holidays": [],
+      "holidayEvidence": {}
     },
     "nehsa-bike-2026-10-24": {
       "ageGroups": [],
@@ -2316,7 +3236,17 @@
           "url": "https://nehsa.org/events/nehsa-adaptive-bike-demo-day-mount-sunapee/"
         }
       },
-      "checkedAt": "2026-10-05"
+      "checkedAt": "2026-10-05",
+      "sensory": {
+        "level": "unknown",
+        "note": "Not enough specific sound, lighting or crowd information is published in our checked notes to estimate this event’s sensory level.",
+        "sourceUrl": "https://nehsa.org/events/nehsa-adaptive-bike-demo-day-mount-sunapee/",
+        "checkedAt": "2026-10-06",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-05"
+      },
+      "holidays": [],
+      "holidayEvidence": {}
     },
     "old-state-house-2026-10-12": {
       "ageGroups": [
@@ -2362,7 +3292,17 @@
         "min": null,
         "max": null,
         "kind": "not-stated"
-      }
+      },
+      "sensory": {
+        "level": "low",
+        "note": "Sound and lighting are adjusted and attendance is capped at 20. Stairs remain part of the visit.",
+        "sourceUrl": "https://revolutionaryspaces.org/explore/sensory-friendly-mornings/",
+        "checkedAt": "2026-10-06",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-05"
+      },
+      "holidays": [],
+      "holidayEvidence": {}
     },
     "old-state-house-2026-11-28": {
       "ageGroups": [
@@ -2408,7 +3348,17 @@
         "min": null,
         "max": null,
         "kind": "not-stated"
-      }
+      },
+      "sensory": {
+        "level": "low",
+        "note": "Sound and lighting are adjusted and attendance is capped at 20. Stairs remain part of the visit.",
+        "sourceUrl": "https://revolutionaryspaces.org/explore/sensory-friendly-mornings/",
+        "checkedAt": "2026-10-06",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-05"
+      },
+      "holidays": [],
+      "holidayEvidence": {}
     },
     "old-state-house-2026-12-19": {
       "ageGroups": [
@@ -2454,7 +3404,17 @@
         "min": null,
         "max": null,
         "kind": "not-stated"
-      }
+      },
+      "sensory": {
+        "level": "low",
+        "note": "Sound and lighting are adjusted and attendance is capped at 20. Stairs remain part of the visit.",
+        "sourceUrl": "https://revolutionaryspaces.org/explore/sensory-friendly-mornings/",
+        "checkedAt": "2026-10-06",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-05"
+      },
+      "holidays": [],
+      "holidayEvidence": {}
     },
     "carroll-alumni-trivia-2026-10-16": {
       "ageGroups": [],
@@ -2473,7 +3433,17 @@
         "min": null,
         "max": null,
         "kind": "not-stated"
-      }
+      },
+      "sensory": {
+        "level": "unknown",
+        "note": "Not enough specific sound, lighting or crowd information is published in our checked notes to estimate this event’s sensory level.",
+        "sourceUrl": "https://carroll.org/events/carroll-alumni-trivia-night/",
+        "checkedAt": "2026-10-06",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-05"
+      },
+      "holidays": [],
+      "holidayEvidence": {}
     },
     "bierman-cranston-trunk-treat-2026-10-17": {
       "ageGroups": [
@@ -2504,6 +3474,22 @@
         "min": null,
         "max": null,
         "kind": "not-stated"
+      },
+      "sensory": {
+        "level": "unknown",
+        "note": "Not enough specific sound, lighting or crowd information is published in our checked notes to estimate this event’s sensory level.",
+        "sourceUrl": "https://www.biermanautism.com/resources/sensory-friendly-events/",
+        "checkedAt": "2026-10-06",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-05"
+      },
+      "holidays": [
+        "halloween"
+      ],
+      "holidayEvidence": {
+        "halloween": {
+          "url": "https://www.biermanautism.com/resources/sensory-friendly-events/"
+        }
       }
     },
     "car-holiday-bazaar-2026-11-14": {
@@ -2523,6 +3509,26 @@
         "min": null,
         "max": null,
         "kind": "not-stated"
+      },
+      "sensory": {
+        "level": "unknown",
+        "note": "Not enough specific sound, lighting or crowd information is published in our checked notes to estimate this event’s sensory level.",
+        "sourceUrl": "https://givebutter.com/CARBazaar2026",
+        "checkedAt": "2026-10-06",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-05"
+      },
+      "holidays": [
+        "winter-holidays",
+        "holiday-market"
+      ],
+      "holidayEvidence": {
+        "winter-holidays": {
+          "url": "https://givebutter.com/CARBazaar2026"
+        },
+        "holiday-market": {
+          "url": "https://givebutter.com/CARBazaar2026"
+        }
       }
     },
     "gilsland-accessible-birding-2026-10-24": {
@@ -2542,7 +3548,17 @@
         "min": null,
         "max": null,
         "kind": "not-stated"
-      }
+      },
+      "sensory": {
+        "level": "unknown",
+        "note": "Not enough specific sound, lighting or crowd information is published in our checked notes to estimate this event’s sensory level.",
+        "sourceUrl": "https://maineaudubon.org/events/accessible-beginner-birding-fa26/",
+        "checkedAt": "2026-10-06",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-05"
+      },
+      "holidays": [],
+      "holidayEvidence": {}
     },
     "gilsland-accessible-birding-2026-11-11": {
       "ageGroups": [],
@@ -2561,7 +3577,17 @@
         "min": null,
         "max": null,
         "kind": "not-stated"
-      }
+      },
+      "sensory": {
+        "level": "unknown",
+        "note": "Not enough specific sound, lighting or crowd information is published in our checked notes to estimate this event’s sensory level.",
+        "sourceUrl": "https://maineaudubon.org/events/accessible-beginner-birding-fa26/",
+        "checkedAt": "2026-10-06",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-05"
+      },
+      "holidays": [],
+      "holidayEvidence": {}
     },
     "gilsland-accessible-birding-2026-11-28": {
       "ageGroups": [],
@@ -2580,21 +3606,57 @@
         "min": null,
         "max": null,
         "kind": "not-stated"
-      }
+      },
+      "sensory": {
+        "level": "unknown",
+        "note": "Not enough specific sound, lighting or crowd information is published in our checked notes to estimate this event’s sensory level.",
+        "sourceUrl": "https://maineaudubon.org/events/accessible-beginner-birding-fa26/",
+        "checkedAt": "2026-10-06",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-05"
+      },
+      "holidays": [],
+      "holidayEvidence": {}
     },
     "bilt-dance-2026-10-16": {
       "ageGroups": [],
       "accessFeatures": [],
       "ageEvidence": {},
       "accessEvidence": {},
-      "checkedAt": "2026-10-05"
+      "checkedAt": "2026-10-05",
+      "sensory": {
+        "level": "high",
+        "note": "Plan for a stimulating mix of music, dancing and a shared dinner. This is an estimate from the activities; volume and quiet-space arrangements are not specified.",
+        "sourceUrl": "https://biltne.org/_event/halloween-dance/",
+        "checkedAt": "2026-10-06",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-05"
+      },
+      "holidays": [
+        "halloween"
+      ],
+      "holidayEvidence": {
+        "halloween": {
+          "url": "https://biltne.org/_event/halloween-dance/"
+        }
+      }
     },
     "bilt-bowling-2026-10-17": {
       "ageGroups": [],
       "accessFeatures": [],
       "ageEvidence": {},
       "accessEvidence": {},
-      "checkedAt": "2026-10-05"
+      "checkedAt": "2026-10-05",
+      "sensory": {
+        "level": "unknown",
+        "note": "Not enough specific sound, lighting or crowd information is published in our checked notes to estimate this event’s sensory level.",
+        "sourceUrl": "https://biltne.org/_event/bowling-league-16/",
+        "checkedAt": "2026-10-06",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-05"
+      },
+      "holidays": [],
+      "holidayEvidence": {}
     },
     "altitude-billerica-2026-10-10": {
       "ageGroups": [],
@@ -2607,7 +3669,17 @@
           "url": "https://www.altitudeparkma.com/Sensory-friendly-Saturdays"
         }
       },
-      "checkedAt": "2026-10-05"
+      "checkedAt": "2026-10-05",
+      "sensory": {
+        "level": "variable",
+        "note": "Music is lowered and no parties are scheduled; active jumping and other participants still create sound and movement.",
+        "sourceUrl": "https://www.altitudeparkma.com/Sensory-friendly-Saturdays",
+        "checkedAt": "2026-10-06",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-05"
+      },
+      "holidays": [],
+      "holidayEvidence": {}
     },
     "urban-bellingham-2026-10-11": {
       "ageGroups": [
@@ -2630,7 +3702,17 @@
           "url": "https://www.urbanair.com/massachusetts-bellingham/"
         }
       },
-      "checkedAt": "2026-10-05"
+      "checkedAt": "2026-10-05",
+      "sensory": {
+        "level": "variable",
+        "note": "This is an active trampoline/adventure setting during designated sensory play. Specific sound and light changes are not listed.",
+        "sourceUrl": "https://www.urbanair.com/massachusetts-bellingham/",
+        "checkedAt": "2026-10-06",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-05"
+      },
+      "holidays": [],
+      "holidayEvidence": {}
     },
     "urban-brockton-2026-10-11": {
       "ageGroups": [
@@ -2653,7 +3735,17 @@
           "url": "https://www.urbanair.com/massachusetts-brockton/"
         }
       },
-      "checkedAt": "2026-10-05"
+      "checkedAt": "2026-10-05",
+      "sensory": {
+        "level": "variable",
+        "note": "This is an active trampoline/adventure setting during designated sensory play. Specific sound and light changes are not listed.",
+        "sourceUrl": "https://www.urbanair.com/massachusetts-brockton/",
+        "checkedAt": "2026-10-06",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-05"
+      },
+      "holidays": [],
+      "holidayEvidence": {}
     },
     "lego-sensory-2026-11-15": {
       "ageGroups": [
@@ -2672,7 +3764,17 @@
           "url": "https://www.legodiscoverycenter.com/boston/whats-inside/events/sensory-friendly-mornings/"
         }
       },
-      "checkedAt": "2026-10-05"
+      "checkedAt": "2026-10-05",
+      "sensory": {
+        "level": "low",
+        "note": "Lighting and music are reduced only for the first hour, until 10 a.m.",
+        "sourceUrl": "https://www.legodiscoverycenter.com/boston/whats-inside/events/sensory-friendly-mornings/",
+        "checkedAt": "2026-10-06",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-05"
+      },
+      "holidays": [],
+      "holidayEvidence": {}
     },
     "bridge-trivia-2026-10-21": {
       "ageGroups": [
@@ -2685,7 +3787,23 @@
         }
       },
       "accessEvidence": {},
-      "checkedAt": "2026-10-05"
+      "checkedAt": "2026-10-05",
+      "sensory": {
+        "level": "unknown",
+        "note": "Not enough specific sound, lighting or crowd information is published in our checked notes to estimate this event’s sensory level.",
+        "sourceUrl": "https://www.bridgethespectrumct.com/event-details/halloween-trivia-night-is-coming-to-wallingford",
+        "checkedAt": "2026-10-06",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-05"
+      },
+      "holidays": [
+        "halloween"
+      ],
+      "holidayEvidence": {
+        "halloween": {
+          "url": "https://www.bridgethespectrumct.com/event-details/halloween-trivia-night-is-coming-to-wallingford"
+        }
+      }
     },
     "bridge-movie-2026-10-28": {
       "ageGroups": [
@@ -2698,7 +3816,23 @@
         }
       },
       "accessEvidence": {},
-      "checkedAt": "2026-10-05"
+      "checkedAt": "2026-10-05",
+      "sensory": {
+        "level": "unknown",
+        "note": "Not enough specific sound, lighting or crowd information is published in our checked notes to estimate this event’s sensory level.",
+        "sourceUrl": "https://www.bridgethespectrumct.com/event-details/bridge-the-spectrum-halloween-bash-and-movie-night-18",
+        "checkedAt": "2026-10-06",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-05"
+      },
+      "holidays": [
+        "halloween"
+      ],
+      "holidayEvidence": {
+        "halloween": {
+          "url": "https://www.bridgethespectrumct.com/event-details/bridge-the-spectrum-halloween-bash-and-movie-night-18"
+        }
+      }
     },
     "bridge-pizza-2026-11-01": {
       "ageGroups": [
@@ -2711,7 +3845,17 @@
         }
       },
       "accessEvidence": {},
-      "checkedAt": "2026-10-05"
+      "checkedAt": "2026-10-05",
+      "sensory": {
+        "level": "unknown",
+        "note": "Not enough specific sound, lighting or crowd information is published in our checked notes to estimate this event’s sensory level.",
+        "sourceUrl": "https://www.bridgethespectrumct.com/event-details/make-your-own-pizza-at-pops-pizza-18-only-12-spots-available",
+        "checkedAt": "2026-10-06",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-05"
+      },
+      "holidays": [],
+      "holidayEvidence": {}
     },
     "bridge-disco-2026-12-04": {
       "ageGroups": [
@@ -2724,14 +3868,50 @@
         }
       },
       "accessEvidence": {},
-      "checkedAt": "2026-10-05"
+      "checkedAt": "2026-10-05",
+      "sensory": {
+        "level": "variable",
+        "note": "A silent disco uses headphones, but dinner, crowds and the room environment can still be stimulating. Ask about volume controls and quiet breaks.",
+        "sourceUrl": "https://www.bridgethespectrumct.com/event-details/holiday-silent-disco-night-dinner-included-dancing-fundraiser",
+        "checkedAt": "2026-10-06",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-05"
+      },
+      "holidays": [
+        "winter-holidays",
+        "holiday-social"
+      ],
+      "holidayEvidence": {
+        "winter-holidays": {
+          "url": "https://www.bridgethespectrumct.com/event-details/holiday-silent-disco-night-dinner-included-dancing-fundraiser"
+        },
+        "holiday-social": {
+          "url": "https://www.bridgethespectrumct.com/event-details/holiday-silent-disco-night-dinner-included-dancing-fundraiser"
+        }
+      }
     },
     "marc-dance-2026-10-20": {
       "ageGroups": [],
       "accessFeatures": [],
       "ageEvidence": {},
       "accessEvidence": {},
-      "checkedAt": "2026-10-05"
+      "checkedAt": "2026-10-05",
+      "sensory": {
+        "level": "high",
+        "note": "DJ music, a costume contest and a shared buffet suggest a stimulating setting. Actual volume and quiet-space arrangements are not specified.",
+        "sourceUrl": "https://marcct.org/news-events/event-calendar.html/event/2026/10/20/marc-halloween-dance/579037",
+        "checkedAt": "2026-10-06",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-05"
+      },
+      "holidays": [
+        "halloween"
+      ],
+      "holidayEvidence": {
+        "halloween": {
+          "url": "https://marcct.org/news-events/event-calendar.html/event/2026/10/20/marc-halloween-dance/579037"
+        }
+      }
     },
     "fia-bowling-2026-10-15": {
       "ageGroups": [
@@ -2748,7 +3928,17 @@
         }
       },
       "accessEvidence": {},
-      "checkedAt": "2026-10-05"
+      "checkedAt": "2026-10-05",
+      "sensory": {
+        "level": "unknown",
+        "note": "Not enough specific sound, lighting or crowd information is published in our checked notes to estimate this event’s sensory level.",
+        "sourceUrl": "https://friendsinactionnh.org/programs/",
+        "checkedAt": "2026-10-06",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-05"
+      },
+      "holidays": [],
+      "holidayEvidence": {}
     },
     "fia-halloween-2026-10-09": {
       "ageGroups": [
@@ -2765,14 +3955,40 @@
         }
       },
       "accessEvidence": {},
-      "checkedAt": "2026-10-05"
+      "checkedAt": "2026-10-05",
+      "sensory": {
+        "level": "unknown",
+        "note": "Not enough specific sound, lighting or crowd information is published in our checked notes to estimate this event’s sensory level.",
+        "sourceUrl": "https://friendsinactionnh.org/calendar/",
+        "checkedAt": "2026-10-06",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-05"
+      },
+      "holidays": [
+        "halloween"
+      ],
+      "holidayEvidence": {
+        "halloween": {
+          "url": "https://friendsinactionnh.org/calendar/"
+        }
+      }
     },
     "aoec-horse-2026-10-14": {
       "ageGroups": [],
       "accessFeatures": [],
       "ageEvidence": {},
       "accessEvidence": {},
-      "checkedAt": "2026-10-05"
+      "checkedAt": "2026-10-05",
+      "sensory": {
+        "level": "unknown",
+        "note": "Not enough specific sound, lighting or crowd information is published in our checked notes to estimate this event’s sensory level.",
+        "sourceUrl": "https://www.adaptiveoutdooreducationcenter.org/natureseries",
+        "checkedAt": "2026-10-06",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-05"
+      },
+      "holidays": [],
+      "holidayEvidence": {}
     },
     "aoec-planetarium-2026-10-28": {
       "ageGroups": [
@@ -2785,7 +4001,17 @@
         }
       },
       "accessEvidence": {},
-      "checkedAt": "2026-10-05"
+      "checkedAt": "2026-10-05",
+      "sensory": {
+        "level": "unknown",
+        "note": "Not enough specific sound, lighting or crowd information is published in our checked notes to estimate this event’s sensory level.",
+        "sourceUrl": "https://www.adaptiveoutdooreducationcenter.org/natureseries",
+        "checkedAt": "2026-10-06",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-05"
+      },
+      "holidays": [],
+      "holidayEvidence": {}
     },
     "aarp-roll-dance-2026-10-06": {
       "ageGroups": [
@@ -2804,7 +4030,822 @@
           "url": "https://events.aarp.org/event/GlowintheDarkParty2026/summary"
         }
       },
-      "checkedAt": "2026-10-05"
+      "checkedAt": "2026-10-05",
+      "sensory": {
+        "level": "high",
+        "note": "A drum troupe and dancing suggest a stimulating sound environment. Actual volume is not published.",
+        "sourceUrl": "https://events.aarp.org/event/GlowintheDarkParty2026/summary",
+        "checkedAt": "2026-10-06",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-05"
+      },
+      "holidays": [],
+      "holidayEvidence": {}
+    },
+    "echo-sensory-2026-10-11": {
+      "ageGroups": [
+        "all-ages",
+        "children",
+        "teens",
+        "adults",
+        "families"
+      ],
+      "accessFeatures": [
+        "sensory-friendly"
+      ],
+      "ageEvidence": {
+        "all-ages": {
+          "url": "https://www.echovermont.org/event/sensory-friendly-sunday-2/2026-10-11/"
+        },
+        "children": {
+          "url": "https://www.echovermont.org/event/sensory-friendly-sunday-2/2026-10-11/"
+        },
+        "teens": {
+          "url": "https://www.echovermont.org/event/sensory-friendly-sunday-2/2026-10-11/"
+        },
+        "adults": {
+          "url": "https://www.echovermont.org/event/sensory-friendly-sunday-2/2026-10-11/"
+        },
+        "families": {
+          "url": "https://www.echovermont.org/event/sensory-friendly-sunday-2/2026-10-11/"
+        }
+      },
+      "accessEvidence": {
+        "sensory-friendly": {
+          "url": "https://www.echovermont.org/event/sensory-friendly-sunday-2/2026-10-11/"
+        }
+      },
+      "checkedAt": "2026-10-06",
+      "holidays": [],
+      "sensory": {
+        "level": "low",
+        "note": "Adjusted sound and lighting during a separate early hour; sensory backpacks are available.",
+        "sourceUrl": "https://www.echovermont.org/event/sensory-friendly-sunday-2/2026-10-11/",
+        "checkedAt": "2026-10-06",
+        "basis": "Editorial planning estimate from organizer details"
+      },
+      "holidayEvidence": {}
+    },
+    "echo-sensory-2026-11-08": {
+      "ageGroups": [
+        "all-ages",
+        "children",
+        "teens",
+        "adults",
+        "families"
+      ],
+      "accessFeatures": [
+        "sensory-friendly"
+      ],
+      "ageEvidence": {
+        "all-ages": {
+          "url": "https://www.echovermont.org/event/sensory-friendly-sunday-2/2026-11-08/"
+        },
+        "children": {
+          "url": "https://www.echovermont.org/event/sensory-friendly-sunday-2/2026-11-08/"
+        },
+        "teens": {
+          "url": "https://www.echovermont.org/event/sensory-friendly-sunday-2/2026-11-08/"
+        },
+        "adults": {
+          "url": "https://www.echovermont.org/event/sensory-friendly-sunday-2/2026-11-08/"
+        },
+        "families": {
+          "url": "https://www.echovermont.org/event/sensory-friendly-sunday-2/2026-11-08/"
+        }
+      },
+      "accessEvidence": {
+        "sensory-friendly": {
+          "url": "https://www.echovermont.org/event/sensory-friendly-sunday-2/2026-11-08/"
+        }
+      },
+      "checkedAt": "2026-10-06",
+      "holidays": [],
+      "sensory": {
+        "level": "low",
+        "note": "Adjusted sound and lighting during a separate early hour; sensory backpacks are available.",
+        "sourceUrl": "https://www.echovermont.org/event/sensory-friendly-sunday-2/2026-11-08/",
+        "checkedAt": "2026-10-06",
+        "basis": "Editorial planning estimate from organizer details"
+      },
+      "holidayEvidence": {}
+    },
+    "echo-sensory-2026-12-13": {
+      "ageGroups": [
+        "all-ages",
+        "children",
+        "teens",
+        "adults",
+        "families"
+      ],
+      "accessFeatures": [
+        "sensory-friendly"
+      ],
+      "ageEvidence": {
+        "all-ages": {
+          "url": "https://www.echovermont.org/event/sensory-friendly-sunday-2/2026-12-13/"
+        },
+        "children": {
+          "url": "https://www.echovermont.org/event/sensory-friendly-sunday-2/2026-12-13/"
+        },
+        "teens": {
+          "url": "https://www.echovermont.org/event/sensory-friendly-sunday-2/2026-12-13/"
+        },
+        "adults": {
+          "url": "https://www.echovermont.org/event/sensory-friendly-sunday-2/2026-12-13/"
+        },
+        "families": {
+          "url": "https://www.echovermont.org/event/sensory-friendly-sunday-2/2026-12-13/"
+        }
+      },
+      "accessEvidence": {
+        "sensory-friendly": {
+          "url": "https://www.echovermont.org/event/sensory-friendly-sunday-2/2026-12-13/"
+        }
+      },
+      "checkedAt": "2026-10-06",
+      "holidays": [],
+      "sensory": {
+        "level": "low",
+        "note": "Adjusted sound and lighting during a separate early hour; sensory backpacks are available.",
+        "sourceUrl": "https://www.echovermont.org/event/sensory-friendly-sunday-2/2026-12-13/",
+        "checkedAt": "2026-10-06",
+        "basis": "Editorial planning estimate from organizer details"
+      },
+      "holidayEvidence": {}
+    },
+    "longhill-sensory-2026-10-09": {
+      "ageGroups": [
+        "families"
+      ],
+      "accessFeatures": [
+        "sensory-friendly"
+      ],
+      "ageEvidence": {
+        "families": {
+          "url": "https://thetrustees.org/event/448968/"
+        }
+      },
+      "accessEvidence": {
+        "sensory-friendly": {
+          "url": "https://thetrustees.org/event/448968/"
+        }
+      },
+      "checkedAt": "2026-10-06",
+      "holidays": [
+        "halloween"
+      ],
+      "sensory": {
+        "level": "variable",
+        "note": "Quieter on arrival, but music, fog and other effects may restart at 4:30 p.m. during the listed hour.",
+        "sourceUrl": "https://thetrustees.org/event/448968/",
+        "checkedAt": "2026-10-06",
+        "basis": "Editorial planning estimate from organizer details"
+      },
+      "holidayEvidence": {
+        "halloween": {
+          "url": "https://thetrustees.org/event/448968/"
+        }
+      }
+    },
+    "longhill-sensory-2026-10-23": {
+      "ageGroups": [
+        "families"
+      ],
+      "accessFeatures": [
+        "sensory-friendly"
+      ],
+      "ageEvidence": {
+        "families": {
+          "url": "https://thetrustees.org/event/448969/"
+        }
+      },
+      "accessEvidence": {
+        "sensory-friendly": {
+          "url": "https://thetrustees.org/event/448969/"
+        }
+      },
+      "checkedAt": "2026-10-06",
+      "holidays": [
+        "halloween"
+      ],
+      "sensory": {
+        "level": "variable",
+        "note": "Quieter on arrival, but music, fog and other effects may restart at 4:30 p.m. during the listed hour.",
+        "sourceUrl": "https://thetrustees.org/event/448969/",
+        "checkedAt": "2026-10-06",
+        "basis": "Editorial planning estimate from organizer details"
+      },
+      "holidayEvidence": {
+        "halloween": {
+          "url": "https://thetrustees.org/event/448969/"
+        }
+      }
+    },
+    "weir-boo-2026-10-17": {
+      "ageGroups": [
+        "children",
+        "families"
+      ],
+      "accessFeatures": [
+        "sensory-friendly"
+      ],
+      "ageEvidence": {
+        "children": {
+          "url": "https://thetrustees.org/event/448759/"
+        },
+        "families": {
+          "url": "https://thetrustees.org/event/448759/"
+        }
+      },
+      "accessEvidence": {
+        "sensory-friendly": {
+          "url": "https://thetrustees.org/event/448759/"
+        }
+      },
+      "checkedAt": "2026-10-06",
+      "holidays": [
+        "halloween"
+      ],
+      "sensory": {
+        "level": "low",
+        "note": "The organizer limits attendance for a quieter hour; animal sounds, smells and outdoor conditions remain.",
+        "sourceUrl": "https://thetrustees.org/event/448759/",
+        "checkedAt": "2026-10-06",
+        "basis": "Editorial planning estimate from organizer details"
+      },
+      "holidayEvidence": {
+        "halloween": {
+          "url": "https://thetrustees.org/event/448759/"
+        }
+      }
+    },
+    "weir-boo-2026-10-31": {
+      "ageGroups": [
+        "children",
+        "families"
+      ],
+      "accessFeatures": [
+        "sensory-friendly"
+      ],
+      "ageEvidence": {
+        "children": {
+          "url": "https://thetrustees.org/event/448757/"
+        },
+        "families": {
+          "url": "https://thetrustees.org/event/448757/"
+        }
+      },
+      "accessEvidence": {
+        "sensory-friendly": {
+          "url": "https://thetrustees.org/event/448757/"
+        }
+      },
+      "checkedAt": "2026-10-06",
+      "holidays": [
+        "halloween"
+      ],
+      "sensory": {
+        "level": "low",
+        "note": "The organizer limits attendance for a quieter hour; animal sounds, smells and outdoor conditions remain.",
+        "sourceUrl": "https://thetrustees.org/event/448757/",
+        "checkedAt": "2026-10-06",
+        "basis": "Editorial planning estimate from organizer details"
+      },
+      "holidayEvidence": {
+        "halloween": {
+          "url": "https://thetrustees.org/event/448757/"
+        }
+      }
+    },
+    "weir-open-2026-11-07": {
+      "ageGroups": [
+        "children",
+        "families"
+      ],
+      "accessFeatures": [
+        "sensory-friendly"
+      ],
+      "ageEvidence": {
+        "children": {
+          "url": "https://thetrustees.org/event/448728/"
+        },
+        "families": {
+          "url": "https://thetrustees.org/event/448728/"
+        }
+      },
+      "accessEvidence": {
+        "sensory-friendly": {
+          "url": "https://thetrustees.org/event/448728/"
+        }
+      },
+      "checkedAt": "2026-10-06",
+      "holidays": [],
+      "sensory": {
+        "level": "low",
+        "note": "Reduced attendance supports a quieter visit; a working farm still has animal sounds, smells and outdoor conditions.",
+        "sourceUrl": "https://thetrustees.org/event/448728/",
+        "checkedAt": "2026-10-06",
+        "basis": "Editorial planning estimate from organizer details"
+      },
+      "holidayEvidence": {}
+    },
+    "niantic-halloween-2026-10-16": {
+      "ageGroups": [
+        "children",
+        "families"
+      ],
+      "accessFeatures": [
+        "sensory-friendly"
+      ],
+      "ageEvidence": {
+        "children": {
+          "url": "https://www.nianticchildrensmuseum.org/event/sensory-friendly-evening-halloween-art-6/"
+        },
+        "families": {
+          "url": "https://www.nianticchildrensmuseum.org/event/sensory-friendly-evening-halloween-art-6/"
+        }
+      },
+      "accessEvidence": {
+        "sensory-friendly": {
+          "url": "https://www.nianticchildrensmuseum.org/event/sensory-friendly-evening-halloween-art-6/"
+        }
+      },
+      "checkedAt": "2026-10-06",
+      "holidays": [
+        "halloween"
+      ],
+      "sensory": {
+        "level": "variable",
+        "note": "Quiet corners are provided; art materials and sensory bins offer optional textures. Sound and lighting adjustments are not specified.",
+        "sourceUrl": "https://www.nianticchildrensmuseum.org/event/sensory-friendly-evening-halloween-art-6/",
+        "checkedAt": "2026-10-06",
+        "basis": "Editorial planning estimate from organizer details"
+      },
+      "holidayEvidence": {
+        "halloween": {
+          "url": "https://www.nianticchildrensmuseum.org/event/sensory-friendly-evening-halloween-art-6/"
+        }
+      }
+    },
+    "breakers-halloween-2026-10-23": {
+      "ageGroups": [
+        "children",
+        "teens",
+        "families"
+      ],
+      "accessFeatures": [
+        "sensory-friendly"
+      ],
+      "ageEvidence": {
+        "children": {
+          "url": "https://www.newportmansions.org/events/halloween-trick-or-treat-at-the-breakers-2/"
+        },
+        "teens": {
+          "url": "https://www.newportmansions.org/events/halloween-trick-or-treat-at-the-breakers-2/"
+        },
+        "families": {
+          "url": "https://www.newportmansions.org/events/halloween-trick-or-treat-at-the-breakers-2/"
+        }
+      },
+      "accessEvidence": {
+        "sensory-friendly": {
+          "url": "https://www.newportmansions.org/events/halloween-trick-or-treat-at-the-breakers-2/"
+        }
+      },
+      "checkedAt": "2026-10-06",
+      "holidays": [
+        "halloween"
+      ],
+      "sensory": {
+        "level": "low",
+        "note": "Music and strobes are off only until 6 p.m.; spooky decorations remain throughout.",
+        "sourceUrl": "https://www.newportmansions.org/events/halloween-trick-or-treat-at-the-breakers-2/",
+        "checkedAt": "2026-10-06",
+        "basis": "Editorial planning estimate from organizer details"
+      },
+      "holidayEvidence": {
+        "halloween": {
+          "url": "https://www.newportmansions.org/events/halloween-trick-or-treat-at-the-breakers-2/"
+        }
+      }
+    },
+    "bso-holiday-2026-12-05": {
+      "ageGroups": [
+        "all-ages",
+        "children",
+        "teens",
+        "adults",
+        "families"
+      ],
+      "accessFeatures": [
+        "sensory-friendly"
+      ],
+      "ageEvidence": {
+        "all-ages": {
+          "url": "https://www.bso.org/events/2026-holiday-pops-sensory-friendly"
+        },
+        "children": {
+          "url": "https://www.bso.org/events/2026-holiday-pops-sensory-friendly"
+        },
+        "teens": {
+          "url": "https://www.bso.org/events/2026-holiday-pops-sensory-friendly"
+        },
+        "adults": {
+          "url": "https://www.bso.org/events/2026-holiday-pops-sensory-friendly"
+        },
+        "families": {
+          "url": "https://www.bso.org/events/2026-holiday-pops-sensory-friendly"
+        }
+      },
+      "accessEvidence": {
+        "sensory-friendly": {
+          "url": "https://www.bso.org/events/2026-holiday-pops-sensory-friendly"
+        }
+      },
+      "checkedAt": "2026-10-06",
+      "holidays": [
+        "winter-holidays",
+        "holiday-performance"
+      ],
+      "sensory": {
+        "level": "moderate",
+        "note": "A live music performance with softened volume and lighting; quiet spaces and headphones are available.",
+        "sourceUrl": "https://www.bso.org/events/2026-holiday-pops-sensory-friendly",
+        "checkedAt": "2026-10-06",
+        "basis": "Editorial planning estimate from organizer details"
+      },
+      "holidayEvidence": {
+        "winter-holidays": {
+          "url": "https://www.bso.org/events/2026-holiday-pops-sensory-friendly"
+        },
+        "holiday-performance": {
+          "url": "https://www.bso.org/events/2026-holiday-pops-sensory-friendly"
+        }
+      }
+    },
+    "toyshop-sensory-2026-12-05": {
+      "ageGroups": [],
+      "accessFeatures": [
+        "sensory-friendly"
+      ],
+      "ageEvidence": {},
+      "accessEvidence": {
+        "sensory-friendly": {
+          "url": "https://www.neballettheatre.com/fts"
+        }
+      },
+      "checkedAt": "2026-10-06",
+      "holidays": [
+        "winter-holidays",
+        "holiday-performance"
+      ],
+      "sensory": {
+        "level": "unknown",
+        "note": "A sensory-friendly performance is announced, but specific sound, lighting and quiet-space changes are not published.",
+        "sourceUrl": "https://www.neballettheatre.com/fts",
+        "checkedAt": "2026-10-06",
+        "basis": "Editorial planning estimate from organizer details"
+      },
+      "holidayEvidence": {
+        "winter-holidays": {
+          "url": "https://www.neballettheatre.com/fts"
+        },
+        "holiday-performance": {
+          "url": "https://www.neballettheatre.com/fts"
+        }
+      }
+    },
+    "northshore-santa-2026-12-06": {
+      "ageGroups": [
+        "children",
+        "families"
+      ],
+      "accessFeatures": [
+        "sensory-friendly"
+      ],
+      "ageEvidence": {
+        "children": {
+          "url": "https://www.simon.com/mall/northshore-mall/stores/santa-photo-experience/stream/a-special-visit-with-caring-santa-6289957"
+        },
+        "families": {
+          "url": "https://www.simon.com/mall/northshore-mall/stores/santa-photo-experience/stream/a-special-visit-with-caring-santa-6289957"
+        }
+      },
+      "accessEvidence": {
+        "sensory-friendly": {
+          "url": "https://www.simon.com/mall/northshore-mall/stores/santa-photo-experience/stream/a-special-visit-with-caring-santa-6289957"
+        }
+      },
+      "checkedAt": "2026-10-06",
+      "holidays": [
+        "christmas",
+        "santa",
+        "winter-holidays"
+      ],
+      "sensory": {
+        "level": "unknown",
+        "note": "The organizer labels this private session sensory-friendly; specific lighting, sound and photo-flash arrangements are not listed.",
+        "sourceUrl": "https://www.simon.com/mall/northshore-mall/stores/santa-photo-experience/stream/a-special-visit-with-caring-santa-6289957",
+        "checkedAt": "2026-10-06",
+        "basis": "Editorial planning estimate from organizer details"
+      },
+      "holidayEvidence": {
+        "christmas": {
+          "url": "https://www.simon.com/mall/northshore-mall/stores/santa-photo-experience/stream/a-special-visit-with-caring-santa-6289957"
+        },
+        "santa": {
+          "url": "https://www.simon.com/mall/northshore-mall/stores/santa-photo-experience/stream/a-special-visit-with-caring-santa-6289957"
+        },
+        "winter-holidays": {
+          "url": "https://www.simon.com/mall/northshore-mall/stores/santa-photo-experience/stream/a-special-visit-with-caring-santa-6289957"
+        }
+      }
+    },
+    "communityhouse-santa-2026-12-12": {
+      "ageGroups": [
+        "families"
+      ],
+      "accessFeatures": [
+        "sensory-friendly"
+      ],
+      "ageEvidence": {
+        "families": {
+          "url": "https://communityhouse.org/santa/"
+        }
+      },
+      "accessEvidence": {
+        "sensory-friendly": {
+          "url": "https://communityhouse.org/santa/"
+        }
+      },
+      "checkedAt": "2026-10-06",
+      "holidays": [
+        "christmas",
+        "santa",
+        "winter-holidays"
+      ],
+      "sensory": {
+        "level": "low",
+        "note": "No live music and fewer guests are planned for this hour; soft background music may remain.",
+        "sourceUrl": "https://communityhouse.org/santa/",
+        "checkedAt": "2026-10-06",
+        "basis": "Editorial planning estimate from organizer details"
+      },
+      "holidayEvidence": {
+        "christmas": {
+          "url": "https://communityhouse.org/santa/"
+        },
+        "santa": {
+          "url": "https://communityhouse.org/santa/"
+        },
+        "winter-holidays": {
+          "url": "https://communityhouse.org/santa/"
+        }
+      }
+    },
+    "castlehill-christmas-2026-12-05": {
+      "ageGroups": [
+        "all-ages",
+        "children",
+        "teens",
+        "adults",
+        "families"
+      ],
+      "accessFeatures": [
+        "sensory-friendly"
+      ],
+      "ageEvidence": {
+        "all-ages": {
+          "url": "https://thetrustees.org/event/450153/"
+        },
+        "children": {
+          "url": "https://thetrustees.org/event/450153/"
+        },
+        "teens": {
+          "url": "https://thetrustees.org/event/450153/"
+        },
+        "adults": {
+          "url": "https://thetrustees.org/event/450153/"
+        },
+        "families": {
+          "url": "https://thetrustees.org/event/450153/"
+        }
+      },
+      "accessEvidence": {
+        "sensory-friendly": {
+          "url": "https://thetrustees.org/event/450153/"
+        }
+      },
+      "checkedAt": "2026-10-06",
+      "holidays": [
+        "christmas",
+        "winter-holidays"
+      ],
+      "sensory": {
+        "level": "low",
+        "note": "Reduced capacity, no music and no flickering lights during the specified sensory hours.",
+        "sourceUrl": "https://thetrustees.org/event/450153/",
+        "checkedAt": "2026-10-06",
+        "basis": "Editorial planning estimate from organizer details"
+      },
+      "holidayEvidence": {
+        "christmas": {
+          "url": "https://thetrustees.org/event/450153/"
+        },
+        "winter-holidays": {
+          "url": "https://thetrustees.org/event/450153/"
+        }
+      }
+    },
+    "castlehill-christmas-2026-12-12": {
+      "ageGroups": [
+        "all-ages",
+        "children",
+        "teens",
+        "adults",
+        "families"
+      ],
+      "accessFeatures": [
+        "sensory-friendly"
+      ],
+      "ageEvidence": {
+        "all-ages": {
+          "url": "https://thetrustees.org/event/450153/"
+        },
+        "children": {
+          "url": "https://thetrustees.org/event/450153/"
+        },
+        "teens": {
+          "url": "https://thetrustees.org/event/450153/"
+        },
+        "adults": {
+          "url": "https://thetrustees.org/event/450153/"
+        },
+        "families": {
+          "url": "https://thetrustees.org/event/450153/"
+        }
+      },
+      "accessEvidence": {
+        "sensory-friendly": {
+          "url": "https://thetrustees.org/event/450153/"
+        }
+      },
+      "checkedAt": "2026-10-06",
+      "holidays": [
+        "christmas",
+        "winter-holidays"
+      ],
+      "sensory": {
+        "level": "low",
+        "note": "Reduced capacity, no music and no flickering lights during the specified sensory hours.",
+        "sourceUrl": "https://thetrustees.org/event/450153/",
+        "checkedAt": "2026-10-06",
+        "basis": "Editorial planning estimate from organizer details"
+      },
+      "holidayEvidence": {
+        "christmas": {
+          "url": "https://thetrustees.org/event/450153/"
+        },
+        "winter-holidays": {
+          "url": "https://thetrustees.org/event/450153/"
+        }
+      }
+    },
+    "crc-halloween-2026-10-16": {
+      "ageGroups": [
+        "teens",
+        "adults"
+      ],
+      "accessFeatures": [],
+      "ageEvidence": {
+        "teens": {
+          "url": "https://www.charlesrivercenter.org/event/hello-fall-social-3/"
+        },
+        "adults": {
+          "url": "https://www.charlesrivercenter.org/event/hello-fall-social-3/"
+        }
+      },
+      "accessEvidence": {},
+      "checkedAt": "2026-10-06",
+      "holidays": [
+        "halloween"
+      ],
+      "sensory": {
+        "level": "unknown",
+        "note": "The event page does not publish sound, lighting or quiet-space arrangements. Ask the organizer before planning.",
+        "sourceUrl": "https://www.charlesrivercenter.org/event/hello-fall-social-3/",
+        "checkedAt": "2026-10-06",
+        "basis": "Editorial planning estimate from organizer details"
+      },
+      "holidayEvidence": {
+        "halloween": {
+          "url": "https://www.charlesrivercenter.org/event/hello-fall-social-3/"
+        }
+      }
+    },
+    "raisingharts-tricks-2026-10-18": {
+      "ageGroups": [
+        "all-ages",
+        "children",
+        "teens",
+        "adults",
+        "families"
+      ],
+      "accessFeatures": [
+        "sensory-friendly"
+      ],
+      "ageEvidence": {
+        "all-ages": {
+          "url": "https://www.raisingharts.org/tricks-treats"
+        },
+        "children": {
+          "url": "https://www.raisingharts.org/tricks-treats"
+        },
+        "teens": {
+          "url": "https://www.raisingharts.org/tricks-treats"
+        },
+        "adults": {
+          "url": "https://www.raisingharts.org/tricks-treats"
+        },
+        "families": {
+          "url": "https://www.raisingharts.org/tricks-treats"
+        }
+      },
+      "accessEvidence": {
+        "sensory-friendly": {
+          "url": "https://www.raisingharts.org/tricks-treats"
+        }
+      },
+      "checkedAt": "2026-10-06",
+      "holidays": [
+        "halloween"
+      ],
+      "sensory": {
+        "level": "low",
+        "note": "Lights stay on and music, strobes and fog are off from 4–5 p.m.; the later event may be more stimulating.",
+        "sourceUrl": "https://www.raisingharts.org/tricks-treats",
+        "checkedAt": "2026-10-06",
+        "basis": "Editorial planning estimate from organizer details"
+      },
+      "holidayEvidence": {
+        "halloween": {
+          "url": "https://www.raisingharts.org/tricks-treats"
+        }
+      }
+    },
+    "clpvd-2026-10-27": {
+      "ageGroups": [
+        "all-ages",
+        "children",
+        "families"
+      ],
+      "accessFeatures": [
+        "sensory-friendly",
+        "wheelchair-step-free"
+      ],
+      "ageEvidence": {
+        "all-ages": {
+          "evidenceId": "clpvd-series",
+          "url": "https://clpvd.org/series/sensory-friendly-storytime/"
+        },
+        "children": {
+          "evidenceId": "clpvd-series",
+          "url": "https://clpvd.org/series/sensory-friendly-storytime/"
+        },
+        "families": {
+          "evidenceId": "clpvd-series",
+          "url": "https://clpvd.org/series/sensory-friendly-storytime/"
+        }
+      },
+      "accessEvidence": {
+        "sensory-friendly": {
+          "evidenceId": "clpvd-series",
+          "url": "https://clpvd.org/series/sensory-friendly-storytime/"
+        },
+        "wheelchair-step-free": {
+          "evidenceId": "clpvd-access",
+          "url": "https://clpvd.org/clpvd_library/mt-pleasant-library/"
+        }
+      },
+      "checkedAt": "2026-10-06",
+      "ageRange": {
+        "min": 0,
+        "max": 5,
+        "kind": "recommended",
+        "otherAgesWelcome": true
+      },
+      "sensory": {
+        "level": "variable",
+        "note": "Songs, movement and bubbles are part of storytime; fidgets and visual supports are available.",
+        "sourceUrl": "https://clpvd.org/event/sensory-friendly-storytime/2026-10-27/",
+        "checkedAt": "2026-10-06",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-06"
+      },
+      "holidays": [],
+      "holidayEvidence": {}
     }
-  }
+  },
+  "sensoryMethod": "Sensory levels are editorial planning estimates based on the specific published conditions, not medical ratings or promises. Low means reduced stimulation, moderate means some ongoing music or activity, high means a likely stimulating mix, variable means conditions or parts of the visit differ, and unknown means evidence is insufficient. Sensory-friendly and disability-inclusive are not automatic low-sensory ratings. Earlier event verification dates remain visible."
 }

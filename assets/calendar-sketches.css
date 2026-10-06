@@ -113,3 +113,14 @@
 @media(max-width:800px){.calendar-page .event-primary-filters,.calendar-page .event-advanced-filters{grid-template-columns:repeat(2,minmax(0,1fr))}.calendar-page .event-filters label:last-of-type{grid-column:auto}}
 @media(max-width:480px){.calendar-page .event-primary-filters,.calendar-page .event-advanced-filters{grid-template-columns:1fr}.calendar-page .filter-description{display:block;margin:4px 0 0 18px}.calendar-page .event-list .event-card,.calendar-page .event-list .event-card.has-sketch{grid-template-columns:38px minmax(0,1fr);gap:12px}.calendar-page .calendar-toolbar-head{display:block}}
 @media print{.calendar-page .calendar-filter-actions,.calendar-page .calendar-jump{display:none}}
+
+/* Plain-text sensory and seasonal cues preserve the compact list layout. */
+.calendar-page .event-planning{margin:8px 0 12px}
+.calendar-page .event-planning-labels{display:flex;flex-wrap:wrap;gap:6px}
+.calendar-page .event-planning-labels .event-badge{font-size:.74rem;line-height:1.45;text-transform:none;letter-spacing:normal;border:1px solid #bdc8c1;background:#edf1ec;color:#21483d}
+.calendar-page .event-planning-labels .sensory-high{background:#f7e8e1;color:#733d2b;border-color:#cfac9d}
+.calendar-page .event-planning-labels .sensory-moderate,.calendar-page .event-planning-labels .sensory-variable{background:#f4eedf;color:#5c4a21;border-color:#c9ba96}
+.calendar-page .event-planning-labels .sensory-unknown{background:#edeeeb;color:#48524e;border-color:#bdc3bf}
+.calendar-page .event-planning-labels .holiday{background:#faf4e7;color:#51482d;border-color:#d6cba9}
+.calendar-page .event-sensory-note{font-size:.83rem;line-height:1.6;max-width:85ch;margin:6px 0;color:#38534f}
+.calendar-page #event-sensory-help{margin-top:10px}
