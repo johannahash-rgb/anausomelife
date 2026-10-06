@@ -178,7 +178,7 @@
 <style>
 .wf-story{width:min(1080px,calc(100% - 34px));margin:0 auto;color:var(--er-ink);padding-bottom:36px}
 .wf-story .er-meta{margin-bottom:24px}
-.wf-hero{display:grid;grid-template-columns:minmax(0,.9fr) minmax(320px,1.1fr);gap:40px;align-items:center;padding:20px 0 34px;border-bottom:1px solid var(--er-line)}
+.wf-hero{display:grid;grid-template-columns:minmax(0,.9fr) minmax(320px,1.1fr);gap:32px;align-items:center;padding:10px 0 24px;border-bottom:1px solid var(--er-line)}
 .wf-hero figure img,.wf-photo img{width:100%;height:auto;display:block;border:1px solid var(--er-line);background:#fff}
 .wf-hero figure img{aspect-ratio:4/3;object-fit:cover}
 .wf-hero-copy{padding-bottom:6px}
@@ -188,7 +188,7 @@
 .wf-hero-copy h1{font-size:clamp(2.6rem,5vw,4.4rem);line-height:.98;letter-spacing:-.045em;margin:0 0 18px}
 .wf-hero-copy .er-deck{font-size:1.08rem;line-height:1.55;margin:0 0 15px}
 .wf-byline{font-size:.78rem;letter-spacing:.04em;color:var(--ed-muted,#50635a);margin:0}
-.wf-story-grid{display:grid;grid-template-columns:minmax(0,1.35fr) minmax(270px,.65fr);gap:46px;padding:34px 0;border-bottom:1px solid var(--er-line)}
+.wf-story-grid{display:grid;grid-template-columns:minmax(0,1.35fr) minmax(270px,.65fr);gap:46px;padding:30px 0;border-bottom:1px solid var(--er-line)}
 .wf-copy h2{font-size:clamp(2rem,3.2vw,2.8rem);line-height:1.08;margin:0 0 18px}
 .wf-copy p{font:1.05rem/1.78 Georgia,'Times New Roman',serif;margin:0 0 18px}
 .wf-copy .wf-lead:first-letter{float:left;font:4.3rem/.8 Georgia,serif;padding:10px 10px 0 0;color:var(--er-green)}
@@ -197,11 +197,6 @@
 .wf-editorial-illustration{margin:0;padding:18px 0 0;border-top:1px solid var(--er-line)}
 .wf-editorial-illustration img{width:100%;height:auto;display:block;object-fit:contain;background:transparent}
 .wf-editorial-illustration figcaption{font:italic .75rem/1.5 Georgia,serif;color:var(--ed-muted,#50635a);margin-top:8px}
-.wf-autumn-interlude{display:grid;grid-template-columns:minmax(0,.9fr) minmax(320px,1.1fr);gap:40px;align-items:center;padding:30px 0;border-bottom:1px solid var(--er-line)}
-.wf-autumn-interlude h2{font-size:clamp(1.9rem,3vw,2.6rem);line-height:1.08;margin:0 0 13px}
-.wf-autumn-interlude p{font:1rem/1.72 Georgia,'Times New Roman',serif}
-.wf-autumn-interlude figure img{width:100%;height:auto;display:block}
-.wf-autumn-interlude figcaption{font:italic .75rem/1.5 Georgia,serif;color:var(--ed-muted,#50635a);margin-top:8px}
 .wf-facts{border-top:3px solid var(--er-green);padding-top:16px}
 .wf-facts h2{font-size:1.7rem;margin:0 0 12px}
 .wf-facts dl{margin:0}
@@ -226,8 +221,7 @@
 .wf-close .wf-source{font:.76rem/1.6 Arial,Helvetica,sans-serif;color:var(--ed-muted,#50635a);margin-top:24px}
 .wf-close .wf-source a{font-weight:700}
 @media(max-width:760px){
-  .wf-hero,.wf-story-grid,.wf-practical header,.wf-autumn-interlude{grid-template-columns:1fr;gap:24px}
-  .wf-hero-copy{order:-1}.wf-hero-art{order:0}
+  .wf-hero,.wf-story-grid,.wf-practical header,  .wf-hero-copy{order:-1}.wf-hero-art{order:0}
   .wf-practical dl{grid-template-columns:1fr}
   .wf-practical dl>div,.wf-practical dl>div:not(:nth-child(3n+1)){padding:14px 0;border-left:0}
   .wf-hero-copy h1{font-size:clamp(2.55rem,11vw,3.7rem)}
@@ -271,18 +265,6 @@
   </aside>
 </section>
 
-<section class="wf-autumn-interlude" id="wf-autumn-illustration" aria-labelledby="wf-autumn-art-title">
-  <div>
-    <p class="er-kicker">A little illustrated pause</p>
-    <h2 id="wf-autumn-art-title">The season does some of the decorating for us.</h2>
-    <p>The pumpkins, mums and greenhouse light are the sort of details that can make a practical stop feel unexpectedly festive. We keep the real family photographs as the record of our visit and let the illustration carry a little of the New England autumn mood.</p>
-  </div>
-  <figure class="wf-editorial-illustration">
-    <img src="/assets/autumn-village.webp" width="1200" height="800" alt="Original editorial illustration of a warm New England autumn village scene." loading="lazy">
-    <figcaption>Original editorial illustration · autumn atmosphere only, not a photograph of Wilson Farm.</figcaption>
-  </figure>
-</section>
-
 <section class="wf-story-grid" aria-labelledby="wf-bakery">
   <article class="wf-copy">
     <p class="er-kicker">The bakery and the people</p>
@@ -295,7 +277,7 @@
   <div class="wf-visual-stack">
   <figure class="wf-editorial-illustration">
     <img src="/assets/farm-day-trip.webp?v=20261005g" alt="Original editorial illustration of a New England farm outing." loading="lazy">
-    <figcaption>Original editorial illustration · a farm-and-bakery mood for the story, not a documentary photograph.</figcaption>
+    <figcaption>Original editorial illustration · a warm farmstand detail for the story, not a photograph of Wilson Farm.</figcaption>
   </figure>
 </div>
 </section>
