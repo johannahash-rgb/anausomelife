@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 4,
   "created": "2026-10-03",
   "artworkType": "Original AI-generated event-inspired ink-and-watercolor illustrations",
-  "disclosure": "Original AI-generated conceptual illustrations inspired by each dated listing. Every dated event has its own distinct composition. Not venue photographs, access maps or depictions of confirmed exhibits.",
+  "disclosure": "Original AI-generated conceptual ink-and-watercolor illustrations inspired by the listed activities. Existing event-specific compositions are preserved, and reviewed studies are reused for related sessions. Not venue photographs, access maps or depictions of confirmed exhibits.",
   "events": {
     "bcm-2026-10-03": {
       "src": "/assets/event-sketches/morningstar-museum.webp",
@@ -624,6 +624,560 @@
       "title": "New England Regional Cane Quest",
       "venue": "Natick Mall",
       "start": "2026-11-11T09:00:00-05:00"
+    },
+    "discovery-inclusive-2026-10-06": {
+      "src": "/assets/event-sketches/discovery-inclusive-afternoon.webp",
+      "alt": "A wooden balance sculpture, magnifying lens and fern in afternoon sunshine.",
+      "width": 720,
+      "height": 480,
+      "title": "Inclusive Afternoon",
+      "venue": "Discovery Museum",
+      "start": "2026-10-06T13:30:00-04:00",
+      "reusedFromEvent": "discovery-inclusive-2026-11-17"
+    },
+    "aarp-roll-dance-2026-10-06": {
+      "src": "/assets/event-sketches/some-workout-2026-11-03.webp",
+      "alt": "Watercolor study of a green exercise mat, athletic shoes, striped towel and sturdy wooden chair.",
+      "width": 720,
+      "height": 480,
+      "title": "Move, Groove & Glow: Accessible Walk and Dance",
+      "venue": "Michael S. Van Leesten Memorial Bridge, west side",
+      "start": "2026-10-06T18:00:00-04:00",
+      "reusedFromEvent": "some-workout-2026-11-03"
+    },
+    "longhill-sensory-2026-10-09": {
+      "src": "/assets/event-sketches/pumpkin-trail.webp",
+      "alt": "Glowing carved pumpkins along a winding woodland path at twilight.",
+      "width": 720,
+      "height": 480,
+      "title": "Sensory-Friendly Halloween on the Hill",
+      "venue": "Long Hill",
+      "start": "2026-10-09T16:00:00-04:00",
+      "reusedFromEvent": "rwpzoo-2026-10-20"
+    },
+    "fia-halloween-2026-10-09": {
+      "src": "/assets/event-sketches/aa-halloween-dance-2026-10-16.webp",
+      "alt": "Navy dancing sneakers, cranberry ribbons and a carved pumpkin in warm stage light.",
+      "width": 720,
+      "height": 480,
+      "title": "Friends in Action Halloween Social",
+      "venue": "Community Church of Durham",
+      "start": "2026-10-09T18:30:00-04:00",
+      "reusedFromEvent": "aa-halloween-dance-2026-10-16"
+    },
+    "altitude-billerica-2026-10-10": {
+      "src": "/assets/event-sketches/trampoline-play.webp",
+      "alt": "Original ink-and-watercolor study of a navy trampoline edge and striped grip socks.",
+      "width": 1536,
+      "height": 1024,
+      "title": "Altitude Sensory-Friendly Saturday",
+      "venue": "Altitude Trampoline Park Billerica",
+      "start": "2026-10-10T09:00:00-04:00"
+    },
+    "jcc-sensory-2026-10-10": {
+      "src": "/assets/event-sketches/sensory-swim.webp",
+      "alt": "Original ink-and-watercolor illustration of a calm indoor lap pool with blue water, lane ropes and an entry ladder.",
+      "width": 1200,
+      "height": 800,
+      "reusedFrom": "/assets/venue-illustrations/indoor-pool-illustration.webp",
+      "title": "Sensory Swim Hour",
+      "venue": "Pool Deck, Leventhal-Sidman JCC",
+      "start": "2026-10-10T15:00:00-04:00"
+    },
+    "urban-bellingham-2026-10-11": {
+      "src": "/assets/event-sketches/trampoline-play.webp",
+      "alt": "Original ink-and-watercolor study of a navy trampoline edge and striped grip socks.",
+      "width": 1536,
+      "height": 1024,
+      "title": "Urban Air Bellingham Sensory Play",
+      "venue": "Urban Air Bellingham",
+      "start": "2026-10-11T08:00:00-04:00"
+    },
+    "urban-brockton-2026-10-11": {
+      "src": "/assets/event-sketches/trampoline-play.webp",
+      "alt": "Original ink-and-watercolor study of a navy trampoline edge and striped grip socks.",
+      "width": 1536,
+      "height": 1024,
+      "title": "Urban Air Brockton Sensory Play",
+      "venue": "Urban Air Brockton",
+      "start": "2026-10-11T09:00:00-04:00"
+    },
+    "echo-sensory-2026-10-11": {
+      "src": "/assets/event-sketches/montshire-science.webp",
+      "alt": "A bubble wand, iridescent bubbles, prism and fern in ink and watercolor.",
+      "width": 720,
+      "height": 480,
+      "title": "Sensory Friendly Sunday at ECHO",
+      "venue": "ECHO, Leahy Center for Lake Champlain",
+      "start": "2026-10-11T09:00:00-04:00",
+      "reusedFromEvent": "montshire-2026-10-17"
+    },
+    "jcc-sensory-2026-10-11": {
+      "src": "/assets/event-sketches/sensory-swim.webp",
+      "alt": "Original ink-and-watercolor illustration of a calm indoor lap pool with blue water, lane ropes and an entry ladder.",
+      "width": 1200,
+      "height": 800,
+      "reusedFrom": "/assets/venue-illustrations/indoor-pool-illustration.webp",
+      "title": "Sensory Swim Hour",
+      "venue": "Pool Deck, Leventhal-Sidman JCC",
+      "start": "2026-10-11T15:00:00-04:00"
+    },
+    "old-state-house-2026-10-12": {
+      "src": "/assets/event-sketches/history-morning.webp",
+      "alt": "Original ink-and-watercolor study of a quill, inkpot, old brass keys and parchment beside a red-brick detail.",
+      "width": 1536,
+      "height": 1024,
+      "title": "Sensory-Friendly Morning at the Old State House",
+      "venue": "Old State House",
+      "start": "2026-10-12T09:00:00-04:00"
+    },
+    "aoec-horse-2026-10-14": {
+      "src": "/assets/event-sketches/miniature-horse.webp",
+      "alt": "Original ink-and-watercolor study of a small chestnut horse beside a timber fence.",
+      "width": 1536,
+      "height": 1024,
+      "title": "AOEC: Meet Toast the Miniature Horse",
+      "venue": "Adaptive Outdoor Education Center Brunswick",
+      "start": "2026-10-14T10:00:00-04:00"
+    },
+    "fia-bowling-2026-10-15": {
+      "src": "/assets/event-sketches/some-bowling-bangor-2026-11-16.webp",
+      "alt": "A green marbled bowling ball, three ivory pins and a navy bowling bag on a maple bench.",
+      "width": 720,
+      "height": 480,
+      "title": "Friends in Action Bowling Night",
+      "venue": "Bowl-O-Rama",
+      "start": "2026-10-15T16:30:00-04:00",
+      "reusedFromEvent": "some-bowling-bangor-2026-11-16"
+    },
+    "bilt-dance-2026-10-16": {
+      "src": "/assets/event-sketches/aa-halloween-dance-2026-10-16.webp",
+      "alt": "Navy dancing sneakers, cranberry ribbons and a carved pumpkin in warm stage light.",
+      "width": 720,
+      "height": 480,
+      "title": "BILT Halloween Dance",
+      "venue": "Knights of Columbus Hall",
+      "start": "2026-10-16T16:00:00-04:00",
+      "reusedFromEvent": "aa-halloween-dance-2026-10-16"
+    },
+    "carroll-alumni-trivia-2026-10-16": {
+      "src": "/assets/event-sketches/trivia-night.webp",
+      "alt": "Original ink-and-watercolor study of a brass quiz bell, pencils and blank scorecards.",
+      "width": 1536,
+      "height": 1024,
+      "title": "Carroll Alumni Socials: Trivia Night",
+      "venue": "The Carroll Center for the Blind",
+      "start": "2026-10-16T17:00:00-04:00"
+    },
+    "niantic-halloween-2026-10-16": {
+      "src": "/assets/event-sketches/aldrich-sensory-art.webp",
+      "alt": "Watercolor paints, brushes, abstract shapes and a small wood sculpture.",
+      "width": 720,
+      "height": 480,
+      "title": "Sensory-Friendly Evening: Halloween Art",
+      "venue": "Niantic Children’s Museum",
+      "start": "2026-10-16T17:00:00-04:00",
+      "reusedFromEvent": "aldrich-2026-10-24"
+    },
+    "crc-halloween-2026-10-16": {
+      "src": "/assets/event-sketches/venture-trick-treat.webp",
+      "alt": "A warmly lit indoor doorway with pumpkin decorations, treats and craft supplies.",
+      "width": 720,
+      "height": 480,
+      "title": "Charles River Center Halloween Social",
+      "venue": "Charles River Center Needham",
+      "start": "2026-10-16T18:30:00-04:00",
+      "reusedFromEvent": "venture-2026-10-27"
+    },
+    "bierman-cranston-trunk-treat-2026-10-17": {
+      "src": "/assets/event-sketches/bierman-bedford-trunk-treat.webp",
+      "alt": "An open navy station wagon with a pumpkin garland, treats and a tartan blanket.",
+      "width": 720,
+      "height": 480,
+      "title": "Sensory-Friendly Trunk-or-Treat in Cranston",
+      "venue": "Bierman Autism Centers – Cranston",
+      "start": "2026-10-17T10:00:00-04:00",
+      "reusedFromEvent": "bierman-bedford-2026-10-17"
+    },
+    "bilt-bowling-2026-10-17": {
+      "src": "/assets/event-sketches/some-bowling-hallowell-2026-10-27.webp",
+      "alt": "Ink-and-watercolor study of a marbled bowling ball, bowling pins and leather bowling shoes.",
+      "width": 720,
+      "height": 480,
+      "title": "BILT Bowling League",
+      "venue": "Wamesit Lanes",
+      "start": "2026-10-17T10:00:00-04:00",
+      "reusedFromEvent": "some-bowling-hallowell-2026-10-27"
+    },
+    "weir-boo-2026-10-17": {
+      "src": "/assets/event-sketches/weir-open-barnyard.webp",
+      "alt": "A woolly sheep and russet hen beside a weathered New England farm fence.",
+      "width": 720,
+      "height": 480,
+      "title": "Sensory-Friendly Boo in the Barnyard",
+      "venue": "Weir River Farm",
+      "start": "2026-10-17T13:00:00-04:00",
+      "reusedFromEvent": "weir-2026-11-21"
+    },
+    "jcc-sensory-2026-10-17": {
+      "src": "/assets/event-sketches/sensory-swim.webp",
+      "alt": "Original ink-and-watercolor illustration of a calm indoor lap pool with blue water, lane ropes and an entry ladder.",
+      "width": 1200,
+      "height": 800,
+      "reusedFrom": "/assets/venue-illustrations/indoor-pool-illustration.webp",
+      "title": "Sensory Swim Hour",
+      "venue": "Pool Deck, Leventhal-Sidman JCC",
+      "start": "2026-10-17T15:00:00-04:00"
+    },
+    "jcc-sensory-2026-10-18": {
+      "src": "/assets/event-sketches/sensory-swim.webp",
+      "alt": "Original ink-and-watercolor illustration of a calm indoor lap pool with blue water, lane ropes and an entry ladder.",
+      "width": 1200,
+      "height": 800,
+      "reusedFrom": "/assets/venue-illustrations/indoor-pool-illustration.webp",
+      "title": "Sensory Swim Hour",
+      "venue": "Pool Deck, Leventhal-Sidman JCC",
+      "start": "2026-10-18T15:00:00-04:00"
+    },
+    "raisingharts-tricks-2026-10-18": {
+      "src": "/assets/event-sketches/beals-library-halloween.webp",
+      "alt": "A storybook, paper pumpkin craft and basket of treats beside a reading lamp.",
+      "width": 720,
+      "height": 480,
+      "title": "Tricks + Treats — Sensory-Friendly Hour",
+      "venue": "City Arena",
+      "start": "2026-10-18T16:00:00-04:00",
+      "reusedFromEvent": "beals-2026-10-24"
+    },
+    "marc-dance-2026-10-20": {
+      "src": "/assets/event-sketches/aa-halloween-dance-2026-10-16.webp",
+      "alt": "Navy dancing sneakers, cranberry ribbons and a carved pumpkin in warm stage light.",
+      "width": 720,
+      "height": 480,
+      "title": "MARC Halloween Dance",
+      "venue": "MARC Halloween Dance venue",
+      "start": "2026-10-20T17:30:00-04:00",
+      "reusedFromEvent": "aa-halloween-dance-2026-10-16"
+    },
+    "bridge-trivia-2026-10-21": {
+      "src": "/assets/event-sketches/trivia-night.webp",
+      "alt": "Original ink-and-watercolor study of a brass quiz bell, pencils and blank scorecards.",
+      "width": 1536,
+      "height": 1024,
+      "title": "Bridge The Spectrum Halloween Trivia",
+      "venue": "David J. Doherty Municipal Building, Room 1",
+      "start": "2026-10-21T18:00:00-04:00"
+    },
+    "longhill-sensory-2026-10-23": {
+      "src": "/assets/event-sketches/rwpzoo-2026-10-21.webp",
+      "alt": "Three glowing pumpkins with botanical carvings along a woodland rail among ferns and copper leaves.",
+      "width": 720,
+      "height": 480,
+      "title": "Sensory-Friendly Halloween on the Hill",
+      "venue": "Long Hill",
+      "start": "2026-10-23T16:00:00-04:00",
+      "reusedFromEvent": "rwpzoo-2026-10-21"
+    },
+    "breakers-halloween-2026-10-23": {
+      "src": "/assets/event-sketches/venture-trick-treat.webp",
+      "alt": "A warmly lit indoor doorway with pumpkin decorations, treats and craft supplies.",
+      "width": 720,
+      "height": 480,
+      "title": "The Breakers: Sensory-Friendly Trick or Treat",
+      "venue": "The Breakers",
+      "start": "2026-10-23T17:30:00-04:00",
+      "reusedFromEvent": "venture-2026-10-27"
+    },
+    "gilsland-accessible-birding-2026-10-24": {
+      "src": "/assets/event-sketches/gilsland-birding.webp",
+      "alt": "Original ink-and-watercolor study of a chickadee among goldenrod beside an autumn salt marsh.",
+      "width": 1448,
+      "height": 1086,
+      "reusedFrom": "/assets/ellis-place-guides/gilsland-meadow.webp",
+      "title": "Accessible Beginner Birding at Gilsland Farm",
+      "venue": "Gilsland Farm Audubon Center",
+      "start": "2026-10-24T09:00:00-04:00"
+    },
+    "nehsa-bike-2026-10-24": {
+      "src": "/assets/event-sketches/uap-cycling-groton-2026-11-06.webp",
+      "alt": "Ink-and-watercolor tandem bicycle beside an autumn rail trail with scattered leaves.",
+      "width": 720,
+      "height": 480,
+      "title": "NEHSA Adaptive Bike Demo Day",
+      "venue": "Mount Sunapee Resort",
+      "start": "2026-10-24T11:00:00-04:00",
+      "reusedFromEvent": "uap-cycling-groton-2026-11-06"
+    },
+    "jcc-sensory-2026-10-24": {
+      "src": "/assets/event-sketches/sensory-swim.webp",
+      "alt": "Original ink-and-watercolor illustration of a calm indoor lap pool with blue water, lane ropes and an entry ladder.",
+      "width": 1200,
+      "height": 800,
+      "reusedFrom": "/assets/venue-illustrations/indoor-pool-illustration.webp",
+      "title": "Sensory Swim Hour",
+      "venue": "Pool Deck, Leventhal-Sidman JCC",
+      "start": "2026-10-24T15:00:00-04:00"
+    },
+    "jcc-sensory-2026-10-25": {
+      "src": "/assets/event-sketches/sensory-swim.webp",
+      "alt": "Original ink-and-watercolor illustration of a calm indoor lap pool with blue water, lane ropes and an entry ladder.",
+      "width": 1200,
+      "height": 800,
+      "reusedFrom": "/assets/venue-illustrations/indoor-pool-illustration.webp",
+      "title": "Sensory Swim Hour",
+      "venue": "Pool Deck, Leventhal-Sidman JCC",
+      "start": "2026-10-25T15:00:00-04:00"
+    },
+    "clpvd-2026-10-27": {
+      "src": "/assets/event-sketches/clpvd-2026-10-20.webp",
+      "alt": "Illustrated autumn story pages, a bubble wand, wooden rhythm shaker and ochre scarf.",
+      "width": 720,
+      "height": 480,
+      "title": "Sensory Friendly Storytime",
+      "venue": "Mt. Pleasant Library, Children’s Area",
+      "start": "2026-10-27T10:30:00-04:00",
+      "reusedFromEvent": "clpvd-2026-10-20"
+    },
+    "aoec-planetarium-2026-10-28": {
+      "src": "/assets/event-sketches/planetarium-visit.webp",
+      "alt": "Original ink-and-watercolor study of a brass telescope and a night-blue star chart.",
+      "width": 1536,
+      "height": 1024,
+      "title": "AOEC Northern Stars Planetarium",
+      "venue": "Adaptive Outdoor Education Center Brunswick",
+      "start": "2026-10-28T10:00:00-04:00"
+    },
+    "bridge-movie-2026-10-28": {
+      "src": "/assets/event-sketches/carroll-movie-2026-12-11.webp",
+      "alt": "An audio headset and receiver rest on a navy cinema chair beside popcorn and a cranberry throw.",
+      "width": 720,
+      "height": 480,
+      "title": "Bridge The Spectrum Halloween Movie Night",
+      "venue": "Manross Memorial Library",
+      "start": "2026-10-28T17:30:00-04:00",
+      "reusedFromEvent": "carroll-movie-2026-12-11"
+    },
+    "weir-boo-2026-10-31": {
+      "src": "/assets/event-sketches/weir-open-barnyard.webp",
+      "alt": "A woolly sheep and russet hen beside a weathered New England farm fence.",
+      "width": 720,
+      "height": 480,
+      "title": "Sensory-Friendly Boo in the Barnyard",
+      "venue": "Weir River Farm",
+      "start": "2026-10-31T13:00:00-04:00",
+      "reusedFromEvent": "weir-2026-11-21"
+    },
+    "jcc-sensory-2026-10-31": {
+      "src": "/assets/event-sketches/sensory-swim.webp",
+      "alt": "Original ink-and-watercolor illustration of a calm indoor lap pool with blue water, lane ropes and an entry ladder.",
+      "width": 1200,
+      "height": 800,
+      "reusedFrom": "/assets/venue-illustrations/indoor-pool-illustration.webp",
+      "title": "Sensory Swim Hour",
+      "venue": "Pool Deck, Leventhal-Sidman JCC",
+      "start": "2026-10-31T15:00:00-04:00"
+    },
+    "bridge-pizza-2026-11-01": {
+      "src": "/assets/event-sketches/pizza-making.webp",
+      "alt": "Original ink-and-watercolor study of pizza dough, a wooden peel, rolling pin, tomatoes and basil.",
+      "width": 1536,
+      "height": 1024,
+      "title": "Bridge The Spectrum Pizza Making",
+      "venue": "Pop’s Pizza",
+      "start": "2026-11-01T14:30:00-05:00"
+    },
+    "jcc-sensory-2026-11-01": {
+      "src": "/assets/event-sketches/sensory-swim.webp",
+      "alt": "Original ink-and-watercolor illustration of a calm indoor lap pool with blue water, lane ropes and an entry ladder.",
+      "width": 1200,
+      "height": 800,
+      "reusedFrom": "/assets/venue-illustrations/indoor-pool-illustration.webp",
+      "title": "Sensory Swim Hour",
+      "venue": "Pool Deck, Leventhal-Sidman JCC",
+      "start": "2026-11-01T15:00:00-05:00"
+    },
+    "wings-logan-2026-11-07": {
+      "src": "/assets/event-sketches/airport-practice.webp",
+      "alt": "Original ink-and-watercolor study of a navy carry-on suitcase, unbranded passenger plane and blank boarding card.",
+      "width": 1536,
+      "height": 1024,
+      "title": "Wings for Autism — Boston Logan Airport",
+      "venue": "Boston Logan International Airport",
+      "start": "2026-11-07T09:00:00-05:00"
+    },
+    "weir-open-2026-11-07": {
+      "src": "/assets/event-sketches/weir-open-barnyard.webp",
+      "alt": "A woolly sheep and russet hen beside a weathered New England farm fence.",
+      "width": 720,
+      "height": 480,
+      "title": "Sensory-Friendly Open Barnyard",
+      "venue": "Weir River Farm",
+      "start": "2026-11-07T11:00:00-05:00",
+      "reusedFromEvent": "weir-2026-11-21"
+    },
+    "echo-sensory-2026-11-08": {
+      "src": "/assets/event-sketches/montshire-science.webp",
+      "alt": "A bubble wand, iridescent bubbles, prism and fern in ink and watercolor.",
+      "width": 720,
+      "height": 480,
+      "title": "Sensory Friendly Sunday at ECHO",
+      "venue": "ECHO, Leahy Center for Lake Champlain",
+      "start": "2026-11-08T09:00:00-05:00",
+      "reusedFromEvent": "montshire-2026-10-17"
+    },
+    "gilsland-accessible-birding-2026-11-11": {
+      "src": "/assets/event-sketches/gilsland-birding.webp",
+      "alt": "Original ink-and-watercolor study of a chickadee among goldenrod beside an autumn salt marsh.",
+      "width": 1448,
+      "height": 1086,
+      "reusedFrom": "/assets/ellis-place-guides/gilsland-meadow.webp",
+      "title": "Accessible Beginner Birding at Gilsland Farm",
+      "venue": "Gilsland Farm Audubon Center",
+      "start": "2026-11-11T08:00:00-05:00"
+    },
+    "car-holiday-bazaar-2026-11-14": {
+      "src": "/assets/event-sketches/holiday-gift-making.webp",
+      "alt": "Original watercolor study of a handmade gift, ribbon, tea, stationery and a small box on a cream tabletop.",
+      "width": 1536,
+      "height": 1024,
+      "reusedFrom": "/assets/gift-kit-illustration.webp",
+      "title": "Community Autism Resources Holiday Bazaar & Resource Fair",
+      "venue": "Taunton Hotel & Conference Center",
+      "start": "2026-11-14T10:00:00-05:00"
+    },
+    "lego-sensory-2026-11-15": {
+      "src": "/assets/event-sketches/bcm-2026-11-07.webp",
+      "alt": "A wooden building bridge, winding ball track and colored window panes in morning light.",
+      "width": 720,
+      "height": 480,
+      "title": "LEGO Discovery Center Sensory Morning",
+      "venue": "LEGO Discovery Center Boston",
+      "start": "2026-11-15T09:00:00-05:00",
+      "reusedFromEvent": "bcm-2026-11-07"
+    },
+    "old-state-house-2026-11-28": {
+      "src": "/assets/event-sketches/history-morning.webp",
+      "alt": "Original ink-and-watercolor study of a quill, inkpot, old brass keys and parchment beside a red-brick detail.",
+      "width": 1536,
+      "height": 1024,
+      "title": "Sensory-Friendly Morning at the Old State House",
+      "venue": "Old State House",
+      "start": "2026-11-28T09:00:00-05:00"
+    },
+    "gilsland-accessible-birding-2026-11-28": {
+      "src": "/assets/event-sketches/gilsland-birding.webp",
+      "alt": "Original ink-and-watercolor study of a chickadee among goldenrod beside an autumn salt marsh.",
+      "width": 1448,
+      "height": 1086,
+      "reusedFrom": "/assets/ellis-place-guides/gilsland-meadow.webp",
+      "title": "Accessible Beginner Birding at Gilsland Farm",
+      "venue": "Gilsland Farm Audubon Center",
+      "start": "2026-11-28T09:00:00-05:00"
+    },
+    "discovery-inclusive-2026-12-01": {
+      "src": "/assets/event-sketches/discovery-inclusive-afternoon.webp",
+      "alt": "A wooden balance sculpture, magnifying lens and fern in afternoon sunshine.",
+      "width": 720,
+      "height": 480,
+      "title": "Inclusive Afternoon",
+      "venue": "Discovery Museum",
+      "start": "2026-12-01T13:30:00-05:00",
+      "reusedFromEvent": "discovery-inclusive-2026-11-17"
+    },
+    "bridge-disco-2026-12-04": {
+      "src": "/assets/event-sketches/holiday-silent-disco.webp",
+      "alt": "Original ink-and-watercolor study of navy music headphones with cranberry ribbon and pine.",
+      "width": 1536,
+      "height": 1024,
+      "title": "Bridge The Spectrum Holiday Silent Disco",
+      "venue": "The Mountain Room at Mount Southington",
+      "start": "2026-12-04T18:00:00-05:00"
+    },
+    "castlehill-christmas-2026-12-05": {
+      "src": "/assets/event-sketches/shelburne-2026-12-14.webp",
+      "alt": "Snow-dusted evergreens frame an arch of warm lights and lanterns beside a quiet winter path.",
+      "width": 720,
+      "height": 480,
+      "title": "An Artful Christmas — Sensory-Friendly Hours",
+      "venue": "Castle Hill on the Crane Estate",
+      "start": "2026-12-05T10:00:00-05:00",
+      "reusedFromEvent": "shelburne-2026-12-14"
+    },
+    "bso-holiday-2026-12-05": {
+      "src": "/assets/event-sketches/holiday-concert.webp",
+      "alt": "Original ink-and-watercolor study of a brass French horn, music pages, cranberry ribbon and pine.",
+      "width": 1536,
+      "height": 1024,
+      "title": "Sensory-Friendly Holiday Pops",
+      "venue": "Symphony Hall",
+      "start": "2026-12-05T10:30:00-05:00"
+    },
+    "toyshop-sensory-2026-12-05": {
+      "src": "/assets/event-sketches/sensory-nutcracker.webp",
+      "alt": "A traditional wooden nutcracker, ballet slippers, pine and a velvet curtain.",
+      "width": 720,
+      "height": 480,
+      "title": "The Fantastic Toyshop — Sensory-Friendly Ballet",
+      "venue": "Hoffman Auditorium, University of Saint Joseph",
+      "start": "2026-12-05T14:00:00-05:00",
+      "reusedFromEvent": "boston-ballet-2026-12-04"
+    },
+    "northshore-santa-2026-12-06": {
+      "src": "/assets/event-sketches/santa-visit.webp",
+      "alt": "Original ink-and-watercolor study of a cranberry Santa hat, brass bell and a warm wooden armchair.",
+      "width": 1536,
+      "height": 1024,
+      "title": "Caring Santa at Northshore Mall",
+      "venue": "Northshore Mall — Lower Level near The North Face",
+      "start": "2026-12-06T09:00:00-05:00"
+    },
+    "communityhouse-santa-2026-12-12": {
+      "src": "/assets/event-sketches/santa-visit.webp",
+      "alt": "Original ink-and-watercolor study of a cranberry Santa hat, brass bell and a warm wooden armchair.",
+      "width": 1536,
+      "height": 1024,
+      "title": "Breakfast with Santa — Sensory-Friendly Hour",
+      "venue": "The Community House",
+      "start": "2026-12-12T08:00:00-05:00"
+    },
+    "castlehill-christmas-2026-12-12": {
+      "src": "/assets/event-sketches/shelburne-winter-lights.webp",
+      "alt": "Warm white lights on winter trees beside a winding gravel path at blue dusk.",
+      "width": 720,
+      "height": 480,
+      "title": "An Artful Christmas — Sensory-Friendly Hours",
+      "venue": "Castle Hill on the Crane Estate",
+      "start": "2026-12-12T10:00:00-05:00",
+      "reusedFromEvent": "shelburne-2026-11-30"
+    },
+    "discovery-deaf-blind-2026-12-12": {
+      "src": "/assets/event-sketches/discovery-evening.webp",
+      "alt": "Hands-on wooden gears and a balancing sculpture in evening light.",
+      "width": 720,
+      "height": 480,
+      "title": "Evening for Deaf, Blind, or DeafBlind Visitors",
+      "venue": "Discovery Museum",
+      "start": "2026-12-12T17:00:00-05:00",
+      "reusedFromEvent": "discovery-2026-10-10"
+    },
+    "echo-sensory-2026-12-13": {
+      "src": "/assets/event-sketches/montshire-science.webp",
+      "alt": "A bubble wand, iridescent bubbles, prism and fern in ink and watercolor.",
+      "width": 720,
+      "height": 480,
+      "title": "Sensory Friendly Sunday at ECHO",
+      "venue": "ECHO, Leahy Center for Lake Champlain",
+      "start": "2026-12-13T09:00:00-05:00",
+      "reusedFromEvent": "montshire-2026-10-17"
+    },
+    "old-state-house-2026-12-19": {
+      "src": "/assets/event-sketches/history-morning.webp",
+      "alt": "Original ink-and-watercolor study of a quill, inkpot, old brass keys and parchment beside a red-brick detail.",
+      "width": 1536,
+      "height": 1024,
+      "title": "Sensory-Friendly Morning at the Old State House",
+      "venue": "Old State House",
+      "start": "2026-12-19T09:00:00-05:00"
     }
   },
   "watchlist": {
@@ -650,7 +1204,38 @@
       "alt": "A basketball, volleyball, bowling pin and weight plate arranged beside a navy towel and winter greenery.",
       "width": 720,
       "height": 480
+    },
+    "autism-flies-pvd": {
+      "src": "/assets/event-sketches/airport-practice.webp",
+      "alt": "Original ink-and-watercolor study of a navy carry-on suitcase, unbranded passenger plane and blank boarding card.",
+      "width": 1536,
+      "height": 1024
+    },
+    "autism-flies-bdl": {
+      "src": "/assets/event-sketches/airport-practice.webp",
+      "alt": "Original ink-and-watercolor study of a navy carry-on suitcase, unbranded passenger plane and blank boarding card.",
+      "width": 1536,
+      "height": 1024
+    },
+    "urban-manchester-reopening": {
+      "src": "/assets/event-sketches/trampoline-play.webp",
+      "alt": "Original ink-and-watercolor study of a navy trampoline edge and striped grip socks.",
+      "width": 1536,
+      "height": 1024
+    },
+    "canton-santa-2026-watch": {
+      "src": "/assets/event-sketches/santa-visit.webp",
+      "alt": "Original ink-and-watercolor study of a cranberry Santa hat, brass bell and a warm wooden armchair.",
+      "width": 1536,
+      "height": 1024
+    },
+    "ucp-pumpkins-2026-watch": {
+      "src": "/assets/event-sketches/pumpkin-trail.webp",
+      "alt": "Glowing carved pumpkins along a winding woodland path at twilight.",
+      "width": 720,
+      "height": 480,
+      "reusedFromEvent": "rwpzoo-2026-10-20"
     }
   },
-  "updated": "2026-10-04"
+  "updated": "2026-10-06"
 }

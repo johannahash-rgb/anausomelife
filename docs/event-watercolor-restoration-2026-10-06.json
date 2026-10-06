@@ -1,0 +1,193 @@
+{
+  "created": "2026-10-06",
+  "scope": "Restore visible calendar illustrations while preserving all current event data, sensory and holiday filters, map, details and footer.",
+  "baseCommit": "c1371a343ceff1689b925076f0211c8ca353939f",
+  "artDirection": "Keep original event-specific paintings. Select reviewed subject-matching studies for added sessions; introduce a new study only where an appropriate original is absent. Related sessions may reuse their clearly conceptual illustration.",
+  "preservedOriginalMappings": {
+    "events": {
+      "bcm-2026-10-03": "/assets/event-sketches/morningstar-museum.webp",
+      "vins-2026-10-03": "/assets/event-sketches/vins-nature-hour.webp",
+      "autism-alliance-storytime-2026-10-03": "/assets/event-sketches/storytime-smiles.webp",
+      "westport-early-2026-10-04": "/assets/event-sketches/westport-early-opening.webp",
+      "westport-story-2026-10-04": "/assets/event-sketches/westport-storytime.webp",
+      "westport-story-2026-10-05": "/assets/event-sketches/westport-story-2026-10-05.webp",
+      "clpvd-2026-10-06": "/assets/event-sketches/providence-storytime.webp",
+      "discovery-2026-10-10": "/assets/event-sketches/discovery-evening.webp",
+      "clpvd-2026-10-13": "/assets/event-sketches/clpvd-2026-10-13.webp",
+      "autism-alliance-storytime-2026-10-13": "/assets/event-sketches/autism-alliance-storytime-2026-10-13.webp",
+      "montshire-2026-10-17": "/assets/event-sketches/montshire-science.webp",
+      "bierman-bedford-2026-10-17": "/assets/event-sketches/bierman-bedford-trunk-treat.webp",
+      "westport-story-2026-10-19": "/assets/event-sketches/westport-story-2026-10-19.webp",
+      "clpvd-2026-10-20": "/assets/event-sketches/clpvd-2026-10-20.webp",
+      "rwpzoo-2026-10-20": "/assets/event-sketches/pumpkin-trail.webp",
+      "rwpzoo-2026-10-21": "/assets/event-sketches/rwpzoo-2026-10-21.webp",
+      "bierman-danvers-2026-10-24": "/assets/event-sketches/bierman-danvers-trunk-treat.webp",
+      "aldrich-2026-10-24": "/assets/event-sketches/aldrich-sensory-art.webp",
+      "beals-2026-10-24": "/assets/event-sketches/beals-library-halloween.webp",
+      "venture-2026-10-27": "/assets/event-sketches/venture-trick-treat.webp",
+      "cmtm-2026-10-30": "/assets/event-sketches/maine-halloween-play.webp",
+      "discovery-2026-10-30": "/assets/event-sketches/discovery-halloween.webp",
+      "stj-halloween-2026-10-30": "/assets/event-sketches/athenaeum-halloween.webp",
+      "see-2026-11-06": "/assets/event-sketches/see-science-night.webp",
+      "bcm-2026-11-07": "/assets/event-sketches/bcm-2026-11-07.webp",
+      "westport-early-2026-11-15": "/assets/event-sketches/westport-early-2026-11-15.webp",
+      "discovery-inclusive-2026-11-17": "/assets/event-sketches/discovery-inclusive-afternoon.webp",
+      "bcm-2026-11-20": "/assets/event-sketches/eveningstar-museum.webp",
+      "montshire-2026-11-21": "/assets/event-sketches/montshire-2026-11-21.webp",
+      "weir-2026-11-21": "/assets/event-sketches/weir-open-barnyard.webp",
+      "shelburne-2026-11-30": "/assets/event-sketches/shelburne-winter-lights.webp",
+      "boston-ballet-2026-12-04": "/assets/event-sketches/sensory-nutcracker.webp",
+      "bcm-2026-12-05": "/assets/event-sketches/masked-morningstar.webp",
+      "westport-early-2026-12-13": "/assets/event-sketches/westport-early-2026-12-13.webp",
+      "shelburne-2026-12-14": "/assets/event-sketches/shelburne-2026-12-14.webp",
+      "montshire-2026-12-19": "/assets/event-sketches/montshire-2026-12-19.webp",
+      "some-workout-2026-10-06": "/assets/event-sketches/some-workout-2026-10-06.webp",
+      "uap-canoe-whitehall-2026-10-07": "/assets/event-sketches/uap-canoe-whitehall-2026-10-07.webp",
+      "cmnh-exploring-2026-10-09": "/assets/event-sketches/cmnh-exploring-2026-10-09.webp",
+      "aa-slime-2026-10-12": "/assets/event-sketches/aa-slime-2026-10-12.webp",
+      "some-soccer-2026-10-15": "/assets/event-sketches/some-soccer-2026-10-15.webp",
+      "uap-tandem-boston-2026-10-16": "/assets/event-sketches/uap-tandem-boston-2026-10-16.webp",
+      "aa-zoo-2026-10-16": "/assets/event-sketches/aa-zoo-2026-10-16.webp",
+      "aa-halloween-dance-2026-10-16": "/assets/event-sketches/aa-halloween-dance-2026-10-16.webp",
+      "soma-equestrian-2026-10-18": "/assets/event-sketches/soma-equestrian-2026-10-18.webp",
+      "aa-zoo-2026-10-23": "/assets/event-sketches/aa-zoo-2026-10-23.webp",
+      "aa-zoo-2026-11-13": "/assets/event-sketches/aa-zoo-2026-11-13.webp",
+      "cmnh-exploring-2026-11-13": "/assets/event-sketches/cmnh-exploring-2026-11-13.webp",
+      "soma-flag-state-2026-11-14": "/assets/event-sketches/soma-flag-state-2026-11-14.webp",
+      "uap-hike-carlisle-2026-11-14": "/assets/event-sketches/uap-hike-carlisle-2026-11-14.webp",
+      "some-bowling-bangor-2026-11-16": "/assets/event-sketches/some-bowling-bangor-2026-11-16.webp",
+      "some-area-bowling-2026-10-19": "/assets/event-sketches/some-area-bowling-2026-10-19.webp",
+      "aa-provider-2026-11-17": "/assets/event-sketches/aa-provider-2026-11-17.webp",
+      "carroll-tech-fair-2026-11-20": "/assets/event-sketches/carroll-tech-fair-2026-11-20.webp",
+      "aa-zoo-2026-11-20": "/assets/event-sketches/aa-zoo-2026-11-20.webp",
+      "soma-jolly-jaunt-2026-12-05": "/assets/event-sketches/soma-jolly-jaunt-2026-12-05.webp",
+      "cmnh-exploring-2026-12-11": "/assets/event-sketches/cmnh-exploring-2026-12-11.webp",
+      "carroll-movie-2026-12-11": "/assets/event-sketches/carroll-movie-2026-12-11.webp",
+      "some-bowling-hallowell-2026-10-27": "/assets/event-sketches/some-bowling-hallowell-2026-10-27.webp",
+      "aa-zoo-2026-10-30": "/assets/event-sketches/aa-zoo-2026-10-30.webp",
+      "aa-magic-2026-10-31": "/assets/event-sketches/aa-magic-2026-10-31.webp",
+      "carroll-info-day-2026-11-03": "/assets/event-sketches/carroll-info-day-2026-11-03.webp",
+      "some-workout-2026-11-03": "/assets/event-sketches/some-workout-2026-11-03.webp",
+      "uap-cycling-groton-2026-11-06": "/assets/event-sketches/uap-cycling-groton-2026-11-06.webp",
+      "aa-zoo-2026-11-06": "/assets/event-sketches/aa-zoo-2026-11-06.webp",
+      "carroll-90th-2026-11-07": "/assets/event-sketches/carroll-90th-2026-11-07.webp",
+      "soma-soccer-state-2026-11-08": "/assets/event-sketches/soma-soccer-state-2026-11-08.webp",
+      "some-youth-summit-pi-2026-11-09": "/assets/event-sketches/some-youth-summit-pi-2026-11-09.webp",
+      "carroll-cane-quest-2026-11-11": "/assets/event-sketches/carroll-cane-quest-2026-11-11.webp"
+    },
+    "watchlist": {
+      "lurie-trunk-or-treat-watch": "/assets/event-sketches/lurie-trunk-treat.webp",
+      "uap-rowing-fall-2026": "/assets/event-sketches/uap-rowing-fall-2026.webp",
+      "buildabear-natick-sensory": "/assets/event-sketches/buildabear-natick-sensory.webp",
+      "soct-holiday-classic-2026": "/assets/event-sketches/soct-holiday-classic-2026.webp"
+    }
+  },
+  "generatedAssets": [
+    {
+      "name": "indoor-trampoline-watercolor.png",
+      "prompt": "Use case: stylized-concept. Asset type: refined landscape 3:2 editorial watercolor for a New England community event calendar. Create an original fine naturalistic ink-and-watercolor still life representing indoor trampoline play: a clear navy padded edge of a trampoline with a visible section of taut dark mesh, paired cream grip socks with narrow navy and pine stripes resting naturally across the padding, the textured grip soles subtly visible. No people. Realistic proportions, finely observed textile texture and delicate hand-drawn ink lines, nuanced translucent watercolor pigments, restrained navy, pine green, warm cream palette and a little muted ochre light. Traditional literary travel-journal watercolor quality, gentle natural daylight, organic uneven watercolor perimeter fading fully to true alpha transparency. Landscape 3:2 composition, each subject wholly inside frame with ample breathing room, no cropped socks, no clip-art icon styling, no typography, no labels, no logo, no watermark, no border or frame. Depict a conceptual equipment study, not any identifiable actual venue.",
+      "alt": "Watercolor of striped grip socks resting on a navy trampoline edge.",
+      "method": "Original built-in image generation, 2026-10-06",
+      "basis": "New conceptual subject composition; no third-party photographic input, logos, characters or personal likenesses. Existing calendar studies inspected only for visual style.",
+      "validation": "Visually reviewed complete subject, naturalistic watercolor, no readable text or logos. Transparent PNG preserved; whole-frame WebP encoding, no crop."
+    },
+    {
+      "name": "trivia-gathering-watercolor.png",
+      "prompt": "Use case: stylized-concept. Asset type: refined landscape 3:2 editorial watercolor for a New England community event calendar. Create an original fine naturalistic ink-and-watercolor still life representing a friendly trivia gathering: a small polished brass quiz desk bell with rounded dome and dark wood base, two sharpened plain wooden pencils, a tidy short stack of cream blank scorecards with only very subtle unlettered rules, arranged naturally on a warm maple tabletop. No people. Fine delicate ink linework and richly nuanced translucent watercolor pigment, convincing wood grain, softly reflected brass, restrained navy shadows, pine green accents, warm cream, muted gold. Traditional literary travel-journal watercolor quality, gentle natural window light. The maple tabletop should be an organic soft-edged vignette, the entire uneven watercolor perimeter fading fully into genuine alpha transparency. Landscape 3:2 with generous breathing room on every side; every bell, pencil and card wholly uncropped. No words, letters, numerals, logos, labels, watermarks, frame, border, clip art or icon styling. Conceptual still life only, no identifiable actual venue.",
+      "alt": "Watercolor of a brass quiz bell, pencils and blank scorecards on maple.",
+      "method": "Original built-in image generation, 2026-10-06",
+      "basis": "New conceptual subject composition; no third-party photographic input, logos, characters or personal likenesses. Existing calendar studies inspected only for visual style.",
+      "validation": "Visually reviewed complete subject, naturalistic watercolor, no readable text or logos. Transparent PNG preserved; whole-frame WebP encoding, no crop."
+    },
+    {
+      "name": "miniature-horse-watercolor.png",
+      "prompt": "Use case: stylized-concept. Asset type: refined landscape 3:2 editorial watercolor for a New England community event calendar. Create an original fine naturalistic ink-and-watercolor portrait study of an unsaddled miniature chestnut horse standing calmly beside a simple weathered timber paddock fence. Show a believable miniature horse, anatomically correct with four natural legs and hooves, a chestnut coat and slightly lighter tousled mane, compact realistic proportions rather than cartoon pony proportions. A small patch of softly painted meadow grasses below, and only a faint suggestion of muted autumn foliage beyond fence. No people, tack, buildings or invented venue. Fine delicate ink linework under subtle transparent watercolor washes, observant naturalistic detail, rich yet restrained chestnut and umber, navy shadows, pine and sage grasses, warm cream light, traditional literary New England travel-journal watercolor quality. Conceptual animal only, not a likeness of an actual named horse; no distinctive blaze or other conspicuous markings. Horse fully uncropped including ears, tail and every hoof, generous breathing room, landscape 3:2 composition. Entire vignette has organic uneven watercolor perimeter fading fully to real alpha transparency. No lettering, text, labels, logos, watermark, frame or border; avoid children's clip art, icons and fantasy.",
+      "alt": "Watercolor of a chestnut miniature horse beside a timber fence.",
+      "method": "Original built-in image generation, 2026-10-06",
+      "basis": "New conceptual subject composition; no third-party photographic input, logos, characters or personal likenesses. Existing calendar studies inspected only for visual style.",
+      "validation": "Visually reviewed complete subject, naturalistic watercolor, no readable text or logos. Transparent PNG preserved; whole-frame WebP encoding, no crop."
+    },
+    {
+      "name": "planetarium-visit-watercolor.png",
+      "prompt": "Use case: stylized-concept. Asset type: refined landscape 3:2 editorial watercolor for a New England community event calendar. Create an original fine naturalistic ink-and-watercolor conceptual still life for a planetarium visit: a finely observed small brass refracting telescope on an elegant dark wooden three-leg tripod, angled gently up toward a subtle night-blue wash with a few delicate pinpoint stars. Beneath and beside the tripod lies a quietly rendered cream celestial chart with faint constellation lines, abstract unlettered circles and tiny star points, no words or numerals. No people and no venue architecture. Fine delicate navy ink linework, richly nuanced translucent watercolor washes, realistic instrument construction and proportions, natural brass reflections, restrained midnight navy, pine-green darks, warm cream and aged brass gold. Sophisticated New England editorial travel-journal watercolor, contemplative scientific atmosphere. Landscape 3:2, telescope, all tripod legs and chart fully uncropped with generous margins. The background is truly transparent outside the organic feathered watercolor vignette; subtle night-blue wash ends well inside the frame and fades organically to real alpha. No labels, lettering, logo, watermark, border, frame, clip art, icon styling or fake venue. Keep the entire instrument easy to recognize at thumbnail size.",
+      "alt": "Watercolor of a brass telescope with a celestial chart and night-blue stars.",
+      "method": "Original built-in image generation, 2026-10-06",
+      "basis": "New conceptual subject composition; no third-party photographic input, logos, characters or personal likenesses. Existing calendar studies inspected only for visual style.",
+      "validation": "Visually reviewed complete subject, naturalistic watercolor, no readable text or logos. Transparent PNG preserved; whole-frame WebP encoding, no crop."
+    },
+    {
+      "name": "holiday-concert-watercolor.png",
+      "prompt": "Use case: stylized-concept. Asset type: refined landscape 3:2 editorial watercolor for a New England community event calendar. Create an original fine naturalistic ink-and-watercolor conceptual holiday concert still life: a beautifully polished brass French horn lying at a believable angle, every part of the instrument fully visible, beside a few warm cream music pages showing only faint abstract parallel staff lines, no notes, letters, numerals or readable written music. A soft cranberry velvet ribbon loosely drapes beside the horn, with a single delicate pine sprig. Restrained arrangement, tasteful and quietly festive. Fine delicate navy ink linework and nuanced transparent watercolor pigments with convincing brass reflections, realistic instrument construction, velvety fabric texture and organic pine needles. Traditional literary New England travel-journal watercolor quality, warm diffuse daylight, sophisticated palette of aged brass, cranberry red, pine green, warm cream, soft navy shadows. No people and no venue architecture; this is an original conceptual study only. Landscape 3:2, horn bell, looping tubing, ribbon ends, papers and pine entirely uncropped with generous breathing room all around. Organic irregular feathered watercolor perimeter fading fully into actual alpha transparency. No text, words, labels, logo, watermark, border, frame, clip art or icon styling.",
+      "alt": "Watercolor of a brass French horn, blank music staves, cranberry ribbon and pine.",
+      "method": "Original built-in image generation, 2026-10-06",
+      "basis": "New conceptual subject composition; no third-party photographic input, logos, characters or personal likenesses. Existing calendar studies inspected only for visual style.",
+      "validation": "Visually reviewed complete subject, naturalistic watercolor, no readable text or logos. Transparent PNG preserved; whole-frame WebP encoding, no crop."
+    },
+    {
+      "name": "pizza-making-watercolor.png",
+      "prompt": "Use case: illustration-story.\nAsset type: original website calendar event watercolor, landscape 3:2.\nPrimary request: an elegant naturalistic ink-and-watercolor still life suggesting a pizza-making class: a flour-dusted wooden pizza peel with a smooth round ball of raw dough resting on it, a wooden rolling pin beside it, a small cluster of ripe tomatoes and fresh basil. All objects realistically proportioned and visually distinct.\nStyle: fine hand-drawn ink outlines, delicate layered watercolor washes, subtle fine paper grain within the painted area, sophisticated New England editorial illustration. Restrained warm cream and oak, deep navy ink, pine-green basil and muted natural tomato red. Realistic tactile materials, lovely painterly variation. Not clip art or a vector icon.\nComposition: broad horizontal arrangement on a lightly suggested warm wooden working surface, full subjects entirely uncropped, generous breathing room on all sides. Organic dissolving watercolor edges into genuine transparent alpha, no rectangular paper background, no frame.\nWarm gentle daylight. No people, no writing, no text, no labels, no logos, no watermarks.",
+      "alt": "Ink-and-watercolor dough, rolling pin, tomatoes and basil on a flour-dusted pizza peel.",
+      "method": "Original built-in image generation, 2026-10-06",
+      "basis": "New conceptual subject composition; no third-party photographic input, logos, characters or personal likenesses. Existing calendar studies inspected only for visual style.",
+      "validation": "Visually reviewed complete subject, naturalistic watercolor, no readable text or logos. Transparent PNG preserved; whole-frame WebP encoding, no crop."
+    },
+    {
+      "name": "airport-practice-watercolor.png",
+      "prompt": "Use case: illustration-story.\nAsset type: original website calendar event watercolor, landscape 3:2.\nPrimary request: a refined naturalistic ink-and-watercolor conceptual travel study for a friendly airport practice event. A realistic compact navy carry-on suitcase, standing upright with its telescopic handle fully extended and visible, beside a completely blank cream boarding-card shape. Above and behind, a smaller painterly study of a generic unbranded white passenger jet in three-quarter side view, with realistic aircraft proportions, clear wings and tail. The small airplane is a separate vignette that suggests travel; no actual venue or airport depicted.\nStyle: fine naturalistic ink contour, nuanced watercolor washes, delicate paper grain within the pigment, sophisticated New England editorial art. Deep navy, muted sky blue, pine-gray, and warm cream. Painterly realism, not an icon, clip art or cartoon.\nComposition: wide 3:2 arrangement, subjects grouped loosely and balanced, complete suitcase including its handle and wheels, complete airplane including wings and tail. At least ten percent breathing room around the subjects. Grounding watercolor shadow only; the vignette has organic feathered watercolor edges dissolving into genuine transparent alpha.\nSoft warm daylight. No text whatsoever; the boarding card must be blank. No lettering, labels, numbers, airline markings, brand logos, watermarks, real airport scenery, people, or frames.",
+      "alt": "Ink-and-watercolor navy carry-on suitcase, blank boarding card and unbranded passenger airplane.",
+      "method": "Original built-in image generation, 2026-10-06",
+      "basis": "New conceptual subject composition; no third-party photographic input, logos, characters or personal likenesses. Existing calendar studies inspected only for visual style.",
+      "validation": "Visually reviewed complete subject, naturalistic watercolor, no readable text or logos. Transparent PNG preserved; whole-frame WebP encoding, no crop."
+    },
+    {
+      "name": "history-morning-watercolor.png",
+      "prompt": "Use case: illustration-story.\nAsset type: original website calendar event watercolor, landscape 3:2.\nPrimary request: a fine naturalistic ink-and-watercolor conceptual still life for a history museum morning. An elegant pale feather quill resting diagonally beside a small navy-black inkpot, two old brass skeleton keys, and a sheet of warm blank parchment with slightly curled edges. Behind the still life is only a restrained fragment of weathered red brick, just several bricks fading into the wash; it is a material study, not a building or any real museum facade.\nStyle: delicate precise hand-drawn ink lines, subtle watercolor glazing and blooms, visible paper texture inside the painted vignette, sophisticated New England editorial illustration. Quiet warm cream, muted terracotta, aged brass, deep navy ink and soft pine-gray shadows. Realistic proportions and tangible antique materials, charming yet dignified.\nComposition: horizontal 3:2 still-life arrangement, entire quill and keys and parchment uncropped, generous breathing room around every side. Organic watercolor perimeter dissolves naturally into true transparent alpha. No rectangular paper background, no framing.\nGentle warm morning illumination. Absolutely no words, writing, characters, numbers, glyphs or labels on the parchment or elsewhere. No people, logo, watermark, fake venue or building facade. Not a cartoon, icon or generic clip art.",
+      "alt": "Ink-and-watercolor quill, inkpot, old brass keys and blank parchment beside weathered red brick.",
+      "method": "Original built-in image generation, 2026-10-06",
+      "basis": "New conceptual subject composition; no third-party photographic input, logos, characters or personal likenesses. Existing calendar studies inspected only for visual style.",
+      "validation": "Visually reviewed complete subject, naturalistic watercolor, no readable text or logos. Transparent PNG preserved; whole-frame WebP encoding, no crop."
+    },
+    {
+      "name": "holiday-silent-disco-watercolor.png",
+      "prompt": "Use case: illustration-story.\nAsset type: original website calendar event watercolor, landscape 3:2.\nPrimary request: an elegant naturalistic ink-and-watercolor still life evoking a holiday silent disco. One pair of realistic navy over-ear wireless music headphones, both ear cups and the entire curved headband visible, loosely encircled by a graceful cranberry-red satin ribbon. A short pine sprig rests nearby. A subtle soft warm golden holiday glow touches the objects without adding any bulbs or extra objects.\nStyle: exceptionally lovely fine hand-drawn ink contours and delicate layered watercolor washes, fine paper grain inside painted passages, sophisticated New England editorial illustration. Navy headphone leather, cranberry ribbon, deep pine-green needles, cream and warm golden light. Naturalistic detail and realistic proportions; handmade painterly art, not generic clip art or an icon.\nComposition: wide 3:2 balanced still life, full headphones, complete ribbon ends and pine sprig wholly uncropped with ample breathing room. Subtle grounding wash only, organic dissolving watercolor edges and genuinely transparent alpha around the painted vignette. No rectangular background or frame.\nHoliday warmth, quiet joyful mood. No text, labels, logos, watermark, people, pumpkin, autumn leaves, or Halloween imagery.",
+      "alt": "Ink-and-watercolor navy headphones with cranberry ribbon and a pine sprig.",
+      "method": "Original built-in image generation, 2026-10-06",
+      "basis": "New conceptual subject composition; no third-party photographic input, logos, characters or personal likenesses. Existing calendar studies inspected only for visual style.",
+      "validation": "Visually reviewed complete subject, naturalistic watercolor, no readable text or logos. Transparent PNG preserved; whole-frame WebP encoding, no crop."
+    },
+    {
+      "name": "santa-visit-watercolor.png",
+      "prompt": "Use case: illustration-story.\nAsset type: original website calendar event watercolor, landscape 3:2.\nPrimary request: a refined naturalistic ink-and-watercolor conceptual still life for a gentle Santa visit event. One simple warm wooden armchair with a comfortable cream cushion, shown completely from slightly off-center front. A cranberry velvet Santa hat with warm white trim and pompom rests naturally over one arm of the chair. Beside it, on the seat, a small polished brass handbell and a fresh pine sprig. No person.\nStyle: fine delicate hand-drawn ink contours, lovely layered watercolor glazing, natural paper grain within the pigment and subtle watercolor blooms. Sophisticated New England editorial illustration, realistic proportions and restrained quiet beauty. Warm honey oak, cream upholstery, cranberry velvet, aged brass and pine green, deep navy-gray ink details. Tactile natural materials.\nComposition: horizontal 3:2 canvas; a compact complete still life centered with especially generous transparent breathing room on every side. All four chair legs fully visible and uncropped; full chair back, Santa hat including pompom, bell and pine sprig fully inside the frame. Subtle grounding watercolor shadow, organic feathered watercolor perimeter dissolving into true transparent alpha. No rectangular background.\nWarm soft holiday morning light and a welcoming, peaceful mood. This is a conceptual vignette, no real venue. No person, no faces, no text, labels, logos, watermarks, frame, Christmas tree, presents or extraneous objects. Not cartoon or generic clip art.",
+      "alt": "Ink-and-watercolor wooden armchair with cream cushion, cranberry Santa hat, brass bell and pine sprig.",
+      "method": "Original built-in image generation, 2026-10-06",
+      "basis": "New conceptual subject composition; no third-party photographic input, logos, characters or personal likenesses. Existing calendar studies inspected only for visual style.",
+      "validation": "Visually reviewed complete subject, naturalistic watercolor, no readable text or logos. Transparent PNG preserved; whole-frame WebP encoding, no crop."
+    }
+  ],
+  "reusedAssets": [
+    {
+      "source": "assets/venue-illustrations/indoor-pool-illustration.webp",
+      "destination": "assets/event-sketches/sensory-swim.webp",
+      "basis": "Existing original conceptual pool watercolor. CC0 reference and no actual venue claim documented in docs/venue-illustration-provenance-2026-10-04.json."
+    },
+    {
+      "source": "assets/ellis-place-guides/gilsland-meadow.webp",
+      "destination": "assets/event-sketches/gilsland-birding.webp",
+      "basis": "Existing site-owned original Gilsland Farm editorial study, introduced by 35c7620e0013c381076dd474b1e7177d839db429. Conceptual birding illustration; no current conditions claim."
+    },
+    {
+      "source": "assets/gift-kit-illustration.webp",
+      "destination": "assets/event-sketches/holiday-gift-making.webp",
+      "basis": "Existing site-owned original gift-kit editorial study, introduced by 3f13a1bb9cac520859cd150ad62e2ba3c6c4117a. Used for handmade-gift subject, no claimed actual vendor offerings."
+    }
+  ],
+  "rightsScope": "Provenance and documented intended use; not a guarantee of complete legal clearance.",
+  "verification": {
+    "pythonTests": "47 passed; existing test_seed_valid blocked by pre-existing missing data/curated-events.json.",
+    "calendarDOM": "117 current listings, one direct-child figure each; existing age/access/state/month/cost/date/sensory/holiday/URL behavior passed.",
+    "mapDOM": "Expanded map, stale render guard, virtual and unmapped fallbacks passed.",
+    "images": "All 135 event/watchlist mappings decode. All 73 original mappings and artwork retained.",
+    "rightsAudit": "Focused HTML media/retired-logo audit has no failures; manual third-party/affiliate review notes remain outside this calendar change.",
+    "visualQA": "Cloud browser blocks localhost preview; final public-page desktop and mobile checks are performed after deployment."
+  }
+}

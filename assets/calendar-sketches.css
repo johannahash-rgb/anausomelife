@@ -124,3 +124,13 @@
 .calendar-page .event-planning-labels .holiday{background:#faf4e7;color:#51482d;border-color:#d6cba9}
 .calendar-page .event-sensory-note{font-size:.83rem;line-height:1.6;max-width:85ch;margin:6px 0;color:#38534f}
 .calendar-page #event-sensory-help{margin-top:10px}
+
+/* Keep the original watercolors visible while practical details stay optional. */
+.calendar-page .event-list .event-card.has-sketch{grid-template-columns:54px minmax(0,1fr) minmax(220px,30%);grid-template-areas:"date copy art";align-items:start}
+.calendar-page .event-list .event-card.has-sketch>.event-date{grid-area:date}
+.calendar-page .event-list .event-card.has-sketch>.event-copy{grid-area:copy}
+.calendar-page .event-list .event-card.has-sketch>.event-art{grid-area:art;max-width:360px;width:100%;margin:0;justify-self:center}
+.calendar-page .event-sketch,.calendar-page .month-event-sketch{background:transparent;mix-blend-mode:normal;border:0;border-radius:0;box-shadow:none;filter:none;object-fit:contain}
+@media(max-width:900px){.calendar-page .event-list .event-card.has-sketch{grid-template-columns:46px minmax(0,1fr) 28%;gap:18px}}
+@media(max-width:650px){.calendar-page .event-list .event-card.has-sketch{grid-template-columns:42px minmax(0,1fr);grid-template-areas:"art art" "date copy";gap:18px 14px}.calendar-page .event-list .event-card.has-sketch>.event-art{max-width:380px}}
+@media(max-width:480px){.calendar-page .event-list .event-card.has-sketch{grid-template-columns:38px minmax(0,1fr);gap:16px 12px}}
