@@ -1,0 +1,50 @@
+{
+  "date": "2026-10-06",
+  "page": "rangeley-grandparents-field-note.html",
+  "permission_basis": "Owner supplied these three family images and explicitly requested a published blog field note about the grandparents getting downtime in Rangeley, Maine. Intended use is this editorial article and its journal discovery link. No separate license, advertising or merchandise use asserted.",
+  "story_basis": "User confirms grandparents downtime in Rangeley. Mom Mom and Steve are established family names. No property identification, stay date, hosted relationship, first-person experience by the author, or visits to researched attractions are invented.",
+  "assets": [
+    {
+      "asset": "assets/rangeley-grandparents/rainbow.jpeg",
+      "source_filename": "IMG_7451.jpeg",
+      "sha256": "86096428679c5f094d92eb0e45a2a52a2856e3c9155cd77f28d1530c0dd46237",
+      "dimensions": [
+        1152,
+        1536
+      ],
+      "processing": "Original bytes and proportions preserved; no edits or cropping. No GPS EXIF tag present."
+    },
+    {
+      "asset": "assets/rangeley-grandparents/lakeside-pause.jpeg",
+      "source_filename": "IMG_7452.jpeg",
+      "sha256": "c53ecbd7a2ae7c3d9640831304d0ae13dd38fe8fb29036f6fe72f5f3abdf89c4",
+      "dimensions": [
+        1536,
+        1152
+      ],
+      "processing": "Original bytes and proportions preserved; no edits or cropping. No GPS EXIF tag present."
+    },
+    {
+      "asset": "assets/rangeley-grandparents/autumn-waterfront.jpeg",
+      "source_filename": "IMG_7453.jpeg",
+      "sha256": "9f0d6ea453da1d2ac2902fda381f822c44235b3f41179a9421d697cfb5a34461",
+      "dimensions": [
+        1536,
+        1152
+      ],
+      "processing": "Original bytes and proportions preserved; no edits or cropping. No GPS EXIF tag present."
+    }
+  ],
+  "map": {
+    "provider": "Google Maps hosted query embed",
+    "usage": "Provider-hosted regional orientation map with native attribution and direct link; not a claimed accessible route."
+  },
+  "sources_checked": "2026-10-06",
+  "sources": [
+    "https://www.maine.gov/rangeleylake",
+    "https://apps.web.maine.gov/cgi-bin/online/doc/parksearch/access.pl?park_id=25",
+    "https://www.quillhillmaine.com/",
+    "https://www.quillhillmaine.com/getting-here/",
+    "https://rlht.org/hatchery-brook-preserve/"
+  ]
+}
