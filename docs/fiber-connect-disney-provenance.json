@@ -1,0 +1,74 @@
+{
+  "article": "fiber-connect-disney-field-note.html",
+  "created": "2026-10-06",
+  "owner_authorization": "Owner supplied these original photographs and video and explicitly requested their publication in this post.",
+  "photos": [
+    {
+      "asset": "assets/fiber-connect-disney/conference.jpg",
+      "source_filename": "IMG_1462 2.JPG",
+      "sha256": "d59b04c9bab051b01cf9c813a79b4b97b2a5c82f73b122eba27d05cbc2851dad",
+      "processing": "Original bytes retained, displayed at original proportions; no generative alteration."
+    },
+    {
+      "asset": "assets/fiber-connect-disney/castle-portrait.jpg",
+      "source_filename": "IMG_1440.jpg",
+      "sha256": "8b32aebef927cc526f0d1bca59106d2158419ece31ec49f9bffc6e6ca0dcd4b2",
+      "processing": "Original bytes retained, displayed at original proportions; no generative alteration."
+    },
+    {
+      "asset": "assets/fiber-connect-disney/crystal-palace.jpg",
+      "source_filename": "FullSizeRender(1).JPEG",
+      "sha256": "3908bf8a787823e64b9fea6f564aa403a76d0901daf8f0f6c9fdefef6aba4f1d",
+      "processing": "Original bytes retained, displayed at original proportions; no generative alteration."
+    },
+    {
+      "asset": "assets/fiber-connect-disney/desserts.jpeg",
+      "source_filename": "00811530-6E55-4762-A01C-6791AC013D6D.jpeg",
+      "sha256": "035c6d56b9d1296415e2d53d58ee8fe39bce4b942dfd79d74a1622202ac38008",
+      "processing": "Original bytes retained, displayed at original proportions; no generative alteration."
+    },
+    {
+      "asset": "assets/fiber-connect-disney/window-seat.jpeg",
+      "source_filename": "E879339F-495D-4AEB-A8D1-CCD4033F4735.jpeg",
+      "sha256": "1fb591267d64e4ede63b4985f031f3f7f7429cd33909cf83c4e2a02665f94d47",
+      "processing": "Original bytes retained, displayed at original proportions; no generative alteration."
+    },
+    {
+      "asset": "assets/fiber-connect-disney/evening-flight.jpeg",
+      "source_filename": "85A226B4-4FCC-4C81-8EBE-9D1091EE1C5E.jpeg",
+      "sha256": "20fc41bcff9397709ffc14b5dabed79dcda8613f45e2dd2cfa01b6af86d4b81e",
+      "processing": "Original bytes retained, displayed at original proportions; no generative alteration."
+    },
+    {
+      "asset": "assets/fiber-connect-disney/character-encounter.jpeg",
+      "source_filename": "0E0374DA-D6B9-4F83-9C67-E3D5B7413253.jpeg",
+      "sha256": "6a5b51a52fd31502ed829f2092cdfdbf43e40e376502786a21181dd2fc77444b",
+      "processing": "Original bytes retained, displayed at original proportions; no generative alteration."
+    },
+    {
+      "asset": "assets/fiber-connect-disney/dinner.mp4",
+      "source_filename": "IMG_1385.mp4",
+      "sha256": "a5ddaecb2ab57541d9f95597dea4ccf1a10dd17f90578c044a15c3ac14879156",
+      "processing": "Original bytes retained, displayed at original proportions; no generative alteration."
+    }
+  ],
+  "illustrations": [
+    {
+      "asset": "assets/fiber-connect-disney/gondola-watercolor.png",
+      "source": "OpenAI built-in image generation, original requested editorial artwork, 2026-10-06",
+      "prompt": "Original refined fine-ink and transparent watercolor of a gondola above a Florida lagoon and palms. Navy, pine green, cream; no text, logos, people or character depictions. Illustrative, not a route map.",
+      "review": "Visually reviewed; approved by owner in conversation. No third-party artwork copied. Original full composition preserved."
+    },
+    {
+      "asset": "assets/fiber-connect-disney/pool-bag-watercolor.png",
+      "source": "OpenAI built-in image generation, original requested editorial artwork, 2026-10-06",
+      "prompt": "Original fine-ink and transparent watercolor of a canvas tote, striped pool towel and tortoiseshell sunglasses. Navy and cream with a suggestion of pool water. No text or logos.",
+      "review": "Visually reviewed; approved by owner in conversation. No third-party artwork copied. Original full composition preserved."
+    }
+  ],
+  "map": {
+    "provider": "Google Maps embedded query map",
+    "usage": "Provider-hosted interactive embed with visible provider attribution and direct map links; no copied map screenshot.",
+    "caution": "Orientation only, not an accessible-route certification."
+  }
+}
