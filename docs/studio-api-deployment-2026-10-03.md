@@ -2,12 +2,10 @@
 
 ## Verified state
 
-- Workspace: `johannahash-3896` (`team_2WXYOtXIMH4OmPx6UoTgRLRB`).
+- Workspace: configured project workspace (see authenticated deployment settings).
 - Project: `anausomelife-studio-api` (`prj_MUg5pCZkb3hjPRH091ujfnuoufKp`).
 - Deployment: `dpl_5zY2YTSQZDHvJqXCQgdYRRzeY9mt`, READY.
-- Deployment URL: https://anausomelife-studio-cb0q1dxp4-johannahash-3896.vercel.app
 - Project alias: https://anausomelife-studio-api.vercel.app
-- Dashboard: https://vercel.com/johannahash-3896/anausomelife-studio-api
 - Source: `services/studio-api` only, based on repository commit `07ad1aa` plus the static-output and deployment-ignore changes recorded with this note.
 - Main website remains on GitHub Pages. No domain or DNS changes were made.
 

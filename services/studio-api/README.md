@@ -20,8 +20,8 @@ Failures return a short recoverable message without raw provider errors, prompts
 
 ## Deployment boundary and remaining configuration
 
-- Project name: `anausomelife-studio-api`, workspace `johannahash-3896`.
-- Repository: `johannahash-rgb/anausomelife`; **local deployment directory: `services/studio-api`**. Git integration is not connected. If enabled later, explicitly set the repository Root Directory to `services/studio-api` before accepting automatic deployments.
+- Project name: `anausomelife-studio-api`, the configured Vercel workspace.
+- Repository: this repository; **local deployment directory: `services/studio-api`**. Git integration is not connected. If enabled later, explicitly set the repository Root Directory to `services/studio-api` before accepting automatic deployments.
 - Framework: Other; Node.js 24; no dependencies or build step; Vercel Functions.
 - Keep `STUDIO_ENABLED=false` during setup. Vercel classified the first deployment as production despite an explicit preview target; the separate service remained disabled and its deployment URL retained Vercel authentication protection. Health reports configuration state, not successful live provider verification.
 - Only `public/` is served as static content. `.vercelignore` excludes local credentials, environment files and tests from deployment uploads. Function dependencies remain bundled server-side.
