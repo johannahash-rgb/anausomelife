@@ -11,11 +11,16 @@ permissions:
 jobs:
   check-site:
     runs-on: ubuntu-latest
-    timeout-minutes: 12
+    timeout-minutes: 25
     steps:
       - uses: actions/checkout@v4
       - name: Audit all HTML pages and local assets, and sample external links
-        run: python .github/scripts/site_audit.py --root . --external-limit 120
+        run: python .github/scripts/site_audit.py --root . --external-limit 750
+      - name: Check calendar and navigation JavaScript syntax
+        run: |
+          node --check assets/events.js
+          node --check assets/global-nav.js
+          node --test tests/test_calendar_filters.cjs
       - name: Save full issue list
         if: always()
         uses: actions/upload-artifact@v4
