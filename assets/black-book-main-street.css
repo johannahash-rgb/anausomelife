@@ -82,3 +82,8 @@
  .black-book-page .directory-controls{order:4}
  .black-book-page .directory-count{order:5}
 }
+
+/* Preserve the latest family photographs at their original proportions. */
+.black-book-page .business-card .landing-photo{margin:0 0 18px;text-align:left}
+.black-book-page .business-card .landing-photo img{display:block;width:auto;height:auto;max-width:100%;max-height:300px;margin:auto;object-fit:contain;border:0;border-radius:0;box-shadow:none;filter:none}
+.black-book-page .business-card .landing-photo figcaption{font:italic .875rem/1.5 Georgia,serif;color:#425b51;margin-top:9px}

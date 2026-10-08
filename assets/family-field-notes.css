@@ -81,3 +81,11 @@
 @media(max-width:800px){.fn-cover{gap:28px}.fn-cover h1{font-size:2.8rem}.fn-story .aal-story-sketch{margin-right:0!important}.fn-photo-cover h1{font-size:3.4rem}.fn-cover-album{gap:18px}}
 @media(max-width:620px){.fn-cover{grid-template-columns:1fr;padding-top:20px}.fn-photo-cover .fn-cover-copy{text-align:left;margin-bottom:22px}.fn-photo-cover h1{font-size:2.75rem}.fn-photo-cover .fn-dek{font-size:1.13rem}.fn-photo-cover .fn-jump{justify-content:flex-start}.fn-cover-album{grid-template-columns:1fr;gap:22px;margin-top:20px}.fn-cover-album .fn-photo:last-child{padding-top:0;width:86%;margin-left:auto}.fn-story{margin-top:30px}.fn-story .aal-story-sketch{float:none;width:210px!important;max-width:65%;margin:25px auto!important}.fn-glance{gap:16px;margin-top:30px}.fn-glance dd{font-size:.9rem}.fn-planning{margin-top:20px}.fn-page .fn-photo img{max-height:none}}
 @media print{.fn-cover-album{display:grid;grid-template-columns:1fr 1fr}.fn-photo-cover .fn-cover-copy{text-align:left}.fn-photo-cover h1{font-size:28pt}.fn-story .aal-story-sketch{width:150px!important}.fn-cover-album .fn-photo:last-child{padding:0;width:100%}}
+
+/* Full-frame photographs open out beyond the reading column. */
+.fn-story .fn-photo-spread{clear:both;width:min(1040px,calc(100vw - 64px));max-width:none;position:relative;left:50%;transform:translateX(-50%);gap:26px;align-items:center;margin:34px 0 40px}
+.fn-story .fn-photo-spread.fn-one-photo{grid-template-columns:1fr;width:100%;left:0;transform:none}
+.fn-photo-spread .fn-photo img{width:100%;height:auto!important;max-height:none}
+.fn-photo-spread .fn-photo:only-child{margin:0}
+@media(max-width:620px){.fn-story .fn-photo-spread{width:100%;left:0;transform:none;grid-template-columns:1fr;gap:25px}.fn-photo-spread .fn-photo{width:100%;margin:0}.fn-cover-album .fn-photo:last-child{width:100%}}
+@media print{.fn-story .fn-photo-spread{width:100%;left:0;transform:none;break-inside:avoid}}

@@ -1,0 +1,55 @@
+{
+  "date": "2026-10-08",
+  "assets": [
+    {
+      "path": "assets/family-notes/wicked-tulips-2019-smile.jpg",
+      "source_file": "DSC_0604.jpg",
+      "source": "Owner-supplied family photo from the verified 2019 Wicked Tulips visit; purchased full-resolution digital image from Pamela Christine Photography.",
+      "permission_basis": "Owner explicitly requested publication of additional family photographs in the existing Wicked Tulips article and confirmed website-use permission from Pamela on 2026-10-08. Purchased full-resolution digital originals and delivery were verified. Owner requested visible photographer credit.",
+      "transformations": "None. Original JPEG copied byte-for-byte and displayed full frame.",
+      "sha256": "0c94b8801b8eaa8b66cd2329e633ca5a6531f8f5aa39398515cf228c071133c2",
+      "use": "wicked-tulips-family-field-note.html",
+      "permission_confirmation": "User message 2026-10-08 11:01:17 UTC: website-use permission from Pamela confirmed; user requested photographer credit at 11:01:31 UTC."
+    },
+    {
+      "path": "assets/family-notes/wicked-tulips-2019-yellow-tulips.jpg",
+      "source_file": "DSC_0600.jpg",
+      "source": "Owner-supplied family photo from the verified 2019 Wicked Tulips visit; purchased full-resolution digital image from Pamela Christine Photography.",
+      "permission_basis": "Owner explicitly requested publication of additional family photographs in the existing Wicked Tulips article and confirmed website-use permission from Pamela on 2026-10-08. Purchased full-resolution digital originals and delivery were verified. Owner requested visible photographer credit.",
+      "transformations": "None. Original JPEG copied byte-for-byte and displayed full frame.",
+      "sha256": "801b3301cb124c4ff9e33f36d231141f3953357ebc356d903717450cafffcbf8",
+      "use": "wicked-tulips-family-field-note.html",
+      "permission_confirmation": "User message 2026-10-08 11:01:17 UTC: website-use permission from Pamela confirmed; user requested photographer credit at 11:01:31 UTC."
+    },
+    {
+      "path": "assets/family-notes/wicked-tulips-2019-picking.jpg",
+      "source_file": "DSC_0644.jpg",
+      "source": "Owner-supplied family photo from the verified 2019 Wicked Tulips visit; purchased full-resolution digital image from Pamela Christine Photography.",
+      "permission_basis": "Owner explicitly requested publication of additional family photographs in the existing Wicked Tulips article and confirmed website-use permission from Pamela on 2026-10-08. Purchased full-resolution digital originals and delivery were verified. Owner requested visible photographer credit.",
+      "transformations": "None. Original JPEG copied byte-for-byte and displayed full frame.",
+      "sha256": "93351365871b692b473e00094fd74d8d34b4f9daa70d6c1acb60b6aa015b6ae5",
+      "use": "wicked-tulips-family-field-note.html",
+      "permission_confirmation": "User message 2026-10-08 11:01:17 UTC: website-use permission from Pamela confirmed; user requested photographer credit at 11:01:31 UTC."
+    },
+    {
+      "path": "assets/family-notes/wicked-tulips-2019-bucket.jpg",
+      "source_file": "DSC_0630.jpg",
+      "source": "Owner-supplied family photo from the verified 2019 Wicked Tulips visit; purchased full-resolution digital image from Pamela Christine Photography.",
+      "permission_basis": "Owner explicitly requested publication of additional family photographs in the existing Wicked Tulips article and confirmed website-use permission from Pamela on 2026-10-08. Purchased full-resolution digital originals and delivery were verified. Owner requested visible photographer credit.",
+      "transformations": "None. Original JPEG copied byte-for-byte and displayed full frame.",
+      "sha256": "3f03e1856a83fa5d685dd1bbf9f7bf6595271d55ecf8ab464c0220fc61683f08",
+      "use": "wicked-tulips-family-field-note.html",
+      "permission_confirmation": "User message 2026-10-08 11:01:17 UTC: website-use permission from Pamela confirmed; user requested photographer credit at 11:01:31 UTC."
+    },
+    {
+      "path": "assets/family-notes/wicked-tulips-2019-family-embrace.jpg",
+      "source_file": "DSC_0672.jpg",
+      "source": "Owner-supplied family photo from the verified 2019 Wicked Tulips visit; purchased full-resolution digital image from Pamela Christine Photography.",
+      "permission_basis": "Owner explicitly requested publication of additional family photographs in the existing Wicked Tulips article and confirmed website-use permission from Pamela on 2026-10-08. Purchased full-resolution digital originals and delivery were verified. Owner requested visible photographer credit.",
+      "transformations": "None. Original JPEG copied byte-for-byte and displayed full frame.",
+      "sha256": "24a9c761e9ae3b58de9047835fb9d327399964d787e863d94611c5c0d651a99e",
+      "use": "wicked-tulips-family-field-note.html",
+      "permission_confirmation": "User message 2026-10-08 11:01:17 UTC: website-use permission from Pamela confirmed; user requested photographer credit at 11:01:31 UTC."
+    }
+  ]
+}

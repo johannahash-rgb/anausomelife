@@ -9,11 +9,11 @@ import re
 
 ROOT = Path(__file__).resolve().parent.parent
 ROWS = json.loads((ROOT / 'content/family-field-notes.json').read_text())
-CSS = '<link rel="stylesheet" href="/assets/family-field-notes.css?v=20261004-album">'
+CSS = '<link rel="stylesheet" href="/assets/family-field-notes.css?v=20261008-photo-led">'
 e = escape
 
-STORY_CSS = '<link rel="stylesheet" href="/assets/journal-picture-cards.css?v=20261008-1">'
-STORY_SCRIPTS = '<script src="/assets/card-catalog.js?v=20261008-1" defer></script><script src="/assets/journal-picture-cards.js?v=20261008-1" defer></script>'
+STORY_CSS = '<link rel="stylesheet" href="/assets/journal-picture-cards.css?v=20261008-photo-led">'
+STORY_SCRIPTS = '<script src="/assets/card-catalog.js?v=20261008-photo-led" defer></script><script src="/assets/journal-picture-cards.js?v=20261008-photo-led" defer></script>'
 
 def story_sketch(row):
     art = row.get('sketch')
@@ -28,7 +28,9 @@ def photograph(photo, eager=False):
     path = '/assets/family-notes/' + photo['file']
     with Image.open(ROOT / path.lstrip('/')) as im:
         w, h = im.size
-    return ('<figure class="fn-photo"><img src="'+path+'" alt="'+e(photo['alt'])+
+    frame = photo.get('frame')
+    frame_class = ' fn-' + frame if frame in ('tulips-smile', 'tulips-family') else ''
+    return ('<figure class="fn-photo'+frame_class+'"><img src="'+path+'" alt="'+e(photo['alt'])+
             f'" width="{w}" height="{h}" loading="'+('eager' if eager else 'lazy')+
             '" decoding="async"><figcaption>'+e(photo['caption'])+'</figcaption></figure>')
 
@@ -41,35 +43,46 @@ edition = '<div class="edition-line"><span>New England &amp; the everyday</span>
 for row in ROWS:
     canonical = 'https://anausomelife.com/' + row['path']
     title, desc = e(row['title']), e(row['summary'])
+    social_photo = row.get('socialPhoto', row['photo'])
+    photo_album = row.get('coverAlbum', False)
+    cover_class = ' fn-photo-cover' if photo_album else ''
+    page_css = '<link rel="stylesheet" href="/assets/wicked-tulips-gallery.css?v=20261008-keepsake">' if row['path'] == 'wicked-tulips-family-field-note.html' else ''
     head = f'''<!doctype html>
 <html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{title} | An AUsome Life</title><meta name="description" content="{desc}">
 <meta name="theme-color" content="#244b3e"><link rel="canonical" href="{canonical}">
 <meta property="og:title" content="{title}"><meta property="og:description" content="{desc}">
 <meta property="og:type" content="article"><meta property="og:url" content="{canonical}">
-<meta property="og:image" content="https://anausomelife.com/assets/family-notes/{row['photo']['file']}">
-<meta property="og:image:alt" content="{e(row['photo']['alt'])}"><link rel="icon" href="/favicon.ico">
+<meta property="og:image" content="https://anausomelife.com/assets/family-notes/{social_photo['file']}">
+<meta property="og:image:alt" content="{e(social_photo['alt'])}"><link rel="icon" href="/favicon.ico">
 <link rel="stylesheet" href="/assets/site.css?v=20261004"><link rel="stylesheet" href="/assets/magazine.css?v=20261004">
 <link rel="stylesheet" href="/assets/editorial.css?v=20261003-mainstreet">
-<link rel="stylesheet" href="/assets/illustrated-navigation.css?v=20261004-restore1">{CSS}{STORY_CSS}
-<script src="/assets/global-nav.js?v=20261004-full-footer" data-aal-global-nav="true" defer></script></head>
+<link rel="stylesheet" href="/assets/illustrated-navigation.css?v=20261004-restore1">{CSS}{STORY_CSS}{page_css}
+<script src="/assets/global-nav.js?v=20261005-practical" data-aal-global-nav="true" defer></script></head>
 <body class="magazine-shell fn-page"><a class="skip" href="#main">Skip to content</a>{edition}{masthead}<main id="main">
 <div class="wrap fn-breadcrumb"><a href="/blog.html">The journal</a> / Family field notes</div>
-<header class="wrap fn-cover"><div><p class="fn-kicker">{e(row['category'])}</p><h1>{title}</h1>
+<header class="wrap fn-cover{cover_class}"><div class="fn-cover-copy"><p class="fn-kicker">{e(row['category'])}</p><h1>{title}</h1>
 <p class="fn-dek">{e(row['dek'])}</p><p class="fn-byline">{e(row['place'])}</p>
 <nav class="fn-jump" aria-label="In this field note"><a href="#story">Read the story ↓</a><a href="#planning-guide">The practical details ↓</a></nav></div>
-{photograph(row['photo'], True)}</header>'''
+{('<div class="fn-cover-album">' + photograph(row['photo'], True) + ''.join(photograph(p, True) for p in row.get('coverGallery', row.get('gallery', []))) + '</div>') if photo_album else photograph(row['photo'], True)}</header>'''
     glance = '<dl class="wrap fn-glance" id="at-a-glance">'+''.join('<div><dt>'+e(k)+'</dt><dd>'+e(v)+'</dd></div>' for k,v in row['glance'])+'</dl>'
     story = '<article class="fn-story" id="story" aria-label="The family field note"><div class="fn-intro">'+paragraphs(row['intro'])+'</div>'
+    if row.get('openingGallery'):
+        story += '<div class="fn-gallery fn-photo-spread fn-opening-gallery">'+''.join(photograph(p) for p in row['openingGallery'])+'</div>'
+    if row.get('keepsakeQuote'):
+        story += '<aside class="fn-keepsake-quote"><p>'+e(row['keepsakeQuote'])+'</p></aside>'
     for i, section in enumerate(row['sections']):
         if i == 1:
             story += story_sketch(row)
         story += f'<section id="guide-section-{i+1}"><h2>'+e(section['title'])+'</h2>'+paragraphs(section['paragraphs'])+'</section>'
+        if row.get('photoGroups', {}).get(str(i)):
+            group = row['photoGroups'][str(i)]
+            story += '<div class="fn-gallery fn-photo-spread'+(' fn-one-photo' if len(group)==1 else '')+'">'+''.join(photograph(p) for p in group)+'</div>'
         if i == 0:
-            gallery = row.get('gallery', [])
+            gallery = [] if photo_album else row.get('gallery', [])
             if gallery:
                 story += '<div class="fn-gallery'+(' fn-single' if len(gallery)==1 else '')+'">'+''.join(photograph(p) for p in gallery)+'</div>'
-            else:
+            elif not photo_album:
                 story += '<aside class="fn-pullquote">'+e(row['quote'])+'</aside>'
     story += '</article>'
     plan_title = 'A little room for the everyday.' if row['path'].startswith('flowers-') else 'Make it work for your day.'
@@ -82,7 +95,7 @@ for row in ROWS:
     related = '<nav class="wrap fn-related" aria-labelledby="more-title"><p class="fn-kicker">From the family album</p><h2 id="more-title">A few more good things.</h2><ul>'
     related += ''.join('<li><a href="/'+other['path']+'">'+e(other['title'])+' →</a></li>' for other in ROWS if other!=row)
     related += '</ul><p><a href="/blog.html">Back to the journal →</a></p></nav>'
-    (ROOT / row['path']).write_text(head+glance+story+row.get('pictureCardsHtml', '')+planning+related+'</main>'+footer+'<script src="/assets/site.js" defer></script>'+STORY_SCRIPTS+'</body></html>\n')
+    (ROOT / row['path']).write_text(head+story+glance+planning+row.get('pictureCardsHtml', '')+related+'</main>'+footer+'<script src="/assets/site.js" defer></script>'+STORY_SCRIPTS+'</body></html>\n')
 
 # Replace only our marked module on later runs.
 album = '<!-- family-album:start --><section class="wrap fn-album" id="camera-roll-notes" aria-labelledby="album-title"><p class="eyebrow">Opened from the family album</p><h2 id="album-title">Five moments worth keeping.</h2><div class="fn-album-layout">'
@@ -163,6 +176,6 @@ missing = [r for url,r in updates.items() if url not in seen]
 if missing:
     relative='data/site-search/family-field-notes.json'
     (ROOT/relative).write_text(json.dumps(missing,ensure_ascii=False,separators=(',',':'))+'\n')
-    manifest.append('/'+relative+'?v=20261004-album')
+    manifest.append('/'+relative+'?v=20261008-photo-led')
     manifest_path.write_text(json.dumps(manifest,separators=(',',':'))+'\n')
 print(f'Built {len(ROWS)} photo essays, journal module, library links, sitemap and scoped search entries.')
