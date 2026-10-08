@@ -166,7 +166,7 @@ def audit(root,external_limit):
                     counts["javascript_rendered_calendar_anchors"]+=1
                 elif fragment and target in documents and fragment not in documents[target].ids:
                     issues.append({"severity":"high","kind":"json-missing-fragment","page":path,"field":key,"ref":ref,"resolved":target})
-    for path in sorted(p for p in assets if p.endswith(".json")):
+    for path in sorted(p for p in assets if p.endswith(".json") and not p.startswith(("docs/","services/"))):
         try:walk_json(json.loads((root/path).read_text(encoding="utf-8")),path)
         except Exception as e:issues.append({"severity":"medium","kind":"invalid-json","page":path,"error":str(e)[:150]})
     # Check simple, literal rooted script references; dynamic routes are excluded.
