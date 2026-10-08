@@ -138,6 +138,39 @@ def audit(root,external_limit):
             if line.lower().startswith("sitemap:"):
                 kind,target,_=resolve("robots.txt",line.partition(":")[2].strip())
                 if kind=="local" and target not in assets:issues.append({"severity":"high","kind":"robots-missing-sitemap","page":"robots.txt","ref":line})
+    # Follow user-facing links stored in the site's JSON catalogs and navigation data.
+    urlkeys={"url","href","link","linkurl","route","pathname","src","source","image","imageurl","image_url","cover","thumbnail","logo","poster","download","canonical","path","page","photo","photourl","mapurl"}
+    def walk_json(value,path,key=""):
+        if isinstance(value,dict):
+            for k,v in value.items():walk_json(v,path,str(k))
+        elif isinstance(value,list):
+            for v in value:walk_json(v,path,key)
+        elif isinstance(value,str):
+            lower=key.lower().replace("-","_")
+            isref=lower in urlkeys or lower.endswith(("_url","url","_href","_src","_link"))
+            if not isref:return
+            ref=value.strip()
+            if not ref or not (ref.startswith(("/",".","http:","https:","#")) or re.search(r"\.(?:html|png|jpe?g|webp|svg|pdf|js|css)(?:[#?]|$)",ref,re.I)):return
+            counts["json_references"]+=1
+            kind,target,fragment=resolve(path,ref)
+            if kind=="external" and target.startswith("https://"):external[target].add(path)
+            elif kind=="local":
+                if target not in assets:
+                    issues.append({"severity":"high","kind":"json-missing-local-target","page":path,"field":key,"ref":ref,"resolved":target})
+                elif fragment and target in documents and fragment not in documents[target].ids:
+                    issues.append({"severity":"high","kind":"json-missing-fragment","page":path,"field":key,"ref":ref,"resolved":target})
+    for path in sorted(p for p in assets if p.endswith(".json")):
+        try:walk_json(json.loads((root/path).read_text(encoding="utf-8")),path)
+        except Exception as e:issues.append({"severity":"medium","kind":"invalid-json","page":path,"error":str(e)[:150]})
+    # Check simple, literal rooted script references; dynamic routes are excluded.
+    for path in sorted(p for p in assets if p.endswith((".js",".cjs",".mjs"))):
+        js=(root/path).read_text(encoding="utf-8",errors="replace")
+        for ref in re.findall(r'''["'\x60](/[^"'\x60 <>{}]+\.(?:html|js|css|png|jpg|jpeg|webp|svg|pdf)(?:[#?][^"'\x60]*)?)["'\x60]''',js):
+            counts["js_static_references"]+=1
+            kind,target,fragment=resolve(path,ref)
+            if kind=="local" and target not in assets:
+                issues.append({"severity":"medium","kind":"js-static-path-suspect","page":path,"ref":ref,"resolved":target})
+    # Include sources for external errors in the downloaded audit.
     urls=sorted(external,key=lambda u:(-len(external[u]),u))[:external_limit]
     external_results=[]
     if urls:
@@ -146,7 +179,7 @@ def audit(root,external_limit):
     kinds=collections.Counter(x["kind"] for x in issues)
     return {"scope":"All HTML page references, same-site anchors, image alt, CSS url() paths, sitemap, metadata and sampled external HTTP links; not a full keyboard or JS interaction audit.",
             "counts":{"pages":len(documents),"repo_files":len(assets),"unique_external":len(external),"sitemap_entries":len(sitemap_urls),**counts},
-            "issue_counts":dict(kinds),"issues":issues,"external_results":external_results}
+            "issue_counts":dict(kinds),"issues":issues,"external_results":external_results,"external_sources":{url:sorted(source) for url,source in external.items()}}
 def main():
     p=argparse.ArgumentParser();p.add_argument("--root",default=".");p.add_argument("--external-limit",type=int,default=0);p.add_argument("--strict",action="store_true");a=p.parse_args()
     result=audit(Path(a.root).resolve(),a.external_limit)
