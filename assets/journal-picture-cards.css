@@ -30,3 +30,22 @@
 
 /* Keep useful controls modest, with clear large labels and tap targets. */
 .aal-story-cards>p{font-size:.94rem}.aal-pc-label{font-size:1rem}.aal-pc-download{font-size:.79rem}.aal-story-cards .aal-pc-note{max-width:70ch;font-size:.8rem}.aal-story-sketch figcaption{text-wrap:pretty}
+
+/* Photo-first editorial rhythm across the journal and linked place stories. */
+body main.ellis-review .er-cover .er-cover-text{position:static;inset:auto;order:-1;padding:0 0 22px;margin:0;color:var(--er-ink,#193b40)}
+body main.ellis-review .er-cover .er-lead{display:flex;flex-direction:column;min-width:0}
+body main.ellis-review .er-cover .er-cover-text h1{font:400 clamp(2.5rem,4.3vw,4.15rem)/1.06 Georgia,serif;letter-spacing:-.035em;color:var(--er-ink,#193b40);text-wrap:balance;margin:10px 0 18px}
+body main.ellis-review .er-cover .er-cover-text .er-kicker{color:#50635a;font-size:.73rem;letter-spacing:.13em}
+body main.ellis-review .er-cover .er-cover-text .er-deck{font:400 1.18rem/1.6 Georgia,serif;color:#52635a;max-width:55ch}
+body main.ellis-review .er-family-photo:after,body main.ellis-review .er-family-photo:before{display:none!important;content:none!important}
+body main.ellis-review .er-cover .er-family-photo img{width:100%;height:auto;max-height:none;aspect-ratio:auto;object-fit:contain;border:0;border-radius:0;box-shadow:none;filter:none;background:transparent}
+body main.ellis-review .er-cover .er-family-photo{background:transparent;border:0;box-shadow:none}
+body main.ellis-review .er-cover .er-welcome{padding-top:12px}
+body main.ellis-review .er-cover .er-welcome h2{font-size:clamp(1.75rem,2.5vw,2.4rem);line-height:1.16;text-wrap:balance}
+body main.ellis-review .er-cover .er-welcome>.aal-story-sketch{width:min(100%,235px);margin:16px auto 24px!important}
+body main.ellis-review .er-story p{line-height:1.8}
+body main.ellis-review figure figcaption{font:italic .86rem/1.55 Georgia,serif;color:#52635a}
+body .rg-story .aal-story-sketch{max-width:290px}
+body .fn-page .aal-story-cards{max-width:760px}
+@media(max-width:700px){body main.ellis-review .er-cover .er-cover-text{padding-bottom:20px}body main.ellis-review .er-cover .er-cover-text h1{font-size:clamp(2.35rem,8.3vw,3.2rem)}body main.ellis-review .er-cover .er-cover-text .er-deck{font-size:1.1rem}body main.ellis-review .er-cover .er-family-photo img{max-height:none}body main.ellis-review .er-cover .er-welcome{padding-top:20px}body main.ellis-review .er-cover .er-welcome>.aal-story-sketch{max-width:210px}}
+@media print{body main.ellis-review .er-cover .er-cover-text h1{font-size:28pt}body main.ellis-review .er-cover .er-family-photo{max-width:400px}}
