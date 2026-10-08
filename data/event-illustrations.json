@@ -1218,6 +1218,46 @@
       "venue": "Whitney Brothers parking lot",
       "start": "2026-11-07T09:15:00-05:00",
       "reusedFromEvent": "some-workout-2026-11-03"
+    },
+    "raisingharts-sensory-play-2026-10-11": {
+      "src": "/assets/event-sketches/some-workout-2026-10-06.webp",
+      "alt": "A navy exercise mat, wooden step, towel and cranberry resistance band in autumn window light.",
+      "width": 720,
+      "height": 480,
+      "title": "Raising Harts Sensory Play Sunday",
+      "venue": "CheerFactor Hanover",
+      "start": "2026-10-11T09:30:00-04:00",
+      "reusedFromEvent": "some-workout-2026-10-06"
+    },
+    "bci-worcester-halloween-2026-10-17": {
+      "src": "/assets/event-sketches/bierman-bedford-trunk-treat.webp",
+      "alt": "An open navy station wagon with a pumpkin garland, treats and a tartan blanket.",
+      "width": 720,
+      "height": 480,
+      "title": "BCI Worcester Sensory-Friendly Trunk-or-Treat",
+      "venue": "BCI Worcester Learning Center",
+      "start": "2026-10-17T16:00:00-04:00",
+      "reusedFromEvent": "bierman-bedford-2026-10-17"
+    },
+    "bci-fitchburg-halloween-2026-10-27": {
+      "src": "/assets/event-sketches/bierman-bedford-trunk-treat.webp",
+      "alt": "An open navy station wagon with a pumpkin garland, treats and a tartan blanket.",
+      "width": 720,
+      "height": 480,
+      "title": "BCI Fitchburg Sensory-Friendly Trunk-or-Treat",
+      "venue": "BCI Fitchburg Learning Center",
+      "start": "2026-10-27T17:30:00-04:00",
+      "reusedFromEvent": "bierman-bedford-2026-10-17"
+    },
+    "bci-lowell-halloween-2026-10-29": {
+      "src": "/assets/event-sketches/venture-trick-treat.webp",
+      "alt": "A warmly lit indoor doorway with pumpkin decorations, treats and craft supplies.",
+      "width": 720,
+      "height": 480,
+      "title": "BCI Lowell Sensory-Friendly Trick-or-Treat",
+      "venue": "BCI Lowell Learning Center",
+      "start": "2026-10-29T16:00:00-04:00",
+      "reusedFromEvent": "venture-2026-10-27"
     }
   },
   "watchlist": {

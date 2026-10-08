@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-10-08T13:25:46Z",
-  "lastEditorialReview": "2026-10-06T16:29:41Z",
+  "generatedAt": "2026-10-08T16:50:00Z",
+  "lastEditorialReview": "2026-10-08T16:50:00Z",
   "timezone": "America/New_York",
   "coverage": "Selected New England adaptive and sensory-friendly events, with a verified free-admission filter and free-program directory. Not exhaustive.",
   "refresh": {
@@ -1268,6 +1268,40 @@
       "sourceCheckedAt": "2026-10-08T13:25:46Z",
       "status": "manually-checked",
       "lastChecked": "2026-10-08T13:25:46Z"
+    },
+    {
+      "id": "bci",
+      "name": "Behavioral Concepts (BCI)",
+      "url": "https://bciaba.com/events",
+      "state": "MA",
+      "mode": "check",
+      "enabled": true,
+      "timezone": "America/New_York",
+      "allowedHosts": [
+        "bciaba.com"
+      ],
+      "autoPublish": false,
+      "feedVerified": false,
+      "sourceCheckedAt": "2026-10-08T16:40:00Z",
+      "status": "manually-checked",
+      "lastChecked": "2026-10-08T16:40:00Z"
+    },
+    {
+      "id": "raising-harts-events",
+      "name": "Raising Harts",
+      "url": "https://www.raisingharts.org/eventcalendar",
+      "state": "MA",
+      "mode": "check",
+      "enabled": true,
+      "timezone": "America/New_York",
+      "allowedHosts": [
+        "www.raisingharts.org"
+      ],
+      "autoPublish": false,
+      "feedVerified": false,
+      "sourceCheckedAt": "2026-10-08T16:40:00Z",
+      "status": "manually-checked",
+      "lastChecked": "2026-10-08T16:40:00Z"
     }
   ],
   "events": [
@@ -5668,6 +5702,149 @@
       "status": "scheduled",
       "category": "Sensory-friendly",
       "format": "In person"
+    },
+    {
+      "timezone": "America/New_York",
+      "state": "MA",
+      "cancellationPolicy": "Not stated in the checked event listing; confirm with the organizer.",
+      "lastVerified": "2026-10-08T16:40:00Z",
+      "verificationMethod": "Current official organizer event page reviewed on October 8, 2026",
+      "reviewRequired": false,
+      "status": "scheduled",
+      "category": "Sensory-friendly",
+      "format": "In person",
+      "id": "raisingharts-sensory-play-2026-10-11",
+      "title": "Raising Harts Sensory Play Sunday",
+      "start": "2026-10-11T09:30:00-04:00",
+      "end": "2026-10-11T11:00:00-04:00",
+      "city": "Hanover",
+      "venue": "CheerFactor Hanover",
+      "address": "342 Circuit Street, Hanover, MA 02339",
+      "cost": "$10 per child or $20 per family; cash at the door or Venmo",
+      "ages": "Children of all abilities and their siblings, families or therapists; no numerical age range is published.",
+      "summary": "A family play session with games, obstacles and music, welcoming children with autism or sensory needs.",
+      "accessibility": [
+        "Organizer explicitly welcomes children of all abilities, including children with autism and sensory needs.",
+        "Siblings, family members and therapists may attend."
+      ],
+      "sourceId": "raising-harts-events",
+      "sourceUrl": "https://www.raisingharts.org/events-at-raising-harts/event-one-fmenc-34hj2-k586d-a9k8n-lwgy9-3h3hz-emz5t-p2wxt-cbra8-sjzss-5ce78-xyn6a-y3jyb-yfjn7-ckyml",
+      "ticketUrl": "https://form.jotform.com/253403227530144",
+      "registration": "Complete the organizer’s registration and waiver form; pay at the door or through the listed Venmo account.",
+      "notes": [
+        "Music is part of the activities; reduced sound or lighting is not promised.",
+        "Wheelchair access, specific communication supports and teen-specific suitability are not confirmed in this listing."
+      ],
+      "costCategory": "paid",
+      "costEvidence": "https://www.raisingharts.org/events-at-raising-harts/event-one-fmenc-34hj2-k586d-a9k8n-lwgy9-3h3hz-emz5t-p2wxt-cbra8-sjzss-5ce78-xyn6a-y3jyb-yfjn7-ckyml"
+    },
+    {
+      "timezone": "America/New_York",
+      "state": "MA",
+      "cancellationPolicy": "Not stated in the checked event listing; confirm with the organizer.",
+      "lastVerified": "2026-10-08T16:40:00Z",
+      "verificationMethod": "Current official organizer event page reviewed on October 8, 2026",
+      "reviewRequired": false,
+      "status": "scheduled",
+      "category": "Sensory-friendly",
+      "format": "In person",
+      "id": "bci-worcester-halloween-2026-10-17",
+      "title": "BCI Worcester Sensory-Friendly Trunk-or-Treat",
+      "start": "2026-10-17T16:00:00-04:00",
+      "end": "2026-10-17T17:00:00-04:00",
+      "city": "Worcester",
+      "venue": "BCI Worcester Learning Center",
+      "address": "345A Greenwood Street, Worcester, MA 01607",
+      "cost": "Free; open to the public",
+      "ages": "Children and their families; no numerical age range is published for this event.",
+      "summary": "Drop in for Halloween activities and candy, with participation at each child’s own pace.",
+      "accessibility": [
+        "Organizer describes sensory-friendly activities.",
+        "Participants can go at their own pace.",
+        "Costumes are optional."
+      ],
+      "sourceId": "bci",
+      "sourceUrl": "https://bciaba.com/event/bcis-worcester-learning-center-sensory-friendly-trunk-or-treat",
+      "ticketUrl": "https://bciaba.com/event/bcis-worcester-learning-center-sensory-friendly-trunk-or-treat",
+      "registration": "Drop in during the published event window; the organizer says to stop by anytime. No registration or clinical intake requirement is stated.",
+      "notes": [
+        "This is a public community event at an ABA provider, not a therapy appointment.",
+        "Specific lighting, sound, wheelchair access and AAC/communication supports are not detailed in the event listing. Teen-specific suitability is not stated."
+      ],
+      "costCategory": "free",
+      "costEvidence": "https://bciaba.com/event/bcis-worcester-learning-center-sensory-friendly-trunk-or-treat"
+    },
+    {
+      "timezone": "America/New_York",
+      "state": "MA",
+      "cancellationPolicy": "Not stated in the checked event listing; confirm with the organizer.",
+      "lastVerified": "2026-10-08T16:40:00Z",
+      "verificationMethod": "Current official organizer event page reviewed on October 8, 2026",
+      "reviewRequired": false,
+      "status": "scheduled",
+      "category": "Sensory-friendly",
+      "format": "In person",
+      "id": "bci-fitchburg-halloween-2026-10-27",
+      "title": "BCI Fitchburg Sensory-Friendly Trunk-or-Treat",
+      "start": "2026-10-27T17:30:00-04:00",
+      "end": "2026-10-27T18:30:00-04:00",
+      "city": "Fitchburg",
+      "venue": "BCI Fitchburg Learning Center",
+      "address": "207 Authority Drive, Fitchburg, MA 01420",
+      "cost": "Free; open to the public",
+      "ages": "Children and their families; no numerical age range is published for this event.",
+      "summary": "Drop in for Halloween activities and candy, with participation at each child’s own pace.",
+      "accessibility": [
+        "Organizer describes sensory-friendly activities.",
+        "Participants can go at their own pace.",
+        "Costumes are optional."
+      ],
+      "sourceId": "bci",
+      "sourceUrl": "https://bciaba.com/event/bcis-fitchburg-learning-center-sensory-friendly-trunk-or-treat",
+      "ticketUrl": "https://bciaba.com/event/bcis-fitchburg-learning-center-sensory-friendly-trunk-or-treat",
+      "registration": "Drop in during the published event window; the organizer says to stop by anytime. No registration or clinical intake requirement is stated.",
+      "notes": [
+        "This is a public community event at an ABA provider, not a therapy appointment.",
+        "Specific lighting, sound, wheelchair access and AAC/communication supports are not detailed in the event listing. Teen-specific suitability is not stated."
+      ],
+      "costCategory": "free",
+      "costEvidence": "https://bciaba.com/event/bcis-fitchburg-learning-center-sensory-friendly-trunk-or-treat"
+    },
+    {
+      "timezone": "America/New_York",
+      "state": "MA",
+      "cancellationPolicy": "Not stated in the checked event listing; confirm with the organizer.",
+      "lastVerified": "2026-10-08T16:40:00Z",
+      "verificationMethod": "Current official organizer event page reviewed on October 8, 2026",
+      "reviewRequired": false,
+      "status": "scheduled",
+      "category": "Sensory-friendly",
+      "format": "In person",
+      "id": "bci-lowell-halloween-2026-10-29",
+      "title": "BCI Lowell Sensory-Friendly Trick-or-Treat",
+      "start": "2026-10-29T16:00:00-04:00",
+      "end": "2026-10-29T18:00:00-04:00",
+      "city": "Lowell",
+      "venue": "BCI Lowell Learning Center",
+      "address": "41 Wellman Street, Suite 101, Lowell, MA 01851",
+      "cost": "Free; open to the public",
+      "ages": "Children and their families; no numerical age range is published for this event.",
+      "summary": "Drop in for Halloween activities and candy, with participation at each child’s own pace.",
+      "accessibility": [
+        "Organizer describes sensory-friendly activities.",
+        "Participants can go at their own pace.",
+        "Costumes are optional."
+      ],
+      "sourceId": "bci",
+      "sourceUrl": "https://bciaba.com/event/bcis-lowell-learning-center-sensory-friendly-trick-or-treat",
+      "ticketUrl": "https://bciaba.com/event/bcis-lowell-learning-center-sensory-friendly-trick-or-treat",
+      "registration": "Drop in during the published event window; the organizer says to stop by anytime. No registration or clinical intake requirement is stated.",
+      "notes": [
+        "This is a public community event at an ABA provider, not a therapy appointment.",
+        "Specific lighting, sound, wheelchair access and AAC/communication supports are not detailed in the event listing. Teen-specific suitability is not stated."
+      ],
+      "costCategory": "free",
+      "costEvidence": "https://bciaba.com/event/bcis-lowell-learning-center-sensory-friendly-trick-or-treat"
     }
   ],
   "accessibilityStandard": {

@@ -4997,6 +4997,191 @@
         "sourceDetailsCheckedAt": "2026-10-08",
         "basis": "Organizer details; no measured sensory rating."
       }
+    },
+    "raisingharts-sensory-play-2026-10-11": {
+      "ageGroups": [
+        "children",
+        "families"
+      ],
+      "accessFeatures": [
+        "sensory-friendly"
+      ],
+      "ageEvidence": {
+        "children": {
+          "evidenceId": "raisingharts-sensory-play-2026-10-11-audience",
+          "url": "https://www.raisingharts.org/events-at-raising-harts/event-one-fmenc-34hj2-k586d-a9k8n-lwgy9-3h3hz-emz5t-p2wxt-cbra8-sjzss-5ce78-xyn6a-y3jyb-yfjn7-ckyml"
+        },
+        "families": {
+          "evidenceId": "raisingharts-sensory-play-2026-10-11-audience",
+          "url": "https://www.raisingharts.org/events-at-raising-harts/event-one-fmenc-34hj2-k586d-a9k8n-lwgy9-3h3hz-emz5t-p2wxt-cbra8-sjzss-5ce78-xyn6a-y3jyb-yfjn7-ckyml"
+        }
+      },
+      "accessEvidence": {
+        "sensory-friendly": {
+          "evidenceId": "raisingharts-sensory-play-2026-10-11-access",
+          "url": "https://www.raisingharts.org/events-at-raising-harts/event-one-fmenc-34hj2-k586d-a9k8n-lwgy9-3h3hz-emz5t-p2wxt-cbra8-sjzss-5ce78-xyn6a-y3jyb-yfjn7-ckyml"
+        }
+      },
+      "checkedAt": "2026-10-08",
+      "ageRange": {
+        "min": null,
+        "max": null,
+        "kind": "not-stated"
+      },
+      "sensory": {
+        "level": "variable",
+        "note": "Games, obstacles and music are part of the session; sound and lighting levels are not specified.",
+        "sourceUrl": "https://www.raisingharts.org/events-at-raising-harts/event-one-fmenc-34hj2-k586d-a9k8n-lwgy9-3h3hz-emz5t-p2wxt-cbra8-sjzss-5ce78-xyn6a-y3jyb-yfjn7-ckyml",
+        "checkedAt": "2026-10-08",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-08"
+      },
+      "holidays": [],
+      "holidayEvidence": {}
+    },
+    "bci-worcester-halloween-2026-10-17": {
+      "ageGroups": [
+        "children",
+        "families"
+      ],
+      "accessFeatures": [
+        "sensory-friendly"
+      ],
+      "ageEvidence": {
+        "children": {
+          "evidenceId": "bci-worcester-halloween-2026-10-17-audience",
+          "url": "https://bciaba.com/event/bcis-worcester-learning-center-sensory-friendly-trunk-or-treat"
+        },
+        "families": {
+          "evidenceId": "bci-worcester-halloween-2026-10-17-audience",
+          "url": "https://bciaba.com/event/bcis-worcester-learning-center-sensory-friendly-trunk-or-treat"
+        }
+      },
+      "accessEvidence": {
+        "sensory-friendly": {
+          "evidenceId": "bci-worcester-halloween-2026-10-17-access",
+          "url": "https://bciaba.com/event/bcis-worcester-learning-center-sensory-friendly-trunk-or-treat"
+        }
+      },
+      "checkedAt": "2026-10-08",
+      "ageRange": {
+        "min": null,
+        "max": null,
+        "kind": "not-stated"
+      },
+      "sensory": {
+        "level": "unknown",
+        "note": "The organizer labels the activities sensory-friendly and allows self-paced participation; exact sound, lighting and attendance limits are not published.",
+        "sourceUrl": "https://bciaba.com/event/bcis-worcester-learning-center-sensory-friendly-trunk-or-treat",
+        "checkedAt": "2026-10-08",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-08"
+      },
+      "holidays": [
+        "halloween"
+      ],
+      "holidayEvidence": {
+        "halloween": {
+          "evidenceId": "bci-worcester-halloween-2026-10-17-halloween",
+          "url": "https://bciaba.com/event/bcis-worcester-learning-center-sensory-friendly-trunk-or-treat"
+        }
+      }
+    },
+    "bci-fitchburg-halloween-2026-10-27": {
+      "ageGroups": [
+        "children",
+        "families"
+      ],
+      "accessFeatures": [
+        "sensory-friendly"
+      ],
+      "ageEvidence": {
+        "children": {
+          "evidenceId": "bci-fitchburg-halloween-2026-10-27-audience",
+          "url": "https://bciaba.com/event/bcis-fitchburg-learning-center-sensory-friendly-trunk-or-treat"
+        },
+        "families": {
+          "evidenceId": "bci-fitchburg-halloween-2026-10-27-audience",
+          "url": "https://bciaba.com/event/bcis-fitchburg-learning-center-sensory-friendly-trunk-or-treat"
+        }
+      },
+      "accessEvidence": {
+        "sensory-friendly": {
+          "evidenceId": "bci-fitchburg-halloween-2026-10-27-access",
+          "url": "https://bciaba.com/event/bcis-fitchburg-learning-center-sensory-friendly-trunk-or-treat"
+        }
+      },
+      "checkedAt": "2026-10-08",
+      "ageRange": {
+        "min": null,
+        "max": null,
+        "kind": "not-stated"
+      },
+      "sensory": {
+        "level": "unknown",
+        "note": "The organizer labels the activities sensory-friendly and allows self-paced participation; exact sound, lighting and attendance limits are not published.",
+        "sourceUrl": "https://bciaba.com/event/bcis-fitchburg-learning-center-sensory-friendly-trunk-or-treat",
+        "checkedAt": "2026-10-08",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-08"
+      },
+      "holidays": [
+        "halloween"
+      ],
+      "holidayEvidence": {
+        "halloween": {
+          "evidenceId": "bci-fitchburg-halloween-2026-10-27-halloween",
+          "url": "https://bciaba.com/event/bcis-fitchburg-learning-center-sensory-friendly-trunk-or-treat"
+        }
+      }
+    },
+    "bci-lowell-halloween-2026-10-29": {
+      "ageGroups": [
+        "children",
+        "families"
+      ],
+      "accessFeatures": [
+        "sensory-friendly"
+      ],
+      "ageEvidence": {
+        "children": {
+          "evidenceId": "bci-lowell-halloween-2026-10-29-audience",
+          "url": "https://bciaba.com/event/bcis-lowell-learning-center-sensory-friendly-trick-or-treat"
+        },
+        "families": {
+          "evidenceId": "bci-lowell-halloween-2026-10-29-audience",
+          "url": "https://bciaba.com/event/bcis-lowell-learning-center-sensory-friendly-trick-or-treat"
+        }
+      },
+      "accessEvidence": {
+        "sensory-friendly": {
+          "evidenceId": "bci-lowell-halloween-2026-10-29-access",
+          "url": "https://bciaba.com/event/bcis-lowell-learning-center-sensory-friendly-trick-or-treat"
+        }
+      },
+      "checkedAt": "2026-10-08",
+      "ageRange": {
+        "min": null,
+        "max": null,
+        "kind": "not-stated"
+      },
+      "sensory": {
+        "level": "unknown",
+        "note": "The organizer labels the activities sensory-friendly and allows self-paced participation; exact sound, lighting and attendance limits are not published.",
+        "sourceUrl": "https://bciaba.com/event/bcis-lowell-learning-center-sensory-friendly-trick-or-treat",
+        "checkedAt": "2026-10-08",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-08"
+      },
+      "holidays": [
+        "halloween"
+      ],
+      "holidayEvidence": {
+        "halloween": {
+          "evidenceId": "bci-lowell-halloween-2026-10-29-halloween",
+          "url": "https://bciaba.com/event/bcis-lowell-learning-center-sensory-friendly-trick-or-treat"
+        }
+      }
     }
   },
   "sensoryMethod": "Sensory levels are editorial planning estimates based on the specific published conditions, not medical ratings or promises. Low means reduced stimulation, moderate means some ongoing music or activity, high means a likely stimulating mix, variable means conditions or parts of the visit differ, and unknown means evidence is insufficient. Sensory-friendly and disability-inclusive are not automatic low-sensory ratings. Earlier event verification dates remain visible."
