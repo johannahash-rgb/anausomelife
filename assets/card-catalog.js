@@ -2603,4 +2603,13 @@ window.AALCardCatalog = [
     "description": "A passenger train.",
     "keywords": "train"
   }
+,{
+  "id": "tulip-farm",
+  "label": "tulip farm",
+  "category": "Places & travel",
+  "image": "/assets/card-collection/tulip-farm.png",
+  "description": "Three rows of colorful tulips growing in front of a small red farm barn. A generic flower-farm illustration, not a map or photograph of Wicked Tulips.",
+  "keywords": "tulip flower farm spring wicked tulips field outing",
+  "source": "Original illustration created for the picture-card collection."
+}
 ];

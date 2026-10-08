@@ -58,7 +58,7 @@
   }
   const packButton=$('[data-download-pack]');
   if(packButton){packButton.disabled=false;packButton.onclick=async()=>{
-    const progress=$('[data-pack-status]');packButton.disabled=true;progress.textContent='Preparing your PNG collection…';
+    const progress=$('[data-pack-status]');packButton.disabled=true;progress.textContent='Preparing the original 278-card PNG pack…';
     try{
       const response=await fetch('/downloads/picture-cards-278-png-parts.json');if(!response.ok)throw new Error();
       const pack=await response.json(),parts=[];
@@ -68,7 +68,7 @@
         if(window.crypto?.subtle){const digest=await crypto.subtle.digest('SHA-256',bytes),hash=Array.from(new Uint8Array(digest),b=>b.toString(16).padStart(2,'0')).join('');if(hash!==part.sha256)throw new Error();}
         parts.push(bytes);
       }
-      saveBlob(new Blob(parts,{type:'application/zip'}),pack.filename);progress.textContent='Your complete PNG collection is ready. Check your downloads.';
+      saveBlob(new Blob(parts,{type:'application/zip'}),pack.filename);progress.textContent='Your original 278-card PNG pack is ready. Check your downloads.';
     }catch(_){progress.textContent='The download was interrupted. Please try again, or download a category PDF.';}
     finally{packButton.disabled=false;}
   };}
@@ -104,7 +104,7 @@
     $('[data-result-heading]').textContent=category.value==='all'?'All pictures':category.value;
     root.querySelectorAll('[data-category-choice]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.categoryChoice===category.value)));
     const categoryPdf=$('[data-category-pdf]');categoryPdf.hidden=category.value==='all';
-    if(!categoryPdf.hidden){categoryPdf.href='/downloads/picture-cards-'+slug(category.value)+'.pdf';categoryPdf.textContent='Download category PDF';}
+    if(!categoryPdf.hidden){categoryPdf.href='/downloads/picture-cards-'+slug(category.value)+'.pdf';categoryPdf.textContent='Original category PDF';}
     $('[data-category-note]').textContent=category.value===FAVORITES?'Familiar New England objects, with simple everyday words. Brand references appear below the pictures.':category.value==='all'?'New England favorites first, then everyday cards grouped by category.':'Choose individual cards, download this category, or add the matching cards to your print set.';
     $('[data-add-results]').textContent=`Add ${cards.length} ${cards.length===1?'card':'cards'}`;$('[data-add-results]').disabled=!cards.length;
     if(!cards.length){const empty=element('div','cc-empty');empty.append(element('strong','','No pictures found.'),element('p','','Try one word, such as “water”, “shoes” or “pool”, choose All categories, or make a card with your own photo.'));grid.append(empty);}
@@ -196,6 +196,13 @@
   updateSheet();renderGrid();
   const params=new URLSearchParams(location.search),requested=params.get('card'),requestedCategory=params.get('category');
   if([FAVORITES,...categories].includes(requestedCategory)){category.value=requestedCategory;renderGrid();}
+  const requestedCards=(params.get('cards')||'').split(',').filter(id=>byId.has(id));
+  if(requestedCards.length){
+    [...new Set(requestedCards)].forEach(id=>selection.set(id,{...byId.get(id)}));
+    updateSheet();syncButtons();
+    status('Your story set is ready. Change any words or choose Print / save PDF below.');
+    requestAnimationFrame(()=>{$('#cc-sheet').scrollIntoView({block:'start'});$('[data-sheet-heading]').focus({preventScroll:true});});
+  }
   if(requested&&byId.has(requested))openEditor(byId.get(requested));
   // Shared renderer also supports the prebuilt downloadable packs.
   window.AALCardCollection={entries,renderCard,getImage};

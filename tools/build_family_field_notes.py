@@ -12,6 +12,15 @@ ROWS = json.loads((ROOT / 'content/family-field-notes.json').read_text())
 CSS = '<link rel="stylesheet" href="/assets/family-field-notes.css?v=20261004-album">'
 e = escape
 
+STORY_CSS = '<link rel="stylesheet" href="/assets/journal-picture-cards.css?v=20261008-1">'
+STORY_SCRIPTS = '<script src="/assets/card-catalog.js?v=20261008-1" defer></script><script src="/assets/journal-picture-cards.js?v=20261008-1" defer></script>'
+
+def story_sketch(row):
+    art = row.get('sketch')
+    if not art:
+        return ''
+    return '<figure class="aal-story-sketch"><img src="'+e(art['path'])+'" alt="'+e(art['alt'])+'" loading="lazy" decoding="async"><figcaption>'+e(art['caption'])+'</figcaption></figure>'
+
 def paragraphs(items):
     return ''.join('<p>'+e(p)+'</p>' for p in items)
 
@@ -42,7 +51,7 @@ for row in ROWS:
 <meta property="og:image:alt" content="{e(row['photo']['alt'])}"><link rel="icon" href="/favicon.ico">
 <link rel="stylesheet" href="/assets/site.css?v=20261004"><link rel="stylesheet" href="/assets/magazine.css?v=20261004">
 <link rel="stylesheet" href="/assets/editorial.css?v=20261003-mainstreet">
-<link rel="stylesheet" href="/assets/illustrated-navigation.css?v=20261004-restore1">{CSS}
+<link rel="stylesheet" href="/assets/illustrated-navigation.css?v=20261004-restore1">{CSS}{STORY_CSS}
 <script src="/assets/global-nav.js?v=20261004-full-footer" data-aal-global-nav="true" defer></script></head>
 <body class="magazine-shell fn-page"><a class="skip" href="#main">Skip to content</a>{edition}{masthead}<main id="main">
 <div class="wrap fn-breadcrumb"><a href="/blog.html">The journal</a> / Family field notes</div>
@@ -53,6 +62,8 @@ for row in ROWS:
     glance = '<dl class="wrap fn-glance" id="at-a-glance">'+''.join('<div><dt>'+e(k)+'</dt><dd>'+e(v)+'</dd></div>' for k,v in row['glance'])+'</dl>'
     story = '<article class="fn-story" id="story" aria-label="The family field note"><div class="fn-intro">'+paragraphs(row['intro'])+'</div>'
     for i, section in enumerate(row['sections']):
+        if i == 1:
+            story += story_sketch(row)
         story += f'<section id="guide-section-{i+1}"><h2>'+e(section['title'])+'</h2>'+paragraphs(section['paragraphs'])+'</section>'
         if i == 0:
             gallery = row.get('gallery', [])
@@ -71,7 +82,7 @@ for row in ROWS:
     related = '<nav class="wrap fn-related" aria-labelledby="more-title"><p class="fn-kicker">From the family album</p><h2 id="more-title">A few more good things.</h2><ul>'
     related += ''.join('<li><a href="/'+other['path']+'">'+e(other['title'])+' →</a></li>' for other in ROWS if other!=row)
     related += '</ul><p><a href="/blog.html">Back to the journal →</a></p></nav>'
-    (ROOT / row['path']).write_text(head+glance+story+planning+related+'</main>'+footer+'<script src="/assets/site.js" defer></script></body></html>\n')
+    (ROOT / row['path']).write_text(head+glance+story+row.get('pictureCardsHtml', '')+planning+related+'</main>'+footer+'<script src="/assets/site.js" defer></script>'+STORY_SCRIPTS+'</body></html>\n')
 
 # Replace only our marked module on later runs.
 album = '<!-- family-album:start --><section class="wrap fn-album" id="camera-roll-notes" aria-labelledby="album-title"><p class="eyebrow">Opened from the family album</p><h2 id="album-title">Five moments worth keeping.</h2><div class="fn-album-layout">'

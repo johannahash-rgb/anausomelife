@@ -102,7 +102,19 @@
         "Doe Orchards · farm updates",
         "https://doeorchards.com/"
       ]
-    ]
+    ],
+    "sketch": {
+      "path": "/assets/journal-sketches/orchard.png",
+      "alt": "Ink-and-watercolor sketch of red and golden apples, a leafy twig and a wooden picking basket.",
+      "caption": "Apples, a basket, and an afternoon outside. Original editorial illustration."
+    },
+    "pictureCards": [
+      "apple",
+      "farm",
+      "water",
+      "all-done"
+    ],
+    "pictureCardsHtml": "<section class=\"aal-story-cards\" id=\"story-picture-cards\" data-story-cards aria-labelledby=\"story-picture-cards-title\"><p class=\"aal-pc-kicker\">Pictures to take with you</p><h2 id=\"story-picture-cards-title\">A few words for this story.</h2><p>Choose the pictures that are familiar and useful. Change a label, save a card, or print this little set.</p><div class=\"aal-pc-grid\"><div class=\"aal-pc-card\" data-story-card=\"apple\"><a class=\"aal-pc-face\" href=\"/picture-card-library.html?card=apple\" aria-label=\"Edit or print apple card\"><span class=\"aal-pc-image\" role=\"img\" aria-label=\"A whole red apple.\" style=\"background-image:url(/assets/card-studio/apple.webp);\"></span><span class=\"aal-pc-label\">apple</span></a><button class=\"aal-pc-download\" type=\"button\" data-story-card-download hidden aria-label=\"Download apple picture card as PNG\">Download PNG ↓</button></div><div class=\"aal-pc-card\" data-story-card=\"farm\"><a class=\"aal-pc-face\" href=\"/picture-card-library.html?card=farm\" aria-label=\"Edit or print farm card\"><span class=\"aal-pc-image\" role=\"img\" aria-label=\"A farm with red barn and fence.\" style=\"background-image:url(/assets/card-collection/outings.webp);background-size:400% 400%;background-position:33.333333333333336% 66.66666666666667%;\"></span><span class=\"aal-pc-label\">farm</span></a><button class=\"aal-pc-download\" type=\"button\" data-story-card-download hidden aria-label=\"Download farm picture card as PNG\">Download PNG ↓</button></div><div class=\"aal-pc-card\" data-story-card=\"water\"><a class=\"aal-pc-face\" href=\"/picture-card-library.html?card=water\" aria-label=\"Edit or print water card\"><span class=\"aal-pc-image\" role=\"img\" aria-label=\"A clear glass of drinking water.\" style=\"background-image:url(/assets/card-studio/water.webp);\"></span><span class=\"aal-pc-label\">water</span></a><button class=\"aal-pc-download\" type=\"button\" data-story-card-download hidden aria-label=\"Download water picture card as PNG\">Download PNG ↓</button></div><div class=\"aal-pc-card\" data-story-card=\"all-done\"><a class=\"aal-pc-face\" href=\"/picture-card-library.html?card=all-done\" aria-label=\"Edit or print all done card\"><span class=\"aal-pc-image\" role=\"img\" aria-label=\"A check mark inside a square.\" style=\"background-image:url(/assets/card-collection/all-done.svg);\"></span><span class=\"aal-pc-label\">all done</span></a><button class=\"aal-pc-download\" type=\"button\" data-story-card-download hidden aria-label=\"Download all done picture card as PNG\">Download PNG ↓</button></div></div><div class=\"aal-pc-actions\"><a href=\"/picture-card-library.html?cards=apple,farm,water,all-done#cc-sheet\">Edit or print this set →</a><a href=\"/picture-card-library.html\">All picture cards →</a></div><p class=\"aal-pc-note\">Keep the person’s usual communication available. These are independent picture communication cards, not official PECS® materials. Generic place illustrations do not show a venue’s actual layout.</p><p class=\"aal-pc-status\" role=\"status\" aria-live=\"polite\" data-story-card-status></p></section>"
   },
   {
     "path": "wegmans-carolines-cart-field-note.html",
@@ -199,7 +211,19 @@
         "Wegmans · customer-service questions",
         "https://www.wegmans.com/service/faq"
       ]
-    ]
+    ],
+    "sketch": {
+      "path": "/assets/journal-sketches/groceries-flowers.png",
+      "alt": "Ink-and-watercolor sketch of grocery bags and a bouquet of flowers.",
+      "caption": "The ordinary errand, with flowers. Original editorial illustration."
+    },
+    "pictureCards": [
+      "shop",
+      "tote-bag",
+      "water",
+      "all-done"
+    ],
+    "pictureCardsHtml": "<section class=\"aal-story-cards\" id=\"story-picture-cards\" data-story-cards aria-labelledby=\"story-picture-cards-title\"><p class=\"aal-pc-kicker\">Pictures to take with you</p><h2 id=\"story-picture-cards-title\">A few words for this story.</h2><p>Choose the pictures that are familiar and useful. Change a label, save a card, or print this little set.</p><div class=\"aal-pc-grid\"><div class=\"aal-pc-card\" data-story-card=\"shop\"><a class=\"aal-pc-face\" href=\"/picture-card-library.html?card=shop\" aria-label=\"Edit or print shop card\"><span class=\"aal-pc-image\" role=\"img\" aria-label=\"A small grocery shop storefront with produce and no signs.\" style=\"background-image:url(/assets/card-collection/outings.webp);background-size:400% 400%;background-position:66.66666666666667% 0%;\"></span><span class=\"aal-pc-label\">shop</span></a><button class=\"aal-pc-download\" type=\"button\" data-story-card-download hidden aria-label=\"Download shop picture card as PNG\">Download PNG ↓</button></div><div class=\"aal-pc-card\" data-story-card=\"tote-bag\"><a class=\"aal-pc-face\" href=\"/picture-card-library.html?card=tote-bag\" aria-label=\"Edit or print tote bag card\"><span class=\"aal-pc-image\" role=\"img\" aria-label=\"Original editorial illustration: An L.L.Bean Boat and Tote: cream sturdy canvas open top tote bag with navy webbing handles and navy base.\" style=\"background-image:url(/assets/card-collection/heritage.webp);background-size:400% 400%;background-position:33.333333333333336% 0%;\"></span><span class=\"aal-pc-label\">tote bag</span></a><button class=\"aal-pc-download\" type=\"button\" data-story-card-download hidden aria-label=\"Download tote bag picture card as PNG\">Download PNG ↓</button></div><div class=\"aal-pc-card\" data-story-card=\"water\"><a class=\"aal-pc-face\" href=\"/picture-card-library.html?card=water\" aria-label=\"Edit or print water card\"><span class=\"aal-pc-image\" role=\"img\" aria-label=\"A clear glass of drinking water.\" style=\"background-image:url(/assets/card-studio/water.webp);\"></span><span class=\"aal-pc-label\">water</span></a><button class=\"aal-pc-download\" type=\"button\" data-story-card-download hidden aria-label=\"Download water picture card as PNG\">Download PNG ↓</button></div><div class=\"aal-pc-card\" data-story-card=\"all-done\"><a class=\"aal-pc-face\" href=\"/picture-card-library.html?card=all-done\" aria-label=\"Edit or print all done card\"><span class=\"aal-pc-image\" role=\"img\" aria-label=\"A check mark inside a square.\" style=\"background-image:url(/assets/card-collection/all-done.svg);\"></span><span class=\"aal-pc-label\">all done</span></a><button class=\"aal-pc-download\" type=\"button\" data-story-card-download hidden aria-label=\"Download all done picture card as PNG\">Download PNG ↓</button></div></div><div class=\"aal-pc-actions\"><a href=\"/picture-card-library.html?cards=shop,tote-bag,water,all-done#cc-sheet\">Edit or print this set →</a><a href=\"/picture-card-library.html\">All picture cards →</a></div><p class=\"aal-pc-note\">Keep the person’s usual communication available. These are independent picture communication cards, not official PECS® materials. Generic place illustrations do not show a venue’s actual layout.</p><p class=\"aal-pc-status\" role=\"status\" aria-live=\"polite\" data-story-card-status></p></section>"
   },
   {
     "path": "von-trapp-family-field-note.html",
@@ -296,7 +320,19 @@
         "von Trapp Brewing · Bierhall",
         "https://www.vontrappbrewing.com/bierhall.htm"
       ]
-    ]
+    ],
+    "sketch": {
+      "path": "/assets/journal-sketches/table-flowers.png",
+      "alt": "Ink-and-watercolor sketch of pink flowers in a glass vase beside a striped linen napkin.",
+      "caption": "A few flowers make a table an occasion. Original editorial illustration."
+    },
+    "pictureCards": [
+      "restaurant",
+      "cloth-napkin",
+      "water",
+      "all-done"
+    ],
+    "pictureCardsHtml": "<section class=\"aal-story-cards\" id=\"story-picture-cards\" data-story-cards aria-labelledby=\"story-picture-cards-title\"><p class=\"aal-pc-kicker\">Pictures to take with you</p><h2 id=\"story-picture-cards-title\">A few words for this story.</h2><p>Choose the pictures that are familiar and useful. Change a label, save a card, or print this little set.</p><div class=\"aal-pc-grid\"><div class=\"aal-pc-card\" data-story-card=\"restaurant\"><a class=\"aal-pc-face\" href=\"/picture-card-library.html?card=restaurant\" aria-label=\"Edit or print restaurant card\"><span class=\"aal-pc-image\" role=\"img\" aria-label=\"A simple restaurant table set for a meal.\" style=\"background-image:url(/assets/card-collection/outings.webp);background-size:400% 400%;background-position:66.66666666666667% 66.66666666666667%;\"></span><span class=\"aal-pc-label\">restaurant</span></a><button class=\"aal-pc-download\" type=\"button\" data-story-card-download hidden aria-label=\"Download restaurant picture card as PNG\">Download PNG ↓</button></div><div class=\"aal-pc-card\" data-story-card=\"cloth-napkin\"><a class=\"aal-pc-face\" href=\"/picture-card-library.html?card=cloth-napkin\" aria-label=\"Edit or print cloth napkin card\"><span class=\"aal-pc-image\" role=\"img\" aria-label=\"A folded navy gingham cloth napkin.\" style=\"background-image:url(/assets/card-collection/heritage.webp);background-size:400% 400%;background-position:66.66666666666667% 66.66666666666667%;\"></span><span class=\"aal-pc-label\">cloth napkin</span></a><button class=\"aal-pc-download\" type=\"button\" data-story-card-download hidden aria-label=\"Download cloth napkin picture card as PNG\">Download PNG ↓</button></div><div class=\"aal-pc-card\" data-story-card=\"water\"><a class=\"aal-pc-face\" href=\"/picture-card-library.html?card=water\" aria-label=\"Edit or print water card\"><span class=\"aal-pc-image\" role=\"img\" aria-label=\"A clear glass of drinking water.\" style=\"background-image:url(/assets/card-studio/water.webp);\"></span><span class=\"aal-pc-label\">water</span></a><button class=\"aal-pc-download\" type=\"button\" data-story-card-download hidden aria-label=\"Download water picture card as PNG\">Download PNG ↓</button></div><div class=\"aal-pc-card\" data-story-card=\"all-done\"><a class=\"aal-pc-face\" href=\"/picture-card-library.html?card=all-done\" aria-label=\"Edit or print all done card\"><span class=\"aal-pc-image\" role=\"img\" aria-label=\"A check mark inside a square.\" style=\"background-image:url(/assets/card-collection/all-done.svg);\"></span><span class=\"aal-pc-label\">all done</span></a><button class=\"aal-pc-download\" type=\"button\" data-story-card-download hidden aria-label=\"Download all done picture card as PNG\">Download PNG ↓</button></div></div><div class=\"aal-pc-actions\"><a href=\"/picture-card-library.html?cards=restaurant,cloth-napkin,water,all-done#cc-sheet\">Edit or print this set →</a><a href=\"/picture-card-library.html\">All picture cards →</a></div><p class=\"aal-pc-note\">Keep the person’s usual communication available. These are independent picture communication cards, not official PECS® materials. Generic place illustrations do not show a venue’s actual layout.</p><p class=\"aal-pc-status\" role=\"status\" aria-live=\"polite\" data-story-card-status></p></section>"
   },
   {
     "path": "wicked-tulips-family-field-note.html",
@@ -400,7 +436,19 @@
         "Wicked Tulips · official website",
         "https://wickedtulips.com/"
       ]
-    ]
+    ],
+    "sketch": {
+      "path": "/assets/journal-sketches/tulips.png",
+      "alt": "Ink-and-watercolor sketch of coral, red and yellow tulips beside a navy-handled canvas tote.",
+      "caption": "A little of the color to take home. Original editorial illustration."
+    },
+    "pictureCards": [
+      "tulip",
+      "tulip-farm",
+      "water",
+      "all-done"
+    ],
+    "pictureCardsHtml": "<section class=\"aal-story-cards\" id=\"story-picture-cards\" data-story-cards aria-labelledby=\"story-picture-cards-title\"><p class=\"aal-pc-kicker\">Pictures to take with you</p><h2 id=\"story-picture-cards-title\">A few words for this story.</h2><p>Choose the pictures that are familiar and useful. Change a label, save a card, or print this little set.</p><div class=\"aal-pc-grid\"><div class=\"aal-pc-card\" data-story-card=\"tulip\"><a class=\"aal-pc-face\" href=\"/picture-card-library.html?card=tulip\" aria-label=\"Edit or print tulip card\"><span class=\"aal-pc-image\" role=\"img\" aria-label=\"A flowering tulip in a small terracotta pot.\" style=\"background-image:url(/assets/card-collection/seasons-more.webp);background-size:400% 400%;background-position:33.333333333333336% 33.333333333333336%;\"></span><span class=\"aal-pc-label\">tulip</span></a><button class=\"aal-pc-download\" type=\"button\" data-story-card-download hidden aria-label=\"Download tulip picture card as PNG\">Download PNG ↓</button></div><div class=\"aal-pc-card\" data-story-card=\"tulip-farm\"><a class=\"aal-pc-face\" href=\"/picture-card-library.html?card=tulip-farm\" aria-label=\"Edit or print tulip farm card\"><span class=\"aal-pc-image\" role=\"img\" aria-label=\"Three rows of colorful tulips growing in front of a small red farm barn. A generic flower-farm illustration, not a map or photograph of Wicked Tulips.\" style=\"background-image:url(/assets/card-collection/tulip-farm.png);\"></span><span class=\"aal-pc-label\">tulip farm</span></a><button class=\"aal-pc-download\" type=\"button\" data-story-card-download hidden aria-label=\"Download tulip farm picture card as PNG\">Download PNG ↓</button></div><div class=\"aal-pc-card\" data-story-card=\"water\"><a class=\"aal-pc-face\" href=\"/picture-card-library.html?card=water\" aria-label=\"Edit or print water card\"><span class=\"aal-pc-image\" role=\"img\" aria-label=\"A clear glass of drinking water.\" style=\"background-image:url(/assets/card-studio/water.webp);\"></span><span class=\"aal-pc-label\">water</span></a><button class=\"aal-pc-download\" type=\"button\" data-story-card-download hidden aria-label=\"Download water picture card as PNG\">Download PNG ↓</button></div><div class=\"aal-pc-card\" data-story-card=\"all-done\"><a class=\"aal-pc-face\" href=\"/picture-card-library.html?card=all-done\" aria-label=\"Edit or print all done card\"><span class=\"aal-pc-image\" role=\"img\" aria-label=\"A check mark inside a square.\" style=\"background-image:url(/assets/card-collection/all-done.svg);\"></span><span class=\"aal-pc-label\">all done</span></a><button class=\"aal-pc-download\" type=\"button\" data-story-card-download hidden aria-label=\"Download all done picture card as PNG\">Download PNG ↓</button></div></div><div class=\"aal-pc-actions\"><a href=\"/picture-card-library.html?cards=tulip,tulip-farm,water,all-done#cc-sheet\">Edit or print this set →</a><a href=\"/picture-card-library.html\">All picture cards →</a></div><p class=\"aal-pc-note\">Keep the person’s usual communication available. These are independent picture communication cards, not official PECS® materials. Generic place illustrations do not show a venue’s actual layout.</p><p class=\"aal-pc-status\" role=\"status\" aria-live=\"polite\" data-story-card-status></p></section>"
   },
   {
     "path": "flowers-fidgets-and-clutter.html",
@@ -498,7 +546,19 @@
         "Give a photograph a life off the phone",
         "/photo-gifts-from-your-camera-roll.html"
       ]
-    ]
+    ],
+    "sketch": {
+      "path": "/assets/journal-sketches/roses-fidget.png",
+      "alt": "Ink-and-watercolor sketch of yellow roses in a glass vase and a blue sensory ring.",
+      "caption": "Lovely things and useful things, sharing the table. Original editorial illustration."
+    },
+    "pictureCards": [
+      "fidget",
+      "table",
+      "home",
+      "different"
+    ],
+    "pictureCardsHtml": "<section class=\"aal-story-cards\" id=\"story-picture-cards\" data-story-cards aria-labelledby=\"story-picture-cards-title\"><p class=\"aal-pc-kicker\">Pictures to take with you</p><h2 id=\"story-picture-cards-title\">A few words for this story.</h2><p>Choose the pictures that are familiar and useful. Change a label, save a card, or print this little set.</p><div class=\"aal-pc-grid\"><div class=\"aal-pc-card\" data-story-card=\"fidget\"><a class=\"aal-pc-face\" href=\"/picture-card-library.html?card=fidget\" aria-label=\"Edit or print fidget card\"><span class=\"aal-pc-image\" role=\"img\" aria-label=\"One silicone pop-it fidget pad.\" style=\"background-image:url(/assets/card-collection/sensory.webp);background-size:400% 400%;background-position:0% 100%;\"></span><span class=\"aal-pc-label\">fidget</span></a><button class=\"aal-pc-download\" type=\"button\" data-story-card-download hidden aria-label=\"Download fidget picture card as PNG\">Download PNG ↓</button></div><div class=\"aal-pc-card\" data-story-card=\"table\"><a class=\"aal-pc-face\" href=\"/picture-card-library.html?card=table\" aria-label=\"Edit or print table card\"><span class=\"aal-pc-image\" role=\"img\" aria-label=\"One simple wooden table.\" style=\"background-image:url(/assets/card-collection/home.webp);background-size:400% 400%;background-position:0% 33.333333333333336%;\"></span><span class=\"aal-pc-label\">table</span></a><button class=\"aal-pc-download\" type=\"button\" data-story-card-download hidden aria-label=\"Download table picture card as PNG\">Download PNG ↓</button></div><div class=\"aal-pc-card\" data-story-card=\"home\"><a class=\"aal-pc-face\" href=\"/picture-card-library.html?card=home\" aria-label=\"Edit or print home card\"><span class=\"aal-pc-image\" role=\"img\" aria-label=\"A small familiar-style New England house without lettering.\" style=\"background-image:url(/assets/card-collection/outings.webp);background-size:400% 400%;background-position:0% 0%;\"></span><span class=\"aal-pc-label\">home</span></a><button class=\"aal-pc-download\" type=\"button\" data-story-card-download hidden aria-label=\"Download home picture card as PNG\">Download PNG ↓</button></div><div class=\"aal-pc-card\" data-story-card=\"different\"><a class=\"aal-pc-face\" href=\"/picture-card-library.html?card=different\" aria-label=\"Edit or print different card\"><span class=\"aal-pc-image\" role=\"img\" aria-label=\"Two arrows pointing in different directions.\" style=\"background-image:url(/assets/card-collection/different.svg);\"></span><span class=\"aal-pc-label\">different</span></a><button class=\"aal-pc-download\" type=\"button\" data-story-card-download hidden aria-label=\"Download different picture card as PNG\">Download PNG ↓</button></div></div><div class=\"aal-pc-actions\"><a href=\"/picture-card-library.html?cards=fidget,table,home,different#cc-sheet\">Edit or print this set →</a><a href=\"/picture-card-library.html\">All picture cards →</a></div><p class=\"aal-pc-note\">Keep the person’s usual communication available. These are independent picture communication cards, not official PECS® materials. Generic place illustrations do not show a venue’s actual layout.</p><p class=\"aal-pc-status\" role=\"status\" aria-live=\"polite\" data-story-card-status></p></section>"
   },
   {
     "path": "fort-taber-snowshoes-field-note.html",
@@ -591,6 +651,18 @@
         "City of New Bedford · Fort Taber park information",
         "https://engagenb.newbedford-ma.gov/fort-taber-playground"
       ]
-    ]
+    ],
+    "sketch": {
+      "path": "/assets/journal-sketches/snowshoes.png",
+      "alt": "Ink-and-watercolor sketch of snowshoes, a green sled and pine branches.",
+      "caption": "A winter afternoon, lightly planned. Original editorial illustration."
+    },
+    "pictureCards": [
+      "sled",
+      "gloves",
+      "coat",
+      "all-done"
+    ],
+    "pictureCardsHtml": "<section class=\"aal-story-cards\" id=\"story-picture-cards\" data-story-cards aria-labelledby=\"story-picture-cards-title\"><p class=\"aal-pc-kicker\">Pictures to take with you</p><h2 id=\"story-picture-cards-title\">A few words for this story.</h2><p>Choose the pictures that are familiar and useful. Change a label, save a card, or print this little set.</p><div class=\"aal-pc-grid\"><div class=\"aal-pc-card\" data-story-card=\"sled\"><a class=\"aal-pc-face\" href=\"/picture-card-library.html?card=sled\" aria-label=\"Edit or print sled card\"><span class=\"aal-pc-image\" role=\"img\" aria-label=\"A sled with red metal runners and wood seat.\" style=\"background-image:url(/assets/card-collection/seasons-more.webp);background-size:400% 400%;background-position:100% 100%;\"></span><span class=\"aal-pc-label\">sled</span></a><button class=\"aal-pc-download\" type=\"button\" data-story-card-download hidden aria-label=\"Download sled picture card as PNG\">Download PNG ↓</button></div><div class=\"aal-pc-card\" data-story-card=\"gloves\"><a class=\"aal-pc-face\" href=\"/picture-card-library.html?card=gloves\" aria-label=\"Edit or print gloves card\"><span class=\"aal-pc-image\" role=\"img\" aria-label=\"A pair of grey knit gloves.\" style=\"background-image:url(/assets/card-collection/clothes.webp);background-size:400% 400%;background-position:33.333333333333336% 100%;\"></span><span class=\"aal-pc-label\">gloves</span></a><button class=\"aal-pc-download\" type=\"button\" data-story-card-download hidden aria-label=\"Download gloves picture card as PNG\">Download PNG ↓</button></div><div class=\"aal-pc-card\" data-story-card=\"coat\"><a class=\"aal-pc-face\" href=\"/picture-card-library.html?card=coat\" aria-label=\"Edit or print coat card\"><span class=\"aal-pc-image\" role=\"img\" aria-label=\"A navy quilted coat.\" style=\"background-image:url(/assets/card-studio/coat.webp);\"></span><span class=\"aal-pc-label\">coat</span></a><button class=\"aal-pc-download\" type=\"button\" data-story-card-download hidden aria-label=\"Download coat picture card as PNG\">Download PNG ↓</button></div><div class=\"aal-pc-card\" data-story-card=\"all-done\"><a class=\"aal-pc-face\" href=\"/picture-card-library.html?card=all-done\" aria-label=\"Edit or print all done card\"><span class=\"aal-pc-image\" role=\"img\" aria-label=\"A check mark inside a square.\" style=\"background-image:url(/assets/card-collection/all-done.svg);\"></span><span class=\"aal-pc-label\">all done</span></a><button class=\"aal-pc-download\" type=\"button\" data-story-card-download hidden aria-label=\"Download all done picture card as PNG\">Download PNG ↓</button></div></div><div class=\"aal-pc-actions\"><a href=\"/picture-card-library.html?cards=sled,gloves,coat,all-done#cc-sheet\">Edit or print this set →</a><a href=\"/picture-card-library.html\">All picture cards →</a></div><p class=\"aal-pc-note\">Keep the person’s usual communication available. These are independent picture communication cards, not official PECS® materials. Generic place illustrations do not show a venue’s actual layout.</p><p class=\"aal-pc-status\" role=\"status\" aria-live=\"polite\" data-story-card-status></p></section>"
   }
 ]

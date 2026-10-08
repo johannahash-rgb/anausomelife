@@ -25,6 +25,15 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v6
 
+      - name: Validate story cards and editorial asset references
+        run: |
+          python tools/check_journal_picture_cards.py
+          python tools/check_editorial_rights.py
+          python -m py_compile tools/build_family_field_notes.py
+          node --check assets/card-catalog.js
+          node --check assets/card-collection.js
+          node --check assets/journal-picture-cards.js
+
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
 

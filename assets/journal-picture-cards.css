@@ -1,0 +1,29 @@
+/* Shared story artwork and explicit, curated communication cards. */
+.aal-story-sketch{width:min(100% - 40px,680px);margin:clamp(30px,5vw,58px) auto!important;padding:0;border:0;background:none;box-shadow:none}
+.aal-story-sketch img{display:block;width:100%!important;height:auto!important;max-height:520px;object-fit:contain!important;object-position:center;border:0!important;border-radius:0!important;box-shadow:none!important;filter:none!important}
+.aal-story-sketch figcaption{max-width:620px;margin:12px auto 0;font:italic .92rem/1.6 Georgia,serif;color:#435650;text-align:center}
+.aal-story-cards{box-sizing:border-box;width:min(100% - 40px,820px);margin:48px auto;padding:26px 0;border-top:2px solid #173c4c;color:#173c4c}
+.aal-story-cards *{box-sizing:border-box}
+.aal-story-cards .aal-pc-kicker{font:700 .75rem/1.5 Arial,sans-serif;letter-spacing:.1em;text-transform:uppercase;margin:0 0 8px}
+.aal-story-cards h2{font:400 clamp(1.8rem,4vw,2.5rem)/1.15 Georgia,serif;letter-spacing:-.02em;margin:0 0 12px;color:#173c4c}
+.aal-story-cards>p{max-width:680px;font:1rem/1.6 Arial,sans-serif;margin:0 0 16px}
+.aal-pc-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px;margin:22px 0}
+.aal-pc-card{min-width:0;margin:0!important;padding:0!important;background:none!important;border:0!important;box-shadow:none!important}
+.aal-pc-face{display:flex;flex-direction:column;border:2px solid #173c4c;background:#fff;color:#173c4c!important;text-decoration:none!important;padding:6px 6px 0;overflow:hidden}
+.aal-pc-image{display:block;width:100%;aspect-ratio:1;background-repeat:no-repeat;background-position:center;background-size:contain}
+.aal-pc-image img,.aal-pc-image canvas{display:block;width:100%!important;height:100%!important;max-width:100%;object-fit:contain!important;border:0!important;box-shadow:none!important;border-radius:0!important}
+.aal-pc-label{display:flex;align-items:center;justify-content:center;min-height:45px;text-align:center;border-top:1px solid #173c4c;font:600 clamp(.95rem,2vw,1.12rem)/1.2 Arial,sans-serif;padding:7px 3px;overflow-wrap:anywhere}
+.aal-pc-download{width:100%;min-height:44px;margin:5px 0 0;border:1px solid #b2bfbc;background:#fffdf8;color:#173c4c;cursor:pointer;font:600 .85rem/1.3 Arial,sans-serif}
+.aal-pc-download[hidden]{display:none}
+.aal-pc-actions{display:flex;flex-wrap:wrap;gap:8px 20px;align-items:center}
+.aal-pc-actions a{display:inline-flex;align-items:center;min-height:44px;color:#173c4c;font:600 .95rem/1.4 Arial,sans-serif;text-underline-offset:4px}
+.aal-story-cards .aal-pc-note,.aal-story-cards .aal-pc-status{font:.84rem/1.6 Arial,sans-serif;color:#435650;margin-top:12px}
+.aal-pc-status:empty{display:none}
+.aal-story-cards :focus-visible{outline:3px solid #93422f;outline-offset:4px}
+.cc-journal-sets{margin:22px 0;border-block:1px solid #b2bfbc;padding:14px 0}
+.cc-journal-sets summary{font-weight:600;cursor:pointer;min-height:44px;display:list-item;padding:10px 0}
+.cc-journal-sets ul{columns:2;column-gap:28px;padding-left:20px}
+.cc-journal-sets li{break-inside:avoid;margin:0 0 10px}
+.cc-journal-sets a{display:inline-block;min-height:40px;padding:6px 0;color:#173c4c}
+@media(max-width:540px){.aal-pc-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:15px}.aal-story-cards,.aal-story-sketch{width:calc(100% - 32px)}.cc-journal-sets ul{columns:1}}
+@media print{.aal-pc-download,.aal-pc-actions,.aal-pc-note,.aal-pc-status{display:none!important}.aal-story-cards{break-inside:avoid}.aal-pc-image{-webkit-print-color-adjust:exact;print-color-adjust:exact}}
