@@ -53,3 +53,31 @@
 @media(max-width:760px){.fn-cover,.fn-album-layout{grid-template-columns:1fr}.fn-cover h1{max-width:17ch}.fn-glance{grid-template-columns:repeat(2,minmax(0,1fr));gap:24px}.fn-glance div+div{border-left:0;padding-left:0}.fn-glance div{border-bottom:1px solid var(--fn-line);padding-bottom:16px}.fn-choices{grid-template-columns:1fr;gap:10px}.fn-choices>div{border-bottom:1px solid var(--fn-line);padding-bottom:12px}.fn-story{margin-top:30px}.fn-page .wrap,.fn-album.wrap{width:calc(100% - 36px)}.fn-related ul{grid-template-columns:1fr}}
 @media(max-width:420px){.fn-gallery{grid-template-columns:1fr}.fn-story{padding:0 18px}.fn-cover h1{font-size:2.65rem}}
 @media print{.fn-page .mag-masthead,.fn-page .edition-line,.fn-jump,.fn-page .mag-footer,.fn-related{display:none}.fn-page .wrap{width:100%}.fn-cover{grid-template-columns:1fr 1fr}.fn-cover h1{font-size:30pt}.fn-photo{break-inside:avoid}.fn-story{max-width:none}.fn-story p{font-size:11pt}.fn-practical details>p{display:block!important}.fn-page main{padding:0}}
+
+/* October photo-led revision: the family album leads; planning follows the story. */
+.fn-cover{grid-template-columns:minmax(0,.78fr) minmax(0,1.22fr);gap:48px;padding-block:28px 36px}
+.fn-cover h1{font-size:clamp(2.5rem,4.4vw,4.2rem);text-wrap:balance}
+.fn-dek{font-size:clamp(1.15rem,1.7vw,1.35rem)}
+.fn-page .fn-photo img{max-height:none;background:transparent}
+.fn-photo figcaption{font:italic .87rem/1.5 Georgia,serif;color:#52635b;padding-top:9px}
+.fn-photo-cover{display:block;padding-top:24px;border-bottom:0;padding-bottom:0}
+.fn-photo-cover .fn-cover-copy{max-width:800px;margin:0 auto 28px;text-align:center}
+.fn-photo-cover .fn-kicker{font-size:.72rem;letter-spacing:.16em;margin:0 0 10px}
+.fn-photo-cover h1{max-width:none;font-size:clamp(2.6rem,4.7vw,4.5rem);margin:8px 0 16px}
+.fn-photo-cover .fn-dek{max-width:54ch;margin:0 auto;font-size:1.22rem;line-height:1.55}
+.fn-photo-cover .fn-byline{margin:15px 0 5px;font-size:.82rem}
+.fn-photo-cover .fn-jump{justify-content:center;margin-top:5px;gap:8px 25px;font-size:.87rem}
+.fn-cover-album{display:grid;grid-template-columns:1.3fr 1fr;gap:22px;align-items:center;margin-top:22px}
+.fn-cover-album .fn-photo:last-child{padding-top:28px}
+.fn-story{max-width:760px;margin-top:38px}
+.fn-story .fn-intro p:first-child{font-size:1.35rem;line-height:1.7}
+.fn-story h2{text-wrap:balance;margin-top:34px}
+.fn-story:after{content:"";display:block;clear:both}
+.fn-story .aal-story-sketch{float:right;width:260px!important;max-width:40%;margin:28px -60px 18px 26px!important}
+.fn-glance{margin-top:38px;padding-block:23px;border-top:1px solid var(--fn-line);font-size:.92rem}
+.fn-planning{max-width:940px;margin-top:32px;padding-top:26px;border-top:0}
+.fn-choices{gap:25px}
+.fn-related{max-width:940px;margin-top:36px}
+@media(max-width:800px){.fn-cover{gap:28px}.fn-cover h1{font-size:2.8rem}.fn-story .aal-story-sketch{margin-right:0!important}.fn-photo-cover h1{font-size:3.4rem}.fn-cover-album{gap:18px}}
+@media(max-width:620px){.fn-cover{grid-template-columns:1fr;padding-top:20px}.fn-photo-cover .fn-cover-copy{text-align:left;margin-bottom:22px}.fn-photo-cover h1{font-size:2.75rem}.fn-photo-cover .fn-dek{font-size:1.13rem}.fn-photo-cover .fn-jump{justify-content:flex-start}.fn-cover-album{grid-template-columns:1fr;gap:22px;margin-top:20px}.fn-cover-album .fn-photo:last-child{padding-top:0;width:86%;margin-left:auto}.fn-story{margin-top:30px}.fn-story .aal-story-sketch{float:none;width:210px!important;max-width:65%;margin:25px auto!important}.fn-glance{gap:16px;margin-top:30px}.fn-glance dd{font-size:.9rem}.fn-planning{margin-top:20px}.fn-page .fn-photo img{max-height:none}}
+@media print{.fn-cover-album{display:grid;grid-template-columns:1fr 1fr}.fn-photo-cover .fn-cover-copy{text-align:left}.fn-photo-cover h1{font-size:28pt}.fn-story .aal-story-sketch{width:150px!important}.fn-cover-album .fn-photo:last-child{padding:0;width:100%}}
