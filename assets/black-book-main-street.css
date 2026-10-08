@@ -1,6 +1,16 @@
 /* A bright, preppy New England address book. */
 .black-book-page{--street-paper:#fffdf7;--street-ink:#16374c;--street-muted:#4c625f;--street-line:#cad1cb;--street-accent:#843f44;--street-wash:#edf2ee;background:var(--street-paper);color:var(--street-ink)}
 .black-book-page main{background:var(--street-paper);padding-top:1px}
+.black-book-page .street-access{border-block:1px solid var(--street-line);margin-top:12px;color:var(--street-ink)}
+.black-book-page .street-access summary{min-height:44px;padding:10px 0;cursor:pointer;font:400 1rem/1.5 Georgia,serif}
+.black-book-page .street-access summary>span{text-decoration:underline;text-underline-offset:4px}
+.black-book-page .street-access summary small{font:.875rem/1.5 Arial,sans-serif;color:var(--street-muted);margin-left:20px}
+.black-book-page .street-access-body{padding:3px 0 16px;max-width:100%}
+.black-book-page .street-access-body>p{font-size:1rem;line-height:1.55;margin:0 0 10px;max-width:75ch;color:var(--street-muted)}
+.black-book-page .street-access-body nav{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px 24px;margin-bottom:15px}
+.black-book-page .street-access-body nav a{display:block;min-height:44px;padding-block:8px;font:400 1.125rem/1.4 Georgia,serif;color:var(--street-ink);text-underline-offset:4px}
+.black-book-page .street-access-body nav span{display:block;font:.875rem/1.5 Arial,sans-serif;color:var(--street-muted);margin-top:5px}
+.black-book-page .street-access-body .street-access-note{font-size:.875rem;margin-bottom:0}
 .black-book-page .street-welcome{display:grid;grid-template-columns:minmax(270px,.72fr) minmax(0,1.28fr);gap:40px;align-items:center;padding-block:24px 18px}
 .black-book-page .street-welcome .eyebrow{color:var(--street-accent);font-size:.875rem;letter-spacing:.1em;margin:0 0 13px}
 .black-book-page .street-welcome h1{font:400 clamp(2.8rem,4.4vw,4.25rem)/1.04 Georgia,serif;letter-spacing:-.035em;color:var(--street-ink);margin:0 0 15px}
@@ -30,6 +40,9 @@
 .black-book-page .black-book-legend span{font-size:.875rem;line-height:1.5;padding:0;border:0;color:var(--street-muted)}
 .black-book-page .black-book-legend b{display:inline;font:700 .875rem/1.5 Arial,sans-serif;color:var(--street-ink);margin-right:5px}
 .black-book-page .brand-section{margin:0 0 50px;padding:0;scroll-margin-top:25px;border:0}
+.black-book-page .street-continue{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:0 18px;margin:15px 0 0;color:var(--street-muted);font:italic .9375rem/1.5 Georgia,serif}
+.black-book-page .street-continue a{display:inline-flex;align-items:center;gap:12px;min-height:44px;padding-block:10px;color:var(--street-ink);font:400 1rem/1.5 Georgia,serif;text-underline-offset:4px}
+.black-book-page #town-directory{scroll-margin-top:24px}
 .black-book-page .support-section{background:none;padding-inline:0;margin-inline:0}
 .black-book-page .brand-section-head{display:grid;grid-template-columns:1fr 1fr;gap:25px;align-items:end;margin:0 0 5px;padding:0 0 18px;border-bottom:1px solid var(--street-line)}
 .black-book-page .brand-section-head .eyebrow{font:700 .875rem/1.4 Arial,sans-serif;letter-spacing:.08em;color:var(--street-accent);margin:0 0 10px}
@@ -67,6 +80,8 @@
 .black-book-page[data-lamplight] .aal-breadcrumb,.black-book-page[data-lamplight] .aal-breadcrumb a,.black-book-page[data-lamplight] .aal-breadcrumb [aria-current]{color:var(--street-ink)}
 @media(max-width:1000px){.black-book-page .street-welcome{gap:26px}.black-book-page .directory-grid{gap:0 28px}.black-book-page .business-card.has-photo{grid-template-columns:minmax(0,1fr) 84px;gap:0 13px}.black-book-page .street-section-opening{gap:25px}}
 @media(max-width:700px){
+ .black-book-page .street-access summary small{display:block;margin-left:18px;margin-top:2px;font-size:.8125rem}
+ .black-book-page .street-access-body nav{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px 20px}
  body.black-book-page.aal-unified-nav .aal-wayfinder .aal-nav-miniature{width:31px!important;height:31px!important}
  body.black-book-page.aal-unified-nav .aal-wayfinder a,body.black-book-page.aal-unified-nav .aal-wayfinder button{min-height:62px!important;padding:5px 2px!important;gap:2px!important;font-size:.75rem!important}
  .black-book-page .street-welcome{display:flex;flex-direction:column;gap:13px;padding-block:16px 12px}
@@ -78,7 +93,8 @@
  .black-book-page .street-scene img{max-height:190px}
  .black-book-page .street-scene figcaption{margin-top:5px;justify-content:center}
  .black-book-page .street-scene figcaption>span{display:none}
- .black-book-page .street-intro,.black-book-page .street-dek{display:none}
+ .black-book-page .street-intro{display:none}
+ .black-book-page .street-dek{display:block;order:1;align-self:start;font-size:1.125rem;margin:0}
  .black-book-page .directory-controls{order:3;width:100%}
  .black-book-page .directory-count{order:4;align-self:start}
  .black-book-page .street-stops{justify-content:flex-start;gap:0 22px;padding:5px 0;margin-top:14px}
