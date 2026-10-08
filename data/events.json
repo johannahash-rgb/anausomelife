@@ -602,20 +602,20 @@
     {
       "id": "act-ct",
       "name": "A.C.T. of Connecticut sensory-friendly performances",
-      "url": "https://actofct.squarespace.com/first-act",
+      "url": "https://www.actofct.org/first-act",
       "state": "CT",
       "type": "Free reserved sensory-friendly performances; contact box office",
       "mode": "check",
       "enabled": true,
       "timezone": "America/New_York",
       "allowedHosts": [
-        "actofct.squarespace.com"
+        "www.actofct.org"
       ],
       "autoPublish": false,
       "feedVerified": false,
-      "sourceCheckedAt": "2026-10-05T09:30:00Z",
+      "sourceCheckedAt": "2026-10-08T22:24:00Z",
       "status": "manually-checked",
-      "lastChecked": "2026-10-05T09:30:00Z"
+      "lastChecked": "2026-10-08T22:24:00Z"
     },
     {
       "id": "edd-vt",
@@ -6274,9 +6274,9 @@
     {
       "state": "CT",
       "name": "A.C.T. of Connecticut",
-      "url": "https://actofct.squarespace.com/first-act",
-      "summary": "Free sensory-friendly performances reserved for people with sensory sensitivities. Beautiful: The Carole King Musical is listed for October 31, 2026, at 2 p.m. Reserve through the box office: 475-215-5497 or boxoffice@actofct.org. The ending time is not published.",
-      "checkedAt": "2026-10-05"
+      "url": "https://www.actofct.org/first-act",
+      "summary": "Free sensory-friendly performances for guests with sensory sensitivities; not open to the general public. Beautiful: The Carole King Musical is scheduled for Saturday, October 31, 2026, at 2 p.m. House lighting remains dim, with strobe lights and jarring sound effects omitted. Advance reservation is required directly through the box office at 475-215-5497 or boxoffice@actofct.org; provide contact information and the names of everyone attending. An end time has not been confirmed.",
+      "checkedAt": "2026-10-08"
     },
     {
       "state": "MA",
