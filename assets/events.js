@@ -87,7 +87,32 @@ function updatePlanningCounts(){const v=filterValues();for(const name of ['senso
 
 function renderMonth(events){monthBox.replaceChildren();const groups=new Map();for(const e of events){const key=e.start.slice(0,7);if(!groups.has(key))groups.set(key,[]);groups.get(key).push(e)}for(const [key,items] of groups){const [y,m]=key.split('-').map(Number),section=el('section','month-sheet');section.append(el('h2','',monthName.format(new Date(y,m-1,15,12))));const week=el('div','month-weekdays');['Sun','Mon','Tue','Wed','Thu','Fri','Sat'].forEach(d=>week.append(el('span','',d)));section.append(week);const grid=el('div','month-grid');const first=new Date(y,m-1,1,12).getDay(),days=new Date(y,m,0,12).getDate();for(let i=0;i<first;i++)grid.append(el('div','month-day is-blank'));for(let day=1;day<=days;day++){const cell=el('div','month-day');cell.append(el('span','month-number',String(day)));const dateKey=key+'-'+String(day).padStart(2,'0');const dayEvents=items.filter(e=>localDate(e)===dateKey);for(const ev of dayEvents){const b=el('button','month-event');const art=eventArt(ev,true);if(art)b.append(art);b.append(el('span','month-event-title',ev.title));b.type='button';b.title=clock.format(new Date(ev.start))+' · '+ev.venue;b.addEventListener('click',()=>{setView('list');requestAnimationFrame(()=>{const card=openEvent(ev.id);card?.focus({preventScroll:true});card?.scrollIntoView({behavior:window.matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth',block:'start'})})});cell.append(b)}grid.append(cell)}section.append(grid);monthBox.append(section)}}
 function setView(view){currentView=['list','month','map'].includes(view)?view:'list';root.querySelectorAll('[data-calendar-view]').forEach(b=>{const on=b.dataset.calendarView===currentView;b.classList.toggle('is-active',on);b.setAttribute('aria-pressed',String(on))});listBox.hidden=currentView!=='list';monthBox.hidden=currentView!=='month';if(mapBox)mapBox.hidden=currentView!=='map';if(data)render()}
-function showEvent(id){setView('list');requestAnimationFrame(()=>{const card=openEvent(id);card?.focus({preventScroll:true});card?.scrollIntoView({behavior:window.matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth',block:'start'})})}
+function showEvent(id){
+  setView('list');
+  requestAnimationFrame(()=>{
+    let card=openEvent(id);
+    if(!card){
+      const e=data?.events?.find(item=>item.id===id);
+      if(e){
+        card=make(e);
+        card.classList.add('event-deep-link-result');
+        const message=el('p','event-deep-link-note',isUpcoming(e)
+          ? 'This event was outside the current filters. You can review it below.'
+          : 'This event is from a past or unconfirmed listing. Please check with the organizer before making plans.');
+        card.prepend(message);
+      }else{
+        card=el('article','event-card event-deep-link-result');
+        card.id='event-'+id;
+        card.tabIndex=-1;
+        card.append(el('h3','','Event listing no longer available'),
+          el('p','event-deep-link-note','This event is not in our current calendar. Browse current listings or search for another date.'));
+      }
+      listBox.prepend(card);
+    }
+    card?.focus({preventScroll:true});
+    card?.scrollIntoView({behavior:window.matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth',block:'start'});
+  });
+}
 function renderStates(events){if(!stateBox)return;stateBox.replaceChildren();const all=el('button','state-tile all-states');all.type='button';all.setAttribute('aria-pressed','false');const allCopy=el('span','state-tile-copy');allCopy.append(el('span','state-code',STATE_DETAILS.ALL.code),el('strong','','All New England'),el('span','state-count',events.length+' upcoming'),el('span','state-flavor',STATE_DETAILS.ALL.note));all.append(allCopy,stateScene('ALL'));all.addEventListener('click',()=>{form.elements.state.value='';render();root.scrollIntoView({behavior:'smooth',block:'start'})});stateBox.append(all);for(const code of Object.keys(STATES)){const count=events.filter(e=>e.state===code).length,button=el('button','state-tile');button.type='button';button.dataset.state=code;button.setAttribute('aria-pressed','false');const copy=el('span','state-tile-copy');copy.append(el('span','state-code',code),el('strong','',STATES[code]),el('span','state-count',count+' upcoming'),el('span','state-flavor',STATE_DETAILS[code].note));button.append(copy,stateScene(code));if(!count)button.disabled=true;button.addEventListener('click',()=>{form.elements.state.value=code;render();root.scrollIntoView({behavior:'smooth',block:'start'})});stateBox.append(button)}}
 function renderWatchlist(){if(!watchBox)return;watchBox.replaceChildren();const rows=data.watchlist||[];if(!rows.length){watchBox.hidden=true;return}watchBox.hidden=false;for(const w of rows){const card=el('article','watch-card');const head=el('div');head.append(badge(w.state,'state'),el('h3','',w.title),el('p','watch-status',w.status||'Watching'));const art=eventArt(w);if(art)card.append(art);card.append(head,el('p','',w.note||''));if(w.lastKnown)card.append(el('p','watch-last','Last confirmed: '+w.lastKnown));const actions=el('div','event-actions'),source=safeLink('Evidence ↗',w.sourceUrl,'button-link'),organizer=safeLink('Organizer ↗',w.organizerUrl,'button-link');if(source)actions.append(source);if(organizer)actions.append(organizer);if(w.address){const map=el('a','button-link','Map ↗');map.href='https://www.google.com/maps/search/?api=1&query='+encodeURIComponent(w.address);map.rel='noopener noreferrer';actions.append(map)}card.append(actions);watchBox.append(card)}}
 function renderFreePrograms(){const box=root.querySelector('[data-free-programs]');if(!box)return;box.replaceChildren();for(const [code,name] of Object.entries(STATES)){const programs=(data.freePrograms||[]).filter(p=>p.state===code);if(!programs.length)continue;const section=el('section','source-state');section.append(el('h3','source-state-head',name));const links=el('div','source-links');for(const p of programs){const entry=el('div','event-source-entry'),a=safeLink(p.name+' ↗',p.url);if(!a)continue;entry.append(a,el('p','quiet-copy',p.summary));if(p.costEvidence){const evidence=safeLink('Published fee information ↗',p.costEvidence);if(evidence)entry.append(evidence)}entry.append(el('small','','Checked '+p.checkedAt));links.append(entry)}section.append(links);box.append(section)}}
