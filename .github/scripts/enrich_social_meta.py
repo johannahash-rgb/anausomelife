@@ -43,8 +43,8 @@ def metadata(page,root):
         lower=ref.lower()
         if "coastal-emblem" in lower or "favicon" in lower or "logo" in lower:continue
         score=5 if alt else 0
-        if "fetchpriority" in v and v["fetchpriority"]=="high":score+=10
-        if v.get("loading")=="eager":score+=7
+        if "fetchpriority" in v and v["fetchpriority"]=="high":score+=30
+        if v.get("loading")=="eager":score+=22
         if "/family-outings/" in lower or "/family-notes/" in lower:score+=7
         if "/long-guide-studies/" in lower:score+=6
         if "/navigation-" in lower or "/brand-sketches/" in lower:score-=12
@@ -65,7 +65,9 @@ def metadata(page,root):
     if "/preview-" in canonical or page.name.startswith("preview-"):return False,"preview"
     def esc(t):return html.escape(str(t),quote=True)
     extras=[]
-    if not re.search(r'<meta\b[^>]*property=["\']og:type["\']',body,re.I):extras.append('<meta property="og:type" content="article">')
+    if not re.search(r'<meta\b[^>]*property=["\']og:type["\']',body,re.I):
+        page_kind="website" if page.name in {"index.html","blog.html","about.html","library.html","favorite-places.html","calendar.html","contact.html","kid-fun.html","picture-card-library.html","communication-card-generator.html","visit-story.html","privacy.html","accessibility.html"} or "/topics/" in "/"+str(page.relative_to(root)) else "article"
+        extras.append('<meta property="og:type" content="'+page_kind+'">')
     if not re.search(r'<meta\b[^>]*property=["\']og:site_name["\']',body,re.I):extras.append('<meta property="og:site_name" content="An AUsome Life">')
     if not re.search(r'<meta\b[^>]*property=["\']og:title["\']',body,re.I):extras.append('<meta property="og:title" content="'+esc(title)+'">')
     if desc and not re.search(r'<meta\b[^>]*property=["\']og:description["\']',body,re.I):
