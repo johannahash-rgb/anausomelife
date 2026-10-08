@@ -28,7 +28,9 @@ def photograph(photo, eager=False):
     path = '/assets/family-notes/' + photo['file']
     with Image.open(ROOT / path.lstrip('/')) as im:
         w, h = im.size
-    return ('<figure class="fn-photo"><img src="'+path+'" alt="'+e(photo['alt'])+
+    frame = photo.get('frame')
+    frame_class = ' fn-' + frame if frame in ('tulips-smile', 'tulips-family') else ''
+    return ('<figure class="fn-photo'+frame_class+'"><img src="'+path+'" alt="'+e(photo['alt'])+
             f'" width="{w}" height="{h}" loading="'+('eager' if eager else 'lazy')+
             '" decoding="async"><figcaption>'+e(photo['caption'])+'</figcaption></figure>')
 
@@ -41,19 +43,21 @@ edition = '<div class="edition-line"><span>New England &amp; the everyday</span>
 for row in ROWS:
     canonical = 'https://anausomelife.com/' + row['path']
     title, desc = e(row['title']), e(row['summary'])
+    social_photo = row.get('socialPhoto', row['photo'])
     photo_album = row.get('coverAlbum', False)
     cover_class = ' fn-photo-cover' if photo_album else ''
+    page_css = '<link rel="stylesheet" href="/assets/wicked-tulips-gallery.css?v=20261008-curated">' if row['path'] == 'wicked-tulips-family-field-note.html' else ''
     head = f'''<!doctype html>
 <html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{title} | An AUsome Life</title><meta name="description" content="{desc}">
 <meta name="theme-color" content="#244b3e"><link rel="canonical" href="{canonical}">
 <meta property="og:title" content="{title}"><meta property="og:description" content="{desc}">
 <meta property="og:type" content="article"><meta property="og:url" content="{canonical}">
-<meta property="og:image" content="https://anausomelife.com/assets/family-notes/{row['photo']['file']}">
-<meta property="og:image:alt" content="{e(row['photo']['alt'])}"><link rel="icon" href="/favicon.ico">
+<meta property="og:image" content="https://anausomelife.com/assets/family-notes/{social_photo['file']}">
+<meta property="og:image:alt" content="{e(social_photo['alt'])}"><link rel="icon" href="/favicon.ico">
 <link rel="stylesheet" href="/assets/site.css?v=20261004"><link rel="stylesheet" href="/assets/magazine.css?v=20261004">
 <link rel="stylesheet" href="/assets/editorial.css?v=20261003-mainstreet">
-<link rel="stylesheet" href="/assets/illustrated-navigation.css?v=20261004-restore1">{CSS}{STORY_CSS}
+<link rel="stylesheet" href="/assets/illustrated-navigation.css?v=20261004-restore1">{CSS}{STORY_CSS}{page_css}
 <script src="/assets/global-nav.js?v=20261005-practical" data-aal-global-nav="true" defer></script></head>
 <body class="magazine-shell fn-page"><a class="skip" href="#main">Skip to content</a>{edition}{masthead}<main id="main">
 <div class="wrap fn-breadcrumb"><a href="/blog.html">The journal</a> / Family field notes</div>

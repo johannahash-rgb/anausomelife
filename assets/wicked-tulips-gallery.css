@@ -1,0 +1,5 @@
+/* Page-specific portrait framing with original image pixels preserved. */
+.fn-page .fn-photo.fn-tulips-smile img{width:100%;height:auto;aspect-ratio:3/2;object-fit:cover;object-position:50% 25%}
+.fn-page .fn-photo.fn-tulips-family img{width:100%;height:auto;aspect-ratio:2.05;object-fit:cover;object-position:50% 42%}
+.fn-page .fn-cover-album:has(.fn-tulips-family){grid-template-columns:1fr}
+.fn-page .fn-cover-album .fn-tulips-family:last-child{padding-top:0;width:100%;margin:0}
