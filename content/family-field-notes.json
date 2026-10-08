@@ -342,9 +342,9 @@
     "summary": "Our Wicked Tulips family photographs: spring color, a portrait and a practical note about enjoying a flower farm at your own pace.",
     "dek": "There are the photographs, and then there is the day around them. Both are worth making room for.",
     "photo": {
-      "file": "wicked-tulips-family.webp",
-      "alt": "Our family together among rows of colorful flowers at Wicked Tulips.",
-      "caption": "A family portrait at Wicked Tulips · an earlier spring visit."
+      "file": "wicked-tulips-2019-smile.jpg",
+      "alt": "A young family member smiling among yellow tulips at Wicked Tulips.",
+      "caption": "A spring smile among the tulips. Wicked Tulips, 2019. Photograph: Pamela Christine Photography."
     },
     "gallery": [],
     "quote": "The flowers can do most of the decorating.",
@@ -367,8 +367,8 @@
       ]
     ],
     "intro": [
-      "Our Wicked Tulips photographs make a persuasive argument for spring. There is a family portrait surrounded by rows of color, and another moment with tulips held in hand. The background has put in considerable effort. The people do not need to compete with it.",
-      "The family portrait and the picture with tulips in hand are the sort of photographs I am glad we kept. Flowers have a short season. The pictures get to stay around rather longer."
+      "Our Wicked Tulips photographs make a persuasive argument for spring. There is a portrait surrounded by rows of color, and another moment with tulips held in hand. The background has put in considerable effort. The people do not need to compete with it.",
+      "The portrait and the picture with tulips in hand are the sort of photographs I am glad we kept. Flowers have a short season. The pictures get to stay around rather longer."
     ],
     "sections": [
       {
@@ -446,44 +446,12 @@
     "coverAlbum": true,
     "coverGallery": [
       {
-        "file": "wicked-tulips-2019-smile.jpg",
-        "alt": "A young family member smiling among yellow tulips at Wicked Tulips.",
-        "caption": "A spring smile among the tulips. Wicked Tulips, 2019. Photograph: Pamela Christine Photography."
+        "file": "wicked-tulips-portrait.webp",
+        "alt": "A young family member holding tulips in a brightly colored flower field.",
+        "caption": "Tulips in hand, from our family album. Photograph: Pamela Christine Photography."
       }
     ],
-    "photoGroups": {
-      "0": [
-        {
-          "file": "wicked-tulips-2019-yellow-tulips.jpg",
-          "alt": "Our family together behind yellow tulips at Wicked Tulips.",
-          "caption": "Together in a field of yellow. Wicked Tulips, 2019. Photograph: Pamela Christine Photography."
-        },
-        {
-          "file": "wicked-tulips-2019-picking.jpg",
-          "alt": "Father and son looking at white tulips together at Wicked Tulips.",
-          "caption": "Taking a closer look, together. Wicked Tulips, 2019. Photograph: Pamela Christine Photography."
-        }
-      ],
-      "1": [
-        {
-          "file": "wicked-tulips-2019-bucket.jpg",
-          "alt": "Our family standing among tulips with an orange picking bucket.",
-          "caption": "An orange bucket and a field full of choices. Wicked Tulips, 2019. Photograph: Pamela Christine Photography."
-        },
-        {
-          "file": "wicked-tulips-portrait.webp",
-          "alt": "A young family member holding tulips in a brightly colored flower field.",
-          "caption": "Another Wicked Tulips moment from our family album."
-        }
-      ],
-      "2": [
-        {
-          "file": "wicked-tulips-2019-family-embrace.jpg",
-          "alt": "Our family together among pink and yellow tulips at Wicked Tulips.",
-          "caption": "One more family moment in the flowers. Wicked Tulips, 2019. Photograph: Pamela Christine Photography."
-        }
-      ]
-    }
+    "photoGroups": {}
   },
   {
     "path": "flowers-fidgets-and-clutter.html",
