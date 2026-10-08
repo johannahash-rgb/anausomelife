@@ -158,3 +158,49 @@
   s.async=false;
   document.head.append(s);
 })();
+
+
+/* Media kit: inclusive creative, visual communication and caregiver reach */
+(() => {
+  if (!document.body.classList.contains('media-one') || document.getElementById('inclusive-creative')) return;
+  const work = document.getElementById('work-with-us');
+  if (!work) return;
+
+  const grid = work.querySelector('.media-grid');
+  if (grid) {
+    const card = document.createElement('article');
+    card.className = 'media-card';
+    card.innerHTML = '<h3>Accessible picture-communication creative</h3><p>Each agreed product collaboration can include a custom, age-respectful PECS/AAC-style picture-communication card featuring the actual product. It is practical editorial content a brand may be able to reshare with credit and agreed usage rights—not a generic inclusion graphic or a therapeutic claim.</p>';
+    grid.append(card);
+  }
+
+  const section = document.createElement('section');
+  section.className = 'media-section wrap';
+  section.id = 'inclusive-creative';
+  section.setAttribute('aria-labelledby', 'inclusive-creative-title');
+  section.innerHTML = `
+    <div class="media-section-head">
+      <div><p class="eyebrow">Accessible creative</p><h2 id="inclusive-creative-title">Access is part of the story—and part of the deliverable.</h2></div>
+      <p class="intro">We do more than mention accessibility in a caption. For an agreed product feature, An AUsome Life can create a simple picture-communication visual around the actual product: something a person may use to recognize it, request it, choose between options, understand what comes next, or take part in a familiar routine.</p>
+    </div>
+    <div class="media-grid">
+      <article class="media-card"><h3>A useful brand asset</h3><p>The visual gives a brand a concrete example of inclusive product education for social, accessibility, caregiver, community or customer-support channels. Organic resharing can be included when agreed; paid media, advertising and broader commercial use remain separately licensed.</p></article>
+      <article class="media-card"><h3>Example: a pool bag</h3><p>A card might read <strong>“Pack the swim bag → go to the pool”</strong> and show a swimsuit, towel, AAC device, snack, the actual bag and the pool. The sequence, words, symbols and photographs are adapted to the product and real routine rather than forcing every person into one template.</p></article>
+      <article class="media-card"><h3>Useful beyond autism</h3><p>Clear visual information may help some nonspeaking people, AAC users, people with intellectual, developmental or cognitive disabilities, people with aphasia, emerging readers and the family members or caregivers helping plan the day. Individual needs differ, and we say so.</p></article>
+      <article class="media-card"><h3>Broader practical access</h3><p>Our access notes can also cover sensory information, mobility, cognitive load, setup, transport, changing and bathroom logistics, cleaning, caregiver workload and the number of steps between interest and successful use.</p></article>
+      <article class="media-card"><h3>More than one in four adults</h3><p>CDC reported that more than one in four U.S. adults—over 70 million people—reported a disability in 2022 data. That does not mean every person needs the same adaptation; it does mean disability access belongs in mainstream consumer communication.</p></article>
+      <article class="media-card"><h3>Nearly one in four are caregivers</h3><p>The 2025 AARP and National Alliance for Caregiving study found that 63 million Americans—nearly one in four adults—provided ongoing care for an adult or a child with a complex medical condition or disability. Caregivers frequently help research, choose, purchase, pack, set up and use products.</p></article>
+    </div>
+    <p class="media-note"><strong>Sources:</strong> <a href="https://www.cdc.gov/media/releases/2024/s0716-adult-disability.html" target="_blank" rel="noopener noreferrer">CDC, Disability and Health Data System update using 2022 BRFSS data ↗</a>; <a href="https://www.aarp.org/press/releases/2025-07-24-new-report-reveals-crisis-point-for-americas-63-million-family-caregivers.html" target="_blank" rel="noopener noreferrer">AARP and National Alliance for Caregiving, <em>Caregiving in the U.S. 2025</em> ↗</a>. These populations overlap and should not be added together as a combined market total.</p>
+  `;
+  work.after(section);
+
+  const nav = document.querySelector('.media-nav .wrap');
+  if (nav && !nav.querySelector('a[href="#inclusive-creative"]')) {
+    const link = document.createElement('a');
+    link.href = '#inclusive-creative';
+    link.textContent = 'Accessible creative';
+    const travelLink = nav.querySelector('a[href="#travel"]');
+    nav.insertBefore(link, travelLink || null);
+  }
+})();
