@@ -21,3 +21,9 @@ html[data-home-hero-variant="B"] .home-welcome{background:linear-gradient(135deg
 html[data-home-hero-variant="B"] .home-welcome h1{color:#173c4c}
 @media(prefers-reduced-motion:reduce){.home-photo-arrangement{transition:none}.home-photo-arrangement.is-changing{opacity:1;transform:none}}
 @media(max-width:600px){.home-rotator-controls{justify-content:center;margin-top:12px}}
+
+/* Visitor-controlled photographs; stable uncropped image area and readable controls. */
+.home-main-photo img{width:100%;height:auto;aspect-ratio:4/3;object-fit:contain;background:transparent}
+.home-rotator-controls{flex-wrap:wrap;font-size:.875rem;line-height:1.4;gap:8px}
+.home-rotator-controls button{min-width:48px;min-height:48px;font-size:.875rem;border-radius:3px}
+.home-rotator-controls span{color:#40553f}

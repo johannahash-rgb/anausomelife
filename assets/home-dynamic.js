@@ -54,7 +54,7 @@
   });
   analytics('experiment_impression', { experiment_id: experimentId, variant_id: variant });
 
-  // Rotating family notebook. Existing content remains valid without JavaScript.
+  // Distinct family photographs; visitors choose whether to play the slideshow.
   const stage = root.querySelector('.home-photo-arrangement');
   const figure = stage?.querySelector('.home-main-photo');
   const image = figure?.querySelector('img');
@@ -66,56 +66,41 @@
   if (!stage || !figure || !image || !caption || !label || !noteCopy || !noteLink) return;
 
   stage.setAttribute('role', 'region');
-  stage.setAttribute('aria-label', 'Rotating family notebook');
+  stage.setAttribute('aria-label', 'Family photographs and field notes');
   stage.dataset.homeRotator = 'true';
 
   const items = [
     {
-      src:'/assets/book-barn-ct-clean.jpg',
+      src:'/assets/rangeley-grandparents/autumn-waterfront.jpeg', width:1536, height:1152,
+      alt:'Autumn trees, boats and a picnic table beside the lake in Rangeley, beneath a wide sky.',
+      caption:'A little lake time in Rangeley, Maine · family photograph', label:'UP IN MAINE',
+      copy:'Fall color. A broad sky. A little lake time.', href:'/rangeley-grandparents-field-note.html',
+      link:'Read the Rangeley field note'
+    },
+    {
+      src:'/assets/book-barn-ct-clean.jpg', width:800, height:584,
       alt:'A family photograph of a child browsing the outdoor bookshelves at the Book Barn in Niantic.',
-      caption:'A little browsing at the Book Barn, Niantic · family photograph',
-      label:'THE FAMILY NOTEBOOK',
-      copy:'One good stop. A little room around it.',
-      href:'/favorite-places/book-barn-niantic.html',
-      link:'Open the Book Barn field guide →'
+      caption:'A little browsing at the Book Barn, Niantic · family photograph', label:'THE FAMILY NOTEBOOK',
+      copy:'One good stop. A little room around it.', href:'/favorite-places/book-barn-niantic.html',
+      link:'Open the Book Barn field guide'
     },
     {
-      src:'/assets/aquarium-visit.webp',
-      alt:'A teenager watching the trout pond at the L.L.Bean flagship in Freeport.',
-      caption:'The trout pond at L.L.Bean, Freeport · family photograph',
-      label:'UP THE COAST',
-      copy:'A flagship, a pond and time enough to wander.',
-      href:'/favorite-places/llbean-freeport.html',
-      link:'Open the Freeport field guide →'
-    },
-    {
-      src:'/assets/family-outings/lexington-ice-cream-family.webp',
-      alt:'Two family members together with an ice-cream cone in Lexington.',
-      caption:'A familiar scoop in Lexington · family photograph',
-      label:'THE EASY LOCAL STOP',
-      copy:'Ice cream. A little time. A known way home.',
-      href:'/favorite-places-rancatores-lexington.html',
-      link:'Read the Lexington story →'
-    },
-    {
-      src:'/assets/family-outings/fort-mcclary-waterfront.webp',
-      alt:'Two adults together at the Fort McClary waterfront in Maine.',
-      caption:'Waterfront time at Fort McClary, Maine · family photograph',
-      label:'A MAINE FIELD NOTE',
-      copy:'Lunch, a harbor view and no need to hurry.',
-      href:'/favorite-places/kittery-food-mart-fort-mcclary.html',
-      link:'Open the Fort McClary field guide →'
+      src:'/assets/frerichs-farm-halloween/corn-sifting.webp', width:700, height:933,
+      alt:'A child pouring corn and sand through a wooden sieve at Frerichs Farm.',
+      caption:'A hands-on autumn afternoon at Frerichs Farm · family photograph', label:'AN AUTUMN AFTERNOON',
+      copy:'A scoop, a sieve and something worth slowing down for.', href:'/frerichs-farm-halloween-field-note.html',
+      link:'Read the Frerichs Farm story'
     }
   ];
 
   let index = 0;
   let timer = null;
-  let paused = false;
+  let paused = true;
   const reduced = matchMedia('(prefers-reduced-motion: reduce)').matches;
 
   const controls = document.createElement('div');
   controls.className = 'home-rotator-controls';
-  controls.innerHTML = '<button type="button" data-rotator-prev aria-label="Previous family note">←</button><button type="button" data-rotator-pause aria-pressed="false">Pause</button><span data-rotator-count aria-live="polite">1 of ' + items.length + '</span><button type="button" data-rotator-next aria-label="Next family note">→</button>';
+  controls.innerHTML = '<button type="button" data-rotator-prev aria-label="Previous family note">Previous</button><button type="button" data-rotator-pause aria-pressed="true">Play</button><span data-rotator-count aria-live="polite">1 of ' + items.length + '</span><button type="button" data-rotator-next aria-label="Next family note">Next</button>';
   stage.append(controls);
 
   const count = controls.querySelector('[data-rotator-count]');
@@ -128,6 +113,7 @@
     const apply = () => {
       image.src = item.src;
       image.alt = item.alt;
+      image.width = item.width;image.height = item.height;
       caption.textContent = item.caption;
       label.textContent = item.label;
       noteCopy.textContent = item.copy;
@@ -168,5 +154,5 @@
   stage.addEventListener('focusout', event => { if (!stage.contains(event.relatedTarget)) start(); });
 
   analytics('home_rotator_impression', { item_index: 1, item_href: items[0].href, change_source:'initial' });
-  if (reduced) setPaused(true); else start();
+  setPaused(true);
 })();

@@ -72,6 +72,9 @@
   }
 
 
+  const menuTheme=document.createElement('link');
+  menuTheme.rel='stylesheet';menuTheme.href='/assets/menu-wayfinding.css?v=20261008-illustrated';document.head.append(menuTheme);
+
   const shortcuts = [
     {label:'Home',href:'/',icon:'home',match:['/','/index.html']},
     {label:'Find anything',action:'search',icon:'search',hint:'⌘K'},
@@ -83,7 +86,29 @@
     {label:'Directory',href:'/little-black-book.html',icon:'book',match:['/little-black-book.html']}
   ];
 
-  const sectionGroups=[["Begin here", [["The visual directory", "/start-here.html"], ["Every guide", "/library.html"], ["The blog", "/blog.html"], ["Meet us", "/about.html"]]], ["Out & about", [["Favorite places", "/favorite-places.html"], ["Calendar & maps", "/calendar.html"], ["New England weekends", "/new-england-weekends.html"], ["Make a visit story", "/visit-story.html"]]], ["Communication", [["Picture card maker", "/communication-card-generator.html"], ["Ready-made picture cards", "/picture-card-library.html"], ["Notes & profiles", "/communication-notes.html"], ["Multimodal guide", "/multimodal-communication.html"], ["AAC outing note", "/aac-outing-note.html"]]], ["Family life", [["Family roles", "/family-roles.html"], ["Paternal field notes", "/paternal-role.html"], ["Family agreements", "/family-agreements.html"], ["Plans & handoffs", "/family-planning-toolkit.html"]]], ["Little adventures", [["Kid fun & videos", "/kid-fun.html"], ["The little boot story", "/little-adventures.html"], ["One simple game", "/paternal-football-card.html"], ["The family notebook", "/family-notebook.html"]]], ["Home & wardrobe", [["At home", "/at-home.html"], ["Household reset", "/household-reset.html"], ["Family wardrobe", "/family-wardrobe.html"], ["School & advocacy", "/topics/advocacy.html"]]], ["Useful discoveries", [["Brands & organizations", "/little-black-book.html"], ["Product guides", "/product-guides.html"], ["Coffee field note", "/eight-oclock-colombian-peaks-field-note.html"], ["Copyable field notes", "/field-notes.html"]]], ["Our editorial rules", [["Language & representation", "/language.html"], ["How we choose", "/how-we-choose.html"], ["Disclosure", "/disclosure.html"], ["Privacy", "/privacy.html"], ["Accessibility", "/accessibility.html"], ["Contact", "/contact.html"]]]];
+  const sectionGroups = [
+    { title:'Days out', art:'outings', description:'Places, weekends & the next visit', links:[
+      ['Favorite places','/favorite-places.html'], ['Calendar & maps','/calendar.html'],
+      ['New England weekends','/new-england-weekends.html'], ['Make a visit story','/visit-story.html']] },
+    { title:'Picture cards & communication', art:'picture-cards', description:'Pictures, choices & useful words', links:[
+      ['Make a picture card','/communication-card-generator.html'], ['Ready-made picture cards','/picture-card-library.html'],
+      ['Communication notes & profiles','/communication-notes.html'], ['Ways to communicate','/multimodal-communication.html'],
+      ['AAC outing note','/aac-outing-note.html']] },
+    { title:'Family & caregivers', art:'calendar', description:'Shared plans & everyday support', links:[
+      ['Family & caregiver roles','/family-roles.html'], ['Field notes for fathers','/paternal-role.html'],
+      ['Family agreements','/family-agreements.html'], ['Plans & handoffs','/family-planning-toolkit.html']] },
+    { title:'Home & wardrobe', art:'home', description:'Familiar comforts & practical routines', links:[
+      ['At home','/at-home.html'], ['Household reset','/household-reset.html'],
+      ['Family wardrobe','/family-wardrobe.html'], ['School & advocacy','/topics/advocacy.html']] },
+    { title:'Journal & little adventures', art:'journal', description:'Family stories, play & small pleasures', links:[
+      ['Read the journal','/blog.html'], ['Fun & videos','/kid-fun.html'],
+      ['The little boot story','/little-adventures.html'], ['One simple game','/paternal-football-card.html'],
+      ['The family notebook','/family-notebook.html']] },
+    { title:'The little black book', art:'directory', description:'Good places & useful discoveries', links:[
+      ['Brands & organizations','/little-black-book.html'], ['Product guides','/product-guides.html'],
+      ['Coffee field note','/eight-oclock-colombian-peaks-field-note.html'], ['Copyable field notes','/field-notes.html']] }
+  ];
+  const menuLink = ([label,url]) => '<a href="'+url+'"'+(current===url?' aria-current="page"':'')+'>'+esc(label)+'</a>';
   const current = location.pathname.replace(/\/+$/,'') || '/';
   const bar = document.createElement('nav');
   bar.className = 'aal-wayfinder';
@@ -100,14 +125,58 @@
   if (masthead) masthead.after(bar); else if (edition) edition.after(bar); else document.body.prepend(bar);
 
   const sectionDialog=document.createElement('dialog');
-  sectionDialog.className='aal-section-dialog';sectionDialog.setAttribute('aria-labelledby','aal-section-title');
-  sectionDialog.innerHTML='<div class="aal-section-head"><div><p class="eyebrow">The whole field guide</p><h2 id="aal-section-title">Where would you like to go?</h2></div><button type="button" data-close-sections aria-label="Close all sections">Close</button></div><div class="aal-section-grid">'+sectionGroups.map(([heading,links])=>'<section><h3>'+esc(heading)+'</h3>'+links.map(([label,url])=>'<a href="'+url+'"'+(current===url?' aria-current="page"':'')+'>'+esc(label)+'</a>').join('')+'</section>').join('')+'</div>';
+  sectionDialog.id='aal-section-dialog';
+  sectionDialog.className='aal-section-dialog';
+  sectionDialog.setAttribute('aria-labelledby','aal-section-title');
+  sectionDialog.innerHTML=`
+    <div class="aal-section-head">
+      <div><p class="eyebrow">An AUsome Life</p><h2 id="aal-section-title" tabindex="-1">Explore the guide.</h2><p class="aal-menu-intro">Choose a topic to see what’s inside.</p></div>
+      <button type="button" data-close-sections>${icon('close')}<span>Close</span></button>
+    </div>
+    <div class="aal-menu-body">
+      <nav class="aal-menu-start" aria-label="Start exploring">
+        ${menuLink(['Home','/'])}${menuLink(['Start here','/start-here.html'])}${menuLink(['Every guide & story','/library.html'])}
+        <button type="button" data-menu-search>${icon('search')}<span>Search the site</span></button>
+      </nav>
+      <div class="aal-section-grid">${sectionGroups.map((group,i)=>`
+        <details class="aal-menu-chapter"${group.links.some(([,url])=>current===url)?' open':''}>
+          <summary>
+            <img class="aal-chapter-art" src="/assets/navigation-watercolors/${group.art}-320.webp" alt="" width="96" height="96">
+            <span class="aal-chapter-copy"><span class="aal-chapter-title">${esc(group.title)}</span><span class="aal-chapter-description">${esc(group.description)}</span><span class="aal-chapter-cue"><span class="aal-cue-closed">Explore</span><span class="aal-cue-open">Hide links</span><svg viewBox="0 0 20 20" aria-hidden="true" focusable="false"><path d="m5 7 5 5 5-5"/></svg></span></span>
+          </summary>
+          <nav class="aal-chapter-links" aria-label="${esc(group.title)}">${group.links.map(menuLink).join('')}</nav>
+        </details>`).join('')}
+      </div>
+      <nav class="aal-menu-help" aria-label="About and help">
+        ${[['Meet us','/about.html'],['Contact','/contact.html'],['Accessibility','/accessibility.html'],['How we choose','/how-we-choose.html'],['Language & representation','/language.html'],['Disclosure','/disclosure.html'],['Privacy','/privacy.html']].map(menuLink).join('')}
+      </nav>
+    </div>`;
   document.body.append(sectionDialog);document.body.classList.add('aal-unified-nav');
   const sectionButton=bar.querySelector('[data-aal-open-sections]');
-  sectionButton.addEventListener('click',()=>{sectionDialog.showModal();document.documentElement.style.overflow='hidden'});
+  sectionButton.setAttribute('aria-controls',sectionDialog.id);
+  sectionButton.setAttribute('aria-expanded','false');
+  let previousOverflow='';
+  let leavingForSearch=false;
+  sectionButton.addEventListener('click',()=>{
+    previousOverflow=document.documentElement.style.overflow;
+    sectionDialog.showModal();
+    sectionDialog.scrollTop=0;
+    sectionDialog.querySelector('.aal-menu-body').scrollTop=0;
+    document.documentElement.style.overflow='hidden';
+    sectionButton.setAttribute('aria-expanded','true');
+    sectionDialog.querySelector('#aal-section-title').focus({preventScroll:true});
+  });
   sectionDialog.querySelector('[data-close-sections]').addEventListener('click',()=>sectionDialog.close());
-  sectionDialog.addEventListener('click',e=>{if(e.target===sectionDialog)sectionDialog.close()});
-  sectionDialog.addEventListener('close',()=>{document.documentElement.style.overflow='';sectionButton.focus()});
+  sectionDialog.addEventListener('click',e=>{
+    const rect=sectionDialog.getBoundingClientRect();
+    if(e.target===sectionDialog&&(e.clientX<rect.left||e.clientX>rect.right||e.clientY<rect.top||e.clientY>rect.bottom))sectionDialog.close();
+  });
+  sectionDialog.addEventListener('close',()=>{
+    sectionButton.setAttribute('aria-expanded','false');
+    if(!leavingForSearch){document.documentElement.style.overflow=previousOverflow;sectionButton.focus({preventScroll:true});}
+    leavingForSearch=false;
+  });
+  sectionDialog.querySelector('[data-menu-search]').addEventListener('click',()=>openSearch());
 
   const primaryNav = document.querySelector('.mag-masthead nav,.masthead nav');
   if (primaryNav && !primaryNav.querySelector('a[href="/start-here.html"]')) {
@@ -227,6 +296,7 @@
   dialog.addEventListener('close',()=>{document.documentElement.style.overflow='';});
 
   function openSearch(seed=''){
+    if(sectionDialog.open){leavingForSearch=true;sectionDialog.close();}
     if (typeof dialog.showModal === 'function') dialog.showModal(); else dialog.setAttribute('open','');
     document.documentElement.style.overflow='hidden';
     if(seed){input.value=seed;search(seed)}
