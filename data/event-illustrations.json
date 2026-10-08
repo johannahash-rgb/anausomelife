@@ -1178,6 +1178,16 @@
       "title": "Sensory-Friendly Morning at the Old State House",
       "venue": "Old State House",
       "start": "2026-12-19T09:00:00-05:00"
+    },
+    "bgcd-monster-mash-dash-2026-10-18": {
+      "src": "/assets/event-sketches/aa-halloween-dance-2026-10-16.webp",
+      "alt": "Original editorial illustration of navy sneakers, cranberry ribbons and a carved pumpkin.",
+      "width": 720,
+      "height": 480,
+      "title": "Monster Mash Dash — Boys & Girls Clubs of Dorchester",
+      "venue": "McConnell Park",
+      "start": "2026-10-18T10:00:00-04:00",
+      "reusedFromEvent": "aa-halloween-dance-2026-10-16"
     }
   },
   "watchlist": {

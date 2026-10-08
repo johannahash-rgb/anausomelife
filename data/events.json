@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-10-08T09:48:51Z",
+  "generatedAt": "2026-10-08T13:10:08Z",
   "lastEditorialReview": "2026-10-06T16:29:41Z",
   "timezone": "America/New_York",
   "coverage": "Selected New England adaptive and sensory-friendly events, with a verified free-admission filter and free-program directory. Not exhaustive.",
@@ -1230,6 +1230,24 @@
       "sourceCheckedAt": "2026-10-08T09:48:51Z",
       "status": "manually-checked",
       "lastChecked": "2026-10-08T09:48:51Z"
+    },
+    {
+      "id": "bgcdorchester",
+      "name": "Boys & Girls Clubs of Dorchester",
+      "url": "https://runsignup.com/Race/186799/Charity/35375",
+      "state": "MA",
+      "mode": "manual",
+      "enabled": false,
+      "timezone": "America/New_York",
+      "allowedHosts": [
+        "runsignup.com",
+        "bgcdorchester.org"
+      ],
+      "autoPublish": false,
+      "feedVerified": false,
+      "sourceCheckedAt": "2026-10-08T13:10:08Z",
+      "status": "manually-checked",
+      "lastChecked": "2026-10-08T13:10:08Z"
     }
   ],
   "events": [
@@ -2656,6 +2674,46 @@
       "sourceUrl": "https://specialolympicsma.org/event/south-shore-equestrian-event",
       "registration": "Athlete participation follows Special Olympics registration; check organizer for spectator or volunteer details.",
       "category": "Inclusive sports"
+    },
+    {
+      "id": "bgcd-monster-mash-dash-2026-10-18",
+      "title": "Monster Mash Dash — Boys & Girls Clubs of Dorchester",
+      "start": "2026-10-18T10:00:00-04:00",
+      "end": "2026-10-18T12:00:00-04:00",
+      "timezone": "America/New_York",
+      "state": "MA",
+      "city": "Dorchester",
+      "venue": "McConnell Park",
+      "address": "McConnell Park, Dorchester, Boston, MA",
+      "cost": "Free games and activities advertised. Ask Erin Kelley whether a separate race-registration fee applies; the linked Flutie 5K signup has paid options.",
+      "costCategory": "unknown",
+      "ages": "Families welcome; the flyer does not specify an age limit.",
+      "summary": "A Halloween morning with games, activities, a costume parade and trick-or-treating, hosted by Boys & Girls Clubs of Dorchester and supported by the Doug Flutie, Jr. Foundation for Autism. Costumes encouraged.",
+      "accessibility": [
+        "The organizer invites families and supports inclusive youth recreation. Specific event accommodations are not listed in the flyer."
+      ],
+      "sourceId": "bgcdorchester",
+      "sourceUrl": "https://runsignup.com/Race/186799/Charity/35375",
+      "ticketUrl": null,
+      "registration": "To register or ask questions, contact Erin Kelley at ekelley@bgcdorchester.org, as listed on the organizer flyer.",
+      "cancellationPolicy": "Ask the organizer about rain plans, cancellations and any registration terms.",
+      "notes": [
+        "The organizer flyer gives October 18, 2026, 10 a.m.–noon at McConnell Park. The organizer’s Flutie 5K page also confirms October 18 at 10 a.m.",
+        "Free games, activities, a costume parade and trick-or-treating are advertised. The wider Flutie 5K registration page is a paid program; confirm what is required for this local gathering."
+      ],
+      "lastVerified": "2026-10-08T13:10:08Z",
+      "verificationMethod": "Organizer flyer shared by the owner on October 8, 2026; date and start time cross-checked against the Boys & Girls Clubs of Dorchester Flutie 5K page.",
+      "reviewRequired": false,
+      "status": "scheduled",
+      "category": "Halloween",
+      "format": "In person",
+      "fieldNotes": {
+        "mobility": "Step-free routes and event layout are not confirmed; ask the organizer about individual mobility needs.",
+        "sensory": "Costumes, games and a parade are advertised. Sound levels, crowd size and a quiet break area are not confirmed.",
+        "restrooms": "Event restroom availability and accessible facilities are not confirmed.",
+        "parking": "Ask the organizer for the meeting point, parking and accessible drop-off.",
+        "weather": "Outdoor park event; confirm the rain or severe-weather plan."
+      }
     },
     {
       "id": "jcc-sensory-2026-10-18",

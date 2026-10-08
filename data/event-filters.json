@@ -4845,6 +4845,37 @@
       },
       "holidays": [],
       "holidayEvidence": {}
+    },
+    "bgcd-monster-mash-dash-2026-10-18": {
+      "ageGroups": [
+        "families"
+      ],
+      "accessFeatures": [],
+      "ageEvidence": {
+        "families": {
+          "url": "https://runsignup.com/Race/186799/Charity/35375",
+          "note": "Organizer flyer invites families."
+        }
+      },
+      "accessEvidence": {},
+      "checkedAt": "2026-10-08",
+      "holidays": [
+        "halloween"
+      ],
+      "holidayEvidence": {
+        "halloween": {
+          "url": "https://runsignup.com/Race/186799/Charity/35375",
+          "note": "Organizer flyer advertises costumes and trick-or-treating."
+        }
+      },
+      "sensory": {
+        "level": "unknown",
+        "note": "Games, costumes and a parade are advertised; noise levels, crowd size and quiet spaces are not confirmed.",
+        "sourceUrl": "https://runsignup.com/Race/186799/Charity/35375",
+        "checkedAt": "2026-10-08",
+        "sourceDetailsCheckedAt": "2026-10-08",
+        "basis": "Organizer flyer; no confirmed sensory rating."
+      }
     }
   },
   "sensoryMethod": "Sensory levels are editorial planning estimates based on the specific published conditions, not medical ratings or promises. Low means reduced stimulation, moderate means some ongoing music or activity, high means a likely stimulating mix, variable means conditions or parts of the visit differ, and unknown means evidence is insufficient. Sensory-friendly and disability-inclusive are not automatic low-sensory ratings. Earlier event verification dates remain visible."

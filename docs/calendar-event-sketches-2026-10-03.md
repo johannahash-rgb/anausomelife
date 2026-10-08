@@ -17,3 +17,7 @@ No event dates, source evidence, booking details, accessibility claims, or edito
 ## Verification
 
 JavaScript syntax checked. All illustration regression tests passed. A DOM harness verified every active listing has one image, all seven state controls render, three month choices populate, combined month/state/search filters work, and the no-results state appears. The existing refresh suite passes 21 tests; its seed test refers to an already-missing `data/curated-events.json` in the repository. The focused HTML media/rights check passes, with its documented scope limitations. Live browser checks are recorded in the release report after deployment.
+
+## October 8: Monster Mash Dash
+
+The October 18 BGCD listing reuses the existing, site-generated sneakers-and-pumpkin illustration after visual review. Its publication basis is the original generation documented above. It is conceptual editorial artwork, not a photograph of McConnell Park or a representation of confirmed event conditions. No screenshot, third-party photo or logo is republished. Date, hours, location, activities and Erin Kelley’s contact come from the organizer flyer shared October 8; the date/start time were also checked at https://runsignup.com/Race/186799/Charity/35375. Free activities and paid Flutie signup options are distinguished; unconfirmed sensory and access conditions remain labeled.
