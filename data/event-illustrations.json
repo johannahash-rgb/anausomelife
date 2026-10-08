@@ -997,8 +997,8 @@
       "start": "2026-11-01T15:00:00-05:00"
     },
     "wings-logan-2026-11-07": {
-      "src": "/assets/event-sketches/airport-practice.webp",
-      "alt": "Original ink-and-watercolor study of a navy carry-on suitcase, unbranded passenger plane and blank boarding card.",
+      "src": "/assets/event-sketches/airport-boarding-practice.webp",
+      "alt": "Ink-and-watercolor illustration of a navy carry-on beside a passenger plane parked at a boarding gate.",
       "width": 1536,
       "height": 1024,
       "title": "Wings for Autism — Boston Logan Airport",
@@ -1206,14 +1206,14 @@
       "height": 480
     },
     "autism-flies-pvd": {
-      "src": "/assets/event-sketches/airport-practice.webp",
-      "alt": "Original ink-and-watercolor study of a navy carry-on suitcase, unbranded passenger plane and blank boarding card.",
+      "src": "/assets/event-sketches/airport-boarding-practice.webp",
+      "alt": "Ink-and-watercolor illustration of a navy carry-on beside a passenger plane parked at a boarding gate.",
       "width": 1536,
       "height": 1024
     },
     "autism-flies-bdl": {
-      "src": "/assets/event-sketches/airport-practice.webp",
-      "alt": "Original ink-and-watercolor study of a navy carry-on suitcase, unbranded passenger plane and blank boarding card.",
+      "src": "/assets/event-sketches/airport-boarding-practice.webp",
+      "alt": "Ink-and-watercolor illustration of a navy carry-on beside a passenger plane parked at a boarding gate.",
       "width": 1536,
       "height": 1024
     },
@@ -1237,5 +1237,5 @@
       "reusedFromEvent": "rwpzoo-2026-10-20"
     }
   },
-  "updated": "2026-10-06"
+  "updated": "2026-10-08"
 }

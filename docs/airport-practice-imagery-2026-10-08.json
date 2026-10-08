@@ -1,0 +1,18 @@
+{
+  "date": "2026-10-08",
+  "asset": "/assets/event-sketches/airport-boarding-practice.webp",
+  "provider": "OpenAI built-in image generation",
+  "creationMethod": "New sibling illustration generated from the site's existing original airport-practice watercolor as style reference; no third-party photograph or brand asset was used.",
+  "intendedUse": "Original conceptual editorial art for Boston Wings for Autism and Rhode Island/Bradley Autism Flies calendar listings.",
+  "sourceImage": "/assets/event-sketches/airport-practice.webp",
+  "generatedFile": "exec-12807a28-e79c-4b16-b10b-92177c901943.png",
+  "prompt": "Use case: illustration-story. Asset type: editorial illustration for An AUsome Life's New England airport rehearsal event calendar. The reference is the existing artwork and its ink-and-watercolor treatment. Create an improved sibling version that keeps the refined navy carry-on suitcase and quiet warm paper tones, but replaces the airborne plane with an unmistakably PARKED unbranded white passenger jet resting on all of its landing gear at an airport gate, with a simple enclosed jet bridge connected to its forward door. Both engines off, no motion, no clouds suggesting flight. Use correct recognizable aircraft proportions; this is a generic conceptual airport, not an identifiable real terminal. One coherent balanced horizontal still life with the suitcase in foreground and airport boarding scene behind, fine natural pen detail, organic watercolor edges, restrained navy and pine-green accents, clear white fuselage. No people, no babyish cartoons, no autism puzzle pieces, no ribbon symbols, no logos, no text, no personal data, no watermark, no photo realism. Keep every meaningful subject fully visible without cropping. Soft organic edges into true transparent background, no rectangle or artificial drop shadow. Illustration only; no page UI or frame. Preserve a dignified all-ages editorial look; this is practice at the airport, never a takeoff or actual flight. Output landscape 3:2.",
+  "review": {
+    "subject": "Parked passenger airplane and navy carry-on; aircraft remains on the ground, matching an airport rehearsal.",
+    "privacy": "No people, personal data or identity documents.",
+    "branding": "No airline logos or implied sponsorship.",
+    "disclosure": "Calendar labels its images as original editorial illustrations inspired by activities, not venue photographs.",
+    "accessibility": "Plain descriptive alt text, full artwork shape, transparent edges and existing responsive object-fit:contain styling.",
+    "limitations": "Conceptual illustration; not a depiction of a real airport gate or verified access route."
+  }
+}
