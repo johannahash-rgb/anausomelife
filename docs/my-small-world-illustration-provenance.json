@@ -1,0 +1,26 @@
+{
+  "created": "2026-10-08",
+  "generator": "Built-in image generation",
+  "style_reference": "assets/margaritas-waltham/jukebox-watercolor-v1.png",
+  "style_reference_role": "Previously approved site artwork, used only as a style reference.",
+  "assets": [
+    {
+      "path": "assets/my-small-world/welcome-shop.webp",
+      "prompt": "Use case: illustration-story. Create a highly refined, detailed ink-and-watercolor editorial illustration for An AUsome Life, a preppy New England family-life journal, to accompany an article about a toy shop's thoughtful autism-friendly welcome. The attached reference is STYLE ONLY: match its fine pen linework, convincing natural perspective, detailed wood grain, luminous transparent watercolor washes and organically feathered edges. Do not reproduce the jukebox or restaurant. Scene: an imagined independent English toy-shop interior viewed from a welcoming open doorway, with honey-colored wooden shelves, beautifully made unbranded wooden toys, picture books, a little wooden train, a rocking zebra, a green-leaf indoor tree and two small hanging hot-air-balloon decorations. Leave a generous clear central browsing space, soft natural daylight, engaging details to discover, no people. Restrained palette: navy, pine green, honey wood, cream, a little cranberry and muted ochre. Grown-up magazine quality, immersive and observational, not childish clip art or a flat dollhouse diagram. This is an imaginative editorial scene, NOT an architectural rendering of My Small World or a claim about its layout. No shop names, no logos, no writing, no puzzle-piece symbols. Landscape 3:2 composition, entire vignette contained with breathing room, irregular painterly edges dissolve into genuine alpha transparency. No rectangular background, no drop shadow, no border. Preserve rich but delicate interior detail.",
+      "intended_use": "Original editorial illustration for the My Small World welcome article.",
+      "provenance": "Generated for this article at the owner's request. No third-party photos, store logo, or social-media screenshot republished.",
+      "representation": "Imagined toy-shop interior inspired by sourced descriptive themes; not the shop's documented layout. Caption says imagined.",
+      "processing": "WebP format export at original 1536 × 1024 dimensions, with alpha preserved; no crop, filters, masks or visual retouching.",
+      "review": "Inspected composition, subjects, proportions, lack of logos and text, and transparent boundary. Art is separate from factual store information. This provenance record is not a legal guarantee."
+    },
+    {
+      "path": "assets/my-small-world/familiar-things.webp",
+      "prompt": "Use case: illustration-story. Create a refined ink-and-watercolor still-life illustration for an adult New England family-life magazine. The attached reference is STYLE ONLY: use fine naturalistic pen contours, detailed material texture, delicate luminous watercolor, organic transparent edges. Do not reproduce the restaurant or jukebox. A thoughtfully arranged small outing bag study: a classic natural canvas tote with navy handles, a pair of teal over-ear ear defenders resting beside it, a plain navy-cased tablet with its screen asleep, and a small closed unbranded picture book in muted cranberry. Arrange naturally on a barely suggested wooden bench, not as a shopping product catalog, with comfortable negative space. No people, hands, text, logos, printed symbols or medical equipment; no babyish elements. Accurate everyday proportions. The theme is having familiar communication and comfort supports close to hand. Cream canvas, pine/navy, teal, warm oak, restrained cranberry. Landscape 3:2, complete subjects uncropped, softly irregular watercolor edges fading into genuine alpha transparency. No background rectangle, no frames, no artificial shadow, no collage. Quiet, beautiful, tactile, detailed adult editorial art.",
+      "intended_use": "Original editorial illustration for the My Small World welcome article.",
+      "provenance": "Generated for this article at the owner's request. No third-party photos, store logo, or social-media screenshot republished.",
+      "representation": "Generic personal outing supports; not products supplied by the shop or an endorsement.",
+      "processing": "WebP format export at original 1536 × 1024 dimensions, with alpha preserved; no crop, filters, masks or visual retouching.",
+      "review": "Inspected composition, subjects, proportions, lack of logos and text, and transparent boundary. Art is separate from factual store information. This provenance record is not a legal guarantee."
+    }
+  ]
+}
