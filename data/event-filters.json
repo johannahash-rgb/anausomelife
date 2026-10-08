@@ -3913,66 +3913,6 @@
         }
       }
     },
-    "fia-bowling-2026-10-15": {
-      "ageGroups": [
-        "teens",
-        "adults"
-      ],
-      "accessFeatures": [],
-      "ageEvidence": {
-        "teens": {
-          "url": "https://friendsinactionnh.org/faqs/"
-        },
-        "adults": {
-          "url": "https://friendsinactionnh.org/faqs/"
-        }
-      },
-      "accessEvidence": {},
-      "checkedAt": "2026-10-05",
-      "sensory": {
-        "level": "unknown",
-        "note": "Not enough specific sound, lighting or crowd information is published in our checked notes to estimate this event’s sensory level.",
-        "sourceUrl": "https://friendsinactionnh.org/programs/",
-        "checkedAt": "2026-10-06",
-        "basis": "Editorial planning estimate from organizer details",
-        "sourceDetailsCheckedAt": "2026-10-05"
-      },
-      "holidays": [],
-      "holidayEvidence": {}
-    },
-    "fia-halloween-2026-10-09": {
-      "ageGroups": [
-        "teens",
-        "adults"
-      ],
-      "accessFeatures": [],
-      "ageEvidence": {
-        "teens": {
-          "url": "https://friendsinactionnh.org/faqs/"
-        },
-        "adults": {
-          "url": "https://friendsinactionnh.org/faqs/"
-        }
-      },
-      "accessEvidence": {},
-      "checkedAt": "2026-10-05",
-      "sensory": {
-        "level": "unknown",
-        "note": "Not enough specific sound, lighting or crowd information is published in our checked notes to estimate this event’s sensory level.",
-        "sourceUrl": "https://friendsinactionnh.org/calendar/",
-        "checkedAt": "2026-10-06",
-        "basis": "Editorial planning estimate from organizer details",
-        "sourceDetailsCheckedAt": "2026-10-05"
-      },
-      "holidays": [
-        "halloween"
-      ],
-      "holidayEvidence": {
-        "halloween": {
-          "url": "https://friendsinactionnh.org/calendar/"
-        }
-      }
-    },
     "aoec-horse-2026-10-14": {
       "ageGroups": [],
       "accessFeatures": [],

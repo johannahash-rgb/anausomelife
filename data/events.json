@@ -901,24 +901,6 @@
       "status": "manually-checked"
     },
     {
-      "id": "friends-in-action",
-      "name": "Friends in Action",
-      "url": "https://friendsinactionnh.org/calendar/",
-      "state": "NH",
-      "type": "High school age and older; intake required",
-      "mode": "check",
-      "enabled": true,
-      "timezone": "America/New_York",
-      "allowedHosts": [
-        "friendsinactionnh.org"
-      ],
-      "autoPublish": false,
-      "feedVerified": false,
-      "sourceCheckedAt": "2026-10-05T09:55:42Z",
-      "lastChecked": "2026-10-05T09:55:42Z",
-      "status": "manually-checked"
-    },
-    {
       "id": "aarp-ri",
       "name": "AARP Rhode Island inclusive Walktober",
       "url": "https://events.aarp.org/event/GlowintheDarkParty2026/summary",
@@ -1763,39 +1745,6 @@
       }
     },
     {
-      "id": "fia-halloween-2026-10-09",
-      "title": "Friends in Action Halloween Social",
-      "start": "2026-10-09T18:30:00-04:00",
-      "end": "2026-10-09T20:30:00-04:00",
-      "timezone": "America/New_York",
-      "state": "NH",
-      "city": "Durham",
-      "venue": "Community Church of Durham",
-      "address": "17 Main Street, Durham, NH 03824",
-      "cost": "Free; complete the participant intake first.",
-      "costCategory": "free",
-      "ages": "High-school-age participants and adults.",
-      "summary": "The October calendar lists a Halloween social during the regular second-Friday social time.",
-      "accessibility": [],
-      "sourceId": "friends-in-action",
-      "sourceUrl": "https://friendsinactionnh.org/calendar/",
-      "ticketUrl": null,
-      "registration": "New participants complete forms and an interview first; contact the program director.",
-      "cancellationPolicy": "Confirm cancellation and refund terms with the organizer.",
-      "notes": [
-        "Time and venue follow the published Friday Night Social program.",
-        "Bring your own 1:1 support if needed."
-      ],
-      "lastVerified": "2026-10-05T09:55:42Z",
-      "verificationMethod": "Official organizer event details reviewed.",
-      "reviewRequired": false,
-      "status": "scheduled",
-      "category": "Social & dance",
-      "format": "In person",
-      "costEvidence": "https://friendsinactionnh.org/faqs/",
-      "scheduleEvidence": "https://friendsinactionnh.org/programs/"
-    },
-    {
       "id": "altitude-billerica-2026-10-10",
       "title": "Altitude Sensory-Friendly Saturday",
       "start": "2026-10-10T09:00:00-04:00",
@@ -2268,36 +2217,6 @@
       "sourceUrl": "https://www.somaine.org/event/state-soccer",
       "registration": "Athlete and Unified Partner participation requires the organizer’s registration process; spectators may attend.",
       "category": "Inclusive sports"
-    },
-    {
-      "id": "fia-bowling-2026-10-15",
-      "title": "Friends in Action Bowling Night",
-      "start": "2026-10-15T16:30:00-04:00",
-      "end": "2026-10-15T18:00:00-04:00",
-      "timezone": "America/New_York",
-      "state": "NH",
-      "city": "Portsmouth",
-      "venue": "Bowl-O-Rama",
-      "address": "Bowl-O-Rama, Portsmouth, NH",
-      "cost": "$10 covers bowling and shoes; food is extra.",
-      "costCategory": "paid",
-      "ages": "High-school-age participants and adults.",
-      "summary": "Bowling and social time on the first and third Thursdays.",
-      "accessibility": [],
-      "sourceId": "friends-in-action",
-      "sourceUrl": "https://friendsinactionnh.org/programs/",
-      "ticketUrl": null,
-      "registration": "New participants complete forms and an interview with Friends in Action before attending.",
-      "cancellationPolicy": "Confirm cancellation and refund terms with the organizer.",
-      "notes": [
-        "Bring your own 1:1 support if needed."
-      ],
-      "lastVerified": "2026-10-05T09:55:42Z",
-      "verificationMethod": "Official recurring schedule reviewed; date calculated from the published recurrence.",
-      "reviewRequired": false,
-      "status": "scheduled",
-      "category": "Social activities",
-      "format": "In person"
     },
     {
       "timezone": "America/New_York",
@@ -6281,14 +6200,6 @@
       "url": "https://www.meetup.com/meetup-group-aane-outdoorenthusiasts/",
       "summary": "Free monthly outdoor outings for autistic adults in Greater Boston and southeastern Massachusetts. Join the private Meetup group for the next date; parking may cost extra.",
       "costEvidence": "https://aane.org/services-programs/group-services/social-groups-activities/",
-      "checkedAt": "2026-10-05"
-    },
-    {
-      "state": "NH",
-      "name": "Friends in Action Friday Night Socials",
-      "url": "https://friendsinactionnh.org/programs/",
-      "summary": "Free social nights for high-school-age participants and adults. Intake is required; bring needed 1:1 support. Bowling, meals, movie tickets and some other programs have charges.",
-      "costEvidence": "https://friendsinactionnh.org/faqs/",
       "checkedAt": "2026-10-05"
     },
     {

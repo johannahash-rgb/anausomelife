@@ -655,16 +655,6 @@
       "start": "2026-10-09T16:00:00-04:00",
       "reusedFromEvent": "rwpzoo-2026-10-20"
     },
-    "fia-halloween-2026-10-09": {
-      "src": "/assets/event-sketches/aa-halloween-dance-2026-10-16.webp",
-      "alt": "Navy dancing sneakers, cranberry ribbons and a carved pumpkin in warm stage light.",
-      "width": 720,
-      "height": 480,
-      "title": "Friends in Action Halloween Social",
-      "venue": "Community Church of Durham",
-      "start": "2026-10-09T18:30:00-04:00",
-      "reusedFromEvent": "aa-halloween-dance-2026-10-16"
-    },
     "altitude-billerica-2026-10-10": {
       "src": "/assets/event-sketches/trampoline-play.webp",
       "alt": "Original ink-and-watercolor study of a navy trampoline edge and striped grip socks.",
@@ -739,16 +729,6 @@
       "title": "AOEC: Meet Toast the Miniature Horse",
       "venue": "Adaptive Outdoor Education Center Brunswick",
       "start": "2026-10-14T10:00:00-04:00"
-    },
-    "fia-bowling-2026-10-15": {
-      "src": "/assets/event-sketches/some-bowling-bangor-2026-11-16.webp",
-      "alt": "A green marbled bowling ball, three ivory pins and a navy bowling bag on a maple bench.",
-      "width": 720,
-      "height": 480,
-      "title": "Friends in Action Bowling Night",
-      "venue": "Bowl-O-Rama",
-      "start": "2026-10-15T16:30:00-04:00",
-      "reusedFromEvent": "some-bowling-bangor-2026-11-16"
     },
     "bilt-dance-2026-10-16": {
       "src": "/assets/event-sketches/aa-halloween-dance-2026-10-16.webp",

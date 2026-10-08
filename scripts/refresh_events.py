@@ -27,6 +27,20 @@ UA = 'AnAusomeLife-Events/1.0 (public event source checks; daily)'
 MAX_BYTES = 2_000_000
 STATES = {'CT', 'ME', 'MA', 'NH', 'RI', 'VT'}
 EXPLICIT = re.compile(r'\b(sensory[\s-]*(?:friendly|inclusive)|autism[\s-]*friendly|relaxed performance)\b', re.I)
+# Organizer opt-out, approved by the owner on 2026-10-08. Keep this guard even
+# when an old source configuration or review queue is supplied to a refresh.
+EXCLUDED_SOURCE_IDS = {'friends-in-action'}
+EXCLUDED_HOSTS = {'friendsinactionnh.org'}
+
+
+def excluded_listing(record):
+    if record.get('id') in EXCLUDED_SOURCE_IDS or record.get('sourceId') in EXCLUDED_SOURCE_IDS:
+        return True
+    for key in ('url', 'sourceUrl', 'organizerUrl'):
+        host = (urlparse(record.get(key) or '').hostname or '').lower()
+        if any(host == blocked or host.endswith('.' + blocked) for blocked in EXCLUDED_HOSTS):
+            return True
+    return False
 
 
 def now_iso(value):
@@ -151,6 +165,7 @@ def extract_jsonld(body):
 
 
 def normalize(raw, source, checked):
+    if excluded_listing(source) or excluded_listing(raw): return None
     title, description = clean(raw.get('name'), 180), clean(raw.get('description'))
     if not EXPLICIT.search(title + ' ' + description): return None
     if source['state'] not in STATES: return None
@@ -205,10 +220,11 @@ def validate(event):
 def prepare(curated, previous, sources, queue, now, fetcher=None):
     checked, fetcher = now_iso(now), fetcher or Fetcher()
     previous_sources = {s['id']: s for s in previous.get('sources', [])}
-    results, new_queue = [], {e['id']: copy.deepcopy(e) for e in queue}
+    results, new_queue = [], {e['id']: copy.deepcopy(e) for e in queue if not excluded_listing(e)}
     # Re-read curated records on every run; they remain the authoritative editorial layer.
     published, keys = [], set()
     for event in curated:
+        if excluded_listing(event): continue
         validate(event)
         if parse_time(event['end']) <= now: continue
         if event['reviewRequired'] or event.get('status') == 'cancelled': continue
@@ -220,6 +236,7 @@ def prepare(curated, previous, sources, queue, now, fetcher=None):
         published.append(event)
     successes, failures = 0, 0
     for source in sources:
+        if excluded_listing(source): continue
         result = {**source, **{k: v for k, v in previous_sources.get(source['id'], {}).items() if k in ('lastSuccessfulCheck', 'contentHash')}}
         if not source.get('enabled') or source['mode'] == 'manual':
             result.update(status='manual-review', lastChecked=source.get('sourceCheckedAt'))
@@ -270,6 +287,8 @@ def prepare(curated, previous, sources, queue, now, fetcher=None):
     for key in ('accessibilityStandard', 'venueProfiles', 'watchlist'):
         if key in previous:
             output[key] = copy.deepcopy(previous[key])
+    if 'watchlist' in output:
+        output['watchlist'] = [item for item in output['watchlist'] if not excluded_listing(item)]
     return output, live_queue
 
 
