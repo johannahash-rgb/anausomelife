@@ -1,34 +1,41 @@
-/* Optional atmosphere; all directory content and links work without it. */
+/* Keep category browsing and filtered results predictable. */
 (() => {
   'use strict';
   const page = document.querySelector('.black-book-page');
-  const lights = page?.querySelector('.street-lights');
-  if (!page) return;
-  function setLights(on) {
-    page.toggleAttribute('data-lamplight', on);
-    lights.setAttribute('aria-pressed', String(on));
-    lights.textContent = on ? 'Return to daylight' : 'Turn on the lamplight';
+  const form = page?.querySelector('.directory-controls');
+  if (!form) return;
+  function syncLayout() {
+    const {q, kind, relationship, sort} = form.elements;
+    const filtered = q.value.trim() || kind.value || relationship.value || sort.value !== 'featured';
+    page.dataset.directoryMode = filtered ? 'results' : 'browse';
   }
-  let saved = false;
-  try { saved = localStorage.getItem('aal-black-book-lamplight') === 'on'; } catch {}
-  if (lights) {
-    setLights(saved);
-    lights.hidden = false;
-    lights.addEventListener('click', () => {
-      const on = !page.hasAttribute('data-lamplight');
-      setLights(on);
-      try { localStorage.setItem('aal-black-book-lamplight', on ? 'on' : 'off'); } catch {}
-    });
-  }
-  page.querySelectorAll('.street-stops a, .street-continue a').forEach(link => {
+  ['input', 'change', 'reset'].forEach(type => {
+    form.addEventListener(type, () => queueMicrotask(syncLayout));
+  });
+  if (document.readyState === 'complete') syncLayout();
+  else document.addEventListener('DOMContentLoaded', syncLayout);
+  page.querySelectorAll('.book-categories a').forEach(link => {
     link.addEventListener('click', () => {
-      // A street stop must remain reachable even after a search hides it.
       const section = document.getElementById(link.hash.slice(1));
-      if (section?.hidden) page.querySelector('.directory-controls').reset();
-      page.querySelectorAll('.street-stops a').forEach(item => {
+      if (section?.hidden) form.reset();
+      page.querySelectorAll('.book-categories a').forEach(item => {
         item.removeAttribute('aria-current');
-        if (item.hash === link.hash) item.setAttribute('aria-current', 'location');
+        if (item === link) item.setAttribute('aria-current', 'location');
       });
     });
   });
+  const detail = page.querySelector('.book-lightbox');
+  if (detail && typeof detail.showModal === 'function') {
+    page.querySelectorAll('[data-look-closer]').forEach(link => {
+      link.addEventListener('click', event => {
+        if (event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
+        event.preventDefault();
+        const source = link.closest('figure').querySelector('img');
+        const image = detail.querySelector('img');
+        image.src = link.href;
+        image.alt = source.alt;
+        detail.showModal();
+      });
+    });
+  }
 })();
