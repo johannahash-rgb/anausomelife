@@ -1,0 +1,29 @@
+{
+  "date": "2026-10-08",
+  "assets": [
+    {
+      "file": "assets/main-street/preppy-main-street.webp",
+      "source": "Original image generated with built-in image_gen, one generation, no reference image",
+      "reuse_basis": "Original commissioned AI editorial artwork, no third-party photos or marks incorporated",
+      "prompt_summary": "Bright daytime preppy New England setting, natural proportions, fine ink and watercolor, ivory irregular paper margin, navy/cream/pine/cranberry, striped awnings, hydrangeas, autumn pumpkins. Small-town Main Street",
+      "intended_use": "Decorative fictional category setting, not a photograph or factual depiction of a listed venue",
+      "review": "Visually inspected; no visible people, text, brand logos or copyrighted characters; displayed without cropping or filters"
+    },
+    {
+      "file": "assets/main-street/preppy-sweet-shop.webp",
+      "source": "Original image generated with built-in image_gen, one generation, no reference image",
+      "reuse_basis": "Original commissioned AI editorial artwork, no third-party photos or marks incorporated",
+      "prompt_summary": "Bright daytime preppy New England setting, natural proportions, fine ink and watercolor, ivory irregular paper margin, navy/cream/pine/cranberry, striped awnings, hydrangeas, autumn pumpkins. Village parlor and bakery",
+      "intended_use": "Decorative fictional category setting, not a photograph or factual depiction of a listed venue",
+      "review": "Visually inspected; no visible people, text, brand logos or copyrighted characters; displayed without cropping or filters"
+    },
+    {
+      "file": "assets/main-street/preppy-village-inn.webp",
+      "source": "Original image generated with built-in image_gen, one generation, no reference image",
+      "reuse_basis": "Original commissioned AI editorial artwork, no third-party photos or marks incorporated",
+      "prompt_summary": "Bright daytime preppy New England setting, natural proportions, fine ink and watercolor, ivory irregular paper margin, navy/cream/pine/cranberry, striped awnings, hydrangeas, autumn pumpkins. White clapboard inn",
+      "intended_use": "Decorative fictional category setting, not a photograph or factual depiction of a listed venue",
+      "review": "Visually inspected; no visible people, text, brand logos or copyrighted characters; displayed without cropping or filters"
+    }
+  ]
+}
