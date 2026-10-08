@@ -46,7 +46,7 @@ for row in ROWS:
     social_photo = row.get('socialPhoto', row['photo'])
     photo_album = row.get('coverAlbum', False)
     cover_class = ' fn-photo-cover' if photo_album else ''
-    page_css = '<link rel="stylesheet" href="/assets/wicked-tulips-gallery.css?v=20261008-curated">' if row['path'] == 'wicked-tulips-family-field-note.html' else ''
+    page_css = '<link rel="stylesheet" href="/assets/wicked-tulips-gallery.css?v=20261008-keepsake">' if row['path'] == 'wicked-tulips-family-field-note.html' else ''
     head = f'''<!doctype html>
 <html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{title} | An AUsome Life</title><meta name="description" content="{desc}">
@@ -67,6 +67,10 @@ for row in ROWS:
 {('<div class="fn-cover-album">' + photograph(row['photo'], True) + ''.join(photograph(p, True) for p in row.get('coverGallery', row.get('gallery', []))) + '</div>') if photo_album else photograph(row['photo'], True)}</header>'''
     glance = '<dl class="wrap fn-glance" id="at-a-glance">'+''.join('<div><dt>'+e(k)+'</dt><dd>'+e(v)+'</dd></div>' for k,v in row['glance'])+'</dl>'
     story = '<article class="fn-story" id="story" aria-label="The family field note"><div class="fn-intro">'+paragraphs(row['intro'])+'</div>'
+    if row.get('openingGallery'):
+        story += '<div class="fn-gallery fn-photo-spread fn-opening-gallery">'+''.join(photograph(p) for p in row['openingGallery'])+'</div>'
+    if row.get('keepsakeQuote'):
+        story += '<aside class="fn-keepsake-quote"><p>'+e(row['keepsakeQuote'])+'</p></aside>'
     for i, section in enumerate(row['sections']):
         if i == 1:
             story += story_sketch(row)

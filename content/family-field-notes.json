@@ -342,9 +342,9 @@
     "summary": "Our Wicked Tulips family photographs: spring color, a portrait and a practical note about enjoying a flower farm at your own pace.",
     "dek": "There are the photographs, and then there is the day around them. Both are worth making room for.",
     "photo": {
-      "file": "wicked-tulips-family.webp",
+      "file": "wicked-tulips-family-keepsake.png",
       "alt": "Our family together among rows of colorful flowers at Wicked Tulips.",
-      "caption": "Together in the tulip field. Photograph: Pamela Christine Photography.",
+      "caption": "Together in the tulip field. Photograph: Pamela Christine Photography. Lightly edited.",
       "frame": "tulips-family"
     },
     "gallery": [],
@@ -369,7 +369,7 @@
     ],
     "intro": [
       "Our Wicked Tulips photographs make a persuasive argument for spring. There is a family portrait surrounded by rows of color, and another moment with tulips held in hand. The background has put in considerable effort. The people do not need to compete with it.",
-      "The family portrait and the picture with tulips in hand are the sort of photographs I am glad we kept. Flowers have a short season. The pictures get to stay around rather longer."
+      "The family portrait and the picture with tulips in hand are the sort of photographs I am glad we kept."
     ],
     "sections": [
       {
@@ -446,27 +446,27 @@
     "pictureCardsHtml": "<section class=\"aal-story-cards\" id=\"story-picture-cards\" data-story-cards aria-labelledby=\"story-picture-cards-title\"><p class=\"aal-pc-kicker\">Pictures to take with you</p><h2 id=\"story-picture-cards-title\">A few words for this story.</h2><p>Choose the pictures that are familiar and useful. Change a label, save a card, or print this little set.</p><div class=\"aal-pc-grid\"><div class=\"aal-pc-card\" data-story-card=\"tulip\"><a class=\"aal-pc-face\" href=\"/picture-card-library.html?card=tulip\" aria-label=\"Edit or print tulip card\"><span class=\"aal-pc-image\" role=\"img\" aria-label=\"A flowering tulip in a small terracotta pot.\" style=\"background-image:url(/assets/card-collection/seasons-more.webp);background-size:400% 400%;background-position:33.333333333333336% 33.333333333333336%;\"></span><span class=\"aal-pc-label\">tulip</span></a><button class=\"aal-pc-download\" type=\"button\" data-story-card-download hidden aria-label=\"Download tulip picture card as PNG\">Download PNG ↓</button></div><div class=\"aal-pc-card\" data-story-card=\"tulip-farm\"><a class=\"aal-pc-face\" href=\"/picture-card-library.html?card=tulip-farm\" aria-label=\"Edit or print tulip farm card\"><span class=\"aal-pc-image\" role=\"img\" aria-label=\"Three rows of colorful tulips growing in front of a small red farm barn. A generic flower-farm illustration, not a map or photograph of Wicked Tulips.\" style=\"background-image:url(/assets/card-collection/tulip-farm.png);\"></span><span class=\"aal-pc-label\">tulip farm</span></a><button class=\"aal-pc-download\" type=\"button\" data-story-card-download hidden aria-label=\"Download tulip farm picture card as PNG\">Download PNG ↓</button></div><div class=\"aal-pc-card\" data-story-card=\"water\"><a class=\"aal-pc-face\" href=\"/picture-card-library.html?card=water\" aria-label=\"Edit or print water card\"><span class=\"aal-pc-image\" role=\"img\" aria-label=\"A clear glass of drinking water.\" style=\"background-image:url(/assets/card-studio/water.webp);\"></span><span class=\"aal-pc-label\">water</span></a><button class=\"aal-pc-download\" type=\"button\" data-story-card-download hidden aria-label=\"Download water picture card as PNG\">Download PNG ↓</button></div><div class=\"aal-pc-card\" data-story-card=\"all-done\"><a class=\"aal-pc-face\" href=\"/picture-card-library.html?card=all-done\" aria-label=\"Edit or print all done card\"><span class=\"aal-pc-image\" role=\"img\" aria-label=\"A check mark inside a square.\" style=\"background-image:url(/assets/card-collection/all-done.svg);\"></span><span class=\"aal-pc-label\">all done</span></a><button class=\"aal-pc-download\" type=\"button\" data-story-card-download hidden aria-label=\"Download all done picture card as PNG\">Download PNG ↓</button></div></div><div class=\"aal-pc-actions\"><a href=\"/picture-card-library.html?cards=tulip,tulip-farm,water,all-done#cc-sheet\">Edit or print this set →</a><a href=\"/picture-card-library.html\">All picture cards →</a></div><p class=\"aal-pc-note\">Keep the person’s usual communication available. These are independent picture communication cards, not official PECS® materials. Generic place illustrations do not show a venue’s actual layout.</p><p class=\"aal-pc-status\" role=\"status\" aria-live=\"polite\" data-story-card-status></p></section>",
     "coverAlbum": true,
     "coverGallery": [],
-    "photoGroups": {
-      "0": [
-        {
-          "file": "wicked-tulips-2019-smile.jpg",
-          "alt": "A young family member smiling among yellow tulips at Wicked Tulips.",
-          "caption": "A spring smile among the tulips. Wicked Tulips, 2019. Photograph: Pamela Christine Photography.",
-          "frame": "tulips-smile"
-        },
-        {
-          "file": "wicked-tulips-portrait.webp",
-          "alt": "A young family member holding tulips in a brightly colored flower field.",
-          "caption": "Tulips in hand, from our family album. Photograph: Pamela Christine Photography."
-        }
-      ]
-    },
+    "photoGroups": {},
     "socialPhoto": {
       "file": "wicked-tulips-2019-smile.jpg",
       "alt": "A young family member smiling among yellow tulips at Wicked Tulips.",
       "caption": "A spring smile among the tulips. Wicked Tulips, 2019. Photograph: Pamela Christine Photography.",
       "frame": "tulips-smile"
-    }
+    },
+    "openingGallery": [
+      {
+        "file": "wicked-tulips-2019-smile.jpg",
+        "alt": "A young family member smiling among yellow tulips at Wicked Tulips.",
+        "caption": "A spring smile among the tulips. Wicked Tulips, 2019. Photograph: Pamela Christine Photography.",
+        "frame": "tulips-smile"
+      },
+      {
+        "file": "wicked-tulips-portrait.webp",
+        "alt": "A young family member holding tulips in a brightly colored flower field.",
+        "caption": "Tulips in hand, from our family album. Photograph: Pamela Christine Photography."
+      }
+    ],
+    "keepsakeQuote": "Flowers have a short season. The pictures get to stay around rather longer."
   },
   {
     "path": "flowers-fidgets-and-clutter.html",

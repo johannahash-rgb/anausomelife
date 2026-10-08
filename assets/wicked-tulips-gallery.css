@@ -1,5 +1,33 @@
-/* Page-specific portrait framing with original image pixels preserved. */
-.fn-page .fn-photo.fn-tulips-smile img{width:100%;height:auto;aspect-ratio:3/2;object-fit:cover;object-position:50% 25%}
-.fn-page .fn-photo.fn-tulips-family img{width:100%;height:auto;aspect-ratio:2.05;object-fit:cover;object-position:50% 42%}
-.fn-page .fn-cover-album:has(.fn-tulips-family){grid-template-columns:1fr}
+/* Wicked Tulips: an original-photo keepsake, scoped to this page. */
+.fn-page{--fn-paper:#faf8f1;--fn-pine:#244b3e;--fn-ink:#193b40;--fn-line:#c9cebf}
+.fn-page .fn-breadcrumb{font:italic .84rem/1.5 Georgia,serif;padding-top:24px}
+.fn-page .fn-photo-cover{padding-top:32px}
+.fn-page .fn-photo-cover .fn-cover-copy{max-width:860px;margin-bottom:30px}
+.fn-page .fn-photo-cover .fn-kicker{color:#8a473b;font-size:.69rem;letter-spacing:.22em}
+.fn-page .fn-photo-cover h1{font-size:clamp(2.9rem,5.5vw,5.2rem);line-height:1.03;margin:16px 0 20px;letter-spacing:-.045em}
+.fn-page .fn-photo-cover .fn-dek{font:italic clamp(1.12rem,1.65vw,1.36rem)/1.6 Georgia,serif;max-width:49ch}
+.fn-page .fn-photo-cover .fn-byline{font-size:.75rem;letter-spacing:.12em;text-transform:uppercase;margin-top:19px}
+.fn-page .fn-photo-cover .fn-jump{font-size:.8rem;margin-top:9px}
+.fn-page .fn-cover-album:has(.fn-tulips-family){grid-template-columns:1fr;width:min(1240px,calc(100vw - 64px));position:relative;left:50%;transform:translateX(-50%);margin-top:28px}
 .fn-page .fn-cover-album .fn-tulips-family:last-child{padding-top:0;width:100%;margin:0}
+.fn-page .fn-photo.fn-tulips-family img{width:100%;height:auto;aspect-ratio:2.05;object-fit:cover;object-position:50% 42%}
+.fn-page .fn-photo.fn-tulips-smile img{width:100%;height:auto;aspect-ratio:3/2;object-fit:cover;object-position:50% 25%}
+.fn-page .fn-tulips-family figcaption{text-align:center;padding-top:13px;font-size:.84rem}
+.fn-page .fn-story{max-width:770px;margin-top:48px}
+.fn-page .fn-story .fn-intro{max-width:650px;margin:auto}
+.fn-page .fn-story .fn-intro p:first-child{font-size:clamp(1.22rem,1.8vw,1.5rem);line-height:1.72}
+.fn-page .fn-story .fn-intro p:first-child:first-letter{float:left;font:400 4.9rem/.77 Georgia,serif;color:var(--fn-pine);padding:10px 10px 2px 0}
+.fn-page .fn-opening-gallery{width:min(1120px,calc(100vw - 64px));grid-template-columns:1.12fr .88fr;gap:36px;align-items:start;margin-top:44px;margin-bottom:35px}
+.fn-page .fn-opening-gallery .fn-photo:last-child{padding-top:62px}
+.fn-page .fn-photo figcaption{font:italic .9rem/1.55 Georgia,serif;color:#52635b}
+.fn-page .fn-keepsake-quote{position:relative;max-width:670px;margin:44px auto 54px;padding:28px 20px;text-align:center;border-top:1px solid #c3ba9f;border-bottom:1px solid #c3ba9f}
+.fn-page .fn-keepsake-quote:before{content:"✧";display:block;color:#8a473b;font-size:1.2rem;margin-bottom:12px}
+.fn-page .fn-keepsake-quote p{font:italic 400 clamp(1.65rem,2.6vw,2.25rem)/1.45 Georgia,serif;letter-spacing:-.018em;margin:0;color:var(--fn-pine)}
+.fn-page .fn-story>section{max-width:650px;margin:auto}
+.fn-page .fn-story>section h2{font-size:clamp(1.8rem,2.65vw,2.3rem);margin-top:38px}
+.fn-page .fn-story .aal-story-sketch{width:245px!important;margin-right:-70px!important}
+.fn-page .fn-glance{max-width:1040px;margin-top:48px;border-top:3px double #b8bea9}
+.fn-page .fn-planning{margin-top:30px}
+@media(max-width:760px){.fn-page .fn-story .aal-story-sketch{margin-right:0!important}.fn-page .fn-cover-album:has(.fn-tulips-family){width:100%;left:0;transform:none}.fn-page .fn-opening-gallery{gap:24px}.fn-page .fn-opening-gallery .fn-photo:last-child{padding-top:35px}}
+@media(max-width:620px){.fn-page .fn-breadcrumb{padding-top:18px}.fn-page .fn-photo-cover{padding-top:24px}.fn-page .fn-photo-cover .fn-cover-copy{text-align:center;margin-bottom:24px}.fn-page .fn-photo-cover h1{font-size:clamp(2.7rem,10.8vw,3.5rem);max-width:14ch;margin-inline:auto}.fn-page .fn-photo-cover .fn-dek{font-size:1.13rem}.fn-page .fn-photo-cover .fn-jump{justify-content:center}.fn-page .fn-story{margin-top:32px}.fn-page .fn-opening-gallery{width:100%;left:0;transform:none;grid-template-columns:1fr;gap:28px;margin-block:30px}.fn-page .fn-opening-gallery .fn-photo:last-child{padding-top:0;width:90%;margin-left:auto}.fn-page .fn-keepsake-quote{padding:24px 5px;margin:34px auto 40px}.fn-page .fn-story .fn-intro p:first-child:first-letter{font-size:4.2rem}.fn-page .fn-glance{margin-top:32px}.fn-page .fn-story .aal-story-sketch{float:none;margin:28px auto!important;width:190px!important}}
+@media print{.fn-page .fn-cover-album:has(.fn-tulips-family),.fn-page .fn-opening-gallery{width:100%;left:0;transform:none}.fn-page .fn-keepsake-quote{break-inside:avoid}.fn-page .fn-opening-gallery{grid-template-columns:1fr 1fr}.fn-page .fn-opening-gallery .fn-photo:last-child{padding-top:0}.fn-page .fn-story .fn-intro p:first-child:first-letter{float:none;font:inherit;padding:0}}
