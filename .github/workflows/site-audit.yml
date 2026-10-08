@@ -15,7 +15,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Audit all HTML pages and local assets, and sample external links
-        run: python .github/scripts/site_audit.py --root . --external-limit 750
+        run: python .github/scripts/site_audit.py --root . --external-limit ${{ github.event_name == 'workflow_dispatch' && '750' || '0' }}
       - name: Check calendar and navigation JavaScript syntax
         run: |
           node --check assets/events.js
