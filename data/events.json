@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-10-06T16:29:41Z",
+  "generatedAt": "2026-10-08T09:44:21Z",
   "lastEditorialReview": "2026-10-06T16:29:41Z",
   "timezone": "America/New_York",
   "coverage": "Selected New England adaptive and sensory-friendly events, with a verified free-admission filter and free-program directory. Not exhaustive.",
@@ -649,9 +649,9 @@
       ],
       "autoPublish": false,
       "feedVerified": false,
-      "sourceCheckedAt": "2026-10-05T09:45:00Z",
+      "sourceCheckedAt": "2026-10-08T09:44:21Z",
       "status": "manually-checked",
-      "lastChecked": "2026-10-05T09:45:00Z"
+      "lastChecked": "2026-10-08T09:44:21Z"
     },
     {
       "id": "autism-flies-ri",
@@ -667,9 +667,9 @@
       ],
       "autoPublish": false,
       "feedVerified": false,
-      "sourceCheckedAt": "2026-10-05T09:45:00Z",
+      "sourceCheckedAt": "2026-10-08T09:44:21Z",
       "status": "manually-checked",
-      "lastChecked": "2026-10-05T09:45:00Z"
+      "lastChecked": "2026-10-08T09:44:21Z"
     },
     {
       "id": "autism-flies-ct",
@@ -685,9 +685,9 @@
       ],
       "autoPublish": false,
       "feedVerified": false,
-      "sourceCheckedAt": "2026-10-05T09:45:00Z",
+      "sourceCheckedAt": "2026-10-08T09:44:21Z",
       "status": "manually-checked",
-      "lastChecked": "2026-10-05T09:45:00Z"
+      "lastChecked": "2026-10-08T09:44:21Z"
     },
     {
       "id": "old-state-house-sensory",
@@ -3913,8 +3913,8 @@
       "cost": "Free",
       "costCategory": "free",
       "cancellationPolicy": "Not stated in the checked listing; confirm with the organizer.",
-      "lastVerified": "2026-10-05T09:45:00Z",
-      "verificationMethod": "Official organizer page and linked registration form reviewed",
+      "lastVerified": "2026-10-08T09:44:21Z",
+      "verificationMethod": "Official November 7 event listing, program page and linked registration form reviewed",
       "reviewRequired": false,
       "status": "scheduled",
       "format": "In person",
@@ -3935,10 +3935,11 @@
       "sourceId": "charles-river-wings",
       "sourceUrl": "https://www.charlesrivercenter.org/news-events/major-events/wings-for-autism/",
       "ticketUrl": "https://form.jotform.com/262595659324166",
-      "registration": "Advance registration required for every attendee. The online form accepts up to six people; contact the organizer for a larger group.",
+      "registration": "Registration is open. Advance registration is required for every attendee. The online form accepts up to six people; contact wingsforautism@charlesrivercenter.org for a larger group.",
       "notes": [
-        "Confirm terminal, meeting point, parking and individual access arrangements with the organizer.",
-        "Registration availability may change."
+        "Confirm terminal, meeting point, parking and individual access arrangements with wingsforautism@charlesrivercenter.org before traveling.",
+        "Registration availability may change.",
+        "Charles River Center confirms November 7, 2026, 9 a.m.–noon: https://www.charlesrivercenter.org/event/wings-for-autism-8/"
       ],
       "category": "Travel practice"
     },
@@ -5720,9 +5721,9 @@
       "id": "autism-flies-pvd",
       "state": "RI",
       "title": "Autism Flies — Rhode Island T. F. Green International Airport",
-      "status": "November 2026 · full schedule awaiting confirmation",
-      "note": "Free airport check-in, security and boarding practice with Breeze Airways. November 2026 is announced; confirm the final date and session time through the invitation process before making plans.",
-      "lastKnown": "November 2026; organizer information checked October 5, 2026",
+      "status": "November 10, 2026 · session time awaiting confirmation",
+      "note": "Autism Flies is a separate free airport practice program with Breeze Airways. The organizer confirms November 10, 2026. Request an invitation and confirm the session time and meeting point before making travel plans.",
+      "lastKnown": "November 10, 2026; organizer information checked October 8, 2026",
       "sourceUrl": "https://autismchecked.com/autism-flies/",
       "organizerUrl": "https://autismchecked.com/waitlist-form-pvd/",
       "address": "Rhode Island T. F. Green International Airport, Warwick, RI"
@@ -5733,7 +5734,7 @@
       "title": "Autism Flies — Bradley International Airport",
       "status": "Spring 2027 · full schedule awaiting confirmation",
       "note": "Free airport check-in, security and boarding practice with Breeze Airways. Spring 2027 is announced; confirm the final date and session time through the invitation process before making plans.",
-      "lastKnown": "Spring 2027; organizer information checked October 5, 2026",
+      "lastKnown": "Spring 2027; organizer information checked October 8, 2026",
       "sourceUrl": "https://autismchecked.com/autism-flies/",
       "organizerUrl": "https://autismchecked.com/bdl-form/",
       "address": "Bradley International Airport, Windsor Locks, CT"
@@ -5846,8 +5847,8 @@
       "state": "MA",
       "name": "Wings for Autism — Charles River Center",
       "url": "https://www.charlesrivercenter.org/news-events/major-events/wings-for-autism/",
-      "summary": "Free airport rehearsals for families of children with autism. Boston Logan: November 7, 2026, 9 a.m.–noon. Register all attendees in advance.",
-      "checkedAt": "2026-10-05"
+      "summary": "Free airport rehearsals for families of children with autism. Boston Logan: November 7, 2026, 9 a.m.–noon. Registration is open; register every attendee in advance.",
+      "checkedAt": "2026-10-08"
     },
     {
       "state": "NH",
@@ -5860,15 +5861,15 @@
       "state": "RI",
       "name": "Autism Flies — T. F. Green",
       "url": "https://autismchecked.com/autism-flies/",
-      "summary": "Free airport boarding practice with Breeze Airways, announced for November 2026. Request an invitation and confirm the full schedule before making travel plans.",
-      "checkedAt": "2026-10-05"
+      "summary": "A separate free airport boarding-practice program with Breeze Airways on November 10, 2026. Request an invitation and confirm the session time and meeting point before traveling.",
+      "checkedAt": "2026-10-08"
     },
     {
       "state": "CT",
       "name": "Autism Flies — Bradley",
       "url": "https://autismchecked.com/autism-flies/",
       "summary": "Free airport boarding practice with Breeze Airways, announced for spring 2027. An invitation request is available; the final date and time are not published.",
-      "checkedAt": "2026-10-05"
+      "checkedAt": "2026-10-08"
     },
     {
       "state": "MA",
