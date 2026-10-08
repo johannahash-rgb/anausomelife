@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-10-08T09:44:21Z",
+  "generatedAt": "2026-10-08T09:48:51Z",
   "lastEditorialReview": "2026-10-06T16:29:41Z",
   "timezone": "America/New_York",
   "coverage": "Selected New England adaptive and sensory-friendly events, with a verified free-admission filter and free-program directory. Not exhaustive.",
@@ -1194,6 +1194,42 @@
       "sourceCheckedAt": "2026-10-06T16:29:41Z",
       "status": "manually-checked",
       "lastChecked": "2026-10-06T16:29:41Z"
+    },
+    {
+      "id": "portland-jetport-practice",
+      "name": "Portland Jetport — security practice & familiarization tours",
+      "url": "https://portlandjetport.org/faqs",
+      "state": "ME",
+      "type": "By arrangement: security practice with TSA Cares and a short airport tour for first-time travelers and people with disabilities. Contact khughes@portlandmaine.gov before visiting; confirm timing, access and any fees. This is not a scheduled group event.",
+      "mode": "check",
+      "enabled": true,
+      "timezone": "America/New_York",
+      "allowedHosts": [
+        "portlandjetport.org"
+      ],
+      "autoPublish": false,
+      "feedVerified": false,
+      "sourceCheckedAt": "2026-10-08T09:48:51Z",
+      "status": "manually-checked",
+      "lastChecked": "2026-10-08T09:48:51Z"
+    },
+    {
+      "id": "logan-airplane-simulation",
+      "name": "Boston Logan — sensory room & airplane simulation",
+      "url": "https://www.massport.com/logan-airport/at-the-airport/ada-compliance-and-accessibility",
+      "state": "MA",
+      "type": "Ongoing passenger resource: practice the onboard setting in the airplane simulation room within the sensory room. Terminal E, beyond security near E15; open 24 hours. Intended for passengers with sensory needs, not a public drop-in airport rehearsal. Confirm access with Massport before planning a visit.",
+      "mode": "check",
+      "enabled": true,
+      "timezone": "America/New_York",
+      "allowedHosts": [
+        "www.massport.com"
+      ],
+      "autoPublish": false,
+      "feedVerified": false,
+      "sourceCheckedAt": "2026-10-08T09:48:51Z",
+      "status": "manually-checked",
+      "lastChecked": "2026-10-08T09:48:51Z"
     }
   ],
   "events": [
