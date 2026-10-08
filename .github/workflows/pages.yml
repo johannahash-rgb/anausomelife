@@ -33,6 +33,9 @@ jobs:
           mkdir -p _site
           rsync -a --exclude='.git/' --exclude='.github/' --exclude='_site/' --exclude='*.md' --exclude='docs/' --exclude='tools/' --exclude='tests/' --exclude='scripts/' --exclude='services/' --exclude='*.py' --exclude='*.cjs' --exclude='*.example' --exclude='site-audit-report.json' ./ _site/
 
+      - name: Prepare original-photo social previews
+        run: python .github/scripts/enrich_social_meta.py --root _site
+
       - name: Verify publishable site assets and navigation
         run: python .github/scripts/site_audit.py --root _site --external-limit 0 --strict
 
