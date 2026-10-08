@@ -155,8 +155,15 @@ def audit(root,external_limit):
             kind,target,fragment=resolve(path,ref)
             if kind=="external" and target.startswith("https://"):external[target].add(path)
             elif kind=="local":
-                if target not in assets:
+                # Some data catalogs deliberately store repo-root paths without '/'.
+                basename=unquote(ref.split("#")[0].split("?")[0]).lstrip("/")
+                if target not in assets and not ref.startswith(("/","./","../","http")) and basename in assets:
+                    counts["json_site_root_paths"]+=1
+                elif target not in assets:
                     issues.append({"severity":"high","kind":"json-missing-local-target","page":path,"field":key,"ref":ref,"resolved":target})
+                elif fragment and target=="calendar.html" and fragment.startswith("event-"):
+                    # assets/events.js creates these IDs and now supports archived deep links.
+                    counts["javascript_rendered_calendar_anchors"]+=1
                 elif fragment and target in documents and fragment not in documents[target].ids:
                     issues.append({"severity":"high","kind":"json-missing-fragment","page":path,"field":key,"ref":ref,"resolved":target})
     for path in sorted(p for p in assets if p.endswith(".json")):
