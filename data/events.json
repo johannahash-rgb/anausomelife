@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-10-08T13:10:08Z",
+  "generatedAt": "2026-10-08T13:25:46Z",
   "lastEditorialReview": "2026-10-06T16:29:41Z",
   "timezone": "America/New_York",
   "coverage": "Selected New England adaptive and sensory-friendly events, with a verified free-admission filter and free-program directory. Not exhaustive.",
@@ -1248,6 +1248,44 @@
       "sourceCheckedAt": "2026-10-08T13:10:08Z",
       "status": "manually-checked",
       "lastChecked": "2026-10-08T13:10:08Z"
+    },
+    {
+      "id": "flutie-foundation",
+      "name": "Doug Flutie, Jr. Foundation for Autism",
+      "url": "https://flutiefoundation.org/whats-happening/events/",
+      "state": "New England",
+      "mode": "manual",
+      "enabled": false,
+      "timezone": "America/New_York",
+      "allowedHosts": [
+        "flutiefoundation.org",
+        "runsignup.com",
+        "secure.qgiv.com"
+      ],
+      "autoPublish": false,
+      "feedVerified": false,
+      "sourceCheckedAt": "2026-10-08T13:25:46Z",
+      "status": "manually-checked",
+      "lastChecked": "2026-10-08T13:25:46Z"
+    },
+    {
+      "id": "flutie-locations",
+      "name": "Flutie 5K locations and partner races",
+      "url": "https://flutiefoundation.org/get-involved/run-flutie/flutie-5k/5k-locations/",
+      "state": "New England",
+      "mode": "manual",
+      "enabled": false,
+      "timezone": "America/New_York",
+      "allowedHosts": [
+        "flutiefoundation.org",
+        "runsignup.com",
+        "secure.qgiv.com"
+      ],
+      "autoPublish": false,
+      "feedVerified": false,
+      "sourceCheckedAt": "2026-10-08T13:25:46Z",
+      "status": "manually-checked",
+      "lastChecked": "2026-10-08T13:25:46Z"
     }
   ],
   "events": [
@@ -1953,6 +1991,49 @@
       "reviewRequired": false,
       "status": "scheduled",
       "costCategory": "free"
+    },
+    {
+      "id": "flutie-providence-2026-10-11",
+      "title": "Flutie 5K for Autism — Providence",
+      "start": "2026-10-11T09:30:00-04:00",
+      "end": "2026-10-11T11:30:00-04:00",
+      "state": "RI",
+      "city": "Providence",
+      "venue": "Temple to Music, Roger Williams Park",
+      "address": "F C Greene Memorial Boulevard, Providence, RI 02910",
+      "cost": "Listed race fees $10–$35; confirm age-based discounts and checkout fees.",
+      "costCategory": "paid",
+      "ages": "Families, children and adults; youth registration rules apply.",
+      "summary": "Run, walk or roll at Roger Williams Park. Choose a timed 5K or an untimed half-distance route; wheelchair and duo-team divisions are available.",
+      "sourceUrl": "https://runsignup.com/Race/RI/Providence/Flutie5K2025",
+      "scheduleEvidence": "https://runsignup.com/Race/Flutie5K2025/Page/FAQ",
+      "registration": "Register online. Race-day registration closes at 9 a.m.; bib pickup opens at 8 a.m. Questions: 5k@flutiefoundation.org.",
+      "accessibility": [
+        "Wheelchair/duo-team divisions and a shorter walk/roll route.",
+        "Strollers may participate in the Roll category."
+      ],
+      "notes": [
+        "Race begins at 9:30 a.m.; awards at 10:45 a.m.; event ends at 11:30 a.m.",
+        "Optional early bib pickup: October 10, 9–11 a.m., Sargent Rehabilitation Center, 800 Quaker Lane, East Greenwich."
+      ],
+      "fieldNotes": {
+        "terrain": "Mostly paved with some grass and hills; ask about the route for your equipment.",
+        "parking": "Organizer recommends Carousel Village or Pine Hill Avenue.",
+        "restrooms": "Portable toilets on Pine Hill Avenue; accessible units and changing facilities not confirmed.",
+        "sensory": "Announcements, music and activities are scheduled; quiet space and sound levels are not confirmed.",
+        "evidence": "Race page and organizer FAQ checked October 8, 2026.",
+        "accessibilityUrl": "https://runsignup.com/Race/Flutie5K2025/Page/FAQ"
+      },
+      "timezone": "America/New_York",
+      "sourceId": "flutie-foundation",
+      "lastVerified": "2026-10-08T13:25:46Z",
+      "verificationMethod": "Official Foundation listing and organizer race/ticket pages reviewed October 8, 2026.",
+      "reviewRequired": false,
+      "status": "scheduled",
+      "category": "Inclusive sports",
+      "format": "In person",
+      "cancellationPolicy": "Check the organizer for cancellation and refund terms.",
+      "ticketUrl": "https://runsignup.com/Race/RI/Providence/Flutie5K2025"
     },
     {
       "id": "jcc-sensory-2026-10-11",
@@ -3007,6 +3088,42 @@
       "format": "In person"
     },
     {
+      "id": "flutie-big-night-2026-10-22",
+      "title": "Flutie’s Big Night for Autism",
+      "start": "2026-10-22T17:30:00-04:00",
+      "end": "2026-10-22T20:00:00-04:00",
+      "state": "MA",
+      "city": "Boston",
+      "venue": "Big Night Live — Studio B",
+      "address": "110 Causeway Street, Boston, MA",
+      "cost": "Ticketed fundraiser; check the official booking page for current prices.",
+      "costCategory": "paid",
+      "ages": "Age/admission rules are not published in the Foundation listing; confirm before buying.",
+      "summary": "An evening fundraiser celebrating Doug Flutie’s birthday and the Foundation’s $50 million fundraising milestone.",
+      "sourceUrl": "https://flutiefoundation.org/whats-happening/events/",
+      "ticketUrl": "https://secure.qgiv.com/event/flutiebignightforautism/",
+      "registration": "Tickets through the Foundation’s event page. Questions: tladka@flutiefoundation.org.",
+      "accessibility": [],
+      "notes": [
+        "This is a fundraising celebration; a sensory-friendly session is not advertised."
+      ],
+      "fieldNotes": {
+        "mobility": "Ask the organizer about step-free entry, seating and companion arrangements.",
+        "sensory": "Sound, lighting, crowd size and quiet space are not confirmed.",
+        "restrooms": "Accessible restrooms and changing facilities not confirmed.",
+        "parking": "Confirm an accessible drop-off and your arrival route before traveling."
+      },
+      "timezone": "America/New_York",
+      "sourceId": "flutie-foundation",
+      "lastVerified": "2026-10-08T13:25:46Z",
+      "verificationMethod": "Official Foundation listing and organizer race/ticket pages reviewed October 8, 2026.",
+      "reviewRequired": false,
+      "status": "scheduled",
+      "category": "Fundraisers",
+      "format": "In person",
+      "cancellationPolicy": "Check the organizer for cancellation and refund terms."
+    },
+    {
       "timezone": "America/New_York",
       "ticketUrl": null,
       "cancellationPolicy": "Not stated in the checked listing; confirm with the organizer.",
@@ -3135,6 +3252,46 @@
       "status": "scheduled",
       "category": "Nature & outdoors",
       "format": "In person"
+    },
+    {
+      "id": "flutie-rome-2026-10-24",
+      "title": "Flutie 5K for Autism — Pine Tree Camp",
+      "start": "2026-10-24T09:15:00-04:00",
+      "end": "2026-10-24T10:30:00-04:00",
+      "state": "ME",
+      "city": "Rome",
+      "venue": "Pine Tree Camp",
+      "address": "114 Pine Tree Camp Road, Rome, ME 04963",
+      "cost": "5K: $35 plus fees; ages 6–14: $15 plus fees. Kids’ fun run: $10 plus fees. Confirm at checkout.",
+      "costCategory": "paid",
+      "ages": "Families, children and adults; kids’ fun run is for ages 10 and under.",
+      "summary": "A run, walk and roll at Pine Tree Camp, with wheelchair/handcycle/duo-team entries and a Chirichella Adaptive Division. The children’s race starts before the 5K.",
+      "sourceUrl": "https://runsignup.com/Race/ME/Rome/Flutie5KForAutismRomeME",
+      "registration": "Choose the appropriate division online. Ask 5k@flutiefoundation.org about registration accommodations.",
+      "accessibility": [
+        "Wheelchair, handcycle and duo-team divisions.",
+        "Adaptive running division for athletes with autism and intellectual/developmental disabilities."
+      ],
+      "notes": [
+        "Kids’ fun run starts at 9:15 a.m.; the 5K starts at 9:30 a.m. The published race schedule runs through 10:30 a.m.; confirm any later activities."
+      ],
+      "fieldNotes": {
+        "terrain": "Organizer describes paved, gravel and grass surfaces and universally designed camp trails; confirm suitability for your equipment.",
+        "sensory": "An outdoor race; amplification, crowds and quiet spaces are not confirmed.",
+        "restrooms": "Event restroom and changing arrangements are not confirmed.",
+        "parking": "Ask for race-day parking and accessible drop-off instructions.",
+        "weather": "Outdoor event; check weather and cancellation notices."
+      },
+      "timezone": "America/New_York",
+      "sourceId": "flutie-foundation",
+      "lastVerified": "2026-10-08T13:25:46Z",
+      "verificationMethod": "Official Foundation listing and organizer race/ticket pages reviewed October 8, 2026.",
+      "reviewRequired": false,
+      "status": "scheduled",
+      "category": "Inclusive sports",
+      "format": "In person",
+      "cancellationPolicy": "Check the organizer for cancellation and refund terms.",
+      "ticketUrl": "https://runsignup.com/Race/ME/Rome/Flutie5KForAutismRomeME"
     },
     {
       "timezone": "America/New_York",
@@ -3312,6 +3469,48 @@
       "status": "scheduled",
       "category": "Sensory-friendly",
       "format": "In person"
+    },
+    {
+      "id": "flutie-natick-2026-10-25",
+      "title": "27th Annual Flutie 5K for Autism — Natick",
+      "start": "2026-10-25T09:00:00-04:00",
+      "end": "2026-10-25T23:59:59-04:00",
+      "endTimeUnconfirmed": true,
+      "state": "MA",
+      "city": "Natick",
+      "venue": "Memorial Field, Natick High School",
+      "address": "84 West Street, Natick, MA 01760",
+      "cost": "5K/walk/roll: $43.40 including posted fee; ages 6–14: $16.90. Kids’ fun run: $11.60. Confirm current checkout totals.",
+      "costCategory": "paid",
+      "ages": "Families, children and adults; kids’ fun run is for ages 10 and under.",
+      "summary": "The flagship Flutie run/walk/roll offers a timed 5K, an untimed half-distance walk, wheelchair/handcycle/duo-team entries and an adaptive running division.",
+      "sourceUrl": "https://runsignup.com/flutie5k",
+      "registration": "Advance registration required; the FAQ says no race-day registration. Questions: 5k@flutiefoundation.org.",
+      "accessibility": [
+        "Wheelchair, handcycle, duo-team and adaptive running divisions.",
+        "Strollers permitted in the 5K Roll or half-distance Walk category."
+      ],
+      "notes": [
+        "5K starts at 9 a.m.; kids’ fun run at 10:15 a.m. Overall finish time is not published.",
+        "Early packet pickup: October 24, noon–6 p.m., Memorial Field ticket booth. Race-day pickup opens at 7 a.m."
+      ],
+      "fieldNotes": {
+        "parking": "Most participants will be assigned off-site parking with a shuttle. Confirm accessible parking and shuttle arrangements in advance.",
+        "restrooms": "Portable toilets at Memorial Field; accessible units and changing facilities not confirmed.",
+        "sensory": "A busy race gathering; no quiet session is advertised. Ask about breaks and amplification.",
+        "evidence": "Organizer race page and FAQ checked October 8, 2026.",
+        "accessibilityUrl": "https://runsignup.com/Race/TheFlutie5KForAutism/Page/FAQ"
+      },
+      "timezone": "America/New_York",
+      "sourceId": "flutie-foundation",
+      "lastVerified": "2026-10-08T13:25:46Z",
+      "verificationMethod": "Official Foundation listing and organizer race/ticket pages reviewed October 8, 2026.",
+      "reviewRequired": false,
+      "status": "scheduled",
+      "category": "Inclusive sports",
+      "format": "In person",
+      "cancellationPolicy": "Check the organizer for cancellation and refund terms.",
+      "ticketUrl": "https://runsignup.com/flutie5k"
     },
     {
       "id": "jcc-sensory-2026-10-25",
@@ -4036,6 +4235,47 @@
         "Charles River Center confirms November 7, 2026, 9 a.m.–noon: https://www.charlesrivercenter.org/event/wings-for-autism-8/"
       ],
       "category": "Travel practice"
+    },
+    {
+      "id": "flutie-mds-keene-2026-11-07",
+      "title": "MDS Run~Walk~Smile × Flutie 5K — Keene",
+      "start": "2026-11-07T09:15:00-05:00",
+      "end": "2026-11-07T11:30:00-05:00",
+      "state": "NH",
+      "city": "Keene",
+      "venue": "Whitney Brothers parking lot",
+      "address": "93 Railroad Street, Keene, NH 03431",
+      "cost": "1-mile fun run $20; 5K $40; 10K $45, plus checkout fees. Youth discounts available.",
+      "costCategory": "paid",
+      "ages": "Families, children and adults; choose a suitable distance and division.",
+      "summary": "Monadnock Developmental Services joins Flutie for a one-mile family event, 5K and 10K. Proceeds support dental care for adults with developmental disabilities.",
+      "sourceUrl": "https://runsignup.com/Race/NH/Keene/11thAnnualMDSRunWalkSmile",
+      "registration": "Register online; the FAQ also lists race-day registration from 8 a.m. Confirm availability.",
+      "accessibility": [
+        "5K divisions include adaptive runners, walkers, wheelchairs and duo teams."
+      ],
+      "notes": [
+        "1-mile event: 9:15–9:45 a.m. The 5K and 10K start at 10 a.m.; the 10K schedule ends at 11:30 a.m.",
+        "Early bib pickup: November 6, 3:30–5:30 p.m., MDS, 121 Railroad Street. Race day check-in is at 93 Railroad Street."
+      ],
+      "fieldNotes": {
+        "parking": "Use legal adjacent parking near 93 Railroad Street and Community Way; follow posted restrictions.",
+        "terrain": "Check the chosen course; the 10K includes elevation gain.",
+        "restrooms": "Portable toilets at the start/finish; accessible units and changing facilities not confirmed.",
+        "sensory": "Quiet areas and sound levels are not confirmed.",
+        "evidence": "The race FAQ identifies 93 Railroad Street; the Foundation directory lists 97. Use the race-specific instructions and confirm arrival.",
+        "accessibilityUrl": "https://runsignup.com/Race/11thAnnualMDSRunWalkSmile/Page/FAQ"
+      },
+      "timezone": "America/New_York",
+      "sourceId": "flutie-foundation",
+      "lastVerified": "2026-10-08T13:25:46Z",
+      "verificationMethod": "Official Foundation listing and organizer race/ticket pages reviewed October 8, 2026.",
+      "reviewRequired": false,
+      "status": "scheduled",
+      "category": "Inclusive sports",
+      "format": "In person",
+      "cancellationPolicy": "Check the organizer for cancellation and refund terms.",
+      "ticketUrl": "https://runsignup.com/Race/NH/Keene/11thAnnualMDSRunWalkSmile"
     },
     {
       "id": "weir-open-2026-11-07",
@@ -5862,6 +6102,76 @@
       "sourceUrl": "https://ucpofmaine.org/events/pumpkins-in-the-park/",
       "organizerUrl": "https://ucpofmaine.org/events/pumpkins-in-the-park/",
       "lastKnown": "Official page reviewed October 6, 2026"
+    },
+    {
+      "id": "flutie-boston-marathon-2027",
+      "state": "MA",
+      "title": "Dougie’s Team — 2027 Boston Marathon",
+      "status": "April 19, 2027 · team waitlist; race schedule pending",
+      "note": "Flutie’s charity-team applications are closed; a waitlist is available. Published fundraising commitments are $10,000 for a charity entry and $1,000 for qualified runners joining the team, including qualified adaptive-program runners. This is an endurance race with eligibility rules, not a casual family 5K. Contact dougiesteam@flutiefoundation.org.",
+      "lastKnown": "April 19, 2027; official team page checked October 8, 2026",
+      "sourceUrl": "https://flutiefoundation.org/whats-happening/events/boston-marathon/",
+      "organizerUrl": "https://flutiefoundation.org/whats-happening/events/boston-marathon/"
+    },
+    {
+      "id": "flutie-falmouth-2027",
+      "state": "MA",
+      "title": "Dougie’s Team — 2027 Falmouth Road Race",
+      "status": "August 15, 2027 · interest list; details pending",
+      "note": "The Foundation lists August 15, 2027 and offers an interest list. Confirm the 2027 entry process, fundraising commitment, participant eligibility and start schedule when announced. Contact dougiesteam@flutiefoundation.org.",
+      "lastKnown": "Official page checked October 8, 2026",
+      "sourceUrl": "https://flutiefoundation.org/whats-happening/events/asics-falmouth-road-race/",
+      "organizerUrl": "https://flutiefoundation.org/whats-happening/events/asics-falmouth-road-race/"
+    },
+    {
+      "id": "flutie-your-way-2026",
+      "state": "New England / virtual",
+      "title": "Flutie 5K Your Way — choose your own route",
+      "status": "Virtual option open through December 31, 2026",
+      "note": "Run, walk or roll at a time and place you choose. The published registration is $35 before any checkout fee, with a shirt and medal mailed. This is a flexible participation window, not a scheduled in-person gathering. Questions: 5k@flutiefoundation.org.",
+      "lastKnown": "2026 registration window and official page checked October 8, 2026",
+      "sourceUrl": "https://runsignup.com/Race/MA/Waltham/VirtualFlutie5KForAutism2025",
+      "organizerUrl": "https://runsignup.com/Race/MA/Waltham/VirtualFlutie5KForAutism2025"
+    },
+    {
+      "id": "flutie-bernardston-next",
+      "state": "MA",
+      "title": "Flutie 5K — Bernardston: next date",
+      "status": "2026 event finished · next date not announced",
+      "note": "The 2026 race at Pratts Field took place June 13. The Foundation now links to results; wait for a new dated announcement before planning a visit.",
+      "lastKnown": "June 13, 2026; directory checked October 8, 2026",
+      "sourceUrl": "https://flutiefoundation.org/get-involved/run-flutie/flutie-5k/5k-locations/",
+      "organizerUrl": "https://flutiefoundation.org/get-involved/run-flutie/flutie-5k/5k-locations/"
+    },
+    {
+      "id": "flutie-vineyard-next",
+      "state": "MA",
+      "title": "Flutie 5K — Martha’s Vineyard: next date",
+      "status": "2026 event finished · next date not announced",
+      "note": "The 2026 West Tisbury event was July 25. The Foundation now links to results; a future date has not been published in the checked directory.",
+      "lastKnown": "July 25, 2026; directory checked October 8, 2026",
+      "sourceUrl": "https://flutiefoundation.org/get-involved/run-flutie/flutie-5k/5k-locations/",
+      "organizerUrl": "https://flutiefoundation.org/get-involved/run-flutie/flutie-5k/5k-locations/"
+    },
+    {
+      "id": "flutie-stars-spectrum-next",
+      "state": "MA",
+      "title": "Flutie STARS of the Spectrum — next concert",
+      "status": "Next concert date not announced",
+      "note": "The public concert page still lists April 19, 2026 at Big Night Live in Boston. That event has passed; a future date and ticket offer are not confirmed. Check the official page for the next announcement.",
+      "lastKnown": "Official concert page checked October 8, 2026",
+      "sourceUrl": "https://flutiefoundation.org/starsofthespectrum/",
+      "organizerUrl": "https://flutiefoundation.org/starsofthespectrum/"
+    },
+    {
+      "id": "flutie-get-air-new-england",
+      "state": "New England",
+      "title": "Flutie partner Get Air — sensory jump sessions",
+      "status": "Recurring partner program · local dates need confirmation",
+      "note": "The Foundation describes Get Air’s “A Special Time for You” sensory sessions. Current Revere, Swansea and Williston pages do not show a confirmed next session. Call the local park before planning: Revere 781-207-9334; Swansea 508-297-9142; Williston 802-497-5031. Fees, caregiver admission and supports must be confirmed locally.",
+      "lastKnown": "Partnership and current location pages checked October 8, 2026",
+      "sourceUrl": "https://flutiefoundation.org/ways-to-give/corporate-partnerships/get-air-trampoline-parks/",
+      "organizerUrl": "https://getairsports.com/park-locator"
     }
   ],
   "freePrograms": [

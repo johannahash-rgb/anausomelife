@@ -4876,6 +4876,187 @@
         "sourceDetailsCheckedAt": "2026-10-08",
         "basis": "Organizer flyer; no confirmed sensory rating."
       }
+    },
+    "flutie-providence-2026-10-11": {
+      "ageGroups": [
+        "families",
+        "children",
+        "teens",
+        "adults"
+      ],
+      "accessFeatures": [
+        "adaptive-activities"
+      ],
+      "ageEvidence": {
+        "families": {
+          "url": "https://runsignup.com/Race/RI/Providence/Flutie5K2025"
+        },
+        "children": {
+          "url": "https://runsignup.com/Race/RI/Providence/Flutie5K2025"
+        },
+        "teens": {
+          "url": "https://runsignup.com/Race/RI/Providence/Flutie5K2025"
+        },
+        "adults": {
+          "url": "https://runsignup.com/Race/RI/Providence/Flutie5K2025"
+        }
+      },
+      "accessEvidence": {
+        "adaptive-activities": {
+          "url": "https://runsignup.com/Race/RI/Providence/Flutie5K2025"
+        }
+      },
+      "checkedAt": "2026-10-08",
+      "holidays": [],
+      "holidayEvidence": {},
+      "sensory": {
+        "level": "unknown",
+        "note": "Announcements, music and activities are scheduled; quiet space and sound levels are not confirmed.",
+        "sourceUrl": "https://runsignup.com/Race/RI/Providence/Flutie5K2025",
+        "checkedAt": "2026-10-08",
+        "sourceDetailsCheckedAt": "2026-10-08",
+        "basis": "Organizer details; no measured sensory rating."
+      }
+    },
+    "flutie-big-night-2026-10-22": {
+      "ageGroups": [],
+      "accessFeatures": [],
+      "ageEvidence": {},
+      "accessEvidence": {},
+      "checkedAt": "2026-10-08",
+      "holidays": [],
+      "holidayEvidence": {},
+      "sensory": {
+        "level": "unknown",
+        "note": "Sound, lighting, crowd size and quiet space are not confirmed.",
+        "sourceUrl": "https://flutiefoundation.org/whats-happening/events/",
+        "checkedAt": "2026-10-08",
+        "sourceDetailsCheckedAt": "2026-10-08",
+        "basis": "Organizer details; no measured sensory rating."
+      }
+    },
+    "flutie-rome-2026-10-24": {
+      "ageGroups": [
+        "families",
+        "children",
+        "teens",
+        "adults"
+      ],
+      "accessFeatures": [
+        "adaptive-activities"
+      ],
+      "ageEvidence": {
+        "families": {
+          "url": "https://runsignup.com/Race/ME/Rome/Flutie5KForAutismRomeME"
+        },
+        "children": {
+          "url": "https://runsignup.com/Race/ME/Rome/Flutie5KForAutismRomeME"
+        },
+        "teens": {
+          "url": "https://runsignup.com/Race/ME/Rome/Flutie5KForAutismRomeME"
+        },
+        "adults": {
+          "url": "https://runsignup.com/Race/ME/Rome/Flutie5KForAutismRomeME"
+        }
+      },
+      "accessEvidence": {
+        "adaptive-activities": {
+          "url": "https://runsignup.com/Race/ME/Rome/Flutie5KForAutismRomeME"
+        }
+      },
+      "checkedAt": "2026-10-08",
+      "holidays": [],
+      "holidayEvidence": {},
+      "sensory": {
+        "level": "unknown",
+        "note": "An outdoor race; amplification, crowds and quiet spaces are not confirmed.",
+        "sourceUrl": "https://runsignup.com/Race/ME/Rome/Flutie5KForAutismRomeME",
+        "checkedAt": "2026-10-08",
+        "sourceDetailsCheckedAt": "2026-10-08",
+        "basis": "Organizer details; no measured sensory rating."
+      }
+    },
+    "flutie-natick-2026-10-25": {
+      "ageGroups": [
+        "families",
+        "children",
+        "teens",
+        "adults"
+      ],
+      "accessFeatures": [
+        "adaptive-activities"
+      ],
+      "ageEvidence": {
+        "families": {
+          "url": "https://runsignup.com/flutie5k"
+        },
+        "children": {
+          "url": "https://runsignup.com/flutie5k"
+        },
+        "teens": {
+          "url": "https://runsignup.com/flutie5k"
+        },
+        "adults": {
+          "url": "https://runsignup.com/flutie5k"
+        }
+      },
+      "accessEvidence": {
+        "adaptive-activities": {
+          "url": "https://runsignup.com/flutie5k"
+        }
+      },
+      "checkedAt": "2026-10-08",
+      "holidays": [],
+      "holidayEvidence": {},
+      "sensory": {
+        "level": "unknown",
+        "note": "A busy race gathering; no quiet session is advertised. Ask about breaks and amplification.",
+        "sourceUrl": "https://runsignup.com/flutie5k",
+        "checkedAt": "2026-10-08",
+        "sourceDetailsCheckedAt": "2026-10-08",
+        "basis": "Organizer details; no measured sensory rating."
+      }
+    },
+    "flutie-mds-keene-2026-11-07": {
+      "ageGroups": [
+        "families",
+        "children",
+        "teens",
+        "adults"
+      ],
+      "accessFeatures": [
+        "adaptive-activities"
+      ],
+      "ageEvidence": {
+        "families": {
+          "url": "https://runsignup.com/Race/NH/Keene/11thAnnualMDSRunWalkSmile"
+        },
+        "children": {
+          "url": "https://runsignup.com/Race/NH/Keene/11thAnnualMDSRunWalkSmile"
+        },
+        "teens": {
+          "url": "https://runsignup.com/Race/NH/Keene/11thAnnualMDSRunWalkSmile"
+        },
+        "adults": {
+          "url": "https://runsignup.com/Race/NH/Keene/11thAnnualMDSRunWalkSmile"
+        }
+      },
+      "accessEvidence": {
+        "adaptive-activities": {
+          "url": "https://runsignup.com/Race/NH/Keene/11thAnnualMDSRunWalkSmile"
+        }
+      },
+      "checkedAt": "2026-10-08",
+      "holidays": [],
+      "holidayEvidence": {},
+      "sensory": {
+        "level": "unknown",
+        "note": "Quiet areas and sound levels are not confirmed.",
+        "sourceUrl": "https://runsignup.com/Race/NH/Keene/11thAnnualMDSRunWalkSmile",
+        "checkedAt": "2026-10-08",
+        "sourceDetailsCheckedAt": "2026-10-08",
+        "basis": "Organizer details; no measured sensory rating."
+      }
     }
   },
   "sensoryMethod": "Sensory levels are editorial planning estimates based on the specific published conditions, not medical ratings or promises. Low means reduced stimulation, moderate means some ongoing music or activity, high means a likely stimulating mix, variable means conditions or parts of the visit differ, and unknown means evidence is insufficient. Sensory-friendly and disability-inclusive are not automatic low-sensory ratings. Earlier event verification dates remain visible."

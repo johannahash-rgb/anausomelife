@@ -1188,6 +1188,56 @@
       "venue": "McConnell Park",
       "start": "2026-10-18T10:00:00-04:00",
       "reusedFromEvent": "aa-halloween-dance-2026-10-16"
+    },
+    "flutie-providence-2026-10-11": {
+      "src": "/assets/event-sketches/some-workout-2026-11-03.webp",
+      "alt": "Watercolor study of a green exercise mat, athletic shoes, striped towel and sturdy wooden chair.",
+      "width": 720,
+      "height": 480,
+      "title": "Flutie 5K for Autism — Providence",
+      "venue": "Temple to Music, Roger Williams Park",
+      "start": "2026-10-11T09:30:00-04:00",
+      "reusedFromEvent": "some-workout-2026-11-03"
+    },
+    "flutie-big-night-2026-10-22": {
+      "src": "/assets/event-sketches/carroll-90th-2026-11-07.webp",
+      "alt": "Watercolor open-house table with a tactile globe, closed keepsake album, tea service and autumn flowers.",
+      "width": 720,
+      "height": 480,
+      "title": "Flutie’s Big Night for Autism",
+      "venue": "Big Night Live — Studio B",
+      "start": "2026-10-22T17:30:00-04:00",
+      "reusedFromEvent": "carroll-90th-2026-11-07"
+    },
+    "flutie-rome-2026-10-24": {
+      "src": "/assets/event-sketches/some-workout-2026-11-03.webp",
+      "alt": "Watercolor study of a green exercise mat, athletic shoes, striped towel and sturdy wooden chair.",
+      "width": 720,
+      "height": 480,
+      "title": "Flutie 5K for Autism — Pine Tree Camp",
+      "venue": "Pine Tree Camp",
+      "start": "2026-10-24T09:15:00-04:00",
+      "reusedFromEvent": "some-workout-2026-11-03"
+    },
+    "flutie-natick-2026-10-25": {
+      "src": "/assets/event-sketches/some-workout-2026-11-03.webp",
+      "alt": "Watercolor study of a green exercise mat, athletic shoes, striped towel and sturdy wooden chair.",
+      "width": 720,
+      "height": 480,
+      "title": "27th Annual Flutie 5K for Autism — Natick",
+      "venue": "Memorial Field, Natick High School",
+      "start": "2026-10-25T09:00:00-04:00",
+      "reusedFromEvent": "some-workout-2026-11-03"
+    },
+    "flutie-mds-keene-2026-11-07": {
+      "src": "/assets/event-sketches/some-workout-2026-11-03.webp",
+      "alt": "Watercolor study of a green exercise mat, athletic shoes, striped towel and sturdy wooden chair.",
+      "width": 720,
+      "height": 480,
+      "title": "MDS Run~Walk~Smile × Flutie 5K — Keene",
+      "venue": "Whitney Brothers parking lot",
+      "start": "2026-11-07T09:15:00-05:00",
+      "reusedFromEvent": "some-workout-2026-11-03"
     }
   },
   "watchlist": {
@@ -1245,6 +1295,76 @@
       "width": 720,
       "height": 480,
       "reusedFromEvent": "rwpzoo-2026-10-20"
+    },
+    "flutie-boston-marathon-2027": {
+      "src": "/assets/event-sketches/some-workout-2026-11-03.webp",
+      "alt": "Watercolor study of a green exercise mat, athletic shoes, striped towel and sturdy wooden chair.",
+      "width": 720,
+      "height": 480,
+      "title": "Dougie’s Team — 2027 Boston Marathon",
+      "venue": "The Point Community Center",
+      "start": "2026-11-03T15:00:00-05:00",
+      "reusedFromEvent": "some-workout-2026-11-03"
+    },
+    "flutie-falmouth-2027": {
+      "src": "/assets/event-sketches/some-workout-2026-11-03.webp",
+      "alt": "Watercolor study of a green exercise mat, athletic shoes, striped towel and sturdy wooden chair.",
+      "width": 720,
+      "height": 480,
+      "title": "Dougie’s Team — 2027 Falmouth Road Race",
+      "venue": "The Point Community Center",
+      "start": "2026-11-03T15:00:00-05:00",
+      "reusedFromEvent": "some-workout-2026-11-03"
+    },
+    "flutie-your-way-2026": {
+      "src": "/assets/event-sketches/some-workout-2026-11-03.webp",
+      "alt": "Watercolor study of a green exercise mat, athletic shoes, striped towel and sturdy wooden chair.",
+      "width": 720,
+      "height": 480,
+      "title": "Flutie 5K Your Way — choose your own route",
+      "venue": "The Point Community Center",
+      "start": "2026-11-03T15:00:00-05:00",
+      "reusedFromEvent": "some-workout-2026-11-03"
+    },
+    "flutie-bernardston-next": {
+      "src": "/assets/event-sketches/some-workout-2026-11-03.webp",
+      "alt": "Watercolor study of a green exercise mat, athletic shoes, striped towel and sturdy wooden chair.",
+      "width": 720,
+      "height": 480,
+      "title": "Flutie 5K — Bernardston: next date",
+      "venue": "The Point Community Center",
+      "start": "2026-11-03T15:00:00-05:00",
+      "reusedFromEvent": "some-workout-2026-11-03"
+    },
+    "flutie-vineyard-next": {
+      "src": "/assets/event-sketches/some-workout-2026-11-03.webp",
+      "alt": "Watercolor study of a green exercise mat, athletic shoes, striped towel and sturdy wooden chair.",
+      "width": 720,
+      "height": 480,
+      "title": "Flutie 5K — Martha’s Vineyard: next date",
+      "venue": "The Point Community Center",
+      "start": "2026-11-03T15:00:00-05:00",
+      "reusedFromEvent": "some-workout-2026-11-03"
+    },
+    "flutie-stars-spectrum-next": {
+      "src": "/assets/event-sketches/carroll-90th-2026-11-07.webp",
+      "alt": "Watercolor open-house table with a tactile globe, closed keepsake album, tea service and autumn flowers.",
+      "width": 720,
+      "height": 480,
+      "title": "Flutie STARS of the Spectrum — next concert",
+      "venue": "The Carroll Center for the Blind",
+      "start": "2026-11-07T13:00:00-05:00",
+      "reusedFromEvent": "carroll-90th-2026-11-07"
+    },
+    "flutie-get-air-new-england": {
+      "src": "/assets/event-sketches/trampoline-play.webp",
+      "alt": "Original ink-and-watercolor study of a navy trampoline edge and striped grip socks.",
+      "width": 1536,
+      "height": 1024,
+      "title": "Flutie partner Get Air — sensory jump sessions",
+      "venue": "Altitude Trampoline Park Billerica",
+      "start": "2026-10-10T09:00:00-04:00",
+      "reusedFromEvent": "altitude-billerica-2026-10-10"
     }
   },
   "updated": "2026-10-08"
