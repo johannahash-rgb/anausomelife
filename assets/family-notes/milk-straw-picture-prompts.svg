@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 620" role="img" aria-labelledby="title desc">
+<title id="title">MILK and STRAW printable picture communication cards</title>
+<desc id="desc">Two independently drawn prompts for requesting milk and a straw. Original editorial artwork, not official PECS symbols.</desc>
+<rect width="1000" height="620" fill="#faf8f2"/>
+<rect x="33" y="32" width="446" height="552" rx="8" fill="#fff" stroke="#284c52" stroke-width="3"/>
+<rect x="521" y="32" width="446" height="552" rx="8" fill="#fff" stroke="#284c52" stroke-width="3"/>
+<g stroke="#243f48" stroke-width="6" stroke-linejoin="round" stroke-linecap="round">
+<path d="M183 218 Q187 195 201 178 L215 164 V134 H306 V164 L320 178 Q334 193 338 218 L345 377 Q345 397 325 402 H196 Q176 397 176 377 Z" fill="#f5c8cc"/>
+<path d="M185 243 H335 M183 350 H341" fill="none" stroke="#db969d" stroke-width="2.5"/>
+<rect x="207" y="112" width="107" height="48" rx="11" fill="#fff9ed"/>
+<path d="M225 120 V149 M243 120 V149 M261 120 V149 M279 120 V149 M297 120 V149" stroke="#c2b8aa" stroke-width="2.5"/>
+<path d="M218 267 C238 274 285 271 309 266" fill="none" stroke="#fff6f3" stroke-width="8"/>
+<path d="M654 357 L708 205 Q714 189 729 184 L816 184" fill="none" stroke="#6e9fb0" stroke-width="19"/>
+<path d="M654 357 L708 205 Q714 189 729 184 L816 184" fill="none" stroke="#f7fcfd" stroke-width="13"/>
+<path d="M693 245 L706 249 M697 231 L711 234 M703 217 L718 221 M714 203 L726 210" stroke="#7b97a8" stroke-width="3"/>
+</g>
+<path d="M116 448 H392 M604 448 H881" stroke="#d4d6cc" stroke-width="2"/>
+<g fill="#1b3c47" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-weight="700">
+<text x="255" y="536" font-size="72" letter-spacing="6">MILK</text>
+<text x="744" y="536" font-size="72" letter-spacing="6">STRAW</text>
+</g>
+</svg>
