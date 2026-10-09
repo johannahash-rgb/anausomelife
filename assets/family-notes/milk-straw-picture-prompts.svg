@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 620" role="img" aria-labelledby="title desc">
-<title id="title">MILK and STRAW printable picture communication cards</title>
-<desc id="desc">Two independently drawn prompts for requesting milk and a straw. Original editorial artwork, not official PECS symbols.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="620" viewBox="0 0 1000 620" role="img" aria-labelledby="title desc">
+<title id="title">STRAWBERRY MILK and STRAW printable picture communication cards</title>
+<desc id="desc">Two independently drawn prompts: pink milk bottle with a hand-painted watercolor strawberry to indicate strawberry milk, and a bendy straw. Original editorial artwork, not official PECS symbols.</desc>
 <rect width="1000" height="620" fill="#faf8f2"/>
 <rect x="33" y="32" width="446" height="552" rx="8" fill="#fff" stroke="#284c52" stroke-width="3"/>
 <rect x="521" y="32" width="446" height="552" rx="8" fill="#fff" stroke="#284c52" stroke-width="3"/>
@@ -14,9 +14,46 @@
 <path d="M654 357 L708 205 Q714 189 729 184 L816 184" fill="none" stroke="#f7fcfd" stroke-width="13"/>
 <path d="M693 245 L706 249 M697 231 L711 234 M703 217 L718 221 M714 203 L726 210" stroke="#7b97a8" stroke-width="3"/>
 </g>
+<defs>
+  <linearGradient id="berry-watercolor" x1=".12" y1="0" x2=".82" y2="1">
+    <stop offset="0" stop-color="#f7c1bd"/>
+    <stop offset=".28" stop-color="#ef7782"/>
+    <stop offset=".68" stop-color="#d94459"/>
+    <stop offset="1" stop-color="#b63850"/>
+  </linearGradient>
+  <linearGradient id="berry-leaf-wash" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#b5c6a1"/>
+    <stop offset=".5" stop-color="#6c9475"/>
+    <stop offset="1" stop-color="#3f6e61"/>
+  </linearGradient>
+  <clipPath id="strawberry-clip"><path d="M21 43 C11 55 10 72 17 93 C25 117 42 140 51 147 C63 140 79 119 88 95 C97 69 90 52 80 44 C69 35 61 42 52 43 C42 44 31 36 21 43 Z"/></clipPath>
+</defs>
+<!-- An original hand-drawn watercolor strawberry beside the milk bottle. -->
+<g transform="translate(340 242)">
+<ellipse cx="50" cy="149" rx="40" ry="7" fill="#d5d8cb" opacity=".27"/>
+<g clip-path="url(#strawberry-clip)">
+<path d="M21 43 C11 55 10 72 17 93 C25 117 42 140 51 147 C63 140 79 119 88 95 C97 69 90 52 80 44 C69 35 61 42 52 43 C42 44 31 36 21 43 Z" fill="url(#berry-watercolor)"/>
+<path d="M12 70 Q26 37 44 41 Q35 63 36 89 Q29 112 46 144 L14 142 Z" fill="#ffc8c0" opacity=".24"/>
+<path d="M59 32 C79 43 102 66 91 91 C77 89 72 108 62 125 Q74 90 58 64 Z" fill="#a72042" opacity=".12"/>
+<path d="M16 105 C37 92 55 104 77 92 L94 102 L74 137 L55 151 L29 133 Z" fill="#d14d5d" opacity=".2"/>
+<path d="M20 54 Q33 48 48 53" fill="none" stroke="#ffe3d6" stroke-width="5" stroke-linecap="round" opacity=".42"/>
+<path d="M80 70 Q93 88 81 108" fill="none" stroke="#7d2d43" stroke-width="5" stroke-linecap="round" opacity=".14"/>
+</g>
+<path d="M21 43 C11 55 10 72 17 93 C25 117 42 140 51 147 C63 140 79 119 88 95 C97 69 90 52 80 44 C69 35 61 42 52 43 C42 44 31 36 21 43 Z" fill="none" stroke="#925263" stroke-width="2.1" stroke-linejoin="round" opacity=".63"/>
+<g stroke="#ffe9bc" stroke-width="2.7" stroke-linecap="round" opacity=".88">
+<path d="M34 61 l-3 6 M54 61 l-3 7 M72 61 l-2 7"/>
+<path d="M25 82 l-3 6 M45 83 l-2 6 M64 82 l-2 6 M82 84 l-2 6"/>
+<path d="M32 105 l-2 6 M51 105 l-2 7 M70 106 l-2 6"/>
+<path d="M42 125 l-2 5 M60 125 l-2 5"/>
+</g>
+<path d="M51 42 C45 31 32 25 12 30 C22 40 26 44 39 45 C28 45 20 50 18 59 C34 57 43 53 51 47 C58 56 67 60 81 59 C77 49 71 44 61 44 C72 45 85 39 93 29 C76 25 62 31 54 41 Z" fill="url(#berry-leaf-wash)" stroke="#47705b" stroke-width="1.8" stroke-linejoin="round"/>
+<path d="M51 42 Q48 27 52 15" fill="none" stroke="#49715b" stroke-width="3.6" stroke-linecap="round"/>
+<path d="M23 35 Q34 37 45 43 M56 43 Q70 39 81 34 M42 48 Q35 51 29 53" fill="none" stroke="#dce4c9" stroke-width="2" opacity=".67" stroke-linecap="round"/>
+</g>
 <path d="M116 448 H392 M604 448 H881" stroke="#d4d6cc" stroke-width="2"/>
 <g fill="#1b3c47" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-weight="700">
-<text x="255" y="536" font-size="72" letter-spacing="6">MILK</text>
+<text x="255" y="484" font-size="31" letter-spacing="4">STRAWBERRY</text>
+<text x="255" y="550" font-size="70" letter-spacing="6">MILK</text>
 <text x="744" y="536" font-size="72" letter-spacing="6">STRAW</text>
 </g>
 </svg>
