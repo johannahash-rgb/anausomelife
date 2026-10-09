@@ -98,7 +98,7 @@
       ['Family & caregiver roles','/family-roles.html'], ['Field notes for fathers','/paternal-role.html'],
       ['Family agreements','/family-agreements.html'], ['Plans & handoffs','/family-planning-toolkit.html']] },
     { title:'Home & wardrobe', art:'home', description:'Familiar comforts & practical routines', links:[
-      ['At home','/at-home.html'], ['Household reset','/household-reset.html'],
+      ['At home','/at-home.html'], ['The Little Fixes','/little-fixes.html'], ['Household reset','/household-reset.html'],
       ['Family wardrobe','/family-wardrobe.html'], ['School & advocacy','/topics/advocacy.html']] },
     { title:'Journal & little adventures', art:'journal', description:'Family stories, play & small pleasures', links:[
       ['Read the journal','/blog.html'], ['Fun & videos','/kid-fun.html'],
@@ -225,6 +225,7 @@
     {url:'/topics/advocacy.html',title:'School & advocacy',summary:'Prepare the question. Keep the useful record.',category:'advocacy',format:'Topic',aliases:'IEP school special education meeting records transportation'},
     {url:'/family-wardrobe.html',title:'Family wardrobe',summary:'Comfortable, classic clothes built around what people actually want to wear.',category:'style',format:'Guide',aliases:'clothes sensory wardrobe joggers shoes outfit'},
     {url:'/at-home.html',title:'At home',summary:'Meals, household systems and the small things that make an ordinary day easier.',category:'home',format:'Topic',aliases:'house home organization meals routines'},
+    {url:'/little-fixes.html',title:'The Little Fixes',summary:'Small, practical ideas from the family notebook. First up: a straw-holder cap trick with INTENSE strawberry milk bought at Wegmans.',category:'home',format:'Tips',aliases:'mom hacks quick tips household ideas bottle straw strawberry milk wegmans'},
     {url:'/product-guides.html',title:'Product guides',summary:'Useful things chosen for real family life.',category:'products',format:'Directory',aliases:'products shopping gear things we bought'},
     {url:'/about.html',title:'Our story',summary:'What An AUsome Life is and the point of view behind it.',category:'about',format:'Page',aliases:'about meet us who are you mission'},
     {url:'/accessibility.html',title:'Accessibility',summary:'How the site approaches access and usability.',category:'site',format:'Page',aliases:'website accessibility disabled screen reader keyboard'},
