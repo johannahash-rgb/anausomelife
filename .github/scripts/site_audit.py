@@ -9,16 +9,18 @@ from urllib.error import HTTPError,URLError
 
 SITE_HOSTS={"anausomelife.com","www.anausomelife.com"}
 MEDIA_TAGS={"img","source","video","audio","track","iframe","script","embed"}
+DEPLOY_GENERATED_ASSETS={"assets/family-notes/straw-lid-clear.webp","assets/family-notes/straw-lid-cap-clear.webp","assets/family-notes/straw-lid-bottle-open-clear.webp","assets/family-notes/milk-straw-og.jpg"}
 class Page(HTMLParser):
     def __init__(self):
         super().__init__(convert_charrefs=True)
         self.refs=[];self.ids=[];self.images=[];self.metadata={}
-        self.lang=None;self.title="";self.in_title=False;self.h1=0;self.canonical=[]
+        self.lang=None;self.title="";self.in_title=False;self.h1=0;self.canonical=[];self.is_redirect=False;self.skip_targets=[]
     def handle_starttag(self,tag,attrs):
         a=dict(attrs)
         if tag=="html":self.lang=a.get("lang")
         if tag=="title":self.in_title=True
         if tag=="h1":self.h1+=1
+        if tag=="a" and "skip" in (a.get("class") or "").split() and a.get("href"):self.skip_targets.append(a["href"])
         if a.get("id"):self.ids.append(a["id"])
         if tag=="a" and a.get("name"):self.ids.append(a["name"])
         if tag in ("a","area","link") and a.get("href") is not None:
@@ -35,6 +37,7 @@ class Page(HTMLParser):
         if tag=="form" and a.get("action"):self.refs.append((tag,"action",a["action"],self.getpos()[0]))
         if tag=="img":self.images.append((a.get("alt"),a.get("src",""),self.getpos()[0]))
         if tag=="meta":
+            if (a.get("http-equiv") or "").lower()=="refresh":self.is_redirect=True
             key=(a.get("name") or a.get("property") or "").lower()
             if key:self.metadata.setdefault(key,[]).append(a.get("content",""))
             if key in ("og:image","twitter:image") and a.get("content"):
@@ -90,12 +93,22 @@ def audit(root,external_limit):
             doc=Page();doc.feed(file.read_text(encoding="utf-8",errors="replace"));documents[path]=doc
         except Exception as e:issues.append({"severity":"high","kind":"read-failed","page":path,"error":str(e)[:120]})
     for path,doc in documents.items():
-        if not doc.title.strip():issues.append({"severity":"medium","kind":"missing-title","page":path})
-        if not doc.lang:issues.append({"severity":"medium","kind":"missing-lang","page":path})
-        if not doc.metadata.get("description"):issues.append({"severity":"medium","kind":"missing-description","page":path})
-        if doc.h1!=1:issues.append({"severity":"medium","kind":"h1-count","page":path,"count":doc.h1})
-        if not doc.canonical:issues.append({"severity":"low","kind":"missing-canonical","page":path})
-        if not doc.metadata.get("og:image"):issues.append({"severity":"low","kind":"missing-social-image","page":path})
+        # Redirects, previews, print layouts and HTML fragments are not indexable articles.
+        is_indexable=(path!="404.html" and not doc.is_redirect
+            and not path.startswith(("content/","assets/venue-maps/","preview-"))
+            and not any("noindex" in value.lower() for value in doc.metadata.get("robots",[])))
+        if is_indexable:
+            if not doc.title.strip():issues.append({"severity":"medium","kind":"missing-title","page":path})
+            if not doc.lang:issues.append({"severity":"medium","kind":"missing-lang","page":path})
+            if not doc.metadata.get("description"):issues.append({"severity":"medium","kind":"missing-description","page":path})
+            if doc.h1!=1:issues.append({"severity":"medium","kind":"h1-count","page":path,"count":doc.h1})
+            if not doc.canonical:issues.append({"severity":"low","kind":"missing-canonical","page":path})
+            if not doc.metadata.get("og:image"):issues.append({"severity":"low","kind":"missing-social-image","page":path})
+            if doc.canonical and doc.metadata.get("og:url") and doc.canonical[0]!=doc.metadata["og:url"][0]:
+                issues.append({"severity":"medium","kind":"og-url-canonical-mismatch","page":path,
+                    "canonical":doc.canonical[0],"og_url":doc.metadata["og:url"][0]})
+        for target,n in collections.Counter(doc.skip_targets).items():
+            if n>1:issues.append({"severity":"medium","kind":"duplicate-skip-target","page":path,"href":target,"count":n})
         for label,n in collections.Counter(doc.ids).items():
             if n>1:issues.append({"severity":"medium","kind":"duplicate-id","page":path,"id":label,"count":n})
         for alt,src,line in doc.images:
@@ -112,6 +125,9 @@ def audit(root,external_limit):
             elif kind=="local":
                 counts["local_references"]+=1
                 if target not in assets:
+                    if target in DEPLOY_GENERATED_ASSETS and (root/".github/scripts/build_milk_social.py").is_file():
+                        counts["deploy_generated_references"]+=1
+                        continue
                     alternatives=[target+".html",posixpath.join(target,"index.html")]
                     fix=next((t for t in alternatives if t in assets),None)
                     issues.append({"severity":"high","kind":"missing-local-target","page":path,"line":line,"ref":ref,"resolved":target,"suggestion":fix})
