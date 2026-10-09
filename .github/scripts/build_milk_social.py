@@ -2,7 +2,7 @@
 """Create a 1200x630 original-photo sharing image from the existing family photo."""
 import argparse
 from pathlib import Path
-from PIL import Image, ImageDraw, ImageFont
+from PIL import Image, ImageDraw, ImageFont, ImageEnhance, ImageFilter, ImageOps
 INK=(24,58,69)
 PINE=(55,88,77)
 PAPER=(251,249,244)
@@ -14,8 +14,34 @@ def font(sz, serif=False, italic=False, bold=False):
     path=Path(base+name)
     return ImageFont.truetype(str(path),sz) if path.exists() else ImageFont.load_default()
 
+
+PHOTO_PAIRS = (
+    ("straw-lid-source-full.webp", "straw-lid-clear.webp"),
+    ("straw-lid-cap-source-full.webp", "straw-lid-cap-clear.webp"),
+    ("straw-lid-bottle-open-source-full.webp", "straw-lid-bottle-open-clear.webp"),
+)
+
+def improve_original_photos(root):
+    folder=root/"assets/family-notes"
+    for source_name, output_name in PHOTO_PAIRS:
+        source=folder/source_name
+        target=folder/output_name
+        if not source.is_file():
+            raise FileNotFoundError(source)
+        with Image.open(source) as img:
+            img=ImageOps.exif_transpose(img).convert("RGB")
+            # Subtle photographic cleanup only. Keep the real label, objects
+            # and kitchen surroundings exactly as they were photographed.
+            img=ImageEnhance.Brightness(img).enhance(1.04)
+            img=ImageEnhance.Contrast(img).enhance(1.045)
+            img=ImageEnhance.Color(img).enhance(1.045)
+            img=img.filter(ImageFilter.UnsharpMask(radius=1.35, percent=115, threshold=3))
+            img.save(target,"WEBP",quality=92,method=6)
+        print("ENHANCED_FAMILY_PHOTO",target,target.stat().st_size)
+    return folder/"straw-lid-clear.webp"
+
 def render(root):
-    original=root/"assets/family-notes/straw-lid-tip.webp"
+    original=improve_original_photos(root)
     target=root/"assets/family-notes/milk-straw-og.jpg"
     if not original.is_file():
         raise FileNotFoundError(original)
