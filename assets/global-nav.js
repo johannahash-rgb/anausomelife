@@ -98,7 +98,7 @@
       ['Family & caregiver roles','/family-roles.html'], ['Field notes for fathers','/paternal-role.html'],
       ['Family agreements','/family-agreements.html'], ['Plans & handoffs','/family-planning-toolkit.html']] },
     { title:'Home & wardrobe', art:'home', description:'Familiar comforts & practical routines', links:[
-      ['At home','/at-home.html'], ['Household reset','/household-reset.html'],
+      ['At home','/at-home.html'], ['The Little Fixes','/the-little-fixes.html'], ['Household reset','/household-reset.html'],
       ['Family wardrobe','/family-wardrobe.html'], ['School & advocacy','/topics/advocacy.html']] },
     { title:'Journal & little adventures', art:'journal', description:'Family stories, play & small pleasures', links:[
       ['Read the journal','/blog.html'], ['Fun & videos','/kid-fun.html'],
