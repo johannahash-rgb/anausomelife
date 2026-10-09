@@ -903,21 +903,21 @@
       "ageEvidence": {
         "children": {
           "evidenceId": "venture-event",
-          "url": "https://venturecs.org/event/halloween26/"
+          "url": "https://venturecs.org/event/sensory-friendly-trick-or-treat-night/"
         },
         "teens": {
           "evidenceId": "venture-event",
-          "url": "https://venturecs.org/event/halloween26/"
+          "url": "https://venturecs.org/event/sensory-friendly-trick-or-treat-night/"
         },
         "families": {
           "evidenceId": "venture-event",
-          "url": "https://venturecs.org/event/halloween26/"
+          "url": "https://venturecs.org/event/sensory-friendly-trick-or-treat-night/"
         }
       },
       "accessEvidence": {
         "sensory-friendly": {
           "evidenceId": "venture-event",
-          "url": "https://venturecs.org/event/halloween26/"
+          "url": "https://venturecs.org/event/sensory-friendly-trick-or-treat-night/"
         }
       },
       "checkedAt": "2026-10-04",
@@ -930,7 +930,7 @@
       "sensory": {
         "level": "unknown",
         "note": "Not enough specific sound, lighting or crowd information is published in our checked notes to estimate this event’s sensory level.",
-        "sourceUrl": "https://venturecs.org/event/halloween26/",
+        "sourceUrl": "https://venturecs.org/event/sensory-friendly-trick-or-treat-night/",
         "checkedAt": "2026-10-06",
         "basis": "Editorial planning estimate from organizer details",
         "sourceDetailsCheckedAt": "2026-10-03"
@@ -940,7 +940,7 @@
       ],
       "holidayEvidence": {
         "halloween": {
-          "url": "https://venturecs.org/event/halloween26/"
+          "url": "https://venturecs.org/event/sensory-friendly-trick-or-treat-night/"
         }
       }
     },
