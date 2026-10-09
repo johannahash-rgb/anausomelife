@@ -861,13 +861,13 @@
       "availability": "Not confirmed with this branch"
     },
     {
-      "id": "walmart-mexico-me-directory",
+      "id": "walmart-3269",
       "chain": "Walmart",
       "town": "Mexico",
       "state": "ME",
       "address": "258 River Rd, Mexico, ME 04257",
       "phone": "207-364-2557",
-      "store_url": "https://www.walmart.com/store-directory/me/mexico",
+      "store_url": "https://www.walmart.com/store/3269-mexico-me",
       "evidence": "walmart",
       "status": "policy",
       "source_checked": "2026-10-09",
