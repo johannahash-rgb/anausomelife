@@ -40,8 +40,14 @@ body.tip-page{background:var(--tip-paper);color:var(--tip-ink)}
 .tip-copy{max-width:740px;margin:auto}
 .tip-copy p{font:1.12rem/1.85 Georgia,serif;margin:0 0 23px}
 .tip-copy h2{font-size:clamp(2rem,4vw,3.1rem);line-height:1.12;margin:14px 0 23px}
-.tip-photo-note{display:grid;grid-template-columns:310px 1fr;gap:52px;align-items:center;max-width:830px;margin:54px auto;padding:38px;border-top:1px solid var(--tip-line);border-bottom:1px solid var(--tip-line)}
+.tip-photo-note{display:grid;grid-template-columns:minmax(0,1.07fr) minmax(260px,.93fr);gap:44px;align-items:center;max-width:1000px;margin:54px auto;padding:34px 0;border-top:1px solid var(--tip-line);border-bottom:1px solid var(--tip-line)}
 .tip-photo-note figure{margin:0}
+.tip-original-photo-pair{display:grid;grid-template-columns:minmax(0,1.12fr) minmax(0,.88fr);gap:16px;align-items:start}
+.tip-original-photo-pair figure:last-child{margin-top:40px}
+.tip-original-photo-pair figcaption{font-size:.8rem;line-height:1.5;margin-top:8px}
+.tip-photo-note .tip-kicker{font-family:Arial,sans-serif;font-size:.76rem;font-weight:700}
+@media(max-width:480px){.tip-original-photo-pair{gap:10px}.tip-original-photo-pair figure:last-child{margin-top:24px}}
+
 .tip-photo-note img{width:100%;height:auto;display:block}
 .tip-photo-note p{font:1rem/1.8 Georgia,serif;margin:0}
 .tip-photo-note h3{font-size:1.65rem;margin:0 0 12px}
@@ -58,7 +64,7 @@ body.tip-page{background:var(--tip-paper);color:var(--tip-ink)}
 .tip-brand a.tip-brand-link:hover{background:#255966}
 .tip-small{font:.83rem/1.6 Arial,sans-serif!important;color:var(--tip-muted)}
 .tip-end{padding:20px 0 80px;display:flex;flex-wrap:wrap;gap:24px;border-top:1px solid var(--tip-line);font:.9rem Arial,sans-serif}
-@media(max-width:720px){.tip-hero{grid-template-columns:1fr;padding:28px 0 48px}.tip-hero figure{width:min(100%,310px)}.tip-body{padding:38px 0 26px}.tip-photo-note{grid-template-columns:1fr;padding:25px 0;gap:18px}.tip-photo-note figure{max-width:310px;margin:auto}.tip-notes{grid-template-columns:1fr;gap:22px}.tip-brand{grid-template-columns:1fr;margin:40px auto}.tip-brand a.tip-brand-link{justify-self:start}}
+@media(max-width:720px){.tip-hero{grid-template-columns:1fr;padding:28px 0 48px}.tip-hero figure{width:min(100%,310px)}.tip-body{padding:38px 0 26px}.tip-photo-note{grid-template-columns:1fr;padding:25px 0;gap:18px}.tip-original-photo-pair{max-width:100%;margin:auto}.tip-notes{grid-template-columns:1fr;gap:22px}.tip-brand{grid-template-columns:1fr;margin:40px auto}.tip-brand a.tip-brand-link{justify-self:start}}
 
 .tip-picture{padding:65px 0 70px;border-top:1px solid var(--tip-line)}
 .tip-picture-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,.82fr);gap:46px;align-items:center}
@@ -97,8 +103,13 @@ body.tip-page{background:var(--tip-paper);color:var(--tip-ink)}
  <p>Our first kitchen experiment used an opening in the bottle cap to hold a bendy straw. It was a quick test, not a product recommendation or a how-to for cutting drink lids. If we were setting this up for daily use, we would look for a <strong>compatible, food-safe straw lid</strong> or pour the drink into a clean reusable cup with its own fitted lid. Cut plastic can leave sharp edges or loose pieces.</p>
  <p>The real lesson is pleasantly ordinary: sometimes you don't need to change someone's preferred drink, cup, or routine. You just need to find a way to make it easier to use.</p>
  </div>
- <div class="tip-photo-note"><figure><img src="/assets/family-notes/straw-lid-cap-detail.webp" alt="Close-up documentary photograph of the red bottle cap, showing a small cut and the tip of a pair of scissors." width="310" height="345" loading="lazy"><figcaption>A close look at the original test. Choose a purpose-made lid for regular use.</figcaption></figure>
- <div><p class="tip-kicker">The detail worth noticing</p><h3>Easy to use should also be safe to use.</h3><p>A good workaround is one you can repeat safely. Check that the lid and straw fit securely, have smooth intact surfaces, and are clean. Discard damaged parts. If a person has swallowing precautions, use the drinking setup recommended by their care team.</p></div></div>
+ <div class="tip-photo-note">
+ <div class="tip-original-photo-pair" aria-label="More family photographs from our original kitchen experiment">
+  <figure><img src="/assets/family-notes/straw-lid-bottle-open-clear.webp" alt="Original photograph of the opened INTENSE strawberry milk bottle beside the removed red cap on the kitchen counter." width="990" height="1325" loading="lazy"><figcaption>The bottle and its cap, before the straw.</figcaption></figure>
+  <figure><img src="/assets/family-notes/straw-lid-cap-clear.webp" alt="Original close-up photograph of the small slit in the red cap beside a pair of scissors." width="915" height="1085" loading="lazy"><figcaption>The cap detail from our first test.</figcaption></figure>
+ </div>
+ <div><p class="tip-kicker">From our family camera roll</p><h3>The little detail we wanted to remember.</h3><p>These photographs record a one-off experiment, not instructions to cut plastic caps. For daily use, we would choose a compatible, purpose-made food-safe straw lid or a clean reusable cup with a secure lid.</p><p>Check that the lid and straw fit securely, have smooth intact surfaces, and are clean. Discard damaged parts. If someone has swallowing precautions, use the drinking setup recommended by their care team.</p></div>
+ </div>
 </section>
 <section class="tip-check" aria-labelledby="tip-check-title"><div class="tip-wrap">
  <p class="tip-kicker">The useful part, in full</p><h2 id="tip-check-title">Three things to remember.</h2>
