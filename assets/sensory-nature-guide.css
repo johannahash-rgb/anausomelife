@@ -1,0 +1,39 @@
+/* Scoped to the practical guide at the end of the autumn family essay. */
+.ng-guide{max-width:1060px;margin-top:52px;padding-top:34px;border-top:2px solid #244b3e;color:#193b40;line-height:1.7;overflow-wrap:break-word}
+.ng-heading{display:grid;grid-template-columns:150px minmax(0,1fr);gap:28px;align-items:center}
+.ng-guide .ng-watercolor{width:150px;height:auto;object-fit:contain;border-radius:0;box-shadow:none;background:none}
+.ng-guide h2{font:400 clamp(2rem,4vw,3.1rem)/1.15 Georgia,serif;margin:8px 0 18px;letter-spacing:-.025em}
+.ng-heading p:last-child{font:400 1.2rem/1.65 Georgia,serif;max-width:64ch}
+.ng-contents{display:flex;flex-wrap:wrap;gap:8px 28px;border-block:1px solid #c9cebf;padding:14px 0;margin:28px 0 36px}
+.ng-contents a{display:inline-flex;align-items:center;min-height:44px;font-weight:700}
+.ng-section{margin-top:42px;scroll-margin-top:28px}
+.ng-guide h3{font:400 clamp(1.65rem,2.8vw,2.2rem)/1.2 Georgia,serif;margin:8px 0 18px;scroll-margin-top:28px;text-wrap:balance}
+.ng-guide h4{font:400 1.3rem/1.35 Georgia,serif;margin:0 0 12px;color:#244b3e}
+.ng-section>p{max-width:80ch}
+.ng-pace-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:28px;margin:26px 0}
+.ng-pace-grid>div{border-top:2px solid #244b3e;padding-top:20px}
+.ng-guide p{margin:0 0 1em}
+.ng-note{border-left:3px solid #244b3e;background:#f0f1e9;padding:24px 28px;margin:30px 0}
+.ng-note p:last-child{margin-bottom:0}
+.ng-senses{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));column-gap:42px;margin-top:26px}
+.ng-senses>section{border-top:1px solid #c9cebf;padding:24px 0 10px;break-inside:avoid}
+.ng-senses h4 span{display:inline-block;color:#7a493a;font:700 .76rem/1.5 Arial,sans-serif;letter-spacing:.08em;vertical-align:middle;margin-right:12px}
+.ng-senses h4 small{display:block;font:400 .9rem/1.5 Arial,sans-serif;margin:5px 0 0 30px;color:#50635a}
+.ng-choice{color:#344d45}
+.ng-places{border-top:1px solid #c9cebf;margin-top:24px}
+.ng-places details{border-bottom:1px solid #c9cebf;padding:0 4px}
+.ng-places summary{cursor:pointer;padding:21px 4px;min-height:48px;font:400 1.25rem/1.5 Georgia,serif}
+.ng-places summary span{font:700 .73rem/1.5 Arial,sans-serif;letter-spacing:.06em;text-transform:uppercase;color:#50635a;display:inline-block;min-width:164px;margin-right:16px}
+.ng-place-body{max-width:80ch;padding:0 20px 12px}
+.ng-place-body a{display:inline-block;padding-block:9px;min-height:44px}
+.ng-guide .ng-small{font-size:.93rem;margin-top:24px}
+.ng-pack{border-top:2px solid #244b3e;padding-top:28px}
+.ng-checklist{list-style:none;padding:0;margin:24px 0}
+.ng-checklist li{border-bottom:1px solid #c9cebf}
+.ng-checklist label{display:flex;gap:16px;align-items:flex-start;padding:17px 0;cursor:pointer;min-height:48px}
+.ng-checklist input{flex:0 0 auto;width:22px;height:22px;margin-top:4px;accent-color:#244b3e}
+.ng-guide .ng-closing{font:italic 1.2rem/1.7 Georgia,serif;max-width:52ch;margin:30px 0 0}
+.ng-guide :focus-visible{outline:3px solid #7a492d;outline-offset:5px}
+@media(max-width:760px){.ng-pace-grid{grid-template-columns:1fr;gap:16px}.ng-pace-grid>div{padding-top:16px}.ng-senses{column-gap:26px}.ng-heading{grid-template-columns:100px minmax(0,1fr);gap:18px}.ng-guide .ng-watercolor{width:100px}.ng-note{padding:22px}.ng-places summary span{min-width:0;display:block;margin:0 0 4px}.ng-place-body{padding-inline:4px}}
+@media(max-width:540px){.ng-senses{grid-template-columns:1fr}.ng-heading{grid-template-columns:1fr;gap:8px}.ng-guide .ng-watercolor{width:120px}.ng-guide{margin-top:36px}.ng-contents{gap:8px 20px}.ng-guide h2{font-size:2.35rem}.ng-note{padding:20px}.ng-checklist label{gap:12px}}
+@media print{.ng-guide{max-width:none;margin-top:20px;font-size:10pt}.ng-contents{display:none}.ng-heading{grid-template-columns:70px 1fr}.ng-guide .ng-watercolor{width:70px}.ng-guide h2{font-size:24pt}.ng-guide h3{font-size:18pt}.ng-section{margin-top:24px}.ng-note{background:none}.ng-senses{grid-template-columns:1fr 1fr;gap:0 24px}.ng-places details::details-content{display:block!important;content-visibility:visible!important;height:auto!important}.ng-places .ng-place-body{display:block!important}.ng-places summary{padding:12px 0}.ng-checklist li{break-inside:avoid}.ng-guide a{color:#193b40;text-decoration:underline}}
