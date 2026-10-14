@@ -117,3 +117,24 @@ body.aal-unified-nav .aal-wayfinder a,body.aal-unified-nav .aal-wayfinder button
   body .aal-section-dialog button,body .aal-chapter-links a[aria-current] {border:2px solid ButtonText;}
 }
 @media print {body .aal-section-dialog {display:none!important;}}
+
+/* Clearer chapters: six distinct subjects, compact rows, warm paper and pine. */
+body .aal-section-dialog{background:#faf8f1;border-color:#9fab98;border-radius:0}
+body .aal-section-head{padding:20px 26px 16px;background:#f3f2e9;border-top-color:#244b3e;border-bottom-color:#c4cdbb}
+body .aal-section-head h2{font-size:clamp(1.8rem,3vw,2.35rem);color:#244b3e}
+body .aal-section-head .eyebrow{font-size:.73rem;color:#50624e}
+body .aal-menu-intro{font-size:.96rem;color:#445b50}
+body .aal-section-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:0 26px;padding-top:8px}
+body .aal-menu-chapter summary{flex-direction:row;align-items:center;justify-content:flex-start;gap:18px;min-height:152px;padding:18px 10px}
+body .aal-chapter-copy{align-items:flex-start;text-align:left;gap:7px}
+body .aal-menu-chapter .aal-chapter-art{width:104px;height:104px}
+body .aal-chapter-title{font-size:1.35rem;color:#244b3e}
+body .aal-chapter-description{font-size:.92rem;line-height:1.5;color:#435b4d}
+body .aal-menu-chapter summary:hover,body .aal-menu-chapter[open] summary,body .aal-chapter-links{background:#edf0e5}
+body .aal-chapter-links a{border-top-color:#c6d0bd}
+body .aal-chapter-links a:hover,body .aal-menu-help a:hover,body .aal-menu-start a:hover{background:#e4eadb}
+body .aal-menu-start button{background:#f0f1e8;border-color:#acb9a5;color:#244b3e}
+body .aal-menu-start{padding-block:8px}
+@media(max-width:760px){body .aal-section-grid{grid-template-columns:1fr}body .aal-menu-chapter summary{min-height:126px;padding-block:12px}body .aal-menu-chapter .aal-chapter-art{width:88px;height:88px}body .aal-section-head{padding:16px 20px}body .aal-section-head h2{font-size:1.8rem}}
+@media(max-width:560px){body .aal-section-head{padding:14px 16px}body .aal-menu-chapter summary{gap:16px}body .aal-chapter-title{font-size:1.2rem}body .aal-chapter-description{font-size:.9rem}body .aal-menu-chapter .aal-chapter-art{width:76px;height:76px}}
+@media(max-width:360px){body .aal-menu-chapter summary{flex-direction:row;gap:12px}body .aal-menu-chapter .aal-chapter-art{width:62px;height:62px}body .aal-chapter-copy{text-align:left;align-items:flex-start}body .aal-chapter-title{font-size:1.08rem}}

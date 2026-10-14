@@ -3,19 +3,20 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Accessible New England calendar | An AUsome Life</title>
-<meta name="description" content="Find New England sensory-friendly and disability-inclusive events by state, date, age and access needs. Organizer links, admission costs and practical visit notes.">
+<title>Find sensory-friendly &amp; accessible New England events | An AUsome Life</title>
+<meta name="description" content="Find New England outings that fit your family. Compare sensory levels, ages, cost, and published accessibility features, with links to the organizers.">
 <meta name="theme-color" content="#163b4b">
 <link rel="canonical" href="https://anausomelife.com/calendar.html">
-<meta property="og:title" content="The accessible New England calendar">
-<meta property="og:description" content="Dates are only the beginning: access notes, terrain, maps, booking details and visual visit cards are built into every listing.">
+<meta property="og:title" content="Find a New England outing that fits your family">
+<meta property="og:description" content="Find New England outings that fit your family. Compare sensory levels, ages, cost, and published accessibility features, with links to the organizers.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://anausomelife.com/calendar.html">
 <link rel="icon" href="/favicon.ico">
 <link rel="stylesheet" href="/assets/site.css?v=magazine-20261003">
 <link rel="stylesheet" href="/assets/magazine.css?v=calendar-20261003b">
 <link rel="stylesheet" href="/assets/immersion.css?v=village-20261003"><link rel="stylesheet" href="/assets/editorial.css?v=20261003-mainstreet"><link rel="stylesheet" href="/assets/calendar-sketches.css?v=20261006-watercolors"><link rel="stylesheet" href="/assets/event-map.css?v=20261003-regional"><link rel="stylesheet" href="/assets/illustrated-navigation.css?v=20261004-icon-spacing-r2">
-<script src="/assets/global-nav.js?v=20261005-practical" data-aal-global-nav="true" defer></script>
+<script src="/assets/global-nav.js?v=20261014-clear-symbols" data-aal-global-nav="true" defer></script>
+<link rel="stylesheet" href="/assets/calendar-entrance.css?v=20261014-value">
 </head>
 <body class="magazine-shell calendar-page">
 <a class="skip" href="#main">Skip to content</a>
@@ -25,17 +26,23 @@
 <nav aria-label="Main navigation"><a href="/library.html">The library</a><a href="/favorite-places.html">Favorite places</a><a href="/calendar.html" aria-current="page">The calendar</a><a href="/about.html">Our story</a><a class="nav-search" href="/library.html#library-search">Search <span aria-hidden="true">↗</span></a></nav>
 </header>
 <main id="main">
-<section class="library-heading wrap calendar-heading">
-<p class="eyebrow">New England · access-first planning</p>
-<h1>The calendar.</h1>
-<p class="article-dek">Something good on the horizon—with the practical details left in.</p>
-<p class="quiet-copy">Find a day out by place, date and the details that matter to you. Check each organizer’s age limits, booking requirements and access notes before traveling.</p>
-<nav class="calendar-jump" aria-label="On this page"><a href="#upcoming">Find events</a><a href="#social-active-programs">Dances, hikes &amp; play</a><a href="#free-programs">Free programs</a><a href="#watchlist">Annual watchlist</a><a href="#organizers">More organizers</a><a href="/carolines-cart-new-england.html">Caroline’s Cart directory</a></nav>
-</section>
+<section class="wrap calendar-heading calendar-entrance" aria-labelledby="calendar-title">
+<div class="calendar-value"><p class="eyebrow">Sensory-friendly &amp; accessible events · New England</p>
+<h1 id="calendar-title">Find an outing that fits your family.</h1>
+<p class="calendar-benefit">Less searching. Fewer surprises. Compare sensory levels, ages, cost, and published access details before you make a plan.</p>
+<a class="calendar-primary-action" href="#upcoming">Find my next outing <span aria-hidden="true">↓</span></a>
+<p class="calendar-scope">For children, teens &amp; adults · All six New England states</p></div>
+<aside class="calendar-start" aria-labelledby="calendar-start-title"><p class="eyebrow">A useful place to start</p><h2 id="calendar-start-title">What matters today?</h2>
+<nav aria-label="Start with an event preference">
+<a href="/calendar.html?sensory=low#upcoming"><strong>Lower sensory</strong><span>Find a quieter kind of outing <b aria-hidden="true">↗</b></span></a>
+<a href="/calendar.html?access=wheelchair-step-free#upcoming"><strong>Wheelchair &amp; step-free options</strong><span>See published access features <b aria-hidden="true">↗</b></span></a>
+<a href="/calendar.html?age=teens#upcoming"><strong>Something for teens</strong><span>Start with the right age group <b aria-hidden="true">↗</b></span></a>
+<a href="/calendar.html?cost=free#upcoming"><strong>Free admission</strong><span>Check eligibility &amp; booking details <b aria-hidden="true">↗</b></span></a>
+</nav></aside></section>
 
 <section class="wrap event-workspace" id="upcoming" data-events>
 <div class="calendar-toolbar-head">
-<div><p class="eyebrow">Plan the day</p><h2>Upcoming events.</h2></div>
+<div><h2>Find events</h2><p class="calendar-filter-caption">Choose a place and date, then add the details that matter to you.</p></div>
 <div class="calendar-view-toggle" aria-label="Calendar display">
 <button type="button" data-calendar-view="list" data-sketch-icon="list" aria-pressed="true" class="is-active">Event list</button>
 <button type="button" data-calendar-view="month" data-sketch-icon="calendar" aria-pressed="false">Month calendar</button>
@@ -44,7 +51,7 @@
 </div>
 <form class="event-filters" role="search" aria-label="Find an event">
 <div class="event-primary-filters"><label><span data-sketch-icon="pin">Where?</span><select name="state"><option value="">All New England</option><option value="CT">Connecticut</option><option value="ME">Maine</option><option value="MA">Massachusetts</option><option value="NH">New Hampshire</option><option value="RI">Rhode Island</option><option value="VT">Vermont</option></select></label><label><span data-sketch-icon="calendar">When?</span><select name="dateRange"><option value="">All upcoming dates</option><option value="week">This week</option><option value="weekend">This weekend</option><option value="30days">Next 30 days</option></select></label><label class="event-search-filter"><span data-sketch-icon="search">Search</span><input name="q" type="search" placeholder="Museum, bowling, audio description…"></label><label><span data-sketch-icon="leaf">Cost</span><select name="cost" aria-describedby="event-cost-help"><option value="">Any admission cost</option><option value="free">Free admission</option></select></label></div>
-<details class="event-more-filters" data-more-filters><summary>More filters <span data-more-count></span><span class="filter-description">Sensory level, holidays, age &amp; access</span></summary><div class="event-advanced-filters"><label><span data-sketch-icon="leaf">Sensory level</span><select name="sensory" aria-describedby="event-sensory-help"><option value="">Any sensory level</option><option value="low">Low sensory</option><option value="moderate">Moderate sensory</option><option value="high">High sensory</option><option value="variable">Variable sensory</option><option value="unknown">Sensory level unknown</option></select></label><label><span data-sketch-icon="calendar">Holiday or season</span><select name="holiday"><option value="">Everyday &amp; holiday events</option><option value="seasonal">All holiday events</option><option value="halloween">Halloween</option><option value="christmas">Christmas</option><option value="santa">Santa visits</option><option value="winter-holidays">Winter holidays</option><option value="winter-lights">Winter lights</option><option value="holiday-performance">Holiday performances</option><option value="holiday-social">Holiday socials</option><option value="holiday-market">Holiday markets</option></select></label><label><span data-sketch-icon="access">Who’s going?</span><select name="age" aria-describedby="event-filter-help"><option value="">Any age or audience</option><option value="all-ages">All ages welcome</option><option value="children">Children</option><option value="teens">Teens</option><option value="adults">Adults</option><option value="families">Families</option><option value="unspecified">Age not specified</option></select></label><label><span data-sketch-icon="access">Access &amp; support</span><select name="access" aria-describedby="event-filter-help"><option value="">Any published feature</option><option value="sensory-friendly">Sensory-friendly</option><option value="wheelchair-step-free">Wheelchair / step-free options</option><option value="adaptive-activities">Adaptive activities</option><option value="caregiver-support">Caregiver support</option><option value="vision-support">Blind / low-vision support</option><option value="hearing-support">ASL / hearing support</option><option value="unspecified">Features not yet classified</option></select></label><label class="event-month-filter"><span data-sketch-icon="calendar">Choose a month</span><select name="month"><option value="">All upcoming months</option></select></label><label><span data-sketch-icon="leaf">What kind?</span><select name="category"><option value="">All event types</option></select></label><label><span data-sketch-icon="calendar">From a date</span><input name="from" type="date"></label><label><span data-sketch-icon="map">How to join</span><select name="format"><option value="">In person or online</option><option value="In person">In person</option><option value="Virtual">Online</option></select></label></div>
+<details class="event-more-filters" data-more-filters><summary>Sensory, age &amp; access filters <span data-more-count></span><span class="filter-description">Plus holidays &amp; event types</span></summary><div class="event-advanced-filters"><label><span data-sketch-icon="leaf">Sensory level</span><select name="sensory" aria-describedby="event-sensory-help"><option value="">Any sensory level</option><option value="low">Low sensory</option><option value="moderate">Moderate sensory</option><option value="high">High sensory</option><option value="variable">Variable sensory</option><option value="unknown">Sensory level unknown</option></select></label><label><span data-sketch-icon="calendar">Holiday or season</span><select name="holiday"><option value="">Everyday &amp; holiday events</option><option value="seasonal">All holiday events</option><option value="halloween">Halloween</option><option value="christmas">Christmas</option><option value="santa">Santa visits</option><option value="winter-holidays">Winter holidays</option><option value="winter-lights">Winter lights</option><option value="holiday-performance">Holiday performances</option><option value="holiday-social">Holiday socials</option><option value="holiday-market">Holiday markets</option></select></label><label><span data-sketch-icon="access">Who’s going?</span><select name="age" aria-describedby="event-filter-help"><option value="">Any age or audience</option><option value="all-ages">All ages welcome</option><option value="children">Children</option><option value="teens">Teens</option><option value="adults">Adults</option><option value="families">Families</option><option value="unspecified">Age not specified</option></select></label><label><span data-sketch-icon="access">Access &amp; support</span><select name="access" aria-describedby="event-filter-help"><option value="">Any published feature</option><option value="sensory-friendly">Sensory-friendly</option><option value="wheelchair-step-free">Wheelchair / step-free options</option><option value="adaptive-activities">Adaptive activities</option><option value="caregiver-support">Caregiver support</option><option value="vision-support">Blind / low-vision support</option><option value="hearing-support">ASL / hearing support</option><option value="unspecified">Features not yet classified</option></select></label><label class="event-month-filter"><span data-sketch-icon="calendar">Choose a month</span><select name="month"><option value="">All upcoming months</option></select></label><label><span data-sketch-icon="leaf">What kind?</span><select name="category"><option value="">All event types</option></select></label><label><span data-sketch-icon="calendar">From a date</span><input name="from" type="date"></label><label><span data-sketch-icon="map">How to join</span><select name="format"><option value="">In person or online</option><option value="In person">In person</option><option value="Virtual">Online</option></select></label></div>
 <p class="event-filter-help" id="event-filter-help">Age and access filters use organizer information. Read the exact eligibility and support details in each listing.</p><p class="event-filter-help" id="event-sensory-help"><strong>Sensory levels are planning estimates:</strong> low = reduced stimulation; moderate = ongoing music or activity; high = a likely stimulating mix; variable = conditions change; unknown = not enough detail. Read the reason on each listing. A disability-inclusive or sensory-friendly event is not automatically quiet.</p></details>
 <p class="event-filter-help" id="event-cost-help">“Free” applies to the stated eligible audience. Registration and other costs may still apply.</p>
 <p class="event-filter-warning" data-filter-warning hidden></p>
@@ -58,6 +65,7 @@
 <div class="event-empty empty-state" hidden><h2>No dated listings in this view.</h2><p>Try another date, state or event type. The source directory and annual-event watchlist below may still help.</p></div>
 <div class="event-error callout" hidden><h2>The event list could not load.</h2><p>You can still use the organizer directory below and confirm details directly.</p></div>
 
+<details class="calendar-other-plans" id="more-planning"><summary>More ways to plan a day out</summary><nav class="calendar-jump" aria-label="More planning resources"><a href="#social-active-programs">Dances, hikes &amp; play</a><a href="#free-programs">Free programs</a><a href="#watchlist">Annual watchlist</a><a href="#organizers">More organizers</a><a href="/carolines-cart-new-england.html">Caroline’s Cart directory</a></nav></details>
 <aside class="calendar-note">
 <h2>What this calendar can promise.</h2>
 <p>We separate <strong>confirmed dated listings</strong> from <strong>annual events we are watching</strong>. If we cannot verify a date, we say so instead of quietly guessing.</p>

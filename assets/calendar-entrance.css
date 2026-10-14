@@ -1,0 +1,41 @@
+/* Calendar-only entrance: bring the reader's task above the fold. */
+body.calendar-page .edition-line{padding-block:6px;font-size:.65rem}
+body.calendar-page.aal-unified-nav .mag-masthead{padding-block:10px}
+body.calendar-page .mag-brand{font-size:2.3rem;gap:12px}
+body.calendar-page .mag-brand img{width:48px;height:48px}
+body.calendar-page .mag-brand small{font-size:.56rem;letter-spacing:.14em;margin-top:5px}
+body.calendar-page.aal-unified-nav .aal-wayfinder a,body.calendar-page.aal-unified-nav .aal-wayfinder button{min-height:74px!important;padding:5px 4px!important}
+body.calendar-page.aal-unified-nav .aal-wayfinder .aal-nav-miniature{width:40px!important;height:40px!important}
+body.calendar-page .aal-breadcrumb{padding-top:12px;padding-bottom:0;font-size:.78rem}
+body.calendar-page .calendar-entrance{display:grid;grid-template-columns:minmax(0,1.45fr) minmax(285px,.85fr);gap:clamp(30px,4vw,64px);align-items:center;padding:24px 0 30px;margin-bottom:8px}
+body.calendar-page .calendar-entrance .eyebrow{font-size:.72rem;letter-spacing:.1em;line-height:1.6;margin:0 0 12px;color:#365b4d}
+body.calendar-page .calendar-entrance h1{font:400 clamp(2.5rem,4vw,3.75rem)/1.04 Georgia,serif;letter-spacing:-.035em;max-width:19ch;margin:0 0 18px;color:#193f43;text-wrap:balance}
+body.calendar-page .calendar-benefit{font:400 1.08rem/1.65 Arial,sans-serif;max-width:55ch;color:#344f50;margin:0 0 20px}
+body.calendar-page .calendar-primary-action{display:inline-flex;align-items:center;justify-content:center;gap:32px;min-height:48px;padding:12px 22px;background:#244b3e;color:#fffdf5;border:1px solid #244b3e;font:700 1rem/1.4 Arial,sans-serif;text-decoration:none}
+body.calendar-page .calendar-primary-action:hover{background:#173b30}
+body.calendar-page .calendar-scope{font:400 .83rem/1.6 Arial,sans-serif;color:#4d635b;margin:12px 0 0}
+body.calendar-page .calendar-start{border-left:1px solid #b7c3ad;padding:6px 0 6px 30px;min-width:0}
+body.calendar-page .calendar-start .eyebrow{margin-bottom:6px}
+body.calendar-page .calendar-start h2{font:400 1.7rem/1.2 Georgia,serif;color:#244b3e;margin:0 0 15px}
+body.calendar-page .calendar-start nav{display:grid;grid-template-columns:1fr;gap:0}
+body.calendar-page .calendar-start a{display:block;padding:11px 0;border-top:1px solid #d4d8cb;text-decoration:none;min-height:48px;color:#244b3e}
+body.calendar-page .calendar-start a:hover strong{text-decoration:underline;text-underline-offset:4px}
+body.calendar-page .calendar-start strong{display:block;font:700 .98rem/1.4 Arial,sans-serif}
+body.calendar-page .calendar-start span{display:block;font:400 .84rem/1.6 Arial,sans-serif;color:#4d635b;margin-top:3px}
+body.calendar-page .calendar-start b{font-weight:400;margin-left:6px}
+body.calendar-page .calendar-toolbar-head{padding-top:12px;margin-bottom:12px;align-items:center;border-top:1px solid #c4ccbd;gap:20px}
+body.calendar-page .calendar-toolbar-head h2{font:400 1.8rem/1.25 Georgia,serif;margin:0 0 5px;color:#193f43}
+body.calendar-page .calendar-filter-caption{font-size:.9rem;line-height:1.5;margin:0;max-width:48ch;color:#4d635b}
+body.calendar-page .calendar-view-toggle{padding:3px;flex:none}
+body.calendar-page .calendar-view-toggle button{font-size:.86rem;min-height:44px;padding:8px 12px}
+body.calendar-page .event-filters{padding:14px 0}
+body.calendar-page .event-primary-filters input,body.calendar-page .event-primary-filters select{min-height:48px}
+body.calendar-page .event-more-filters{margin-top:8px}
+body.calendar-page .calendar-other-plans{border-block:1px solid #c4ccbd;padding:10px 0;margin:32px 0 20px}
+body.calendar-page .calendar-other-plans summary{font-weight:700;cursor:pointer;min-height:44px;padding:10px 0}
+body.calendar-page .calendar-other-plans .calendar-jump{margin:0 0 8px}
+body.calendar-page :is(.calendar-entrance,.event-workspace) :focus-visible{outline:3px solid #963e45;outline-offset:4px}
+@media(max-width:850px){body.calendar-page .calendar-entrance{grid-template-columns:minmax(0,1.1fr) minmax(240px,.9fr);gap:26px}body.calendar-page .calendar-entrance h1{font-size:2.8rem}body.calendar-page .calendar-start{padding-left:22px}body.calendar-page .calendar-toolbar-head{display:block}body.calendar-page .calendar-view-toggle{display:inline-flex;margin-top:12px;flex-wrap:wrap}}
+@media(max-width:620px){body.calendar-page .edition-line{display:none}body.calendar-page .mag-brand{font-size:1.9rem}body.calendar-page .mag-brand img{width:40px;height:40px}body.calendar-page .mag-brand small{font-size:.5rem}body.calendar-page.aal-unified-nav .aal-wayfinder a,body.calendar-page.aal-unified-nav .aal-wayfinder button{min-height:58px!important;font-size:.75rem!important;padding:4px 2px!important;gap:3px!important}body.calendar-page.aal-unified-nav .aal-wayfinder .aal-nav-miniature{width:29px!important;height:29px!important}body.calendar-page .aal-breadcrumb{display:none}body.calendar-page .calendar-entrance{grid-template-columns:1fr;padding-block:22px;gap:24px}body.calendar-page .calendar-entrance h1{font-size:2.65rem;max-width:20ch}body.calendar-page .calendar-benefit{font-size:1rem;line-height:1.6}body.calendar-page .calendar-start{border-left:0;border-top:1px solid #b7c3ad;padding:20px 0 0}body.calendar-page .calendar-start nav{grid-template-columns:1fr 1fr;gap:0 22px}body.calendar-page .calendar-start strong{font-size:.93rem}body.calendar-page .calendar-start span{font-size:.79rem}body.calendar-page .calendar-start h2{font-size:1.5rem}body.calendar-page .calendar-entrance .eyebrow{font-size:.67rem}body.calendar-page .calendar-view-toggle{gap:2px}body.calendar-page .calendar-view-toggle button{font-size:.78rem;padding-inline:9px}}
+@media(max-width:360px){body.calendar-page .calendar-entrance h1{font-size:2.35rem}body.calendar-page .calendar-start nav{column-gap:16px}}
+@media print{body.calendar-page .calendar-start,body.calendar-page .calendar-primary-action,body.calendar-page .calendar-other-plans{display:none}body.calendar-page .calendar-entrance{display:block}}

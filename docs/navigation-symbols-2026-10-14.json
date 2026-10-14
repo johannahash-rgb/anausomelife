@@ -1,0 +1,15 @@
+{
+  "created": "2026-10-14",
+  "kind": "Original pen-and-watercolor navigation illustrations",
+  "generation": "Built-in OpenAI image generation; one generation per subject",
+  "permission": "Owner requested replacement and improvement of the site icons. Original generated decorative assets; no third-party reference imagery or logos.",
+  "commonPrompt": "Refined New England ink-and-watercolor navigation miniatures; Nantucket meets Vermont; navy ink, pine green, warm cream, restrained cranberry and brass; distinct recognizable subject; transparent background; no books, lettering or logos.",
+  "subjects": {
+    "journal-v2": "Navy fountain pen on a loose cream writing sheet with a cranberry envelope.",
+    "directory-v2": "Fictional New England village shopfront with cream clapboard, pine-green awning, navy window and cranberry door.",
+    "family-v2": "Fictional group of an older adult, middle-aged adult and teenager in classic sweaters. Not a portrait of the site owner or family.",
+    "menu-v2": "Wooden signpost with three blank navy, green and cream directional arrows."
+  },
+  "processing": "Full-frame downscaling to 128 and 320 pixels; lossless WebP conversion; original alpha preserved; no crop, filters or generated photo substitution.",
+  "use": "Decorative navigation illustrations accompanied by visible plain-text labels. Prior journal, directory and menu asset paths updated as aliases for consistency across existing pages."
+}

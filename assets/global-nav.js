@@ -26,7 +26,7 @@
   const fold = value => (value || '').toLocaleLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
   const esc = value => (value || '').replace(/[&<>"']/g, char => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));
   const icon = name => {
-    const miniatures={home:'home',search:'search',menu:'menu',compass:'menu',outing:'outings',family:'home',talk:'picture-cards',calendar:'calendar',book:'directory',journal:'journal'};
+    const miniatures={home:'home',search:'search',menu:'menu-v2',compass:'menu-v2',outing:'outings',family:'family-v2',talk:'picture-cards',calendar:'calendar',book:'directory-v2',journal:'journal-v2'};
     if(miniatures[name])return '<img class="aal-nav-miniature" src="/assets/navigation-watercolors/'+miniatures[name]+'-128.webp" alt="" aria-hidden="true" width="64" height="64">';
     const drawings={home:'home',compass:'compass',outing:'compass',family:'heart',talk:'picture',calendar:'calendar',book:'address-book',journal:'journal',search:'search',menu:'menu'};
     if(drawings[name])return '<svg viewBox="0 0 32 32" aria-hidden="true" focusable="false"><use href="/assets/editorial-icons.svg?v=20261003-journal#'+drawings[name]+'"></use></svg>';
@@ -73,38 +73,38 @@
 
 
   const menuTheme=document.createElement('link');
-  menuTheme.rel='stylesheet';menuTheme.href='/assets/menu-wayfinding.css?v=20261008-illustrated';document.head.append(menuTheme);
+  menuTheme.rel='stylesheet';menuTheme.href='/assets/menu-wayfinding.css?v=20261014-clear-symbols';document.head.append(menuTheme);
 
   const shortcuts = [
     {label:'Home',href:'/',icon:'home',match:['/','/index.html']},
     {label:'Find anything',action:'search',icon:'search',hint:'⌘K'},
-    {label:'Menu',action:'sections',icon:'menu'},
+    {label:'Explore',action:'sections',icon:'menu'},
     {label:'Outings',href:'/favorite-places.html',icon:'outing',match:['/favorite-places.html'],prefix:'/favorite-places'},
-    {label:'Journal',href:'/blog.html',icon:'journal',match:['/blog.html','/older-teen-swim-guide.html','/hotel-pool-checklist.html','/pool-weekend-kit.html']},
+    {label:'Stories',href:'/blog.html',icon:'journal',match:['/blog.html','/older-teen-swim-guide.html','/hotel-pool-checklist.html','/pool-weekend-kit.html']},
     {label:'Make cards',href:'/communication-card-generator.html',icon:'talk',match:['/communication-card-generator.html','/visit-story.html','/aac-outing-note.html']},
     {label:'Calendar',href:'/calendar.html',icon:'calendar',match:['/calendar.html']},
     {label:'Directory',href:'/little-black-book.html',icon:'book',match:['/little-black-book.html']}
   ];
 
   const sectionGroups = [
-    { title:'Days out', art:'outings', description:'Places, weekends & the next visit', links:[
+    { title:'Plan a day out', art:'outings', description:'Find places, events & visit plans', links:[
       ['Favorite places','/favorite-places.html'], ['Calendar & maps','/calendar.html'],
       ['New England weekends','/new-england-weekends.html'], ['Make a visit story','/visit-story.html']] },
-    { title:'Picture cards & communication', art:'picture-cards', description:'Pictures, choices & useful words', links:[
+    { title:'Make picture cards', art:'picture-cards', description:'Create choices & communication supports', links:[
       ['Make a picture card','/communication-card-generator.html'], ['Ready-made picture cards','/picture-card-library.html'],
       ['Communication notes & profiles','/communication-notes.html'], ['Ways to communicate','/multimodal-communication.html'],
       ['AAC outing note','/aac-outing-note.html']] },
-    { title:'Family & caregivers', art:'calendar', description:'Shared plans & everyday support', links:[
+    { title:'Family & caregiver tools', art:'family-v2', description:'Share routines, plans & practical support', links:[
       ['Family & caregiver roles','/family-roles.html'], ['Field notes for fathers','/paternal-role.html'],
       ['Family agreements','/family-agreements.html'], ['Plans & handoffs','/family-planning-toolkit.html']] },
     { title:'Home & wardrobe', art:'home', description:'Familiar comforts & practical routines', links:[
       ['At home','/at-home.html'], ['The Little Fixes','/the-little-fixes.html'], ['Household reset','/household-reset.html'],
       ['Family wardrobe','/family-wardrobe.html'], ['School & advocacy','/topics/advocacy.html']] },
-    { title:'Journal & little adventures', art:'journal', description:'Family stories, play & small pleasures', links:[
+    { title:'Family stories', art:'journal-v2', description:'Real days out & little everyday joys', links:[
       ['Read the journal','/blog.html'], ['Fun & videos','/kid-fun.html'],
       ['The little boot story','/little-adventures.html'], ['One simple game','/paternal-football-card.html'],
       ['The family notebook','/family-notebook.html']] },
-    { title:'The little black book', art:'directory', description:'Good places & useful discoveries', links:[
+    { title:'Places & useful finds', art:'directory-v2', description:'The Little Black Book: shops, brands & more', links:[
       ['Brands & organizations','/little-black-book.html'], ['Product guides','/product-guides.html'],
       ['Coffee field note','/eight-oclock-colombian-peaks-field-note.html'], ['Copyable field notes','/field-notes.html']] }
   ];
@@ -130,7 +130,7 @@
   sectionDialog.setAttribute('aria-labelledby','aal-section-title');
   sectionDialog.innerHTML=`
     <div class="aal-section-head">
-      <div><p class="eyebrow">An AUsome Life</p><h2 id="aal-section-title" tabindex="-1">Explore the guide.</h2><p class="aal-menu-intro">Choose a topic to see what’s inside.</p></div>
+      <div><p class="eyebrow">An AUsome Life</p><h2 id="aal-section-title" tabindex="-1">What would help today?</h2><p class="aal-menu-intro">Plan an outing, make a picture card, or find something useful.</p></div>
       <button type="button" data-close-sections>${icon('close')}<span>Close</span></button>
     </div>
     <div class="aal-menu-body">
@@ -139,7 +139,7 @@
         <button type="button" data-menu-search>${icon('search')}<span>Search the site</span></button>
       </nav>
       <div class="aal-section-grid">${sectionGroups.map((group,i)=>`
-        <details class="aal-menu-chapter"${group.links.some(([,url])=>current===url)?' open':''}>
+        <details class="aal-menu-chapter" name="aal-menu-topics">
           <summary>
             <img class="aal-chapter-art" src="/assets/navigation-watercolors/${group.art}-320.webp" alt="" width="96" height="96">
             <span class="aal-chapter-copy"><span class="aal-chapter-title">${esc(group.title)}</span><span class="aal-chapter-description">${esc(group.description)}</span><span class="aal-chapter-cue"><span class="aal-cue-closed">Explore</span><span class="aal-cue-open">Hide links</span><svg viewBox="0 0 20 20" aria-hidden="true" focusable="false"><path d="m5 7 5 5 5-5"/></svg></span></span>
