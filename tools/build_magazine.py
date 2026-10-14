@@ -113,7 +113,11 @@ def catalog(records,path='/library.html',topic=''):
  display=records
  hero=f'<section class="library-heading wrap"><p class="eyebrow">The An AUsome Life directory</p><h1>{E(title)}.</h1><p class="article-dek">{E(desc)}</p><p class="quiet-copy">Good guides, useful lists and New England field notes. Read a little. Find the part you need.</p></section>'
  ui='<section class="library-workspace wrap" data-library data-default-topic="'+topic+'"><form class="library-controls" role="search"><div class="search-field"><label for="library-search">What would make today easier?</label><div><input id="library-search" name="q" type="search" placeholder="Try pool, laundry, an IEP meeting…" autocomplete="off"><button type="submit" aria-label="Search the library">Search</button></div></div><div class="filter-row"><label>Topic<select name="topic">'+topic_options(topic)+'</select></label><label>Read or do<select name="type"><option value="">Every format</option><option>Guide</option><option>Place</option><option>Toolkit</option><option>Advice</option><option>Story</option></select></label><label>Arrange by<select name="sort"><option value="recommended">Recommended</option><option value="az">A–Z</option><option value="short">Shortest read</option></select></label><button class="reset-link" type="reset">Reset filters</button></div></form><div class="results-bar"><p data-result-status role="status" aria-live="polite">'+str(len(display))+' useful reads</p><a href="/library.html">Browse every topic</a></div><div class="library-results">'+''.join(card(a) for a in display)+'</div><div class="empty-state" hidden><h2>No exact match. A smaller search might help.</h2><p>Try one word, choose another topic, or clear the filters.</p><button class="button secondary" type="button" data-clear-all>Show all guides</button></div><div class="load-more" hidden><button class="button secondary" type="button" data-load-more>Show more guides</button></div><noscript><p>All '+str(len(display))+' guides are shown below the filters. Search and filters work with JavaScript enabled; every guide link works without it.</p></noscript></section>'
- return page(title,'Browse practical family-life guides by topic and format.',path,hero+ui,'library-page')
+ result=page(title,'Browse practical family-life guides by topic and format.',path,hero+ui,'library-page')
+ if not topic:
+  from apply_library_design import decorate
+  result=decorate(result)
+ return result
 
 def main():
  existing=existing_records();records=build_articles(existing)
