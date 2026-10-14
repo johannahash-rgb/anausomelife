@@ -1,0 +1,59 @@
+{
+  "created": "2026-10-14",
+  "origin": "OpenAI built-in image generation",
+  "use": "Original decorative topic miniatures for the library. Separate subjects and files from every top-navigation icon. Not factual venue imagery or family photography.",
+  "rights_basis": "New original generations with no third-party source images, identifiable people, logos, protected characters, or copied artwork. No claims of comprehensive legal clearance.",
+  "style": "Fine ink and naturalistic watercolor; preppy New England, warm ivory, navy, pine green, cranberry; transparent background, whole subject, no masks or shadows.",
+  "review": "All six generated outputs visually inspected. Clear topic subjects, no lettering or branding. Family tree and lake prints are illustrations, not documentary images.",
+  "processing": "Whole-frame resize to 128 and 320 pixels and WebP encoding; full original composition and alpha preserved, no recoloring or cropping.",
+  "assets": [
+    {
+      "id": "home",
+      "subject": "One handsome classic pine-green upholstered English roll-arm reading armchair, natural wooden feet, a neatly draped navy-and-cream plaid wool throw over one arm. Cozy New England home, adult proportions, one clear silhouette.",
+      "files": [
+        "assets/library-watercolors/home-128.webp",
+        "assets/library-watercolors/home-320.webp"
+      ]
+    },
+    {
+      "id": "outings",
+      "subject": "One pair of classic cranberry-red rubber Wellington walking boots standing together, subtle natural wear, one small golden maple leaf beside the boots. Full-length recognizable boots, inviting New England outings, no brand.",
+      "files": [
+        "assets/library-watercolors/outings-128.webp",
+        "assets/library-watercolors/outings-320.webp"
+      ]
+    },
+    {
+      "id": "family",
+      "subject": "One graceful small mature maple tree with a sturdy branching trunk and rounded canopy of natural muted green leaves, six little cranberry-red heart-shaped leaves subtly distributed among the ordinary leaves. Symbol of family and care, botanical realism, elegant adult editorial treatment, not a cartoon.",
+      "files": [
+        "assets/library-watercolors/family-128.webp",
+        "assets/library-watercolors/family-320.webp"
+      ]
+    },
+    {
+      "id": "stories",
+      "subject": "A small casual stack of three cream-bordered photographic prints, gently overlapping at slight angles. The upper print contains a tiny delicately painted New England lake scene with autumn trees and blue water; the two lower prints are mostly obscured. A photo-memory symbol, no people, no notebook, no pencil, no text.",
+      "files": [
+        "assets/library-watercolors/stories-128.webp",
+        "assets/library-watercolors/stories-320.webp"
+      ]
+    },
+    {
+      "id": "advocacy",
+      "subject": "One simple cream ceramic pencil cup with a narrow navy stripe, holding three sharpened natural-wood and cranberry pencils, next to one ivory paper sheet with three tiny checkmarks and subtle blank horizontal lines, no lettering. School and organized advocacy. One clean readable still-life silhouette, no book.",
+      "files": [
+        "assets/library-watercolors/advocacy-128.webp",
+        "assets/library-watercolors/advocacy-320.webp"
+      ]
+    },
+    {
+      "id": "holidays",
+      "subject": "One petite vanilla layer cake with ivory frosting on a simple navy-rimmed ceramic pedestal stand, three unlit slender cranberry birthday candles and one subtle sprig of green foliage by its base. Warm grown-up New England celebration, realistic natural proportions, no text, no calendar.",
+      "files": [
+        "assets/library-watercolors/holidays-128.webp",
+        "assets/library-watercolors/holidays-320.webp"
+      ]
+    }
+  ]
+}

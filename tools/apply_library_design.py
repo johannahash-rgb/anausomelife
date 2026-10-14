@@ -9,10 +9,10 @@ VERSION = '20261014-illustrated-library'
 TOPICS = [
     ('home', 'At home', 'The everyday, made easier', 'home'),
     ('outings', 'Out & about', 'A good New England day', 'outings'),
-    ('family', 'Family life', 'Communication & care', 'picture-cards'),
-    ('stories', 'Family stories', 'From our camera roll', 'journal'),
-    ('advocacy', 'School & advocacy', 'The useful details', 'directory'),
-    ('holidays', 'Days to celebrate', 'Make the occasion yours', 'calendar'),
+    ('family', 'Family life', 'Communication & care', 'family'),
+    ('stories', 'Family stories', 'From our camera roll', 'stories'),
+    ('advocacy', 'School & advocacy', 'The useful details', 'advocacy'),
+    ('holidays', 'Days to celebrate', 'Make the occasion yours', 'holidays'),
 ]
 # All media already appears in its linked article. Preserve full frame and pixels.
 ART = {
@@ -31,7 +31,7 @@ ART = {
 }
 
 def browsing():
-    links = ''.join(f'<a class="library-topic" data-library-topic="{key}" href="/topics/{key}.html"><img src="/assets/navigation-watercolors/{art}-128.webp" srcset="/assets/navigation-watercolors/{art}-128.webp 128w, /assets/navigation-watercolors/{art}-320.webp 320w" sizes="(max-width:540px) 48px, (max-width:900px) 60px, 88px" alt="" width="88" height="88" decoding="async"><strong>{escape(label)}</strong><span>{escape(note)}</span></a>' for key,label,note,art in TOPICS)
+    links = ''.join(f'<a class="library-topic" data-library-topic="{key}" href="/topics/{key}.html"><img src="/assets/library-watercolors/{art}-128.webp" srcset="/assets/library-watercolors/{art}-128.webp 128w, /assets/library-watercolors/{art}-320.webp 320w" sizes="(max-width:540px) 48px, (max-width:900px) 60px, 88px" alt="" width="88" height="88" decoding="async"><strong>{escape(label)}</strong><span>{escape(note)}</span></a>' for key,label,note,art in TOPICS)
     return '<section class="library-browse wrap" aria-labelledby="library-browse-title"><div class="library-browse-head"><h2 id="library-browse-title">A few lovely places to begin.</h2><a href="#library-search">Search every topic ↓</a></div><nav class="library-topic-grid" aria-label="Browse the library by topic">'+links+'</nav></section>'
 
 def decorate(source):

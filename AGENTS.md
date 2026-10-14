@@ -18,6 +18,8 @@ Apply these defaults to new work and revisions unless the owner explicitly asks 
 
 - Visual direction refined 8 October 2026: the owner rejected the Craigslist-like menu. Use lovely, refined ink-and-watercolor icons with plain visible labels, generous targets, a small number of clear topic choices and accessible disclosures for secondary links. Preserve the preppy New England character and universal-design priorities. Do not repeat homepage photographs between the hero slideshow, story grid and camera roll. The maintained homepage body is content/home-entrance.html; shared refinement is assets/editorial.css.
 
+- Library clarification (14 October 2026): topic illustrations in the second row must be distinct from the top-navigation icons, even when links lead to the same URL. Use `assets/library-watercolors/` for library topics; reserve `assets/navigation-watercolors/` for the established navigation. Keep the same refined brand style while varying the subjects.
+
 - The owner rejected the remaining flat postcard/clip-art style on inner outing pages. Do not restore it. Run tools/apply_editorial_photography.py after any page generator; it applies the original photographic editorial replacements and current shared style versions. Keep actual family photos and meaningful functional diagrams distinct from decorative images.
 
 - Do not repeat headlines within a page. Keep the editorial headline in its story section; introductions, navigation, interactive checklists and practical disclosures should not echo it. Run `python tools/apply_headline_cleanup.py` after page generators, then refresh the site search index. Preserve existing URLs and section anchors.
