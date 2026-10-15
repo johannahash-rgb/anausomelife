@@ -73,7 +73,7 @@
 
 
   const menuTheme=document.createElement('link');
-  menuTheme.rel='stylesheet';menuTheme.href='/assets/menu-wayfinding.css?v=20261014-clear-symbols';document.head.append(menuTheme);
+  menuTheme.rel='stylesheet';menuTheme.href='/assets/menu-wayfinding.css?v=20261015-catalogue';document.head.append(menuTheme);
 
   const shortcuts = [
     {label:'Home',href:'/',icon:'home',match:['/','/index.html']},
@@ -130,7 +130,7 @@
   sectionDialog.setAttribute('aria-labelledby','aal-section-title');
   sectionDialog.innerHTML=`
     <div class="aal-section-head">
-      <div><p class="eyebrow">An AUsome Life</p><h2 id="aal-section-title" tabindex="-1">What would help today?</h2><p class="aal-menu-intro">Plan an outing, make a picture card, or find something useful.</p></div>
+      <div><p class="eyebrow">An AUsome Life</p><h2 id="aal-section-title" tabindex="-1">What would help today?</h2><p class="aal-menu-intro">Places to go, picture cards to make, and practical notes for family life.</p></div>
       <button type="button" data-close-sections>${icon('close')}<span>Close</span></button>
     </div>
     <div class="aal-menu-body">
@@ -142,7 +142,7 @@
         <details class="aal-menu-chapter" name="aal-menu-topics">
           <summary>
             <img class="aal-chapter-art" src="/assets/navigation-watercolors/${group.art}-320.webp" alt="" width="96" height="96">
-            <span class="aal-chapter-copy"><span class="aal-chapter-title">${esc(group.title)}</span><span class="aal-chapter-description">${esc(group.description)}</span><span class="aal-chapter-cue"><span class="aal-cue-closed">Explore</span><span class="aal-cue-open">Hide links</span><svg viewBox="0 0 20 20" aria-hidden="true" focusable="false"><path d="m5 7 5 5 5-5"/></svg></span></span>
+            <span class="aal-chapter-copy"><span class="aal-chapter-number" aria-hidden="true">No. ${String(i+1).padStart(2,'0')}</span><span class="aal-chapter-title">${esc(group.title)}</span><span class="aal-chapter-description">${esc(group.description)}</span><span class="aal-chapter-cue"><span class="aal-cue-closed">Explore</span><span class="aal-cue-open">Hide links</span><svg viewBox="0 0 20 20" aria-hidden="true" focusable="false"><path d="m5 7 5 5 5-5"/></svg></span></span>
           </summary>
           <nav class="aal-chapter-links" aria-label="${esc(group.title)}">${group.links.map(menuLink).join('')}</nav>
         </details>`).join('')}
