@@ -12,7 +12,7 @@
     "wheelchair"
   ],
   "format": "Practical guide",
-  "summary": "A six-state guide to accessible and more usable trails, with distances, surfaces, slopes, parking, bathrooms and important limitations.",
+  "summary": "A six-state guide to 15 accessible and more usable trail destinations, with distances, surfaces, slopes, parking, bathrooms and important limitations.",
   "body_html": "<p>A researched guide to accessible and more usable trails in all six New England states. The published page preserves route-specific distances, surfaces, grades, parking and bathroom caveats rather than applying a blanket accessibility label.</p><p>Checked October 16, 2026. Conditions can change; use the managing organization's current information before traveling.</p>",
   "related_slugs": [
     "reading-a-trail-access-sign",
@@ -90,6 +90,36 @@
       "source_id": "me-acadia",
       "url": "https://www.nps.gov/acad/planyourvisit/accessibility.htm",
       "title": "National Park Service: Acadia accessibility",
+      "accessed": "2026-10-16"
+    },
+    {
+      "source_id": "ma-drumlin",
+      "url": "https://www.massaudubon.org/places-to-explore/wildlife-sanctuaries/drumlin-farm/accessibility",
+      "title": "Mass Audubon: Drumlin Farm accessibility",
+      "accessed": "2026-10-16"
+    },
+    {
+      "source_id": "ma-drumlin-trails",
+      "url": "https://www.massaudubon.org/places-to-explore/wildlife-sanctuaries/drumlin-farm/trails",
+      "title": "Mass Audubon: Drumlin Farm trail descriptions",
+      "accessed": "2026-10-16"
+    },
+    {
+      "source_id": "ma-oak",
+      "url": "https://www.massaudubon.org/places-to-explore/wildlife-sanctuaries/oak-knoll/accessibility",
+      "title": "Mass Audubon: Oak Knoll All Persons Trail",
+      "accessed": "2026-10-16"
+    },
+    {
+      "source_id": "ma-attleboro",
+      "url": "https://www.massaudubon.org/places-to-explore/wildlife-sanctuaries/attleboro-springs/trails",
+      "title": "Mass Audubon: Attleboro Springs Reflection Trail",
+      "accessed": "2026-10-16"
+    },
+    {
+      "source_id": "ma-attleboro-directions",
+      "url": "https://www.massaudubon.org/places-to-explore/wildlife-sanctuaries/attleboro-springs/directions",
+      "title": "Mass Audubon: Attleboro Springs directions",
       "accessed": "2026-10-16"
     }
   ]
