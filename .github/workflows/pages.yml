@@ -27,7 +27,7 @@ jobs:
 
       - name: Prepare original milk photographs and sharing image
         run: |
-          python -m pip install --quiet Pillow
+          python -m pip install --quiet Pillow lxml
           python .github/scripts/build_milk_social.py --root .
 
       - name: Validate story cards and editorial asset references
@@ -35,9 +35,16 @@ jobs:
           python tools/check_journal_picture_cards.py
           python tools/check_editorial_rights.py
           python -m py_compile tools/build_family_field_notes.py
+          node --check assets/global-nav.js
+          node --check assets/story-share.js
+          node --check assets/brand-room.js
+          node tests/test_editorial_sharing.cjs
           node --check assets/card-catalog.js
           node --check assets/card-collection.js
           node --check assets/journal-picture-cards.js
+
+      - name: Refresh search from the current editorial pages
+        run: python tools/build_site_index.py
 
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
@@ -46,6 +53,9 @@ jobs:
         run: |
           mkdir -p _site
           rsync -a --exclude='.git/' --exclude='.github/' --exclude='_site/' --exclude='*.md' --exclude='docs/' --exclude='tools/' --exclude='tests/' --exclude='scripts/' --exclude='services/' --exclude='*.py' --exclude='*.cjs' --exclude='*.example' --exclude='site-audit-report.json' ./ _site/
+
+      - name: Apply current editorial navigation and sharing assets
+        run: python .github/scripts/prepare_curated_edition.py --root _site
 
       - name: Prepare original-photo social previews
         run: python .github/scripts/enrich_social_meta.py --root _site

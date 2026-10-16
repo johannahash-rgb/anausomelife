@@ -2,7 +2,7 @@
 """Refresh universal search from current public page text; never regenerates editorial pages."""
 from pathlib import Path
 from lxml import html
-import json,re
+import json,re,hashlib
 ROOT=Path(__file__).resolve().parent.parent
 rows=[]
 for p in sorted(ROOT.rglob('*.html')):
@@ -41,6 +41,6 @@ manifest=[]
 for i,batch in enumerate(chunks):
  name=f'data/site-search/chunk-{i:02d}.json'
  (ROOT/name).write_text(json.dumps(batch,ensure_ascii=False,separators=(',',':'))+'\n')
- manifest.append('/'+name+'?v=20261005-practical')
+ manifest.append('/'+name+'?v='+hashlib.sha256((ROOT/name).read_bytes()).hexdigest()[:12])
 (ROOT/'data/site-index-manifest.json').write_text(json.dumps(manifest,separators=(',',':'))+'\n')
 print('Wrote',len(chunks),'bounded search chunks')

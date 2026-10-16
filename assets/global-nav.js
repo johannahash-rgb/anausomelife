@@ -75,15 +75,16 @@
   const menuTheme=document.createElement('link');
   menuTheme.rel='stylesheet';menuTheme.href='/assets/menu-wayfinding.css?v=20261015-catalogue';document.head.append(menuTheme);
 
+  const refinement=document.querySelector('link[href*="/assets/editorial.css"]')||document.createElement('link');refinement.rel='stylesheet';refinement.href='/assets/editorial.css?v=20261016-curated';document.head.append(refinement);
+  const sharing=document.createElement('script');sharing.src='/assets/story-share.js?v=20261016-curated';sharing.defer=true;document.head.append(sharing);
+
   const shortcuts = [
-    {label:'Home',href:'/',icon:'home',match:['/','/index.html']},
-    {label:'Find anything',action:'search',icon:'search',hint:'⌘K'},
+    {label:'Journal',href:'/blog.html',icon:'journal',secondary:true,match:['/blog.html']},
+    {label:'Places',href:'/favorite-places.html',icon:'outing',secondary:true,match:['/favorite-places.html'],prefix:'/favorite-places'},
     {label:'Explore',action:'sections',icon:'menu'},
-    {label:'Outings',href:'/favorite-places.html',icon:'outing',match:['/favorite-places.html'],prefix:'/favorite-places'},
-    {label:'Stories',href:'/blog.html',icon:'journal',match:['/blog.html','/older-teen-swim-guide.html','/hotel-pool-checklist.html','/pool-weekend-kit.html']},
-    {label:'Make cards',href:'/communication-card-generator.html',icon:'talk',match:['/communication-card-generator.html','/visit-story.html','/aac-outing-note.html']},
-    {label:'Calendar',href:'/calendar.html',icon:'calendar',match:['/calendar.html']},
-    {label:'Directory',href:'/little-black-book.html',icon:'book',match:['/little-black-book.html']}
+    {label:'Calendar',href:'/calendar.html',icon:'calendar',secondary:true,match:['/calendar.html']},
+    {label:'Search',action:'search',icon:'search',hint:'⌘K'},
+    {label:'For brands',href:'/media/',icon:'book',brand:true,match:['/media'],prefix:'/media/'}
   ];
 
   const sectionGroups = [
@@ -117,7 +118,7 @@
     const active = item.match?.includes(current) || (item.prefix && current.startsWith(item.prefix));
     if (item.action === 'sections') return `<button type="button" data-aal-open-sections aria-haspopup="dialog">${icon(item.icon)}<span class="aal-wayfinder-label">${item.label}</span></button>`;
     if (item.action === 'search') return `<button type="button" data-aal-open-search aria-haspopup="dialog">${icon(item.icon)}<span class="aal-wayfinder-label">${item.label}</span><span class="aal-search-shortcut">${item.hint}</span></button>`;
-    return `<a href="${item.href}"${active?' aria-current="page"':''}>${icon(item.icon)}<span class="aal-wayfinder-label">${item.label}</span></a>`;
+    return `<a href="${item.href}"${item.secondary?' data-nav-secondary':''}${item.brand?' class="aal-brand-route"':''}${active?' aria-current="page"':''}>${icon(item.icon)}<span class="aal-wayfinder-label">${item.label}</span></a>`;
   }).join('') + '</div>';
 
   const edition = document.querySelector('.edition-line');
@@ -148,7 +149,7 @@
         </details>`).join('')}
       </div>
       <nav class="aal-menu-help" aria-label="About and help">
-        ${[['Meet us','/about.html'],['Contact','/contact.html'],['Accessibility','/accessibility.html'],['How we choose','/how-we-choose.html'],['Language & representation','/language.html'],['Disclosure','/disclosure.html'],['Privacy','/privacy.html']].map(menuLink).join('')}
+        ${[['For brands & content use','/media/'],['Meet us','/about.html'],['Contact','/contact.html'],['Accessibility','/accessibility.html'],['How we choose','/how-we-choose.html'],['Language & representation','/language.html'],['Disclosure','/disclosure.html'],['Privacy','/privacy.html']].map(menuLink).join('')}
       </nav>
     </div>`;
   document.body.append(sectionDialog);document.body.classList.add('aal-unified-nav');
