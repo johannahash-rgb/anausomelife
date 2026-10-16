@@ -23,14 +23,14 @@
   const brand = document.querySelector('.mag-brand small');
   if (brand) brand.textContent='In pursuit of the Good New England Life';
   if (!footer.querySelector('.footer-emblem')) footer.querySelector('.footer-wordmark')?.before(img('coastal-emblem.webp','footer-emblem'));
-  if (!isHome && !isTool && !document.querySelector('.article-crumb, .breadcrumbs, .breadcrumb, .aal-breadcrumb, nav[aria-label="Breadcrumb"]')) {
+  if (!isHome && !isTool && !document.querySelector('.reader-breadcrumb, .article-crumb, .breadcrumbs, .breadcrumb, .aal-breadcrumb, nav[aria-label="Breadcrumb"]')) {
     const crumb=el('nav','aal-breadcrumb wrap');crumb.setAttribute('aria-label','Breadcrumb');
     const home=el('a','','Home');home.href='/';crumb.append(home,el('span','','/'));
     const current=main.querySelector('h1')?.textContent.trim();
     if(group.url!==path){const link=el('a','',group.name);link.href=group.url;crumb.append(link,el('span','','/'));}
     const label=el('span','',current||document.title.split('|')[0].trim());label.setAttribute('aria-current','page');crumb.append(label);main.prepend(crumb);
   }
-  if (!isHome && !isPolicy && !isTool && !document.querySelector('.aal-more, .er-related, .related, .related-guides, .related-links')) {
+  if (!isHome && !isPolicy && !isTool && !document.querySelector('.reader-next, .aal-more, .er-related, .fn-related, .related, .related-guides, .related-links')) {
     const more=el('section','aal-more');more.setAttribute('aria-labelledby','aal-more-title');
     const inner=el('div','wrap');const title=el('h2','','A little more to explore.');title.id='aal-more-title';inner.append(title);
     const grid=el('div','aal-more-grid');

@@ -40,6 +40,7 @@ jobs:
           npm install --prefix /tmp/aal-access-tests --no-package-lock --no-audit --no-fund linkedom@0.18.13
           NODE_PATH=/tmp/aal-access-tests/node_modules node tests/test_access_tools.cjs
           python tests/test_access_publication.py
+          python tests/test_reader_pathways.py
           node --check assets/story-share.js
           node --check assets/brand-room.js
           node tests/test_editorial_sharing.cjs

@@ -79,7 +79,7 @@
   menuTheme.rel='stylesheet';menuTheme.href='/assets/menu-wayfinding.css?v=20261016-illustrated-tools';document.head.append(menuTheme);
 
   const refinement=document.querySelector('link[href*="/assets/editorial.css"]')||document.createElement('link');refinement.rel='stylesheet';refinement.href='/assets/editorial.css?v=20261016-illustrated-tools';document.head.append(refinement);
-  const sharing=document.createElement('script');sharing.src='/assets/story-share.js?v=20261016-mobile-photo-fix';sharing.defer=true;document.head.append(sharing);
+  const sharing=document.createElement('script');sharing.src='/assets/story-share.js?v=20261016-reader-pathways';sharing.defer=true;document.head.append(sharing);
 
   const shortcuts = [
     {label:'Journal',href:'/blog.html',icon:'journal',secondary:true,match:['/blog.html']},
@@ -98,11 +98,13 @@
       ['Make a picture card','/communication-card-generator.html','picture-cards'], ['Ready-made picture cards','/picture-card-library.html','picture-cards'],
       ['Communication notes & profiles','/communication-notes.html','family-organizer'], ['Ways to communicate','/multimodal-communication.html','picture-cards'],
       ['AAC outing note','/aac-outing-note.html','care-clipboard']] },
-    { title:'Family & caregiver tools', art:'yankee-toolbox', description:'Share routines, plans & practical support', links:[
+    { title:'Family & caregiver support', art:'yankee-toolbox', description:'Practical help, real stories & time for yourself', links:[
+      ['Start here: family & caregiver support','/family-roles.html','family-organizer'],
+      ['Prepare a caregiver handover','/caregiver-handover-guide.html','care-clipboard'],
+      ['Day plans & household handoffs','/family-planning-toolkit.html','family-organizer'],
       ['Disabled parking & placards','/disabled-parking-placards-new-england.html','parking-volvo'],
-      ['Family & caregiver roles','/family-roles.html','yankee-toolbox'], ['Field notes for fathers','/paternal-role.html','outings'],
-      ['Family agreements','/family-agreements.html','care-clipboard'], ['Plans & handoffs','/family-planning-toolkit.html','family-organizer'],
-      ['Caregiver self-care: a night for me','/wayne-newton-flamingo-bucket-list-self-care.html','journal-v2'],
+      ['Guides for family & supporter roles','/family-roles.html#choose','yankee-toolbox'],
+      ['Time for yourself: a night for me','/wayne-newton-flamingo-bucket-list-self-care.html','journal-v2'],
       ['Time for two: a Gardner date','/isabella-stewart-gardner-museum-date.html','journal-v2']] },
     { title:'Home & wardrobe', art:'home', description:'Familiar comforts & practical routines', links:[
       ['At home','/at-home.html','home'], ['The Little Fixes','/the-little-fixes.html','yankee-toolbox'], ['Household reset','/household-reset.html','household-brush'],
@@ -222,7 +224,8 @@
     {url:'/favorite-places.html',title:'Favorite places',summary:'New England places with the practical details left in.',category:'outings',format:'Directory',aliases:'outings accessible places new england travel day trips'},
     {url:'/calendar.html',title:'The calendar',summary:'Things to do, seasonal events and outing ideas.',category:'outings',format:'Calendar',aliases:'events what is happening today weekend fall halloween trunk treat'},
     {url:'/little-black-book.html',title:'The little black book',summary:'Brands, businesses, places and organizations we use, love or support.',category:'directory',format:'Directory',aliases:'brands businesses organizations partners links favorite companies'},
-    {url:'/family-planning-toolkit.html',title:'Family rules, routines & handoffs',summary:'Leaving-the-house cards, day plans, handoffs and practical family structure.',category:'family',format:'Toolkit',aliases:'family rules house rules routine schedule plan internal rules handoff command center'},
+    {url:'/family-roles.html',title:'Family & caregiver support',summary:'Practical help for sharing care, days out, time for yourself and real family stories.',category:'family',format:'Start here',aliases:'caregiver help support respite self care mother father grandparent sibling family roles'},
+    {url:'/family-planning-toolkit.html',title:'Day plans & household handoffs',summary:'Fill in, copy or print a leaving-the-house card, day plan or household handoff.',category:'family',format:'Toolkit',aliases:'family rules house rules routine schedule plan internal rules handoff command center'},
     {url:'/family-command-center-guide.html',title:'A family command center that earns its wall space',summary:'A simple place everyone knows to check for today, tomorrow and the things that are easy to forget.',category:'home',format:'Guide',aliases:'family rules schedule calendar routines household'},
     {url:'/communication-card-generator.html',title:'Communication card maker',summary:'Make a clear, visual communication card quickly.',category:'family',format:'Tool',aliases:'AAC pecs visual choice card non speaking communication picture icon'},
     {url:'/visit-story.html',title:'Visual visit planner',summary:'See the visit first with clear picture steps and editable words.',category:'family',format:'Tool',aliases:'social story outing visual schedule first then visit plan'},

@@ -1,14 +1,18 @@
 #!/usr/bin/env python3
 """Keep shared navigation and editorial assets current in the published artifact."""
-import argparse,re,html
+import argparse,re,html,importlib.util
 from html.parser import HTMLParser
 from pathlib import Path
-VERSION='20261016-parking-guide'
+VERSION='20261016-reader-pathways'
 JOURNAL_PINS=(
     '/wayne-newton-flamingo-bucket-list-self-care.html',
     '/get-in-the-photograph.html',
     '/rangeley-grandparents-field-note.html',
 )
+
+def readable_heading_breaks(source):
+    """A responsive line break must still separate words when hidden by CSS."""
+    return re.sub(r'<h[1-6]\b[^>]*>.*?</h[1-6]>',lambda match:re.sub(r'(<br\s*/?>)(?=\S)',r'\1 ',match[0],flags=re.I),source,flags=re.S|re.I)
 
 def pin_journal_stories(source):
     """Keep the owner's selected stories ahead of newly added journal entries."""
@@ -48,10 +52,11 @@ def prepare(root):
     for page in root.rglob('*.html'):
         if any(p in {'.git','docs','tests','node_modules'} for p in page.relative_to(root).parts):continue
         s=page.read_text(encoding='utf-8');before=s
+        s=readable_heading_breaks(s)
         if page.relative_to(root).as_posix()=='blog.html':
             s=pin_journal_stories(s)
         s=complete_social(s)
-        for asset in ['editorial.css','global-nav.js','access-tools.css','access-tools.js']:
+        for asset in ['editorial.css','global-nav.js','access-tools.css','access-tools.js','reader-pathways.css','immersion.js','story-share.js']:
             s=re.sub(r'(/assets/'+re.escape(asset)+r')(?:\?[^"\s<>]+)?',r'\1?v='+VERSION,s)
         # Add the tools to complete pages, including those without shared navigation.
         # Leave redirect pages and reusable content fragments alone.
@@ -64,6 +69,9 @@ def prepare(root):
             s=re.sub(r'<script[^>]+src="/assets/home-dynamic.js[^>]*></script>','',s)
         if s!=before:page.write_text(s,encoding='utf-8');count+=1
     print('Prepared editorial assets on',count,'pages')
+    spec=importlib.util.spec_from_file_location('reader_pathways',Path(__file__).with_name('reader_pathways.py'))
+    pathways=importlib.util.module_from_spec(spec);spec.loader.exec_module(pathways)
+    pathways.prepare(root)
 if __name__=='__main__':
     parser=argparse.ArgumentParser();parser.add_argument('--root',type=Path,required=True)
     prepare(parser.parse_args().root)

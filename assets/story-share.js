@@ -31,7 +31,8 @@
       const button=section.querySelector('[data-share-native]');button.hidden=false;
       button.addEventListener('click',async()=>{try{await navigator.share({title,text:'From An AUsome Life',url});status.textContent='Story shared.';}catch(error){if(error.name!=='AbortError')await copy(url,'Story link copied.');}});
     }
-    main.append(section);
+    const next=main.querySelector('.reader-next');
+    if(next) next.before(section);else main.append(section);
   }
   if(document.readyState==='loading') document.addEventListener('DOMContentLoaded',start,{once:true});else start();
 })();

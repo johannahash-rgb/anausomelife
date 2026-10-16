@@ -18,9 +18,10 @@ function brandHarness(query='',clipboard){
  const ctx={document:{getElementById:n=>ids[n],querySelector:s=>selectors[s]},navigator:{clipboard},location:{search:query},URL,URLSearchParams,FormData:Data};
  vm.runInNewContext(fs.readFileSync(root+'/assets/brand-room.js','utf8'),ctx);return {ids,selectors};
 }
-function storyHarness({article=true,clipboard,share,canonical='https://anausomelife.com/october-ice-cream-dairy-joy-weston.html?tracking=yes#photo'}={}){
+function storyHarness({article=true,hasNext=false,clipboard,share,canonical='https://anausomelife.com/october-ice-cream-dairy-joy-weston.html?tracking=yes#photo'}={}){
  const main=new Element(),heading=new Element();heading.textContent='October ice cream at Dairy Joy.';
  main.nodes.h1=heading;if(article)main.nodes['.fn-story,.er-story,.love-body,.journal-prose,.article-body']=new Element();
+ if(hasNext){const next={before(node){main.children.splice(main.children.indexOf(next),0,node);}};main.nodes['.reader-next']=next;main.children.push(next);}
  const section=new Element();['.aal-share-status','[data-share-fallback]','textarea','[data-reuse-link]','[data-copy-link]','[data-copy-caption]','[data-share-native]'].forEach(k=>section.nodes[k]=new Element());section.nodes['[data-share-fallback]'].hidden=true;section.nodes['[data-share-native]'].hidden=true;
  const ctx={document:{readyState:'complete',querySelector:s=>s==='main'?main:s==='link[rel="canonical"]'?{href:canonical}:null,createElement:()=>section},location:{origin:'https://anausomelife.com'},navigator:{clipboard,share},URL};
  vm.runInNewContext(fs.readFileSync(root+'/assets/story-share.js','utf8'),ctx);return {main,section};
@@ -38,6 +39,7 @@ function storyHarness({article=true,clipboard,share,canonical='https://anausomel
  let prevented=false;b['brand-request'].listeners.submit({preventDefault(){prevented=true;}});assert(prevented,'No form data is sent to the server');
  const fallback=brandHarness();fallback.ids['brand-request-text'].value='Request';await fallback.ids['brand-copy-request'].listeners.click();assert(fallback.ids['brand-request-text'].selected);
  const s=storyHarness({clipboard});assert.equal(s.main.children.length,1);await s.section.nodes['[data-copy-link]'].listeners.click();assert.equal(copied,'https://anausomelife.com/october-ice-cream-dairy-joy-weston.html');
+ const ordered=storyHarness({hasNext:true});assert.equal(ordered.main.children.length,2);assert.equal(ordered.main.children[0],ordered.section,'Sharing appears before onward reading');
  await s.section.nodes['[data-copy-caption]'].listeners.click();assert(copied.includes('An AUsome Life · @anausomelife'));assert(!copied.includes('tracking'));
  const reuse=new URL(s.section.nodes['[data-reuse-link]'].href,'https://anausomelife.com');assert.equal(reuse.hash,'#sharing');assert.equal(reuse.searchParams.get('story'),'https://anausomelife.com/october-ice-cream-dairy-joy-weston.html');
  const f=storyHarness();await f.section.nodes['[data-copy-link]'].listeners.click();assert.equal(f.section.nodes['[data-share-fallback]'].hidden,false);assert(f.section.nodes.textarea.selected);

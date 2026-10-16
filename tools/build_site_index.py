@@ -3,22 +3,38 @@
 from pathlib import Path
 from lxml import html
 import json,re,hashlib
+from urllib.parse import urlparse
 ROOT=Path(__file__).resolve().parent.parent
 rows=[]
-for p in sorted(ROOT.rglob('*.html')):
+seen_content=set()
+preferred={row['url'] for row in json.loads((ROOT/'data/library.json').read_text())}
+pages=sorted(ROOT.rglob('*.html'),key=lambda p:('/'+p.relative_to(ROOT).as_posix() not in preferred,p.relative_to(ROOT).as_posix()))
+for p in pages:
  rel=p.relative_to(ROOT).as_posix()
- if rel.startswith(('.git/','docs/','tests/')) or rel=='404.html' or rel.startswith('preview-'):continue
+ if any(part.startswith('.') or part in {'_site','docs','tests','content','assets','downloads','node_modules'} for part in p.relative_to(ROOT).parts) or rel=='404.html' or rel.startswith('preview-'):continue
  try:d=html.fromstring(p.read_text())
  except Exception:continue
  if d.xpath('//meta[translate(@http-equiv,"REFSH","refsh")="refresh"]'):continue
+ if any('noindex' in value.lower() for value in d.xpath('//meta[@name="robots"]/@content')):continue
  main=d.xpath('//main');h=d.xpath('//h1');desc=d.xpath('//meta[@name="description"]/@content')
  if not main or not h:continue
  for e in main[0].xpath('.//script|.//style'):e.drop_tree()
+ for br in main[0].xpath('.//br'):br.tail=' '+(br.tail or '')
  text=lambda s:re.sub(r'\s+',' ',s).strip()
  title=text(h[0].text_content())
  url='/' if rel=='index.html' else '/'+rel
+ canonical=d.xpath('//link[@rel="canonical"]/@href')
+ if canonical:
+  parsed=urlparse(canonical[0])
+  if parsed.hostname in {'anausomelife.com','www.anausomelife.com'}:url=parsed.path or '/'
+ # Some preserved URLs contain the exact same article. Keep one search result,
+ # preferring the address already used by the library.
+ content=text(main[0].text_content())
+ signature=(title,content)
+ if signature in seen_content:continue
+ seen_content.add(signature)
  category='family' if any(v in rel for v in ['family','paternal','communication','little-adventures','kid-fun','profound','maternal-role','grandparent-role','sibling-role','extended-family-role','coparent-role','support-professional-role','respite-partner-role','caregiver-handover']) else 'outings' if any(v in rel for v in ['favorite-places','calendar','weekend','visit-story']) else 'guide'
- rows.append({'url':url,'title':title,'summary':desc[0] if desc else '', 'category':category,'format':'Tool' if rel in ['communication-card-generator.html','communication-notes.html','visit-story.html'] else 'Story' if rel=='little-adventures.html' else 'Page','search':text(main[0].text_content())})
+ rows.append({'url':url,'title':title,'summary':desc[0] if desc else '', 'category':category,'format':'Tool' if rel in ['communication-card-generator.html','communication-notes.html','visit-story.html'] else 'Story' if rel=='little-adventures.html' else 'Page','search':content})
 events=json.loads((ROOT/'data/events.json').read_text())
 for event in events.get('events',[]):
  if event.get('reviewRequired') or event.get('cancelled') or event.get('status') in ('review','cancelled','canceled'):continue

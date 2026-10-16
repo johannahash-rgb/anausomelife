@@ -10,6 +10,13 @@ edition = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(edition)
 
 class Publication(unittest.TestCase):
+    def test_heading_breaks_remain_readable_without_line_break_layout(self):
+        source='<h1>Wandering is<br>the activity.</h1><h2>Something<br><em>worth sharing.</em></h2>'
+        result=edition.readable_heading_breaks(source)
+        self.assertIn('is<br> the activity.',result)
+        self.assertIn('Something<br> <em>worth',result)
+        self.assertEqual(edition.readable_heading_breaks(result),result)
+
     def test_complete_pages_get_tools_once_and_redirects_and_fragments_stay_clean(self):
         with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp)
