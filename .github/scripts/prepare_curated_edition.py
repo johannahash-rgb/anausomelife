@@ -3,7 +3,7 @@
 import argparse,re,html
 from html.parser import HTMLParser
 from pathlib import Path
-VERSION='20261016-access-tools'
+VERSION='20261016-illustrated-tools'
 class Meta(HTMLParser):
     def __init__(self):super().__init__();self.tags={}
     def handle_starttag(self,tag,attrs):
@@ -45,5 +45,3 @@ def prepare(root):
 if __name__=='__main__':
     parser=argparse.ArgumentParser();parser.add_argument('--root',type=Path,required=True)
     prepare(parser.parse_args().root)
-
-

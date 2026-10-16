@@ -255,7 +255,8 @@ body .mag-footer p,body .mag-footer .footer-small{color:#e0e4dc}
 .curated-margin-note p{font:italic 1.5rem/1.4 Georgia,serif;margin:13px 0 0;color:#3d5544}
 .curated-tools{background:#eeefe6;border-block:1px solid #cdd0c4;padding-block:47px}
 .curated-tool-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:35px}
-.curated-tool-grid>a{display:block;min-width:0;min-height:44px;text-decoration:none;padding:22px 0 10px;border-top:1px solid #b6c0af;overflow-wrap:anywhere}
+.curated-tool-grid>a{display:grid;grid-template-columns:64px minmax(0,1fr);align-items:start;gap:16px;min-width:0;min-height:44px;text-decoration:none;padding:22px 0 10px;border-top:1px solid #b6c0af;overflow-wrap:anywhere}
+.curated-tool-grid>a>img{width:64px;height:64px;object-fit:contain}
 .curated-tool-grid>a>span{display:block;min-width:0;max-width:100%}
 .curated-tool-grid>a:hover strong{text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:5px}
 .curated-tool-grid strong{display:block;font:400 1.4rem/1.25 Georgia,serif;margin-bottom:10px}
@@ -359,7 +360,7 @@ body .landing-latest .journal-small p{font-size:.9rem;line-height:1.7}
  .curated-cover,.brand-cover{gap:30px;grid-template-columns:1fr 1.1fr}
  .curated-cover h1{font-size:clamp(2.7rem,5.6vw,4.3rem)}
  .curated-cover-copy>p.curated-dek{font-size:1.1rem}.curated-cover-copy>p:not(.eyebrow){font-size:.9rem}
- .curated-story-pair{gap:35px}.curated-tool-grid{gap:22px}
+ .curated-story-pair{gap:35px}.curated-tool-grid{grid-template-columns:minmax(0,1fr);gap:14px}
  .curated-place-grid{gap:23px}.curated-keep,.curated-close,.curated-collaborate>.wrap{gap:45px}
  .brand-split{gap:35px}.brand-offers,.brand-proof-grid{gap:25px}
  body.aal-unified-nav .aal-wayfinder-inner{grid-template-columns:repeat(6,minmax(0,1fr))!important;width:calc(100% - 32px)}

@@ -97,14 +97,23 @@ body .aal-menu-chapter[open] .aal-cue-open {display:inline;}
 body .aal-menu-chapter[open] .aal-chapter-cue svg {transform:rotate(180deg);}
 body .aal-chapter-links {padding:0 22px 14px;background:var(--chapter-paper);box-shadow:inset 4px 0 0 var(--menu-claret);}
 body .aal-chapter-links a {
-  display:flex;align-items:center;min-height:48px;box-sizing:border-box;padding:12px 8px;
+  display:grid;grid-template-columns:48px minmax(0,1fr) 16px;gap:12px;align-items:center;min-height:74px;box-sizing:border-box;padding:12px 8px;
   border-top:1px solid var(--menu-rule);font:1rem/1.45 Arial,sans-serif;color:var(--menu-ink);
   text-decoration:underline;text-underline-offset:4px;overflow-wrap:anywhere;
 }
+/* Every destination retains its own text label and a recognizable object. */
+body .aal-menu-link-art {display:block;width:48px;height:48px;object-fit:contain;flex:none;max-width:none;border:0;border-radius:0;box-shadow:none;filter:none;background:transparent;}
+body .aal-menu-link-label {min-width:0;overflow-wrap:anywhere;}
+body .aal-menu-link-arrow {font:1rem/1 Arial,sans-serif;text-decoration:none;justify-self:end;}
+body .aal-menu-start .aal-illustrated-link,body .aal-menu-help .aal-illustrated-link {gap:10px;}
+body .aal-menu-start .aal-menu-link-art {width:30px;height:30px;}
+body .aal-menu-start .aal-menu-link-arrow,body .aal-menu-help .aal-menu-link-arrow {display:none;}
+body .aal-menu-help .aal-menu-link-art {width:32px;height:32px;}
+body .aal-menu-help .aal-illustrated-link {min-width:0;min-height:52px;}
 body .aal-chapter-links a:hover,body .aal-menu-start a:hover {background:#d7ddc9;text-decoration-thickness:2px;}
 body .aal-chapter-links a[aria-current] {font-weight:700;border-left:3px solid var(--menu-claret);}
 body .aal-menu-help {
-  display:flex;flex-wrap:wrap;gap:0 20px;align-items:center;
+  display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:4px 20px;align-items:center;
   margin:0 -28px;padding:12px 28px;border-top:3px double #b6a075;background:var(--menu-pine);
 }
 body .aal-menu-help a {font-size:.8125rem;color:#f4ead5;}
@@ -150,12 +159,15 @@ body.aal-unified-nav .aal-wayfinder a,body.aal-unified-nav .aal-wayfinder button
   body .aal-chapter-title {font-size:1.35rem;}
   body .aal-chapter-description {font-size:.9375rem;}
   body .aal-chapter-links {padding-inline:12px;}
-  body .aal-menu-help {margin:0 -14px;padding:10px 14px;column-gap:16px;}
+  body .aal-menu-help {grid-template-columns:minmax(0,1fr);margin:0 -14px;padding:10px 14px;column-gap:16px;}
   body .aal-menu-help a {font-size:.875rem;}
 }
 @media(max-width:360px) {
   body .aal-menu-chapter summary {gap:12px;padding-inline:10px;}
   body .aal-menu-chapter .aal-chapter-art {width:60px;height:60px;}
+  body .aal-chapter-links a {grid-template-columns:40px minmax(0,1fr) 14px;gap:10px;}
+  body .aal-chapter-links .aal-menu-link-art {width:40px;height:40px;}
+  body .aal-menu-help {grid-template-columns:minmax(0,1fr);}
   body .aal-chapter-title {font-size:1.25rem;}
   body .aal-chapter-copy {overflow-wrap:anywhere;}
   body .aal-menu-start a,body .aal-menu-help a {max-width:100%;overflow-wrap:anywhere;}

@@ -1,0 +1,158 @@
+{
+  "created": "2026-10-15",
+  "generation": "OpenAI built-in image generation, one original generation per subject.",
+  "intended_use": "User-requested illustrated website navigation and practical-tool links. Decorative objects, never documentary family photographs or communication-card content. No third-party logos, named products or implied endorsements.",
+  "style_references": [
+    "assets/navigation-watercolors/journal-v2-320.webp",
+    "assets/navigation-watercolors/home-320.webp"
+  ],
+  "processing": "Whole-frame proportional resizing and WebP conversion, original alpha retained; no crop or recoloring.",
+  "review": "All eight full illustrations visually reviewed for recognizable subjects, coherent style, natural proportions and no medical symbols or people. Alpha verified in source and exported WebP.",
+  "verification_limit": "Browser rendering unavailable. Link markup, media paths, native disclosure structure, and publication artifact checked.",
+  "assets": [
+    {
+      "id": "yankee-toolbox",
+      "subject": "a compact classic open pine carpenter's toolbox with a carved wooden carry handle, a wooden-handled steel claw hammer, a folded brass-and-wood ruler, and a navy-handled screwdriver. Three clearly recognizable real hand tools, neatly arranged. A small folded navy ticking cloth peeks over the edge. An actual practical New England household toolbox.",
+      "source": "/workspace/scratch/b8324fde935a/generated_images/exec-24fc5412-d2ee-49da-a9e6-bb44a73aa708.png",
+      "files": [
+        {
+          "path": "assets/navigation-watercolors/yankee-toolbox-128.webp",
+          "bytes": 11530,
+          "sha256": "2547a9f05cf33a51be09d1793141b2b7320b5ccac8d0658e74da94bf33d255ca"
+        },
+        {
+          "path": "assets/navigation-watercolors/yankee-toolbox-320.webp",
+          "bytes": 48140,
+          "sha256": "b388e609706165502503846bb92fd9580b9de8f64958a7f9196484ccaf009cc8"
+        }
+      ],
+      "prompt": "Create ONE original transparent square navigation miniature. Use the attached images only as style references: fine ink-and-watercolor, elegant New England editorial object study, warm cream, navy, pine green and natural materials, organic painted edges, refined craft. Subject: a compact classic open pine carpenter's toolbox with a carved wooden carry handle, a wooden-handled steel claw hammer, a folded brass-and-wood ruler, and a navy-handled screwdriver. Three clearly recognizable real hand tools, neatly arranged. A small folded navy ticking cloth peeks over the edge. An actual practical New England household toolbox.. One uncomplicated composition, entire subject in frame with small transparent margins, recognizable at 48px, delicate details subordinate to a strong silhouette. No people, faces, hands, medical symbols, hearts, logos, lettering, cartoon styling, flat vector art, glossy 3D, frame, backdrop, cast shadow, or extra decorative objects. Genuinely transparent background. Match the existing reference artwork."
+    },
+    {
+      "id": "care-clipboard",
+      "subject": "a handsome small oak clipboard with a warm brass clip holding one cream planning sheet, three simple check marks and short faint rules but no words, a short pine-green pencil beside it. A clear practical planning tool.",
+      "source": "/workspace/scratch/b8324fde935a/generated_images/exec-67e7c285-47ec-4057-ba61-6fba2b827907.png",
+      "files": [
+        {
+          "path": "assets/navigation-watercolors/care-clipboard-128.webp",
+          "bytes": 7778,
+          "sha256": "bb6c2c50a480a7d1cd8aeec08f132423961d8dfceb5e19cdd632389a2a1983bb"
+        },
+        {
+          "path": "assets/navigation-watercolors/care-clipboard-320.webp",
+          "bytes": 28582,
+          "sha256": "ad21f346761f35d674214ffa6a10d3e50663c8bd5640abe710da9c125566186c"
+        }
+      ],
+      "prompt": "Create ONE original transparent square navigation miniature. Use the attached images only as style references: fine ink-and-watercolor, elegant New England editorial object study, warm cream, navy, pine green and natural materials, organic painted edges, refined craft. Subject: a handsome small oak clipboard with a warm brass clip holding one cream planning sheet, three simple check marks and short faint rules but no words, a short pine-green pencil beside it. A clear practical planning tool.. One uncomplicated composition, entire subject in frame with small transparent margins, recognizable at 48px, delicate details subordinate to a strong silhouette. No people, faces, hands, medical symbols, hearts, logos, lettering, cartoon styling, flat vector art, glossy 3D, frame, backdrop, cast shadow, or extra decorative objects. Genuinely transparent background. Match the existing reference artwork."
+    },
+    {
+      "id": "wardrobe-hook",
+      "subject": "a classic navy cable-knit sweater neatly hanging on a single honey-colored wooden hanger, with the small collar of a cream Oxford shirt showing. No person, no mannequin, no body, full garment.",
+      "source": "/workspace/scratch/b8324fde935a/generated_images/wardrobe-hook.png",
+      "files": [
+        {
+          "path": "assets/navigation-watercolors/wardrobe-hook-128.webp",
+          "bytes": 7368,
+          "sha256": "e31032e2b2cd629fb538db3d094aa6bf7230933176900b13a259b504b3ee5b87"
+        },
+        {
+          "path": "assets/navigation-watercolors/wardrobe-hook-320.webp",
+          "bytes": 31086,
+          "sha256": "08e4f40981478b40285a8124ed4ceb881c5b8aedf66e0b89d6a05efb58799cca"
+        }
+      ],
+      "prompt": "Create ONE original transparent square navigation miniature. Use the attached images only as style references: fine ink-and-watercolor, elegant New England editorial object study, warm cream, navy, pine green and natural materials, organic painted edges, refined craft. Subject: a classic navy cable-knit sweater neatly hanging on a single honey-colored wooden hanger, with the small collar of a cream Oxford shirt showing. No person, no mannequin, no body, full garment.. One uncomplicated composition, entire subject in frame with small transparent margins, recognizable at 48px, delicate details subordinate to a strong silhouette. No people, faces, hands, medical symbols, hearts, logos, lettering, cartoon styling, flat vector art, glossy 3D, frame, backdrop, cast shadow, or extra decorative objects. Genuinely transparent background. Match the existing reference artwork."
+    },
+    {
+      "id": "household-brush",
+      "subject": "a traditional beechwood dustpan and matching short natural-bristle hand brush, with a navy cotton hanging loop. Carefully made practical Yankee household tools. Full recognizable dustpan silhouette.",
+      "source": "/workspace/scratch/b8324fde935a/generated_images/household-brush.png",
+      "files": [
+        {
+          "path": "assets/navigation-watercolors/household-brush-128.webp",
+          "bytes": 9456,
+          "sha256": "5d68cf1e4bbd7c4cbc444d829da3840c829acc7883b7bb2905c4dd149d3df7d3"
+        },
+        {
+          "path": "assets/navigation-watercolors/household-brush-320.webp",
+          "bytes": 36088,
+          "sha256": "03ce04c2b8d14d72ca7872f4962c44c29c6078e7f7107c2cae0ff783df51bbf4"
+        }
+      ],
+      "prompt": "Create ONE original transparent square navigation miniature. Use the attached images only as style references: fine ink-and-watercolor, elegant New England editorial object study, warm cream, navy, pine green and natural materials, organic painted edges, refined craft. Subject: a traditional beechwood dustpan and matching short natural-bristle hand brush, with a navy cotton hanging loop. Carefully made practical Yankee household tools. Full recognizable dustpan silhouette.. One uncomplicated composition, entire subject in frame with small transparent margins, recognizable at 48px, delicate details subordinate to a strong silhouette. No people, faces, hands, medical symbols, hearts, logos, lettering, cartoon styling, flat vector art, glossy 3D, frame, backdrop, cast shadow, or extra decorative objects. Genuinely transparent background. Match the existing reference artwork."
+    },
+    {
+      "id": "little-boot",
+      "subject": "one classic New England duck boot: caramel leather upper, navy rubber lower, cream laces, clean natural proportions. Unbranded, no copied logos. Side three-quarter view of the whole boot.",
+      "source": "/workspace/scratch/b8324fde935a/generated_images/exec-a2c8de23-4c10-4dbf-b73d-8417f054c6dd.png",
+      "files": [
+        {
+          "path": "assets/navigation-watercolors/little-boot-128.webp",
+          "bytes": 9002,
+          "sha256": "a0f9b860cde88bb8125a065661a76250a06fab945d190270e2acf0233b0f28f5"
+        },
+        {
+          "path": "assets/navigation-watercolors/little-boot-320.webp",
+          "bytes": 36462,
+          "sha256": "27cd8d757473640ddeaad2dd85ca2ebaedd3076600e51709902592c714612ee8"
+        }
+      ],
+      "prompt": "Create ONE original transparent square navigation miniature. Use the attached images only as style references: fine ink-and-watercolor, elegant New England editorial object study, warm cream, navy, pine green and natural materials, organic painted edges, refined craft. Subject: one classic New England duck boot: caramel leather upper, navy rubber lower, cream laces, clean natural proportions. Unbranded, no copied logos. Side three-quarter view of the whole boot.. One uncomplicated composition, entire subject in frame with small transparent margins, recognizable at 48px, delicate details subordinate to a strong silhouette. No people, faces, hands, medical symbols, hearts, logos, lettering, cartoon styling, flat vector art, glossy 3D, frame, backdrop, cast shadow, or extra decorative objects. Genuinely transparent background. Match the existing reference artwork."
+    },
+    {
+      "id": "simple-football",
+      "subject": "one traditional brown pebbled-leather American football with cream stitched laces and subtle warm patina, natural oval proportions, sitting at a slight diagonal. No branding or text.",
+      "source": "/workspace/scratch/b8324fde935a/generated_images/exec-4f8e297b-6097-4bb6-a00f-f0514fe0e1f6.png",
+      "files": [
+        {
+          "path": "assets/navigation-watercolors/simple-football-128.webp",
+          "bytes": 8392,
+          "sha256": "b6ad2a288e0b8c604257b9d34ec099226f2eb931e83990c210e570658e53673d"
+        },
+        {
+          "path": "assets/navigation-watercolors/simple-football-320.webp",
+          "bytes": 40512,
+          "sha256": "b55543e5c8b6fe12dfee11093e9392ea67203adaf13bac290505e3c36889d022"
+        }
+      ],
+      "prompt": "Create ONE original transparent square navigation miniature. Use the attached images only as style references: fine ink-and-watercolor, elegant New England editorial object study, warm cream, navy, pine green and natural materials, organic painted edges, refined craft. Subject: one traditional brown pebbled-leather American football with cream stitched laces and subtle warm patina, natural oval proportions, sitting at a slight diagonal. No branding or text.. One uncomplicated composition, entire subject in frame with small transparent margins, recognizable at 48px, delicate details subordinate to a strong silhouette. No people, faces, hands, medical symbols, hearts, logos, lettering, cartoon styling, flat vector art, glossy 3D, frame, backdrop, cast shadow, or extra decorative objects. Genuinely transparent background. Match the existing reference artwork."
+    },
+    {
+      "id": "coffee-mug",
+      "subject": "one simple generous cream ceramic coffee mug with a navy rim and a sturdy curved handle, warm coffee visible from slightly above, a tiny wisp of steam. Plain, well-made New England kitchen pottery. No text or logo.",
+      "source": "/workspace/scratch/b8324fde935a/generated_images/exec-9190d8d2-86aa-47a2-8125-69c50e8cd418.png",
+      "files": [
+        {
+          "path": "assets/navigation-watercolors/coffee-mug-128.webp",
+          "bytes": 6872,
+          "sha256": "81f6957802fa4ab79126022acb2d4acfad29ea7102750379828752f3cfb38531"
+        },
+        {
+          "path": "assets/navigation-watercolors/coffee-mug-320.webp",
+          "bytes": 24606,
+          "sha256": "1f8305b7dd055f18bbcff40b811b9ec00a8262b6207e59df9b2c0255385df428"
+        }
+      ],
+      "prompt": "Create ONE original transparent square navigation miniature. Use the attached images only as style references: fine ink-and-watercolor, elegant New England editorial object study, warm cream, navy, pine green and natural materials, organic painted edges, refined craft. Subject: one simple generous cream ceramic coffee mug with a navy rim and a sturdy curved handle, warm coffee visible from slightly above, a tiny wisp of steam. Plain, well-made New England kitchen pottery. No text or logo.. One uncomplicated composition, entire subject in frame with small transparent margins, recognizable at 48px, delicate details subordinate to a strong silhouette. No people, faces, hands, medical symbols, hearts, logos, lettering, cartoon styling, flat vector art, glossy 3D, frame, backdrop, cast shadow, or extra decorative objects. Genuinely transparent background. Match the existing reference artwork."
+    },
+    {
+      "id": "family-film",
+      "subject": "a compact vintage navy and brushed-silver film camera with one clearly visible round glass lens and a short natural leather strap, restrained brass hardware. Unbranded; no readable text.",
+      "source": "/workspace/scratch/b8324fde935a/generated_images/exec-fccd9195-0bfd-4cb1-a43c-8dae7d21d394.png",
+      "files": [
+        {
+          "path": "assets/navigation-watercolors/family-film-128.webp",
+          "bytes": 7588,
+          "sha256": "6fb2bcd1410f7250b1e6d0ab569cdcd3fd467570f9370abf1c16535035176b31"
+        },
+        {
+          "path": "assets/navigation-watercolors/family-film-320.webp",
+          "bytes": 31956,
+          "sha256": "00fb47b0ddf61ddf6f0dce6d2219fcab1fc1a888b907335246e9083178812e30"
+        }
+      ],
+      "prompt": "Create ONE original transparent square navigation miniature. Use the attached images only as style references: fine ink-and-watercolor, elegant New England editorial object study, warm cream, navy, pine green and natural materials, organic painted edges, refined craft. Subject: a compact vintage navy and brushed-silver film camera with one clearly visible round glass lens and a short natural leather strap, restrained brass hardware. Unbranded; no readable text.. One uncomplicated composition, entire subject in frame with small transparent margins, recognizable at 48px, delicate details subordinate to a strong silhouette. No people, faces, hands, medical symbols, hearts, logos, lettering, cartoon styling, flat vector art, glossy 3D, frame, backdrop, cast shadow, or extra decorative objects. Genuinely transparent background. Match the existing reference artwork."
+    }
+  ]
+}

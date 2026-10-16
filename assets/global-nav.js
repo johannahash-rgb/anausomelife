@@ -29,7 +29,7 @@
   const fold = value => (value || '').toLocaleLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
   const esc = value => (value || '').replace(/[&<>"']/g, char => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));
   const icon = name => {
-    const miniatures={home:'home',search:'search',menu:'menu-v2',compass:'menu-v2',outing:'outings',family:'family-organizer',talk:'picture-cards',calendar:'calendar',book:'directory-v2',journal:'journal-v2'};
+    const miniatures={home:'home',search:'search',menu:'menu-v2',compass:'menu-v2',outing:'outings',family:'yankee-toolbox',talk:'picture-cards',calendar:'calendar',book:'directory-v2',journal:'journal-v2'};
     if(miniatures[name])return '<img class="aal-nav-miniature" src="/assets/navigation-watercolors/'+miniatures[name]+'-128.webp" alt="" aria-hidden="true" width="64" height="64">';
     const drawings={home:'home',compass:'compass',outing:'compass',family:'heart',talk:'picture',calendar:'calendar',book:'address-book',journal:'journal',search:'search',menu:'menu'};
     if(drawings[name])return '<svg viewBox="0 0 32 32" aria-hidden="true" focusable="false"><use href="/assets/editorial-icons.svg?v=20261003-journal#'+drawings[name]+'"></use></svg>';
@@ -76,10 +76,10 @@
 
 
   const menuTheme=document.createElement('link');
-  menuTheme.rel='stylesheet';menuTheme.href='/assets/menu-wayfinding.css?v=20261016-press';document.head.append(menuTheme);
+  menuTheme.rel='stylesheet';menuTheme.href='/assets/menu-wayfinding.css?v=20261016-illustrated-tools';document.head.append(menuTheme);
 
-  const refinement=document.querySelector('link[href*="/assets/editorial.css"]')||document.createElement('link');refinement.rel='stylesheet';refinement.href='/assets/editorial.css?v=20261016-press';document.head.append(refinement);
-  const sharing=document.createElement('script');sharing.src='/assets/story-share.js?v=20261016-press';sharing.defer=true;document.head.append(sharing);
+  const refinement=document.querySelector('link[href*="/assets/editorial.css"]')||document.createElement('link');refinement.rel='stylesheet';refinement.href='/assets/editorial.css?v=20261016-illustrated-tools';document.head.append(refinement);
+  const sharing=document.createElement('script');sharing.src='/assets/story-share.js?v=20261016-illustrated-tools';sharing.defer=true;document.head.append(sharing);
 
   const shortcuts = [
     {label:'Journal',href:'/blog.html',icon:'journal',secondary:true,match:['/blog.html']},
@@ -92,27 +92,27 @@
 
   const sectionGroups = [
     { title:'Plan a day out', art:'outings', description:'Find places, events & visit plans', links:[
-      ['Favorite places','/favorite-places.html'], ['Calendar & maps','/calendar.html'],
-      ['New England weekends','/new-england-weekends.html'], ['Make a visit story','/visit-story.html']] },
+      ['Favorite places','/favorite-places.html','outings'], ['Calendar & maps','/calendar.html','calendar'],
+      ['New England weekends','/new-england-weekends.html','outings'], ['Make a visit story','/visit-story.html','care-clipboard']] },
     { title:'Make picture cards', art:'picture-cards', description:'Create choices & communication supports', links:[
-      ['Make a picture card','/communication-card-generator.html'], ['Ready-made picture cards','/picture-card-library.html'],
-      ['Communication notes & profiles','/communication-notes.html'], ['Ways to communicate','/multimodal-communication.html'],
-      ['AAC outing note','/aac-outing-note.html']] },
-    { title:'Family & caregiver tools', art:'family-organizer', description:'Share routines, plans & practical support', links:[
-      ['Family & caregiver roles','/family-roles.html'], ['Field notes for fathers','/paternal-role.html'],
-      ['Family agreements','/family-agreements.html'], ['Plans & handoffs','/family-planning-toolkit.html']] },
+      ['Make a picture card','/communication-card-generator.html','picture-cards'], ['Ready-made picture cards','/picture-card-library.html','picture-cards'],
+      ['Communication notes & profiles','/communication-notes.html','family-organizer'], ['Ways to communicate','/multimodal-communication.html','picture-cards'],
+      ['AAC outing note','/aac-outing-note.html','care-clipboard']] },
+    { title:'Family & caregiver tools', art:'yankee-toolbox', description:'Share routines, plans & practical support', links:[
+      ['Family & caregiver roles','/family-roles.html','yankee-toolbox'], ['Field notes for fathers','/paternal-role.html','outings'],
+      ['Family agreements','/family-agreements.html','care-clipboard'], ['Plans & handoffs','/family-planning-toolkit.html','family-organizer']] },
     { title:'Home & wardrobe', art:'home', description:'Familiar comforts & practical routines', links:[
-      ['At home','/at-home.html'], ['The Little Fixes','/the-little-fixes.html'], ['Household reset','/household-reset.html'],
-      ['Family wardrobe','/family-wardrobe.html'], ['School & advocacy','/topics/advocacy.html']] },
+      ['At home','/at-home.html','home'], ['The Little Fixes','/the-little-fixes.html','yankee-toolbox'], ['Household reset','/household-reset.html','household-brush'],
+      ['Family wardrobe','/family-wardrobe.html','wardrobe-hook'], ['School & advocacy','/topics/advocacy.html','care-clipboard']] },
     { title:'Family stories', art:'journal-v2', description:'Real days out & little everyday joys', links:[
-      ['Read the journal','/blog.html'], ['Fun & videos','/kid-fun.html'],
-      ['The little boot story','/little-adventures.html'], ['One simple game','/paternal-football-card.html'],
-      ['The family notebook','/family-notebook.html']] },
+      ['Read the journal','/blog.html','journal-v2'], ['Fun & videos','/kid-fun.html','family-film'],
+      ['The little boot story','/little-adventures.html','little-boot'], ['One simple game','/paternal-football-card.html','simple-football'],
+      ['The family notebook','/family-notebook.html','family-organizer']] },
     { title:'Places & useful finds', art:'directory-v2', description:'The Little Black Book: shops, brands & more', links:[
-      ['Brands & organizations','/little-black-book.html'], ['Product guides','/product-guides.html'],
-      ['Coffee field note','/eight-oclock-colombian-peaks-field-note.html'], ['Copyable field notes','/field-notes.html']] }
+      ['Brands & organizations','/little-black-book.html','directory-v2'], ['Product guides','/product-guides.html','yankee-toolbox'],
+      ['Coffee field note','/eight-oclock-colombian-peaks-field-note.html','coffee-mug'], ['Copyable field notes','/field-notes.html','care-clipboard']] }
   ];
-  const menuLink = ([label,url]) => '<a href="'+url+'"'+(current===url?' aria-current="page"':'')+'>'+esc(label)+'</a>';
+  const menuLink = ([label,url,art='menu-v2']) => '<a class="aal-illustrated-link" href="'+url+'"'+(current===url?' aria-current="page"':'')+'><img class="aal-menu-link-art" src="/assets/navigation-watercolors/'+art+'-128.webp" alt="" width="48" height="48" loading="lazy" decoding="async"><span class="aal-menu-link-label">'+esc(label)+'</span><span class="aal-menu-link-arrow" aria-hidden="true">↗</span></a>';
   const current = location.pathname.replace(/\/+$/,'') || '/';
   const bar = document.createElement('nav');
   bar.className = 'aal-wayfinder';
@@ -139,7 +139,7 @@
     </div>
     <div class="aal-menu-body">
       <nav class="aal-menu-start" aria-label="Start exploring">
-        ${menuLink(['Home','/'])}${menuLink(['Start here','/start-here.html'])}${menuLink(['Every guide & story','/library.html'])}
+        ${menuLink(['Home','/','home'])}${menuLink(['Start here','/start-here.html','menu-v2'])}${menuLink(['Every guide & story','/library.html','journal-v2'])}
         <button type="button" data-menu-search>${icon('search')}<span>Search the site</span></button>
       </nav>
       <div class="aal-section-grid">${sectionGroups.map((group,i)=>`
@@ -152,7 +152,7 @@
         </details>`).join('')}
       </div>
       <nav class="aal-menu-help" aria-label="About and help">
-        ${[['For brands & content use','/media/'],['Recent press & community mentions','/press.html'],['Meet us','/about.html'],['Contact','/contact.html'],['Accessibility','/accessibility.html'],['How we choose','/how-we-choose.html'],['Language & representation','/language.html'],['Disclosure','/disclosure.html'],['Privacy','/privacy.html']].map(menuLink).join('')}
+        ${[['For brands & content use','/media/','directory-v2'],['Recent press & community mentions','/press.html','journal-v2'],['Meet us','/about.html','family-film'],['Contact','/contact.html','journal-v2'],['Accessibility','/accessibility.html','home'],['How we choose','/how-we-choose.html','search'],['Language & representation','/language.html','picture-cards'],['Disclosure','/disclosure.html','care-clipboard'],['Privacy','/privacy.html','family-organizer']].map(menuLink).join('')}
       </nav>
     </div>`;
   document.body.append(sectionDialog);document.body.classList.add('aal-unified-nav');
@@ -335,5 +335,3 @@
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', restoreFooter, {once:true});
   else restoreFooter();
 })();
-
-
