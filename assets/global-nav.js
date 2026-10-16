@@ -73,10 +73,10 @@
 
 
   const menuTheme=document.createElement('link');
-  menuTheme.rel='stylesheet';menuTheme.href='/assets/menu-wayfinding.css?v=20261016-family-organizer';document.head.append(menuTheme);
+  menuTheme.rel='stylesheet';menuTheme.href='/assets/menu-wayfinding.css?v=20261016-press';document.head.append(menuTheme);
 
-  const refinement=document.querySelector('link[href*="/assets/editorial.css"]')||document.createElement('link');refinement.rel='stylesheet';refinement.href='/assets/editorial.css?v=20261016-family-organizer';document.head.append(refinement);
-  const sharing=document.createElement('script');sharing.src='/assets/story-share.js?v=20261016-family-organizer';sharing.defer=true;document.head.append(sharing);
+  const refinement=document.querySelector('link[href*="/assets/editorial.css"]')||document.createElement('link');refinement.rel='stylesheet';refinement.href='/assets/editorial.css?v=20261016-press';document.head.append(refinement);
+  const sharing=document.createElement('script');sharing.src='/assets/story-share.js?v=20261016-press';sharing.defer=true;document.head.append(sharing);
 
   const shortcuts = [
     {label:'Journal',href:'/blog.html',icon:'journal',secondary:true,match:['/blog.html']},
@@ -149,7 +149,7 @@
         </details>`).join('')}
       </div>
       <nav class="aal-menu-help" aria-label="About and help">
-        ${[['For brands & content use','/media/'],['Meet us','/about.html'],['Contact','/contact.html'],['Accessibility','/accessibility.html'],['How we choose','/how-we-choose.html'],['Language & representation','/language.html'],['Disclosure','/disclosure.html'],['Privacy','/privacy.html']].map(menuLink).join('')}
+        ${[['For brands & content use','/media/'],['Recent press & community mentions','/press.html'],['Meet us','/about.html'],['Contact','/contact.html'],['Accessibility','/accessibility.html'],['How we choose','/how-we-choose.html'],['Language & representation','/language.html'],['Disclosure','/disclosure.html'],['Privacy','/privacy.html']].map(menuLink).join('')}
       </nav>
     </div>`;
   document.body.append(sectionDialog);document.body.classList.add('aal-unified-nav');
@@ -322,7 +322,8 @@
     const footer = document.querySelector('footer.mag-footer');
     if (!footer) return;
     const navigation = footer.querySelector('nav[aria-label="Footer navigation"]');
-    if (!navigation) { footer.outerHTML = fullFooter; return; }
+    if (!navigation) { footer.outerHTML = fullFooter; restoreFooter(); return; }
+    if (!navigation.querySelector('a[href="/press.html"]')) { const press = document.createElement('a'); press.href = '/press.html'; press.textContent = 'Recent press'; navigation.append(press); }
     const media = navigation.querySelector('a[href="/media/"]');
     if (media) media.textContent = 'Media Kit & partnerships';
     else { const link = document.createElement('a'); link.href = '/media/'; link.textContent = 'Media Kit & partnerships'; navigation.append(link); }
@@ -330,3 +331,4 @@
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', restoreFooter, {once:true});
   else restoreFooter();
 })();
+

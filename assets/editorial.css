@@ -418,3 +418,40 @@ body .landing-latest .journal-small p{font-size:.9rem;line-height:1.7}
 }
 @media(prefers-reduced-motion:reduce){.curated-home *, .brand-room *{transition:none!important;animation:none!important;scroll-behavior:auto!important}}
 @media print{.aal-story-share,.curated-chapters,.curated-tools,.curated-collaborate,.curated-close form,.brand-subnav,.brand-request{display:none!important}.curated-home,.brand-room{background:#fff}.curated-cover,.curated-story-pair,.brand-proof-grid{display:block}.curated-home img,.brand-room img{max-width:75%;max-height:320px;width:auto}.curated-story,.brand-proof-grid article{break-inside:avoid;margin-bottom:25px}}
+
+
+/* Press and community mentions: a quiet, readable clipping book. */
+.press-room{background:#fbf8f1;color:#18343c}
+.press-room .wrap{width:min(1180px,calc(100% - 64px));margin-inline:auto;box-sizing:border-box}
+.press-cover{padding-block:65px 45px;border-bottom:1px solid #bcc7bc}
+.press-cover h1,.press-letter h1{font:400 clamp(2.7rem,6.3vw,5.6rem)/1.05 Georgia,serif;letter-spacing:-.045em;margin:20px 0 28px;max-width:17ch}
+.press-cover h1 em,.press-letter h1 em{font-weight:400;color:#48614d}
+.press-dek{font:400 clamp(1.15rem,2.1vw,1.5rem)/1.55 Georgia,serif;max-width:44ch}
+.press-section{padding-block:55px}
+.press-section .curated-section-head h2{max-width:22ch}
+.press-entries{border-top:1px solid #a9b6a7}
+.press-entry{display:grid;grid-template-columns:190px minmax(0,1fr);gap:40px;padding:30px 0;border-bottom:1px solid #ccd2c5;scroll-margin-top:100px}
+.press-meta{display:flex;flex-direction:column;gap:8px;font:.82rem/1.5 Arial,sans-serif;color:#526458;padding-top:5px}
+.press-meta>span:first-child{font-weight:700}
+.press-entry h2,.press-entry h3{font:400 clamp(1.6rem,2.7vw,2.35rem)/1.2 Georgia,serif;letter-spacing:-.025em;margin:0 0 12px}
+.press-entry p{font:1rem/1.7 Arial,sans-serif;max-width:68ch;margin:0 0 14px}
+.press-links{display:flex;flex-wrap:wrap;gap:6px 25px}
+.press-links a{display:inline-flex;align-items:center;min-height:44px;font:.9rem/1.45 Arial,sans-serif;text-underline-offset:5px}
+.press-room a,.press-section a{color:#214a43;overflow-wrap:anywhere}
+.press-room :focus-visible,.press-section :focus-visible{outline:3px solid #a23b24;outline-offset:5px}
+.press-footnote{font:.88rem/1.65 Arial,sans-serif;color:#526458;max-width:85ch;margin:25px 0 0}
+.press-invitation{border-top:1px solid #bcc7bc;padding-block:36px 65px}
+.press-invitation h2{font:400 clamp(1.8rem,3.5vw,2.7rem)/1.2 Georgia,serif;margin:12px 0 20px}
+.press-invitation>p:not(.eyebrow){max-width:70ch;line-height:1.7}
+.press-letter{padding-block:65px}
+.press-letter>header{max-width:860px;margin-inline:auto;padding-bottom:30px;border-bottom:1px solid #bcc7bc}
+.press-prose{width:min(700px,100%);margin:36px auto 0;font:1.08rem/1.85 Georgia,serif}
+.press-prose p{margin:0 0 24px;font:inherit}
+.press-prose section{scroll-margin-top:110px;margin-block:42px}
+.press-prose h2{font:400 clamp(1.6rem,3vw,2.2rem)/1.25 Georgia,serif;margin:0 0 20px;letter-spacing:-.02em}
+.press-prose a{text-underline-offset:4px}
+.press-signature{font-style:italic!important;padding-block:10px}
+.press-resource-note{margin:40px 0;padding:25px 0;border-block:1px solid #bcc7bc}
+.press-resource-note h2{font-size:1.5rem}.press-resource-note ul{padding-left:22px}.press-resource-note li{margin-block:14px}
+@media(max-width:680px){.press-room .wrap{width:calc(100% - 40px)}.press-cover,.press-letter{padding-block:36px}.press-cover h1,.press-letter h1{font-size:clamp(2.4rem,10vw,3.7rem)}.press-section{padding-block:36px}.press-entry{grid-template-columns:minmax(0,1fr);gap:14px;padding-block:25px}.press-meta{flex-direction:row;flex-wrap:wrap;gap:4px 15px}.press-links{gap:4px 18px}.press-prose{font-size:1.05rem}.press-invitation{padding-bottom:40px}}
+@media print{.press-entry{break-inside:avoid}.press-room{background:#fff}.press-room .wrap{width:100%}}
