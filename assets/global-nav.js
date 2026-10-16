@@ -3,6 +3,9 @@
   'use strict';
   if (window.__AAL_GLOBAL_NAV__) return;
   window.__AAL_GLOBAL_NAV__ = true;
+  // Also support source pages served without the publication pass.
+  if(!document.querySelector('link[href*="/assets/access-tools.css"]')){const css=document.createElement('link');css.rel='stylesheet';css.href='/assets/access-tools.css?v=20261016-access-tools';document.head.append(css);}
+  if(!document.querySelector('script[src*="/assets/access-tools.js"]')){const access=document.createElement('script');access.src='/assets/access-tools.js?v=20261016-access-tools';access.defer=true;document.head.append(access);}
   const editorialPage = document.querySelector('.ellis-review');
   if (editorialPage) {
     if (!document.querySelector('link[href*="/assets/editorial-art-direction.css"]')) {
@@ -307,6 +310,7 @@
   document.querySelectorAll('[data-aal-open-search]').forEach(button=>button.addEventListener('click',()=>openSearch()));
   document.querySelectorAll('.nav-search,a[href="/library.html#library-search"]').forEach(link=>link.addEventListener('click',e=>{e.preventDefault();openSearch()}));
   document.addEventListener('keydown',e=>{
+    if([...document.querySelectorAll('dialog[open]')].some(d=>d!==dialog&&d!==sectionDialog))return;
     const target=e.target; const typing=target && (target.matches('input,textarea,select') || target.isContentEditable);
     if ((e.metaKey||e.ctrlKey) && e.key.toLowerCase()==='k'){e.preventDefault();openSearch();return;}
     if (!typing && e.key==='/'){e.preventDefault();openSearch();}
@@ -331,4 +335,5 @@
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', restoreFooter, {once:true});
   else restoreFooter();
 })();
+
 
