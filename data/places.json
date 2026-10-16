@@ -230,5 +230,13 @@
     "summary": "The Nubble is one of those rare very-pretty things that does not require a hike or an admission ticket. You can make the whole visit ten minutes if that is the day you are having.",
     "image": "/assets/york-maine-clean.jpg",
     "location": "York, Maine"
+  },
+  {
+    "slug": "reading-jordans-fuddruckers-cookie-monstah",
+    "url": "/reading-jordans-fuddruckers-cookie-monstah.html",
+    "title": "Jordan’s Furniture: Fuddruckers & Cookie Monstah",
+    "summary": "Lunch, illuminated fountains, popcorn and a dessert option at Jordan’s Reading, plus our firsthand wheelchair and sensory-access notes.",
+    "image": "/assets/reading-afternoon/james-fuddruckers.webp",
+    "location": "Reading, Massachusetts"
   }
 ]
