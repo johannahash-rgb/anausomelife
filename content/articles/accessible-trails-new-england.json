@@ -1,0 +1,96 @@
+{
+  "slug": "accessible-trails-new-england",
+  "title": "Accessible trails across New England",
+  "category": "outings",
+  "topics": [
+    "outings",
+    "outdoors",
+    "access",
+    "New England",
+    "walks",
+    "trails",
+    "wheelchair"
+  ],
+  "format": "Practical guide",
+  "summary": "A six-state guide to accessible and more usable trails, with distances, surfaces, slopes, parking, bathrooms and important limitations.",
+  "body_html": "<p>A researched guide to accessible and more usable trails in all six New England states. The published page preserves route-specific distances, surfaces, grades, parking and bathroom caveats rather than applying a blanket accessibility label.</p><p>Checked October 16, 2026. Conditions can change; use the managing organization's current information before traveling.</p>",
+  "related_slugs": [
+    "reading-a-trail-access-sign",
+    "the-access-call-before-you-go",
+    "offline-outing-folder"
+  ],
+  "sources": [
+    {
+      "source_id": "mass-broadmoor",
+      "url": "https://www.massaudubon.org/places-to-explore/wildlife-sanctuaries/broadmoor/accessibility",
+      "title": "Mass Audubon: Broadmoor accessibility",
+      "accessed": "2026-10-16"
+    },
+    {
+      "source_id": "mass-fort-river",
+      "url": "https://www.kestreltrust.org/places/fort-river-trail-at-the-conte-refuge/",
+      "title": "Kestrel Land Trust: Fort River Trail",
+      "accessed": "2026-10-16"
+    },
+    {
+      "source_id": "ri-mcintosh",
+      "url": "https://asri.org/hike/wildliferefuges/claire-d-mcintosh-wildlife-refuge-environmental-education-center.html",
+      "title": "Audubon Society of Rhode Island: Claire D. McIntosh Wildlife Refuge",
+      "accessed": "2026-10-16"
+    },
+    {
+      "source_id": "ri-dundery",
+      "url": "https://www.nature.org/en-us/get-involved/how-to-help/places-we-protect/dundery-brook-trail/",
+      "title": "The Nature Conservancy: Dundery Brook Trail",
+      "accessed": "2026-10-16"
+    },
+    {
+      "source_id": "ct-stratton",
+      "url": "https://ctparks.com/parks/stratton-brook-state-park",
+      "title": "Connecticut State Parks: Stratton Brook",
+      "accessed": "2026-10-16"
+    },
+    {
+      "source_id": "ct-larsen",
+      "url": "https://ctaudubon.org/locations/the-fairfield-nature-center-and-larsen-sanctuary/",
+      "title": "Connecticut Audubon: Larsen Sanctuary",
+      "accessed": "2026-10-16"
+    },
+    {
+      "source_id": "nh-manchester",
+      "url": "https://www.nature.org/en-us/get-involved/how-to-help/places-we-protect/manchester-cedar-swamp-preserve/",
+      "title": "The Nature Conservancy: Manchester Cedar Swamp",
+      "accessed": "2026-10-16"
+    },
+    {
+      "source_id": "nh-ossipee",
+      "url": "https://www.nature.org/en-us/get-involved/how-to-help/places-we-protect/ossipee-pine-barrens/",
+      "title": "The Nature Conservancy: Ossipee Pine Barrens",
+      "accessed": "2026-10-16"
+    },
+    {
+      "source_id": "vt-barnes",
+      "url": "https://greenmountainclub.org/about/visitor-centers/barnes-camp/",
+      "title": "Green Mountain Club: Barnes Camp",
+      "accessed": "2026-10-16"
+    },
+    {
+      "source_id": "vt-thundering",
+      "url": "https://www.trailfinder.info/trails/trail/thundering-falls",
+      "title": "Trail Finder: Thundering Falls",
+      "accessed": "2026-10-16"
+    },
+    {
+      "source_id": "me-carson",
+      "url": "https://www.fws.gov/refuge/rachel-carson/visit-us/trails",
+      "title": "U.S. Fish & Wildlife Service: Rachel Carson trails",
+      "accessed": "2026-10-16"
+    },
+    {
+      "source_id": "me-acadia",
+      "url": "https://www.nps.gov/acad/planyourvisit/accessibility.htm",
+      "title": "National Park Service: Acadia accessibility",
+      "accessed": "2026-10-16"
+    }
+  ]
+}
