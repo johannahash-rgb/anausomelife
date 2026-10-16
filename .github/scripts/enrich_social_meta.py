@@ -1,92 +1,168 @@
 #!/usr/bin/env python3
-"""Add page-specific Open Graph and Twitter image metadata to public HTML during deployment.
+"""Apply reviewed social previews to source HTML and the GitHub Pages artifact.
 
-Uses existing, approved article photos or illustrations only; never synthesizes images.
-Redirect shells, site fragments and print pages are left alone.
+Selections live outside the hosted artifact in docs/social-preview-selections.json.
+There is deliberately no inferred image, page-order score, or global fallback.
+Run after page generators. --check validates assets AND the static HTML without edits.
 """
-import argparse,html,json,re
+import argparse
+import hashlib
+import html
+import json
+import re
+import sys
 from html.parser import HTMLParser
 from pathlib import Path
-from urllib.parse import urlparse,urljoin
+from urllib.parse import quote, urlparse
+from PIL import Image
 
-DOMAIN="https://anausomelife.com/"
-FALLBACK="/assets/editorial/coastal-walk.webp"
-IMAGE_PATTERN=re.compile(r"\.(?:png|jpe?g|webp)(?:$|[?#])",re.I)
-class Images(HTMLParser):
-    def __init__(self):super().__init__();self.images=[]
-    def handle_starttag(self,tag,attrs):
-        if tag=="img":self.images.append(dict(attrs))
-def metadata(page,root):
-    source=page.read_text(encoding="utf-8",errors="replace")
-    head=re.search(r"<head\b[^>]*>(.*?)</head\s*>",source,re.I|re.S)
-    if not head:return False,"not-a-full-page"
-    body=head.group(1)
-    if re.search(r'<meta\b[^>]*http-equiv=["\']refresh["\']',body,re.I):return False,"redirect"
-    if re.search(r'<meta\b[^>]*property=["\']og:image["\']',body,re.I):return False,"already-present"
-    title_match=re.search(r"<title[^>]*>(.*?)</title\s*>",body,re.I|re.S)
-    if not title_match:return False,"no-title"
-    title=html.unescape(re.sub(r"<[^>]+>","",title_match.group(1))).strip()
-    if not title:return False,"empty-title"
-    img=Images();img.feed(source)
-    preferred=None;preferred_alt="";preferred_score=-1000
-    for i,v in enumerate(img.images):
-        ref=(v.get("src") or "").split("#")[0].split("?")[0]
-        if not ref or ref.startswith(("http://","https://","//","data:")) or not IMAGE_PATTERN.search(ref):continue
-        url=urljoin(DOMAIN+str(page.relative_to(root)),ref)
-        local=urlparse(url).path.lstrip("/")
-        file=root/local
-        if not file.is_file():continue
-        try:size=file.stat().st_size
-        except OSError:continue
-        if size<15000:continue
-        alt=html.unescape(v.get("alt") or "").strip()
-        lower=ref.lower()
-        if "coastal-emblem" in lower or "favicon" in lower or "logo" in lower:continue
-        score=5 if alt else 0
-        if "fetchpriority" in v and v["fetchpriority"]=="high":score+=30
-        if v.get("loading")=="eager":score+=22
-        if "/family-outings/" in lower or "/family-notes/" in lower:score+=7
-        if "/long-guide-studies/" in lower:score+=6
-        if "/navigation-" in lower or "/brand-sketches/" in lower:score-=12
-        if v.get("width","").isdigit() and int(v["width"])>=1000:score+=4
-        if v.get("height","").isdigit() and int(v["height"])>=630:score+=4
-        score-=i*0.85
-        if score>preferred_score:
-            preferred=url;preferred_alt=alt;preferred_score=score
-    if not preferred:
-        fallback_file=root/FALLBACK.lstrip("/")
-        if not fallback_file.is_file():return False,"no-fallback-image"
-        preferred=urljoin(DOMAIN,FALLBACK)
-        preferred_alt="An AUsome Life — New England family life and practical outings"
-    descmatch=re.search(r'<meta\b[^>]*name=["\']description["\'][^>]*content=(["\'])(.*?)\1',body,re.I|re.S)
-    desc=html.unescape(descmatch.group(2)) if descmatch else ""
-    canonicalmatch=re.search(r'<link\b[^>]*rel=["\']canonical["\'][^>]*href=(["\'])(.*?)\1',body,re.I|re.S)
-    canonical=canonicalmatch.group(2) if canonicalmatch else urljoin(DOMAIN,str(page.relative_to(root)))
-    if "/preview-" in canonical or page.name.startswith("preview-"):return False,"preview"
-    def esc(t):return html.escape(str(t),quote=True)
-    extras=[]
-    if not re.search(r'<meta\b[^>]*property=["\']og:type["\']',body,re.I):
-        page_kind="website" if page.name in {"index.html","blog.html","about.html","library.html","favorite-places.html","calendar.html","contact.html","kid-fun.html","picture-card-library.html","communication-card-generator.html","visit-story.html","privacy.html","accessibility.html"} or "/topics/" in "/"+str(page.relative_to(root)) else "article"
-        extras.append('<meta property="og:type" content="'+page_kind+'">')
-    if not re.search(r'<meta\b[^>]*property=["\']og:site_name["\']',body,re.I):extras.append('<meta property="og:site_name" content="An AUsome Life">')
-    if not re.search(r'<meta\b[^>]*property=["\']og:title["\']',body,re.I):extras.append('<meta property="og:title" content="'+esc(title)+'">')
-    if desc and not re.search(r'<meta\b[^>]*property=["\']og:description["\']',body,re.I):
-        extras.append('<meta property="og:description" content="'+esc(desc)+'">')
-    if not re.search(r'<meta\b[^>]*property=["\']og:url["\']',body,re.I):extras.append('<meta property="og:url" content="'+esc(canonical)+'">')
-    extras.append('<meta property="og:image" content="'+esc(preferred)+'">')
-    extras.append('<meta property="og:image:alt" content="'+esc(preferred_alt)+'">')
-    if not re.search(r'<meta\b[^>]*name=["\']twitter:card["\']',body,re.I):extras.append('<meta name="twitter:card" content="summary_large_image">')
-    if not re.search(r'<meta\b[^>]*name=["\']twitter:image["\']',body,re.I):extras.append('<meta name="twitter:image" content="'+esc(preferred)+'">')
-    close=head.end()-len("</head>")
-    source=source[:close]+"\n"+"\n".join(extras)+"\n"+source[close:]
-    page.write_text(source,encoding="utf-8")
-    return True,"specific-photo-or-art" if preferred_score>=0 else "fallback"
+DOMAIN = 'https://anausomelife.com'
+REPO = Path(__file__).resolve().parents[2]
+DEFAULT_SELECTIONS = REPO / 'docs/social-preview-selections.json'
+HEAD = re.compile(r'(<head\b[^>]*>)(.*?)(</head\s*>)', re.I | re.S)
+META = re.compile(r'<meta\b[^>]*>', re.I)
+MANAGED = {'og:title', 'og:description', 'og:type', 'og:url', 'og:site_name', 'og:locale',
+           'og:image', 'og:image:url', 'og:image:secure_url', 'og:image:type',
+           'og:image:width', 'og:image:height', 'og:image:alt',
+           'twitter:card', 'twitter:title', 'twitter:description', 'twitter:image',
+           'twitter:image:src', 'twitter:image:alt'}
+
+class Head(HTMLParser):
+    def __init__(self):
+        super().__init__(convert_charrefs=True)
+        self.meta = {}; self.canonicals = []; self.title = ''; self.in_title = False
+        self.redirect = False
+    def handle_starttag(self, tag, attrs):
+        a = dict(attrs)
+        if tag == 'meta':
+            key = (a.get('property') or a.get('name') or '').lower()
+            self.meta.setdefault(key, []).append(a.get('content', ''))
+            self.redirect |= a.get('http-equiv', '').lower() == 'refresh'
+        if tag == 'link' and 'canonical' in a.get('rel', '').lower().split():
+            self.canonicals.append(a.get('href', ''))
+        if tag == 'title': self.in_title = True
+    def handle_endtag(self, tag):
+        if tag == 'title': self.in_title = False
+    def handle_data(self, data):
+        if self.in_title: self.title += data
+    def first(self, key):
+        return next((v.strip() for v in self.meta.get(key, []) if v.strip()), '')
+
+def shorten(text, limit):
+    text = ' '.join(text.split())
+    if len(text) <= limit: return text
+    return text[:limit - 1].rsplit(' ', 1)[0].rstrip(' ,;:') + '…'
+
+def local_file(root, value):
+    # Reviewed paths are local and root-relative, without query, fragments or traversal.
+    if not value.startswith('/') or value.startswith('//') or urlparse(value).query or urlparse(value).fragment:
+        raise ValueError(f'Expected a root-relative asset path: {value}')
+    path = (root / value.lstrip('/')).resolve()
+    if not path.is_relative_to(root.resolve()): raise ValueError('Asset escapes site root')
+    if not path.is_file(): raise ValueError(f'Missing image: {value}')
+    return path
+
+def validate_asset(root, choice):
+    path = local_file(root, choice['image'])
+    with Image.open(path) as im:
+        im.verify()
+    with Image.open(path) as im:
+        im.load()  # Header checks alone miss truncated JPEGs and broken pixel streams.
+        if im.format not in {'JPEG', 'PNG', 'WEBP'}: raise ValueError('Unsupported image format')
+        if (im.width, im.height) != (choice['width'], choice['height']):
+            raise ValueError('Image dimensions differ from reviewed selection')
+        if Image.MIME[im.format] != choice['mime']: raise ValueError('Incorrect image MIME type')
+        if min(im.size) < 144 or max(im.size) > 4096: raise ValueError('Image dimensions outside card bounds')
+        if choice['card'] == 'summary_large_image' and (im.width < 300 or im.height < 157):
+            raise ValueError('Image too small for a large card')
+    if path.stat().st_size >= 5_000_000: raise ValueError('Image exceeds 5 MB card budget')
+    if hashlib.sha256(path.read_bytes()).hexdigest() != choice['sha256']:
+        raise ValueError('Image bytes changed; review the selection before publication')
+    if not choice['alt'].strip() or len(choice['alt']) > 420: raise ValueError('Missing or overlong image description')
+    if choice['card'] not in {'summary', 'summary_large_image'}: raise ValueError('Unsupported card type')
+    if choice['type'] not in {'website', 'article'}: raise ValueError('Unsupported Open Graph type')
+    if not choice.get('provenance'): raise ValueError('Missing provenance record')
+
+def desired_metadata(source, choice):
+    match = HEAD.search(source)
+    if not match: raise ValueError('Not a complete HTML page')
+    parsed = Head(); parsed.feed(match.group(2))
+    if parsed.redirect or any('noindex' in v.lower() for v in parsed.meta.get('robots', [])):
+        raise ValueError('Redirect/noindex pages must not receive editorial previews')
+    if len(parsed.canonicals) != 1: raise ValueError('Expected one canonical link')
+    canonical = parsed.canonicals[0]
+    url = urlparse(canonical)
+    if url.scheme != 'https' or url.netloc != 'anausomelife.com' or url.query or url.fragment:
+        raise ValueError('Expected a clean absolute HTTPS canonical URL')
+    title = parsed.first('og:title') or parsed.title.strip()
+    description = parsed.first('og:description') or parsed.first('description')
+    if not title or not description: raise ValueError('Missing editorial title or description')
+    image = DOMAIN + quote(choice['image'], safe='/')
+    values = {
+        'og:type': choice['type'], 'og:site_name': 'An AUsome Life', 'og:locale': 'en_US',
+        'og:title': title, 'og:description': description, 'og:url': canonical,
+        'og:image': image, 'og:image:secure_url': image, 'og:image:type': choice['mime'],
+        'og:image:width': str(choice['width']), 'og:image:height': str(choice['height']),
+        'og:image:alt': choice['alt'], 'twitter:card': choice['card'],
+        'twitter:title': shorten(title, 70), 'twitter:description': shorten(description, 200),
+        'twitter:image': image, 'twitter:image:alt': choice['alt'],
+    }
+    return match, parsed, values
+
+def render(source, choice):
+    match, parsed, values = desired_metadata(source, choice)
+    def remove_managed(m):
+        tag = Head(); tag.feed(m.group())
+        return '' if any(k in MANAGED for k in tag.meta) else m.group()
+    head = META.sub(remove_managed, match.group(2))
+    head = re.sub(r'\n[ \t]*\n(?:[ \t]*\n)*', '\n\n', head).rstrip()
+    tags = []
+    for key, value in values.items():
+        attr = 'property' if key.startswith('og:') else 'name'
+        tags.append(f'<meta {attr}="{key}" content="{html.escape(value, quote=True)}">')
+    return source[:match.start(2)] + head + '\n' + '\n'.join(tags) + '\n' + source[match.end(2):]
+
+def check_metadata(source, choice):
+    _, parsed, values = desired_metadata(source, choice)
+    failures = [f'{key}: missing, duplicated or different from reviewed value'
+                for key, value in values.items() if parsed.meta.get(key) != [value]]
+    failures += [f'{key}: obsolete duplicate image tag' for key in MANAGED - values.keys() if key in parsed.meta]
+    return failures
+
+def apply(root, selections, check=False):
+    root = root.resolve(); changes = []; errors = []; assets = set()
+    # Validate the entire selection before changing any page.
+    prepared = []
+    for relative, choice in selections['pages'].items():
+        try:
+            path = (root / relative).resolve()
+            if not path.is_relative_to(root) or not relative.endswith('.html'):
+                raise ValueError('Page escapes site root or is not HTML')
+            if relative.startswith(('content/', 'preview-', 'assets/venue-maps/')):
+                raise ValueError('Fragments, previews and print pages are excluded')
+            asset_key = (choice['image'], choice['sha256'], choice['width'], choice['height'], choice['mime'], choice['card'], choice['alt'])
+            if asset_key not in assets: validate_asset(root, choice); assets.add(asset_key)
+            source = path.read_text(encoding='utf-8')
+            if check:
+                errors.extend(f'{relative}: {e}' for e in check_metadata(source, choice))
+            else:
+                updated = render(source, choice)
+                if updated != source: prepared.append((path, updated)); changes.append(relative)
+        except (OSError, ValueError, KeyError) as e: errors.append(f'{relative}: {e}')
+    if errors: return {'selected': len(selections['pages']), 'changed': 0, 'errors': errors}
+    for path, updated in prepared: path.write_text(updated, encoding='utf-8')
+    return {'selected': len(selections['pages']), 'changed': len(changes), 'errors': [],
+            'distinct_images': len({c['image'] for c in selections['pages'].values()}),
+            'pending': sorted(selections.get('pending', {}))}
+
 def main():
-    p=argparse.ArgumentParser();p.add_argument("--root",type=Path,default=Path("_site"));args=p.parse_args()
-    root=args.root.resolve();stats={};changed=[]
-    for page in sorted(root.rglob("*.html")):
-        status,reason=metadata(page,root)
-        stats[reason]=stats.get(reason,0)+1
-        if status:changed.append(str(page.relative_to(root)))
-    print("SOCIAL_METADATA_SUMMARY",json.dumps({"counts":stats,"updated":len(changed),"first_updated":changed[:15]}))
-if __name__=="__main__":main()
+    p = argparse.ArgumentParser(description=__doc__)
+    p.add_argument('--root', type=Path, default=Path('_site'))
+    p.add_argument('--selections', type=Path, default=DEFAULT_SELECTIONS)
+    p.add_argument('--check', action='store_true')
+    args = p.parse_args()
+    result = apply(args.root, json.loads(args.selections.read_text()), args.check)
+    print('SOCIAL_METADATA_SUMMARY', json.dumps(result))
+    return bool(result['errors'])
+
+if __name__ == '__main__': sys.exit(main())

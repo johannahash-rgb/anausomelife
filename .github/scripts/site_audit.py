@@ -219,6 +219,7 @@ def main():
             f.write(f"- HTML pages: {result['counts']['pages']}\n- References checked: {result['counts']['references']}\n")
             f.write(f"- Broken local paths: {result['issue_counts'].get('missing-local-target',0)}\n")
             f.write(f"- Missing anchors: {result['issue_counts'].get('missing-fragment',0)}\n")
+            f.write(f"- Missing social images: {result['issue_counts'].get('missing-social-image',0)}\n")
             f.write(f"- External URLs probed: {len(result['external_results'])}\n")
             f.write("- Detailed JSON available as workflow artifact.\n")
     if a.strict and any(x["severity"]=="high" for x in result["issues"]):sys.exit(1)
