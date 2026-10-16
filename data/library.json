@@ -931,6 +931,25 @@
     "image": "/assets/catalog-outings.webp"
   },
   {
+    "slug": "accessible-trails-new-england",
+    "title": "Accessible trails across New England",
+    "category": "outings",
+    "topics": [
+      "outings",
+      "outdoors",
+      "access",
+      "New England",
+      "walks",
+      "trails",
+      "wheelchair"
+    ],
+    "format": "Guide",
+    "summary": "A six-state guide to accessible and more usable trails, with distances, surfaces, slopes, parking, bathrooms and important limitations.",
+    "url": "/guides/accessible-trails-new-england.html",
+    "minutes": 8,
+    "image": "/assets/long-guide-studies/reading-a-trail-access-sign.webp"
+  },
+  {
     "slug": "reading-a-trail-access-sign",
     "title": "Read the trail sign before choosing the walk",
     "category": "outings",
