@@ -3,7 +3,7 @@
 import argparse,re,html
 from html.parser import HTMLParser
 from pathlib import Path
-VERSION='20261016-family-care'
+VERSION='20261016-family-organizer'
 class Meta(HTMLParser):
     def __init__(self):super().__init__();self.tags={}
     def handle_starttag(self,tag,attrs):

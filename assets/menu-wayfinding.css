@@ -77,9 +77,6 @@ body .aal-menu-chapter .aal-chapter-art {
   width:102px;height:102px;max-width:none;flex:none;display:block;object-fit:contain;
   padding:0;margin:0;background:transparent;filter:none;border:0;border-radius:0;box-shadow:none;
 }
-body .aal-menu-chapter .aal-chapter-symbol {
-  box-sizing:border-box;padding:18px;fill:none;stroke:currentColor;stroke-width:1.15;stroke-linecap:round;stroke-linejoin:round;
-}
 body .aal-chapter-copy {display:flex;flex-direction:column;align-items:flex-start;text-align:left;gap:6px;min-width:0;}
 body .aal-chapter-number {
   display:block;font:600 .6875rem/1.2 Arial,sans-serif;letter-spacing:.14em;color:#6b5942;

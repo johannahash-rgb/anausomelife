@@ -1,0 +1,33 @@
+{
+  "created": "2026-10-15",
+  "purpose": "Decorative family and caregiver tools navigation artwork; adjacent visible text provides the label.",
+  "method": "OpenAI built-in image generation; original commissioned illustration for this site.",
+  "source": "generated_images/exec-a480415c-6a9d-4a70-8f0f-d4110460b661.png",
+  "references": [
+    "assets/navigation-watercolors/journal-v2-320.webp",
+    "assets/navigation-watercolors/home-320.webp"
+  ],
+  "prompt_brief": "Create one original transparent navigation illustration for Family & caregiver tools, matching the existing journal-v2 and home ink-and-watercolor references. Subject: an open oatmeal linen family organizer with narrow navy edging, cream pages, three pine/navy/cranberry tabs, brass clasp and a short navy pencil. Refined ink contours, restrained watercolor washes, tactile linen and paper, complete object, three-quarter overhead view, clear at 76px. No text, branding, hearts, crosses, medical symbols, people, faces, hands, flat vector art, glossy 3D, frame, drop shadow or background scene.",
+  "intended_use": "An AUsome Life website navigation. No third-party logos, copied characters, named products, documentary people or endorsement claims.",
+  "processing": "Proportional resize and WebP encoding with alpha preserved; no compositional or color edits.",
+  "review": "Full composition and 128px export inspected. Real transparent background verified. No synthetic people or medical symbols. Replaces the rejected heart/cross; not recorded as owner-approved.",
+  "verification_limit": "Mobile browser QA unavailable in this environment.",
+  "assets": [
+    {
+      "path": "assets/navigation-watercolors/family-organizer-128.webp",
+      "size": [
+        128,
+        128
+      ],
+      "sha256": "35accd6e61f723f6b5c39b0379b4e6afdbf32f08afbdedad1f0e961af56f8637"
+    },
+    {
+      "path": "assets/navigation-watercolors/family-organizer-320.webp",
+      "size": [
+        320,
+        320
+      ],
+      "sha256": "2f182aa4c9d30de1ea4e7f249f3eac1106988111dbeac7c90800b837238ed795"
+    }
+  ]
+}
