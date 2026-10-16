@@ -1,0 +1,30 @@
+{
+  "subject": "Wicked Whoopies family visit",
+  "publication_date": "2026-10-16",
+  "source": "User-uploaded family photographs supplied with explicit instruction to review the place and post.",
+  "permission_basis": "User supplied these photographs for publication in this An AUsome Life review. No additional licensing or advertising rights represented.",
+  "photo_capture_date": "Not asserted",
+  "processing": "Original JPEG image data retained; metadata removed without altering decoded pixels. No crop, retouching or generative editing.",
+  "assets": [
+    {
+      "source": "IMG_2993.jpeg",
+      "path": "assets/wicked-whoopies-freeport/james-whoopie-tower.jpeg",
+      "use": "Editorial review of the documented visit; no sponsorship implied."
+    },
+    {
+      "source": "IMG_2989.jpeg",
+      "path": "assets/wicked-whoopies-freeport/smile-wall.jpeg",
+      "use": "Editorial review of the documented visit; no sponsorship implied."
+    },
+    {
+      "source": "IMG_2973.jpeg",
+      "path": "assets/wicked-whoopies-freeport/james-smile.jpeg",
+      "use": "Editorial review of the documented visit; no sponsorship implied."
+    }
+  ],
+  "sources_checked": [
+    "https://www.wickedwhoopies.com/pages/contact",
+    "https://www.wickedwhoopies.com/pages/faqs"
+  ],
+  "editorial_limits": "No taste, purchase-price, staff interaction, hosted arrangement, visit date or comprehensive accessibility claim inferred from photographs."
+}
