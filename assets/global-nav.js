@@ -99,6 +99,7 @@
       ['Communication notes & profiles','/communication-notes.html','family-organizer'], ['Ways to communicate','/multimodal-communication.html','picture-cards'],
       ['AAC outing note','/aac-outing-note.html','care-clipboard']] },
     { title:'Family & caregiver tools', art:'yankee-toolbox', description:'Share routines, plans & practical support', links:[
+      ['Disabled parking & placards','/disabled-parking-placards-new-england.html','parking-volvo'],
       ['Family & caregiver roles','/family-roles.html','yankee-toolbox'], ['Field notes for fathers','/paternal-role.html','outings'],
       ['Family agreements','/family-agreements.html','care-clipboard'], ['Plans & handoffs','/family-planning-toolkit.html','family-organizer'],
       ['Caregiver self-care: a night for me','/wayne-newton-flamingo-bucket-list-self-care.html','journal-v2'],
