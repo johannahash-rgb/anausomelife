@@ -1,0 +1,2278 @@
+{
+  "version": 1,
+  "review_date": "2026-10-16",
+  "policy": "Existing original photographs and page-specific editorial art. Permission is for this website’s editorial link previews, not a blanket license for third-party downloads, advertising or republication. Originals remain unchanged. Generated art remains identified as illustration.",
+  "pages": {
+    "aac-outing-note.html": {
+      "image": "/assets/destination-guides/communication-outing-note-20261004.webp",
+      "alt": "Original watercolor of a communication tablet with a blank screen, a notebook and a day bag by an open door.",
+      "width": 1536,
+      "height": 1024,
+      "mime": "image/webp",
+      "sha256": "0a50d468c38efdbf918f02fda77ff333e689fcee2fb5d1c4503b8c8acb9a7306",
+      "card": "summary_large_image",
+      "type": "article",
+      "kind": "editorial-illustration",
+      "provenance": [
+        "Existing commissioned editorial illustration already published on this site; original-art designation retained in image description.",
+        "docs/practical-review-changes.json"
+      ],
+      "selection_reason": "Existing story photograph or subject-specific illustration, visually reviewed for the linked page; no crop, retouching, synthesis or new reuse license."
+    },
+    "about.html": {
+      "image": "/assets/family-outings/wells-beach-family.webp",
+      "alt": "A family photograph at Wells Beach in Maine.",
+      "width": 1350,
+      "height": 1800,
+      "mime": "image/webp",
+      "sha256": "e2f505988ea4413271672989b86241ec6e743d69e7ffbbfc036c3f665041c867",
+      "card": "summary",
+      "type": "website",
+      "kind": "photograph",
+      "provenance": [
+        "docs/journal-photo-provenance-2026-10-03.json"
+      ],
+      "selection_reason": "Existing story photograph or subject-specific illustration, visually reviewed for the linked page; no crop, retouching, synthesis or new reuse license."
+    },
+    "ai-ice-cream-choice-board-rancatores-lexington.html": {
+      "image": "/assets/rancs-ai-choice-board/family-photo.jpg",
+      "alt": "Two family members standing in a brick-lined passage, one holding an ice cream cone and a blue tablet case",
+      "width": 635,
+      "height": 820,
+      "mime": "image/jpeg",
+      "sha256": "6deef4d66db91545a843b25e620c62fe95e9d5dbd018f87eec228e7b04b50d5e",
+      "card": "summary",
+      "type": "article",
+      "kind": "photograph",
+      "provenance": [
+        "Existing original photograph or illustration already published for this article; current owner instruction authorizes editorial link previews."
+      ],
+      "selection_reason": "Preserve the story-specific image, or use an existing full-frame version within platform size limits; no alteration."
+    },
+    "apple-orchard-afternoon.html": {
+      "image": "/assets/family-notes/doe-orchards-family.webp",
+      "alt": "Family members picking apples among leafy trees at Doe Orchards.",
+      "width": 675,
+      "height": 900,
+      "mime": "image/webp",
+      "sha256": "30f035ae8ee7ec2a258619574be79ff32c8a0d6d31e004117489a65e596fb98d",
+      "card": "summary",
+      "type": "article",
+      "kind": "photograph",
+      "provenance": [
+        "docs/family-field-notes-photo-provenance-2026-10-04.json"
+      ],
+      "selection_reason": "Existing story photograph or subject-specific illustration, visually reviewed for the linked page; no crop, retouching, synthesis or new reuse license."
+    },
+    "at-home.html": {
+      "image": "/assets/long-guide-studies/wet-weather-entryway.webp",
+      "alt": "Original editorial illustration of a raincoat, boots in a tray and a basket beside a New England doorway.",
+      "width": 1536,
+      "height": 1024,
+      "mime": "image/webp",
+      "sha256": "989e108990954321172770372216eed5a7672eec308944b2bbe86d8276fdbe04",
+      "card": "summary_large_image",
+      "type": "article",
+      "kind": "editorial-illustration",
+      "provenance": [
+        "Existing commissioned editorial illustration already published on this site; original-art designation retained in image description.",
+        "docs/practical-review-changes.json"
+      ],
+      "selection_reason": "Deliberate section or subject selection from the existing editorial collection, visually reviewed; no automatic fallback or alteration."
+    },
+    "autumn-simple-joys-james-ruby.html": {
+      "image": "/assets/family-notes/james-ruby-autumn.jpeg",
+      "alt": "James smiling while holding Ruby’s leash on a leaf-strewn New England road, as the yellow Labrador sniffs the grass.",
+      "width": 1152,
+      "height": 1536,
+      "mime": "image/jpeg",
+      "sha256": "6df04b9848f176f194527046c741ac01bcff55feccaeb38098ebb7684325b379",
+      "card": "summary",
+      "type": "article",
+      "kind": "photograph",
+      "provenance": [
+        "docs/autumn-simple-joys-photo-provenance.md"
+      ],
+      "selection_reason": "Existing story photograph or subject-specific illustration, visually reviewed for the linked page; no crop, retouching, synthesis or new reuse license."
+    },
+    "berlin-farms-easter-field-note.html": {
+      "image": "/assets/berlin-farms-easter/white-fences.jpeg",
+      "alt": "A teenager in an orange jacket stands on a wooden deck with white fences, open fields and a grazing horse in the distance.",
+      "width": 1536,
+      "height": 1152,
+      "mime": "image/jpeg",
+      "sha256": "a508c1e5495c65fed5503b4a84aea7a7b5699ef87850e1dd7df732bef1bce184",
+      "card": "summary_large_image",
+      "type": "article",
+      "kind": "photograph",
+      "provenance": [
+        "docs/berlin-farms-easter-photo-permissions.md"
+      ],
+      "selection_reason": "Existing story photograph or subject-specific illustration, visually reviewed for the linked page; no crop, retouching, synthesis or new reuse license."
+    },
+    "blog.html": {
+      "image": "/assets/dairy-joy-october/grandpa-steve-james-ruby.jpeg",
+      "alt": "Grandpa Steve and James at a red picnic table outside Dairy Joy, with Ruby beside them.",
+      "width": 1536,
+      "height": 1152,
+      "mime": "image/jpeg",
+      "sha256": "c3224af3867bc248cdc7b522397b56e818406ee03bda8df78fba8a262b9a7543",
+      "card": "summary_large_image",
+      "type": "website",
+      "kind": "photograph",
+      "provenance": [
+        "Existing original family photograph already published on this site; current owner request authorizes its use in link previews."
+      ],
+      "selection_reason": "Deliberate section or subject selection from the existing editorial collection, visually reviewed; no automatic fallback or alteration."
+    },
+    "caregiver-handover-guide.html": {
+      "image": "/assets/catalog-advice.webp",
+      "alt": "Original illustration of an open notebook, glasses and a pen.",
+      "width": 640,
+      "height": 640,
+      "mime": "image/webp",
+      "sha256": "3b54be078c3b7a2af466dbd7d2f995d5c211f3702c14da3b7cb43e65f67f6934",
+      "card": "summary",
+      "type": "article",
+      "kind": "editorial-illustration",
+      "provenance": [
+        "Existing commissioned editorial illustration already published on this site; original-art designation retained in image description.",
+        "docs/practical-review-changes.json"
+      ],
+      "selection_reason": "Existing story photograph or subject-specific illustration, visually reviewed for the linked page; no crop, retouching, synthesis or new reuse license."
+    },
+    "carolines-cart-new-england.html": {
+      "image": "/assets/family-notes/wegmans-carolines-cart.webp",
+      "alt": "A family member seated in Caroline’s Cart at Wegmans, holding a bouquet.",
+      "width": 709,
+      "height": 975,
+      "mime": "image/webp",
+      "sha256": "72c0eca2b260c3524884d6fef209fb0221ce9fb77283d623b2e20c605bd5b063",
+      "card": "summary",
+      "type": "website",
+      "kind": "photograph",
+      "provenance": [
+        "docs/family-field-notes-photo-provenance-2026-10-04.json",
+        "docs/carolines-cart-directory-2026-10-04.md"
+      ],
+      "selection_reason": "Existing story photograph or subject-specific illustration, visually reviewed for the linked page; no crop, retouching, synthesis or new reuse license."
+    },
+    "contact.html": {
+      "image": "/assets/family-outings/fort-mcclary-waterfront.webp",
+      "alt": "Two adults beside the harbor at Fort McClary in Maine.",
+      "width": 1800,
+      "height": 1350,
+      "mime": "image/webp",
+      "sha256": "e366812278a98a472193fbf299ecc6288cb18846b4db6266288557a221e0a3a7",
+      "card": "summary_large_image",
+      "type": "website",
+      "kind": "photograph",
+      "provenance": [
+        "docs/journal-photo-provenance-2026-10-03.json"
+      ],
+      "selection_reason": "Deliberate section or subject selection from the existing editorial collection, visually reviewed; no automatic fallback or alteration."
+    },
+    "coparent-role.html": {
+      "image": "/assets/long-guide-studies/household-instruction-cards.webp",
+      "alt": "Original illustration of neatly folded towels, a basket and a blank card on a shelf.",
+      "width": 1536,
+      "height": 1024,
+      "mime": "image/webp",
+      "sha256": "9cd98a547ec8e59d879a9399e5fb256aaccdea9312c524017a6cdfea804bbdf6",
+      "card": "summary_large_image",
+      "type": "article",
+      "kind": "editorial-illustration",
+      "provenance": [
+        "Existing commissioned editorial illustration already published on this site; original-art designation retained in image description.",
+        "docs/practical-review-changes.json"
+      ],
+      "selection_reason": "Existing story photograph or subject-specific illustration, visually reviewed for the linked page; no crop, retouching, synthesis or new reuse license."
+    },
+    "eight-oclock-colombian-peaks-field-note.html": {
+      "image": "/assets/ellis-misc/coffee-before-keys-v1.webp",
+      "alt": "Original ink-and-watercolor still life of coffee, beans, striped linen and keys; not an Eight O’Clock product photograph.",
+      "width": 1536,
+      "height": 1024,
+      "mime": "image/webp",
+      "sha256": "44d60015123339fe6240c803d714ca9a4c06ab83fa60020fef613029ec581a9f",
+      "card": "summary_large_image",
+      "type": "article",
+      "kind": "editorial-illustration",
+      "provenance": [
+        "Existing commissioned editorial illustration already published on this site; original-art designation retained in image description.",
+        "docs/practical-review-changes.json"
+      ],
+      "selection_reason": "Existing story photograph or subject-specific illustration, visually reviewed for the linked page; no crop, retouching, synthesis or new reuse license."
+    },
+    "energy-is-an-access-resource.html": {
+      "image": "/assets/family-outings/wells-beach-family.webp",
+      "alt": "A real family photograph on a windy day at Wells Beach, Maine",
+      "width": 1350,
+      "height": 1800,
+      "mime": "image/webp",
+      "sha256": "e2f505988ea4413271672989b86241ec6e743d69e7ffbbfc036c3f665041c867",
+      "card": "summary",
+      "type": "article",
+      "kind": "photograph",
+      "provenance": [
+        "docs/journal-photo-provenance-2026-10-03.json"
+      ],
+      "selection_reason": "Existing story photograph or subject-specific illustration, visually reviewed for the linked page; no crop, retouching, synthesis or new reuse license."
+    },
+    "extended-family-role.html": {
+      "image": "/assets/long-guide-studies/an-invitation-with-useful-details.webp",
+      "alt": "Original illustration of a blank invitation beside a simply set place at the table.",
+      "width": 1536,
+      "height": 1024,
+      "mime": "image/webp",
+      "sha256": "41c279d95dc03750cc8f1a9f27d4a5af14d44977c71c479ab752f2affadc4281",
+      "card": "summary_large_image",
+      "type": "article",
+      "kind": "editorial-illustration",
+      "provenance": [
+        "Existing commissioned editorial illustration already published on this site; original-art designation retained in image description.",
+        "docs/practical-review-changes.json"
+      ],
+      "selection_reason": "Existing story photograph or subject-specific illustration, visually reviewed for the linked page; no crop, retouching, synthesis or new reuse license."
+    },
+    "family-command-center-guide.html": {
+      "image": "/assets/long-guide-studies/organize-school-paperwork.webp",
+      "alt": "Original editorial illustration of plain folders in a wooden holder beside an open notebook.",
+      "width": 1536,
+      "height": 1024,
+      "mime": "image/webp",
+      "sha256": "1baa4342dfee4541b9793f3f753113c08e0aecd7fd406422b30fa78da9ea26a6",
+      "card": "summary_large_image",
+      "type": "article",
+      "kind": "editorial-illustration",
+      "provenance": [
+        "Existing commissioned editorial illustration already published on this site; original-art designation retained in image description.",
+        "docs/practical-review-changes.json"
+      ],
+      "selection_reason": "Deliberate section or subject selection from the existing editorial collection, visually reviewed; no automatic fallback or alteration."
+    },
+    "family-notebook.html": {
+      "image": "/assets/orchard-afternoon-clean.jpg",
+      "alt": "A child sitting beneath an apple tree during an orchard afternoon.",
+      "width": 800,
+      "height": 620,
+      "mime": "image/jpeg",
+      "sha256": "630c3a925b95b1619fc2cfac4a3c6322726ca7d0be68a98ba1fb13447825379e",
+      "card": "summary",
+      "type": "website",
+      "kind": "photograph",
+      "provenance": [
+        "Existing original family photograph already published on this site; current owner request authorizes its use in link previews."
+      ],
+      "selection_reason": "Existing story photograph or subject-specific illustration, visually reviewed for the linked page; no crop, retouching, synthesis or new reuse license."
+    },
+    "family-wardrobe.html": {
+      "image": "/assets/catalog-style.webp",
+      "alt": "An original wardrobe still life with a cardigan, shoes and sunglasses.",
+      "width": 640,
+      "height": 640,
+      "mime": "image/webp",
+      "sha256": "f5063abe0dc2262b4e69f0e51d30f4a54ca6adb7335b037d251ca7033953d40e",
+      "card": "summary",
+      "type": "article",
+      "kind": "editorial-illustration",
+      "provenance": [
+        "Existing commissioned editorial illustration already published on this site; original-art designation retained in image description.",
+        "docs/practical-review-changes.json"
+      ],
+      "selection_reason": "Existing story photograph or subject-specific illustration, visually reviewed for the linked page; no crop, retouching, synthesis or new reuse license."
+    },
+    "favorite-places-book-barn-niantic.html": {
+      "image": "/assets/book-barn-ct-clean.jpg",
+      "alt": "A family member browsing an outdoor bookshelf at the Book Barn in Niantic",
+      "width": 800,
+      "height": 584,
+      "mime": "image/jpeg",
+      "sha256": "e891c1a7fe017664c8375e31235924c12fed27b91e0896cb60d021e9f0280fad",
+      "card": "summary_large_image",
+      "type": "article",
+      "kind": "photograph",
+      "provenance": [
+        "Existing original family photograph already published on this site; current owner request authorizes its use in link previews."
+      ],
+      "selection_reason": "Existing story photograph or subject-specific illustration, visually reviewed for the linked page; no crop, retouching, synthesis or new reuse license."
+    },
+    "favorite-places-codman-community-farms.html": {
+      "image": "/assets/ellis-place-guides/codman-cover.webp",
+      "alt": "Original watercolor study of a carton of eggs, linen and herbs; not a photograph of Codman Community Farms.",
+      "width": 1536,
+      "height": 1024,
+      "mime": "image/webp",
+      "sha256": "fbdf215b9731981c80018654e68f4d4d6a11ba6588d3a786e8d12ac2610c4669",
+      "card": "summary_large_image",
+      "type": "article",
+      "kind": "editorial-illustration",
+      "provenance": [
+        "Existing commissioned editorial illustration already published on this site; original-art designation retained in image description.",
+        "docs/practical-review-changes.json"
+      ],
+      "selection_reason": "Existing story photograph or subject-specific illustration, visually reviewed for the linked page; no crop, retouching, synthesis or new reuse license."
+    },
+    "favorite-places-decordova.html": {
+      "image": "/assets/ellis-place-guides/decordova-cover.webp",
+      "alt": "Original watercolor study of a sketchbook, pencil, rocks and autumn leaves; not a view of deCordova’s grounds.",
+      "width": 1536,
+      "height": 1024,
+      "mime": "image/webp",
+      "sha256": "d3f21373ba2b1725b110d15e678c154131ac3b9add5396e2c52ed2022fe58860",
+      "card": "summary_large_image",
+      "type": "article",
+      "kind": "editorial-illustration",
+      "provenance": [
+        "Existing commissioned editorial illustration already published on this site; original-art designation retained in image description.",
+        "docs/practical-review-changes.json"
+      ],
+      "selection_reason": "Existing story photograph or subject-specific illustration, visually reviewed for the linked page; no crop, retouching, synthesis or new reuse license."
+    },
+    "favorite-places-drumlin-farm.html": {
+      "image": "/assets/ellis-place-guides/drumlin-cover.webp",
+      "alt": "Original watercolor study of a hawk above a meadow; not a recorded sighting at Drumlin Farm.",
+      "width": 1536,
+      "height": 1024,
+      "mime": "image/webp",
+      "sha256": "1648647d7725843568a33a2df38703b2c28b880c7ca6f083d982cdd133430528",
+      "card": "summary_large_image",
+      "type": "article",
+      "kind": "editorial-illustration",
+      "provenance": [
+        "Existing commissioned editorial illustration already published on this site; original-art designation retained in image description.",
+        "docs/practical-review-changes.json"
+      ],
+      "selection_reason": "Existing story photograph or subject-specific illustration, visually reviewed for the linked page; no crop, retouching, synthesis or new reuse license."
+    },
+    "favorite-places-gilsland-farm.html": {
+      "image": "/assets/ellis-place-guides/gilsland-cover.webp",
+      "alt": "Original watercolor study of a chickadee among seed heads beside an estuary; not a documentary trail view.",
+      "width": 1536,
+      "height": 1024,
+      "mime": "image/webp",
+      "sha256": "6965147b7ac90e67f655811069450349bcdb7c9b9aa48679d7473f5afeca47fa",
+      "card": "summary_large_image",
+      "type": "article",
+      "kind": "editorial-illustration",
+      "provenance": [
+        "Existing commissioned editorial illustration already published on this site; original-art designation retained in image description.",
+        "docs/practical-review-changes.json"
+      ],
+      "selection_reason": "Existing story photograph or subject-specific illustration, visually reviewed for the linked page; no crop, retouching, synthesis or new reuse license."
+    },
+    "favorite-places-lifetime-burlington.html": {
+      "image": "/assets/venue-illustrations/indoor-pool-illustration.webp",
+      "alt": "An original illustration of an indoor pool; a general scene, not a particular venue.",
+      "width": 1200,
+      "height": 800,
+      "mime": "image/webp",
+      "sha256": "6b96ce429c8de8c8bb66bc69bdfaf01c3c3978a34c62a178d15c6775324c9f45",
+      "card": "summary_large_image",
+      "type": "article",
+      "kind": "editorial-illustration",
+      "provenance": [
+        "docs/event-watercolor-restoration-2026-10-06.json",
+        "docs/venue-illustration-provenance-2026-10-04.json"
+      ],
+      "selection_reason": "Preserve the story-specific image, or use an existing full-frame version within platform size limits; no alteration."
+    },
+    "favorite-places-misty-harbor-wells.html": {
+      "image": "/assets/family-outings/wells-beach-family.webp",
+      "alt": "Our family beside the ocean during our Wells, Maine getaway",
+      "width": 1350,
+      "height": 1800,
+      "mime": "image/webp",
+      "sha256": "e2f505988ea4413271672989b86241ec6e743d69e7ffbbfc036c3f665041c867",
+      "card": "summary",
+      "type": "article",
+      "kind": "photograph",
+      "provenance": [
+        "docs/journal-photo-provenance-2026-10-03.json"
+      ],
+      "selection_reason": "Existing story photograph or subject-specific illustration, visually reviewed for the linked page; no crop, retouching, synthesis or new reuse license."
+    },
+    "favorite-places-pineland-farms.html": {
+      "image": "/assets/ellis-place-guides/pineland-cover.webp",
+      "alt": "Original watercolor study of bread, cheese, an apple and checked linen; not a photograph of Pineland Farms’ products.",
+      "width": 1536,
+      "height": 1024,
+      "mime": "image/webp",
+      "sha256": "abe3a2b8ffe89186891ee9272391721884b01d5c7f3c5f708cc186654b98bfeb",
+      "card": "summary_large_image",
+      "type": "article",
+      "kind": "editorial-illustration",
+      "provenance": [
+        "Existing commissioned editorial illustration already published on this site; original-art designation retained in image description.",
+        "docs/practical-review-changes.json"
+      ],
+      "selection_reason": "Existing story photograph or subject-specific illustration, visually reviewed for the linked page; no crop, retouching, synthesis or new reuse license."
+    },
+    "favorite-places-quiero-cafe-portland.html": {
+      "image": "/assets/ellis-place-guides/kittery-picnic-study.webp",
+      "alt": "Original editorial illustration of a takeaway bag, wrapped sandwich, apple and water bottle; not a photograph of Quiero Café’s food.",
+      "width": 1448,
+      "height": 1086,
+      "mime": "image/webp",
+      "sha256": "da609cb2e9f4cf9a2a8f372d4a601783083134e92751fa2c042718fd98319276",
+      "card": "summary_large_image",
+      "type": "article",
+      "kind": "editorial-illustration",
+      "provenance": [
+        "Existing commissioned editorial illustration already published on this site; original-art designation retained in image description.",
+        "docs/practical-review-changes.json"
+      ],
+      "selection_reason": "Deliberate section or subject selection from the existing editorial collection, visually reviewed; no automatic fallback or alteration."
+    },
+    "favorite-places-rancatores-lexington.html": {
+      "image": "/assets/venue-illustrations/rancatores-lexington-original-study-v2.webp",
+      "alt": "Original ink-and-watercolor shop-window interpretation of Rancatore’s in Lexington",
+      "width": 1200,
+      "height": 800,
+      "mime": "image/webp",
+      "sha256": "4ed6b804b25905a36ade595f88414987f34d85593f56a21269fa52f91765fe2c",
+      "card": "summary_large_image",
+      "type": "article",
+      "kind": "editorial-illustration",
+      "provenance": [
+        "docs/rancatores-lexington-illustration-provenance-2026-10-04.json"
+      ],
+      "selection_reason": "Preserve the story-specific image, or use an existing full-frame version within platform size limits; no alteration."
+    },
+    "favorite-places-rococo-kennebunk.html": {
+      "image": "/assets/rancatores-scaffold/rancatores-cup-cone-v1.webp",
+      "alt": "Original ink-and-watercolor study of an ice-cream cup, cone and spoon; not a photograph of Rococo’s products.",
+      "width": 1448,
+      "height": 1086,
+      "mime": "image/webp",
+      "sha256": "c58d4b90164f0fdfd07b020783e56cd003d2c1529f9f8571fef60d7898dab472",
+      "card": "summary_large_image",
+      "type": "article",
+      "kind": "editorial-illustration",
+      "provenance": [
+        "docs/journal-picture-cards-2026-10-08.md"
+      ],
+      "selection_reason": "Deliberate section or subject selection from the existing editorial collection, visually reviewed; no automatic fallback or alteration."
+    },
+    "favorite-places-scarborough-state-beach.html": {
+      "image": "/assets/ellis-coastal/wells-wave-study.webp",
+      "alt": "Original ink-and-watercolor study of a wave and shoreline pebbles; not a documentary view of Scarborough State Beach.",
+      "width": 1448,
+      "height": 1086,
+      "mime": "image/webp",
+      "sha256": "4ff7f19f72206dbd526a28c8634dea6845ab4d1f7c8e50dd2fe7514ed50fed33",
+      "card": "summary_large_image",
+      "type": "article",
+      "kind": "editorial-illustration",
+      "provenance": [
+        "docs/journal-picture-cards-2026-10-08.md"
+      ],
+      "selection_reason": "Deliberate section or subject selection from the existing editorial collection, visually reviewed; no automatic fallback or alteration."
+    },
+    "favorite-places-shermans-freeport.html": {
+      "image": "/assets/long-guide-studies/library-pass-day-trip.webp",
+      "alt": "Original editorial illustration of books, a day bag and paper notes; not a photograph of Sherman’s store.",
+      "width": 1536,
+      "height": 1024,
+      "mime": "image/webp",
+      "sha256": "33960d22bfaebce928f6978954908366c4eed2acf4b690b2e534631b9af961e1",
+      "card": "summary_large_image",
+      "type": "article",
+      "kind": "editorial-illustration",
+      "provenance": [
+        "Existing commissioned editorial illustration already published on this site; original-art designation retained in image description.",
+        "docs/practical-review-changes.json"
+      ],
+      "selection_reason": "Deliberate section or subject selection from the existing editorial collection, visually reviewed; no automatic fallback or alteration."
+    },
+    "favorite-places-watch-hill-napatree.html": {
+      "image": "/assets/ellis-coastal/wells-wave-study.webp",
+      "alt": "Original ink-and-watercolor study of a wave and shoreline pebbles; not a documentary view of Napatree.",
+      "width": 1448,
+      "height": 1086,
+      "mime": "image/webp",
+      "sha256": "4ff7f19f72206dbd526a28c8634dea6845ab4d1f7c8e50dd2fe7514ed50fed33",
+      "card": "summary_large_image",
+      "type": "article",
+      "kind": "editorial-illustration",
+      "provenance": [
+        "docs/journal-picture-cards-2026-10-08.md"
+      ],
+      "selection_reason": "Deliberate section or subject selection from the existing editorial collection, visually reviewed; no automatic fallback or alteration."
+    },
+    "favorite-places-wells-beach.html": {
+      "image": "/assets/family-outings/wells-beach-family.webp",
+      "alt": "Three family members together beside the railing and waves at Wells Beach",
+      "width": 1350,
+      "height": 1800,
+      "mime": "image/webp",
+      "sha256": "e2f505988ea4413271672989b86241ec6e743d69e7ffbbfc036c3f665041c867",
+      "card": "summary",
+      "type": "article",
+      "kind": "photograph",
+      "provenance": [
+        "docs/journal-photo-provenance-2026-10-03.json"
+      ],
+      "selection_reason": "Existing story photograph or subject-specific illustration, visually reviewed for the linked page; no crop, retouching, synthesis or new reuse license."
+    },
+    "favorite-places-wolfes-neck.html": {
+      "image": "/assets/ellis-place-guides/wolfes-cover.webp",
+      "alt": "Original watercolor study of a cow in a meadow; not a documented animal at the destination.",
+      "width": 1536,
+      "height": 1024,
+      "mime": "image/webp",
+      "sha256": "3e88af8947c0dff7d393d8764862f4807dd527064440cd7fb9685583a1cebf72",
+      "card": "summary_large_image",
+      "type": "article",
+      "kind": "editorial-illustration",
+      "provenance": [
+        "Existing commissioned editorial illustration already published on this site; original-art designation retained in image description.",
+        "docs/practical-review-changes.json"
+      ],
+      "selection_reason": "Existing story photograph or subject-specific illustration, visually reviewed for the linked page; no crop, retouching, synthesis or new reuse license."
+    },
+    "favorite-places-york-nubble.html": {
+      "image": "/assets/york-maine-clean.jpg",
+      "alt": "A family member enjoying a lobster-shaped sweet during an outing in York, Maine.",
+      "width": 800,
+      "height": 584,
+      "mime": "image/jpeg",
+      "sha256": "3387d6ff6e14444fc925b48a21d00811899dab1edb30bf87d162e66cb334457d",
+      "card": "summary_large_image",
+      "type": "article",
+      "kind": "photograph",
+      "provenance": [
+        "Existing original family photograph already published on this site; current owner request authorizes its use in link previews."
+      ],
+      "selection_reason": "Existing story photograph or subject-specific illustration, visually reviewed for the linked page; no crop, retouching, synthesis or new reuse license."
+    },
+    "favorite-places.html": {
+      "image": "/assets/venue-illustrations/frog-pond-carousel-illustration.webp",
+      "alt": "Ink-and-watercolor illustration of the Frog Pond Carousel on Boston Common, with its blue-and-cream roof and carved animals.",
+      "width": 1200,
+      "height": 800,
+      "mime": "image/webp",
+      "sha256": "5f42673f966bf8a5ea6090879493693c25c7e70894790142ec40008ef0fcd405",
+      "card": "summary_large_image",
+      "type": "website",
+      "kind": "editorial-illustration",
+      "provenance": [
+        "docs/venue-illustration-provenance-2026-10-04.json"
+      ],
+      "selection_reason": "Existing story photograph or subject-specific illustration, visually reviewed for the linked page; no crop, retouching, synthesis or new reuse license."
+    },
+    "favorite-places/book-barn-niantic.html": {
+      "image": "/assets/book-barn-ct-clean.jpg",
+      "alt": "A family member browsing an outdoor bookshelf at the Book Barn in Niantic",
+      "width": 800,
+      "height": 584,
+      "mime": "image/jpeg",
+      "sha256": "e891c1a7fe017664c8375e31235924c12fed27b91e0896cb60d021e9f0280fad",
+      "card": "summary_large_image",
+      "type": "article",
+      "kind": "photograph",
+      "provenance": [
+        "Existing original family photograph already published on this site; current owner request authorizes its use in link previews."
+      ],
+      "selection_reason": "Existing story photograph or subject-specific illustration, visually reviewed for the linked page; no crop, retouching, synthesis or new reuse license."
+    },
+    "favorite-places/boston-common-frog-pond.html": {
+      "image": "/assets/venue-illustrations/frog-pond-carousel-illustration.webp",
+      "alt": "Ink-and-watercolor illustration of the colorful Frog Pond Carousel on Boston Common, based on a CC0 photograph.",
+      "width": 1200,
+      "height": 800,
+      "mime": "image/webp",
+      "sha256": "5f42673f966bf8a5ea6090879493693c25c7e70894790142ec40008ef0fcd405",
+      "card": "summary_large_image",
+      "type": "article",
+      "kind": "editorial-illustration",
+      "provenance": [
+        "docs/venue-illustration-provenance-2026-10-04.json"
+      ],
+      "selection_reason": "Preserve the story-specific image, or use an existing full-frame version within platform size limits; no alteration."
+    },
+    "favorite-places/codman-community-farms.html": {
+      "image": "/assets/ellis-place-guides/codman-cover.webp",
+      "alt": "Original watercolor study of a carton of eggs, linen and herbs; not a photograph of Codman Community Farms.",
+      "width": 1536,
+      "height": 1024,
+      "mime": "image/webp",
+      "sha256": "fbdf215b9731981c80018654e68f4d4d6a11ba6588d3a786e8d12ac2610c4669",
+      "card": "summary_large_image",
+      "type": "article",
+      "kind": "editorial-illustration",
+      "provenance": [
+        "Existing commissioned editorial illustration already published on this site; original-art designation retained in image description.",
+        "docs/practical-review-changes.json"
+      ],
+      "selection_reason": "Existing story photograph or subject-specific illustration, visually reviewed for the linked page; no crop, retouching, synthesis or new reuse license."
+    },
+    "favorite-places/decordova-sculpture-park.html": {
+      "image": "/assets/ellis-place-guides/decordova-cover.webp",
+      "alt": "Original watercolor study of a sketchbook, pencil, rocks and autumn leaves; not a view of deCordova’s grounds.",
+      "width": 1536,
+      "height": 1024,
+      "mime": "image/webp",
+      "sha256": "d3f21373ba2b1725b110d15e678c154131ac3b9add5396e2c52ed2022fe58860",
+      "card": "summary_large_image",
+      "type": "article",
+      "kind": "editorial-illustration",
+      "provenance": [
+        "Existing commissioned editorial illustration already published on this site; original-art designation retained in image description.",
+        "docs/practical-review-changes.json"
+      ],
+      "selection_reason": "Existing story photograph or subject-specific illustration, visually reviewed for the linked page; no crop, retouching, synthesis or new reuse license."
+    },
+    "favorite-places/drumlin-farm.html": {
+      "image": "/assets/ellis-place-guides/drumlin-cover.webp",
+      "alt": "Original watercolor study of a hawk above a meadow; not a recorded sighting at Drumlin Farm.",
+      "width": 1536,
+      "height": 1024,
+      "mime": "image/webp",
+      "sha256": "1648647d7725843568a33a2df38703b2c28b880c7ca6f083d982cdd133430528",
+      "card": "summary_large_image",
+      "type": "article",
+      "kind": "editorial-illustration",
+      "provenance": [
+        "Existing commissioned editorial illustration already published on this site; original-art designation retained in image description.",
+        "docs/practical-review-changes.json"
+      ],
+      "selection_reason": "Existing story photograph or subject-specific illustration, visually reviewed for the linked page; no crop, retouching, synthesis or new reuse license."
+    },
+    "favorite-places/gilsland-farm.html": {
+      "image": "/assets/ellis-place-guides/gilsland-cover.webp",
+      "alt": "Original watercolor study of a chickadee among seed heads beside an estuary; not a documentary trail view.",
+      "width": 1536,
+      "height": 1024,
+      "mime": "image/webp",
+      "sha256": "6965147b7ac90e67f655811069450349bcdb7c9b9aa48679d7473f5afeca47fa",
+      "card": "summary_large_image",
+      "type": "article",
+      "kind": "editorial-illustration",
+      "provenance": [
+        "Existing commissioned editorial illustration already published on this site; original-art designation retained in image description.",
+        "docs/practical-review-changes.json"
+      ],
+      "selection_reason": "Existing story photograph or subject-specific illustration, visually reviewed for the linked page; no crop, retouching, synthesis or new reuse license."
+    },
+    "favorite-places/great-brook-farm.html": {
+      "image": "/assets/ellis-place-guides/wolfes-cover.webp",
+      "alt": "Original watercolor study of a cow in a meadow; not a documented animal at the destination.",
+      "width": 1536,
+      "height": 1024,
+      "mime": "image/webp",
+      "sha256": "3e88af8947c0dff7d393d8764862f4807dd527064440cd7fb9685583a1cebf72",
+      "card": "summary_large_image",
+      "type": "article",
+      "kind": "editorial-illustration",
+      "provenance": [
+        "Existing commissioned editorial illustration already published on this site; original-art designation retained in image description.",
+        "docs/practical-review-changes.json"
+      ],
+      "selection_reason": "Existing story photograph or subject-specific illustration, visually reviewed for the linked page; no crop, retouching, synthesis or new reuse license."
+    },
+    "favorite-places/kittery-food-mart-fort-mcclary.html": {
+      "image": "/assets/family-outings/fort-mcclary-waterfront.webp",
+      "alt": "Two family members photographed beside the harbor at Fort McClary",
+      "width": 1800,
+      "height": 1350,
+      "mime": "image/webp",
+      "sha256": "e366812278a98a472193fbf299ecc6288cb18846b4db6266288557a221e0a3a7",
+      "card": "summary_large_image",
+      "type": "article",
+      "kind": "photograph",
+      "provenance": [
+        "docs/journal-photo-provenance-2026-10-03.json"
+      ],
+      "selection_reason": "Existing story photograph or subject-specific illustration, visually reviewed for the linked page; no crop, retouching, synthesis or new reuse license."
+    },
+    "favorite-places/lacascias-burlington.html": {
+      "image": "/assets/destination-illustrations/bakery-deli-still-life-20261004.webp",
+      "alt": "Original decorative bakery and deli still life, not a photograph of LaCascia’s food or shop",
+      "width": 1536,
+      "height": 1024,
+      "mime": "image/webp",
+      "sha256": "cc5581a95896726eebaa01b90b0ec299921c07781532c6c93ef3bd622b5d2c24",
+      "card": "summary_large_image",
+      "type": "article",
+      "kind": "photograph",
+      "provenance": [
+        "Existing original photograph or illustration already published for this article; current owner instruction authorizes editorial link previews."
+      ],
+      "selection_reason": "Preserve the story-specific image, or use an existing full-frame version within platform size limits; no alteration."
+    },
+    "favorite-places/llbean-freeport.html": {
+      "image": "/assets/family-outings/llbean-freeport-games.webp",
+      "alt": "A family member beside a game display and an illustrated L.L.Bean landscape in the Freeport store",
+      "width": 1350,
+      "height": 1800,
+      "mime": "image/webp",
+      "sha256": "f1dceee72a4f202d384bfcdd0d0d71542e8adfb8bb499c690aaf0a2afdc07686",
+      "card": "summary",
+      "type": "article",
+      "kind": "photograph",
+      "provenance": [
+        "docs/journal-photo-provenance-2026-10-03.json"
+      ],
+      "selection_reason": "Existing story photograph or subject-specific illustration, visually reviewed for the linked page; no crop, retouching, synthesis or new reuse license."
+    },
+    "favorite-places/marginal-way-ogunquit.html": {
+      "image": "/assets/ellis-coastal/wells-wave-study.webp",
+      "alt": "Original ink-and-watercolor study of a wave and shoreline pebbles; not a documentary view of Marginal Way.",
+      "width": 1448,
+      "height": 1086,
+      "mime": "image/webp",
+      "sha256": "4ff7f19f72206dbd526a28c8634dea6845ab4d1f7c8e50dd2fe7514ed50fed33",
+      "card": "summary_large_image",
+      "type": "article",
+      "kind": "editorial-illustration",
+      "provenance": [
+        "docs/journal-picture-cards-2026-10-08.md"
+      ],
+      "selection_reason": "Existing story photograph or subject-specific illustration, visually reviewed for the linked page; no crop, retouching, synthesis or new reuse license."
+    },
+    "favorite-places/minute-man-battle-road.html": {
+      "image": "/assets/ellis-place-guides/decordova-light.webp",
+      "alt": "Original watercolor study of birches, autumn foliage and distant water; not a photograph of Battle Road.",
+      "width": 1448,
+      "height": 1086,
+      "mime": "image/webp",
+      "sha256": "302c54a73e82cdc920e1286b44ea0c483151bc2ce2d778c2f6badd9247011448",
+      "card": "summary_large_image",
+      "type": "article",
+      "kind": "editorial-illustration",
+      "provenance": [
+        "Existing commissioned editorial illustration already published on this site; original-art designation retained in image description.",
+        "docs/practical-review-changes.json"
+      ],
+      "selection_reason": "Existing story photograph or subject-specific illustration, visually reviewed for the linked page; no crop, retouching, synthesis or new reuse license."
+    },
+    "favorite-places/misty-harbor-resort.html": {
+      "image": "/assets/family-outings/wells-beach-family.webp",
+      "alt": "Our family beside the ocean during a Wells, Maine getaway; not a photograph of the resort.",
+      "width": 1350,
+      "height": 1800,
+      "mime": "image/webp",
+      "sha256": "e2f505988ea4413271672989b86241ec6e743d69e7ffbbfc036c3f665041c867",
+      "card": "summary",
+      "type": "article",
+      "kind": "photograph",
+      "provenance": [
+        "docs/journal-photo-provenance-2026-10-03.json"
+      ],
+      "selection_reason": "Existing story photograph or subject-specific illustration, visually reviewed for the linked page; no crop, retouching, synthesis or new reuse license."
+    },
+    "favorite-places/new-england-aquarium.html": {
+      "image": "/assets/destination-illustrations/aquarium-sea-life-editorial-20261004.webp",
+      "alt": "Original decorative sea-life illustration with a turtle and fish, not a photograph of an Aquarium exhibit",
+      "width": 1536,
+      "height": 1024,
+      "mime": "image/webp",
+      "sha256": "18cb7bc53c59aee8f2712df95dee00d105b7d942ac5158257116b16be6002fab",
+      "card": "summary_large_image",
+      "type": "article",
+      "kind": "editorial-illustration",
+      "provenance": [
+        "Existing original photograph or illustration already published for this article; current owner instruction authorizes editorial link previews."
+      ],
+      "selection_reason": "Preserve the story-specific image, or use an existing full-frame version within platform size limits; no alteration."
+    },
+    "favorite-places/nubble-lighthouse.html": {
+      "image": "/assets/york-maine-clean.jpg",
+      "alt": "A family member enjoying a lobster-shaped sweet during an outing in York, Maine.",
+      "width": 800,
+      "height": 584,
+      "mime": "image/jpeg",
+      "sha256": "3387d6ff6e14444fc925b48a21d00811899dab1edb30bf87d162e66cb334457d",
+      "card": "summary_large_image",
+      "type": "article",
+      "kind": "photograph",
+      "provenance": [
+        "Existing original family photograph already published on this site; current owner request authorizes its use in link previews."
+      ],
+      "selection_reason": "Existing story photograph or subject-specific illustration, visually reviewed for the linked page; no crop, retouching, synthesis or new reuse license."
+    },
+    "favorite-places/walden-pond.html": {
+      "image": "/assets/ellis-place-guides/drumlin-pond.webp",
+      "alt": "Original watercolor study of reeds and a pond; not a swimming area or a mapped destination.",
+      "width": 1448,
+      "height": 1086,
+      "mime": "image/webp",
+      "sha256": "28e11f3bd6813a703213cf59cdbbd132b9f6ce175f1ddc8812da97a414976d80",
+      "card": "summary_large_image",
+      "type": "article",
+      "kind": "editorial-illustration",
+      "provenance": [
+        "Existing original photograph or illustration already published for this article; current owner instruction authorizes editorial link previews."
+      ],
+      "selection_reason": "Preserve the story-specific image, or use an existing full-frame version within platform size limits; no alteration."
+    },
+    "favorite-places/wegmans-burlington.html": {
+      "image": "/assets/family-notes/wegmans-carolines-cart.webp",
+      "alt": "A family member seated in Caroline’s Cart at Wegmans, holding a bouquet of flowers.",
+      "width": 709,
+      "height": 975,
+      "mime": "image/webp",
+      "sha256": "72c0eca2b260c3524884d6fef209fb0221ce9fb77283d623b2e20c605bd5b063",
+      "card": "summary",
+      "type": "article",
+      "kind": "photograph",
+      "provenance": [
+        "docs/family-field-notes-photo-provenance-2026-10-04.json",
+        "docs/carolines-cart-directory-2026-10-04.md"
+      ],
+      "selection_reason": "Deliberate section or subject selection from the existing editorial collection, visually reviewed; no automatic fallback or alteration."
+    },
+    "favorite-places/wildwood-park-burlington.html": {
+      "image": "/assets/ellis-place-guides/decordova-light.webp",
+      "alt": "Original watercolor study of trees and autumn light; not an actual venue or route.",
+      "width": 1448,
+      "height": 1086,
+      "mime": "image/webp",
+      "sha256": "302c54a73e82cdc920e1286b44ea0c483151bc2ce2d778c2f6badd9247011448",
+      "card": "summary_large_image",
+      "type": "article",
+      "kind": "editorial-illustration",
+      "provenance": [
+        "Existing commissioned editorial illustration already published on this site; original-art designation retained in image description.",
+        "docs/practical-review-changes.json"
+      ],
+      "selection_reason": "Existing story photograph or subject-specific illustration, visually reviewed for the linked page; no crop, retouching, synthesis or new reuse license."
+    },
+    "fiber-connect-disney-field-note.html": {
+      "image": "/assets/fiber-connect-disney/evening-flight.jpeg",
+      "alt": "City lights below a blue-and-gold evening sky, photographed from the airplane during the Florida trip.",
+      "width": 1536,
+      "height": 1152,
+      "mime": "image/jpeg",
+      "sha256": "20fc41bcff9397709ffc14b5dabed79dcda8613f45e2dd2cfa01b6af86d4b81e",
+      "card": "summary_large_image",
+      "type": "article",
+      "kind": "photograph",
+      "provenance": [
+        "docs/fiber-connect-disney-provenance.json"
+      ],
+      "selection_reason": "Preserve the story-specific image, or use an existing full-frame version within platform size limits; no alteration."
+    },
+    "field-notes.html": {
+      "image": "/assets/long-guide-studies/offline-outing-folder.webp",
+      "alt": "Original editorial illustration of a phone, paper notes, keys and a day bag on a wooden table.",
+      "width": 1536,
+      "height": 1024,
+      "mime": "image/webp",
+      "sha256": "7f557491496a24f04aa33c92bd95fd8e94c9ee3f29f563be4b46b7cf36d2c412",
+      "card": "summary_large_image",
+      "type": "website",
+      "kind": "editorial-illustration",
+      "provenance": [
+        "Existing commissioned editorial illustration already published on this site; original-art designation retained in image description.",
+        "docs/practical-review-changes.json"
+      ],
+      "selection_reason": "Deliberate section or subject selection from the existing editorial collection, visually reviewed; no automatic fallback or alteration."
+    },
+    "flowers-fidgets-and-clutter.html": {
+      "image": "/assets/family-notes/flowers-fidgets-clutter.webp",
+      "alt": "Yellow roses on a dark table with fidgets, bottles and everyday household things nearby.",
+      "width": 1152,
+      "height": 1536,
+      "mime": "image/webp",
+      "sha256": "b5bda69b6f84b307a212072033e8d1d5cd477bd113368d29d109c0ee08cd5b93",
+      "card": "summary",
+      "type": "article",
+      "kind": "photograph",
+      "provenance": [
+        "docs/family-field-notes-photo-provenance-2026-10-04.json"
+      ],
+      "selection_reason": "Existing story photograph or subject-specific illustration, visually reviewed for the linked page; no crop, retouching, synthesis or new reuse license."
+    },
+    "food-away-from-home-guide.html": {
+      "image": "/assets/family-outings/lexington-ice-cream-family.webp",
+      "alt": "An unaltered family photograph at an ice-cream stop in Lexington, Massachusetts.",
+      "width": 1350,
+      "height": 1800,
+      "mime": "image/webp",
+      "sha256": "491368da4c260fb80a7b09ba80a8bfec281a9409bbb33623cd736cdaa5cd5676",
+      "card": "summary",
+      "type": "article",
+      "kind": "photograph",
+      "provenance": [
+        "docs/journal-photo-provenance-2026-10-03.json"
+      ],
+      "selection_reason": "Existing story photograph or subject-specific illustration, visually reviewed for the linked page; no crop, retouching, synthesis or new reuse license."
+    },
+    "fort-taber-snowshoes-field-note.html": {
+      "image": "/assets/family-notes/fort-taber-snowshoe-family.webp",
+      "alt": "A family winter outing at Fort Taber in New Bedford, with snowshoes and a bright green sled beside the ocean.",
+      "width": 864,
+      "height": 866,
+      "mime": "image/webp",
+      "sha256": "6d61ea85396b047eca3b5836074902109cf3c7e84fb1d31b5fa3cb90f4104197",
+      "card": "summary",
+      "type": "article",
+      "kind": "photograph",
+      "provenance": [
+        "docs/family-field-notes-photo-provenance-2026-10-04.json"
+      ],
+      "selection_reason": "Existing story photograph or subject-specific illustration, visually reviewed for the linked page; no crop, retouching, synthesis or new reuse license."
+    },
+    "frerichs-farm-halloween-field-note.html": {
+      "image": "/assets/frerichs-farm-halloween/skeleton-glasses.webp",
+      "alt": "A family Halloween memory at Frerichs Farm: a child wearing playful skeleton glasses and holding a cookie.",
+      "width": 960,
+      "height": 1280,
+      "mime": "image/webp",
+      "sha256": "b194d8a51e23b41bc4efdffbbbe32db0bb839a4a6407d6ae63d9f88605f9d595",
+      "card": "summary",
+      "type": "article",
+      "kind": "photograph",
+      "provenance": [
+        "Existing original family photograph already published on this site; current owner request authorizes its use in link previews."
+      ],
+      "selection_reason": "Existing story photograph or subject-specific illustration, visually reviewed for the linked page; no crop, retouching, synthesis or new reuse license."
+    },
+    "gifts-worth-giving.html": {
+      "image": "/assets/gift-kit-illustration.webp",
+      "alt": "An original illustration of photo prints, envelopes, ribbon and gift materials.",
+      "width": 1536,
+      "height": 1024,
+      "mime": "image/webp",
+      "sha256": "da8870da8172d1e18382a7e778f958f56f68c8f469d82ea3709db7ea460295aa",
+      "card": "summary_large_image",
+      "type": "article",
+      "kind": "editorial-illustration",
+      "provenance": [
+        "docs/event-watercolor-restoration-2026-10-06.json"
+      ],
+      "selection_reason": "Existing story photograph or subject-specific illustration, visually reviewed for the linked page; no crop, retouching, synthesis or new reuse license."
+    },
+    "grandparent-role.html": {
+      "image": "/assets/long-guide-studies/a-photo-box-with-a-story.webp",
+      "alt": "Original illustration of a photo box, landscape prints and an open notebook. The pictures are decorative artwork.",
+      "width": 1536,
+      "height": 1024,
+      "mime": "image/webp",
+      "sha256": "478679f66e85435ac4ab5cc7e34582f406d71010ccc9d40ed8b240885e190665",
+      "card": "summary_large_image",
+      "type": "article",
+      "kind": "editorial-illustration",
+      "provenance": [
+        "Existing commissioned editorial illustration already published on this site; original-art designation retained in image description.",
+        "docs/practical-review-changes.json"
+      ],
+      "selection_reason": "Existing story photograph or subject-specific illustration, visually reviewed for the linked page; no crop, retouching, synthesis or new reuse license."
+    },
+    "guides/a-better-hair-appointment.html": {
+      "image": "/assets/long-guide-studies/a-better-hair-appointment.webp",
+      "alt": "Original ink-and-watercolor still life of a comb, scissors, towel, mirror and blank appointment notebook.",
+      "width": 1536,
+      "height": 1024,
+      "mime": "image/webp",
+      "sha256": "7d9fb19d6d01a90a1606f456454d141c4699932166b0689506e9e350c2fc6e94",
+      "card": "summary_large_image",
+      "type": "website",
+      "kind": "editorial-illustration",
+      "provenance": [
+        "Existing commissioned editorial illustration already published on this site; original-art designation retained in image description.",
+        "docs/practical-review-changes.json"
+      ],
+      "selection_reason": "Existing story photograph or subject-specific illustration, visually reviewed for the linked page; no crop, retouching, synthesis or new reuse license."
+    },
+    "guides/a-photo-box-with-a-story.html": {
+      "image": "/assets/long-guide-studies/a-photo-box-with-a-story.webp",
+      "alt": "Original watercolor of an archival photo box, coastal landscape prints, a pencil and a blank notebook.",
+      "width": 1536,
+      "height": 1024,
+      "mime": "image/webp",
+      "sha256": "478679f66e85435ac4ab5cc7e34582f406d71010ccc9d40ed8b240885e190665",
+      "card": "summary_large_image",
+      "type": "website",
+      "kind": "editorial-illustration",
+      "provenance": [
+        "Existing commissioned editorial illustration already published on this site; original-art designation retained in image description.",
+        "docs/practical-review-changes.json"
+      ],
+      "selection_reason": "Existing story photograph or subject-specific illustration, visually reviewed for the linked page; no crop, retouching, synthesis or new reuse license."
+    },
+    "guides/an-invitation-with-useful-details.html": {
+      "image": "/assets/long-guide-studies/an-invitation-with-useful-details.webp",
+      "alt": "Original watercolor of a blank invitation and envelope beside a simple place setting.",
+      "width": 1536,
+      "height": 1024,
+      "mime": "image/webp",
+      "sha256": "41c279d95dc03750cc8f1a9f27d4a5af14d44977c71c479ab752f2affadc4281",
+      "card": "summary_large_image",
+      "type": "website",
+      "kind": "editorial-illustration",
+      "provenance": [
+        "Existing commissioned editorial illustration already published on this site; original-art designation retained in image description.",
+        "docs/practical-review-changes.json"
+      ],
+      "selection_reason": "Existing story photograph or subject-specific illustration, visually reviewed for the linked page; no crop, retouching, synthesis or new reuse license."
+    },
+    "guides/ask-for-meeting-access.html": {
+      "image": "/assets/long-guide-studies/ask-for-meeting-access.webp",
+      "alt": "Original watercolor of a calm meeting desk with a closed laptop, headphones and blank notes.",
+      "width": 1536,
+      "height": 1024,
+      "mime": "image/webp",
+      "sha256": "ef55c200265152d9307688262271691dd8f0788183c80b48cf9458fd06b147cf",
+      "card": "summary_large_image",
+      "type": "website",
+      "kind": "editorial-illustration",
+      "provenance": [
+        "Existing commissioned editorial illustration already published on this site; original-art designation retained in image description.",
+        "docs/practical-review-changes.json"
+      ],
+      "selection_reason": "Existing story photograph or subject-specific illustration, visually reviewed for the linked page; no crop, retouching, synthesis or new reuse license."
+    },
+    "guides/choose-a-special-education-advocate.html": {
+      "image": "/assets/long-guide-studies/choose-a-special-education-advocate.webp",
+      "alt": "Original watercolor of three plain document folders, a magnifying glass and a blank comparison notebook.",
+      "width": 1536,
+      "height": 1024,
+      "mime": "image/webp",
+      "sha256": "17d040f0dbd61eff80fa8ccfd84c5659b9980da7493bcb51303f4336ca4b9f2d",
+      "card": "summary_large_image",
+      "type": "website",
+      "kind": "editorial-illustration",
+      "provenance": [
+        "Existing commissioned editorial illustration already published on this site; original-art designation retained in image description.",
+        "docs/practical-review-changes.json"
+      ],
+      "selection_reason": "Existing story photograph or subject-specific illustration, visually reviewed for the linked page; no crop, retouching, synthesis or new reuse license."
+    },
+    "guides/easter-at-ocean-house.html": {
+      "image": "/assets/long-guide-studies/easter-at-ocean-house.webp",
+      "alt": "Original decorative watercolor of daffodils, pastel eggs and a place setting beside an imagined coastal view; not a photograph of Ocean House.",
+      "width": 1536,
+      "height": 1024,
+      "mime": "image/webp",
+      "sha256": "e4a40464333f7da60b6af402b4e3e62d64206ef54b04aaf1cde5a7d587c25459",
+      "card": "summary_large_image",
+      "type": "website",
+      "kind": "editorial-illustration",
+      "provenance": [
+        "Existing commissioned editorial illustration already published on this site; original-art designation retained in image description.",
+        "docs/practical-review-changes.json"
+      ],
+      "selection_reason": "Existing story photograph or subject-specific illustration, visually reviewed for the linked page; no crop, retouching, synthesis or new reuse license."
+    },
+    "guides/gifts-without-a-performance.html": {
+      "image": "/assets/long-guide-studies/gifts-without-a-performance.webp",
+      "alt": "Original watercolor of a wrapped gift, ribbon, a gift bag and a blank note.",
+      "width": 1536,
+      "height": 1024,
+      "mime": "image/webp",
+      "sha256": "f0c95ebf89ab1d19c14277f5335faee9dbb985c7dee120d2463314986de6e2c3",
+      "card": "summary_large_image",
+      "type": "website",
+      "kind": "editorial-illustration",
+      "provenance": [
+        "Existing commissioned editorial illustration already published on this site; original-art designation retained in image description.",
+        "docs/practical-review-changes.json"
+      ],
+      "selection_reason": "Existing story photograph or subject-specific illustration, visually reviewed for the linked page; no crop, retouching, synthesis or new reuse license."
+    },
+    "guides/holiday-meal-two-timetables.html": {
+      "image": "/assets/long-guide-studies/holiday-meal-two-timetables.webp",
+      "alt": "Original watercolor of covered serving dishes, stacked plates and linen on a family dining table.",
+      "width": 1536,
+      "height": 1024,
+      "mime": "image/webp",
+      "sha256": "3da52458922d618e4e496b55c97be17f528526c55d2718c4cd6a8997c10410c5",
+      "card": "summary_large_image",
+      "type": "website",
+      "kind": "editorial-illustration",
+      "provenance": [
+        "Existing commissioned editorial illustration already published on this site; original-art designation retained in image description.",
+        "docs/practical-review-changes.json"
+      ],
+      "selection_reason": "Existing story photograph or subject-specific illustration, visually reviewed for the linked page; no crop, retouching, synthesis or new reuse license."
+    },
+    "guides/household-instruction-cards.html": {
+      "image": "/assets/long-guide-studies/household-instruction-cards.webp",
+      "alt": "Original watercolor of neatly folded household towels beside a blank instruction card.",
+      "width": 1536,
+      "height": 1024,
+      "mime": "image/webp",
+      "sha256": "9cd98a547ec8e59d879a9399e5fb256aaccdea9312c524017a6cdfea804bbdf6",
+      "card": "summary_large_image",
+      "type": "website",
+      "kind": "editorial-illustration",
+      "provenance": [
+        "Existing commissioned editorial illustration already published on this site; original-art designation retained in image description.",
+        "docs/practical-review-changes.json"
+      ],
+      "selection_reason": "Existing story photograph or subject-specific illustration, visually reviewed for the linked page; no crop, retouching, synthesis or new reuse license."
+    },
+    "guides/iep-meeting-follow-up.html": {
+      "image": "/assets/long-guide-studies/iep-meeting-follow-up.webp",
+      "alt": "Original watercolor of a blank open notebook, folders, a pencil and a small note pad.",
+      "width": 1536,
+      "height": 1024,
+      "mime": "image/webp",
+      "sha256": "0ac5a00f9d4ff624c618ac1f6c9667a7f299e224b621dc735d84c8bf1d005928",
+      "card": "summary_large_image",
+      "type": "website",
+      "kind": "editorial-illustration",
+      "provenance": [
+        "Existing commissioned editorial illustration already published on this site; original-art designation retained in image description.",
+        "docs/practical-review-changes.json"
+      ],
+      "selection_reason": "Existing story photograph or subject-specific illustration, visually reviewed for the linked page; no crop, retouching, synthesis or new reuse license."
+    },
+    "guides/keep-the-student-in-the-conversation.html": {
+      "image": "/assets/long-guide-studies/keep-the-student-in-the-conversation.webp",
+      "alt": "Original watercolor of headphones, books and a blank notebook on a quiet home table.",
+      "width": 1536,
+      "height": 1024,
+      "mime": "image/webp",
+      "sha256": "dbef917f3ba227faace0d4c883153b6c83776264d6ce50972fb58ba5484350c8",
+      "card": "summary_large_image",
+      "type": "website",
+      "kind": "editorial-illustration",
+      "provenance": [
+        "Existing commissioned editorial illustration already published on this site; original-art designation retained in image description.",
+        "docs/practical-review-changes.json"
+      ],
+      "selection_reason": "Existing story photograph or subject-specific illustration, visually reviewed for the linked page; no crop, retouching, synthesis or new reuse license."
+    },
+    "guides/library-pass-day-trip.html": {
+      "image": "/assets/long-guide-studies/library-pass-day-trip.webp",
+      "alt": "Original watercolor of library books, a blank pass, folded papers and a day bag.",
+      "width": 1536,
+      "height": 1024,
+      "mime": "image/webp",
+      "sha256": "33960d22bfaebce928f6978954908366c4eed2acf4b690b2e534631b9af961e1",
+      "card": "summary_large_image",
+      "type": "website",
+      "kind": "editorial-illustration",
+      "provenance": [
+        "Existing commissioned editorial illustration already published on this site; original-art designation retained in image description.",
+        "docs/practical-review-changes.json"
+      ],
+      "selection_reason": "Existing story photograph or subject-specific illustration, visually reviewed for the linked page; no crop, retouching, synthesis or new reuse license."
+    },
+    "guides/offline-outing-folder.html": {
+      "image": "/assets/long-guide-studies/offline-outing-folder.webp",
+      "alt": "Original watercolor of a dark-screen phone, blank route paper and ticket sleeve, keys and a small day bag.",
+      "width": 1536,
+      "height": 1024,
+      "mime": "image/webp",
+      "sha256": "7f557491496a24f04aa33c92bd95fd8e94c9ee3f29f563be4b46b7cf36d2c412",
+      "card": "summary_large_image",
+      "type": "website",
+      "kind": "editorial-illustration",
+      "provenance": [
+        "Existing commissioned editorial illustration already published on this site; original-art designation retained in image description.",
+        "docs/practical-review-changes.json"
+      ],
+      "selection_reason": "Existing story photograph or subject-specific illustration, visually reviewed for the linked page; no crop, retouching, synthesis or new reuse license."
+    },
+    "guides/one-page-parent-agenda.html": {
+      "image": "/assets/long-guide-studies/iep-meeting-follow-up.webp",
+      "alt": "Original watercolor of a blank open notebook, folders, a pencil and a small note pad.",
+      "width": 1536,
+      "height": 1024,
+      "mime": "image/webp",
+      "sha256": "0ac5a00f9d4ff624c618ac1f6c9667a7f299e224b621dc735d84c8bf1d005928",
+      "card": "summary_large_image",
+      "type": "website",
+      "kind": "editorial-illustration",
+      "provenance": [
+        "Existing commissioned editorial illustration already published on this site; original-art designation retained in image description.",
+        "docs/practical-review-changes.json"
+      ],
+      "selection_reason": "Existing story photograph or subject-specific illustration, visually reviewed for the linked page; no crop, retouching, synthesis or new reuse license."
+    },
+    "guides/one-week-tech-trial.html": {
+      "image": "/assets/long-guide-studies/one-week-tech-trial.webp",
+      "alt": "Original watercolor of an unbranded household timer, desk lamp, coiled cable, blank notebook and plain open box.",
+      "width": 1536,
+      "height": 1024,
+      "mime": "image/webp",
+      "sha256": "8db1dfc9fb124b4ba9095d10d87721d01229c880bb886d23437be0374173236b",
+      "card": "summary_large_image",
+      "type": "website",
+      "kind": "editorial-illustration",
+      "provenance": [
+        "Existing commissioned editorial illustration already published on this site; original-art designation retained in image description.",
+        "docs/practical-review-changes.json"
+      ],
+      "selection_reason": "Existing story photograph or subject-specific illustration, visually reviewed for the linked page; no crop, retouching, synthesis or new reuse license."
+    },
+    "guides/organize-school-paperwork.html": {
+      "image": "/assets/long-guide-studies/organize-school-paperwork.webp",
+      "alt": "Original watercolor of five plain folders in a file holder beside a blank index notebook.",
+      "width": 1536,
+      "height": 1024,
+      "mime": "image/webp",
+      "sha256": "1baa4342dfee4541b9793f3f753113c08e0aecd7fd406422b30fa78da9ea26a6",
+      "card": "summary_large_image",
+      "type": "website",
+      "kind": "editorial-illustration",
+      "provenance": [
+        "Existing commissioned editorial illustration already published on this site; original-art designation retained in image description.",
+        "docs/practical-review-changes.json"
+      ],
+      "selection_reason": "Existing story photograph or subject-specific illustration, visually reviewed for the linked page; no crop, retouching, synthesis or new reuse license."
+    },
+    "guides/prepare-for-an-iep-meeting.html": {
+      "image": "/assets/long-guide-studies/organize-school-paperwork.webp",
+      "alt": "Original watercolor of five plain folders in a file holder beside a blank index notebook.",
+      "width": 1536,
+      "height": 1024,
+      "mime": "image/webp",
+      "sha256": "1baa4342dfee4541b9793f3f753113c08e0aecd7fd406422b30fa78da9ea26a6",
+      "card": "summary_large_image",
+      "type": "website",
+      "kind": "editorial-illustration",
+      "provenance": [
+        "Existing commissioned editorial illustration already published on this site; original-art designation retained in image description.",
+        "docs/practical-review-changes.json"
+      ],
+      "selection_reason": "Existing story photograph or subject-specific illustration, visually reviewed for the linked page; no crop, retouching, synthesis or new reuse license."
+    },
+    "guides/reading-a-trail-access-sign.html": {
+      "image": "/assets/long-guide-studies/reading-a-trail-access-sign.webp",
+      "alt": "Original illustrative woodland trailhead with a blank information sign; not an actual trail or access rating.",
+      "width": 1536,
+      "height": 1024,
+      "mime": "image/webp",
+      "sha256": "48d9a84857af51d705139252b613edcb49c8c6012783e2e1c133f97220ff1000",
+      "card": "summary_large_image",
+      "type": "website",
+      "kind": "editorial-illustration",
+      "provenance": [
+        "Existing commissioned editorial illustration already published on this site; original-art designation retained in image description.",
+        "docs/practical-review-changes.json"
+      ],
+      "selection_reason": "Existing story photograph or subject-specific illustration, visually reviewed for the linked page; no crop, retouching, synthesis or new reuse license."
+    },
+    "guides/scan-it-on-your-phone.html": {
+      "image": "/assets/long-guide-studies/scan-it-on-your-phone.webp",
+      "alt": "Original watercolor still life of a dark-screen phone on a stand, blank paper and a closed document folder; not a scanning demonstration.",
+      "width": 1536,
+      "height": 1024,
+      "mime": "image/webp",
+      "sha256": "b4534cecd9adac1268322ce64b26fb3e2e8f11f5b3adef89bbd161907c5b4874",
+      "card": "summary_large_image",
+      "type": "website",
+      "kind": "editorial-illustration",
+      "provenance": [
+        "Existing commissioned editorial illustration already published on this site; original-art designation retained in image description.",
+        "docs/practical-review-changes.json"
+      ],
+      "selection_reason": "Existing story photograph or subject-specific illustration, visually reviewed for the linked page; no crop, retouching, synthesis or new reuse license."
+    },
+    "guides/school-emails-clear-requests.html": {
+      "image": "/assets/long-guide-studies/iep-meeting-follow-up.webp",
+      "alt": "Original watercolor of a blank open notebook, folders, a pencil and a small note pad.",
+      "width": 1536,
+      "height": 1024,
+      "mime": "image/webp",
+      "sha256": "0ac5a00f9d4ff624c618ac1f6c9667a7f299e224b621dc735d84c8bf1d005928",
+      "card": "summary_large_image",
+      "type": "website",
+      "kind": "editorial-illustration",
+      "provenance": [
+        "Existing commissioned editorial illustration already published on this site; original-art designation retained in image description.",
+        "docs/practical-review-changes.json"
+      ],
+      "selection_reason": "Existing story photograph or subject-specific illustration, visually reviewed for the linked page; no crop, retouching, synthesis or new reuse license."
+    },
+    "guides/small-weekend-beauty-bag.html": {
+      "image": "/assets/long-guide-studies/small-weekend-beauty-bag.webp",
+      "alt": "Original watercolor of a compact unbranded beauty pouch, brush, washcloth, closed compact and mirror.",
+      "width": 1536,
+      "height": 1024,
+      "mime": "image/webp",
+      "sha256": "1fde9e0e6ff981420db248f9f1dfbe23f0bf2f675ecfc24ffb7810bb5c3960d4",
+      "card": "summary_large_image",
+      "type": "website",
+      "kind": "editorial-illustration",
+      "provenance": [
+        "Existing commissioned editorial illustration already published on this site; original-art designation retained in image description.",
+        "docs/practical-review-changes.json"
+      ],
+      "selection_reason": "Existing story photograph or subject-specific illustration, visually reviewed for the linked page; no crop, retouching, synthesis or new reuse license."
+    },
+    "guides/the-access-call-before-you-go.html": {
+      "image": "/assets/long-guide-studies/ask-for-meeting-access.webp",
+      "alt": "Original watercolor of a calm meeting desk with a closed laptop, headphones and blank notes.",
+      "width": 1536,
+      "height": 1024,
+      "mime": "image/webp",
+      "sha256": "ef55c200265152d9307688262271691dd8f0788183c80b48cf9458fd06b147cf",
+      "card": "summary_large_image",
+      "type": "website",
+      "kind": "editorial-illustration",
+      "provenance": [
+        "Existing commissioned editorial illustration already published on this site; original-art designation retained in image description.",
+        "docs/practical-review-changes.json"
+      ],
+      "selection_reason": "Existing story photograph or subject-specific illustration, visually reviewed for the linked page; no crop, retouching, synthesis or new reuse license."
+    },
+    "guides/the-grocery-list-handoff.html": {
+      "image": "/assets/long-guide-studies/the-grocery-list-handoff.webp",
+      "alt": "Original watercolor of a canvas grocery tote, apples, bread, plain jars and a blank shopping list.",
+      "width": 1536,
+      "height": 1024,
+      "mime": "image/webp",
+      "sha256": "32455db545b9d8112524438dece4eea871a6e6586289acdc7628947d9ab7fd51",
+      "card": "summary_large_image",
+      "type": "website",
+      "kind": "editorial-illustration",
+      "provenance": [
+        "Existing commissioned editorial illustration already published on this site; original-art designation retained in image description.",
+        "docs/practical-review-changes.json"
+      ],
+      "selection_reason": "Existing story photograph or subject-specific illustration, visually reviewed for the linked page; no crop, retouching, synthesis or new reuse license."
+    },
+    "guides/the-pedicure-menu.html": {
+      "image": "/assets/long-guide-studies/small-weekend-beauty-bag.webp",
+      "alt": "Original watercolor of a compact unbranded beauty pouch, brush, washcloth, closed compact and mirror.",
+      "width": 1536,
+      "height": 1024,
+      "mime": "image/webp",
+      "sha256": "1fde9e0e6ff981420db248f9f1dfbe23f0bf2f675ecfc24ffb7810bb5c3960d4",
+      "card": "summary_large_image",
+      "type": "website",
+      "kind": "editorial-illustration",
+      "provenance": [
+        "Existing commissioned editorial illustration already published on this site; original-art designation retained in image description.",
+        "docs/practical-review-changes.json"
+      ],
+      "selection_reason": "Existing story photograph or subject-specific illustration, visually reviewed for the linked page; no crop, retouching, synthesis or new reuse license."
+    },
+    "guides/virtual-iep-meeting-opening.html": {
+      "image": "/assets/long-guide-studies/ask-for-meeting-access.webp",
+      "alt": "Original watercolor of a calm meeting desk with a closed laptop, headphones and blank notes.",
+      "width": 1536,
+      "height": 1024,
+      "mime": "image/webp",
+      "sha256": "ef55c200265152d9307688262271691dd8f0788183c80b48cf9458fd06b147cf",
+      "card": "summary_large_image",
+      "type": "website",
+      "kind": "editorial-illustration",
+      "provenance": [
+        "Existing commissioned editorial illustration already published on this site; original-art designation retained in image description.",
+        "docs/practical-review-changes.json"
+      ],
+      "selection_reason": "Existing story photograph or subject-specific illustration, visually reviewed for the linked page; no crop, retouching, synthesis or new reuse license."
+    },
+    "guides/wet-weather-entryway.html": {
+      "image": "/assets/long-guide-studies/wet-weather-entryway.webp",
+      "alt": "Original watercolor of a clear entryway, raincoat, boots contained in a tray and a basket by the door.",
+      "width": 1536,
+      "height": 1024,
+      "mime": "image/webp",
+      "sha256": "989e108990954321172770372216eed5a7672eec308944b2bbe86d8276fdbe04",
+      "card": "summary_large_image",
+      "type": "website",
+      "kind": "editorial-illustration",
+      "provenance": [
+        "Existing commissioned editorial illustration already published on this site; original-art designation retained in image description.",
+        "docs/practical-review-changes.json"
+      ],
+      "selection_reason": "Existing story photograph or subject-specific illustration, visually reviewed for the linked page; no crop, retouching, synthesis or new reuse license."
+    },
+    "guides/when-the-family-plan-is-too-much.html": {
+      "image": "/assets/long-guide-studies/an-invitation-with-useful-details.webp",
+      "alt": "Original watercolor of a blank invitation and envelope beside a simple place setting.",
+      "width": 1536,
+      "height": 1024,
+      "mime": "image/webp",
+      "sha256": "41c279d95dc03750cc8f1a9f27d4a5af14d44977c71c479ab752f2affadc4281",
+      "card": "summary_large_image",
+      "type": "website",
+      "kind": "editorial-illustration",
+      "provenance": [
+        "Existing commissioned editorial illustration already published on this site; original-art designation retained in image description.",
+        "docs/practical-review-changes.json"
+      ],
+      "selection_reason": "Existing story photograph or subject-specific illustration, visually reviewed for the linked page; no crop, retouching, synthesis or new reuse license."
+    },
+    "guides/working-with-an-advocate.html": {
+      "image": "/assets/long-guide-studies/choose-a-special-education-advocate.webp",
+      "alt": "Original watercolor of three plain document folders, a magnifying glass and a blank comparison notebook.",
+      "width": 1536,
+      "height": 1024,
+      "mime": "image/webp",
+      "sha256": "17d040f0dbd61eff80fa8ccfd84c5659b9980da7493bcb51303f4336ca4b9f2d",
+      "card": "summary_large_image",
+      "type": "website",
+      "kind": "editorial-illustration",
+      "provenance": [
+        "Existing commissioned editorial illustration already published on this site; original-art designation retained in image description.",
+        "docs/practical-review-changes.json"
+      ],
+      "selection_reason": "Existing story photograph or subject-specific illustration, visually reviewed for the linked page; no crop, retouching, synthesis or new reuse license."
+    },
+    "hotel-pool-checklist.html": {
+      "image": "/assets/destination-guides/hotel-pool-planning-20261004.webp",
+      "alt": "Original watercolor of a planning notebook, closed laptop, pool towel, goggles and a key card by a rainy window.",
+      "width": 1536,
+      "height": 1024,
+      "mime": "image/webp",
+      "sha256": "adffc54805fe850ec9d9fb5c7794953a89cdeb2aeff30631ae5728109f02ad8e",
+      "card": "summary_large_image",
+      "type": "article",
+      "kind": "editorial-illustration",
+      "provenance": [
+        "Existing commissioned editorial illustration already published on this site; original-art designation retained in image description.",
+        "docs/practical-review-changes.json"
+      ],
+      "selection_reason": "Existing story photograph or subject-specific illustration, visually reviewed for the linked page; no crop, retouching, synthesis or new reuse license."
+    },
+    "household-reset.html": {
+      "image": "/assets/long-guide-studies/household-instruction-cards.webp",
+      "alt": "Original editorial illustration of folded towels, a basket and a blank instruction card on a wooden shelf.",
+      "width": 1536,
+      "height": 1024,
+      "mime": "image/webp",
+      "sha256": "9cd98a547ec8e59d879a9399e5fb256aaccdea9312c524017a6cdfea804bbdf6",
+      "card": "summary_large_image",
+      "type": "article",
+      "kind": "editorial-illustration",
+      "provenance": [
+        "Existing commissioned editorial illustration already published on this site; original-art designation retained in image description.",
+        "docs/practical-review-changes.json"
+      ],
+      "selection_reason": "Deliberate section or subject selection from the existing editorial collection, visually reviewed; no automatic fallback or alteration."
+    },
+    "how-we-choose.html": {
+      "image": "/assets/long-guide-studies/one-week-tech-trial.webp",
+      "alt": "Original editorial illustration of a notebook, charging cable and open parcel ready for a product trial.",
+      "width": 1536,
+      "height": 1024,
+      "mime": "image/webp",
+      "sha256": "8db1dfc9fb124b4ba9095d10d87721d01229c880bb886d23437be0374173236b",
+      "card": "summary_large_image",
+      "type": "website",
+      "kind": "editorial-illustration",
+      "provenance": [
+        "Existing commissioned editorial illustration already published on this site; original-art designation retained in image description.",
+        "docs/practical-review-changes.json"
+      ],
+      "selection_reason": "Deliberate section or subject selection from the existing editorial collection, visually reviewed; no automatic fallback or alteration."
+    },
+    "index.html": {
+      "image": "/assets/rangeley-grandparents/autumn-waterfront.jpeg",
+      "alt": "Autumn light across the lake in Rangeley, Maine, with boats along the dock and a picnic table on the grass.",
+      "width": 1536,
+      "height": 1152,
+      "mime": "image/jpeg",
+      "sha256": "9f0d6ea453da1d2ac2902fda381f822c44235b3f41179a9421d697cfb5a34461",
+      "card": "summary_large_image",
+      "type": "website",
+      "kind": "photograph",
+      "provenance": [
+        "docs/rangeley-grandparents-provenance.json"
+      ],
+      "selection_reason": "Existing story photograph or subject-specific illustration, visually reviewed for the linked page; no crop, retouching, synthesis or new reuse license."
+    },
+    "last-minute-gift-kit.html": {
+      "image": "/assets/gift-kit-illustration.webp",
+      "alt": "An original illustration of photo prints, envelopes, ribbon and gift materials.",
+      "width": 1536,
+      "height": 1024,
+      "mime": "image/webp",
+      "sha256": "da8870da8172d1e18382a7e778f958f56f68c8f469d82ea3709db7ea460295aa",
+      "card": "summary_large_image",
+      "type": "article",
+      "kind": "editorial-illustration",
+      "provenance": [
+        "docs/event-watercolor-restoration-2026-10-06.json"
+      ],
+      "selection_reason": "Existing story photograph or subject-specific illustration, visually reviewed for the linked page; no crop, retouching, synthesis or new reuse license."
+    },
+    "last-minute-guests-pantry-kit.html": {
+      "image": "/assets/catalog-hosting.webp",
+      "alt": "An original illustrated board with bread, cheese and a napkin.",
+      "width": 640,
+      "height": 640,
+      "mime": "image/webp",
+      "sha256": "97b4b6aa395e06f90511d987dde1087a03c1e55214a74df76d842d2668fa8023",
+      "card": "summary",
+      "type": "article",
+      "kind": "editorial-illustration",
+      "provenance": [
+        "Existing commissioned editorial illustration already published on this site; original-art designation retained in image description.",
+        "docs/practical-review-changes.json"
+      ],
+      "selection_reason": "Existing story photograph or subject-specific illustration, visually reviewed for the linked page; no crop, retouching, synthesis or new reuse license."
+    },
+    "library.html": {
+      "image": "/assets/book-barn-ct-clean.jpg",
+      "alt": "A family member browsing outdoor bookshelves at the Book Barn in Niantic, Connecticut.",
+      "width": 800,
+      "height": 584,
+      "mime": "image/jpeg",
+      "sha256": "e891c1a7fe017664c8375e31235924c12fed27b91e0896cb60d021e9f0280fad",
+      "card": "summary_large_image",
+      "type": "website",
+      "kind": "photograph",
+      "provenance": [
+        "Existing original family photograph already published on this site; current owner request authorizes its use in link previews."
+      ],
+      "selection_reason": "Deliberate section or subject selection from the existing editorial collection, visually reviewed; no automatic fallback or alteration."
+    },
+    "little-black-book.html": {
+      "image": "/assets/main-street/outfitter-interior.webp",
+      "alt": "Original illustration of a warm New England shop interior: wooden shelves, folded knitwear, canvas bags, boots and a sunlit room beyond.",
+      "width": 1536,
+      "height": 1024,
+      "mime": "image/webp",
+      "sha256": "a848aa39f32aa4ff60c58d29904de08c70ae978f87bc40aeb2a9c6d0431da6b5",
+      "card": "summary_large_image",
+      "type": "website",
+      "kind": "editorial-illustration",
+      "provenance": [
+        "docs/little-black-book-interior-art-2026-10-08.json"
+      ],
+      "selection_reason": "Existing story photograph or subject-specific illustration, visually reviewed for the linked page; no crop, retouching, synthesis or new reuse license."
+    },
+    "margaritas-waltham-field-note.html": {
+      "image": "/assets/margaritas-waltham/jukebox-watercolor-v1.png",
+      "alt": "Original ink-and-watercolor illustration of a glowing jukebox beside wooden chairs, a table and tall restaurant windows.",
+      "width": 1536,
+      "height": 1024,
+      "mime": "image/png",
+      "sha256": "81c82cd48bb234927811e07ab14cb8ae8b9e7703e4274125020fe8e9d4c1158f",
+      "card": "summary_large_image",
+      "type": "article",
+      "kind": "editorial-illustration",
+      "provenance": [
+        "docs/margaritas-watercolor-provenance-2026-10-04.json",
+        "docs/my-small-world-illustration-provenance.json"
+      ],
+      "selection_reason": "Existing story photograph or subject-specific illustration, visually reviewed for the linked page; no crop, retouching, synthesis or new reuse license."
+    },
+    "maternal-role.html": {
+      "image": "/assets/long-guide-studies/holiday-meal-two-timetables.webp",
+      "alt": "Original illustration of a warmly lit table set for a meal.",
+      "width": 1536,
+      "height": 1024,
+      "mime": "image/webp",
+      "sha256": "3da52458922d618e4e496b55c97be17f528526c55d2718c4cd6a8997c10410c5",
+      "card": "summary_large_image",
+      "type": "article",
+      "kind": "editorial-illustration",
+      "provenance": [
+        "Existing commissioned editorial illustration already published on this site; original-art designation retained in image description.",
+        "docs/practical-review-changes.json"
+      ],
+      "selection_reason": "Existing story photograph or subject-specific illustration, visually reviewed for the linked page; no crop, retouching, synthesis or new reuse license."
+    },
+    "media/index.html": {
+      "image": "/assets/family-outings/fort-mcclary-waterfront.webp",
+      "alt": "Two adults beside the waterfront at Fort McClary in Maine.",
+      "width": 1800,
+      "height": 1350,
+      "mime": "image/webp",
+      "sha256": "e366812278a98a472193fbf299ecc6288cb18846b4db6266288557a221e0a3a7",
+      "card": "summary_large_image",
+      "type": "website",
+      "kind": "photograph",
+      "provenance": [
+        "docs/journal-photo-provenance-2026-10-03.json"
+      ],
+      "selection_reason": "Existing story photograph or subject-specific illustration, visually reviewed for the linked page; no crop, retouching, synthesis or new reuse license."
+    },
+    "media/launch.html": {
+      "image": "/assets/family-outings/fort-mcclary-waterfront.webp",
+      "alt": "Two adults beside the harbor at Fort McClary in Maine.",
+      "width": 1800,
+      "height": 1350,
+      "mime": "image/webp",
+      "sha256": "e366812278a98a472193fbf299ecc6288cb18846b4db6266288557a221e0a3a7",
+      "card": "summary_large_image",
+      "type": "article",
+      "kind": "photograph",
+      "provenance": [
+        "docs/journal-photo-provenance-2026-10-03.json"
+      ],
+      "selection_reason": "Deliberate section or subject selection from the existing editorial collection, visually reviewed; no automatic fallback or alteration."
+    },
+    "multimodal-communication.html": {
+      "image": "/assets/destination-guides/communication-outing-note-20261004.webp",
+      "alt": "An original illustration of a blank-screen communication tablet, notebook and day bag.",
+      "width": 1536,
+      "height": 1024,
+      "mime": "image/webp",
+      "sha256": "0a50d468c38efdbf918f02fda77ff333e689fcee2fb5d1c4503b8c8acb9a7306",
+      "card": "summary_large_image",
+      "type": "article",
+      "kind": "editorial-illustration",
+      "provenance": [
+        "Existing commissioned editorial illustration already published on this site; original-art designation retained in image description.",
+        "docs/practical-review-changes.json"
+      ],
+      "selection_reason": "Existing story photograph or subject-specific illustration, visually reviewed for the linked page; no crop, retouching, synthesis or new reuse license."
+    },
+    "my-small-world-autism-friendly-welcome.html": {
+      "image": "/assets/my-small-world/welcome-shop.webp",
+      "alt": "Original ink-and-watercolor illustration of an imagined toy shop with open navy doors, books and a rocking zebra.",
+      "width": 1536,
+      "height": 1024,
+      "mime": "image/webp",
+      "sha256": "1723bf7a05968312b8589c95bdbc882bd4c77f218dfcda04726e566110b837e3",
+      "card": "summary_large_image",
+      "type": "article",
+      "kind": "editorial-illustration",
+      "provenance": [
+        "docs/my-small-world-illustration-provenance.json"
+      ],
+      "selection_reason": "Existing story photograph or subject-specific illustration, visually reviewed for the linked page; no crop, retouching, synthesis or new reuse license."
+    },
+    "new-england-weekends.html": {
+      "image": "/assets/york-maine-clean.jpg",
+      "alt": "A family member enjoying a lobster-shaped sweet during an outing in York, Maine.",
+      "width": 800,
+      "height": 584,
+      "mime": "image/jpeg",
+      "sha256": "3387d6ff6e14444fc925b48a21d00811899dab1edb30bf87d162e66cb334457d",
+      "card": "summary_large_image",
+      "type": "website",
+      "kind": "photograph",
+      "provenance": [
+        "Existing original family photograph already published on this site; current owner request authorizes its use in link previews."
+      ],
+      "selection_reason": "Existing story photograph or subject-specific illustration, visually reviewed for the linked page; no crop, retouching, synthesis or new reuse license."
+    },
+    "new-england.html": {
+      "image": "/assets/rangeley-grandparents/lakeside-pause.jpeg",
+      "alt": "A family member and a light-colored dog beside a Maine lake, with ducks, moored boats and autumn trees.",
+      "width": 1536,
+      "height": 1152,
+      "mime": "image/jpeg",
+      "sha256": "c53ecbd7a2ae7c3d9640831304d0ae13dd38fe8fb29036f6fe72f5f3abdf89c4",
+      "card": "summary_large_image",
+      "type": "website",
+      "kind": "photograph",
+      "provenance": [
+        "docs/rangeley-grandparents-provenance.json"
+      ],
+      "selection_reason": "Deliberate section or subject selection from the existing editorial collection, visually reviewed; no automatic fallback or alteration."
+    },
+    "october-ice-cream-dairy-joy-weston.html": {
+      "image": "/assets/dairy-joy-october/grandpa-steve-james-ruby.jpeg",
+      "alt": "Grandpa Steve and James at a red picnic table outside Dairy Joy, with Ruby beside them.",
+      "width": 1536,
+      "height": 1152,
+      "mime": "image/jpeg",
+      "sha256": "c3224af3867bc248cdc7b522397b56e818406ee03bda8df78fba8a262b9a7543",
+      "card": "summary_large_image",
+      "type": "article",
+      "kind": "photograph",
+      "provenance": [
+        "Existing original family photograph already published on this site; current owner request authorizes its use in link previews."
+      ],
+      "selection_reason": "Existing story photograph or subject-specific illustration, visually reviewed for the linked page; no crop, retouching, synthesis or new reuse license."
+    },
+    "older-teen-edit.html": {
+      "image": "/assets/long-guide-studies/keep-the-student-in-the-conversation.webp",
+      "alt": "Original editorial illustration of headphones, books and an open notebook on a wooden table.",
+      "width": 1536,
+      "height": 1024,
+      "mime": "image/webp",
+      "sha256": "dbef917f3ba227faace0d4c883153b6c83776264d6ce50972fb58ba5484350c8",
+      "card": "summary_large_image",
+      "type": "article",
+      "kind": "editorial-illustration",
+      "provenance": [
+        "Existing commissioned editorial illustration already published on this site; original-art designation retained in image description.",
+        "docs/practical-review-changes.json"
+      ],
+      "selection_reason": "Deliberate section or subject selection from the existing editorial collection, visually reviewed; no automatic fallback or alteration."
+    },
+    "older-teen-swim-guide.html": {
+      "image": "/assets/venue-illustrations/indoor-pool-illustration.webp",
+      "alt": "Original watercolor illustration of an indoor swimming pool; a general scene, not a specific venue.",
+      "width": 1200,
+      "height": 800,
+      "mime": "image/webp",
+      "sha256": "6b96ce429c8de8c8bb66bc69bdfaf01c3c3978a34c62a178d15c6775324c9f45",
+      "card": "summary_large_image",
+      "type": "article",
+      "kind": "editorial-illustration",
+      "provenance": [
+        "docs/event-watercolor-restoration-2026-10-06.json",
+        "docs/venue-illustration-provenance-2026-10-04.json"
+      ],
+      "selection_reason": "Existing story photograph or subject-specific illustration, visually reviewed for the linked page; no crop, retouching, synthesis or new reuse license."
+    },
+    "outings.html": {
+      "image": "/assets/orchard-afternoon-clean.jpg",
+      "alt": "A real family apple-orchard outing in New England",
+      "width": 800,
+      "height": 620,
+      "mime": "image/jpeg",
+      "sha256": "630c3a925b95b1619fc2cfac4a3c6322726ca7d0be68a98ba1fb13447825379e",
+      "card": "summary",
+      "type": "website",
+      "kind": "photograph",
+      "provenance": [
+        "Existing original family photograph already published on this site; current owner request authorizes its use in link previews."
+      ],
+      "selection_reason": "Existing story photograph or subject-specific illustration, visually reviewed for the linked page; no crop, retouching, synthesis or new reuse license."
+    },
+    "paternal-role.html": {
+      "image": "/assets/long-guide-studies/library-pass-day-trip.webp",
+      "alt": "Original illustration of books, a day bag and paper maps on a table.",
+      "width": 1536,
+      "height": 1024,
+      "mime": "image/webp",
+      "sha256": "33960d22bfaebce928f6978954908366c4eed2acf4b690b2e534631b9af961e1",
+      "card": "summary_large_image",
+      "type": "article",
+      "kind": "editorial-illustration",
+      "provenance": [
+        "Existing commissioned editorial illustration already published on this site; original-art designation retained in image description.",
+        "docs/practical-review-changes.json"
+      ],
+      "selection_reason": "Existing story photograph or subject-specific illustration, visually reviewed for the linked page; no crop, retouching, synthesis or new reuse license."
+    },
+    "photo-day-prep.html": {
+      "image": "/assets/catalog-style.webp",
+      "alt": "Original editorial illustration of a cream cable-knit cardigan, navy slip-on shoes and sunglasses.",
+      "width": 640,
+      "height": 640,
+      "mime": "image/webp",
+      "sha256": "f5063abe0dc2262b4e69f0e51d30f4a54ca6adb7335b037d251ca7033953d40e",
+      "card": "summary",
+      "type": "article",
+      "kind": "editorial-illustration",
+      "provenance": [
+        "Existing commissioned editorial illustration already published on this site; original-art designation retained in image description.",
+        "docs/practical-review-changes.json"
+      ],
+      "selection_reason": "Deliberate section or subject selection from the existing editorial collection, visually reviewed; no automatic fallback or alteration."
+    },
+    "photo-gifts-from-your-camera-roll.html": {
+      "image": "/assets/gift-kit-illustration.webp",
+      "alt": "Original illustration of photo prints, envelopes, a ribbon, scissors and simple wrapping materials on a table.",
+      "width": 1536,
+      "height": 1024,
+      "mime": "image/webp",
+      "sha256": "da8870da8172d1e18382a7e778f958f56f68c8f469d82ea3709db7ea460295aa",
+      "card": "summary_large_image",
+      "type": "article",
+      "kind": "editorial-illustration",
+      "provenance": [
+        "docs/event-watercolor-restoration-2026-10-06.json"
+      ],
+      "selection_reason": "Existing story photograph or subject-specific illustration, visually reviewed for the linked page; no crop, retouching, synthesis or new reuse license."
+    },
+    "pool-weekend-kit.html": {
+      "image": "/assets/destination-guides/pool-bag-ready-20261004.webp",
+      "alt": "Original watercolor of an open swim tote on a wooden bench, with towel, goggles, separate dry clothes and a wet-return bag.",
+      "width": 1536,
+      "height": 1024,
+      "mime": "image/webp",
+      "sha256": "11cd19b422cb8762d33e45f5a94ee09b4c4cb8c95d2077895f5cf60f1fd84c8e",
+      "card": "summary_large_image",
+      "type": "article",
+      "kind": "editorial-illustration",
+      "provenance": [
+        "Existing commissioned editorial illustration already published on this site; original-art designation retained in image description.",
+        "docs/practical-review-changes.json"
+      ],
+      "selection_reason": "Existing story photograph or subject-specific illustration, visually reviewed for the linked page; no crop, retouching, synthesis or new reuse license."
+    },
+    "press.html": {
+      "image": "/assets/family-outings/fort-mcclary-waterfront.webp",
+      "alt": "Two adults beside the harbor at Fort McClary in Maine.",
+      "width": 1800,
+      "height": 1350,
+      "mime": "image/webp",
+      "sha256": "e366812278a98a472193fbf299ecc6288cb18846b4db6266288557a221e0a3a7",
+      "card": "summary_large_image",
+      "type": "website",
+      "kind": "photograph",
+      "provenance": [
+        "docs/journal-photo-provenance-2026-10-03.json"
+      ],
+      "selection_reason": "Existing story photograph or subject-specific illustration, visually reviewed for the linked page; no crop, retouching, synthesis or new reuse license."
+    },
+    "product-guides.html": {
+      "image": "/assets/long-guide-studies/one-week-tech-trial.webp",
+      "alt": "Original editorial illustration of a notebook, charging cable, mug and open parcel on a wooden desk.",
+      "width": 1536,
+      "height": 1024,
+      "mime": "image/webp",
+      "sha256": "8db1dfc9fb124b4ba9095d10d87721d01229c880bb886d23437be0374173236b",
+      "card": "summary_large_image",
+      "type": "website",
+      "kind": "editorial-illustration",
+      "provenance": [
+        "Existing commissioned editorial illustration already published on this site; original-art designation retained in image description.",
+        "docs/practical-review-changes.json"
+      ],
+      "selection_reason": "Deliberate section or subject selection from the existing editorial collection, visually reviewed; no automatic fallback or alteration."
+    },
+    "profoundly-awesome.html": {
+      "image": "/assets/catalog-family.webp",
+      "alt": "An original illustration of a folded quilt, books and a cup.",
+      "width": 640,
+      "height": 640,
+      "mime": "image/webp",
+      "sha256": "6841b2f160aaf470318d402698691c687716095d757f5c30990972e9ece34f9a",
+      "card": "summary",
+      "type": "article",
+      "kind": "editorial-illustration",
+      "provenance": [
+        "Existing commissioned editorial illustration already published on this site; original-art designation retained in image description.",
+        "docs/practical-review-changes.json"
+      ],
+      "selection_reason": "Existing story photograph or subject-specific illustration, visually reviewed for the linked page; no crop, retouching, synthesis or new reuse license."
+    },
+    "quiet-break-plan.html": {
+      "image": "/assets/catalog-quiet-kit.webp",
+      "alt": "An original illustration of a tablet and over-ear headphones.",
+      "width": 640,
+      "height": 640,
+      "mime": "image/webp",
+      "sha256": "5f339e25c2bd1586d0c39c5798d1134669722d496fb2ab19fbe96904a68797c3",
+      "card": "summary",
+      "type": "article",
+      "kind": "editorial-illustration",
+      "provenance": [
+        "Existing commissioned editorial illustration already published on this site; original-art designation retained in image description.",
+        "docs/practical-review-changes.json"
+      ],
+      "selection_reason": "Existing story photograph or subject-specific illustration, visually reviewed for the linked page; no crop, retouching, synthesis or new reuse license."
+    },
+    "rainy-day-outing-plan.html": {
+      "image": "/assets/book-barn-ct-clean.jpg",
+      "alt": "An unaltered family photograph beside bookshelves at the Book Barn in Connecticut.",
+      "width": 800,
+      "height": 584,
+      "mime": "image/jpeg",
+      "sha256": "e891c1a7fe017664c8375e31235924c12fed27b91e0896cb60d021e9f0280fad",
+      "card": "summary_large_image",
+      "type": "article",
+      "kind": "photograph",
+      "provenance": [
+        "Existing original family photograph already published on this site; current owner request authorizes its use in link previews."
+      ],
+      "selection_reason": "Existing story photograph or subject-specific illustration, visually reviewed for the linked page; no crop, retouching, synthesis or new reuse license."
+    },
+    "rangeley-grandparents-field-note.html": {
+      "image": "/assets/rangeley-grandparents/autumn-waterfront.jpeg",
+      "alt": "A wide Rangeley waterfront view with a grassy lawn, picnic table, docks and fall trees beneath dramatic clouds and a patch of blue sky.",
+      "width": 1536,
+      "height": 1152,
+      "mime": "image/jpeg",
+      "sha256": "9f0d6ea453da1d2ac2902fda381f822c44235b3f41179a9421d697cfb5a34461",
+      "card": "summary_large_image",
+      "type": "article",
+      "kind": "photograph",
+      "provenance": [
+        "docs/rangeley-grandparents-provenance.json"
+      ],
+      "selection_reason": "Existing story photograph or subject-specific illustration, visually reviewed for the linked page; no crop, retouching, synthesis or new reuse license."
+    },
+    "respite-partner-role.html": {
+      "image": "/assets/destination-guides/communication-outing-note-20261004.webp",
+      "alt": "An original illustration of a blank-screen communication tablet, notebook and day bag by a door.",
+      "width": 1536,
+      "height": 1024,
+      "mime": "image/webp",
+      "sha256": "0a50d468c38efdbf918f02fda77ff333e689fcee2fb5d1c4503b8c8acb9a7306",
+      "card": "summary_large_image",
+      "type": "article",
+      "kind": "editorial-illustration",
+      "provenance": [
+        "Existing commissioned editorial illustration already published on this site; original-art designation retained in image description.",
+        "docs/practical-review-changes.json"
+      ],
+      "selection_reason": "Existing story photograph or subject-specific illustration, visually reviewed for the linked page; no crop, retouching, synthesis or new reuse license."
+    },
+    "sensory-clothing-checklist.html": {
+      "image": "/assets/catalog-style.webp",
+      "alt": "Original watercolor of a cream cable-knit cardigan, navy slip-on shoes and sunglasses.",
+      "width": 640,
+      "height": 640,
+      "mime": "image/webp",
+      "sha256": "f5063abe0dc2262b4e69f0e51d30f4a54ca6adb7335b037d251ca7033953d40e",
+      "card": "summary",
+      "type": "article",
+      "kind": "editorial-illustration",
+      "provenance": [
+        "Existing commissioned editorial illustration already published on this site; original-art designation retained in image description.",
+        "docs/practical-review-changes.json"
+      ],
+      "selection_reason": "Existing story photograph or subject-specific illustration, visually reviewed for the linked page; no crop, retouching, synthesis or new reuse license."
+    },
+    "series.html": {
+      "image": "/assets/long-guide-studies/library-pass-day-trip.webp",
+      "alt": "Original editorial illustration of books, a blank library pass, paper maps and a day bag.",
+      "width": 1536,
+      "height": 1024,
+      "mime": "image/webp",
+      "sha256": "33960d22bfaebce928f6978954908366c4eed2acf4b690b2e534631b9af961e1",
+      "card": "summary_large_image",
+      "type": "website",
+      "kind": "editorial-illustration",
+      "provenance": [
+        "Existing commissioned editorial illustration already published on this site; original-art designation retained in image description.",
+        "docs/practical-review-changes.json"
+      ],
+      "selection_reason": "Deliberate section or subject selection from the existing editorial collection, visually reviewed; no automatic fallback or alteration."
+    },
+    "shorter-visit-plan.html": {
+      "image": "/assets/catalog-outings.webp",
+      "alt": "Original watercolor illustration of an open picnic basket, a hat, blanket and notebook.",
+      "width": 640,
+      "height": 640,
+      "mime": "image/webp",
+      "sha256": "21b0ae391a4b37b193c1bfb269bf5dc60d1d295732fbae3ea347bc537cb7df73",
+      "card": "summary",
+      "type": "article",
+      "kind": "editorial-illustration",
+      "provenance": [
+        "Existing commissioned editorial illustration already published on this site; original-art designation retained in image description.",
+        "docs/practical-review-changes.json"
+      ],
+      "selection_reason": "Existing story photograph or subject-specific illustration, visually reviewed for the linked page; no crop, retouching, synthesis or new reuse license."
+    },
+    "sibling-role.html": {
+      "image": "/assets/long-guide-studies/ask-for-meeting-access.webp",
+      "alt": "Original illustration of an open notebook, headphones and a laptop on a wooden table.",
+      "width": 1536,
+      "height": 1024,
+      "mime": "image/webp",
+      "sha256": "ef55c200265152d9307688262271691dd8f0788183c80b48cf9458fd06b147cf",
+      "card": "summary_large_image",
+      "type": "article",
+      "kind": "editorial-illustration",
+      "provenance": [
+        "Existing commissioned editorial illustration already published on this site; original-art designation retained in image description.",
+        "docs/practical-review-changes.json"
+      ],
+      "selection_reason": "Existing story photograph or subject-specific illustration, visually reviewed for the linked page; no crop, retouching, synthesis or new reuse license."
+    },
+    "small-outings-count.html": {
+      "image": "/assets/family-outings/lexington-ice-cream-family.webp",
+      "alt": "A real family ice-cream outing in Lexington, Massachusetts",
+      "width": 1350,
+      "height": 1800,
+      "mime": "image/webp",
+      "sha256": "491368da4c260fb80a7b09ba80a8bfec281a9409bbb33623cd736cdaa5cd5676",
+      "card": "summary",
+      "type": "article",
+      "kind": "photograph",
+      "provenance": [
+        "docs/journal-photo-provenance-2026-10-03.json"
+      ],
+      "selection_reason": "Existing story photograph or subject-specific illustration, visually reviewed for the linked page; no crop, retouching, synthesis or new reuse license."
+    },
+    "start-here.html": {
+      "image": "/assets/family-outings/fort-mcclary-waterfront.webp",
+      "alt": "Two adults beside the harbor at Fort McClary in Maine.",
+      "width": 1800,
+      "height": 1350,
+      "mime": "image/webp",
+      "sha256": "e366812278a98a472193fbf299ecc6288cb18846b4db6266288557a221e0a3a7",
+      "card": "summary_large_image",
+      "type": "website",
+      "kind": "photograph",
+      "provenance": [
+        "docs/journal-photo-provenance-2026-10-03.json"
+      ],
+      "selection_reason": "Deliberate section or subject selection from the existing editorial collection, visually reviewed; no automatic fallback or alteration."
+    },
+    "support-professional-role.html": {
+      "image": "/assets/long-guide-studies/iep-meeting-follow-up.webp",
+      "alt": "Original illustration of an open notebook, pencil and blank papers ready for a useful note.",
+      "width": 1536,
+      "height": 1024,
+      "mime": "image/webp",
+      "sha256": "0ac5a00f9d4ff624c618ac1f6c9667a7f299e224b621dc735d84c8bf1d005928",
+      "card": "summary_large_image",
+      "type": "article",
+      "kind": "editorial-illustration",
+      "provenance": [
+        "Existing commissioned editorial illustration already published on this site; original-art designation retained in image description.",
+        "docs/practical-review-changes.json"
+      ],
+      "selection_reason": "Existing story photograph or subject-specific illustration, visually reviewed for the linked page; no crop, retouching, synthesis or new reuse license."
+    },
+    "thank-you-for-sharing-an-ausome-life.html": {
+      "image": "/assets/dairy-joy-october/grandpa-steve-james-ruby.jpeg",
+      "alt": "Grandpa Steve and James at a red picnic table outside Dairy Joy, with Ruby beside them.",
+      "width": 1536,
+      "height": 1152,
+      "mime": "image/jpeg",
+      "sha256": "c3224af3867bc248cdc7b522397b56e818406ee03bda8df78fba8a262b9a7543",
+      "card": "summary_large_image",
+      "type": "article",
+      "kind": "photograph",
+      "provenance": [
+        "Existing original family photograph already published on this site; current owner request authorizes its use in link previews."
+      ],
+      "selection_reason": "Existing story photograph or subject-specific illustration, visually reviewed for the linked page; no crop, retouching, synthesis or new reuse license."
+    },
+    "things-weve-bought.html": {
+      "image": "/assets/catalog-hosting.webp",
+      "alt": "Original editorial illustration of bread, cheese, grapes and olives on a wooden serving board; not a product photograph.",
+      "width": 640,
+      "height": 640,
+      "mime": "image/webp",
+      "sha256": "97b4b6aa395e06f90511d987dde1087a03c1e55214a74df76d842d2668fa8023",
+      "card": "summary",
+      "type": "website",
+      "kind": "editorial-illustration",
+      "provenance": [
+        "Existing commissioned editorial illustration already published on this site; original-art designation retained in image description.",
+        "docs/practical-review-changes.json"
+      ],
+      "selection_reason": "Deliberate section or subject selection from the existing editorial collection, visually reviewed; no automatic fallback or alteration."
+    },
+    "topics/advice.html": {
+      "image": "/assets/long-guide-studies/ask-for-meeting-access.webp",
+      "alt": "Original editorial illustration of headphones, a closed laptop and a notebook on a quiet desk.",
+      "width": 1536,
+      "height": 1024,
+      "mime": "image/webp",
+      "sha256": "ef55c200265152d9307688262271691dd8f0788183c80b48cf9458fd06b147cf",
+      "card": "summary_large_image",
+      "type": "website",
+      "kind": "editorial-illustration",
+      "provenance": [
+        "Existing commissioned editorial illustration already published on this site; original-art designation retained in image description.",
+        "docs/practical-review-changes.json"
+      ],
+      "selection_reason": "Deliberate section or subject selection from the existing editorial collection, visually reviewed; no automatic fallback or alteration."
+    },
+    "topics/advocacy.html": {
+      "image": "/assets/long-guide-studies/organize-school-paperwork.webp",
+      "alt": "Original editorial illustration of plain folders in a wooden holder beside an open notebook.",
+      "width": 1536,
+      "height": 1024,
+      "mime": "image/webp",
+      "sha256": "1baa4342dfee4541b9793f3f753113c08e0aecd7fd406422b30fa78da9ea26a6",
+      "card": "summary_large_image",
+      "type": "website",
+      "kind": "editorial-illustration",
+      "provenance": [
+        "Existing commissioned editorial illustration already published on this site; original-art designation retained in image description.",
+        "docs/practical-review-changes.json"
+      ],
+      "selection_reason": "Deliberate section or subject selection from the existing editorial collection, visually reviewed; no automatic fallback or alteration."
+    },
+    "topics/beauty.html": {
+      "image": "/assets/long-guide-studies/small-weekend-beauty-bag.webp",
+      "alt": "Original editorial illustration of a navy beauty pouch, hairbrush, washcloth, compact and mirror.",
+      "width": 1536,
+      "height": 1024,
+      "mime": "image/webp",
+      "sha256": "1fde9e0e6ff981420db248f9f1dfbe23f0bf2f675ecfc24ffb7810bb5c3960d4",
+      "card": "summary_large_image",
+      "type": "website",
+      "kind": "editorial-illustration",
+      "provenance": [
+        "Existing commissioned editorial illustration already published on this site; original-art designation retained in image description.",
+        "docs/practical-review-changes.json"
+      ],
+      "selection_reason": "Deliberate section or subject selection from the existing editorial collection, visually reviewed; no automatic fallback or alteration."
+    },
+    "topics/brands.html": {
+      "image": "/assets/main-street/outfitter-interior.webp",
+      "alt": "Original editorial illustration of a New England outfitter with wood shelves, knitwear, boots and canvas bags; an imagined shop.",
+      "width": 1536,
+      "height": 1024,
+      "mime": "image/webp",
+      "sha256": "a848aa39f32aa4ff60c58d29904de08c70ae978f87bc40aeb2a9c6d0431da6b5",
+      "card": "summary_large_image",
+      "type": "website",
+      "kind": "editorial-illustration",
+      "provenance": [
+        "docs/little-black-book-interior-art-2026-10-08.json"
+      ],
+      "selection_reason": "Deliberate section or subject selection from the existing editorial collection, visually reviewed; no automatic fallback or alteration."
+    },
+    "topics/family.html": {
+      "image": "/assets/family-notes/doe-orchards-family.webp",
+      "alt": "Family members picking apples among leafy trees at Doe Orchards.",
+      "width": 675,
+      "height": 900,
+      "mime": "image/webp",
+      "sha256": "30f035ae8ee7ec2a258619574be79ff32c8a0d6d31e004117489a65e596fb98d",
+      "card": "summary",
+      "type": "website",
+      "kind": "photograph",
+      "provenance": [
+        "docs/family-field-notes-photo-provenance-2026-10-04.json"
+      ],
+      "selection_reason": "Deliberate section or subject selection from the existing editorial collection, visually reviewed; no automatic fallback or alteration."
+    },
+    "topics/holidays.html": {
+      "image": "/assets/long-guide-studies/gifts-without-a-performance.webp",
+      "alt": "Original editorial illustration of a wrapped gift with green ribbon, a gift bag and a blank note.",
+      "width": 1536,
+      "height": 1024,
+      "mime": "image/webp",
+      "sha256": "f0c95ebf89ab1d19c14277f5335faee9dbb985c7dee120d2463314986de6e2c3",
+      "card": "summary_large_image",
+      "type": "website",
+      "kind": "editorial-illustration",
+      "provenance": [
+        "Existing commissioned editorial illustration already published on this site; original-art designation retained in image description.",
+        "docs/practical-review-changes.json"
+      ],
+      "selection_reason": "Deliberate section or subject selection from the existing editorial collection, visually reviewed; no automatic fallback or alteration."
+    },
+    "topics/home.html": {
+      "image": "/assets/long-guide-studies/household-instruction-cards.webp",
+      "alt": "Original editorial illustration of folded towels and a blank instruction card on a wooden shelf.",
+      "width": 1536,
+      "height": 1024,
+      "mime": "image/webp",
+      "sha256": "9cd98a547ec8e59d879a9399e5fb256aaccdea9312c524017a6cdfea804bbdf6",
+      "card": "summary_large_image",
+      "type": "website",
+      "kind": "editorial-illustration",
+      "provenance": [
+        "Existing commissioned editorial illustration already published on this site; original-art designation retained in image description.",
+        "docs/practical-review-changes.json"
+      ],
+      "selection_reason": "Deliberate section or subject selection from the existing editorial collection, visually reviewed; no automatic fallback or alteration."
+    },
+    "topics/outings.html": {
+      "image": "/assets/orchard-afternoon-clean.jpg",
+      "alt": "A family member beneath an apple tree during a New England orchard afternoon.",
+      "width": 800,
+      "height": 620,
+      "mime": "image/jpeg",
+      "sha256": "630c3a925b95b1619fc2cfac4a3c6322726ca7d0be68a98ba1fb13447825379e",
+      "card": "summary",
+      "type": "website",
+      "kind": "photograph",
+      "provenance": [
+        "Existing original family photograph already published on this site; current owner request authorizes its use in link previews."
+      ],
+      "selection_reason": "Deliberate section or subject selection from the existing editorial collection, visually reviewed; no automatic fallback or alteration."
+    },
+    "topics/stories.html": {
+      "image": "/assets/family-notes/james-ruby-autumn.jpeg",
+      "alt": "James walking Ruby along a leaf-strewn New England road.",
+      "width": 1152,
+      "height": 1536,
+      "mime": "image/jpeg",
+      "sha256": "6df04b9848f176f194527046c741ac01bcff55feccaeb38098ebb7684325b379",
+      "card": "summary",
+      "type": "website",
+      "kind": "photograph",
+      "provenance": [
+        "docs/autumn-simple-joys-photo-provenance.md"
+      ],
+      "selection_reason": "Deliberate section or subject selection from the existing editorial collection, visually reviewed; no automatic fallback or alteration."
+    },
+    "topics/style.html": {
+      "image": "/assets/catalog-style.webp",
+      "alt": "Original editorial illustration of a cream cable-knit cardigan, navy slip-on shoes and sunglasses.",
+      "width": 640,
+      "height": 640,
+      "mime": "image/webp",
+      "sha256": "f5063abe0dc2262b4e69f0e51d30f4a54ca6adb7335b037d251ca7033953d40e",
+      "card": "summary",
+      "type": "website",
+      "kind": "editorial-illustration",
+      "provenance": [
+        "Existing commissioned editorial illustration already published on this site; original-art designation retained in image description.",
+        "docs/practical-review-changes.json"
+      ],
+      "selection_reason": "Deliberate section or subject selection from the existing editorial collection, visually reviewed; no automatic fallback or alteration."
+    },
+    "travel.html": {
+      "image": "/assets/rangeley-grandparents/autumn-waterfront.jpeg",
+      "alt": "Autumn trees, boats and a broad cloud-filled sky at the waterfront in Rangeley, Maine.",
+      "width": 1536,
+      "height": 1152,
+      "mime": "image/jpeg",
+      "sha256": "9f0d6ea453da1d2ac2902fda381f822c44235b3f41179a9421d697cfb5a34461",
+      "card": "summary_large_image",
+      "type": "website",
+      "kind": "photograph",
+      "provenance": [
+        "docs/rangeley-grandparents-provenance.json"
+      ],
+      "selection_reason": "Deliberate section or subject selection from the existing editorial collection, visually reviewed; no automatic fallback or alteration."
+    },
+    "von-trapp-family-field-note.html": {
+      "image": "/assets/family-notes/von-trapp-table.webp",
+      "alt": "A small mixed flower arrangement in a cream vase on a dark dining table during a von Trapp visit.",
+      "width": 1152,
+      "height": 1536,
+      "mime": "image/webp",
+      "sha256": "a0141c7979eb7a61149e2ed4f70400996b8521e49da0c62f5138ed7929f146c2",
+      "card": "summary",
+      "type": "article",
+      "kind": "photograph",
+      "provenance": [
+        "docs/family-field-notes-photo-provenance-2026-10-04.json"
+      ],
+      "selection_reason": "Existing story photograph or subject-specific illustration, visually reviewed for the linked page; no crop, retouching, synthesis or new reuse license."
+    },
+    "wegmans-carolines-cart-field-note.html": {
+      "image": "/assets/family-notes/wegmans-carolines-cart.webp",
+      "alt": "A family member seated in Caroline’s Cart at Wegmans, holding a bouquet of flowers.",
+      "width": 709,
+      "height": 975,
+      "mime": "image/webp",
+      "sha256": "72c0eca2b260c3524884d6fef209fb0221ce9fb77283d623b2e20c605bd5b063",
+      "card": "summary",
+      "type": "article",
+      "kind": "photograph",
+      "provenance": [
+        "docs/family-field-notes-photo-provenance-2026-10-04.json",
+        "docs/carolines-cart-directory-2026-10-04.md"
+      ],
+      "selection_reason": "Existing story photograph or subject-specific illustration, visually reviewed for the linked page; no crop, retouching, synthesis or new reuse license."
+    },
+    "wicked-tulips-family-field-note.html": {
+      "image": "/assets/family-notes/wicked-tulips-portrait.webp",
+      "alt": "A young family member holding tulips in a brightly colored flower field at Wicked Tulips.",
+      "width": 960,
+      "height": 836,
+      "mime": "image/webp",
+      "sha256": "5950ec086b4a1c69b8bd4514dcf1de99b718739b0f1374736a786bba45d86089",
+      "card": "summary",
+      "type": "article",
+      "kind": "photograph",
+      "provenance": [
+        "docs/family-field-notes-photo-provenance-2026-10-04.json"
+      ],
+      "selection_reason": "Preserve the story-specific image, or use an existing full-frame version within platform size limits; no alteration."
+    }
+  },
+  "pending": {
+    "accessibility.html": "Needs a deliberately selected, suitable cover for this utility or specialist tool; do not add an unrelated default.",
+    "calendar.html": "Needs a deliberately selected, suitable cover for this utility or specialist tool; do not add an unrelated default.",
+    "communication-card-generator.html": "Needs a deliberately selected, suitable cover for this utility or specialist tool; do not add an unrelated default.",
+    "communication-notes.html": "Needs a deliberately selected, suitable cover for this utility or specialist tool; do not add an unrelated default.",
+    "disclosure.html": "Needs a deliberately selected, suitable cover for this utility or specialist tool; do not add an unrelated default.",
+    "family-agreements.html": "Needs a deliberately selected, suitable cover for this utility or specialist tool; do not add an unrelated default.",
+    "family-planning-toolkit.html": "Needs a deliberately selected, suitable cover for this utility or specialist tool; do not add an unrelated default.",
+    "family-roles.html": "Needs a deliberately selected, suitable cover for this utility or specialist tool; do not add an unrelated default.",
+    "kid-fun.html": "Needs a deliberately selected, suitable cover for this utility or specialist tool; do not add an unrelated default.",
+    "language.html": "Needs a deliberately selected, suitable cover for this utility or specialist tool; do not add an unrelated default.",
+    "links.html": "Needs a deliberately selected, suitable cover for this utility or specialist tool; do not add an unrelated default.",
+    "little-adventures.html": "Needs a deliberately selected, suitable cover for this utility or specialist tool; do not add an unrelated default.",
+    "paternal-football-card.html": "Needs a deliberately selected, suitable cover for this utility or specialist tool; do not add an unrelated default.",
+    "picture-card-library.html": "Needs a deliberately selected, suitable cover for this utility or specialist tool; do not add an unrelated default.",
+    "privacy.html": "Needs a deliberately selected, suitable cover for this utility or specialist tool; do not add an unrelated default.",
+    "resources.html": "Needs a deliberately selected, suitable cover for this utility or specialist tool; do not add an unrelated default.",
+    "visit-story.html": "Needs a deliberately selected, suitable cover for this utility or specialist tool; do not add an unrelated default."
+  },
+  "legacy_review": {
+    "favorite-places-wilson-farm.html": "Existing hero JPEG fails full image decoding; alternative JPEG detail assets also fail. Retain existing article but obtain a clean original for a dependable preview.",
+    "a-love-letter-to-buying-nothing.html": "Existing .jpg is a two-frame MPO with EXIF rotation. Existing preview retained pending a standard JPEG export that preserves the photographed artwork and orientation.",
+    "new-england-sharing-directory.html": "Uses the same rotated MPO photograph as the Buy Nothing story; standard JPEG export still needed.",
+    "little-things-that-help.html": "Existing 1200×630 photo card is built during deployment; retained and separately validated in the publishable artifact.",
+    "the-little-fixes.html": "Uses the same existing deployment-built 1200×630 photo card; retained and separately validated in the publishable artifact."
+  }
+}
