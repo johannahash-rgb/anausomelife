@@ -26,7 +26,7 @@
   const fold = value => (value || '').toLocaleLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
   const esc = value => (value || '').replace(/[&<>"']/g, char => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));
   const icon = name => {
-    const miniatures={home:'home',search:'search',menu:'menu-v2',compass:'menu-v2',outing:'outings',family:'family-v2',talk:'picture-cards',calendar:'calendar',book:'directory-v2',journal:'journal-v2'};
+    const miniatures={home:'home',search:'search',menu:'menu-v2',compass:'menu-v2',outing:'outings',talk:'picture-cards',calendar:'calendar',book:'directory-v2',journal:'journal-v2'};
     if(miniatures[name])return '<img class="aal-nav-miniature" src="/assets/navigation-watercolors/'+miniatures[name]+'-128.webp" alt="" aria-hidden="true" width="64" height="64">';
     const drawings={home:'home',compass:'compass',outing:'compass',family:'heart',talk:'picture',calendar:'calendar',book:'address-book',journal:'journal',search:'search',menu:'menu'};
     if(drawings[name])return '<svg viewBox="0 0 32 32" aria-hidden="true" focusable="false"><use href="/assets/editorial-icons.svg?v=20261003-journal#'+drawings[name]+'"></use></svg>';
@@ -73,10 +73,10 @@
 
 
   const menuTheme=document.createElement('link');
-  menuTheme.rel='stylesheet';menuTheme.href='/assets/menu-wayfinding.css?v=20261015-catalogue';document.head.append(menuTheme);
+  menuTheme.rel='stylesheet';menuTheme.href='/assets/menu-wayfinding.css?v=20261016-family-care';document.head.append(menuTheme);
 
-  const refinement=document.querySelector('link[href*="/assets/editorial.css"]')||document.createElement('link');refinement.rel='stylesheet';refinement.href='/assets/editorial.css?v=20261016-curated';document.head.append(refinement);
-  const sharing=document.createElement('script');sharing.src='/assets/story-share.js?v=20261016-curated';sharing.defer=true;document.head.append(sharing);
+  const refinement=document.querySelector('link[href*="/assets/editorial.css"]')||document.createElement('link');refinement.rel='stylesheet';refinement.href='/assets/editorial.css?v=20261016-family-care';document.head.append(refinement);
+  const sharing=document.createElement('script');sharing.src='/assets/story-share.js?v=20261016-family-care';sharing.defer=true;document.head.append(sharing);
 
   const shortcuts = [
     {label:'Journal',href:'/blog.html',icon:'journal',secondary:true,match:['/blog.html']},
@@ -95,7 +95,7 @@
       ['Make a picture card','/communication-card-generator.html'], ['Ready-made picture cards','/picture-card-library.html'],
       ['Communication notes & profiles','/communication-notes.html'], ['Ways to communicate','/multimodal-communication.html'],
       ['AAC outing note','/aac-outing-note.html']] },
-    { title:'Family & caregiver tools', art:'family-v2', description:'Share routines, plans & practical support', links:[
+    { title:'Family & caregiver tools', symbol:'heart', description:'Share routines, plans & practical support', links:[
       ['Family & caregiver roles','/family-roles.html'], ['Field notes for fathers','/paternal-role.html'],
       ['Family agreements','/family-agreements.html'], ['Plans & handoffs','/family-planning-toolkit.html']] },
     { title:'Home & wardrobe', art:'home', description:'Familiar comforts & practical routines', links:[
@@ -142,7 +142,7 @@
       <div class="aal-section-grid">${sectionGroups.map((group,i)=>`
         <details class="aal-menu-chapter" name="aal-menu-topics">
           <summary>
-            <img class="aal-chapter-art" src="/assets/navigation-watercolors/${group.art}-320.webp" alt="" width="96" height="96">
+            ${group.symbol ? `<svg class="aal-chapter-art aal-chapter-symbol" viewBox="0 0 32 32" aria-hidden="true" focusable="false"><use href="/assets/editorial-icons.svg?v=20261003-journal#${group.symbol}"></use></svg>` : `<img class="aal-chapter-art" src="/assets/navigation-watercolors/${group.art}-320.webp" alt="" width="96" height="96">`}
             <span class="aal-chapter-copy"><span class="aal-chapter-number" aria-hidden="true">No. ${String(i+1).padStart(2,'0')}</span><span class="aal-chapter-title">${esc(group.title)}</span><span class="aal-chapter-description">${esc(group.description)}</span><span class="aal-chapter-cue"><span class="aal-cue-closed">Explore</span><span class="aal-cue-open">Hide links</span><svg viewBox="0 0 20 20" aria-hidden="true" focusable="false"><path d="m5 7 5 5 5-5"/></svg></span></span>
           </summary>
           <nav class="aal-chapter-links" aria-label="${esc(group.title)}">${group.links.map(menuLink).join('')}</nav>
