@@ -5182,6 +5182,437 @@
           "url": "https://bciaba.com/event/bcis-lowell-learning-center-sensory-friendly-trick-or-treat"
         }
       }
+    },
+    "bixby-low-stimulation-2026-10-17": {
+      "ageGroups": [
+        "children",
+        "families"
+      ],
+      "accessFeatures": [
+        "sensory-friendly"
+      ],
+      "ageEvidence": {
+        "children": {
+          "evidenceId": "bixby-low-stimulation-2026-10-17-audience",
+          "url": "https://bixbylibrary.org/event/low-stimulation-library/2026-10-17/"
+        },
+        "families": {
+          "evidenceId": "bixby-low-stimulation-2026-10-17-audience",
+          "url": "https://bixbylibrary.org/event/low-stimulation-library/2026-10-17/"
+        }
+      },
+      "accessEvidence": {
+        "sensory-friendly": {
+          "evidenceId": "bixby-low-stimulation-2026-10-17-access",
+          "url": "https://bixbylibrary.org/event/low-stimulation-library/2026-10-17/"
+        }
+      },
+      "checkedAt": "2026-10-15",
+      "ageRange": {
+        "min": null,
+        "max": null,
+        "kind": "not-stated"
+      },
+      "sensory": {
+        "level": "unknown",
+        "note": "The organizer describes sensory-friendly adjustments. Review the specific supports below; individual preferences and conditions vary.",
+        "sourceUrl": "https://bixbylibrary.org/event/low-stimulation-library/2026-10-17/",
+        "checkedAt": "2026-10-15",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-15"
+      },
+      "holidays": [],
+      "holidayEvidence": {}
+    },
+    "york-sensory-hours-2026-10-22": {
+      "ageGroups": [
+        "children",
+        "families",
+        "teens"
+      ],
+      "accessFeatures": [
+        "sensory-friendly"
+      ],
+      "ageEvidence": {
+        "children": {
+          "evidenceId": "york-sensory-hours-2026-10-22-audience",
+          "url": "https://yorkpl.librarycalendar.com/event/copy-sensory-friendly-drop-20496"
+        },
+        "families": {
+          "evidenceId": "york-sensory-hours-2026-10-22-audience",
+          "url": "https://yorkpl.librarycalendar.com/event/copy-sensory-friendly-drop-20496"
+        },
+        "teens": {
+          "evidenceId": "york-sensory-hours-2026-10-22-audience",
+          "url": "https://yorkpl.librarycalendar.com/event/copy-sensory-friendly-drop-20496"
+        }
+      },
+      "accessEvidence": {
+        "sensory-friendly": {
+          "evidenceId": "york-sensory-hours-2026-10-22-access",
+          "url": "https://yorkpl.librarycalendar.com/event/copy-sensory-friendly-drop-20496"
+        }
+      },
+      "checkedAt": "2026-10-15",
+      "ageRange": {
+        "min": null,
+        "max": null,
+        "kind": "not-stated"
+      },
+      "sensory": {
+        "level": "unknown",
+        "note": "The organizer describes sensory-friendly adjustments. Review the specific supports below; individual preferences and conditions vary.",
+        "sourceUrl": "https://yorkpl.librarycalendar.com/event/copy-sensory-friendly-drop-20496",
+        "checkedAt": "2026-10-15",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-15"
+      },
+      "holidays": [],
+      "holidayEvidence": {}
+    },
+    "south-providence-sensory-games-2026-10-22": {
+      "ageGroups": [
+        "children",
+        "families"
+      ],
+      "accessFeatures": [
+        "sensory-friendly"
+      ],
+      "ageEvidence": {
+        "children": {
+          "evidenceId": "south-providence-sensory-games-2026-10-22-audience",
+          "url": "https://clpvd.org/event/sensory-friendly-indoor-games-and-activities-4/2026-10-22/"
+        },
+        "families": {
+          "evidenceId": "south-providence-sensory-games-2026-10-22-audience",
+          "url": "https://clpvd.org/event/sensory-friendly-indoor-games-and-activities-4/2026-10-22/"
+        }
+      },
+      "accessEvidence": {
+        "sensory-friendly": {
+          "evidenceId": "south-providence-sensory-games-2026-10-22-access",
+          "url": "https://clpvd.org/event/sensory-friendly-indoor-games-and-activities-4/2026-10-22/"
+        }
+      },
+      "checkedAt": "2026-10-15",
+      "ageRange": {
+        "min": null,
+        "max": null,
+        "kind": "not-stated"
+      },
+      "sensory": {
+        "level": "unknown",
+        "note": "The organizer describes sensory-friendly adjustments. Review the specific supports below; individual preferences and conditions vary.",
+        "sourceUrl": "https://clpvd.org/event/sensory-friendly-indoor-games-and-activities-4/2026-10-22/",
+        "checkedAt": "2026-10-15",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-15"
+      },
+      "holidays": [],
+      "holidayEvidence": {}
+    },
+    "bci-fall-river-halloween-2026-10-23": {
+      "ageGroups": [
+        "children",
+        "families"
+      ],
+      "accessFeatures": [
+        "sensory-friendly"
+      ],
+      "ageEvidence": {
+        "children": {
+          "evidenceId": "bci-fall-river-halloween-2026-10-23-audience",
+          "url": "https://bciaba.com/event/bcis-fall-river-learning-center-sensory-friendly-trunk-or-treat"
+        },
+        "families": {
+          "evidenceId": "bci-fall-river-halloween-2026-10-23-audience",
+          "url": "https://bciaba.com/event/bcis-fall-river-learning-center-sensory-friendly-trunk-or-treat"
+        }
+      },
+      "accessEvidence": {
+        "sensory-friendly": {
+          "evidenceId": "bci-fall-river-halloween-2026-10-23-access",
+          "url": "https://bciaba.com/event/bcis-fall-river-learning-center-sensory-friendly-trunk-or-treat"
+        }
+      },
+      "checkedAt": "2026-10-15",
+      "ageRange": {
+        "min": null,
+        "max": null,
+        "kind": "not-stated"
+      },
+      "sensory": {
+        "level": "unknown",
+        "note": "The organizer describes sensory-friendly adjustments. Review the specific supports below; individual preferences and conditions vary.",
+        "sourceUrl": "https://bciaba.com/event/bcis-fall-river-learning-center-sensory-friendly-trunk-or-treat",
+        "checkedAt": "2026-10-15",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-15"
+      },
+      "holidays": [
+        "halloween"
+      ],
+      "holidayEvidence": {
+        "halloween": {
+          "evidenceId": "bci-fall-river-halloween-2026-10-23-halloween",
+          "url": "https://bciaba.com/event/bcis-fall-river-learning-center-sensory-friendly-trunk-or-treat"
+        }
+      }
+    },
+    "bci-new-bedford-halloween-2026-10-29": {
+      "ageGroups": [
+        "children",
+        "families"
+      ],
+      "accessFeatures": [
+        "sensory-friendly"
+      ],
+      "ageEvidence": {
+        "children": {
+          "evidenceId": "bci-new-bedford-halloween-2026-10-29-audience",
+          "url": "https://bciaba.com/event/bcis-new-bedford-learning-center-sensory-friendly-trick-or-treat-2"
+        },
+        "families": {
+          "evidenceId": "bci-new-bedford-halloween-2026-10-29-audience",
+          "url": "https://bciaba.com/event/bcis-new-bedford-learning-center-sensory-friendly-trick-or-treat-2"
+        }
+      },
+      "accessEvidence": {
+        "sensory-friendly": {
+          "evidenceId": "bci-new-bedford-halloween-2026-10-29-access",
+          "url": "https://bciaba.com/event/bcis-new-bedford-learning-center-sensory-friendly-trick-or-treat-2"
+        }
+      },
+      "checkedAt": "2026-10-15",
+      "ageRange": {
+        "min": null,
+        "max": null,
+        "kind": "not-stated"
+      },
+      "sensory": {
+        "level": "unknown",
+        "note": "The organizer describes sensory-friendly adjustments. Review the specific supports below; individual preferences and conditions vary.",
+        "sourceUrl": "https://bciaba.com/event/bcis-new-bedford-learning-center-sensory-friendly-trick-or-treat-2",
+        "checkedAt": "2026-10-15",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-15"
+      },
+      "holidays": [
+        "halloween"
+      ],
+      "holidayEvidence": {
+        "halloween": {
+          "evidenceId": "bci-new-bedford-halloween-2026-10-29-halloween",
+          "url": "https://bciaba.com/event/bcis-new-bedford-learning-center-sensory-friendly-trick-or-treat-2"
+        }
+      }
+    },
+    "bci-springfield-halloween-2026-10-29": {
+      "ageGroups": [
+        "children",
+        "families"
+      ],
+      "accessFeatures": [
+        "sensory-friendly"
+      ],
+      "ageEvidence": {
+        "children": {
+          "evidenceId": "bci-springfield-halloween-2026-10-29-audience",
+          "url": "https://bciaba.com/event/bcis-springfield-learning-center-sensory-friendly-trunk-or-treat"
+        },
+        "families": {
+          "evidenceId": "bci-springfield-halloween-2026-10-29-audience",
+          "url": "https://bciaba.com/event/bcis-springfield-learning-center-sensory-friendly-trunk-or-treat"
+        }
+      },
+      "accessEvidence": {
+        "sensory-friendly": {
+          "evidenceId": "bci-springfield-halloween-2026-10-29-access",
+          "url": "https://bciaba.com/event/bcis-springfield-learning-center-sensory-friendly-trunk-or-treat"
+        }
+      },
+      "checkedAt": "2026-10-15",
+      "ageRange": {
+        "min": null,
+        "max": null,
+        "kind": "not-stated"
+      },
+      "sensory": {
+        "level": "unknown",
+        "note": "The organizer describes sensory-friendly adjustments. Review the specific supports below; individual preferences and conditions vary.",
+        "sourceUrl": "https://bciaba.com/event/bcis-springfield-learning-center-sensory-friendly-trunk-or-treat",
+        "checkedAt": "2026-10-15",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-15"
+      },
+      "holidays": [
+        "halloween"
+      ],
+      "holidayEvidence": {
+        "halloween": {
+          "evidenceId": "bci-springfield-halloween-2026-10-29-halloween",
+          "url": "https://bciaba.com/event/bcis-springfield-learning-center-sensory-friendly-trunk-or-treat"
+        }
+      }
+    },
+    "franklin-sensory-sunday-2026-10-25": {
+      "ageGroups": [
+        "children",
+        "families"
+      ],
+      "accessFeatures": [
+        "sensory-friendly"
+      ],
+      "ageEvidence": {
+        "children": {
+          "evidenceId": "franklin-sensory-sunday-2026-10-25-audience",
+          "url": "https://www.childrensmuseumfranklin.org/events/sensory-sunday"
+        },
+        "families": {
+          "evidenceId": "franklin-sensory-sunday-2026-10-25-audience",
+          "url": "https://www.childrensmuseumfranklin.org/events/sensory-sunday"
+        }
+      },
+      "accessEvidence": {
+        "sensory-friendly": {
+          "evidenceId": "franklin-sensory-sunday-2026-10-25-access",
+          "url": "https://www.childrensmuseumfranklin.org/events/sensory-sunday"
+        }
+      },
+      "checkedAt": "2026-10-15",
+      "ageRange": {
+        "min": null,
+        "max": null,
+        "kind": "not-stated"
+      },
+      "sensory": {
+        "level": "unknown",
+        "note": "The organizer describes sensory-friendly adjustments. Review the specific supports below; individual preferences and conditions vary.",
+        "sourceUrl": "https://www.childrensmuseumfranklin.org/events/sensory-sunday",
+        "checkedAt": "2026-10-15",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-15"
+      },
+      "holidays": [],
+      "holidayEvidence": {}
+    },
+    "pinocchio-sensory-friendly-2026-11-07": {
+      "ageGroups": [
+        "children",
+        "families"
+      ],
+      "accessFeatures": [
+        "sensory-friendly"
+      ],
+      "ageEvidence": {
+        "children": {
+          "evidenceId": "pinocchio-sensory-friendly-2026-11-07-audience",
+          "url": "https://www.playhouseonpark.org/web2/Season18/TYA_Pinocchio.html"
+        },
+        "families": {
+          "evidenceId": "pinocchio-sensory-friendly-2026-11-07-audience",
+          "url": "https://www.playhouseonpark.org/web2/Season18/TYA_Pinocchio.html"
+        }
+      },
+      "accessEvidence": {
+        "sensory-friendly": {
+          "evidenceId": "pinocchio-sensory-friendly-2026-11-07-access",
+          "url": "https://www.playhouseonpark.org/web2/Season18/TYA_Pinocchio.html"
+        }
+      },
+      "checkedAt": "2026-10-15",
+      "ageRange": {
+        "min": null,
+        "max": null,
+        "kind": "not-stated"
+      },
+      "sensory": {
+        "level": "unknown",
+        "note": "The organizer describes sensory-friendly adjustments. Review the specific supports below; individual preferences and conditions vary.",
+        "sourceUrl": "https://www.playhouseonpark.org/web2/Season18/TYA_Pinocchio.html",
+        "checkedAt": "2026-10-15",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-15"
+      },
+      "holidays": [],
+      "holidayEvidence": {}
+    },
+    "ct-science-sensory-day-2026-11-08": {
+      "ageGroups": [
+        "families"
+      ],
+      "accessFeatures": [
+        "sensory-friendly"
+      ],
+      "ageEvidence": {
+        "families": {
+          "evidenceId": "ct-science-sensory-day-2026-11-08-audience",
+          "url": "https://ctsciencecenter.org/event/sensory-friendly-day-0"
+        }
+      },
+      "accessEvidence": {
+        "sensory-friendly": {
+          "evidenceId": "ct-science-sensory-day-2026-11-08-access",
+          "url": "https://ctsciencecenter.org/event/sensory-friendly-day-0"
+        }
+      },
+      "checkedAt": "2026-10-15",
+      "ageRange": {
+        "min": null,
+        "max": null,
+        "kind": "not-stated"
+      },
+      "sensory": {
+        "level": "unknown",
+        "note": "The organizer describes sensory-friendly adjustments. Review the specific supports below; individual preferences and conditions vary.",
+        "sourceUrl": "https://ctsciencecenter.org/event/sensory-friendly-day-0",
+        "checkedAt": "2026-10-15",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-15"
+      },
+      "holidays": [],
+      "holidayEvidence": {}
+    },
+    "bci-quincy-fall-carnival-2026-11-12": {
+      "ageGroups": [
+        "children",
+        "families"
+      ],
+      "accessFeatures": [
+        "sensory-friendly"
+      ],
+      "ageEvidence": {
+        "children": {
+          "evidenceId": "bci-quincy-fall-carnival-2026-11-12-audience",
+          "url": "https://bciaba.com/event/bcis-new-quincy-learning-center-sensory-friendly-open-house-fall-carnival"
+        },
+        "families": {
+          "evidenceId": "bci-quincy-fall-carnival-2026-11-12-audience",
+          "url": "https://bciaba.com/event/bcis-new-quincy-learning-center-sensory-friendly-open-house-fall-carnival"
+        }
+      },
+      "accessEvidence": {
+        "sensory-friendly": {
+          "evidenceId": "bci-quincy-fall-carnival-2026-11-12-access",
+          "url": "https://bciaba.com/event/bcis-new-quincy-learning-center-sensory-friendly-open-house-fall-carnival"
+        }
+      },
+      "checkedAt": "2026-10-15",
+      "ageRange": {
+        "min": null,
+        "max": null,
+        "kind": "not-stated"
+      },
+      "sensory": {
+        "level": "unknown",
+        "note": "The organizer describes sensory-friendly adjustments. Review the specific supports below; individual preferences and conditions vary.",
+        "sourceUrl": "https://bciaba.com/event/bcis-new-quincy-learning-center-sensory-friendly-open-house-fall-carnival",
+        "checkedAt": "2026-10-15",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-15"
+      },
+      "holidays": [],
+      "holidayEvidence": {}
     }
   },
   "sensoryMethod": "Sensory levels are editorial planning estimates based on the specific published conditions, not medical ratings or promises. Low means reduced stimulation, moderate means some ongoing music or activity, high means a likely stimulating mix, variable means conditions or parts of the visit differ, and unknown means evidence is insufficient. Sensory-friendly and disability-inclusive are not automatic low-sensory ratings. Earlier event verification dates remain visible."
