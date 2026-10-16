@@ -4,6 +4,26 @@ import argparse,re,html
 from html.parser import HTMLParser
 from pathlib import Path
 VERSION='20261016-parking-guide'
+JOURNAL_PINS=(
+    '/wayne-newton-flamingo-bucket-list-self-care.html',
+    '/get-in-the-photograph.html',
+    '/rangeley-grandparents-field-note.html',
+)
+
+def pin_journal_stories(source):
+    """Keep the owner's selected stories ahead of newly added journal entries."""
+    match=re.search(r'(<ol class="journal-recent-list"[^>]*>)(.*?)(</ol>)',source,re.S)
+    if not match:return source
+    cards=re.findall(r'<li>.*?</li>',match.group(2),re.S)
+    pinned=[]
+    for url in JOURNAL_PINS:
+        found=[card for card in cards if 'href="'+url+'"' in card]
+        if len(found)!=1:raise ValueError('Expected one journal card for '+url)
+        pinned.append(found[0])
+    ordered=pinned+[card for card in cards if card not in pinned]
+    body='\n  '+'\n\n  '.join(ordered)+'\n'
+    return source[:match.start(2)]+body+source[match.end(2):]
+
 class Meta(HTMLParser):
     def __init__(self):super().__init__();self.tags={}
     def handle_starttag(self,tag,attrs):
@@ -28,6 +48,8 @@ def prepare(root):
     for page in root.rglob('*.html'):
         if any(p in {'.git','docs','tests','node_modules'} for p in page.relative_to(root).parts):continue
         s=page.read_text(encoding='utf-8');before=s
+        if page.relative_to(root).as_posix()=='blog.html':
+            s=pin_journal_stories(s)
         s=complete_social(s)
         for asset in ['editorial.css','global-nav.js','access-tools.css','access-tools.js']:
             s=re.sub(r'(/assets/'+re.escape(asset)+r')(?:\?[^"\s<>]+)?',r'\1?v='+VERSION,s)

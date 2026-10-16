@@ -79,7 +79,7 @@
   menuTheme.rel='stylesheet';menuTheme.href='/assets/menu-wayfinding.css?v=20261016-illustrated-tools';document.head.append(menuTheme);
 
   const refinement=document.querySelector('link[href*="/assets/editorial.css"]')||document.createElement('link');refinement.rel='stylesheet';refinement.href='/assets/editorial.css?v=20261016-illustrated-tools';document.head.append(refinement);
-  const sharing=document.createElement('script');sharing.src='/assets/story-share.js?v=20261016-illustrated-tools';sharing.defer=true;document.head.append(sharing);
+  const sharing=document.createElement('script');sharing.src='/assets/story-share.js?v=20261016-mobile-photo-fix';sharing.defer=true;document.head.append(sharing);
 
   const shortcuts = [
     {label:'Journal',href:'/blog.html',icon:'journal',secondary:true,match:['/blog.html']},
@@ -115,7 +115,7 @@
       ['Brands & organizations','/little-black-book.html','directory-v2'], ['Product guides','/product-guides.html','yankee-toolbox'],
       ['Coffee field note','/eight-oclock-colombian-peaks-field-note.html','coffee-mug'], ['Copyable field notes','/field-notes.html','care-clipboard']] }
   ];
-  const menuLink = ([label,url,art='menu-v2']) => '<a class="aal-illustrated-link" href="'+url+'"'+(current===url?' aria-current="page"':'')+'><img class="aal-menu-link-art" src="/assets/navigation-watercolors/'+art+'-128.webp" alt="" width="48" height="48" loading="lazy" decoding="async"><span class="aal-menu-link-label">'+esc(label)+'</span><span class="aal-menu-link-arrow" aria-hidden="true">↗</span></a>';
+  const menuLink = ([label,url,art='menu-v2']) => '<a class="aal-illustrated-link" href="'+url+'"'+(current===url?' aria-current="page"':'')+'><img class="aal-menu-link-art" src="/assets/navigation-watercolors/'+art+'-128.webp" alt="" width="48" height="48" loading="lazy" decoding="async"><span class="aal-menu-link-label">'+esc(label)+'</span><span class="aal-menu-link-arrow" aria-hidden="true"><svg class="aal-inline-arrow" aria-hidden="true" focusable="false" viewBox="0 0 24 24"><path d="M5 19 19 5M5 5h14v14" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg></span></a>';
   const current = location.pathname.replace(/\/+$/,'') || '/';
   const bar = document.createElement('nav');
   bar.className = 'aal-wayfinder';
@@ -324,7 +324,7 @@
 
 /* Restore the complete site footer when an article carries the compact version. */
 (() => {
-  const fullFooter = "<footer class=\"mag-footer\"><div class=\"wrap\"><div><a class=\"footer-wordmark\" href=\"/\">An AUsome Life</a><p>Simple good things.<br>The practical details left in.</p></div><nav aria-label=\"Footer navigation\"><a href=\"/library.html\">The library</a><a href=\"/favorite-places.html\">Favorite places</a><a href=\"/calendar.html\">The calendar</a><a href=\"/visit-story.html\">Visual visit planner</a><a href=\"/little-black-book.html\">The little black book</a><a href=\"/contact.html\">Contact</a><a href=\"/media/\">Media Kit &amp; partnerships</a></nav><div class=\"footer-small\"><a href=\"/language.html\">Language &amp; representation</a><a href=\"/disclosure.html\">Disclosure</a><a href=\"/privacy.html\">Privacy</a><a href=\"/accessibility.html\">Accessibility</a><a href=\"https://www.instagram.com/anausomelife/\">Instagram ↗</a><span>© 2026 An AUsome Life · New England</span></div></div></footer>";
+  const fullFooter = "<footer class=\"mag-footer\"><div class=\"wrap\"><div><a class=\"footer-wordmark\" href=\"/\">An AUsome Life</a><p>Simple good things. <br>The practical details left in.</p></div><nav aria-label=\"Footer navigation\"><a href=\"/library.html\">The library</a><a href=\"/favorite-places.html\">Favorite places</a><a href=\"/calendar.html\">The calendar</a><a href=\"/visit-story.html\">Visual visit planner</a><a href=\"/little-black-book.html\">The little black book</a><a href=\"/contact.html\">Contact</a><a href=\"/media/\">Media Kit &amp; partnerships</a></nav><div class=\"footer-small\"><a href=\"/language.html\">Language &amp; representation</a><a href=\"/disclosure.html\">Disclosure</a><a href=\"/privacy.html\">Privacy</a><a href=\"/accessibility.html\">Accessibility</a><a href=\"https://www.instagram.com/anausomelife/\">Instagram <svg class=\"aal-inline-arrow\" aria-hidden=\"true\" focusable=\"false\" viewBox=\"0 0 24 24\"><path d=\"M5 19 19 5M5 5h14v14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></a><span>© 2026 An AUsome Life · New England</span></div></div></footer>";
   function restoreFooter() {
     const footer = document.querySelector('footer.mag-footer');
     if (!footer) return;

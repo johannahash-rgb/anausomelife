@@ -2248,6 +2248,22 @@
       ],
       "selection_reason": "Preserve the story-specific image, or use an existing full-frame version within platform size limits; no alteration."
     },
+    "favorite-places-wilson-farm.html": {
+      "image": "/assets/wilson-farm-family-hero.jpg",
+      "alt": "Michael and James beside the colorful mums and pumpkin wall at Wilson Farm in Lexington.",
+      "width": 1536,
+      "height": 1152,
+      "mime": "image/jpeg",
+      "sha256": "5a14e9983e4ed6087a5d9e0df28f3a08038e93998ba2ea95578e7059d19fb578",
+      "card": "summary_large_image",
+      "type": "article",
+      "kind": "family-photograph",
+      "provenance": [
+        "docs/wilson-farm-photo-restoration-2026-10-16.json",
+        "Owner explicitly approved publication of the restored original photograph on October 16, 2026."
+      ],
+      "selection_reason": "The original photograph from the published Wilson Farm visit replaces the damaged preview; fully decoded and visually reviewed."
+    },
     "disabled-parking-placards-new-england.html": {
       "image": "/assets/disabled-parking/volvo-placard.webp",
       "alt": "Original watercolor illustration of a parked red Volvo wagon with a blue accessible-parking placard hanging inside.",
@@ -2283,7 +2299,6 @@
     "visit-story.html": "Needs a deliberately selected, suitable cover for this utility or specialist tool; do not add an unrelated default."
   },
   "legacy_review": {
-    "favorite-places-wilson-farm.html": "Existing hero JPEG fails full image decoding; alternative JPEG detail assets also fail. Retain existing article but obtain a clean original for a dependable preview.",
     "a-love-letter-to-buying-nothing.html": "Existing .jpg is a two-frame MPO with EXIF rotation. Existing preview retained pending a standard JPEG export that preserves the photographed artwork and orientation.",
     "new-england-sharing-directory.html": "Uses the same rotated MPO photograph as the Buy Nothing story; standard JPEG export still needed.",
     "little-things-that-help.html": "Existing 1200×630 photo card is built during deployment; retained and separately validated in the publishable artifact.",
