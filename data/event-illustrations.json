@@ -1258,6 +1258,106 @@
       "venue": "BCI Lowell Learning Center",
       "start": "2026-10-29T16:00:00-04:00",
       "reusedFromEvent": "venture-2026-10-27"
+    },
+    "bixby-low-stimulation-2026-10-17": {
+      "src": "/assets/event-sketches/westport-early-opening.webp",
+      "alt": "An open storybook and brass reading lamp in quiet morning light.",
+      "width": 720,
+      "height": 480,
+      "title": "Low Stimulation Library",
+      "venue": "Bixby Memorial Free Library",
+      "start": "2026-10-17T09:00:00-04:00",
+      "reusedFromEvent": "westport-early-2026-10-04"
+    },
+    "york-sensory-hours-2026-10-22": {
+      "src": "/assets/event-sketches/westport-early-opening.webp",
+      "alt": "An open storybook and brass reading lamp in quiet morning light.",
+      "width": 720,
+      "height": 480,
+      "title": "Sensory-Friendly Hours in Youth Services",
+      "venue": "York Public Library",
+      "start": "2026-10-22T12:00:00-04:00",
+      "reusedFromEvent": "westport-early-2026-10-04"
+    },
+    "south-providence-sensory-games-2026-10-22": {
+      "src": "/assets/event-sketches/storytime-smiles.webp",
+      "alt": "A storybook, colored pencils, paper crafts and apple slices sketched in watercolor.",
+      "width": 720,
+      "height": 480,
+      "title": "Sensory-Friendly Indoor Games and Activities",
+      "venue": "South Providence Library",
+      "start": "2026-10-22T16:00:00-04:00",
+      "reusedFromEvent": "autism-alliance-storytime-2026-10-03"
+    },
+    "bci-fall-river-halloween-2026-10-23": {
+      "src": "/assets/event-sketches/bierman-bedford-trunk-treat.webp",
+      "alt": "An open navy station wagon with a pumpkin garland, treats and a tartan blanket.",
+      "width": 720,
+      "height": 480,
+      "title": "BCI Fall River Sensory-Friendly Trunk-Or-Treat",
+      "venue": "BCI Fall River Learning Center",
+      "start": "2026-10-23T15:30:00-04:00",
+      "reusedFromEvent": "bci-worcester-halloween-2026-10-17"
+    },
+    "bci-new-bedford-halloween-2026-10-29": {
+      "src": "/assets/event-sketches/venture-trick-treat.webp",
+      "alt": "A warmly lit indoor doorway with pumpkin decorations, treats and craft supplies.",
+      "width": 720,
+      "height": 480,
+      "title": "BCI New Bedford Sensory-Friendly Trick-Or-Treat",
+      "venue": "BCI New Bedford Learning Center",
+      "start": "2026-10-29T15:30:00-04:00",
+      "reusedFromEvent": "bci-lowell-halloween-2026-10-29"
+    },
+    "bci-springfield-halloween-2026-10-29": {
+      "src": "/assets/event-sketches/bierman-bedford-trunk-treat.webp",
+      "alt": "An open navy station wagon with a pumpkin garland, treats and a tartan blanket.",
+      "width": 720,
+      "height": 480,
+      "title": "BCI Springfield Sensory-Friendly Trunk-Or-Treat",
+      "venue": "BCI Springfield Learning Center",
+      "start": "2026-10-29T18:00:00-04:00",
+      "reusedFromEvent": "bci-worcester-halloween-2026-10-17"
+    },
+    "franklin-sensory-sunday-2026-10-25": {
+      "src": "/assets/event-sketches/morningstar-museum.webp",
+      "alt": "Ink-and-watercolor study of wooden building forms and a prism in morning light.",
+      "width": 720,
+      "height": 480,
+      "title": "Sensory Sunday",
+      "venue": "Children’s Museum of Franklin",
+      "start": "2026-10-25T08:00:00-04:00",
+      "reusedFromEvent": "bcm-2026-10-03"
+    },
+    "pinocchio-sensory-friendly-2026-11-07": {
+      "src": "/assets/event-sketches/westport-story-2026-10-05.webp",
+      "alt": "A low wooden library cart with picture books and a basket of felt story shapes.",
+      "width": 720,
+      "height": 480,
+      "title": "Pinocchio — Sensory-Friendly Performance",
+      "venue": "Playhouse on Park",
+      "start": "2026-11-07T10:00:00-05:00",
+      "reusedFromEvent": "westport-story-2026-10-05"
+    },
+    "ct-science-sensory-day-2026-11-08": {
+      "src": "/assets/event-sketches/see-science-night.webp",
+      "alt": "A microscope, prism, paper pinwheel and horseshoe magnet in evening light.",
+      "width": 720,
+      "height": 480,
+      "title": "Sensory Friendly Day",
+      "venue": "Connecticut Science Center",
+      "start": "2026-11-08T10:00:00-05:00",
+      "reusedFromEvent": "see-2026-11-06"
+    },
+    "bci-quincy-fall-carnival-2026-11-12": {
+      "src": "/assets/event-sketches/morningstar-museum.webp",
+      "alt": "Ink-and-watercolor study of wooden building forms and a prism in morning light.",
+      "width": 720,
+      "height": 480,
+      "title": "BCI Quincy Sensory-Friendly Open House & Fall Carnival",
+      "venue": "BCI Quincy Learning Center",
+      "start": "2026-11-12T16:00:00-05:00",
+      "reusedFromEvent": "bcm-2026-10-03"
     }
   },
   "watchlist": {
@@ -1387,5 +1487,5 @@
       "reusedFromEvent": "altitude-billerica-2026-10-10"
     }
   },
-  "updated": "2026-10-08"
+  "updated": "2026-10-15"
 }
