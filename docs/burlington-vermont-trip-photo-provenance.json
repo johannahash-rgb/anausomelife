@@ -1,0 +1,45 @@
+{
+  "page": "/burlington-vermont-family-trip.html",
+  "authorization": "Owner supplied ten original family photos and explicitly requested a Burlington trip review and publication on 2026-10-16; seven selected for the story.",
+  "processing": "Original JPEG bytes copied without cropping, retouching or image generation.",
+  "dates": "Photo files contain no capture dates; published as an earlier family trip with no invented visit date.",
+  "venueIdentification": "Distinctive Essex pool architecture, Oakledge treehouse and Al\u2019s interior cross-checked against public venue imagery. Owner replied Yes after the identification update.",
+  "reviewScope": "Photo-led family field note; no claims about room category, rates, food orders, staff interactions, hosted status or personal testing of access equipment. Current access claims attributed to linked venue/city/builder sources.",
+  "photos": [
+    {
+      "source": "IMG_9369.jpeg",
+      "published": "/assets/burlington-vermont-trip/pool-time.jpeg",
+      "sha256": "0bf178c8830338ba581914f66b2f1a65945ab441db68db615af39a5c5458d46d"
+    },
+    {
+      "source": "IMG_9299.jpeg",
+      "published": "/assets/burlington-vermont-trip/together-in-the-pool.jpeg",
+      "sha256": "5c9778584cef611f652cd8c6d6c7f24e1d43a1e1733a81fedc6ff4520306ee2c"
+    },
+    {
+      "source": "IMG_9317.jpeg",
+      "published": "/assets/burlington-vermont-trip/oakledge-treehouse.jpeg",
+      "sha256": "cd118119ad183e046df28770c5963cf343ad7b546caa953b52a87e5944100c3d"
+    },
+    {
+      "source": "IMG_9334.jpeg",
+      "published": "/assets/burlington-vermont-trip/treehouse-view.jpeg",
+      "sha256": "518293add1610f167c7889affe53d7448583f6effd191415f03b6db0849d1749"
+    },
+    {
+      "source": "IMG_9354.jpeg",
+      "published": "/assets/burlington-vermont-trip/als-french-frys.jpeg",
+      "sha256": "8fabd33b976b3b24e27649e722bd98b5d9d5ed154088bfc71ed0abeae3de6559"
+    },
+    {
+      "source": "IMG_9374.jpeg",
+      "published": "/assets/burlington-vermont-trip/holiday-tree.jpeg",
+      "sha256": "3a3f49404830c57e50054e3c918f8117c539f4ca453598da7e13ff028cdb311f"
+    },
+    {
+      "source": "IMG_9438.jpeg",
+      "published": "/assets/burlington-vermont-trip/covered-walkway.jpeg",
+      "sha256": "81543d0bd3b55ab7a5dad8973a6a2b9ef741fcad32d19548d4c85195c0dd5fd1"
+    }
+  ]
+}
