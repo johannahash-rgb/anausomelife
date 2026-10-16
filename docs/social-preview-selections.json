@@ -2263,6 +2263,20 @@
         "Owner explicitly approved publication of the restored original photograph on October 16, 2026."
       ],
       "selection_reason": "The original photograph from the published Wilson Farm visit replaces the damaged preview; fully decoded and visually reviewed."
+    },
+    "disabled-parking-placards-new-england.html": {
+      "image": "/assets/disabled-parking/volvo-placard.webp",
+      "alt": "Original watercolor illustration of a parked red Volvo wagon with a blue accessible-parking placard hanging inside.",
+      "width": 1536,
+      "height": 1024,
+      "mime": "image/webp",
+      "sha256": "daf7580d54817148b5e14a9817c769a08e65657f1f7026d1b762091c518be75d",
+      "card": "summary_large_image",
+      "type": "article",
+      "kind": "editorial-illustration",
+      "provenance": [
+        "Original image generated with the built-in image generation tool on October 16, 2026 for this owner-requested article. Reviewed for natural proportions, generic placard, absence of identifying permit data and visible illustration labeling. No third-party photograph or official credential reproduced."
+      ]
     }
   },
   "pending": {
