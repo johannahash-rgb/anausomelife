@@ -1,22 +1,24 @@
 const assert=require('node:assert/strict'),fs=require('node:fs'),vm=require('node:vm'),path=require('node:path');
 const root=path.resolve(__dirname,'..');
 class Element{
- constructor(){this.value='';this.textContent='';this.hidden=false;this.listeners={};this.nodes={};this.children=[];this.valid=true;}
+ constructor(){this.value='';this.textContent='';this.hidden=false;this.listeners={};this.nodes={};this.children=[];this.valid=true;this.scrollCalls=[];this.clientWidth=400;}
  addEventListener(name,fn){this.listeners[name]=fn;}
  querySelector(selector){return this.nodes[selector]||null;}
  setAttribute(name,value){this[name]=value;}
  append(node){this.children.push(node);}
  focus(){this.focused=true;} select(){this.selected=true;}
  reportValidity(){return this.valid;}
+ scrollBy(options){this.scrollCalls.push(options);}
 }
 function brandHarness(query='',clipboard){
  const names=['brand-request','brand-story','brand-name','brand-use','brand-details','brand-credit-text','brand-request-output','brand-request-text','brand-email-link','brand-copy-request','brand-copy-status','brand-prepare'];
  const ids=Object.fromEntries(names.map(n=>[n,new Element()]));
  const selectors={'[data-copy-credit]':new Element(),'[data-credit-status]':new Element()};
+ const reel=new Element(),viewport=new Element(),prev=new Element(),next=new Element();viewport.clientWidth=400;reel.nodes['.brand-marquee']=viewport;reel.nodes['[data-brand-scroll="prev"]']=prev;reel.nodes['[data-brand-scroll="next"]']=next;
  ids['brand-request-output'].hidden=true;ids['brand-credit-text'].textContent='An AUsome Life · @anausomelife · anausomelife.com';
  class Data{get(k){return {brand:ids['brand-name'].value,usage:ids['brand-use'].value,details:ids['brand-details'].value}[k];}}
- const ctx={document:{getElementById:n=>ids[n],querySelector:s=>selectors[s]},navigator:{clipboard},location:{search:query},URL,URLSearchParams,FormData:Data};
- vm.runInNewContext(fs.readFileSync(root+'/assets/brand-room.js','utf8'),ctx);return {ids,selectors};
+ const ctx={document:{getElementById:n=>ids[n],querySelector:s=>selectors[s],querySelectorAll:s=>s==='[data-brand-marquee]'?[reel]:[]},navigator:{clipboard},location:{search:query},URL,URLSearchParams,FormData:Data};
+ vm.runInNewContext(fs.readFileSync(root+'/assets/brand-room.js','utf8'),ctx);return {ids,selectors,reel,viewport,prev,next};
 }
 function storyHarness({article=true,hasNext=false,clipboard,share,canonical='https://anausomelife.com/october-ice-cream-dairy-joy-weston.html?tracking=yes#photo'}={}){
  const main=new Element(),heading=new Element();heading.textContent='October ice cream at Dairy Joy.';
@@ -29,6 +31,8 @@ function storyHarness({article=true,hasNext=false,clipboard,share,canonical='htt
 (async()=>{
  let copied='';const clipboard={writeText:async text=>{copied=text;}};
  const good=brandHarness('?story='+encodeURIComponent('https://anausomelife.com/a-story.html?utm=x#part'),clipboard);
+ good.prev.listeners.click();assert.equal(good.viewport.scrollCalls[0].left,-312);assert.equal(good.viewport.scrollCalls[0].behavior,'smooth');
+ good.next.listeners.click();assert.equal(good.viewport.scrollCalls[1].left,312);assert.equal(good.viewport.scrollCalls[1].behavior,'smooth');
  assert.equal(good.ids['brand-story'].value,'https://anausomelife.com/a-story.html');
  for(const url of ['https://evil.example/story','javascript:alert(1)','https://anausomelife.com.evil.example/story'])assert.equal(brandHarness('?story='+encodeURIComponent(url)).ids['brand-story'].value,'');
  const b=good.ids;b['brand-name'].value='Example & Company';b['brand-use'].value='Brand website or newsletter';b['brand-details'].value='The waterfront photo — November.';
