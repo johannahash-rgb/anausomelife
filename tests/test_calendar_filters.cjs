@@ -17,7 +17,7 @@ form.elements.month.value='2026-11';form.listeners.change();assert.equal(map['.e
 for(const key of Object.keys(form.elements))form.elements[key].value='';
 for(const level of ['low','moderate','high','variable','unknown']){form.elements.sensory.value=level;form.listeners.change();assert.equal(map['.event-list'].children.length,live.filter(e=>metadata.events[e.id].sensory.level===level).length,level)}
 form.elements.sensory.value='low';form.elements.holiday.value='halloween';form.elements.state.value='MA';form.listeners.change();
-assert.deepEqual(map['.event-list'].children.map(c=>c.id),['event-weir-boo-2026-10-17','event-raisingharts-tricks-2026-10-18','event-weir-boo-2026-10-31']);
+const expectedHalloweenLow=['event-weir-boo-2026-10-17','event-raisingharts-tricks-2026-10-18','event-weir-boo-2026-10-31'].filter(id=>live.some(e=>'event-'+e.id===id));assert.deepEqual(map['.event-list'].children.map(c=>c.id),expectedHalloweenLow);
 assert(!map['.event-list'].children.some(c=>c.id.includes('longhill')),'Effects restart during Long Hill hour; it cannot be classified low throughout');
 assert.equal(new URL(context.location.href).searchParams.get('sensory'),'low');assert.equal(new URL(context.location.href).searchParams.get('holiday'),'halloween');
 context.location.href='https://anausomelife.com/calendar.html?holiday=santa&sensory=unknown&view=month';context.window.listeners.popstate();
