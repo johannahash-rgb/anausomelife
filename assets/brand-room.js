@@ -1,6 +1,17 @@
 /* Prepare a reviewable email on the visitor's device. No form submission or storage. */
 (() => {
   'use strict';
+  document.querySelectorAll('[data-brand-marquee]').forEach((reel) => {
+    const viewport = reel.querySelector('.brand-marquee');
+    if (!viewport) return;
+    const distance = () => Math.max(260, Math.round(viewport.clientWidth * 0.78));
+    reel.querySelector('[data-brand-scroll="prev"]')?.addEventListener('click', () => {
+      viewport.scrollBy({ left: -distance(), behavior: 'smooth' });
+    });
+    reel.querySelector('[data-brand-scroll="next"]')?.addEventListener('click', () => {
+      viewport.scrollBy({ left: distance(), behavior: 'smooth' });
+    });
+  });
   const form=document.getElementById('brand-request');
   if(!form)return;
   const story=document.getElementById('brand-story');
