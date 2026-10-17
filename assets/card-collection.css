@@ -36,3 +36,7 @@
 @media(max-width:540px){.cc-tools{grid-template-columns:minmax(0,1fr) minmax(0,1fr)}.cc-tools>div:first-child{grid-column:1/-1}.cc-tools>button{font-size:.85rem;padding:10px}.cc-tools select{font-size:.88rem}.cc-category-index .cc-categories{display:grid;grid-template-columns:1fr 1fr;overflow:visible}.cc-category-index .cc-categories button{white-space:normal}.cc-intro h1{font-size:1.9rem}.cc-intro .cc-lede{font-size:.94rem}}
 
 .cc-pack-download{border:0;padding:8px 0;background:none;font:.88rem Arial,sans-serif;color:var(--cc-ink);text-decoration:underline;text-underline-offset:4px;cursor:pointer;min-height:44px}.cc-pack-download:disabled{opacity:.6;cursor:wait}.cc-pack-status{width:100%;font:.875rem/1.5 Arial,sans-serif;color:var(--cc-green)}.cc-pack-status:empty{display:none}
+
+/* Help families distinguish generated photo-style objects from the original watercolor art. */
+.cc-photo-label{display:inline-flex;align-self:flex-start;padding:4px 8px;background:#eee8da;color:#284436;font:600 .68rem/1.4 Arial,sans-serif;letter-spacing:.02em;margin-top:5px}
+.cc-tile-photo{border-top:2px solid #bba77c}

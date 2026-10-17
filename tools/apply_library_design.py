@@ -5,7 +5,7 @@ from html import escape
 import re
 
 ROOT = Path(__file__).resolve().parents[1]
-VERSION = '20261014-illustrated-library'
+VERSION = '20261016-fuller-design'
 TOPICS = [
     ('home', 'At home', 'The everyday, made easier', 'home'),
     ('outings', 'Out & about', 'A good New England day', 'outings'),

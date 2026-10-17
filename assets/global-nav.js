@@ -29,7 +29,7 @@
   const fold = value => (value || '').toLocaleLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
   const esc = value => (value || '').replace(/[&<>"']/g, char => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));
   const icon = name => {
-    const miniatures={home:'home',search:'search',menu:'menu-v2',compass:'menu-v2',outing:'outings',family:'yankee-toolbox',talk:'picture-cards',calendar:'calendar',book:'directory-v2',journal:'journal-v2'};
+    const miniatures={home:'home',search:'search',menu:'menu-v2',compass:'menu-v2',outing:'outings',family:'yankee-toolbox',talk:'picture-cards',calendar:'calendar',book:'directory-v2',journal:'family-organizer'};
     if(miniatures[name])return '<img class="aal-nav-miniature" src="/assets/navigation-watercolors/'+miniatures[name]+'-128.webp" alt="" aria-hidden="true" width="64" height="64">';
     const drawings={home:'home',compass:'compass',outing:'compass',family:'heart',talk:'picture',calendar:'calendar',book:'address-book',journal:'journal',search:'search',menu:'menu'};
     if(drawings[name])return '<svg viewBox="0 0 32 32" aria-hidden="true" focusable="false"><use href="/assets/editorial-icons.svg?v=20261003-journal#'+drawings[name]+'"></use></svg>';
@@ -76,18 +76,18 @@
 
 
   const menuTheme=document.createElement('link');
-  menuTheme.rel='stylesheet';menuTheme.href='/assets/menu-wayfinding.css?v=20261016-illustrated-tools';document.head.append(menuTheme);
+  menuTheme.rel='stylesheet';menuTheme.href='/assets/menu-wayfinding.css?v=20261017-expanded-collection-clear-wayfinding';document.head.append(menuTheme);
 
-  const refinement=document.querySelector('link[href*="/assets/editorial.css"]')||document.createElement('link');refinement.rel='stylesheet';refinement.href='/assets/editorial.css?v=20261016-illustrated-tools';document.head.append(refinement);
-  const sharing=document.createElement('script');sharing.src='/assets/story-share.js?v=20261016-reader-pathways';sharing.defer=true;document.head.append(sharing);
+  const refinement=document.querySelector('link[href*="/assets/editorial.css"]')||document.createElement('link');refinement.rel='stylesheet';refinement.href='/assets/editorial.css?v=20261017-expanded-collection-clear-wayfinding';document.head.append(refinement);document.head.append(menuTheme);
+  const sharing=document.createElement('script');sharing.src='/assets/story-share.js?v=20261017-expanded-collection-clear-wayfinding';sharing.defer=true;document.head.append(sharing);
 
   const shortcuts = [
-    {label:'Journal',href:'/blog.html',icon:'journal',secondary:true,match:['/blog.html']},
-    {label:'Places',href:'/favorite-places.html',icon:'outing',secondary:true,match:['/favorite-places.html'],prefix:'/favorite-places'},
-    {label:'Explore',action:'sections',icon:'menu'},
-    {label:'Calendar',href:'/calendar.html',icon:'calendar',secondary:true,match:['/calendar.html']},
-    {label:'Search',action:'search',icon:'search',hint:'⌘K'},
-    {label:'For brands',href:'/media/',icon:'book',brand:true,match:['/media'],prefix:'/media/'}
+    {label:'Journal',detail:'Stories from our life',href:'/blog.html',icon:'journal',secondary:true,match:['/blog.html']},
+    {label:'Places',detail:'A good day out',href:'/favorite-places.html',icon:'outing',secondary:true,match:['/favorite-places.html'],prefix:'/favorite-places'},
+    {label:'Family & support',detail:'Tools & everyday life',href:'/family-roles.html',icon:'family',match:['/family-roles.html','/family-planning-toolkit.html','/caregiver-handover-guide.html']},
+    {label:'Explore',detail:'Browse every chapter',action:'sections',icon:'menu'},
+    {label:'Calendar',detail:'Something to plan',href:'/calendar.html',icon:'calendar',secondary:true,match:['/calendar.html']},
+    {label:'Search',detail:'Find your good thing',action:'search',icon:'search',hint:'⌘K'}
   ];
 
   const sectionGroups = [
@@ -109,8 +109,8 @@
     { title:'Home & wardrobe', art:'home', description:'Familiar comforts & practical routines', links:[
       ['At home','/at-home.html','home'], ['The Little Fixes','/the-little-fixes.html','yankee-toolbox'], ['Household reset','/household-reset.html','household-brush'],
       ['Family wardrobe','/family-wardrobe.html','wardrobe-hook'], ['School & advocacy','/topics/advocacy.html','care-clipboard']] },
-    { title:'Family stories', art:'journal-v2', description:'Real days out & little everyday joys', links:[
-      ['Read the journal','/blog.html','journal-v2'], ['Fun & videos','/kid-fun.html','family-film'],
+    { title:'Family stories', art:'family-organizer', description:'Real days out & little everyday joys', links:[
+      ['Read the journal','/blog.html','family-organizer'], ['Fun & videos','/kid-fun.html','family-film'],
       ['The little boot story','/little-adventures.html','little-boot'], ['One simple game','/paternal-football-card.html','simple-football'],
       ['The family notebook','/family-notebook.html','family-organizer']] },
     { title:'Places & useful finds', art:'directory-v2', description:'The Little Black Book: shops, brands & more', links:[
@@ -124,9 +124,9 @@
   bar.setAttribute('aria-label','Site shortcuts');
   bar.innerHTML = '<div class="aal-wayfinder-inner">' + shortcuts.map(item => {
     const active = item.match?.includes(current) || (item.prefix && current.startsWith(item.prefix));
-    if (item.action === 'sections') return `<button type="button" data-aal-open-sections aria-haspopup="dialog">${icon(item.icon)}<span class="aal-wayfinder-label">${item.label}</span></button>`;
-    if (item.action === 'search') return `<button type="button" data-aal-open-search aria-haspopup="dialog">${icon(item.icon)}<span class="aal-wayfinder-label">${item.label}</span><span class="aal-search-shortcut">${item.hint}</span></button>`;
-    return `<a href="${item.href}"${item.secondary?' data-nav-secondary':''}${item.brand?' class="aal-brand-route"':''}${active?' aria-current="page"':''}>${icon(item.icon)}<span class="aal-wayfinder-label">${item.label}</span></a>`;
+    if (item.action === 'sections') return `<button type="button" data-aal-open-sections aria-haspopup="dialog">${icon(item.icon)}<span class="aal-wayfinder-copy"><span class="aal-wayfinder-label">${item.label}</span><span class="aal-wayfinder-detail">${item.detail}</span></span></button>`;
+    if (item.action === 'search') return `<button type="button" data-aal-open-search aria-haspopup="dialog">${icon(item.icon)}<span class="aal-wayfinder-copy"><span class="aal-wayfinder-label">${item.label}</span><span class="aal-wayfinder-detail">${item.detail}</span></span><span class="aal-search-shortcut">${item.hint}</span></button>`;
+    return `<a href="${item.href}"${item.secondary?' data-nav-secondary':''}${item.brand?' class="aal-brand-route"':''}${active?' aria-current="page"':''}>${icon(item.icon)}<span class="aal-wayfinder-copy"><span class="aal-wayfinder-label">${item.label}</span><span class="aal-wayfinder-detail">${item.detail}</span></span></a>`;
   }).join('') + '</div>';
 
   const edition = document.querySelector('.edition-line');
@@ -157,7 +157,7 @@
         </details>`).join('')}
       </div>
       <nav class="aal-menu-help" aria-label="About and help">
-        ${[['For brands & content use','/media/','directory-v2'],['Recent press & community mentions','/press.html','journal-v2'],['Meet us','/about.html','family-film'],['Contact','/contact.html','journal-v2'],['Accessibility','/accessibility.html','home'],['How we choose','/how-we-choose.html','search'],['Language & representation','/language.html','picture-cards'],['Disclosure','/disclosure.html','care-clipboard'],['Privacy','/privacy.html','family-organizer']].map(menuLink).join('')}
+        ${[['Recent press & community mentions','/press.html','journal-v2'],['Meet us','/about.html','family-film'],['Contact','/contact.html','journal-v2'],['Accessibility','/accessibility.html','home'],['How we choose','/how-we-choose.html','search'],['Language & representation','/language.html','picture-cards'],['Disclosure','/disclosure.html','care-clipboard'],['Privacy','/privacy.html','family-organizer']].map(menuLink).join('')}
       </nav>
     </div>`;
   document.body.append(sectionDialog);document.body.classList.add('aal-unified-nav');

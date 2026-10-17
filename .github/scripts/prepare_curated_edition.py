@@ -3,7 +3,7 @@
 import argparse,re,html,importlib.util
 from html.parser import HTMLParser
 from pathlib import Path
-VERSION='20261016-reader-pathways'
+VERSION='20261017-expanded-collection-clear-wayfinding'
 JOURNAL_PINS=(
     '/wayne-newton-flamingo-bucket-list-self-care.html',
     '/get-in-the-photograph.html',
@@ -56,7 +56,7 @@ def prepare(root):
         if page.relative_to(root).as_posix()=='blog.html':
             s=pin_journal_stories(s)
         s=complete_social(s)
-        for asset in ['editorial.css','global-nav.js','access-tools.css','access-tools.js','reader-pathways.css','immersion.js','story-share.js']:
+        for asset in ['editorial.css','global-nav.js','access-tools.css','access-tools.js','reader-pathways.css','brand-design.css','brand-banner.css','brand-banner.js','library-browse.css','card-catalog.js','card-collection.js','card-collection.css','immersion.js','story-share.js']:
             s=re.sub(r'(/assets/'+re.escape(asset)+r')(?:\?[^"\s<>]+)?',r'\1?v='+VERSION,s)
         # Add the tools to complete pages, including those without shared navigation.
         # Leave redirect pages and reusable content fragments alone.

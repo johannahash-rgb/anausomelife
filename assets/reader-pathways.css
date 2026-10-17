@@ -63,3 +63,48 @@
 }
 @media(max-width:360px){.care-story{grid-template-columns:88px minmax(0,1fr);gap:14px}.care-story img{width:88px;height:120px}}
 @media print{.reader-breadcrumb,.reader-next,.care-jumps{display:none}.care-hub{background:white}.care-choice-grid,.care-story-grid{display:block}.care-choice,.care-story{break-inside:avoid;margin-bottom:20px}}
+
+/* A family album opening, with practical choices close at hand. */
+.care-hub .care-wrap,.care-hub .reader-breadcrumb{width:min(1240px,calc(100% - 48px))}
+.care-hub .reader-breadcrumb{margin-block:0 8px}
+.care-intro{display:grid;grid-template-columns:.9fr 1.1fr;gap:44px;align-items:center;padding:10px 0 30px}
+.care-intro-copy{min-width:0}
+.care-intro h1{font-size:clamp(2.5rem,4.3vw,3.8rem);margin:12px 0 20px;max-width:17ch}
+.care-intro .care-dek{font-size:1.12rem;line-height:1.65;max-width:45ch;margin-bottom:16px}
+.care-intro-photo{margin:0;min-width:0}
+.care-intro-photo img{display:block;width:100%;height:auto;object-fit:contain;border:0;border-radius:0;filter:none}
+.care-intro-photo figcaption{padding:14px 18px;background:#e7eadc;border-bottom:2px solid #647b57}
+.care-intro-photo figcaption span{display:block;font:.73rem/1.4 Arial,sans-serif;letter-spacing:.06em;text-transform:uppercase;color:#4d624f;margin-bottom:5px}
+.care-intro-photo figcaption a{font:400 1.25rem/1.35 Georgia,serif;color:#173c4c;text-underline-offset:5px;display:inline-flex;align-items:center;min-height:44px}
+.care-jumps{display:grid;grid-template-columns:1fr 1fr;gap:8px 16px;padding-top:8px}
+.care-jumps a{font:.88rem/1.4 Arial,sans-serif;min-height:44px;padding:9px 0}
+.care-jumps .care-primary{background:#244b3e;color:#fffdf5;justify-content:center;padding:12px 15px;text-decoration:none;font-weight:600}
+.care-section{padding-block:28px 32px}
+.care-section h2{font-size:clamp(1.9rem,3vw,2.5rem)}
+.care-choice-grid{gap:0;border-bottom:1px solid #c1c9b7}
+.care-choice{background:#edf0e4;padding:22px 24px;border-top:3px solid #536f50;display:grid;grid-template-columns:100px minmax(0,1fr);gap:18px}
+.care-choice:nth-child(2){background:#eee6d7;border-top-color:#9a7351}
+.care-choice:nth-child(3){background:#ece8e2;border-top-color:#8a4c56}
+.care-choice>img{width:100px;height:110px;margin:0}
+.care-choice h3{font-size:1.5rem;margin-top:6px}
+.care-choice p{font-size:.96rem;line-height:1.6;margin-block:12px}
+.care-choice a{font-size:.94rem;line-height:1.5}
+.care-story-grid{align-items:start}
+.care-story img{height:auto;max-height:330px;object-position:left top}
+.care-role-grid{gap:0 30px}
+.care-role-grid li{padding:14px 16px;background:#f0eee5}
+.care-role-grid li:nth-child(4n+3),.care-role-grid li:nth-child(4n+4){background:#e9ede2}
+.reader-kind{font-size:.76rem}
+@media(max-width:1100px){.care-choice{grid-template-columns:1fr;gap:12px}.care-choice>img{width:90px;height:90px}}
+@media(max-width:760px){
+ .care-intro{gap:24px;grid-template-columns:1fr;align-items:start;padding-top:0}
+ .care-intro h1{max-width:none;font-size:clamp(2.3rem,7vw,3.4rem)}
+ .care-intro .care-dek{max-width:none}.care-intro-photo{max-width:620px}
+ .care-choice-grid{grid-template-columns:1fr}.care-choice{grid-template-columns:82px minmax(0,1fr);gap:16px;padding:20px}
+ .care-choice>img{width:82px;height:95px}.care-section{padding-block:25px}
+ .care-hub .care-wrap,.care-hub .reader-breadcrumb{width:calc(100% - 32px)}
+ .care-story{grid-template-columns:125px minmax(0,1fr)}.care-story img{width:125px;height:auto;max-height:none}
+ .care-role-grid li{padding-inline:14px}
+}
+@media(max-width:360px){.care-choice{grid-template-columns:64px minmax(0,1fr);padding:16px;gap:12px}.care-choice>img{width:64px;height:76px}.care-story{grid-template-columns:100px minmax(0,1fr);gap:14px}.care-story img{width:100px}.care-jumps{grid-template-columns:1fr}}
+@media print{.care-intro{display:block}.care-intro-photo{max-width:400px}.care-jumps{display:none}.care-choice{background:white}.care-role-grid li{background:white}}

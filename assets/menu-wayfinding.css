@@ -177,3 +177,46 @@ body.aal-unified-nav .aal-wayfinder a,body.aal-unified-nav .aal-wayfinder button
   body .aal-section-dialog button,body .aal-chapter-links a[aria-current] {border:2px solid ButtonText;}
 }
 @media print {body .aal-section-dialog {display:none!important;}}
+
+/* A visible illustrated masthead, with six clear reader destinations. */
+body.aal-unified-nav .mag-masthead{padding-block:18px!important}
+body.aal-unified-nav .mag-brand{gap:20px}
+body.aal-unified-nav .mag-brand img{width:82px;height:82px;flex:none}
+body.aal-unified-nav .mag-brand>span{font-size:clamp(2.2rem,4vw,3.8rem)}
+body.aal-unified-nav .mag-brand small{font-size:.72rem;letter-spacing:.13em}
+body.aal-unified-nav .aal-wayfinder{background:#eee8da;border-top:3px double #9ca990;border-bottom:3px double #9ca990;box-shadow:none}
+body.aal-unified-nav .aal-wayfinder-inner{width:min(1320px,calc(100% - 40px));grid-template-columns:repeat(6,minmax(0,1fr))!important;gap:0}
+body.aal-unified-nav .aal-wayfinder a,body.aal-unified-nav .aal-wayfinder button{display:flex!important;flex-direction:row!important;min-height:112px!important;padding:12px 14px!important;gap:12px!important;justify-content:center;align-items:center;border-bottom:3px solid transparent!important;font:400 1.12rem/1.2 Georgia,serif!important;color:#173c4c}
+body.aal-unified-nav .aal-wayfinder .aal-nav-miniature{width:68px!important;height:68px!important;flex:none;object-fit:contain}
+body.aal-unified-nav .aal-wayfinder-copy{display:flex;flex-direction:column;gap:7px;min-width:0;text-align:left}
+body.aal-unified-nav .aal-wayfinder-label{font:400 1.17rem/1.15 Georgia,serif;white-space:normal}
+body.aal-unified-nav .aal-wayfinder-detail{display:block;font:.75rem/1.4 Arial,sans-serif;color:#4d624f}
+body.aal-unified-nav .aal-wayfinder :is(a,button):hover{background:#dfe5d5}
+body.aal-unified-nav .aal-wayfinder [aria-current=page]{background:#e0e6d8;border-bottom-color:#244b3e!important;text-decoration:none}
+body.aal-unified-nav .aal-wayfinder [data-aal-open-sections]{background:#e5dfcd}
+body.aal-unified-nav .aal-section-dialog .aal-chapter-title{font-size:1.65rem}
+body.aal-unified-nav .aal-section-dialog .aal-chapter-links a{grid-template-columns:62px minmax(0,1fr) 18px;font-size:1.05rem;min-height:84px}
+body.aal-unified-nav .aal-section-dialog .aal-menu-link-art{width:62px;height:62px}
+@media(max-width:1100px){
+ body.aal-unified-nav .aal-wayfinder a,body.aal-unified-nav .aal-wayfinder button{flex-direction:column!important;gap:5px!important;padding:9px 6px!important}
+ body.aal-unified-nav .aal-wayfinder-copy{text-align:center;align-items:center;gap:4px}
+ body.aal-unified-nav .aal-wayfinder .aal-nav-miniature{width:62px!important;height:62px!important}
+ body.aal-unified-nav .aal-wayfinder-label{font-size:1.05rem}
+ body.aal-unified-nav .aal-wayfinder-detail{font-size:.72rem}
+}
+@media(max-width:700px){
+ body.aal-unified-nav .mag-brand img{width:58px;height:58px}
+ body.aal-unified-nav .mag-brand{gap:12px}
+ body.aal-unified-nav .mag-brand>span{font-size:clamp(1.75rem,6vw,2.5rem);letter-spacing:-.04em}
+ body.aal-unified-nav .mag-brand small{font-size:.58rem;letter-spacing:.04em;max-width:33ch}
+ body.aal-unified-nav .aal-wayfinder-inner{width:calc(100% - 16px);grid-template-columns:repeat(3,minmax(0,1fr))!important}
+ body.aal-unified-nav .aal-wayfinder [data-nav-secondary]{display:flex!important}
+ body.aal-unified-nav .aal-wayfinder a,body.aal-unified-nav .aal-wayfinder button{min-height:92px!important;padding:8px 5px!important;gap:4px!important}
+ body.aal-unified-nav .aal-wayfinder .aal-nav-miniature{width:48px!important;height:48px!important}
+ body.aal-unified-nav .aal-wayfinder-label{font-size:1rem}
+ body.aal-unified-nav .aal-wayfinder-detail{display:none}
+ body.aal-unified-nav .aal-wayfinder a:nth-child(-n+3){border-bottom:1px solid #c1c9b7!important}
+ body.aal-unified-nav .aal-section-dialog .aal-chapter-title{font-size:1.4rem}
+ body.aal-unified-nav .aal-section-dialog .aal-menu-help .aal-menu-link-art{width:40px;height:40px}
+}
+@media print{body.aal-unified-nav .aal-wayfinder{display:none!important}}

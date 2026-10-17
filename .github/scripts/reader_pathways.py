@@ -6,7 +6,7 @@ from pathlib import Path
 from lxml import html, etree
 
 REPO = Path(__file__).resolve().parents[2]
-VERSION = '20261016-reader-pathways'
+VERSION = '20261016-fuller-design'
 ART = '/assets/navigation-watercolors/'
 
 def card(url, title, description, kind, image):
@@ -28,14 +28,14 @@ CARDS = {
     'parking': card('/disabled-parking-placards-new-england.html', 'Disabled parking & placards', 'Find the New England application links and passenger-use guidance.', 'Practical guide', ART+'parking-volvo-128.webp'),
     'cards': card('/communication-card-generator.html', 'Make a picture card', 'Choose a clear image and a useful word, then print or save your card.', 'Communication tool', ART+'picture-cards-320.webp'),
     'communication': card('/multimodal-communication.html', 'Support different ways to communicate', 'Keep familiar communication, real choices and time to answer close by.', 'Practical guide', ART+'picture-cards-320.webp'),
-    'journal': card('/blog.html', 'Read the journal', 'Real family days, favorite places, and small things worth noticing.', 'More stories', ART+'journal-v2-320.webp'),
+    'journal': card('/blog.html', 'Read the journal', 'Real family days, favorite places, and small things worth noticing.', 'More stories', ART+'family-organizer-320.webp'),
     'home': card('/at-home.html', 'Make home work a little better', 'Start with a recurring difficulty and one useful change.', 'At home', ART+'home-320.webp'),
     'reset': card('/household-reset.html', 'A reset for the time you have', 'Choose a five-, fifteen- or thirty-minute version.', 'Practical guide', ART+'household-brush-320.webp'),
     'products': card('/product-guides.html', 'Explore useful finds', 'Read the practical details before choosing something for family life.', 'Product guides', ART+'yankee-toolbox-320.webp'),
     'school': card('/topics/advocacy.html', 'School & advocacy', 'Find meeting preparation, clear requests and useful record keeping.', 'Browse the guides', ART+'care-clipboard-320.webp'),
     'agenda': card('/guides/one-page-parent-agenda.html', 'Prepare a one-page parent agenda', 'Give your priorities, questions and next steps a clear place.', 'Practical guide', ART+'family-organizer-320.webp'),
-    'media': card('/media/', 'Work with An AUsome Life', 'Published examples, collaboration ideas and content-use requests.', 'For brands', ART+'journal-v2-320.webp'),
-    'press': card('/press.html', 'Press & community mentions', 'See where our stories and planning tools have been shared.', 'In the community', ART+'journal-v2-320.webp'),
+    'media': card('/media/', 'Work with An AUsome Life', 'Published examples, collaboration ideas and content-use requests.', 'For brands', ART+'family-organizer-320.webp'),
+    'press': card('/press.html', 'Press & community mentions', 'See where our stories and planning tools have been shared.', 'In the community', ART+'family-organizer-320.webp'),
 }
 GROUPS = {
     'care': ('Family & caregiver support', '/family-roles.html', ['photo','handover','care','plans','wayne']),
@@ -55,7 +55,7 @@ OVERRIDES = {
     'respite-partner-role.html': ['wayne','handover','care'],
     'caregiver-handover-guide.html': ['gardner','plans','care'],
     'family-planning-toolkit.html': ['dairy','handover','care'],
-    'family-roles.html': ['dairy','parking','journal'],
+    'family-roles.html': ['gardner','parking','journal'],
     'wayne-newton-flamingo-bucket-list-self-care.html': ['gardner','handover','care'],
     'isabella-stewart-gardner-museum-date.html': ['wayne','handover','care'],
     'get-in-the-photograph.html': ['rangeley','plans','care'],

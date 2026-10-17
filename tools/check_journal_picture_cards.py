@@ -9,6 +9,8 @@ catalog=json.loads(catalog_source.split('window.AALCardCatalog = ',1)[1].strip()
 by_id={card['id']:card for card in catalog}
 assert len(catalog)==len(by_id), 'Duplicate picture-card IDs'
 assert 'tulip' in by_id and 'tulip-farm' in by_id
+assert all(face not in by_id for face in ('happy','sad','tired','hurt'))
+assert sum(bool(card.get('photoRealistic')) for card in catalog)==448
 manifest=json.loads((ROOT/'data/journal-picture-cards.json').read_text())
 class Page(HTMLParser):
     def __init__(self):
@@ -46,8 +48,8 @@ for row in json.loads((ROOT/'content/family-field-notes.json').read_text()):
     assert row['pictureCardsHtml'] in (ROOT/row['path']).read_text()
 for page in ('picture-card-library.html','communication-card-generator.html'):
     raw=(ROOT/page).read_text()
-    assert '279' in raw and 'original 278-card' in raw
-    assert 'journal-card-sets' in raw and '?card=tulip-farm' in raw
+    assert ('700+' in raw or '723' in raw) and '448' in raw and 'photorealistic' in raw
+    assert 'journal-card-sets' in raw and 'tulip-farm' in raw
 assert 'params.get(\'cards\')' in (ROOT/'assets/card-collection.js').read_text()
 assert 'article photos are not communication symbols' in (ROOT/'assets/article-picture-card.js').read_text()
 print(f"PASS: {len(manifest['posts'])} story URLs, {len(catalog)} unique cards, artwork and generator references.")

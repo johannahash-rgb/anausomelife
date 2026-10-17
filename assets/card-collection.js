@@ -11,6 +11,7 @@
   const palettes = {navy:'#173c4c',pine:'#2e513f',cranberry:'#772f41',black:'#111111'};
   const categories = window.AALCardCategories || [...new Set(entries.map(c=>c.category))];
   const FAVORITES = 'New England favorites';
+  const PHOTOGRAPHIC = 'Photorealistic cards';
   let page = 0, active = null, renderVersion = 0, activeReady = false, uploadUrl = null, downloadUrl = null, customId = 0;
   const PAGE_SIZE = 25;
   const norm = value => String(value || '').toLocaleLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'');
@@ -56,28 +57,13 @@
     const a=link || element('a');a.href=downloadUrl;a.download=name;a.textContent='Download '+name;a.hidden=false;
     if(!link)document.body.append(a);a.click();if(!link)a.remove();
   }
-  const packButton=$('[data-download-pack]');
-  if(packButton){packButton.disabled=false;packButton.onclick=async()=>{
-    const progress=$('[data-pack-status]');packButton.disabled=true;progress.textContent='Preparing the original 278-card PNG pack…';
-    try{
-      const response=await fetch('/downloads/picture-cards-278-png-parts.json');if(!response.ok)throw new Error();
-      const pack=await response.json(),parts=[];
-      for(let i=0;i<pack.parts.length;i++){
-        progress.textContent=`Preparing download: ${i+1} of ${pack.parts.length}…`;
-        const part=pack.parts[i],res=await fetch(part.url);if(!res.ok)throw new Error();const bytes=await res.arrayBuffer();if(bytes.byteLength!==part.size)throw new Error();
-        if(window.crypto?.subtle){const digest=await crypto.subtle.digest('SHA-256',bytes),hash=Array.from(new Uint8Array(digest),b=>b.toString(16).padStart(2,'0')).join('');if(hash!==part.sha256)throw new Error();}
-        parts.push(bytes);
-      }
-      saveBlob(new Blob(parts,{type:'application/zip'}),pack.filename);progress.textContent='Your original 278-card PNG pack is ready. Check your downloads.';
-    }catch(_){progress.textContent='The download was interrupted. Please try again, or download a category PDF.';}
-    finally{packButton.disabled=false;}
-  };}
   async function download(card,options={},link) {
     const c=await renderCard(card,options);saveBlob(await toBlob(c),slug(card.label)+'-picture-card.png',link);
   }
   function matches() {
     const tokens=norm(search.value).trim().split(/\s+/).filter(Boolean);
-    return entries.filter(c=>(category.value==='all'||(category.value===FAVORITES?c.featured:c.category===category.value))&&tokens.every(t=>norm(`${c.label} ${c.category} ${c.keywords||''} ${c.brand||''}`).includes(t)));
+    const found=entries.filter(c=>(category.value==='all'||(category.value===FAVORITES?c.featured:category.value===PHOTOGRAPHIC?c.photoRealistic===true:c.category===category.value))&&tokens.every(t=>norm(`${c.label} ${c.category} ${c.keywords||''} ${c.brand||''}`).includes(t)));
+    return category.value===FAVORITES?found.sort((a,b)=>Number(Boolean(b.photoRealistic))-Number(Boolean(a.photoRealistic))):found;
   }
   function updateSheet() {
     const n=selection.size;
@@ -103,19 +89,17 @@
     $('[data-result-count]').textContent=`${cards.length} of ${entries.length} cards${search.value?' match your search':''}`;
     $('[data-result-heading]').textContent=category.value==='all'?'All pictures':category.value;
     root.querySelectorAll('[data-category-choice]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.categoryChoice===category.value)));
-    const categoryPdf=$('[data-category-pdf]');categoryPdf.hidden=category.value==='all';
-    if(!categoryPdf.hidden){categoryPdf.href='/downloads/picture-cards-'+slug(category.value)+'.pdf';categoryPdf.textContent='Original category PDF';}
-    $('[data-category-note]').textContent=category.value===FAVORITES?'Familiar New England objects, with simple everyday words. Brand references appear below the pictures.':category.value==='all'?'New England favorites first, then everyday cards grouped by category.':'Choose individual cards, download this category, or add the matching cards to your print set.';
+    $('[data-category-note]').textContent=category.value===FAVORITES?'Preppy New England favorites, with clear words and original photographs alongside familiar illustrations.':category.value===PHOTOGRAPHIC?'448 photorealistic object pictures, made for clear everyday choices. Each is labelled, editable and ready to save or print.':category.value==='all'?'New England favorites first, then hundreds of everyday pictures grouped by category.':'Choose individual pictures or add matching cards to your print set.';
     $('[data-add-results]').textContent=`Add ${cards.length} ${cards.length===1?'card':'cards'}`;$('[data-add-results]').disabled=!cards.length;
-    if(!cards.length){const empty=element('div','cc-empty');empty.append(element('strong','','No pictures found.'),element('p','','Try one word, such as “water”, “shoes” or “pool”, choose All categories, or make a card with your own photo.'));grid.append(empty);}
+    if(!cards.length){const empty=element('div','cc-empty');empty.append(element('strong','','No pictures found.'),element('p','','Try one word, such as “boat”, “shoes” or “pool”, choose another collection, or make a card with your own photo.'));grid.append(empty);}
     let lastGroup='';
     for(const card of cards.slice(page*PAGE_SIZE,(page+1)*PAGE_SIZE)) {
       const group=category.value==='all'?(card.featured?FAVORITES:card.category):category.value;
       if(category.value==='all'&&group!==lastGroup){const h=element('h3','cc-group-heading',group);grid.append(h);lastGroup=group;}
-      const tile=element('article','cc-tile'), face=element('button','cc-card-face');face.type='button';face.setAttribute('aria-label',`Edit ${card.label} card`);face.append(picture(card),element('span','cc-card-label',card.label));face.onclick=()=>openEditor(card);
+      const tile=element('article',card.photoRealistic?'cc-tile cc-tile-photo':'cc-tile'), face=element('button','cc-card-face');face.type='button';face.setAttribute('aria-label',`Edit ${card.label} card`);face.append(picture(card),element('span','cc-card-label',card.label));face.onclick=()=>openEditor(card);
       const actions=element('div','cc-tile-actions'), save=element('button','','↓ PNG'), add=element('button','','+ Add');save.type=add.type='button';save.setAttribute('aria-label',`Download ${card.label} PNG`);add.dataset.addId=card.id;
       save.onclick=async()=>{save.disabled=true;status(`Preparing ${card.label}…`);try{await download(card);status(`${card.label} PNG is ready. Check your downloads.`);}catch(error){status(error.message,true);}finally{save.disabled=false;}};
-      add.onclick=()=>toggleCard(card);actions.append(save,add);tile.append(face);
+      add.onclick=()=>toggleCard(card);actions.append(save,add);tile.append(face);if(card.photoRealistic)tile.append(element('span','cc-photo-label','Photorealistic · AI-generated'));
       if(card.brand){const credit=element('a','cc-brand',card.brand+' · illustration');credit.href=card.brandUrl;credit.target='_blank';credit.rel='noopener';credit.setAttribute('aria-label',card.brand+' reference for '+card.label+' (opens in new tab)');tile.append(credit);}
       tile.append(actions);grid.append(tile);
     }
@@ -177,7 +161,7 @@
       await Promise.all([...printArea.querySelectorAll('img')].map(img=>img.decode()));
       document.body.classList.add('cc-printing');status('Print view is ready. Choose your printer or Save as PDF.');$('[data-sheet-status]').textContent='Ready. Print at 100% / actual size, with browser headers and footers off.';
       window.print();
-    }catch(error){status('Printing could not be prepared. Try fewer cards or use the ready-made PDF.',true);$('[data-sheet-status]').textContent='Could not prepare the print set. Try fewer cards or download the ready-made PDF.';document.body.classList.remove('cc-printing');}
+    }catch(error){status('Printing could not be prepared. Try fewer cards or use the ready-made PDF.',true);$('[data-sheet-status]').textContent='Could not prepare the print set. Try fewer cards or save individual PNGs.';document.body.classList.remove('cc-printing');}
     finally{button.disabled=false;}
   };
   window.addEventListener('afterprint',()=>document.body.classList.remove('cc-printing'));
@@ -185,17 +169,17 @@
   $('[data-reset]').onclick=()=>{search.value='';category.value='all';page=0;renderGrid();search.focus();};
   $('[data-prev]').onclick=()=>{page--;renderGrid();$('#cc-cards').scrollIntoView({block:'start'});$('[data-result-heading]').focus();};
   $('[data-next]').onclick=()=>{page++;renderGrid();$('#cc-cards').scrollIntoView({block:'start'});$('[data-result-heading]').focus();};
-  for(const name of [FAVORITES,...categories]){const opt=element('option','',name);opt.value=name;category.append(opt);}
-  for(const name of ['all',FAVORITES,...categories]){
+  for(const name of [FAVORITES,PHOTOGRAPHIC,...categories]){const opt=element('option','',name);opt.value=name;category.append(opt);}
+  for(const name of ['all',FAVORITES,PHOTOGRAPHIC,...categories]){
     const button=element('button',name===FAVORITES?'cc-category-favorite':'');button.type='button';button.dataset.categoryChoice=name;button.setAttribute('aria-pressed',String(name==='all'));
-    const n=name==='all'?entries.length:name===FAVORITES?entries.filter(c=>c.featured).length:entries.filter(c=>c.category===name).length;
-    button.append(element('span','',name==='all'?'All cards':name),element('span','cc-category-count',String(n)));
+    const n=name==='all'?entries.length:name===FAVORITES?entries.filter(c=>c.featured).length:name===PHOTOGRAPHIC?entries.filter(c=>c.photoRealistic).length:entries.filter(c=>c.category===name).length;
+    button.append(element('span','',name==='all'?'All cards':name===PHOTOGRAPHIC?'Photo-realistic':name),element('span','cc-category-count',String(n)));
     button.onclick=()=>{category.value=name;page=0;renderGrid();};$('[data-categories]').append(button);
   }
   root.querySelectorAll('[data-featured]').forEach(el=>{const card=byId.get(el.dataset.featured);if(card)el.prepend(picture(card));});
   updateSheet();renderGrid();
   const params=new URLSearchParams(location.search),requested=params.get('card'),requestedCategory=params.get('category');
-  if([FAVORITES,...categories].includes(requestedCategory)){category.value=requestedCategory;renderGrid();}
+  if([FAVORITES,PHOTOGRAPHIC,...categories].includes(requestedCategory)){category.value=requestedCategory;renderGrid();}
   const requestedCards=(params.get('cards')||'').split(',').filter(id=>byId.has(id));
   if(requestedCards.length){
     [...new Set(requestedCards)].forEach(id=>selection.set(id,{...byId.get(id)}));
@@ -204,6 +188,6 @@
     requestAnimationFrame(()=>{$('#cc-sheet').scrollIntoView({block:'start'});$('[data-sheet-heading]').focus({preventScroll:true});});
   }
   if(requested&&byId.has(requested))openEditor(byId.get(requested));
-  // Shared renderer also supports the prebuilt downloadable packs.
+  // Shared renderer powers the editor and local print sets.
   window.AALCardCollection={entries,renderCard,getImage};
 })();
