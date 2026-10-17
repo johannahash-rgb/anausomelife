@@ -116,3 +116,8 @@
 .brand-room .brand-contact{max-width:1180px}
 @media(max-width:800px){.brand-room .brand-cover-strong{grid-template-columns:1fr;padding-block:38px}.brand-room .brand-hero-figure{max-width:680px;box-shadow:9px 9px 0 #e2d9b4}.brand-room .brand-proof-bar{grid-template-columns:repeat(2,1fr)}.brand-room .brand-proof-bar>div:nth-child(3){border-left:1px solid #c0cbb8}.brand-room .brand-panel{width:calc(100vw - 70px);flex-basis:calc(100vw - 70px)}}
 @media(max-width:600px){.brand-room .brand-cover-strong{padding-inline:20px}.brand-room .brand-cover-strong h1{font-size:3.4rem}.brand-room .brand-hero-promises{grid-template-columns:1fr;gap:11px}.brand-room .brand-proof-bar{padding-inline:20px}.brand-room .brand-proof-bar>div{padding-inline:12px}.brand-room .brand-tried{padding-inline:20px}.brand-room .brand-marquee-tools{display:block}.brand-room .brand-marquee-tools>div{margin-top:9px}.brand-room .brand-track{padding-inline:14px}.brand-room .brand-panel{width:calc(100vw - 56px);flex-basis:calc(100vw - 56px)}.brand-room .brand-panel img{aspect-ratio:1.6/1}.brand-room .brand-offers article{min-height:0;padding:26px 22px}.brand-room .brand-proof-grid article:nth-child(n) figure{height:auto;min-height:260px}.brand-room .brand-proof-grid img{height:100%;min-height:260px}.brand-room .brand-name-reel{margin-top:31px!important}}
+
+@media(max-width:600px){
+  .brand-room .brand-tried{padding-bottom:14px}
+  .brand-room #work-with-us{padding-top:14px}
+}
