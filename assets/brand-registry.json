@@ -201,7 +201,7 @@
       "id": "llbean",
       "name": "L.L.Bean",
       "image": "/assets/brand-sketches/llbean.webp",
-      "alt": "Original watercolor of leather and rubber duck boots.",
+      "alt": "Original watercolor showing leather and rubber duck boots.",
       "categories": [
         "style",
         "outings",
@@ -211,78 +211,85 @@
         "outdoor-gear",
         "shops-farm-markets"
       ],
-      "featured": true
+      "featured": true,
+      "note": "Repeat-wear outdoor gear, weather and family days out."
     },
     {
       "id": "wegmans",
       "name": "Wegmans",
       "image": "/assets/brand-sketches/wegmans.webp",
-      "alt": "Original watercolor of a basket of fresh groceries.",
+      "alt": "Original watercolor showing a basket of fresh groceries.",
       "categories": [
         "food",
         "home",
         "grocery-markets"
       ],
-      "featured": true
+      "featured": true,
+      "note": "The everyday food systems that make family routines work."
     },
     {
       "id": "life-time",
       "name": "Life Time",
       "image": "/assets/brand-sketches/life-time.webp",
-      "alt": "Original watercolor of a towel, water bottle and swimming goggles.",
+      "alt": "Original watercolor showing a towel, water bottle and swimming goggles.",
       "categories": [
         "outings",
         "fitness-swimming"
       ],
-      "featured": true
+      "featured": true,
+      "note": "A real-world test of pacing, movement, water and access."
     },
     {
       "id": "patagonia",
       "name": "Patagonia",
       "image": "/assets/brand-sketches/patagonia.webp",
-      "alt": "Original watercolor of a navy textured fleece jacket.",
+      "alt": "Original watercolor showing a navy textured fleece jacket.",
       "categories": [
         "style",
         "outings",
         "outerwear-layers",
         "outdoor-gear"
       ],
-      "featured": true
+      "featured": true,
+      "note": "Warmth and durability considered through actual repeat wear."
     },
     {
       "id": "pottery-barn-kids",
       "name": "Pottery Barn Kids",
       "image": "/assets/brand-sketches/pottery-barn-kids.webp",
-      "alt": "Original watercolor of a reading chair, quilt and book.",
+      "alt": "Original watercolor showing a reading chair, quilt and book.",
       "categories": [
         "home",
         "linens-bedding",
         "kids-furnishings"
       ],
-      "featured": true
+      "featured": true,
+      "note": "A lived-in home story: comfort, storage and things that last."
     },
     {
       "id": "nordstrom",
       "name": "Nordstrom",
       "image": "/assets/brand-sketches/nordstrom.webp",
-      "alt": "Original watercolor of suede loafers and a cashmere scarf.",
+      "alt": "Original watercolor showing suede loafers and a cashmere scarf.",
       "categories": [
         "style",
         "everyday-clothing",
         "wool-knitwear"
       ],
-      "featured": true
+      "featured": true,
+      "note": "Classic style translated into clothes people actually wear."
     },
     {
       "id": "kate-spade",
       "name": "Kate Spade",
       "image": "/assets/brand-sketches/kate-spade.webp",
-      "alt": "Original watercolor of a blush-pink handbag with a black-and-cream striped scarf.",
+      "alt": "Original watercolor showing a blush-pink handbag with a black-and-cream striped scarf.",
       "categories": [
         "style",
         "bags-accessories"
       ],
-      "featured": true
+      "featured": true,
+      "note": "Personal style with a place in ordinary family life."
     },
     {
       "id": "hearth",
@@ -299,13 +306,14 @@
       "id": "bentgo",
       "name": "Bentgo",
       "image": "/assets/brand-sketches/bentgo.webp",
-      "alt": "Original watercolor of an open divided lunchbox.",
+      "alt": "Original watercolor showing an open divided lunchbox.",
       "categories": [
         "food",
         "home",
         "lunchboxes-drinkware"
       ],
-      "featured": true
+      "featured": true,
+      "note": "Packing, portions, leaks and cleanup—the details that sell usefulness."
     },
     {
       "id": "museum-of-science",
@@ -322,12 +330,13 @@
       "id": "hyatt",
       "name": "Hyatt",
       "image": "/assets/brand-sketches/hyatt.webp",
-      "alt": "Original watercolor of a weekend bag, hotel towel and key.",
+      "alt": "Original watercolor showing a weekend bag, hotel towel and key.",
       "categories": [
         "travel",
         "hotels-resorts"
       ],
-      "featured": true
+      "featured": true,
+      "note": "A stay told through the room, route and rhythm a family needs."
     },
     {
       "id": "ocean-house",
@@ -344,72 +353,78 @@
       "id": "great-wolf-lodge",
       "name": "Great Wolf Lodge",
       "image": "/assets/brand-sketches/great-wolf-lodge.webp",
-      "alt": "Original watercolor of a timber lodge and water slide.",
+      "alt": "Original watercolor showing a timber lodge and water slide.",
       "categories": [
         "travel",
         "outings",
         "hotels-resorts",
         "fitness-swimming"
       ],
-      "featured": true
+      "featured": true,
+      "note": "Big atmosphere paired with honest family logistics."
     },
     {
       "id": "sams-club",
       "name": "Sam's Club",
       "image": "/assets/brand-sketches/sams-club.webp",
-      "alt": "Original watercolor of a cart of household provisions.",
+      "alt": "Original watercolor showing a cart of household provisions.",
       "categories": [
         "food",
         "home",
         "grocery-markets"
       ],
-      "featured": true
+      "featured": true,
+      "note": "Value, scale and the practical reality of buying for a household."
     },
     {
       "id": "poshmark",
       "name": "Poshmark",
       "image": "/assets/brand-sketches/poshmark.webp",
-      "alt": "Original watercolor of a handbag, sweater and parcel.",
+      "alt": "Original watercolor showing a handbag, sweater and parcel.",
       "categories": [
         "style",
         "everyday-clothing",
         "resale"
       ],
-      "featured": true
+      "featured": true,
+      "note": "Secondhand style examined through condition, fit and value."
     },
     {
       "id": "le-creuset",
       "name": "Le Creuset",
       "image": "/assets/brand-sketches/le-creuset.webp",
-      "alt": "Original watercolor of a copper-colored enameled Dutch oven.",
+      "alt": "Original watercolor showing a copper-colored enameled Dutch oven.",
       "categories": [
         "home",
         "food",
         "cookware-tabletop"
       ],
-      "featured": true
+      "featured": true,
+      "note": "A beautiful object tested through cooking, care and repeat use."
     },
     {
       "id": "kerrygold",
       "name": "Kerrygold",
       "image": "/assets/brand-sketches/kerrygold.webp",
-      "alt": "Original watercolor of butter in golden foil.",
+      "alt": "Original watercolor showing butter in golden foil.",
       "categories": [
         "food",
         "pantry-dairy"
       ],
-      "featured": true
+      "featured": true,
+      "note": "A pantry staple with a real place in family rituals."
     },
     {
       "id": "ben-jerrys",
       "name": "Ben & Jerry's",
       "image": "/assets/brand-sketches/ben-jerrys.webp",
-      "alt": "Original watercolor of ice cream in a plain pint.",
+      "alt": "Original watercolor showing ice cream in a plain pint.",
       "categories": [
         "food",
         "bakery-sweets"
       ],
-      "featured": true
+      "featured": true,
+      "note": "Food, ritual and small pleasures that make a story memorable."
     },
     {
       "id": "lafayette-hotels",
