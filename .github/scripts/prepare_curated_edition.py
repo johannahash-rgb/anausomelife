@@ -3,7 +3,7 @@
 import argparse,re,html,importlib.util
 from html.parser import HTMLParser
 from pathlib import Path
-VERSION='20261017-expanded-collection-clear-wayfinding'
+VERSION='20261017-brand-conversion-v2'
 JOURNAL_PINS=(
     '/wayne-newton-flamingo-bucket-list-self-care.html',
     '/get-in-the-photograph.html',
