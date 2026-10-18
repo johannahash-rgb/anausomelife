@@ -4,11 +4,23 @@ import argparse,re,html,importlib.util
 from html.parser import HTMLParser
 from pathlib import Path
 VERSION='20261018-growth-readiness'
+VERSIONED_ASSETS=(
+    'editorial.css','global-nav.js','access-tools.css','access-tools.js',
+    'reader-pathways.css','brand-design.css','brand-banner.css','brand-banner.js',
+    'library-browse.css','card-catalog.js','card-collection.js','card-collection.css',
+    'immersion.js','story-share.js',
+)
 JOURNAL_PINS=(
     '/wayne-newton-flamingo-bucket-list-self-care.html',
     '/get-in-the-photograph.html',
     '/rangeley-grandparents-field-note.html',
 )
+
+def refresh_asset_versions(source):
+    """Use one edition version even for assets injected by a later transform."""
+    for asset in VERSIONED_ASSETS:
+        source=re.sub(r'(/assets/'+re.escape(asset)+r')(?:\?[^"\s<>]+)?',r'\1?v='+VERSION,source)
+    return source
 
 def readable_heading_breaks(source):
     """A responsive line break must still separate words when hidden by CSS."""
@@ -56,8 +68,7 @@ def prepare(root):
         if page.relative_to(root).as_posix()=='blog.html':
             s=pin_journal_stories(s)
         s=complete_social(s)
-        for asset in ['editorial.css','global-nav.js','access-tools.css','access-tools.js','reader-pathways.css','brand-design.css','brand-banner.css','brand-banner.js','library-browse.css','card-catalog.js','card-collection.js','card-collection.css','immersion.js','story-share.js']:
-            s=re.sub(r'(/assets/'+re.escape(asset)+r')(?:\?[^"\s<>]+)?',r'\1?v='+VERSION,s)
+        s=refresh_asset_versions(s)
         # Add the tools to complete pages, including those without shared navigation.
         # Leave redirect pages and reusable content fragments alone.
         if re.search(r'<main\b',s,re.I) and '</head>' in s:
@@ -75,6 +86,13 @@ def prepare(root):
     spec=importlib.util.spec_from_file_location('growth_readiness',Path(__file__).with_name('growth_readiness.py'))
     growth=importlib.util.module_from_spec(spec);spec.loader.exec_module(growth)
     growth.prepare(root)
+    # Contextual modules may add a stylesheet using their own older version.
+    # Normalize those newly inserted references in this build, not the next one.
+    for page in root.rglob('*.html'):
+        if any(p in {'.git','docs','tests','node_modules'} for p in page.relative_to(root).parts):continue
+        source=page.read_text(encoding='utf-8')
+        updated=refresh_asset_versions(source)
+        if updated!=source:page.write_text(updated,encoding='utf-8')
 if __name__=='__main__':
     parser=argparse.ArgumentParser();parser.add_argument('--root',type=Path,required=True)
     prepare(parser.parse_args().root)
