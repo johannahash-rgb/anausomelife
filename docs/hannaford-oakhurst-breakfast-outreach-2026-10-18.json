@@ -1,0 +1,62 @@
+{
+  "version": 1,
+  "date": "2026-10-18",
+  "article": "https://anausomelife.com/hannaford-maine-breakfast-picnic.html",
+  "article_revision": "807a588fd5f65b31efbf90d64c6bdacfadf93e63",
+  "authorization": "Owner explicitly requested: Share with Hannaford and oakhurst.",
+  "sender_basis": "Existing owner direction prefers hello@anausomelife.com. Resend confirmed anausomelife.com is verified with sending enabled; the previous Hannaford conversation used this same sender.",
+  "recipient_resolution": [
+    {
+      "brand": "Hannaford",
+      "to": "hannaford@redthreadpr.com",
+      "role": "Red Thread PR on behalf of Hannaford",
+      "source": "https://www.globenewswire.com/news-release/2026/03/18/3258621/0/en/Hannaford-Supermarkets-donates-record-29-million-pounds-of-food-to-local-hunger-relief-organizations-in-2025.html",
+      "checked": "2026-10-18",
+      "decision": "Used the established agency conversation after finding the Caroline’s Cart notice delivered earlier the same evening. Sent this distinct newly requested breakfast story as a threaded addition using In-Reply-To and References. Did not also contact an additional Hannaford recipient.",
+      "parent_provider_id": "01a1513f-3b9b-7795-94d7-fb867934d0b0"
+    },
+    {
+      "brand": "Oakhurst",
+      "to": "bdonovan@ethos-marketing.com",
+      "name": "Belinda Donovan",
+      "role": "Listed press contact for Oakhurst",
+      "source": "https://www.oakhurstdairy.com/oakhurst-and-university-of-maine-team-up-to-launch-limited-edition-black-beary-flavored-whole-milk-celebrating-black-bear-pride/",
+      "checked": "2026-10-18",
+      "decision": "Exact named press contact printed on the company’s 2026 release. No prior breakfast-story message found in the checked mail history."
+    }
+  ],
+  "duplicate_check": "Searched relevant current correspondence in the primary connected Gmail account and reviewed the latest 100 Resend messages covering October 16–18. Found one different Hannaford Caroline’s Cart notice, read it and preserved its thread. Found no previous breakfast-story send to either selected recipient.",
+  "messages": [
+    {
+      "brand": "Hannaford",
+      "id": "01a15153-2acb-7b66-ac11-374144a6606f",
+      "message_id": "<010001a151532bfc-93da2d15-e6c3-4adf-bc07-d206f40c854d-000000@email.amazonses.com>",
+      "from": "An AUsome Life <hello@anausomelife.com>",
+      "to": "hannaford@redthreadpr.com",
+      "subject": "Re: Thank you, Hannaford - a New England Caroline's Cart resource to share",
+      "provider_status": "sent",
+      "created_at": "2026-10-18 23:22:47.535000+00",
+      "idempotency_key": "aal-wells-breakfast-20261018-hannaford-v1",
+      "body_text": "Hello Hannaford and Red Thread PR team,\n\nOne little family story to add to my earlier note: we’ve just published a Saturday breakfast picnic from our off-season trip to Wells, Maine, with Hannaford at the heart of it.\n\nRead the story: https://anausomelife.com/hannaford-maine-breakfast-picnic.html\n\nWe picked up muffins, chocolate-frosted donuts, cold brew and Oakhurst eggnog, then found a picnic table by the water. We’d brought our own plates and glasses, so we made eggnog cold brews while James enjoyed his eggnog on its own.\n\nHannaford has been a familiar pleasure since my years in Vermont. James loves grocery shopping so much that other shoppers commented, and we proudly shared that he is often the grocery-store trip leader in his classroom. My favorite butter rum muffins were sold out, but we found plenty else to enjoy.\n\nWe enjoyed breakfast so much that we forgot to take a waterfront photo! The piece includes our original shopping photographs, a captioned editorial watercolor and a simple picnic idea other families can borrow.\n\nPlease share the story link with your social and community teams. We’d love to see it passed along through Hannaford’s channels. The page includes suggested captions and two downloadable text graphics for organic social sharing with An AUsome Life / @anausomelife credit and a link.\n\nSharing captions and graphics: https://anausomelife.com/hannaford-maine-breakfast-picnic.html#share-this-story\n\nThank you for being part of a lovely Maine morning.\n\nWarmly,\nAn AUsome Life\nhttps://anausomelife.com/media/\nInstagram: @anausomelife"
+    },
+    {
+      "brand": "Oakhurst",
+      "id": "01a15153-446f-74a0-b5a1-aa1717d78d36",
+      "message_id": "<010001a151534587-9be22943-fc4d-4592-acdb-5b020976b424-000000@email.amazonses.com>",
+      "from": "An AUsome Life <hello@anausomelife.com>",
+      "to": "bdonovan@ethos-marketing.com",
+      "subject": "It’s never off-season for eggnog: Oakhurst in our Wells breakfast story",
+      "provider_status": "delivered",
+      "created_at": "2026-10-18 23:22:54.102000+00",
+      "idempotency_key": "aal-wells-breakfast-20261018-oakhurst-v1",
+      "body_text": "Hi Belinda,\n\nWe’ve just published a little family story featuring Oakhurst eggnog, and I thought you and the Oakhurst social team would enjoy it.\n\nDuring our off-season trip to Wells, Maine, we picked up Oakhurst eggnog at Hannaford and found a picnic table by the water. We’d brought our own plates and glasses, so we made eggnog cold brews while our son James enjoyed his eggnog on its own.\n\nRead the story: https://anausomelife.com/hannaford-maine-breakfast-picnic.html\n\nWe enjoyed breakfast so much that we forgot to take a waterfront photo. Alongside our original shopping photographs, the story includes a captioned editorial watercolor inspired by the morning, with an Oakhurst eggnog jug and the line: “It’s never off-season for eggnog.”\n\nIt’s an easy little family outing idea: pick up breakfast, bring a few familiar things for the table and find somewhere lovely to sit together.\n\nWe’d love for Oakhurst to share the story link through its social and community channels. The page includes suggested captions and two downloadable text graphics for organic social sharing with An AUsome Life / @anausomelife credit and a link.\n\nSharing captions and graphics: https://anausomelife.com/hannaford-maine-breakfast-picnic.html#share-this-story\n\nThank you for being part of our Maine breakfast!\n\nWarmly,\nAn AUsome Life\nhttps://anausomelife.com/media/\nInstagram: @anausomelife"
+    }
+  ],
+  "scope": {
+    "sent": "Two individual tailored story-sharing emails with the canonical article and its authored sharing-section link.",
+    "invitation": "Invited the teams to share the story link and the two existing approved text graphics with publication credit.",
+    "permissions": "No new permission for family-photo, watercolor, paid-advertising or archive reuse was granted.",
+    "native_social": "No native social post or repost performed.",
+    "results": "Provider delivery state recorded for each email. No brand reply, repost, endorsement, reach or readership asserted."
+  }
+}
