@@ -61,5 +61,33 @@
     "https://congdons.com/allergens/",
     "https://cadfoodtrucks.com/",
     "https://cadfoodtrucks.com/faq/"
+  ],
+  "owner_visit_context": {
+    "clarified_on": "2026-10-18",
+    "source": "Owner’s direct account in the Congdon’s post conversation.",
+    "time": "A pleasant Maine Sunday morning in mid-October.",
+    "setting": "The family chose to eat outdoors in the area used by Congdon’s After Dark because it was not busy during their morning visit.",
+    "firsthand": [
+      "James had room to dance and feel the air.",
+      "The owner took the photographs in that outdoor area during the morning stop.",
+      "The family noticed the cornhole-board sign and would like to play during a future visit because they all love cornhole."
+    ],
+    "scope": "They did not attend After Dark evening food-truck service or borrow/play cornhole during this visit. Do not generalize this one morning’s quiet to typical operating conditions.",
+    "cornhole_evidence": "The original photographed sign says to sign out boards at the bar truck free of charge. The sign is evidence of the displayed offer, not verified future availability."
+  },
+  "review_context": [
+    {
+      "url": "https://www.tripadvisor.com/Restaurant_Review-g40951-d632784-Reviews-Congdon_s_Doughnuts-Wells_Maine.html",
+      "review_dates": [
+        "2025-08-31",
+        "2026-04-02"
+      ],
+      "used_for": "Brief attributed notes about the queue, sell-outs and advance ordering; not the owner’s own ordering experience."
+    },
+    {
+      "url": "https://www.tripadvisor.com.au/ShowUserReviews-g40951-d13451199-r1023857736-Congdon_s_After_Dark-Wells_Maine.html",
+      "review_month": "2025-08",
+      "used_for": "Brief attributed note about food-truck variety for a group’s dinner; not an An AUsome Life review of evening service."
+    }
   ]
 }
