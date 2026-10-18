@@ -21,13 +21,15 @@ class Publication(unittest.TestCase):
         with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp)
             full = '<!doctype html><html><head><title>Page</title></head><body><main><h1>Page</h1></main></body></html>'
-            documents = {'index.html':full, 'media/index.html':full,
+            # This generic nested-page fixture must not impersonate the media
+            # template, whose required editorial anchors are tested separately.
+            documents = {'index.html':full, 'nested/index.html':full,
                          'redirect.html':'<html><head><meta http-equiv="refresh" content="0;url=/"></head></html>',
                          'content/fragment.html':'<main>A reusable fragment</main>', 'docs/private.html':full}
             for path, content in documents.items():
                 p = root / path; p.parent.mkdir(parents=True, exist_ok=True); p.write_text(content)
             edition.prepare(root)
-            for path in ('index.html', 'media/index.html'):
+            for path in ('index.html', 'nested/index.html'):
                 result = (root / path).read_text()
                 self.assertEqual(result.count('/assets/access-tools.js'), 1)
                 self.assertEqual(result.count('/assets/access-tools.css'), 1)
@@ -38,6 +40,31 @@ class Publication(unittest.TestCase):
             first = (root / 'index.html').read_text()
             edition.prepare(root)
             self.assertEqual(first, (root / 'index.html').read_text())
+
+    def test_real_media_template_keeps_tools_and_inquiry_once(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            page = root / 'media/index.html'
+            page.parent.mkdir(parents=True)
+            page.write_text((ROOT / 'media/index.html').read_text(encoding='utf-8'), encoding='utf-8')
+            edition.prepare(root)
+            first = page.read_text(encoding='utf-8')
+            for asset in ('access-tools.js', 'access-tools.css', 'growth-readiness.css', 'inquiry-builder.js'):
+                self.assertEqual(first.count('/assets/' + asset), 1, asset)
+            for identifier in ('products', 'testing', 'press-desk', 'contact', 'editorial-inquiry'):
+                self.assertEqual(first.count('id="' + identifier + '"'), 1, identifier)
+            self.assertIn('data-brand-banner', first)
+            edition.prepare(root)
+            self.assertEqual(first, page.read_text(encoding='utf-8'))
+
+    def test_incomplete_media_template_still_fails_closed(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            page = root / 'media/index.html'
+            page.parent.mkdir(parents=True)
+            page.write_text('<html><head><title>Media</title></head><body><main><h1>Media</h1></main></body></html>')
+            with self.assertRaisesRegex(ValueError, 'Cannot find insertion anchor for products'):
+                edition.prepare(root)
 
     def test_existing_asset_versions_refresh_without_duplicate_controls(self):
         with tempfile.TemporaryDirectory() as tmp:
