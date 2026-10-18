@@ -43,8 +43,26 @@
   "outreach": {
     "verified_general_email": "info@safehavenhumanesociety.org",
     "source": "https://www.safehavenhumanesociety.org/contact/",
-    "status": "No Safe Haven notice sent in this task."
+    "status": "Delivered to info@safehavenhumanesociety.org.",
+    "email_id": "01a15135-7e33-7d23-a4a5-83bafefa2228",
+    "delivered_at_utc": "2026-10-18 22:50 UTC",
+    "delivery_scope": "Delivery confirmed in the current conversation; no reply, repost or endorsement inferred."
   },
   "native_social_publication": "Not published in this task.",
-  "observed_brand_share": "Unverified; no repost or endorsement claimed."
+  "observed_brand_share": "Unverified; no repost or endorsement claimed.",
+  "owner_followup": {
+    "source": "Direct owner message in the current conversation, October 18, 2026.",
+    "statement": "Mention a $1 ll bean as our favorite find and a vintage Tommy jeans velour shirt so james can look retro cool at the upcoming dance for school - the inveterate thrifter recommend it for. Him",
+    "supported_facts": [
+      "A $1 L.L.Bean find was the family’s favorite find during the Safe Haven visit.",
+      "The same inveterate thrifter recommended a vintage Tommy Jeans velour shirt for James, with his upcoming school dance in mind.",
+      "The owner described the intended look as retro cool."
+    ],
+    "publication_limits": [
+      "The L.L.Bean item type is unspecified; do not identify a photograph as showing it without further evidence.",
+      "No purchase claim is established for either item; the $1 price applies only to the L.L.Bean find.",
+      "Do not claim James chose, wore or reacted to the shirt. Do not add a school identity or dance date.",
+      "The shopper’s favorite-store opinion and clearance directions remain attributed to him. Stock and prices can change."
+    ]
+  }
 }

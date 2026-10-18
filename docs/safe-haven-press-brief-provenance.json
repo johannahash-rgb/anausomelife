@@ -1,0 +1,36 @@
+{
+  "title": "Safe Haven in Wells: story brief",
+  "created": "2026-10-18",
+  "author": "An AUsome Life",
+  "basis": "Original publication-written typography and text; no photographs, external graphics or source artwork embedded.",
+  "owner_facts": [
+    "L.L.Bean for $1 was the family's favorite find; item type unspecified.",
+    "The same inveterate thrifter recommended a vintage Tommy Jeans velour shirt for James's upcoming school dance.",
+    "That shopper described Safe Haven as his best store and pointed out the $1 clearance walls at the side and back."
+  ],
+  "sources": [
+    "https://www.safehavenhumanesociety.org/shop/",
+    "https://www.safehavenhumanesociety.org/about-safe-haven/"
+  ],
+  "fonts": {
+    "ThriftSans": "LiberationSans-Regular.ttf",
+    "ThriftSansBold": "LiberationSans-Bold.ttf",
+    "ThriftSerif": "LiberationSerif-Regular.ttf"
+  },
+  "output": {
+    "path": "downloads/safe-haven-press-brief.pdf",
+    "sha256": "5211bc6acff8ac95f0a3a0203a70118f5a862eada2e9b904b4262304bf51646b",
+    "bytes": 65552,
+    "pages": 1,
+    "page_dimensions_pt": [
+      612,
+      792
+    ]
+  },
+  "review": {
+    "text_extraction": "passed",
+    "hyperlinks": 7,
+    "visual": "Reviewed rendered one-page PDF at 130 dpi: readable text, uncropped content, consistent spacing, no overlaps, accurate wording and exact sharing scope."
+  },
+  "sharing_scope": "The existing two social PNGs retain their exact-file organic-social permission. This PDF does not extend family-photo or other image rights."
+}
