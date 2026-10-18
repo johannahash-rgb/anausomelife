@@ -12,6 +12,10 @@
     "safe-haven-thrift-shop-wells-maine.html": {
       "provenance": "docs/safe-haven-social-card-provenance.json",
       "reviewed": "2026-10-18"
+    },
+    "hannaford-maine-breakfast-picnic.html": {
+      "provenance": "docs/hannaford-social-card-provenance.json",
+      "reviewed": "2026-10-18"
     }
   }
 }

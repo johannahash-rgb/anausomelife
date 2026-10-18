@@ -1,0 +1,56 @@
+{
+  "article": "/hannaford-maine-breakfast-picnic.html",
+  "recorded": "2026-10-18",
+  "assets": [
+    {
+      "source_upload": "IMG_9258.jpeg",
+      "asset": "/assets/hannaford-maine-breakfast/breakfast-at-checkout.jpeg",
+      "source_sha256": "660a49ad53cd1e224f9d291439fdd165b53ea69d2cb8a440fab3f25078c827bf",
+      "published_sha256": "58290688d7a48a3bde0de830f7f7ee25d26d8dadafd7c71929650963f7823512",
+      "dimensions": [
+        1152,
+        1536
+      ],
+      "basis": "Owner supplied the original photograph for the ongoing family-story publication task.",
+      "changes": "Removed EXIF, XMP, IPTC and comment metadata without recompression. Decoded photographic pixels, dimensions, proportions and ICC color profile verified unchanged."
+    },
+    {
+      "source_upload": "IMG_9256.jpeg",
+      "asset": "/assets/hannaford-maine-breakfast/checkout-total.jpeg",
+      "source_sha256": "9443bf1c84f5c700abd5f7d3ad486567d1a1b825d4d6c4135dbf6813a6f050a6",
+      "published_sha256": "298ee360e5db4bbce1225c3259b77d37ed3e3f55b562a4d999b0fa3c1495875d",
+      "dimensions": [
+        1152,
+        1536
+      ],
+      "basis": "Owner supplied the original photograph for the ongoing family-story publication task.",
+      "changes": "Removed EXIF, XMP, IPTC and comment metadata without recompression. Decoded photographic pixels, dimensions, proportions and ICC color profile verified unchanged."
+    }
+  ],
+  "excluded_uploads": {
+    "IMG_9257.jpeg": "Near-duplicate breakfast photograph; used to read the Oakhurst cap, not repeated in the article. Original upload remains unchanged."
+  },
+  "sharing_scope": "Editorial article and site promotion only. Separate text-graphic permission does not grant reuse rights to these photographs.",
+  "owner_visit_context": {
+    "visit": "A quick Saturday morning breakfast stop at Hannaford in Maine; no specific branch, picnic table or calendar visit date asserted.",
+    "picnic": "The family found a waterside picnic table and brought their own plates and glasses.",
+    "drinks": "Adults mixed eggnog and cold brew; James had eggnog without coffee.",
+    "connection": "The owner lived in Vermont for a long time and has loved Hannaford for years.",
+    "bakery": "The owner's favorite butter rum muffins were sold out; the family still enjoyed breakfast.",
+    "james": "James loves grocery shopping. Other shoppers commented on his enjoyment, and the family proudly shared that he often leads his classroom grocery trips."
+  },
+  "photo_evidence": [
+    "Four-pack of assorted muffins, chocolate-frosted donuts, bottled cold brew and eggnog.",
+    "Oakhurst cap URL and OAK EGG NOG QRT checkout abbreviation.",
+    "Checkout total $16.73 including displayed $0.92 tax and $0.05 bottle deposit."
+  ],
+  "facts_checked": [
+    "https://www.oakhurstdairy.com/about-us/",
+    "https://www.oakhurstdairy.com/our_products/eggnog/eggnog-3/"
+  ],
+  "scope_limits": [
+    "No precise store or picnic address inferred.",
+    "No universal accessibility, noise, service or product-availability claim.",
+    "No sponsorship, brand endorsement, repost or audience outcome asserted."
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "article": "https://anausomelife.com/hannaford-maine-breakfast-picnic.html",
+  "checked": "2026-10-18",
+  "firsthand_basis": "Owner's current story notes and three original photographs supplied for the ongoing An AUsome Life outing-to-story workflow.",
+  "brand_identity": {
+    "name": "Oakhurst",
+    "photo_evidence": "OAK EGG NOG QRT on the checkout display and oakhurstdairy.com on the red bottle cap.",
+    "official_sources": [
+      "https://www.oakhurstdairy.com/about-us/",
+      "https://www.oakhurstdairy.com/our_products/eggnog/eggnog-3/"
+    ],
+    "published_claim": "Longtime Portland dairy; no independent ownership or exact eggnog manufacturing-site claim."
+  },
+  "accounts": [
+    {
+      "brand": "Oakhurst",
+      "platform": "Facebook",
+      "url": "https://www.facebook.com/OakhurstDairy/",
+      "status": "Verified from current official company page",
+      "source": "https://www.oakhurstdairy.com/oakhurst-fuel-your-adventures-chocolate-milk-sweepstakes-sweepstakes-official-rules/",
+      "checked": "2026-10-18"
+    },
+    {
+      "brand": "Oakhurst",
+      "platform": "Instagram",
+      "url": "https://www.instagram.com/oakhurstdairy/",
+      "status": "Verified independently from current official company page",
+      "source": "https://www.oakhurstdairy.com/oakhurst-fuel-your-adventures-chocolate-milk-sweepstakes-sweepstakes-official-rules/",
+      "checked": "2026-10-18"
+    },
+    {
+      "brand": "Hannaford",
+      "platform": "Facebook",
+      "url": "https://www.facebook.com/Hannaford",
+      "status": "Third-party contributor-profile link corroborated; current company-site verification incomplete. Omitted from public suggested tags.",
+      "source": "https://fruitsandveggies.org/about/expert-contributors/hannaford-supermarkets/",
+      "checked": "2026-10-18"
+    },
+    {
+      "brand": "Hannaford",
+      "platform": "Instagram",
+      "url": "https://instagram.com/hannafordmkts",
+      "status": "Third-party contributor-profile link corroborated; current company-site verification incomplete. Omitted from public suggested tags.",
+      "source": "https://fruitsandveggies.org/about/expert-contributors/hannaford-supermarkets/",
+      "checked": "2026-10-18"
+    }
+  ],
+  "editorial_review": {
+    "all_requested_details": "Preserved",
+    "unsupported_recipe_detail": "Removed an unsupported statement about measuring; no ratios or unreported preparation steps asserted.",
+    "location": "Maine only. No precise Hannaford store, town or picnic table inferred.",
+    "school": "Classroom grocery-trip leadership reported as the owner's observation without publishing a school name.",
+    "photo_selection": "Use distinct grocery and checkout photographs; do not repeat a near-duplicate or substitute a waterfront photograph from another outing.",
+    "price": "Displayed visit-specific total $16.73, not a current quoted deal."
+  },
+  "scope": {
+    "publication": "Website article, journal entry, indexed source, short story redirect and reviewed sharing package.",
+    "native_social": "No native platform publication performed by this work.",
+    "outreach": "No external message sent by this work.",
+    "observed_reposts": "No repost result asserted.",
+    "permissions": "Separate exact-file permission for two original typography social downloads only."
+  }
+}

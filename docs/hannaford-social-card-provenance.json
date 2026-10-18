@@ -1,0 +1,543 @@
+{
+  "title": "Hannaford Maine breakfast story graphics: provenance and exact-file sharing scope",
+  "created": "2026-10-18",
+  "publication": "An AUsome Life",
+  "canonical_story": "https://anausomelife.com/hannaford-maine-breakfast-picnic.html",
+  "owner_direction": "Current-session firsthand story about Hannaford breakfast shopping in Maine, a waterside picnic table, plates and glasses brought from home, and eggnog cold brew for the adults with eggnog for James. Standing owner direction requires a reviewed sharing package for a comparable place story.",
+  "generator": "tools/build_hannaford_social_cards.py",
+  "generator_sha256": "cae1484230804ba04041f3516eb2e3afebe015db9d40e8a7a3ebcb48bd7b3a26",
+  "method": "Original code-native exact typography and vector rules, drawn to a temporary PDF with embedded fonts and rendered to PNG using Poppler at 72 dpi. No bitmap editing. The reproducible source is the Python generator; the temporary PDF is not hosted.",
+  "sources": [],
+  "new_generation": false,
+  "family_photographs_used_in_social_downloads": false,
+  "brand_logos_used_in_social_downloads": false,
+  "venue_logos_used_in_social_downloads": false,
+  "third_party_artwork_used": false,
+  "fonts_embedded_in_source": {
+    "HannafordSerif": {
+      "filename": "LiberationSerif-Regular.ttf",
+      "sha256": "058ea80864aef09a23f45cbec2bb5400bc3dfbdea01c3f10538a21fcb497fb74"
+    },
+    "HannafordSans": {
+      "filename": "LiberationSans-Regular.ttf",
+      "sha256": "76d04c18ea243f426b7de1f3ad208e927008f961dc5945e5aad352d0dfde8ee8"
+    },
+    "HannafordSansBold": {
+      "filename": "LiberationSans-Bold.ttf",
+      "sha256": "788abee4c806d660e8aee46689dd8540cd4bb98da03dcc9d171ce3efd99a9173"
+    }
+  },
+  "public_notice": "Independent family story · October 2026",
+  "layout_reasoning": [
+    "A plainly typeset Hannaford, Maine line identifies the subject without copying a logo or suggesting official brand materials.",
+    "The oversized serif headline preserves an ordinary family pleasure; the practical takeaway is stated in three short instructions.",
+    "The eggnog note describes only the owner's reported drinks and makes no unverified local-manufacturer claim.",
+    "Cream, coastal navy, pine and restrained rules preserve the publication's refined New England visual direction without inventing a waterfront image.",
+    "The tall export reserves generous top and bottom regions for common interface overlays; this is a design choice, not a guarantee for every platform.",
+    "All three graphics include independent publication credit, its handle and the direct short story address anausomelife.com/hannaford/. The social downloads also carry the visit month; the canonical destination is specified in the article's accompanying captions and reuse terms.",
+    "The landscape image is a website link-preview asset only. It is not one of the approved organic social downloads and is excluded from the exact-file sharing permission below.",
+    "The original documentary photograph remains the article hero; these graphics contain no family or venue depiction."
+  ],
+  "scoped_organic_sharing_intent": {
+    "assets_only": [
+      "downloads/hannaford-breakfast-social-feed.png",
+      "downloads/hannaford-breakfast-social-story.png"
+    ],
+    "permitted_intended_use": "Share these two finished PNG graphics unchanged in organic social posts or Stories, with An AUsome Life / @anausomelife credit and a link to https://anausomelife.com/hannaford-maine-breakfast-picnic.html. Preserve all embedded text and credit.",
+    "scope_limits": "Applies only to downloads/hannaford-breakfast-social-feed.png and downloads/hannaford-breakfast-social-story.png as recorded by their hashes here. No rights are granted to the Open Graph preview, family photographs, other website or archive content, brand logos, source files, paid advertising, merchandising, edits or other reuse. This is not permission to imply a brand partnership or endorsement and grants no rights the publication does not control.",
+    "authorization_basis": "Owner-directed current-session firsthand story and standing direction to prepare story-specific sharing materials, using original publication-created typography and ordinary-text editorial brand identification."
+  },
+  "outputs": [
+    {
+      "path": "downloads/hannaford-breakfast-social-feed.png",
+      "role": "organic_social_download",
+      "dimensions": [
+        1080,
+        1350
+      ],
+      "bytes": 104598,
+      "sha256": "bfa639a7cf5ffb3b0c4121ecaeb03e2b29e04612b943702fa4add9a468b7fb1d",
+      "alt_text": "Cream typographic graphic with navy serif text reading: A grocery run, then breakfast by the water. A pine-green heading identifies Hannaford, Maine. The breakfast idea reads: Pack your own plates & glasses. Pick up breakfast. Find a picnic table. A note says: Eggnog cold brew for us. Eggnog for James. Credit: An AUsome Life, @anausomelife. Read the story: anausomelife.com/hannaford/. Independent family story, October 2026. No photographs or logos appear.",
+      "critical_safe_area": {
+        "top_px": 80,
+        "bottom_px": 48,
+        "side_px": 88
+      }
+    },
+    {
+      "path": "downloads/hannaford-breakfast-social-story.png",
+      "role": "organic_social_download",
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "bytes": 109097,
+      "sha256": "5471c7c8a5df29fceb6338aea1a79086140da345fb6e880580f06dfffcfb478e",
+      "alt_text": "Cream typographic graphic with navy serif text reading: A grocery run, then breakfast by the water. A pine-green heading identifies Hannaford, Maine. The breakfast idea reads: Pack your own plates & glasses. Pick up breakfast. Find a picnic table. A note says: Eggnog cold brew for us. Eggnog for James. Credit: An AUsome Life, @anausomelife. Read the story: anausomelife.com/hannaford/. Independent family story, October 2026. No photographs or logos appear.",
+      "critical_safe_area": {
+        "top_px": 220,
+        "bottom_px": 260,
+        "side_px": 88
+      }
+    },
+    {
+      "path": "assets/hannaford-maine-breakfast/hannaford-maine-breakfast-og.png",
+      "role": "open_graph_preview",
+      "dimensions": [
+        1200,
+        630
+      ],
+      "bytes": 78692,
+      "sha256": "b6f2f4beafdfc276b87b0e87b4972177be02a9b8e30dda116dd97798f117809f",
+      "alt_text": "Cream landscape graphic headed Hannaford, Maine. A navy serif headline reads: A grocery run, then breakfast by the water. Pine-green text at right reads: Pack your own plates & glasses. Pick up breakfast. Find a picnic table. Below it: Eggnog cold brew for us. Eggnog for James. The footer credits An AUsome Life and @anausomelife and reads: Read the story: anausomelife.com/hannaford/. No photographs or logos appear.",
+      "critical_safe_area": {
+        "top_px": 40,
+        "bottom_px": 30,
+        "side_px": 64
+      }
+    }
+  ],
+  "validation": {
+    "automated": "Exact text extracted from all three vector pages; text bounds checked against declared safe regions and pairwise overlap; PNG signatures, dimensions, file sizes and final hashes checked.",
+    "visual_review": "Completed 2026-10-18 after regenerating and inspecting all three final PNG exports with the direct short story destination anausomelife.com/hannaford/. The longer CTA remains readable on one line in all three layouts, without clipping or overlap. The headline and plain Hannaford / Maine identification remain legible. Both social cards retain the complete breakfast idea, eggnog note, credit, handle and independent-story month line. The tall composition keeps all text within its declared top and bottom margins. The landscape preview uses a separate right-hand practical column. All three contain only typography and vector rules, with no photograph, family portrayal, copied logo or invented waterfront. Exact descriptions were compared with final visible content. PNG pixel data was decoded and every output hash deliberately rechecked after inspection.",
+    "reviewed": "2026-10-18",
+    "revision": "Direct story destination added to all three graphics. Short redirect integration and destination verification belong to the parent publication task; this graphic review does not establish live URL availability."
+  },
+  "layout_bounds": {
+    "feed": [
+      {
+        "text": "Hannaford • Maine",
+        "font_px": 31,
+        "tracking_px": 1.2,
+        "bounds": [
+          88,
+          152.43,
+          378.13,
+          181.52
+        ]
+      },
+      {
+        "text": "A grocery run,",
+        "font_px": 104,
+        "tracking_px": 0,
+        "bounds": [
+          88,
+          265.89,
+          697.32,
+          360.45
+        ]
+      },
+      {
+        "text": "then breakfast",
+        "font_px": 104,
+        "tracking_px": 0,
+        "bounds": [
+          88,
+          377.89,
+          674.17,
+          472.45
+        ]
+      },
+      {
+        "text": "by the water.",
+        "font_px": 104,
+        "tracking_px": 0,
+        "bounds": [
+          88,
+          489.89,
+          628.01,
+          584.45
+        ]
+      },
+      {
+        "text": "Pack your own plates & glasses.",
+        "font_px": 40,
+        "tracking_px": 0,
+        "bounds": [
+          88,
+          717.88,
+          663.84,
+          755.42
+        ]
+      },
+      {
+        "text": "Pick up breakfast.",
+        "font_px": 40,
+        "tracking_px": 0,
+        "bounds": [
+          88,
+          775.88,
+          405.93,
+          813.42
+        ]
+      },
+      {
+        "text": "Find a picnic table.",
+        "font_px": 40,
+        "tracking_px": 0,
+        "bounds": [
+          88,
+          833.88,
+          421.52,
+          871.42
+        ]
+      },
+      {
+        "text": "Eggnog cold brew for us.",
+        "font_px": 31,
+        "tracking_px": 0,
+        "bounds": [
+          88,
+          938.43,
+          430.92,
+          967.52
+        ]
+      },
+      {
+        "text": "Eggnog for James.",
+        "font_px": 31,
+        "tracking_px": 0,
+        "bounds": [
+          88,
+          982.43,
+          348.2,
+          1011.52
+        ]
+      },
+      {
+        "text": "An AUsome Life",
+        "font_px": 40,
+        "tracking_px": 0,
+        "bounds": [
+          88,
+          1098.27,
+          365.71,
+          1134.63
+        ]
+      },
+      {
+        "text": "@anausomelife",
+        "font_px": 27,
+        "tracking_px": 0,
+        "bounds": [
+          88,
+          1151.34,
+          276.01,
+          1176.68
+        ]
+      },
+      {
+        "text": "Read the story: anausomelife.com/hannaford/",
+        "font_px": 29,
+        "tracking_px": 0,
+        "bounds": [
+          88,
+          1207.89,
+          674.78,
+          1235.1
+        ]
+      },
+      {
+        "text": "Independent family story · October 2026",
+        "font_px": 23,
+        "tracking_px": 0,
+        "bounds": [
+          88,
+          1268.26,
+          498.4,
+          1289.84
+        ]
+      }
+    ],
+    "story": [
+      {
+        "text": "Hannaford • Maine",
+        "font_px": 31,
+        "tracking_px": 1.2,
+        "bounds": [
+          88,
+          302.43,
+          378.13,
+          331.52
+        ]
+      },
+      {
+        "text": "A grocery run,",
+        "font_px": 104,
+        "tracking_px": 0,
+        "bounds": [
+          88,
+          431.89,
+          697.32,
+          526.45
+        ]
+      },
+      {
+        "text": "then breakfast",
+        "font_px": 104,
+        "tracking_px": 0,
+        "bounds": [
+          88,
+          544.89,
+          674.17,
+          639.45
+        ]
+      },
+      {
+        "text": "by the water.",
+        "font_px": 104,
+        "tracking_px": 0,
+        "bounds": [
+          88,
+          657.89,
+          628.01,
+          752.45
+        ]
+      },
+      {
+        "text": "Pack your own plates & glasses.",
+        "font_px": 40,
+        "tracking_px": 0,
+        "bounds": [
+          88,
+          904.88,
+          663.84,
+          942.42
+        ]
+      },
+      {
+        "text": "Pick up breakfast.",
+        "font_px": 40,
+        "tracking_px": 0,
+        "bounds": [
+          88,
+          966.88,
+          405.93,
+          1004.42
+        ]
+      },
+      {
+        "text": "Find a picnic table.",
+        "font_px": 40,
+        "tracking_px": 0,
+        "bounds": [
+          88,
+          1028.88,
+          421.52,
+          1066.42
+        ]
+      },
+      {
+        "text": "Eggnog cold brew for us.",
+        "font_px": 33,
+        "tracking_px": 0,
+        "bounds": [
+          88,
+          1150.98,
+          453.05,
+          1181.94
+        ]
+      },
+      {
+        "text": "Eggnog for James.",
+        "font_px": 33,
+        "tracking_px": 0,
+        "bounds": [
+          88,
+          1198.98,
+          364.99,
+          1229.94
+        ]
+      },
+      {
+        "text": "An AUsome Life",
+        "font_px": 40,
+        "tracking_px": 0,
+        "bounds": [
+          88,
+          1377.27,
+          365.71,
+          1413.63
+        ]
+      },
+      {
+        "text": "@anausomelife",
+        "font_px": 27,
+        "tracking_px": 0,
+        "bounds": [
+          88,
+          1432.34,
+          276.01,
+          1457.68
+        ]
+      },
+      {
+        "text": "Read the story: anausomelife.com/hannaford/",
+        "font_px": 29,
+        "tracking_px": 0,
+        "bounds": [
+          88,
+          1490.89,
+          674.78,
+          1518.1
+        ]
+      },
+      {
+        "text": "Independent family story · October 2026",
+        "font_px": 23,
+        "tracking_px": 0,
+        "bounds": [
+          88,
+          1581.26,
+          498.4,
+          1602.84
+        ]
+      }
+    ],
+    "og": [
+      {
+        "text": "Hannaford • Maine",
+        "font_px": 25,
+        "tracking_px": 1,
+        "bounds": [
+          72,
+          71.8,
+          306.49,
+          95.26
+        ]
+      },
+      {
+        "text": "A grocery run,",
+        "font_px": 77,
+        "tracking_px": 0,
+        "bounds": [
+          72,
+          150.61,
+          523.13,
+          220.62
+        ]
+      },
+      {
+        "text": "then breakfast",
+        "font_px": 77,
+        "tracking_px": 0,
+        "bounds": [
+          72,
+          235.61,
+          505.99,
+          305.62
+        ]
+      },
+      {
+        "text": "by the water.",
+        "font_px": 77,
+        "tracking_px": 0,
+        "bounds": [
+          72,
+          320.61,
+          471.81,
+          390.62
+        ]
+      },
+      {
+        "text": "Pack your own",
+        "font_px": 29,
+        "tracking_px": 0,
+        "bounds": [
+          757,
+          157.89,
+          947.2,
+          185.1
+        ]
+      },
+      {
+        "text": "plates & glasses.",
+        "font_px": 29,
+        "tracking_px": 0,
+        "bounds": [
+          757,
+          198.89,
+          976.23,
+          226.1
+        ]
+      },
+      {
+        "text": "Pick up breakfast.",
+        "font_px": 29,
+        "tracking_px": 0,
+        "bounds": [
+          757,
+          264.89,
+          987.5,
+          292.1
+        ]
+      },
+      {
+        "text": "Find a picnic table.",
+        "font_px": 29,
+        "tracking_px": 0,
+        "bounds": [
+          757,
+          320.89,
+          998.8,
+          348.1
+        ]
+      },
+      {
+        "text": "Eggnog cold brew for us.",
+        "font_px": 23,
+        "tracking_px": 0,
+        "bounds": [
+          757,
+          402.26,
+          1011.43,
+          423.84
+        ]
+      },
+      {
+        "text": "Eggnog for James.",
+        "font_px": 23,
+        "tracking_px": 0,
+        "bounds": [
+          757,
+          437.26,
+          950.05,
+          458.84
+        ]
+      },
+      {
+        "text": "An AUsome Life",
+        "font_px": 34,
+        "tracking_px": 0,
+        "bounds": [
+          72,
+          526.43,
+          308.06,
+          557.34
+        ]
+      },
+      {
+        "text": "@anausomelife",
+        "font_px": 24,
+        "tracking_px": 0,
+        "bounds": [
+          901,
+          530.53,
+          1068.12,
+          553.05
+        ]
+      },
+      {
+        "text": "Read the story: anausomelife.com/hannaford/",
+        "font_px": 24,
+        "tracking_px": 0,
+        "bounds": [
+          72,
+          571.53,
+          557.61,
+          594.05
+        ]
+      }
+    ]
+  }
+}

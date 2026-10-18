@@ -2329,6 +2329,19 @@
       "provenance": "docs/thrift-shop-choice-board-provenance.json",
       "kind": "communication-board",
       "selection_reason": "Reviewed one-page shopping resource with clear objects and ten communication choices."
+    },
+    "hannaford-maine-breakfast-picnic.html": {
+      "image": "/assets/hannaford-maine-breakfast/hannaford-maine-breakfast-og.png",
+      "width": 1200,
+      "height": 630,
+      "mime": "image/png",
+      "card": "summary_large_image",
+      "type": "article",
+      "alt": "Cream landscape text graphic headed Hannaford, Maine. A grocery run, then breakfast by the water. The picnic idea is to pack plates and glasses, pick up breakfast and find a table. An AUsome Life / @anausomelife; anausomelife.com/hannaford/.",
+      "sha256": "b6f2f4beafdfc276b87b0e87b4972177be02a9b8e30dda116dd97798f117809f",
+      "provenance": "docs/hannaford-social-card-provenance.json",
+      "kind": "original-typographic-layout",
+      "selection_reason": "Reviewed original typography for an independently written family story; no synthetic picnic photo, logo or family-photo sharing grant. Original checkout photograph leads the article."
     }
   },
   "pending": {

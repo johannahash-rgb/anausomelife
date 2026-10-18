@@ -1,0 +1,25 @@
+/* A small breakfast field note, within the established photographic journal. */
+.breakfast-post .fn-cover{grid-template-columns:minmax(0,1.08fr) minmax(0,.92fr);align-items:center}
+.breakfast-post .fn-cover h1{max-width:16ch}
+.breakfast-post .fn-cover .fn-photo{width:100%;max-width:430px;justify-self:center}
+.breakfast-post .fn-photo img{width:100%;height:auto;object-fit:contain}
+.breakfast-jumps{display:flex;flex-wrap:wrap;gap:8px 26px;padding-block:12px 18px;border-bottom:1px solid #c9cebf}
+.breakfast-jumps a{display:inline-flex;align-items:center;min-height:48px;font-weight:700;font-size:.95rem}
+.breakfast-post .fn-story{margin-top:38px}
+.breakfast-plan{border-top:2px solid #244b3e;padding-top:28px}
+.breakfast-post .fn-choices{gap:28px;margin-top:28px}
+.breakfast-post .fn-practical summary,.breakfast-checkout summary{cursor:pointer;min-height:48px;line-height:1.55;padding:16px 0;font-weight:700}
+.breakfast-checkout{display:grid;grid-template-columns:minmax(0,1.35fr) minmax(0,.8fr);gap:48px;max-width:940px;margin-top:34px;padding-block:28px;border-top:1px solid #c9cebf}
+.breakfast-checkout h2{font:400 clamp(1.9rem,3vw,2.6rem)/1.2 Georgia,serif;margin:10px 0 22px;text-wrap:balance}
+.breakfast-checkout p{font-size:1.03rem;line-height:1.7}
+.breakfast-checkout .breakfast-small,.breakfast-small{font-size:.89rem;line-height:1.65}
+.breakfast-source-note{padding:24px;border-left:2px solid #244b3e;background:#f1f3eb;align-self:start;margin-top:20px}
+.breakfast-source-note h3{font:400 1.4rem/1.25 Georgia,serif;margin:0 0 15px}
+.breakfast-source-note p{font-size:.91rem;line-height:1.7}
+.breakfast-source-note ul{padding-left:20px;font-size:.92rem;line-height:1.9}
+.breakfast-post .breakfast-checkout-photo{max-width:410px;margin:10px 0 20px}
+.breakfast-post .aal-share-assets{align-items:start}
+.breakfast-post .aal-share-copy-text{overflow-wrap:anywhere}
+.breakfast-post section,.breakfast-post article{scroll-margin-top:35px}
+@media(max-width:760px){.breakfast-post .fn-cover,.breakfast-checkout{grid-template-columns:1fr}.breakfast-post .fn-cover h1{max-width:none}.breakfast-post .fn-cover .fn-photo{max-width:480px}.breakfast-checkout{gap:18px}.breakfast-source-note{margin-top:0}.breakfast-jumps{gap:6px 22px}}
+@media print{.breakfast-jumps,.breakfast-post .aal-story-share{display:none!important}.breakfast-checkout{grid-template-columns:1.3fr 1fr;gap:25px}.breakfast-source-note{background:#fff}.breakfast-post .fn-cover .fn-photo{max-width:200px}.breakfast-post .breakfast-checkout-photo{max-width:210px}}
