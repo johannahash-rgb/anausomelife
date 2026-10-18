@@ -23,3 +23,8 @@
 .breakfast-post section,.breakfast-post article{scroll-margin-top:35px}
 @media(max-width:760px){.breakfast-post .fn-cover,.breakfast-checkout{grid-template-columns:1fr}.breakfast-post .fn-cover h1{max-width:none}.breakfast-post .fn-cover .fn-photo{max-width:480px}.breakfast-checkout{gap:18px}.breakfast-source-note{margin-top:0}.breakfast-jumps{gap:6px 22px}}
 @media print{.breakfast-jumps,.breakfast-post .aal-story-share{display:none!important}.breakfast-checkout{grid-template-columns:1.3fr 1fr;gap:25px}.breakfast-source-note{background:#fff}.breakfast-post .fn-cover .fn-photo{max-width:200px}.breakfast-post .breakfast-checkout-photo{max-width:210px}}
+
+/* The original watercolor keeps its complete composition and transparent edges. */
+.breakfast-post .breakfast-watercolor{max-width:960px;margin-block:44px 38px;overflow:visible;background:transparent;border:0;border-radius:0;box-shadow:none;clip-path:none}
+.breakfast-post .breakfast-watercolor img{display:block;width:100%;height:auto;object-fit:contain;background:transparent;border:0;border-radius:0;box-shadow:none;clip-path:none;filter:none}
+.breakfast-post .breakfast-watercolor figcaption{max-width:760px;margin:12px auto 0;font:italic .87rem/1.5 Georgia,serif;color:#52635b;text-wrap:pretty}

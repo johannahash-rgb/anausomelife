@@ -1,0 +1,60 @@
+{
+  "version": 1,
+  "article": "hannaford-maine-breakfast-picnic.html",
+  "created": "2026-10-18",
+  "origin": "OpenAI built-in image generation tool; initial generation and owner-requested edit",
+  "authorization": "Owner requested an original watercolor for the existing Wells breakfast story, then requested the Oakhurst brand and the wording ‘It’s never off-season for eggnog.’ Existing owner direction authorizes publication of this story and its requested revisions.",
+  "assets": [
+    {
+      "path": "assets/hannaford-maine-breakfast/wells-waterside-breakfast-watercolor.png",
+      "mime": "image/png",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 3200321,
+      "sha256": "08903a7961ddbce38e2210ef24e012d184e549b11d3f0cdc31a9505d0ec2eae1",
+      "git_blob_sha": "22b3836ce4107b0b857d55547af91be9ed7332c1",
+      "transparent_background": true,
+      "purpose": "Original editorial illustration inspired by breakfast during the family’s off-season Wells trip.",
+      "intended_use": "Display on the An AUsome Life article as a captioned illustration. No additional third-party redistribution, paid-media or merchandise permission is granted by this record.",
+      "basis": "Generated at the owner's request from an original scene prompt, then edited using the generated draft and an owner-supplied original photograph only as a container shape/color reference. No third-party source photograph or copied artwork was supplied.",
+      "limits": "An interpretive watercolor, not a documentary view of the exact picnic location, table, actual tableware or complete official product label. Oakhurst is named to identify the eggnog in the family’s story; no sponsorship or brand approval is claimed. The user-requested name appears on a simplified painted jug label, not as a separately licensed logo asset. AI origin does not establish exclusive copyright or blanket legal clearance.",
+      "public_caption": "Original editorial illustration, inspired by breakfast during our off-season Wells trip.",
+      "disclosure": "/disclosure.html#images",
+      "visual_review": {
+        "status": "Reviewed before publication",
+        "date": "2026-10-18",
+        "notes": "Title and subtitle correctly read Waterside Breakfast in Wells and It’s never off-season for eggnog. Oakhurst and Egg Nog are legible on a cream jug with red cap. Three plates, two coffee glasses and one plain eggnog glass are visible. The composition remains an uncropped watercolor vignette with organic alpha edges. No people, personal identifiers, protected characters, access claims or recognizable landmark are depicted.",
+        "alpha_range": [
+          0,
+          254
+        ],
+        "transparent_pixels": 320639,
+        "corner_alpha": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    }
+  ],
+  "reference_inputs": [
+    {
+      "kind": "original generated draft",
+      "sha256": "e772f1ba341c52bf3bba5dbc824f6a13cd745d8eb9e594ca8dc406d402f3fdab",
+      "use": "Preserved watercolor composition, type, food and scenery."
+    },
+    {
+      "kind": "owner-supplied photograph",
+      "filename": "IMG_9258.jpeg",
+      "sha256": "660a49ad53cd1e224f9d291439fdd165b53ea69d2cb8a440fab3f25078c827bf",
+      "use": "Reference only for the photographed Oakhurst quart jug’s cream color, red cap and molded handle; no checkout background incorporated."
+    }
+  ],
+  "prompts": {
+    "initial": "Create a lovely, refined original ink-and-watercolor editorial illustration for a family story about an off-season Saturday morning breakfast during a Wells, Maine trip. This is illustrative atmosphere, not a documentary picture of an exact picnic location.\n\nComposition: generous landscape 3:2 canvas, one coherent fully visible watercolor vignette, softly irregular feathered transparent edges with room around all the artwork. In the upper third, on clear quiet negative space, beautiful highly legible dark-navy editorial serif lettering reads EXACTLY:\n\"Waterside Breakfast\"\n\"in Wells\"\nBelow that, a smaller elegant handwritten line reads EXACTLY:\n\"A little off-season pleasure\"\nCarefully proofread every word. Balanced typographic hierarchy; no other lettering.\n\nScene: an inviting, naturally proportioned weathered wooden picnic table beside quiet coastal Maine water, viewed at a gentle three-quarter angle. Three modest place settings with proper ivory ceramic plates with slender navy rims and real clear drinking glasses brought from home. Two taller glasses hold creamy eggnog cold brew with lovely subtle coffee-and-cream swirls; a smaller glass holds pale ivory eggnog on its own. Assorted golden bakery muffins and a couple of chocolate-frosted donuts with a few tiny sprinkles sit on the plates. A casually folded navy-and-cream linen napkin, warm wood grain, soft glass reflections. No coffee steam: these are cold drinks. The food should look appetizing and naturally sized, not oversized or cartoonish.\n\nBeyond the table, a tranquil sweep of blue-grey water, muted golden saltmarsh grasses, a distant low pine-green shoreline, and a little russet autumn foliage under luminous cool late-autumn morning light. Intimate, peaceful and quietly joyful. Refined New England character: Nantucket meets Vermont, warm cream, navy ink, pine green, subtle cranberry and honey-gold accents. Expressive transparent watercolor washes with visible pigment blooms, delicate fine pen detail, accurate perspective, artisanal paper-like brush texture within the pigment, graceful open space. Lovely original magazine illustration, sophisticated and age-respectful.\n\nKeep the full table-and-breakfast vignette inside the canvas; no cropping, frame, rounded mask, decorative border, artificial drop shadow, background rectangle, glossy 3D rendering, flat clip art or sticker style. No people, no synthetic family stand-ins, no animals, no logos, no branded packages, no signs, no invented recognizable landmark, no lighthouse, no buildings, no access-route depiction. Transparent background outside the organically edged painting and lettering.",
+    "final_edit": "Edit the FIRST reference image, the finished \"Waterside Breakfast in Wells\" watercolor, with two precise owner-requested changes.\n\n1. ADD OAKHURST EGGNOG. Add a naturally sized Oakhurst eggnog jug standing on the rear of the wooden picnic table in the open space between the left cold brew glass and the central plain eggnog glass. Use the SECOND reference image only for the purchased container's shape and colors: a creamy pale-yellow quart dairy jug with a molded side handle and bright red screw cap. Paint it in the same refined fine-ink-and-watercolor style. Give it a neat cream front label with clearly legible words \"Oakhurst\" and \"Egg Nog\" in tasteful green and navy. This is a simplified editorial label, not a recreation of unseen tiny official packaging copy. Do not invent slogans, awards, nutrition claims, promotional banners or endorsement language. Keep its base visibly grounded on the table with natural perspective. Do not cover the glasses, food, title, or main lettering. No checkout surroundings from the photograph may appear.\n\n2. CHANGE THE SUBTITLE. Keep the large dark navy title EXACTLY \"Waterside Breakfast\" / \"in Wells\". Replace the smaller script line \"A little off-season pleasure\" with the owner's new line EXACTLY:\n\"It’s never off-season for eggnog.\"\nMake this subtitle elegant, dark navy, centered, properly spelled and fully readable in the quiet area beneath the title. Size it comfortably to fit without touching the title or shoreline. No other added text except the jug's \"Oakhurst\" and \"Egg Nog\" label.\n\nPreserve the rest of the first image as closely as possible: its landscape 1536-by-1024 composition, organically edged transparency, detailed watercolor washes and pen lines, inviting quiet coastal Maine water, autumn grasses, distant low pine shoreline, naturally proportioned weathered picnic table, navy-and-cream linen, all three plates, muffins and chocolate-frosted sprinkled donuts, two marbled eggnog cold brew glasses, and one separate plain eggnog glass. Preserve natural sizing, lovely warm cream/navy/pine/honey-gold palette, positions and perspective. No people, extra brands, recognizable invented landmarks, cropping, border, background rectangle, artificial shadow, flat clip art or pasted photography. Transparent background outside the soft watercolor edge. Only the jug addition and subtitle replacement should change."
+  },
+  "sharing_package": "The article's separate exact-file sharing grant remains limited to the two previously approved typography social graphics."
+}
+

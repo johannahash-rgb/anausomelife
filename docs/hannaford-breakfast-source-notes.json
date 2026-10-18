@@ -1,7 +1,7 @@
 {
   "article": "https://anausomelife.com/hannaford-maine-breakfast-picnic.html",
   "checked": "2026-10-18",
-  "firsthand_basis": "Owner's current story notes and three original photographs supplied for the ongoing An AUsome Life outing-to-story workflow.",
+  "firsthand_basis": "Owner's current story notes and three original photographs supplied for the ongoing An AUsome Life outing-to-story workflow. The owner's follow-up identifies this breakfast as part of the family's off-season trip to Wells, Maine.",
   "brand_identity": {
     "name": "Oakhurst",
     "photo_evidence": "OAK EGG NOG QRT on the checkout display and oakhurstdairy.com on the red bottle cap.",
@@ -48,10 +48,14 @@
   "editorial_review": {
     "all_requested_details": "Preserved",
     "unsupported_recipe_detail": "Removed an unsupported statement about measuring; no ratios or unreported preparation steps asserted.",
-    "location": "Maine only. No precise Hannaford store, town or picnic table inferred.",
+    "location": "The owner explicitly identified the breakfast as occurring during the family's off-season Wells, Maine trip. This establishes the trip context, not the precise Hannaford branch, table location or waterfront landmark; none of those is inferred.",
+    "wells_revision": "Article metadata, opening text, article label, sharing captions and the existing journal card now state the off-season Wells trip context. Saturday and the reported family details are preserved. Existing photograph evidence, prices and social graphics are unchanged by this text revision.",
     "school": "Classroom grocery-trip leadership reported as the owner's observation without publishing a school name.",
     "photo_selection": "Use distinct grocery and checkout photographs; do not repeat a near-duplicate or substitute a waterfront photograph from another outing.",
-    "price": "Displayed visit-specific total $16.73, not a current quoted deal."
+    "price": "Displayed visit-specific total $16.73, not a current quoted deal.",
+    "eggnog_wording": "Owner follow-up: It’s never off-season for eggnog. Replaced the speculative eggnog-season line in the story and used this sentence as the watercolor subtitle.",
+    "watercolor": "Owner requested a Wells waterside breakfast watercolor, then requested the Oakhurst brand and the eggnog subtitle. Illustration is separately captioned and documented; the photograph remains the article hero.",
+    "waterfront_photo": "The owner explicitly reported enjoying breakfast so much that the family forgot to take a waterfront photograph. Added that observation to the closing paragraph immediately before the separately captioned watercolor."
   },
   "scope": {
     "publication": "Website article, journal entry, indexed source, short story redirect and reviewed sharing package.",
