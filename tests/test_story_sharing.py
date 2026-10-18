@@ -1,5 +1,6 @@
 """Release checks catch lost share packages and unreviewed downloadable images."""
 import importlib.util
+import json
 from pathlib import Path
 import shutil
 import tempfile
@@ -16,7 +17,16 @@ class StorySharingTests(unittest.TestCase):
     def setUp(self):
         self.folder = tempfile.TemporaryDirectory()
         self.root = Path(self.folder.name)
-        for relative in [STORY, 'downloads/congdons-social-feed.png', 'downloads/congdons-social-story.png']:
+        packages = json.loads((ROOT / 'docs/story-sharing-approvals.json').read_text())['packages']
+        self.package_count = len(packages)
+        files = set(packages)
+        self.download_count = 0
+        for record in packages.values():
+            provenance = json.loads((ROOT / record['provenance']).read_text())
+            assets = provenance['scoped_organic_sharing_intent']['assets_only']
+            files.update(assets)
+            self.download_count += len(assets)
+        for relative in files:
             destination = self.root / relative
             destination.parent.mkdir(parents=True, exist_ok=True)
             shutil.copyfile(ROOT / relative, destination)
@@ -26,7 +36,7 @@ class StorySharingTests(unittest.TestCase):
 
     def test_reviewed_static_package_is_complete(self):
         result = sharing.check(self.root)
-        self.assertEqual(result, {'packages': 1, 'downloads': 2, 'errors': []})
+        self.assertEqual(result, {'packages': self.package_count, 'downloads': self.download_count, 'errors': []})
 
     def test_regeneration_cannot_silently_drop_the_package(self):
         (self.root / STORY).write_text('<html><main><h1>Story remains</h1></main></html>')
