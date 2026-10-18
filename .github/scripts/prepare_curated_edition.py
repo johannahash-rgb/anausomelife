@@ -3,7 +3,7 @@
 import argparse,re,html,importlib.util
 from html.parser import HTMLParser
 from pathlib import Path
-VERSION='20261017-brand-conversion-v3'
+VERSION='20261018-growth-readiness'
 JOURNAL_PINS=(
     '/wayne-newton-flamingo-bucket-list-self-care.html',
     '/get-in-the-photograph.html',
@@ -72,6 +72,9 @@ def prepare(root):
     spec=importlib.util.spec_from_file_location('reader_pathways',Path(__file__).with_name('reader_pathways.py'))
     pathways=importlib.util.module_from_spec(spec);spec.loader.exec_module(pathways)
     pathways.prepare(root)
+    spec=importlib.util.spec_from_file_location('growth_readiness',Path(__file__).with_name('growth_readiness.py'))
+    growth=importlib.util.module_from_spec(spec);spec.loader.exec_module(growth)
+    growth.prepare(root)
 if __name__=='__main__':
     parser=argparse.ArgumentParser();parser.add_argument('--root',type=Path,required=True)
     prepare(parser.parse_args().root)

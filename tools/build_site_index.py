@@ -2,9 +2,11 @@
 """Refresh universal search from current public page text; never regenerates editorial pages."""
 from pathlib import Path
 from lxml import html
-import json,re,hashlib
+import argparse,json,re,hashlib
 from urllib.parse import urlparse
-ROOT=Path(__file__).resolve().parent.parent
+parser=argparse.ArgumentParser(description=__doc__)
+parser.add_argument('--root',type=Path,default=Path(__file__).resolve().parent.parent,help='Public source or prepared publication root')
+ROOT=parser.parse_args().root.resolve()
 rows=[]
 seen_content=set()
 preferred={row['url'] for row in json.loads((ROOT/'data/library.json').read_text())}
