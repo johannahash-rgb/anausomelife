@@ -2277,6 +2277,30 @@
       "provenance": [
         "Original image generated with the built-in image generation tool on October 16, 2026 for this owner-requested article. Reviewed for natural proportions, generic placard, absence of identifying permit data and visible illustration labeling. No third-party photograph or official credential reproduced."
       ]
+    },
+    "congdons-doughnuts-wells-maine.html": {
+      "image": "/assets/congdons-wells/family-by-the-sign.jpeg",
+      "width": 1536,
+      "height": 1152,
+      "mime": "image/jpeg",
+      "card": "summary_large_image",
+      "type": "article",
+      "alt": "James enjoying a doughnut beside his dad in front of the yellow Congdon’s Doughnuts sign in Wells.",
+      "sha256": "d2c90a68001de44533ab0849dbc02b78399047074402d37ecfa3c456891d7624",
+      "provenance": "docs/congdons-wells-photo-provenance.json"
+    },
+    "congdons-choice-board.html": {
+      "image": "/downloads/congdons-choice-board.png",
+      "width": 1530,
+      "height": 1980,
+      "mime": "image/png",
+      "card": "summary_large_image",
+      "type": "website",
+      "alt": "Printable Congdon’s choice board with four generic doughnut illustrations, something else, no, help and all done.",
+      "sha256": "009e9bc9f935aa0872953f58b42cf1332c5b0950010cf8487d6995debbe55766",
+      "kind": "communication-board",
+      "selection_reason": "Reviewed printable food-choice page made for the Congdon’s communication board.",
+      "provenance": "docs/congdons-choice-board-provenance.json"
     }
   },
   "pending": {

@@ -1,0 +1,104 @@
+{
+  "title": "Congdon’s choice board artwork and export provenance",
+  "created": "2026-10-18",
+  "publication": "An AUsome Life",
+  "page": "/congdons-choice-board.html",
+  "status": "Original assets reviewed for the requested editorial and communication-board use; no assertion of exhaustive legal review.",
+  "food_art": {
+    "source": "Built-in image_gen.imagegen; four separate generation calls with no reference images.",
+    "permission_basis": "Original generic artwork created at the site owner's request for this publication. No third-party product photographs, logos, packaging, characters, or likenesses were used as inputs.",
+    "public_disclosure": "Generic food illustrations; check today’s case before offering a choice. Footer explicitly identifies AI-generated generic food illustrations rather than Congdon’s product photographs.",
+    "post_processing": "Full composition preserved; converted to WebP at original 1254×1254 dimensions, quality 89. PDF embeds full-composition 900 px JPEG copies for a compact print file. No generative restyling or crop after review.",
+    "images": [
+      {
+        "path": "assets/congdons-choice-art/plain.webp",
+        "prompt": "Use case: product-mockup. Asset type: generic food illustration for an age-respectful picture communication board. Primary request: a clear photorealistic illustration of one plain old-fashioned cake ring doughnut, matte golden-brown surface with naturally cracked cake texture and a visible center hole; no glaze, no powdered sugar, no icing. Single fully visible item isolated on a pure white background. Three-quarter overhead view, softly and evenly lit, centered, ample clean white space all around the item. Natural accurate food colors, realistic appetizing texture, only a delicate contact shadow. Square image. No text, labels, logos, packaging, plates, utensils, napkins, hands, people, faces, extra food, or venue-identifying details. This is a generic illustrative food, not any real brand's actual product.",
+        "generation_file": "exec-ddd250f7-5cd1-4e87-a0ff-5ad8c768c4a0.png",
+        "review": "Single fully visible food item, natural recognizable food colors, plain white background, no text/logo/faces; visually reviewed."
+      },
+      {
+        "path": "assets/congdons-choice-art/honey-dip.webp",
+        "prompt": "Use case: product-mockup. Asset type: generic food illustration for an age-respectful picture communication board. Primary request: a clear photorealistic illustration of one honey-dip style yeast-raised ring doughnut, golden soft puffy dough with a very thin glossy translucent sugar glaze over its entire surface and a clear center hole; no honey drips, no extra topping. Single fully visible item isolated on a pure white background. Three-quarter overhead view, softly and evenly lit, centered, ample clean white space all around the item. Natural accurate food colors, realistic appetizing texture, only a delicate contact shadow. Square image. No text, labels, logos, packaging, plates, utensils, napkins, hands, people, faces, extra food, or venue-identifying details. This is a generic illustrative food, not any real brand's actual product.",
+        "generation_file": "exec-f29b8b69-6701-41d6-8422-9d993650f58a.png",
+        "review": "Single fully visible food item, natural recognizable food colors, plain white background, no text/logo/faces; visually reviewed."
+      },
+      {
+        "path": "assets/congdons-choice-art/chocolate-raised.webp",
+        "prompt": "Use case: product-mockup. Asset type: generic food illustration for an age-respectful picture communication board. Primary request: a clear photorealistic illustration of one chocolate-frosted yeast-raised ring doughnut, soft golden raised dough with a smooth deep natural brown chocolate icing layer only on top, a clear center hole; no sprinkles, no filling. Single fully visible item isolated on a pure white background. Three-quarter overhead view, softly and evenly lit, centered, ample clean white space all around the item. Natural accurate food colors, realistic appetizing texture, only a delicate contact shadow. Square image. No text, labels, logos, packaging, plates, utensils, napkins, hands, people, faces, extra food, or venue-identifying details. This is a generic illustrative food, not any real brand's actual product.",
+        "generation_file": "exec-f62050d6-498f-42b0-9c8c-3d30c3b4b3ea.png",
+        "review": "Single fully visible food item, natural recognizable food colors, plain white background, no text/logo/faces; visually reviewed."
+      },
+      {
+        "path": "assets/congdons-choice-art/apple-fritter.webp",
+        "prompt": "Use case: product-mockup. Asset type: generic food illustration for an age-respectful picture communication board. Primary request: a clear photorealistic illustration of one apple fritter, an irregular roundish flattened golden-brown pastry with clearly bumpy folded craggy dough texture, tiny apple pieces visible within its surface, thin translucent glossy sugar glaze; no center hole, no icing stripes. Single fully visible item isolated on a pure white background. Three-quarter overhead view, softly and evenly lit, centered, ample clean white space all around the item. Natural accurate food colors, realistic appetizing texture, only a delicate contact shadow. Square image. No text, labels, logos, packaging, plates, utensils, napkins, hands, people, faces, extra food, or venue-identifying details. This is a generic illustrative food, not any real brand's actual product.",
+        "generation_file": "exec-34a28858-9cd1-46af-8116-58fe3565ef28.png",
+        "review": "Single fully visible food item, natural recognizable food colors, plain white background, no text/logo/faces; visually reviewed."
+      }
+    ]
+  },
+  "reused_art": {
+    "basis": "Existing first-party functional communication artwork; explicitly approved for reuse within this task.",
+    "paths": [
+      "assets/card-collection/yes.svg",
+      "assets/card-collection/no.svg",
+      "assets/card-collection/more.svg",
+      "assets/card-collection/help.svg",
+      "assets/card-collection/all-done.svg",
+      "assets/card-studio/break.webp",
+      "assets/card-studio/water.webp",
+      "assets/card-studio/toilet.webp",
+      "assets/coastal-emblem.webp"
+    ],
+    "note": "No family photographs, emotion faces, decorative venue scenes, or multi-object contact sheets are used as communication cards. The support symbols' simple geometry is reproduced as vectors in the PDF."
+  },
+  "original_vector": {
+    "path": "assets/congdons-choice-art/go-home.svg",
+    "basis": "Original generic house symbol, drawn in code to match the site's existing functional core-word SVG set.",
+    "note": "Functional labeled communication symbol; no specific building or venue represented."
+  },
+  "menu_source": {
+    "url": "https://congdons.com/flavors/",
+    "checked": "2026-10-18",
+    "labels": [
+      "Plain",
+      "Honey dip",
+      "Chocolate raised",
+      "Apple fritter"
+    ],
+    "limits": "Names on the published menu do not guarantee same-day availability, ingredients, allergens, or visual identity."
+  },
+  "outputs": [
+    "downloads/congdons-choice-board.pdf",
+    "downloads/congdons-choice-board.png",
+    "assets/congdons-choice-art/congdons-support-board.png"
+  ],
+  "generator": "tools/build_congdons_choice_board.py",
+  "font_note": "PDF embeds locally installed Liberation Sans regular/bold and Liberation Serif regular, with a DejaVu fallback in the reproducible generator.",
+  "validation": {
+    "pdf_pages": 2,
+    "pdf_page_size_points": [
+      612,
+      792
+    ],
+    "png_dimensions": [
+      1530,
+      1980
+    ],
+    "visual_review": "Both latest PDF-rendered PNGs inspected with embedded fonts. No clipped labels or overlapping elements. Four generated food illustrations individually reviewed.",
+    "functional_checks": "Focused DOM behavior checks passed: no automatic speech; explicit speech only; local voice preference; cancellation/error/unavailable-browser fallback; single selection; hide/unhide food; hidden choice clears; zero-food fallback; persistent refusal/support choices; Clear focus; explicit print. HTML references exist, IDs unique, all buttons type=button, all images have alt.",
+    "browser_limit": "No local browser binary available. Phone layout and actual device speech await root live-site browser QA; no full accessibility audit claimed."
+  },
+  "asset_sha256": {
+    "assets/congdons-choice-art/apple-fritter.webp": "89adfc72c6c6c835ddf23a5219a4822744707921ea3d02189ab52b65976e18a1",
+    "assets/congdons-choice-art/chocolate-raised.webp": "ab173b02c9039f376fe317177a9137fbfbb614b7f40a1aa78b6ac366adc10c1f",
+    "assets/congdons-choice-art/congdons-support-board.png": "f93c25b954045d8d08a4e13f4a6c37001d829027bb75a5b12d473d62a259fcc1",
+    "assets/congdons-choice-art/go-home.svg": "3aa7d892d7d88f426b2c41c10bc1fccd86de9cc2882fb9366d7eb2af6fcfab87",
+    "assets/congdons-choice-art/honey-dip.webp": "f2258253f21efab9dcc10e892320fc5d727b79aecb692a67fd90fd9f4eae5a05",
+    "assets/congdons-choice-art/plain.webp": "d686d4b0329568608b47e8503c65a74c55c0a06985f28778cc099c75422a9819"
+  },
+  "output_bytes": {
+    "downloads/congdons-choice-board.pdf": 874561,
+    "downloads/congdons-choice-board.png": 930958,
+    "assets/congdons-choice-art/congdons-support-board.png": 251037
+  }
+}

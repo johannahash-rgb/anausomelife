@@ -1,0 +1,65 @@
+{
+  "article": "/congdons-doughnuts-wells-maine.html",
+  "recorded": "2026-10-18",
+  "assets": [
+    {
+      "source_upload": "IMG_9454.jpeg",
+      "asset": "/assets/congdons-wells/family-by-the-sign.jpeg",
+      "source_sha256": "e2cf53190a76acfaf99ae97176aeca4233ac54076cd7119a4370b34966d43739",
+      "published_sha256": "d2c90a68001de44533ab0849dbc02b78399047074402d37ecfa3c456891d7624",
+      "dimensions": [
+        1536,
+        1152
+      ],
+      "basis": "Owner supplied this original family photograph with the request to publish a Congdon’s post.",
+      "changes": "EXIF/XMP/IPTC/comment metadata removed without recompressing the photograph; decoded pixels and proportions verified unchanged."
+    },
+    {
+      "source_upload": "IMG_9333.jpeg",
+      "asset": "/assets/congdons-wells/too-stand-and-picnic-area.jpeg",
+      "source_sha256": "7a8f23d3da44bc1412ee9c1342757fc6c8e0857072ab0ca45f4f5098591ba400",
+      "published_sha256": "75dd4aa6c04f664861a9b85dc3753d2c6f1023419e622992d372c112b7404ff7",
+      "dimensions": [
+        1152,
+        1536
+      ],
+      "basis": "Owner supplied this original family photograph with the request to publish a Congdon’s post.",
+      "changes": "EXIF/XMP/IPTC/comment metadata removed without recompressing the photograph; decoded pixels and proportions verified unchanged."
+    },
+    {
+      "source_upload": "IMG_9339.jpeg",
+      "asset": "/assets/congdons-wells/doughnut-on-the-porch.jpeg",
+      "source_sha256": "e1635986dd14e35868f5d6cddc476c914ee903a1902bab563b667c3fadeb6fd9",
+      "published_sha256": "4e16f0dd59308accde014113f970f5d07139d3099a15157e0111363154cad222",
+      "dimensions": [
+        1152,
+        1536
+      ],
+      "basis": "Owner supplied this original family photograph with the request to publish a Congdon’s post.",
+      "changes": "EXIF/XMP/IPTC/comment metadata removed without recompressing the photograph; decoded pixels and proportions verified unchanged."
+    },
+    {
+      "source_upload": "IMG_9357.jpeg",
+      "asset": "/assets/congdons-wells/after-dark-cornhole-sign.jpeg",
+      "source_sha256": "f3e7135e8a382aa2de8e6f45d39f6267b32b7d70790ed20de4e932225e2b0fbe",
+      "published_sha256": "418de5a0130a4e5c097f439e6924de78378c15a6b1494f66c06e3598513de8ee",
+      "dimensions": [
+        1152,
+        1536
+      ],
+      "basis": "Owner supplied this original family photograph with the request to publish a Congdon’s post.",
+      "changes": "EXIF/XMP/IPTC/comment metadata removed without recompressing the photograph; decoded pixels and proportions verified unchanged."
+    }
+  ],
+  "excluded_uploads": "Near-duplicate photographs were left unchanged in the upload folder.",
+  "scope": "Personal family visit photographs, not an accessibility audit or evidence of a paid or hosted relationship.",
+  "facts_checked": [
+    "https://congdons.com/",
+    "https://congdons.com/faq/",
+    "https://congdons.com/order/",
+    "https://congdons.com/flavors/",
+    "https://congdons.com/allergens/",
+    "https://cadfoodtrucks.com/",
+    "https://cadfoodtrucks.com/faq/"
+  ]
+}

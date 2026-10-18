@@ -1,5 +1,25 @@
 [
   {
+    "slug": "congdons-doughnuts-wells-maine",
+    "url": "/congdons-doughnuts-wells-maine.html",
+    "title": "A doughnut stop at Congdon’s.",
+    "summary": "Our family doughnut stop in Wells, Maine, with original photographs, practical access and sensory notes, and a free printable choice board.",
+    "category": "stories",
+    "format": "Story",
+    "minutes": 5,
+    "image": "/assets/congdons-wells/family-by-the-sign.jpeg"
+  },
+  {
+    "slug": "congdons-choice-board",
+    "url": "/congdons-choice-board.html",
+    "title": "A doughnut choice board for Congdon’s.",
+    "summary": "Free printable doughnut choices and useful words for a bakery stop, with room for something else, no, help, a break and all done.",
+    "category": "family",
+    "format": "Toolkit",
+    "minutes": 2,
+    "image": "/downloads/congdons-choice-board.png"
+  },
+  {
     "slug": "wicked-whoopies-freeport-family-visit",
     "url": "/wicked-whoopies-freeport-family-visit.html",
     "title": "Wicked Whoopies: a little stop with a very large whoopie pie.",
