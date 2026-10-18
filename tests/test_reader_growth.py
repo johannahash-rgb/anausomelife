@@ -16,7 +16,7 @@ class ReaderGrowth(unittest.TestCase):
  @classmethod
  def setUpClass(cls):
   cls.tmp=tempfile.TemporaryDirectory();cls.root=Path(cls.tmp.name)
-  paths={'contact.html','blog.html','privacy.html','media/index.html','product-guides.html','sitemap.xml','assets/global-nav.js',*growth.SUMMARIES}
+  paths={'contact.html','blog.html','privacy.html','media/index.html','product-guides.html','sitemap.xml','assets/global-nav.js','little-things-that-help.html',*growth.SUMMARIES}
   for href in doc(ROOT,'blog.html').xpath('//ol[contains(@class,"journal-recent-list")]/li//a/@href'):
    p=urlsplit(href).path
    if p.startswith('/') and p.endswith('.html'):paths.add(p.lstrip('/'))
@@ -29,7 +29,7 @@ class ReaderGrowth(unittest.TestCase):
   growth.prepare(cls.root)
  @classmethod
  def tearDownClass(cls):cls.tmp.cleanup()
- def test_three_distinct_evidence_summaries(self):
+ def test_distinct_evidence_summaries(self):
   for name,info in growth.SUMMARIES.items():
    d=doc(self.root,name);summary=d.xpath('//*[@id="review-summary"]')
    self.assertEqual(len(summary),1)
@@ -37,6 +37,13 @@ class ReaderGrowth(unittest.TestCase):
    self.assertEqual(len(summary[0].xpath('.//dl/div')),3)
    self.assertEqual(d.xpath('//main//img/@src'),self.before[name])
    self.assertFalse(d.xpath('//*[@itemprop="ratingValue"]'))
+ def test_milk_story_does_not_regain_duplicate_summary(self):
+  d=doc(self.root,'little-things-that-help.html')
+  self.assertEqual(len(d.xpath('//*[@id="review-summary"]')),1)
+  self.assertFalse(d.xpath('//section[contains(concat(" ",normalize-space(@class)," ")," rg-summary ")]'))
+  self.assertEqual(d.text_content().count('one-off experiment'),1)
+  self.assertTrue(d.xpath('//*[@id="picture-prompts"]'))
+  self.assertTrue(d.xpath('//*[@id="share-this-story"]'))
  def test_no_fabricated_newsletter_or_star_reviews(self):
   d=doc(self.root,'follow.html')
   self.assertFalse(d.xpath('//form|//input[@type="email"]'))

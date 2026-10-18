@@ -17,12 +17,6 @@ SUMMARIES={
   'facts':[('What we used','Eight O’Clock Coffee 100% Colombian Peaks, in the whole-bean version.'),('What stood out','Michael kept asking for the same coffee. He describes his usual cup as smooth and full, without the bitterness he dislikes.'),('The limit','One person’s taste and everyday routine—not a blind comparison, a measured caffeine test or a documented long-term trial.')],
   'disclosure':'Bought by us. The article records no gift or payment at its original publication; the full disclosure also describes the brand inquiry.',
  },
- 'little-things-that-help.html': {
-  'kind':'A family experiment—not a product review', 'anchor':'the-tip',
-  'evidence':['one-off experiment','not a product recommendation','Not sponsored, gifted or an affiliate link'],
-  'facts':[('What we observed','A familiar drink and preferred straw were the starting point for one kitchen experiment.'),('The useful idea','Look at the small handling detail before replacing a familiar drink or routine.'),('The important limit','The photographed cap is not a recommended daily drinking setup or a cutting tutorial. The article points to a compatible purpose-made lid or lidded cup instead.')],
-  'disclosure':'We purchased the milk. This independent family note is not sponsored, gifted or affiliate-linked.',
- },
  'things-weve-bought.html': {
   'kind':'Purchase records & buying questions', 'anchor':'the-story',
   'evidence':['This page does not give a hands-on verdict','October 2, 2026','two purchased-item links could not'],
@@ -139,7 +133,7 @@ def prepare(root):
   url=BASE+'/'+path
   if not any(e.text==url for e in tree.findall('.//'+ns+'loc')):ET.SubElement(ET.SubElement(tree.getroot(),ns+'url'),ns+'loc').text=url
  ET.register_namespace('',ns[1:-1]);tree.write(sitemap,encoding='utf-8',xml_declaration=True)
- print('Published 3 evidence summaries, 2 reader pages and',count,'journal RSS entries')
+ print('Published',len(SUMMARIES),'evidence summaries, 2 reader pages and',count,'journal RSS entries')
 
 
 def check(root):

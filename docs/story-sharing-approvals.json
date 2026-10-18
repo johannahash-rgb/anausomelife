@@ -1,6 +1,10 @@
 {
   "version": 1,
   "packages": {
+    "little-things-that-help.html": {
+      "provenance": "docs/intense-social-card-provenance.json",
+      "reviewed": "2026-10-18"
+    },
     "congdons-doughnuts-wells-maine.html": {
       "provenance": "docs/congdons-social-card-provenance.json",
       "reviewed": "2026-10-18"

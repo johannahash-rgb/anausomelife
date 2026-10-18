@@ -1,0 +1,266 @@
+{
+  "title": "INTENSE strawberry milk story graphics: provenance and scoped sharing intent",
+  "created": "2026-10-18",
+  "publication": "An AUsome Life",
+  "canonical_story": "https://anausomelife.com/little-things-that-help.html",
+  "owner_direction": "Current-session instruction to edit the INTENSE strawberry story, remove repetition, strengthen sharing and send it to the brand's PR team with encouragement to share.",
+  "generator": "tools/build_intense_social_cards.py",
+  "generator_sha256": "1e1859df6d67f723422eb89f4a72f126c6577d437ff8a0c7ca1a20f40144e4e2",
+  "method": "Original code-native typography and one vector accent rule. Exact text and embedded fonts rendered from a temporary vector PDF at 72 dpi to the requested PNG sizes. Reproducible source is the generator; the intermediate PDF is not hosted.",
+  "layout_reasoning": [
+    "The small ordinary-text product name supplies brand recognition without reproducing the brand's logo or trade dress.",
+    "A large two-line serif headline preserves an ordinary family moment without asserting a medical benefit or a demonstrated result.",
+    "The reader benefit is explicit: a kitchen story and free picture cards. These graphics promote the resource; they are not communication cards themselves.",
+    "Cream, coastal navy, pine and a narrow strawberry-pink rule retain the publication's restrained New England identity.",
+    "Generous whitespace and the tall layout's reserved top and bottom regions keep essential text clear of common interface overlays; this is a design choice, not a guarantee about every platform.",
+    "The graphic carries independent publication credit and the actual purchase disclosure. It contains no demonstration, depiction or recommendation to modify a bottle cap."
+  ],
+  "sources": [],
+  "new_generation": false,
+  "family_photographs_used_in_social_downloads": false,
+  "venue_logos_used_in_social_downloads": false,
+  "brand_logos_used_in_social_downloads": false,
+  "third_party_artwork_used": false,
+  "fonts_embedded_in_source": {
+    "IntenseSerif": {
+      "filename": "LiberationSerif-Regular.ttf",
+      "sha256": "058ea80864aef09a23f45cbec2bb5400bc3dfbdea01c3f10538a21fcb497fb74"
+    },
+    "IntenseSans": {
+      "filename": "LiberationSans-Regular.ttf",
+      "sha256": "76d04c18ea243f426b7de1f3ad208e927008f961dc5945e5aad352d0dfde8ee8"
+    },
+    "IntenseSansBold": {
+      "filename": "LiberationSans-Bold.ttf",
+      "sha256": "788abee4c806d660e8aee46689dd8540cd4bb98da03dcc9d171ce3efd99a9173"
+    }
+  },
+  "public_notice": "Independent family note · Milk purchased by us.",
+  "scoped_organic_sharing_intent": {
+    "assets_only": [
+      "assets/family-notes/intense-strawberry-share-feed.png",
+      "assets/family-notes/intense-strawberry-share-story.png"
+    ],
+    "permitted_intended_use": "Share these two finished PNG graphics unchanged in organic social posts or Stories, with An AUsome Life / @anausomelife credit and a link to https://anausomelife.com/little-things-that-help.html. Preserve all embedded text, credit and the independent purchase disclosure.",
+    "scope_limits": "Applies only to the two exact finished PNG files recorded here. No rights are granted to family photographs, other website or archive content, brand logos, source files, paid advertising, merchandising, edits or other reuse. This is not permission to present an official brand partnership or endorsement, and grants no rights the publication does not control.",
+    "authorization_basis": "Owner-directed current-session sharing package and PR outreach, using an original publication-created typographic composition and ordinary-text editorial product identification."
+  },
+  "outputs": [
+    {
+      "path": "assets/family-notes/intense-strawberry-share-feed.png",
+      "dimensions": [
+        1080,
+        1350
+      ],
+      "bytes": 73984,
+      "sha256": "e50c3fb26d40393e3a4194345b1d83155593281705650f962040fd17f1d59790",
+      "alt_text": "Cream typographic graphic with navy serif text: A familiar drink. A preferred straw. A small heading identifies INTENSE STRAWBERRY MILK, above a restrained pink rule. Pine-green text invites readers to read the kitchen story and get free picture cards. Credit: An AUsome Life, @anausomelife, anausomelife.com. Disclosure: Independent family note. Milk purchased by us.",
+      "critical_safe_area": {
+        "top_px": 80,
+        "bottom_px": 80,
+        "side_px": 88
+      }
+    },
+    {
+      "path": "assets/family-notes/intense-strawberry-share-story.png",
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "bytes": 76630,
+      "sha256": "b0f494de93ab649f412265e7c578b93fa1b25c3dd6bf1f68fd278cd77d07d3f7",
+      "alt_text": "Cream typographic graphic with navy serif text: A familiar drink. A preferred straw. A small heading identifies INTENSE STRAWBERRY MILK, above a restrained pink rule. Pine-green text invites readers to read the kitchen story and get free picture cards. Credit: An AUsome Life, @anausomelife, anausomelife.com. Disclosure: Independent family note. Milk purchased by us.",
+      "critical_safe_area": {
+        "top_px": 220,
+        "bottom_px": 280,
+        "side_px": 88
+      }
+    }
+  ],
+  "validation": {
+    "automated": "Exact text extracted from both vector pages; all text bounds checked against safe areas and neighboring text; final PNG format, dimensions and output hashes verified.",
+    "visual_review": "Both final PNGs visually inspected on October 18, 2026. Confirmed crisp navy serif headlines, correct exact text, legible pine-green invitation and credit, restrained pink rule, generous whitespace, no clipping or overlapping text, and a readable purchase disclosure. Feed is 1080 × 1350; Story is 1080 × 1920 with all critical content below the top 220 px reserve and above the bottom 280 px reserve. No family photographs, brand logo, product depictions or cap-modification instructions appear."
+  },
+  "layout_bounds": {
+    "feed": [
+      {
+        "text": "INTENSE STRAWBERRY MILK",
+        "font_px": 27,
+        "tracking_px": 3,
+        "bounds": [
+          311.25,
+          196.34,
+          768.75,
+          221.68
+        ]
+      },
+      {
+        "text": "A familiar drink.",
+        "font_px": 112,
+        "tracking_px": 0,
+        "bounds": [
+          162.11,
+          390.34,
+          917.89,
+          492.17
+        ]
+      },
+      {
+        "text": "A preferred straw.",
+        "font_px": 112,
+        "tracking_px": 0,
+        "bounds": [
+          131.1,
+          519.34,
+          948.9,
+          621.17
+        ]
+      },
+      {
+        "text": "Read the kitchen story",
+        "font_px": 42,
+        "tracking_px": 0,
+        "bounds": [
+          331.06,
+          796.42,
+          748.94,
+          835.84
+        ]
+      },
+      {
+        "text": "+ get free picture cards",
+        "font_px": 42,
+        "tracking_px": 0,
+        "bounds": [
+          324.64,
+          854.42,
+          755.36,
+          893.84
+        ]
+      },
+      {
+        "text": "An AUsome Life",
+        "font_px": 41,
+        "tracking_px": 0,
+        "bounds": [
+          397.67,
+          1054.57,
+          682.33,
+          1091.85
+        ]
+      },
+      {
+        "text": "@anausomelife · anausomelife.com",
+        "font_px": 27,
+        "tracking_px": 0,
+        "bounds": [
+          324.44,
+          1110.34,
+          755.56,
+          1135.68
+        ]
+      },
+      {
+        "text": "Independent family note · Milk purchased by us.",
+        "font_px": 26,
+        "tracking_px": 0,
+        "bounds": [
+          263.96,
+          1211.07,
+          816.04,
+          1235.47
+        ]
+      }
+    ],
+    "story": [
+      {
+        "text": "INTENSE STRAWBERRY MILK",
+        "font_px": 27,
+        "tracking_px": 3,
+        "bounds": [
+          311.25,
+          378.34,
+          768.75,
+          403.68
+        ]
+      },
+      {
+        "text": "A familiar drink.",
+        "font_px": 112,
+        "tracking_px": 0,
+        "bounds": [
+          162.11,
+          624.34,
+          917.89,
+          726.17
+        ]
+      },
+      {
+        "text": "A preferred straw.",
+        "font_px": 112,
+        "tracking_px": 0,
+        "bounds": [
+          131.1,
+          761.34,
+          948.9,
+          863.17
+        ]
+      },
+      {
+        "text": "Read the kitchen story",
+        "font_px": 42,
+        "tracking_px": 0,
+        "bounds": [
+          331.06,
+          1083.42,
+          748.94,
+          1122.84
+        ]
+      },
+      {
+        "text": "+ get free picture cards",
+        "font_px": 42,
+        "tracking_px": 0,
+        "bounds": [
+          324.64,
+          1141.42,
+          755.36,
+          1180.84
+        ]
+      },
+      {
+        "text": "An AUsome Life",
+        "font_px": 41,
+        "tracking_px": 0,
+        "bounds": [
+          397.67,
+          1366.57,
+          682.33,
+          1403.85
+        ]
+      },
+      {
+        "text": "@anausomelife · anausomelife.com",
+        "font_px": 27,
+        "tracking_px": 0,
+        "bounds": [
+          324.44,
+          1422.34,
+          755.56,
+          1447.68
+        ]
+      },
+      {
+        "text": "Independent family note · Milk purchased by us.",
+        "font_px": 26,
+        "tracking_px": 0,
+        "bounds": [
+          263.96,
+          1551.07,
+          816.04,
+          1575.47
+        ]
+      }
+    ]
+  }
+}
