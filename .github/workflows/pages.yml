@@ -42,6 +42,10 @@ jobs:
           python tests/test_access_publication.py
           python tests/test_reader_pathways.py
           python tests/test_growth_readiness.py
+          python tests/test_reader_growth.py
+          node --check assets/reader-growth.js
+          node --check assets/analytics.js
+          node tests/test_analytics.cjs
           node --check assets/inquiry-builder.js
           node tests/test_inquiry_builder.cjs
           node --check assets/story-share.js
@@ -65,6 +69,9 @@ jobs:
       - name: Apply current editorial navigation and sharing assets
         run: python .github/scripts/prepare_curated_edition.py --root _site
 
+      - name: Publish evidence summaries and journal follow routes
+        run: python .github/scripts/reader_growth.py --root _site
+
       - name: Prepare original-photo social previews
         run: |
           python .github/scripts/enrich_social_meta.py --root _site
@@ -77,6 +84,7 @@ jobs:
         run: |
           python .github/scripts/site_audit.py --root _site --external-limit 0 --strict
           python .github/scripts/growth_readiness.py --root _site --check
+          python .github/scripts/reader_growth.py --root _site --check
 
       - name: Upload static site
         uses: actions/upload-pages-artifact@v4

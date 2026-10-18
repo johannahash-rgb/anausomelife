@@ -1,115 +1,107 @@
-/* An AUsome Life — privacy-light analytics bridge.
-   Add a valid GA4 measurement ID to /data/site-config.json to activate GA4.
-   Site features can call window.AALAnalytics.track() before GA has loaded. */
+/* Optional, consent-first measurement. Disabled until a reviewed property is configured.
+   No pre-consent queue, tool text, inquiry fields, query strings or link bodies. */
 (() => {
   'use strict';
   if (window.AALAnalytics) return;
-
-  const queued = [];
-  let live = false;
-  const clean = value => {
-    if (value == null) return value;
-    if (typeof value === 'string') return value.slice(0, 120);
-    if (typeof value === 'number' || typeof value === 'boolean') return value;
-    return String(value).slice(0, 120);
-  };
-  const safeParams = params => Object.fromEntries(
-    Object.entries(params || {}).map(([key, value]) => [key, clean(value)])
-  );
-
-  const early = Array.isArray(window.__AAL_PENDING_EVENTS__) ? window.__AAL_PENDING_EVENTS__.splice(0) : [];
-
-  window.AALAnalytics = {
-    track(name, params = {}) {
-      const event = { name: String(name || '').replace(/[^a-zA-Z0-9_]/g, '_').slice(0, 40), params: safeParams(params) };
-      if (!event.name) return;
-      if (live && typeof window.gtag === 'function') window.gtag('event', event.name, event.params);
-      else queued.push(event);
-    },
-    get active() { return live; }
-  };
-
-  early.forEach(event => window.AALAnalytics.track(event.name, event.params));
-
-  if (navigator.doNotTrack === '1') return;
-
-  fetch('/data/site-config.json?v=20261004', { credentials: 'same-origin' })
+  const KEY = 'aal-measurement-choice-v1';
+  const TTL = 180 * 24 * 60 * 60 * 1000;
+  const paths = new Set(['/', '/blog.html', '/reviews.html', '/follow.html', '/media/', '/press.html', '/contact.html', '/product-guides.html', '/privacy.html']);
+  const goals = new Set(['review_coffee', 'review_kitchen', 'review_records', 'rss_open', 'rss_copy', 'follow_instagram', 'contact_email_open', 'press_facts_open']);
+  let configured = false, allowed = false, live = false, loading = false, id = '', canonical = '';
+  const seen = new Set();
+  const byId = key => document.getElementById(key);
+  const blocked = () => navigator.globalPrivacyControl === true || ['1', 'yes'].includes(navigator.doNotTrack) || ['1', 'yes'].includes(window.doNotTrack);
+  // Discard old pending values; never replay a visitor's pre-consent activity.
+  if (Array.isArray(window.__AAL_PENDING_EVENTS__)) window.__AAL_PENDING_EVENTS__.length = 0;
+  function remembered() {
+    try {
+      const data = JSON.parse(localStorage.getItem(KEY));
+      if (data && typeof data.allowed === 'boolean' && Number.isFinite(data.at) && data.at <= Date.now() && Date.now() - data.at < TTL) return data.allowed;
+      localStorage.removeItem(KEY);
+    } catch (_) { /* Blocked or malformed storage never enables measurement. */ }
+    return false;
+  }
+  function show(text) {
+    const state = byId('measurement-state');
+    if (state) state.textContent = text;
+    const controls = byId('measurement-controls');
+    if (controls) controls.hidden = !configured || blocked();
+  }
+  function save(value) {
+    try { localStorage.setItem(KEY, JSON.stringify({allowed:value, at:Date.now()})); }
+    catch (_) { /* Choice applies only to this page when storage is unavailable. */ }
+  }
+  function gtag() { window.dataLayer.push(arguments); }
+  function stop() {
+    allowed = false; live = false;
+    if (id) window['ga-disable-' + id] = true;
+    // Do not send consent pings or event history on withdrawal.
+    if (loading && window.dataLayer) window.dataLayer.length = 0;
+    show(blocked() ? 'Measurement is off because this browser requests privacy protection.' : 'Optional measurement is off.');
+  }
+  function start() {
+    if (!configured || !allowed || blocked() || live || loading) return;
+    // Do not reconfigure a different tag or container installed by someone else.
+    if (typeof window.gtag === 'function' || document.querySelector('script[src*="googletagmanager.com/gtag"]')) {
+      show('Measurement remains off because another tag needs review.'); return;
+    }
+    loading = true;
+    window['ga-disable-' + id] = false;
+    window.dataLayer = [];
+    window.gtag = gtag;
+    gtag('consent', 'default', {analytics_storage:'denied', ad_storage:'denied', ad_user_data:'denied', ad_personalization:'denied'});
+    gtag('consent', 'update', {analytics_storage:'granted', ad_storage:'denied', ad_user_data:'denied', ad_personalization:'denied'});
+    gtag('js', new Date());
+    gtag('config', id, {send_page_view:false, allow_google_signals:false, allow_ad_personalization_signals:false, page_location:canonical, page_referrer:'', page_title:'An AUsome Life'});
+    const script = document.createElement('script');
+    script.async = true;
+    script.referrerPolicy = 'no-referrer';
+    script.src = 'https://www.googletagmanager.com/gtag/js?id=' + encodeURIComponent(id);
+    script.onload = () => {
+      if (!allowed || blocked()) { stop(); return; }
+      loading = false; live = true;
+      gtag('event', 'page_view', {page_location:canonical, page_referrer:'', page_title:'An AUsome Life'});
+      show('Optional measurement is on in this browser. You can turn it off here.');
+    };
+    script.onerror = () => { loading = false; stop(); show('Measurement could not load. The website still works normally.'); };
+    document.head.append(script);
+  }
+  function track(name, params = {}) {
+    if (blocked()) { if (allowed) stop(); return false; }
+    const goal = name === 'site_action' && params && params.action_name;
+    if (!live || !allowed || !goals.has(goal) || seen.has(goal)) return false;
+    seen.add(goal);
+    gtag('event', 'site_action', {action_name:goal, page_location:canonical, page_referrer:'', page_title:'An AUsome Life'});
+    return true;
+  }
+  window.AALAnalytics = {track, get active() { return live && allowed && !blocked(); }};
+  if (blocked()) { show('Measurement is off because this browser requests privacy protection.'); return; }
+  const link = document.querySelector('link[rel="canonical"]');
+  try {
+    const url = new URL(link ? link.href : location.href);
+    if (url.origin !== 'https://anausomelife.com' || !paths.has(url.pathname)) return;
+    canonical = url.origin + url.pathname;
+  } catch (_) { return; }
+  fetch('/data/site-config.json?v=20261018-reader-growth-v1', {credentials:'omit', cache:'no-store'})
     .then(response => response.ok ? response.json() : {})
     .then(config => {
-      const id = (config.ga4MeasurementId || '').trim();
-      if (!/^G-[A-Z0-9]+$/i.test(id)) return;
-
-      window.dataLayer = window.dataLayer || [];
-      window.gtag = window.gtag || function(){ dataLayer.push(arguments); };
-      gtag('js', new Date());
-      gtag('consent', 'default', {
-        analytics_storage: 'granted',
-        ad_storage: 'denied',
-        ad_user_data: 'denied',
-        ad_personalization: 'denied'
+      id = typeof config.ga4MeasurementId === 'string' ? config.ga4MeasurementId.trim() : '';
+      configured = config.analyticsEnabled === true && config.analyticsPrivacyReviewed === true && /^G-[A-Z0-9]{4,20}$/.test(id);
+      if (!configured) { show('Website analytics is not currently enabled. No analytics service is loaded by this site.'); return; }
+      allowed = remembered();
+      show(allowed ? 'Loading the optional measurement you allowed.' : 'Optional measurement is off unless you allow it.');
+      const allow = byId('measurement-allow'), deny = byId('measurement-deny');
+      if (allow) allow.addEventListener('click', () => {
+        if (blocked()) { stop(); return; }
+        allowed = true; save(true);
+        if (window.gtag && !live) { show('Permission saved. Reload this page to start measurement.'); return; }
+        start();
       });
-      gtag('config', id, {
-        send_page_view: true,
-        allow_google_signals: false,
-        allow_ad_personalization_signals: false
-      });
-
-      const script = document.createElement('script');
-      script.async = true;
-      script.src = 'https://www.googletagmanager.com/gtag/js?id=' + encodeURIComponent(id);
-      script.onload = () => {
-        live = true;
-        document.documentElement.dataset.aalAnalytics = 'active';
-        queued.splice(0).forEach(event => gtag('event', event.name, event.params));
-      };
-      document.head.append(script);
-    })
-    .catch(() => { /* The site must keep working even when analytics does not. */ });
-
+      if (deny) deny.addEventListener('click', () => { save(false); stop(); });
+      start();
+    }).catch(() => show('Website analytics is unavailable and remains off.'));
   document.addEventListener('click', event => {
-    const tracked = event.target.closest('a[data-aal-track],button[data-aal-track]');
-    if (tracked) {
-      window.AALAnalytics.track('site_action', {
-        action_name: tracked.dataset.aalTrack,
-        link_url: tracked.href || '',
-        link_text: (tracked.textContent || '').trim()
-      });
-    }
-    const link = event.target.closest('a[href]');
-    if (!link) return;
-    let url;
-    try { url = new URL(link.href, location.href); } catch (_) { return; }
-    if (url.origin !== location.origin && /^https?:$/.test(url.protocol)) {
-      window.AALAnalytics.track('outbound_click', {
-        destination_domain: url.hostname,
-        link_text: (link.textContent || '').trim()
-      });
-    }
-    if (/\.(pdf|docx?|xlsx?|pptx?|zip)(\?|#|$)/i.test(url.pathname + url.search + url.hash)) {
-      window.AALAnalytics.track('file_download', {
-        file_extension: (url.pathname.match(/\.([a-z0-9]+)$/i) || [,''])[1],
-        file_name: url.pathname.split('/').pop() || ''
-      });
-    }
+    const target = event.target && typeof event.target.closest === 'function' ? event.target.closest('a[data-aal-goal],button[data-aal-goal]') : null;
+    if (target) track('site_action', {action_name:target.dataset.aalGoal});
   });
-
-  document.addEventListener('submit', event => {
-    const form = event.target.closest('form[role="search"],form[action*="library"]');
-    if (!form) return;
-    window.AALAnalytics.track('site_search', { search_surface: form.id || form.className || 'site_search' });
-  });
-
-  const thresholds = new Set();
-  function recordDepth() {
-    const max = Math.max(document.documentElement.scrollHeight - innerHeight, 1);
-    const percent = Math.round((scrollY / max) * 100);
-    [50, 90].forEach(mark => {
-      if (percent >= mark && !thresholds.has(mark)) {
-        thresholds.add(mark);
-        window.AALAnalytics.track('scroll_depth', { percent_scrolled: mark });
-      }
-    });
-    if (thresholds.size === 2) removeEventListener('scroll', recordDepth);
-  }
-  addEventListener('scroll', recordDepth, { passive: true });
 })();
