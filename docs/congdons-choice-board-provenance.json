@@ -86,7 +86,8 @@
     ],
     "visual_review": "Both latest PDF-rendered PNGs inspected with embedded fonts. No clipped labels or overlapping elements. Four generated food illustrations individually reviewed.",
     "functional_checks": "Focused DOM behavior checks passed: no automatic speech; explicit speech only; local voice preference; cancellation/error/unavailable-browser fallback; single selection; hide/unhide food; hidden choice clears; zero-food fallback; persistent refusal/support choices; Clear focus; explicit print. HTML references exist, IDs unique, all buttons type=button, all images have alt.",
-    "browser_limit": "No local browser binary available. Phone layout and actual device speech await root live-site browser QA; no full accessibility audit claimed."
+    "browser_limit": "The browser could not play a speech voice; the visible fallback worked and retained the selected words. Actual mobile-device speech and a full accessibility audit are not claimed.",
+    "live_browser_review": "Published board checked in a 1363-pixel-wide desktop browser: selection, available-choice filtering and clearing a hidden selected choice, refusal synchronization, Clear focus, warm reader-theme contrast and restoration, and the PDF download. The downloaded PDF matches the reviewed source byte for byte."
   },
   "asset_sha256": {
     "assets/congdons-choice-art/apple-fritter.webp": "89adfc72c6c6c835ddf23a5219a4822744707921ea3d02189ab52b65976e18a1",
