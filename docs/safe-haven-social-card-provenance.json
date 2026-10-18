@@ -1,0 +1,776 @@
+{
+  "title": "Safe Haven shopping choice board social resource graphics",
+  "created": "2026-10-18",
+  "generator": "tools/build_safe_haven_social_cards.py",
+  "generator_sha256": "d1b2ea92d920273b89ba2e459b6847ec435cbdea94a3767a09562e5ba396a5af",
+  "shared_art_generator": "tools/build_thrift_shop_choice_board.py",
+  "shared_art_generator_sha256": "b82a41c5e47075d82a06835a28aadcc34775f6564190808e46a0b95cb2b84d48",
+  "resource_url": "https://anausomelife.com/thrift-shop-choice-board.html",
+  "article_url": "https://anausomelife.com/safe-haven-thrift-shop-wells-maine.html",
+  "source_provenance": "docs/thrift-shop-choice-board-provenance.json",
+  "sources": [
+    {
+      "label": "Books",
+      "id": "photo-17-book",
+      "path": "assets/card-collection/photoreal/set-17.webp",
+      "cell": 4,
+      "description": "A complete closed navy book on a light background.",
+      "sha256": "4cf4a90cc4ae787ba11a0b6e3073144e47cb11b3398d824f6751d64e36ec4b25",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "source_rectangle": [
+        0.0,
+        313.5,
+        313.5,
+        313.5
+      ],
+      "origin": "Existing approved original AI-generated generic object illustration in the publication's photorealistic picture-card catalogue.",
+      "placement": "Complete existing catalogue cell, proportionally placed with native PDF clipping. Original source file is unchanged."
+    },
+    {
+      "label": "Clothes",
+      "id": "photo-12-polo-shirt",
+      "path": "assets/card-collection/photoreal/set-12.webp",
+      "cell": 0,
+      "crop": [
+        0,
+        0,
+        313.5,
+        295
+      ],
+      "description": "A complete navy polo shirt on a light background.",
+      "sha256": "0d235f5381d03919162a27fb54c3a5fde44f702863304e88ecf4818981c71a7a",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "source_rectangle": [
+        0,
+        0,
+        313.5,
+        295
+      ],
+      "origin": "Existing approved original AI-generated generic object illustration in the publication's photorealistic picture-card catalogue.",
+      "placement": "Complete existing catalogue cell, proportionally placed with native PDF clipping. Original source file is unchanged."
+    },
+    {
+      "label": "Lamps",
+      "id": "photo-16-bedside-lamp",
+      "path": "assets/card-collection/photoreal/set-16.webp",
+      "cell": 3,
+      "description": "A complete navy table lamp with a cream shade on a light background.",
+      "sha256": "1c58d213179a71089f5706db73f026dbb9e39a97c76f2e314b1608fb08d940be",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "source_rectangle": [
+        940.5,
+        0.0,
+        313.5,
+        313.5
+      ],
+      "origin": "Existing approved original AI-generated generic object illustration in the publication's photorealistic picture-card catalogue.",
+      "placement": "Complete existing catalogue cell, proportionally placed with native PDF clipping. Original source file is unchanged."
+    },
+    {
+      "label": "Baskets",
+      "id": "photo-16-laundry-basket",
+      "path": "assets/card-collection/photoreal/set-16.webp",
+      "cell": 9,
+      "crop": [
+        313.5,
+        632,
+        313.5,
+        290
+      ],
+      "description": "A complete cream and navy rope basket on a light background.",
+      "sha256": "1c58d213179a71089f5706db73f026dbb9e39a97c76f2e314b1608fb08d940be",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "source_rectangle": [
+        313.5,
+        632,
+        313.5,
+        290
+      ],
+      "origin": "Existing approved original AI-generated generic object illustration in the publication's photorealistic picture-card catalogue.",
+      "placement": "Complete existing catalogue cell, proportionally placed with native PDF clipping. Original source file is unchanged."
+    }
+  ],
+  "new_generation": false,
+  "fonts_embedded_in_source": {
+    "ThriftSans": "LiberationSans-Regular.ttf",
+    "ThriftSansBold": "LiberationSans-Bold.ttf",
+    "ThriftSerif": "LiberationSerif-Regular.ttf"
+  },
+  "family_photographs_used_in_social_downloads": false,
+  "venue_logos_used_in_social_downloads": false,
+  "code_native_layout_reasoning": [
+    "An exact vector/text document composition keeps all resource labels, destination text, credit and qualifications editable and verifiable before raster export.",
+    "Four generic approved catalogue objects preview the useful shopping board in a restrained cream, navy and pine composition with white card interiors and natural object colors.",
+    "The final Story reserves at least 220 pixels at the top and 280 pixels at the bottom for platform interface overlap; all essential content fits inside those boundaries.",
+    "The source PNGs are resource promotions, not shop inventories, official collaborations, advertisements, or evidence the board was used during the photographed visit.",
+    "The full original documentary photograph appears only in a separate site link preview, never in either downloadable social resource graphic."
+  ],
+  "public_notice": "Independent resource. Generic illustrations; not current shop stock. Created for a future visit.",
+  "scoped_organic_sharing_intent": {
+    "assets_only": [
+      "downloads/safe-haven-social-feed.png",
+      "downloads/safe-haven-social-story.png"
+    ],
+    "permitted_intended_use": "Organic sharing of these two unchanged finished publication-created promotional PNGs by Safe Haven and other relevant business or community accounts, retaining embedded An AUsome Life / @anausomelife credit, the board destination, exact communication labels and independent/generic/future-visit notice. Accompany the shared graphic with credit and a link to the free board.",
+    "scope_limits": "Permission is limited to these exact two finished resource graphics. It does not authorize family-photograph reuse, site-link-preview redistribution as a standalone graphic, other website images or downloads, the archive, third-party logos, raw artwork, edits, paid advertising, merchandising, or presentation as an official partnership. It does not grant rights the publication does not control.",
+    "authorization_basis": "Owner direction to make the comparable Safe Haven story and a complete practical sharing package under the current session's brand-repost improvements; original publication-created compositions using reviewed existing generic object artwork."
+  },
+  "outputs": [
+    {
+      "path": "downloads/safe-haven-social-feed.png",
+      "bytes": 225762,
+      "sha256": "eaabe574248c3264359fcee2c8ca2bf387689e38c97e506fe789b797f83b0a52",
+      "dimensions": [
+        1080,
+        1350
+      ],
+      "alt_text": "An AUsome Life graphic for Safe Haven in Wells, Maine: A thrift stop for the cats. Free shopping choice board. Four labeled generic object illustrations show Books, Clothes, Lamps, and Baskets. Additional words: Just looking, Something else, Help, All done. Save for your next browse at anausomelife.com/thrift-shop-choice-board.html. Credit: An AUsome Life, @anausomelife. Independent resource; generic illustrations are not current shop stock. Created for a future visit.",
+      "critical_safe_area": {
+        "top_px": 38,
+        "bottom_px": 44,
+        "side_px": 64
+      }
+    },
+    {
+      "path": "downloads/safe-haven-social-story.png",
+      "bytes": 264280,
+      "sha256": "6551cee17c61e018e329fd735227eba32285503566dfddd2a9257898fee0a033",
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "alt_text": "An AUsome Life graphic for Safe Haven in Wells, Maine: A thrift stop for the cats. Free shopping choice board. Four labeled generic object illustrations show Books, Clothes, Lamps, and Baskets. Additional words: Just looking, Something else, Help, All done. Save for your next browse at anausomelife.com/thrift-shop-choice-board.html. Credit: An AUsome Life, @anausomelife. Independent resource; generic illustrations are not current shop stock. Created for a future visit.",
+      "critical_safe_area": {
+        "top_px": 220,
+        "bottom_px": 280,
+        "side_px": 64
+      }
+    }
+  ],
+  "source_document": {
+    "path": "docs/safe-haven-social-cards-source.pdf",
+    "bytes": 1171863,
+    "sha256": "b1e0bdc7f5e6db213b2958466f01b1ba971e8cda540d5998a0a4d80577de0f5e",
+    "pages": 2,
+    "hosting": "Internal source under docs; not intended for hosted public downloads."
+  },
+  "validation": {
+    "automated": "Both exact canvas sizes, requested text, four category labels, embedded fonts, text bounds and safe areas, absence of image-label overlap, original source hashes, and final PNG dimensions verified.",
+    "visual_review": "Final 1080 by 1350 and 1080 by 1920 PNGs visually inspected on October 18, 2026. All four labels, large place/resource headings, legible board destination, credit and independent/generic/future-visit notice confirmed. Complete objects are clear with no neighboring atlas slivers, subject clipping, text overlap, or unexpected glyphs. Story text and pictures remain inside the declared safe area. Neither social download contains family photographs or a venue logo."
+  },
+  "layout_bounds": {
+    "feed": [
+      {
+        "type": "text",
+        "text": "WELLS, MAINE",
+        "font_px": 26,
+        "bounds": [
+          445.39,
+          45.07,
+          634.61,
+          69.47
+        ]
+      },
+      {
+        "type": "text",
+        "text": "Safe Haven",
+        "font_px": 80,
+        "bounds": [
+          354.53,
+          93.53,
+          725.47,
+          166.27
+        ]
+      },
+      {
+        "type": "text",
+        "text": "A thrift stop for the cats",
+        "font_px": 39,
+        "bounds": [
+          339.5,
+          178.61,
+          740.5,
+          215.21
+        ]
+      },
+      {
+        "type": "text",
+        "text": "Free shopping choice board",
+        "font_px": 44,
+        "bounds": [
+          245.41,
+          236.97,
+          834.59,
+          278.26
+        ]
+      },
+      {
+        "type": "illustration",
+        "label": "Books",
+        "source": "assets/card-collection/photoreal/set-17.webp",
+        "catalogue_id": "photo-17-book",
+        "atlas_cell": 4,
+        "source_rectangle": [
+          0.0,
+          313.5,
+          313.5,
+          313.5
+        ],
+        "bounds": [
+          199.0,
+          317,
+          393.0,
+          511
+        ]
+      },
+      {
+        "type": "text",
+        "text": "Books",
+        "font_px": 39,
+        "bounds": [
+          236.41,
+          524.61,
+          355.59,
+          561.21
+        ]
+      },
+      {
+        "type": "illustration",
+        "label": "Clothes",
+        "source": "assets/card-collection/photoreal/set-12.webp",
+        "catalogue_id": "photo-12-polo-shirt",
+        "atlas_cell": 0,
+        "source_rectangle": [
+          0,
+          0,
+          313.5,
+          295
+        ],
+        "bounds": [
+          687.0,
+          317,
+          881.0,
+          511
+        ]
+      },
+      {
+        "type": "text",
+        "text": "Clothes",
+        "font_px": 39,
+        "bounds": [
+          712.49,
+          524.61,
+          855.51,
+          561.21
+        ]
+      },
+      {
+        "type": "illustration",
+        "label": "Lamps",
+        "source": "assets/card-collection/photoreal/set-16.webp",
+        "catalogue_id": "photo-16-bedside-lamp",
+        "atlas_cell": 3,
+        "source_rectangle": [
+          940.5,
+          0.0,
+          313.5,
+          313.5
+        ],
+        "bounds": [
+          199.0,
+          603,
+          393.0,
+          797
+        ]
+      },
+      {
+        "type": "text",
+        "text": "Lamps",
+        "font_px": 39,
+        "bounds": [
+          233.15,
+          810.61,
+          358.85,
+          847.21
+        ]
+      },
+      {
+        "type": "illustration",
+        "label": "Baskets",
+        "source": "assets/card-collection/photoreal/set-16.webp",
+        "catalogue_id": "photo-16-laundry-basket",
+        "atlas_cell": 9,
+        "source_rectangle": [
+          313.5,
+          632,
+          313.5,
+          290
+        ],
+        "bounds": [
+          687.0,
+          603,
+          881.0,
+          797
+        ]
+      },
+      {
+        "type": "text",
+        "text": "Baskets",
+        "font_px": 39,
+        "bounds": [
+          709.2,
+          810.61,
+          858.8,
+          847.21
+        ]
+      },
+      {
+        "type": "text",
+        "text": "Just looking · Something else · Help · All done",
+        "font_px": 30,
+        "bounds": [
+          209.14,
+          897.16,
+          870.86,
+          925.31
+        ]
+      },
+      {
+        "type": "text",
+        "text": "Save for your next browse",
+        "font_px": 40,
+        "bounds": [
+          289.92,
+          952.88,
+          790.08,
+          990.42
+        ]
+      },
+      {
+        "type": "text",
+        "text": "anausomelife.com/",
+        "font_px": 32,
+        "bounds": [
+          405.71,
+          1018.7,
+          674.29,
+          1048.73
+        ]
+      },
+      {
+        "type": "text",
+        "text": "thrift-shop-choice-board.html",
+        "font_px": 32,
+        "bounds": [
+          336.36,
+          1060.7,
+          743.64,
+          1090.73
+        ]
+      },
+      {
+        "type": "text",
+        "text": "An AUsome Life · @anausomelife",
+        "font_px": 29,
+        "bounds": [
+          308.32,
+          1128.89,
+          771.68,
+          1156.1
+        ]
+      },
+      {
+        "type": "text",
+        "text": "Independent resource. Generic illustrations;",
+        "font_px": 25,
+        "bounds": [
+          298.2,
+          1191.8,
+          781.8,
+          1215.26
+        ]
+      },
+      {
+        "type": "text",
+        "text": "not current shop stock.",
+        "font_px": 25,
+        "bounds": [
+          413.55,
+          1227.8,
+          666.45,
+          1251.26
+        ]
+      },
+      {
+        "type": "text",
+        "text": "Created for a future visit.",
+        "font_px": 25,
+        "bounds": [
+          403.13,
+          1263.8,
+          676.87,
+          1287.26
+        ]
+      }
+    ],
+    "story": [
+      {
+        "type": "text",
+        "text": "WELLS, MAINE",
+        "font_px": 26,
+        "bounds": [
+          445.39,
+          246.07,
+          634.61,
+          270.47
+        ]
+      },
+      {
+        "type": "text",
+        "text": "Safe Haven",
+        "font_px": 86,
+        "bounds": [
+          340.62,
+          303.37,
+          739.38,
+          381.56
+        ]
+      },
+      {
+        "type": "text",
+        "text": "A thrift stop for the cats",
+        "font_px": 39,
+        "bounds": [
+          339.5,
+          397.61,
+          740.5,
+          434.21
+        ]
+      },
+      {
+        "type": "text",
+        "text": "Free shopping choice board",
+        "font_px": 44,
+        "bounds": [
+          245.41,
+          463.97,
+          834.59,
+          505.26
+        ]
+      },
+      {
+        "type": "illustration",
+        "label": "Books",
+        "source": "assets/card-collection/photoreal/set-17.webp",
+        "catalogue_id": "photo-17-book",
+        "atlas_cell": 4,
+        "source_rectangle": [
+          0.0,
+          313.5,
+          313.5,
+          313.5
+        ],
+        "bounds": [
+          183.0,
+          549,
+          409.0,
+          775
+        ]
+      },
+      {
+        "type": "text",
+        "text": "Books",
+        "font_px": 39,
+        "bounds": [
+          236.41,
+          792.61,
+          355.59,
+          829.21
+        ]
+      },
+      {
+        "type": "illustration",
+        "label": "Clothes",
+        "source": "assets/card-collection/photoreal/set-12.webp",
+        "catalogue_id": "photo-12-polo-shirt",
+        "atlas_cell": 0,
+        "source_rectangle": [
+          0,
+          0,
+          313.5,
+          295
+        ],
+        "bounds": [
+          671.0,
+          549,
+          897.0,
+          775
+        ]
+      },
+      {
+        "type": "text",
+        "text": "Clothes",
+        "font_px": 39,
+        "bounds": [
+          712.49,
+          792.61,
+          855.51,
+          829.21
+        ]
+      },
+      {
+        "type": "illustration",
+        "label": "Lamps",
+        "source": "assets/card-collection/photoreal/set-16.webp",
+        "catalogue_id": "photo-16-bedside-lamp",
+        "atlas_cell": 3,
+        "source_rectangle": [
+          940.5,
+          0.0,
+          313.5,
+          313.5
+        ],
+        "bounds": [
+          183.0,
+          873,
+          409.0,
+          1099
+        ]
+      },
+      {
+        "type": "text",
+        "text": "Lamps",
+        "font_px": 39,
+        "bounds": [
+          233.15,
+          1116.61,
+          358.85,
+          1153.21
+        ]
+      },
+      {
+        "type": "illustration",
+        "label": "Baskets",
+        "source": "assets/card-collection/photoreal/set-16.webp",
+        "catalogue_id": "photo-16-laundry-basket",
+        "atlas_cell": 9,
+        "source_rectangle": [
+          313.5,
+          632,
+          313.5,
+          290
+        ],
+        "bounds": [
+          671.0,
+          873,
+          897.0,
+          1099
+        ]
+      },
+      {
+        "type": "text",
+        "text": "Baskets",
+        "font_px": 39,
+        "bounds": [
+          709.2,
+          1116.61,
+          858.8,
+          1153.21
+        ]
+      },
+      {
+        "type": "text",
+        "text": "Just looking · Something else · Help · All done",
+        "font_px": 30,
+        "bounds": [
+          209.14,
+          1204.16,
+          870.86,
+          1232.31
+        ]
+      },
+      {
+        "type": "text",
+        "text": "Save for your next browse",
+        "font_px": 40,
+        "bounds": [
+          289.92,
+          1266.88,
+          790.08,
+          1304.42
+        ]
+      },
+      {
+        "type": "text",
+        "text": "anausomelife.com/",
+        "font_px": 32,
+        "bounds": [
+          405.71,
+          1337.7,
+          674.29,
+          1367.73
+        ]
+      },
+      {
+        "type": "text",
+        "text": "thrift-shop-choice-board.html",
+        "font_px": 32,
+        "bounds": [
+          336.36,
+          1383.7,
+          743.64,
+          1413.73
+        ]
+      },
+      {
+        "type": "text",
+        "text": "An AUsome Life · @anausomelife",
+        "font_px": 29,
+        "bounds": [
+          308.32,
+          1454.89,
+          771.68,
+          1482.1
+        ]
+      },
+      {
+        "type": "text",
+        "text": "Independent resource. Generic illustrations;",
+        "font_px": 25,
+        "bounds": [
+          298.2,
+          1514.8,
+          781.8,
+          1538.26
+        ]
+      },
+      {
+        "type": "text",
+        "text": "not current shop stock.",
+        "font_px": 25,
+        "bounds": [
+          413.55,
+          1550.8,
+          666.45,
+          1574.26
+        ]
+      },
+      {
+        "type": "text",
+        "text": "Created for a future visit.",
+        "font_px": 25,
+        "bounds": [
+          403.13,
+          1586.8,
+          676.87,
+          1610.26
+        ]
+      }
+    ]
+  },
+  "site_link_preview": {
+    "path": "assets/safe-haven-wells/social-preview.png",
+    "bytes": 367563,
+    "sha256": "3208c8b030cdaa47c806ea02def25b457706bc1ce7dba9abfa98ce39d6a0c2fa",
+    "dimensions": [
+      1200,
+      630
+    ],
+    "alt_text": "Safe Haven in Wells, Maine: Thrift-shop visit + free shopping choice board, from An AUsome Life. Beside the text is the complete original portrait photograph of two family members approaching the yellow thrift-shop building, with autumn flowers outside.",
+    "source_photo": {
+      "path": "assets/safe-haven-wells/family-at-the-shop.jpeg",
+      "dimensions": [
+        1152,
+        1536
+      ],
+      "bytes": 695646,
+      "sha256": "efb3582aff86f3db2ed0d7523abc21f09b66033592ed87bf7e516a962e60b9e5",
+      "publication_basis": "Owner-supplied original visit photograph approved for the Safe Haven story and, in the current session, specifically directed for this story's site link preview.",
+      "existing_provenance": "docs/safe-haven-wells-photo-provenance.json"
+    },
+    "photo_placement": {
+      "x": 720,
+      "top": 43,
+      "width": 408,
+      "height": 544,
+      "aspect_ratio": "3:4",
+      "crop": null,
+      "retouch": false,
+      "replacement_or_generation": false
+    },
+    "scope": "Site-controlled Open Graph and article-link preview presentation for the Safe Haven story only, including the preview displayed when its article URL is shared. Excluded from the two-image organic sharing package and permission. No standalone family-photo/composite download or repost license, raw-photo redistribution, paid advertising or unrelated reuse is granted.",
+    "layout_reasoning": "Exact 1200 by 630 document layout places the whole portrait photograph at 408 by 544 beside short useful typography. No photo crop, retouch, mask, or synthetic substitute is used.",
+    "source_document": {
+      "path": "docs/safe-haven-social-preview-source.pdf",
+      "bytes": 931881,
+      "sha256": "6622814f4345455b12ac1ad34aa42c8e3c75895e6dc2f6a21783465f3f9b127e",
+      "pages": 1,
+      "hosting": "Internal source under docs; not part of the public download package."
+    },
+    "text_bounds": [
+      {
+        "text": "Safe Haven",
+        "font_px": 82,
+        "bounds": [
+          62,
+          152.14,
+          442.21,
+          226.7
+        ]
+      },
+      {
+        "text": "Wells, Maine",
+        "font_px": 34,
+        "bounds": [
+          62,
+          238.25,
+          256.6,
+          270.16
+        ]
+      },
+      {
+        "text": "Thrift-shop visit + free",
+        "font_px": 34,
+        "bounds": [
+          62,
+          335.25,
+          420.0,
+          367.16
+        ]
+      },
+      {
+        "text": "shopping choice board",
+        "font_px": 34,
+        "bounds": [
+          62,
+          383.25,
+          436.02,
+          415.16
+        ]
+      },
+      {
+        "text": "An AUsome Life",
+        "font_px": 26,
+        "bounds": [
+          62,
+          476.07,
+          262.8,
+          500.47
+        ]
+      }
+    ],
+    "visual_review": "Final 1200 by 630 PNG visually inspected on October 18, 2026. The full native 3:4 photograph is retained at 408 by 544, with no crop, retouch, mask, or replacement. Adjacent Safe Haven, location, resource and publication text is clear with no overlap. Original JPEG hash unchanged. This preview remains outside the two-file social sharing permission."
+  }
+}

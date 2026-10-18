@@ -8,6 +8,10 @@
     "congdons-doughnuts-wells-maine.html": {
       "provenance": "docs/congdons-social-card-provenance.json",
       "reviewed": "2026-10-18"
+    },
+    "safe-haven-thrift-shop-wells-maine.html": {
+      "provenance": "docs/safe-haven-social-card-provenance.json",
+      "reviewed": "2026-10-18"
     }
   }
 }

@@ -1,0 +1,443 @@
+{
+  "title": "Thrift-shop choice board",
+  "created": "2026-10-18",
+  "resource_url": "https://anausomelife.com/thrift-shop-choice-board.html",
+  "article_url": "https://anausomelife.com/safe-haven-thrift-shop-wells-maine.html",
+  "generator": "tools/build_thrift_shop_choice_board.py",
+  "generator_sha256": "b82a41c5e47075d82a06835a28aadcc34775f6564190808e46a0b95cb2b84d48",
+  "creation_basis": "Owner-directed practical board accompanying a documented Safe Haven thrift-shop story. Created after the visit for future use; no actual use or outcome is claimed.",
+  "source_catalogue": "assets/card-catalog.js",
+  "sources": [
+    {
+      "label": "Books",
+      "id": "photo-17-book",
+      "path": "assets/card-collection/photoreal/set-17.webp",
+      "cell": 4,
+      "description": "A complete closed navy book on a light background.",
+      "sha256": "4cf4a90cc4ae787ba11a0b6e3073144e47cb11b3398d824f6751d64e36ec4b25",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "source_rectangle": [
+        0.0,
+        313.5,
+        313.5,
+        313.5
+      ],
+      "origin": "Existing approved original AI-generated generic object illustration in the publication's photorealistic picture-card catalogue.",
+      "placement": "Complete existing catalogue cell, proportionally placed with native PDF clipping. Original source file is unchanged."
+    },
+    {
+      "label": "Clothes",
+      "id": "photo-12-polo-shirt",
+      "path": "assets/card-collection/photoreal/set-12.webp",
+      "cell": 0,
+      "crop": [
+        0,
+        0,
+        313.5,
+        295
+      ],
+      "description": "A complete navy polo shirt on a light background.",
+      "sha256": "0d235f5381d03919162a27fb54c3a5fde44f702863304e88ecf4818981c71a7a",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "source_rectangle": [
+        0,
+        0,
+        313.5,
+        295
+      ],
+      "origin": "Existing approved original AI-generated generic object illustration in the publication's photorealistic picture-card catalogue.",
+      "placement": "Complete existing catalogue cell, proportionally placed with native PDF clipping. Original source file is unchanged."
+    },
+    {
+      "label": "Lamps",
+      "id": "photo-16-bedside-lamp",
+      "path": "assets/card-collection/photoreal/set-16.webp",
+      "cell": 3,
+      "description": "A complete navy table lamp with a cream shade on a light background.",
+      "sha256": "1c58d213179a71089f5706db73f026dbb9e39a97c76f2e314b1608fb08d940be",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "source_rectangle": [
+        940.5,
+        0.0,
+        313.5,
+        313.5
+      ],
+      "origin": "Existing approved original AI-generated generic object illustration in the publication's photorealistic picture-card catalogue.",
+      "placement": "Complete existing catalogue cell, proportionally placed with native PDF clipping. Original source file is unchanged."
+    },
+    {
+      "label": "Baskets",
+      "id": "photo-16-laundry-basket",
+      "path": "assets/card-collection/photoreal/set-16.webp",
+      "cell": 9,
+      "crop": [
+        313.5,
+        632,
+        313.5,
+        290
+      ],
+      "description": "A complete cream and navy rope basket on a light background.",
+      "sha256": "1c58d213179a71089f5706db73f026dbb9e39a97c76f2e314b1608fb08d940be",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "source_rectangle": [
+        313.5,
+        632,
+        313.5,
+        290
+      ],
+      "origin": "Existing approved original AI-generated generic object illustration in the publication's photorealistic picture-card catalogue.",
+      "placement": "Complete existing catalogue cell, proportionally placed with native PDF clipping. Original source file is unchanged."
+    },
+    {
+      "label": "No",
+      "key": "no",
+      "path": "assets/card-collection/no.svg",
+      "sha256": "222b0c4bfc6aacfbcca9e5be7cb79c236562e101bb91218e89b4b269ac59ef1d",
+      "origin": "Existing original publication core-word SVG.",
+      "placement": "Exact existing SVG geometry reproduced as PDF vectors."
+    },
+    {
+      "label": "Help",
+      "key": "help",
+      "path": "assets/card-collection/help.svg",
+      "sha256": "5484084ae970c6494e9f630f6246cfd86138dac08f6ea8bf8a2de75a33381b80",
+      "origin": "Existing original publication core-word SVG.",
+      "placement": "Exact existing SVG geometry reproduced as PDF vectors."
+    },
+    {
+      "label": "Break",
+      "key": "break",
+      "path": "assets/card-studio/break.webp",
+      "sha256": "7f2bce080a97efc64eae41efa23a93394dfc87bf81ba1017bfe8ef941a6e4f8d",
+      "origin": "Existing original picture-card studio illustration.",
+      "placement": "Full original composition and proportions retained."
+    },
+    {
+      "label": "All done",
+      "key": "all-done",
+      "path": "assets/card-collection/all-done.svg",
+      "sha256": "cf21e769ae186f56d94355367ec285f66e46737072e4de0134636a85f4c460fd",
+      "origin": "Existing original publication core-word SVG.",
+      "placement": "Exact existing SVG geometry reproduced as PDF vectors."
+    }
+  ],
+  "new_generation": false,
+  "family_photographs_used": false,
+  "venue_logos_used": false,
+  "fonts_embedded": {
+    "ThriftSans": "LiberationSans-Regular.ttf",
+    "ThriftSansBold": "LiberationSans-Bold.ttf",
+    "ThriftSerif": "LiberationSerif-Regular.ttf"
+  },
+  "layout_reasoning": [
+    "A single US Letter sheet keeps four broad shopping choices at a readable 24-point size with one recognizable complete object per card.",
+    "Two wide text choices preserve alternatives and browsing without a purchase. No, Help, Break and All done stay visible in their own 22-point support cards.",
+    "Cream, navy, pine and white provide clear separation without recoloring the natural object artwork. The chair for Break is an existing familiar studio object.",
+    "Exact vector text and approved SVG geometry use a code-native PDF layout. Native atlas clipping selects existing catalogue cells without changing any source file or cutting off a subject.",
+    "Generic object images represent categories, not current stock, venue photographs, a purchase, or a promise of availability. The footer invites checking choices before offering them."
+  ],
+  "public_notice": "Generic illustrations, not shop stock. Check available choices before offering them.",
+  "outputs": [
+    {
+      "path": "downloads/thrift-shop-choice-board.pdf",
+      "bytes": 1314181,
+      "sha256": "b26065836b35b29a38eae9011fdd757ac9297d4970983e7a449a90c902df6b6f",
+      "pages": 1,
+      "page_dimensions_pt": [
+        612,
+        792
+      ]
+    },
+    {
+      "path": "downloads/thrift-shop-choice-board.png",
+      "bytes": 433176,
+      "sha256": "f5b35eac81aad8b3453b60c2c671403b94f0a90b2488431967c3724b7a4f64b5",
+      "dimensions": [
+        1530,
+        1980
+      ],
+      "alt_text": "A one-page An AUsome Life thrift-shop choice board. Four labeled generic object illustrations: Books, Clothes, Lamps, and Baskets. Additional choices: Something else, Just looking, No, Help, Break, and All done. The board invites pointing to a picture or word and welcomes any answer. Generic illustrations are not shop stock; check available choices. Made for a future visit. anausomelife.com/thrift-shop-choice-board.html."
+    }
+  ],
+  "validation": {
+    "automated": "One US Letter page, all ten exact choice labels, embedded fonts, in-bounds text, no image-label overlap, 1530 by 1980 PNG export, and unchanged source hashes verified.",
+    "visual_review": "Final 1530 by 1980 PNG visually inspected on October 18, 2026. All ten exact labels are clear; each complete object is recognizable and separated from its label. No neighboring atlas objects, clipped subjects, text overflow, intersecting borders, or unexpected glyphs appear. Support choices remain visible, and the generic-stock/future-use notices are readable."
+  },
+  "layout_bounds": [
+    {
+      "type": "text",
+      "text": "AN AUSOME LIFE",
+      "font_pt": 10,
+      "bounds": [
+        34,
+        27.72,
+        119.56,
+        37.1
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Thrift-shop choice board",
+      "font_pt": 30,
+      "bounds": [
+        34,
+        55.2,
+        332.23,
+        82.47
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Point to a picture or word. Any answer is welcome.",
+      "font_pt": 11,
+      "bounds": [
+        34,
+        92.99,
+        280.38,
+        103.31
+      ]
+    },
+    {
+      "type": "text",
+      "text": "What would you like to look at?",
+      "font_pt": 11,
+      "bounds": [
+        34,
+        111.99,
+        198.39,
+        122.31
+      ]
+    },
+    {
+      "type": "illustration",
+      "label": "Books",
+      "source": "assets/card-collection/photoreal/set-17.webp",
+      "catalogue_id": "photo-17-book",
+      "atlas_cell": 4,
+      "source_rectangle": [
+        0.0,
+        313.5,
+        313.5,
+        313.5
+      ],
+      "bounds": [
+        99.0,
+        142,
+        235.0,
+        278
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Books",
+      "font_pt": 24,
+      "bounds": [
+        130.33,
+        285.53,
+        203.67,
+        308.05
+      ]
+    },
+    {
+      "type": "illustration",
+      "label": "Clothes",
+      "source": "assets/card-collection/photoreal/set-12.webp",
+      "catalogue_id": "photo-12-polo-shirt",
+      "atlas_cell": 0,
+      "source_rectangle": [
+        0,
+        0,
+        313.5,
+        295
+      ],
+      "bounds": [
+        377.0,
+        142,
+        513.0,
+        278
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Clothes",
+      "font_pt": 24,
+      "bounds": [
+        401.0,
+        285.53,
+        489.0,
+        308.05
+      ]
+    },
+    {
+      "type": "illustration",
+      "label": "Lamps",
+      "source": "assets/card-collection/photoreal/set-16.webp",
+      "catalogue_id": "photo-16-bedside-lamp",
+      "atlas_cell": 3,
+      "source_rectangle": [
+        940.5,
+        0.0,
+        313.5,
+        313.5
+      ],
+      "bounds": [
+        99.0,
+        337,
+        235.0,
+        473
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Lamps",
+      "font_pt": 24,
+      "bounds": [
+        128.32,
+        480.53,
+        205.68,
+        503.05
+      ]
+    },
+    {
+      "type": "illustration",
+      "label": "Baskets",
+      "source": "assets/card-collection/photoreal/set-16.webp",
+      "catalogue_id": "photo-16-laundry-basket",
+      "atlas_cell": 9,
+      "source_rectangle": [
+        313.5,
+        632,
+        313.5,
+        290
+      ],
+      "bounds": [
+        377.0,
+        337,
+        513.0,
+        473
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Baskets",
+      "font_pt": 24,
+      "bounds": [
+        398.97,
+        480.53,
+        491.03,
+        503.05
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Something else",
+      "font_pt": 22,
+      "bounds": [
+        85.7,
+        543.98,
+        248.3,
+        564.63
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Just looking",
+      "font_pt": 22,
+      "bounds": [
+        380.22,
+        543.98,
+        509.78,
+        564.63
+      ]
+    },
+    {
+      "type": "text",
+      "text": "No",
+      "font_pt": 22,
+      "bounds": [
+        83.59,
+        672.98,
+        112.91,
+        693.63
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Help",
+      "font_pt": 22,
+      "bounds": [
+        212.91,
+        672.98,
+        260.59,
+        693.63
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Break",
+      "font_pt": 22,
+      "bounds": [
+        344.67,
+        672.98,
+        405.83,
+        693.63
+      ]
+    },
+    {
+      "type": "text",
+      "text": "All done",
+      "font_pt": 22,
+      "bounds": [
+        470.36,
+        672.98,
+        557.14,
+        693.63
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Generic illustrations, not shop stock. Check available choices before offering them.",
+      "font_pt": 9.5,
+      "bounds": [
+        34,
+        721.08,
+        381.46,
+        730.0
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Use with the person's usual communication system. Made for a future visit.",
+      "font_pt": 9,
+      "bounds": [
+        34,
+        738.45,
+        331.84,
+        746.89
+      ]
+    },
+    {
+      "type": "text",
+      "text": "anausomelife.com/thrift-shop-choice-board.html",
+      "font_pt": 9,
+      "bounds": [
+        34,
+        758.45,
+        224.09,
+        766.89
+      ]
+    }
+  ]
+}

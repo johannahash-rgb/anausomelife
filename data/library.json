@@ -1,5 +1,25 @@
 [
   {
+    "slug": "safe-haven-thrift-shop-wells-maine",
+    "url": "/safe-haven-thrift-shop-wells-maine.html",
+    "title": "A thrift stop for the cats.",
+    "summary": "A family browse at Safe Haven in Wells, a fellow thrifter’s $1 clearance tip, practical visit notes and a free shopping choice board.",
+    "category": "stories",
+    "format": "Story",
+    "minutes": 5,
+    "image": "/assets/safe-haven-wells/family-at-the-shop.jpeg"
+  },
+  {
+    "slug": "thrift-shop-choice-board",
+    "url": "/thrift-shop-choice-board.html",
+    "title": "A thrift-shop picture choice board.",
+    "summary": "Books, clothes, lamps, baskets and useful words for a browse. Use the screen or save one printable page.",
+    "category": "family",
+    "format": "Toolkit",
+    "minutes": 2,
+    "image": "/downloads/thrift-shop-choice-board.png"
+  },
+  {
     "slug": "congdons-doughnuts-wells-maine",
     "url": "/congdons-doughnuts-wells-maine.html",
     "title": "A doughnut stop at Congdon’s.",

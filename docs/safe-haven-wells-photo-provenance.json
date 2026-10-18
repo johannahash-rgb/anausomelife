@@ -1,0 +1,119 @@
+{
+  "article": "/safe-haven-thrift-shop-wells-maine.html",
+  "recorded": "2026-10-18",
+  "assets": [
+    {
+      "source_upload": "IMG_9483.jpeg",
+      "asset": "/assets/safe-haven-wells/family-at-the-shop.jpeg",
+      "source_sha256": "1f8ce4bc350413bb95c369cd24f0de1f788f117ad64183cb2698fe0f35ab995e",
+      "published_sha256": "efb3582aff86f3db2ed0d7523abc21f09b66033592ed87bf7e516a962e60b9e5",
+      "dimensions": [
+        1152,
+        1536
+      ],
+      "basis": "Owner supplied this original visit photograph for another story in the ongoing An AUsome Life publication task.",
+      "changes": "EXIF/XMP/IPTC/comment metadata removed without recompressing the photograph. Decoded pixels, ICC color profile, dimensions and proportions verified unchanged."
+    },
+    {
+      "source_upload": "IMG_9507.jpeg",
+      "asset": "/assets/safe-haven-wells/stairs-to-antiques.jpeg",
+      "source_sha256": "2af3b86e607e275640677eb0c033316228fc1b051c71ca3d19dfcfc4e7cfc0aa",
+      "published_sha256": "db9e4a773f152566ae9211f524887d0a85b844e64336a4e200e25249ca4b4d19",
+      "dimensions": [
+        1152,
+        1536
+      ],
+      "basis": "Owner supplied this original visit photograph for another story in the ongoing An AUsome Life publication task.",
+      "changes": "EXIF/XMP/IPTC/comment metadata removed without recompressing the photograph. Decoded pixels, ICC color profile, dimensions and proportions verified unchanged."
+    },
+    {
+      "source_upload": "IMG_9522.jpeg",
+      "asset": "/assets/safe-haven-wells/quilts-and-baskets.jpeg",
+      "source_sha256": "09804749c68146d968030166f087df1cf6b149bea2eed533e0e4123fe2a3f9a4",
+      "published_sha256": "6d9a5f9b4e0b2aa8607348110abab1a38c7807a99ac16c1b656312c3147ee0e5",
+      "dimensions": [
+        1152,
+        1536
+      ],
+      "basis": "Owner supplied this original visit photograph for another story in the ongoing An AUsome Life publication task.",
+      "changes": "EXIF/XMP/IPTC/comment metadata removed without recompressing the photograph. Decoded pixels, ICC color profile, dimensions and proportions verified unchanged."
+    },
+    {
+      "source_upload": "IMG_9524.jpeg",
+      "asset": "/assets/safe-haven-wells/lamps-and-wicker.jpeg",
+      "source_sha256": "9841213983918418d747581a38447ca1b31842c8547abe39803ba50a7c9ea2ca",
+      "published_sha256": "19e822dd3fbd2bf87d184d2e863aa576cdcdb03bbd83ee1de247d5acc932328f",
+      "dimensions": [
+        1152,
+        1536
+      ],
+      "basis": "Owner supplied this original visit photograph for another story in the ongoing An AUsome Life publication task.",
+      "changes": "EXIF/XMP/IPTC/comment metadata removed without recompressing the photograph. Decoded pixels, ICC color profile, dimensions and proportions verified unchanged."
+    },
+    {
+      "source_upload": "IMG_9525.jpeg",
+      "asset": "/assets/safe-haven-wells/records-and-shelves.jpeg",
+      "source_sha256": "c52739749effafe12321ae0b749e569018e37e8080f9db9e285c3fb87428e622",
+      "published_sha256": "905102953c96eb507bded574cea38fe9cfaf610f17eb6433b83b051a7d59d4a3",
+      "dimensions": [
+        1152,
+        1536
+      ],
+      "basis": "Owner supplied this original visit photograph for another story in the ongoing An AUsome Life publication task.",
+      "changes": "EXIF/XMP/IPTC/comment metadata removed without recompressing the photograph. Decoded pixels, ICC color profile, dimensions and proportions verified unchanged."
+    },
+    {
+      "source_upload": "IMG_9529.jpeg",
+      "asset": "/assets/safe-haven-wells/keep-cats-inside-sign.jpeg",
+      "source_sha256": "279cf197975b3f8097135a9ecfe7f9c7d07cfc55a41f30063d82e2365960ada8",
+      "published_sha256": "427df66467d5cfe59061daef1705a455d8eee2f48bfcd2622350698e1d0da29b",
+      "dimensions": [
+        1152,
+        1536
+      ],
+      "basis": "Owner supplied this original visit photograph for another story in the ongoing An AUsome Life publication task.",
+      "changes": "EXIF/XMP/IPTC/comment metadata removed without recompressing the photograph. Decoded pixels, ICC color profile, dimensions and proportions verified unchanged."
+    },
+    {
+      "source_upload": "IMG_9530.jpeg",
+      "asset": "/assets/safe-haven-wells/donation-entrance.jpeg",
+      "source_sha256": "4c57e7b29468984930db9d2da8b6379398337f113bcf681a88b7f90ee0b83c74",
+      "published_sha256": "0f11463cd796559420680976aafb6f00fbf6e4632033118e9bf4a2ea6d8743b7",
+      "dimensions": [
+        1152,
+        1536
+      ],
+      "basis": "Owner supplied this original visit photograph for another story in the ongoing An AUsome Life publication task.",
+      "changes": "EXIF/XMP/IPTC/comment metadata removed without recompressing the photograph. Decoded pixels, ICC color profile, dimensions and proportions verified unchanged."
+    }
+  ],
+  "excluded_uploads": {
+    "IMG_9477.jpeg": "Near-duplicate exterior; original left unchanged.",
+    "IMG_9519.jpeg": "Near-duplicate staircase; original left unchanged.",
+    "IMG_9532(1).jpeg": "Green garment with removed brand label; brand, purchase location and price unverified, so not used in the shop story."
+  },
+  "scope": "A documented family shopping visit, not an accessibility audit. No purchases, prices, staff interactions, feline encounters, individual reactions or sponsorship history asserted without owner context.",
+  "facts_checked": [
+    "https://www.safehavenhumanesociety.org/",
+    "https://www.safehavenhumanesociety.org/shop/",
+    "https://www.safehavenhumanesociety.org/about-safe-haven/"
+  ],
+  "observations": [
+    "Exterior yellow building and autumn flowers.",
+    "Wooden stairs and handrails to an upstairs antiques area.",
+    "Lamps, wicker furniture, quilts, baskets and records in the photographed displays.",
+    "Posted keep-cats-inside instruction; no cat encounter documented.",
+    "Donation entrance sign gives Saturdays noon–3 p.m. and asks not to leave goods unattended."
+  ],
+  "sharing_scope": "Article and site link preview only. No additional download license for these photographs is granted by the separate social-resource graphics package.",
+  "owner_visit_context": {
+    "clarified_on": "2026-10-18",
+    "source": "Owner’s direct account during the Safe Haven post task.",
+    "firsthand": [
+      "The family met a lovely, inveterate thrifter.",
+      "He said this was the absolute best store he goes to.",
+      "He told the family about $1 clearance walls at the side and back of the store."
+    ],
+    "scope": "The best-store statement and clearance tip are attributed to that shopper, not presented as a measured ranking, store-wide pricing policy, verified current stock or an owner purchase."
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "checked": "2026-10-18",
+  "identity": {
+    "shop_name": "Safe Haven Humane Society Vintage/Thrift/Antique Shop at Cattail Farm",
+    "shop_address": "1784 Post Road, Wells, Maine 04090",
+    "shop_source": "https://www.safehavenhumanesociety.org/shop/",
+    "separate_adoption_center": "1420 Post Road, Wells"
+  },
+  "accounts": [
+    {
+      "platform": "Facebook",
+      "role": "shop",
+      "url": "https://www.facebook.com/shhsthriftstore/",
+      "verification": "https://www.safehavenhumanesociety.org/"
+    },
+    {
+      "platform": "Facebook",
+      "role": "organization",
+      "url": "https://www.facebook.com/SafeHavenHumaneSociety",
+      "verification": "https://www.safehavenhumanesociety.org/"
+    },
+    {
+      "platform": "Instagram",
+      "role": "organization",
+      "url": "https://instagram.com/safe_haven_humane_society",
+      "verification": "https://www.safehavenhumanesociety.org/"
+    }
+  ],
+  "hours_scope": "Official shop page says11–4 daily; homepage says10am weekend opening; Oct9WeeklySentinel column says9am weekends while its ad says11–4. Public text asks readers to confirm an early weekend start.",
+  "donations": "Saturday noon–3, with current temporary pause on clothing, books, dishes/dish sets per homepage.",
+  "current_route_source": {
+    "url": "https://e.issuu.com/embed.html?d=ws_oct._16_2026&pageLayout=singlePage&u=weeklysentinel&pageNumber=6",
+    "report": "Oct16 article reports recent collision damage to porch and parts of Cattail Farm. No closure or ongoing repair status inferred. Root independently retrieved full p6 text."
+  },
+  "review_background": {
+    "url": "https://www.tripadvisor.com/Attraction_Review-g40951-d33131762-Reviews-Safe_Haven_Thrift_Store-Wells_Maine.html",
+    "dates": [
+      "2025-11-20",
+      "2025-05-15"
+    ],
+    "scope": "Brief attributed historical opinions, not owner experiences or access guarantees."
+  },
+  "outreach": {
+    "verified_general_email": "info@safehavenhumanesociety.org",
+    "source": "https://www.safehavenhumanesociety.org/contact/",
+    "status": "No Safe Haven notice sent in this task."
+  },
+  "native_social_publication": "Not published in this task.",
+  "observed_brand_share": "Unverified; no repost or endorsement claimed."
+}

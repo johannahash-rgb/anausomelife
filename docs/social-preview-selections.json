@@ -2303,6 +2303,32 @@
       "kind": "communication-board",
       "selection_reason": "Reviewed printable food-choice page made for the Congdon’s communication board.",
       "provenance": "docs/congdons-choice-board-provenance.json"
+    },
+    "safe-haven-thrift-shop-wells-maine.html": {
+      "image": "/assets/safe-haven-wells/social-preview.png",
+      "width": 1200,
+      "height": 630,
+      "mime": "image/png",
+      "card": "summary_large_image",
+      "type": "article",
+      "alt": "Safe Haven in Wells, Maine: Thrift-shop visit + free shopping choice board, from An AUsome Life. Beside the text is the complete original family photograph outside the yellow shop with autumn flowers.",
+      "sha256": "3208c8b030cdaa47c806ea02def25b457706bc1ce7dba9abfa98ce39d6a0c2fa",
+      "provenance": "docs/safe-haven-social-card-provenance.json",
+      "kind": "original-photo-layout",
+      "selection_reason": "Reviewed landscape link preview with the complete original portrait retained at 3:4 proportions and the free shopping-board benefit."
+    },
+    "thrift-shop-choice-board.html": {
+      "image": "/downloads/thrift-shop-choice-board.png",
+      "width": 1530,
+      "height": 1980,
+      "mime": "image/png",
+      "card": "summary_large_image",
+      "type": "website",
+      "alt": "Printable shopping choice board with Books, Clothes, Lamps, Baskets, Something else, Just looking, No, Help, Break and All done. Generic illustrations, not shop stock.",
+      "sha256": "f5b35eac81aad8b3453b60c2c671403b94f0a90b2488431967c3724b7a4f64b5",
+      "provenance": "docs/thrift-shop-choice-board-provenance.json",
+      "kind": "communication-board",
+      "selection_reason": "Reviewed one-page shopping resource with clear objects and ten communication choices."
     }
   },
   "pending": {

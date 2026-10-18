@@ -1,0 +1,11 @@
+/* The complete reviewed object from each catalogue cell, with a plain label. */
+.shopping-art-wrap{display:flex;align-items:center;justify-content:center;width:100%;max-width:275px;aspect-ratio:1;background:#fff}
+.shopping-art{display:block;width:100%;max-width:275px;height:auto;aspect-ratio:1;overflow:hidden;background:#fff}
+.browse-alternatives{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+.shopping-words{grid-template-columns:repeat(4,minmax(0,1fr))}
+.shopping-words .choice-card img{width:120px}
+.shopping-words .card-label{font-size:25px}
+@media(max-width:640px){.browse-alternatives{gap:12px}.browse-alternatives .something-else{padding:10px 7px}.browse-alternatives .card-label{font-size:20px}.shopping-words{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media print{.shopping-art{width:145pt;height:145pt}.browse-alternatives{gap:10pt}.shopping-words{grid-template-columns:repeat(4,minmax(0,1fr))}.shopping-words .choice-card{min-height:135pt}.shopping-words .choice-card img{width:80pt;height:80pt}.shopping-words .card-label{font-size:18pt}}
+
+@media print{.shopping-art-wrap{width:145pt;height:145pt}.shopping-art{width:100%;height:auto}}
