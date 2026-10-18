@@ -7,6 +7,8 @@ from lxml import html
 ROOT=Path(__file__).resolve().parents[1]
 spec=importlib.util.spec_from_file_location('reader_growth',ROOT/'.github/scripts/reader_growth.py')
 growth=importlib.util.module_from_spec(spec);spec.loader.exec_module(growth)
+spec_edition=importlib.util.spec_from_file_location('edition',ROOT/'.github/scripts/prepare_curated_edition.py')
+edition=importlib.util.module_from_spec(spec_edition);spec_edition.loader.exec_module(edition)
 
 def doc(root,name):return html.fromstring((root/name).read_text())
 
@@ -20,6 +22,9 @@ class ReaderGrowth(unittest.TestCase):
    if p.startswith('/') and p.endswith('.html'):paths.add(p.lstrip('/'))
   for name in paths:
    p=cls.root/name;p.parent.mkdir(parents=True,exist_ok=True);shutil.copyfile(ROOT/name,p)
+  # Production runs the owner's journal pinning stage before the feed generator.
+  journal=cls.root/'blog.html'
+  journal.write_text(edition.pin_journal_stories(journal.read_text()))
   cls.before={name:doc(cls.root,name).xpath('//main//img/@src') for name in growth.SUMMARIES}
   growth.prepare(cls.root)
  @classmethod
