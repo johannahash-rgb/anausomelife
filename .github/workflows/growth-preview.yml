@@ -28,13 +28,26 @@ jobs:
         run: |
           python -m pip install --quiet Pillow lxml
           python .github/scripts/build_milk_social.py --root .
-      - name: Test editorial inquiry behavior and publication guards
+      - name: Run the complete production validation suite before previewing
         run: |
+          python tools/check_journal_picture_cards.py
+          python tools/check_editorial_rights.py
+          python -m py_compile tools/build_family_field_notes.py
+          node --check assets/global-nav.js
+          node --check assets/access-tools.js
+          npm install --prefix /tmp/aal-access-tests --no-package-lock --no-audit --no-fund linkedom@0.18.13
+          NODE_PATH=/tmp/aal-access-tests/node_modules node tests/test_access_tools.cjs
+          python tests/test_access_publication.py
+          python tests/test_reader_pathways.py
           python tests/test_growth_readiness.py
           node --check assets/inquiry-builder.js
           node tests/test_inquiry_builder.cjs
-          python tools/check_journal_picture_cards.py
-          python tools/check_editorial_rights.py
+          node --check assets/story-share.js
+          node --check assets/brand-room.js
+          node tests/test_editorial_sharing.cjs
+          node --check assets/card-catalog.js
+          node --check assets/card-collection.js
+          node --check assets/journal-picture-cards.js
       - name: Build an unpublished preview
         run: |
           mkdir -p _site
