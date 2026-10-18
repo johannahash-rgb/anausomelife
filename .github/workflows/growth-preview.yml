@@ -1,0 +1,53 @@
+name: Editorial growth preview checks
+
+on:
+  pull_request:
+    paths:
+      - '.github/**'
+      - 'assets/**'
+      - 'tests/**'
+      - 'tools/**'
+      - 'downloads/**'
+      - '*.html'
+      - 'media/**'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: editorial-growth-preview-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - name: Prepare dependencies and existing generated photographs
+        run: |
+          python -m pip install --quiet Pillow lxml
+          python .github/scripts/build_milk_social.py --root .
+      - name: Test editorial inquiry behavior and publication guards
+        run: |
+          python tests/test_growth_readiness.py
+          node --check assets/inquiry-builder.js
+          node tests/test_inquiry_builder.cjs
+          python tools/check_journal_picture_cards.py
+          python tools/check_editorial_rights.py
+      - name: Build an unpublished preview
+        run: |
+          mkdir -p _site
+          rsync -a --exclude='.git/' --exclude='.github/' --exclude='_site/' --exclude='*.md' --exclude='docs/' --exclude='tools/' --exclude='tests/' --exclude='scripts/' --exclude='services/' --exclude='*.py' --exclude='*.cjs' --exclude='*.example' --exclude='site-audit-report.json' ./ _site/
+          python .github/scripts/prepare_curated_edition.py --root _site
+          python .github/scripts/enrich_social_meta.py --root _site
+          python .github/scripts/enrich_social_meta.py --root _site --check
+          python tools/build_site_index.py --root _site
+          python .github/scripts/site_audit.py --root _site --external-limit 0 --strict
+          python .github/scripts/growth_readiness.py --root _site --check
+      - name: Preserve the preview without deploying
+        uses: actions/upload-artifact@v4
+        with:
+          name: editorial-growth-preview
+          path: _site/
+          retention-days: 7
