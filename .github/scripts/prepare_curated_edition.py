@@ -3,7 +3,7 @@
 import argparse,re,html,importlib.util
 from html.parser import HTMLParser
 from pathlib import Path
-VERSION='20261018-growth-readiness'
+VERSION='20261018-story-sharing'
 VERSIONED_ASSETS=(
     'editorial.css','global-nav.js','access-tools.css','access-tools.js',
     'reader-pathways.css','brand-design.css','brand-banner.css','brand-banner.js',

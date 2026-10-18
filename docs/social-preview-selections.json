@@ -2279,15 +2279,17 @@
       ]
     },
     "congdons-doughnuts-wells-maine.html": {
-      "image": "/assets/congdons-wells/family-by-the-sign.jpeg",
-      "width": 1536,
-      "height": 1152,
-      "mime": "image/jpeg",
+      "image": "/assets/congdons-wells/social-preview-v2.png",
+      "width": 1200,
+      "height": 630,
+      "mime": "image/png",
       "card": "summary_large_image",
       "type": "article",
-      "alt": "James enjoying a doughnut beside his dad in front of the yellow Congdon’s Doughnuts sign in Wells.",
-      "sha256": "d2c90a68001de44533ab0849dbc02b78399047074402d37ecfa3c456891d7624",
-      "provenance": "docs/congdons-wells-photo-provenance.json"
+      "alt": "Congdon’s in Wells, Maine: Family visit + free picture choice board, from An AUsome Life. Beside the text is the full original photograph of two family members standing by the yellow Congdon’s Doughnuts sign.",
+      "sha256": "e1577236893d253d19e6e081661e22384914baf3444adc61518c33d8a52c6dd9",
+      "provenance": "docs/congdons-social-card-provenance.json",
+      "kind": "original-photo-layout",
+      "selection_reason": "Reviewed landscape link preview with the entire original family photograph at its native proportions and the specific free-board benefit."
     },
     "congdons-choice-board.html": {
       "image": "/downloads/congdons-choice-board.png",

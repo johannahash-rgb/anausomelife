@@ -34,6 +34,8 @@ jobs:
         run: |
           python tools/check_journal_picture_cards.py
           python tools/check_editorial_rights.py
+          python tools/check_story_sharing.py
+          python tests/test_story_sharing.py
           python -m py_compile tools/build_family_field_notes.py
           node --check assets/global-nav.js
           node --check assets/access-tools.js

@@ -78,8 +78,8 @@
   const menuTheme=document.createElement('link');
   menuTheme.rel='stylesheet';menuTheme.href='/assets/menu-wayfinding.css?v=20261017-expanded-collection-clear-wayfinding';document.head.append(menuTheme);
 
-  const refinement=document.querySelector('link[href*="/assets/editorial.css"]')||document.createElement('link');refinement.rel='stylesheet';refinement.href='/assets/editorial.css?v=20261017-expanded-collection-clear-wayfinding';document.head.append(refinement);document.head.append(menuTheme);
-  const sharing=document.createElement('script');sharing.src='/assets/story-share.js?v=20261017-expanded-collection-clear-wayfinding';sharing.defer=true;document.head.append(sharing);
+  const refinement=document.querySelector('link[href*="/assets/editorial.css"]')||document.createElement('link');refinement.rel='stylesheet';refinement.href='/assets/editorial.css?v=20261018-story-sharing';document.head.append(refinement);document.head.append(menuTheme);
+  const sharing=document.createElement('script');sharing.src='/assets/story-share.js?v=20261018-story-sharing';sharing.defer=true;document.head.append(sharing);
 
   const shortcuts = [
     {label:'Journal',detail:'Stories from our life',href:'/blog.html',icon:'journal',secondary:true,match:['/blog.html']},

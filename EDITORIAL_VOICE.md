@@ -80,3 +80,25 @@ The visual should clarify or reward attention, not merely decorate.
 
 ## Editorial north star
 **Useful enough to save. Pretty enough to want to read. Real enough to trust.**
+
+## Stories other people can share
+
+The owner's 18 October 2026 direction is to make comparable place, outing and product stories useful to a brand's readers as well as our own. The story still belongs to the family. Preserve its ordinary pleasure, specificity and independence.
+
+Give the opening one recognizable place or product detail and one real reason to read or save it. A free choice board, a clearly explained route or a concrete observation from use is stronger than unsupported superlatives. The dek and link preview should name that benefit plainly. Keep a warm editorial headline when it works.
+
+For Congdon’s, the true angle is a family doughnut stop in Wells and a free board made for a future visit. The board was not documented in use during the photographed visit. The original moment and the newly created resource can sit together without inventing a result.
+
+Suggested sharing copy should make sense in another account's voice. Use third-person attribution such as “An AUsome Life has made a free picture choice board…” instead of giving a brand first-person copy that pretends it wrote the story. Include the specific benefit, the place or product, one clear next step, the correct link, credit and any qualification necessary for the caption to remain accurate on its own. A short Story caption should keep the same meaning.
+
+Keep these distinctions intact:
+
+- A pictured visit is not an accessibility audit; generic food art is not a product photograph or official menu.
+- A single pleasant moment does not establish typical noise, queues, staff behavior or access throughout a property.
+- A useful resource offers another way to choose. It does not replace a person's usual communication system or justify ignoring “no,” “something else,” “help,” “break” or “all done.”
+- Ordinary family enjoyment does not need pity, inspiration, diagnosis-led marketing or a claim that the venue made someone belong.
+- A feature or a repost is not proof of a partnership, endorsement, booking result, therapeutic benefit or audience reach.
+
+Retain material facts about ingredients, access and the actual experience. Tighten repetitive caveats around the question a visitor needs answered, and keep the uncertainty beside the relevant claim. If the experience does not support praise, do not write praise to improve the chance of a repost.
+
+The public story should not read like a collaboration pitch. Place finished sharing copy and reviewed downloads in a compact section near the end. Keep strategy, brand-repost scoring, review notes and implementation instructions internal. See `docs/brand-repost-publishing.md` for the publication standard.

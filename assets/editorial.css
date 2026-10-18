@@ -360,6 +360,22 @@ body .landing-latest .journal-small p{font-size:.9rem;line-height:1.7}
 .aal-story-share label{display:block;font:.85rem/1.5 Arial,sans-serif;margin:12px 0 7px}
 .aal-story-share textarea{box-sizing:border-box;width:100%;max-width:700px;min-height:85px;padding:12px;font:1rem/1.5 Arial,sans-serif;background:#fffdf7;border:1px solid #9da994;color:#18343c}
 .aal-share-status,.brand-request-status{font:.85rem/1.6 Arial,sans-serif;min-height:1.6em}
+.aal-share-package{margin-top:20px;border-top:1px solid #bfc7b4}
+.aal-share-package summary{min-height:44px;padding:15px 4px;font:500 1rem/1.5 Arial,sans-serif;cursor:pointer}
+.aal-share-package h3{font:400 1.45rem/1.3 Georgia,serif;margin:28px 0 12px}
+.aal-share-package p{font:1rem/1.65 Arial,sans-serif;max-width:76ch}
+.aal-share-package a{color:inherit;text-underline-offset:4px;overflow-wrap:anywhere}
+.aal-share-assets{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:28px;margin:24px 0}
+.aal-share-assets figure{margin:0;min-width:0;max-width:350px}
+.aal-share-assets img{display:block;width:100%;height:auto;max-height:none;object-fit:contain;border:1px solid #bfc7b4;box-sizing:border-box}
+.aal-share-assets figcaption{font:1rem/1.5 Arial,sans-serif;margin-top:10px}
+.aal-share-assets figcaption a{display:inline-flex;align-items:center;min-height:44px}
+.aal-share-assets figcaption span{display:block;font-size:.875rem}
+.aal-share-permission{border-block:1px solid #bfc7b4;padding:18px 0}
+.aal-story-share .aal-share-copy-text{white-space:pre-wrap;overflow-wrap:anywhere;border-left:3px solid #718261;padding:14px 18px;background:#f0f0e8}
+.aal-share-alt{margin-top:28px;border-block:1px solid #bfc7b4;padding-bottom:12px}
+.aal-share-alt:not([open]){padding-bottom:0}
+@media(max-width:600px){.aal-share-assets{grid-template-columns:1fr}.aal-share-assets figure{max-width:320px}.aal-story-share .aal-share-copy-text{padding:12px}}
 @media(max-width:950px){
  .curated-home .wrap,.brand-room .wrap{width:calc(100% - 48px)}
  .curated-cover,.brand-cover{gap:30px;grid-template-columns:1fr 1.1fr}

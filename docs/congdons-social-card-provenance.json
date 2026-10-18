@@ -1,0 +1,626 @@
+{
+  "title": "Congdon's social resource graphics - provenance and scoped sharing intent",
+  "created": "2026-10-18",
+  "publication": "An AUsome Life",
+  "owner_direction": "Current-session direction to improve the reasons and practical means for brands to repost the publication's resource posts.",
+  "generator": "tools/build_congdons_social_cards.py",
+  "method": "Code-native informational layout: exact text, vector rules/card boundaries and embedded fonts in a source PDF; deterministic 72 dpi PNG exports at requested pixel dimensions.",
+  "layout_reasoning": [
+    "The destination and free picture-board benefit lead, so the sharing value is legible before reading a caption.",
+    "Four familiar food subjects are labeled using the already verified board's exact communication labels.",
+    "Warm cream, coastal navy and pine preserve the publication's visual identity; white card interiors retain familiar food colors.",
+    "A readable destination, useful action, and embedded publication credit remain on the finished graphic when reposted.",
+    "The Story composition reserves at least 220 pixels at the top and 280 pixels at the bottom for platform interface overlap; all essential content lies inside those bounds.",
+    "The two assets advertise an independent resource, not an actual menu, same-day selection, official collaboration, sponsored endorsement, or representation of the venue's exact products."
+  ],
+  "source_provenance": "docs/congdons-choice-board-provenance.json",
+  "sources": [
+    {
+      "path": "assets/congdons-choice-art/plain.webp",
+      "label": "Plain",
+      "sha256": "d686d4b0329568608b47e8503c65a74c55c0a06985f28778cc099c75422a9819",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "origin": "Existing approved original AI-generated generic food illustration commissioned for the publication's Congdon's communication board.",
+      "use": "Full original composition, natural colors and square proportions retained. Only proportional placement and export encoding applied."
+    },
+    {
+      "path": "assets/congdons-choice-art/honey-dip.webp",
+      "label": "Honey dip",
+      "sha256": "f2258253f21efab9dcc10e892320fc5d727b79aecb692a67fd90fd9f4eae5a05",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "origin": "Existing approved original AI-generated generic food illustration commissioned for the publication's Congdon's communication board.",
+      "use": "Full original composition, natural colors and square proportions retained. Only proportional placement and export encoding applied."
+    },
+    {
+      "path": "assets/congdons-choice-art/chocolate-raised.webp",
+      "label": "Chocolate raised",
+      "sha256": "ab173b02c9039f376fe317177a9137fbfbb614b7f40a1aa78b6ac366adc10c1f",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "origin": "Existing approved original AI-generated generic food illustration commissioned for the publication's Congdon's communication board.",
+      "use": "Full original composition, natural colors and square proportions retained. Only proportional placement and export encoding applied."
+    },
+    {
+      "path": "assets/congdons-choice-art/apple-fritter.webp",
+      "label": "Apple fritter",
+      "sha256": "89adfc72c6c6c835ddf23a5219a4822744707921ea3d02189ab52b65976e18a1",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "origin": "Existing approved original AI-generated generic food illustration commissioned for the publication's Congdon's communication board.",
+      "use": "Full original composition, natural colors and square proportions retained. Only proportional placement and export encoding applied."
+    }
+  ],
+  "new_generation": false,
+  "fonts_embedded_in_source": {
+    "SocialSans": "LiberationSans-Regular.ttf",
+    "SocialSansBold": "LiberationSans-Bold.ttf",
+    "SocialSerif": "LiberationSerif-Regular.ttf"
+  },
+  "public_notice": "Independent resource. Generic illustrations; check the day’s selection.",
+  "scoped_organic_sharing_intent": {
+    "assets_only": [
+      "downloads/congdons-social-feed.png",
+      "downloads/congdons-social-story.png"
+    ],
+    "permitted_intended_use": "Organic reposting and sharing of these two finished publication-created promotional graphics by Congdon's and other relevant business or community accounts, preserving the embedded An AUsome Life / @anausomelife credit, resource destination, communication labels and independent/generic-illustration notice.",
+    "scope_limits": "This scope is limited to these two finished promotional graphics. It does not authorize reuse of family photographs, other website imagery, third-party logos, paid advertising, merchandising, raw artwork redistribution, or presentation as an official partnership. It does not grant rights the publication does not control.",
+    "authorization_basis": "Owner-directed brand repost improvements in the current session; original publication-owned composition using the specifically approved original food artwork."
+  },
+  "outputs": [
+    {
+      "path": "downloads/congdons-social-feed.png",
+      "dimensions": [
+        1080,
+        1350
+      ],
+      "bytes": 321827,
+      "sha256": "55a3de8dd63482d98ad42a8a5d5ea5f026c587c145b4cf58a2697046afd091cd",
+      "alt_text": "An AUsome Life graphic for a Congdon’s stop in Wells, Maine, offering a free picture choice board. Four labeled generic doughnut illustrations: Plain, Honey dip, Chocolate raised, and Apple fritter. Supporting words: Something else, Help, Break, All done. Save it. Print it. Take it along. Download at anausomelife.com/congdons-choice-board.html. Credit: An AUsome Life, @anausomelife. Independent resource; illustrations are generic and the day’s selection should be checked.",
+      "critical_safe_area": {
+        "top_px": 44,
+        "bottom_px": 44,
+        "side_px": 64
+      }
+    },
+    {
+      "path": "downloads/congdons-social-story.png",
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "bytes": 389030,
+      "sha256": "5fbac2c73c0a6348b093ef611fe7e5c15a46d65307fefbdb5c9475221e4502f7",
+      "alt_text": "An AUsome Life graphic for a Congdon’s stop in Wells, Maine, offering a free picture choice board. Four labeled generic doughnut illustrations: Plain, Honey dip, Chocolate raised, and Apple fritter. Supporting words: Something else, Help, Break, All done. Save it. Print it. Take it along. Download at anausomelife.com/congdons-choice-board.html. Credit: An AUsome Life, @anausomelife. Independent resource; illustrations are generic and the day’s selection should be checked.",
+      "critical_safe_area": {
+        "top_px": 220,
+        "bottom_px": 280,
+        "side_px": 64
+      }
+    }
+  ],
+  "source_document": {
+    "path": "docs/congdons-social-cards-source.pdf",
+    "pages": 2,
+    "bytes": 1585159,
+    "sha256": "b3d89f4009e6840a344b87d1b7e0de6a89fe073d4385acec487f836df5333b49",
+    "hosting": "Internal source under docs; not intended for the hosted public package."
+  },
+  "validation": {
+    "automated": "Exact requested text and communication labels extracted from both source pages. Image dimensions and source hashes checked. Every text/image layout bound fits its assigned region; card labels do not overlap images or card edges. PNG dimensions verified.",
+    "visual_review": "Both final PNGs rendered and visually inspected on October 18, 2026. Exact labels, crisp typography, legible destination, full original illustration proportions, consistent borders, and no overlap or clipping confirmed. Story critical content remains below the top 220-pixel reserve and above the bottom 280-pixel reserve. No family photos, venue logo, or new generated imagery appears."
+  },
+  "layout_bounds": {
+    "feed": [
+      {
+        "type": "text",
+        "text": "WELLS, MAINE",
+        "font_px": 26,
+        "bounds": [
+          445.39,
+          56.07,
+          634.61,
+          80.47
+        ]
+      },
+      {
+        "type": "text",
+        "text": "For a Congdon’s stop",
+        "font_px": 80,
+        "bounds": [
+          194.43,
+          113.53,
+          885.57,
+          186.27
+        ]
+      },
+      {
+        "type": "text",
+        "text": "A free picture choice board",
+        "font_px": 44,
+        "bounds": [
+          255.15,
+          202.97,
+          824.85,
+          244.26
+        ]
+      },
+      {
+        "type": "illustration",
+        "source": "assets/congdons-choice-art/plain.webp",
+        "bounds": [
+          187.0,
+          293,
+          405.0,
+          511
+        ],
+        "crop": null,
+        "aspect_ratio": 1
+      },
+      {
+        "type": "text",
+        "text": "Plain",
+        "font_px": 40,
+        "bounds": [
+          248.21,
+          522.88,
+          343.79,
+          560.42
+        ]
+      },
+      {
+        "type": "illustration",
+        "source": "assets/congdons-choice-art/honey-dip.webp",
+        "bounds": [
+          675.0,
+          293,
+          893.0,
+          511
+        ],
+        "crop": null,
+        "aspect_ratio": 1
+      },
+      {
+        "type": "text",
+        "text": "Honey dip",
+        "font_px": 40,
+        "bounds": [
+          687.33,
+          522.88,
+          880.67,
+          560.42
+        ]
+      },
+      {
+        "type": "illustration",
+        "source": "assets/congdons-choice-art/chocolate-raised.webp",
+        "bounds": [
+          187.0,
+          615,
+          405.0,
+          833
+        ],
+        "crop": null,
+        "aspect_ratio": 1
+      },
+      {
+        "type": "text",
+        "text": "Chocolate raised",
+        "font_px": 40,
+        "bounds": [
+          134.84,
+          844.88,
+          457.16,
+          882.42
+        ]
+      },
+      {
+        "type": "illustration",
+        "source": "assets/congdons-choice-art/apple-fritter.webp",
+        "bounds": [
+          675.0,
+          615,
+          893.0,
+          833
+        ],
+        "crop": null,
+        "aspect_ratio": 1
+      },
+      {
+        "type": "text",
+        "text": "Apple fritter",
+        "font_px": 40,
+        "bounds": [
+          670.66,
+          844.88,
+          897.34,
+          882.42
+        ]
+      },
+      {
+        "type": "text",
+        "text": "Something else · Help · Break · All done",
+        "font_px": 32,
+        "bounds": [
+          236.84,
+          929.7,
+          843.16,
+          959.73
+        ]
+      },
+      {
+        "type": "text",
+        "text": "Save it. Print it. Take it along.",
+        "font_px": 40,
+        "bounds": [
+          262.16,
+          986.88,
+          817.84,
+          1024.42
+        ]
+      },
+      {
+        "type": "text",
+        "text": "anausomelife.com/",
+        "font_px": 32,
+        "bounds": [
+          405.71,
+          1052.7,
+          674.29,
+          1082.73
+        ]
+      },
+      {
+        "type": "text",
+        "text": "congdons-choice-board.html",
+        "font_px": 32,
+        "bounds": [
+          338.11,
+          1094.7,
+          741.89,
+          1124.73
+        ]
+      },
+      {
+        "type": "text",
+        "text": "An AUsome Life · @anausomelife",
+        "font_px": 29,
+        "bounds": [
+          308.32,
+          1161.89,
+          771.68,
+          1189.1
+        ]
+      },
+      {
+        "type": "text",
+        "text": "Independent resource. Generic illustrations;",
+        "font_px": 25,
+        "bounds": [
+          298.2,
+          1224.8,
+          781.8,
+          1248.26
+        ]
+      },
+      {
+        "type": "text",
+        "text": "check the day’s selection.",
+        "font_px": 25,
+        "bounds": [
+          397.56,
+          1258.8,
+          682.44,
+          1282.26
+        ]
+      }
+    ],
+    "story": [
+      {
+        "type": "text",
+        "text": "WELLS, MAINE",
+        "font_px": 26,
+        "bounds": [
+          445.39,
+          248.07,
+          634.61,
+          272.47
+        ]
+      },
+      {
+        "type": "text",
+        "text": "For a Congdon’s stop",
+        "font_px": 82,
+        "bounds": [
+          185.79,
+          308.14,
+          894.21,
+          382.7
+        ]
+      },
+      {
+        "type": "text",
+        "text": "A free picture choice board",
+        "font_px": 46,
+        "bounds": [
+          242.2,
+          404.51,
+          837.8,
+          447.68
+        ]
+      },
+      {
+        "type": "illustration",
+        "source": "assets/congdons-choice-art/plain.webp",
+        "bounds": [
+          172.0,
+          502,
+          420.0,
+          750
+        ],
+        "crop": null,
+        "aspect_ratio": 1
+      },
+      {
+        "type": "text",
+        "text": "Plain",
+        "font_px": 40,
+        "bounds": [
+          248.21,
+          761.88,
+          343.79,
+          799.42
+        ]
+      },
+      {
+        "type": "illustration",
+        "source": "assets/congdons-choice-art/honey-dip.webp",
+        "bounds": [
+          660.0,
+          502,
+          908.0,
+          750
+        ],
+        "crop": null,
+        "aspect_ratio": 1
+      },
+      {
+        "type": "text",
+        "text": "Honey dip",
+        "font_px": 40,
+        "bounds": [
+          687.33,
+          761.88,
+          880.67,
+          799.42
+        ]
+      },
+      {
+        "type": "illustration",
+        "source": "assets/congdons-choice-art/chocolate-raised.webp",
+        "bounds": [
+          172.0,
+          856,
+          420.0,
+          1104
+        ],
+        "crop": null,
+        "aspect_ratio": 1
+      },
+      {
+        "type": "text",
+        "text": "Chocolate raised",
+        "font_px": 40,
+        "bounds": [
+          134.84,
+          1115.88,
+          457.16,
+          1153.42
+        ]
+      },
+      {
+        "type": "illustration",
+        "source": "assets/congdons-choice-art/apple-fritter.webp",
+        "bounds": [
+          660.0,
+          856,
+          908.0,
+          1104
+        ],
+        "crop": null,
+        "aspect_ratio": 1
+      },
+      {
+        "type": "text",
+        "text": "Apple fritter",
+        "font_px": 40,
+        "bounds": [
+          670.66,
+          1115.88,
+          897.34,
+          1153.42
+        ]
+      },
+      {
+        "type": "text",
+        "text": "Something else · Help · Break · All done",
+        "font_px": 32,
+        "bounds": [
+          236.84,
+          1211.7,
+          843.16,
+          1241.73
+        ]
+      },
+      {
+        "type": "text",
+        "text": "Save it. Print it. Take it along.",
+        "font_px": 40,
+        "bounds": [
+          262.16,
+          1276.88,
+          817.84,
+          1314.42
+        ]
+      },
+      {
+        "type": "text",
+        "text": "anausomelife.com/",
+        "font_px": 34,
+        "bounds": [
+          397.32,
+          1354.25,
+          682.68,
+          1386.16
+        ]
+      },
+      {
+        "type": "text",
+        "text": "congdons-choice-board.html",
+        "font_px": 34,
+        "bounds": [
+          325.49,
+          1400.25,
+          754.51,
+          1432.16
+        ]
+      },
+      {
+        "type": "text",
+        "text": "An AUsome Life · @anausomelife",
+        "font_px": 29,
+        "bounds": [
+          308.32,
+          1477.89,
+          771.68,
+          1505.1
+        ]
+      },
+      {
+        "type": "text",
+        "text": "Independent resource. Generic illustrations;",
+        "font_px": 25,
+        "bounds": [
+          298.2,
+          1546.8,
+          781.8,
+          1570.26
+        ]
+      },
+      {
+        "type": "text",
+        "text": "check the day’s selection.",
+        "font_px": 25,
+        "bounds": [
+          397.56,
+          1584.8,
+          682.44,
+          1608.26
+        ]
+      }
+    ]
+  },
+  "generator_sha256": "07b9fad134c788307b33f3d84ca2d73ac7dc82eb1520b85cbc504620e2adc712",
+  "family_photographs_used_in_social_downloads": false,
+  "venue_logos_used_in_social_downloads": false,
+  "site_link_preview": {
+    "path": "assets/congdons-wells/social-preview-v2.png",
+    "dimensions": [
+      1200,
+      630
+    ],
+    "bytes": 570462,
+    "sha256": "e1577236893d253d19e6e081661e22384914baf3444adc61518c33d8a52c6dd9",
+    "alt_text": "Congdon’s in Wells, Maine: Family visit + free picture choice board, from An AUsome Life. Beside the text is the full original photograph of two family members standing by the yellow Congdon’s Doughnuts sign.",
+    "source_photo": {
+      "path": "assets/congdons-wells/family-by-the-sign.jpeg",
+      "dimensions": [
+        1536,
+        1152
+      ],
+      "bytes": 670061,
+      "sha256": "d2c90a68001de44533ab0849dbc02b78399047074402d37ecfa3c456891d7624",
+      "publication_basis": "Owner-supplied original family photograph already approved for the Congdon's article, with current-session direction to use the full image in this article's site link preview."
+    },
+    "photo_placement": {
+      "x": 480,
+      "top": 60,
+      "width": 680,
+      "height": 510,
+      "aspect_ratio": "4:3",
+      "crop": null,
+      "retouch": false,
+      "replacement_or_generation": false
+    },
+    "scope": "Only site-controlled Open Graph and article-link preview presentation for the An AUsome Life Congdon's article, including the preview displayed with a shared article URL. Excluded from the two-image organic repost download package and its sharing permission. No authorization for standalone family-photo/composite reposting, raw-photo redistribution, paid advertising, or unrelated reuse is granted by this record.",
+    "layout_reasoning": "An exact 1200-by-630 information layout puts the entire original 4:3 photograph in a 680-by-510 area beside short reader-facing text. It supplies a landscape metadata canvas without cropping or modifying the article photograph.",
+    "source_document": {
+      "path": "docs/congdons-og-preview-source.pdf",
+      "pages": 1,
+      "sha256": "d446c77336abb442319b071da667ca59f07e51fae32c98b230f412c6b72e064c",
+      "hosting": "Internal source under docs, not part of the public download package."
+    },
+    "text_bounds": [
+      {
+        "text": "Congdon’s",
+        "font_px": 68,
+        "bounds": [
+          52,
+          157.85,
+          350.46,
+          219.68
+        ]
+      },
+      {
+        "text": "Wells, Maine",
+        "font_px": 31,
+        "bounds": [
+          52,
+          230.43,
+          238.05,
+          259.52
+        ]
+      },
+      {
+        "text": "Family visit + free",
+        "font_px": 31,
+        "bounds": [
+          52,
+          324.43,
+          294.02,
+          353.52
+        ]
+      },
+      {
+        "text": "picture choice board",
+        "font_px": 31,
+        "bounds": [
+          52,
+          367.43,
+          331.17,
+          396.52
+        ]
+      },
+      {
+        "text": "An AUsome Life",
+        "font_px": 24,
+        "bounds": [
+          52,
+          473.53,
+          237.36,
+          496.05
+        ]
+      }
+    ],
+    "visual_review": "Final 1200-by-630 PNG visually inspected on October 18, 2026. Full original 4:3 scene retained at 680-by-510; no crop, mask, retouch, or generated substitute. Header, location, resource benefit, and publication credit are clear; no text/photo overlap. Original JPEG and both frozen organic-sharing PNGs verified byte-for-byte unchanged."
+  }
+}
