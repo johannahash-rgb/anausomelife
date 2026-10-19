@@ -16,6 +16,10 @@
     "hannaford-maine-breakfast-picnic.html": {
       "provenance": "docs/hannaford-social-card-provenance.json",
       "reviewed": "2026-10-18"
+    },
+    "rose-shack-rhode-island-spring.html": {
+      "provenance": "docs/rose-shack-provenance.json",
+      "reviewed": "2026-10-19"
     }
   }
 }
