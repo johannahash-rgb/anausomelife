@@ -20,6 +20,10 @@
     "rose-shack-rhode-island-spring.html": {
       "provenance": "docs/rose-shack-provenance.json",
       "reviewed": "2026-10-19"
+    },
+    "bristol-waterfront-family.html": {
+      "provenance": "docs/bristol-waterfront-provenance.json",
+      "reviewed": "2026-10-19"
     }
   }
 }
