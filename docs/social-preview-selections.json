@@ -1566,19 +1566,19 @@
       "selection_reason": "Existing story photograph or subject-specific illustration, visually reviewed for the linked page; no crop, retouching, synthesis or new reuse license."
     },
     "media/index.html": {
-      "image": "/assets/family-outings/fort-mcclary-waterfront.webp",
-      "alt": "Two adults beside the waterfront at Fort McClary in Maine.",
-      "width": 1800,
-      "height": 1350,
+      "image": "/assets/family-outings/wells-beach-family.webp",
+      "alt": "Our family of three together beside the ocean at Wells Beach, Maine.",
+      "width": 1350,
+      "height": 1800,
       "mime": "image/webp",
-      "sha256": "e366812278a98a472193fbf299ecc6288cb18846b4db6266288557a221e0a3a7",
-      "card": "summary_large_image",
+      "sha256": "e2f505988ea4413271672989b86241ec6e743d69e7ffbbfc036c3f665041c867",
+      "card": "summary",
       "type": "website",
       "kind": "photograph",
       "provenance": [
         "docs/journal-photo-provenance-2026-10-03.json"
       ],
-      "selection_reason": "Existing story photograph or subject-specific illustration, visually reviewed for the linked page; no crop, retouching, synthesis or new reuse license."
+      "selection_reason": "Owner requested a family portrait for the brand page on 2026-10-19. Existing photograph visually reviewed: all three family members visible. Original pixels and proportions retained; no third-party reuse permission granted."
     },
     "media/launch.html": {
       "image": "/assets/family-outings/fort-mcclary-waterfront.webp",

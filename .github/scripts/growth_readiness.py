@@ -132,15 +132,17 @@ def prepare(root):
             continue
         original = source
         if relative == 'media/index.html':
-            source = owned(source, 'products', PRODUCTS, before_section('testing'))
-            source = owned(source, 'press', PRESS_DESK, before_section('contact'))
-            source, number = re.subn(before_section('contact') + r'.*?</section>', lambda _: CONTACT, source, count=1, flags=re.S)
-            if number != 1:
-                raise ValueError('Expected exactly one media contact section')
-            nav = '<nav class="brand-subnav wrap" aria-label="For brands"><a href="#work-with-us">Ways to work together</a><a href="#selected-work">Published stories</a><a href="#products">Product reviews</a><a href="#travel">Travel proposal</a><a href="#press-desk">For journalists</a><a href="#sharing">Share a story</a><a href="#contact">Get in touch</a></nav>'
-            source, number = re.subn(r'<nav\b(?=[^>]*\bclass="brand-subnav\b)[^>]*>.*?</nav>', lambda _: nav, source, count=1, flags=re.S)
-            if number != 1:
-                raise ValueError('Expected media section navigation')
+            # Preserve this authored edition's sections and navigation, as on press.html.
+            if not dom.fromstring(source).xpath('//main[@id="main"][@data-media-edition="family-press-20261019"]'):
+                source = owned(source, 'products', PRODUCTS, before_section('testing'))
+                source = owned(source, 'press', PRESS_DESK, before_section('contact'))
+                source, number = re.subn(before_section('contact') + r'.*?</section>', lambda _: CONTACT, source, count=1, flags=re.S)
+                if number != 1:
+                    raise ValueError('Expected exactly one media contact section')
+                nav = '<nav class="brand-subnav wrap" aria-label="For brands"><a href="#work-with-us">Ways to work together</a><a href="#selected-work">Published stories</a><a href="#products">Product reviews</a><a href="#travel">Travel proposal</a><a href="#press-desk">For journalists</a><a href="#sharing">Share a story</a><a href="#contact">Get in touch</a></nav>'
+                source, number = re.subn(r'<nav\b(?=[^>]*\bclass="brand-subnav\b)[^>]*>.*?</nav>', lambda _: nav, source, count=1, flags=re.S)
+                if number != 1:
+                    raise ValueError('Expected media section navigation')
             # Route the product offer to the broader review brief, preserving #testing.
             source = source.replace('href="#testing">See our product approach', 'href="#products">See our product approach')
             if '/assets/inquiry-builder.js' not in source:

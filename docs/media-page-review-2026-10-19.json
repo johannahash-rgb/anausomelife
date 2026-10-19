@@ -1,0 +1,40 @@
+{
+  "review_date": "2026-10-19",
+  "page": "/media/",
+  "scope": "Existing owner-authorized photographs used on the same publication; full frames displayed. No pixel changes, generated portraits, or third-party reuse licenses.",
+  "assets": [
+    {
+      "asset": "/assets/family-outings/wells-beach-family.webp",
+      "use": "Family hero and page preview",
+      "basis": "Owner explicitly requested the whole family portrait in this page update.",
+      "prior_record": "docs/journal-photo-provenance-2026-10-03.json",
+      "sha256": "e2f505988ea4413271672989b86241ec6e743d69e7ffbbfc036c3f665041c867"
+    },
+    {
+      "asset": "/assets/congdons-wells/doughnut-on-the-porch.jpeg",
+      "use": "Featured Congdon’s editorial mention",
+      "basis": "Existing owner-supplied photograph from the requested featured story.",
+      "prior_record": "docs/congdons-wells-photo-provenance.json",
+      "sha256": "4e16f0dd59308accde014113f970f5d07139d3099a15157e0111363154cad222"
+    },
+    {
+      "asset": "/assets/wilson-farm-family-hero.jpg",
+      "use": "Existing selected-work example",
+      "prior_record": "docs/wilson-farm-photo-restoration-2026-10-16.json",
+      "sha256": "5a14e9983e4ed6087a5d9e0df28f3a08038e93998ba2ea95578e7059d19fb578"
+    },
+    {
+      "asset": "/assets/family-notes/straw-lid-clear.webp",
+      "use": "Selected-work link to the existing kitchen story",
+      "basis": "Original site photograph already used on the publication homepage and kitchen story.",
+      "sha256": "b87eb1d56e92714f07efb456f01b625d8e13109cd0a7c48af542872360629281"
+    }
+  ],
+  "press_source": {
+    "publisher": "Glazed & Amused",
+    "url": "https://glazedandamused.food/trails/everyone",
+    "verified_on": "2026-10-19",
+    "type": "Editorial mention and resource links",
+    "scope": "The external trail opens with the Congdon’s visit and links the original story and free choice board. Exact publication date is not stated; display October 2026. Do not imply the board was used during the visit."
+  }
+}
