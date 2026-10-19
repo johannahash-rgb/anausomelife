@@ -1,0 +1,62 @@
+{
+  "asset": "assets/sensory-nature-icons.svg",
+  "title": "Nature walk sensory icons",
+  "creator": "ChatGPT (original authored SVG)",
+  "created": "2026-10-19",
+  "intended_use": "An AUsome Life on-site editorial sensory headings",
+  "third_party_assets": false,
+  "source": "Original SVG paths authored for this request; no imported icon set, logo, stock image, or third-party artwork.",
+  "symbols": [
+    "sight",
+    "sound",
+    "touch",
+    "smell",
+    "taste",
+    "movement",
+    "body-position",
+    "inside-body"
+  ],
+  "viewBox": "0 0 64 64",
+  "display_guidance": "Use at about 52 CSS pixels with separate visible heading text. When headings provide the same meaning, mark each icon SVG aria-hidden=true and focusable=false.",
+  "palette": {
+    "pine_ink": "#244b3e",
+    "sage": "#dce4d8",
+    "muted_gold": "#dfd0a8",
+    "muted_cranberry": "#ead5d3"
+  },
+  "review": {
+    "date": "2026-10-19",
+    "rendered_sizes_px": [
+      104,
+      52
+    ],
+    "result": "Reviewed original drawings; distinct symbols, no clipping or third-party artwork."
+  },
+  "article": "autumn-simple-joys-james-ruby.html",
+  "reading_sources": [
+    {
+      "url": "https://www.theottoolbox.com/sensory-nature-walk-for-the-family/",
+      "title": "Sensory Nature Walk for the Family",
+      "author": "Colleen Beck, OTR/L",
+      "checked": "2026-10-19"
+    },
+    {
+      "url": "https://www.griffinot.com/what-is-proprioception/",
+      "title": "Let's Talk About Proprioception",
+      "author": "Kim Griffin, OT",
+      "checked": "2026-10-19"
+    },
+    {
+      "url": "https://www.sralab.org/articles/blog/pediatric-adolescent-rehabilitation/sensory-activities-home",
+      "title": "Sensory Activities at Home",
+      "author": "Jordan Huffman, OTR/L",
+      "checked": "2026-10-19"
+    },
+    {
+      "url": "https://www.kelly-mahler.com/resources/blog/interoception-and-the-non-speaking-client/",
+      "title": "Interoception and the Non-Speaking Client",
+      "author": "Kelly Mahler, occupational therapist",
+      "checked": "2026-10-19"
+    }
+  ]
+}

@@ -17,8 +17,10 @@
 .ng-note p:last-child{margin-bottom:0}
 .ng-senses{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));column-gap:42px;margin-top:26px}
 .ng-senses>section{border-top:1px solid #c9cebf;padding:24px 0 10px;break-inside:avoid}
-.ng-senses h4 span{display:inline-block;color:#7a493a;font:700 .76rem/1.5 Arial,sans-serif;letter-spacing:.08em;vertical-align:middle;margin-right:12px}
-.ng-senses h4 small{display:block;font:400 .9rem/1.5 Arial,sans-serif;margin:5px 0 0 30px;color:#50635a}
+.ng-senses h4{display:grid;grid-template-columns:56px minmax(0,1fr);gap:14px;align-items:center;min-height:64px}
+.ng-senses .ng-sense-icon{display:block;width:56px;height:56px;overflow:visible}
+.ng-senses .ng-sense-name{min-width:0}
+.ng-senses h4 small{display:block;font:400 .9rem/1.5 Arial,sans-serif;margin:5px 0 0;color:#50635a}
 .ng-choice{color:#344d45}
 .ng-places{border-top:1px solid #c9cebf;margin-top:24px}
 .ng-places details{border-bottom:1px solid #c9cebf;padding:0 4px}
@@ -34,6 +36,18 @@
 .ng-checklist input{flex:0 0 auto;width:22px;height:22px;margin-top:4px;accent-color:#244b3e}
 .ng-guide .ng-closing{font:italic 1.2rem/1.7 Georgia,serif;max-width:52ch;margin:30px 0 0}
 .ng-guide :focus-visible{outline:3px solid #7a492d;outline-offset:5px}
+
+.ng-reading{margin-top:28px;padding-top:28px;border-top:1px solid #c9cebf}
+.ng-reading h4{font-size:1.55rem;scroll-margin-top:28px}
+.ng-reading>p{max-width:74ch}
+.ng-reading-list{list-style:none;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px 42px;margin:20px 0 16px;padding:0}
+.ng-reading-list li{min-width:0;margin:0;break-inside:avoid}
+.ng-reading-list h5{font:400 1.14rem/1.45 Georgia,serif;margin:0;color:#244b3e}
+.ng-reading-list h5 a{display:inline-block;min-height:44px;padding-block:9px;text-decoration:underline;text-underline-offset:3px}
+.ng-reading-list .ng-reading-source{font:400 .84rem/1.6 Arial,sans-serif;color:#50635a;margin:0 0 9px}
+.ng-reading-list p{font-size:.98rem}
+.ng-guide .ng-reading-note{font-size:.86rem;color:#50635a;margin:0}
 @media(max-width:760px){.ng-pace-grid{grid-template-columns:1fr;gap:16px}.ng-pace-grid>div{padding-top:16px}.ng-senses{column-gap:26px}.ng-heading{grid-template-columns:100px minmax(0,1fr);gap:18px}.ng-guide .ng-watercolor{width:100px}.ng-note{padding:22px}.ng-places summary span{min-width:0;display:block;margin:0 0 4px}.ng-place-body{padding-inline:4px}}
-@media(max-width:540px){.ng-senses{grid-template-columns:1fr}.ng-heading{grid-template-columns:1fr;gap:8px}.ng-guide .ng-watercolor{width:120px}.ng-guide{margin-top:36px}.ng-contents{gap:8px 20px}.ng-guide h2{font-size:2.35rem}.ng-note{padding:20px}.ng-checklist label{gap:12px}}
+.ng-reading-list a:hover{text-decoration-thickness:2px}
+@media(max-width:540px){.ng-reading-list{grid-template-columns:1fr;gap:14px}.ng-senses h4{grid-template-columns:50px minmax(0,1fr);gap:12px}.ng-senses .ng-sense-icon{width:50px;height:50px}.ng-senses{grid-template-columns:1fr}.ng-heading{grid-template-columns:1fr;gap:8px}.ng-guide .ng-watercolor{width:120px}.ng-guide{margin-top:36px}.ng-contents{gap:8px 20px}.ng-guide h2{font-size:2.35rem}.ng-note{padding:20px}.ng-checklist label{gap:12px}}
 @media print{.ng-guide{max-width:none;margin-top:20px;font-size:10pt}.ng-contents{display:none}.ng-heading{grid-template-columns:70px 1fr}.ng-guide .ng-watercolor{width:70px}.ng-guide h2{font-size:24pt}.ng-guide h3{font-size:18pt}.ng-section{margin-top:24px}.ng-note{background:none}.ng-senses{grid-template-columns:1fr 1fr;gap:0 24px}.ng-places details::details-content{display:block!important;content-visibility:visible!important;height:auto!important}.ng-places .ng-place-body{display:block!important}.ng-places summary{padding:12px 0}.ng-checklist li{break-inside:avoid}.ng-guide a{color:#193b40;text-decoration:underline}}
