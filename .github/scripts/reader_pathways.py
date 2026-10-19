@@ -34,8 +34,8 @@ CARDS = {
     'products': card('/product-guides.html', 'Explore useful finds', 'Read the practical details before choosing something for family life.', 'Product guides', ART+'yankee-toolbox-320.webp'),
     'school': card('/topics/advocacy.html', 'School & advocacy', 'Find meeting preparation, clear requests and useful record keeping.', 'Browse the guides', ART+'care-clipboard-320.webp'),
     'agenda': card('/guides/one-page-parent-agenda.html', 'Prepare a one-page parent agenda', 'Give your priorities, questions and next steps a clear place.', 'Practical guide', ART+'family-organizer-320.webp'),
-    'media': card('/media/', 'Work with An AUsome Life', 'Published examples, collaboration ideas and content-use requests.', 'For brands', ART+'family-organizer-320.webp'),
-    'press': card('/press.html', 'Press & community mentions', 'See where our stories and planning tools have been shared.', 'In the community', ART+'family-organizer-320.webp'),
+    'media': card('/media/', 'Work with An AUsome Life', 'Published examples, collaboration ideas and content-use requests.', 'For brands', '/assets/family-outings/wells-beach-family.webp'),
+    'press': card('/press.html', 'Press & community mentions', 'See where our stories and planning tools have been shared.', 'In the community', ART+'journal-v2-320.webp'),
 }
 GROUPS = {
     'care': ('Family & caregiver support', '/family-roles.html', ['photo','handover','care','plans','wayne']),
