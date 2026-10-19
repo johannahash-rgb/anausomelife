@@ -146,7 +146,10 @@ def prepare(root):
             if '/assets/inquiry-builder.js' not in source:
                 source = source.replace('</body>', '<script defer src="/assets/inquiry-builder.js?v=' + VERSION + '"></script></body>', 1)
         elif relative == 'press.html':
-            source = owned(source, 'press-callout', PRESS_CALLOUT, r'<section\b(?=[^>]*\bclass="press-section\b)[^>]*>')
+            # The revised press page has an authored media desk and contact panel.
+            # Do not insert a redundant generated callout into that layout.
+            if 'id="press-contact"' not in source:
+                source = owned(source, 'press-callout', PRESS_CALLOUT, r'<section\b(?=[^>]*\bclass="press-section\b)[^>]*>')
         elif relative == 'contact.html':
             anchor = r'<section\b(?=[^>]*\bclass="reader-next\b)[^>]*>' if 'class="reader-next"' in source else r'</main>'
             source = owned(source, 'contact-routes', CONTACT_ROUTES, anchor)
@@ -161,7 +164,7 @@ def prepare(root):
                 raise ValueError('Expected a product-guide introduction')
             end += len('</section>')
             source = source[:end] + '\n<!-- aal-growth:' + key + ':start -->\n' + PRODUCT_NOTES + '\n<!-- aal-growth:' + key + ':end -->\n' + source[end:].lstrip('\n')
-        if 'growth-section' in source and '/assets/growth-readiness.css' not in source:
+        if ('growth-section' in source or relative == 'press.html') and '/assets/growth-readiness.css' not in source:
             source = source.replace('</head>', '<link rel="stylesheet" href="/assets/growth-readiness.css?v=' + VERSION + '">\n</head>', 1)
         source = finish_footer(source)
         source = add_metadata(source, relative)
