@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-10-06",
+  "checkedAt": "2026-10-19",
   "method": "Positive organizer evidence only. Missing categories mean not confirmed, never that attendance is prohibited. Read the exact audience, eligibility and route details. Accompanying an eligible participant does not imply an independent adult programme.",
   "events": {
     "bcm-2026-10-03": {
@@ -836,7 +836,7 @@
           "summary": "Braille directional signage; Verbal artwork descriptions available"
         }
       },
-      "checkedAt": "2026-10-04",
+      "checkedAt": "2026-10-19",
       "ageRange": {
         "min": 4,
         "max": 12,
@@ -1396,7 +1396,7 @@
           "url": "https://shelburnemuseum.org/event/sensory-friendly-winter-lights-2-4/"
         }
       },
-      "checkedAt": "2026-10-04",
+      "checkedAt": "2026-10-19",
       "ageRange": {
         "min": 0,
         "max": null,
@@ -1607,7 +1607,7 @@
           "url": "https://shelburnemuseum.org/visit/winter-lights/"
         }
       },
-      "checkedAt": "2026-10-04",
+      "checkedAt": "2026-10-19",
       "ageRange": {
         "min": 0,
         "max": null,
@@ -5613,6 +5613,2350 @@
       },
       "holidays": [],
       "holidayEvidence": {}
+    },
+    "ycba-artism-2026-10-24": {
+      "ageGroups": [
+        "children",
+        "families"
+      ],
+      "accessFeatures": [
+        "sensory-friendly",
+        "caregiver-support"
+      ],
+      "ageEvidence": {
+        "children": {
+          "url": "https://britishart.yale.edu/exploring-art-ism-registration"
+        },
+        "families": {
+          "url": "https://britishart.yale.edu/exploring-art-ism-registration"
+        }
+      },
+      "accessEvidence": {
+        "sensory-friendly": {
+          "url": "https://britishart.yale.edu/exploring-art-ism-registration"
+        },
+        "caregiver-support": {
+          "url": "https://britishart.yale.edu/exploring-art-ism-registration"
+        }
+      },
+      "checkedAt": "2026-10-19",
+      "sensory": {
+        "level": "variable",
+        "note": "Designed for children with sensory-processing differences and includes a quiet room, but ordinary gallery conditions can still vary.",
+        "sourceUrl": "https://britishart.yale.edu/exploring-art-ism-registration",
+        "checkedAt": "2026-10-19",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-19"
+      },
+      "holidays": [],
+      "holidayEvidence": {},
+      "ageRange": {
+        "min": 5,
+        "max": 12,
+        "kind": "intended-child-audience",
+        "familyMembersWelcome": true
+      }
+    },
+    "ycba-artism-2026-11-14": {
+      "ageGroups": [
+        "children",
+        "families"
+      ],
+      "accessFeatures": [
+        "sensory-friendly",
+        "caregiver-support"
+      ],
+      "ageEvidence": {
+        "children": {
+          "url": "https://britishart.yale.edu/exploring-art-ism-registration"
+        },
+        "families": {
+          "url": "https://britishart.yale.edu/exploring-art-ism-registration"
+        }
+      },
+      "accessEvidence": {
+        "sensory-friendly": {
+          "url": "https://britishart.yale.edu/exploring-art-ism-registration"
+        },
+        "caregiver-support": {
+          "url": "https://britishart.yale.edu/exploring-art-ism-registration"
+        }
+      },
+      "checkedAt": "2026-10-19",
+      "sensory": {
+        "level": "variable",
+        "note": "Designed for children with sensory-processing differences and includes a quiet room, but ordinary gallery conditions can still vary.",
+        "sourceUrl": "https://britishart.yale.edu/exploring-art-ism-registration",
+        "checkedAt": "2026-10-19",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-19"
+      },
+      "holidays": [],
+      "holidayEvidence": {},
+      "ageRange": {
+        "min": 5,
+        "max": 12,
+        "kind": "intended-child-audience",
+        "familyMembersWelcome": true
+      }
+    },
+    "ycba-artism-2026-12-12": {
+      "ageGroups": [
+        "children",
+        "families"
+      ],
+      "accessFeatures": [
+        "sensory-friendly",
+        "caregiver-support"
+      ],
+      "ageEvidence": {
+        "children": {
+          "url": "https://britishart.yale.edu/exploring-art-ism-registration"
+        },
+        "families": {
+          "url": "https://britishart.yale.edu/exploring-art-ism-registration"
+        }
+      },
+      "accessEvidence": {
+        "sensory-friendly": {
+          "url": "https://britishart.yale.edu/exploring-art-ism-registration"
+        },
+        "caregiver-support": {
+          "url": "https://britishart.yale.edu/exploring-art-ism-registration"
+        }
+      },
+      "checkedAt": "2026-10-19",
+      "sensory": {
+        "level": "variable",
+        "note": "Designed for children with sensory-processing differences and includes a quiet room, but ordinary gallery conditions can still vary.",
+        "sourceUrl": "https://britishart.yale.edu/exploring-art-ism-registration",
+        "checkedAt": "2026-10-19",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-19"
+      },
+      "holidays": [],
+      "holidayEvidence": {},
+      "ageRange": {
+        "min": 5,
+        "max": 12,
+        "kind": "intended-child-audience",
+        "familyMembersWelcome": true
+      }
+    },
+    "act-beautiful-2026-10-31": {
+      "ageGroups": [],
+      "accessFeatures": [
+        "sensory-friendly"
+      ],
+      "ageEvidence": {},
+      "accessEvidence": {
+        "sensory-friendly": {
+          "url": "https://www.actofct.org/first-act"
+        }
+      },
+      "checkedAt": "2026-10-19",
+      "sensory": {
+        "level": "moderate",
+        "note": "Strobes and jarring sound effects are removed and house lights remain dim, but this is still a live musical performance with singing and amplified sound.",
+        "sourceUrl": "https://www.actofct.org/first-act",
+        "checkedAt": "2026-10-19",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-19"
+      },
+      "holidays": [],
+      "holidayEvidence": {}
+    },
+    "bushnell-stunt-dog-2026-11-08": {
+      "ageGroups": [
+        "all-ages"
+      ],
+      "accessFeatures": [],
+      "ageEvidence": {
+        "all-ages": {
+          "url": "https://www.bushnell.org/events/detail/chris-perondis-stunt-dog-experience"
+        }
+      },
+      "accessEvidence": {},
+      "checkedAt": "2026-10-19",
+      "sensory": {
+        "level": "high",
+        "note": "Visual/communication supports and break spaces are provided, but typical high-energy production conditions remain.",
+        "sourceUrl": "https://www.bushnell.org/events/detail/chris-perondis-stunt-dog-experience",
+        "checkedAt": "2026-10-19",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-19"
+      },
+      "holidays": [],
+      "holidayEvidence": {}
+    },
+    "fpl-teen-sensory-2026-11-15": {
+      "ageGroups": [
+        "teens",
+        "adults"
+      ],
+      "accessFeatures": [
+        "sensory-friendly"
+      ],
+      "ageEvidence": {
+        "teens": {
+          "url": "https://fplct.librarymarket.com/index.php/event/neurodiverse-and-special-needs-teens-and-new-adults-sensory-friendly-browsing-and-gaming-time"
+        },
+        "adults": {
+          "url": "https://fplct.librarymarket.com/index.php/event/neurodiverse-and-special-needs-teens-and-new-adults-sensory-friendly-browsing-and-gaming-time"
+        }
+      },
+      "accessEvidence": {
+        "sensory-friendly": {
+          "url": "https://fplct.librarymarket.com/index.php/event/neurodiverse-and-special-needs-teens-and-new-adults-sensory-friendly-browsing-and-gaming-time"
+        }
+      },
+      "checkedAt": "2026-10-19",
+      "sensory": {
+        "level": "variable",
+        "note": "The early opening reduces general-library traffic, but lighting and game volume adjustments are not specifically promised.",
+        "sourceUrl": "https://fplct.librarymarket.com/index.php/event/neurodiverse-and-special-needs-teens-and-new-adults-sensory-friendly-browsing-and-gaming-time",
+        "checkedAt": "2026-10-19",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-19"
+      },
+      "holidays": [],
+      "holidayEvidence": {},
+      "ageRange": {
+        "min": 12,
+        "max": null,
+        "kind": "registration-audience"
+      }
+    },
+    "fpl-child-sensory-2026-11-15": {
+      "ageGroups": [
+        "children",
+        "families"
+      ],
+      "accessFeatures": [
+        "sensory-friendly",
+        "caregiver-support"
+      ],
+      "ageEvidence": {
+        "children": {
+          "url": "https://fplct.librarymarket.com/event/neurodiverse-and-special-needs-children-and-their-families-only-sensory-friendly-browsing"
+        },
+        "families": {
+          "url": "https://fplct.librarymarket.com/event/neurodiverse-and-special-needs-children-and-their-families-only-sensory-friendly-browsing"
+        }
+      },
+      "accessEvidence": {
+        "sensory-friendly": {
+          "url": "https://fplct.librarymarket.com/event/neurodiverse-and-special-needs-children-and-their-families-only-sensory-friendly-browsing"
+        },
+        "caregiver-support": {
+          "url": "https://fplct.librarymarket.com/event/neurodiverse-and-special-needs-children-and-their-families-only-sensory-friendly-browsing"
+        }
+      },
+      "checkedAt": "2026-10-19",
+      "sensory": {
+        "level": "low",
+        "note": "The program uses an early-opening hour and describes the storytime as low-noise and low-light.",
+        "sourceUrl": "https://fplct.librarymarket.com/event/neurodiverse-and-special-needs-children-and-their-families-only-sensory-friendly-browsing",
+        "checkedAt": "2026-10-19",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-19"
+      },
+      "holidays": [],
+      "holidayEvidence": {}
+    },
+    "bushnell-holiday-open-house-2026-11-21": {
+      "ageGroups": [
+        "all-ages"
+      ],
+      "accessFeatures": [
+        "sensory-friendly",
+        "caregiver-support"
+      ],
+      "ageEvidence": {
+        "all-ages": {
+          "url": "https://www.bushnell.org/events/detail/sensory-friendly-relaxed-holiday-open-house-sfopen"
+        }
+      },
+      "accessEvidence": {
+        "sensory-friendly": {
+          "url": "https://www.bushnell.org/events/detail/sensory-friendly-relaxed-holiday-open-house-sfopen"
+        },
+        "caregiver-support": {
+          "url": "https://www.bushnell.org/events/detail/sensory-friendly-relaxed-holiday-open-house-sfopen"
+        }
+      },
+      "checkedAt": "2026-10-19",
+      "sensory": {
+        "level": "low",
+        "note": "Reduced sound and lighting, limited crowds, quiet areas, and relaxed movement/talking rules are advertised.",
+        "sourceUrl": "https://www.bushnell.org/events/detail/sensory-friendly-relaxed-holiday-open-house-sfopen",
+        "checkedAt": "2026-10-19",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-19"
+      },
+      "holidays": [
+        "christmas",
+        "winter-holidays",
+        "holiday-social"
+      ],
+      "holidayEvidence": {
+        "christmas": {
+          "url": "https://www.bushnell.org/events/detail/sensory-friendly-relaxed-holiday-open-house-sfopen"
+        },
+        "winter-holidays": {
+          "url": "https://www.bushnell.org/events/detail/sensory-friendly-relaxed-holiday-open-house-sfopen"
+        },
+        "holiday-social": {
+          "url": "https://www.bushnell.org/events/detail/sensory-friendly-relaxed-holiday-open-house-sfopen"
+        }
+      }
+    },
+    "quick-center-nutcracker-sensory-2026-12-13": {
+      "ageGroups": [
+        "all-ages",
+        "families"
+      ],
+      "accessFeatures": [
+        "sensory-friendly",
+        "caregiver-support"
+      ],
+      "ageEvidence": {
+        "all-ages": {
+          "url": "https://quickcenter.fairfield.edu/2026-27-season-calendar/dance/connecticut-dance-school.html"
+        },
+        "families": {
+          "url": "https://quickcenter.fairfield.edu/2026-27-season-calendar/dance/connecticut-dance-school.html"
+        }
+      },
+      "accessEvidence": {
+        "sensory-friendly": {
+          "url": "https://quickcenter.fairfield.edu/2026-27-season-calendar/dance/connecticut-dance-school.html"
+        },
+        "caregiver-support": {
+          "url": "https://quickcenter.fairfield.edu/2026-27-season-calendar/dance/connecticut-dance-school.html"
+        }
+      },
+      "checkedAt": "2026-10-19",
+      "sensory": {
+        "level": "moderate",
+        "note": "Sound and lighting are adjusted and a quiet activity area is available, but this remains a full-length ballet performance.",
+        "sourceUrl": "https://quickcenter.fairfield.edu/2026-27-season-calendar/dance/connecticut-dance-school.html",
+        "checkedAt": "2026-10-19",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-19"
+      },
+      "holidays": [
+        "christmas",
+        "winter-holidays",
+        "holiday-performance"
+      ],
+      "holidayEvidence": {
+        "christmas": {
+          "url": "https://quickcenter.fairfield.edu/2026-27-season-calendar/dance/connecticut-dance-school.html"
+        },
+        "winter-holidays": {
+          "url": "https://quickcenter.fairfield.edu/2026-27-season-calendar/dance/connecticut-dance-school.html"
+        },
+        "holiday-performance": {
+          "url": "https://quickcenter.fairfield.edu/2026-27-season-calendar/dance/connecticut-dance-school.html"
+        }
+      }
+    },
+    "bushnell-discover-sound-workshops-2027-02-06": {
+      "ageGroups": [
+        "all-ages"
+      ],
+      "accessFeatures": [
+        "sensory-friendly",
+        "caregiver-support",
+        "adaptive-activities"
+      ],
+      "ageEvidence": {
+        "all-ages": {
+          "url": "https://www.bushnell.org/events/detail/sensory-friendly-relaxed-discover-the-sound-with-the-hartford-symphony-orchestra-session-1-workshops-sfhso1"
+        }
+      },
+      "accessEvidence": {
+        "sensory-friendly": {
+          "url": "https://www.bushnell.org/events/detail/sensory-friendly-relaxed-discover-the-sound-with-the-hartford-symphony-orchestra-session-1-workshops-sfhso1"
+        },
+        "caregiver-support": {
+          "url": "https://www.bushnell.org/events/detail/sensory-friendly-relaxed-discover-the-sound-with-the-hartford-symphony-orchestra-session-1-workshops-sfhso1"
+        },
+        "adaptive-activities": {
+          "url": "https://www.bushnell.org/events/detail/sensory-friendly-relaxed-discover-the-sound-with-the-hartford-symphony-orchestra-session-1-workshops-sfhso1"
+        }
+      },
+      "checkedAt": "2026-10-19",
+      "sensory": {
+        "level": "moderate",
+        "note": "Sensory accommodations, breaks and quiet areas are available, while instruments and live music remain part of the experience.",
+        "sourceUrl": "https://www.bushnell.org/events/detail/sensory-friendly-relaxed-discover-the-sound-with-the-hartford-symphony-orchestra-session-1-workshops-sfhso1",
+        "checkedAt": "2026-10-19",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-19"
+      },
+      "holidays": [],
+      "holidayEvidence": {}
+    },
+    "bushnell-discover-sound-performance-2027-02-06": {
+      "ageGroups": [
+        "all-ages"
+      ],
+      "accessFeatures": [
+        "sensory-friendly",
+        "caregiver-support",
+        "adaptive-activities"
+      ],
+      "ageEvidence": {
+        "all-ages": {
+          "url": "https://www.bushnell.org/events/detail/sensory-friendly-relaxed-discover-the-sound-with-the-hartford-symphony-orchestra-session-1-workshops-sfhso1"
+        }
+      },
+      "accessEvidence": {
+        "sensory-friendly": {
+          "url": "https://www.bushnell.org/events/detail/sensory-friendly-relaxed-discover-the-sound-with-the-hartford-symphony-orchestra-session-1-workshops-sfhso1"
+        },
+        "caregiver-support": {
+          "url": "https://www.bushnell.org/events/detail/sensory-friendly-relaxed-discover-the-sound-with-the-hartford-symphony-orchestra-session-1-workshops-sfhso1"
+        },
+        "adaptive-activities": {
+          "url": "https://www.bushnell.org/events/detail/sensory-friendly-relaxed-discover-the-sound-with-the-hartford-symphony-orchestra-session-1-workshops-sfhso1"
+        }
+      },
+      "checkedAt": "2026-10-19",
+      "sensory": {
+        "level": "moderate",
+        "note": "Sensory accommodations, breaks and quiet areas are available, while instruments and live music remain part of the experience.",
+        "sourceUrl": "https://www.bushnell.org/events/detail/sensory-friendly-relaxed-discover-the-sound-with-the-hartford-symphony-orchestra-session-1-workshops-sfhso1",
+        "checkedAt": "2026-10-19",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-19"
+      },
+      "holidays": [],
+      "holidayEvidence": {}
+    },
+    "great-pumpkin-ball-low-sensory-2026-10-31": {
+      "ageGroups": [
+        "adults"
+      ],
+      "accessFeatures": [
+        "sensory-friendly",
+        "hearing-support"
+      ],
+      "ageEvidence": {
+        "adults": {
+          "url": "https://statetheatreportland.com/events/the-great-pumpkin-ball/"
+        }
+      },
+      "accessEvidence": {
+        "sensory-friendly": {
+          "url": "https://statetheatreportland.com/events/the-great-pumpkin-ball/"
+        },
+        "hearing-support": {
+          "url": "https://statetheatreportland.com/events/the-great-pumpkin-ball/"
+        }
+      },
+      "checkedAt": "2026-10-19",
+      "sensory": {
+        "level": "moderate",
+        "note": "The early hour uses quieter music, a smaller crowd and sensory-friendly lighting, but it remains a social Halloween event.",
+        "sourceUrl": "https://statetheatreportland.com/events/the-great-pumpkin-ball/",
+        "checkedAt": "2026-10-19",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-19"
+      },
+      "holidays": [
+        "halloween"
+      ],
+      "holidayEvidence": {
+        "halloween": {
+          "url": "https://statetheatreportland.com/events/the-great-pumpkin-ball/"
+        }
+      },
+      "ageRange": {
+        "min": 18,
+        "max": null,
+        "kind": "minimum-age"
+      }
+    },
+    "thacher-unscripted-2026-10-22": {
+      "ageGroups": [
+        "all-ages"
+      ],
+      "accessFeatures": [
+        "adaptive-activities",
+        "wheelchair-step-free"
+      ],
+      "ageEvidence": {
+        "all-ages": {
+          "url": "https://www.thacherhall.org/event-details/dance-workshop2"
+        }
+      },
+      "accessEvidence": {
+        "adaptive-activities": {
+          "url": "https://www.thacherhall.org/event-details/dance-workshop2"
+        },
+        "wheelchair-step-free": {
+          "url": "https://www.thacherhall.org/event-details/dance-workshop2"
+        }
+      },
+      "checkedAt": "2026-10-19",
+      "sensory": {
+        "level": "moderate",
+        "note": "The workshop is inclusive and accessible, but music, movement and group activity are central and no reduced-sensory conditions are promised.",
+        "sourceUrl": "https://www.thacherhall.org/event-details/dance-workshop2",
+        "checkedAt": "2026-10-19",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-19"
+      },
+      "holidays": [],
+      "holidayEvidence": {}
+    },
+    "thacher-unscripted-2026-10-29": {
+      "ageGroups": [
+        "all-ages"
+      ],
+      "accessFeatures": [
+        "adaptive-activities",
+        "wheelchair-step-free"
+      ],
+      "ageEvidence": {
+        "all-ages": {
+          "url": "https://www.thacherhall.org/event-details/dance-workshop2"
+        }
+      },
+      "accessEvidence": {
+        "adaptive-activities": {
+          "url": "https://www.thacherhall.org/event-details/dance-workshop2"
+        },
+        "wheelchair-step-free": {
+          "url": "https://www.thacherhall.org/event-details/dance-workshop2"
+        }
+      },
+      "checkedAt": "2026-10-19",
+      "sensory": {
+        "level": "moderate",
+        "note": "The workshop is inclusive and accessible, but music, movement and group activity are central and no reduced-sensory conditions are promised.",
+        "sourceUrl": "https://www.thacherhall.org/event-details/dance-workshop2",
+        "checkedAt": "2026-10-19",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-19"
+      },
+      "holidays": [],
+      "holidayEvidence": {}
+    },
+    "thacher-unscripted-2026-11-05": {
+      "ageGroups": [
+        "all-ages"
+      ],
+      "accessFeatures": [
+        "adaptive-activities",
+        "wheelchair-step-free"
+      ],
+      "ageEvidence": {
+        "all-ages": {
+          "url": "https://www.thacherhall.org/event-details/dance-workshop2"
+        }
+      },
+      "accessEvidence": {
+        "adaptive-activities": {
+          "url": "https://www.thacherhall.org/event-details/dance-workshop2"
+        },
+        "wheelchair-step-free": {
+          "url": "https://www.thacherhall.org/event-details/dance-workshop2"
+        }
+      },
+      "checkedAt": "2026-10-19",
+      "sensory": {
+        "level": "moderate",
+        "note": "The workshop is inclusive and accessible, but music, movement and group activity are central and no reduced-sensory conditions are promised.",
+        "sourceUrl": "https://www.thacherhall.org/event-details/dance-workshop2",
+        "checkedAt": "2026-10-19",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-19"
+      },
+      "holidays": [],
+      "holidayEvidence": {}
+    },
+    "thacher-unscripted-2026-11-12": {
+      "ageGroups": [
+        "all-ages"
+      ],
+      "accessFeatures": [
+        "adaptive-activities",
+        "wheelchair-step-free"
+      ],
+      "ageEvidence": {
+        "all-ages": {
+          "url": "https://www.thacherhall.org/event-details/dance-workshop2"
+        }
+      },
+      "accessEvidence": {
+        "adaptive-activities": {
+          "url": "https://www.thacherhall.org/event-details/dance-workshop2"
+        },
+        "wheelchair-step-free": {
+          "url": "https://www.thacherhall.org/event-details/dance-workshop2"
+        }
+      },
+      "checkedAt": "2026-10-19",
+      "sensory": {
+        "level": "moderate",
+        "note": "The workshop is inclusive and accessible, but music, movement and group activity are central and no reduced-sensory conditions are promised.",
+        "sourceUrl": "https://www.thacherhall.org/event-details/dance-workshop2",
+        "checkedAt": "2026-10-19",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-19"
+      },
+      "holidays": [],
+      "holidayEvidence": {}
+    },
+    "thacher-unscripted-2026-11-19": {
+      "ageGroups": [
+        "all-ages"
+      ],
+      "accessFeatures": [
+        "adaptive-activities",
+        "wheelchair-step-free"
+      ],
+      "ageEvidence": {
+        "all-ages": {
+          "url": "https://www.thacherhall.org/event-details/dance-workshop2"
+        }
+      },
+      "accessEvidence": {
+        "adaptive-activities": {
+          "url": "https://www.thacherhall.org/event-details/dance-workshop2"
+        },
+        "wheelchair-step-free": {
+          "url": "https://www.thacherhall.org/event-details/dance-workshop2"
+        }
+      },
+      "checkedAt": "2026-10-19",
+      "sensory": {
+        "level": "moderate",
+        "note": "The workshop is inclusive and accessible, but music, movement and group activity are central and no reduced-sensory conditions are promised.",
+        "sourceUrl": "https://www.thacherhall.org/event-details/dance-workshop2",
+        "checkedAt": "2026-10-19",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-19"
+      },
+      "holidays": [],
+      "holidayEvidence": {}
+    },
+    "mfa-museum-moments-2026-10-24": {
+      "ageGroups": [
+        "adults"
+      ],
+      "accessFeatures": [
+        "wheelchair-step-free",
+        "caregiver-support"
+      ],
+      "ageEvidence": {
+        "adults": {
+          "url": "https://www.mfa.org/event/gallery-activities-and-tours/in-person-museum-moments-tour-for-visitors-with-memory-loss-and?event=165546"
+        }
+      },
+      "accessEvidence": {
+        "wheelchair-step-free": {
+          "url": "https://www.mfa.org/event/gallery-activities-and-tours/in-person-museum-moments-tour-for-visitors-with-memory-loss-and?event=165546"
+        },
+        "caregiver-support": {
+          "url": "https://www.mfa.org/event/gallery-activities-and-tours/in-person-museum-moments-tour-for-visitors-with-memory-loss-and?event=165546"
+        }
+      },
+      "checkedAt": "2026-10-19",
+      "sensory": {
+        "level": "unknown",
+        "note": "The program is small and reservation-based, but the organizer does not publish specific reduced-sensory conditions.",
+        "sourceUrl": "https://www.mfa.org/event/gallery-activities-and-tours/in-person-museum-moments-tour-for-visitors-with-memory-loss-and?event=165546",
+        "checkedAt": "2026-10-19",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-19"
+      },
+      "holidays": [],
+      "holidayEvidence": {}
+    },
+    "mfa-museum-moments-2026-11-14": {
+      "ageGroups": [
+        "adults"
+      ],
+      "accessFeatures": [
+        "wheelchair-step-free",
+        "caregiver-support"
+      ],
+      "ageEvidence": {
+        "adults": {
+          "url": "https://www.mfa.org/event/gallery-activities-and-tours/in-person-museum-moments-tour-for-visitors-with-memory-loss-and?event=165546"
+        }
+      },
+      "accessEvidence": {
+        "wheelchair-step-free": {
+          "url": "https://www.mfa.org/event/gallery-activities-and-tours/in-person-museum-moments-tour-for-visitors-with-memory-loss-and?event=165546"
+        },
+        "caregiver-support": {
+          "url": "https://www.mfa.org/event/gallery-activities-and-tours/in-person-museum-moments-tour-for-visitors-with-memory-loss-and?event=165546"
+        }
+      },
+      "checkedAt": "2026-10-19",
+      "sensory": {
+        "level": "unknown",
+        "note": "The program is small and reservation-based, but the organizer does not publish specific reduced-sensory conditions.",
+        "sourceUrl": "https://www.mfa.org/event/gallery-activities-and-tours/in-person-museum-moments-tour-for-visitors-with-memory-loss-and?event=165546",
+        "checkedAt": "2026-10-19",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-19"
+      },
+      "holidays": [],
+      "holidayEvidence": {}
+    },
+    "mfa-museum-moments-2026-12-12": {
+      "ageGroups": [
+        "adults"
+      ],
+      "accessFeatures": [
+        "wheelchair-step-free",
+        "caregiver-support"
+      ],
+      "ageEvidence": {
+        "adults": {
+          "url": "https://www.mfa.org/event/gallery-activities-and-tours/in-person-museum-moments-tour-for-visitors-with-memory-loss-and?event=165546"
+        }
+      },
+      "accessEvidence": {
+        "wheelchair-step-free": {
+          "url": "https://www.mfa.org/event/gallery-activities-and-tours/in-person-museum-moments-tour-for-visitors-with-memory-loss-and?event=165546"
+        },
+        "caregiver-support": {
+          "url": "https://www.mfa.org/event/gallery-activities-and-tours/in-person-museum-moments-tour-for-visitors-with-memory-loss-and?event=165546"
+        }
+      },
+      "checkedAt": "2026-10-19",
+      "sensory": {
+        "level": "unknown",
+        "note": "The program is small and reservation-based, but the organizer does not publish specific reduced-sensory conditions.",
+        "sourceUrl": "https://www.mfa.org/event/gallery-activities-and-tours/in-person-museum-moments-tour-for-visitors-with-memory-loss-and?event=165546",
+        "checkedAt": "2026-10-19",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-19"
+      },
+      "holidays": [],
+      "holidayEvidence": {}
+    },
+    "mfa-museum-moments-2027-01-09": {
+      "ageGroups": [
+        "adults"
+      ],
+      "accessFeatures": [
+        "wheelchair-step-free",
+        "caregiver-support"
+      ],
+      "ageEvidence": {
+        "adults": {
+          "url": "https://www.mfa.org/event/gallery-activities-and-tours/in-person-museum-moments-tour-for-visitors-with-memory-loss-and?event=165546"
+        }
+      },
+      "accessEvidence": {
+        "wheelchair-step-free": {
+          "url": "https://www.mfa.org/event/gallery-activities-and-tours/in-person-museum-moments-tour-for-visitors-with-memory-loss-and?event=165546"
+        },
+        "caregiver-support": {
+          "url": "https://www.mfa.org/event/gallery-activities-and-tours/in-person-museum-moments-tour-for-visitors-with-memory-loss-and?event=165546"
+        }
+      },
+      "checkedAt": "2026-10-19",
+      "sensory": {
+        "level": "unknown",
+        "note": "The program is small and reservation-based, but the organizer does not publish specific reduced-sensory conditions.",
+        "sourceUrl": "https://www.mfa.org/event/gallery-activities-and-tours/in-person-museum-moments-tour-for-visitors-with-memory-loss-and?event=165546",
+        "checkedAt": "2026-10-19",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-19"
+      },
+      "holidays": [],
+      "holidayEvidence": {}
+    },
+    "mfa-museum-moments-2027-01-23": {
+      "ageGroups": [
+        "adults"
+      ],
+      "accessFeatures": [
+        "wheelchair-step-free",
+        "caregiver-support"
+      ],
+      "ageEvidence": {
+        "adults": {
+          "url": "https://www.mfa.org/event/gallery-activities-and-tours/in-person-museum-moments-tour-for-visitors-with-memory-loss-and?event=165546"
+        }
+      },
+      "accessEvidence": {
+        "wheelchair-step-free": {
+          "url": "https://www.mfa.org/event/gallery-activities-and-tours/in-person-museum-moments-tour-for-visitors-with-memory-loss-and?event=165546"
+        },
+        "caregiver-support": {
+          "url": "https://www.mfa.org/event/gallery-activities-and-tours/in-person-museum-moments-tour-for-visitors-with-memory-loss-and?event=165546"
+        }
+      },
+      "checkedAt": "2026-10-19",
+      "sensory": {
+        "level": "unknown",
+        "note": "The program is small and reservation-based, but the organizer does not publish specific reduced-sensory conditions.",
+        "sourceUrl": "https://www.mfa.org/event/gallery-activities-and-tours/in-person-museum-moments-tour-for-visitors-with-memory-loss-and?event=165546",
+        "checkedAt": "2026-10-19",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-19"
+      },
+      "holidays": [],
+      "holidayEvidence": {}
+    },
+    "wistariahurst-trick-or-treat-2026-10-25": {
+      "ageGroups": [
+        "children",
+        "families"
+      ],
+      "accessFeatures": [
+        "sensory-friendly"
+      ],
+      "ageEvidence": {
+        "children": {
+          "url": "https://wistariahurst.org/event/sensory-friendly-trick-or-treat-at-wistariahurst-museum-2/"
+        },
+        "families": {
+          "url": "https://wistariahurst.org/event/sensory-friendly-trick-or-treat-at-wistariahurst-museum-2/"
+        }
+      },
+      "accessEvidence": {
+        "sensory-friendly": {
+          "url": "https://wistariahurst.org/event/sensory-friendly-trick-or-treat-at-wistariahurst-museum-2/"
+        }
+      },
+      "checkedAt": "2026-10-19",
+      "sensory": {
+        "level": "low",
+        "note": "Arrival is tightly staggered and families explore at their own pace, but exact sound and lighting adjustments are not specified.",
+        "sourceUrl": "https://wistariahurst.org/event/sensory-friendly-trick-or-treat-at-wistariahurst-museum-2/",
+        "checkedAt": "2026-10-19",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-19"
+      },
+      "holidays": [
+        "halloween"
+      ],
+      "holidayEvidence": {
+        "halloween": {
+          "url": "https://wistariahurst.org/event/sensory-friendly-trick-or-treat-at-wistariahurst-museum-2/"
+        }
+      }
+    },
+    "mfa-beyond-kids-2026-11-07": {
+      "ageGroups": [
+        "children",
+        "families"
+      ],
+      "accessFeatures": [
+        "sensory-friendly",
+        "adaptive-activities",
+        "caregiver-support"
+      ],
+      "ageEvidence": {
+        "children": {
+          "url": "https://www.mfa.org/programs/access-programs/beyond-the-spectrum"
+        },
+        "families": {
+          "url": "https://www.mfa.org/programs/access-programs/beyond-the-spectrum"
+        }
+      },
+      "accessEvidence": {
+        "sensory-friendly": {
+          "url": "https://www.mfa.org/programs/access-programs/beyond-the-spectrum"
+        },
+        "adaptive-activities": {
+          "url": "https://www.mfa.org/programs/access-programs/beyond-the-spectrum"
+        },
+        "caregiver-support": {
+          "url": "https://www.mfa.org/programs/access-programs/beyond-the-spectrum"
+        }
+      },
+      "checkedAt": "2026-10-19",
+      "sensory": {
+        "level": "variable",
+        "note": "Designed for autistic children with tactile/sensory activities, but ordinary gallery conditions can vary.",
+        "sourceUrl": "https://www.mfa.org/programs/access-programs/beyond-the-spectrum",
+        "checkedAt": "2026-10-19",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-19"
+      },
+      "holidays": [],
+      "holidayEvidence": {},
+      "ageRange": {
+        "min": 8,
+        "max": 12,
+        "kind": "program-age"
+      }
+    },
+    "mfa-beyond-kids-2026-12-12": {
+      "ageGroups": [
+        "children",
+        "families"
+      ],
+      "accessFeatures": [
+        "sensory-friendly",
+        "adaptive-activities",
+        "caregiver-support"
+      ],
+      "ageEvidence": {
+        "children": {
+          "url": "https://www.mfa.org/programs/access-programs/beyond-the-spectrum"
+        },
+        "families": {
+          "url": "https://www.mfa.org/programs/access-programs/beyond-the-spectrum"
+        }
+      },
+      "accessEvidence": {
+        "sensory-friendly": {
+          "url": "https://www.mfa.org/programs/access-programs/beyond-the-spectrum"
+        },
+        "adaptive-activities": {
+          "url": "https://www.mfa.org/programs/access-programs/beyond-the-spectrum"
+        },
+        "caregiver-support": {
+          "url": "https://www.mfa.org/programs/access-programs/beyond-the-spectrum"
+        }
+      },
+      "checkedAt": "2026-10-19",
+      "sensory": {
+        "level": "variable",
+        "note": "Designed for autistic children with tactile/sensory activities, but ordinary gallery conditions can vary.",
+        "sourceUrl": "https://www.mfa.org/programs/access-programs/beyond-the-spectrum",
+        "checkedAt": "2026-10-19",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-19"
+      },
+      "holidays": [],
+      "holidayEvidence": {},
+      "ageRange": {
+        "min": 8,
+        "max": 12,
+        "kind": "program-age"
+      }
+    },
+    "mfa-beyond-kids-2027-01-02": {
+      "ageGroups": [
+        "children",
+        "families"
+      ],
+      "accessFeatures": [
+        "sensory-friendly",
+        "adaptive-activities",
+        "caregiver-support"
+      ],
+      "ageEvidence": {
+        "children": {
+          "url": "https://www.mfa.org/programs/access-programs/beyond-the-spectrum"
+        },
+        "families": {
+          "url": "https://www.mfa.org/programs/access-programs/beyond-the-spectrum"
+        }
+      },
+      "accessEvidence": {
+        "sensory-friendly": {
+          "url": "https://www.mfa.org/programs/access-programs/beyond-the-spectrum"
+        },
+        "adaptive-activities": {
+          "url": "https://www.mfa.org/programs/access-programs/beyond-the-spectrum"
+        },
+        "caregiver-support": {
+          "url": "https://www.mfa.org/programs/access-programs/beyond-the-spectrum"
+        }
+      },
+      "checkedAt": "2026-10-19",
+      "sensory": {
+        "level": "variable",
+        "note": "Designed for autistic children with tactile/sensory activities, but ordinary gallery conditions can vary.",
+        "sourceUrl": "https://www.mfa.org/programs/access-programs/beyond-the-spectrum",
+        "checkedAt": "2026-10-19",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-19"
+      },
+      "holidays": [],
+      "holidayEvidence": {},
+      "ageRange": {
+        "min": 8,
+        "max": 12,
+        "kind": "program-age"
+      }
+    },
+    "mfa-beyond-teens-2026-11-21": {
+      "ageGroups": [
+        "teens",
+        "adults"
+      ],
+      "accessFeatures": [
+        "sensory-friendly",
+        "adaptive-activities"
+      ],
+      "ageEvidence": {
+        "teens": {
+          "url": "https://www.mfa.org/programs/access-programs/beyond-the-spectrum"
+        },
+        "adults": {
+          "url": "https://www.mfa.org/programs/access-programs/beyond-the-spectrum"
+        }
+      },
+      "accessEvidence": {
+        "sensory-friendly": {
+          "url": "https://www.mfa.org/programs/access-programs/beyond-the-spectrum"
+        },
+        "adaptive-activities": {
+          "url": "https://www.mfa.org/programs/access-programs/beyond-the-spectrum"
+        }
+      },
+      "checkedAt": "2026-10-19",
+      "sensory": {
+        "level": "variable",
+        "note": "Designed for autistic teens and young adults with tactile/sensory activities, but ordinary gallery conditions can vary.",
+        "sourceUrl": "https://www.mfa.org/programs/access-programs/beyond-the-spectrum",
+        "checkedAt": "2026-10-19",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-19"
+      },
+      "holidays": [],
+      "holidayEvidence": {},
+      "ageRange": {
+        "min": 13,
+        "max": 22,
+        "kind": "program-age"
+      }
+    },
+    "mfa-beyond-teens-2027-01-16": {
+      "ageGroups": [
+        "teens",
+        "adults"
+      ],
+      "accessFeatures": [
+        "sensory-friendly",
+        "adaptive-activities"
+      ],
+      "ageEvidence": {
+        "teens": {
+          "url": "https://www.mfa.org/programs/access-programs/beyond-the-spectrum"
+        },
+        "adults": {
+          "url": "https://www.mfa.org/programs/access-programs/beyond-the-spectrum"
+        }
+      },
+      "accessEvidence": {
+        "sensory-friendly": {
+          "url": "https://www.mfa.org/programs/access-programs/beyond-the-spectrum"
+        },
+        "adaptive-activities": {
+          "url": "https://www.mfa.org/programs/access-programs/beyond-the-spectrum"
+        }
+      },
+      "checkedAt": "2026-10-19",
+      "sensory": {
+        "level": "variable",
+        "note": "Designed for autistic teens and young adults with tactile/sensory activities, but ordinary gallery conditions can vary.",
+        "sourceUrl": "https://www.mfa.org/programs/access-programs/beyond-the-spectrum",
+        "checkedAt": "2026-10-19",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-19"
+      },
+      "holidays": [],
+      "holidayEvidence": {},
+      "ageRange": {
+        "min": 13,
+        "max": 22,
+        "kind": "program-age"
+      }
+    },
+    "commonwealth-nutcracker-sensory-2026-11-27": {
+      "ageGroups": [
+        "children",
+        "families"
+      ],
+      "accessFeatures": [
+        "sensory-friendly",
+        "wheelchair-step-free"
+      ],
+      "ageEvidence": {
+        "children": {
+          "url": "https://www.commonwealthballet.org/nutcracker"
+        },
+        "families": {
+          "url": "https://www.commonwealthballet.org/nutcracker"
+        }
+      },
+      "accessEvidence": {
+        "sensory-friendly": {
+          "url": "https://www.commonwealthballet.org/nutcracker"
+        },
+        "wheelchair-step-free": {
+          "url": "https://www.commonwealthballet.org/nutcracker"
+        }
+      },
+      "checkedAt": "2026-10-19",
+      "sensory": {
+        "level": "moderate",
+        "note": "The performance is shortened and includes preparation/discovery supports, but precise sound and lighting changes are not itemized.",
+        "sourceUrl": "https://www.commonwealthballet.org/nutcracker",
+        "checkedAt": "2026-10-19",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-19"
+      },
+      "holidays": [
+        "christmas",
+        "winter-holidays",
+        "holiday-performance"
+      ],
+      "holidayEvidence": {
+        "christmas": {
+          "url": "https://www.commonwealthballet.org/nutcracker"
+        },
+        "winter-holidays": {
+          "url": "https://www.commonwealthballet.org/nutcracker"
+        },
+        "holiday-performance": {
+          "url": "https://www.commonwealthballet.org/nutcracker"
+        }
+      }
+    },
+    "nebg-night-lights-sensory-2026-12-03": {
+      "ageGroups": [
+        "all-ages",
+        "families"
+      ],
+      "accessFeatures": [
+        "sensory-friendly"
+      ],
+      "ageEvidence": {
+        "all-ages": {
+          "url": "https://nebg.org/nightlights/sensory-friendly-hours/"
+        },
+        "families": {
+          "url": "https://nebg.org/nightlights/sensory-friendly-hours/"
+        }
+      },
+      "accessEvidence": {
+        "sensory-friendly": {
+          "url": "https://nebg.org/nightlights/sensory-friendly-hours/"
+        }
+      },
+      "checkedAt": "2026-10-19",
+      "sensory": {
+        "level": "low",
+        "note": "The sensory hours remove flashing/strobes, quiet the sound, reduce attendance and provide an indoor quiet room; outdoor weather still affects conditions.",
+        "sourceUrl": "https://nebg.org/nightlights/sensory-friendly-hours/",
+        "checkedAt": "2026-10-19",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-19"
+      },
+      "holidays": [
+        "winter-holidays",
+        "winter-lights"
+      ],
+      "holidayEvidence": {
+        "winter-holidays": {
+          "url": "https://nebg.org/nightlights/sensory-friendly-hours/"
+        },
+        "winter-lights": {
+          "url": "https://nebg.org/nightlights/sensory-friendly-hours/"
+        }
+      }
+    },
+    "nebg-night-lights-sensory-2026-12-08": {
+      "ageGroups": [
+        "all-ages",
+        "families"
+      ],
+      "accessFeatures": [
+        "sensory-friendly"
+      ],
+      "ageEvidence": {
+        "all-ages": {
+          "url": "https://nebg.org/nightlights/sensory-friendly-hours/"
+        },
+        "families": {
+          "url": "https://nebg.org/nightlights/sensory-friendly-hours/"
+        }
+      },
+      "accessEvidence": {
+        "sensory-friendly": {
+          "url": "https://nebg.org/nightlights/sensory-friendly-hours/"
+        }
+      },
+      "checkedAt": "2026-10-19",
+      "sensory": {
+        "level": "low",
+        "note": "The sensory hours remove flashing/strobes, quiet the sound, reduce attendance and provide an indoor quiet room; outdoor weather still affects conditions.",
+        "sourceUrl": "https://nebg.org/nightlights/sensory-friendly-hours/",
+        "checkedAt": "2026-10-19",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-19"
+      },
+      "holidays": [
+        "winter-holidays",
+        "winter-lights"
+      ],
+      "holidayEvidence": {
+        "winter-holidays": {
+          "url": "https://nebg.org/nightlights/sensory-friendly-hours/"
+        },
+        "winter-lights": {
+          "url": "https://nebg.org/nightlights/sensory-friendly-hours/"
+        }
+      }
+    },
+    "bradley-winterlights-sensory-2026-12-06": {
+      "ageGroups": [
+        "children",
+        "families"
+      ],
+      "accessFeatures": [
+        "sensory-friendly"
+      ],
+      "ageEvidence": {
+        "children": {
+          "url": "https://thetrustees.org/event/450049/"
+        },
+        "families": {
+          "url": "https://thetrustees.org/event/450049/"
+        }
+      },
+      "accessEvidence": {
+        "sensory-friendly": {
+          "url": "https://thetrustees.org/event/450049/"
+        }
+      },
+      "checkedAt": "2026-10-19",
+      "sensory": {
+        "level": "low",
+        "note": "Earlier entry, lower music and smaller ticket batches reduce stimulation, but the route includes stairs and uneven ground.",
+        "sourceUrl": "https://thetrustees.org/event/450049/",
+        "checkedAt": "2026-10-19",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-19"
+      },
+      "holidays": [
+        "winter-holidays",
+        "winter-lights"
+      ],
+      "holidayEvidence": {
+        "winter-holidays": {
+          "url": "https://thetrustees.org/event/450049/"
+        },
+        "winter-lights": {
+          "url": "https://thetrustees.org/event/450049/"
+        }
+      }
+    },
+    "hanover-christmas-carol-audio-2026-12-20": {
+      "ageGroups": [
+        "children",
+        "teens",
+        "adults",
+        "families"
+      ],
+      "accessFeatures": [
+        "vision-support",
+        "wheelchair-step-free"
+      ],
+      "ageEvidence": {
+        "children": {
+          "url": "https://thehanovertheatre.org/event/a-christmas-carol26/"
+        },
+        "teens": {
+          "url": "https://thehanovertheatre.org/event/a-christmas-carol26/"
+        },
+        "adults": {
+          "url": "https://thehanovertheatre.org/event/a-christmas-carol26/"
+        },
+        "families": {
+          "url": "https://thehanovertheatre.org/event/a-christmas-carol26/"
+        }
+      },
+      "accessEvidence": {
+        "vision-support": {
+          "url": "https://thehanovertheatre.org/event/a-christmas-carol26/"
+        },
+        "wheelchair-step-free": {
+          "url": "https://thehanovertheatre.org/event/a-christmas-carol26/"
+        }
+      },
+      "checkedAt": "2026-10-19",
+      "sensory": {
+        "level": "high",
+        "note": "Fog, dynamic lighting and loud effects remain; audio description improves access but does not reduce sensory intensity.",
+        "sourceUrl": "https://thehanovertheatre.org/event/a-christmas-carol26/",
+        "checkedAt": "2026-10-19",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-19"
+      },
+      "holidays": [
+        "christmas",
+        "winter-holidays",
+        "holiday-performance"
+      ],
+      "holidayEvidence": {
+        "christmas": {
+          "url": "https://thehanovertheatre.org/event/a-christmas-carol26/"
+        },
+        "winter-holidays": {
+          "url": "https://thehanovertheatre.org/event/a-christmas-carol26/"
+        },
+        "holiday-performance": {
+          "url": "https://thehanovertheatre.org/event/a-christmas-carol26/"
+        }
+      },
+      "ageRange": {
+        "min": 8,
+        "max": null,
+        "kind": "recommended-minimum"
+      }
+    },
+    "hanover-christmas-carol-asl-2026-12-20": {
+      "ageGroups": [
+        "children",
+        "teens",
+        "adults",
+        "families"
+      ],
+      "accessFeatures": [
+        "hearing-support",
+        "wheelchair-step-free"
+      ],
+      "ageEvidence": {
+        "children": {
+          "url": "https://thehanovertheatre.org/event/a-christmas-carol26/"
+        },
+        "teens": {
+          "url": "https://thehanovertheatre.org/event/a-christmas-carol26/"
+        },
+        "adults": {
+          "url": "https://thehanovertheatre.org/event/a-christmas-carol26/"
+        },
+        "families": {
+          "url": "https://thehanovertheatre.org/event/a-christmas-carol26/"
+        }
+      },
+      "accessEvidence": {
+        "hearing-support": {
+          "url": "https://thehanovertheatre.org/event/a-christmas-carol26/"
+        },
+        "wheelchair-step-free": {
+          "url": "https://thehanovertheatre.org/event/a-christmas-carol26/"
+        }
+      },
+      "checkedAt": "2026-10-19",
+      "sensory": {
+        "level": "high",
+        "note": "Fog, dynamic lighting and loud effects remain; ASL interpretation improves communication access but does not reduce sensory intensity.",
+        "sourceUrl": "https://thehanovertheatre.org/event/a-christmas-carol26/",
+        "checkedAt": "2026-10-19",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-19"
+      },
+      "holidays": [
+        "christmas",
+        "winter-holidays",
+        "holiday-performance"
+      ],
+      "holidayEvidence": {
+        "christmas": {
+          "url": "https://thehanovertheatre.org/event/a-christmas-carol26/"
+        },
+        "winter-holidays": {
+          "url": "https://thehanovertheatre.org/event/a-christmas-carol26/"
+        },
+        "holiday-performance": {
+          "url": "https://thehanovertheatre.org/event/a-christmas-carol26/"
+        }
+      },
+      "ageRange": {
+        "min": 8,
+        "max": null,
+        "kind": "recommended-minimum"
+      }
+    },
+    "bso-sensory-family-concert-2027-03-27": {
+      "ageGroups": [
+        "children",
+        "adults",
+        "families"
+      ],
+      "accessFeatures": [
+        "sensory-friendly",
+        "caregiver-support"
+      ],
+      "ageEvidence": {
+        "children": {
+          "url": "https://www.bso.org/events/mar-27-sensory-family-concert"
+        },
+        "adults": {
+          "url": "https://www.bso.org/events/mar-27-sensory-family-concert"
+        },
+        "families": {
+          "url": "https://www.bso.org/events/mar-27-sensory-family-concert"
+        }
+      },
+      "accessEvidence": {
+        "sensory-friendly": {
+          "url": "https://www.bso.org/events/mar-27-sensory-family-concert"
+        },
+        "caregiver-support": {
+          "url": "https://www.bso.org/events/mar-27-sensory-family-concert"
+        }
+      },
+      "checkedAt": "2026-10-19",
+      "sensory": {
+        "level": "low",
+        "note": "Adjusted sound/lighting, movement space, loan headphones and quiet/support rooms are advertised.",
+        "sourceUrl": "https://www.bso.org/events/mar-27-sensory-family-concert",
+        "checkedAt": "2026-10-19",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-19"
+      },
+      "holidays": [],
+      "holidayEvidence": {}
+    },
+    "see-immune-friendly-2026-10-23": {
+      "ageGroups": [
+        "all-ages",
+        "families"
+      ],
+      "accessFeatures": [],
+      "ageEvidence": {
+        "all-ages": {
+          "url": "https://see-sciencecenter.org/immunocompromised-friendly-fun-night/"
+        },
+        "families": {
+          "url": "https://see-sciencecenter.org/immunocompromised-friendly-fun-night/"
+        }
+      },
+      "accessEvidence": {},
+      "checkedAt": "2026-10-19",
+      "sensory": {
+        "level": "unknown",
+        "note": "This event is designed around immune-access precautions; reduced sound or lighting is not promised.",
+        "sourceUrl": "https://see-sciencecenter.org/immunocompromised-friendly-fun-night/",
+        "checkedAt": "2026-10-19",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-19"
+      },
+      "holidays": [],
+      "holidayEvidence": {}
+    },
+    "seacoast-sensory-2026-10-25": {
+      "ageGroups": [
+        "all-ages",
+        "families"
+      ],
+      "accessFeatures": [
+        "sensory-friendly"
+      ],
+      "ageEvidence": {
+        "all-ages": {
+          "url": "https://www.seacoastsciencecenter.org/events/sensory-friendly-hour/"
+        },
+        "families": {
+          "url": "https://www.seacoastsciencecenter.org/events/sensory-friendly-hour/"
+        }
+      },
+      "accessEvidence": {
+        "sensory-friendly": {
+          "url": "https://www.seacoastsciencecenter.org/events/sensory-friendly-hour/"
+        }
+      },
+      "checkedAt": "2026-10-19",
+      "sensory": {
+        "level": "low",
+        "note": "Muted videos, dimmed lights, sensory stations, a quiet room and limited capacity are provided.",
+        "sourceUrl": "https://www.seacoastsciencecenter.org/events/sensory-friendly-hour/",
+        "checkedAt": "2026-10-19",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-19"
+      },
+      "holidays": [],
+      "holidayEvidence": {}
+    },
+    "seacoast-sensory-2026-11-01": {
+      "ageGroups": [
+        "all-ages",
+        "families"
+      ],
+      "accessFeatures": [
+        "sensory-friendly"
+      ],
+      "ageEvidence": {
+        "all-ages": {
+          "url": "https://www.seacoastsciencecenter.org/events/sensory-friendly-hour/"
+        },
+        "families": {
+          "url": "https://www.seacoastsciencecenter.org/events/sensory-friendly-hour/"
+        }
+      },
+      "accessEvidence": {
+        "sensory-friendly": {
+          "url": "https://www.seacoastsciencecenter.org/events/sensory-friendly-hour/"
+        }
+      },
+      "checkedAt": "2026-10-19",
+      "sensory": {
+        "level": "low",
+        "note": "Muted videos, dimmed lights, sensory stations, a quiet room and limited capacity are provided.",
+        "sourceUrl": "https://www.seacoastsciencecenter.org/events/sensory-friendly-hour/",
+        "checkedAt": "2026-10-19",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-19"
+      },
+      "holidays": [],
+      "holidayEvidence": {}
+    },
+    "seacoast-sensory-2026-11-08": {
+      "ageGroups": [
+        "all-ages",
+        "families"
+      ],
+      "accessFeatures": [
+        "sensory-friendly"
+      ],
+      "ageEvidence": {
+        "all-ages": {
+          "url": "https://www.seacoastsciencecenter.org/events/sensory-friendly-hour/"
+        },
+        "families": {
+          "url": "https://www.seacoastsciencecenter.org/events/sensory-friendly-hour/"
+        }
+      },
+      "accessEvidence": {
+        "sensory-friendly": {
+          "url": "https://www.seacoastsciencecenter.org/events/sensory-friendly-hour/"
+        }
+      },
+      "checkedAt": "2026-10-19",
+      "sensory": {
+        "level": "low",
+        "note": "Muted videos, dimmed lights, sensory stations, a quiet room and limited capacity are provided.",
+        "sourceUrl": "https://www.seacoastsciencecenter.org/events/sensory-friendly-hour/",
+        "checkedAt": "2026-10-19",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-19"
+      },
+      "holidays": [],
+      "holidayEvidence": {}
+    },
+    "seacoast-sensory-2026-11-15": {
+      "ageGroups": [
+        "all-ages",
+        "families"
+      ],
+      "accessFeatures": [
+        "sensory-friendly"
+      ],
+      "ageEvidence": {
+        "all-ages": {
+          "url": "https://www.seacoastsciencecenter.org/events/sensory-friendly-hour/"
+        },
+        "families": {
+          "url": "https://www.seacoastsciencecenter.org/events/sensory-friendly-hour/"
+        }
+      },
+      "accessEvidence": {
+        "sensory-friendly": {
+          "url": "https://www.seacoastsciencecenter.org/events/sensory-friendly-hour/"
+        }
+      },
+      "checkedAt": "2026-10-19",
+      "sensory": {
+        "level": "low",
+        "note": "Muted videos, dimmed lights, sensory stations, a quiet room and limited capacity are provided.",
+        "sourceUrl": "https://www.seacoastsciencecenter.org/events/sensory-friendly-hour/",
+        "checkedAt": "2026-10-19",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-19"
+      },
+      "holidays": [],
+      "holidayEvidence": {}
+    },
+    "seacoast-sensory-2026-11-22": {
+      "ageGroups": [
+        "all-ages",
+        "families"
+      ],
+      "accessFeatures": [
+        "sensory-friendly"
+      ],
+      "ageEvidence": {
+        "all-ages": {
+          "url": "https://www.seacoastsciencecenter.org/events/sensory-friendly-hour/"
+        },
+        "families": {
+          "url": "https://www.seacoastsciencecenter.org/events/sensory-friendly-hour/"
+        }
+      },
+      "accessEvidence": {
+        "sensory-friendly": {
+          "url": "https://www.seacoastsciencecenter.org/events/sensory-friendly-hour/"
+        }
+      },
+      "checkedAt": "2026-10-19",
+      "sensory": {
+        "level": "low",
+        "note": "Muted videos, dimmed lights, sensory stations, a quiet room and limited capacity are provided.",
+        "sourceUrl": "https://www.seacoastsciencecenter.org/events/sensory-friendly-hour/",
+        "checkedAt": "2026-10-19",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-19"
+      },
+      "holidays": [],
+      "holidayEvidence": {}
+    },
+    "seacoast-sensory-2026-11-29": {
+      "ageGroups": [
+        "all-ages",
+        "families"
+      ],
+      "accessFeatures": [
+        "sensory-friendly"
+      ],
+      "ageEvidence": {
+        "all-ages": {
+          "url": "https://www.seacoastsciencecenter.org/events/sensory-friendly-hour/"
+        },
+        "families": {
+          "url": "https://www.seacoastsciencecenter.org/events/sensory-friendly-hour/"
+        }
+      },
+      "accessEvidence": {
+        "sensory-friendly": {
+          "url": "https://www.seacoastsciencecenter.org/events/sensory-friendly-hour/"
+        }
+      },
+      "checkedAt": "2026-10-19",
+      "sensory": {
+        "level": "low",
+        "note": "Muted videos, dimmed lights, sensory stations, a quiet room and limited capacity are provided.",
+        "sourceUrl": "https://www.seacoastsciencecenter.org/events/sensory-friendly-hour/",
+        "checkedAt": "2026-10-19",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-19"
+      },
+      "holidays": [],
+      "holidayEvidence": {}
+    },
+    "seacoast-sensory-2026-12-06": {
+      "ageGroups": [
+        "all-ages",
+        "families"
+      ],
+      "accessFeatures": [
+        "sensory-friendly"
+      ],
+      "ageEvidence": {
+        "all-ages": {
+          "url": "https://www.seacoastsciencecenter.org/events/sensory-friendly-hour/"
+        },
+        "families": {
+          "url": "https://www.seacoastsciencecenter.org/events/sensory-friendly-hour/"
+        }
+      },
+      "accessEvidence": {
+        "sensory-friendly": {
+          "url": "https://www.seacoastsciencecenter.org/events/sensory-friendly-hour/"
+        }
+      },
+      "checkedAt": "2026-10-19",
+      "sensory": {
+        "level": "low",
+        "note": "Muted videos, dimmed lights, sensory stations, a quiet room and limited capacity are provided.",
+        "sourceUrl": "https://www.seacoastsciencecenter.org/events/sensory-friendly-hour/",
+        "checkedAt": "2026-10-19",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-19"
+      },
+      "holidays": [],
+      "holidayEvidence": {}
+    },
+    "seacoast-sensory-2026-12-13": {
+      "ageGroups": [
+        "all-ages",
+        "families"
+      ],
+      "accessFeatures": [
+        "sensory-friendly"
+      ],
+      "ageEvidence": {
+        "all-ages": {
+          "url": "https://www.seacoastsciencecenter.org/events/sensory-friendly-hour/"
+        },
+        "families": {
+          "url": "https://www.seacoastsciencecenter.org/events/sensory-friendly-hour/"
+        }
+      },
+      "accessEvidence": {
+        "sensory-friendly": {
+          "url": "https://www.seacoastsciencecenter.org/events/sensory-friendly-hour/"
+        }
+      },
+      "checkedAt": "2026-10-19",
+      "sensory": {
+        "level": "low",
+        "note": "Muted videos, dimmed lights, sensory stations, a quiet room and limited capacity are provided.",
+        "sourceUrl": "https://www.seacoastsciencecenter.org/events/sensory-friendly-hour/",
+        "checkedAt": "2026-10-19",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-19"
+      },
+      "holidays": [],
+      "holidayEvidence": {}
+    },
+    "seacoast-sensory-2026-12-20": {
+      "ageGroups": [
+        "all-ages",
+        "families"
+      ],
+      "accessFeatures": [
+        "sensory-friendly"
+      ],
+      "ageEvidence": {
+        "all-ages": {
+          "url": "https://www.seacoastsciencecenter.org/events/sensory-friendly-hour/"
+        },
+        "families": {
+          "url": "https://www.seacoastsciencecenter.org/events/sensory-friendly-hour/"
+        }
+      },
+      "accessEvidence": {
+        "sensory-friendly": {
+          "url": "https://www.seacoastsciencecenter.org/events/sensory-friendly-hour/"
+        }
+      },
+      "checkedAt": "2026-10-19",
+      "sensory": {
+        "level": "low",
+        "note": "Muted videos, dimmed lights, sensory stations, a quiet room and limited capacity are provided.",
+        "sourceUrl": "https://www.seacoastsciencecenter.org/events/sensory-friendly-hour/",
+        "checkedAt": "2026-10-19",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-19"
+      },
+      "holidays": [],
+      "holidayEvidence": {}
+    },
+    "seacoast-sensory-2026-12-27": {
+      "ageGroups": [
+        "all-ages",
+        "families"
+      ],
+      "accessFeatures": [
+        "sensory-friendly"
+      ],
+      "ageEvidence": {
+        "all-ages": {
+          "url": "https://www.seacoastsciencecenter.org/events/sensory-friendly-hour/"
+        },
+        "families": {
+          "url": "https://www.seacoastsciencecenter.org/events/sensory-friendly-hour/"
+        }
+      },
+      "accessEvidence": {
+        "sensory-friendly": {
+          "url": "https://www.seacoastsciencecenter.org/events/sensory-friendly-hour/"
+        }
+      },
+      "checkedAt": "2026-10-19",
+      "sensory": {
+        "level": "low",
+        "note": "Muted videos, dimmed lights, sensory stations, a quiet room and limited capacity are provided.",
+        "sourceUrl": "https://www.seacoastsciencecenter.org/events/sensory-friendly-hour/",
+        "checkedAt": "2026-10-19",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-19"
+      },
+      "holidays": [],
+      "holidayEvidence": {}
+    },
+    "ccanh-zanes-2026-12-12-1100": {
+      "ageGroups": [
+        "all-ages",
+        "families"
+      ],
+      "accessFeatures": [
+        "sensory-friendly"
+      ],
+      "ageEvidence": {
+        "all-ages": {
+          "url": "https://www.ccanh.com/show-details/gile-series-dan-claudia-zanes-holiday-sing-a-long"
+        },
+        "families": {
+          "url": "https://www.ccanh.com/show-details/gile-series-dan-claudia-zanes-holiday-sing-a-long"
+        }
+      },
+      "accessEvidence": {
+        "sensory-friendly": {
+          "url": "https://www.ccanh.com/show-details/gile-series-dan-claudia-zanes-holiday-sing-a-long"
+        }
+      },
+      "checkedAt": "2026-10-19",
+      "sensory": {
+        "level": "unknown",
+        "note": "The organizer calls the performance sensory-friendly but does not publish precise sound, lighting or quiet-space adjustments.",
+        "sourceUrl": "https://www.ccanh.com/show-details/gile-series-dan-claudia-zanes-holiday-sing-a-long",
+        "checkedAt": "2026-10-19",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-19"
+      },
+      "holidays": [
+        "winter-holidays",
+        "holiday-performance"
+      ],
+      "holidayEvidence": {
+        "winter-holidays": {
+          "url": "https://www.ccanh.com/show-details/gile-series-dan-claudia-zanes-holiday-sing-a-long"
+        },
+        "holiday-performance": {
+          "url": "https://www.ccanh.com/show-details/gile-series-dan-claudia-zanes-holiday-sing-a-long"
+        }
+      }
+    },
+    "ccanh-zanes-2026-12-12-1400": {
+      "ageGroups": [
+        "all-ages",
+        "families"
+      ],
+      "accessFeatures": [
+        "sensory-friendly"
+      ],
+      "ageEvidence": {
+        "all-ages": {
+          "url": "https://www.ccanh.com/show-details/gile-series-dan-claudia-zanes-holiday-sing-a-long"
+        },
+        "families": {
+          "url": "https://www.ccanh.com/show-details/gile-series-dan-claudia-zanes-holiday-sing-a-long"
+        }
+      },
+      "accessEvidence": {
+        "sensory-friendly": {
+          "url": "https://www.ccanh.com/show-details/gile-series-dan-claudia-zanes-holiday-sing-a-long"
+        }
+      },
+      "checkedAt": "2026-10-19",
+      "sensory": {
+        "level": "unknown",
+        "note": "The organizer calls the performance sensory-friendly but does not publish precise sound, lighting or quiet-space adjustments.",
+        "sourceUrl": "https://www.ccanh.com/show-details/gile-series-dan-claudia-zanes-holiday-sing-a-long",
+        "checkedAt": "2026-10-19",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-19"
+      },
+      "holidays": [
+        "winter-holidays",
+        "holiday-performance"
+      ],
+      "holidayEvidence": {
+        "winter-holidays": {
+          "url": "https://www.ccanh.com/show-details/gile-series-dan-claudia-zanes-holiday-sing-a-long"
+        },
+        "holiday-performance": {
+          "url": "https://www.ccanh.com/show-details/gile-series-dan-claudia-zanes-holiday-sing-a-long"
+        }
+      }
+    },
+    "shelburne-drive-around-2026-12-01": {
+      "ageGroups": [
+        "all-ages",
+        "families"
+      ],
+      "accessFeatures": [],
+      "ageEvidence": {
+        "all-ages": {
+          "url": "https://shelburnemuseum.org/visit/winter-lights/"
+        },
+        "families": {
+          "url": "https://shelburnemuseum.org/visit/winter-lights/"
+        }
+      },
+      "accessEvidence": {},
+      "checkedAt": "2026-10-19",
+      "sensory": {
+        "level": "variable",
+        "note": "Guests remain in their own vehicle, which may offer personal control, but the light displays are not reduced or modified for sensory needs.",
+        "sourceUrl": "https://shelburnemuseum.org/visit/winter-lights/",
+        "checkedAt": "2026-10-19",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-19"
+      },
+      "holidays": [
+        "winter-holidays",
+        "winter-lights"
+      ],
+      "holidayEvidence": {
+        "winter-holidays": {
+          "url": "https://shelburnemuseum.org/visit/winter-lights/"
+        },
+        "winter-lights": {
+          "url": "https://shelburnemuseum.org/visit/winter-lights/"
+        }
+      }
+    },
+    "shelburne-drive-around-2026-12-02": {
+      "ageGroups": [
+        "all-ages",
+        "families"
+      ],
+      "accessFeatures": [],
+      "ageEvidence": {
+        "all-ages": {
+          "url": "https://shelburnemuseum.org/visit/winter-lights/"
+        },
+        "families": {
+          "url": "https://shelburnemuseum.org/visit/winter-lights/"
+        }
+      },
+      "accessEvidence": {},
+      "checkedAt": "2026-10-19",
+      "sensory": {
+        "level": "variable",
+        "note": "Guests remain in their own vehicle, which may offer personal control, but the light displays are not reduced or modified for sensory needs.",
+        "sourceUrl": "https://shelburnemuseum.org/visit/winter-lights/",
+        "checkedAt": "2026-10-19",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-19"
+      },
+      "holidays": [
+        "winter-holidays",
+        "winter-lights"
+      ],
+      "holidayEvidence": {
+        "winter-holidays": {
+          "url": "https://shelburnemuseum.org/visit/winter-lights/"
+        },
+        "winter-lights": {
+          "url": "https://shelburnemuseum.org/visit/winter-lights/"
+        }
+      }
+    },
+    "shelburne-drive-around-2026-12-08": {
+      "ageGroups": [
+        "all-ages",
+        "families"
+      ],
+      "accessFeatures": [],
+      "ageEvidence": {
+        "all-ages": {
+          "url": "https://shelburnemuseum.org/visit/winter-lights/"
+        },
+        "families": {
+          "url": "https://shelburnemuseum.org/visit/winter-lights/"
+        }
+      },
+      "accessEvidence": {},
+      "checkedAt": "2026-10-19",
+      "sensory": {
+        "level": "variable",
+        "note": "Guests remain in their own vehicle, which may offer personal control, but the light displays are not reduced or modified for sensory needs.",
+        "sourceUrl": "https://shelburnemuseum.org/visit/winter-lights/",
+        "checkedAt": "2026-10-19",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-19"
+      },
+      "holidays": [
+        "winter-holidays",
+        "winter-lights"
+      ],
+      "holidayEvidence": {
+        "winter-holidays": {
+          "url": "https://shelburnemuseum.org/visit/winter-lights/"
+        },
+        "winter-lights": {
+          "url": "https://shelburnemuseum.org/visit/winter-lights/"
+        }
+      }
+    },
+    "shelburne-drive-around-2026-12-09": {
+      "ageGroups": [
+        "all-ages",
+        "families"
+      ],
+      "accessFeatures": [],
+      "ageEvidence": {
+        "all-ages": {
+          "url": "https://shelburnemuseum.org/visit/winter-lights/"
+        },
+        "families": {
+          "url": "https://shelburnemuseum.org/visit/winter-lights/"
+        }
+      },
+      "accessEvidence": {},
+      "checkedAt": "2026-10-19",
+      "sensory": {
+        "level": "variable",
+        "note": "Guests remain in their own vehicle, which may offer personal control, but the light displays are not reduced or modified for sensory needs.",
+        "sourceUrl": "https://shelburnemuseum.org/visit/winter-lights/",
+        "checkedAt": "2026-10-19",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-19"
+      },
+      "holidays": [
+        "winter-holidays",
+        "winter-lights"
+      ],
+      "holidayEvidence": {
+        "winter-holidays": {
+          "url": "https://shelburnemuseum.org/visit/winter-lights/"
+        },
+        "winter-lights": {
+          "url": "https://shelburnemuseum.org/visit/winter-lights/"
+        }
+      }
+    },
+    "shelburne-drive-around-2026-12-15": {
+      "ageGroups": [
+        "all-ages",
+        "families"
+      ],
+      "accessFeatures": [],
+      "ageEvidence": {
+        "all-ages": {
+          "url": "https://shelburnemuseum.org/visit/winter-lights/"
+        },
+        "families": {
+          "url": "https://shelburnemuseum.org/visit/winter-lights/"
+        }
+      },
+      "accessEvidence": {},
+      "checkedAt": "2026-10-19",
+      "sensory": {
+        "level": "variable",
+        "note": "Guests remain in their own vehicle, which may offer personal control, but the light displays are not reduced or modified for sensory needs.",
+        "sourceUrl": "https://shelburnemuseum.org/visit/winter-lights/",
+        "checkedAt": "2026-10-19",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-19"
+      },
+      "holidays": [
+        "winter-holidays",
+        "winter-lights"
+      ],
+      "holidayEvidence": {
+        "winter-holidays": {
+          "url": "https://shelburnemuseum.org/visit/winter-lights/"
+        },
+        "winter-lights": {
+          "url": "https://shelburnemuseum.org/visit/winter-lights/"
+        }
+      }
+    },
+    "shelburne-drive-around-2026-12-16": {
+      "ageGroups": [
+        "all-ages",
+        "families"
+      ],
+      "accessFeatures": [],
+      "ageEvidence": {
+        "all-ages": {
+          "url": "https://shelburnemuseum.org/visit/winter-lights/"
+        },
+        "families": {
+          "url": "https://shelburnemuseum.org/visit/winter-lights/"
+        }
+      },
+      "accessEvidence": {},
+      "checkedAt": "2026-10-19",
+      "sensory": {
+        "level": "variable",
+        "note": "Guests remain in their own vehicle, which may offer personal control, but the light displays are not reduced or modified for sensory needs.",
+        "sourceUrl": "https://shelburnemuseum.org/visit/winter-lights/",
+        "checkedAt": "2026-10-19",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-19"
+      },
+      "holidays": [
+        "winter-holidays",
+        "winter-lights"
+      ],
+      "holidayEvidence": {
+        "winter-holidays": {
+          "url": "https://shelburnemuseum.org/visit/winter-lights/"
+        },
+        "winter-lights": {
+          "url": "https://shelburnemuseum.org/visit/winter-lights/"
+        }
+      }
+    },
+    "shelburne-drive-around-2027-01-04": {
+      "ageGroups": [
+        "all-ages",
+        "families"
+      ],
+      "accessFeatures": [],
+      "ageEvidence": {
+        "all-ages": {
+          "url": "https://shelburnemuseum.org/visit/winter-lights/"
+        },
+        "families": {
+          "url": "https://shelburnemuseum.org/visit/winter-lights/"
+        }
+      },
+      "accessEvidence": {},
+      "checkedAt": "2026-10-19",
+      "sensory": {
+        "level": "variable",
+        "note": "Guests remain in their own vehicle, which may offer personal control, but the light displays are not reduced or modified for sensory needs.",
+        "sourceUrl": "https://shelburnemuseum.org/visit/winter-lights/",
+        "checkedAt": "2026-10-19",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-19"
+      },
+      "holidays": [
+        "winter-holidays",
+        "winter-lights"
+      ],
+      "holidayEvidence": {
+        "winter-holidays": {
+          "url": "https://shelburnemuseum.org/visit/winter-lights/"
+        },
+        "winter-lights": {
+          "url": "https://shelburnemuseum.org/visit/winter-lights/"
+        }
+      }
+    },
+    "shelburne-drive-around-2027-01-05": {
+      "ageGroups": [
+        "all-ages",
+        "families"
+      ],
+      "accessFeatures": [],
+      "ageEvidence": {
+        "all-ages": {
+          "url": "https://shelburnemuseum.org/visit/winter-lights/"
+        },
+        "families": {
+          "url": "https://shelburnemuseum.org/visit/winter-lights/"
+        }
+      },
+      "accessEvidence": {},
+      "checkedAt": "2026-10-19",
+      "sensory": {
+        "level": "variable",
+        "note": "Guests remain in their own vehicle, which may offer personal control, but the light displays are not reduced or modified for sensory needs.",
+        "sourceUrl": "https://shelburnemuseum.org/visit/winter-lights/",
+        "checkedAt": "2026-10-19",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-19"
+      },
+      "holidays": [
+        "winter-holidays",
+        "winter-lights"
+      ],
+      "holidayEvidence": {
+        "winter-holidays": {
+          "url": "https://shelburnemuseum.org/visit/winter-lights/"
+        },
+        "winter-lights": {
+          "url": "https://shelburnemuseum.org/visit/winter-lights/"
+        }
+      }
+    },
+    "shelburne-drive-around-2027-01-06": {
+      "ageGroups": [
+        "all-ages",
+        "families"
+      ],
+      "accessFeatures": [],
+      "ageEvidence": {
+        "all-ages": {
+          "url": "https://shelburnemuseum.org/visit/winter-lights/"
+        },
+        "families": {
+          "url": "https://shelburnemuseum.org/visit/winter-lights/"
+        }
+      },
+      "accessEvidence": {},
+      "checkedAt": "2026-10-19",
+      "sensory": {
+        "level": "variable",
+        "note": "Guests remain in their own vehicle, which may offer personal control, but the light displays are not reduced or modified for sensory needs.",
+        "sourceUrl": "https://shelburnemuseum.org/visit/winter-lights/",
+        "checkedAt": "2026-10-19",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-19"
+      },
+      "holidays": [
+        "winter-holidays",
+        "winter-lights"
+      ],
+      "holidayEvidence": {
+        "winter-holidays": {
+          "url": "https://shelburnemuseum.org/visit/winter-lights/"
+        },
+        "winter-lights": {
+          "url": "https://shelburnemuseum.org/visit/winter-lights/"
+        }
+      }
+    },
+    "shelburne-drive-around-2027-01-07": {
+      "ageGroups": [
+        "all-ages",
+        "families"
+      ],
+      "accessFeatures": [],
+      "ageEvidence": {
+        "all-ages": {
+          "url": "https://shelburnemuseum.org/visit/winter-lights/"
+        },
+        "families": {
+          "url": "https://shelburnemuseum.org/visit/winter-lights/"
+        }
+      },
+      "accessEvidence": {},
+      "checkedAt": "2026-10-19",
+      "sensory": {
+        "level": "variable",
+        "note": "Guests remain in their own vehicle, which may offer personal control, but the light displays are not reduced or modified for sensory needs.",
+        "sourceUrl": "https://shelburnemuseum.org/visit/winter-lights/",
+        "checkedAt": "2026-10-19",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-19"
+      },
+      "holidays": [
+        "winter-holidays",
+        "winter-lights"
+      ],
+      "holidayEvidence": {
+        "winter-holidays": {
+          "url": "https://shelburnemuseum.org/visit/winter-lights/"
+        },
+        "winter-lights": {
+          "url": "https://shelburnemuseum.org/visit/winter-lights/"
+        }
+      }
+    },
+    "shelburne-drive-around-2027-01-08": {
+      "ageGroups": [
+        "all-ages",
+        "families"
+      ],
+      "accessFeatures": [],
+      "ageEvidence": {
+        "all-ages": {
+          "url": "https://shelburnemuseum.org/visit/winter-lights/"
+        },
+        "families": {
+          "url": "https://shelburnemuseum.org/visit/winter-lights/"
+        }
+      },
+      "accessEvidence": {},
+      "checkedAt": "2026-10-19",
+      "sensory": {
+        "level": "variable",
+        "note": "Guests remain in their own vehicle, which may offer personal control, but the light displays are not reduced or modified for sensory needs.",
+        "sourceUrl": "https://shelburnemuseum.org/visit/winter-lights/",
+        "checkedAt": "2026-10-19",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-19"
+      },
+      "holidays": [
+        "winter-holidays",
+        "winter-lights"
+      ],
+      "holidayEvidence": {
+        "winter-holidays": {
+          "url": "https://shelburnemuseum.org/visit/winter-lights/"
+        },
+        "winter-lights": {
+          "url": "https://shelburnemuseum.org/visit/winter-lights/"
+        }
+      }
+    },
+    "shelburne-drive-around-2027-01-09": {
+      "ageGroups": [
+        "all-ages",
+        "families"
+      ],
+      "accessFeatures": [],
+      "ageEvidence": {
+        "all-ages": {
+          "url": "https://shelburnemuseum.org/visit/winter-lights/"
+        },
+        "families": {
+          "url": "https://shelburnemuseum.org/visit/winter-lights/"
+        }
+      },
+      "accessEvidence": {},
+      "checkedAt": "2026-10-19",
+      "sensory": {
+        "level": "variable",
+        "note": "Guests remain in their own vehicle, which may offer personal control, but the light displays are not reduced or modified for sensory needs.",
+        "sourceUrl": "https://shelburnemuseum.org/visit/winter-lights/",
+        "checkedAt": "2026-10-19",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-19"
+      },
+      "holidays": [
+        "winter-holidays",
+        "winter-lights"
+      ],
+      "holidayEvidence": {
+        "winter-holidays": {
+          "url": "https://shelburnemuseum.org/visit/winter-lights/"
+        },
+        "winter-lights": {
+          "url": "https://shelburnemuseum.org/visit/winter-lights/"
+        }
+      }
+    },
+    "polar-express-sensory-car-2026-12-05": {
+      "ageGroups": [
+        "children",
+        "families"
+      ],
+      "accessFeatures": [
+        "sensory-friendly",
+        "caregiver-support"
+      ],
+      "ageEvidence": {
+        "children": {
+          "url": "https://www.seedandsew.org/polarexpress"
+        },
+        "families": {
+          "url": "https://www.seedandsew.org/polarexpress"
+        }
+      },
+      "accessEvidence": {
+        "sensory-friendly": {
+          "url": "https://www.seedandsew.org/polarexpress"
+        },
+        "caregiver-support": {
+          "url": "https://www.seedandsew.org/polarexpress"
+        }
+      },
+      "checkedAt": "2026-10-19",
+      "sensory": {
+        "level": "moderate",
+        "note": "The designated train car has no singing and includes preparation materials, but the wider station and Santa experience are not promised quiet.",
+        "sourceUrl": "https://www.seedandsew.org/polarexpress",
+        "checkedAt": "2026-10-19",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-19"
+      },
+      "holidays": [
+        "christmas",
+        "winter-holidays",
+        "holiday-performance"
+      ],
+      "holidayEvidence": {
+        "christmas": {
+          "url": "https://www.seedandsew.org/polarexpress"
+        },
+        "winter-holidays": {
+          "url": "https://www.seedandsew.org/polarexpress"
+        },
+        "holiday-performance": {
+          "url": "https://www.seedandsew.org/polarexpress"
+        }
+      }
     }
   },
   "sensoryMethod": "Sensory levels are editorial planning estimates based on the specific published conditions, not medical ratings or promises. Low means reduced stimulation, moderate means some ongoing music or activity, high means a likely stimulating mix, variable means conditions or parts of the visit differ, and unknown means evidence is insufficient. Sensory-friendly and disability-inclusive are not automatic low-sensory ratings. Earlier event verification dates remain visible."
