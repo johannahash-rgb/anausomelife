@@ -1,72 +1,48 @@
-/* Progressive enhancement: all 104 definitions remain readable without this file. */
-(() => {
-  'use strict';
-  const root = document.querySelector('.cg-root');
-  if (!root) return;
-  const input = document.getElementById('cg-search');
-  const count = document.getElementById('cg-count');
-  const clear = document.getElementById('cg-clear');
-  const grid = document.getElementById('cg-grid');
-  const chips = [...root.querySelectorAll('[data-category-filter]')];
-  const cards = [...root.querySelectorAll('.cg-term')];
-  if (!input || !grid || !cards.length) return;
-  const normalize = value => value.toLowerCase().normalize('NFKD').replace(/[\u0300-\u036f]/g, '').replace(/[’']/g, '').replace(/[^a-z0-9]+/g, ' ').trim();
-  const rows = cards.map((el, index) => ({el, index, name: normalize(el.dataset.name), aliases: normalize(el.dataset.aliases || ''), text: normalize(el.textContent), category: el.dataset.category}));
-  let category = 'All';
-  let timer;
-  const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
-  const scrollTo = el => el.scrollIntoView({block: 'start', behavior: reducedMotion.matches ? 'auto' : 'smooth'});
-  const status = document.getElementById('cg-empty');
-  function filter() {
-    const query = normalize(input.value);
-    const words = query.split(' ').filter(Boolean);
-    let visible = 0;
-    rows.forEach(row => {
-      const matches = (category === 'All' || category === row.category) && words.every(word => (row.name + ' ' + row.aliases + ' ' + row.text).includes(word));
-      row.el.hidden = !matches;
-      if (matches) visible++;
-      row.el.style.order = query ? String(row.name === query ? -3 : row.name.startsWith(query) || row.aliases.split(' ').includes(query) ? -2 : row.name.includes(query) ? -1 : row.index) : String(row.index);
-    });
-    count.textContent = visible + (visible === 1 ? ' term' : ' terms') + (category === 'All' ? '' : ' · ' + category);
-    chips.forEach(chip => chip.setAttribute('aria-pressed', String(chip.dataset.categoryFilter === category)));
-    clear.hidden = !input.value && category === 'All';
-    status.hidden = visible !== 0;
-  }
-  function reset() { clearTimeout(timer); input.value = ''; category = 'All'; filter(); }
-  function revealHash(focus) {
-    const id = location.hash.slice(1);
-    const target = document.getElementById(id);
-    if (!target || !target.classList.contains('cg-term')) return;
-    if (target.hidden) reset();
-    target.open = true;
-    requestAnimationFrame(() => {
-      scrollTo(target);
-      if (focus) target.querySelector('summary').focus({preventScroll:true});
-    });
-  }
-  input.addEventListener('input', () => {clearTimeout(timer); timer = setTimeout(filter, 120);});
-  input.addEventListener('keydown', e => {if (e.key === 'Escape') {reset(); input.focus();} if (e.key === 'Enter') {e.preventDefault();clearTimeout(timer); filter(); const first = [...cards].filter(c => !c.hidden).sort((a,b)=>Number(a.style.order)-Number(b.style.order))[0]; if (first) {first.open=true; scrollTo(first); first.querySelector('summary').focus({preventScroll:true});}}});
-  clear.addEventListener('click', () => {reset(); input.focus();});
-  chips.forEach(chip => chip.addEventListener('click', () => {category=chip.dataset.categoryFilter; filter();}));
-  root.querySelectorAll('[data-jump]').forEach(button => button.addEventListener('click', () => {input.value=''; category=button.dataset.jump; filter(); scrollTo(document.getElementById('cg-search-tools'));}));
-  root.querySelectorAll('[data-lookup]').forEach(button => button.addEventListener('click', () => {category='All';input.value=button.dataset.lookup;filter();scrollTo(document.getElementById('cg-search-tools'));}));
-  root.querySelectorAll('[data-tool]').forEach(button => button.addEventListener('click', () => {
-    const action = button.dataset.tool;
-    if (action === 'print') window.print();
-    else cards.filter(c => !c.hidden).forEach(c => c.open = action === 'open');
-    const menu = button.closest('.cg-tools'); if (menu) menu.open=false;
-  }));
-  root.addEventListener('click', event => {
-    const link = event.target.closest('a[href^="#term-"]');
-    if (!link) return;
-    const hash = link.getAttribute('href');
-    if (location.hash === hash) {event.preventDefault(); revealHash(true);}
-  });
-  window.addEventListener('hashchange', () => revealHash(true));
-  let priorPrint = [];
-  window.addEventListener('beforeprint', () => {priorPrint=cards.map(c=>c.open);cards.filter(c=>!c.hidden).forEach(c=>c.open=true);});
-  window.addEventListener('afterprint', () => {cards.forEach((c,i)=>c.open=priorPrint[i]);});
-  root.classList.add('cg-enhanced');
-  filter();
-  revealHash(false);
+/* Optional tools. Every definition and source is static HTML and readable without JS. */
+(()=>{'use strict';
+ const root=document.querySelector('.cg-root.cg-v2');if(!root)return;
+ const $=s=>root.querySelector(s), $$=s=>[...root.querySelectorAll(s)];
+ const input=$('#cg-search'),select=$('#cg-topic'),count=$('#cg-count'),empty=$('#cg-empty'),more=$('#cg-more'),toast=$('#cg-toast');
+ const norm=s=>String(s||'').toLowerCase().normalize('NFKD').replace(/[\u0300-\u036f]/g,'').replace(/[’']/g,'').replace(/[^a-z0-9]+/g,' ').trim();
+ const rows=$$('.cg-term').map((el,index)=>({el,id:el.id,index,name:norm(el.dataset.name),title:el.dataset.name,aliases:norm(el.dataset.aliases),cat:el.dataset.category,text:norm([...el.querySelectorAll('.cg-preview,.cg-body section:not(.cg-sources)')].map(x=>x.textContent).join(' '))}));
+ if(!rows.length||!input||!select)return;
+ const ids=new Set(rows.map(r=>r.id)),KEY='aal-glossary-saved-v2';let saved=new Set(),storage=true;
+ try{const value=JSON.parse(localStorage.getItem(KEY)||'[]');if(Array.isArray(value))saved=new Set(value.filter(id=>ids.has(id)));}catch(e){storage=false;}
+ const state={topic:'All',letter:'',route:'',saved:false,limit:24};let timer,toastTimer,printState=null,printQuestions=false;
+ const routes={school:['IEP —','FAPE —','LRE —','PLAAFP','Annual goals','Service delivery','Accommodations','Related services','Parent concerns','Prior Written','IEE —','FBA','Implementation fidelity','Section 504','Transition services','Massachusetts'],communication:['Speech vs.','Multimodal','AAC —','Communication Bill','Apraxia','Aphasia','Dysarthria','Receptive','Expressive','Robust AAC','Communication repair','Aided language','Communication partner','Interoception','Intraverbal'],distress:['Interoception','Pain communication','Sensory overload','Meltdown','Shutdown','Co-regulation','De-escalation','Co-occurring','Self-injurious','Epilepsy','Catatonia','Sleep difficulties','Constipation','Safety plan'],adult:['Person-centered','Supported decision','Decision-making','Guardianship','HCBS','Individual Support','Supported living','Respite','Community participation','Quality of life','Care handoff','Health-care transition','Age of majority','Transition services','Massachusetts transition']};
+ const routeNames={school:'Preparing for an IEP meeting',communication:'Understanding communication',distress:'When something feels harder',adult:'Planning care and adult life'};
+ const queryRoutes={'school says no':['Prior Written','State complaint','IEE —','Parent concerns','Mediation'],'body signals':['Interoception','Proprioception','Vestibular','Pain communication'],'cant speak':['AAC —','Nonspeaking','Apraxia','Unreliable speech','Multimodal'],'cannot speak':['AAC —','Nonspeaking','Apraxia','Unreliable speech'],'toilet':['Toileting','Interoception','Constipation','ADLs'],'intraovserveor':['Interoception','Intraverbal'],'multiple modality comm':['Multimodal','AAC —'],'all humans reinforcement':['Reinforcement','Positive reinforcement','Negative reinforcement','Natural reinforcement','Reward vs.']};
+ const starts=(row,list)=>list.some(s=>row.title.startsWith(s));
+ const say=text=>{toast.textContent=text;clearTimeout(toastTimer);toastTimer=setTimeout(()=>toast.textContent='',4200);};
+ const scroll=el=>el.scrollIntoView({block:'start',behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth'});
+ function matches(row){const q=norm(input.value),words=q.split(' ').filter(Boolean),special=queryRoutes[q];return (state.topic==='All'||row.cat===state.topic)&&(!state.letter||row.name.startsWith(state.letter.toLowerCase()))&&(!state.route||starts(row,routes[state.route]))&&(!state.saved||saved.has(row.id))&&(!q||(special?starts(row,special):words.every(w=>(row.name+' '+row.aliases+' '+row.text).includes(w))));}
+ function rank(r){const q=norm(input.value);return !q?r.index:r.name===q?-1000:r.aliases.split(' ').includes(q)?-900:r.name.startsWith(q)?-800:r.name.includes(q)?-700:r.index;}
+ function results(){return rows.filter(matches).sort((a,b)=>rank(a)-rank(b));}
+ function updateSaved(){ $('#cg-saved-count').textContent=saved.size;$$('[data-save]').forEach(b=>{const on=saved.has(b.dataset.save);b.setAttribute('aria-pressed',String(on));b.textContent=on?'Saved — remove':'Save this term';});}
+ function distance(a,b){let prev=Array.from({length:b.length+1},(_,i)=>i);for(let i=1;i<=a.length;i++){const next=[i];for(let j=1;j<=b.length;j++)next[j]=Math.min(next[j-1]+1,prev[j]+1,prev[j-1]+(a[i-1]===b[j-1]?0:1));prev=next;}return prev[b.length];}
+ function suggest(){const q=norm(input.value),box=$('#cg-suggestions');box.replaceChildren();if(q.length<4)return;const near=rows.map(r=>({r,d:Math.min(...r.name.split(' ').filter(w=>w.length>3).map(w=>distance(q,w)),distance(q,r.name))})).filter(v=>v.d<=(q.length>7?3:1)).sort((a,b)=>a.d-b.d).slice(0,4);near.forEach(({r})=>{const b=document.createElement('button');b.type='button';b.textContent='Try '+r.title;b.addEventListener('click',()=>{reset(false);input.value=r.title;filter();});box.append(b);});}
+ function filter(){const found=results(),shown=found.slice(0,state.limit),visible=new Set(shown.map(r=>r.id));rows.forEach(r=>{r.el.hidden=!visible.has(r.id);r.el.style.order=String(rank(r));});count.textContent=found.length+' '+(found.length===1?'term':'terms')+(state.saved?' · saved here':state.topic!=='All'?' · '+state.topic:'');empty.hidden=found.length!==0;more.hidden=shown.length>=found.length;$('#cg-shown').textContent=found.length?'Showing '+shown.length+' of '+found.length:'';select.value=state.topic;$$('[data-topic]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.topic===state.topic)));$$('[data-letter]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.letter===state.letter)));$('#cg-saved').setAttribute('aria-pressed',String(state.saved));$('#cg-reset-path').hidden=!input.value&&state.topic==='All'&&!state.route&&!state.letter&&!state.saved;const note=$('#cg-path-note');note.hidden=!state.route;note.textContent=state.route?routeNames[state.route]+': a starting selection. Clear this view to browse the whole glossary.':'';if(!found.length)suggest();}
+ function reset(focus=true){clearTimeout(timer);input.value='';Object.assign(state,{topic:'All',letter:'',route:'',saved:false,limit:24});filter();if(focus)input.focus();}
+ function depth(value){root.classList.toggle('cg-quick',value==='quick');$$('[data-depth]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.depth===value)));}
+ function reveal(focus){const target=rows.find(r=>r.id===decodeURIComponent(location.hash.slice(1)));if(!target)return;reset(false);state.limit=Infinity;filter();target.el.open=true;depth('full');requestAnimationFrame(()=>{scroll(target.el);if(focus)target.el.querySelector('summary').focus({preventScroll:true});});}
+ async function copy(text){try{if(navigator.clipboard&&window.isSecureContext){await navigator.clipboard.writeText(text);say('Copied.');return;}}catch(e){}const box=document.createElement('textarea');box.value=text;box.setAttribute('readonly','');box.style.cssText='position:fixed;left:-9999px;top:0';document.body.append(box);box.select();let ok=false;try{ok=document.execCommand('copy');}catch(e){}box.remove();say(ok?'Copied.':'Copy was blocked. Select the question or use the definition link.');}
+ input.addEventListener('input',()=>{clearTimeout(timer);state.route='';state.letter='';state.limit=24;timer=setTimeout(filter,100);});
+ input.addEventListener('keydown',e=>{if(e.key==='Escape'){reset();}if(e.key==='Enter'){e.preventDefault();clearTimeout(timer);filter();const first=results()[0];if(first){first.el.open=true;scroll(first.el);first.el.querySelector('summary').focus({preventScroll:true});}}});
+ select.addEventListener('change',()=>{state.topic=select.value;state.route='';state.letter='';state.limit=24;filter();});
+ $('#cg-clear').addEventListener('click',()=>reset());$('#cg-reset-path').addEventListener('click',()=>reset());
+ $$('[data-topic]').forEach(b=>b.addEventListener('click',()=>{state.topic=b.dataset.topic;state.route='';state.letter='';state.limit=24;filter();scroll($('#cg-search-tools'));}));
+ $$('[data-route]').forEach(b=>b.addEventListener('click',()=>{reset(false);state.route=b.dataset.route;filter();scroll($('#cg-search-tools'));}));
+ $$('[data-letter]').forEach(b=>b.addEventListener('click',()=>{state.letter=b.dataset.letter;state.limit=24;filter();}));
+ $$('[data-depth]').forEach(b=>b.addEventListener('click',()=>depth(b.dataset.depth)));
+ $('#cg-size').addEventListener('click',e=>{const active=root.classList.toggle('cg-large');e.currentTarget.setAttribute('aria-pressed',String(active));});
+ $('#cg-saved').addEventListener('click',()=>{state.saved=!state.saved;state.limit=24;filter();});
+ more.addEventListener('click',()=>{state.limit+=24;filter();});
+ root.addEventListener('click',e=>{const b=e.target.closest('button');if(b){if(b.dataset.save){const id=b.dataset.save;if(saved.has(id))saved.delete(id);else saved.add(id);try{localStorage.setItem(KEY,JSON.stringify([...saved]));}catch(err){storage=false;}updateSaved();filter();say(storage?(saved.has(id)?'Saved in this browser.':'Removed from saved terms.'):'Saved for this page session only; browser storage is unavailable.');}if(b.hasAttribute('data-copy-question'))copy(b.closest('.cg-question').querySelector('blockquote').textContent);if(b.dataset.copyLink)copy('https://anausomelife.com/caregiver-glossary.html#'+b.dataset.copyLink);if(b.dataset.tool){const action=b.dataset.tool;if(action==='reset')reset();if(action==='all'){state.limit=Infinity;filter();}if(action==='open'||action==='close')rows.filter(r=>!r.el.hidden).forEach(r=>r.el.open=action==='open');if(action==='questions'){if(!saved.size){say('Save a term first to build your question sheet.');return;}printQuestions=true;window.print();}if(action==='print'){printQuestions=false;window.print();}const menu=b.closest('.cg-tools');if(menu)menu.open=false;}}
+ const a=e.target.closest('a[href^="#term-"]');if(a){const dialog=$('#cg-comparison');if(dialog.open)dialog.close();if(location.hash===a.getAttribute('href')){e.preventDefault();reveal(true);}}});
+ const dialog=$('#cg-comparison'),compare=$('#cg-compare');compare.addEventListener('click',()=>{if(typeof dialog.showModal==='function')dialog.showModal();else{dialog.setAttribute('open','');scroll(dialog);}});$('#cg-comparison-close').addEventListener('click',()=>{if(typeof dialog.close==='function')dialog.close();else dialog.removeAttribute('open');compare.focus();});
+ window.addEventListener('hashchange',()=>reveal(true));
+ window.addEventListener('beforeprint',()=>{printState=rows.map(r=>({hidden:r.el.hidden,open:r.el.open}));const wanted=new Set((printQuestions?rows.filter(r=>saved.has(r.id)):results()).map(r=>r.id));root.classList.toggle('cg-print-questions',printQuestions);rows.forEach(r=>{r.el.hidden=!wanted.has(r.id);r.el.open=wanted.has(r.id);});});
+ window.addEventListener('afterprint',()=>{if(printState)rows.forEach((r,i)=>{r.el.hidden=printState[i].hidden;r.el.open=printState[i].open;});printState=null;printQuestions=false;root.classList.remove('cg-print-questions');});
+ root.classList.add('cg-enhanced');depth('quick');updateSaved();filter();
+ try{reveal(false);}catch(e){/* A malformed URL fragment must not break reading. */}
 })();

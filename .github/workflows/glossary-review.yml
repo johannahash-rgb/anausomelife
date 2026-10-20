@@ -1,0 +1,55 @@
+name: Caregiver glossary build review
+on:
+  pull_request:
+    paths:
+      - 'assets/*glossary*'
+      - '.github/scripts/*glossary*'
+      - '.github/workflows/glossary-review.yml'
+      - 'caregiver-glossary.html'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  review:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build expanded glossary and validate the term registry
+        run: python3 .github/scripts/build_caregiver_glossary.py --root .
+      - name: Validate source links and generated anchors
+        run: |
+          python3 - <<'PY'
+          from html.parser import HTMLParser
+          from pathlib import Path
+          import json
+          class Check(HTMLParser):
+              def __init__(self):
+                  super().__init__();self.ids=[];self.links=[];self.terms=0;self.icons=0
+              def handle_starttag(self,tag,attrs):
+                  a=dict(attrs)
+                  if 'id' in a:self.ids.append(a['id'])
+                  if tag=='a':self.links.append(a.get('href',''))
+                  if tag=='details' and a.get('class')=='cg-term':self.terms+=1
+                  if tag=='svg' and a.get('class')=='cg-art':self.icons+=1
+          p=Check();p.feed(Path('caregiver-glossary.html').read_text())
+          report=json.loads(Path('assets/glossary-v2-build-report.json').read_text())
+          assert len(p.ids)==len(set(p.ids)), 'Duplicate HTML IDs'
+          assert p.terms==report['entries'] and p.icons==p.terms
+          assert p.terms>=180
+          assert all(h[1:] in p.ids for h in p.links if h.startswith('#')), 'Broken local anchor'
+          assert not any(h.startswith(('javascript:','http:')) for h in p.links)
+          assert '/assets/coastal-emblem.webp' in Path('caregiver-glossary.html').read_text()
+          print('Static HTML, one illustration per term, HTTPS sources, anchors and existing emblem verified.')
+          PY
+      - name: Save review files
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: caregiver-glossary-expanded-review
+          include-hidden-files: true
+          retention-days: 2
+          path: |
+            caregiver-glossary.html
+            family-roles.html
+            assets/*glossary*
+            .github/scripts/*glossary*.py

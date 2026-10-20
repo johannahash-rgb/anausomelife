@@ -1,0 +1,81 @@
+cdc-disability|CDC: disability and health overview|https://www.cdc.gov/disability-and-health/about/index.html|Public health
+un-disability|United Nations: Convention on the Rights of Persons with Disabilities|https://www.ohchr.org/en/instruments-mechanisms/instruments/convention-rights-persons-disabilities|Rights framework
+justice|Sins Invalid: disability justice, including plain-language principles|https://sinsinvalid.org/10-principles/|Disability-led framework
+affirming|Allen and colleagues: Neurodiversity-Affirming Applied Behavior Analysis|https://doi.org/10.1007/s40617-024-00918-0|Research and practice perspective
+double-empathy|Damian Milton: The double empathy problem|https://kar.kent.ac.uk/62718/|Autistic-authored perspective
+masking|Benatov and colleagues: Camouflage, Burnout-Exhaustion, and Depression in Autistic Adults|https://pmc.ncbi.nlm.nih.gov/articles/PMC13315294/|Research
+burnout|Clarey and colleagues: Beyond Exhaustion—autistic burnout|https://pubmed.ncbi.nlm.nih.gov/42109126/|Research
+alexithymia|Oakley and colleagues: alexithymia in autism|https://pmc.ncbi.nlm.nih.gov/articles/PMC9226426/|Research
+monotropism|Monotropism: autistic-developed attention theory|https://monotropism.org/|Autistic-led theory
+inertia|Rapaport and colleagues: autistic adults' experiences of inertia|https://journals.sagepub.com/doi/full/10.1177/13623613231198916|Research
+pda|National Autistic Society: demand avoidance|https://www.autism.org.uk/advice-and-guidance/behaviour/demand-avoidance|Practice guidance
+pcp|Administration for Community Living: person-centered planning|https://acl.gov/programs/consumer-control/person-centered-planning|Public service guidance
+sdm|Administration for Community Living: supported decision-making|https://dcms.acl.gov/programs/consumer-control/supported-decision-making-program|Public service guidance
+capacity|NHS: consent to treatment and capacity|https://www.nhs.uk/conditions/consent-to-treatment/capacity/|UK health guidance
+guardianship|Administration for Community Living: consumer choice and control|https://acl.gov/programs/consumer-control|Public service guidance
+communication-rights|NJC / ASHA: Communication Bill of Rights|https://www.asha.org/njc/communication-bill-of-rights/|Communication rights
+aac|ASHA: augmentative and alternative communication|https://www.asha.org/practice-portal/professional-issues/augmentative-and-alternative-communication/|Clinical guidance
+pecs|ASHA: AAC assessment, approaches and communication systems|https://www.asha.org/practice-portal/professional-issues/augmentative-and-alternative-communication/|Clinical guidance
+fc|ASHA position statement: Facilitated Communication|https://www.asha.org/policy/ps2018-00352/|Professional position
+rpm|ASHA position statement: Rapid Prompting Method|https://www.asha.org/policy/ps2018-00351/|Professional position
+verbal-operants|Ingvarsson and Hollobaugh: verbal operants and requesting information|https://pmc.ncbi.nlm.nih.gov/articles/PMC2831436/|Technical research
+intraverbal|Sundberg: verbal stimulus control and the intraverbal relation|https://pmc.ncbi.nlm.nih.gov/articles/PMC6381337/|Technical research
+echoic|Michael: elementary verbal relations and distinctions|https://pubmed.ncbi.nlm.nih.gov/22573389/|Technical research
+slp|ASHA: speech-language pathologists|https://www.asha.org/public/who-are-speech-language-pathologists/|Professional role
+ot|American Occupational Therapy Association: what is occupational therapy?|https://www.aota.org/about/what-is-ot|Professional role
+pt|American Physical Therapy Association: becoming a physical therapist|https://www.apta.org/your-career/careers-in-physical-therapy/becoming-a-pt|Professional role
+bacb|Behavior Analyst Certification Board: BCBA credential|https://www.bacb.com/bcba/|Credential information
+rbt|Behavior Analyst Certification Board: RBT credential|https://www.bacb.com/rbt/|Credential information
+dsp|National Alliance for Direct Support Professionals: code of ethics|https://nadsp.org/resources/the-nadsp-code-of-ethics/|Professional ethics
+personnel|IDEA: personnel qualifications, section 300.156|https://sites.ed.gov/idea/regs/b/b/300.156|U.S. federal rule
+task-analysis|Vanderbilt IRIS: task analysis and other instructional practices|https://iris.peabody.vanderbilt.edu/module/asd2/cresource/q1/p02/|Education guidance
+shaping|Kansas Technical Assistance System Network: shaping|https://ksdetasn.org/resources/935|Education guidance
+fct|AFIRM, University of North Carolina: Functional Communication Training|https://afirm.fpg.unc.edu/functional-communication-training|Practice guidance
+social-validity|Allen and colleagues: goals, methods, assent and social validity|https://doi.org/10.1007/s40617-024-00918-0|Research and practice perspective
+trauma|SAMHSA: trauma-informed approaches and programs|https://www.samhsa.gov/mental-health/trauma-violence/trauma-informed-approaches-programs|Public health guidance
+504|U.S. Department of Education: Section 504 FAPE questions and answers|https://www.ed.gov/laws-and-policy/civil-rights-laws/disability-discrimination/frequently-asked-questions-section-504-free-appropriate-public-education-fape|U.S. civil-rights guidance
+ada|U.S. Department of Justice: effective communication under the ADA|https://www.ada.gov/resources/effective-communication/|U.S. civil-rights guidance
+child-find|IDEA: Child Find, section 300.111|https://sites.ed.gov/idea/regs/b/b/300.111|U.S. federal rule
+idea-agencies|U.S. Department of Education: About IDEA|https://sites.ed.gov/idea/about-idea/|U.S. education guidance
+iep-reg|IDEA: what an IEP must include, section 300.320|https://sites.ed.gov/idea/regs/b/d/300.320|U.S. federal rule
+endrew|U.S. Department of Education: Endrew F. and appropriately ambitious IEPs|https://sites.ed.gov/idea/questions-and-answers-qa-on-u-s-supreme-court-case-decision-endrew-f-v-douglas-county-school-district-re-1/|U.S. education guidance
+iep-development|IDEA: developing, reviewing and revising IEPs, section 300.324|https://sites.ed.gov/idea/regs/b/d/300.324|U.S. federal rule
+iep-access|IDEA: when IEPs must be in effect and staff responsibilities, section 300.323|https://sites.ed.gov/idea/regs/b/d/300.323|U.S. federal rule
+state-remedies|IDEA: state complaint procedures and remedies, section 300.151|https://sites.ed.gov/idea/regs/b/b/300.151|U.S. federal rule
+ferpa|U.S. Department of Education: FERPA|https://studentprivacy.ed.gov/ferpa|U.S. student-privacy guidance
+idea-records|IDEA: access to records, section 300.613|https://sites.ed.gov/idea/regs/b/f/300.613|U.S. federal rule
+mediation|IDEA: mediation, section 300.506|https://sites.ed.gov/idea/regs/b/e/300.506|U.S. federal rule
+due-process|IDEA: filing a due process complaint, section 300.507|https://sites.ed.gov/idea/regs/b/e/300.507|U.S. federal rule
+state-complaint|IDEA: filing a state complaint, section 300.153|https://sites.ed.gov/idea/regs/b/b/300.153|U.S. federal rule
+rights-transfer|IDEA: transfer of parental rights, section 300.520|https://sites.ed.gov/idea/regs/b/e/300.520|U.S. federal rule
+ma-forms|Massachusetts DESE: IEP forms and related resources|https://www.doe.mass.edu/specialeducation/iep/|Massachusetts guidance
+pwn|IDEA: Prior Written Notice, section 300.503|https://sites.ed.gov/idea/regs/b/e/300.503|U.S. federal rule
+ma-transition|Massachusetts DESE: secondary transition beginning at age 14|https://www.doe.mass.edu/specialeducation/iep/transition/|Massachusetts guidance
+ma-688|Massachusetts: Bureau of Transitional Planning and Chapter 688|https://www.mass.gov/info-details/bureau-of-transitional-planning|Massachusetts guidance
+udl|CAST: Universal Design for Learning Guidelines|https://udlguidelines.cast.org/|Education framework
+epilepsy|CDC: About epilepsy|https://www.cdc.gov/epilepsy/about/index.html|Public health
+seizure-first-aid|CDC: first aid for seizures|https://www.cdc.gov/epilepsy/first-aid-for-seizures/index.html|Emergency guidance
+seizure-school|Epilepsy Foundation: seizure action plans|https://www.epilepsy.com/preparedness-safety/action-plans|Health guidance
+dysphagia|ASHA: feeding and swallowing disorders in children|https://www.asha.org/public/speech/swallowing/feeding-and-swallowing-disorders-in-children/|Clinical guidance
+arfid|NHS Inform: ARFID, including Easy Read and audio|https://www.nhsinform.scot/illnesses-and-conditions/mental-health/eating-disorders/avoidant-restrictive-food-intake-disorder-arfid/|Health guidance
+pica|MedlinePlus: pica—definition, assessment and health risks|https://medlineplus.gov/ency/article/001538.htm|Health guidance
+constipation|NIDDK: symptoms and causes of constipation|https://www.niddk.nih.gov/health-information/digestive-diseases/constipation/symptoms-causes|Health guidance
+sleep|National Autistic Society: sleep|https://www.autism.org.uk/advice-and-guidance/topics/physical-health/sleep|Health guidance
+hcbs-rule|CMS: home- and community-based settings requirements|https://www.medicaid.gov/medicaid/home-community-based-services/guidance/home-community-based-services-final-regulation/index.html|U.S. program guidance
+continence|NIDDK: bladder control problems in children|https://www.niddk.nih.gov/health-information/urologic-diseases/bladder-control-problems-bedwetting-children|Health guidance
+respite|Administration for Community Living: caregiver support and respite|https://acl.gov/programs/support-caregivers/national-family-caregiver-support-program|Public service guidance
+hcbs|Medicaid: home- and community-based services|https://www.medicaid.gov/medicaid/home-community-based-services/index.html|U.S. program guidance
+health-transition|Got Transition: health-care transition resources|https://www.gottransition.org/|Health transition guidance
+handoff|An AUsome Life: caregiver handover guide|https://anausomelife.com/caregiver-handover-guide.html|Practical site guide
+quality-life|AAIDD and The Arc: individual supports|https://www.aaidd.org/news-policy/policy/position-statements-2/individual-supports|Disability support position
+self-injury|National Autistic Society: self-injurious behaviour|https://www.autism.org.uk/advice-and-guidance/behaviour/self-injurious-behaviour/all-audiences|Health and support guidance
+distress|National Autistic Society: distressed behaviour|https://www.autism.org.uk/advice-and-guidance/behaviour/distressed-behaviour/all-audiences|Support guidance
+restraint|U.S. Department of Education: restraint and seclusion resource document|https://www.ed.gov/teaching-and-administration/safe-learning-environments/school-safety-and-security/school-climate-and-student-discipline/restraint-and-seclusion-resource-document|U.S. safety guidance
+catatonia|Cleveland Clinic: catatonia|https://my.clevelandclinic.org/health/diseases/23503-catatonia|Clinical guidance
+autism-nimh|National Institute of Mental Health: autism spectrum disorder|https://www.nimh.nih.gov/health/publications/autism-spectrum-disorder|Clinical overview
+reinforcement|Vanderbilt IRIS: positive and negative reinforcement|https://iris.peabody.vanderbilt.edu/activity/reinforcement-positive-versus-negative/|Technical education
+preference|Vanderbilt Kennedy Center: preference assessments|https://ebip.vkcsites.org/preference-assessments/|Technical education
+differential|Vanderbilt Kennedy Center: differential reinforcement|https://ebip.vkcsites.org/differential-reinforcement/|Technical education
+extinction|Vanderbilt IRIS: evidence-based practices and extinction|https://iris.peabody.vanderbilt.edu/module/asd2/cresource/q1/p02/|Technical education
+executive|Harvard Center on the Developing Child: executive function|https://developingchild.harvard.edu/science/key-concepts/executive-function/|Developmental science
+dld|NIDCD: Developmental Language Disorder|https://www.nidcd.nih.gov/health/developmental-language-disorder|Clinical guidance
