@@ -1,0 +1,409 @@
+{
+  "created": "2026-10-19",
+  "sourceCommit": "6d92d8c003240af434f848faac3a4e74f369f3e4",
+  "generationTool": "OpenAI built-in image generation",
+  "usageBasis": "New original editorial illustrations generated from original conceptual prompts for this site. No third-party photographs, copied characters, logos, production costumes, sheet music or real-person likenesses were supplied or reused. Each composition was visually reviewed before publication.",
+  "limitations": "Conceptual activity-inspired artwork, not photographs, representations of confirmed exhibits, access information, or actual venue layouts. Provenance is not a guarantee of complete legal clearance.",
+  "studies": [
+    {
+      "id": "thacher-dance-20261019",
+      "src": "/assets/event-sketches/thacher-dance-20261019.webp",
+      "width": 720,
+      "height": 480,
+      "alt": "Watercolor of tan dance shoes beside a flowing navy scarf and cranberry ribbon in warm autumn light.",
+      "sha256": "67e51f1507d518d5aea58ac28abccd6dba4086286626614649363016d560af69",
+      "reviewed": true,
+      "eventIds": [
+        "thacher-unscripted-2026-10-22",
+        "thacher-unscripted-2026-10-29",
+        "thacher-unscripted-2026-11-05",
+        "thacher-unscripted-2026-11-12",
+        "thacher-unscripted-2026-11-19"
+      ],
+      "prompt": "Use case: stylized-concept. Create a NEW original landscape 3:2 editorial ink-and-watercolor illustration for a tasteful accessible community event calendar. Subject: a complete pair of realistic soft leather dance shoes resting on a warm wood floor, with a flowing navy silk scarf and cranberry ribbon loosely looped nearby. Glowing autumn afternoon light, gentle amber and ochre shadows. Sophisticated natural proportions, meticulously observed fine dark ink contours and hatching with rich transparent watercolor washes, warm cream textured watercolor paper and organic feathered painted edges. Luminous navy, pine, cranberry accents. An inviting conceptual still life, with quiet motion in the scarf but no people. Complete uncropped composition: every shoe, scarf and ribbon fully inside the frame with generous cream paper breathing room. No text, letters, numbers, logos, watermark, medical symbols, cartoon characters, venue-specific architecture, or staged people. Painterly depth and detail matching elegant traditional natural-history and lifestyle ink-and-watercolor illustrations, not vector, not photorealistic. Opaque cream paper, no transparency."
+    },
+    {
+      "id": "see-science-20261019",
+      "src": "/assets/event-sketches/see-science-20261019.webp",
+      "width": 720,
+      "height": 480,
+      "alt": "Watercolor of a brass microscope, glass prism casting a rainbow, specimen slides, shell and mineral in evening lamplight.",
+      "sha256": "594ea457e7cb2a7a2a4787f2014cc2745eb98fdbd43f5990b68ea10d12d23d00",
+      "reviewed": true,
+      "eventIds": [
+        "see-immune-friendly-2026-10-23"
+      ],
+      "prompt": "Use case: stylized-concept. Create a NEW original landscape 3:2 detailed editorial ink-and-watercolor illustration for an accessible community calendar. Subject: an elegant brass and dark navy vintage microscope, a clear triangular glass prism spilling a little spectrum of light onto a wooden worktable, a small tray of glass slides containing a leaf and a delicate feather, a spiral shell and textured mineral specimen. Evening mood from deep blue washes behind the table and warm lamplight reflected in brass; no specific building or invented venue. Sophisticated natural proportions, meticulously observed fine ink contours and hatching, rich luminous transparent watercolor washes on warm cream textured watercolor paper, organic feathered painted edges. Palette of navy and pine greens, warm amber brass, tiny cranberry accent. Conceptual science still life, NOT a documentary image. Every object complete and entirely inside the frame with cream-paper breathing room. No people, letters, numbers, labels, logos, watermark, medical symbols, cartoon or production characters. Painterly dimensional realism, not a vector icon or photograph. Opaque cream paper, no transparency."
+    },
+    {
+      "id": "mfa-museum-moments-20261019",
+      "src": "/assets/event-sketches/mfa-museum-moments-20261019.webp",
+      "width": 720,
+      "height": 480,
+      "alt": "Watercolor of a wooden gallery bench beneath an original botanical painting, with a magnifying glass and folded guide.",
+      "sha256": "55a8f03ae446c33888aa21c24c4d1901735282c92474b11f402b2bbed5759ded",
+      "reviewed": true,
+      "eventIds": [
+        "mfa-museum-moments-2026-10-24",
+        "mfa-museum-moments-2026-11-14",
+        "mfa-museum-moments-2026-12-12",
+        "mfa-museum-moments-2027-01-09",
+        "mfa-museum-moments-2027-01-23"
+      ],
+      "prompt": "Use case: stylized-concept. Create a NEW original landscape 3:2 editorial fine ink-and-watercolor illustration for an accessible community event calendar. Conceptual art-gallery still life: a simple whole wooden gallery bench in front of a framed anonymous botanical watercolor of delicate leaves and small wildflowers, with a realistic magnifying glass and a folded cream museum guide resting on the bench. The guide has no text or recognizable printing, merely a tiny abstract color wash. Generic quiet gallery wall with warm pale cream surface, not a depiction of an actual museum or venue. Sophisticated natural proportions, meticulous thin ink outlines, subtle hatching and rich transparent watercolor washes, visible warm cream textured watercolor paper with organic painted edges. Gentle daylight, calm contemplative atmosphere. Navy, pine green and muted cranberry details, honey wood. Full uncropped composition with entire frame, bench, magnifying glass and guide within generous paper margins. No people, no letters, no numbers, no labels, no logos, no watermarks, no medical symbols, no known artwork or production characters. Avoid flat vector style and photographs. Opaque cream paper, no transparency."
+    },
+    {
+      "id": "yale-artism-20261019",
+      "src": "/assets/event-sketches/yale-artism-20261019.webp",
+      "width": 720,
+      "height": 480,
+      "alt": "Watercolor of an open leaf-study sketchbook, paints and brushes beside tactile shells, a pebble, pinecone and driftwood.",
+      "sha256": "cdb8a9f16c3d1427b2156c7c95c5aa184ba85b6a79ce36c35c5dd02ac84accb0",
+      "reviewed": true,
+      "eventIds": [
+        "ycba-artism-2026-10-24",
+        "ycba-artism-2026-11-14",
+        "ycba-artism-2026-12-12"
+      ],
+      "prompt": "Use case: stylized-concept. Create a NEW original landscape 3:2 sophisticated detailed editorial ink-and-watercolor illustration for an accessible community calendar. A welcoming tactile art-making still life on a honey wood table: a worn watercolor palette with visible navy, pine, cranberry and ochre pigments; slender natural-hair paintbrushes; an open cream sketchbook holding a small original leaf study with NO writing; tactile natural objects including a ridged shell, smooth pebble, pinecone, softly curved driftwood and a single autumn leaf arranged around it. Observational fine ink contours and restrained hatching, layered transparent luminous watercolor washes, realistic natural object proportions and delicate material detail. Warm cream textured watercolor paper; organic soft, irregular painted edges. Quiet afternoon light and a gentle contemplative feel. A concept illustration, no named building or venue architecture. Full uncropped landscape composition, every object and the entire open sketchbook inside frame with generous cream paper margins. No people, text, lettering, numbers, logos, labels, watermark, medical icons, cartoon characters or recognizable copied artwork. Not a photograph, not a flat vector illustration. Opaque cream paper, no transparency."
+    },
+    {
+      "id": "seacoast-sensory-20261019",
+      "src": "/assets/event-sketches/seacoast-sensory-20261019.webp",
+      "width": 720,
+      "height": 480,
+      "alt": "Watercolor of a small shore crab among tidal shells, seaweed and smooth pebbles in a blue tidepool.",
+      "sha256": "81a58dc5ab7976fbbb97d3ba98737c8c465222540ffd73f58b303ee0a35d0a46",
+      "reviewed": true,
+      "eventIds": [
+        "seacoast-sensory-2026-10-25",
+        "seacoast-sensory-2026-11-01",
+        "seacoast-sensory-2026-11-08",
+        "seacoast-sensory-2026-11-15",
+        "seacoast-sensory-2026-11-22",
+        "seacoast-sensory-2026-11-29",
+        "seacoast-sensory-2026-12-06",
+        "seacoast-sensory-2026-12-13",
+        "seacoast-sensory-2026-12-20",
+        "seacoast-sensory-2026-12-27"
+      ],
+      "prompt": "Use case: stylized-concept. Create a NEW original landscape 3:2 sophisticated ink-and-watercolor illustration for an accessible community calendar. Conceptual natural-history tidepool study: several beautifully observed tidal shells, a little naturally proportioned shore crab with correct paired claws and legs, curling olive-pine seaweed, rounded wet pebbles and a shallow clear pool of seawater. Arranged as a calm complete still life against luminous ocean-blue and navy watercolor washes with pale sand-colored cream paper showing through. Delicate detailed fine ink contours and hatching, rich transparent watercolor glazes, realistic anatomy and textures, warm cream textured watercolor paper with organic irregular painted edges. Quiet coastal daylight. Small subtle cranberry tones in shell and crab, not a vivid cartoon. No specific venue or architecture, no people, no text, lettering, numbers, logos, watermark, medical symbols, production characters. Whole shells, crab, seaweed and pebbles all comfortably within the picture, ample paper margin, no composition cropping. Painterly natural-history elegance, not vector, not photorealism. Opaque cream paper, no transparency."
+    },
+    {
+      "id": "wistariahurst-halloween-20261019",
+      "src": "/assets/event-sketches/wistariahurst-halloween-20261019.webp",
+      "width": 720,
+      "height": 480,
+      "alt": "Watercolor of small orange and cream pumpkins, autumn leaves, wrapped treats and a wooden bead fidget.",
+      "sha256": "5a535e28f06e4d5e3fd725bea2f625cb35c5088e72bb5b8fe55940ce142df0ed",
+      "reviewed": true,
+      "eventIds": [
+        "wistariahurst-trick-or-treat-2026-10-25"
+      ],
+      "prompt": "Use case: stylized-concept. Create a NEW original landscape 3:2 sophisticated detailed editorial fine ink-and-watercolor illustration for an accessible autumn community calendar. Quiet gentle Halloween still life on an old warm wood table: three small natural pumpkins in orange and cream, fine autumn maple and oak leaves, a few treats in simple unlabeled cranberry and navy paper wrappers with twisted ends, and a simple smooth wooden fidget consisting of linked rounded wooden beads. No jack-o-lantern faces needed, nothing frightening. Soft mellow autumn light, rich transparent watercolor glazes and precise delicate ink outlines and hatching; natural proportions, convincing wood grain, pumpkin ridges and veined leaves. Warm cream textured watercolor paper visible all around organic painted edges. Pine green, navy, cranberry and golden ochre accents. Entire composition complete and uncropped, all pumpkins, treats and fidget fully in frame with breathing room. Concept image, no specific venue architecture, no people, text, lettering, numbers, logos, labels, watermark, medical icons or copyrighted production characters. Not flat vector, not photographic. Opaque cream paper, no transparency."
+    },
+    {
+      "id": "carole-king-musical-20261019",
+      "src": "/assets/event-sketches/carole-king-musical-20261019.webp",
+      "width": 720,
+      "height": 480,
+      "alt": "Watercolor of piano keys, a vintage silver microphone and blank music paper against a cranberry stage curtain.",
+      "sha256": "e2b299fd8f0427f01eab3eb0d35c75ad6edb18e882973056e6177ae2d19f22ef",
+      "reviewed": true,
+      "eventIds": [
+        "act-beautiful-2026-10-31"
+      ],
+      "prompt": "Use case: stylized-concept. Create a NEW original landscape 3:2 sophisticated fine ink-and-watercolor illustration for an accessible community musical event calendar. Conceptual musical still life suggesting classic singer-songwriter theater: a compact whole piano keyboard resting on a rich warm wood surface, a vintage silver microphone on its little round desk stand, several blank ivory music-paper sheets with only faint empty staff lines and no notes or writing, and a restrained deep cranberry stage curtain softly draped in the background. Subtle golden stage glow, navy shadows and warm cream paper. Every main object entirely visible, no cut-off keyboard or microphone. Meticulous fine ink contours and soft hatching, natural proportions, rich transparent watercolor washes, traditional painterly material detail, cream textured watercolor paper and soft organic painted edges. No portrait or likeness, no people, no production characters, no lyrics, no legible music, no text, letters, numbers, logos, watermark, medical symbols, or specific theater architecture. Complete generous landscape composition, not vector or photograph. Opaque cream paper, no transparency."
+    },
+    {
+      "id": "pumpkin-ball-20261019",
+      "src": "/assets/event-sketches/pumpkin-ball-20261019.webp",
+      "width": 720,
+      "height": 480,
+      "alt": "Watercolor of an elegant orange pumpkin and autumn garland on a wooden dance floor glowing with golden light.",
+      "sha256": "f4aa0b64b6f02f83bbb99c6dd94c45384559c5f3216f98c49f45705934350d8a",
+      "reviewed": true,
+      "eventIds": [
+        "great-pumpkin-ball-low-sensory-2026-10-31"
+      ],
+      "prompt": "Use case: stylized-concept. Create a NEW original landscape 3:2 sophisticated editorial fine ink-and-watercolor illustration for an accessible autumn dance event calendar. A stately uncarved orange pumpkin with a graceful curved stem rests near a loose autumn garland of maple leaves, oak leaves, small pine sprigs and cranberry berries on a polished wooden dance floor. Beautiful low golden dance-floor glow, softly pooled amber light across the wood, with a subtle navy background wash. Elegant celebratory conceptual still life without people. Natural proportions, delicate meticulous ink contours and hatching, layered transparent watercolor washes, pumpkin ribbing and leaf veins beautifully observed, warm cream textured watercolor paper with soft organic irregular painted edges. All pumpkin, stem and garland entirely within frame, balanced full uncropped landscape composition and ample paper margins. No venue-specific architecture, no people, no faces, no text, lettering, numbers, logos, labels, watermarks, medical symbols or production characters. Not a cartoon, vector icon or photograph. Opaque cream paper, no transparency."
+    },
+    {
+      "id": "mfa-spectrum-art-20261019",
+      "src": "/assets/event-sketches/mfa-spectrum-art-20261019.webp",
+      "width": 720,
+      "height": 480,
+      "alt": "Detailed watercolor of professional brushes, paint palette, abstract sketchbook, and tactile ceramic sculpture on a sunlit worktable.",
+      "sha256": "452d020bafcd6326bfb38412777df902bf27aa8ca85838f7e023ea443c45ab05",
+      "reviewed": true,
+      "eventIds": [
+        "mfa-beyond-kids-2026-11-07",
+        "mfa-beyond-teens-2026-11-21",
+        "mfa-beyond-kids-2026-12-12",
+        "mfa-beyond-kids-2027-01-02",
+        "mfa-beyond-teens-2027-01-16"
+      ],
+      "prompt": "Use case: stylized-concept. Create one NEW original landscape 3:2 calendar illustration for an inclusive arts event. Primary subject: professional artist brushes in a ceramic jar, a well-used watercolor paint palette, a substantial open sketchbook with only abstract painted shapes, and a small elegant tactile clay sculpture. All are arranged in a warm, quiet artist's studio still life on a honey-colored wooden worktable, with age-respectful sophistication for teens and adults. Medium: exceptionally detailed fine pen-and-ink drawing and rich transparent watercolor washes on opaque warm cream textured paper. Natural proportions, nuanced material textures, delicate hatching, soft sunny shadows, navy, pine green, cranberry, ochre accents. The image has the richness of a hand-painted editorial watercolor, not a flat vector or cartoon. Complete uncropped composition; every principal object comfortably fits inside frame. Organic softly feathered watercolor edges near paper margins, with a cohesive substantial scene filling most of the 3:2 landscape canvas. No people, readable text, letters, logos, watermarks, medical symbols, branded characters, or identifiable venue architecture. The sketchbook is abstract art only, no writing."
+    },
+    {
+      "id": "bushnell-stunt-dogs-20261019",
+      "src": "/assets/event-sketches/bushnell-stunt-dogs-20261019.webp",
+      "width": 720,
+      "height": 480,
+      "alt": "Ink-and-watercolor border collie beside a simple training hoop and red ball on a softly painted grassy field.",
+      "sha256": "fa5d51b817009b239d03f95a953c4b1824938cdeca7f7321255f2aa078934a64",
+      "reviewed": true,
+      "eventIds": [
+        "bushnell-stunt-dog-2026-11-08"
+      ],
+      "prompt": "Use case: stylized-concept. Create one NEW original landscape 3:2 event-calendar illustration. Medium: exceptionally detailed fine pen-and-ink drawing and rich transparent watercolor washes on opaque warm cream textured paper. Natural proportions, nuanced material textures, delicate hatching, soft warm shadows, navy, pine green, cranberry, ochre accents. The image has the richness of a hand-painted editorial watercolor, not a flat vector, cartoon, icon or collage. Complete uncropped composition; every principal object comfortably fits inside frame with breathing room. Organic softly feathered watercolor edges near paper margins, with a cohesive substantial scene filling most of the 3:2 landscape canvas. No readable text, letters, numbers, logos, watermarks, medical symbols, branded or production characters, or identifiable venue architecture. Subject: an agile, healthy black-and-white border collie with anatomically correct natural dog proportions, alert and happy, standing on all four paws beside a simple freestanding training hoop and a small cranberry red ball. Show the entire dog, tail, all paws, whole hoop and ball with room around them. A quiet green grassy field in warm autumn light, a few soft grass details and faint distant foliage create an inviting environment. Carefully observe the fine texture of the collie's silky fur, the gentle expression, and the hoop material. No people, risky tricks, jumping through fire, obstacles of great height, costumes, or likeness to any specific animal performer. A poised, beautiful natural dog illustration rather than slapstick."
+    },
+    {
+      "id": "fairfield-teen-gaming-20261019",
+      "src": "/assets/event-sketches/fairfield-teen-gaming-20261019.webp",
+      "width": 720,
+      "height": 480,
+      "alt": "Sophisticated watercolor still life of a wooden chessboard, game tokens, unbranded controller, and books.",
+      "sha256": "65976b5660abd55d4e4c83e5c01b74e534579b9287080e95ea081d7aedea626d",
+      "reviewed": true,
+      "eventIds": [
+        "fpl-teen-sensory-2026-11-15"
+      ],
+      "prompt": "Use case: stylized-concept. Create one NEW original landscape 3:2 event-calendar illustration. Medium: exceptionally detailed fine pen-and-ink drawing and rich transparent watercolor washes on opaque warm cream textured paper. Natural proportions, nuanced material textures, delicate hatching, soft warm shadows, navy, pine green, cranberry, ochre accents. The image has the richness of a hand-painted editorial watercolor, not a flat vector, cartoon, icon or collage. Complete uncropped composition; every principal object comfortably fits inside frame with breathing room. Organic softly feathered watercolor edges near paper margins, with a cohesive substantial scene filling most of the 3:2 landscape canvas. No readable text, letters, numbers, logos, watermarks, medical symbols, branded or production characters, or identifiable venue architecture. Subject: a refined teen-and-adult tabletop gaming still life, with an elegant wooden chessboard and a small arrangement of clearly carved natural chess pieces, a shallow tray of simple wooden game tokens, an unbranded navy game controller, and two closed clothbound books without titles. Arrange these fully visible on a warm wooden library table, with soft window light and a subtle pine-green fabric in the background. Detailed honest wood grain, worn cloth, metal accents and natural perspective. Welcoming, age-respectful, intelligent and unhurried atmosphere. No people, faces, toy mascots, neon screens, text or brand marks.\nComposition refinement: Use case: precise-object-edit. This is an ink-and-watercolor calendar illustration. Preserve its beautiful detailed cream-paper watercolor style, warm library atmosphere, navy/pine/cranberry colors and all four subject groups: wooden chessboard with chess pieces, wooden tokens, unbranded controller, and blank-spined books. Change ONLY framing/composition: zoom out substantially to show the FULL chessboard including its right edge and every corner, the FULL controller including both handles, and the FULL stack of books including their left edges. Keep all of those main objects at least 8 percent of the canvas width inside every edge of the canvas. Arrange the complete still life as one unified scene, with organic watercolor edges fading into warm cream paper all around it. No objects can extend beyond the canvas. Retain a 3:2 landscape aspect ratio. No readable text, letters, numbers, brand logos or watermarks."
+    },
+    {
+      "id": "fairfield-storytime-20261019",
+      "src": "/assets/event-sketches/fairfield-storytime-20261019.webp",
+      "width": 720,
+      "height": 480,
+      "alt": "Watercolor still life of an open woodland storybook, brass reading lamp, and small wooden tree and mushroom props.",
+      "sha256": "a672e39234bf94df55864639c517e8a12d3b8c0ca40e1d49b26561a33c117cdb",
+      "reviewed": true,
+      "eventIds": [
+        "fpl-child-sensory-2026-11-15"
+      ],
+      "prompt": "Use case: stylized-concept. Create one NEW original landscape 3:2 event-calendar illustration. Medium: exceptionally detailed fine pen-and-ink drawing and rich transparent watercolor washes on opaque warm cream textured paper. Natural proportions, nuanced material textures, delicate hatching, soft warm shadows, navy, pine green, cranberry, ochre accents. The image has the richness of a hand-painted editorial watercolor, not a flat vector, cartoon, icon or collage. Complete uncropped composition; every principal object comfortably fits inside frame with breathing room. Organic softly feathered watercolor edges near paper margins, with a cohesive substantial scene filling most of the 3:2 landscape canvas. No readable text, letters, numbers, logos, watermarks, medical symbols, branded or production characters, or identifiable venue architecture. Subject: an open illustrated storybook whose two visible pages show only abstract woodland artwork, an elegant complete brass reading lamp with a cream shade, and three small unpainted wooden story props shaped as a tree, a mushroom and a leaf. Arrange the entire objects together on a warm wooden reading table with soft lamplight and gentle pine-green and navy background washes. The book's art consists of expressive watercolor trees and woodland shapes only, no characters or writing. Book, lamp, props all must be completely inside the frame with ample warm cream space beyond every edge. Zoom out enough to see the full lamp shade, all corners of the open book and full table arrangement. Quiet, tactile, inviting and refined."
+    },
+    {
+      "id": "bushnell-holiday-house-20261019",
+      "src": "/assets/event-sketches/bushnell-holiday-house-20261019.webp",
+      "width": 720,
+      "height": 480,
+      "alt": "Rich watercolor of folded paper stars, a pine wreath, and a cranberry Santa hat arranged on a wooden holiday table.",
+      "sha256": "392f52098ad97ef3ee3d463210af6fc3fe6bed66f9404e9db0dbaf1d393f142c",
+      "reviewed": true,
+      "eventIds": [
+        "bushnell-holiday-open-house-2026-11-21"
+      ],
+      "prompt": "Use case: stylized-concept. Create one NEW original landscape 3:2 event-calendar illustration. Medium: exceptionally detailed fine pen-and-ink drawing and rich transparent watercolor washes on opaque warm cream textured paper. Natural proportions, nuanced material textures, delicate hatching, soft warm shadows, navy, pine green, cranberry, ochre accents. The image has the richness of a hand-painted editorial watercolor, not a flat vector, cartoon, icon or collage. Complete uncropped composition; every principal object comfortably fits inside frame with breathing room. Organic softly feathered watercolor edges near paper margins, with a cohesive substantial scene filling most of the 3:2 landscape canvas. No readable text, letters, numbers, logos, watermarks, medical symbols, branded or production characters, or identifiable venue architecture. Subject: a sophisticated holiday still life featuring carefully folded cream and muted gold paper craft stars, a natural pine wreath accented with small cranberry berries, and a simple cranberry-red Santa hat with an ivory cuff. Arrange on a warm wooden table, with the wreath propped upright and the stars and soft hat gathered in front. Gentle warm winter window light, exquisite pine needles, handmade folded-paper detail, velvet and wool textures. Every main object fully visible and well inside the border; a generous cream-paper margin surrounds the entire still life. No person wearing the hat, no figures, no Santa face, no Disney characters, no toys resembling copyrighted characters, no mansion or venue depiction."
+    },
+    {
+      "id": "commonwealth-nutcracker-20261019",
+      "src": "/assets/event-sketches/commonwealth-nutcracker-20261019.webp",
+      "width": 720,
+      "height": 480,
+      "alt": "Fine watercolor of ivory ballet slippers, an antique wooden nutcracker, blue ribbon, and winter greenery.",
+      "sha256": "b7745072588f14f35d47036a61ac7a5ce429db88019edf633a86c7796e6dc2a1",
+      "reviewed": true,
+      "eventIds": [
+        "commonwealth-nutcracker-sensory-2026-11-27"
+      ],
+      "prompt": "Use case: stylized-concept. Create one NEW original landscape 3:2 event-calendar illustration. Medium: exceptionally detailed fine pen-and-ink drawing and rich transparent watercolor washes on opaque warm cream textured paper. Natural proportions, nuanced material textures, delicate hatching, soft warm shadows, navy, pine green, cranberry, ochre accents. The image has the richness of a hand-painted editorial watercolor, not a flat vector, cartoon, icon or collage. Complete uncropped composition; every principal object comfortably fits inside frame with breathing room. Organic softly feathered watercolor edges near paper margins, with a cohesive substantial scene filling most of the 3:2 landscape canvas. No readable text, letters, numbers, logos, watermarks, medical symbols, branded or production characters, or identifiable venue architecture. Subject: a distinctive elegant ballet-and-winter still life on a simple wooden tabletop, with one pair of ivory satin ballet slippers lying in the foreground with loosely curled ribbons, an antique hand-carved wooden nutcracker standing toward the rear, a separate flowing muted blue silk ribbon, and a few graceful sprigs of pine and winter greenery. The wooden nutcracker has restrained pine-green and cranberry paint and weathered gold details, traditional generic design, natural inanimate carved proportions. The ivory slippers and their silk ribbons carry the visual focus; composition is airy, asymmetrical and original. Show the nutcracker's full hat and base and all slipper ribbons entirely within frame. Keep a generous 8 percent warm cream paper margin around the complete arrangement. Soft winter daylight, luminous satin texture, fine wood grain and delicate ink."
+    },
+    {
+      "id": "shelburne-drive-lights-20261019",
+      "src": "/assets/event-sketches/shelburne-drive-lights-20261019.webp",
+      "width": 720,
+      "height": 480,
+      "alt": "Ink-and-watercolor view from a car window of glowing winter garden lights among snowy trees.",
+      "sha256": "e04b9ec86a81a5575611df31d8729ac298aea0d999872b5634cd06e5edf7a588",
+      "reviewed": true,
+      "eventIds": [
+        "shelburne-drive-around-2026-12-01",
+        "shelburne-drive-around-2026-12-02",
+        "shelburne-drive-around-2026-12-08",
+        "shelburne-drive-around-2026-12-09",
+        "shelburne-drive-around-2026-12-15",
+        "shelburne-drive-around-2026-12-16",
+        "shelburne-drive-around-2027-01-04",
+        "shelburne-drive-around-2027-01-05",
+        "shelburne-drive-around-2027-01-06",
+        "shelburne-drive-around-2027-01-07",
+        "shelburne-drive-around-2027-01-08",
+        "shelburne-drive-around-2027-01-09"
+      ],
+      "prompt": "Use case: stylized-concept. Create one original editorial ink-and-watercolor landscape illustration for an accessible events calendar, horizontal 3:2 composition. Subject: an intimate view through the fully visible curved passenger-side window of a generic unbranded car, looking toward warm winter garden lights glowing among snowy evergreen shrubs and delicately lit bare trees. Interior window surround only as subtle foreground framing; no people, no steering wheel, no brand cues. This is a conceptual illustration of a winter light drive, not a depiction of a named venue. Sophisticated natural proportions; exceptionally fine dark sepia/navy ink detailing, layered rich transparent watercolor washes with granulation, warm cream textured paper, deep navy twilight, pine green, small cranberry accents and amber light. Complete uncropped self-contained composition, organic feathered painted edges with visible cream paper border on all sides, no rectangular photo border. Match the refined handcrafted still-life sensibility of fine watercolor book illustrations, not cartoon or clipart. No text, letters, numbers, signage, logos, watermarks, medical icons, or venue-specific architecture. All major subjects fully inside the page. Opaque warm cream paper background."
+    },
+    {
+      "id": "tower-hill-lights-20261019",
+      "src": "/assets/event-sketches/tower-hill-lights-20261019.webp",
+      "width": 720,
+      "height": 480,
+      "alt": "Ink-and-watercolor study of lanterns, illuminated branches, evergreens and seed heads in a snowy twilight garden.",
+      "sha256": "cf0fda69beb8f28d6e91b8b14f35887c1cf16998e2eb2ec904e746f5a25dce7f",
+      "reviewed": true,
+      "eventIds": [
+        "nebg-night-lights-sensory-2026-12-03",
+        "nebg-night-lights-sensory-2026-12-08"
+      ],
+      "prompt": "Use case: stylized-concept. Create one NEW original refined editorial ink-and-watercolor landscape illustration, horizontal 3:2, for an events calendar. Subject: An evocative conceptual botanical garden winter plant study at blue twilight: elegant illuminated bare branches with tiny warm light points, frosted evergreen foliage, dried seed heads and two small glowing garden lanterns nestled in snow. Rich plant detail, botanical natural proportions, gentle sense of depth, no architecture and no named venue. Foreground plants and lanterns fully visible in a balanced organic composition. Style: sophisticated natural proportions with intricate fine dark sepia/navy ink contours and precise textures; rich transparent watercolor washes, visible pigment granulation and layered color, warm cream textured watercolor paper. Palette of deep navy, pine green, warm amber, muted cranberry accents and natural wood. Opaque cream background. Complete uncropped self-contained composition, all major subjects within page, organic feathered painted edges and narrow cream paper border on every side. Detailed handmade fine-art book illustration, not flat vector, cartoon, childish clipart or photorealistic rendering. No text, lettering, numbers, signs, logos, watermarks, medical icons, staged people, branded characters, or invented venue-specific architecture. This is conceptual artwork, not documentary."
+    },
+    {
+      "id": "polar-express-car-20261019",
+      "src": "/assets/event-sketches/polar-express-car-20261019.webp",
+      "width": 720,
+      "height": 480,
+      "alt": "Ink-and-watercolor vintage train seat with a wool scarf, small brass bell and snowy pines beyond the window.",
+      "sha256": "270006cd423c2ca999870feef86ecb2a4077c3775829fc22f31288d1685cb070",
+      "reviewed": true,
+      "eventIds": [
+        "polar-express-sensory-car-2026-12-05"
+      ],
+      "prompt": "Use case: stylized-concept. Create one NEW original refined editorial ink-and-watercolor landscape illustration, horizontal 3:2, for an events calendar. Subject: An unbranded vintage railway carriage vignette: one cranberry wool-upholstered seat with subtle woven texture, a wooden window surround framing a moonlit snowy pine landscape, and one small brass hand bell resting safely on the seat cushion beside a folded navy wool scarf. No passengers or people. A quiet tactile winter journey still life, generic historic train interior without brand details, no movie references or characters. Window and principal seat arrangement fully visible. Style: sophisticated natural proportions with intricate fine dark sepia/navy ink contours and precise textures; rich transparent watercolor washes, visible pigment granulation and layered color, warm cream textured watercolor paper. Palette of deep navy, pine green, warm amber, muted cranberry accents and natural wood. Opaque cream background. Complete uncropped self-contained composition, all major subjects within page, organic feathered painted edges and narrow cream paper border on every side. Detailed handmade fine-art book illustration, not flat vector, cartoon, childish clipart or photorealistic rendering. No text, lettering, numbers, signs, logos, watermarks, medical icons, staged people, branded characters, or invented venue-specific architecture. This is conceptual artwork, not documentary."
+    },
+    {
+      "id": "bradley-winterlights-20261019",
+      "src": "/assets/event-sketches/bradley-winterlights-20261019.webp",
+      "width": 720,
+      "height": 480,
+      "alt": "Ink-and-watercolor lantern beside snow-dusted stone steps, evergreens and warm string lights.",
+      "sha256": "ee4562e0f4d16131330d94d58b319c9ed513f5dd4282f0e0662e12420d15decf",
+      "reviewed": true,
+      "eventIds": [
+        "bradley-winterlights-sensory-2026-12-06"
+      ],
+      "prompt": "Use case: stylized-concept. Create one NEW original refined editorial ink-and-watercolor landscape illustration, horizontal 3:2, for an events calendar. Subject: A close, quiet outdoor winter vignette: one glowing metal-and-glass lantern beside visibly uneven stone steps ascending diagonally into a snowy garden; detailed winter evergreens with amber string lights, small snow caps on stone, hints of cranberry berries. The stairs must unmistakably read as steps, not a flat path or an accessible route. No buildings, no suggestion of a particular venue. Fine botanical textures and candlelit atmosphere, complete lantern visible. Style: sophisticated natural proportions with intricate fine dark sepia/navy ink contours and precise textures; rich transparent watercolor washes, visible pigment granulation and layered color, warm cream textured watercolor paper. Palette of deep navy, pine green, warm amber, muted cranberry accents and natural wood. Opaque cream background. Complete uncropped self-contained composition, all major subjects within page, organic feathered painted edges and narrow cream paper border on every side. Detailed handmade fine-art book illustration, not flat vector, cartoon, childish clipart or photorealistic rendering. No text, lettering, numbers, signs, logos, watermarks, medical icons, staged people, branded characters, or invented venue-specific architecture. This is conceptual artwork, not documentary."
+    },
+    {
+      "id": "zanes-holiday-singalong-20261019",
+      "src": "/assets/event-sketches/zanes-holiday-singalong-20261019.webp",
+      "width": 720,
+      "height": 480,
+      "alt": "Ink-and-watercolor acoustic guitar, small hand drum, sleigh bells and evergreen sprigs on a wooden table.",
+      "sha256": "acc727b57914831cf4de377a9ffa2083203c2f2a0626de042ff58bff8d912ba5",
+      "reviewed": true,
+      "eventIds": [
+        "ccanh-zanes-2026-12-12-1100",
+        "ccanh-zanes-2026-12-12-1400"
+      ],
+      "prompt": "Use case: stylized-concept. Create one NEW original refined editorial ink-and-watercolor landscape illustration, horizontal 3:2, for an events calendar. Subject: A warm musical holiday still life: a single natural-wood acoustic guitar arranged diagonally with its complete headstock, six strings, sound hole and whole body visible; one small hand drum, a leather strap of brass sleigh bells, and a loose evergreen sprig on a wooden tabletop. Quiet navy fabric and a little cranberry ribbon, softly glowing winter light. No people, no hands, no performers, no letters or music notation. The different instruments remain separate and physically coherent, no fused objects. Style: sophisticated natural proportions with intricate fine dark sepia/navy ink contours and precise textures; rich transparent watercolor washes, visible pigment granulation and layered color, warm cream textured watercolor paper. Palette of deep navy, pine green, warm amber, muted cranberry accents and natural wood. Opaque cream background. Complete uncropped self-contained composition, all major subjects within page, organic feathered painted edges and narrow cream paper border on every side. Detailed handmade fine-art book illustration, not flat vector, cartoon, childish clipart or photorealistic rendering. No text, lettering, numbers, signs, logos, watermarks, medical icons, staged people, branded characters, or invented venue-specific architecture. This is conceptual artwork, not documentary."
+    },
+    {
+      "id": "connecticut-nutcracker-20261019",
+      "src": "/assets/event-sketches/connecticut-nutcracker-20261019.webp",
+      "width": 720,
+      "height": 480,
+      "alt": "Ink-and-watercolor ballet slippers, carved wooden nutcracker, cranberry ribbon and pine sprigs.",
+      "sha256": "94f97fb7568364bbc9c073e56b4d346bd757256e6723a5cee9c60263ddefd8e2",
+      "reviewed": true,
+      "eventIds": [
+        "quick-center-nutcracker-sensory-2026-12-13"
+      ],
+      "prompt": "Use case: stylized-concept. Create one NEW original refined editorial ink-and-watercolor landscape illustration, horizontal 3:2, for an events calendar. Subject: A contemplative ballet holiday tabletop still life: a pair of softly worn ivory ballet pointe shoes with long cream satin ribbons, a small generic hand-carved wooden nutcracker figure in a simple navy and cranberry painted tunic, one loose cranberry ribbon, pine sprigs and a pinecone. The wooden toy is modest, traditional and original rather than a copied theatrical production costume; clearly a carved object, not a living person. Natural material textures and quiet winter light. The complete shoes, nutcracker including its base, and ribbon arrangement all fit inside the image. Style: sophisticated natural proportions with intricate fine dark sepia/navy ink contours and precise textures; rich transparent watercolor washes, visible pigment granulation and layered color, warm cream textured watercolor paper. Palette of deep navy, pine green, warm amber, muted cranberry accents and natural wood. Opaque cream background. Complete uncropped self-contained composition, all major subjects within page, organic feathered painted edges and narrow cream paper border on every side. Detailed handmade fine-art book illustration, not flat vector, cartoon, childish clipart or photorealistic rendering. No text, lettering, numbers, signs, logos, watermarks, medical icons, staged people, branded characters, or invented venue-specific architecture. This is conceptual artwork, not documentary."
+    },
+    {
+      "id": "hanover-christmas-carol-20261019",
+      "src": "/assets/event-sketches/hanover-christmas-carol-20261019.webp",
+      "width": 720,
+      "height": 480,
+      "alt": "Ink-and-watercolor Victorian candle lantern, brass pocket watch, holly and a closed cranberry-colored book.",
+      "sha256": "a384aca59d49c0dc4f5fe67115386f6595dd573c7e33b5202369cdb6c72918f8",
+      "reviewed": true,
+      "eventIds": [
+        "hanover-christmas-carol-audio-2026-12-20",
+        "hanover-christmas-carol-asl-2026-12-20"
+      ],
+      "prompt": "Use case: stylized-concept. Create one NEW original refined editorial ink-and-watercolor landscape illustration, horizontal 3:2, for an events calendar. Subject: A literary winter tabletop still life: a Victorian-style metal candle lantern glowing beside an antique brass pocket watch on its chain, a small holly sprig with red berries, and one closed dark cranberry clothbound book with an entirely unlettered blank spine and cover. The pocket watch uses simple tiny tick marks without numbers or lettering. Warm candle reflections, richly textured pine tabletop, a little navy draped fabric, dusk blue-grey washes behind. No character or production costume, no manuscript, no written page. Complete lantern and all main objects visible. Style: sophisticated natural proportions with intricate fine dark sepia/navy ink contours and precise textures; rich transparent watercolor washes, visible pigment granulation and layered color, warm cream textured watercolor paper. Palette of deep navy, pine green, warm amber, muted cranberry accents and natural wood. Opaque cream background. Complete uncropped self-contained composition, all major subjects within page, organic feathered painted edges and narrow cream paper border on every side. Detailed handmade fine-art book illustration, not flat vector, cartoon, childish clipart or photorealistic rendering. No text, lettering, numbers, signs, logos, watermarks, medical icons, staged people, branded characters, or invented venue-specific architecture. This is conceptual artwork, not documentary."
+    },
+    {
+      "id": "hartford-symphony-20261019",
+      "src": "/assets/event-sketches/hartford-symphony-20261019.webp",
+      "width": 720,
+      "height": 480,
+      "alt": "Ink-and-watercolor still life of a silver flute, black clarinet and brass French horn on a wooden table.",
+      "sha256": "6badc690ee2359fae4a6129363a21c143d6132f9c1a64617babfd54ee8973dd0",
+      "reviewed": true,
+      "eventIds": [
+        "bushnell-discover-sound-workshops-2027-02-06",
+        "bushnell-discover-sound-performance-2027-02-06"
+      ],
+      "prompt": "Use case: stylized-concept. Create one NEW original sophisticated editorial ink-and-watercolor landscape illustration, horizontal 3:2, for a classical music events calendar. Subject: a tasteful chamber-music still life with exactly THREE separate authentic instruments, deliberately simple for physical accuracy: one silver transverse concert flute lying across the foreground, one black clarinet with a black beak mouthpiece and flared bell lying separately behind it, and one brass single French horn resting on navy wool at the right. The single French horn must have traditional continuous coiled brass tubing, exactly three rotary valve levers, one small mouthpiece on a narrow leadpipe, and one broad outward-flared bell. Detailed but natural, correct keys and fittings. A dark honey-colored wooden tabletop and muted pine-green watercolor wash behind. All three instrument silhouettes fully visible inside the image, ends clear and separate, no fused forms or extra pipes, no other instruments. Airy composition, elegant gentle perspective and natural relative scale. Fine dark sepia/navy ink drawing, rich transparent watercolor washes, visible paper grain and pigment granulation, subtle warm amber reflections. Complete uncropped self-contained composition with organic feathered paint edges and a cream paper border on every side, opaque warm cream background. Sophisticated handcrafted watercolor book illustration with believable instrument anatomy, not cartoon, clipart, photograph or schematic. No text, lettering, numbers, musical notation, sheet music, books, logos, brands, signs, watermarks, people, medical icons, or venue-specific architecture."
+    },
+    {
+      "id": "bso-family-concert-20261019",
+      "src": "/assets/event-sketches/bso-family-concert-20261019.webp",
+      "width": 720,
+      "height": 480,
+      "alt": "Luminous ink-and-watercolor still life of a violin and bow, brass French horn, and blank concert program.",
+      "sha256": "f97941feb2a144e55a9821ed4c6fa7a8e91bc16774cf3a880c9b45be0e409728",
+      "reviewed": true,
+      "eventIds": [
+        "bso-sensory-family-concert-2027-03-27"
+      ],
+      "prompt": "Use case: stylized-concept. Create one NEW original landscape 3:2 event-calendar illustration. Medium: exceptionally detailed fine pen-and-ink drawing and rich transparent watercolor washes on opaque warm cream textured paper. Natural proportions, nuanced material textures, delicate hatching, soft warm shadows, navy, pine green, cranberry, ochre accents. The image has the richness of a hand-painted editorial watercolor, not a flat vector, cartoon, icon or collage. Complete uncropped composition; every principal object comfortably fits inside frame with breathing room. Organic softly feathered watercolor edges near paper margins, with a cohesive substantial scene filling most of the 3:2 landscape canvas. No readable text, letters, numbers, logos, watermarks, medical symbols, branded or production characters, or identifiable venue architecture. Subject: an original orchestral concert still life with a beautiful full violin and bow, an elegant brass French horn, and a folded cream concert program containing no text or notation. A gentle golden stage-light watercolor wash glows behind the instruments against soft navy. The violin leans at a modest diagonal on a low wooden platform, the complete coiled horn rests alongside, and the blank program lies in front. Exquisitely detailed violin wood grain, fine strings, carefully formed French horn tubing, warm reflected brass highlights. Calm anticipatory concert mood, no performers, people, seats, venue-specific architecture, musical notes, symbols or logos. CRITICAL COMPOSITION: pull back enough that every instrument, the entire bow, violin scroll, horn bell and folded program is well inside the image with comfortable warm cream paper space on all four sides. Absolutely no object cropped by a canvas edge. Organic watercolor edges frame the full still life."
+    }
+  ],
+  "addedEventIds": [
+    "thacher-unscripted-2026-10-22",
+    "see-immune-friendly-2026-10-23",
+    "mfa-museum-moments-2026-10-24",
+    "ycba-artism-2026-10-24",
+    "seacoast-sensory-2026-10-25",
+    "wistariahurst-trick-or-treat-2026-10-25",
+    "thacher-unscripted-2026-10-29",
+    "act-beautiful-2026-10-31",
+    "great-pumpkin-ball-low-sensory-2026-10-31",
+    "seacoast-sensory-2026-11-01",
+    "thacher-unscripted-2026-11-05",
+    "mfa-beyond-kids-2026-11-07",
+    "seacoast-sensory-2026-11-08",
+    "bushnell-stunt-dog-2026-11-08",
+    "thacher-unscripted-2026-11-12",
+    "mfa-museum-moments-2026-11-14",
+    "ycba-artism-2026-11-14",
+    "seacoast-sensory-2026-11-15",
+    "fpl-teen-sensory-2026-11-15",
+    "fpl-child-sensory-2026-11-15",
+    "thacher-unscripted-2026-11-19",
+    "bushnell-holiday-open-house-2026-11-21",
+    "mfa-beyond-teens-2026-11-21",
+    "seacoast-sensory-2026-11-22",
+    "commonwealth-nutcracker-sensory-2026-11-27",
+    "seacoast-sensory-2026-11-29",
+    "shelburne-drive-around-2026-12-01",
+    "shelburne-drive-around-2026-12-02",
+    "nebg-night-lights-sensory-2026-12-03",
+    "polar-express-sensory-car-2026-12-05",
+    "seacoast-sensory-2026-12-06",
+    "bradley-winterlights-sensory-2026-12-06",
+    "nebg-night-lights-sensory-2026-12-08",
+    "shelburne-drive-around-2026-12-08",
+    "shelburne-drive-around-2026-12-09",
+    "mfa-museum-moments-2026-12-12",
+    "mfa-beyond-kids-2026-12-12",
+    "ycba-artism-2026-12-12",
+    "ccanh-zanes-2026-12-12-1100",
+    "ccanh-zanes-2026-12-12-1400",
+    "seacoast-sensory-2026-12-13",
+    "quick-center-nutcracker-sensory-2026-12-13",
+    "shelburne-drive-around-2026-12-15",
+    "shelburne-drive-around-2026-12-16",
+    "seacoast-sensory-2026-12-20",
+    "hanover-christmas-carol-audio-2026-12-20",
+    "hanover-christmas-carol-asl-2026-12-20",
+    "seacoast-sensory-2026-12-27",
+    "mfa-beyond-kids-2027-01-02",
+    "shelburne-drive-around-2027-01-04",
+    "shelburne-drive-around-2027-01-05",
+    "shelburne-drive-around-2027-01-06",
+    "shelburne-drive-around-2027-01-07",
+    "shelburne-drive-around-2027-01-08",
+    "mfa-museum-moments-2027-01-09",
+    "shelburne-drive-around-2027-01-09",
+    "mfa-beyond-teens-2027-01-16",
+    "mfa-museum-moments-2027-01-23",
+    "bushnell-discover-sound-workshops-2027-02-06",
+    "bushnell-discover-sound-performance-2027-02-06",
+    "bso-sensory-family-concert-2027-03-27"
+  ]
+}

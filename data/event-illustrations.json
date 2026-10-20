@@ -1,5 +1,5 @@
 {
-  "version": 4,
+  "version": 5,
   "created": "2026-10-03",
   "artworkType": "Original AI-generated event-inspired ink-and-watercolor illustrations",
   "disclosure": "Original AI-generated conceptual ink-and-watercolor illustrations inspired by the listed activities. Existing event-specific compositions are preserved, and reviewed studies are reused for related sessions. Not venue photographs, access maps or depictions of confirmed exhibits.",
@@ -1358,6 +1358,654 @@
       "venue": "BCI Quincy Learning Center",
       "start": "2026-11-12T16:00:00-05:00",
       "reusedFromEvent": "bcm-2026-10-03"
+    },
+    "thacher-unscripted-2026-10-22": {
+      "src": "/assets/event-sketches/thacher-dance-20261019.webp",
+      "alt": "Watercolor of tan dance shoes beside a flowing navy scarf and cranberry ribbon in warm autumn light.",
+      "width": 720,
+      "height": 480,
+      "title": "Unscripted Encounters all-ability dance workshop",
+      "venue": "Thacher Hall — lower level",
+      "start": "2026-10-22T17:30:00-04:00",
+      "studyId": "thacher-dance-20261019"
+    },
+    "thacher-unscripted-2026-10-29": {
+      "src": "/assets/event-sketches/thacher-dance-20261019.webp",
+      "alt": "Watercolor of tan dance shoes beside a flowing navy scarf and cranberry ribbon in warm autumn light.",
+      "width": 720,
+      "height": 480,
+      "title": "Unscripted Encounters all-ability dance workshop",
+      "venue": "Thacher Hall — lower level",
+      "start": "2026-10-29T17:30:00-04:00",
+      "studyId": "thacher-dance-20261019",
+      "reusedFromEvent": "thacher-unscripted-2026-10-22"
+    },
+    "thacher-unscripted-2026-11-05": {
+      "src": "/assets/event-sketches/thacher-dance-20261019.webp",
+      "alt": "Watercolor of tan dance shoes beside a flowing navy scarf and cranberry ribbon in warm autumn light.",
+      "width": 720,
+      "height": 480,
+      "title": "Unscripted Encounters all-ability dance workshop",
+      "venue": "Thacher Hall — lower level",
+      "start": "2026-11-05T17:30:00-05:00",
+      "studyId": "thacher-dance-20261019",
+      "reusedFromEvent": "thacher-unscripted-2026-10-22"
+    },
+    "thacher-unscripted-2026-11-12": {
+      "src": "/assets/event-sketches/thacher-dance-20261019.webp",
+      "alt": "Watercolor of tan dance shoes beside a flowing navy scarf and cranberry ribbon in warm autumn light.",
+      "width": 720,
+      "height": 480,
+      "title": "Unscripted Encounters all-ability dance workshop",
+      "venue": "Thacher Hall — lower level",
+      "start": "2026-11-12T17:30:00-05:00",
+      "studyId": "thacher-dance-20261019",
+      "reusedFromEvent": "thacher-unscripted-2026-10-22"
+    },
+    "thacher-unscripted-2026-11-19": {
+      "src": "/assets/event-sketches/thacher-dance-20261019.webp",
+      "alt": "Watercolor of tan dance shoes beside a flowing navy scarf and cranberry ribbon in warm autumn light.",
+      "width": 720,
+      "height": 480,
+      "title": "Unscripted Encounters all-ability dance workshop",
+      "venue": "Thacher Hall — lower level",
+      "start": "2026-11-19T17:30:00-05:00",
+      "studyId": "thacher-dance-20261019",
+      "reusedFromEvent": "thacher-unscripted-2026-10-22"
+    },
+    "see-immune-friendly-2026-10-23": {
+      "src": "/assets/event-sketches/see-science-20261019.webp",
+      "alt": "Watercolor of a brass microscope, glass prism casting a rainbow, specimen slides, shell and mineral in evening lamplight.",
+      "width": 720,
+      "height": 480,
+      "title": "Immunocompromised Friendly Fun Night",
+      "venue": "SEE Science Center",
+      "start": "2026-10-23T17:00:00-04:00",
+      "studyId": "see-science-20261019"
+    },
+    "mfa-museum-moments-2026-10-24": {
+      "src": "/assets/event-sketches/mfa-museum-moments-20261019.webp",
+      "alt": "Watercolor of a wooden gallery bench beneath an original botanical painting, with a magnifying glass and folded guide.",
+      "width": 720,
+      "height": 480,
+      "title": "Museum Moments: tour for visitors with memory loss and care partners",
+      "venue": "Museum of Fine Arts, Boston",
+      "start": "2026-10-24T10:00:00-04:00",
+      "studyId": "mfa-museum-moments-20261019"
+    },
+    "mfa-museum-moments-2026-11-14": {
+      "src": "/assets/event-sketches/mfa-museum-moments-20261019.webp",
+      "alt": "Watercolor of a wooden gallery bench beneath an original botanical painting, with a magnifying glass and folded guide.",
+      "width": 720,
+      "height": 480,
+      "title": "Museum Moments: tour for visitors with memory loss and care partners",
+      "venue": "Museum of Fine Arts, Boston",
+      "start": "2026-11-14T10:00:00-05:00",
+      "studyId": "mfa-museum-moments-20261019",
+      "reusedFromEvent": "mfa-museum-moments-2026-10-24"
+    },
+    "mfa-museum-moments-2026-12-12": {
+      "src": "/assets/event-sketches/mfa-museum-moments-20261019.webp",
+      "alt": "Watercolor of a wooden gallery bench beneath an original botanical painting, with a magnifying glass and folded guide.",
+      "width": 720,
+      "height": 480,
+      "title": "Museum Moments: tour for visitors with memory loss and care partners",
+      "venue": "Museum of Fine Arts, Boston",
+      "start": "2026-12-12T10:00:00-05:00",
+      "studyId": "mfa-museum-moments-20261019",
+      "reusedFromEvent": "mfa-museum-moments-2026-10-24"
+    },
+    "mfa-museum-moments-2027-01-09": {
+      "src": "/assets/event-sketches/mfa-museum-moments-20261019.webp",
+      "alt": "Watercolor of a wooden gallery bench beneath an original botanical painting, with a magnifying glass and folded guide.",
+      "width": 720,
+      "height": 480,
+      "title": "Museum Moments: tour for visitors with memory loss and care partners",
+      "venue": "Museum of Fine Arts, Boston",
+      "start": "2027-01-09T10:00:00-05:00",
+      "studyId": "mfa-museum-moments-20261019",
+      "reusedFromEvent": "mfa-museum-moments-2026-10-24"
+    },
+    "mfa-museum-moments-2027-01-23": {
+      "src": "/assets/event-sketches/mfa-museum-moments-20261019.webp",
+      "alt": "Watercolor of a wooden gallery bench beneath an original botanical painting, with a magnifying glass and folded guide.",
+      "width": 720,
+      "height": 480,
+      "title": "Museum Moments: tour for visitors with memory loss and care partners",
+      "venue": "Museum of Fine Arts, Boston",
+      "start": "2027-01-23T10:00:00-05:00",
+      "studyId": "mfa-museum-moments-20261019",
+      "reusedFromEvent": "mfa-museum-moments-2026-10-24"
+    },
+    "ycba-artism-2026-10-24": {
+      "src": "/assets/event-sketches/yale-artism-20261019.webp",
+      "alt": "Watercolor of an open leaf-study sketchbook, paints and brushes beside tactile shells, a pebble, pinecone and driftwood.",
+      "width": 720,
+      "height": 480,
+      "title": "Exploring Art-ism",
+      "venue": "Yale Center for British Art",
+      "start": "2026-10-24T10:30:00-04:00",
+      "studyId": "yale-artism-20261019"
+    },
+    "ycba-artism-2026-11-14": {
+      "src": "/assets/event-sketches/yale-artism-20261019.webp",
+      "alt": "Watercolor of an open leaf-study sketchbook, paints and brushes beside tactile shells, a pebble, pinecone and driftwood.",
+      "width": 720,
+      "height": 480,
+      "title": "Exploring Art-ism",
+      "venue": "Yale Center for British Art",
+      "start": "2026-11-14T10:30:00-05:00",
+      "studyId": "yale-artism-20261019",
+      "reusedFromEvent": "ycba-artism-2026-10-24"
+    },
+    "ycba-artism-2026-12-12": {
+      "src": "/assets/event-sketches/yale-artism-20261019.webp",
+      "alt": "Watercolor of an open leaf-study sketchbook, paints and brushes beside tactile shells, a pebble, pinecone and driftwood.",
+      "width": 720,
+      "height": 480,
+      "title": "Exploring Art-ism",
+      "venue": "Yale Center for British Art",
+      "start": "2026-12-12T10:30:00-05:00",
+      "studyId": "yale-artism-20261019",
+      "reusedFromEvent": "ycba-artism-2026-10-24"
+    },
+    "seacoast-sensory-2026-10-25": {
+      "src": "/assets/event-sketches/seacoast-sensory-20261019.webp",
+      "alt": "Watercolor of a small shore crab among tidal shells, seaweed and smooth pebbles in a blue tidepool.",
+      "width": 720,
+      "height": 480,
+      "title": "Sensory-Friendly Hour",
+      "venue": "Seacoast Science Center",
+      "start": "2026-10-25T09:00:00-04:00",
+      "studyId": "seacoast-sensory-20261019"
+    },
+    "seacoast-sensory-2026-11-01": {
+      "src": "/assets/event-sketches/seacoast-sensory-20261019.webp",
+      "alt": "Watercolor of a small shore crab among tidal shells, seaweed and smooth pebbles in a blue tidepool.",
+      "width": 720,
+      "height": 480,
+      "title": "Sensory-Friendly Hour",
+      "venue": "Seacoast Science Center",
+      "start": "2026-11-01T09:00:00-05:00",
+      "studyId": "seacoast-sensory-20261019",
+      "reusedFromEvent": "seacoast-sensory-2026-10-25"
+    },
+    "seacoast-sensory-2026-11-08": {
+      "src": "/assets/event-sketches/seacoast-sensory-20261019.webp",
+      "alt": "Watercolor of a small shore crab among tidal shells, seaweed and smooth pebbles in a blue tidepool.",
+      "width": 720,
+      "height": 480,
+      "title": "Sensory-Friendly Hour",
+      "venue": "Seacoast Science Center",
+      "start": "2026-11-08T09:00:00-05:00",
+      "studyId": "seacoast-sensory-20261019",
+      "reusedFromEvent": "seacoast-sensory-2026-10-25"
+    },
+    "seacoast-sensory-2026-11-15": {
+      "src": "/assets/event-sketches/seacoast-sensory-20261019.webp",
+      "alt": "Watercolor of a small shore crab among tidal shells, seaweed and smooth pebbles in a blue tidepool.",
+      "width": 720,
+      "height": 480,
+      "title": "Sensory-Friendly Hour",
+      "venue": "Seacoast Science Center",
+      "start": "2026-11-15T09:00:00-05:00",
+      "studyId": "seacoast-sensory-20261019",
+      "reusedFromEvent": "seacoast-sensory-2026-10-25"
+    },
+    "seacoast-sensory-2026-11-22": {
+      "src": "/assets/event-sketches/seacoast-sensory-20261019.webp",
+      "alt": "Watercolor of a small shore crab among tidal shells, seaweed and smooth pebbles in a blue tidepool.",
+      "width": 720,
+      "height": 480,
+      "title": "Sensory-Friendly Hour",
+      "venue": "Seacoast Science Center",
+      "start": "2026-11-22T09:00:00-05:00",
+      "studyId": "seacoast-sensory-20261019",
+      "reusedFromEvent": "seacoast-sensory-2026-10-25"
+    },
+    "seacoast-sensory-2026-11-29": {
+      "src": "/assets/event-sketches/seacoast-sensory-20261019.webp",
+      "alt": "Watercolor of a small shore crab among tidal shells, seaweed and smooth pebbles in a blue tidepool.",
+      "width": 720,
+      "height": 480,
+      "title": "Sensory-Friendly Hour",
+      "venue": "Seacoast Science Center",
+      "start": "2026-11-29T09:00:00-05:00",
+      "studyId": "seacoast-sensory-20261019",
+      "reusedFromEvent": "seacoast-sensory-2026-10-25"
+    },
+    "seacoast-sensory-2026-12-06": {
+      "src": "/assets/event-sketches/seacoast-sensory-20261019.webp",
+      "alt": "Watercolor of a small shore crab among tidal shells, seaweed and smooth pebbles in a blue tidepool.",
+      "width": 720,
+      "height": 480,
+      "title": "Sensory-Friendly Hour",
+      "venue": "Seacoast Science Center",
+      "start": "2026-12-06T09:00:00-05:00",
+      "studyId": "seacoast-sensory-20261019",
+      "reusedFromEvent": "seacoast-sensory-2026-10-25"
+    },
+    "seacoast-sensory-2026-12-13": {
+      "src": "/assets/event-sketches/seacoast-sensory-20261019.webp",
+      "alt": "Watercolor of a small shore crab among tidal shells, seaweed and smooth pebbles in a blue tidepool.",
+      "width": 720,
+      "height": 480,
+      "title": "Sensory-Friendly Hour",
+      "venue": "Seacoast Science Center",
+      "start": "2026-12-13T09:00:00-05:00",
+      "studyId": "seacoast-sensory-20261019",
+      "reusedFromEvent": "seacoast-sensory-2026-10-25"
+    },
+    "seacoast-sensory-2026-12-20": {
+      "src": "/assets/event-sketches/seacoast-sensory-20261019.webp",
+      "alt": "Watercolor of a small shore crab among tidal shells, seaweed and smooth pebbles in a blue tidepool.",
+      "width": 720,
+      "height": 480,
+      "title": "Sensory-Friendly Hour",
+      "venue": "Seacoast Science Center",
+      "start": "2026-12-20T09:00:00-05:00",
+      "studyId": "seacoast-sensory-20261019",
+      "reusedFromEvent": "seacoast-sensory-2026-10-25"
+    },
+    "seacoast-sensory-2026-12-27": {
+      "src": "/assets/event-sketches/seacoast-sensory-20261019.webp",
+      "alt": "Watercolor of a small shore crab among tidal shells, seaweed and smooth pebbles in a blue tidepool.",
+      "width": 720,
+      "height": 480,
+      "title": "Sensory-Friendly Hour",
+      "venue": "Seacoast Science Center",
+      "start": "2026-12-27T09:00:00-05:00",
+      "studyId": "seacoast-sensory-20261019",
+      "reusedFromEvent": "seacoast-sensory-2026-10-25"
+    },
+    "wistariahurst-trick-or-treat-2026-10-25": {
+      "src": "/assets/event-sketches/wistariahurst-halloween-20261019.webp",
+      "alt": "Watercolor of small orange and cream pumpkins, autumn leaves, wrapped treats and a wooden bead fidget.",
+      "width": 720,
+      "height": 480,
+      "title": "Sensory-friendly trick-or-treat at Wistariahurst",
+      "venue": "Wistariahurst Museum",
+      "start": "2026-10-25T13:00:00-04:00",
+      "studyId": "wistariahurst-halloween-20261019"
+    },
+    "act-beautiful-2026-10-31": {
+      "src": "/assets/event-sketches/carole-king-musical-20261019.webp",
+      "alt": "Watercolor of piano keys, a vintage silver microphone and blank music paper against a cranberry stage curtain.",
+      "width": 720,
+      "height": 480,
+      "title": "Beautiful: The Carole King Musical — sensory-friendly performance",
+      "venue": "A.C.T. of Connecticut",
+      "start": "2026-10-31T14:00:00-04:00",
+      "studyId": "carole-king-musical-20261019"
+    },
+    "great-pumpkin-ball-low-sensory-2026-10-31": {
+      "src": "/assets/event-sketches/pumpkin-ball-20261019.webp",
+      "alt": "Watercolor of an elegant orange pumpkin and autumn garland on a wooden dance floor glowing with golden light.",
+      "width": 720,
+      "height": 480,
+      "title": "The Great Pumpkin Ball — Low Sensory Hour",
+      "venue": "State Theatre",
+      "start": "2026-10-31T18:30:00-04:00",
+      "studyId": "pumpkin-ball-20261019"
+    },
+    "mfa-beyond-kids-2026-11-07": {
+      "src": "/assets/event-sketches/mfa-spectrum-art-20261019.webp",
+      "alt": "Detailed watercolor of professional brushes, paint palette, abstract sketchbook, and tactile ceramic sculpture on a sunlit worktable.",
+      "width": 720,
+      "height": 480,
+      "title": "Beyond the Spectrum Kids",
+      "venue": "Museum of Fine Arts, Boston",
+      "start": "2026-11-07T10:30:00-05:00",
+      "studyId": "mfa-spectrum-art-20261019"
+    },
+    "mfa-beyond-teens-2026-11-21": {
+      "src": "/assets/event-sketches/mfa-spectrum-art-20261019.webp",
+      "alt": "Detailed watercolor of professional brushes, paint palette, abstract sketchbook, and tactile ceramic sculpture on a sunlit worktable.",
+      "width": 720,
+      "height": 480,
+      "title": "Beyond the Spectrum Teen Studio",
+      "venue": "Museum of Fine Arts, Boston",
+      "start": "2026-11-21T10:30:00-05:00",
+      "studyId": "mfa-spectrum-art-20261019",
+      "reusedFromEvent": "mfa-beyond-kids-2026-11-07"
+    },
+    "mfa-beyond-kids-2026-12-12": {
+      "src": "/assets/event-sketches/mfa-spectrum-art-20261019.webp",
+      "alt": "Detailed watercolor of professional brushes, paint palette, abstract sketchbook, and tactile ceramic sculpture on a sunlit worktable.",
+      "width": 720,
+      "height": 480,
+      "title": "Beyond the Spectrum Kids",
+      "venue": "Museum of Fine Arts, Boston",
+      "start": "2026-12-12T10:30:00-05:00",
+      "studyId": "mfa-spectrum-art-20261019",
+      "reusedFromEvent": "mfa-beyond-kids-2026-11-07"
+    },
+    "mfa-beyond-kids-2027-01-02": {
+      "src": "/assets/event-sketches/mfa-spectrum-art-20261019.webp",
+      "alt": "Detailed watercolor of professional brushes, paint palette, abstract sketchbook, and tactile ceramic sculpture on a sunlit worktable.",
+      "width": 720,
+      "height": 480,
+      "title": "Beyond the Spectrum Kids",
+      "venue": "Museum of Fine Arts, Boston",
+      "start": "2027-01-02T10:30:00-05:00",
+      "studyId": "mfa-spectrum-art-20261019",
+      "reusedFromEvent": "mfa-beyond-kids-2026-11-07"
+    },
+    "mfa-beyond-teens-2027-01-16": {
+      "src": "/assets/event-sketches/mfa-spectrum-art-20261019.webp",
+      "alt": "Detailed watercolor of professional brushes, paint palette, abstract sketchbook, and tactile ceramic sculpture on a sunlit worktable.",
+      "width": 720,
+      "height": 480,
+      "title": "Beyond the Spectrum Teen Studio",
+      "venue": "Museum of Fine Arts, Boston",
+      "start": "2027-01-16T10:30:00-05:00",
+      "studyId": "mfa-spectrum-art-20261019",
+      "reusedFromEvent": "mfa-beyond-kids-2026-11-07"
+    },
+    "bushnell-stunt-dog-2026-11-08": {
+      "src": "/assets/event-sketches/bushnell-stunt-dogs-20261019.webp",
+      "alt": "Ink-and-watercolor border collie beside a simple training hoop and red ball on a softly painted grassy field.",
+      "width": 720,
+      "height": 480,
+      "title": "Chris Perondi’s Stunt Dog Experience — supported performance",
+      "venue": "Belding Theater at The Bushnell",
+      "start": "2026-11-08T11:00:00-05:00",
+      "studyId": "bushnell-stunt-dogs-20261019"
+    },
+    "fpl-teen-sensory-2026-11-15": {
+      "src": "/assets/event-sketches/fairfield-teen-gaming-20261019.webp",
+      "alt": "Sophisticated watercolor still life of a wooden chessboard, game tokens, unbranded controller, and books.",
+      "width": 720,
+      "height": 480,
+      "title": "Sensory-friendly browsing and gaming for teens and young adults",
+      "venue": "Fairfield Public Library — Main Library Teen Room",
+      "start": "2026-11-15T12:00:00-05:00",
+      "studyId": "fairfield-teen-gaming-20261019"
+    },
+    "fpl-child-sensory-2026-11-15": {
+      "src": "/assets/event-sketches/fairfield-storytime-20261019.webp",
+      "alt": "Watercolor still life of an open woodland storybook, brass reading lamp, and small wooden tree and mushroom props.",
+      "width": 720,
+      "height": 480,
+      "title": "Sensory-friendly children’s browsing and storytime",
+      "venue": "Fairfield Public Library — Main Library Children’s Library",
+      "start": "2026-11-15T12:00:00-05:00",
+      "studyId": "fairfield-storytime-20261019"
+    },
+    "bushnell-holiday-open-house-2026-11-21": {
+      "src": "/assets/event-sketches/bushnell-holiday-house-20261019.webp",
+      "alt": "Rich watercolor of folded paper stars, a pine wreath, and a cranberry Santa hat arranged on a wooden holiday table.",
+      "width": 720,
+      "height": 480,
+      "title": "Sensory-Friendly / Relaxed Holiday Open House",
+      "venue": "The Bushnell",
+      "start": "2026-11-21T10:00:00-05:00",
+      "studyId": "bushnell-holiday-house-20261019"
+    },
+    "commonwealth-nutcracker-sensory-2026-11-27": {
+      "src": "/assets/event-sketches/commonwealth-nutcracker-20261019.webp",
+      "alt": "Fine watercolor of ivory ballet slippers, an antique wooden nutcracker, blue ribbon, and winter greenery.",
+      "width": 720,
+      "height": 480,
+      "title": "Sensory / Family-Friendly Nutcracker",
+      "venue": "Eleanor Welch Casey Theater, Regis College",
+      "start": "2026-11-27T13:00:00-05:00",
+      "studyId": "commonwealth-nutcracker-20261019"
+    },
+    "shelburne-drive-around-2026-12-01": {
+      "src": "/assets/event-sketches/shelburne-drive-lights-20261019.webp",
+      "alt": "Ink-and-watercolor view from a car window of glowing winter garden lights among snowy trees.",
+      "width": 720,
+      "height": 480,
+      "title": "Winter Lights drive-around night",
+      "venue": "Shelburne Museum",
+      "start": "2026-12-01T16:30:00-05:00",
+      "studyId": "shelburne-drive-lights-20261019"
+    },
+    "shelburne-drive-around-2026-12-02": {
+      "src": "/assets/event-sketches/shelburne-drive-lights-20261019.webp",
+      "alt": "Ink-and-watercolor view from a car window of glowing winter garden lights among snowy trees.",
+      "width": 720,
+      "height": 480,
+      "title": "Winter Lights drive-around night",
+      "venue": "Shelburne Museum",
+      "start": "2026-12-02T16:30:00-05:00",
+      "studyId": "shelburne-drive-lights-20261019",
+      "reusedFromEvent": "shelburne-drive-around-2026-12-01"
+    },
+    "shelburne-drive-around-2026-12-08": {
+      "src": "/assets/event-sketches/shelburne-drive-lights-20261019.webp",
+      "alt": "Ink-and-watercolor view from a car window of glowing winter garden lights among snowy trees.",
+      "width": 720,
+      "height": 480,
+      "title": "Winter Lights drive-around night",
+      "venue": "Shelburne Museum",
+      "start": "2026-12-08T16:30:00-05:00",
+      "studyId": "shelburne-drive-lights-20261019",
+      "reusedFromEvent": "shelburne-drive-around-2026-12-01"
+    },
+    "shelburne-drive-around-2026-12-09": {
+      "src": "/assets/event-sketches/shelburne-drive-lights-20261019.webp",
+      "alt": "Ink-and-watercolor view from a car window of glowing winter garden lights among snowy trees.",
+      "width": 720,
+      "height": 480,
+      "title": "Winter Lights drive-around night",
+      "venue": "Shelburne Museum",
+      "start": "2026-12-09T16:30:00-05:00",
+      "studyId": "shelburne-drive-lights-20261019",
+      "reusedFromEvent": "shelburne-drive-around-2026-12-01"
+    },
+    "shelburne-drive-around-2026-12-15": {
+      "src": "/assets/event-sketches/shelburne-drive-lights-20261019.webp",
+      "alt": "Ink-and-watercolor view from a car window of glowing winter garden lights among snowy trees.",
+      "width": 720,
+      "height": 480,
+      "title": "Winter Lights drive-around night",
+      "venue": "Shelburne Museum",
+      "start": "2026-12-15T16:30:00-05:00",
+      "studyId": "shelburne-drive-lights-20261019",
+      "reusedFromEvent": "shelburne-drive-around-2026-12-01"
+    },
+    "shelburne-drive-around-2026-12-16": {
+      "src": "/assets/event-sketches/shelburne-drive-lights-20261019.webp",
+      "alt": "Ink-and-watercolor view from a car window of glowing winter garden lights among snowy trees.",
+      "width": 720,
+      "height": 480,
+      "title": "Winter Lights drive-around night",
+      "venue": "Shelburne Museum",
+      "start": "2026-12-16T16:30:00-05:00",
+      "studyId": "shelburne-drive-lights-20261019",
+      "reusedFromEvent": "shelburne-drive-around-2026-12-01"
+    },
+    "shelburne-drive-around-2027-01-04": {
+      "src": "/assets/event-sketches/shelburne-drive-lights-20261019.webp",
+      "alt": "Ink-and-watercolor view from a car window of glowing winter garden lights among snowy trees.",
+      "width": 720,
+      "height": 480,
+      "title": "Winter Lights drive-around night",
+      "venue": "Shelburne Museum",
+      "start": "2027-01-04T16:30:00-05:00",
+      "studyId": "shelburne-drive-lights-20261019",
+      "reusedFromEvent": "shelburne-drive-around-2026-12-01"
+    },
+    "shelburne-drive-around-2027-01-05": {
+      "src": "/assets/event-sketches/shelburne-drive-lights-20261019.webp",
+      "alt": "Ink-and-watercolor view from a car window of glowing winter garden lights among snowy trees.",
+      "width": 720,
+      "height": 480,
+      "title": "Winter Lights drive-around night",
+      "venue": "Shelburne Museum",
+      "start": "2027-01-05T16:30:00-05:00",
+      "studyId": "shelburne-drive-lights-20261019",
+      "reusedFromEvent": "shelburne-drive-around-2026-12-01"
+    },
+    "shelburne-drive-around-2027-01-06": {
+      "src": "/assets/event-sketches/shelburne-drive-lights-20261019.webp",
+      "alt": "Ink-and-watercolor view from a car window of glowing winter garden lights among snowy trees.",
+      "width": 720,
+      "height": 480,
+      "title": "Winter Lights drive-around night",
+      "venue": "Shelburne Museum",
+      "start": "2027-01-06T16:30:00-05:00",
+      "studyId": "shelburne-drive-lights-20261019",
+      "reusedFromEvent": "shelburne-drive-around-2026-12-01"
+    },
+    "shelburne-drive-around-2027-01-07": {
+      "src": "/assets/event-sketches/shelburne-drive-lights-20261019.webp",
+      "alt": "Ink-and-watercolor view from a car window of glowing winter garden lights among snowy trees.",
+      "width": 720,
+      "height": 480,
+      "title": "Winter Lights drive-around night",
+      "venue": "Shelburne Museum",
+      "start": "2027-01-07T16:30:00-05:00",
+      "studyId": "shelburne-drive-lights-20261019",
+      "reusedFromEvent": "shelburne-drive-around-2026-12-01"
+    },
+    "shelburne-drive-around-2027-01-08": {
+      "src": "/assets/event-sketches/shelburne-drive-lights-20261019.webp",
+      "alt": "Ink-and-watercolor view from a car window of glowing winter garden lights among snowy trees.",
+      "width": 720,
+      "height": 480,
+      "title": "Winter Lights drive-around night",
+      "venue": "Shelburne Museum",
+      "start": "2027-01-08T16:30:00-05:00",
+      "studyId": "shelburne-drive-lights-20261019",
+      "reusedFromEvent": "shelburne-drive-around-2026-12-01"
+    },
+    "shelburne-drive-around-2027-01-09": {
+      "src": "/assets/event-sketches/shelburne-drive-lights-20261019.webp",
+      "alt": "Ink-and-watercolor view from a car window of glowing winter garden lights among snowy trees.",
+      "width": 720,
+      "height": 480,
+      "title": "Winter Lights drive-around night",
+      "venue": "Shelburne Museum",
+      "start": "2027-01-09T16:30:00-05:00",
+      "studyId": "shelburne-drive-lights-20261019",
+      "reusedFromEvent": "shelburne-drive-around-2026-12-01"
+    },
+    "nebg-night-lights-sensory-2026-12-03": {
+      "src": "/assets/event-sketches/tower-hill-lights-20261019.webp",
+      "alt": "Ink-and-watercolor study of lanterns, illuminated branches, evergreens and seed heads in a snowy twilight garden.",
+      "width": 720,
+      "height": 480,
+      "title": "Sensory Friendly Night Lights",
+      "venue": "New England Botanic Garden at Tower Hill",
+      "start": "2026-12-03T16:00:00-05:00",
+      "studyId": "tower-hill-lights-20261019"
+    },
+    "nebg-night-lights-sensory-2026-12-08": {
+      "src": "/assets/event-sketches/tower-hill-lights-20261019.webp",
+      "alt": "Ink-and-watercolor study of lanterns, illuminated branches, evergreens and seed heads in a snowy twilight garden.",
+      "width": 720,
+      "height": 480,
+      "title": "Sensory Friendly Night Lights",
+      "venue": "New England Botanic Garden at Tower Hill",
+      "start": "2026-12-08T16:00:00-05:00",
+      "studyId": "tower-hill-lights-20261019",
+      "reusedFromEvent": "nebg-night-lights-sensory-2026-12-03"
+    },
+    "polar-express-sensory-car-2026-12-05": {
+      "src": "/assets/event-sketches/polar-express-car-20261019.webp",
+      "alt": "Ink-and-watercolor vintage train seat with a wool scarf, small brass bell and snowy pines beyond the window.",
+      "width": 720,
+      "height": 480,
+      "title": "Polar Express — sensory-friendly train car",
+      "venue": "Wing Building",
+      "start": "2026-12-05T11:35:00-05:00",
+      "studyId": "polar-express-car-20261019"
+    },
+    "bradley-winterlights-sensory-2026-12-06": {
+      "src": "/assets/event-sketches/bradley-winterlights-20261019.webp",
+      "alt": "Ink-and-watercolor lantern beside snow-dusted stone steps, evergreens and warm string lights.",
+      "width": 720,
+      "height": 480,
+      "title": "Sensory-friendly Winterlights at the Bradley Estate",
+      "venue": "Eleanor Cabot Bradley Estate",
+      "start": "2026-12-06T15:30:00-05:00",
+      "studyId": "bradley-winterlights-20261019"
+    },
+    "ccanh-zanes-2026-12-12-1100": {
+      "src": "/assets/event-sketches/zanes-holiday-singalong-20261019.webp",
+      "alt": "Ink-and-watercolor acoustic guitar, small hand drum, sleigh bells and evergreen sprigs on a wooden table.",
+      "width": 720,
+      "height": 480,
+      "title": "Dan & Claudia Zanes Holiday Sing-A-Long",
+      "venue": "BNH Stage",
+      "start": "2026-12-12T11:00:00-05:00",
+      "studyId": "zanes-holiday-singalong-20261019"
+    },
+    "ccanh-zanes-2026-12-12-1400": {
+      "src": "/assets/event-sketches/zanes-holiday-singalong-20261019.webp",
+      "alt": "Ink-and-watercolor acoustic guitar, small hand drum, sleigh bells and evergreen sprigs on a wooden table.",
+      "width": 720,
+      "height": 480,
+      "title": "Dan & Claudia Zanes Holiday Sing-A-Long",
+      "venue": "BNH Stage",
+      "start": "2026-12-12T14:00:00-05:00",
+      "studyId": "zanes-holiday-singalong-20261019",
+      "reusedFromEvent": "ccanh-zanes-2026-12-12-1100"
+    },
+    "quick-center-nutcracker-sensory-2026-12-13": {
+      "src": "/assets/event-sketches/connecticut-nutcracker-20261019.webp",
+      "alt": "Ink-and-watercolor ballet slippers, carved wooden nutcracker, cranberry ribbon and pine sprigs.",
+      "width": 720,
+      "height": 480,
+      "title": "Connecticut Dance School’s sensory-friendly Nutcracker",
+      "venue": "Quick Center for the Arts, Fairfield University",
+      "start": "2026-12-13T13:00:00-05:00",
+      "studyId": "connecticut-nutcracker-20261019"
+    },
+    "hanover-christmas-carol-audio-2026-12-20": {
+      "src": "/assets/event-sketches/hanover-christmas-carol-20261019.webp",
+      "alt": "Ink-and-watercolor Victorian candle lantern, brass pocket watch, holly and a closed cranberry-colored book.",
+      "width": 720,
+      "height": 480,
+      "title": "A Christmas Carol — audio-described performance",
+      "venue": "The Hanover Theatre and Conservatory",
+      "start": "2026-12-20T13:00:00-05:00",
+      "studyId": "hanover-christmas-carol-20261019"
+    },
+    "hanover-christmas-carol-asl-2026-12-20": {
+      "src": "/assets/event-sketches/hanover-christmas-carol-20261019.webp",
+      "alt": "Ink-and-watercolor Victorian candle lantern, brass pocket watch, holly and a closed cranberry-colored book.",
+      "width": 720,
+      "height": 480,
+      "title": "A Christmas Carol — ASL-interpreted performance",
+      "venue": "The Hanover Theatre and Conservatory",
+      "start": "2026-12-20T18:00:00-05:00",
+      "studyId": "hanover-christmas-carol-20261019",
+      "reusedFromEvent": "hanover-christmas-carol-audio-2026-12-20"
+    },
+    "bushnell-discover-sound-workshops-2027-02-06": {
+      "src": "/assets/event-sketches/hartford-symphony-20261019.webp",
+      "alt": "Ink-and-watercolor still life of a silver flute, black clarinet and brass French horn on a wooden table.",
+      "width": 720,
+      "height": 480,
+      "title": "Discover the Sound with Hartford Symphony — workshops",
+      "venue": "The Bushnell",
+      "start": "2027-02-06T09:45:00-05:00",
+      "studyId": "hartford-symphony-20261019"
+    },
+    "bushnell-discover-sound-performance-2027-02-06": {
+      "src": "/assets/event-sketches/hartford-symphony-20261019.webp",
+      "alt": "Ink-and-watercolor still life of a silver flute, black clarinet and brass French horn on a wooden table.",
+      "width": 720,
+      "height": 480,
+      "title": "Discover the Sound with Hartford Symphony — wind-quintet performance",
+      "venue": "The Bushnell",
+      "start": "2027-02-06T11:30:00-05:00",
+      "studyId": "hartford-symphony-20261019",
+      "reusedFromEvent": "bushnell-discover-sound-workshops-2027-02-06"
+    },
+    "bso-sensory-family-concert-2027-03-27": {
+      "src": "/assets/event-sketches/bso-family-concert-20261019.webp",
+      "alt": "Luminous ink-and-watercolor still life of a violin and bow, brass French horn, and blank concert program.",
+      "width": 720,
+      "height": 480,
+      "title": "BSO Sensory-Friendly Family Concert",
+      "venue": "Symphony Hall",
+      "start": "2027-03-27T11:00:00-04:00",
+      "studyId": "bso-family-concert-20261019"
     }
   },
   "watchlist": {
@@ -1487,5 +2135,5 @@
       "reusedFromEvent": "altitude-billerica-2026-10-10"
     }
   },
-  "updated": "2026-10-15"
+  "updated": "2026-10-19"
 }
