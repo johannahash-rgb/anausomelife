@@ -60,6 +60,10 @@ def complete_social(source):
     return source.replace('</head>',''.join(extra)+'</head>',1)
 
 def prepare(root):
+    # Render every glossary definition before indexing the finished public edition.
+    spec=importlib.util.spec_from_file_location('build_caregiver_glossary',Path(__file__).with_name('build_caregiver_glossary.py'))
+    glossary=importlib.util.module_from_spec(spec);spec.loader.exec_module(glossary)
+    glossary.build(root)
     count=0
     for page in root.rglob('*.html'):
         if any(p in {'.git','docs','tests','node_modules'} for p in page.relative_to(root).parts):continue
