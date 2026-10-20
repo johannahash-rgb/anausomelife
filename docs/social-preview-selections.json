@@ -2342,6 +2342,22 @@
       "provenance": "docs/hannaford-social-card-provenance.json",
       "kind": "original-typographic-layout",
       "selection_reason": "Reviewed original typography for an independently written family story; no synthetic picnic photo, logo or family-photo sharing grant. Original checkout photograph leads the article."
+    },
+    "minute-man-walk-great-aunt-susan.html": {
+      "image": "/assets/minute-man-susan/james-susan-trail.jpeg",
+      "alt": "James and his great-aunt Susan smiling together on a woodland path bordered by leaves and stone walls.",
+      "width": 1536,
+      "height": 1152,
+      "mime": "image/jpeg",
+      "sha256": "770bbdf44c4af6aeef251a497081a62e019dcf3d98ae629f59310946e26d76ae",
+      "card": "summary_large_image",
+      "type": "article",
+      "kind": "original-family-photograph",
+      "provenance": [
+        "User-provided IMG_0714.jpeg, authorized for this family story in the current conversation.",
+        "docs/minute-man-susan-provenance.json"
+      ],
+      "selection_reason": "Original landscape photograph of James and Great-Aunt Susan together on the trail; unchanged full frame. Story and link-preview use only; no third-party photo license."
     }
   },
   "pending": {

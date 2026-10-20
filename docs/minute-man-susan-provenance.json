@@ -1,0 +1,461 @@
+{
+  "title": "Minute Man walk with Great-Aunt Susan: original photographs and typographic social graphics",
+  "created": "2026-10-20",
+  "publication": "An AUsome Life",
+  "canonical_story": "https://anausomelife.com/minute-man-walk-great-aunt-susan.html",
+  "generator": "tools/build_minute_man_susan_social_cards.py",
+  "generator_sha256": "4843461235022b7f7e6c5e06498c2162fc96fddc7c784f29397e465605e5ef3d",
+  "method": "Original code-native typography with a fine rectangular rule and two short accent rules. Exact embedded text is rendered from a temporary vector PDF at 72 dpi. No AI image generation, source photograph, third-party illustration or logo is used in the graphics.",
+  "colors": {
+    "cream": "#f7f4ec",
+    "navy": "#173c4c",
+    "pine": "#2e513f"
+  },
+  "fonts_embedded_in_temporary_source": {
+    "SusanSerif": {
+      "filename": "LiberationSerif-Regular.ttf",
+      "sha256": "058ea80864aef09a23f45cbec2bb5400bc3dfbdea01c3f10538a21fcb497fb74",
+      "use": "Rendered text only; no font file is distributed with the graphics."
+    },
+    "SusanItalic": {
+      "filename": "LiberationSerif-Italic.ttf",
+      "sha256": "0e3dea9f8d613e006ccfa62201f33e265d19167bd0907725c3e145368b04fc2e",
+      "use": "Rendered text only; no font file is distributed with the graphics."
+    },
+    "SusanSans": {
+      "filename": "LiberationSans-Regular.ttf",
+      "sha256": "76d04c18ea243f426b7de1f3ad208e927008f961dc5945e5aad352d0dfde8ee8",
+      "use": "Rendered text only; no font file is distributed with the graphics."
+    }
+  },
+  "sources": [],
+  "family_story_uploads": [
+    {
+      "uploaded_name": "IMG_0646.jpeg",
+      "sha256": "5d5a0797e79809daec556c96745cbecdbc8ff2eaa01ce51f1406aa67949e46fb",
+      "dimensions": [
+        1152,
+        1536
+      ],
+      "bytes": 1045183,
+      "origin": "Owner-supplied original family photograph in the current conversation.",
+      "intended_use": "Editorial evidence for this family story only; excluded from downloadable graphics and organic-sharing permission.",
+      "used_in_social_downloads": false,
+      "published_story_path": null
+    },
+    {
+      "uploaded_name": "IMG_0658.jpeg",
+      "sha256": "2349a30bf322972da8373c7dd839f3110f60742dd7af32c31b9eb828d44a8ac1",
+      "dimensions": [
+        1152,
+        1536
+      ],
+      "bytes": 1045796,
+      "origin": "Owner-supplied original family photograph in the current conversation.",
+      "intended_use": "Editorial evidence for this family story only; excluded from downloadable graphics and organic-sharing permission.",
+      "used_in_social_downloads": false,
+      "published_story_path": null
+    },
+    {
+      "uploaded_name": "IMG_0670.jpeg",
+      "sha256": "02fa28c7594e3454ef8bf7fde8be286c014c9f5178d9eae62fdf00c9ba2b7c31",
+      "dimensions": [
+        1536,
+        1152
+      ],
+      "bytes": 1018780,
+      "origin": "Owner-supplied original family photograph in the current conversation.",
+      "intended_use": "Editorial evidence for this family story only; excluded from downloadable graphics and organic-sharing permission.",
+      "used_in_social_downloads": false,
+      "published_story_path": null
+    },
+    {
+      "uploaded_name": "IMG_0694.jpeg",
+      "sha256": "a156fcdd56edf32355cb729941394e2504e4eac6976d90ab136ecafd4e2bd78a",
+      "dimensions": [
+        1536,
+        1152
+      ],
+      "bytes": 1047459,
+      "origin": "Owner-supplied original family photograph in the current conversation.",
+      "intended_use": "Editorial evidence for this family story only; excluded from downloadable graphics and organic-sharing permission.",
+      "used_in_social_downloads": false,
+      "published_story_path": "assets/minute-man-susan/james-susan-laughing.jpeg"
+    },
+    {
+      "uploaded_name": "IMG_0706.jpeg",
+      "sha256": "2da82d565e4455ced63ce4ea0b1536a201015536c9abf469e9b4fd8e335842bf",
+      "dimensions": [
+        1536,
+        1152
+      ],
+      "bytes": 1019848,
+      "origin": "Owner-supplied original family photograph in the current conversation.",
+      "intended_use": "Editorial evidence for this family story only; excluded from downloadable graphics and organic-sharing permission.",
+      "used_in_social_downloads": false,
+      "published_story_path": null
+    },
+    {
+      "uploaded_name": "IMG_0714.jpeg",
+      "sha256": "770bbdf44c4af6aeef251a497081a62e019dcf3d98ae629f59310946e26d76ae",
+      "dimensions": [
+        1536,
+        1152
+      ],
+      "bytes": 1025547,
+      "origin": "Owner-supplied original family photograph in the current conversation.",
+      "intended_use": "Editorial evidence for this family story only; excluded from downloadable graphics and organic-sharing permission.",
+      "used_in_social_downloads": false,
+      "published_story_path": "assets/minute-man-susan/james-susan-trail.jpeg"
+    },
+    {
+      "uploaded_name": "IMG_0604.jpeg",
+      "sha256": "b26f19113fa0db416902eb8415aa47bd59c263331caff34d27d7ece62970f144",
+      "dimensions": [
+        1152,
+        1536
+      ],
+      "bytes": 1038084,
+      "origin": "Owner-supplied original family photograph in the current conversation.",
+      "intended_use": "Editorial evidence for this family story only; excluded from downloadable graphics and organic-sharing permission.",
+      "used_in_social_downloads": false,
+      "published_story_path": null
+    },
+    {
+      "uploaded_name": "IMG_0588.jpeg",
+      "sha256": "5e2f2934773ec9a07717f6198da3105bc1678672dd8161da1d37068a85e27291",
+      "dimensions": [
+        1152,
+        1536
+      ],
+      "bytes": 1029737,
+      "origin": "Owner-supplied original family photograph in the current conversation.",
+      "intended_use": "Editorial evidence for this family story only; excluded from downloadable graphics and organic-sharing permission.",
+      "used_in_social_downloads": false,
+      "published_story_path": null
+    },
+    {
+      "uploaded_name": "IMG_0603.jpeg",
+      "sha256": "bd37020e5ee7c65fdc7b06cf883aba6e1d84d6533874d928cb7bee31e87bf663",
+      "dimensions": [
+        1152,
+        1536
+      ],
+      "bytes": 1038977,
+      "origin": "Owner-supplied original family photograph in the current conversation.",
+      "intended_use": "Editorial evidence for this family story only; excluded from downloadable graphics and organic-sharing permission.",
+      "used_in_social_downloads": false,
+      "published_story_path": null
+    },
+    {
+      "uploaded_name": "IMG_0620.jpeg",
+      "sha256": "ce70d905962aa8a7280496f93ea4827bb6ae0ce8477312ed680d369285a00dd0",
+      "dimensions": [
+        1152,
+        1536
+      ],
+      "bytes": 1048146,
+      "origin": "Owner-supplied original family photograph in the current conversation.",
+      "intended_use": "Editorial evidence for this family story only; excluded from downloadable graphics and organic-sharing permission.",
+      "used_in_social_downloads": false,
+      "published_story_path": "assets/minute-man-susan/james-susan-tree.jpeg"
+    }
+  ],
+  "story_photographs": [
+    {
+      "path": "assets/minute-man-susan/james-susan-laughing.jpeg",
+      "uploaded_name": "IMG_0694.jpeg",
+      "sha256": "a156fcdd56edf32355cb729941394e2504e4eac6976d90ab136ecafd4e2bd78a",
+      "dimensions": [
+        1536,
+        1152
+      ],
+      "bytes": 1047459,
+      "publication_basis": "Owner-uploaded photograph and current-session instruction to publish this family story with its images.",
+      "transformations": "None. Original bytes, proportions and pixels retained.",
+      "scope": "This article and its site-controlled article-link preview only. No standalone download/repost license, paid advertising, or unrelated reuse is granted."
+    },
+    {
+      "path": "assets/minute-man-susan/james-susan-trail.jpeg",
+      "uploaded_name": "IMG_0714.jpeg",
+      "sha256": "770bbdf44c4af6aeef251a497081a62e019dcf3d98ae629f59310946e26d76ae",
+      "dimensions": [
+        1536,
+        1152
+      ],
+      "bytes": 1025547,
+      "publication_basis": "Owner-uploaded photograph and current-session instruction to publish this family story with its images.",
+      "transformations": "None. Original bytes, proportions and pixels retained.",
+      "scope": "This article and its site-controlled article-link preview only. No standalone download/repost license, paid advertising, or unrelated reuse is granted."
+    },
+    {
+      "path": "assets/minute-man-susan/james-susan-tree.jpeg",
+      "uploaded_name": "IMG_0620.jpeg",
+      "sha256": "ce70d905962aa8a7280496f93ea4827bb6ae0ce8477312ed680d369285a00dd0",
+      "dimensions": [
+        1152,
+        1536
+      ],
+      "bytes": 1048146,
+      "publication_basis": "Owner-uploaded photograph and current-session instruction to publish this family story with its images.",
+      "transformations": "None. Original bytes, proportions and pixels retained.",
+      "scope": "This article and its site-controlled article-link preview only. No standalone download/repost license, paid advertising, or unrelated reuse is granted."
+    }
+  ],
+  "new_generation": false,
+  "family_photographs_used_in_social_downloads": false,
+  "venue_logos_used_in_social_downloads": false,
+  "brand_logos_used_in_social_downloads": false,
+  "third_party_artwork_used": false,
+  "layout_reasoning": [
+    "Large navy serif type, pine secondary text and generous cream space preserve the restrained New England identity.",
+    "The user's own closing thought carries the story without diagnosis-led promotion or a claim about therapeutic results.",
+    "The title and family/Minute Man subtitle are readable as a standalone invitation to the story.",
+    "The tall graphic keeps all essential text within a 220-pixel top and 280-pixel bottom safe area; this is a design choice, not a platform-wide guarantee.",
+    "The graphics are publication-created promotional text cards, distinct from documentary family photographs and functional communication cards."
+  ],
+  "scoped_organic_sharing_intent": {
+    "assets_only": [
+      "assets/social/minute-man-susan-feed.png",
+      "assets/social/minute-man-susan-story.png"
+    ],
+    "permitted_intended_use": "Share these two exact finished PNGs unchanged in organic social posts or Stories, retaining all embedded text and An AUsome Life credit. Accompany each shared graphic with An AUsome Life / @anausomelife credit and a link to https://anausomelife.com/minute-man-walk-great-aunt-susan.html.",
+    "scope_limits": "Only the two named finished PNGs are covered. No rights are granted to family photographs, other website images or downloads, the archive, third-party logos, source files, edits, paid advertising, merchandising, or presentation as an official park partnership or endorsement. No rights beyond those controlled by the publication are granted.",
+    "authorization_basis": "Current-session owner-directed publication and sharing package, plus the standing requirement to prepare reviewed original social assets for each comparable outing story. These are newly authored typographic compositions with no third-party imagery."
+  },
+  "outputs": [
+    {
+      "path": "assets/social/minute-man-susan-feed.png",
+      "dimensions": [
+        1080,
+        1350
+      ],
+      "sha256": "2724c6ca49fe8fbf46ad39610ba746e202a98f0ed59f306dc213e3716d0ed28f",
+      "bytes": 73159,
+      "alt_text": "Cream typographic card with a fine navy border and pine-green rules. An AUsome Life appears above the large navy serif title, A Little Way Down the Trail. The subtitle reads: James, Great-Aunt Susan, and a short walk at Minute Man. Below, italic text reads: We didn’t go far that day. In many ways, we did. The footer is anausomelife.com. No photographs or illustrations appear.",
+      "critical_safe_area": {
+        "top_px": 80,
+        "bottom_px": 80,
+        "side_px": 100
+      }
+    },
+    {
+      "path": "assets/social/minute-man-susan-story.png",
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "sha256": "d9ba816053af6e1a83e16c8780c177529bc27fca4c11c99e9235d9e68824842b",
+      "bytes": 78608,
+      "alt_text": "Cream typographic card with a fine navy border and pine-green rules. An AUsome Life appears above the large navy serif title, A Little Way Down the Trail. The subtitle reads: James, Great-Aunt Susan, and a short walk at Minute Man. Below, italic text reads: We didn’t go far that day. In many ways, we did. The footer is anausomelife.com. No photographs or illustrations appear.",
+      "critical_safe_area": {
+        "top_px": 220,
+        "bottom_px": 280,
+        "side_px": 100
+      }
+    }
+  ],
+  "layout_bounds": {
+    "feed": [
+      {
+        "text": "An AUsome Life",
+        "font_px": 43,
+        "font": "SusanSerif",
+        "tracking_px": 0,
+        "bounds": [
+          390.73,
+          130.19,
+          689.27,
+          169.28
+        ]
+      },
+      {
+        "text": "A Little Way",
+        "font_px": 111,
+        "font": "SusanSerif",
+        "tracking_px": 0,
+        "bounds": [
+          247.19,
+          321.04,
+          832.81,
+          421.96
+        ]
+      },
+      {
+        "text": "Down the Trail",
+        "font_px": 111,
+        "font": "SusanSerif",
+        "tracking_px": 0,
+        "bounds": [
+          200.93,
+          435.04,
+          879.07,
+          535.96
+        ]
+      },
+      {
+        "text": "James, Great-Aunt Susan,",
+        "font_px": 38,
+        "font": "SusanSans",
+        "tracking_px": 0,
+        "bounds": [
+          316.12,
+          605.33,
+          763.88,
+          641.0
+        ]
+      },
+      {
+        "text": "and a short walk at Minute Man",
+        "font_px": 38,
+        "font": "SusanSans",
+        "tracking_px": 0,
+        "bounds": [
+          275.98,
+          658.33,
+          804.02,
+          694.0
+        ]
+      },
+      {
+        "text": "We didn’t go far that day.",
+        "font_px": 49,
+        "font": "SusanItalic",
+        "tracking_px": 0,
+        "bounds": [
+          286.87,
+          880.98,
+          793.13,
+          925.58
+        ]
+      },
+      {
+        "text": "In many ways, we did.",
+        "font_px": 49,
+        "font": "SusanItalic",
+        "tracking_px": 0,
+        "bounds": [
+          322.25,
+          945.98,
+          757.75,
+          990.58
+        ]
+      },
+      {
+        "text": "anausomelife.com",
+        "font_px": 31,
+        "font": "SusanSans",
+        "tracking_px": 1,
+        "bounds": [
+          406.71,
+          1177.43,
+          673.29,
+          1206.52
+        ]
+      }
+    ],
+    "story": [
+      {
+        "text": "An AUsome Life",
+        "font_px": 43,
+        "font": "SusanSerif",
+        "tracking_px": 0,
+        "bounds": [
+          390.73,
+          270.19,
+          689.27,
+          309.28
+        ]
+      },
+      {
+        "text": "A Little Way",
+        "font_px": 115,
+        "font": "SusanSerif",
+        "tracking_px": 0,
+        "bounds": [
+          236.64,
+          522.26,
+          843.36,
+          626.82
+        ]
+      },
+      {
+        "text": "Down the Trail",
+        "font_px": 115,
+        "font": "SusanSerif",
+        "tracking_px": 0,
+        "bounds": [
+          188.71,
+          642.26,
+          891.29,
+          746.82
+        ]
+      },
+      {
+        "text": "James, Great-Aunt Susan,",
+        "font_px": 40,
+        "font": "SusanSans",
+        "tracking_px": 0,
+        "bounds": [
+          304.34,
+          830.88,
+          775.66,
+          868.42
+        ]
+      },
+      {
+        "text": "and a short walk at Minute Man",
+        "font_px": 40,
+        "font": "SusanSans",
+        "tracking_px": 0,
+        "bounds": [
+          262.08,
+          886.88,
+          817.92,
+          924.42
+        ]
+      },
+      {
+        "text": "We didn’t go far that day.",
+        "font_px": 52,
+        "font": "SusanItalic",
+        "tracking_px": 0,
+        "bounds": [
+          271.37,
+          1163.89,
+          808.63,
+          1211.22
+        ]
+      },
+      {
+        "text": "In many ways, we did.",
+        "font_px": 52,
+        "font": "SusanItalic",
+        "tracking_px": 0,
+        "bounds": [
+          308.92,
+          1233.89,
+          771.08,
+          1281.22
+        ]
+      },
+      {
+        "text": "anausomelife.com",
+        "font_px": 31,
+        "font": "SusanSans",
+        "tracking_px": 1,
+        "bounds": [
+          406.71,
+          1517.43,
+          673.29,
+          1546.52
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "automated": "Exact text extracted from both vector pages; bounds and separation of every text line checked; final PNG format, dimensions and output hashes verified. Original upload and story-copy hashes checked when the source files are available.",
+    "visual_review": "Both final 1080 by 1350 and 1080 by 1920 PNGs visually inspected on October 20, 2026. Title, exact family/Minute Man subtitle, closing thought, credit and domain are legible and unclipped. Spacing and rules are balanced; no text overlaps or unexpected glyphs were observed. The tall layout keeps all essential text inside the declared safe area. Neither graphic contains family photographs, illustrations or venue logos."
+  },
+  "hosting": "Only the story's selected photographs and two PNG graphics are public assets. This provenance and its reproducible source remain internal."
+}

@@ -24,6 +24,10 @@
     "bristol-waterfront-family.html": {
       "provenance": "docs/bristol-waterfront-provenance.json",
       "reviewed": "2026-10-19"
+    },
+    "minute-man-walk-great-aunt-susan.html": {
+      "provenance": "docs/minute-man-susan-provenance.json",
+      "reviewed": "2026-10-20"
     }
   }
 }
