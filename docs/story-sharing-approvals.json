@@ -32,6 +32,10 @@
     "omars-lexington-superpower-belonging.html": {
       "provenance": "docs/omars-provenance.json",
       "reviewed": "2026-10-21"
+    },
+    "a-camping-swing-very-much-at-home.html": {
+      "provenance": "docs/camping-swing-sharing-provenance.json",
+      "reviewed": "2026-10-21"
     }
   }
 }
