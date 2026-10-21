@@ -16,33 +16,104 @@ jobs:
       - uses: actions/checkout@v6
         with:
           ref: main
-      - name: Import and verify exact owner-uploaded JPEG
-        env:
-          PHOTO_URL: https://at.adobe.com/WDAmUw605uxpaKdy
+      - name: Complete the original-photo publication
         run: |
           python - <<'PY'
-          import hashlib, os, pathlib, urllib.request
-          path = pathlib.Path('assets/camping-swing/sunroom-stuffed-animals.jpeg')
+          import hashlib, html, json, pathlib, re
+          from html.parser import HTMLParser
+          photo = pathlib.Path('assets/camping-swing/sunroom-stuffed-animals.jpeg')
+          data = photo.read_bytes()
           expected = '8134b58f19663fa845ad089cdc4b3dd6821afc115ee310ee7adaeb1415c9bbfc'
-          if path.exists():
-              data = path.read_bytes()
-          else:
-              with urllib.request.urlopen(os.environ['PHOTO_URL'], timeout=60) as response:
-                  data = response.read(2000000)
-          assert len(data) == 687930, 'Photo size differs from supplied original'
-          assert hashlib.sha256(data).hexdigest() == expected, 'Photo hash differs from supplied original'
-          assert data.startswith(b'\xff\xd8\xff'), 'Expected original JPEG'
-          path.parent.mkdir(parents=True, exist_ok=True)
-          path.write_bytes(data)
-          print('Verified original photograph:', path, len(data), 'bytes')
+          assert len(data) == 687930 and hashlib.sha256(data).hexdigest() == expected
+          src = '/' + photo.as_posix()
+          image_url = 'https://anausomelife.com' + src
+          name = 'a-camping-swing-very-much-at-home.html'
+          canonical = 'https://anausomelife.com/' + name
+          alt = 'Blue hammock-style camping chair filled with stuffed animals beside tall sunroom windows, with folded quilts behind it.'
+          caption = 'Our Walmart camping swing, already full of stuffed animals, just after we moved in.'
+          page = pathlib.Path(name)
+          source = page.read_text()
+          match = re.search(r'<header class="wrap fn-cover"[^>]*>(.*?)</header>', source, re.S)
+          assert match, 'Expected article cover not found'
+          if src not in match.group(0):
+              cover = '<header class="wrap fn-cover"><div class="fn-cover-copy">' + match.group(1) + '</div><figure class="fn-photo"><img src="' + src + '" alt="' + html.escape(alt, quote=True) + '" width="1152" height="1536" loading="eager" decoding="async" fetchpriority="high" style="width:100%;height:auto;object-fit:contain"><figcaption>' + caption + '</figcaption></figure></header>'
+              source = source[:match.start()] + cover + source[match.end():]
+          tags = {
+              'og:image': image_url,
+              'og:image:secure_url': image_url,
+              'og:image:type': 'image/jpeg',
+              'og:image:width': '1152',
+              'og:image:height': '1536',
+              'og:image:alt': alt,
+              'twitter:card': 'summary_large_image',
+              'twitter:title': 'A camping swing, very much at home',
+              'twitter:description': 'An older moving-in photograph, a Walmart camping swing we love, and a seat full of stuffed animals. From the An AUsome Life family notebook.',
+              'twitter:image': image_url,
+              'twitter:image:alt': alt,
+              'article:published_time': '2026-10-21'
+          }
+          for key, value in tags.items():
+              source = re.sub(r'<meta\b[^>]*(?:name|property)="' + re.escape(key) + r'"[^>]*>\s*', '', source)
+          metadata = '\n'.join('<meta ' + ('name' if key.startswith('twitter:') else 'property') + '="' + key + '" content="' + html.escape(value, quote=True) + '">' for key, value in tags.items())
+          source = source.replace('</head>', metadata + '\n</head>', 1)
+          source = source.replace('This is an independent family memory, not a paid endorsement or a claim of therapeutic benefit. No affiliate link is included.', 'This is our family experience, not a claim of therapeutic benefit. No affiliate link is included.')
+          page.write_text(source)
+          journal = pathlib.Path('blog.html')
+          original = journal.read_text()
+          pattern = r'(<a class="journal-recent-link" href="/' + re.escape(name) + r'"[^>]*>)(.*?)(</a>)'
+          found = re.search(pattern, original, re.S)
+          assert found, 'Existing journal entry not found'
+          if src not in found.group(0):
+              figure = '<figure class="journal-recent-photo"><img src="' + src + '" alt="' + html.escape(alt, quote=True) + '" width="1152" height="1536" loading="lazy" decoding="async" style="object-fit:contain"></figure>'
+              updated = original[:found.start()] + found.group(1) + figure + found.group(2) + found.group(3) + original[found.end():]
+              journal.write_text(updated)
+          provenance = pathlib.Path('docs/camping-swing-sharing-provenance.json')
+          record = json.loads(provenance.read_text())
+          record['title'] = 'Camping swing story: original photograph and link-only sharing'
+          record['story_photographs'] = [{
+              'path': photo.as_posix(),
+              'uploaded_name': '30E99C79-C90B-427E-8B15-931D9EF75C86.jpeg',
+              'sha256': expected,
+              'dimensions': [1152, 1536],
+              'bytes': len(data),
+              'publication_basis': 'Owner supplied this original photograph and explicitly instructed using it for this article.',
+              'transformations': 'None. The original JPEG bytes, image proportions and pixels are preserved.',
+              'scope': 'Article lead image, its journal entry and site-controlled article-link preview only. No standalone reuse license, paid-advertising rights or archive-wide permission.',
+              'alt_text': alt
+          }]
+          provenance.write_text(json.dumps(record, ensure_ascii=False, indent=2) + '\n')
+          sitemap = pathlib.Path('sitemap.xml')
+          text = sitemap.read_text()
+          if canonical not in text:
+              sitemap.write_text(text.replace('</urlset>', '<url><loc>' + canonical + '</loc><lastmod>2026-10-21</lastmod></url>\n</urlset>'))
+          class Inspect(HTMLParser):
+              def __init__(self): super().__init__(); self.images=[]; self.headings=0
+              def handle_starttag(self, tag, attrs):
+                  attrs=dict(attrs)
+                  if tag=='img': self.images.append(attrs)
+                  if tag=='h1': self.headings+=1
+          for filename in [name, 'blog.html']:
+              parsed=Inspect(); parsed.feed(pathlib.Path(filename).read_text())
+              matching=[image for image in parsed.images if image.get('src')==src]
+              assert len(matching)==1, filename + ': expected one original photograph'
+              assert matching[0].get('width')=='1152' and matching[0].get('height')=='1536'
+              assert matching[0].get('alt')==alt
+              assert parsed.headings==1, filename + ': expected one page headline'
+          print('Verified original photo, article hero, journal image, metadata and scoped provenance.')
           PY
-      - name: Save only the verified photograph
+      - name: Run existing publication checks
+        run: |
+          python -m pip install --quiet Pillow lxml
+          python tools/check_editorial_rights.py
+          python tools/check_story_sharing.py
+          python tests/test_story_sharing.py
+      - name: Save only the requested publication updates
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add -- assets/camping-swing/sunroom-stuffed-animals.jpeg
+          git add -- a-camping-swing-very-much-at-home.html blog.html docs/camping-swing-sharing-provenance.json sitemap.xml
           if git diff --cached --quiet; then exit 0; fi
-          git commit -m 'Add original family camping swing photograph without pixel changes'
+          git commit -m 'Feature original camping swing photo in article and journal with descriptive alt text'
           for attempt in 1 2 3; do
             git pull --rebase origin main
             if git push origin HEAD:main; then exit 0; fi
