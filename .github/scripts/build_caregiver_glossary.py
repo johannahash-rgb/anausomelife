@@ -242,6 +242,7 @@ def build(root):
     text=re.sub(r'<details class="cg-mobile-start".*?</details>', '', text, flags=re.S)
     text=re.sub(r'<aside class="cg-sidebar".*?</aside>', '', text, flags=re.S)
     text=re.sub(r'(<nav class="cg-alphabet".*?</nav>)', r'<details class="cg-letter-menu" data-js><summary>Browse A–Z</summary>\1</details>', text, flags=re.S)
+    # Original glossary-only artwork; do not reuse navigation illustrations.
     topics=[('communication','Communication','AAC, speech & being understood','communication'),('school','School & IEPs','Meetings, services & useful questions','school'),('distress','When things feel harder','Sensory needs, distress & health','sensory'),('adult','Care & adult life','Daily support, choices & planning','adult')]
     tiles=''.join('<button type="button" data-route="'+key+'"><img src="/assets/glossary-watercolors/'+image+'-320.webp" width="100" height="100" alt=""><span><b>'+title+'</b><small>'+description+'</small></span><span class="cg-tile-arrow" aria-hidden="true">↗</span></button>' for key,title,description,image in topics)
     entrance='<section class="cg-visual-topics cg-wrap" aria-labelledby="cg-visual-title" data-js><div class="cg-visual-heading"><h2 id="cg-visual-title">Start with what you need.</h2><span>Choose a path, or search below.</span></div><nav aria-label="Choose a glossary starting point">'+tiles+'</nav><p class="cg-visual-note"><a href="#autistic-self-advocacy">Autistic perspectives & supported self-advocacy ↗</a><span>201 terms · no account needed</span></p></section>'
