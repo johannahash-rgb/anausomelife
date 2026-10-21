@@ -85,6 +85,7 @@ def render(root,terms):
     names={t['term']:t for t in terms}
     aliases=dict(legacy.ALIASES)
     aliases.update({'HCBS':'HCBS / Medicaid waiver','FCT':'Functional Communication Training (FCT)','Dysphagia':'Dysphagia / swallowing difficulty','DLD':'Developmental language disorder (DLD)','PDA':'Demand avoidance / PDA','SLP':'Speech-language pathologist (SLP)','OT':'Occupational therapy (OT)','PT':'Physical therapy (PT)','BCBA':'BCBA & RBT','RBT':'BCBA & RBT','DSP':'Direct support professional (DSP)','504':'Section 504 plan','SDM':'Supported decision-making','N1':'Massachusetts N1 & N2 notices','N2':'Massachusetts N1 & N2 notices','688':'Massachusetts transition: age 14 & Chapter 688','nonverbal':'Nonspeaking / cannot rely on speech alone','multiple modality communication':'Multimodal communication'})
+    aliases.update({'bilingual':'Multilingual communication & AAC','home language':'Multilingual communication & AAC','easy read':'Plain language & Easy Read','self advocacy':'Self-advocacy & supported self-advocacy','high functioning':'High support needs','low functioning':'High support needs','mental age':'Age-respectful support','non verbal':'Nonspeaking / cannot rely on speech alone'})
     def resolve(q):
         q=aliases.get(q,q)
         if q in names:return names[q]
