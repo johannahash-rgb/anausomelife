@@ -3,7 +3,7 @@
 import argparse,re,html,importlib.util
 from html.parser import HTMLParser
 from pathlib import Path
-VERSION='20261021-authors-ridge-cards'
+VERSION='20261021-glossary-links'
 VERSIONED_ASSETS=(
     'editorial.css','global-nav.js','access-tools.css','access-tools.js',
     'reader-pathways.css','brand-design.css','brand-banner.css','brand-banner.js',
@@ -69,6 +69,17 @@ def prepare(root):
         if any(p in {'.git','docs','tests','node_modules'} for p in page.relative_to(root).parts):continue
         s=page.read_text(encoding='utf-8');before=s
         s=readable_heading_breaks(s)
+        # Preserve a static glossary link in the shared footer.
+        def glossary_footer(match):
+            footer=match[0]
+            if 'href="/caregiver-glossary.html"' not in footer:
+                footer=re.sub(r'(<nav\b[^>]*aria-label="Footer navigation"[^>]*>)',r'\1<a href="/caregiver-glossary.html">Caregiver glossary</a>',footer,count=1)
+            return footer
+        s=re.sub(r'<footer\b.*?</footer>',glossary_footer,s,flags=re.S)
+        if page.relative_to(root).as_posix()=='family-roles.html':
+            item='<li><a href="/caregiver-glossary.html">Understand autism, AAC &amp; IEP terms</a></li>'
+            if item not in s:
+                s=s.replace('<li><a href="/caregiver-handover-guide.html">',item+'<li><a href="/caregiver-handover-guide.html">',1)
         if page.relative_to(root).as_posix()=='blog.html':
             s=pin_journal_stories(s)
         s=complete_social(s)
