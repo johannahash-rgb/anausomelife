@@ -41,6 +41,30 @@ class SocialMetadataTests(unittest.TestCase):
         with self.assertRaises(ValueError):
             social.render(self.source.replace('https://anausomelife.com/example.html', 'https://other.example/page'), self.choice)
 
+    def test_check_rejects_style_appended_after_canonical_metadata(self):
+        canonical = social.render(self.source, self.choice)
+        style = '<style>.story { display: grid; }</style>'
+        edited = canonical.replace('</head>', style + '</head>')
+        # Correct values alone must not pass after a later page edit moves the block.
+        self.assertEqual(social.desired_metadata(edited, self.choice)[2],
+                         social.desired_metadata(canonical, self.choice)[2])
+        with tempfile.TemporaryDirectory() as folder:
+            root = Path(folder)
+            asset = root / self.choice['image'].lstrip('/')
+            asset.parent.mkdir(parents=True)
+            shutil.copyfile(ROOT / self.choice['image'].lstrip('/'), asset)
+            page = root / 'example.html'; page.write_text(edited)
+            selections = {'pages': {'example.html': self.choice}}
+            result = social.apply(root, selections, check=True)
+            self.assertTrue(any('canonical metadata output' in e for e in result['errors']))
+            self.assertEqual(page.read_text(), edited)
+            self.assertEqual(social.apply(root, selections)['changed'], 1)
+            repaired = page.read_text()
+            self.assertIn(style, repaired)
+            self.assertEqual(repaired.split('</head>')[1], edited.split('</head>')[1])
+            self.assertEqual(social.apply(root, selections, check=True)['errors'], [])
+            self.assertEqual(social.apply(root, selections)['changed'], 0)
+
     def test_missing_asset_wrong_dimensions_mime_and_changed_bytes_fail(self):
         for key, value in [('image','/assets/does-not-exist.jpg'), ('width',1),
                            ('mime','image/png'), ('sha256','0' * 64), ('alt','')]:

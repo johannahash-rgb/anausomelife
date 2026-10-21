@@ -127,6 +127,8 @@ def check_metadata(source, choice):
     failures = [f'{key}: missing, duplicated or different from reviewed value'
                 for key, value in values.items() if parsed.meta.get(key) != [value]]
     failures += [f'{key}: obsolete duplicate image tag' for key in MANAGED - values.keys() if key in parsed.meta]
+    if render(source, choice) != source:
+        failures.append('HTML differs from canonical metadata output; run enrich_social_meta.py --root . after page generators')
     return failures
 
 def apply(root, selections, check=False):
