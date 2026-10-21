@@ -92,7 +92,31 @@ jobs:
         uses: actions/upload-pages-artifact@v4
         with:
           path: "_site"
+          name: github-pages-${{ github.run_id }}-${{ github.run_attempt }}
+
+      - name: Wait for the branch-based Pages build
+        env:
+          PUBLISH_REPOSITORY: ${{ github.repository }}
+          PUBLISH_COMMIT: ${{ github.sha }}
+        run: |
+          python - <<'PYWAIT'
+          import json, os, time, urllib.request
+          endpoint = 'https://api.github.com/repos/' + os.environ['PUBLISH_REPOSITORY'] + '/actions/runs?head_sha=' + os.environ['PUBLISH_COMMIT'] + '&per_page=100'
+          for attempt in range(36):
+              request = urllib.request.Request(endpoint, headers={'Accept': 'application/vnd.github+json', 'User-Agent': 'An-AUsome-Life-publisher'})
+              with urllib.request.urlopen(request, timeout=30) as response:
+                  runs = json.load(response)['workflow_runs']
+              branch_runs = [run for run in runs if run['name'] == 'pages build and deployment']
+              if all(run['status'] == 'completed' for run in branch_runs):
+                  print('Branch-based Pages builds have finished; publishing the prepared edition.')
+                  break
+              time.sleep(10)
+          else:
+              raise SystemExit('Branch-based Pages build is still active; refusing competing publication.')
+          PYWAIT
 
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+        with:
+          artifact_name: github-pages-${{ github.run_id }}-${{ github.run_attempt }}
