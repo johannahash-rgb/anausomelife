@@ -288,6 +288,9 @@ organize-actions|checklist,steps
 language-development|letters,plant'''
 
 def spec_for(term):
+    inclusive={'Multilingual communication & AAC':'device,dialogue,home','Plain language & Easy Read':'book,document,magnify','Self-advocacy & supported self-advocacy':'person,speech,support'}
+    if term['term'] in inclusive:return inclusive[term['term']]
+
     if term.get('icon_key'):
         table=dict(line.strip().split('|',1) for line in NEW.splitlines() if line.strip())
         return table[term['icon_key']]
