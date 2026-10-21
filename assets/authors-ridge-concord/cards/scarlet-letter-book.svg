@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="800" viewBox="0 0 800 800" role="img" aria-labelledby="title description">
+  <title id="title">The Scarlet Letter by Nathaniel Hawthorne: original book symbol</title>
+  <desc id="description">One closed cranberry clothbound book on a plain white background. Its cover carries the title The Scarlet Letter and author Nathaniel Hawthorne. This is a purpose-designed communication symbol, not a reproduction of a published edition.</desc>
+  <defs>
+    <linearGradient id="cloth" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#763D47"/>
+      <stop offset="0.48" stop-color="#8B5159"/>
+      <stop offset="1" stop-color="#763D47"/>
+    </linearGradient>
+    <linearGradient id="spine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#4E2730"/>
+      <stop offset="0.58" stop-color="#763D47"/>
+      <stop offset="1" stop-color="#4E2730"/>
+    </linearGradient>
+    <pattern id="weave" width="8" height="8" patternUnits="userSpaceOnUse">
+      <path d="M0 2H8M2 0V8" stroke="#FFFFFF" stroke-width="0.6" opacity="0.055"/>
+      <path d="M0 6H8M6 0V8" stroke="#000000" stroke-width="0.6" opacity="0.04"/>
+    </pattern>
+  </defs>
+  <rect width="800" height="800" fill="#FFFFFF"/>
+  <!-- Rear board and naturally visible page block. -->
+  <path d="M188 123H623Q632 123 632 133V673Q632 684 621 684H191Q172 684 172 664V144Q172 123 188 123Z" fill="#4E2730" stroke="#4E2730" stroke-width="3"/>
+  <path d="M202 128H620V663Q620 670 612 670H201Q187 670 187 657V142Q187 128 202 128Z" fill="#F2EEE2" stroke="#B5AD9E" stroke-width="2"/>
+  <path d="M603 140H615V657H206" fill="none" stroke="#D3CABA" stroke-width="2"/>
+  <path d="M609 147V650M207 663H613M211 655H603" fill="none" stroke="#CCC2B1" stroke-width="1.5"/>
+  <path d="M615 144V660" fill="none" stroke="#FFFFFF" stroke-width="2"/>
+  <!-- Cover, rounded cloth spine and restrained gilt frame. -->
+  <path d="M193 107H596Q604 107 604 115V641Q604 649 596 649H192Q169 649 169 627V130Q169 107 193 107Z" fill="url(#cloth)" stroke="#4E2730" stroke-width="3"/>
+  <path d="M193 107H215V649H192Q169 649 169 627V130Q169 107 193 107Z" fill="url(#spine)"/>
+  <path d="M217 112V644" stroke="#4E2730" stroke-width="4" opacity="0.6"/>
+  <path d="M222 114V642" stroke="#FFFFFF" stroke-width="1.5" opacity="0.13"/>
+  <rect x="225" y="113" width="371" height="528" fill="url(#weave)"/>
+  <path d="M239 133H577V623H239" fill="none" stroke="#D7BE83" stroke-width="2" opacity="0.7"/>
+  <path d="M245 140H570V616H245" fill="none" stroke="#D7BE83" stroke-width="0.8" opacity="0.45"/>
+  <path d="M179 164H207M179 171H207M179 579H207M179 586H207" stroke="#D7BE83" stroke-width="2" opacity="0.55"/>
+  <path d="M353 185H461" stroke="#E7D4A6" stroke-width="2"/>
+  <g fill="#FFF7E5" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="66" font-weight="400">
+    <text x="407" y="241" font-size="38">The</text>
+    <text x="407" y="313">Scarlet</text>
+    <text x="407" y="385">Letter</text>
+  </g>
+  <path d="M380 430H434" stroke="#E7D4A6" stroke-width="2"/>
+  <g fill="#FFF7E5" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="29" font-weight="400">
+    <text x="407" y="481">Nathaniel</text>
+    <text x="407" y="520">Hawthorne</text>
+  </g>
+  <path d="M369 561H445" stroke="#E7D4A6" stroke-width="1.8"/>
+  <path d="M401 561L407 555L413 561L407 567Z" fill="#E7D4A6"/>
+</svg>

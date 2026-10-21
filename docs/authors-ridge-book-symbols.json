@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-10-21",
+  "collection": "Authors’ Ridge — original book communication symbols",
+  "publication": "An AUsome Life",
+  "note": "Internal provenance record. Common card renderer supplies the separate visible card label; these assets contain only the book object and on-cover text.",
+  "assets": [
+    {
+      "file": "assets/authors-ridge-concord/cards/little-women-book.svg",
+      "title": "Little Women",
+      "author": "Louisa May Alcott",
+      "description": "Original navy closed clothbound book symbol on white with title and author attribution on its cover.",
+      "dimensions": {
+        "width": 800,
+        "height": 800
+      },
+      "format": "image/svg+xml",
+      "sha256": "737e278347c538e2886360a0eb6b94849003314f567a69f175c4b1f848f83fc7",
+      "source": "Original SVG paths, gradients, texture and typography authored for An AUsome Life on 2026-10-21.",
+      "rights_basis": "Original design created for this publication. No third-party photographs, stock art, commercial cover artwork, publisher marks or copied edition designs are incorporated. Title and author name serve factual identification.",
+      "intended_use": "Picture communication card in the Authors’ Ridge story, card library and downloadable printable set.",
+      "disclosure": "Purpose-designed book symbol; not a replica or photograph of an actual edition.",
+      "qa": {
+        "svg_xml": "passed",
+        "rendered_visual_review": "passed at 800 × 800 using CairoSVG export; complete object, readable title and author, plain white background, no added external label",
+        "reviewed_at": "2026-10-21"
+      }
+    },
+    {
+      "file": "assets/authors-ridge-concord/cards/walden-book.svg",
+      "title": "Walden",
+      "author": "Henry David Thoreau",
+      "description": "Original pine green closed clothbound book symbol on white with title and author attribution on its cover.",
+      "dimensions": {
+        "width": 800,
+        "height": 800
+      },
+      "format": "image/svg+xml",
+      "sha256": "19e6e4ef0b835345d09becf6d7dfe9ed199ade59239f519f1e1b3a329226a9bf",
+      "source": "Original SVG paths, gradients, texture and typography authored for An AUsome Life on 2026-10-21.",
+      "rights_basis": "Original design created for this publication. No third-party photographs, stock art, commercial cover artwork, publisher marks or copied edition designs are incorporated. Title and author name serve factual identification.",
+      "intended_use": "Picture communication card in the Authors’ Ridge story, card library and downloadable printable set.",
+      "disclosure": "Purpose-designed book symbol; not a replica or photograph of an actual edition.",
+      "qa": {
+        "svg_xml": "passed",
+        "rendered_visual_review": "passed at 800 × 800 using CairoSVG export; complete object, readable title and author, plain white background, no added external label",
+        "reviewed_at": "2026-10-21"
+      }
+    },
+    {
+      "file": "assets/authors-ridge-concord/cards/scarlet-letter-book.svg",
+      "title": "The Scarlet Letter",
+      "author": "Nathaniel Hawthorne",
+      "description": "Original cranberry closed clothbound book symbol on white with title and author attribution on its cover.",
+      "dimensions": {
+        "width": 800,
+        "height": 800
+      },
+      "format": "image/svg+xml",
+      "sha256": "c29ceb1e3441413bccc3b428820fb8bfbaa99e1f3f3e75bda723c0d542f4f2c7",
+      "source": "Original SVG paths, gradients, texture and typography authored for An AUsome Life on 2026-10-21.",
+      "rights_basis": "Original design created for this publication. No third-party photographs, stock art, commercial cover artwork, publisher marks or copied edition designs are incorporated. Title and author name serve factual identification.",
+      "intended_use": "Picture communication card in the Authors’ Ridge story, card library and downloadable printable set.",
+      "disclosure": "Purpose-designed book symbol; not a replica or photograph of an actual edition.",
+      "qa": {
+        "svg_xml": "passed",
+        "rendered_visual_review": "passed at 800 × 800 using CairoSVG export; complete object, readable title and author, plain white background, no added external label",
+        "reviewed_at": "2026-10-21"
+      }
+    },
+    {
+      "file": "assets/authors-ridge-concord/cards/nature-book.svg",
+      "title": "Nature",
+      "author": "Ralph Waldo Emerson",
+      "description": "Original warm brown closed clothbound book symbol on white with title and author attribution on its cover.",
+      "dimensions": {
+        "width": 800,
+        "height": 800
+      },
+      "format": "image/svg+xml",
+      "sha256": "8661b59b48732242814ae5fcf7c00460ea5c8da76d92bdccffbe89cf194dd17e",
+      "source": "Original SVG paths, gradients, texture and typography authored for An AUsome Life on 2026-10-21.",
+      "rights_basis": "Original design created for this publication. No third-party photographs, stock art, commercial cover artwork, publisher marks or copied edition designs are incorporated. Title and author name serve factual identification.",
+      "intended_use": "Picture communication card in the Authors’ Ridge story, card library and downloadable printable set.",
+      "disclosure": "Purpose-designed book symbol; not a replica or photograph of an actual edition.",
+      "qa": {
+        "svg_xml": "passed",
+        "rendered_visual_review": "passed at 800 × 800 using CairoSVG export; complete object, readable title and author, plain white background, no added external label",
+        "reviewed_at": "2026-10-21"
+      }
+    }
+  ]
+}

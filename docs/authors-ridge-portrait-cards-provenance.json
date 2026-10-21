@@ -1,0 +1,101 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-10-21",
+  "publication": "An AUsome Life",
+  "collection": "Authors’ Ridge historical portrait communication cards",
+  "note": "Internal record. These are purpose-selected historical portraits; no family or cemetery photograph is converted into a communication symbol. The four original book symbols are recorded separately in docs/authors-ridge-book-symbols.json.",
+  "assets": [
+    {
+      "file": "assets/authors-ridge-concord/cards/louisa-may-alcott.jpg",
+      "subject": "Louisa May Alcott",
+      "creator": "George Kendall Warren",
+      "date": "circa 1870",
+      "collection": "Library of Congress, Liljenquist Family Collection",
+      "record_url": "https://www.loc.gov/item/2017660625/",
+      "rights_url": "https://commons.wikimedia.org/wiki/File:Louisa_May_Alcott,_writer,_abolitionist,_and_Civil_War_nurse)_-_Warren%27s_Portraits,_465_Washington_St.,_Boston_LCCN2017660625.jpg",
+      "download_url": "https://cdn.loc.gov/service/pnp/ppmsca/53200/53264v.jpg",
+      "rights_basis": "Historical photograph in the public domain; the Wikimedia Commons record explicitly marks the image public domain. Library of Congress states no known restrictions on publication. Creator died 1884; historical publication dates predate 1931.",
+      "public_credit": "Louisa May Alcott, George Kendall Warren, about 1870. Library of Congress, Liljenquist Family Collection. Public domain.",
+      "sha256": "1060ed543eb1774169cbf06bc3e99ed501a5e27350f008162244bd9490c058cf",
+      "dimensions": {
+        "width": 646,
+        "height": 1024
+      },
+      "format": "image/jpeg",
+      "checked_at": "2026-10-21",
+      "intended_use": "Portrait card in the Authors’ Ridge story, searchable card catalog, individual downloadable PNG and editable printable set.",
+      "changes": "No changes to the downloaded image bytes. The card renderer fits the whole image proportionally inside the card and adds a separate name label.",
+      "visual_review": "Reviewed the downloaded portrait, identity/source label, full proportions and card suitability on 2026-10-21."
+    },
+    {
+      "file": "assets/authors-ridge-concord/cards/henry-david-thoreau.jpg",
+      "subject": "Henry David Thoreau",
+      "creator": "Benjamin D. Maxham",
+      "date": "1856",
+      "collection": "Public-domain reproduction via Wikimedia Commons",
+      "record_url": "https://npg.si.edu/object/npg_NPG.72.119",
+      "rights_url": "https://commons.wikimedia.org/wiki/File:Henry_David_Thoreau.jpg",
+      "download_url": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Henry_David_Thoreau.jpg",
+      "rights_basis": "Wikimedia Commons explicitly marks this historical photograph public domain. The reproduction record notes prior brightness/contrast adjustments; this asset is the provided reproduction, not represented as an untouched museum scan.",
+      "public_credit": "Henry David Thoreau, Benjamin D. Maxham, 1856. Public-domain reproduction via Wikimedia Commons.",
+      "sha256": "b976d740bbff7eecd2ee1d75ddda83aca2695761b577f15fe52baf747a1257cd",
+      "dimensions": {
+        "width": 1596,
+        "height": 2096
+      },
+      "format": "image/jpeg",
+      "checked_at": "2026-10-21",
+      "intended_use": "Portrait card in the Authors’ Ridge story, searchable card catalog, individual downloadable PNG and editable printable set.",
+      "changes": "No changes to the downloaded image bytes. The card renderer fits the whole image proportionally inside the card and adds a separate name label.",
+      "visual_review": "Reviewed the downloaded portrait, identity/source label, full proportions and card suitability on 2026-10-21."
+    },
+    {
+      "file": "assets/authors-ridge-concord/cards/nathaniel-hawthorne.jpg",
+      "subject": "Nathaniel Hawthorne",
+      "creator": "Mathew Brady Studio",
+      "date": "circa 1860–1864",
+      "collection": "National Portrait Gallery, Smithsonian Institution, NPG.81.M110",
+      "record_url": "https://npg.si.edu/object/npg_NPG.81.M110",
+      "rights_url": "https://commons.wikimedia.org/wiki/File:Nathaniel_Hawthorne_by_the_Mathew_Brady_Studio,_c._1860-1864,_glass_plate_collodion_negative,_from_the_National_Portrait_Gallery_-_NPG-NPG_81_M110.jpg",
+      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Nathaniel_Hawthorne_by_the_Mathew_Brady_Studio%2C_c._1860-1864%2C_glass_plate_collodion_negative%2C_from_the_National_Portrait_Gallery_-_NPG-NPG_81_M110.jpg/960px-Nathaniel_Hawthorne_by_the_Mathew_Brady_Studio%2C_c._1860-1864%2C_glass_plate_collodion_negative%2C_from_the_National_Portrait_Gallery_-_NPG-NPG_81_M110.jpg",
+      "rights_basis": "Smithsonian Open Access image offered under CC0 1.0; Commons source record confirms CC0. Download uses the 960px reproduction of that exact work.",
+      "public_credit": "Nathaniel Hawthorne, Mathew Brady Studio, about 1860–1864. National Portrait Gallery, Smithsonian Institution, NPG.81.M110. CC0.",
+      "sha256": "ab838cdec35ce671c0cd6d0f2cd1093a3490f145db3474ca622f02faaca7d3cb",
+      "dimensions": {
+        "width": 960,
+        "height": 1328
+      },
+      "format": "image/jpeg",
+      "checked_at": "2026-10-21",
+      "intended_use": "Portrait card in the Authors’ Ridge story, searchable card catalog, individual downloadable PNG and editable printable set.",
+      "changes": "No changes to the downloaded image bytes. The card renderer fits the whole image proportionally inside the card and adds a separate name label.",
+      "visual_review": "Reviewed the downloaded portrait, identity/source label, full proportions and card suitability on 2026-10-21."
+    },
+    {
+      "file": "assets/authors-ridge-concord/cards/ralph-waldo-emerson.jpg",
+      "subject": "Ralph Waldo Emerson",
+      "creator": "Unidentified photographer; historical cabinet-card reproduction",
+      "date_note": "Catalogue print/reproduction date is 1886. This is not represented as the sitting date. Emerson died in 1882. No date is printed on the card.",
+      "collection": "Library of Congress, cph.3b44202",
+      "record_url": "https://www.loc.gov/item/89714831/",
+      "rights_url": "https://commons.wikimedia.org/wiki/File:Ralph_Waldo_Emerson,_head-and-shoulders_portrait,_facing_right_LCCN89714831.jpg",
+      "download_url": "https://cdn.loc.gov/service/pnp/cph/3b40000/3b44000/3b44200/3b44202v.jpg",
+      "rights_basis": "Historical public-domain photograph; the Wikimedia Commons source record explicitly marks it public domain. The historical published reproduction predates 1931.",
+      "public_credit": "Ralph Waldo Emerson, historical cabinet-card portrait. Library of Congress, cph.3b44202. Public domain.",
+      "sha256": "792daa9be57e9cacb3800a07a5c532387dfd819b6849e49d2e046d82a8fcfedd",
+      "dimensions": {
+        "width": 637,
+        "height": 1024
+      },
+      "format": "image/jpeg",
+      "checked_at": "2026-10-21",
+      "intended_use": "Portrait card in the Authors’ Ridge story, searchable card catalog, individual downloadable PNG and editable printable set.",
+      "changes": "No changes to the downloaded image bytes. The card renderer fits the whole image proportionally inside the card and adds a separate name label.",
+      "visual_review": "Reviewed the downloaded portrait, identity/source label, full proportions and card suitability on 2026-10-21."
+    }
+  ],
+  "book_sources": [
+    "https://www.loc.gov/exhibits/books-that-shaped-america/1850-to-1900.html",
+    "https://sc.concordlibrary.org/items/show/2023"
+  ]
+}

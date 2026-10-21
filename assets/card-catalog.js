@@ -1,4 +1,4 @@
-/* Original reviewed illustrations plus photorealistic picture cards. */
+/* Reviewed illustrations, historical portraits and photorealistic picture cards. */
 window.AALCardCategories = ["Communication", "Meals & snacks", "Fruit & vegetables", "Drinks & table", "Kitchen & cooking", "Clothing", "Personal care", "Body & health", "Home & routines", "Laundry & cleaning", "Play & sensory", "School & creativity", "Outdoors & garden", "Seasons & celebrations", "Places & travel", "Boats & water"];
 window.AALCardCatalog = [
 {
@@ -7091,5 +7091,69 @@ window.AALCardCatalog = [
     "description": "Photorealistic AI-generated picture of wheelchair ramp at curb, shown as a clear, standalone object on a plain background.",
     "keywords": "photorealistic photo realistic object everyday picture wheelchair ramp at curb",
     "photoRealistic": true
-  }
+  },
+{
+  "id": "louisa-may-alcott",
+  "label": "Louisa May Alcott",
+  "category": "School & creativity",
+  "image": "/assets/authors-ridge-concord/cards/louisa-may-alcott.jpg",
+  "description": "Historical portrait of Louisa May Alcott seated in a dark dress.",
+  "keywords": "Alcott author writer Concord Authors Ridge Little Women historical portrait"
+},
+{
+  "id": "little-women",
+  "label": "Little Women",
+  "category": "School & creativity",
+  "image": "/assets/authors-ridge-concord/cards/little-women-book.svg",
+  "description": "Original navy book symbol labeled Little Women by Louisa May Alcott.",
+  "keywords": "Alcott author writer Concord Authors Ridge book novel sisters Little Women"
+},
+{
+  "id": "henry-david-thoreau",
+  "label": "Henry David Thoreau",
+  "category": "School & creativity",
+  "image": "/assets/authors-ridge-concord/cards/henry-david-thoreau.jpg",
+  "description": "Historical portrait of Henry David Thoreau with a beard and dark coat.",
+  "keywords": "Thoreau author writer Concord Authors Ridge Walden historical portrait"
+},
+{
+  "id": "walden",
+  "label": "Walden",
+  "category": "School & creativity",
+  "image": "/assets/authors-ridge-concord/cards/walden-book.svg",
+  "description": "Original pine-green book symbol labeled Walden by Henry David Thoreau.",
+  "keywords": "Thoreau author writer Concord Authors Ridge Walden book pond nonfiction"
+},
+{
+  "id": "nathaniel-hawthorne",
+  "label": "Nathaniel Hawthorne",
+  "category": "School & creativity",
+  "image": "/assets/authors-ridge-concord/cards/nathaniel-hawthorne.jpg",
+  "description": "Historical portrait of Nathaniel Hawthorne standing in a long dark coat.",
+  "keywords": "Hawthorne author writer Concord Authors Ridge Scarlet Letter historical portrait"
+},
+{
+  "id": "the-scarlet-letter",
+  "label": "The Scarlet Letter",
+  "category": "School & creativity",
+  "image": "/assets/authors-ridge-concord/cards/scarlet-letter-book.svg",
+  "description": "Original cranberry book symbol labeled The Scarlet Letter by Nathaniel Hawthorne.",
+  "keywords": "Hawthorne author writer Concord Authors Ridge Scarlet Letter book novel"
+},
+{
+  "id": "ralph-waldo-emerson",
+  "label": "Ralph Waldo Emerson",
+  "category": "School & creativity",
+  "image": "/assets/authors-ridge-concord/cards/ralph-waldo-emerson.jpg",
+  "description": "Historical portrait of Ralph Waldo Emerson in a dark coat, facing right.",
+  "keywords": "Emerson author writer Concord Authors Ridge Nature historical portrait"
+},
+{
+  "id": "emerson-nature",
+  "label": "Nature",
+  "category": "School & creativity",
+  "image": "/assets/authors-ridge-concord/cards/nature-book.svg",
+  "description": "Original warm-brown book symbol labeled Nature by Ralph Waldo Emerson.",
+  "keywords": "Emerson author writer Concord Authors Ridge Nature book essay natural world"
+}
 ];

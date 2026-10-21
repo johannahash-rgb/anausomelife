@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-08",
+  "updated": "2026-10-21",
   "posts": [
     {
       "path": "apple-orchard-afternoon.html",
@@ -584,6 +584,19 @@
         "all-done"
       ],
       "sketch": null
+    },
+    {
+      "path": "authors-ridge-concord-fall-date.html",
+      "cards": [
+        "louisa-may-alcott",
+        "little-women",
+        "henry-david-thoreau",
+        "walden",
+        "nathaniel-hawthorne",
+        "the-scarlet-letter",
+        "ralph-waldo-emerson",
+        "emerson-nature"
+      ]
     }
   ]
 }
