@@ -1,0 +1,58 @@
+{
+  "title": "Omar\u2019s Superpower: Making Room for Everyone",
+  "created": "2026-10-21",
+  "publication": "An AUsome Life",
+  "canonical_story": "https://anausomelife.com/omars-lexington-superpower-belonging.html",
+  "method": "Original typographic graphics drawn with Pillow; no third-party logos, characters, or photographs in downloads.",
+  "sources": [],
+  "scoped_organic_sharing_intent": {
+    "assets_only": [
+      "assets/omars-lexington/omars-feed.png",
+      "assets/omars-lexington/omars-story.png"
+    ],
+    "scope": "Unchanged organic social sharing with credit and canonical link only; no family-photo license or paid media."
+  },
+  "outputs": [
+    {
+      "path": "assets/omars-lexington/omars-feed.png",
+      "sha256": "649af9b9f74e0daf3e529d66a2a02052759f3c758460cac63bd94cc5846b67d2",
+      "dimensions": [
+        1080,
+        1350
+      ]
+    },
+    {
+      "path": "assets/omars-lexington/omars-story.png",
+      "sha256": "a65adc19da15b5606da340df7e976c2e8211abf4870c90f3771a6b8f80c357e9",
+      "dimensions": [
+        1080,
+        1920
+      ]
+    }
+  ],
+  "story_photographs": [
+    {
+      "path": "assets/omars-lexington/family-8754.jpeg",
+      "sha256": "8cebfe2f53d5635972ed45187f08da46bcaad4cadd3487693f0b8e9033116d6a",
+      "source": "Owner supplied in this conversation; authorized website publication with this story. Unchanged bytes. Excluded from downloadable sharing license."
+    },
+    {
+      "path": "assets/omars-lexington/family-8739.jpeg",
+      "sha256": "4b558789e1abd0a40094fd2c14ff76863dc7dbc30ad09095478f6d0e072de31a",
+      "source": "Owner supplied in this conversation; authorized website publication with this story. Unchanged bytes. Excluded from downloadable sharing license."
+    },
+    {
+      "path": "assets/omars-lexington/family-8745.jpeg",
+      "sha256": "4d15863e040edf59e479a1fc092f9abdd1ff65f0320c4b843ea81c8b7e249f0f",
+      "source": "Owner supplied in this conversation; authorized website publication with this story. Unchanged bytes. Excluded from downloadable sharing license."
+    },
+    {
+      "path": "assets/omars-lexington/family-8753.jpeg",
+      "sha256": "f258fd20281fbf79dd55dfe9e65bb9e433feb5c6b8ae9bf94ffd4ddb6bb4820d",
+      "source": "Owner supplied in this conversation; authorized website publication with this story. Unchanged bytes. Excluded from downloadable sharing license."
+    }
+  ],
+  "account_verification": {
+    "status": "No venue handles guessed or used; official website linked."
+  }
+}
