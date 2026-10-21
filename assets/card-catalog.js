@@ -1,6 +1,14 @@
 /* Original reviewed illustrations plus photorealistic picture cards. */
 window.AALCardCategories = ["Communication", "Meals & snacks", "Fruit & vegetables", "Drinks & table", "Kitchen & cooking", "Clothing", "Personal care", "Body & health", "Home & routines", "Laundry & cleaning", "Play & sensory", "School & creativity", "Outdoors & garden", "Seasons & celebrations", "Places & travel", "Boats & water"];
 window.AALCardCatalog = [
+{
+  "id": "argentina-flag",
+  "label": "Argentina",
+  "category": "Places & travel",
+  "image": "/assets/card-collection/argentina-flag.svg",
+  "description": "The flag of Argentina: three horizontal light blue, white and light blue bands with a golden Sun of May in the center.",
+  "keywords": "Argentina Argentine Argentinian flag country Buenos Aires"
+},
   {
     "id": "mug",
     "label": "mug",
