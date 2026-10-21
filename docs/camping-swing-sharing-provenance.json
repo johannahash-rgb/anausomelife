@@ -1,5 +1,5 @@
 {
-  "title": "Camping swing story: link-only sharing",
+  "title": "Camping swing story: original photograph and link-only sharing",
   "reviewed": "2026-10-21",
   "canonical_story": "https://anausomelife.com/a-camping-swing-very-much-at-home.html",
   "method": "Reviewed the existing authored text caption and canonical link. No downloadable assets, photos or graphics are licensed by this record.",
@@ -7,5 +7,21 @@
     "assets_only": [],
     "scope": "Story link and attributed caption only; no downloadable asset license."
   },
-  "outputs": []
+  "outputs": [],
+  "story_photographs": [
+    {
+      "path": "assets/camping-swing/sunroom-stuffed-animals.jpeg",
+      "uploaded_name": "30E99C79-C90B-427E-8B15-931D9EF75C86.jpeg",
+      "sha256": "8134b58f19663fa845ad089cdc4b3dd6821afc115ee310ee7adaeb1415c9bbfc",
+      "dimensions": [
+        1152,
+        1536
+      ],
+      "bytes": 687930,
+      "publication_basis": "Owner supplied this original photograph and explicitly instructed using it for this article.",
+      "transformations": "None. The original JPEG bytes, image proportions and pixels are preserved.",
+      "scope": "Article lead image, its journal entry and site-controlled article-link preview only. No standalone reuse license, paid-advertising rights or archive-wide permission.",
+      "alt_text": "Blue hammock-style camping chair filled with stuffed animals beside tall sunroom windows, with folded quilts behind it."
+    }
+  ]
 }
