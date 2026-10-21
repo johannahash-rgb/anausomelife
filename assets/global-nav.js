@@ -84,7 +84,7 @@
   const shortcuts = [
     {label:'Journal',detail:'Stories from our life',href:'/blog.html',icon:'journal',secondary:true,match:['/blog.html']},
     {label:'Places',detail:'A good day out',href:'/favorite-places.html',icon:'outing',secondary:true,match:['/favorite-places.html'],prefix:'/favorite-places'},
-    {label:'Family & support',detail:'Tools & everyday life',href:'/family-roles.html',icon:'family',match:['/family-roles.html','/family-planning-toolkit.html','/caregiver-handover-guide.html']},
+    {label:'Family & support',detail:'Tools & everyday life',href:'/family-roles.html',icon:'family',match:['/family-roles.html','/family-planning-toolkit.html','/caregiver-handover-guide.html','/caregiver-glossary.html']},
     {label:'Explore',detail:'Browse every chapter',action:'sections',icon:'menu'},
     {label:'Calendar',detail:'Something to plan',href:'/calendar.html',icon:'calendar',secondary:true,match:['/calendar.html']},
     {label:'Search',detail:'Find your good thing',action:'search',icon:'search',hint:'⌘K'}
@@ -100,6 +100,7 @@
       ['AAC outing note','/aac-outing-note.html','care-clipboard']] },
     { title:'Family & caregiver support', art:'yankee-toolbox', description:'Practical help, real stories & time for yourself', links:[
       ['Start here: family & caregiver support','/family-roles.html','family-organizer'],
+      ['Caregiver glossary: autism, AAC & IEPs','/caregiver-glossary.html','directory-v2'],
       ['Prepare a caregiver handover','/caregiver-handover-guide.html','care-clipboard'],
       ['Day plans & household handoffs','/family-planning-toolkit.html','family-organizer'],
       ['Disabled parking & placards','/disabled-parking-placards-new-england.html','parking-volvo'],
@@ -334,6 +335,7 @@
     const navigation = footer.querySelector('nav[aria-label="Footer navigation"]');
     if (!navigation) { footer.outerHTML = fullFooter; restoreFooter(); return; }
     if (!navigation.querySelector('a[href="/press.html"]')) { const press = document.createElement('a'); press.href = '/press.html'; press.textContent = 'Recent press'; navigation.append(press); }
+    if (!navigation.querySelector('a[href="/caregiver-glossary.html"]')) { const link = document.createElement('a'); link.href = '/caregiver-glossary.html'; link.textContent = 'Caregiver glossary'; navigation.prepend(link); }
     const media = navigation.querySelector('a[href="/media/"]');
     if (media) media.textContent = 'Media Kit & partnerships';
     else { const link = document.createElement('a'); link.href = '/media/'; link.textContent = 'Media Kit & partnerships'; navigation.append(link); }
