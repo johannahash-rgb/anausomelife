@@ -242,8 +242,8 @@ def build(root):
     text=re.sub(r'<details class="cg-mobile-start".*?</details>', '', text, flags=re.S)
     text=re.sub(r'<aside class="cg-sidebar".*?</aside>', '', text, flags=re.S)
     text=re.sub(r'(<nav class="cg-alphabet".*?</nav>)', r'<details class="cg-letter-menu" data-js><summary>Browse A–Z</summary>\1</details>', text, flags=re.S)
-    topics=[('communication','Communication','AAC, speech & being understood','care-clipboard'),('school','School & IEPs','Meetings, services & useful questions','journal-v2'),('distress','When things feel harder','Sensory needs, distress & health','yankee-toolbox'),('adult','Care & adult life','Daily support, choices & planning','home')]
-    tiles=''.join('<button type="button" data-route="'+key+'"><img src="/assets/navigation-watercolors/'+image+'-320.webp" width="100" height="100" alt=""><span><b>'+title+'</b><small>'+description+'</small></span><span class="cg-tile-arrow" aria-hidden="true">↗</span></button>' for key,title,description,image in topics)
+    topics=[('communication','Communication','AAC, speech & being understood','communication'),('school','School & IEPs','Meetings, services & useful questions','school'),('distress','When things feel harder','Sensory needs, distress & health','sensory'),('adult','Care & adult life','Daily support, choices & planning','adult')]
+    tiles=''.join('<button type="button" data-route="'+key+'"><img src="/assets/glossary-watercolors/'+image+'-320.webp" width="100" height="100" alt=""><span><b>'+title+'</b><small>'+description+'</small></span><span class="cg-tile-arrow" aria-hidden="true">↗</span></button>' for key,title,description,image in topics)
     entrance='<section class="cg-visual-topics cg-wrap" aria-labelledby="cg-visual-title" data-js><div class="cg-visual-heading"><h2 id="cg-visual-title">Start with what you need.</h2><span>Choose a path, or search below.</span></div><nav aria-label="Choose a glossary starting point">'+tiles+'</nav><p class="cg-visual-note"><a href="#autistic-self-advocacy">Autistic perspectives & supported self-advocacy ↗</a><span>201 terms · no account needed</span></p></section>'
     text=text.replace('<section class="cg-search-tools"',entrance+'<section class="cg-search-tools"',1)
     text=re.sub(r'<p><a href="#autistic-self-advocacy">Autistic perspectives and self-advocacy with extensive support needs ↗</a></p>','',text)
@@ -270,10 +270,10 @@ def build(root):
         text=text.replace(original,'',1)
         text=text.replace('<section class="cg-visual-topics',simplified+'<section class="cg-visual-topics',1)
     text=text.replace('Choose a path, or search below.','A few good places to begin.')
-    extras='<button type="button" data-route="rights" aria-pressed="false"><img src="/assets/library-watercolors/advocacy-320.webp" width="100" height="100" alt=""><span><b>Choice & rights</b><small>Self-advocacy, refusal & being heard</small></span><span class="cg-tile-arrow" aria-hidden="true">↗</span></button><button type="button" data-route="identity" aria-pressed="false"><img src="/assets/navigation-watercolors/search-320.webp" width="100" height="100" alt=""><span><b>Understanding autism</b><small>Identity, differences & support needs</small></span><span class="cg-tile-arrow" aria-hidden="true">↗</span></button>'
+    extras='<button type="button" data-route="rights" aria-pressed="false"><img src="/assets/glossary-watercolors/rights-320.webp" width="100" height="100" alt=""><span><b>Choice & rights</b><small>Self-advocacy, refusal & being heard</small></span><span class="cg-tile-arrow" aria-hidden="true">↗</span></button><button type="button" data-route="identity" aria-pressed="false"><img src="/assets/glossary-watercolors/autism-320.webp" width="100" height="100" alt=""><span><b>Understanding autism</b><small>Identity, differences & support needs</small></span><span class="cg-tile-arrow" aria-hidden="true">↗</span></button>'
     text=re.sub(r'(<nav aria-label="Choose a glossary starting point">.*?)(</nav>)',lambda match:match[1]+extras+match[2],text,count=1,flags=re.S)
     text=text.replace('Clear this view','Browse all terms')
-    text=text.replace('20261021-visual-v4','20261021-choice-v7')
+    text=text.replace('20261021-visual-v4','20261021-art-v8')
     page.write_text(text,encoding='utf-8')
     for path,addition,marker in [(root/'assets/caregiver-glossary.css',CSS,'/* Final glossary integration:'),(root/'assets/caregiver-glossary.js',JS,'/* Final glossary toolbar measurements')]:
         source=path.read_text()

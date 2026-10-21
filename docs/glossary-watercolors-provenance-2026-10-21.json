@@ -1,0 +1,35 @@
+{
+  "date": "2026-10-21",
+  "origin": "OpenAI built-in image generation",
+  "rights_basis": "New original generations commissioned for this site, without third-party reference images, brands, characters or identifiable people. No claim of comprehensive legal clearance.",
+  "use": "Decorative glossary topic illustrations, paired with visible plain-text labels; distinct from site navigation artwork. Not communication symbols validated with individual users.",
+  "processing": "Whole-frame proportional resize to 320 pixels and WebP encoding, preserving alpha. No cropping or recoloring.",
+  "review": "Each original visually reviewed before publication.",
+  "style_prompt": "Standalone fine ink and delicate watercolor illustration, refined New England stationery style, realistic proportions, complete centered subject, organic edges, navy/pine/cranberry palette, transparent background; no border, people, logos or lettering.",
+  "assets": [
+    {
+      "path": "assets/glossary-watercolors/communication-320.webp",
+      "subject_prompt": "AAC tablet on wooden stand"
+    },
+    {
+      "path": "assets/glossary-watercolors/school-320.webp",
+      "subject_prompt": "Green school binder and ruler"
+    },
+    {
+      "path": "assets/glossary-watercolors/sensory-320.webp",
+      "subject_prompt": "Navy ear defenders and sage cloth"
+    },
+    {
+      "path": "assets/glossary-watercolors/adult-320.webp",
+      "subject_prompt": "Daily planner and brass key"
+    },
+    {
+      "path": "assets/glossary-watercolors/rights-320.webp",
+      "subject_prompt": "Wooden yes and no choice tiles"
+    },
+    {
+      "path": "assets/glossary-watercolors/autism-320.webp",
+      "subject_prompt": "Distinct colorful threads with different paths"
+    }
+  ]
+}
