@@ -2358,6 +2358,22 @@
         "docs/minute-man-susan-provenance.json"
       ],
       "selection_reason": "Original landscape photograph of James and Great-Aunt Susan together on the trail; unchanged full frame. Story and link-preview use only; no third-party photo license."
+    },
+    "authors-ridge-concord-fall-date.html": {
+      "image": "/assets/authors-ridge-concord/henry-david-thoreau.jpeg",
+      "alt": "Thoreau’s small Henry marker at Authors’ Ridge, with pink flowers, pencils, pinecones and exposed tree roots.",
+      "width": 1536,
+      "height": 1152,
+      "mime": "image/jpeg",
+      "sha256": "cd6a5a3ca044ebfeb4a5e4538ef5c86ada1b7610f3bb4ca084de5e9181cf583b",
+      "card": "summary_large_image",
+      "type": "article",
+      "kind": "photograph",
+      "provenance": [
+        "docs/authors-ridge-photo-art-provenance.json"
+      ],
+      "selection_reason": "Owner-supplied landscape photograph visually reviewed for this story. Original bytes and full proportions preserved; no new third-party reuse license.",
+      "review_date": "2026-10-21"
     }
   },
   "pending": {

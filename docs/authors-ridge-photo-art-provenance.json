@@ -1,0 +1,93 @@
+{
+  "title": "Tourists in Our Own Backyard",
+  "created": "2026-10-21",
+  "canonical_story": "https://anausomelife.com/authors-ridge-concord-fall-date.html",
+  "publication": "An AUsome Life",
+  "basis_for_intended_use": "Owner supplied these photographs and requested a post with photographs, watercolor interpretations, a map, access information, local history, and the confirmed writer/professor/three-year context. Intended use is this publication and its editorial link preview, without a blanket third-party license.",
+  "photographs": [
+    {
+      "path": "assets/authors-ridge-concord/louisa-may-alcott.jpeg",
+      "source_upload": "IMG_2824.jpeg",
+      "sha256": "224fbe6eaa1ce344e2cba0437e68e3344eee8d9512aa2c279dd5c12e4e142677",
+      "dimensions": [
+        1152,
+        1536
+      ],
+      "kind": "owner-supplied documentary photograph",
+      "processing": "Byte-for-byte copy; original pixels and proportions retained."
+    },
+    {
+      "path": "assets/authors-ridge-concord/henry-david-thoreau.jpeg",
+      "source_upload": "IMG_2819.jpeg",
+      "sha256": "cd6a5a3ca044ebfeb4a5e4538ef5c86ada1b7610f3bb4ca084de5e9181cf583b",
+      "dimensions": [
+        1536,
+        1152
+      ],
+      "kind": "owner-supplied documentary photograph",
+      "processing": "Byte-for-byte copy; original pixels and proportions retained."
+    },
+    {
+      "path": "assets/authors-ridge-concord/nathaniel-hawthorne.jpeg",
+      "source_upload": "IMG_2820.jpeg",
+      "sha256": "8552ab2a84d059158295d91a50b76447442284689a00d3a7d5777f9ec6c44fa6",
+      "dimensions": [
+        1152,
+        1536
+      ],
+      "kind": "owner-supplied documentary photograph",
+      "processing": "Byte-for-byte copy; original pixels and proportions retained."
+    }
+  ],
+  "illustrations": [
+    {
+      "path": "assets/authors-ridge-concord/alcott-watercolor.webp",
+      "source_upload": "IMG_2824.jpeg",
+      "sha256": "918f9f76ae971ab3f42be05bfb5169510caaaa1e4f0aa7a7960e9f333b5a1447",
+      "dimensions": [
+        1086,
+        1448
+      ],
+      "kind": "AI-generated watercolor interpretation",
+      "method": "Image generation from the corresponding inspected owner-supplied photograph, preserving the subject and readable marker lettering in a fine ink and transparent-watercolor treatment. Full-frame WebP export for web delivery; no cropping, masks or compositing.",
+      "review": "Generated original and exported dimensions inspected. Illustration is not evidence of paths, facilities or access.",
+      "public_caption": "Original editorial illustration"
+    },
+    {
+      "path": "assets/authors-ridge-concord/thoreau-watercolor.webp",
+      "source_upload": "IMG_2819.jpeg",
+      "sha256": "ab9d81716dc43d2f97202c6c87e37d9782b9db59119587f658a1b294eee13695",
+      "dimensions": [
+        1448,
+        1086
+      ],
+      "kind": "AI-generated watercolor interpretation",
+      "method": "Image generation from the corresponding inspected owner-supplied photograph, preserving the subject and readable marker lettering in a fine ink and transparent-watercolor treatment. Full-frame WebP export for web delivery; no cropping, masks or compositing.",
+      "review": "Generated original and exported dimensions inspected. Illustration is not evidence of paths, facilities or access.",
+      "public_caption": "Original editorial illustration"
+    },
+    {
+      "path": "assets/authors-ridge-concord/hawthorne-watercolor.webp",
+      "source_upload": "IMG_2820.jpeg",
+      "sha256": "9e91eb8172fa4a02b92c80f9901ab36303c648ed0f4dba05723346d3f609e228",
+      "dimensions": [
+        1086,
+        1448
+      ],
+      "kind": "AI-generated watercolor interpretation",
+      "method": "Image generation from the corresponding inspected owner-supplied photograph, preserving the subject and readable marker lettering in a fine ink and transparent-watercolor treatment. Full-frame WebP export for web delivery; no cropping, masks or compositing.",
+      "review": "Generated original and exported dimensions inspected. Illustration is not evidence of paths, facilities or access.",
+      "public_caption": "Original editorial illustration"
+    }
+  ],
+  "map": {
+    "method": "Google Maps destination embed and external directions link. Separate external link to the official town cemetery PDF; no town map image copied or republished.",
+    "official_map": "https://concordma.gov/DocumentCenter/View/32914/Sleepy-Hollow-Map-and-Graves-of-Interest-For-Website"
+  },
+  "venue_policy_review": {
+    "source": "https://concordma.gov/DocumentCenter/View/17625/Concords-Historic-Cemeteries",
+    "observation": "The town visitor brochure discusses approval for photography or filming for public/commercial use. This record documents the owner-supplied source and requested editorial use; it does not represent a town permit or comprehensive legal clearance."
+  },
+  "sharing": "Only the two typographic PNGs in docs/authors-ridge-social-card-provenance.json receive the stated unchanged organic-sharing permission. This does not extend to the photographs or watercolor illustrations.",
+  "owner_privacy": "Organization attribution only; no personal owner name or identifying username in public content."
+}

@@ -1,0 +1,72 @@
+{
+  "title": "Tourists in Our Own Backyard",
+  "subtitle": "A mid-fall date at Authors’ Ridge in Concord",
+  "created": "2026-10-21",
+  "reviewed": "2026-10-21",
+  "publication": "An AUsome Life",
+  "canonical_story": "https://anausomelife.com/authors-ridge-concord-fall-date.html",
+  "method": "Original typographic compositions rendered with Pillow, with fine vector rules and installed URW P052 and Nimbus Sans fonts. PNGs contain no photographs, watercolor illustrations, logos, third-party artwork or synthetic family imagery. No font binaries are redistributed.",
+  "basis_for_creation_and_sharing": "Owner-requested story package and standing An AUsome Life direction to create reviewed, exact-file organic-sharing assets for new outing stories. All promotional copy is original editorial text; the writer/professor and three-year context was confirmed by the owner.",
+  "sources": [
+    {
+      "url": "https://www.nps.gov/places/sleepy-hollow-cemetery.htm",
+      "supports": "Sleepy Hollow Cemetery location and hilly natural contours; Authors’ Ridge identification.",
+      "checked": "2026-10-21"
+    },
+    {
+      "url": "https://concordlibrary.org/special-collections/emerson-celebration/Em_Con_54",
+      "supports": "Paths and drives follow the land’s natural outlines; place history.",
+      "checked": "2026-10-21"
+    }
+  ],
+  "scoped_organic_sharing_intent": {
+    "assets_only": [
+      "assets/authors-ridge-concord/authors-ridge-feed.png",
+      "assets/authors-ridge-concord/authors-ridge-story.png"
+    ],
+    "scope": "Only the two exact reviewed PNG files listed here may be shared unchanged in organic social posts or Stories, with An AUsome Life / @anausomelife credit and the canonical article link. Excludes family photographs, watercolors, all other files, edits, paid advertising and implied endorsement.",
+    "required_credit": "An AUsome Life / @anausomelife",
+    "required_link": "https://anausomelife.com/authors-ridge-concord-fall-date.html"
+  },
+  "outputs": [
+    {
+      "path": "assets/authors-ridge-concord/authors-ridge-feed.png",
+      "sha256": "f13cd2b5fb14b83d6036dcce50c9bfb5e864dad698f66bf638005067a0438be7",
+      "dimensions": [
+        1080,
+        1350
+      ]
+    },
+    {
+      "path": "assets/authors-ridge-concord/authors-ridge-story.png",
+      "sha256": "0c43fd90091219908dc094cfabbe652ccce5778f7267147c8f5d25e55987d5f4",
+      "dimensions": [
+        1080,
+        1920
+      ]
+    }
+  ],
+  "visual_review": {
+    "date": "2026-10-21",
+    "status": "Both final PNG exports opened and visually inspected at native output sizes. Text, apostrophes, title, subtitle, location, caveat and credit are intact; no clipping, overlap or personal owner name. Dimensions and image descriptions checked against the exports.",
+    "visible_access_note": "Hillside terrain; plan your route.",
+    "content_matches": "History, map & practical access notes"
+  },
+  "family_photographs": {
+    "included_in_social_graphics": false,
+    "organic_download_license_granted": false
+  },
+  "watercolor_illustrations": {
+    "included_in_social_graphics": false,
+    "organic_download_license_granted": false
+  },
+  "account_verification": {
+    "status": "No venue or town social handles are used or assumed. Only the established publication credit is included."
+  },
+  "publication_status": {
+    "website": "Included in the reviewed website source package; GitHub Pages records deployment status.",
+    "native_social": "Not published by this task.",
+    "external_notices": "Not sent by this task.",
+    "observed_reposts": "Not assessed by this task."
+  }
+}
