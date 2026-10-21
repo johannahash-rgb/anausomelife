@@ -2,6 +2,14 @@
 window.AALCardCategories = ["Communication", "Meals & snacks", "Fruit & vegetables", "Drinks & table", "Kitchen & cooking", "Clothing", "Personal care", "Body & health", "Home & routines", "Laundry & cleaning", "Play & sensory", "School & creativity", "Outdoors & garden", "Seasons & celebrations", "Places & travel", "Boats & water"];
 window.AALCardCatalog = [
 {
+  "id": "maine-flag",
+  "label": "Maine",
+  "category": "Places & travel",
+  "image": "/assets/card-collection/maine-flag.png",
+  "description": "Maine state flag: the state coat of arms centered on a dark blue field.",
+  "keywords": "Maine state flag New England Kennebunk"
+},
+{
   "id": "argentina-flag",
   "label": "Argentina",
   "category": "Places & travel",
