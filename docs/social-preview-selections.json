@@ -2374,6 +2374,21 @@
       ],
       "selection_reason": "Owner-supplied landscape photograph visually reviewed for this story. Original bytes and full proportions preserved; no new third-party reuse license.",
       "review_date": "2026-10-21"
+    },
+    "profound-autism-summit-boston-camelot.html": {
+      "image": "/assets/profound-autism-summit-2026/summit-0772.jpeg",
+      "alt": "Five people smiling together in the hotel lobby at the 2026 Profound Autism Summit in Boston.",
+      "width": 1536,
+      "height": 1152,
+      "mime": "image/jpeg",
+      "sha256": "d7d956e2210c156aaa5592f82f4878d68d6f8bd685e4d92e2514ec5121511348",
+      "card": "summary_large_image",
+      "type": "article",
+      "kind": "photograph",
+      "provenance": [
+        "docs/profound-autism-summit-provenance.json"
+      ],
+      "selection_reason": "Original owner-supplied group photograph from this gathering, visually reviewed; unchanged bytes and proportions; no redistribution license."
     }
   },
   "pending": {

@@ -1,0 +1,63 @@
+{
+  "title": "A Little Camelot in Boston: The Profound Autism Summit",
+  "created": "2026-10-21",
+  "publication": "An AUsome Life",
+  "canonical_story": "https://anausomelife.com/profound-autism-summit-boston-camelot.html",
+  "method": "Original typographic graphics drawn with Pillow. No third-party marks, photographs, or illustrations in social downloads.",
+  "sources": [],
+  "scoped_organic_sharing_intent": {
+    "assets_only": [
+      "assets/profound-autism-summit-2026/summit-feed.png",
+      "assets/profound-autism-summit-2026/summit-story.png"
+    ],
+    "scope": "Unchanged organic sharing with credit and canonical link only; excludes photographs, slides, paid media and endorsement."
+  },
+  "outputs": [
+    {
+      "path": "assets/profound-autism-summit-2026/summit-feed.png",
+      "sha256": "0392a34d13a90a48f91f37d2255eed63f75dc03c493f6c4f893532e46a577e1d",
+      "dimensions": [
+        1080,
+        1350
+      ]
+    },
+    {
+      "path": "assets/profound-autism-summit-2026/summit-story.png",
+      "sha256": "c67fb48f4aaf4437760f29241da9955f846f83d2479472cd90ee6caeccebf156",
+      "dimensions": [
+        1080,
+        1920
+      ]
+    }
+  ],
+  "story_photographs": [
+    {
+      "path": "assets/profound-autism-summit-2026/summit-0772.jpeg",
+      "sha256": "d7d956e2210c156aaa5592f82f4878d68d6f8bd685e4d92e2514ec5121511348",
+      "source": "Owner supplied photograph for this firsthand summit article; unchanged bytes. Presentation photographs document and discuss the sessions, with presenter credit; no license granted to underlying slides or to redistribute photographs."
+    },
+    {
+      "path": "assets/profound-autism-summit-2026/summit-0753.jpeg",
+      "sha256": "f24b23ae5a76636b88d418144eefd7206e87e515478e8f9b6a5182c410e5dd49",
+      "source": "Owner supplied photograph for this firsthand summit article; unchanged bytes. Presentation photographs document and discuss the sessions, with presenter credit; no license granted to underlying slides or to redistribute photographs."
+    },
+    {
+      "path": "assets/profound-autism-summit-2026/summit-0778.jpeg",
+      "sha256": "d0d24e55477e7ab59a24ef7d7197572f2ef709366c5cacbd406364309981d936",
+      "source": "Owner supplied photograph for this firsthand summit article; unchanged bytes. Presentation photographs document and discuss the sessions, with presenter credit; no license granted to underlying slides or to redistribute photographs."
+    },
+    {
+      "path": "assets/profound-autism-summit-2026/summit-0782.jpeg",
+      "sha256": "e3db888996d5f7640561bec25025f7d123b47ea108622f858186d74f82508dd6",
+      "source": "Owner supplied photograph for this firsthand summit article; unchanged bytes. Presentation photographs document and discuss the sessions, with presenter credit; no license granted to underlying slides or to redistribute photographs."
+    },
+    {
+      "path": "assets/profound-autism-summit-2026/summit-0754.jpeg",
+      "sha256": "9cb81ebe04f01d593497ed7c0858facac2a88164edd41c630fe0e539a06faf5d",
+      "source": "Owner supplied photograph for this firsthand summit article; unchanged bytes. Presentation photographs document and discuss the sessions, with presenter credit; no license granted to underlying slides or to redistribute photographs."
+    }
+  ],
+  "account_verification": {
+    "status": "Official organization websites linked. No recipient social handles guessed."
+  }
+}
