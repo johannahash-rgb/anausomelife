@@ -1,12 +1,22 @@
 # Summit story outreach
 
-No messages sent. Sender confirmation required by Resend send_email tool. Gmail duplicate lookup was blocked by RATE_LIMIT_EXCEEDED.
+All ten individually tailored emails sent from the user-confirmed sender; provider confirms delivered for all ten. Swim Angelfish’s official contact form also confirmed successful submission.
 
 Story: https://anausomelife.com/profound-autism-summit-boston-camelot.html
+
+Sender: hello@anausomelife.com
 
 ## Governor Healey’s office
 
 To: gov.press@mass.gov
+
+Status: delivered (verified 2026-10-21T15:57:11.039Z)
+
+Sent: 2026-10-21 15:55:20.889000+00
+
+Email ID: 01a15f2c-9926-7362-bb25-017cc7d4a30c
+
+Idempotency key: aal-summit-2026-gov-office-v1
 
 Verified source: https://www.mass.gov/news/governor-healey-announces-15-million-in-grants-for-local-infrastructure-projects
 
@@ -32,6 +42,14 @@ https://anausomelife.com/
 
 To: press@maurahealey.com
 
+Status: delivered (verified 2026-10-21T15:57:11.039Z)
+
+Sent: 2026-10-21 15:55:33.220000+00
+
+Email ID: 01a15f2c-c93a-7a6e-b22d-e689aa2d48e8
+
+Idempotency key: aal-summit-2026-campaign-v1
+
 Verified source: https://maurahealey.com/meet-maura/
 
 Subject: For Governor Healey: a caregiver’s reflection on her summit speech
@@ -55,6 +73,14 @@ https://anausomelife.com/
 ## Profound Autism Alliance and summit
 
 To: info@profoundautism.org
+
+Status: delivered (verified 2026-10-21T15:57:11.039Z)
+
+Sent: 2026-10-21 15:55:33.785000+00
+
+Email ID: 01a15f2c-cb85-78df-8f3a-35aa4373e83a
+
+Idempotency key: aal-summit-2026-paa-v1
 
 Verified source: https://www.profoundautismsummit.org/2027-conference
 
@@ -80,6 +106,14 @@ https://anausomelife.com/
 
 To: info@nashobalearninggroup.org
 
+Status: delivered (verified 2026-10-21T15:57:11.039Z)
+
+Sent: 2026-10-21 15:55:34.459000+00
+
+Email ID: 01a15f2c-ce22-7276-9149-7400416bb2fe
+
+Idempotency key: aal-summit-2026-nlg-v1
+
 Verified source: https://nashobalearninggroup.org/contact-us/
 
 Subject: From a mother and grandmother: thank you for our little Camelot in Boston
@@ -103,6 +137,14 @@ https://anausomelife.com/
 ## Doug Flutie, Jr. Foundation for Autism
 
 To: emonroe@flutiefoundation.org
+
+Status: delivered (verified 2026-10-21T15:57:11.039Z)
+
+Sent: 2026-10-21 15:55:35.021000+00
+
+Email ID: 01a15f2c-d043-7a54-b9a8-ea23208e92cf
+
+Idempotency key: aal-summit-2026-flutie-v1
 
 Verified source: https://flutiefoundation.org/about/meet-our-team/tom-ladka-lll/
 
@@ -128,6 +170,14 @@ https://anausomelife.com/
 
 To: LurieCenter@mgb.org
 
+Status: delivered (verified 2026-10-21T15:57:11.039Z)
+
+Sent: 2026-10-21 15:55:35.764000+00
+
+Email ID: 01a15f2c-d2cf-73ec-bad5-a2e5886139ab
+
+Idempotency key: aal-summit-2026-lurie-v1
+
 Verified source: https://www.massgeneral.org/children/autism/lurie-center
 
 Subject: Thank you for the informative Lurie Center booth at the summit
@@ -151,6 +201,14 @@ https://anausomelife.com/
 ## The Arc of Massachusetts
 
 To: daley@arcmass.org
+
+Status: delivered (verified 2026-10-21T15:57:11.039Z)
+
+Sent: 2026-10-21 15:55:36.157000+00
+
+Email ID: 01a15f2c-d471-7c08-be31-349bc5dc3cd3
+
+Idempotency key: aal-summit-2026-arc-v1
 
 Verified source: https://thearcofmass.org/media/contacts/
 
@@ -176,6 +234,14 @@ https://anausomelife.com/
 
 To: info@inclusivefitness.com
 
+Status: delivered (verified 2026-10-21T15:57:11.039Z)
+
+Sent: 2026-10-21 15:55:37.020000+00
+
+Email ID: 01a15f2c-d828-7029-985d-d8df2a75f7cb
+
+Idempotency key: aal-summit-2026-inclusive-v1
+
 Verified source: https://inclusivefitness.com/contact-us/
 
 Subject: Your everyday-strength presentation is in our summit reflection
@@ -199,6 +265,14 @@ https://anausomelife.com/
 ## Zeno Mountain Farm
 
 To: Peter@ZenoMountainfarm.org
+
+Status: delivered (verified 2026-10-21T15:57:11.039Z)
+
+Sent: 2026-10-21 15:55:37.450000+00
+
+Email ID: 01a15f2c-d9a9-71b5-bb7c-d6ca93acd94c
+
+Idempotency key: aal-summit-2026-zeno-v1
 
 Verified source: https://www.valleyreporter.com/index.php/news/local-news/20052-zeno-mountain-farm-launches-new-website
 
@@ -224,13 +298,21 @@ https://anausomelife.com/
 
 To: christine@dale.no
 
+Status: delivered (verified 2026-10-21T15:57:11.039Z)
+
+Sent: 2026-10-21 15:55:37.917000+00
+
+Email ID: 01a15f2c-db9a-75a1-b31b-9240c6792956
+
+Idempotency key: aal-summit-2026-dale-v1
+
 Verified source: https://kommunikasjon.ntb.no/pressemelding/19087431/pernille-dosvik-x-dale-of-norway-ny-limited-edition-til-hjemmet?lang=no&publisherId=1726293
 
 Subject: A Dale of Norway sweater helped us find a fellow Norwegian in Boston
 
 Hello Christine,
 
-I thought you would enjoy this small, lovely moment: at April’s Profound Autism Summit in Boston, a fellow Norwegian found my mother and me because I was wearing Dale of Norway.
+I thought you would enjoy this small, lovely moment: at April’s Profound Autism Summit in Boston, a fellow Norwegian found my mother and me because I was wearing one of my favorite sweaters—a Dale of Norway.
 
 I have included the story, with a link to Dale, in “A Little Camelot in Boston,” a reflection for An AUsome Life about family, caregiving, and the unexpected ways people find one another. The sweater was a little point of recognition in a much larger gathering, and it is a memory I treasure.
 
@@ -246,7 +328,13 @@ https://anausomelife.com/
 
 ## Swim Angelfish
 
-Official contact-form route; not submitted: https://swimangelfish.com/contact/
+Submitted successfully through the official contact form.
+
+Official form: https://swimangelfish.com/contact/
+
+Submitted: 2026-10-21T15:57:47.714Z
+
+Confirmation: Thanks for contacting us! We will get in touch with you shortly.
 
 Hello Cindy, Ailene, and team,
 
