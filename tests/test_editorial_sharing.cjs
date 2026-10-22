@@ -3,7 +3,7 @@ const root=path.resolve(__dirname,'..');
 class Element{
  constructor(){this.value='';this.textContent='';this.hidden=false;this.listeners={};this.nodes={};this.children=[];this.valid=true;this.scrollCalls=[];this.clientWidth=400;this.dataset={};this.lists={};}
  addEventListener(name,fn){this.listeners[name]=fn;}
- querySelector(selector){return this.nodes[selector]||null;}
+ querySelector(selector){return this.nodes[selector] || selector.split(',').map(part=>this.nodes[part.trim()]).find(Boolean) || null;}
  querySelectorAll(selector){return this.lists[selector]||[];}
  setAttribute(name,value){this[name]=value;}
  append(node){this.children.push(node);}
@@ -23,7 +23,7 @@ function brandHarness(query='',clipboard){
 }
 function storyHarness({article=true,hasNext=false,clipboard,share,authored=false,canonical='https://anausomelife.com/october-ice-cream-dairy-joy-weston.html?tracking=yes#photo'}={}){
  const main=new Element(),heading=new Element();heading.textContent='October ice cream at Dairy Joy.';
- main.nodes.h1=heading;if(article)main.nodes['.fn-story,.er-story,.love-body,.journal-prose,.article-body']=new Element();
+ main.nodes.h1=heading;if(article)main.nodes['.fn-story']=new Element();
  if(hasNext){const next={before(node){main.children.splice(main.children.indexOf(next),0,node);}};main.nodes['.reader-next']=next;main.children.push(next);}
  const section=new Element();['.aal-share-status','[data-share-fallback]','textarea','[data-reuse-link]','[data-copy-link]','[data-copy-caption]','[data-share-native]'].forEach(k=>section.nodes[k]=new Element());section.nodes['[data-share-fallback]'].hidden=true;section.nodes['[data-share-native]'].hidden=true;
  if(authored){
