@@ -4,7 +4,7 @@
   "storyUrl": "https://anausomelife.com/shaker-history-harvard-family-gift.html",
   "authorization": "Owner requested publicity and sharing for this story: can yu ge us some press for this shares etc. Existing owner direction authorizes branded outreach using hello@anausomelife.com.",
   "from": "An AUsome Life <hello@anausomelife.com>",
-  "status": "prepared_for_next_eligible_weekday_morning",
+  "status": "outreach_task_scheduled_messages_unsent",
   "messages": [
     {
       "organization": "The Harvard Press",
@@ -82,5 +82,13 @@
     "personal": "One of my favorite gifts: a little research, a short car trip and a day planned just for me. Michael surprised me with a Shaker history day around Harvard, where I grew up nearby but had never really explored the history. It brought back memories of Mom-Mom and our special trips to Gardner and Lancaster for Shaker furniture. A thoughtful gift doesn't have to cost much. I've shared the story, a Shaker-chair watercolor, a fold-open map and printable history picture cards here: https://anausomelife.com/shaker-history-harvard-family-gift.html",
     "short": "A little research. A short drive. A thoughtful surprise. Our Shaker history day in Harvard, with a map and printable picture cards: https://anausomelife.com/shaker-history-harvard-family-gift.html",
     "credit": "An AUsome Life / @anausomelife"
+  },
+  "scheduling": {
+    "taskId": "6ada8c2bf77481918a810e302c45b6b3",
+    "dateEastern": "2026-10-23",
+    "windowEastern": "09:00–11:00",
+    "timingMode": "flexible_schedule",
+    "confirmedCreated": true,
+    "delivery": "Not yet sent. Task rechecks shared daily capacity, replies and duplicates before sending."
   }
 }
