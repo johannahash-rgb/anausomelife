@@ -1,0 +1,25 @@
+{
+  "title": "A little research, a short car ride",
+  "reviewed": "2026-10-22",
+  "canonical_story": "https://anausomelife.com/shaker-history-harvard-family-gift.html",
+  "method": "Link-only sharing. The original owner-supplied photograph is preserved unchanged; generated retouch is not published.",
+  "scoped_organic_sharing_intent": {
+    "assets_only": [],
+    "scope": "Credited story link and caption sharing only; no family photograph reuse rights."
+  },
+  "outputs": [],
+  "story_photographs": [
+    {
+      "path": "assets/shaker-history-harvard/family-photo.jpeg",
+      "source": "IMG_7890.jpeg",
+      "basis": "Owner supplied photo and explicitly requested public website publication in this conversation. Website story and link previews only.",
+      "sha256": "7386d485a6f499022c51f52a1dced055cbdcf249f1d7ca006bcffe5ec5388111"
+    }
+  ],
+  "sources": [
+    "https://www.nps.gov/places/harvard-shaker-village-historic-district.htm",
+    "https://harvardhistory.org/the-shaker-village/",
+    "https://www.metmuseum.org/essays/shaker-furniture"
+  ],
+  "native_social": "Not published."
+}

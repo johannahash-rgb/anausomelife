@@ -56,6 +56,10 @@
     "lilo-stitch-birthday-fall-river-childrens-museum.html": {
       "provenance": "docs/lilo-stitch-birthday-provenance.json",
       "reviewed": "2026-10-22"
+    },
+    "shaker-history-harvard-family-gift.html": {
+      "provenance": "docs/shaker-history-harvard-provenance.json",
+      "reviewed": "2026-10-22"
     }
   }
 }
