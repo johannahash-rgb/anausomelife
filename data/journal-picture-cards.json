@@ -597,6 +597,23 @@
         "ralph-waldo-emerson",
         "emerson-nature"
       ]
+    },
+    {
+      "path": "snowshoeing-with-james-right-outside-home.html",
+      "cards": [
+        "photo-24-snowshoes",
+        "coat",
+        "photo-11-mittens",
+        "photo-11-winter-boots",
+        "photo-11-snow-pants",
+        "home",
+        "help",
+        "break",
+        "more",
+        "no",
+        "stop",
+        "all-done"
+      ]
     }
   ]
 }

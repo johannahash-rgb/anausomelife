@@ -16,5 +16,33 @@
       "sha256": "2320ad409c56ba35487aac77e27c53f95affb94936834d29abda6dbc5b969243"
     }
   ],
-  "native_social": "Not published."
+  "native_social": "Not published.",
+  "picture_cards": {
+    "reviewed": "2026-10-22",
+    "ids": [
+      "photo-24-snowshoes",
+      "coat",
+      "photo-11-mittens",
+      "photo-11-winter-boots",
+      "photo-11-snow-pants",
+      "home",
+      "help",
+      "break",
+      "more",
+      "no",
+      "stop",
+      "all-done"
+    ],
+    "source": "Reviewed existing site card artwork; one new generated generic snowshoe image. No family photographs used as cards.",
+    "new_artwork": {
+      "path": "assets/snowshoeing-at-home/snowshoes-card.webp",
+      "sha256": "3653645716098fc647431651dc96e5e2444aaba6523089067336e5bedaa6714a",
+      "method": "Built-in image generation; generic two blue-framed snowshoes on white, no brand. Reviewed for object accuracy."
+    },
+    "printable": {
+      "path": "downloads/snowshoeing-picture-cards.pdf",
+      "sha256": "0e67e9b933b12cb0b5667b29df1d379354fb084d93f658121d83c2db1e6526d7",
+      "use": "Personal and individual communication support. Not a social-media graphic or official PECS material."
+    }
+  }
 }

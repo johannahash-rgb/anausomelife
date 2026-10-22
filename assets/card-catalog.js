@@ -6416,9 +6416,8 @@ window.AALCardCatalog = [
     "id": "photo-24-snowshoes",
     "label": "snowshoes",
     "category": "Play & sensory",
-    "image": "/assets/card-collection/photoreal/set-24.webp",
-    "cell": 12,
-    "description": "Photorealistic AI-generated picture of snowshoes, shown as a clear, standalone object on a plain background.",
+    "image": "/assets/snowshoeing-at-home/snowshoes-card.webp",
+    "description": "AI-generated object illustration of two blue-framed snowshoes with gray decking and black foot bindings on white.",
     "keywords": "photorealistic photo realistic object everyday picture snowshoes",
     "photoRealistic": true
   },
