@@ -1,0 +1,69 @@
+{
+  "title": "Burlington whale tails: family photograph and link-only sharing",
+  "reviewed": "2026-10-22",
+  "canonical_story": "https://anausomelife.com/burlington-whale-tails-almost-home.html",
+  "scoped_organic_sharing_intent": {
+    "assets_only": [],
+    "scope": "Story link and attributed captions only. No photograph or graphic reuse license."
+  },
+  "outputs": [],
+  "story_photographs": [
+    {
+      "path": "assets/burlington-whale-tails/james-whale-tails.jpeg",
+      "uploaded_name": "IMG_1214.jpeg",
+      "sha256": "82cc3fdabe4ba101ef85568363d2b39f65f254c87f35fb1ec9e922c6bb0ef2c2",
+      "dimensions": [
+        1152,
+        1536
+      ],
+      "bytes": 1036282,
+      "publication_basis": "Owner supplied original family photograph and explicitly directed publication of this story.",
+      "transformations": "None; original JPEG bytes, proportions and pixels preserved.",
+      "scope": "Article, journal entry and site-controlled article-link preview only. No separate photo reuse or advertising permission.",
+      "alt_text": "James smiling on a grassy uphill path, with tall meadow grasses on both sides and the two whale-tail sculptures against a blue sky."
+    }
+  ],
+  "third_party_photos": "Official artist and Trail Finder galleries are linked only. No third-party photo republished.",
+  "highway_estimate": {
+    "source": "https://maps.vcgi.vermont.gov/arcgis/rest/services/EGC_services/IMG_VCGI_CLR_SP_CACHE/ImageServer",
+    "raster": "OBJECTID 1, STATEWIDE_2024_30cm_LeafOFF_4Band",
+    "bbox_3857": [
+      -8142357.0998211205,
+      5534545.481931119,
+      -8142157.0998211205,
+      5534745.481931119
+    ],
+    "export_pixels": [
+      1200,
+      1200
+    ],
+    "sculpture_pixels": [
+      [
+        610,
+        615
+      ],
+      [
+        610,
+        640
+      ],
+      [
+        600,
+        630
+      ]
+    ],
+    "pavement_edge_pixel_line": [
+      [
+        0,
+        720
+      ],
+      [
+        1200,
+        1030
+      ]
+    ],
+    "ground_metres_per_pixel": 0.11898613499099843,
+    "method": "Perpendicular point-to-line distance with Web Mercator cosine correction at 44.445502 degrees. Visual selections yield approximately 27–30m; publish roughly 100ft/30m. Not a survey, route or safety buffer.",
+    "reviewed": "2026-10-22"
+  },
+  "social_status": "No native social post or repost claimed."
+}
