@@ -1,8 +1,8 @@
 {
-  "version": 1,
+  "version": 2,
   "preparedDateEastern": "2026-10-22",
   "storyUrl": "https://anausomelife.com/shaker-history-harvard-family-gift.html",
-  "authorization": "Owner requested publicity and sharing for this story: can yu ge us some press for this shares etc. Existing owner direction authorizes branded outreach using hello@anausomelife.com.",
+  "authorization": "Owner requested publicity and sharing for this story: can yu ge us some press for this shares etc. Existing owner direction authorizes branded outreach using hello@anausomelife.com. The owner then asked about other Shaker story places, authorizing expansion to relevant Shaker institutions.",
   "from": "An AUsome Life <hello@anausomelife.com>",
   "status": "outreach_task_scheduled_messages_unsent",
   "messages": [
@@ -48,6 +48,87 @@
       "text": "Hi Karen,\n\nWe've linked the Trust's Shaker Conservation Lands information in a new An AUsome Life story about discovering local history through a simple family outing.\n\nMichael planned a surprise Shaker history day for me around Harvard. I grew up nearby and love history, but had never properly explored these places. The day also connected with childhood memories of my mother, Mom-Mom, and trips to Gardner and Lancaster for Shaker furniture.\n\nThe story and its new fold-open orientation map are here:\nhttps://anausomelife.com/shaker-history-harvard-family-gift.html\n\nWould the Trust consider sharing the story link with its community through a newsletter or social post? The reader takeaway is a thoughtful gift made from research, a short drive and time together. The map directs readers to local sources and distinguishes orientation from a walking route; the story reminds visitors to respect private homes and use designated trails.\n\nWe've also added free picture cards for future history outings, with choices such as look, walk, break and all done.\n\nSuggested sharing caption: Discover the history close to home: a family Shaker-history outing in Harvard, with a local orientation map and printable picture cards. Credit: An AUsome Life / @anausomelife.\n\nThank you,\nAn AUsome Life\nhello@anausomelife.com",
       "status": "prepared_unsent",
       "idempotencyKey": "aal-shaker-harvard-20261022-3-v1"
+    },
+    {
+      "organization": "Hancock Shaker Village",
+      "name": null,
+      "to": "info@hancockshakervillage.org",
+      "role": "Published general contact; route to communications/newsletter team",
+      "sourceUrls": [
+        "https://hancockshakervillage.org/home/contact/",
+        "https://hancockshakervillage.org/home/press-room/"
+      ],
+      "contactNote": "Use the published general address because the press-room name/email pairing is inconsistent; do not guess a named contact.",
+      "subject": "From Mom-Mom's Shaker furniture to a family history day",
+      "text": "Hello Hancock Shaker Village team,\n\nFor your communications or newsletter team: I thought this family story might interest readers who connect with Shaker history through furniture and everyday objects.\n\nMy mother, Mom-Mom, always loved Shaker furniture. Growing up, we made special trips to stores in Gardner and Lancaster to buy pieces. Years later, Michael surprised me with a Shaker history day around Harvard, Massachusetts, where I grew up nearby but had never properly explored the history.\n\nThe gift was the research and planning, a short drive and time together. I've shared the memory through An AUsome Life:\nhttps://anausomelife.com/shaker-history-harvard-family-gift.html\n\nWould you consider sharing the story link with your community? Hancock's work keeping Shaker history and craft in view makes this feel like a natural fit. The piece includes links to local history sources, a chair watercolor, a fold-open Harvard orientation map and printable picture cards created for future outings.\n\nSuggested caption: How a childhood love of Shaker furniture became a thoughtful family history outing. Read An AUsome Life's Harvard story.\n\nA link with credit to An AUsome Life / @anausomelife would be lovely.\n\nWarmly,\nAn AUsome Life\nhello@anausomelife.com",
+      "status": "prepared_unsent",
+      "idempotencyKey": "aal-shaker-harvard-20261022-4-v1",
+      "preparedDateEastern": "2026-10-22"
+    },
+    {
+      "organization": "Canterbury Shaker Village",
+      "name": "Garrett Bethmann",
+      "to": "gbethmann@shakers.org",
+      "role": "Manager of Communications & Engagement",
+      "sourceUrls": [
+        "https://www.shakers.org/about-us/board-staff/"
+      ],
+      "subject": "A Shaker-history story for Canterbury's community",
+      "text": "Hi Garrett,\n\nI'm reaching out because your work sharing Shaker history may connect with a personal story we've just published at An AUsome Life.\n\nMy mother, Mom-Mom, always loved Shaker furniture, and our childhood trips to stores in Gardner and Lancaster were part of that connection. Michael gave me a different way to enjoy it: a surprise history day around Harvard, Massachusetts, near where I grew up.\n\nI love history, yet had never taken the time to explore those places. A little research, a short drive and someone else doing the planning made a thoughtful gift without a large budget:\nhttps://anausomelife.com/shaker-history-harvard-family-gift.html\n\nWould you consider sharing the link through Canterbury's newsletter or social channels if it suits your audience? The story offers a personal starting point for exploring Shaker history. Its new companion resources include a fold-open Harvard orientation map and printable picture cards for future history outings.\n\nSuggested caption: Shaker furniture, family memories and the gift of a day planned with care. An AUsome Life shares a history outing in Harvard, Massachusetts.\n\nPlease credit An AUsome Life / @anausomelife and link to the story.\n\nWarmly,\nAn AUsome Life\nhello@anausomelife.com",
+      "status": "prepared_unsent",
+      "idempotencyKey": "aal-shaker-harvard-20261022-5-v1",
+      "preparedDateEastern": "2026-10-22"
+    },
+    {
+      "organization": "Enfield Shaker Museum",
+      "name": "Carolyn A. Smith",
+      "to": "director@shakermuseum.org",
+      "role": "Acting Director",
+      "sourceUrls": [
+        "https://shakermuseum.org/about/enfield-shaker-museum-staff/",
+        "https://shakermuseum.org/about/enfield-shaker-museum-mission/"
+      ],
+      "subject": "A family story connecting Shaker furniture and local history",
+      "text": "Hi Carolyn,\n\nI thought Enfield's Shaker-history readers might enjoy a family story about how an interest in furniture can lead someone back to the history close to home.\n\nMy mother, Mom-Mom, always loved Shaker furniture. Growing up, we made special trips to stores in Gardner and Lancaster to buy pieces. Michael later surprised me with a Shaker history day around Harvard, Massachusetts: research, a short drive and time together, all planned for a history buff who had grown up nearby without exploring it.\n\nThe story is now on An AUsome Life:\nhttps://anausomelife.com/shaker-history-harvard-family-gift.html\n\nWould it be a fit for a link in your newsletter or a social share? It connects family memories with Shaker heritage and a thoughtful gift that doesn't need to cost much. We have also added a chair watercolor, a fold-open Harvard orientation map and free printable picture cards for future outings.\n\nSuggested caption: A love of Shaker furniture passed through a family becomes a day exploring local history. Read the story from An AUsome Life.\n\nA link credited to An AUsome Life / @anausomelife would be appreciated.\n\nWarmly,\nAn AUsome Life\nhello@anausomelife.com",
+      "status": "prepared_unsent",
+      "idempotencyKey": "aal-shaker-harvard-20261022-6-v1",
+      "preparedDateEastern": "2026-10-22"
+    },
+    {
+      "organization": "Shaker Heritage Society",
+      "name": null,
+      "to": "director@shakerheritage.org",
+      "role": "Published director contact",
+      "sourceUrls": [
+        "https://home.shakerheritage.org/contact-us/"
+      ],
+      "subject": "A personal doorway into Shaker history — story to share",
+      "text": "Hello Shaker Heritage Society team,\n\nYour work introducing people to Shaker heritage made me think a family story we've published might resonate with your community.\n\nFor me, the connection began with my mother, Mom-Mom, who always loved Shaker furniture. Growing up, we made special trips to stores in Gardner and Lancaster to buy pieces. Michael brought that interest into a new setting by surprising me with a Shaker history day around Harvard, Massachusetts.\n\nI grew up nearby and love history, but had never properly explored those places. The gift was a little research, a short drive and time together:\nhttps://anausomelife.com/shaker-history-harvard-family-gift.html\n\nWould you consider sharing the link in a newsletter or social post? The story is a personal invitation to notice the history close to home, with links to local sources and new companion resources: a Harvard orientation map and printable picture cards for future outings.\n\nSuggested caption: From family furniture memories to a surprise history day: An AUsome Life explores a personal connection to Shaker heritage.\n\nPlease credit An AUsome Life / @anausomelife and link to the story.\n\nWarmly,\nAn AUsome Life\nhello@anausomelife.com",
+      "status": "prepared_unsent",
+      "idempotencyKey": "aal-shaker-harvard-20261022-7-v1",
+      "preparedDateEastern": "2026-10-22"
+    },
+    {
+      "organization": "Fruitlands Museum / The Trustees",
+      "name": "Mary Dettloff",
+      "to": "mdettloff@thetrustees.org",
+      "role": "Director of Public Relations",
+      "sourceUrls": [
+        "https://thetrustees.org/press-release/jennifer-pachus-named-chief-development-officer/",
+        "https://thetrustees.org/place/fruitlands-museum/",
+        "https://thetrustees.org/content/fruitlands-museum-history/"
+      ],
+      "subject": "Harvard Shaker story: family furniture memories and a thoughtful gift",
+      "text": "Hi Mary,\n\nFruitlands' connection to Harvard's Shaker history made me think this personal story might be a fit for your museum or community channels.\n\nMy mother, Mom-Mom, always loved Shaker furniture. Growing up, we made special trips to stores in Gardner and Lancaster to buy pieces. Michael later surprised me with a Shaker history day around Harvard, near where I grew up but had never properly explored the history.\n\nThe gift was the research, planning, a short drive and time together. I've shared that memory through An AUsome Life:\nhttps://anausomelife.com/shaker-history-harvard-family-gift.html\n\nWould the Fruitlands team consider sharing the link with readers who enjoy the area's history and Shaker furniture? The story includes a chair watercolor, links to local sources, a fold-open Harvard orientation map and free picture cards created for future history outings.\n\nSuggested caption: A thoughtful gift close to home: An AUsome Life's Shaker history day in Harvard, inspired by family memories of Shaker furniture.\n\nPlease credit An AUsome Life / @anausomelife and link to the story.\n\nWarmly,\nAn AUsome Life\nhello@anausomelife.com",
+      "status": "held_organization_cooldown",
+      "hold": {
+        "reason": "A different Trustees pitch was sent on October 17, 2026. Respect the 14-day organization cooldown across all recipients and stories.",
+        "lastKnownOutboundAt": "2026-10-17T09:49:35Z",
+        "earliestEligibleWindowEastern": "2026-11-02 09:00–11:00",
+        "recheck": "Check the current Trustees thread, all later organization messages and replies before release. Any later send resets the cooldown. Do not switch contacts to bypass it."
+      },
+      "idempotencyKey": "aal-shaker-harvard-20261022-8-v1",
+      "preparedDateEastern": "2026-10-22"
     }
   ],
   "sendPolicy": {
@@ -56,20 +137,20 @@
     "organizationCooldownDays": 14,
     "onePitchPerOrganizationPerPost": true,
     "followup": "No follow-up is scheduled by this package. Recheck existing rules and replies before any later action.",
-    "priority": "These three story-specific pitches are the owner's current publicity request. Check shared capacity before sending; do not exceed it."
+    "priority": "Preserve the initial three Harvard recipients first, then the four prepared additional institutions in array order. Fruitlands stays on cooldown until eligible. Share the existing daily cap with all outreach workflows; no more than three initial pitches per Eastern day."
   },
   "checks": {
     "checkedDateEastern": "2026-10-22",
     "sender": "Resend reports anausomelife.com verified with sending enabled.",
-    "priorContact": "No selected recipient domain or story URL matches in full press plan and current master log. Targeted Primary and Pinshare Gmail searches returned no matches. Latest 200 provider messages reviewed; none for these selected organizations. Bounded check, to be repeated at send time.",
-    "suppressions": "Each of the three exact recipients returned Suppression not found.",
-    "sources": "Current primary-source staff/home pages checked. Harvard Press editor address additionally corroborated by its published internship application and letters policy.",
+    "priorContact": "Initial three: no relevant matches in both logs, both Gmail accounts and latest 200 provider messages. Expanded institutions: no domain match in full plan/master log; targeted Primary Gmail found the October 17 Trustees Winterlights pitch, other selected domains absent; Pinshare returned no matches; latest 100 provider messages had no selected-domain matches. These are bounded checks, not permanent clearance; repeat before each send.",
+    "suppressions": "Initial three plus the four additional ready recipients and the Fruitlands recipient each returned Suppression not found on October 22. Recheck at send time.",
+    "sources": "Current primary-source staff/home pages checked. Harvard Press editor address additionally corroborated by its published internship application and letters policy. Expanded institution contacts verified through their official staff/contact pages; Hancock general address selected because named press contact information conflicts. Fruitlands role verified in an October 7, 2026 Trustees release. New York museum candidate is not cleared to send.",
     "publication": "Enhancement commit 57cbe6ce08201475482d254c7d0121253fb76bb0 passed both GitHub Pages deploy workflows and site-wide audit. Latest main contains Mom-Mom/Gardner/Lancaster text and map/card disclosures.",
     "nativeSocial": "Metricool currently exposes YouTube only. No native Instagram/Facebook post, share or repost has been made.",
     "coverage": "No press acceptance or third-party share confirmed."
   },
   "scope": {
-    "request": "One editorial feature pitch and two tailored community-sharing requests, link only.",
+    "request": "One editorial feature pitch and seven tailored community-sharing requests, link only. Four additional institutions are ready for checked outreach; Fruitlands is held. Shaker Museum, New York is research only, outside the send list.",
     "images": "No family photo attachments, downloads, republication or paid-media permission granted. No third-party logo use.",
     "privacy": "No child identifiers, diagnoses or private contact details in messages.",
     "cost": "No paid distribution, ads, fees, exclusivity or rights commitments."
@@ -89,6 +170,20 @@
     "windowEastern": "09:00–11:00",
     "timingMode": "flexible_schedule",
     "confirmedCreated": true,
-    "delivery": "Not yet sent. Task rechecks shared daily capacity, replies and duplicates before sending."
-  }
+    "delivery": "All eight messages remain unsent. The existing task starts October 23 and stages checked sends across eligible weekday mornings within the shared cap. Fruitlands cannot send before November 2 and may be held longer after current-thread checks.",
+    "expansionTaskUpdate": "pending"
+  },
+  "prospects": [
+    {
+      "organization": "Shaker Museum, New York",
+      "status": "research_only_contact_verification_needed",
+      "candidateAddress": "contact@shakermuseum.us",
+      "sourceUrls": [
+        "https://www.shakermuseum.us/privacy-policy",
+        "https://www.prnewswire.com/news-releases/claudia-gould-former-jewish-museum-director-to-lead-shaker-museum-during-transformation-era-302529255.html"
+      ],
+      "note": "Strong furniture/material-culture fit. Search results show the general address, but direct official-site retrieval is blocked and the institutional release masks its PR email. Keep out of the send list until a current suitable contact is independently verified.",
+      "angle": "How Mom-Mom's love of Shaker furniture and family shopping trips became a personal doorway into Harvard's Shaker history."
+    }
+  ]
 }
