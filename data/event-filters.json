@@ -7957,6 +7957,48 @@
           "url": "https://www.seedandsew.org/polarexpress"
         }
       }
+    },
+    "discovery-deaf-morning-2026-11-23": {
+      "ageGroups": [
+        "families"
+      ],
+      "accessFeatures": [
+        "sensory-friendly",
+        "wheelchair-step-free",
+        "hearing-support"
+      ],
+      "ageEvidence": {
+        "families": {
+          "url": "https://www.discoveryacton.org/visit/especially-me"
+        }
+      },
+      "accessEvidence": {
+        "sensory-friendly": {
+          "url": "https://www.discoveryacton.org/visit/especially-me"
+        },
+        "wheelchair-step-free": {
+          "url": "https://www.discoveryacton.org/visit/especially-me"
+        },
+        "hearing-support": {
+          "url": "https://www.discoveryacton.org/events-programs/morning-deafhard-hearing-visitors-2"
+        }
+      },
+      "checkedAt": "2026-10-22",
+      "ageRange": {
+        "min": null,
+        "max": null,
+        "kind": "not-stated"
+      },
+      "sensory": {
+        "level": "variable",
+        "note": "A dedicated session and break space can help with crowding; exhibit sounds and individual needs still vary.",
+        "sourceUrl": "https://www.discoveryacton.org/events-programs/morning-deafhard-hearing-visitors-2",
+        "checkedAt": "2026-10-22",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-22"
+      },
+      "holidays": [],
+      "holidayEvidence": {}
     }
   },
   "sensoryMethod": "Sensory levels are editorial planning estimates based on the specific published conditions, not medical ratings or promises. Low means reduced stimulation, moderate means some ongoing music or activity, high means a likely stimulating mix, variable means conditions or parts of the visit differ, and unknown means evidence is insufficient. Sensory-friendly and disability-inclusive are not automatic low-sensory ratings. Earlier event verification dates remain visible."

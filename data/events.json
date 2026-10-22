@@ -17,7 +17,7 @@
     {
       "id": "discovery",
       "name": "Discovery Museum",
-      "url": "https://www.discoveryacton.org/news/schedule-free-events-visitors-disabilities-announced",
+      "url": "https://www.discoveryacton.org/visit/especially-me",
       "state": "MA",
       "mode": "check",
       "enabled": true,
@@ -27,9 +27,9 @@
       ],
       "autoPublish": false,
       "feedVerified": false,
-      "sourceCheckedAt": "2026-10-03T02:31:26Z",
+      "sourceCheckedAt": "2026-10-22T10:40:00Z",
       "status": "manually-checked",
-      "lastChecked": "2026-10-03T02:31:26Z"
+      "lastChecked": "2026-10-22T10:40:00Z"
     },
     {
       "id": "boston-childrens",
@@ -44,9 +44,9 @@
       ],
       "autoPublish": false,
       "feedVerified": false,
-      "sourceCheckedAt": "2026-10-03T02:31:26Z",
+      "sourceCheckedAt": "2026-10-22T10:40:00Z",
       "status": "manually-checked",
-      "lastChecked": "2026-10-03T02:31:26Z"
+      "lastChecked": "2026-10-22T10:40:00Z"
     },
     {
       "id": "montshire",
@@ -4097,7 +4097,7 @@
       "address": "177 Main Street, Acton, MA 01720",
       "cost": "Free",
       "ages": "Children, adults, and families who benefit from an accessible visit",
-      "summary": "An after-hours visit with dinner included. The museum is closed to the general public.",
+      "summary": "A sensory-friendly Halloween evening with dinner included. Registration was reported full; check with the museum before planning a visit.",
       "accessibility": [
         "Limited attendance",
         "Noise-reducing headphones available",
@@ -4107,13 +4107,13 @@
       "sourceId": "discovery",
       "sourceUrl": "https://www.discoveryacton.org/news/schedule-free-events-visitors-disabilities-announced",
       "ticketUrl": "https://www.discoveryacton.org/visit/especially-me",
-      "registration": "Advance registration required.",
+      "registration": "Registration full in the museum’s October 13 update. Check the organizer for any reopened places; advance registration is required.",
       "cancellationPolicy": "Not stated in the checked listing; confirm with the organizer.",
       "notes": [
         "A medical diagnosis is not required.",
         "Dinner includes a gluten-free option."
       ],
-      "lastVerified": "2026-10-03T02:31:26Z",
+      "lastVerified": "2026-10-22T10:40:00Z",
       "verificationMethod": "Official organizer page reviewed",
       "reviewRequired": false,
       "status": "scheduled",
@@ -4493,7 +4493,7 @@
       "address": "308 Congress Street, Boston, MA 02210",
       "cost": "$12 per person; free for members; other discounts may apply",
       "ages": "Children with disabilities or special/medical needs and their families",
-      "summary": "A limited-capacity access session before opening or in the evening.",
+      "summary": "A museum visit capped at 100 guests, with time to explore away from regular opening-hour crowds.",
       "accessibility": [
         "Limited to 100 guests",
         "Dedicated access session"
@@ -4501,13 +4501,13 @@
       "sourceId": "boston-childrens",
       "sourceUrl": "https://bostonchildrensmuseum.org/morningstar-program-registration-form/",
       "ticketUrl": "https://bostonchildrensmuseum.org/morningstar-program-registration-form/",
-      "registration": "Advance registration required.",
+      "registration": "Advance registration required. The museum sends an online payment link one week before the visit.",
       "cancellationPolicy": "Not stated in the checked listing; confirm with the organizer.",
       "notes": [
-        "Masks recommended, not required.",
+        "Masks are recommended but optional for visitors; staff wear masks when interacting with visitors.",
         "Source for capacity and audience: https://bostonchildrensmuseum.org/visit/accessibility/"
       ],
-      "lastVerified": "2026-10-03T02:31:26Z",
+      "lastVerified": "2026-10-22T10:40:00Z",
       "verificationMethod": "Official organizer page reviewed",
       "reviewRequired": false,
       "status": "scheduled",
@@ -5077,7 +5077,7 @@
       "ticketUrl": "https://www.discoveryacton.org/visit/especially-me",
       "cancellationPolicy": "Not stated in the checked listing; confirm with the organizer.",
       "notes": [],
-      "lastVerified": "2026-10-03T11:04:00Z",
+      "lastVerified": "2026-10-22T10:40:00Z",
       "verificationMethod": "Official organizer/event page reviewed",
       "reviewRequired": false,
       "status": "scheduled",
@@ -5093,7 +5093,7 @@
       "address": "177 Main Street, Acton, MA 01720",
       "cost": "Free",
       "ages": "Any family or group that would benefit from an accessible, lower-visitation museum visit",
-      "summary": "A free inclusive afternoon during a time when lower general visitation is expected.",
+      "summary": "Explore during regular opening hours with no scheduled group visits, reducing crowding. Admission through this program is free with advance registration.",
       "accessibility": [
         "ADA-compliant museum and Discovery Woods",
         "Noise-reducing headphones",
@@ -5217,7 +5217,7 @@
       "address": "308 Congress Street, Boston, MA 02210",
       "cost": "$12 per person; free for members; other discounts may apply",
       "ages": "Children with disabilities or special/medical needs and their families",
-      "summary": "A limited-capacity access session before opening or in the evening.",
+      "summary": "A museum visit capped at 100 guests, with time to explore away from regular opening-hour crowds.",
       "accessibility": [
         "Limited to 100 guests",
         "Dedicated access session"
@@ -5225,18 +5225,59 @@
       "sourceId": "boston-childrens",
       "sourceUrl": "https://bostonchildrensmuseum.org/morningstar-program-registration-form/",
       "ticketUrl": "https://bostonchildrensmuseum.org/morningstar-program-registration-form/",
-      "registration": "Advance registration required.",
+      "registration": "Advance registration required. The museum sends an online payment link one week before the visit.",
       "cancellationPolicy": "Not stated in the checked listing; confirm with the organizer.",
       "notes": [
-        "Masks recommended, not required.",
+        "Masks are recommended but optional for visitors; staff wear masks when interacting with visitors.",
         "Source for capacity and audience: https://bostonchildrensmuseum.org/visit/accessibility/"
       ],
-      "lastVerified": "2026-10-03T02:31:26Z",
+      "lastVerified": "2026-10-22T10:40:00Z",
       "verificationMethod": "Official organizer page reviewed",
       "reviewRequired": false,
       "status": "scheduled",
       "category": "Sensory-friendly",
       "format": "In person"
+    },
+    {
+      "id": "discovery-deaf-morning-2026-11-23",
+      "title": "Morning for Deaf/Hard of Hearing Visitors",
+      "start": "2026-11-23T09:30:00-05:00",
+      "end": "2026-11-23T11:30:00-05:00",
+      "timezone": "America/New_York",
+      "state": "MA",
+      "city": "Acton",
+      "venue": "Discovery Museum",
+      "address": "177 Main Street, Acton, MA 01720",
+      "cost": "Free with advance registration",
+      "costCategory": "free",
+      "ages": "Deaf, Hard of Hearing, or DeafBlind visitors and their families or caregivers",
+      "summary": "Explore hands-on exhibits during a dedicated morning when the museum is closed to the general public. An ASL interpreter and a Take-A-Break Space will be available.",
+      "accessibility": [
+        "ASL interpreter available",
+        "Designated Take-A-Break Space",
+        "Wheelchair-accessible museum",
+        "Pre-visit sensory map and Social Story available"
+      ],
+      "sourceId": "discovery",
+      "sourceUrl": "https://www.discoveryacton.org/events-programs/morning-deafhard-hearing-visitors-2",
+      "ticketUrl": "https://26033.blackbaudhosting.com/26033/Especially-for-Me-Free-Morning-for-DeafHard-of-Hearing-Visitors-23Nov2026",
+      "registration": "Advance registration required; registration is open. Confirm current availability with the organizer.",
+      "cancellationPolicy": "Not stated in the checked listing; confirm with the organizer.",
+      "notes": [
+        "Part of the Especially for Me series.",
+        "The series welcomes families who benefit from a sensory-friendly visit; a medical diagnosis is not required."
+      ],
+      "lastVerified": "2026-10-22T10:40:00Z",
+      "verificationMethod": "Official dated event page and linked registration page reviewed",
+      "reviewRequired": false,
+      "status": "scheduled",
+      "category": "Inclusive access",
+      "format": "In person",
+      "visualStory": {
+        "arrival": "We can arrive at the museum and check in for our reserved morning.",
+        "activity": "We can explore exhibits, watch, or choose an activity. An ASL interpreter is available.",
+        "break": "We can ask for the Take-A-Break Space or leave when we are ready."
+      }
     },
     {
       "id": "montshire-2026-11-21",
@@ -5417,7 +5458,7 @@
       "ticketUrl": "https://www.discoveryacton.org/visit/especially-me",
       "cancellationPolicy": "Not stated in the checked listing; confirm with the organizer.",
       "notes": [],
-      "lastVerified": "2026-10-05T09:30:00Z",
+      "lastVerified": "2026-10-22T10:40:00Z",
       "verificationMethod": "Official organizer/event page reviewed",
       "reviewRequired": false,
       "status": "scheduled",
@@ -5433,7 +5474,7 @@
       "address": "177 Main Street, Acton, MA 01720",
       "cost": "Free",
       "ages": "Any family or group that would benefit from an accessible, lower-visitation museum visit",
-      "summary": "A free inclusive afternoon during a time when lower general visitation is expected.",
+      "summary": "Explore during regular opening hours with no scheduled group visits, reducing crowding. Admission through this program is free with advance registration.",
       "accessibility": [
         "ADA-compliant museum and Discovery Woods",
         "Noise-reducing headphones",
@@ -5442,7 +5483,7 @@
       ],
       "sourceId": "discovery",
       "sourceUrl": "https://www.discoveryacton.org/visit/especially-me",
-      "registration": "Advance registration required.",
+      "registration": "Advance registration required; the museum currently asks visitors to check back for the booking link.",
       "visualStory": {
         "arrival": "We can enter the museum and check in. The museum expects lower attendance during this afternoon.",
         "activity": "We can choose exhibits inside or outdoors and go at our own pace.",
@@ -5532,7 +5573,7 @@
       "address": "308 Congress Street, Boston, MA 02210",
       "cost": "$12 per person; free for members; other discounts may apply",
       "ages": "Children with disabilities or special/medical needs and their families",
-      "summary": "A limited-capacity access session before opening or in the evening.",
+      "summary": "A museum visit capped at 100 guests, with time to explore away from regular opening-hour crowds.",
       "accessibility": [
         "Limited to 100 guests",
         "Dedicated access session"
@@ -5540,13 +5581,13 @@
       "sourceId": "boston-childrens",
       "sourceUrl": "https://bostonchildrensmuseum.org/morningstar-program-registration-form/",
       "ticketUrl": "https://bostonchildrensmuseum.org/morningstar-program-registration-form/",
-      "registration": "Advance registration required.",
+      "registration": "Advance registration required. The museum sends an online payment link one week before the visit.",
       "cancellationPolicy": "Not stated in the checked listing; confirm with the organizer.",
       "notes": [
         "All staff and visitors age 2+ must wear masks; no exceptions.",
         "Source for capacity and audience: https://bostonchildrensmuseum.org/visit/accessibility/"
       ],
-      "lastVerified": "2026-10-03T02:31:26Z",
+      "lastVerified": "2026-10-22T10:40:00Z",
       "verificationMethod": "Official organizer page reviewed",
       "reviewRequired": false,
       "status": "scheduled",
@@ -5871,18 +5912,18 @@
         "Limited attendance",
         "Noise-reducing headphones available",
         "Take-a-break space",
-        "ASL may be requested during registration"
+        "ASL interpreters available"
       ],
       "sourceId": "discovery",
       "sourceUrl": "https://www.discoveryacton.org/news/schedule-free-events-visitors-disabilities-announced",
       "ticketUrl": "https://www.discoveryacton.org/visit/especially-me",
-      "registration": "Advance registration required.",
+      "registration": "Advance registration required; the museum currently asks visitors to check back for the booking link.",
       "cancellationPolicy": "Not stated in the checked listing; confirm with the organizer.",
       "notes": [
         "A medical diagnosis is not required.",
         "Dinner includes a gluten-free option."
       ],
-      "lastVerified": "2026-10-05T09:30:00Z",
+      "lastVerified": "2026-10-22T10:40:00Z",
       "verificationMethod": "Official organizer page reviewed",
       "reviewRequired": false,
       "status": "scheduled",

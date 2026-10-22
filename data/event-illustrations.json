@@ -2006,6 +2006,16 @@
       "venue": "Symphony Hall",
       "start": "2027-03-27T11:00:00-04:00",
       "studyId": "bso-family-concert-20261019"
+    },
+    "discovery-deaf-morning-2026-11-23": {
+      "src": "/assets/event-sketches/discovery-inclusive-afternoon.webp",
+      "alt": "A wooden balance sculpture, magnifying lens and fern in afternoon sunshine.",
+      "width": 720,
+      "height": 480,
+      "title": "Morning for Deaf/Hard of Hearing Visitors",
+      "venue": "Discovery Museum",
+      "start": "2026-11-23T09:30:00-05:00",
+      "reusedFromEvent": "discovery-inclusive-2026-11-17"
     }
   },
   "watchlist": {
