@@ -1,0 +1,54 @@
+{
+  "title": "Don Julio in Buenos Aires and a little 1954 magic",
+  "reviewed": "2026-10-22",
+  "canonical_story": "https://anausomelife.com/buenos-aires-don-julio-1954.html",
+  "method": "Link-only sharing with reviewed copy, official restaurant link, and family photos shown on the story page. No standalone photograph or derivative graphic reuse permission granted.",
+  "scoped_organic_sharing_intent": {
+    "assets_only": [],
+    "scope": "Story link and credited caption sharing only. Any family photo reuse, edits or paid media require separate permission."
+  },
+  "outputs": [],
+  "story_photographs": [
+    {
+      "path": "assets/buenos-aires-don-julio/mommom-steve-don-julio.jpg",
+      "source": "User supplied original photo IMG_4309.jpeg; exported JPEG for website at up to 1400px; site publication and link previews only"
+    },
+    {
+      "path": "assets/buenos-aires-don-julio/1954-buenos-aires.jpg",
+      "source": "User supplied original photo IMG_4316(1).jpeg; exported JPEG for website at up to 1400px; site publication only"
+    },
+    {
+      "path": "assets/buenos-aires-don-julio/don-julio-restaurant.jpg",
+      "source": "User supplied original photo IMG_4307(1).jpeg; exported JPEG for website at up to 1400px; site publication only"
+    },
+    {
+      "path": "assets/buenos-aires-don-julio/don-julio-pumpkins.jpg",
+      "source": "User supplied original photo IMG_4330(1).jpeg; exported JPEG for website at up to 1400px; site publication only"
+    }
+  ],
+  "account_verification": {
+    "restaurant": "Don Julio's official website https://www.parrilladonjulio.com.ar/ and email info@parrilladonjulio.com.ar verified 2026-10-22 via Michelin official website link. No unverified restaurant social handles used; similarly named social pages elsewhere exist."
+  },
+  "outreach_as_of_2026_10_22": {
+    "sent": [
+      {
+        "target": "Don Julio",
+        "email": "info@parrilladonjulio.com.ar"
+      },
+      {
+        "target": "Buenos Aires Tourism",
+        "email": "prensaturismo@buenosaires.gob.ar"
+      },
+      {
+        "target": "Time Out Buenos Aires",
+        "email": "info@timeoutargentina.com"
+      },
+      {
+        "target": "Rococo",
+        "email": "indulge@rococoicecream.com"
+      }
+    ],
+    "reposts": "None confirmed",
+    "native_social": "Not published through connected Metricool: only YouTube connected, no video post"
+  }
+}

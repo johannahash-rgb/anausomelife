@@ -10,7 +10,7 @@
     let page;
     try { page = new URL(canonical, location.origin); } catch (_) { return; }
     if (page.protocol !== 'https:' || !['anausomelife.com','www.anausomelife.com'].includes(page.hostname)) return;
-    const isStory = main.querySelector('.fn-story,.er-story,.love-body,.journal-prose,.article-body') || /(?:field-note|favorite-places\/|favorite-places-)/.test(page.pathname);
+    const isStory = main.querySelector('.aal-story-share,.fn-story,.er-story,.love-body,.journal-prose,.article-body') || /(?:field-note|favorite-places\/|favorite-places-)/.test(page.pathname);
     if (!isStory || page.pathname.startsWith('/media/')) return;
     page.search = ''; page.hash = '';
     const url = page.href;

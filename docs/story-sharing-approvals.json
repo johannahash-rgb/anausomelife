@@ -48,6 +48,10 @@
     "burlington-whale-tails-almost-home.html": {
       "provenance": "docs/burlington-whale-tails-provenance.json",
       "reviewed": "2026-10-22"
+    },
+    "buenos-aires-don-julio-1954.html": {
+      "provenance": "docs/buenos-aires-don-julio-sharing-provenance.json",
+      "reviewed": "2026-10-22"
     }
   }
 }
