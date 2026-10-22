@@ -52,6 +52,10 @@
     "buenos-aires-don-julio-1954.html": {
       "provenance": "docs/buenos-aires-don-julio-sharing-provenance.json",
       "reviewed": "2026-10-22"
+    },
+    "lilo-stitch-birthday-fall-river-childrens-museum.html": {
+      "provenance": "docs/lilo-stitch-birthday-provenance.json",
+      "reviewed": "2026-10-22"
     }
   }
 }

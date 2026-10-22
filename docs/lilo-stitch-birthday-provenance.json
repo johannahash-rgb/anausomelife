@@ -1,0 +1,51 @@
+{
+  "title": "A birthday for our Lilo & Stitch fan",
+  "reviewed": "2026-10-22",
+  "canonical_story": "https://anausomelife.com/lilo-stitch-birthday-fall-river-childrens-museum.html",
+  "method": "Link-only sharing with family photographs for the approved website story and link previews; no third-party character artwork recreated or licensed.",
+  "scoped_organic_sharing_intent": {
+    "assets_only": [],
+    "scope": "Story link and credited caption sharing only. No family photograph reuse rights."
+  },
+  "outputs": [],
+  "story_photographs": [
+    {
+      "path": "assets/lilo-stitch-birthday/birthday-table.jpg",
+      "source": "IMG_1892.JPEG",
+      "basis": "Owner supplied birthday album and explicitly requested publication in this conversation. Website story and link previews only; no third-party photo reuse granted.",
+      "sha256": "b0d45cf3e0513d7cc8f36cfbefe61168d59127727838fb4f71504643ae89a95d"
+    },
+    {
+      "path": "assets/lilo-stitch-birthday/homemade-decorations.jpg",
+      "source": "IMG_1806.JPG",
+      "basis": "Owner supplied birthday album and explicitly requested publication in this conversation. Website story and link previews only; no third-party photo reuse granted.",
+      "sha256": "33d052de210caced4d154d6258c15bf54dad8e15c3385fb24147f3906f323fb5"
+    },
+    {
+      "path": "assets/lilo-stitch-birthday/stitch-at-the-party.jpg",
+      "source": "IMG_1843.JPEG",
+      "basis": "Owner supplied birthday album and explicitly requested publication in this conversation. Website story and link previews only; no third-party photo reuse granted.",
+      "sha256": "a150f2cc712e0c804aae7ac994a244724e53b94285a4e5c62c73bcdb7395006b"
+    },
+    {
+      "path": "assets/lilo-stitch-birthday/james-drums.jpg",
+      "source": "IMG_1823.JPEG",
+      "basis": "Owner supplied birthday album and explicitly requested publication in this conversation. Website story and link previews only; no third-party photo reuse granted.",
+      "sha256": "b45da875b40c81c413a9447307275464d3db8e9a563dbc8113635638f7c811e3"
+    },
+    {
+      "path": "assets/lilo-stitch-birthday/birthday-together.jpg",
+      "source": "IMG_1935.JPEG",
+      "basis": "Owner supplied birthday album and explicitly requested publication in this conversation. Website story and link previews only; no third-party photo reuse granted.",
+      "sha256": "26c365507c26a6280817f112ce5e0e9267219ae43a6d236057f14c5227a16d97"
+    },
+    {
+      "path": "assets/lilo-stitch-birthday/a-museum-memory.jpg",
+      "source": "IMG_1971.JPEG",
+      "basis": "Owner supplied birthday album and explicitly requested publication in this conversation. Website story and link previews only; no third-party photo reuse granted.",
+      "sha256": "7394d66a80ba80a0d8abe9b29265aab5b7deeeffeb0bdd5215610ef6a038c610"
+    }
+  ],
+  "official_source": "https://www.cmgfr.org/visit/parties-and-field-trips",
+  "native_social": "Not published; connected Metricool account exposes YouTube only."
+}
