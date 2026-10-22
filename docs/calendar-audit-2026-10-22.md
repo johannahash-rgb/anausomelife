@@ -44,3 +44,5 @@ Ticket stock can change after checking. Event-level verification dates were upda
 ## Validation
 
 Event tests: 29 passed; one pre-existing Shelburne test fails because it requires a walking-route “slopes” note on drive-around sessions as well. This change does not touch those entries. Editorial rights checker passed with its existing five map-embed manual-review notes; its scope is not a complete rights review. JSON parsed successfully and diff whitespace checks passed.
+
+The JavaScript calendar check initially classified later sessions reusing the October 19 program studies as legacy artwork. Corrected the check to recognize explicit later-session reuse only when organizer, venue, original reviewed session, study and image metadata match. The immutable October 19 artwork hashes and release mappings remain protected. Calendar rendering/filter checks pass with the additional dates.

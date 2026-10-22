@@ -27,8 +27,24 @@ function assertReviewedArtworkCoverage(){
   assert.equal(new Set(release.studies.map(study=>study.src)).size,23,'Study files must be distinct');
   assert.equal(new Set(release.studies.map(study=>study.sha256)).size,23,'Study image contents must be distinct');
   const eventById=new Map(data.events.map(event=>[event.id,event]));
+  const studyById=new Map(release.studies.map(study=>[study.id,study]));
+  function isLaterProgramSession(id,row){
+    if(added.has(id)||!studyById.has(row.studyId))return false;
+    const originalId=row.reusedFromEvent,original=eventById.get(originalId),event=eventById.get(id);
+    assert(added.has(originalId),'Later session must name an original reviewed session: '+id);
+    assert(original&&event,'Later session must name existing events: '+id);
+    assert.equal(event.sourceId,original.sourceId,'Artwork reuse must stay with the same organizer: '+id);
+    assert.equal(event.venue,original.venue,'Artwork reuse must stay at the same venue: '+id);
+    assert(Date.parse(event.start)>Date.parse(original.start),'Reuse must belong to a later session: '+id);
+    assert.equal(row.studyId,art.events[originalId].studyId,'Later session must keep the original study: '+id);
+    const study=studyById.get(row.studyId);
+    for(const key of ['src','alt','width','height'])assert.equal(row[key],study[key],id+': '+key);
+    return true;
+  }
+  // Later sessions can explicitly reuse their reviewed program's study. They
+  // are not legacy artwork against which the October 19 release was checked.
   const legacySources=new Set([
-    ...Object.entries(art.events).filter(([id])=>!added.has(id)).map(([,row])=>row.src),
+    ...Object.entries(art.events).filter(([id,row])=>!added.has(id)&&!isLaterProgramSession(id,row)).map(([,row])=>row.src),
     ...Object.values(art.watchlist).map(row=>row.src)
   ]);
   const assigned=[];
