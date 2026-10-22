@@ -1,0 +1,20 @@
+{
+  "title": "A little winter adventure, right outside our door.",
+  "reviewed": "2026-10-22",
+  "canonical_story": "https://anausomelife.com/snowshoeing-with-james-right-outside-home.html",
+  "method": "Link-only sharing; owner supplied documentary photo copied unchanged. Latest owner-edited caption preserved. Related picture resources are prospective, not claimed used.",
+  "scoped_organic_sharing_intent": {
+    "assets_only": [],
+    "scope": "Credited story link and caption sharing only; no family photograph reuse rights."
+  },
+  "outputs": [],
+  "story_photographs": [
+    {
+      "path": "assets/snowshoeing-at-home/family-photo.jpeg",
+      "source": "IMG_9299(1).jpeg",
+      "basis": "Owner supplied photo and requested publication; website and link previews only.",
+      "sha256": "2320ad409c56ba35487aac77e27c53f95affb94936834d29abda6dbc5b969243"
+    }
+  ],
+  "native_social": "Not published."
+}

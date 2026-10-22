@@ -60,6 +60,10 @@
     "shaker-history-harvard-family-gift.html": {
       "provenance": "docs/shaker-history-harvard-provenance.json",
       "reviewed": "2026-10-22"
+    },
+    "snowshoeing-with-james-right-outside-home.html": {
+      "provenance": "docs/snowshoeing-at-home-provenance.json",
+      "reviewed": "2026-10-22"
     }
   }
 }
