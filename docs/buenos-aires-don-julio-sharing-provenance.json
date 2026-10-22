@@ -229,7 +229,7 @@
         "angle": "Senior travel photo tradition and grandparenting lifestyle",
         "date": "2026-10-22",
         "gmail_message_id": "1a1655299ae9874c",
-        "status": "sent; no feature or response confirmed"
+        "status": "automatic reply 2026-10-22 says publication closed May 14, 2026; no active coverage opportunity"
       },
       {
         "target": "OverSixty Australia",
@@ -253,10 +253,26 @@
         "angle": "Possible independent journalism for mature-travel outlets; no paid placement",
         "date": "2026-10-22",
         "gmail_message_id": "1a16555041c091bd",
-        "status": "sent; no feature or response confirmed"
+        "status": "delivery failed; Gmail DSN 2026-10-22, message ID 1a16555110ae939e; do not retry this address"
+      },
+      {
+        "target": "The Ethel from AARP — editorial team",
+        "email": "aarpethel@aarp.org",
+        "angle": "Story pitch for women in 60s/70s: birth-year travel tradition and grandparents with independent adventures",
+        "gmail_message_id": "1a16556c0a2b9161",
+        "date": "2026-10-22",
+        "status": "sent; coverage not confirmed"
+      },
+      {
+        "target": "AGEIST — Justin Ravitz",
+        "email": "justin@weareageist.com",
+        "angle": "Age-positive travelers' 1954 birth-year photo ritual and potential original profile",
+        "gmail_message_id": "1a1655765265a48a",
+        "date": "2026-10-22",
+        "status": "sent; coverage not confirmed"
       }
     ],
-    "reposts": "None independently confirmed as of six additional pitches.",
+    "reposts": "No reposts or editorial features confirmed at time of this update.",
     "native_social": "Not published through connected Metricool: only YouTube connected, no video post",
     "editorial_replies": [
       {
@@ -272,6 +288,16 @@
       "result": "No campaign-address delivery failure surfaced in a Gmail search; sending alone does not verify receipt."
     },
     "expat_outreach_notes": "Six new earned-editorial pitches on 2026-10-22. No claims that two visitors are expatriates, no meal or cruise reviews, no photo-reuse license. Skipped International Living and Expat Focus personal-essay channels requiring firsthand residence abroad. BA expat forum posting not attempted without appropriate account/rules.",
-    "older_traveler_outreach_notes": "Nine new direct editorial tips on 2026-10-22 for age-positive travel/mature-travel audiences. Existing original website article linked, no rights transferred to family photos. Avoided unverified contacts and forms requiring exclusive/non-AI original unpublished submissions. No additional Viking PR contact."
+    "older_traveler_outreach_notes": "Nine new direct editorial tips on 2026-10-22 for age-positive travel/mature-travel audiences. Existing original website article linked, no rights transferred to family photos. Avoided unverified contacts and forms requiring exclusive/non-AI original unpublished submissions. No additional Viking PR contact.",
+    "older_traveler_delivery_review": {
+      "checked_at": "2026-10-22T20:38:00Z",
+      "total_mature_traveler_messages_sent": 11,
+      "active_sent_candidates": 9,
+      "one_bounce": "hello@ruthbrindle-features.com",
+      "one_closed_outlet": "Lifestyles After 50 (per automatic reply from editor)",
+      "publications_confirmed": 0,
+      "other_delivery_failures": "None found in current Gmail check; not a guarantee of receipt",
+      "followup": "Wait for substantive editor interest; avoid repeated contacts"
+    }
   }
 }
