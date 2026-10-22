@@ -46,9 +46,110 @@
       {
         "target": "Rococo",
         "email": "indulge@rococoicecream.com"
+      },
+      {
+        "target": "GRAND Magazine",
+        "email": "ccrosby@grandmagazine.com",
+        "angle": "grandparent travel + 1954",
+        "date": "2026-10-22",
+        "gmail_message_id": "1a16518946a3337d",
+        "status": "sent; no placement confirmed"
+      },
+      {
+        "target": "TravelAwaits",
+        "email": "taylor.belgeri@travelawaits.com",
+        "angle": "50+ travel rituals",
+        "date": "2026-10-22",
+        "gmail_message_id": "1a165189d71afd5a",
+        "status": "sent; no placement confirmed"
+      },
+      {
+        "target": "BOOMER Magazine",
+        "email": "Annie@BoomerMagazine.com",
+        "angle": "born in 1954 nostalgic travel photos",
+        "date": "2026-10-22",
+        "gmail_message_id": "1a1651a9815463d9",
+        "status": "sent; no placement confirmed"
+      },
+      {
+        "target": "Boomeropia",
+        "email": "editor@boomeropia.com",
+        "angle": "baby boomers' 1954 travel photo tradition",
+        "date": "2026-10-22",
+        "gmail_message_id": "1a1651bdef14ce82",
+        "status": "sent; no placement confirmed"
+      },
+      {
+        "target": "Porthole Cruise and Travel",
+        "email": "bpanoff@ppigroup.com",
+        "angle": "pre-cruise Buenos Aires destination + ritual",
+        "date": "2026-10-22",
+        "gmail_message_id": "1a165215e613edf7",
+        "status": "sent; no placement confirmed"
+      },
+      {
+        "target": "World of Cruising",
+        "email": "jack.carter@worldofcruising.co.uk",
+        "angle": "cruise traveler traditions + 1954",
+        "date": "2026-10-22",
+        "gmail_message_id": "1a16521670946ba8",
+        "status": "sent; no placement confirmed"
+      },
+      {
+        "target": "Cruise & Travel UK",
+        "email": "vicky.mayer@chelseamagazines.com",
+        "angle": "reader photo + 1954 before a Viking cruise",
+        "date": "2026-10-22",
+        "gmail_message_id": "1a16521c254d4e34",
+        "status": "sent; no placement confirmed"
+      },
+      {
+        "target": "Cruise Passenger / Cruise & Travel Australia",
+        "email": "bernadette@bigsplashmedia.com.au",
+        "angle": "pre-cruise photo story + personal souvenir tradition",
+        "date": "2026-10-22",
+        "gmail_message_id": "1a16521c810dd834",
+        "status": "sent; no placement confirmed"
+      },
+      {
+        "target": "Cruise Radio",
+        "email": "doug@cruiseradio.net",
+        "angle": "listener photo tradition prompt before cruise",
+        "date": "2026-10-22",
+        "gmail_message_id": "1a16521cef99f11c",
+        "status": "sent; no placement confirmed"
+      },
+      {
+        "target": "Cruise Fever",
+        "email": "ben@cruisefever.net",
+        "angle": "reader social/community idea around 1954",
+        "date": "2026-10-22",
+        "gmail_message_id": "1a165236cdafdd55",
+        "status": "sent; no placement confirmed"
+      },
+      {
+        "target": "Starts at 60 / Travel at 60",
+        "email": "travel@startsat60.com",
+        "angle": "over-60 travelers' personal rituals + grandparenting",
+        "date": "2026-10-22",
+        "gmail_message_id": "1a165237593fffd0",
+        "status": "sent; no placement confirmed"
       }
     ],
-    "reposts": "None confirmed",
-    "native_social": "Not published through connected Metricool: only YouTube connected, no video post"
+    "reposts": "No reposts or features confirmed as of these pitches.",
+    "native_social": "Not published through connected Metricool: only YouTube connected, no video post",
+    "editorial_replies": [
+      {
+        "outlet": "Cruise & Travel UK",
+        "contact": "vicky.mayer@chelseamagazines.com",
+        "type": "automatic out of office",
+        "date": "2026-10-22",
+        "note": "Returns after 22 October; this is not an editorial acceptance."
+      }
+    ],
+    "delivery_checks": {
+      "date": "2026-10-22",
+      "result": "No campaign-address delivery failure surfaced in a Gmail search; sending alone does not verify receipt."
+    }
   }
 }
