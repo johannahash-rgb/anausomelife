@@ -4577,7 +4577,7 @@
           "url": "https://thetrustees.org/event/450153/"
         }
       },
-      "checkedAt": "2026-10-06",
+      "checkedAt": "2026-10-22",
       "holidays": [
         "christmas",
         "winter-holidays"
@@ -4586,8 +4586,9 @@
         "level": "low",
         "note": "Reduced capacity, no music and no flickering lights during the specified sensory hours.",
         "sourceUrl": "https://thetrustees.org/event/450153/",
-        "checkedAt": "2026-10-06",
-        "basis": "Editorial planning estimate from organizer details"
+        "checkedAt": "2026-10-22",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-22"
       },
       "holidayEvidence": {
         "christmas": {
@@ -4611,27 +4612,27 @@
       ],
       "ageEvidence": {
         "all-ages": {
-          "url": "https://thetrustees.org/event/450153/"
+          "url": "https://thetrustees.org/event/450155/"
         },
         "children": {
-          "url": "https://thetrustees.org/event/450153/"
+          "url": "https://thetrustees.org/event/450155/"
         },
         "teens": {
-          "url": "https://thetrustees.org/event/450153/"
+          "url": "https://thetrustees.org/event/450155/"
         },
         "adults": {
-          "url": "https://thetrustees.org/event/450153/"
+          "url": "https://thetrustees.org/event/450155/"
         },
         "families": {
-          "url": "https://thetrustees.org/event/450153/"
+          "url": "https://thetrustees.org/event/450155/"
         }
       },
       "accessEvidence": {
         "sensory-friendly": {
-          "url": "https://thetrustees.org/event/450153/"
+          "url": "https://thetrustees.org/event/450155/"
         }
       },
-      "checkedAt": "2026-10-06",
+      "checkedAt": "2026-10-22",
       "holidays": [
         "christmas",
         "winter-holidays"
@@ -4639,16 +4640,17 @@
       "sensory": {
         "level": "low",
         "note": "Reduced capacity, no music and no flickering lights during the specified sensory hours.",
-        "sourceUrl": "https://thetrustees.org/event/450153/",
-        "checkedAt": "2026-10-06",
-        "basis": "Editorial planning estimate from organizer details"
+        "sourceUrl": "https://thetrustees.org/event/450155/",
+        "checkedAt": "2026-10-22",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-22"
       },
       "holidayEvidence": {
         "christmas": {
-          "url": "https://thetrustees.org/event/450153/"
+          "url": "https://thetrustees.org/event/450155/"
         },
         "winter-holidays": {
-          "url": "https://thetrustees.org/event/450153/"
+          "url": "https://thetrustees.org/event/450155/"
         }
       }
     },
@@ -6816,6 +6818,7 @@
       "accessFeatures": [
         "sensory-friendly"
       ],
+      "checkedAt": "2026-10-22",
       "ageEvidence": {
         "children": {
           "url": "https://thetrustees.org/event/450049/"
@@ -6829,14 +6832,13 @@
           "url": "https://thetrustees.org/event/450049/"
         }
       },
-      "checkedAt": "2026-10-19",
       "sensory": {
-        "level": "low",
-        "note": "Earlier entry, lower music and smaller ticket batches reduce stimulation, but the route includes stairs and uneven ground.",
+        "level": "variable",
+        "note": "Earlier daylight, smaller crowds and lower music reduce stimulation, but this remains an outdoor light show with uneven ground and stairs.",
         "sourceUrl": "https://thetrustees.org/event/450049/",
-        "checkedAt": "2026-10-19",
+        "checkedAt": "2026-10-22",
         "basis": "Editorial planning estimate from organizer details",
-        "sourceDetailsCheckedAt": "2026-10-19"
+        "sourceDetailsCheckedAt": "2026-10-22"
       },
       "holidays": [
         "winter-holidays",
@@ -7999,6 +8001,797 @@
       },
       "holidays": [],
       "holidayEvidence": {}
+    },
+    "springfield-sensory-2026-11-08": {
+      "ageGroups": [
+        "all-ages",
+        "families"
+      ],
+      "accessFeatures": [
+        "sensory-friendly"
+      ],
+      "checkedAt": "2026-10-22",
+      "ageEvidence": {
+        "all-ages": {
+          "url": "https://springfieldmuseums.org/program/sensory-friendly-sunday-3/2026-11-08/"
+        },
+        "families": {
+          "url": "https://springfieldmuseums.org/program/sensory-friendly-sunday-3/2026-11-08/"
+        }
+      },
+      "accessEvidence": {
+        "sensory-friendly": {
+          "url": "https://springfieldmuseums.org/program/sensory-friendly-sunday-3/2026-11-08/"
+        }
+      },
+      "sensory": {
+        "level": "variable",
+        "note": "Exhibits are modified and a quiet space is available; specific sound and lighting changes are not described.",
+        "sourceUrl": "https://springfieldmuseums.org/program/sensory-friendly-sunday-3/2026-11-08/",
+        "checkedAt": "2026-10-22",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-22"
+      },
+      "holidays": [],
+      "holidayEvidence": {}
+    },
+    "springfield-sensory-2026-12-13": {
+      "ageGroups": [
+        "all-ages",
+        "families"
+      ],
+      "accessFeatures": [
+        "sensory-friendly"
+      ],
+      "checkedAt": "2026-10-22",
+      "ageEvidence": {
+        "all-ages": {
+          "url": "https://springfieldmuseums.org/program/sensory-friendly-sunday-3/2026-12-13/"
+        },
+        "families": {
+          "url": "https://springfieldmuseums.org/program/sensory-friendly-sunday-3/2026-12-13/"
+        }
+      },
+      "accessEvidence": {
+        "sensory-friendly": {
+          "url": "https://springfieldmuseums.org/program/sensory-friendly-sunday-3/2026-12-13/"
+        }
+      },
+      "sensory": {
+        "level": "variable",
+        "note": "Exhibits are modified and a quiet space is available; specific sound and lighting changes are not described.",
+        "sourceUrl": "https://springfieldmuseums.org/program/sensory-friendly-sunday-3/2026-12-13/",
+        "checkedAt": "2026-10-22",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-22"
+      },
+      "holidays": [],
+      "holidayEvidence": {}
+    },
+    "springfield-sensory-2027-01-10": {
+      "ageGroups": [
+        "all-ages",
+        "families"
+      ],
+      "accessFeatures": [
+        "sensory-friendly"
+      ],
+      "checkedAt": "2026-10-22",
+      "ageEvidence": {
+        "all-ages": {
+          "url": "https://springfieldmuseums.org/program/sensory-friendly-sunday-3/2027-01-10/"
+        },
+        "families": {
+          "url": "https://springfieldmuseums.org/program/sensory-friendly-sunday-3/2027-01-10/"
+        }
+      },
+      "accessEvidence": {
+        "sensory-friendly": {
+          "url": "https://springfieldmuseums.org/program/sensory-friendly-sunday-3/2027-01-10/"
+        }
+      },
+      "sensory": {
+        "level": "variable",
+        "note": "Exhibits are modified and a quiet space is available; specific sound and lighting changes are not described.",
+        "sourceUrl": "https://springfieldmuseums.org/program/sensory-friendly-sunday-3/2027-01-10/",
+        "checkedAt": "2026-10-22",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-22"
+      },
+      "holidays": [],
+      "holidayEvidence": {}
+    },
+    "springfield-sensory-2027-02-14": {
+      "ageGroups": [
+        "all-ages",
+        "families"
+      ],
+      "accessFeatures": [
+        "sensory-friendly"
+      ],
+      "checkedAt": "2026-10-22",
+      "ageEvidence": {
+        "all-ages": {
+          "url": "https://springfieldmuseums.org/program/sensory-friendly-sunday-3/2027-02-14/"
+        },
+        "families": {
+          "url": "https://springfieldmuseums.org/program/sensory-friendly-sunday-3/2027-02-14/"
+        }
+      },
+      "accessEvidence": {
+        "sensory-friendly": {
+          "url": "https://springfieldmuseums.org/program/sensory-friendly-sunday-3/2027-02-14/"
+        }
+      },
+      "sensory": {
+        "level": "variable",
+        "note": "Exhibits are modified and a quiet space is available; specific sound and lighting changes are not described.",
+        "sourceUrl": "https://springfieldmuseums.org/program/sensory-friendly-sunday-3/2027-02-14/",
+        "checkedAt": "2026-10-22",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-22"
+      },
+      "holidays": [],
+      "holidayEvidence": {}
+    },
+    "springfield-sensory-2027-03-14": {
+      "ageGroups": [
+        "all-ages",
+        "families"
+      ],
+      "accessFeatures": [
+        "sensory-friendly"
+      ],
+      "checkedAt": "2026-10-22",
+      "ageEvidence": {
+        "all-ages": {
+          "url": "https://springfieldmuseums.org/program/sensory-friendly-sunday-3/2027-03-14/"
+        },
+        "families": {
+          "url": "https://springfieldmuseums.org/program/sensory-friendly-sunday-3/2027-03-14/"
+        }
+      },
+      "accessEvidence": {
+        "sensory-friendly": {
+          "url": "https://springfieldmuseums.org/program/sensory-friendly-sunday-3/2027-03-14/"
+        }
+      },
+      "sensory": {
+        "level": "variable",
+        "note": "Exhibits are modified and a quiet space is available; specific sound and lighting changes are not described.",
+        "sourceUrl": "https://springfieldmuseums.org/program/sensory-friendly-sunday-3/2027-03-14/",
+        "checkedAt": "2026-10-22",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-22"
+      },
+      "holidays": [],
+      "holidayEvidence": {}
+    },
+    "springfield-sensory-2027-04-11": {
+      "ageGroups": [
+        "all-ages",
+        "families"
+      ],
+      "accessFeatures": [
+        "sensory-friendly"
+      ],
+      "checkedAt": "2026-10-22",
+      "ageEvidence": {
+        "all-ages": {
+          "url": "https://springfieldmuseums.org/program/sensory-friendly-sunday-3/2027-04-11/"
+        },
+        "families": {
+          "url": "https://springfieldmuseums.org/program/sensory-friendly-sunday-3/2027-04-11/"
+        }
+      },
+      "accessEvidence": {
+        "sensory-friendly": {
+          "url": "https://springfieldmuseums.org/program/sensory-friendly-sunday-3/2027-04-11/"
+        }
+      },
+      "sensory": {
+        "level": "variable",
+        "note": "Exhibits are modified and a quiet space is available; specific sound and lighting changes are not described.",
+        "sourceUrl": "https://springfieldmuseums.org/program/sensory-friendly-sunday-3/2027-04-11/",
+        "checkedAt": "2026-10-22",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-22"
+      },
+      "holidays": [],
+      "holidayEvidence": {}
+    },
+    "springfield-sensory-2027-05-09": {
+      "ageGroups": [
+        "all-ages",
+        "families"
+      ],
+      "accessFeatures": [
+        "sensory-friendly"
+      ],
+      "checkedAt": "2026-10-22",
+      "ageEvidence": {
+        "all-ages": {
+          "url": "https://springfieldmuseums.org/program/sensory-friendly-sunday-3/2027-05-09/"
+        },
+        "families": {
+          "url": "https://springfieldmuseums.org/program/sensory-friendly-sunday-3/2027-05-09/"
+        }
+      },
+      "accessEvidence": {
+        "sensory-friendly": {
+          "url": "https://springfieldmuseums.org/program/sensory-friendly-sunday-3/2027-05-09/"
+        }
+      },
+      "sensory": {
+        "level": "variable",
+        "note": "Exhibits are modified and a quiet space is available; specific sound and lighting changes are not described.",
+        "sourceUrl": "https://springfieldmuseums.org/program/sensory-friendly-sunday-3/2027-05-09/",
+        "checkedAt": "2026-10-22",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-22"
+      },
+      "holidays": [],
+      "holidayEvidence": {}
+    },
+    "springfield-sensory-2027-06-13": {
+      "ageGroups": [
+        "all-ages",
+        "families"
+      ],
+      "accessFeatures": [
+        "sensory-friendly"
+      ],
+      "checkedAt": "2026-10-22",
+      "ageEvidence": {
+        "all-ages": {
+          "url": "https://springfieldmuseums.org/program/sensory-friendly-sunday-3/2027-06-13/"
+        },
+        "families": {
+          "url": "https://springfieldmuseums.org/program/sensory-friendly-sunday-3/2027-06-13/"
+        }
+      },
+      "accessEvidence": {
+        "sensory-friendly": {
+          "url": "https://springfieldmuseums.org/program/sensory-friendly-sunday-3/2027-06-13/"
+        }
+      },
+      "sensory": {
+        "level": "variable",
+        "note": "Exhibits are modified and a quiet space is available; specific sound and lighting changes are not described.",
+        "sourceUrl": "https://springfieldmuseums.org/program/sensory-friendly-sunday-3/2027-06-13/",
+        "checkedAt": "2026-10-22",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-22"
+      },
+      "holidays": [],
+      "holidayEvidence": {}
+    },
+    "bradley-winterlights-sensory-2026-12-13": {
+      "ageGroups": [
+        "children",
+        "families"
+      ],
+      "accessFeatures": [
+        "sensory-friendly"
+      ],
+      "checkedAt": "2026-10-22",
+      "ageEvidence": {
+        "children": {
+          "url": "https://thetrustees.org/event/450050/"
+        },
+        "families": {
+          "url": "https://thetrustees.org/event/450050/"
+        }
+      },
+      "accessEvidence": {
+        "sensory-friendly": {
+          "url": "https://thetrustees.org/event/450050/"
+        }
+      },
+      "sensory": {
+        "level": "variable",
+        "note": "Earlier daylight, smaller crowds and lower music reduce stimulation, but this remains an outdoor light show with uneven ground and stairs.",
+        "sourceUrl": "https://thetrustees.org/event/450050/",
+        "checkedAt": "2026-10-22",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-22"
+      },
+      "holidays": [
+        "winter-holidays",
+        "winter-lights"
+      ],
+      "holidayEvidence": {
+        "winter-holidays": {
+          "url": "https://thetrustees.org/event/450050/"
+        },
+        "winter-lights": {
+          "url": "https://thetrustees.org/event/450050/"
+        }
+      }
+    },
+    "bradley-winterlights-sensory-2026-12-20": {
+      "ageGroups": [
+        "children",
+        "families"
+      ],
+      "accessFeatures": [
+        "sensory-friendly"
+      ],
+      "checkedAt": "2026-10-22",
+      "ageEvidence": {
+        "children": {
+          "url": "https://thetrustees.org/event/450051/"
+        },
+        "families": {
+          "url": "https://thetrustees.org/event/450051/"
+        }
+      },
+      "accessEvidence": {
+        "sensory-friendly": {
+          "url": "https://thetrustees.org/event/450051/"
+        }
+      },
+      "sensory": {
+        "level": "variable",
+        "note": "Earlier daylight, smaller crowds and lower music reduce stimulation, but this remains an outdoor light show with uneven ground and stairs.",
+        "sourceUrl": "https://thetrustees.org/event/450051/",
+        "checkedAt": "2026-10-22",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-22"
+      },
+      "holidays": [
+        "winter-holidays",
+        "winter-lights"
+      ],
+      "holidayEvidence": {
+        "winter-holidays": {
+          "url": "https://thetrustees.org/event/450051/"
+        },
+        "winter-lights": {
+          "url": "https://thetrustees.org/event/450051/"
+        }
+      }
+    },
+    "bradley-winterlights-sensory-2026-12-27": {
+      "ageGroups": [
+        "children",
+        "families"
+      ],
+      "accessFeatures": [
+        "sensory-friendly"
+      ],
+      "checkedAt": "2026-10-22",
+      "ageEvidence": {
+        "children": {
+          "url": "https://thetrustees.org/event/450052/"
+        },
+        "families": {
+          "url": "https://thetrustees.org/event/450052/"
+        }
+      },
+      "accessEvidence": {
+        "sensory-friendly": {
+          "url": "https://thetrustees.org/event/450052/"
+        }
+      },
+      "sensory": {
+        "level": "variable",
+        "note": "Earlier daylight, smaller crowds and lower music reduce stimulation, but this remains an outdoor light show with uneven ground and stairs.",
+        "sourceUrl": "https://thetrustees.org/event/450052/",
+        "checkedAt": "2026-10-22",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-22"
+      },
+      "holidays": [
+        "winter-holidays",
+        "winter-lights"
+      ],
+      "holidayEvidence": {
+        "winter-holidays": {
+          "url": "https://thetrustees.org/event/450052/"
+        },
+        "winter-lights": {
+          "url": "https://thetrustees.org/event/450052/"
+        }
+      }
+    },
+    "naumkeag-pumpkin-early-2026-10-22": {
+      "ageGroups": [
+        "children",
+        "families"
+      ],
+      "accessFeatures": [
+        "sensory-friendly"
+      ],
+      "checkedAt": "2026-10-22",
+      "ageEvidence": {
+        "children": {
+          "url": "https://thetrustees.org/event/449160/"
+        },
+        "families": {
+          "url": "https://thetrustees.org/event/449160/"
+        }
+      },
+      "accessEvidence": {
+        "sensory-friendly": {
+          "url": "https://thetrustees.org/event/449160/"
+        }
+      },
+      "sensory": {
+        "level": "variable",
+        "note": "Lower attendance and daylight help, but the pumpkin trail retains uneven terrain and steps; sound or flashing-light changes are not specified.",
+        "sourceUrl": "https://thetrustees.org/event/449160/",
+        "checkedAt": "2026-10-22",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-22"
+      },
+      "holidays": [
+        "halloween"
+      ],
+      "holidayEvidence": {
+        "halloween": {
+          "url": "https://thetrustees.org/event/449160/"
+        }
+      }
+    },
+    "naumkeag-pumpkin-early-2026-10-23": {
+      "ageGroups": [
+        "children",
+        "families"
+      ],
+      "accessFeatures": [
+        "sensory-friendly"
+      ],
+      "checkedAt": "2026-10-22",
+      "ageEvidence": {
+        "children": {
+          "url": "https://thetrustees.org/event/449161/"
+        },
+        "families": {
+          "url": "https://thetrustees.org/event/449161/"
+        }
+      },
+      "accessEvidence": {
+        "sensory-friendly": {
+          "url": "https://thetrustees.org/event/449161/"
+        }
+      },
+      "sensory": {
+        "level": "variable",
+        "note": "Lower attendance and daylight help, but the pumpkin trail retains uneven terrain and steps; sound or flashing-light changes are not specified.",
+        "sourceUrl": "https://thetrustees.org/event/449161/",
+        "checkedAt": "2026-10-22",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-22"
+      },
+      "holidays": [
+        "halloween"
+      ],
+      "holidayEvidence": {
+        "halloween": {
+          "url": "https://thetrustees.org/event/449161/"
+        }
+      }
+    },
+    "naumkeag-pumpkin-early-2026-10-24": {
+      "ageGroups": [
+        "children",
+        "families"
+      ],
+      "accessFeatures": [
+        "sensory-friendly"
+      ],
+      "checkedAt": "2026-10-22",
+      "ageEvidence": {
+        "children": {
+          "url": "https://thetrustees.org/event/449162/"
+        },
+        "families": {
+          "url": "https://thetrustees.org/event/449162/"
+        }
+      },
+      "accessEvidence": {
+        "sensory-friendly": {
+          "url": "https://thetrustees.org/event/449162/"
+        }
+      },
+      "sensory": {
+        "level": "variable",
+        "note": "Lower attendance and daylight help, but the pumpkin trail retains uneven terrain and steps; sound or flashing-light changes are not specified.",
+        "sourceUrl": "https://thetrustees.org/event/449162/",
+        "checkedAt": "2026-10-22",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-22"
+      },
+      "holidays": [
+        "halloween"
+      ],
+      "holidayEvidence": {
+        "halloween": {
+          "url": "https://thetrustees.org/event/449162/"
+        }
+      }
+    },
+    "naumkeag-pumpkin-early-2026-10-25": {
+      "ageGroups": [
+        "children",
+        "families"
+      ],
+      "accessFeatures": [
+        "sensory-friendly"
+      ],
+      "checkedAt": "2026-10-22",
+      "ageEvidence": {
+        "children": {
+          "url": "https://thetrustees.org/event/449163/"
+        },
+        "families": {
+          "url": "https://thetrustees.org/event/449163/"
+        }
+      },
+      "accessEvidence": {
+        "sensory-friendly": {
+          "url": "https://thetrustees.org/event/449163/"
+        }
+      },
+      "sensory": {
+        "level": "variable",
+        "note": "Lower attendance and daylight help, but the pumpkin trail retains uneven terrain and steps; sound or flashing-light changes are not specified.",
+        "sourceUrl": "https://thetrustees.org/event/449163/",
+        "checkedAt": "2026-10-22",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-22"
+      },
+      "holidays": [
+        "halloween"
+      ],
+      "holidayEvidence": {
+        "halloween": {
+          "url": "https://thetrustees.org/event/449163/"
+        }
+      }
+    },
+    "naumkeag-pumpkin-early-2026-10-28": {
+      "ageGroups": [
+        "children",
+        "families"
+      ],
+      "accessFeatures": [
+        "sensory-friendly"
+      ],
+      "checkedAt": "2026-10-22",
+      "ageEvidence": {
+        "children": {
+          "url": "https://thetrustees.org/event/449164/"
+        },
+        "families": {
+          "url": "https://thetrustees.org/event/449164/"
+        }
+      },
+      "accessEvidence": {
+        "sensory-friendly": {
+          "url": "https://thetrustees.org/event/449164/"
+        }
+      },
+      "sensory": {
+        "level": "variable",
+        "note": "Lower attendance and daylight help, but the pumpkin trail retains uneven terrain and steps; sound or flashing-light changes are not specified.",
+        "sourceUrl": "https://thetrustees.org/event/449164/",
+        "checkedAt": "2026-10-22",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-22"
+      },
+      "holidays": [
+        "halloween"
+      ],
+      "holidayEvidence": {
+        "halloween": {
+          "url": "https://thetrustees.org/event/449164/"
+        }
+      }
+    },
+    "naumkeag-pumpkin-early-2026-10-29": {
+      "ageGroups": [
+        "children",
+        "families"
+      ],
+      "accessFeatures": [
+        "sensory-friendly"
+      ],
+      "checkedAt": "2026-10-22",
+      "ageEvidence": {
+        "children": {
+          "url": "https://thetrustees.org/event/449165/"
+        },
+        "families": {
+          "url": "https://thetrustees.org/event/449165/"
+        }
+      },
+      "accessEvidence": {
+        "sensory-friendly": {
+          "url": "https://thetrustees.org/event/449165/"
+        }
+      },
+      "sensory": {
+        "level": "variable",
+        "note": "Lower attendance and daylight help, but the pumpkin trail retains uneven terrain and steps; sound or flashing-light changes are not specified.",
+        "sourceUrl": "https://thetrustees.org/event/449165/",
+        "checkedAt": "2026-10-22",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-22"
+      },
+      "holidays": [
+        "halloween"
+      ],
+      "holidayEvidence": {
+        "halloween": {
+          "url": "https://thetrustees.org/event/449165/"
+        }
+      }
+    },
+    "naumkeag-pumpkin-early-2026-10-30": {
+      "ageGroups": [
+        "children",
+        "families"
+      ],
+      "accessFeatures": [
+        "sensory-friendly"
+      ],
+      "checkedAt": "2026-10-22",
+      "ageEvidence": {
+        "children": {
+          "url": "https://thetrustees.org/event/449166/"
+        },
+        "families": {
+          "url": "https://thetrustees.org/event/449166/"
+        }
+      },
+      "accessEvidence": {
+        "sensory-friendly": {
+          "url": "https://thetrustees.org/event/449166/"
+        }
+      },
+      "sensory": {
+        "level": "variable",
+        "note": "Lower attendance and daylight help, but the pumpkin trail retains uneven terrain and steps; sound or flashing-light changes are not specified.",
+        "sourceUrl": "https://thetrustees.org/event/449166/",
+        "checkedAt": "2026-10-22",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-22"
+      },
+      "holidays": [
+        "halloween"
+      ],
+      "holidayEvidence": {
+        "halloween": {
+          "url": "https://thetrustees.org/event/449166/"
+        }
+      }
+    },
+    "naumkeag-pumpkin-early-2026-10-31": {
+      "ageGroups": [
+        "children",
+        "families"
+      ],
+      "accessFeatures": [
+        "sensory-friendly"
+      ],
+      "checkedAt": "2026-10-22",
+      "ageEvidence": {
+        "children": {
+          "url": "https://thetrustees.org/event/449167/"
+        },
+        "families": {
+          "url": "https://thetrustees.org/event/449167/"
+        }
+      },
+      "accessEvidence": {
+        "sensory-friendly": {
+          "url": "https://thetrustees.org/event/449167/"
+        }
+      },
+      "sensory": {
+        "level": "variable",
+        "note": "Lower attendance and daylight help, but the pumpkin trail retains uneven terrain and steps; sound or flashing-light changes are not specified.",
+        "sourceUrl": "https://thetrustees.org/event/449167/",
+        "checkedAt": "2026-10-22",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-22"
+      },
+      "holidays": [
+        "halloween"
+      ],
+      "holidayEvidence": {
+        "halloween": {
+          "url": "https://thetrustees.org/event/449167/"
+        }
+      }
+    },
+    "patriot-place-sensory-halloween-2026-10-29": {
+      "ageGroups": [
+        "children",
+        "families"
+      ],
+      "accessFeatures": [
+        "sensory-friendly"
+      ],
+      "checkedAt": "2026-10-22",
+      "ageEvidence": {
+        "children": {
+          "url": "https://www.patriot-place.com/events/sensory-friendly-trick-or-treat-at-patriot-place/"
+        },
+        "families": {
+          "url": "https://www.patriot-place.com/events/sensory-friendly-trick-or-treat-at-patriot-place/"
+        }
+      },
+      "accessEvidence": {
+        "sensory-friendly": {
+          "url": "https://www.patriot-place.com/events/sensory-friendly-trick-or-treat-at-patriot-place/"
+        }
+      },
+      "sensory": {
+        "level": "unknown",
+        "note": "The organizer labels this sensory friendly but does not publish specific sound, lighting or quiet-space arrangements.",
+        "sourceUrl": "https://www.patriot-place.com/events/sensory-friendly-trick-or-treat-at-patriot-place/",
+        "checkedAt": "2026-10-22",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-22"
+      },
+      "holidays": [
+        "halloween"
+      ],
+      "holidayEvidence": {
+        "halloween": {
+          "url": "https://www.patriot-place.com/events/sensory-friendly-trick-or-treat-at-patriot-place/"
+        }
+      }
+    },
+    "mfa-beyond-teens-2026-12-19": {
+      "ageGroups": [
+        "teens",
+        "adults",
+        "families"
+      ],
+      "accessFeatures": [
+        "adaptive-activities",
+        "caregiver-support"
+      ],
+      "checkedAt": "2026-10-22",
+      "ageEvidence": {
+        "teens": {
+          "url": "https://www.mfa.org/programs/access-programs/beyond-the-spectrum"
+        },
+        "adults": {
+          "url": "https://www.mfa.org/programs/access-programs/beyond-the-spectrum"
+        },
+        "families": {
+          "url": "https://www.mfa.org/programs/access-programs/beyond-the-spectrum"
+        }
+      },
+      "accessEvidence": {
+        "adaptive-activities": {
+          "url": "https://www.mfa.org/programs/access-programs/beyond-the-spectrum"
+        },
+        "caregiver-support": {
+          "url": "https://www.mfa.org/programs/access-programs/beyond-the-spectrum"
+        }
+      },
+      "sensory": {
+        "level": "variable",
+        "note": "Gallery activity and art-making may include changing sound, lighting and crowds; caregivers can join.",
+        "sourceUrl": "https://www.mfa.org/programs/access-programs/beyond-the-spectrum",
+        "checkedAt": "2026-10-22",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-22"
+      },
+      "holidays": [
+        "winter-holidays"
+      ],
+      "holidayEvidence": {
+        "winter-holidays": {
+          "url": "https://www.mfa.org/programs/access-programs/beyond-the-spectrum"
+        }
+      }
     }
   },
   "sensoryMethod": "Sensory levels are editorial planning estimates based on the specific published conditions, not medical ratings or promises. Low means reduced stimulation, moderate means some ongoing music or activity, high means a likely stimulating mix, variable means conditions or parts of the visit differ, and unknown means evidence is insufficient. Sensory-friendly and disability-inclusive are not automatic low-sensory ratings. Earlier event verification dates remain visible."

@@ -1054,9 +1054,9 @@
       ],
       "autoPublish": false,
       "feedVerified": false,
-      "sourceCheckedAt": "2026-10-06T16:29:41Z",
+      "sourceCheckedAt": "2026-10-22T11:44:46Z",
       "status": "manually-checked",
-      "lastChecked": "2026-10-06T16:29:41Z"
+      "lastChecked": "2026-10-22T11:44:46Z"
     },
     {
       "id": "bso-holiday",
@@ -1139,9 +1139,9 @@
       ],
       "autoPublish": false,
       "feedVerified": false,
-      "sourceCheckedAt": "2026-10-06T16:29:41Z",
+      "sourceCheckedAt": "2026-10-22T11:44:46Z",
       "status": "manually-checked",
-      "lastChecked": "2026-10-06T16:29:41Z"
+      "lastChecked": "2026-10-22T11:44:46Z"
     },
     {
       "id": "crc-halloween",
@@ -1554,9 +1554,9 @@
       ],
       "autoPublish": false,
       "feedVerified": false,
-      "sourceCheckedAt": "2026-10-19T23:10:00Z",
+      "sourceCheckedAt": "2026-10-22T11:44:46Z",
       "status": "manually-checked",
-      "lastChecked": "2026-10-19T23:10:00Z"
+      "lastChecked": "2026-10-22T11:44:46Z"
     },
     {
       "id": "weir",
@@ -1660,6 +1660,57 @@
       "sourceCheckedAt": "2026-10-19T23:10:00Z",
       "status": "manually-checked",
       "lastChecked": "2026-10-19T23:10:00Z"
+    },
+    {
+      "id": "springfield-museums",
+      "name": "Springfield Museums",
+      "url": "https://springfieldmuseums.org/series/sensory-friendly-sunday/",
+      "state": "MA",
+      "mode": "manual",
+      "enabled": false,
+      "timezone": "America/New_York",
+      "allowedHosts": [
+        "springfieldmuseums.org"
+      ],
+      "autoPublish": false,
+      "feedVerified": false,
+      "sourceCheckedAt": "2026-10-22T11:44:46Z",
+      "status": "manually-checked",
+      "lastChecked": "2026-10-22T11:44:46Z"
+    },
+    {
+      "id": "trustees-naumkeag",
+      "name": "The Trustees — Naumkeag Pumpkin Show Early Hours",
+      "url": "https://thetrustees.org/event/449160/",
+      "state": "MA",
+      "mode": "manual",
+      "enabled": false,
+      "timezone": "America/New_York",
+      "allowedHosts": [
+        "thetrustees.org"
+      ],
+      "autoPublish": false,
+      "feedVerified": false,
+      "sourceCheckedAt": "2026-10-22T11:44:46Z",
+      "status": "manually-checked",
+      "lastChecked": "2026-10-22T11:44:46Z"
+    },
+    {
+      "id": "patriot-place",
+      "name": "Patriot Place",
+      "url": "https://www.patriot-place.com/events/sensory-friendly-trick-or-treat-at-patriot-place/",
+      "state": "MA",
+      "mode": "manual",
+      "enabled": false,
+      "timezone": "America/New_York",
+      "allowedHosts": [
+        "www.patriot-place.com"
+      ],
+      "autoPublish": false,
+      "feedVerified": false,
+      "sourceCheckedAt": "2026-10-22T11:44:46Z",
+      "status": "manually-checked",
+      "lastChecked": "2026-10-22T11:44:46Z"
     }
   ],
   "events": [
@@ -3521,14 +3572,14 @@
       "accessibility": [
         "No music or strobe lighting during 5:30–6 p.m."
       ],
-      "registration": "Advance ticket purchase required; choose Friday’s 5:30 p.m. session.",
+      "registration": "Advance tickets required; select the Friday 5:30–6 p.m. sensory slot. Some regular slots are sold out; check the exact time before buying.",
       "cancellationPolicy": "Confirm current cancellation and refund terms with the organizer.",
       "notes": [
-        "Only 5:30–6 p.m. is sensory-friendly. The 6–6:30 p.m. portion of the ticketed session uses the regular experience.",
+        "Sensory adjustments end at 6 p.m.; the separate 6–6:30 p.m. regular slot is marked sold out.",
         "Spooky decorations remain; prop weapons and pointed costume accessories are prohibited."
       ],
-      "lastVerified": "2026-10-06T16:29:41Z",
-      "verificationMethod": "Official organizer event information reviewed.",
+      "lastVerified": "2026-10-22T11:44:46Z",
+      "verificationMethod": "Official organizer event and booking information reviewed October 22, 2026.",
       "reviewRequired": false,
       "status": "scheduled",
       "costCategory": "paid"
@@ -4194,9 +4245,11 @@
       "timezone": "America/New_York",
       "ticketUrl": null,
       "cancellationPolicy": "Not stated in the checked listing; confirm with the organizer.",
-      "notes": [],
-      "lastVerified": "2026-10-04T00:00:00Z",
-      "verificationMethod": "Official organizer/event page reviewed",
+      "notes": [
+        "Submitting a registration does not guarantee admission."
+      ],
+      "lastVerified": "2026-10-22T11:44:46Z",
+      "verificationMethod": "Official organizer event and booking information reviewed October 22, 2026.",
       "reviewRequired": false,
       "status": "scheduled",
       "format": "In person",
@@ -4219,7 +4272,7 @@
       ],
       "sourceId": "autism-alliance",
       "sourceUrl": "https://autismalliance.org/events/tricks-treats-magic",
-      "registration": "Registration required; space is limited and the organizer may use a lottery.",
+      "registration": "Registration uses a capacity lottery. The posted selection/waitlist notification date was October 6; contact Autism Alliance to confirm any remaining places before attending.",
       "category": "Halloween"
     },
     {
@@ -5648,13 +5701,13 @@
         "Digital display of second-floor rooms for visitors unable to climb stairs"
       ],
       "registration": "Advance timed reservations strongly recommended; select a time within the sensory hours.",
-      "cancellationPolicy": "Confirm current cancellation and refund terms with the organizer.",
+      "cancellationPolicy": "Refund requests must be received at least 7 days before the event.",
       "notes": [
         "Sensory hours are only December 5 and 12, 10–11:30 a.m. Regular hours extend later.",
         "The Grand Stair has 30 steps and no elevator; ask about the entrance and first-floor route."
       ],
-      "lastVerified": "2026-10-06T16:29:41Z",
-      "verificationMethod": "Official organizer event information reviewed.",
+      "lastVerified": "2026-10-22T11:44:46Z",
+      "verificationMethod": "Official organizer event and booking information reviewed October 22, 2026.",
       "reviewRequired": false,
       "status": "scheduled",
       "costCategory": "paid"
@@ -5874,7 +5927,7 @@
       "ages": "Families and visitors of all ages; child ticket rate is ages 5–14",
       "summary": "Explore artist-inspired holiday decorations at your own pace. The second floor requires 30 stairs; there is no elevator.",
       "sourceId": "castlehill-christmas",
-      "sourceUrl": "https://thetrustees.org/event/450153/",
+      "sourceUrl": "https://thetrustees.org/event/450155/",
       "ticketUrl": null,
       "category": "Holiday",
       "format": "In person",
@@ -5884,13 +5937,13 @@
         "Digital display of second-floor rooms for visitors unable to climb stairs"
       ],
       "registration": "Advance timed reservations strongly recommended; select a time within the sensory hours.",
-      "cancellationPolicy": "Confirm current cancellation and refund terms with the organizer.",
+      "cancellationPolicy": "Refund requests must be received at least 7 days before the event.",
       "notes": [
         "Sensory hours are only December 5 and 12, 10–11:30 a.m. Regular hours extend later.",
         "The Grand Stair has 30 steps and no elevator; ask about the entrance and first-floor route."
       ],
-      "lastVerified": "2026-10-06T16:29:41Z",
-      "verificationMethod": "Official organizer event information reviewed.",
+      "lastVerified": "2026-10-22T11:44:46Z",
+      "verificationMethod": "Official organizer event and booking information reviewed October 22, 2026.",
       "reviewRequired": false,
       "status": "scheduled",
       "costCategory": "paid"
@@ -7649,14 +7702,14 @@
     },
     {
       "timezone": "America/New_York",
-      "ticketUrl": null,
-      "cancellationPolicy": "Not stated in the checked listing; confirm with the organizer.",
+      "ticketUrl": "https://explore.thetrustees.org/winterlights-at-the-bradley-estate?c_src=ACMEWEB",
+      "cancellationPolicy": "Tickets are nonrefundable and cannot transfer across dates. If the organizer cancels for unsafe weather, it will email refund or transfer information.",
       "notes": [
-        "The organizer states that the route is not wheelchair or stroller accessible because of stairs and uneven terrain.",
-        "The source disagrees about whether age 2 is free; confirm that age band before booking."
+        "The organizer states that stairs and uneven ground make the route unsuitable for wheelchairs and strollers.",
+        "Under-2 admission is free; the page conflicts about children exactly age 2, so confirm that age before booking."
       ],
-      "lastVerified": "2026-10-19T23:10:00Z",
-      "verificationMethod": "Official organizer/event page reviewed",
+      "lastVerified": "2026-10-22T11:44:46Z",
+      "verificationMethod": "Official organizer event and booking information reviewed October 22, 2026.",
       "reviewRequired": false,
       "status": "scheduled",
       "format": "In person",
@@ -7672,15 +7725,15 @@
       "ages": "Families and visitors who benefit from a quieter Winterlights entry",
       "summary": "Earlier daylight entry, smaller ticket batches, lower music and preparation materials support a lower-sensory visit.",
       "accessibility": [
-        "Earlier entry",
-        "Smaller ticket batches",
-        "Lower music",
-        "Preparation materials"
+        "Smaller ticket batches and earlier daylight entry",
+        "Lower music volume",
+        "Social narrative and limited sensory kits"
       ],
       "sourceId": "trustees-bradley",
       "sourceUrl": "https://thetrustees.org/event/450049/",
-      "registration": "Advance timed tickets required.",
-      "category": "Holiday"
+      "registration": "Advance timed tickets required for every person; no on-site sales. Select the sensory hour.",
+      "category": "Holiday",
+      "costCategory": "paid"
     },
     {
       "timezone": "America/New_York",
@@ -8669,6 +8722,719 @@
       "sourceUrl": "https://www.bso.org/events/mar-27-sensory-family-concert",
       "registration": "Use the official event page to check ticket availability and current price.",
       "category": "Sensory-friendly"
+    },
+    {
+      "id": "springfield-sensory-2026-11-08",
+      "title": "Sensory Friendly Sunday at Springfield Museums",
+      "start": "2026-11-08T09:00:00-05:00",
+      "end": "2026-11-08T11:00:00-05:00",
+      "timezone": "America/New_York",
+      "state": "MA",
+      "city": "Springfield",
+      "venue": "Springfield Museums",
+      "address": "21 Edwards Street, Springfield, MA 01103",
+      "sourceId": "springfield-museums",
+      "sourceUrl": "https://springfieldmuseums.org/program/sensory-friendly-sunday-3/2026-11-08/",
+      "ticketUrl": null,
+      "status": "scheduled",
+      "reviewRequired": false,
+      "category": "Sensory-friendly",
+      "format": "In person",
+      "cancellationPolicy": "Confirm cancellation terms with the organizer.",
+      "notes": [
+        "Parents and caregivers must stay with their children.",
+        "The public Sunday opening begins at 11 a.m."
+      ],
+      "cost": "Early-session admission price is not stated; confirm with the museum.",
+      "ages": "Visitors with differing abilities and their families; crafts for all ages",
+      "summary": "Early opening at the Science Museum and Amazing World of Dr. Seuss Museum, with modified exhibits and sensory-friendly crafts.",
+      "accessibility": [
+        "Modified exhibits",
+        "Staff can direct visitors to a quiet space",
+        "Museum preview guides available"
+      ],
+      "registration": "The event page does not specify a reservation process. Ask Family Programs at 413-314-6489 about early admission and tickets.",
+      "lastVerified": "2026-10-22T11:44:46Z",
+      "verificationMethod": "Official organizer event and booking information reviewed October 22, 2026."
+    },
+    {
+      "id": "springfield-sensory-2026-12-13",
+      "title": "Sensory Friendly Sunday at Springfield Museums",
+      "start": "2026-12-13T09:00:00-05:00",
+      "end": "2026-12-13T11:00:00-05:00",
+      "timezone": "America/New_York",
+      "state": "MA",
+      "city": "Springfield",
+      "venue": "Springfield Museums",
+      "address": "21 Edwards Street, Springfield, MA 01103",
+      "sourceId": "springfield-museums",
+      "sourceUrl": "https://springfieldmuseums.org/program/sensory-friendly-sunday-3/2026-12-13/",
+      "ticketUrl": null,
+      "status": "scheduled",
+      "reviewRequired": false,
+      "category": "Sensory-friendly",
+      "format": "In person",
+      "cancellationPolicy": "Confirm cancellation terms with the organizer.",
+      "notes": [
+        "Parents and caregivers must stay with their children.",
+        "The public Sunday opening begins at 11 a.m."
+      ],
+      "cost": "Early-session admission price is not stated; confirm with the museum.",
+      "ages": "Visitors with differing abilities and their families; crafts for all ages",
+      "summary": "Early opening at the Science Museum and Amazing World of Dr. Seuss Museum, with modified exhibits and sensory-friendly crafts.",
+      "accessibility": [
+        "Modified exhibits",
+        "Staff can direct visitors to a quiet space",
+        "Museum preview guides available"
+      ],
+      "registration": "The event page does not specify a reservation process. Ask Family Programs at 413-314-6489 about early admission and tickets.",
+      "lastVerified": "2026-10-22T11:44:46Z",
+      "verificationMethod": "Official organizer event and booking information reviewed October 22, 2026."
+    },
+    {
+      "id": "springfield-sensory-2027-01-10",
+      "title": "Sensory Friendly Sunday at Springfield Museums",
+      "start": "2027-01-10T09:00:00-05:00",
+      "end": "2027-01-10T11:00:00-05:00",
+      "timezone": "America/New_York",
+      "state": "MA",
+      "city": "Springfield",
+      "venue": "Springfield Museums",
+      "address": "21 Edwards Street, Springfield, MA 01103",
+      "sourceId": "springfield-museums",
+      "sourceUrl": "https://springfieldmuseums.org/program/sensory-friendly-sunday-3/2027-01-10/",
+      "ticketUrl": null,
+      "status": "scheduled",
+      "reviewRequired": false,
+      "category": "Sensory-friendly",
+      "format": "In person",
+      "cancellationPolicy": "Confirm cancellation terms with the organizer.",
+      "notes": [
+        "Parents and caregivers must stay with their children.",
+        "The public Sunday opening begins at 11 a.m."
+      ],
+      "cost": "Early-session admission price is not stated; confirm with the museum.",
+      "ages": "Visitors with differing abilities and their families; crafts for all ages",
+      "summary": "Early opening at the Science Museum and Amazing World of Dr. Seuss Museum, with modified exhibits and sensory-friendly crafts.",
+      "accessibility": [
+        "Modified exhibits",
+        "Staff can direct visitors to a quiet space",
+        "Museum preview guides available"
+      ],
+      "registration": "The event page does not specify a reservation process. Ask Family Programs at 413-314-6489 about early admission and tickets.",
+      "lastVerified": "2026-10-22T11:44:46Z",
+      "verificationMethod": "Official organizer event and booking information reviewed October 22, 2026."
+    },
+    {
+      "id": "springfield-sensory-2027-02-14",
+      "title": "Sensory Friendly Sunday at Springfield Museums",
+      "start": "2027-02-14T09:00:00-05:00",
+      "end": "2027-02-14T11:00:00-05:00",
+      "timezone": "America/New_York",
+      "state": "MA",
+      "city": "Springfield",
+      "venue": "Springfield Museums",
+      "address": "21 Edwards Street, Springfield, MA 01103",
+      "sourceId": "springfield-museums",
+      "sourceUrl": "https://springfieldmuseums.org/program/sensory-friendly-sunday-3/2027-02-14/",
+      "ticketUrl": null,
+      "status": "scheduled",
+      "reviewRequired": false,
+      "category": "Sensory-friendly",
+      "format": "In person",
+      "cancellationPolicy": "Confirm cancellation terms with the organizer.",
+      "notes": [
+        "Parents and caregivers must stay with their children.",
+        "The public Sunday opening begins at 11 a.m."
+      ],
+      "cost": "Early-session admission price is not stated; confirm with the museum.",
+      "ages": "Visitors with differing abilities and their families; crafts for all ages",
+      "summary": "Early opening at the Science Museum and Amazing World of Dr. Seuss Museum, with modified exhibits and sensory-friendly crafts.",
+      "accessibility": [
+        "Modified exhibits",
+        "Staff can direct visitors to a quiet space",
+        "Museum preview guides available"
+      ],
+      "registration": "The event page does not specify a reservation process. Ask Family Programs at 413-314-6489 about early admission and tickets.",
+      "lastVerified": "2026-10-22T11:44:46Z",
+      "verificationMethod": "Official organizer event and booking information reviewed October 22, 2026."
+    },
+    {
+      "id": "springfield-sensory-2027-03-14",
+      "title": "Sensory Friendly Sunday at Springfield Museums",
+      "start": "2027-03-14T09:00:00-04:00",
+      "end": "2027-03-14T11:00:00-04:00",
+      "timezone": "America/New_York",
+      "state": "MA",
+      "city": "Springfield",
+      "venue": "Springfield Museums",
+      "address": "21 Edwards Street, Springfield, MA 01103",
+      "sourceId": "springfield-museums",
+      "sourceUrl": "https://springfieldmuseums.org/program/sensory-friendly-sunday-3/2027-03-14/",
+      "ticketUrl": null,
+      "status": "scheduled",
+      "reviewRequired": false,
+      "category": "Sensory-friendly",
+      "format": "In person",
+      "cancellationPolicy": "Confirm cancellation terms with the organizer.",
+      "notes": [
+        "Parents and caregivers must stay with their children.",
+        "The public Sunday opening begins at 11 a.m."
+      ],
+      "cost": "Early-session admission price is not stated; confirm with the museum.",
+      "ages": "Visitors with differing abilities and their families; crafts for all ages",
+      "summary": "Early opening at the Science Museum and Amazing World of Dr. Seuss Museum, with modified exhibits and sensory-friendly crafts.",
+      "accessibility": [
+        "Modified exhibits",
+        "Staff can direct visitors to a quiet space",
+        "Museum preview guides available"
+      ],
+      "registration": "The event page does not specify a reservation process. Ask Family Programs at 413-314-6489 about early admission and tickets.",
+      "lastVerified": "2026-10-22T11:44:46Z",
+      "verificationMethod": "Official organizer event and booking information reviewed October 22, 2026."
+    },
+    {
+      "id": "springfield-sensory-2027-04-11",
+      "title": "Sensory Friendly Sunday at Springfield Museums",
+      "start": "2027-04-11T09:00:00-04:00",
+      "end": "2027-04-11T11:00:00-04:00",
+      "timezone": "America/New_York",
+      "state": "MA",
+      "city": "Springfield",
+      "venue": "Springfield Museums",
+      "address": "21 Edwards Street, Springfield, MA 01103",
+      "sourceId": "springfield-museums",
+      "sourceUrl": "https://springfieldmuseums.org/program/sensory-friendly-sunday-3/2027-04-11/",
+      "ticketUrl": null,
+      "status": "scheduled",
+      "reviewRequired": false,
+      "category": "Sensory-friendly",
+      "format": "In person",
+      "cancellationPolicy": "Confirm cancellation terms with the organizer.",
+      "notes": [
+        "Parents and caregivers must stay with their children.",
+        "The public Sunday opening begins at 11 a.m."
+      ],
+      "cost": "Early-session admission price is not stated; confirm with the museum.",
+      "ages": "Visitors with differing abilities and their families; crafts for all ages",
+      "summary": "Early opening at the Science Museum and Amazing World of Dr. Seuss Museum, with modified exhibits and sensory-friendly crafts.",
+      "accessibility": [
+        "Modified exhibits",
+        "Staff can direct visitors to a quiet space",
+        "Museum preview guides available"
+      ],
+      "registration": "The event page does not specify a reservation process. Ask Family Programs at 413-314-6489 about early admission and tickets.",
+      "lastVerified": "2026-10-22T11:44:46Z",
+      "verificationMethod": "Official organizer event and booking information reviewed October 22, 2026."
+    },
+    {
+      "id": "springfield-sensory-2027-05-09",
+      "title": "Sensory Friendly Sunday at Springfield Museums",
+      "start": "2027-05-09T09:00:00-04:00",
+      "end": "2027-05-09T11:00:00-04:00",
+      "timezone": "America/New_York",
+      "state": "MA",
+      "city": "Springfield",
+      "venue": "Springfield Museums",
+      "address": "21 Edwards Street, Springfield, MA 01103",
+      "sourceId": "springfield-museums",
+      "sourceUrl": "https://springfieldmuseums.org/program/sensory-friendly-sunday-3/2027-05-09/",
+      "ticketUrl": null,
+      "status": "scheduled",
+      "reviewRequired": false,
+      "category": "Sensory-friendly",
+      "format": "In person",
+      "cancellationPolicy": "Confirm cancellation terms with the organizer.",
+      "notes": [
+        "Parents and caregivers must stay with their children.",
+        "The public Sunday opening begins at 11 a.m."
+      ],
+      "cost": "Early-session admission price is not stated; confirm with the museum.",
+      "ages": "Visitors with differing abilities and their families; crafts for all ages",
+      "summary": "Early opening at the Science Museum and Amazing World of Dr. Seuss Museum, with modified exhibits and sensory-friendly crafts.",
+      "accessibility": [
+        "Modified exhibits",
+        "Staff can direct visitors to a quiet space",
+        "Museum preview guides available"
+      ],
+      "registration": "The event page does not specify a reservation process. Ask Family Programs at 413-314-6489 about early admission and tickets.",
+      "lastVerified": "2026-10-22T11:44:46Z",
+      "verificationMethod": "Official organizer event and booking information reviewed October 22, 2026."
+    },
+    {
+      "id": "springfield-sensory-2027-06-13",
+      "title": "Sensory Friendly Sunday at Springfield Museums",
+      "start": "2027-06-13T09:00:00-04:00",
+      "end": "2027-06-13T11:00:00-04:00",
+      "timezone": "America/New_York",
+      "state": "MA",
+      "city": "Springfield",
+      "venue": "Springfield Museums",
+      "address": "21 Edwards Street, Springfield, MA 01103",
+      "sourceId": "springfield-museums",
+      "sourceUrl": "https://springfieldmuseums.org/program/sensory-friendly-sunday-3/2027-06-13/",
+      "ticketUrl": null,
+      "status": "scheduled",
+      "reviewRequired": false,
+      "category": "Sensory-friendly",
+      "format": "In person",
+      "cancellationPolicy": "Confirm cancellation terms with the organizer.",
+      "notes": [
+        "Parents and caregivers must stay with their children.",
+        "The public Sunday opening begins at 11 a.m."
+      ],
+      "cost": "Early-session admission price is not stated; confirm with the museum.",
+      "ages": "Visitors with differing abilities and their families; crafts for all ages",
+      "summary": "Early opening at the Science Museum and Amazing World of Dr. Seuss Museum, with modified exhibits and sensory-friendly crafts.",
+      "accessibility": [
+        "Modified exhibits",
+        "Staff can direct visitors to a quiet space",
+        "Museum preview guides available"
+      ],
+      "registration": "The event page does not specify a reservation process. Ask Family Programs at 413-314-6489 about early admission and tickets.",
+      "lastVerified": "2026-10-22T11:44:46Z",
+      "verificationMethod": "Official organizer event and booking information reviewed October 22, 2026."
+    },
+    {
+      "timezone": "America/New_York",
+      "ticketUrl": "https://explore.thetrustees.org/winterlights-at-the-bradley-estate?c_src=ACMEWEB",
+      "cancellationPolicy": "Tickets are nonrefundable and cannot transfer across dates. If the organizer cancels for unsafe weather, it will email refund or transfer information.",
+      "notes": [
+        "The organizer states that stairs and uneven ground make the route unsuitable for wheelchairs and strollers.",
+        "Under-2 admission is free; the page conflicts about children exactly age 2, so confirm that age before booking."
+      ],
+      "lastVerified": "2026-10-22T11:44:46Z",
+      "verificationMethod": "Official organizer event and booking information reviewed October 22, 2026.",
+      "reviewRequired": false,
+      "status": "scheduled",
+      "format": "In person",
+      "id": "bradley-winterlights-sensory-2026-12-13",
+      "title": "Sensory-friendly Winterlights at the Bradley Estate",
+      "start": "2026-12-13T15:30:00-05:00",
+      "end": "2026-12-13T16:30:00-05:00",
+      "state": "MA",
+      "city": "Canton",
+      "venue": "Eleanor Cabot Bradley Estate",
+      "address": "2468B Washington Street, Canton, MA 02021",
+      "cost": "Nonmembers $32 adult/$15 child; members $27/$10",
+      "ages": "Families and visitors who benefit from a quieter Winterlights entry",
+      "summary": "Earlier daylight entry, smaller ticket batches, lower music and preparation materials support a lower-sensory visit.",
+      "accessibility": [
+        "Smaller ticket batches and earlier daylight entry",
+        "Lower music volume",
+        "Social narrative and limited sensory kits"
+      ],
+      "sourceId": "trustees-bradley",
+      "sourceUrl": "https://thetrustees.org/event/450050/",
+      "registration": "Advance timed tickets required for every person; no on-site sales. Select the sensory hour.",
+      "category": "Holiday",
+      "costCategory": "paid"
+    },
+    {
+      "timezone": "America/New_York",
+      "ticketUrl": "https://explore.thetrustees.org/winterlights-at-the-bradley-estate?c_src=ACMEWEB",
+      "cancellationPolicy": "Tickets are nonrefundable and cannot transfer across dates. If the organizer cancels for unsafe weather, it will email refund or transfer information.",
+      "notes": [
+        "The organizer states that stairs and uneven ground make the route unsuitable for wheelchairs and strollers.",
+        "Under-2 admission is free; the page conflicts about children exactly age 2, so confirm that age before booking."
+      ],
+      "lastVerified": "2026-10-22T11:44:46Z",
+      "verificationMethod": "Official organizer event and booking information reviewed October 22, 2026.",
+      "reviewRequired": false,
+      "status": "scheduled",
+      "format": "In person",
+      "id": "bradley-winterlights-sensory-2026-12-20",
+      "title": "Sensory-friendly Winterlights at the Bradley Estate",
+      "start": "2026-12-20T15:30:00-05:00",
+      "end": "2026-12-20T16:30:00-05:00",
+      "state": "MA",
+      "city": "Canton",
+      "venue": "Eleanor Cabot Bradley Estate",
+      "address": "2468B Washington Street, Canton, MA 02021",
+      "cost": "Nonmembers $32 adult/$15 child; members $27/$10",
+      "ages": "Families and visitors who benefit from a quieter Winterlights entry",
+      "summary": "Earlier daylight entry, smaller ticket batches, lower music and preparation materials support a lower-sensory visit.",
+      "accessibility": [
+        "Smaller ticket batches and earlier daylight entry",
+        "Lower music volume",
+        "Social narrative and limited sensory kits"
+      ],
+      "sourceId": "trustees-bradley",
+      "sourceUrl": "https://thetrustees.org/event/450051/",
+      "registration": "Advance timed tickets required for every person; no on-site sales. Select the sensory hour.",
+      "category": "Holiday",
+      "costCategory": "paid"
+    },
+    {
+      "timezone": "America/New_York",
+      "ticketUrl": "https://explore.thetrustees.org/winterlights-at-the-bradley-estate?c_src=ACMEWEB",
+      "cancellationPolicy": "Tickets are nonrefundable and cannot transfer across dates. If the organizer cancels for unsafe weather, it will email refund or transfer information.",
+      "notes": [
+        "The organizer states that stairs and uneven ground make the route unsuitable for wheelchairs and strollers.",
+        "Under-2 admission is free; the page conflicts about children exactly age 2, so confirm that age before booking."
+      ],
+      "lastVerified": "2026-10-22T11:44:46Z",
+      "verificationMethod": "Official organizer event and booking information reviewed October 22, 2026.",
+      "reviewRequired": false,
+      "status": "scheduled",
+      "format": "In person",
+      "id": "bradley-winterlights-sensory-2026-12-27",
+      "title": "Sensory-friendly Winterlights at the Bradley Estate",
+      "start": "2026-12-27T15:30:00-05:00",
+      "end": "2026-12-27T16:30:00-05:00",
+      "state": "MA",
+      "city": "Canton",
+      "venue": "Eleanor Cabot Bradley Estate",
+      "address": "2468B Washington Street, Canton, MA 02021",
+      "cost": "Nonmembers $32 adult/$15 child; members $27/$10",
+      "ages": "Families and visitors who benefit from a quieter Winterlights entry",
+      "summary": "Earlier daylight entry, smaller ticket batches, lower music and preparation materials support a lower-sensory visit.",
+      "accessibility": [
+        "Smaller ticket batches and earlier daylight entry",
+        "Lower music volume",
+        "Social narrative and limited sensory kits"
+      ],
+      "sourceId": "trustees-bradley",
+      "sourceUrl": "https://thetrustees.org/event/450052/",
+      "registration": "Advance timed tickets required for every person; no on-site sales. Select the sensory hour.",
+      "category": "Holiday",
+      "costCategory": "paid"
+    },
+    {
+      "id": "naumkeag-pumpkin-early-2026-10-22",
+      "title": "Naumkeag Pumpkin Show — Lower-Capacity Early Hour",
+      "start": "2026-10-22T16:00:00-04:00",
+      "end": "2026-10-22T17:00:00-04:00",
+      "timezone": "America/New_York",
+      "state": "MA",
+      "city": "Stockbridge",
+      "venue": "Naumkeag",
+      "address": "5 Prospect Hill Road, Stockbridge, MA 01262",
+      "sourceId": "trustees-naumkeag",
+      "sourceUrl": "https://thetrustees.org/event/449160/",
+      "ticketUrl": "https://explore.thetrustees.org/pumpkin-show?c_src=ACMEWEB",
+      "status": "scheduled",
+      "reviewRequired": false,
+      "category": "Halloween",
+      "format": "In person",
+      "cancellationPolicy": "Nonrefundable; no date transfers. Organizer will email instructions if unsafe weather causes cancellation.",
+      "notes": [
+        "Many steps, steep slopes and uneven surfaces remain; the route is not wheelchair or stroller accessible."
+      ],
+      "cost": "Value Night: nonmember adult $25/member adult $20; ages 3–15 $15/$10; ages 2 and under free.",
+      "costCategory": "paid",
+      "ages": "Families and visitors who benefit from lower attendance and on-site parking",
+      "summary": "Explore seasonal garden displays during an earlier, lower-capacity visit with on-site parking.",
+      "accessibility": [
+        "Lower ticket capacity",
+        "On-site parking without the usual shuttle",
+        "More daylight on the route"
+      ],
+      "registration": "Advance timed tickets required; select the 4 p.m. Early Hour. No entry after 4:30 p.m. Availability may change.",
+      "lastVerified": "2026-10-22T11:44:46Z",
+      "verificationMethod": "Official organizer event and booking information reviewed October 22, 2026."
+    },
+    {
+      "id": "naumkeag-pumpkin-early-2026-10-23",
+      "title": "Naumkeag Pumpkin Show — Lower-Capacity Early Hour",
+      "start": "2026-10-23T16:00:00-04:00",
+      "end": "2026-10-23T17:00:00-04:00",
+      "timezone": "America/New_York",
+      "state": "MA",
+      "city": "Stockbridge",
+      "venue": "Naumkeag",
+      "address": "5 Prospect Hill Road, Stockbridge, MA 01262",
+      "sourceId": "trustees-naumkeag",
+      "sourceUrl": "https://thetrustees.org/event/449161/",
+      "ticketUrl": "https://explore.thetrustees.org/pumpkin-show?c_src=ACMEWEB",
+      "status": "scheduled",
+      "reviewRequired": false,
+      "category": "Halloween",
+      "format": "In person",
+      "cancellationPolicy": "Nonrefundable; no date transfers. Organizer will email instructions if unsafe weather causes cancellation.",
+      "notes": [
+        "Many steps, steep slopes and uneven surfaces remain; the route is not wheelchair or stroller accessible."
+      ],
+      "cost": "Nonmembers: $32 adult/$15 ages 3–15; members: $27/$10; ages 2 and under free.",
+      "costCategory": "paid",
+      "ages": "Families and visitors who benefit from lower attendance and on-site parking",
+      "summary": "Explore seasonal garden displays during an earlier, lower-capacity visit with on-site parking.",
+      "accessibility": [
+        "Lower ticket capacity",
+        "On-site parking without the usual shuttle",
+        "More daylight on the route"
+      ],
+      "registration": "Advance timed tickets required; select the 4 p.m. Early Hour. No entry after 4:30 p.m. Availability may change.",
+      "lastVerified": "2026-10-22T11:44:46Z",
+      "verificationMethod": "Official organizer event and booking information reviewed October 22, 2026."
+    },
+    {
+      "id": "naumkeag-pumpkin-early-2026-10-24",
+      "title": "Naumkeag Pumpkin Show — Lower-Capacity Early Hour",
+      "start": "2026-10-24T16:00:00-04:00",
+      "end": "2026-10-24T17:00:00-04:00",
+      "timezone": "America/New_York",
+      "state": "MA",
+      "city": "Stockbridge",
+      "venue": "Naumkeag",
+      "address": "5 Prospect Hill Road, Stockbridge, MA 01262",
+      "sourceId": "trustees-naumkeag",
+      "sourceUrl": "https://thetrustees.org/event/449162/",
+      "ticketUrl": "https://explore.thetrustees.org/pumpkin-show?c_src=ACMEWEB",
+      "status": "scheduled",
+      "reviewRequired": false,
+      "category": "Halloween",
+      "format": "In person",
+      "cancellationPolicy": "Nonrefundable; no date transfers. Organizer will email instructions if unsafe weather causes cancellation.",
+      "notes": [
+        "Many steps, steep slopes and uneven surfaces remain; the route is not wheelchair or stroller accessible."
+      ],
+      "cost": "Nonmembers: $32 adult/$15 ages 3–15; members: $27/$10; ages 2 and under free.",
+      "costCategory": "paid",
+      "ages": "Families and visitors who benefit from lower attendance and on-site parking",
+      "summary": "Explore seasonal garden displays during an earlier, lower-capacity visit with on-site parking.",
+      "accessibility": [
+        "Lower ticket capacity",
+        "On-site parking without the usual shuttle",
+        "More daylight on the route"
+      ],
+      "registration": "Advance timed tickets required; select the 4 p.m. Early Hour. No entry after 4:30 p.m. Availability may change.",
+      "lastVerified": "2026-10-22T11:44:46Z",
+      "verificationMethod": "Official organizer event and booking information reviewed October 22, 2026."
+    },
+    {
+      "id": "naumkeag-pumpkin-early-2026-10-25",
+      "title": "Naumkeag Pumpkin Show — Lower-Capacity Early Hour",
+      "start": "2026-10-25T16:00:00-04:00",
+      "end": "2026-10-25T17:00:00-04:00",
+      "timezone": "America/New_York",
+      "state": "MA",
+      "city": "Stockbridge",
+      "venue": "Naumkeag",
+      "address": "5 Prospect Hill Road, Stockbridge, MA 01262",
+      "sourceId": "trustees-naumkeag",
+      "sourceUrl": "https://thetrustees.org/event/449163/",
+      "ticketUrl": "https://explore.thetrustees.org/pumpkin-show?c_src=ACMEWEB",
+      "status": "scheduled",
+      "reviewRequired": false,
+      "category": "Halloween",
+      "format": "In person",
+      "cancellationPolicy": "Nonrefundable; no date transfers. Organizer will email instructions if unsafe weather causes cancellation.",
+      "notes": [
+        "Many steps, steep slopes and uneven surfaces remain; the route is not wheelchair or stroller accessible."
+      ],
+      "cost": "Nonmembers: $32 adult/$15 ages 3–15; members: $27/$10; ages 2 and under free.",
+      "costCategory": "paid",
+      "ages": "Families and visitors who benefit from lower attendance and on-site parking",
+      "summary": "Explore seasonal garden displays during an earlier, lower-capacity visit with on-site parking.",
+      "accessibility": [
+        "Lower ticket capacity",
+        "On-site parking without the usual shuttle",
+        "More daylight on the route"
+      ],
+      "registration": "Advance timed tickets required; select the 4 p.m. Early Hour. No entry after 4:30 p.m. Availability may change.",
+      "lastVerified": "2026-10-22T11:44:46Z",
+      "verificationMethod": "Official organizer event and booking information reviewed October 22, 2026."
+    },
+    {
+      "id": "naumkeag-pumpkin-early-2026-10-28",
+      "title": "Naumkeag Pumpkin Show — Lower-Capacity Early Hour",
+      "start": "2026-10-28T16:00:00-04:00",
+      "end": "2026-10-28T17:00:00-04:00",
+      "timezone": "America/New_York",
+      "state": "MA",
+      "city": "Stockbridge",
+      "venue": "Naumkeag",
+      "address": "5 Prospect Hill Road, Stockbridge, MA 01262",
+      "sourceId": "trustees-naumkeag",
+      "sourceUrl": "https://thetrustees.org/event/449164/",
+      "ticketUrl": "https://explore.thetrustees.org/pumpkin-show?c_src=ACMEWEB",
+      "status": "scheduled",
+      "reviewRequired": false,
+      "category": "Halloween",
+      "format": "In person",
+      "cancellationPolicy": "Nonrefundable; no date transfers. Organizer will email instructions if unsafe weather causes cancellation.",
+      "notes": [
+        "Many steps, steep slopes and uneven surfaces remain; the route is not wheelchair or stroller accessible."
+      ],
+      "cost": "Nonmembers: $32 adult/$15 ages 3–15; members: $27/$10; ages 2 and under free.",
+      "costCategory": "paid",
+      "ages": "Families and visitors who benefit from lower attendance and on-site parking",
+      "summary": "Explore seasonal garden displays during an earlier, lower-capacity visit with on-site parking.",
+      "accessibility": [
+        "Lower ticket capacity",
+        "On-site parking without the usual shuttle",
+        "More daylight on the route"
+      ],
+      "registration": "Advance timed tickets required; select the 4 p.m. Early Hour. No entry after 4:30 p.m. Availability may change.",
+      "lastVerified": "2026-10-22T11:44:46Z",
+      "verificationMethod": "Official organizer event and booking information reviewed October 22, 2026."
+    },
+    {
+      "id": "naumkeag-pumpkin-early-2026-10-29",
+      "title": "Naumkeag Pumpkin Show — Lower-Capacity Early Hour",
+      "start": "2026-10-29T16:00:00-04:00",
+      "end": "2026-10-29T17:00:00-04:00",
+      "timezone": "America/New_York",
+      "state": "MA",
+      "city": "Stockbridge",
+      "venue": "Naumkeag",
+      "address": "5 Prospect Hill Road, Stockbridge, MA 01262",
+      "sourceId": "trustees-naumkeag",
+      "sourceUrl": "https://thetrustees.org/event/449165/",
+      "ticketUrl": "https://explore.thetrustees.org/pumpkin-show?c_src=ACMEWEB",
+      "status": "scheduled",
+      "reviewRequired": false,
+      "category": "Halloween",
+      "format": "In person",
+      "cancellationPolicy": "Nonrefundable; no date transfers. Organizer will email instructions if unsafe weather causes cancellation.",
+      "notes": [
+        "Many steps, steep slopes and uneven surfaces remain; the route is not wheelchair or stroller accessible."
+      ],
+      "cost": "Nonmembers: $32 adult/$15 ages 3–15; members: $27/$10; ages 2 and under free.",
+      "costCategory": "paid",
+      "ages": "Families and visitors who benefit from lower attendance and on-site parking",
+      "summary": "Explore seasonal garden displays during an earlier, lower-capacity visit with on-site parking.",
+      "accessibility": [
+        "Lower ticket capacity",
+        "On-site parking without the usual shuttle",
+        "More daylight on the route"
+      ],
+      "registration": "Advance timed tickets required; select the 4 p.m. Early Hour. No entry after 4:30 p.m. Availability may change.",
+      "lastVerified": "2026-10-22T11:44:46Z",
+      "verificationMethod": "Official organizer event and booking information reviewed October 22, 2026."
+    },
+    {
+      "id": "naumkeag-pumpkin-early-2026-10-30",
+      "title": "Naumkeag Pumpkin Show — Lower-Capacity Early Hour",
+      "start": "2026-10-30T16:00:00-04:00",
+      "end": "2026-10-30T17:00:00-04:00",
+      "timezone": "America/New_York",
+      "state": "MA",
+      "city": "Stockbridge",
+      "venue": "Naumkeag",
+      "address": "5 Prospect Hill Road, Stockbridge, MA 01262",
+      "sourceId": "trustees-naumkeag",
+      "sourceUrl": "https://thetrustees.org/event/449166/",
+      "ticketUrl": "https://explore.thetrustees.org/pumpkin-show?c_src=ACMEWEB",
+      "status": "scheduled",
+      "reviewRequired": false,
+      "category": "Halloween",
+      "format": "In person",
+      "cancellationPolicy": "Nonrefundable; no date transfers. Organizer will email instructions if unsafe weather causes cancellation.",
+      "notes": [
+        "Many steps, steep slopes and uneven surfaces remain; the route is not wheelchair or stroller accessible."
+      ],
+      "cost": "Nonmembers: $32 adult/$15 ages 3–15; members: $27/$10; ages 2 and under free.",
+      "costCategory": "paid",
+      "ages": "Families and visitors who benefit from lower attendance and on-site parking",
+      "summary": "Explore seasonal garden displays during an earlier, lower-capacity visit with on-site parking.",
+      "accessibility": [
+        "Lower ticket capacity",
+        "On-site parking without the usual shuttle",
+        "More daylight on the route"
+      ],
+      "registration": "Advance timed tickets required; select the 4 p.m. Early Hour. No entry after 4:30 p.m. Availability may change.",
+      "lastVerified": "2026-10-22T11:44:46Z",
+      "verificationMethod": "Official organizer event and booking information reviewed October 22, 2026."
+    },
+    {
+      "id": "naumkeag-pumpkin-early-2026-10-31",
+      "title": "Naumkeag Pumpkin Show — Lower-Capacity Early Hour",
+      "start": "2026-10-31T16:00:00-04:00",
+      "end": "2026-10-31T17:00:00-04:00",
+      "timezone": "America/New_York",
+      "state": "MA",
+      "city": "Stockbridge",
+      "venue": "Naumkeag",
+      "address": "5 Prospect Hill Road, Stockbridge, MA 01262",
+      "sourceId": "trustees-naumkeag",
+      "sourceUrl": "https://thetrustees.org/event/449167/",
+      "ticketUrl": "https://explore.thetrustees.org/pumpkin-show?c_src=ACMEWEB",
+      "status": "scheduled",
+      "reviewRequired": false,
+      "category": "Halloween",
+      "format": "In person",
+      "cancellationPolicy": "Nonrefundable; no date transfers. Organizer will email instructions if unsafe weather causes cancellation.",
+      "notes": [
+        "Many steps, steep slopes and uneven surfaces remain; the route is not wheelchair or stroller accessible."
+      ],
+      "cost": "Nonmembers: $32 adult/$15 ages 3–15; members: $27/$10; ages 2 and under free.",
+      "costCategory": "paid",
+      "ages": "Families and visitors who benefit from lower attendance and on-site parking",
+      "summary": "Explore seasonal garden displays during an earlier, lower-capacity visit with on-site parking.",
+      "accessibility": [
+        "Lower ticket capacity",
+        "On-site parking without the usual shuttle",
+        "More daylight on the route"
+      ],
+      "registration": "Advance timed tickets required; select the 4 p.m. Early Hour. No entry after 4:30 p.m. Availability may change.",
+      "lastVerified": "2026-10-22T11:44:46Z",
+      "verificationMethod": "Official organizer event and booking information reviewed October 22, 2026."
+    },
+    {
+      "id": "patriot-place-sensory-halloween-2026-10-29",
+      "title": "Patriot Place Sensory Friendly Trick or Treat",
+      "start": "2026-10-29T15:00:00-04:00",
+      "end": "2026-10-29T16:15:00-04:00",
+      "timezone": "America/New_York",
+      "state": "MA",
+      "city": "Foxborough",
+      "venue": "Patriot Place — outside Red Robin",
+      "address": "2 Patriot Place, Foxborough, MA 02035",
+      "sourceId": "patriot-place",
+      "sourceUrl": "https://www.patriot-place.com/events/sensory-friendly-trick-or-treat-at-patriot-place/",
+      "ticketUrl": "https://kraftse.formstack.com/forms/patriot_place_sensory_friendly_trick_or_treat",
+      "status": "scheduled",
+      "reviewRequired": false,
+      "category": "Halloween",
+      "format": "In person",
+      "cancellationPolicy": "Confirm cancellation terms with the organizer.",
+      "notes": [
+        "Meet outside Red Robin. Ask organizers about specific access needs and weather plans."
+      ],
+      "cost": "Cost is not stated in the event listing.",
+      "ages": "Children and families; no specific age range published",
+      "summary": "Sensory-friendly games, activities and treats with Patriot Place and Mass General Brigham Spaulding Rehabilitation Center.",
+      "accessibility": [
+        "Organizer describes the games and activities as sensory friendly"
+      ],
+      "registration": "Pre-registration required; space is limited. The official form confirms October 29, 2026, 3–4:15 p.m.",
+      "lastVerified": "2026-10-22T11:44:46Z",
+      "verificationMethod": "Official organizer event and booking information reviewed October 22, 2026."
+    },
+    {
+      "timezone": "America/New_York",
+      "ticketUrl": "https://tnew.mfa.org/0/120940",
+      "cancellationPolicy": "Not stated in the checked listing; confirm with the organizer.",
+      "notes": [
+        "Age range is 13–22; caregivers are welcome but not required."
+      ],
+      "lastVerified": "2026-10-22T11:44:46Z",
+      "verificationMethod": "Official organizer event and booking information reviewed October 22, 2026.",
+      "reviewRequired": false,
+      "status": "scheduled",
+      "format": "In person",
+      "id": "mfa-beyond-teens-2026-12-19",
+      "title": "Beyond the Spectrum Teen Studio — Sold Out",
+      "start": "2026-12-19T10:30:00-05:00",
+      "end": "2026-12-19T12:00:00-05:00",
+      "state": "MA",
+      "city": "Boston",
+      "venue": "Museum of Fine Arts, Boston",
+      "address": "465 Huntington Avenue, Boston, MA 02115",
+      "cost": "Current class price not confirmed; one ticket covers one participant plus up to two adults",
+      "ages": "Ages 13–22; caregivers welcome but not required",
+      "summary": "Crafty Cards: gallery exploration and studio card-making for teens and young adults on the autism spectrum.",
+      "accessibility": [
+        "Tactile and sensory gallery activities",
+        "Caregivers welcome",
+        "Art-making workshop"
+      ],
+      "sourceId": "mfa-boston",
+      "sourceUrl": "https://www.mfa.org/programs/access-programs/beyond-the-spectrum",
+      "registration": "Sold out on the MFA program page when checked October 22. Check with MFA about any returns before making plans.",
+      "category": "Accessible arts"
     }
   ],
   "accessibilityStandard": {
