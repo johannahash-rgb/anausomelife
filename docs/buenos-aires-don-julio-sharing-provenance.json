@@ -134,9 +134,57 @@
         "date": "2026-10-22",
         "gmail_message_id": "1a165237593fffd0",
         "status": "sent; no placement confirmed"
+      },
+      {
+        "target": "Buenos Aires Herald — Culture & Lifestyle editor",
+        "email": "amango@buenosairesherald.com",
+        "angle": "Buenos Aires 1954 ritual, local Palermo photographs, Rococo in Maine",
+        "date": "2026-10-22",
+        "gmail_message_id": "1a1654ae77895057",
+        "status": "sent; no coverage confirmed"
+      },
+      {
+        "target": "Argentina Expat — editorial/community",
+        "email": "press@argentinaexpat.com",
+        "angle": "Visiting family's 1954 finds and cross-cultural Maine connection for resident community",
+        "date": "2026-10-22",
+        "gmail_message_id": "1a1654aef617bd76",
+        "status": "sent; no coverage confirmed"
+      },
+      {
+        "target": "Expat Network — website and mailings",
+        "email": "expats@expatnetwork.com",
+        "angle": "Birth-year traditions that connect travelers with places abroad",
+        "date": "2026-10-22",
+        "gmail_message_id": "1a1654af4df26ad2",
+        "status": "sent; no coverage confirmed"
+      },
+      {
+        "target": "KnowArgentina — Gabriela Arellano",
+        "email": "info@knowargentina.com",
+        "angle": "Buenos Aires to Maine / Argentine heladería inspiration / birth-year souvenirs",
+        "date": "2026-10-22",
+        "gmail_message_id": "1a1654ca0741932d",
+        "status": "sent; no coverage confirmed"
+      },
+      {
+        "target": "Buenos Aires Secreta — editorial",
+        "email": "baires@secretmedianetwork.com",
+        "angle": "Spanish-language local 1954 story for readers and organic social",
+        "date": "2026-10-22",
+        "gmail_message_id": "1a1654cae7201c43",
+        "status": "sent; no coverage confirmed"
+      },
+      {
+        "target": "Gringos in Buenos Aires — Paul Perry",
+        "email": "gringosinbuenosaires@gmail.com",
+        "angle": "Community social conversation: numbers and rituals people carry abroad",
+        "date": "2026-10-22",
+        "gmail_message_id": "1a1654cb538ba259",
+        "status": "sent; no coverage confirmed"
       }
     ],
-    "reposts": "No reposts or features confirmed as of these pitches.",
+    "reposts": "None independently confirmed as of six additional pitches.",
     "native_social": "Not published through connected Metricool: only YouTube connected, no video post",
     "editorial_replies": [
       {
@@ -150,6 +198,7 @@
     "delivery_checks": {
       "date": "2026-10-22",
       "result": "No campaign-address delivery failure surfaced in a Gmail search; sending alone does not verify receipt."
-    }
+    },
+    "expat_outreach_notes": "Six new earned-editorial pitches on 2026-10-22. No claims that two visitors are expatriates, no meal or cruise reviews, no photo-reuse license. Skipped International Living and Expat Focus personal-essay channels requiring firsthand residence abroad. BA expat forum posting not attempted without appropriate account/rules."
   }
 }
