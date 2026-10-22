@@ -21,5 +21,35 @@
     "https://harvardhistory.org/the-shaker-village/",
     "https://www.metmuseum.org/essays/shaker-furniture"
   ],
-  "native_social": "Not published."
+  "native_social": "Not published.",
+  "enhancements": {
+    "reviewed": "2026-10-22",
+    "family_memory": "Owner explicitly supplied Mom-Mom’s Shaker furniture preference and childhood furniture-shopping trips to Gardner and Lancaster. No particular store is asserted.",
+    "map": "Original code-drawn schematic orientation map based on geographical facts in the Harvard Historical Society and Harvard Shaker Village guide. Not a tracing or a route map; not to scale.",
+    "map_sources": [
+      "https://harvardhistory.org/the-shaker-village/",
+      "https://www.harvardshakers.com/",
+      "https://harvardconservationtrust.org/property/shaker-conservation-lands/"
+    ],
+    "cards": "Explicit owner request for history picture cards. Generic generated object sheet; original eye and footprints symbols; existing reviewed site communication symbols and car/break illustrations. Not a commercial PECS product or treatment protocol.",
+    "art_tool": "Built-in imagegen",
+    "art_direction": "Original ink and watercolor Shaker side chair and rocking chair; transparent background. Generic four-object photo-style communication sprite sheet.",
+    "assets": [
+      {
+        "path": "assets/shaker-history-harvard/shaker-chairs-watercolor.png",
+        "sha256": "465e9763109a8b2a18785a106c202bf94d8361d5335bbf3fb62653f837a1c7eb",
+        "basis": "Original asset created for this owner-authorized story update. No family-photo alteration or third-party image reuse."
+      },
+      {
+        "path": "assets/shaker-history-harvard/history-card-objects.png",
+        "sha256": "e019ef805c0ac0a56e9f010e4ef0892260717d4887fc251acb58299b891d3af4",
+        "basis": "Original asset created for this owner-authorized story update. No family-photo alteration or third-party image reuse."
+      },
+      {
+        "path": "assets/shaker-history-harvard/harvard-shaker-map.svg",
+        "sha256": "bd032d8d24f6621ba9cd43e176c423967dcacf14d9957d57c996d05f54ab40dc",
+        "basis": "Original asset created for this owner-authorized story update. No family-photo alteration or third-party image reuse."
+      }
+    ]
+  }
 }
