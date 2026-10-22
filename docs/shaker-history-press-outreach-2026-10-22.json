@@ -1,0 +1,86 @@
+{
+  "version": 1,
+  "preparedDateEastern": "2026-10-22",
+  "storyUrl": "https://anausomelife.com/shaker-history-harvard-family-gift.html",
+  "authorization": "Owner requested publicity and sharing for this story: can yu ge us some press for this shares etc. Existing owner direction authorizes branded outreach using hello@anausomelife.com.",
+  "from": "An AUsome Life <hello@anausomelife.com>",
+  "status": "prepared_for_next_eligible_weekday_morning",
+  "messages": [
+    {
+      "organization": "The Harvard Press",
+      "name": "John Osborn",
+      "to": "editor@harvardpress.net",
+      "role": "Editor-in-Chief",
+      "sourceUrls": [
+        "https://harvardpress.com/team/",
+        "https://harvardpress.com/portals/0/documents/2024%20Summer%20Internship%20Application.pdf",
+        "https://harvardpress.com/Opinion/Letters-to-the-Editor/harvards-trash-bag-system-is-broken"
+      ],
+      "subject": "Harvard feature idea: a thoughtful gift hiding in the history close to home",
+      "text": "Hi John,\n\nI grew up near Harvard and have always loved history, but had never properly explored the Shaker history on our doorstep. Michael surprised me with a day built around it: a little research, a short car trip and time together.\n\nThe outing brought back another connection. My mother, Mom-Mom, has always loved Shaker furniture, and growing up we made special trips to stores in Gardner and Lancaster to buy pieces.\n\nI've just shared the memory through An AUsome Life, our independent family publication:\nhttps://anausomelife.com/shaker-history-harvard-family-gift.html\n\nWould this interest the Press as a local feature or a thoughtful, low-cost gift idea for readers? The piece connects a family's furniture memories with Harvard's Shaker heritage and the pleasure of having someone else do the planning. It also includes a fold-open orientation map, links to local history sources and free printable picture cards created for future outings.\n\nI'd be happy to answer questions by email. The outing is a family memory; the map and cards are new companion resources.\n\nThank you,\nAn AUsome Life\nhello@anausomelife.com",
+      "status": "prepared_unsent",
+      "idempotencyKey": "aal-shaker-harvard-20261022-1-v1"
+    },
+    {
+      "organization": "Harvard Historical Society",
+      "name": null,
+      "to": "curator@harvardhistory.org",
+      "role": "Published curator contact",
+      "sourceUrls": [
+        "https://harvardhistory.org/",
+        "https://harvardhistory.org/the-shaker-village/"
+      ],
+      "subject": "A family Shaker-history story for Harvard's history community",
+      "text": "Hello Harvard Historical Society team,\n\nYour Shaker Village history is linked in a new family story we've published at An AUsome Life, and I wanted to share it with you.\n\nMichael surprised me with a Shaker history day around Harvard. I grew up nearby and love history, yet had never taken the time to explore these places. It also brought back memories of my mother, Mom-Mom, and our special trips to furniture stores in Gardner and Lancaster to buy Shaker furniture.\n\nThe story is about a thoughtful gift that takes research and time together, without needing a large budget:\nhttps://anausomelife.com/shaker-history-harvard-family-gift.html\n\nWould you consider sharing the link in a Society newsletter or on your social page? It offers readers a personal way into the area's history, alongside links to local sources, an original chair watercolor and a fold-open orientation map. We also created printable picture cards for future history outings.\n\nSuggested sharing caption: A little research, a short drive and a thoughtful surprise: An AUsome Life explores Harvard's Shaker history and family memories of Shaker furniture.\n\nPlease credit An AUsome Life / @anausomelife and link to the story. Thank you for helping people discover the history close to home.\n\nWarmly,\nAn AUsome Life\nhello@anausomelife.com",
+      "status": "prepared_unsent",
+      "idempotencyKey": "aal-shaker-harvard-20261022-2-v1"
+    },
+    {
+      "organization": "Harvard Conservation Trust",
+      "name": "Karen Rahman",
+      "to": "karen.rahman@harvardconservationtrust.org",
+      "role": "Manager",
+      "sourceUrls": [
+        "https://harvardconservationtrust.org/trustees/",
+        "https://harvardconservationtrust.org/property/shaker-conservation-lands/"
+      ],
+      "subject": "Harvard's Shaker places: a family story and map to share",
+      "text": "Hi Karen,\n\nWe've linked the Trust's Shaker Conservation Lands information in a new An AUsome Life story about discovering local history through a simple family outing.\n\nMichael planned a surprise Shaker history day for me around Harvard. I grew up nearby and love history, but had never properly explored these places. The day also connected with childhood memories of my mother, Mom-Mom, and trips to Gardner and Lancaster for Shaker furniture.\n\nThe story and its new fold-open orientation map are here:\nhttps://anausomelife.com/shaker-history-harvard-family-gift.html\n\nWould the Trust consider sharing the story link with its community through a newsletter or social post? The reader takeaway is a thoughtful gift made from research, a short drive and time together. The map directs readers to local sources and distinguishes orientation from a walking route; the story reminds visitors to respect private homes and use designated trails.\n\nWe've also added free picture cards for future history outings, with choices such as look, walk, break and all done.\n\nSuggested sharing caption: Discover the history close to home: a family Shaker-history outing in Harvard, with a local orientation map and printable picture cards. Credit: An AUsome Life / @anausomelife.\n\nThank you,\nAn AUsome Life\nhello@anausomelife.com",
+      "status": "prepared_unsent",
+      "idempotencyKey": "aal-shaker-harvard-20261022-3-v1"
+    }
+  ],
+  "sendPolicy": {
+    "windowEastern": "Weekdays 09:00–11:00",
+    "initialPitchCapPerDay": 3,
+    "organizationCooldownDays": 14,
+    "onePitchPerOrganizationPerPost": true,
+    "followup": "No follow-up is scheduled by this package. Recheck existing rules and replies before any later action.",
+    "priority": "These three story-specific pitches are the owner's current publicity request. Check shared capacity before sending; do not exceed it."
+  },
+  "checks": {
+    "checkedDateEastern": "2026-10-22",
+    "sender": "Resend reports anausomelife.com verified with sending enabled.",
+    "priorContact": "No selected recipient domain or story URL matches in full press plan and current master log. Targeted Primary and Pinshare Gmail searches returned no matches. Latest 200 provider messages reviewed; none for these selected organizations. Bounded check, to be repeated at send time.",
+    "suppressions": "Each of the three exact recipients returned Suppression not found.",
+    "sources": "Current primary-source staff/home pages checked. Harvard Press editor address additionally corroborated by its published internship application and letters policy.",
+    "publication": "Enhancement commit 57cbe6ce08201475482d254c7d0121253fb76bb0 passed both GitHub Pages deploy workflows and site-wide audit. Latest main contains Mom-Mom/Gardner/Lancaster text and map/card disclosures.",
+    "nativeSocial": "Metricool currently exposes YouTube only. No native Instagram/Facebook post, share or repost has been made.",
+    "coverage": "No press acceptance or third-party share confirmed."
+  },
+  "scope": {
+    "request": "One editorial feature pitch and two tailored community-sharing requests, link only.",
+    "images": "No family photo attachments, downloads, republication or paid-media permission granted. No third-party logo use.",
+    "privacy": "No child identifiers, diagnoses or private contact details in messages.",
+    "cost": "No paid distribution, ads, fees, exclusivity or rights commitments."
+  },
+  "references": {
+    "fullPlanLibraryFileId": "libfile_98fa57852fb48191b7eeb78b8807ecfd",
+    "masterLogLibraryFileId": "libfile_f4016911d1588191a32e8b168f843cec"
+  },
+  "shareCopy": {
+    "personal": "One of my favorite gifts: a little research, a short car trip and a day planned just for me. Michael surprised me with a Shaker history day around Harvard, where I grew up nearby but had never really explored the history. It brought back memories of Mom-Mom and our special trips to Gardner and Lancaster for Shaker furniture. A thoughtful gift doesn't have to cost much. I've shared the story, a Shaker-chair watercolor, a fold-open map and printable history picture cards here: https://anausomelife.com/shaker-history-harvard-family-gift.html",
+    "short": "A little research. A short drive. A thoughtful surprise. Our Shaker history day in Harvard, with a map and printable picture cards: https://anausomelife.com/shaker-history-harvard-family-gift.html",
+    "credit": "An AUsome Life / @anausomelife"
+  }
+}
