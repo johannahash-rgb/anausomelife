@@ -171,7 +171,9 @@
     "timingMode": "flexible_schedule",
     "confirmedCreated": true,
     "delivery": "All eight messages remain unsent. The existing task starts October 23 and stages checked sends across eligible weekday mornings within the shared cap. Fruitlands cannot send before November 2 and may be held longer after current-thread checks.",
-    "expansionTaskUpdate": "pending"
+    "expansionTaskUpdate": "confirmed",
+    "expandedRecipientCount": 8,
+    "expansionConfirmedAt": "2026-10-22"
   },
   "prospects": [
     {
