@@ -1,0 +1,5 @@
+# Omar’s Instagram Story share — 23 October 2026
+
+Evidence: owner-supplied IMG_9690.jpeg, supplied October 23, 2026. Shows @omarsworldofcomics, relative age 22m, the exact quote “Check out this fabulous article about our store!”, @anausomelife tag, and AN AUSOME LIFE website link sticker over the existing family article. Original Story permalink unavailable; public link is explicitly a profile link.
+
+Asset: assets/press/omars-instagram-story-2026-10-23.jpeg. Unmodified owner-supplied screenshot, authorized by the owner’s instruction to add this share to press. Used solely as documentary evidence of this public share of the owner’s existing article and family photo. Third-party interface and account icon appear incidentally for source identification; no separate logo use, sponsorship, broader licensing or paid-ad rights claimed. Not AI generated. Reviewed for personal identifiers: only public publication and business handles visible; no personal name or identifying personal username. Date is capture date inferred from current submission and 22m relative timestamp, not independently retrieved platform metadata. No reach/click counts claimed.
