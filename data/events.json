@@ -5511,8 +5511,8 @@
       "ticketUrl": "https://www.discoveryacton.org/visit/especially-me",
       "cancellationPolicy": "Not stated in the checked listing; confirm with the organizer.",
       "notes": [],
-      "lastVerified": "2026-10-22T10:40:00Z",
-      "verificationMethod": "Official organizer/event page reviewed",
+      "lastVerified": "2026-10-25T12:09:19Z",
+      "verificationMethod": "Official dated event page, museum calendar and linked registration destination reviewed",
       "reviewRequired": false,
       "status": "scheduled",
       "format": "In person",
@@ -5535,8 +5535,8 @@
         "Take a Break space"
       ],
       "sourceId": "discovery",
-      "sourceUrl": "https://www.discoveryacton.org/visit/especially-me",
-      "registration": "Advance registration required; the museum currently asks visitors to check back for the booking link.",
+      "sourceUrl": "https://www.discoveryacton.org/events-programs/inclusive-afternoon-18",
+      "registration": "Advance registration required. The December 1 booking link currently opens November 17 registration; contact the museum to confirm December booking.",
       "visualStory": {
         "arrival": "We can enter the museum and check in. The museum expects lower attendance during this afternoon.",
         "activity": "We can choose exhibits inside or outdoors and go at our own pace.",
@@ -5968,16 +5968,16 @@
         "ASL interpreters available"
       ],
       "sourceId": "discovery",
-      "sourceUrl": "https://www.discoveryacton.org/news/schedule-free-events-visitors-disabilities-announced",
-      "ticketUrl": "https://www.discoveryacton.org/visit/especially-me",
-      "registration": "Advance registration required; the museum currently asks visitors to check back for the booking link.",
+      "sourceUrl": "https://www.discoveryacton.org/events-programs/evening-deaf-blind-or-deafblind-5",
+      "ticketUrl": "https://26033.blackbaudhosting.com/26033/Especially-for-Me-Free-Evening-for-Deaf-Blind-or-DeafBlind-12Dec2026",
+      "registration": "Advance registration required; registration is open. Confirm current availability with the organizer.",
       "cancellationPolicy": "Not stated in the checked listing; confirm with the organizer.",
       "notes": [
         "A medical diagnosis is not required.",
         "Dinner includes a gluten-free option."
       ],
-      "lastVerified": "2026-10-22T10:40:00Z",
-      "verificationMethod": "Official organizer page reviewed",
+      "lastVerified": "2026-10-25T12:09:19Z",
+      "verificationMethod": "Official dated event page, museum calendar and linked registration page reviewed",
       "reviewRequired": false,
       "status": "scheduled",
       "category": "Sensory-friendly",
