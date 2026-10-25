@@ -4,18 +4,13 @@
   "authorization_basis": "Owner supplied family photographs, dictated and refined firsthand account, then explicitly instructed Post. Standing direction authorizes original share graphics.",
   "sources": [
     {
-      "source": "IMG_9776(2).jpeg",
-      "output": "assets/olive-garden/james-and-menu.jpeg",
+      "source": "IMG_9761.jpeg",
+      "output": "assets/olive-garden/james-with-aac.jpeg",
       "basis": "Owner-provided original family photograph; editorial publication only, preserved byte-for-byte."
     },
     {
-      "source": "IMG_9901.jpeg",
-      "output": "assets/olive-garden/pay-at-table.jpeg",
-      "basis": "Owner-provided original family photograph; editorial publication only, preserved byte-for-byte."
-    },
-    {
-      "source": "IMG_9759(2).jpeg",
-      "output": "assets/olive-garden/arrival.jpeg",
+      "source": "IMG_9784(1).jpeg",
+      "output": "assets/olive-garden/james-reading-menu.jpeg",
       "basis": "Owner-provided original family photograph; editorial publication only, preserved byte-for-byte."
     }
   ],
@@ -56,6 +51,6 @@
   },
   "validation": {
     "reviewed": "2026-10-25",
-    "visual_review": "Both final typographic PNG exports inspected at full size: complete labels, credit and direct story link, no clipping or overlapping text. Board reviewed in conversation; all four food shapes and labels present. Original family photographs preserved unchanged."
+    "visual_review": "Final original photographs inspected: IMG_9761.jpeg for closer portrait with AAC, IMG_9784(1).jpeg for James attending to the menu; original proportions and bytes preserved. Hazy payment-screen and distant entrance photos removed from the article. Previously reviewed unchanged board and both share graphics retain their exact hashes."
   }
 }
