@@ -1,0 +1,24 @@
+{
+  "title": "I Don’t Drink. I Don’t Gamble. I Love Las Vegas.",
+  "reviewed": "2026-10-25",
+  "canonical_story": "https://anausomelife.com/i-love-las-vegas-without-drinking-or-gambling.html",
+  "method": "Owner-supplied original photograph, copied byte-for-byte without crop or alteration. Personal photo essay with link-only sharing.",
+  "scoped_organic_sharing_intent": {
+    "assets_only": [],
+    "scope": "Credited story link and suggested caption only; no separate photo reuse license."
+  },
+  "outputs": [],
+  "story_photographs": [
+    {
+      "path": "assets/las-vegas-skybridge/skybridge-at-dawn.jpeg",
+      "source": "IMG_8725.jpeg",
+      "basis": "Owner supplied the photograph, stated she took it on a Las Vegas skybridge, refined this personal essay, and explicitly asked to post it. Website story and link previews authorized.",
+      "sha256": "baad545fe404e2eb393c03f0df692c9a43cc7b8d34f070c83f3d1ea40ea4eeaf",
+      "dimensions": [
+        1152,
+        1536
+      ]
+    }
+  ],
+  "native_social": "Not posted; this publication is the website story."
+}

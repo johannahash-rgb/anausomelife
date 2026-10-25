@@ -2404,6 +2404,21 @@
         "docs/olive-garden-provenance.json"
       ],
       "selection_reason": "Owner-selected original family photograph, unchanged; specific editorial page preview, no third-party download rights."
+    },
+    "i-love-las-vegas-without-drinking-or-gambling.html": {
+      "image": "/assets/las-vegas-skybridge/skybridge-at-dawn.jpeg",
+      "alt": "A pigeon on a Las Vegas skybridge beside an escalator, with glass reflecting hotel towers, colorful castle turrets, palm trees and the Statue of Liberty replica under a blue sky.",
+      "width": 1152,
+      "height": 1536,
+      "mime": "image/jpeg",
+      "sha256": "baad545fe404e2eb393c03f0df692c9a43cc7b8d34f070c83f3d1ea40ea4eeaf",
+      "card": "summary_large_image",
+      "type": "article",
+      "kind": "original-photograph",
+      "provenance": [
+        "docs/las-vegas-skybridge-provenance.json"
+      ],
+      "selection_reason": "Owner photograph visually reviewed against supplied image, preserves full scene and original pixels, no crop or separate reuse permission."
     }
   },
   "pending": {
