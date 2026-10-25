@@ -1,0 +1,61 @@
+{
+  "created": "2026-10-25",
+  "canonical_story": "https://anausomelife.com/olive-garden-rigatoni-choice-board.html",
+  "authorization_basis": "Owner supplied family photographs, dictated and refined firsthand account, then explicitly instructed Post. Standing direction authorizes original share graphics.",
+  "sources": [
+    {
+      "source": "IMG_9776(2).jpeg",
+      "output": "assets/olive-garden/james-and-menu.jpeg",
+      "basis": "Owner-provided original family photograph; editorial publication only, preserved byte-for-byte."
+    },
+    {
+      "source": "IMG_9901.jpeg",
+      "output": "assets/olive-garden/pay-at-table.jpeg",
+      "basis": "Owner-provided original family photograph; editorial publication only, preserved byte-for-byte."
+    },
+    {
+      "source": "IMG_9759(2).jpeg",
+      "output": "assets/olive-garden/arrival.jpeg",
+      "basis": "Owner-provided original family photograph; editorial publication only, preserved byte-for-byte."
+    }
+  ],
+  "choice_board": {
+    "path": "downloads/pasta-shape-choice-board.png",
+    "source": "Earlier image-generation output in this conversation, created at owner request during the visit.",
+    "disclosure": "AI-generated generic food illustrations; not official menu or photographs of restaurant dishes.",
+    "intended_use": "Free personal communication resource; no venue endorsement."
+  },
+  "scoped_organic_sharing_intent": {
+    "assets_only": [
+      "downloads/olive-garden-social-feed.png",
+      "downloads/olive-garden-social-story.png"
+    ],
+    "permitted_intended_use": "The two original typographic graphics only: unchanged organic social sharing with credit and story link.",
+    "scope_limits": "No family photo reuse, paid media, edits or blanket archive license."
+  },
+  "outputs": [
+    {
+      "path": "downloads/olive-garden-social-feed.png",
+      "sha256": "d45e3c85f7dd3259e99ca51b5a1dc75e637771ed1b789cf5c433cf7f23426d6c",
+      "dimensions": [
+        1080,
+        1350
+      ]
+    },
+    {
+      "path": "downloads/olive-garden-social-story.png",
+      "sha256": "43125afc5e74a38453e21c85808e5e837b2431c2f1b9925c943eca1dcde5628d",
+      "dimensions": [
+        1080,
+        1920
+      ]
+    }
+  ],
+  "brand_accounts": {
+    "status": "No brand tagging; no profile assumed or used."
+  },
+  "validation": {
+    "reviewed": "2026-10-25",
+    "visual_review": "Both final typographic PNG exports inspected at full size: complete labels, credit and direct story link, no clipping or overlapping text. Board reviewed in conversation; all four food shapes and labels present. Original family photographs preserved unchanged."
+  }
+}

@@ -2389,6 +2389,21 @@
         "docs/profound-autism-summit-provenance.json"
       ],
       "selection_reason": "Original owner-supplied group photograph from this gathering, visually reviewed; unchanged bytes and proportions; no redistribution license."
+    },
+    "olive-garden-rigatoni-choice-board.html": {
+      "image": "/assets/olive-garden/james-and-menu.jpeg",
+      "alt": "James smiles while holding an Olive Garden pasta menu, with his blue AAC communication device on the table.",
+      "width": 1152,
+      "height": 1536,
+      "mime": "image/jpeg",
+      "sha256": "63d62fef21810af364771df9daae5e3f3e338c9d0eea3ec6a1e746a1e1237edf",
+      "card": "summary_large_image",
+      "type": "article",
+      "kind": "original-family-photograph",
+      "provenance": [
+        "docs/olive-garden-provenance.json"
+      ],
+      "selection_reason": "Owner-selected original family photograph, unchanged; specific editorial page preview, no third-party download rights."
     }
   },
   "pending": {
