@@ -1,0 +1,73 @@
+{
+  "created": "2026-10-25",
+  "canonical_story": "https://anausomelife.com/kohinoor-indian-restaurant-mashpee.html",
+  "authorization_basis": "Owner supplied original photographs and review, requested and refined byline as Michael, James’s dad without full name, then explicitly instructed Publish. Standing site direction authorizes sharing package.",
+  "sources": [
+    {
+      "path": "assets/kohinoor/james-at-table.jpeg",
+      "sha256": "ea3b835157ef9f3c1b7342afd864dc5e5ccb1b8e4c8ceddfd06e99e6472bd144",
+      "dimensions": [
+        1152,
+        1536
+      ],
+      "alt": "James seated in a booth at Kohinoor, with rice and a mango lassi on the table."
+    },
+    {
+      "path": "downloads/kohinoor-choice-board.png",
+      "sha256": "f9a2cf3e597a5277d45326820f8acf0ad8b383ddeeb58ac05131a31b19fd8ddb",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "alt": "Choice board headed What would you like? Eight labeled pictures show chicken tenders, French fries, naan bread, white rice, butter chicken, mango lassi, brownie and ice cream, and cheesecake."
+    },
+    {
+      "path": "assets/kohinoor/flowers-and-pottery.jpeg",
+      "sha256": "19db15eedf381c9543f9dc1665e6fcc548984d6774cffeb81dad634ac754dffc",
+      "dimensions": [
+        1536,
+        1152
+      ],
+      "alt": "White orchid blooms, patterned ceramic pots, and a reed diffuser against the restaurant’s green wall."
+    }
+  ],
+  "choice_board": {
+    "path": "downloads/kohinoor-choice-board.png",
+    "source": "Owner-requested image generation from uploaded restaurant menus during the visit.",
+    "disclosure": "AI-generated generic food illustrations, not restaurant food photographs or an official menu."
+  },
+  "photo_rights": "Owner-supplied original family and restaurant-detail photographs, preserved byte-for-byte from approved draft for editorial use. No third-party photo sharing rights granted.",
+  "scoped_organic_sharing_intent": {
+    "assets_only": [
+      "downloads/kohinoor-social-feed.png",
+      "downloads/kohinoor-social-story.png"
+    ],
+    "permitted_intended_use": "The two original typographic graphics only, unchanged organic social sharing with publication credit and story link.",
+    "scope_limits": "No family photos, paid media, edits, or archive license."
+  },
+  "outputs": [
+    {
+      "path": "downloads/kohinoor-social-feed.png",
+      "sha256": "441ecb1c4c821f9da1e04405a2f6a55c9bae7de4d0d3aac37ed78df76a7f8a33",
+      "dimensions": [
+        1080,
+        1350
+      ]
+    },
+    {
+      "path": "downloads/kohinoor-social-story.png",
+      "sha256": "341f332ba40cbd98005adcac1ec5234a998dcd0b7cb95bb78066efc6c64f8080",
+      "dimensions": [
+        1080,
+        1920
+      ]
+    }
+  ],
+  "brand_accounts": {
+    "status": "No brand tagging or assumed social account."
+  },
+  "validation": {
+    "reviewed": "2026-10-25",
+    "visual_review": "Inspected both final typographic sharing exports, original full-frame photographs, and the eight-choice board. Text fits and is readable; no family photos in social downloads."
+  }
+}

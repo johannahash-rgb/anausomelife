@@ -72,6 +72,10 @@
     "i-love-las-vegas-without-drinking-or-gambling.html": {
       "provenance": "docs/las-vegas-skybridge-provenance.json",
       "reviewed": "2026-10-25"
+    },
+    "kohinoor-indian-restaurant-mashpee.html": {
+      "provenance": "docs/kohinoor-provenance.json",
+      "reviewed": "2026-10-25"
     }
   }
 }

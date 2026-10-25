@@ -2419,6 +2419,21 @@
         "docs/las-vegas-skybridge-provenance.json"
       ],
       "selection_reason": "Owner photograph visually reviewed against supplied image, preserves full scene and original pixels, no crop or separate reuse permission."
+    },
+    "kohinoor-indian-restaurant-mashpee.html": {
+      "image": "/assets/kohinoor/james-at-table.jpeg",
+      "alt": "James seated in a booth at Kohinoor, with rice and a mango lassi on the table.",
+      "width": 1152,
+      "height": 1536,
+      "mime": "image/jpeg",
+      "sha256": "ea3b835157ef9f3c1b7342afd864dc5e5ccb1b8e4c8ceddfd06e99e6472bd144",
+      "card": "summary_large_image",
+      "type": "article",
+      "kind": "original-family-photograph",
+      "provenance": [
+        "docs/kohinoor-provenance.json"
+      ],
+      "selection_reason": "Owner-selected documentary family photograph, unchanged; editorial review preview only."
     }
   },
   "pending": {
