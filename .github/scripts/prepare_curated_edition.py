@@ -60,6 +60,9 @@ def complete_social(source):
     return source.replace('</head>',''.join(extra)+'</head>',1)
 
 def prepare(root):
+    spec=importlib.util.spec_from_file_location('build_homepage',Path(__file__).with_name('build_homepage.py'))
+    homepage=importlib.util.module_from_spec(spec);spec.loader.exec_module(homepage)
+    homepage.prepare(root)
     # Render every glossary definition before indexing the finished public edition.
     spec=importlib.util.spec_from_file_location('build_caregiver_glossary',Path(__file__).with_name('build_caregiver_glossary.py'))
     glossary=importlib.util.module_from_spec(spec);spec.loader.exec_module(glossary)

@@ -33,3 +33,11 @@ The refactor preserved every pre-existing `main` section ID, the journal's pinne
 The original outbound audit attempted 1,174 URLs. Confirmed HEAD 404s were retried with GET; false positives were preserved. Fourteen genuinely expired links were updated to official current program/policy pages. Past event dates remain historical and carry an explanatory note. See `ux-external-link-review-2026-10-26.json`. Network restrictions/rate limiting prevent a guarantee that every external destination is reachable for every reader.
 
 The required publication checks pass. Full legacy unittest discovery also exposes three pre-existing failures, reproduced in the untouched base checkout: an outdated calendar replacement manifest expectation, a Shelburne note expecting the literal word “slopes,” and absent `data/curated-events.json` in refresh-events tests. These were outside the navigation changes and are not represented as passing.
+
+## Homepage continuation, 26 October 2026
+
+The maintained `content/home-entrance.html` now leads with one family photograph and the Menauhant reflection, followed by three practical starting points, three distinct journal photographs, a family introduction and a short community/partnership section. The scoped `assets/homepage.css` retains complete photographic frames and switches the story grid to one column on phones. Secondary homepage search uses a native disclosure and a standard GET form to the library; the shared header search stays available.
+
+`.github/scripts/build_homepage.py` installs that fragment into `index.html`, attaches exactly one scoped stylesheet, and removes the retired dynamic homepage replacement script. The public-edition preparation calls it before the other page transforms, so subsequent builds preserve this entrance. All previous fragment IDs are retained, including legacy press bookmarks. The journal's pinned stories and the shared navigation remain unchanged.
+
+Validation: required publication checks passed; full-frame images loaded in the desktop preview; 390px and 320px framed browser checks showed no horizontal page overflow; mobile homepage search for Maine reached the filtered library. Internal link/asset, publication metadata, and repeat-build checks also passed. This does not represent a complete accessibility audit.
