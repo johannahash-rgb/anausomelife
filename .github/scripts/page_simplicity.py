@@ -1,7 +1,7 @@
 """Keep reading primary and secondary tools optional, without changing their behavior."""
 from lxml import etree
 
-VERSION = '20261026-reading-ease'
+VERSION = '20261026-place-layout'
 
 def cls(root, name):
     return root.xpath('.//*[contains(concat(" ",normalize-space(@class)," ")," '+name+' ")]')

@@ -22,7 +22,21 @@ body .aal-ease-filters{grid-column:1/-1;width:100%;margin:8px 0 0}
 .aal-ease-filter-fields>label,.aal-ease-filter-fields>div{flex:1 1 180px;min-width:0}
 .aal-ease-filter-fields .filter-row{margin:0;width:100%;flex-basis:100%}
 body .library-controls{padding:16px 0;background:transparent;border:0}
-body .place-filters{grid-template-columns:2fr 1fr;padding:16px 0;background:transparent;border:0}
+/* Explicit grid prevents the full-width disclosure from squeezing flex fields. */
+body .place-filters{display:grid;grid-template-columns:minmax(0,2fr) minmax(0,1fr);gap:12px 24px;align-items:end;padding:12px 0 18px;background:transparent;border:0}
+body .place-filters>label{min-width:0;font-size:.875rem}
+body .place-filters input,body .place-filters select{box-sizing:border-box;min-width:0;font-size:1rem}
+body .place-filters>.aal-ease-filters{margin:0;border:0}
+body .place-filters>.aal-ease-filters>summary{width:fit-content;max-width:100%;box-sizing:border-box;padding:12px 0}
+body.places-page .library-heading{padding-block:12px 16px}
+body.places-page .library-heading h1{margin-block:10px 12px}
+body.places-page .library-heading .article-dek{margin-top:0}
+body.places-page .library-heading .quiet-copy{max-width:66ch;margin-bottom:0}
+body.places-page .place-list{grid-template-columns:repeat(2,minmax(0,1fr))}
+body.places-page .place-row>div{min-width:0;flex:1}
+body.places-page .place-row h2{font:400 clamp(1.45rem,2.1vw,1.85rem)/1.2 Georgia,serif;overflow-wrap:break-word;margin:0 0 10px}
+body.places-page .place-row::before{display:none}
+@media(max-width:700px){body.places-page .place-list{grid-template-columns:minmax(0,1fr)}}
 body .place-filters>.aal-ease-filters{grid-column:1/-1}
 body .directory-controls{grid-template-columns:1fr}
 body .event-primary-filters{grid-template-columns:1fr 1fr 2fr}
