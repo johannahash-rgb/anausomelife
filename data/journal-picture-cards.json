@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-21",
+  "updated": "2026-10-25",
   "posts": [
     {
       "path": "apple-orchard-afternoon.html",
@@ -611,6 +611,23 @@
         "break",
         "more",
         "no",
+        "stop",
+        "all-done"
+      ]
+    },
+    {
+      "path": "menauhant-beach-the-art-of-letting-go.html",
+      "cards": [
+        "beach",
+        "towel",
+        "photo-13-running-shoes",
+        "socks",
+        "water",
+        "photo-25-seashell",
+        "sun-hat",
+        "sunscreen",
+        "break",
+        "help",
         "stop",
         "all-done"
       ]

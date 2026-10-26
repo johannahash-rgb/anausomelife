@@ -161,6 +161,23 @@
   },
   "video_edits": "Full-duration, silent H.264 web renditions; no synthetic frames, faces, or scene changes. Posters extracted from the supplied videos. Originals retained in the owner’s uploads.",
   "photo_sources": "Eight owner uploads and seven original JPEG attachments resent by Michael in Menauhant pictures #1 and #2, October 25, 2026. All fifteen originals included. Unrelated Library filename match excluded. No face or smile edits; the supplied mother photographs are candid profile/back views. Preview renditions change only orientation and resolution, with original files linked.",
+  "picture_cards": {
+    "ids": [
+      "beach",
+      "towel",
+      "photo-13-running-shoes",
+      "socks",
+      "water",
+      "photo-25-seashell",
+      "sun-hat",
+      "sunscreen",
+      "break",
+      "help",
+      "stop",
+      "all-done"
+    ],
+    "basis": "Reuse of existing site-owned card artwork and communication symbols. Each selected picture visually checked against its label. No family photographs used as communication symbols. Created after the visit; independent cards, not official PECS materials."
+  },
   "photo_rights": "Owner-authorized family photographs supplied by the owner and Michael for this publication. No family-media redistribution license.",
   "scoped_organic_sharing_intent": {
     "assets_only": [
