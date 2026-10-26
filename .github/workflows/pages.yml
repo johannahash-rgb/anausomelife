@@ -43,6 +43,9 @@ jobs:
           NODE_PATH=/tmp/aal-access-tests/node_modules node tests/test_access_tools.cjs
           python tests/test_access_publication.py
           python tests/test_site_experience.py
+          python tests/test_page_simplicity.py
+          node --check assets/reading-ease.js
+          NODE_PATH=/tmp/aal-access-tests/node_modules node tests/test_reading_ease.cjs
           node --check assets/collection-browse.js
           python tests/test_reader_pathways.py
           python tests/test_growth_readiness.py

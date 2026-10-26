@@ -144,7 +144,7 @@ def apply_shell(doc,rel,row,chapters):
         parent=next((c for c in chapters if c['id']==row['section']),{'label':'The library','url':'/library.html'})
         crumb='<nav class="reader-breadcrumb aal-route wrap" aria-label="Breadcrumb">'+link('Home','/')
         if parent['url']!=row['url']:crumb+='<span aria-hidden="true">/</span>'+link(parent['label'],parent['url'])
-        crumb+='<span aria-hidden="true">/</span><span aria-current="page">'+escape(row['title'])+'</span></nav>'
+        crumb+='</nav>'
         main.insert(0,html.fragment_fromstring(crumb))
     # Do not add a second set of local controls to tools, catalogues, or policies.
     for node in cls(main,'aal-on-this-page'):node.getparent().remove(node)
@@ -182,6 +182,8 @@ def prepare(root):
     collections=importlib.util.module_from_spec(spec);spec.loader.exec_module(collections)
     collections.prepare(root,docs,rows)
     if 'library.html' in docs:build_library(docs['library.html'],rows)
+    spec=importlib.util.spec_from_file_location('page_simplicity',Path(__file__).with_name('page_simplicity.py'))
+    simplicity=importlib.util.module_from_spec(spec);spec.loader.exec_module(simplicity)
     by_url={r['url']:r for r in rows}
     for rel,doc in docs.items():
         row=by_url.get(url_for(rel))
@@ -190,6 +192,7 @@ def prepare(root):
             row=by_url.get(urlsplit(canonical[0]).path) if canonical else None
         if not row:continue
         apply_shell(doc,rel,row,chapters)
+        simplicity.apply(doc,rel)
         footer_nav=doc.xpath('//footer//nav[@aria-label="Stay a little longer"]')[0]
         for destination,label in [('follow.html','Follow the journal'),('reviews.html','Reviews & buying notes')]:
             if (root/destination).exists():etree.SubElement(footer_nav,'a',href='/'+destination).text=label

@@ -1,0 +1,50 @@
+/* Secondary choices wait; the page title, story and useful task lead. */
+body .aal-ease-details{display:block;min-width:0;margin:18px 0;padding:0;border:0;border-top:1px solid var(--aal-line,#cbd2c6);border-bottom:1px solid var(--aal-line,#cbd2c6);border-radius:0;background:transparent;box-shadow:none;color:var(--aal-ink,#193c42)}
+body .aal-ease-details>summary{display:list-item;list-style:disclosure-closed inside;min-height:48px;padding:14px 4px;cursor:pointer;font:600 .95rem/1.45 Arial,sans-serif;color:inherit}
+body .aal-ease-details[open]>summary{list-style-type:disclosure-open}
+body .aal-ease-details>summary:after{content:none}
+body .aal-ease-details>summary h2{display:inline;font:inherit;letter-spacing:normal;margin:0}
+body .aal-ease-details>summary [data-ease-selected]{font-weight:400;color:var(--aal-muted,#4f605a)}
+body .aal-ease-details:focus-within{scroll-margin-top:20px}
+body .aal-ease-details :focus-visible{outline:3px solid var(--aal-berry,#803b45);outline-offset:4px}
+body .aal-ease-details>section,body .aal-ease-details>nav,body .aal-ease-details>aside{margin-top:0}
+body .aal-ease-related,body .aal-ease-worksheet,body .aal-ease-exits,body .aal-ease-story-extra,body .aal-ease-browse,body .aal-ease-planning-card,body .aal-ease-contents{width:min(1160px,calc(100% - 48px));margin:24px auto}
+body .aal-ease-related .aal-article-topics,body .aal-ease-related .ed-tool-nav,body .aal-ease-related .er-meta,body .aal-ease-related .fn-breadcrumb{width:100%;margin:0;padding:12px 4px}
+body .aal-ease-related .aal-article-topics{gap:6px 16px}
+body .aal-ease-related .aal-article-topics a{border:0;padding:8px 0;text-decoration:underline;text-underline-offset:3px}
+body .aal-ease-related .aal-article-topics>span{flex-basis:100%}
+body .aal-ease-contents .on-page{margin:0;padding:0;border:0;background:none}
+body .aal-ease-contents .on-page strong{display:none}
+body .aal-ease-contents .on-page .wrap{display:flex;flex-wrap:wrap;gap:6px 20px;padding:8px 0 18px;width:100%}
+body .aal-ease-contents .on-page a{min-height:44px;display:flex;align-items:center}
+body .aal-ease-filters{grid-column:1/-1;width:100%;margin:8px 0 0}
+.aal-ease-filter-fields{display:flex;flex-wrap:wrap;align-items:end;gap:16px;padding:8px 0 18px}
+.aal-ease-filter-fields>label,.aal-ease-filter-fields>div{flex:1 1 180px;min-width:0}
+.aal-ease-filter-fields .filter-row{margin:0;width:100%;flex-basis:100%}
+body .library-controls{padding:16px 0;background:transparent;border:0}
+body .place-filters{grid-template-columns:2fr 1fr;padding:16px 0;background:transparent;border:0}
+body .place-filters>.aal-ease-filters{grid-column:1/-1}
+body .directory-controls{grid-template-columns:1fr}
+body .event-primary-filters{grid-template-columns:1fr 1fr 2fr}
+body .calendar-toolbar-head{align-items:start}
+body .aal-ease-views{margin:0;max-width:440px}
+body .aal-ease-views .calendar-view-toggle{flex-wrap:wrap;padding:10px 4px}
+body .aal-ease-calendar-start{align-self:start;margin:0}
+body .aal-ease-calendar-start .calendar-start{padding:16px 0;background:transparent;border:0}
+body .cc-tools{grid-template-columns:1fr}
+body .cc-tools .aal-ease-filter-fields{display:grid;grid-template-columns:1fr auto}
+body .cc-tools .aal-ease-filter-fields>div{min-width:0}
+body .aal-ease-worksheet .er-map-destination{padding-top:20px}
+body .aal-ease-planning-card>.section{padding:10px 0 24px}
+body .aal-ease-note-step fieldset{margin:0;padding-top:8px}
+body .aal-ease-note-step legend{font-size:.9rem}
+body .aal-ease-note-step{margin:16px 0}
+body .aal-ease-story-extra .aal-story-share,body .aal-ease-story-extra .aal-story-cards{width:100%;margin:0;border:0}
+body .aal-ease-exits .reader-next{margin:0;border:0}
+body .er-cover:has(.aal-ease-welcome){display:block}
+body .er-cover .aal-ease-welcome{max-width:72ch;margin:24px auto 0;padding:20px 0;border:0;border-top:1px solid var(--aal-line,#cbd2c6);background:none}
+body .er-cover .aal-ease-welcome h2{font-size:clamp(1.4rem,2.4vw,1.8rem)}
+body .aal-ease-welcome>.er-kicker{display:none}
+body.family-agreements-page .rules-art{max-width:100%;height:auto}
+@media(max-width:700px){body .aal-ease-related,body .aal-ease-worksheet,body .aal-ease-exits,body .aal-ease-story-extra,body .aal-ease-browse,body .aal-ease-planning-card,body .aal-ease-contents{width:calc(100% - 32px)}body .aal-ease-details>summary{font-size:.95rem}body .event-primary-filters{grid-template-columns:1fr 1fr}body .event-search-filter{grid-column:1/-1}body .place-filters{grid-template-columns:1fr}body .aal-ease-filter-fields{display:grid;grid-template-columns:1fr}body .cc-tools .aal-ease-filter-fields{grid-template-columns:1fr}body .aal-ease-views{max-width:none;width:100%}body .calendar-toolbar-head{display:block}body .aal-ease-calendar-start{margin-top:16px}body .aal-ease-welcome .er-welcome-copy{font-size:1rem}}
+@media print{body .aal-ease-details{display:block!important;border:0}body .aal-ease-details>summary{display:none!important}body .aal-ease-details>*:not(summary){display:block!important}body .aal-ease-related,body .aal-ease-exits,body .aal-ease-filters,body .aal-ease-views{display:none!important}}
