@@ -1,0 +1,198 @@
+{
+  "created": "2026-10-25",
+  "canonical_story": "https://anausomelife.com/menauhant-beach-the-art-of-letting-go.html",
+  "authorization_basis": "Owner requested a finished beautiful beach story from the supplied family photographs, two videos, and Michael’s emailed reflection, using his established voice and expandable history/temperature sections. Standing site direction supplies publishing and sharing-package defaults.",
+  "reflection": "Michael’s Menauhant beach email, dated October 25, 2026. The owner additionally confirmed his freshman-year geology studies at the University of Rhode Island before transferring. Edited for concision and the established public family-privacy convention. No invented quotations or measured water temperature.",
+  "sources": [
+    {
+      "path": "assets/menauhant/IMG_0035.jpeg",
+      "sha256": "1f822b3104c8f61ae50c784c856120ea72752b10a3c599e5a9b9b3c168000869",
+      "dimensions": [
+        1152,
+        1536
+      ],
+      "alt": "James lifts an arm as he moves across the sand toward the glittering water at Menauhant Beach.",
+      "basis": "Original owner-uploaded photograph; bytes preserved. Display frame may conceal a small strip at the lower edge; full photograph opens on activation."
+    },
+    {
+      "path": "assets/menauhant/IMG_0130.jpeg",
+      "sha256": "6a96a81935306430cb6ace6680aacc6393072f30911051ff61626ad1cfad894e",
+      "dimensions": [
+        1152,
+        1536
+      ],
+      "alt": "Michael, wearing a blue jacket and shorts, looks down at the clear water around his bare feet.",
+      "basis": "Original owner-uploaded photograph; bytes preserved. Display frame may conceal a small strip at the lower edge; full photograph opens on activation."
+    },
+    {
+      "path": "assets/menauhant/IMG_0103.jpeg",
+      "sha256": "deed223014f0a0b53b392118e7c79957a6e5667b7b5f5fefff31267d9b908704",
+      "dimensions": [
+        1152,
+        1536
+      ],
+      "alt": "Bare feet stand together in shallow, clear seawater over rippled sand.",
+      "basis": "Original owner-uploaded photograph; bytes preserved. Display frame may conceal a small strip at the lower edge; full photograph opens on activation."
+    },
+    {
+      "path": "assets/menauhant/IMG_0277.jpeg",
+      "sha256": "adce89998285dbddb98d025ed361b51524b8ef3aeae2b722fbb2669082d3e7e0",
+      "dimensions": [
+        1152,
+        1536
+      ],
+      "alt": "James stands barefoot at the water’s edge, looking across the sunlit sea.",
+      "basis": "Original owner-uploaded photograph; bytes preserved. Display frame may conceal a small strip at the lower edge; full photograph opens on activation."
+    },
+    {
+      "path": "assets/menauhant/IMG_0286.jpeg",
+      "sha256": "ecd97bfa6ff99f26eaa49d55d39361fea944c0e50a01cc418c983b7c2bd438d5",
+      "dimensions": [
+        1152,
+        1536
+      ],
+      "alt": "James looks down toward the sand as a small wave recedes behind him.",
+      "basis": "Original owner-uploaded photograph; bytes preserved. Display frame may conceal a small strip at the lower edge; full photograph opens on activation."
+    },
+    {
+      "path": "assets/menauhant/IMG_0217.jpeg",
+      "sha256": "3ed6c5850cb7eb23bcb8b7e7dea909dcf2d161d1cbd5dc4d74ae5e85555d76f7",
+      "dimensions": [
+        1152,
+        1536
+      ],
+      "alt": "Michael and James stand together at the shoreline, with small waves and a stone jetty behind them.",
+      "basis": "Original owner-uploaded photograph; bytes preserved. Display frame may conceal a small strip at the lower edge; full photograph opens on activation."
+    },
+    {
+      "path": "assets/menauhant/IMG_0039.jpeg",
+      "sha256": "5c8304966e1ac1fa2e3624260d969996b2315c11e4643f397222abaf372ffc3b",
+      "dimensions": [
+        1152,
+        1536
+      ],
+      "alt": "James stands on the beach facing the bright sea, his long shadow falling across the sand.",
+      "basis": "Original owner-uploaded photograph; bytes preserved. Display frame may conceal a small strip at the lower edge; full photograph opens on activation."
+    },
+    {
+      "path": "assets/menauhant/IMG_0290.jpeg",
+      "sha256": "f147f73310d20048bf076ea07988facf626900513e130697483b6e3f458643a4",
+      "dimensions": [
+        1152,
+        1536
+      ],
+      "alt": "James stands at the edge of the water beneath a wide blue sky at Menauhant Beach.",
+      "basis": "Original owner-uploaded photograph; bytes preserved. Display frame may conceal a small strip at the lower edge; full photograph opens on activation."
+    },
+    {
+      "path": "assets/menauhant/IMG_0383.jpeg",
+      "sha256": "4459e55ab0a6d5997d5548bf4a2b84eac650a6a4e58a2757c2d5f24f0ce9aac6",
+      "dimensions": [
+        4032,
+        3024
+      ],
+      "alt": "James’s mother turns toward the beach while standing barefoot in the sunlit shallows.",
+      "basis": "Original photograph resent by Michael as a Gmail attachment; original bytes preserved, orientation-normalized resized preview supplied without retouching."
+    },
+    {
+      "path": "assets/menauhant/IMG_0389.jpeg",
+      "sha256": "383757a35c0d0c3a8cfd208ce5ce19c543a0d1754a6d444c18ec3e17d9f9e089",
+      "dimensions": [
+        4032,
+        3024
+      ],
+      "alt": "James’s mother shades her eyes with one hand and looks across the glittering water.",
+      "basis": "Original photograph resent by Michael as a Gmail attachment; original bytes preserved, orientation-normalized resized preview supplied without retouching."
+    },
+    {
+      "path": "assets/menauhant/IMG_0395.jpeg",
+      "sha256": "b5522620a9dcf1d9f98b303e746c8b27d7ac1345157ce4fcbbe81fc75ddc7b31",
+      "dimensions": [
+        4032,
+        3024
+      ],
+      "alt": "James’s mother stands in clear ankle-deep water as a small wave reaches the sand.",
+      "basis": "Original photograph resent by Michael as a Gmail attachment; original bytes preserved, orientation-normalized resized preview supplied without retouching."
+    },
+    {
+      "path": "assets/menauhant/IMG_0396.jpeg",
+      "sha256": "783c6fe7957a1ff4cc1fa529dfef127d23a9bc10febcf00fff04f42ecb03655a",
+      "dimensions": [
+        4032,
+        3024
+      ],
+      "alt": "James and his mother stand beside one another at the water’s edge, with their shadows across the beach.",
+      "basis": "Original photograph resent by Michael as a Gmail attachment; original bytes preserved, orientation-normalized resized preview supplied without retouching."
+    },
+    {
+      "path": "assets/menauhant/IMG_0397.jpeg",
+      "sha256": "5bdfd4bbcff7b028e6dbb7b917a9a45fa88ee4cbbc5e6768e169959631d8d2c1",
+      "dimensions": [
+        4032,
+        3024
+      ],
+      "alt": "James turns toward the camera while standing barefoot at the edge of a small wave.",
+      "basis": "Original photograph resent by Michael as a Gmail attachment; original bytes preserved, orientation-normalized resized preview supplied without retouching."
+    },
+    {
+      "path": "assets/menauhant/IMG_0398.jpeg",
+      "sha256": "c3c5d74cc527eef01d5e34c17168639abe80154338eeafa96dfcb6437404c685",
+      "dimensions": [
+        4032,
+        3024
+      ],
+      "alt": "James lifts his arms as he moves along the sunlit waterline.",
+      "basis": "Original photograph resent by Michael as a Gmail attachment; original bytes preserved, orientation-normalized resized preview supplied without retouching."
+    },
+    {
+      "path": "assets/menauhant/IMG_0400.jpeg",
+      "sha256": "5b19c474e9e463cccd39cf83a878149fb41775462f8b8d291f8f2b53035c3fb4",
+      "dimensions": [
+        4032,
+        3024
+      ],
+      "alt": "James watches a wave wash around his feet beside the stone jetty.",
+      "basis": "Original photograph resent by Michael as a Gmail attachment; original bytes preserved, orientation-normalized resized preview supplied without retouching."
+    }
+  ],
+  "video_sources": {
+    "IMG_0303.mp4": "shoreline.mp4",
+    "IMG_0096.mp4": "waves.mp4"
+  },
+  "video_edits": "Full-duration, silent H.264 web renditions; no synthetic frames, faces, or scene changes. Posters extracted from the supplied videos. Originals retained in the owner’s uploads.",
+  "photo_sources": "Eight owner uploads and seven original JPEG attachments resent by Michael in Menauhant pictures #1 and #2, October 25, 2026. All fifteen originals included. Unrelated Library filename match excluded. No face or smile edits; the supplied mother photographs are candid profile/back views. Preview renditions change only orientation and resolution, with original files linked.",
+  "photo_rights": "Owner-authorized family photographs supplied by the owner and Michael for this publication. No family-media redistribution license.",
+  "scoped_organic_sharing_intent": {
+    "assets_only": [
+      "downloads/menauhant-social-feed.png",
+      "downloads/menauhant-social-story.png"
+    ],
+    "permitted_intended_use": "Only these original typographic graphics, unchanged organic sharing with credit and canonical story link.",
+    "scope_limits": "No family photographs, videos, paid media, edits, or archive-wide license."
+  },
+  "outputs": [
+    {
+      "path": "downloads/menauhant-social-feed.png",
+      "sha256": "0c7594e6e6c7731b7255655f4c8aa71e59ce9528f9947bdb0b2f9c3e822ac98c",
+      "dimensions": [
+        1080,
+        1350
+      ]
+    },
+    {
+      "path": "downloads/menauhant-social-story.png",
+      "sha256": "217e2e55fbdb6d2e3ad7deec47445a8c46fd09238b9b52646164573afcf306c6",
+      "dimensions": [
+        1080,
+        1920
+      ]
+    }
+  ],
+  "validation": {
+    "reviewed": "2026-10-25",
+    "visual_review": "Verified desktop page and 390-pixel framed mobile layout; full-size photo viewer, next/close controls, native history/temperature disclosures, album, and both videos. Phone layout has no horizontal overflow. Original file hashes match all seven resent photographs. Story-sharing, social-metadata, accessibility-publication, asset-reference, rights-scope, JavaScript syntax, and private-name checks passed."
+  },
+  "brand_accounts": {
+    "status": "No third-party social handles guessed or tagged."
+  }
+}

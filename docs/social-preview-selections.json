@@ -2434,6 +2434,21 @@
         "docs/kohinoor-provenance.json"
       ],
       "selection_reason": "Owner-selected documentary family photograph, unchanged; editorial review preview only."
+    },
+    "menauhant-beach-the-art-of-letting-go.html": {
+      "image": "/assets/menauhant/IMG_0035.jpeg",
+      "alt": "James lifts an arm as he moves across the sand toward the glittering water at Menauhant Beach.",
+      "width": 1152,
+      "height": 1536,
+      "mime": "image/jpeg",
+      "sha256": "1f822b3104c8f61ae50c784c856120ea72752b10a3c599e5a9b9b3c168000869",
+      "card": "summary_large_image",
+      "type": "article",
+      "kind": "original-family-photograph",
+      "provenance": [
+        "docs/menauhant-provenance.json"
+      ],
+      "selection_reason": "The actual beach visit, using the unchanged owner-supplied photograph of James moving toward the water."
     }
   },
   "pending": {
