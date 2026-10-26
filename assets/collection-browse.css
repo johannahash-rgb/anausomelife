@@ -1,0 +1,18 @@
+/* Let the stories lead. Optional filters stay closed until requested. */
+.aal-collection .aal-collection-simple{margin:18px 0 0;padding:0;background:transparent;border:0}
+.aal-collection-simple .aal-search-row{display:block;max-width:640px}
+.aal-collection-simple .aal-filter-disclosure{margin:8px 0 0;padding:0;border:0;background:transparent;box-shadow:none;border-radius:0}
+.aal-collection-simple .aal-filter-disclosure>summary{display:list-item;list-style:disclosure-closed inside;min-height:44px;padding:12px 0;color:var(--aal-ink);font:600 .9rem/1.4 Arial,sans-serif;cursor:pointer}
+.aal-collection-simple .aal-filter-disclosure[open]>summary{list-style-type:disclosure-open}
+.aal-filter-disclosure>summary::after{content:none}
+.aal-collection-simple .aal-filter-panel{padding:16px 0 22px;max-width:720px;border-bottom:1px solid var(--aal-line)}
+.aal-collection-simple .aal-filter-selects{grid-template-columns:1fr 1fr}
+.aal-collection-simple .aal-filter-selects label:first-child{grid-column:auto}
+.aal-collection-simple .aal-topic-options{display:grid;grid-template-columns:1fr 1fr;gap:0 20px}
+.aal-collection-simple .aal-topic-options label{min-height:44px;padding:8px 0;border:0;background:transparent;color:var(--aal-ink);font-size:.9rem}
+.aal-collection-simple .aal-topic-options label:has(:checked){background:transparent;color:var(--aal-ink);font-weight:600}
+.aal-active-filters{display:flex;align-items:center;gap:8px 18px;flex-wrap:wrap;padding:4px 0 8px;font:.85rem/1.5 Arial,sans-serif;color:var(--aal-muted)}
+.aal-active-filters p{margin:0;flex:1 1 220px;overflow-wrap:anywhere}
+.aal-collection .aal-active-filters button{background:transparent;border:0;padding:10px 0;color:var(--aal-ink);text-decoration:underline;text-underline-offset:4px}
+.aal-collection-simple+.aal-collection-count{margin:0 0 20px;padding-block:8px 12px}
+@media(max-width:480px){.aal-collection-simple .aal-topic-options,.aal-collection-simple .aal-filter-selects{grid-template-columns:1fr}.aal-collection-simple .aal-filter-selects{gap:14px}.aal-collection-heading h2{font-size:1.85rem}}

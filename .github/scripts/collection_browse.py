@@ -13,11 +13,12 @@ def badge(label,key,base,param='topic'):
 
 def filters(identifier,config,care=False):
     choices=config['roles'] if care else config['formats'];param='role' if care else 'kind'
-    title='Find the support that fits today.' if care else 'Find your next good read.'
-    text='Browse by your role, the help you need, or both. General guides apply across roles.' if care else 'One story can belong in several places. Choose a kind of read, a topic, or both.'
-    s='<div class="aal-collection-heading"><p class="eyebrow">'+('Practical help, made easier to find' if care else 'Explore the journal')+'</p><h2 id="'+identifier+'-title">'+title+'</h2><p>'+text+'</p></div>'
-    s+='<form class="aal-collection-filters" role="search"><div class="aal-filter-top"><label for="'+identifier+'-q">Search '+('support & guides' if care else 'the journal')+'<input id="'+identifier+'-q" type="search" name="q" placeholder="'+('Try handover, school, a break…' if care else 'Try Cape Cod, a photograph, ice cream…')+'"></label><label for="'+identifier+'-kind">'+('Your role' if care else 'Kind of read')+'<select id="'+identifier+'-kind" name="'+param+'"><option value="">'+('Every role' if care else 'Every kind')+'</option>'+''.join('<option value="'+key+'">'+e(label)+'</option>' for key,label in choices.items())+'</select></label><label for="'+identifier+'-sort">Arrange by<select name="sort" id="'+identifier+'-sort"><option value="featured">Editor’s order</option><option value="az">Title A–Z</option></select></label></div>'
-    s+='<fieldset><legend>'+('What would help?' if care else 'Topics')+' <span>Choose any; selecting more shows matches for every selected topic.</span></legend><div class="aal-topic-options">'+''.join('<label><input type="checkbox" name="topic" value="'+key+'"><span>'+e(label)+'</span></label>' for key,label in config['topics'].items())+'</div></fieldset><div class="aal-filter-actions"><button type="submit">Find '+('guides' if care else 'stories')+'</button><button type="reset">Clear filters</button></div></form><p class="aal-collection-count" data-collection-status role="status" aria-live="polite"></p>'
+    title='Find support.' if care else 'Browse the journal.'
+    noun='guides' if care else 'stories'
+    s='<div class="aal-collection-heading"><h2 id="'+identifier+'-title">'+title+'</h2></div>'
+    s+='<form class="aal-collection-filters aal-collection-simple" role="search" aria-label="'+('Search support guides' if care else 'Search the journal')+'"><div class="aal-filter-top aal-search-row"><label for="'+identifier+'-q">Search '+('support &amp; guides' if care else 'the journal')+'<input id="'+identifier+'-q" type="search" name="q" placeholder="'+('Try school or taking a break' if care else 'Search stories…')+'"></label></div>'
+    s+='<details class="aal-filter-disclosure" data-collection-filters><summary>Filter '+noun+'<span data-filter-count></span></summary><div class="aal-filter-panel"><div class="aal-filter-top aal-filter-selects"><label for="'+identifier+'-kind">'+('Your role' if care else 'Kind of read')+'<select id="'+identifier+'-kind" name="'+param+'"><option value="">'+('Every role' if care else 'Every kind')+'</option>'+''.join('<option value="'+key+'">'+e(label)+'</option>' for key,label in choices.items())+'</select></label><label for="'+identifier+'-sort">Sort by<select name="sort" id="'+identifier+'-sort"><option value="featured">Editor’s picks</option><option value="az">Title A–Z</option></select></label></div>'
+    s+='<fieldset><legend>'+('What would help?' if care else 'Topics')+'<span>Choose one or more. Results match all your choices.</span></legend><div class="aal-topic-options">'+''.join('<label><input type="checkbox" name="topic" value="'+key+'"><span>'+e(label)+'</span></label>' for key,label in config['topics'].items())+'</div></fieldset><div class="aal-filter-actions"><button type="submit">Show '+noun+'</button></div></div></details><div class="aal-active-filters" data-active-filters hidden><p data-active-filter-labels></p><button type="reset">Clear filters</button></div></form><p class="aal-collection-count" data-collection-status role="status" aria-live="polite"></p>'
     return s
 
 def card(row,tags,config,docs,care=False):
@@ -31,7 +32,10 @@ def card(row,tags,config,docs,care=False):
         if images:image=images[0].get('src','');alt=images[0].get('alt','')
     s='<li data-collection-card data-topics="'+' '.join(tags['topics'])+'" data-kinds="'+' '.join(tags.get('formats',[]))+'" data-roles="'+' '.join(tags.get('roles',[]))+'" data-url="'+row['url']+'"><article class="aal-collection-card'+(' aal-support-card' if care else '')+'">'
     if image and not care:s+='<a class="aal-collection-photo" href="'+row['url']+'" tabindex="-1" aria-hidden="true"><img src="'+e(image,quote=True)+'" alt="'+e(alt,quote=True)+'" loading="lazy" decoding="async" width="640" height="480"></a>'
-    s+='<div class="aal-collection-copy"><p class="aal-collection-kind">'+e(' · '.join(config['roles'][k] for k in tags.get('roles',[])) or 'For every role' if care else ' · '.join(config['formats'][k] for k in tags['formats']))+'</p><h3><a href="'+row['url']+'">'+e(row['title'])+'</a></h3><p>'+e(row['summary'])+'</p><nav class="aal-story-tags" aria-label="Topics for '+e(row['title'],quote=True)+'">'+''.join(badge(config['topics'][key],key,base) for key in tags['topics'])+'</nav></div></article></li>'
+    search_labels=[config['topics'][k] for k in tags['topics']]+[config['formats'][k] for k in tags.get('formats',[])]+[config['roles'][k] for k in tags.get('roles',[])]
+    s+='<div class="aal-collection-copy" data-search-labels="'+e(' '.join(search_labels),quote=True)+'">'
+    if care:s+='<p class="aal-collection-kind">'+e(' · '.join(config['roles'][k] for k in tags.get('roles',[])) or 'For every role')+'</p>'
+    s+='<h3><a href="'+row['url']+'">'+e(row['title'])+'</a></h3><p>'+e(row['summary'])+'</p></div></article></li>'
     return s
 
 def prepare(root,docs,rows):
@@ -53,8 +57,6 @@ def prepare(root,docs,rows):
                     main.remove(node)
         if not care:
             for old in main.xpath('.//nav[@data-journal-quick]'):old.getparent().remove(old)
-            quick='<nav class="aal-journal-quick wrap" aria-label="Browse the journal" data-journal-quick><a href="/blog.html#browse-journal">All stories</a>'+''.join(badge(label,key,'/blog.html','kind') for key,label in config['formats'].items())+badge('Places','places','/blog.html')+badge('Self-care','self-care','/blog.html')+badge('Advocacy','advocacy','/blog.html')+'</nav>'
-            main.insert(0,html.fragment_fromstring(quick))
         ordered=list(entries)
         if not care:ordered=[u for u in PINS if u in entries]+[u for u in ordered if u not in PINS]
         s='<section class="aal-collection wrap" id="'+identifier+'" data-collection="'+('support' if care else 'journal')+'" aria-labelledby="'+identifier+'-title">'+filters(identifier,config,care)
@@ -71,8 +73,9 @@ def prepare(root,docs,rows):
         current=set(doc.xpath('//*[@id]/@id'))
         for anchor in old_ids:
             if anchor not in current:section.append(etree.Element('span',id=anchor));current.add(anchor)
-        if not doc.xpath('//script[contains(@src,"/assets/collection-browse.js")]'):
-            etree.SubElement(doc.xpath('//body')[0],'script',src='/assets/collection-browse.js?v=20261026-wayfinding',defer='')
+        for old in doc.xpath('//script[contains(@src,"/assets/collection-browse.js")] | //link[contains(@href,"/assets/collection-browse.css")]'):old.getparent().remove(old)
+        etree.SubElement(doc.xpath('//body')[0],'script',src='/assets/collection-browse.js?v=20261026-calm',defer='')
+        etree.SubElement(doc.xpath('//head')[0],'link',rel='stylesheet',href='/assets/collection-browse.css?v=20261026-calm')
         # Visible topic links on the articles themselves lead back to filtered collections.
         for url,tags in entries.items():
             row=by_url[url];article=docs[row['path']];article_main=article.xpath('//main')[0]
