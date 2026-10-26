@@ -11,7 +11,7 @@
     const searchText=new Map(cards.map(card=>[card,fold(card.textContent+' '+(card.querySelector('[data-search-labels]')?.dataset.searchLabels||''))]));
     let limit=pageSize;
     function readURL(){
-      const params=new URLSearchParams(location.search);q.value=params.get('q')||'';kind.value=params.get(care?'role':'kind')||'';sort.value=params.get('sort')||'featured';
+      const params=new URLSearchParams(location.search);q.value=params.get('q')||'';kind.value=params.get(care?'role':'kind')||'';sort.value=params.get('sort')==='az'?'az':'featured';
       const selected=params.getAll('topic');topics.forEach(input=>{input.checked=selected.includes(input.value);});limit=pageSize;
     }
     function apply(mode){
