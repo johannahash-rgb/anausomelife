@@ -80,6 +80,10 @@
     "menauhant-beach-the-art-of-letting-go.html": {
       "provenance": "docs/menauhant-provenance.json",
       "reviewed": "2026-10-25"
+    },
+    "what-i-understood-at-the-beach.html": {
+      "provenance": "docs/beach-gratitude-provenance.json",
+      "reviewed": "2026-10-26"
     }
   }
 }

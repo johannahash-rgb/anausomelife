@@ -1,0 +1,33 @@
+{
+  "story": "what-i-understood-at-the-beach.html",
+  "reviewed": "2026-10-26",
+  "editorial_basis": "Owner-authored recollections in the current conversation, including gratitude to Roseanne B. and watching James navigate the beach safely. No claim that one educational decision caused his progress. Public authorship follows site privacy direction.",
+  "sources": [
+    {
+      "path": "assets/beach-gratitude/james-smiling.jpeg",
+      "sha256": "841102b263b8c505114279742221d7e3670b5ade3d1ecf528694891cd6bb5ace",
+      "basis": "Original owner-uploaded media, authorized for this publication in the conversation. Original bytes preserved. No permission for third-party redistribution granted."
+    },
+    {
+      "path": "assets/beach-gratitude/james-walking.jpeg",
+      "sha256": "46dba2dd671daf270509d0aacb9c90c2dbb045ffd42fe3adb49eff1a67e54f50",
+      "basis": "Original owner-uploaded media, authorized for this publication in the conversation. Original bytes preserved. No permission for third-party redistribution granted."
+    },
+    {
+      "path": "assets/beach-gratitude/james-at-the-beach.mp4",
+      "sha256": "7190fd06b3b05be1663500a54b183987430bfc7d8395571447ef6ac65d4b148c",
+      "basis": "Original owner-uploaded media, authorized for this publication in the conversation. Original bytes preserved. No permission for third-party redistribution granted."
+    }
+  ],
+  "scoped_organic_sharing_intent": {
+    "assets_only": [],
+    "scope": "Article-link sharing, the supplied captions and the newsletter introduction at #share-this-story, unchanged for unpaid posts/newsletters with An AUsome Life credit and canonical link. No family-photo/video redistribution or full-article republication license."
+  },
+  "outputs": [],
+  "package_scope": "Personal reflection and school-law companion, rather than a commercial place/product review. Text-only authored sharing package; no promotional graphic downloads.",
+  "additional_resource": {
+    "url": "https://www.parentcenterhub.org/find-your-center/",
+    "checked": "2026-10-26",
+    "basis": "Current primary-source national parent-center directory."
+  }
+}

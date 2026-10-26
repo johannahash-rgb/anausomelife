@@ -19,6 +19,19 @@
     "grandparents": "Grandparents & generations"
   },
   "entries": {
+    "/what-i-understood-at-the-beach.html": {
+      "formats": [
+        "journal-posts",
+        "photo-essays",
+        "reflections",
+        "tips"
+      ],
+      "topics": [
+        "family-life",
+        "advocacy",
+        "nature"
+      ]
+    },
     "/i-love-las-vegas-without-drinking-or-gambling.html": {
       "formats": [
         "journal-posts",

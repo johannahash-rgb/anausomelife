@@ -2449,6 +2449,21 @@
         "docs/menauhant-provenance.json"
       ],
       "selection_reason": "The actual beach visit, using the unchanged owner-supplied photograph of James moving toward the water."
+    },
+    "what-i-understood-at-the-beach.html": {
+      "image": "/assets/beach-gratitude/james-smiling.jpeg",
+      "alt": "James smiling toward the camera on a sandy beach, with blue water and sky behind him.",
+      "width": 1536,
+      "height": 1152,
+      "mime": "image/jpeg",
+      "sha256": "841102b263b8c505114279742221d7e3670b5ade3d1ecf528694891cd6bb5ace",
+      "card": "summary_large_image",
+      "type": "article",
+      "kind": "original-family-photograph",
+      "provenance": [
+        "docs/beach-gratitude-provenance.json"
+      ],
+      "selection_reason": "Unchanged owner-supplied photograph from the beach moment in the story; whole documentary image, with no retouching, synthesis or third-party photo-reuse permission."
     }
   },
   "pending": {
