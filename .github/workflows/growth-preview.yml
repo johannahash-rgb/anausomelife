@@ -39,6 +39,8 @@ jobs:
           npm install --prefix /tmp/aal-access-tests --no-package-lock --no-audit --no-fund linkedom@0.18.13
           NODE_PATH=/tmp/aal-access-tests/node_modules node tests/test_access_tools.cjs
           python tests/test_access_publication.py
+          python tests/test_site_experience.py
+          node --check assets/collection-browse.js
           python tests/test_reader_pathways.py
           python tests/test_growth_readiness.py
           python tests/test_reader_growth.py
@@ -60,6 +62,7 @@ jobs:
           rsync -a --exclude='.git/' --exclude='.github/' --exclude='_site/' --exclude='*.md' --exclude='docs/' --exclude='tools/' --exclude='tests/' --exclude='scripts/' --exclude='services/' --exclude='*.py' --exclude='*.cjs' --exclude='*.example' --exclude='site-audit-report.json' ./ _site/
           python .github/scripts/prepare_curated_edition.py --root _site
           python .github/scripts/reader_growth.py --root _site
+          python .github/scripts/site_experience.py --root _site
           python .github/scripts/enrich_social_meta.py --root _site
           python .github/scripts/enrich_social_meta.py --root _site --check
           python tools/build_site_index.py --root _site

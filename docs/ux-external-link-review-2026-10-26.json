@@ -1,0 +1,165 @@
+{
+  "initial_urls_probed": 1174,
+  "method": "GET recheck of HEAD failures; other failures may be blocked or uncertain",
+  "results": [
+    {
+      "url": "https://maps.google.com/maps?q=Authors%27%20Ridge%2C%20Sleepy%20Hollow%20Cemetery%2C%20Concord%2C%20Massachusetts&z=16&output=embed",
+      "status": 200,
+      "final_url": "https://www.google.com/maps/embed?origin=mfe&pb=!1m3!2m1!1sAuthors%27+Ridge,+Sleepy+Hollow+Cemetery,+Concord,+Massachusetts!6i16"
+    },
+    {
+      "url": "https://concordma.gov/DocumentCenter/View/32914/Sleepy-Hollow-Map-and-Graves-of-Interest-For-Website",
+      "status": 200,
+      "final_url": "https://concordma.gov/DocumentCenter/View/32914/Sleepy-Hollow-Map-and-Graves-of-Interest-For-Website"
+    },
+    {
+      "url": "https://concordma.gov/DocumentCenter/View/17625/Concords-Historic-Cemeteries",
+      "status": 200,
+      "final_url": "https://concordma.gov/DocumentCenter/View/17625/Concords-Historic-Cemeteries"
+    },
+    {
+      "url": "https://www.concordma.gov/DocumentCenter/View/722",
+      "status": 200,
+      "final_url": "https://www.concordma.gov/DocumentCenter/View/722/Rules-and-Regulations-PDF?bidId="
+    },
+    {
+      "url": "https://concordma.gov/DocumentCenter/View/61816/Cemetery-Master-Plan?bidId=",
+      "status": 200,
+      "final_url": "https://concordma.gov/DocumentCenter/View/61816/Cemetery-Master-Plan?bidId="
+    },
+    {
+      "url": "https://maps.google.com/maps?q=Berlin%20Farms%2C%20200%20Central%20St%2C%20Berlin%2C%20MA%2001503&z=14&output=embed",
+      "status": 200,
+      "final_url": "https://www.google.com/maps/embed?origin=mfe&pb=!1m3!2m1!1sBerlin+Farms,+200+Central+St,+Berlin,+MA+01503!6i14"
+    },
+    {
+      "url": "https://maps.google.com/maps?q=Disney%27s%20Pop%20Century%20Resort%2C%201050%20Century%20Drive%2C%20Lake%20Buena%20Vista%2C%20FL&z=13&output=embed",
+      "status": 200,
+      "final_url": "https://www.google.com/maps/embed?origin=mfe&pb=!1m3!2m1!1sDisney%27s+Pop+Century+Resort,+1050+Century+Drive,+Lake+Buena+Vista,+FL!6i13"
+    },
+    {
+      "url": "https://maps.google.com/maps?q=Frerichs%20Farm%2043%20Kinnicutt%20Avenue%20Warren%20RI%2002885&z=14&output=embed",
+      "status": 200,
+      "final_url": "https://www.google.com/maps/embed?origin=mfe&pb=!1m3!2m1!1sFrerichs+Farm+43+Kinnicutt+Avenue+Warren+RI+02885!6i14"
+    },
+    {
+      "url": "https://support.google.com/maps/answer/6291838?hl=en",
+      "status": 429
+    },
+    {
+      "url": "https://support.google.com/drive/answer/3145835?hl=en",
+      "status": 429
+    },
+    {
+      "url": "https://maps.google.com/maps?q=Deer%20Crossing%20681%20Falmouth%20Road%20Mashpee%20MA&output=embed",
+      "status": 200,
+      "final_url": "https://www.google.com/maps/embed?origin=mfe&pb=!1m2!2m1!1sDeer+Crossing+681+Falmouth+Road+Mashpee+MA"
+    },
+    {
+      "url": "https://maps.google.com/maps?q=Menauhant%20Beach%20East%20Falmouth%20MA&output=embed",
+      "status": 200,
+      "final_url": "https://www.google.com/maps/embed?origin=mfe&pb=!1m2!2m1!1sMenauhant+Beach+East+Falmouth+MA"
+    },
+    {
+      "url": "https://www.lincolntown.org/DocumentCenter/View/44799/Swap-Shop-Rules",
+      "status": 200,
+      "final_url": "https://www.lincolntown.org/DocumentCenter/View/44799/Swap-Shop-Rules"
+    },
+    {
+      "url": "https://maps.google.com/maps?q=Rangeley%2C%20Maine&z=11&output=embed",
+      "status": 200,
+      "final_url": "https://www.google.com/maps/embed?origin=mfe&pb=!1m3!2m1!1sRangeley,+Maine!6i11"
+    },
+    {
+      "url": "https://www.bostonjcc.org/calendar/sensory-swim-october-10/",
+      "status": 404,
+      "replacement": "https://www.bostonjcc.org/program/sensory-swim-hour/"
+    },
+    {
+      "url": "https://www.bostonjcc.org/calendar/sensory-swim-october-11/",
+      "status": 404,
+      "replacement": "https://www.bostonjcc.org/program/sensory-swim-hour/"
+    },
+    {
+      "url": "https://www.bostonjcc.org/calendar/sensory-swim-october-17/",
+      "status": 404,
+      "replacement": "https://www.bostonjcc.org/program/sensory-swim-hour/"
+    },
+    {
+      "url": "https://www.bostonjcc.org/calendar/copy-of-sensory-swim-october-11/",
+      "status": 404,
+      "replacement": "https://www.bostonjcc.org/program/sensory-swim-hour/"
+    },
+    {
+      "url": "https://www.bostonjcc.org/calendar/sensory-swim-october-24/",
+      "status": 404,
+      "replacement": "https://www.bostonjcc.org/program/sensory-swim-hour/"
+    },
+    {
+      "url": "https://www.bostonjcc.org/calendar/sensory-swim-october-25/",
+      "status": 404,
+      "replacement": "https://www.bostonjcc.org/program/sensory-swim-hour/"
+    },
+    {
+      "url": "https://www.bostonjcc.org/calendar/sensory-swim-october-31/",
+      "status": 200,
+      "final_url": "https://www.bostonjcc.org/calendar/sensory-swim-october-31/"
+    },
+    {
+      "url": "https://www.bostonjcc.org/calendar/sensory-swim-november-1/",
+      "status": 200,
+      "final_url": "https://www.bostonjcc.org/calendar/sensory-swim-november-1/"
+    },
+    {
+      "url": "https://thetrustees.org/event/448968/",
+      "status": 404,
+      "replacement": "https://thetrustees.org/program/sensory-friendly-programs/"
+    },
+    {
+      "url": "https://thetrustees.org/event/448969/",
+      "status": 404,
+      "replacement": "https://thetrustees.org/program/sensory-friendly-programs/"
+    },
+    {
+      "url": "https://thetrustees.org/event/448759/",
+      "status": 404,
+      "replacement": "https://thetrustees.org/program/sensory-friendly-programs/"
+    },
+    {
+      "url": "https://thetrustees.org/event/449160/",
+      "status": 404,
+      "replacement": "https://thetrustees.org/program/sensory-friendly-programs/"
+    },
+    {
+      "url": "https://thetrustees.org/event/449161/",
+      "status": 404,
+      "replacement": "https://thetrustees.org/program/sensory-friendly-programs/"
+    },
+    {
+      "url": "https://thetrustees.org/event/449162/",
+      "status": 404,
+      "replacement": "https://thetrustees.org/program/sensory-friendly-programs/"
+    },
+    {
+      "url": "https://thetrustees.org/event/449163/",
+      "status": 404,
+      "replacement": "https://thetrustees.org/program/sensory-friendly-programs/"
+    },
+    {
+      "url": "https://26033.blackbaudhosting.com/26033/Especially-for-Me-Free-Morning-for-DeafHard-of-Hearing-Visitors-23Nov2026",
+      "status": 200,
+      "final_url": "https://26033.blackbaudhosting.com/26033/Especially-for-Me-Free-Morning-for-DeafHard-of-Hearing-Visitors-23Nov2026"
+    },
+    {
+      "url": "https://26033.blackbaudhosting.com/26033/Especially-for-Me-Free-Evening-for-Deaf-Blind-or-DeafBlind-12Dec2026",
+      "status": 200,
+      "final_url": "https://26033.blackbaudhosting.com/26033/Especially-for-Me-Free-Evening-for-Deaf-Blind-or-DeafBlind-12Dec2026"
+    },
+    {
+      "url": "https://www.bostonballet.org/home/tickets-performances/accessibility/",
+      "status": 404,
+      "replacement": "https://www.bostonballet.org/home/tickets-performances/frequently-asked-questions-boston-ballet-theater-policies/"
+    }
+  ],
+  "notes": "Google help pages verified through official web retrieval. All map embeds and municipal PDFs passed GET despite HEAD 404 responses. Expired dated event listings now link to the organizer\u2019s current program page; dates were not newly verified."
+}

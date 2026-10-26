@@ -2728,7 +2728,7 @@
       "sensory": {
         "level": "variable",
         "note": "A quieter pool hour is advertised; splashing, echoes and pool smells may still be part of the experience.",
-        "sourceUrl": "https://www.bostonjcc.org/calendar/sensory-swim-october-10/",
+        "sourceUrl": "https://www.bostonjcc.org/program/sensory-swim-hour/",
         "checkedAt": "2026-10-06",
         "basis": "Editorial planning estimate from organizer details",
         "sourceDetailsCheckedAt": "2026-10-05"
@@ -2777,7 +2777,7 @@
       "sensory": {
         "level": "variable",
         "note": "A quieter pool hour is advertised; splashing, echoes and pool smells may still be part of the experience.",
-        "sourceUrl": "https://www.bostonjcc.org/calendar/sensory-swim-october-11/",
+        "sourceUrl": "https://www.bostonjcc.org/program/sensory-swim-hour/",
         "checkedAt": "2026-10-06",
         "basis": "Editorial planning estimate from organizer details",
         "sourceDetailsCheckedAt": "2026-10-05"
@@ -2826,7 +2826,7 @@
       "sensory": {
         "level": "variable",
         "note": "A quieter pool hour is advertised; splashing, echoes and pool smells may still be part of the experience.",
-        "sourceUrl": "https://www.bostonjcc.org/calendar/sensory-swim-october-17/",
+        "sourceUrl": "https://www.bostonjcc.org/program/sensory-swim-hour/",
         "checkedAt": "2026-10-06",
         "basis": "Editorial planning estimate from organizer details",
         "sourceDetailsCheckedAt": "2026-10-05"
@@ -2875,7 +2875,7 @@
       "sensory": {
         "level": "variable",
         "note": "A quieter pool hour is advertised; splashing, echoes and pool smells may still be part of the experience.",
-        "sourceUrl": "https://www.bostonjcc.org/calendar/copy-of-sensory-swim-october-11/",
+        "sourceUrl": "https://www.bostonjcc.org/program/sensory-swim-hour/",
         "checkedAt": "2026-10-06",
         "basis": "Editorial planning estimate from organizer details",
         "sourceDetailsCheckedAt": "2026-10-05"
@@ -2924,7 +2924,7 @@
       "sensory": {
         "level": "variable",
         "note": "A quieter pool hour is advertised; splashing, echoes and pool smells may still be part of the experience.",
-        "sourceUrl": "https://www.bostonjcc.org/calendar/sensory-swim-october-24/",
+        "sourceUrl": "https://www.bostonjcc.org/program/sensory-swim-hour/",
         "checkedAt": "2026-10-06",
         "basis": "Editorial planning estimate from organizer details",
         "sourceDetailsCheckedAt": "2026-10-05"
@@ -2973,7 +2973,7 @@
       "sensory": {
         "level": "variable",
         "note": "A quieter pool hour is advertised; splashing, echoes and pool smells may still be part of the experience.",
-        "sourceUrl": "https://www.bostonjcc.org/calendar/sensory-swim-october-25/",
+        "sourceUrl": "https://www.bostonjcc.org/program/sensory-swim-hour/",
         "checkedAt": "2026-10-06",
         "basis": "Editorial planning estimate from organizer details",
         "sourceDetailsCheckedAt": "2026-10-05"
@@ -4123,12 +4123,12 @@
       ],
       "ageEvidence": {
         "families": {
-          "url": "https://thetrustees.org/event/448968/"
+          "url": "https://thetrustees.org/program/sensory-friendly-programs/"
         }
       },
       "accessEvidence": {
         "sensory-friendly": {
-          "url": "https://thetrustees.org/event/448968/"
+          "url": "https://thetrustees.org/program/sensory-friendly-programs/"
         }
       },
       "checkedAt": "2026-10-06",
@@ -4138,13 +4138,13 @@
       "sensory": {
         "level": "variable",
         "note": "Quieter on arrival, but music, fog and other effects may restart at 4:30 p.m. during the listed hour.",
-        "sourceUrl": "https://thetrustees.org/event/448968/",
+        "sourceUrl": "https://thetrustees.org/program/sensory-friendly-programs/",
         "checkedAt": "2026-10-06",
         "basis": "Editorial planning estimate from organizer details"
       },
       "holidayEvidence": {
         "halloween": {
-          "url": "https://thetrustees.org/event/448968/"
+          "url": "https://thetrustees.org/program/sensory-friendly-programs/"
         }
       }
     },
@@ -4157,12 +4157,12 @@
       ],
       "ageEvidence": {
         "families": {
-          "url": "https://thetrustees.org/event/448969/"
+          "url": "https://thetrustees.org/program/sensory-friendly-programs/"
         }
       },
       "accessEvidence": {
         "sensory-friendly": {
-          "url": "https://thetrustees.org/event/448969/"
+          "url": "https://thetrustees.org/program/sensory-friendly-programs/"
         }
       },
       "checkedAt": "2026-10-06",
@@ -4172,13 +4172,13 @@
       "sensory": {
         "level": "variable",
         "note": "Quieter on arrival, but music, fog and other effects may restart at 4:30 p.m. during the listed hour.",
-        "sourceUrl": "https://thetrustees.org/event/448969/",
+        "sourceUrl": "https://thetrustees.org/program/sensory-friendly-programs/",
         "checkedAt": "2026-10-06",
         "basis": "Editorial planning estimate from organizer details"
       },
       "holidayEvidence": {
         "halloween": {
-          "url": "https://thetrustees.org/event/448969/"
+          "url": "https://thetrustees.org/program/sensory-friendly-programs/"
         }
       }
     },
@@ -4192,15 +4192,15 @@
       ],
       "ageEvidence": {
         "children": {
-          "url": "https://thetrustees.org/event/448759/"
+          "url": "https://thetrustees.org/program/sensory-friendly-programs/"
         },
         "families": {
-          "url": "https://thetrustees.org/event/448759/"
+          "url": "https://thetrustees.org/program/sensory-friendly-programs/"
         }
       },
       "accessEvidence": {
         "sensory-friendly": {
-          "url": "https://thetrustees.org/event/448759/"
+          "url": "https://thetrustees.org/program/sensory-friendly-programs/"
         }
       },
       "checkedAt": "2026-10-06",
@@ -4210,13 +4210,13 @@
       "sensory": {
         "level": "low",
         "note": "The organizer limits attendance for a quieter hour; animal sounds, smells and outdoor conditions remain.",
-        "sourceUrl": "https://thetrustees.org/event/448759/",
+        "sourceUrl": "https://thetrustees.org/program/sensory-friendly-programs/",
         "checkedAt": "2026-10-06",
         "basis": "Editorial planning estimate from organizer details"
       },
       "holidayEvidence": {
         "halloween": {
-          "url": "https://thetrustees.org/event/448759/"
+          "url": "https://thetrustees.org/program/sensory-friendly-programs/"
         }
       }
     },
@@ -8406,21 +8406,21 @@
       "checkedAt": "2026-10-22",
       "ageEvidence": {
         "children": {
-          "url": "https://thetrustees.org/event/449160/"
+          "url": "https://thetrustees.org/program/sensory-friendly-programs/"
         },
         "families": {
-          "url": "https://thetrustees.org/event/449160/"
+          "url": "https://thetrustees.org/program/sensory-friendly-programs/"
         }
       },
       "accessEvidence": {
         "sensory-friendly": {
-          "url": "https://thetrustees.org/event/449160/"
+          "url": "https://thetrustees.org/program/sensory-friendly-programs/"
         }
       },
       "sensory": {
         "level": "variable",
         "note": "Lower attendance and daylight help, but the pumpkin trail retains uneven terrain and steps; sound or flashing-light changes are not specified.",
-        "sourceUrl": "https://thetrustees.org/event/449160/",
+        "sourceUrl": "https://thetrustees.org/program/sensory-friendly-programs/",
         "checkedAt": "2026-10-22",
         "basis": "Editorial planning estimate from organizer details",
         "sourceDetailsCheckedAt": "2026-10-22"
@@ -8430,7 +8430,7 @@
       ],
       "holidayEvidence": {
         "halloween": {
-          "url": "https://thetrustees.org/event/449160/"
+          "url": "https://thetrustees.org/program/sensory-friendly-programs/"
         }
       }
     },
@@ -8445,21 +8445,21 @@
       "checkedAt": "2026-10-22",
       "ageEvidence": {
         "children": {
-          "url": "https://thetrustees.org/event/449161/"
+          "url": "https://thetrustees.org/program/sensory-friendly-programs/"
         },
         "families": {
-          "url": "https://thetrustees.org/event/449161/"
+          "url": "https://thetrustees.org/program/sensory-friendly-programs/"
         }
       },
       "accessEvidence": {
         "sensory-friendly": {
-          "url": "https://thetrustees.org/event/449161/"
+          "url": "https://thetrustees.org/program/sensory-friendly-programs/"
         }
       },
       "sensory": {
         "level": "variable",
         "note": "Lower attendance and daylight help, but the pumpkin trail retains uneven terrain and steps; sound or flashing-light changes are not specified.",
-        "sourceUrl": "https://thetrustees.org/event/449161/",
+        "sourceUrl": "https://thetrustees.org/program/sensory-friendly-programs/",
         "checkedAt": "2026-10-22",
         "basis": "Editorial planning estimate from organizer details",
         "sourceDetailsCheckedAt": "2026-10-22"
@@ -8469,7 +8469,7 @@
       ],
       "holidayEvidence": {
         "halloween": {
-          "url": "https://thetrustees.org/event/449161/"
+          "url": "https://thetrustees.org/program/sensory-friendly-programs/"
         }
       }
     },
@@ -8484,21 +8484,21 @@
       "checkedAt": "2026-10-22",
       "ageEvidence": {
         "children": {
-          "url": "https://thetrustees.org/event/449162/"
+          "url": "https://thetrustees.org/program/sensory-friendly-programs/"
         },
         "families": {
-          "url": "https://thetrustees.org/event/449162/"
+          "url": "https://thetrustees.org/program/sensory-friendly-programs/"
         }
       },
       "accessEvidence": {
         "sensory-friendly": {
-          "url": "https://thetrustees.org/event/449162/"
+          "url": "https://thetrustees.org/program/sensory-friendly-programs/"
         }
       },
       "sensory": {
         "level": "variable",
         "note": "Lower attendance and daylight help, but the pumpkin trail retains uneven terrain and steps; sound or flashing-light changes are not specified.",
-        "sourceUrl": "https://thetrustees.org/event/449162/",
+        "sourceUrl": "https://thetrustees.org/program/sensory-friendly-programs/",
         "checkedAt": "2026-10-22",
         "basis": "Editorial planning estimate from organizer details",
         "sourceDetailsCheckedAt": "2026-10-22"
@@ -8508,7 +8508,7 @@
       ],
       "holidayEvidence": {
         "halloween": {
-          "url": "https://thetrustees.org/event/449162/"
+          "url": "https://thetrustees.org/program/sensory-friendly-programs/"
         }
       }
     },
@@ -8523,21 +8523,21 @@
       "checkedAt": "2026-10-22",
       "ageEvidence": {
         "children": {
-          "url": "https://thetrustees.org/event/449163/"
+          "url": "https://thetrustees.org/program/sensory-friendly-programs/"
         },
         "families": {
-          "url": "https://thetrustees.org/event/449163/"
+          "url": "https://thetrustees.org/program/sensory-friendly-programs/"
         }
       },
       "accessEvidence": {
         "sensory-friendly": {
-          "url": "https://thetrustees.org/event/449163/"
+          "url": "https://thetrustees.org/program/sensory-friendly-programs/"
         }
       },
       "sensory": {
         "level": "variable",
         "note": "Lower attendance and daylight help, but the pumpkin trail retains uneven terrain and steps; sound or flashing-light changes are not specified.",
-        "sourceUrl": "https://thetrustees.org/event/449163/",
+        "sourceUrl": "https://thetrustees.org/program/sensory-friendly-programs/",
         "checkedAt": "2026-10-22",
         "basis": "Editorial planning estimate from organizer details",
         "sourceDetailsCheckedAt": "2026-10-22"
@@ -8547,7 +8547,7 @@
       ],
       "holidayEvidence": {
         "halloween": {
-          "url": "https://thetrustees.org/event/449163/"
+          "url": "https://thetrustees.org/program/sensory-friendly-programs/"
         }
       }
     },

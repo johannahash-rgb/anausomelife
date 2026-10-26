@@ -42,6 +42,8 @@ jobs:
           npm install --prefix /tmp/aal-access-tests --no-package-lock --no-audit --no-fund linkedom@0.18.13
           NODE_PATH=/tmp/aal-access-tests/node_modules node tests/test_access_tools.cjs
           python tests/test_access_publication.py
+          python tests/test_site_experience.py
+          node --check assets/collection-browse.js
           python tests/test_reader_pathways.py
           python tests/test_growth_readiness.py
           python tests/test_reader_growth.py
@@ -72,7 +74,9 @@ jobs:
         run: python .github/scripts/prepare_curated_edition.py --root _site
 
       - name: Publish evidence summaries and journal follow routes
-        run: python .github/scripts/reader_growth.py --root _site
+        run: |
+          python .github/scripts/reader_growth.py --root _site
+          python .github/scripts/site_experience.py --root _site
 
       - name: Prepare original-photo social previews
         run: |

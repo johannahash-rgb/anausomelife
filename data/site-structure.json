@@ -1,0 +1,220 @@
+{
+  "version": "20261026-wayfinding",
+  "chapters": [
+    {
+      "id": "journal",
+      "label": "Journal",
+      "title": "Stories to settle into",
+      "description": "Real family days, favorite people, and the little things worth noticing.",
+      "url": "/blog.html",
+      "art": "journal-open-book",
+      "links": [
+        [
+          "All journal stories",
+          "/blog.html",
+          "journal-open-book"
+        ],
+        [
+          "Photo essays",
+          "/blog.html?kind=photo-essays#browse-journal",
+          "family-film"
+        ],
+        [
+          "Reflections & meditations",
+          "/blog.html?kind=reflections#browse-journal",
+          "journal-open-book"
+        ],
+        [
+          "Tips & practical guides",
+          "/blog.html?kind=tips#browse-journal",
+          "yankee-toolbox"
+        ],
+        [
+          "Places & travel stories",
+          "/blog.html?topic=places#browse-journal",
+          "outings"
+        ],
+        [
+          "Self-care",
+          "/blog.html?topic=self-care#browse-journal",
+          "coffee-mug"
+        ],
+        [
+          "Advocacy & inclusion",
+          "/blog.html?topic=advocacy#browse-journal",
+          "care-clipboard"
+        ]
+      ]
+    },
+    {
+      "id": "places",
+      "label": "Places & days out",
+      "title": "A good day out",
+      "description": "Find a place, check the practical details, and leave a little room in the plan.",
+      "url": "/favorite-places.html",
+      "art": "outings",
+      "links": [
+        [
+          "Explore favorite places",
+          "/favorite-places.html",
+          "outings"
+        ],
+        [
+          "Calendar & events",
+          "/calendar.html",
+          "calendar"
+        ],
+        [
+          "New England weekends",
+          "/new-england-weekends.html",
+          "menu-v2"
+        ],
+        [
+          "Travel & stays",
+          "/travel.html",
+          "little-boot"
+        ],
+        [
+          "Accessible trails",
+          "/guides/accessible-trails-new-england.html",
+          "outings"
+        ],
+        [
+          "Shopping with Caroline’s Cart",
+          "/carolines-cart-new-england.html",
+          "directory-v2"
+        ],
+        [
+          "Before you go: useful questions",
+          "/field-notes.html",
+          "care-clipboard"
+        ]
+      ]
+    },
+    {
+      "id": "tools",
+      "label": "Picture cards & tools",
+      "title": "A little preparation",
+      "description": "Make a choice visible, picture a visit, or prepare a note to take along.",
+      "url": "/picture-card-library.html",
+      "art": "picture-cards",
+      "links": [
+        [
+          "Browse ready-made picture cards",
+          "/picture-card-library.html",
+          "picture-cards"
+        ],
+        [
+          "Make a picture card",
+          "/communication-card-generator.html",
+          "picture-cards"
+        ],
+        [
+          "Make a visual visit plan",
+          "/visit-story.html",
+          "care-clipboard"
+        ],
+        [
+          "Communication notes & profiles",
+          "/communication-notes.html",
+          "family-organizer"
+        ],
+        [
+          "Day plans & household handoffs",
+          "/family-planning-toolkit.html",
+          "yankee-toolbox"
+        ],
+        [
+          "AAC outing note",
+          "/aac-outing-note.html",
+          "care-clipboard"
+        ]
+      ]
+    },
+    {
+      "id": "home",
+      "label": "Home & finds",
+      "title": "The good everyday",
+      "description": "Familiar comforts, useful finds, and small changes that earn their place.",
+      "url": "/at-home.html",
+      "art": "home",
+      "links": [
+        [
+          "Life at home",
+          "/at-home.html",
+          "home"
+        ],
+        [
+          "Product guides & useful finds",
+          "/product-guides.html",
+          "yankee-toolbox"
+        ],
+        [
+          "The Little Fixes",
+          "/the-little-fixes.html",
+          "household-brush"
+        ],
+        [
+          "Family wardrobe",
+          "/family-wardrobe.html",
+          "wardrobe-hook"
+        ],
+        [
+          "The Little Black Book",
+          "/little-black-book.html",
+          "directory-v2"
+        ],
+        [
+          "Gifts worth giving",
+          "/gifts-worth-giving.html",
+          "family-organizer"
+        ]
+      ]
+    },
+    {
+      "id": "support",
+      "label": "Family & support",
+      "title": "Room for everyone",
+      "description": "Communication, shared care, school questions, and time for yourself.",
+      "url": "/family-roles.html",
+      "art": "yankee-toolbox",
+      "links": [
+        [
+          "Family & caregiver support",
+          "/family-roles.html",
+          "family-organizer"
+        ],
+        [
+          "Ways to communicate",
+          "/multimodal-communication.html",
+          "picture-cards"
+        ],
+        [
+          "Caregiver handover",
+          "/caregiver-handover-guide.html",
+          "care-clipboard"
+        ],
+        [
+          "School & advocacy",
+          "/topics/advocacy.html",
+          "directory-v2"
+        ],
+        [
+          "Caregiver glossary",
+          "/caregiver-glossary.html",
+          "journal-v2"
+        ],
+        [
+          "Disabled parking & placards",
+          "/disabled-parking-placards-new-england.html",
+          "parking-volvo"
+        ],
+        [
+          "Time for yourself",
+          "/wayne-newton-flamingo-bucket-list-self-care.html",
+          "journal-v2"
+        ]
+      ]
+    }
+  ]
+}

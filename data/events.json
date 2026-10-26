@@ -1010,7 +1010,7 @@
     {
       "id": "longhill-sensory",
       "name": "Long Hill",
-      "url": "https://thetrustees.org/event/448968/",
+      "url": "https://thetrustees.org/program/sensory-friendly-programs/",
       "state": "MA",
       "mode": "check",
       "enabled": true,
@@ -1681,7 +1681,7 @@
     {
       "id": "trustees-naumkeag",
       "name": "The Trustees — Naumkeag Pumpkin Show Early Hours",
-      "url": "https://thetrustees.org/event/449160/",
+      "url": "https://thetrustees.org/program/sensory-friendly-programs/",
       "state": "MA",
       "mode": "manual",
       "enabled": false,
@@ -2128,7 +2128,7 @@
       "ages": "Families and visitors who benefit from reduced crowds or sensory adjustments",
       "summary": "A pumpkin-trail visit with an earlier arrival window. Effects may return from 4:30 p.m.; the main trail has stairs and uneven ground.",
       "sourceId": "longhill-sensory",
-      "sourceUrl": "https://thetrustees.org/event/448968/",
+      "sourceUrl": "https://thetrustees.org/program/sensory-friendly-programs/",
       "ticketUrl": null,
       "category": "Halloween",
       "format": "In person",
@@ -2141,7 +2141,8 @@
       "cancellationPolicy": "Confirm current cancellation and refund terms with the organizer.",
       "notes": [
         "The page lists 4–5 p.m. but says staff begin turning on music, fog and other effects at 4:30 p.m. Confirm the practical quiet window before booking.",
-        "The organizer says the route is not wheelchair or stroller accessible. A shorter alternative path shows only part of the display; ask about its suitability."
+        "The organizer says the route is not wheelchair or stroller accessible. A shorter alternative path shows only part of the display; ask about its suitability.",
+        "This dated listing has expired. The source link now opens the organizer’s current program page."
       ],
       "lastVerified": "2026-10-06T16:29:41Z",
       "verificationMethod": "Official organizer event information reviewed.",
@@ -2238,12 +2239,13 @@
         "Sensory-friendly swim"
       ],
       "sourceId": "jcc-sensory",
-      "sourceUrl": "https://www.bostonjcc.org/calendar/sensory-swim-october-10/",
+      "sourceUrl": "https://www.bostonjcc.org/program/sensory-swim-hour/",
       "ticketUrl": "https://myj.bostonjcc.org/s/registration/?courseSessionId=a2eUH000002fffZYAQ&courseOptionId=a2cUH00001YE0mAYAT",
       "registration": "Advance registration required for each date.",
       "cancellationPolicy": "Confirm with JCC.",
       "notes": [
-        "This date appears in JCC’s live registration calendar. Its general program page describes Saturdays; the dated calendar also lists Sundays."
+        "This date appears in JCC’s live registration calendar. Its general program page describes Saturdays; the dated calendar also lists Sundays.",
+        "This dated listing has expired. The source link now opens the organizer’s current program page."
       ],
       "lastVerified": "2026-10-05T09:30:00Z",
       "verificationMethod": "Official live calendar and date-specific registration links reviewed",
@@ -2445,12 +2447,13 @@
         "Sensory-friendly swim"
       ],
       "sourceId": "jcc-sensory",
-      "sourceUrl": "https://www.bostonjcc.org/calendar/sensory-swim-october-11/",
+      "sourceUrl": "https://www.bostonjcc.org/program/sensory-swim-hour/",
       "ticketUrl": "https://myj.bostonjcc.org/s/registration/?courseSessionId=a2eUH000002fffZYAQ&courseOptionId=a2cUH00001YDerxYAD",
       "registration": "Advance registration required for each date.",
       "cancellationPolicy": "Confirm with JCC.",
       "notes": [
-        "This date appears in JCC’s live registration calendar. Its general program page describes Saturdays; the dated calendar also lists Sundays."
+        "This date appears in JCC’s live registration calendar. Its general program page describes Saturdays; the dated calendar also lists Sundays.",
+        "This dated listing has expired. The source link now opens the organizer’s current program page."
       ],
       "lastVerified": "2026-10-05T09:30:00Z",
       "verificationMethod": "Official live calendar and date-specific registration links reviewed",
@@ -3034,7 +3037,7 @@
       "ages": "Families who benefit from a limited-capacity visit",
       "summary": "Meet farm animals, try a seasonal craft and enjoy a Halloween scavenger hunt during a smaller session.",
       "sourceId": "weir",
-      "sourceUrl": "https://thetrustees.org/event/448759/",
+      "sourceUrl": "https://thetrustees.org/program/sensory-friendly-programs/",
       "ticketUrl": null,
       "category": "Halloween",
       "format": "In person",
@@ -3047,7 +3050,8 @@
       "cancellationPolicy": "Confirm current cancellation and refund terms with the organizer.",
       "notes": [
         "Costumes should not have flowing capes around the animals.",
-        "Meet in the barnyard; park across from the Studio and follow the chute downhill. Confirm mobility needs before booking."
+        "Meet in the barnyard; park across from the Studio and follow the chute downhill. Confirm mobility needs before booking.",
+        "This dated listing has expired. The source link now opens the organizer’s current program page."
       ],
       "lastVerified": "2026-10-06T16:29:41Z",
       "verificationMethod": "Official organizer event information reviewed.",
@@ -3073,12 +3077,13 @@
         "Sensory-friendly swim"
       ],
       "sourceId": "jcc-sensory",
-      "sourceUrl": "https://www.bostonjcc.org/calendar/sensory-swim-october-17/",
+      "sourceUrl": "https://www.bostonjcc.org/program/sensory-swim-hour/",
       "ticketUrl": "https://myj.bostonjcc.org/s/registration/?courseSessionId=a2eUH000002fffZYAQ&courseOptionId=a2cUH00001YEdv4YAD",
       "registration": "Advance registration required for each date.",
       "cancellationPolicy": "Confirm with JCC.",
       "notes": [
-        "This date appears in JCC’s live registration calendar. Its general program page describes Saturdays; the dated calendar also lists Sundays."
+        "This date appears in JCC’s live registration calendar. Its general program page describes Saturdays; the dated calendar also lists Sundays.",
+        "This dated listing has expired. The source link now opens the organizer’s current program page."
       ],
       "lastVerified": "2026-10-05T09:30:00Z",
       "verificationMethod": "Official live calendar and date-specific registration links reviewed",
@@ -3176,12 +3181,13 @@
         "Sensory-friendly swim"
       ],
       "sourceId": "jcc-sensory",
-      "sourceUrl": "https://www.bostonjcc.org/calendar/copy-of-sensory-swim-october-11/",
+      "sourceUrl": "https://www.bostonjcc.org/program/sensory-swim-hour/",
       "ticketUrl": "https://myj.bostonjcc.org/s/registration/?courseSessionId=a2eUH000002fffZYAQ&courseOptionId=a2cUH00001YE8mhYAD",
       "registration": "Advance registration required for each date.",
       "cancellationPolicy": "Confirm with JCC.",
       "notes": [
-        "This date appears in JCC’s live registration calendar. Its general program page describes Saturdays; the dated calendar also lists Sundays."
+        "This date appears in JCC’s live registration calendar. Its general program page describes Saturdays; the dated calendar also lists Sundays.",
+        "This dated listing has expired. The source link now opens the organizer’s current program page."
       ],
       "lastVerified": "2026-10-05T09:30:00Z",
       "verificationMethod": "Official live calendar and date-specific registration links reviewed",
@@ -3530,7 +3536,7 @@
       "ages": "Families and visitors who benefit from reduced crowds or sensory adjustments",
       "summary": "A pumpkin-trail visit with an earlier arrival window. Effects may return from 4:30 p.m.; the main trail has stairs and uneven ground.",
       "sourceId": "longhill-sensory",
-      "sourceUrl": "https://thetrustees.org/event/448969/",
+      "sourceUrl": "https://thetrustees.org/program/sensory-friendly-programs/",
       "ticketUrl": null,
       "category": "Halloween",
       "format": "In person",
@@ -3543,7 +3549,8 @@
       "cancellationPolicy": "Confirm current cancellation and refund terms with the organizer.",
       "notes": [
         "The page lists 4–5 p.m. but says staff begin turning on music, fog and other effects at 4:30 p.m. Confirm the practical quiet window before booking.",
-        "The organizer says the route is not wheelchair or stroller accessible. A shorter alternative path shows only part of the display; ask about its suitability."
+        "The organizer says the route is not wheelchair or stroller accessible. A shorter alternative path shows only part of the display; ask about its suitability.",
+        "This dated listing has expired. The source link now opens the organizer’s current program page."
       ],
       "lastVerified": "2026-10-06T16:29:41Z",
       "verificationMethod": "Official organizer event information reviewed.",
@@ -3820,12 +3827,13 @@
         "Sensory-friendly swim"
       ],
       "sourceId": "jcc-sensory",
-      "sourceUrl": "https://www.bostonjcc.org/calendar/sensory-swim-october-24/",
+      "sourceUrl": "https://www.bostonjcc.org/program/sensory-swim-hour/",
       "ticketUrl": "https://myj.bostonjcc.org/s/registration/?courseSessionId=a2eUH000002fffZYAQ&courseOptionId=a2cUH00001YEU8iYAH",
       "registration": "Advance registration required for each date.",
       "cancellationPolicy": "Confirm with JCC.",
       "notes": [
-        "This date appears in JCC’s live registration calendar. Its general program page describes Saturdays; the dated calendar also lists Sundays."
+        "This date appears in JCC’s live registration calendar. Its general program page describes Saturdays; the dated calendar also lists Sundays.",
+        "This dated listing has expired. The source link now opens the organizer’s current program page."
       ],
       "lastVerified": "2026-10-05T09:30:00Z",
       "verificationMethod": "Official live calendar and date-specific registration links reviewed",
@@ -3894,12 +3902,13 @@
         "Sensory-friendly swim"
       ],
       "sourceId": "jcc-sensory",
-      "sourceUrl": "https://www.bostonjcc.org/calendar/sensory-swim-october-25/",
+      "sourceUrl": "https://www.bostonjcc.org/program/sensory-swim-hour/",
       "ticketUrl": "https://myj.bostonjcc.org/s/registration/?courseSessionId=a2eUH000002fffZYAQ&courseOptionId=a2cUH00001YEeY6YAL",
       "registration": "Advance registration required for each date.",
       "cancellationPolicy": "Confirm with JCC.",
       "notes": [
-        "This date appears in JCC’s live registration calendar. Its general program page describes Saturdays; the dated calendar also lists Sundays."
+        "This date appears in JCC’s live registration calendar. Its general program page describes Saturdays; the dated calendar also lists Sundays.",
+        "This dated listing has expired. The source link now opens the organizer’s current program page."
       ],
       "lastVerified": "2026-10-05T09:30:00Z",
       "verificationMethod": "Official live calendar and date-specific registration links reviewed",
@@ -9111,7 +9120,7 @@
       "venue": "Naumkeag",
       "address": "5 Prospect Hill Road, Stockbridge, MA 01262",
       "sourceId": "trustees-naumkeag",
-      "sourceUrl": "https://thetrustees.org/event/449160/",
+      "sourceUrl": "https://thetrustees.org/program/sensory-friendly-programs/",
       "ticketUrl": "https://explore.thetrustees.org/pumpkin-show?c_src=ACMEWEB",
       "status": "scheduled",
       "reviewRequired": false,
@@ -9119,7 +9128,8 @@
       "format": "In person",
       "cancellationPolicy": "Nonrefundable; no date transfers. Organizer will email instructions if unsafe weather causes cancellation.",
       "notes": [
-        "Many steps, steep slopes and uneven surfaces remain; the route is not wheelchair or stroller accessible."
+        "Many steps, steep slopes and uneven surfaces remain; the route is not wheelchair or stroller accessible.",
+        "This dated listing has expired. The source link now opens the organizer’s current program page."
       ],
       "cost": "Value Night: nonmember adult $25/member adult $20; ages 3–15 $15/$10; ages 2 and under free.",
       "costCategory": "paid",
@@ -9145,7 +9155,7 @@
       "venue": "Naumkeag",
       "address": "5 Prospect Hill Road, Stockbridge, MA 01262",
       "sourceId": "trustees-naumkeag",
-      "sourceUrl": "https://thetrustees.org/event/449161/",
+      "sourceUrl": "https://thetrustees.org/program/sensory-friendly-programs/",
       "ticketUrl": "https://explore.thetrustees.org/pumpkin-show?c_src=ACMEWEB",
       "status": "scheduled",
       "reviewRequired": false,
@@ -9153,7 +9163,8 @@
       "format": "In person",
       "cancellationPolicy": "Nonrefundable; no date transfers. Organizer will email instructions if unsafe weather causes cancellation.",
       "notes": [
-        "Many steps, steep slopes and uneven surfaces remain; the route is not wheelchair or stroller accessible."
+        "Many steps, steep slopes and uneven surfaces remain; the route is not wheelchair or stroller accessible.",
+        "This dated listing has expired. The source link now opens the organizer’s current program page."
       ],
       "cost": "Nonmembers: $32 adult/$15 ages 3–15; members: $27/$10; ages 2 and under free.",
       "costCategory": "paid",
@@ -9179,7 +9190,7 @@
       "venue": "Naumkeag",
       "address": "5 Prospect Hill Road, Stockbridge, MA 01262",
       "sourceId": "trustees-naumkeag",
-      "sourceUrl": "https://thetrustees.org/event/449162/",
+      "sourceUrl": "https://thetrustees.org/program/sensory-friendly-programs/",
       "ticketUrl": "https://explore.thetrustees.org/pumpkin-show?c_src=ACMEWEB",
       "status": "scheduled",
       "reviewRequired": false,
@@ -9187,7 +9198,8 @@
       "format": "In person",
       "cancellationPolicy": "Nonrefundable; no date transfers. Organizer will email instructions if unsafe weather causes cancellation.",
       "notes": [
-        "Many steps, steep slopes and uneven surfaces remain; the route is not wheelchair or stroller accessible."
+        "Many steps, steep slopes and uneven surfaces remain; the route is not wheelchair or stroller accessible.",
+        "This dated listing has expired. The source link now opens the organizer’s current program page."
       ],
       "cost": "Nonmembers: $32 adult/$15 ages 3–15; members: $27/$10; ages 2 and under free.",
       "costCategory": "paid",
@@ -9213,7 +9225,7 @@
       "venue": "Naumkeag",
       "address": "5 Prospect Hill Road, Stockbridge, MA 01262",
       "sourceId": "trustees-naumkeag",
-      "sourceUrl": "https://thetrustees.org/event/449163/",
+      "sourceUrl": "https://thetrustees.org/program/sensory-friendly-programs/",
       "ticketUrl": "https://explore.thetrustees.org/pumpkin-show?c_src=ACMEWEB",
       "status": "scheduled",
       "reviewRequired": false,
@@ -9221,7 +9233,8 @@
       "format": "In person",
       "cancellationPolicy": "Nonrefundable; no date transfers. Organizer will email instructions if unsafe weather causes cancellation.",
       "notes": [
-        "Many steps, steep slopes and uneven surfaces remain; the route is not wheelchair or stroller accessible."
+        "Many steps, steep slopes and uneven surfaces remain; the route is not wheelchair or stroller accessible.",
+        "This dated listing has expired. The source link now opens the organizer’s current program page."
       ],
       "cost": "Nonmembers: $32 adult/$15 ages 3–15; members: $27/$10; ages 2 and under free.",
       "costCategory": "paid",
@@ -9570,7 +9583,7 @@
       "parking": "Downtown Boston; plan parking/transit and drop-off before arrival.",
       "weather": "Indoors, with an urban outdoor arrival route.",
       "evidence": "Boston Ballet sensory-friendly and accessibility pages checked Oct 3, 2026.",
-      "accessibilityUrl": "https://www.bostonballet.org/home/tickets-performances/accessibility/"
+      "accessibilityUrl": "https://www.bostonballet.org/home/tickets-performances/frequently-asked-questions-boston-ballet-theater-policies/"
     },
     "Weir River Farm": {
       "mobility": "For published farm events, the picnic lawn is described as a flat grassy field accessible for most strollers and wheelchairs. Confirm the exact barnyard route for this program.",

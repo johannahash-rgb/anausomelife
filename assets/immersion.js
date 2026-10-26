@@ -22,7 +22,7 @@
   const isPolicy = /\/(privacy|disclosure|language|accessibility|contact|media-kit|product-testing-brief)\.html|\/media\//.test(path);
   const brand = document.querySelector('.mag-brand small');
   if (brand) brand.textContent='In pursuit of the Good New England Life';
-  if (!footer.querySelector('.footer-emblem')) footer.querySelector('.footer-wordmark')?.before(img('coastal-emblem.webp','footer-emblem'));
+  if (!footer.hasAttribute('data-site-footer') && !footer.querySelector('.footer-emblem')) footer.querySelector('.footer-wordmark')?.before(img('coastal-emblem.webp','footer-emblem'));
   if (!isHome && !isTool && !document.querySelector('.reader-breadcrumb, .article-crumb, .breadcrumbs, .breadcrumb, .aal-breadcrumb, nav[aria-label="Breadcrumb"]')) {
     const crumb=el('nav','aal-breadcrumb wrap');crumb.setAttribute('aria-label','Breadcrumb');
     const home=el('a','','Home');home.href='/';crumb.append(home,el('span','','/'));

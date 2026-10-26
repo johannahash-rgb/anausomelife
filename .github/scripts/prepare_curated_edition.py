@@ -3,12 +3,12 @@
 import argparse,re,html,importlib.util
 from html.parser import HTMLParser
 from pathlib import Path
-VERSION='20261021-glossary-links'
+VERSION='20261026-wayfinding'
 VERSIONED_ASSETS=(
     'editorial.css','global-nav.js','access-tools.css','access-tools.js',
     'reader-pathways.css','brand-design.css','brand-banner.css','brand-banner.js',
     'library-browse.css','card-catalog.js','card-collection.js','card-collection.css',
-    'immersion.js','story-share.js',
+    'immersion.js','story-share.js','site-experience.css','magazine.js','collection-browse.js',
 )
 JOURNAL_PINS=(
     '/wayne-newton-flamingo-bucket-list-self-care.html',
@@ -30,7 +30,7 @@ def pin_journal_stories(source):
     """Keep the owner's selected stories ahead of newly added journal entries."""
     match=re.search(r'(<ol class="journal-recent-list"[^>]*>)(.*?)(</ol>)',source,re.S)
     if not match:return source
-    cards=re.findall(r'<li>.*?</li>',match.group(2),re.S)
+    cards=re.findall(r'<li\b[^>]*>.*?</li>',match.group(2),re.S)
     pinned=[]
     for url in JOURNAL_PINS:
         found=[card for card in cards if 'href="'+url+'"' in card]

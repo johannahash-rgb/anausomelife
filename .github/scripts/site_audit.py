@@ -74,7 +74,7 @@ def probe(url):
             with urlopen(request,timeout=8) as response:
                 return {"url":url,"status":response.status,"classification":"ok"}
         except HTTPError as e:
-            if method=="HEAD" and e.code in (403,405,429,501):continue
+            if method=="HEAD" and e.code in (403,404,405,410,429,501):continue
             return {"url":url,"status":e.code,"classification":"broken" if e.code in (404,410) else "blocked_or_uncertain"}
         except (URLError,TimeoutError,ConnectionError) as e:
             if method=="HEAD":continue

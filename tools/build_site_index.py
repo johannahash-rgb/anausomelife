@@ -7,6 +7,7 @@ from urllib.parse import urlparse
 parser=argparse.ArgumentParser(description=__doc__)
 parser.add_argument('--root',type=Path,default=Path(__file__).resolve().parent.parent,help='Public source or prepared publication root')
 ROOT=parser.parse_args().root.resolve()
+directory={r['url']:r for r in json.loads((ROOT/'data/page-directory.json').read_text())} if (ROOT/'data/page-directory.json').exists() else {}
 rows=[]
 seen_content=set()
 preferred={row['url'] for row in json.loads((ROOT/'data/library.json').read_text())}
@@ -20,7 +21,8 @@ for p in pages:
  if any('noindex' in value.lower() for value in d.xpath('//meta[@name="robots"]/@content')):continue
  main=d.xpath('//main');h=d.xpath('//h1');desc=d.xpath('//meta[@name="description"]/@content')
  if not main or not h:continue
- for e in main[0].xpath('.//script|.//style'):e.drop_tree()
+ for e in main[0].xpath('.//script|.//style|.//nav|.//*[@class="aal-on-this-page wrap"]|.//*[contains(@class,"reader-next")]'):
+  if e.getparent() is not None:e.drop_tree()
  for br in main[0].xpath('.//br'):br.tail=' '+(br.tail or '')
  text=lambda s:re.sub(r'\s+',' ',s).strip()
  title=text(h[0].text_content())
@@ -36,7 +38,7 @@ for p in pages:
  if signature in seen_content:continue
  seen_content.add(signature)
  category='family' if any(v in rel for v in ['family','paternal','communication','little-adventures','kid-fun','profound','maternal-role','grandparent-role','sibling-role','extended-family-role','coparent-role','support-professional-role','respite-partner-role','caregiver-handover']) else 'outings' if any(v in rel for v in ['favorite-places','calendar','weekend','visit-story']) else 'guide'
- rows.append({'url':url,'title':title,'summary':desc[0] if desc else '', 'category':category,'format':'Tool' if rel in ['communication-card-generator.html','communication-notes.html','visit-story.html'] else 'Story' if rel=='little-adventures.html' else 'Page','search':content})
+ rows.append({'url':url,'title':title,'summary':desc[0] if desc else '', 'category':category,'format':directory.get(url,{}).get('format') or ('Tool' if rel in ['communication-card-generator.html','communication-notes.html','visit-story.html'] else 'Story' if rel=='little-adventures.html' else 'Page'),'search':content+' '+' '.join(directory.get(url,{}).get('topics',[]))})
 events=json.loads((ROOT/'data/events.json').read_text())
 for event in events.get('events',[]):
  if event.get('reviewRequired') or event.get('cancelled') or event.get('status') in ('review','cancelled','canceled'):continue

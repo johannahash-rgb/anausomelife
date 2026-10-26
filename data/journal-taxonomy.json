@@ -1,0 +1,609 @@
+{
+  "formats": {
+    "journal-posts": "Journal posts",
+    "photo-essays": "Photo essays",
+    "reflections": "Reflections & meditations",
+    "tips": "Tips & practical guides"
+  },
+  "topics": {
+    "places": "Places & outings",
+    "family-life": "Family life",
+    "self-care": "Self-care",
+    "advocacy": "Advocacy & inclusion",
+    "communication": "Communication & choices",
+    "nature": "Nature & seasons",
+    "food": "Food & dining",
+    "travel": "Travel & stays",
+    "home": "Home & everyday life",
+    "history": "Art, history & culture",
+    "grandparents": "Grandparents & generations"
+  },
+  "entries": {
+    "/i-love-las-vegas-without-drinking-or-gambling.html": {
+      "formats": [
+        "journal-posts",
+        "photo-essays",
+        "reflections"
+      ],
+      "topics": [
+        "places",
+        "self-care",
+        "travel"
+      ]
+    },
+    "/minute-man-walk-great-aunt-susan.html": {
+      "formats": [
+        "journal-posts",
+        "photo-essays"
+      ],
+      "topics": [
+        "places",
+        "nature",
+        "history",
+        "grandparents"
+      ]
+    },
+    "/safe-haven-thrift-shop-wells-maine.html": {
+      "formats": [
+        "journal-posts"
+      ],
+      "topics": [
+        "places"
+      ]
+    },
+    "/congdons-doughnuts-wells-maine.html": {
+      "formats": [
+        "journal-posts",
+        "tips"
+      ],
+      "topics": [
+        "places",
+        "communication",
+        "food"
+      ]
+    },
+    "/wicked-whoopies-freeport-family-visit.html": {
+      "formats": [
+        "journal-posts"
+      ],
+      "topics": [
+        "places",
+        "food"
+      ]
+    },
+    "/reading-jordans-fuddruckers-cookie-monstah.html": {
+      "formats": [
+        "journal-posts"
+      ],
+      "topics": [
+        "places",
+        "food"
+      ]
+    },
+    "/october-ice-cream-dairy-joy-weston.html": {
+      "formats": [
+        "journal-posts"
+      ],
+      "topics": [
+        "places",
+        "food",
+        "grandparents"
+      ]
+    },
+    "/autumn-simple-joys-james-ruby.html": {
+      "formats": [
+        "journal-posts",
+        "photo-essays"
+      ],
+      "topics": [
+        "nature"
+      ]
+    },
+    "/my-small-world-autism-friendly-welcome.html": {
+      "formats": [
+        "journal-posts"
+      ],
+      "topics": [
+        "places",
+        "advocacy",
+        "communication"
+      ]
+    },
+    "/fort-taber-snowshoes-field-note.html": {
+      "formats": [
+        "journal-posts",
+        "photo-essays"
+      ],
+      "topics": [
+        "places",
+        "nature"
+      ]
+    },
+    "/apple-orchard-afternoon.html": {
+      "formats": [
+        "journal-posts"
+      ],
+      "topics": [
+        "places",
+        "nature"
+      ]
+    },
+    "/wegmans-carolines-cart-field-note.html": {
+      "formats": [
+        "journal-posts"
+      ],
+      "topics": [
+        "places"
+      ]
+    },
+    "/von-trapp-family-field-note.html": {
+      "formats": [
+        "journal-posts"
+      ],
+      "topics": [
+        "travel"
+      ]
+    },
+    "/wicked-tulips-family-field-note.html": {
+      "formats": [
+        "journal-posts",
+        "photo-essays"
+      ],
+      "topics": [
+        "nature"
+      ]
+    },
+    "/flowers-fidgets-and-clutter.html": {
+      "formats": [
+        "journal-posts",
+        "photo-essays",
+        "reflections"
+      ],
+      "topics": [
+        "home"
+      ]
+    },
+    "/caregiver-handover-guide.html": {
+      "formats": [
+        "tips"
+      ],
+      "topics": [
+        "advocacy"
+      ]
+    },
+    "/favorite-places-rancatores-lexington.html": {
+      "formats": [
+        "journal-posts"
+      ],
+      "topics": [
+        "places",
+        "food"
+      ]
+    },
+    "/food-away-from-home-guide.html": {
+      "formats": [
+        "tips"
+      ],
+      "topics": [
+        "communication",
+        "food"
+      ]
+    },
+    "/hotel-pool-checklist.html": {
+      "formats": [
+        "tips"
+      ],
+      "topics": [
+        "travel"
+      ]
+    },
+    "/household-reset.html": {
+      "formats": [
+        "tips"
+      ],
+      "topics": [
+        "home"
+      ]
+    },
+    "/older-teen-swim-guide.html": {
+      "formats": [
+        "tips"
+      ],
+      "topics": [
+        "family-life"
+      ]
+    },
+    "/photo-gifts-from-your-camera-roll.html": {
+      "formats": [
+        "tips"
+      ],
+      "topics": [
+        "home"
+      ]
+    },
+    "/pool-weekend-kit.html": {
+      "formats": [
+        "tips"
+      ],
+      "topics": [
+        "travel"
+      ]
+    },
+    "/rainy-day-outing-plan.html": {
+      "formats": [
+        "tips"
+      ],
+      "topics": [
+        "family-life"
+      ]
+    },
+    "/sensory-clothing-checklist.html": {
+      "formats": [
+        "tips"
+      ],
+      "topics": [
+        "home"
+      ]
+    },
+    "/shorter-visit-plan.html": {
+      "formats": [
+        "tips"
+      ],
+      "topics": [
+        "family-life"
+      ]
+    },
+    "/little-adventures.html": {
+      "formats": [
+        "journal-posts"
+      ],
+      "topics": [
+        "family-life"
+      ]
+    },
+    "/lilo-stitch-birthday-fall-river-childrens-museum.html": {
+      "formats": [
+        "journal-posts"
+      ],
+      "topics": [
+        "places"
+      ]
+    },
+    "/a-camping-swing-very-much-at-home.html": {
+      "formats": [
+        "journal-posts"
+      ],
+      "topics": [
+        "nature",
+        "home"
+      ]
+    },
+    "/fiber-connect-disney-field-note.html": {
+      "formats": [
+        "journal-posts"
+      ],
+      "topics": [
+        "places",
+        "travel"
+      ]
+    },
+    "/margaritas-waltham-field-note.html": {
+      "formats": [
+        "journal-posts"
+      ],
+      "topics": [
+        "places",
+        "food"
+      ]
+    },
+    "/isabella-stewart-gardner-museum-date.html": {
+      "formats": [
+        "journal-posts"
+      ],
+      "topics": [
+        "places",
+        "self-care",
+        "history"
+      ]
+    },
+    "/hannaford-maine-breakfast-picnic.html": {
+      "formats": [
+        "journal-posts"
+      ],
+      "topics": [
+        "places",
+        "food"
+      ]
+    },
+    "/buenos-aires-don-julio-1954.html": {
+      "formats": [
+        "journal-posts"
+      ],
+      "topics": [
+        "places",
+        "food",
+        "grandparents",
+        "travel"
+      ]
+    },
+    "/bristol-waterfront-family.html": {
+      "formats": [
+        "journal-posts",
+        "photo-essays"
+      ],
+      "topics": [
+        "places",
+        "nature"
+      ]
+    },
+    "/profound-autism-summit-boston-camelot.html": {
+      "formats": [
+        "journal-posts"
+      ],
+      "topics": [
+        "advocacy"
+      ]
+    },
+    "/berlin-farms-easter-field-note.html": {
+      "formats": [
+        "journal-posts",
+        "photo-essays"
+      ],
+      "topics": [
+        "places"
+      ]
+    },
+    "/kohinoor-indian-restaurant-mashpee.html": {
+      "formats": [
+        "journal-posts"
+      ],
+      "topics": [
+        "places",
+        "communication",
+        "food"
+      ]
+    },
+    "/rangeley-grandparents-field-note.html": {
+      "formats": [
+        "journal-posts",
+        "photo-essays"
+      ],
+      "topics": [
+        "places",
+        "nature",
+        "grandparents",
+        "travel"
+      ]
+    },
+    "/shaker-history-harvard-family-gift.html": {
+      "formats": [
+        "journal-posts"
+      ],
+      "topics": [
+        "places",
+        "history",
+        "grandparents"
+      ]
+    },
+    "/wayne-newton-flamingo-bucket-list-self-care.html": {
+      "formats": [
+        "journal-posts"
+      ],
+      "topics": [
+        "places",
+        "self-care",
+        "travel"
+      ]
+    },
+    "/rose-shack-rhode-island-spring.html": {
+      "formats": [
+        "journal-posts"
+      ],
+      "topics": [
+        "places"
+      ]
+    },
+    "/snowshoeing-with-james-right-outside-home.html": {
+      "formats": [
+        "journal-posts",
+        "photo-essays"
+      ],
+      "topics": [
+        "nature"
+      ]
+    },
+    "/a-love-letter-to-buying-nothing.html": {
+      "formats": [
+        "journal-posts",
+        "reflections"
+      ],
+      "topics": [
+        "home"
+      ]
+    },
+    "/ai-ice-cream-choice-board-rancatores-lexington.html": {
+      "formats": [
+        "journal-posts",
+        "tips"
+      ],
+      "topics": [
+        "places",
+        "advocacy",
+        "communication",
+        "food"
+      ]
+    },
+    "/twisted-pizza-provincetown-summer-favorite.html": {
+      "formats": [
+        "journal-posts"
+      ],
+      "topics": [
+        "places",
+        "food"
+      ]
+    },
+    "/burlington-whale-tails-almost-home.html": {
+      "formats": [
+        "journal-posts",
+        "photo-essays"
+      ],
+      "topics": [
+        "places",
+        "nature",
+        "history"
+      ]
+    },
+    "/burlington-vermont-family-trip.html": {
+      "formats": [
+        "journal-posts",
+        "photo-essays"
+      ],
+      "topics": [
+        "places",
+        "travel"
+      ]
+    },
+    "/cookie-monstah-burlington-family-favorite.html": {
+      "formats": [
+        "journal-posts"
+      ],
+      "topics": [
+        "places",
+        "food"
+      ]
+    },
+    "/disabled-parking-placards-new-england.html": {
+      "formats": [
+        "tips"
+      ],
+      "topics": [
+        "advocacy"
+      ]
+    },
+    "/energy-is-an-access-resource.html": {
+      "formats": [
+        "tips",
+        "reflections"
+      ],
+      "topics": [
+        "self-care",
+        "advocacy"
+      ]
+    },
+    "/get-in-the-photograph.html": {
+      "formats": [
+        "journal-posts",
+        "photo-essays",
+        "reflections"
+      ],
+      "topics": [
+        "self-care"
+      ]
+    },
+    "/frerichs-farm-halloween-field-note.html": {
+      "formats": [
+        "journal-posts"
+      ],
+      "topics": [
+        "places"
+      ]
+    },
+    "/olive-garden-rigatoni-choice-board.html": {
+      "formats": [
+        "journal-posts",
+        "tips"
+      ],
+      "topics": [
+        "places",
+        "advocacy",
+        "communication",
+        "food"
+      ]
+    },
+    "/favorite-places/llbean-freeport.html": {
+      "formats": [
+        "journal-posts"
+      ],
+      "topics": [
+        "places"
+      ]
+    },
+    "/autumn-wedding-old-friends-new-haven.html": {
+      "formats": [
+        "journal-posts"
+      ],
+      "topics": [
+        "places",
+        "travel"
+      ]
+    },
+    "/omars-lexington-superpower-belonging.html": {
+      "formats": [
+        "journal-posts"
+      ],
+      "topics": [
+        "places",
+        "advocacy"
+      ]
+    },
+    "/small-outings-count.html": {
+      "formats": [
+        "tips",
+        "reflections"
+      ],
+      "topics": [
+        "advocacy"
+      ]
+    },
+    "/little-things-that-help.html": {
+      "formats": [
+        "journal-posts"
+      ],
+      "topics": [
+        "communication",
+        "food",
+        "home"
+      ]
+    },
+    "/menauhant-beach-the-art-of-letting-go.html": {
+      "formats": [
+        "journal-posts",
+        "photo-essays",
+        "reflections"
+      ],
+      "topics": [
+        "places",
+        "self-care",
+        "nature",
+        "history"
+      ]
+    },
+    "/eight-oclock-colombian-peaks-field-note.html": {
+      "formats": [
+        "journal-posts"
+      ],
+      "topics": [
+        "food",
+        "home"
+      ]
+    },
+    "/authors-ridge-concord-fall-date.html": {
+      "formats": [
+        "journal-posts"
+      ],
+      "topics": [
+        "places",
+        "self-care",
+        "history"
+      ]
+    },
+    "/favorite-places/book-barn-niantic.html": {
+      "formats": [
+        "journal-posts"
+      ],
+      "topics": [
+        "places"
+      ]
+    }
+  }
+}

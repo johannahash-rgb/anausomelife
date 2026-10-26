@@ -1,0 +1,339 @@
+{
+  "roles": {
+    "mothers": "Mothers & maternal roles",
+    "fathers": "Fathers & paternal roles",
+    "partners": "Partners & co-parents",
+    "grandparents": "Grandparents",
+    "siblings": "Adult siblings",
+    "extended-family": "Extended & chosen family",
+    "professionals": "Support professionals",
+    "respite": "Respite & support partners"
+  },
+  "topics": {
+    "communication": "Communication & choice",
+    "shared-care": "Sharing the care",
+    "school": "School & advocacy",
+    "outings": "Days out",
+    "self-care": "Self-care & relationships",
+    "home": "Home & routines"
+  },
+  "entries": {
+    "/thrift-shop-choice-board.html": {
+      "roles": [],
+      "topics": [
+        "communication",
+        "outings"
+      ]
+    },
+    "/congdons-choice-board.html": {
+      "roles": [],
+      "topics": [
+        "communication",
+        "outings"
+      ]
+    },
+    "/aac-outing-note.html": {
+      "roles": [],
+      "topics": [
+        "communication",
+        "outings"
+      ]
+    },
+    "/caregiver-handover-guide.html": {
+      "roles": [],
+      "topics": [
+        "communication",
+        "shared-care"
+      ]
+    },
+    "/family-planning-toolkit.html": {
+      "roles": [],
+      "topics": [
+        "shared-care",
+        "home",
+        "communication"
+      ]
+    },
+    "/food-away-from-home-guide.html": {
+      "roles": [],
+      "topics": [
+        "outings"
+      ]
+    },
+    "/household-reset.html": {
+      "roles": [],
+      "topics": [
+        "home"
+      ]
+    },
+    "/multimodal-communication.html": {
+      "roles": [],
+      "topics": [
+        "communication"
+      ]
+    },
+    "/older-teen-edit.html": {
+      "roles": [],
+      "topics": [
+        "home"
+      ]
+    },
+    "/older-teen-swim-guide.html": {
+      "roles": [],
+      "topics": [
+        "outings",
+        "home"
+      ]
+    },
+    "/profoundly-awesome.html": {
+      "roles": [],
+      "topics": [
+        "home"
+      ]
+    },
+    "/quiet-break-plan.html": {
+      "roles": [],
+      "topics": [
+        "self-care",
+        "outings"
+      ]
+    },
+    "/shorter-visit-plan.html": {
+      "roles": [],
+      "topics": [
+        "outings"
+      ]
+    },
+    "/guides/an-invitation-with-useful-details.html": {
+      "roles": [],
+      "topics": [
+        "shared-care"
+      ]
+    },
+    "/guides/when-the-family-plan-is-too-much.html": {
+      "roles": [],
+      "topics": [
+        "shared-care",
+        "self-care"
+      ]
+    },
+    "/guides/prepare-for-an-iep-meeting.html": {
+      "roles": [],
+      "topics": [
+        "school"
+      ]
+    },
+    "/guides/virtual-iep-meeting-opening.html": {
+      "roles": [],
+      "topics": [
+        "school"
+      ]
+    },
+    "/guides/one-page-parent-agenda.html": {
+      "roles": [],
+      "topics": [
+        "school"
+      ]
+    },
+    "/guides/choose-a-special-education-advocate.html": {
+      "roles": [],
+      "topics": [
+        "school",
+        "shared-care"
+      ]
+    },
+    "/guides/working-with-an-advocate.html": {
+      "roles": [],
+      "topics": [
+        "school",
+        "shared-care"
+      ]
+    },
+    "/guides/organize-school-paperwork.html": {
+      "roles": [],
+      "topics": [
+        "school"
+      ]
+    },
+    "/guides/iep-meeting-follow-up.html": {
+      "roles": [],
+      "topics": [
+        "school"
+      ]
+    },
+    "/guides/ask-for-meeting-access.html": {
+      "roles": [],
+      "topics": [
+        "school"
+      ]
+    },
+    "/guides/school-emails-clear-requests.html": {
+      "roles": [],
+      "topics": [
+        "school"
+      ]
+    },
+    "/guides/keep-the-student-in-the-conversation.html": {
+      "roles": [],
+      "topics": [
+        "communication",
+        "school"
+      ]
+    },
+    "/communication-card-generator.html": {
+      "roles": [],
+      "topics": [
+        "communication"
+      ]
+    },
+    "/communication-notes.html": {
+      "roles": [],
+      "topics": [
+        "communication"
+      ]
+    },
+    "/family-agreements.html": {
+      "roles": [],
+      "topics": [
+        "shared-care",
+        "home"
+      ]
+    },
+    "/paternal-role.html": {
+      "roles": [
+        "fathers"
+      ],
+      "topics": [
+        "shared-care",
+        "home"
+      ]
+    },
+    "/maternal-role.html": {
+      "roles": [
+        "mothers"
+      ],
+      "topics": [
+        "shared-care",
+        "home"
+      ]
+    },
+    "/grandparent-role.html": {
+      "roles": [
+        "grandparents"
+      ],
+      "topics": [
+        "shared-care",
+        "home"
+      ]
+    },
+    "/sibling-role.html": {
+      "roles": [
+        "siblings"
+      ],
+      "topics": [
+        "shared-care",
+        "home"
+      ]
+    },
+    "/extended-family-role.html": {
+      "roles": [
+        "extended-family"
+      ],
+      "topics": [
+        "shared-care",
+        "home"
+      ]
+    },
+    "/coparent-role.html": {
+      "roles": [
+        "partners"
+      ],
+      "topics": [
+        "shared-care",
+        "self-care",
+        "home"
+      ]
+    },
+    "/support-professional-role.html": {
+      "roles": [
+        "professionals"
+      ],
+      "topics": [
+        "shared-care",
+        "home"
+      ]
+    },
+    "/respite-partner-role.html": {
+      "roles": [
+        "respite"
+      ],
+      "topics": [
+        "shared-care",
+        "self-care",
+        "home"
+      ]
+    },
+    "/isabella-stewart-gardner-museum-date.html": {
+      "roles": [],
+      "topics": [
+        "self-care"
+      ]
+    },
+    "/visit-story.html": {
+      "roles": [],
+      "topics": [
+        "communication",
+        "outings"
+      ]
+    },
+    "/rangeley-grandparents-field-note.html": {
+      "roles": [],
+      "topics": [
+        "outings"
+      ]
+    },
+    "/wayne-newton-flamingo-bucket-list-self-care.html": {
+      "roles": [],
+      "topics": [
+        "self-care"
+      ]
+    },
+    "/energy-is-an-access-resource.html": {
+      "roles": [],
+      "topics": [
+        "self-care"
+      ]
+    },
+    "/get-in-the-photograph.html": {
+      "roles": [],
+      "topics": [
+        "self-care"
+      ]
+    },
+    "/history-outing-picture-cards.html": {
+      "roles": [],
+      "topics": [
+        "communication",
+        "outings"
+      ]
+    },
+    "/small-outings-count.html": {
+      "roles": [],
+      "topics": [
+        "outings"
+      ]
+    },
+    "/caregiver-glossary.html": {
+      "roles": [],
+      "topics": [
+        "shared-care"
+      ]
+    },
+    "/picture-card-library.html": {
+      "roles": [],
+      "topics": [
+        "communication"
+      ]
+    }
+  }
+}

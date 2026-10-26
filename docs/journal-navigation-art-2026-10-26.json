@@ -1,0 +1,13 @@
+{
+  "created": "2026-10-26",
+  "generation": "Built-in OpenAI image generation",
+  "subject": "One open journal book, fine navy pen-and-ink and transparent watercolor, cream pages, pine-green cloth cover and cranberry ribbon. Entire uncropped object, no legible text, logos, people or third-party reference imagery.",
+  "permission": "Original decorative artwork for the owner-requested website UX refactor, following the standing open-book journal direction.",
+  "use": "Decorative navigation illustration with separate visible Journal label. Not a documentary photograph or communication card.",
+  "processing": "Whole-frame downscaling to fit 128px and 320px; lossless WebP; original transparency preserved.",
+  "files": [
+    "assets/navigation-watercolors/journal-open-book-128.webp",
+    "assets/navigation-watercolors/journal-open-book-320.webp"
+  ],
+  "source_sha256": "2092ae199aa1f6a2a40253dc6c09db6bdfd35ff15b569daddbb74c617d72aa7f"
+}
