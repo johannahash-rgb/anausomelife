@@ -69,5 +69,28 @@
   "validation": {
     "reviewed": "2026-10-25",
     "visual_review": "Inspected both final typographic sharing exports, original full-frame photographs, and the eight-choice board. Text fits and is readable; no family photos in social downloads."
+  },
+  "plaza_guide": {
+    "updated": "2026-10-25",
+    "owner_request": "Add a dropdown plaza map, watercolor artwork and links to the bagel place, game store and other nearby shops.",
+    "artwork": {
+      "path": "assets/kohinoor/deer-crossing-watercolor.webp",
+      "sha256": "0d542f3c13145e2bb2238b313a02943eab460a219b2823501d72d7c6478072bf",
+      "dimensions": [
+        1831,
+        859
+      ],
+      "source": "Built-in image generation; original ink-and-watercolor objects, no borrowed logos or product photographs.",
+      "scope": "Site editorial illustration only; no geographic layout claims, no added organic redistribution license.",
+      "review": "Visually inspected final image: four relevant generic vignettes, legible heading, no invented geographic or architectural detail."
+    },
+    "map": "Google Maps embed and external directions link for verified plaza street address.",
+    "verified_sources": [
+      "https://www.kohinoorma.com/",
+      "https://www.bagelhaven.net/",
+      "https://darkwatergames.com/",
+      "https://www.jmillerpictureframer.com/contact/"
+    ],
+    "limitations": "Neighboring-shop descriptions are researched options, not claims of a firsthand visit or access audit."
   }
 }
