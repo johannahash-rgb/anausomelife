@@ -1,8 +1,8 @@
 {
   "title": "A little winter adventure, right outside our door.",
-  "reviewed": "2026-10-22",
+  "reviewed": "2026-10-25",
   "canonical_story": "https://anausomelife.com/snowshoeing-with-james-right-outside-home.html",
-  "method": "Link-only sharing; owner supplied documentary photo copied unchanged. Latest owner-edited caption preserved. Related picture resources are prospective, not claimed used.",
+  "method": "Link-only sharing; owner-supplied documentary photos copied byte-for-byte without visual edits. Existing owner-edited story retained and expanded with observed details from the additional photographs. Picture resources remain prospective, not claimed used in the photographed outing.",
   "scoped_organic_sharing_intent": {
     "assets_only": [],
     "scope": "Credited story link and caption sharing only; no family photograph reuse rights."
@@ -14,6 +14,116 @@
       "source": "IMG_9299(1).jpeg",
       "basis": "Owner supplied photo and requested publication; website and link previews only.",
       "sha256": "2320ad409c56ba35487aac77e27c53f95affb94936834d29abda6dbc5b969243"
+    },
+    {
+      "path": "assets/snowshoeing-at-home/getting-the-bindings-ready.jpeg",
+      "source": "IMG_9197.jpeg",
+      "basis": "Owner supplied photo and requested an update to this published story; website and link previews only. No third-party reuse license.",
+      "sha256": "87f156b11ea623ac89d072873c5699c3a899ad0adfa5d00b07ff48049fb1a310",
+      "dimensions": [
+        1152,
+        1536
+      ],
+      "edits": "None; original uploaded bytes preserved."
+    },
+    {
+      "path": "assets/snowshoeing-at-home/a-grin-in-the-snow.jpeg",
+      "source": "IMG_9200.jpeg",
+      "basis": "Owner supplied photo and requested an update to this published story; website and link previews only. No third-party reuse license.",
+      "sha256": "78a158c543feacd8b48c240613cbb50fc018936c52a9859f22e05ebb9fe22705",
+      "dimensions": [
+        1152,
+        1536
+      ],
+      "edits": "None; original uploaded bytes preserved."
+    },
+    {
+      "path": "assets/snowshoeing-at-home/winter-on-our-doorstep.jpeg",
+      "source": "IMG_9201.jpeg",
+      "basis": "Owner supplied photo and requested an update to this published story; website and link previews only. No third-party reuse license.",
+      "sha256": "2732e57528d72c16ed5717e34ef8e3d97c6ea2b6ff029aaafa1d38cbe5a21103",
+      "dimensions": [
+        1152,
+        1536
+      ],
+      "edits": "None; original uploaded bytes preserved."
+    },
+    {
+      "path": "assets/snowshoeing-at-home/turning-in-the-snow.jpeg",
+      "source": "IMG_9206.jpeg",
+      "basis": "Owner supplied photo and requested an update to this published story; website and link previews only. No third-party reuse license.",
+      "sha256": "977ef509a10a4d12c3784e083bb393fd98f24f9f61affb89c2d54aa1a8e35910",
+      "dimensions": [
+        1152,
+        1536
+      ],
+      "edits": "None; original uploaded bytes preserved."
+    },
+    {
+      "path": "assets/snowshoeing-at-home/one-snowshoe-up.jpeg",
+      "source": "IMG_9207.jpeg",
+      "basis": "Owner supplied photo and requested an update to this published story; website and link previews only. No third-party reuse license.",
+      "sha256": "851477ddfa523d18a76b2aa80cd4d8d9e135ca87cfa3ca558d4e1b86058ed0bf",
+      "dimensions": [
+        1152,
+        1536
+      ],
+      "edits": "None; original uploaded bytes preserved."
+    },
+    {
+      "path": "assets/snowshoeing-at-home/a-step-away.jpeg",
+      "source": "IMG_9208.jpeg",
+      "basis": "Owner supplied photo and requested an update to this published story; website and link previews only. No third-party reuse license.",
+      "sha256": "3891a5f093bc8164a14379a9a6816df407b450a22002b3932ca3f58f27428430",
+      "dimensions": [
+        1152,
+        1536
+      ],
+      "edits": "None; original uploaded bytes preserved."
+    },
+    {
+      "path": "assets/snowshoeing-at-home/snowshoes-from-behind.jpeg",
+      "source": "IMG_9209.jpeg",
+      "basis": "Owner supplied photo and requested an update to this published story; website and link previews only. No third-party reuse license.",
+      "sha256": "3fe5f50edd732794bb7930e4f58ec488929345445041f8b25b11cec9b058a2fe",
+      "dimensions": [
+        1152,
+        1536
+      ],
+      "edits": "None; original uploaded bytes preserved."
+    },
+    {
+      "path": "assets/snowshoeing-at-home/blue-frames-in-the-snow.jpeg",
+      "source": "IMG_9210.jpeg",
+      "basis": "Owner supplied photo and requested an update to this published story; website and link previews only. No third-party reuse license.",
+      "sha256": "1c75dda1a8cfe9a4639f04e08cf7dec2e652fddba60c93232e959437df237b63",
+      "dimensions": [
+        1152,
+        1536
+      ],
+      "edits": "None; original uploaded bytes preserved."
+    },
+    {
+      "path": "assets/snowshoeing-at-home/winter-company.jpeg",
+      "source": "IMG_9212.jpeg",
+      "basis": "Owner supplied photo and requested an update to this published story; website and link previews only. No third-party reuse license.",
+      "sha256": "85f8747797d41770f97ae96fc0a29ddeefb33d4e8ad3043c36483ff2938d631f",
+      "dimensions": [
+        1152,
+        1536
+      ],
+      "edits": "None; original uploaded bytes preserved."
+    },
+    {
+      "path": "assets/snowshoeing-at-home/looking-back.jpeg",
+      "source": "IMG_9213.jpeg",
+      "basis": "Owner supplied photo and requested an update to this published story; website and link previews only. No third-party reuse license.",
+      "sha256": "c81f014cc5e0c5b9f9b4aff5e4f3c67d909217a0ad8c8d4e947197a6c89ebacd",
+      "dimensions": [
+        1152,
+        1536
+      ],
+      "edits": "None; original uploaded bytes preserved."
     }
   ],
   "native_social": "Not published.",
