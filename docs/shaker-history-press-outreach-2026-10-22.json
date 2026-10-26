@@ -4,7 +4,7 @@
   "storyUrl": "https://anausomelife.com/shaker-history-harvard-family-gift.html",
   "authorization": "Owner requested publicity and sharing for this story: can yu ge us some press for this shares etc. Existing owner direction authorizes branded outreach using hello@anausomelife.com. The owner then asked about other Shaker story places, authorizing expansion to relevant Shaker institutions.",
   "from": "An AUsome Life <hello@anausomelife.com>",
-  "status": "held_daily_cap_messages_unsent",
+  "status": "partially_accepted_remaining_unsent",
   "messages": [
     {
       "organization": "The Harvard Press",
@@ -18,14 +18,14 @@
       ],
       "subject": "Harvard feature idea: a thoughtful gift hiding in the history close to home",
       "text": "Hi John,\n\nI grew up near Harvard and have always loved history, but had never properly explored the Shaker history on our doorstep. Michael surprised me with a day built around it: a little research, a short car trip and time together.\n\nThe outing brought back another connection. My mother, Mom-Mom, has always loved Shaker furniture, and growing up we made special trips to stores in Gardner and Lancaster to buy pieces.\n\nI've just shared the memory through An AUsome Life, our independent family publication:\nhttps://anausomelife.com/shaker-history-harvard-family-gift.html\n\nWould this interest the Press as a local feature or a thoughtful, low-cost gift idea for readers? The piece connects a family's furniture memories with Harvard's Shaker heritage and the pleasure of having someone else do the planning. It also includes a fold-open orientation map, links to local history sources and free printable picture cards created for future outings.\n\nI'd be happy to answer questions by email. The outing is a family memory; the map and cards are new companion resources.\n\nThank you,\nAn AUsome Life\nhello@anausomelife.com",
-      "status": "prepared_unsent",
+      "status": "queued",
       "idempotencyKey": "aal-shaker-harvard-20261022-1-v1",
       "lastCheckedAtUTC": "2026-10-23T14:12:03.538Z",
-      "lastDeferral": {
-        "reason": "daily_cap",
-        "checkedAtUTC": "2026-10-23T14:12:03.538Z",
-        "nextReviewDateEastern": "2026-10-26"
-      }
+      "providerEmailId": "01a178a4-9686-70f5-8e77-0e7fc464dd85",
+      "providerMessageId": null,
+      "acceptedAtUTC": "2026-10-26T14:36:54.965Z",
+      "lastStatusCheckedAtUTC": "2026-10-26T14:38:10.790Z",
+      "receiptNote": "Resend accepted the exact prepared message; current provider status queued, delivery not yet confirmed. Do not resend. Actual From and recipient verified."
     },
     {
       "organization": "Harvard Historical Society",
@@ -40,11 +40,11 @@
       "text": "Hello Harvard Historical Society team,\n\nYour Shaker Village history is linked in a new family story we've published at An AUsome Life, and I wanted to share it with you.\n\nMichael surprised me with a Shaker history day around Harvard. I grew up nearby and love history, yet had never taken the time to explore these places. It also brought back memories of my mother, Mom-Mom, and our special trips to furniture stores in Gardner and Lancaster to buy Shaker furniture.\n\nThe story is about a thoughtful gift that takes research and time together, without needing a large budget:\nhttps://anausomelife.com/shaker-history-harvard-family-gift.html\n\nWould you consider sharing the link in a Society newsletter or on your social page? It offers readers a personal way into the area's history, alongside links to local sources, an original chair watercolor and a fold-open orientation map. We also created printable picture cards for future history outings.\n\nSuggested sharing caption: A little research, a short drive and a thoughtful surprise: An AUsome Life explores Harvard's Shaker history and family memories of Shaker furniture.\n\nPlease credit An AUsome Life / @anausomelife and link to the story. Thank you for helping people discover the history close to home.\n\nWarmly,\nAn AUsome Life\nhello@anausomelife.com",
       "status": "prepared_unsent",
       "idempotencyKey": "aal-shaker-harvard-20261022-2-v1",
-      "lastCheckedAtUTC": "2026-10-23T14:12:03.538Z",
+      "lastCheckedAtUTC": "2026-10-26T14:38:10.790Z",
       "lastDeferral": {
         "reason": "daily_cap",
-        "checkedAtUTC": "2026-10-23T14:12:03.538Z",
-        "nextReviewDateEastern": "2026-10-26"
+        "checkedAtUTC": "2026-10-26T14:38:10.790Z",
+        "nextReviewDateEastern": "2026-10-27"
       }
     },
     {
@@ -60,11 +60,11 @@
       "text": "Hi Karen,\n\nWe've linked the Trust's Shaker Conservation Lands information in a new An AUsome Life story about discovering local history through a simple family outing.\n\nMichael planned a surprise Shaker history day for me around Harvard. I grew up nearby and love history, but had never properly explored these places. The day also connected with childhood memories of my mother, Mom-Mom, and trips to Gardner and Lancaster for Shaker furniture.\n\nThe story and its new fold-open orientation map are here:\nhttps://anausomelife.com/shaker-history-harvard-family-gift.html\n\nWould the Trust consider sharing the story link with its community through a newsletter or social post? The reader takeaway is a thoughtful gift made from research, a short drive and time together. The map directs readers to local sources and distinguishes orientation from a walking route; the story reminds visitors to respect private homes and use designated trails.\n\nWe've also added free picture cards for future history outings, with choices such as look, walk, break and all done.\n\nSuggested sharing caption: Discover the history close to home: a family Shaker-history outing in Harvard, with a local orientation map and printable picture cards. Credit: An AUsome Life / @anausomelife.\n\nThank you,\nAn AUsome Life\nhello@anausomelife.com",
       "status": "prepared_unsent",
       "idempotencyKey": "aal-shaker-harvard-20261022-3-v1",
-      "lastCheckedAtUTC": "2026-10-23T14:12:03.538Z",
+      "lastCheckedAtUTC": "2026-10-26T14:38:10.790Z",
       "lastDeferral": {
         "reason": "daily_cap",
-        "checkedAtUTC": "2026-10-23T14:12:03.538Z",
-        "nextReviewDateEastern": "2026-10-26"
+        "checkedAtUTC": "2026-10-26T14:38:10.790Z",
+        "nextReviewDateEastern": "2026-10-27"
       }
     },
     {
@@ -82,11 +82,11 @@
       "status": "prepared_unsent",
       "idempotencyKey": "aal-shaker-harvard-20261022-4-v1",
       "preparedDateEastern": "2026-10-22",
-      "lastCheckedAtUTC": "2026-10-23T14:12:03.538Z",
+      "lastCheckedAtUTC": "2026-10-26T14:38:10.790Z",
       "lastDeferral": {
         "reason": "daily_cap",
-        "checkedAtUTC": "2026-10-23T14:12:03.538Z",
-        "nextReviewDateEastern": "2026-10-26"
+        "checkedAtUTC": "2026-10-26T14:38:10.790Z",
+        "nextReviewDateEastern": "2026-10-27"
       }
     },
     {
@@ -102,11 +102,11 @@
       "status": "prepared_unsent",
       "idempotencyKey": "aal-shaker-harvard-20261022-5-v1",
       "preparedDateEastern": "2026-10-22",
-      "lastCheckedAtUTC": "2026-10-23T14:12:03.538Z",
+      "lastCheckedAtUTC": "2026-10-26T14:38:10.790Z",
       "lastDeferral": {
         "reason": "daily_cap",
-        "checkedAtUTC": "2026-10-23T14:12:03.538Z",
-        "nextReviewDateEastern": "2026-10-26"
+        "checkedAtUTC": "2026-10-26T14:38:10.790Z",
+        "nextReviewDateEastern": "2026-10-27"
       }
     },
     {
@@ -123,11 +123,11 @@
       "status": "prepared_unsent",
       "idempotencyKey": "aal-shaker-harvard-20261022-6-v1",
       "preparedDateEastern": "2026-10-22",
-      "lastCheckedAtUTC": "2026-10-23T14:12:03.538Z",
+      "lastCheckedAtUTC": "2026-10-26T14:38:10.790Z",
       "lastDeferral": {
         "reason": "daily_cap",
-        "checkedAtUTC": "2026-10-23T14:12:03.538Z",
-        "nextReviewDateEastern": "2026-10-26"
+        "checkedAtUTC": "2026-10-26T14:38:10.790Z",
+        "nextReviewDateEastern": "2026-10-27"
       }
     },
     {
@@ -143,11 +143,11 @@
       "status": "prepared_unsent",
       "idempotencyKey": "aal-shaker-harvard-20261022-7-v1",
       "preparedDateEastern": "2026-10-22",
-      "lastCheckedAtUTC": "2026-10-23T14:12:03.538Z",
+      "lastCheckedAtUTC": "2026-10-26T14:38:10.790Z",
       "lastDeferral": {
         "reason": "daily_cap",
-        "checkedAtUTC": "2026-10-23T14:12:03.538Z",
-        "nextReviewDateEastern": "2026-10-26"
+        "checkedAtUTC": "2026-10-26T14:38:10.790Z",
+        "nextReviewDateEastern": "2026-10-27"
       }
     },
     {
@@ -171,7 +171,7 @@
       },
       "idempotencyKey": "aal-shaker-harvard-20261022-8-v1",
       "preparedDateEastern": "2026-10-22",
-      "lastCheckedAtUTC": "2026-10-23T14:12:03.538Z"
+      "lastCheckedAtUTC": "2026-10-26T14:38:10.790Z"
     }
   ],
   "sendPolicy": {
@@ -209,11 +209,11 @@
   },
   "scheduling": {
     "taskId": "6ada8c2bf77481918a810e302c45b6b3",
-    "dateEastern": "2026-10-26",
+    "dateEastern": "2026-10-27",
     "windowEastern": "09:00–11:00",
     "timingMode": "flexible_schedule",
     "confirmedCreated": true,
-    "delivery": "No sends on October 23: the shared daily cap was already exhausted. Same task rescheduled for October 26, subject to fresh capacity and preflight. All eight messages remain unsent; Fruitlands separately held until November 2 at the earliest.",
+    "delivery": "Harvard Press pitch accepted October26, currently provider queued; seven messages not submitted. Next review October27; Fruitlands November2 earliest subject to later-contact checks.",
     "expansionTaskUpdate": "confirmed",
     "expandedRecipientCount": 8,
     "expansionConfirmedAt": "2026-10-22",
@@ -233,50 +233,19 @@
     }
   ],
   "lastRun": {
-    "runId": "shaker-story-press-2026-10-23",
-    "dateEastern": "2026-10-23",
-    "checkedAtUTC": "2026-10-23T14:12:03.538Z",
-    "sentThisRun": 0,
-    "status": "held_daily_cap",
-    "dailyCap": 3,
-    "verifiedResendMessagesTodayAtLeast": 5,
-    "verifiedInitialOutreachTodayAtLeast": 3,
-    "exactDailyTotalKnown": false,
-    "capEvidence": [
-      {
-        "organization": "Fortnum & Mason",
-        "recipient": "fortnumandmason@exposure.net",
-        "providerEmailId": "01a168e7-1537-777e-81b0-db438c9e43d3",
-        "sentAtUTC": "2026-10-23T13:15:37.362Z",
-        "status": "delivered",
-        "kind": "initial_editorial_sample_pitch"
-      },
-      {
-        "organization": "YJHAOTOU",
-        "recipient": "support@yjhaotou.com",
-        "providerEmailId": "01a167ff-551a-7e79-84e6-ff3bb061edaa",
-        "sentAtUTC": "2026-10-23T09:02:29.304Z",
-        "status": "delivered",
-        "kind": "initial_editorial_sample_pitch"
-      },
-      {
-        "organization": "EZVALO",
-        "recipient": "marketingus@ezvalo.com",
-        "providerEmailId": "01a167fe-7027-7134-92d5-ea76507274f2",
-        "sentAtUTC": "2026-10-23T09:01:30.736Z",
-        "status": "delivered",
-        "kind": "initial_editorial_sample_pitch"
-      }
-    ],
-    "reason": "Shared daily outreach cap is exhausted by actual messages from other workflows; no send or provider scheduling attempted.",
-    "nextReviewDateEastern": "2026-10-26",
-    "nextReviewWindowEastern": "09:00–11:00",
+    "runId": "shaker-story-press-2026-10-26",
+    "dateEastern": "2026-10-26",
+    "checkedAtUTC": "2026-10-26T14:38:10.790Z",
+    "acceptedThisRun": 1,
+    "deliveredConfirmedThisRun": 0,
+    "remainingUnsent": 7,
+    "status": "one_provider_queued_remaining_held",
+    "preflight": "Current AGENTS, full-plan constraints and current master log v50 reviewed; both Gmail accounts searched for Harvard organization aliases and story URL with no matches; 800 recent Resend rows reviewed through October22 with no Harvard matches, supplementing prior history checks. Exact suppression returned not found. Official Harvard Press contact corroborated by staff search and published PDF. Live canonical story returned HTTP200 with core story assets. Sender domain verified and sending enabled.",
+    "capacity": "Two other outreach replies sent today; conservatively counted under master log's total-outreach rule. This accepted pitch fills the third shared slot. No further sends today.",
+    "providerEmailId": "01a178a4-9686-70f5-8e77-0e7fc464dd85",
+    "nextReviewDateEastern": "2026-10-27",
     "rescheduledTaskConfirmed": true,
-    "taskId": "6ada8c2bf77481918a810e302c45b6b3",
-    "recipientChecks": "Current repository record and AGENTS.md read. Current full-plan monitor constraints and master-log rules read. Primary and Pinshare searches for initial three organizations and story URL returned no messages. Master-log exact domain/story search returned no match. Official Harvard staff/home pages retrieved. Full send-time suppression/contact/publication checks deferred because daily cap prohibits sending.",
-    "publicationCheck": "Search service could not retrieve the public story. No claim of current public-page verification; successful earlier deployment evidence is in the prior record, and publication must be reverified before sending.",
-    "fruitlands": "Preserve November 2 earliest eligible window and recheck all later Trustees contact before release.",
-    "coverage": "No coverage, repost or editorial acceptance confirmed.",
+    "coverage": "No coverage or repost confirmed.",
     "requiresUserAction": false
   },
   "runHistory": [
@@ -325,6 +294,22 @@
       "publicationCheck": "Search service could not retrieve the public story. No claim of current public-page verification; successful earlier deployment evidence is in the prior record, and publication must be reverified before sending.",
       "fruitlands": "Preserve November 2 earliest eligible window and recheck all later Trustees contact before release.",
       "coverage": "No coverage, repost or editorial acceptance confirmed.",
+      "requiresUserAction": false
+    },
+    {
+      "runId": "shaker-story-press-2026-10-26",
+      "dateEastern": "2026-10-26",
+      "checkedAtUTC": "2026-10-26T14:38:10.790Z",
+      "acceptedThisRun": 1,
+      "deliveredConfirmedThisRun": 0,
+      "remainingUnsent": 7,
+      "status": "one_provider_queued_remaining_held",
+      "preflight": "Current AGENTS, full-plan constraints and current master log v50 reviewed; both Gmail accounts searched for Harvard organization aliases and story URL with no matches; 800 recent Resend rows reviewed through October22 with no Harvard matches, supplementing prior history checks. Exact suppression returned not found. Official Harvard Press contact corroborated by staff search and published PDF. Live canonical story returned HTTP200 with core story assets. Sender domain verified and sending enabled.",
+      "capacity": "Two other outreach replies sent today; conservatively counted under master log's total-outreach rule. This accepted pitch fills the third shared slot. No further sends today.",
+      "providerEmailId": "01a178a4-9686-70f5-8e77-0e7fc464dd85",
+      "nextReviewDateEastern": "2026-10-27",
+      "rescheduledTaskConfirmed": true,
+      "coverage": "No coverage or repost confirmed.",
       "requiresUserAction": false
     }
   ]
