@@ -9,6 +9,14 @@ ROOT=Path(__file__).resolve().parents[1]
 def document(path):return html.fromstring((ROOT/path).read_text())
 
 class SiteExperience(unittest.TestCase):
+    def test_missing_page_has_clear_recovery_and_is_not_indexed(self):
+        doc=document('404.html')
+        self.assertEqual(len(doc.xpath('//*[@data-site-header]')),1)
+        self.assertEqual(len(doc.xpath('//*[@data-site-footer]')),1)
+        self.assertTrue(doc.xpath('//meta[@name="robots" and @content="noindex"]'))
+        self.assertTrue(doc.xpath('//main//a[@href="/library.html#library-search"]'))
+        self.assertNotIn('/404.html',{r['url'] for r in json.loads((ROOT/'data/page-directory.json').read_text())})
+
     def test_every_canonical_page_is_in_library_and_sitemap(self):
         rows=json.loads((ROOT/'data/page-directory.json').read_text())
         urls={row['url'] for row in rows}

@@ -53,7 +53,7 @@ def inventory(root,docs,chapters):
             if target.is_file() and canonical_path!=url:continue
         old=editorial.get(url,{})
         title_node=doc.xpath('//main//h1')[0]
-        for br in title_node.xpath('.//br'):br.tail=' '+(br.tail or '')
+        for br in title_node.xpath('.//br'):br.tail=' '+(br.tail or '').lstrip()
         title=clean(title_node.text_content())
         summary=next(iter(doc.xpath('//meta[@name="description"]/@content')),'')
         category=old.get('category','')
@@ -194,6 +194,19 @@ def prepare(root):
         for destination,label in [('follow.html','Follow the journal'),('reviews.html','Reviews & buying notes')]:
             if (root/destination).exists():etree.SubElement(footer_nav,'a',href='/'+destination).text=label
         (root/rel).write_text(render(doc))
+    # Error recovery uses the same navigation without entering the search inventory.
+    recovery=root/'404.html'
+    if recovery.exists():
+        doc=html.document_fromstring(recovery.read_text())
+        for node in doc.xpath('//meta[@name="robots"]'):node.getparent().remove(node)
+        etree.SubElement(doc.xpath('//head')[0],'meta',name='robots',content='noindex')
+        row={'url':'/404.html','section':'about','format':'Page','title':'Page not found'}
+        apply_shell(doc,'404.html',row,chapters)
+        for node in doc.xpath('//main//*[contains(concat(" ",@class," ")," lede ")]'):
+            node.text='Let’s find your way back. Search every story and guide, or choose a chapter above.'
+        for node in doc.xpath('//main//a[@href="/product-guides.html"]'):
+            node.set('href','/library.html#library-search');node.text='Search the whole site'
+        recovery.write_text(render(doc))
     (root/'data/page-directory.json').write_text(json.dumps(rows,ensure_ascii=False,separators=(',',':'))+'\n')
     # HTML and XML directory listings share the same canonical inventory.
     (root/'sitemap.xml').write_text('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'+''.join('<url><loc>https://anausomelife.com'+escape(r['url'])+'</loc></url>\n' for r in sorted(rows,key=lambda r:r['url']))+'</urlset>\n')
