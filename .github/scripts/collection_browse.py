@@ -35,6 +35,7 @@ def card(row,tags,config,docs,care=False):
     search_labels=[config['topics'][k] for k in tags['topics']]+[config['formats'][k] for k in tags.get('formats',[])]+[config['roles'][k] for k in tags.get('roles',[])]
     s+='<div class="aal-collection-copy" data-search-labels="'+e(' '.join(search_labels),quote=True)+'">'
     if care:s+='<p class="aal-collection-kind">'+e(' · '.join(config['roles'][k] for k in tags.get('roles',[])) or 'For every role')+'</p>'
+    if tags.get('byline'):s+='<p class="aal-collection-byline">'+e(tags['byline'])+'</p>'
     s+='<h3><a href="'+row['url']+'">'+e(row['title'])+'</a></h3><p>'+e(row['summary'])+'</p></div></article></li>'
     return s
 

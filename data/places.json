@@ -1,5 +1,23 @@
 [
   {
+    "slug": "kohinoor-indian-restaurant-mashpee",
+    "url": "/kohinoor-indian-restaurant-mashpee.html",
+    "title": "Kohinoor Indian Restaurant & Bar",
+    "summary": "Michael, James’s dad, reviews spicy vegetarian favorites and a warm welcome at this Mashpee restaurant, with James’s picture choice board.",
+    "image": "/assets/kohinoor/james-at-table.jpeg",
+    "location": "Mashpee, Cape Cod, Massachusetts",
+    "kind": "food indoors family"
+  },
+  {
+    "slug": "menauhant-beach-the-art-of-letting-go",
+    "url": "/menauhant-beach-the-art-of-letting-go.html",
+    "title": "Menauhant Beach",
+    "summary": "Michael, James’s dad, reflects on an October afternoon beside the ocean in Falmouth, with beach history, visiting notes and picture cards.",
+    "image": "/assets/menauhant/previews/IMG_0398.jpeg",
+    "location": "Falmouth, Cape Cod, Massachusetts",
+    "kind": "water outdoors family"
+  },
+  {
     "slug": "safe-haven-thrift-shop-wells-maine",
     "url": "/safe-haven-thrift-shop-wells-maine.html",
     "title": "Safe Haven’s thrift shop",

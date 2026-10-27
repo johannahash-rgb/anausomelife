@@ -16,7 +16,9 @@
     "travel": "Travel & stays",
     "home": "Home & everyday life",
     "history": "Art, history & culture",
-    "grandparents": "Grandparents & generations"
+    "grandparents": "Grandparents & generations",
+    "paternal-insights": "Paternal insights",
+    "ausome-heat": "AUsome Heat"
   },
   "entries": {
     "/thirty-nine-minutes-of-ausome-massachusetts-rmv.html": {
@@ -386,8 +388,12 @@
       "topics": [
         "places",
         "communication",
-        "food"
-      ]
+        "food",
+        "family-life",
+        "paternal-insights",
+        "ausome-heat"
+      ],
+      "byline": "Michael, James’s dad"
     },
     "/rangeley-grandparents-field-note.html": {
       "formats": [
@@ -601,8 +607,11 @@
         "places",
         "self-care",
         "nature",
-        "history"
-      ]
+        "history",
+        "family-life",
+        "paternal-insights"
+      ],
+      "byline": "Michael, James’s dad"
     },
     "/eight-oclock-colombian-peaks-field-note.html": {
       "formats": [

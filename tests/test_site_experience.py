@@ -61,6 +61,42 @@ class SiteExperience(unittest.TestCase):
         for anchor in ['choose','practical','caregiver-time','principles','others','handover','prompt']:
             self.assertEqual(len(doc.xpath('//*[@id=$id]',id=anchor)),1)
 
+    def test_michaels_stories_have_distinct_journal_and_caregiver_routes(self):
+        journal=json.loads((ROOT/'data/journal-taxonomy.json').read_text())
+        care=json.loads((ROOT/'data/caregiver-taxonomy.json').read_text())
+        food='/kohinoor-indian-restaurant-mashpee.html'
+        beach='/menauhant-beach-the-art-of-letting-go.html'
+        for url in [food,beach]:
+            self.assertIn('paternal-insights',journal['entries'][url]['topics'])
+            self.assertIn('places',journal['entries'][url]['topics'])
+            self.assertEqual(care['entries'][url]['roles'],['fathers'])
+            self.assertIn('paternal-insights',care['entries'][url]['topics'])
+            self.assertIn('outings',care['entries'][url]['topics'])
+            for page in ['blog.html','family-roles.html']:
+                cards=document(page).xpath('//*[@data-collection-card and @data-url=$url]',url=url)
+                self.assertEqual(len(cards),1)
+                self.assertIn('Michael, James’s dad',cards[0].text_content())
+            self.assertTrue(document('paternal-role.html').xpath('//*[@id="paternal-insights"]//a[@href=$url]',url=url))
+        self.assertIn('ausome-heat',journal['entries'][food]['topics'])
+        self.assertIn('food',journal['entries'][food]['topics'])
+        self.assertNotIn('ausome-heat',journal['entries'][beach]['topics'])
+        self.assertNotIn('food',journal['entries'][beach]['topics'])
+        self.assertIn('nature',journal['entries'][beach]['topics'])
+        self.assertIn('reflections',journal['entries'][beach]['formats'])
+        self.assertNotIn('paternal-insights',journal['entries']['/what-i-understood-at-the-beach.html']['topics'])
+
+    def test_michaels_places_are_in_the_existing_directory_and_search(self):
+        places={row['url']:row for row in json.loads((ROOT/'data/places.json').read_text())}
+        search={row['url']:row for row in json.loads((ROOT/'data/site-index.json').read_text())}
+        doc=document('favorite-places.html')
+        for url,kind in [('/kohinoor-indian-restaurant-mashpee.html','food'),('/menauhant-beach-the-art-of-letting-go.html','outdoors')]:
+            self.assertIn('Cape Cod',places[url]['location'])
+            rows=doc.xpath('//*[@data-place-kind][.//h2/a[@href=$url]]',url=url)
+            self.assertEqual(len(rows),1)
+            self.assertIn(kind,rows[0].get('data-place-kind').split())
+            self.assertIn('Paternal insights',search[url]['search'])
+            self.assertIn('Michael, James’s dad',search[url]['search'])
+
     def test_all_navigation_targets_and_art_exist(self):
         config=json.loads((ROOT/'data/site-structure.json').read_text())
         for chapter in config['chapters']:
