@@ -1,0 +1,65 @@
+{
+  "reviewed": "2026-10-27",
+  "page": "slotzilla-fremont-street-bucket-list-self-care.html",
+  "basis": "Owner requested publication of the firsthand story with these four supplied SlotZilla photographs. Original SlotZilla email authorized website use. Photographs were provided complimentary.",
+  "scope": "Original website article and its ordinary on-site preview. No Instagram/video use, redistribution, photo downloads or third-party social-image license is granted.",
+  "assets": [
+    {
+      "path": "assets/slotzilla/SlotZilla-13.jpg",
+      "source_filename": "SlotZilla-13.jpg",
+      "source_part": 3,
+      "sha256": "6c358dfa436b48d5b4f3b33249f6642edb8f942dff5dd23253059bec3ea98b63",
+      "dimensions": [
+        2700,
+        1800
+      ],
+      "alteration": "None; byte-identical authorized original."
+    },
+    {
+      "path": "assets/slotzilla/SlotZilla-04.jpg",
+      "source_filename": "SlotZilla-04.jpg",
+      "source_part": 2,
+      "sha256": "21340e32a566a3558674910fb9ba4c23f826723abaa0f0916be2b075040623f1",
+      "dimensions": [
+        2000,
+        1600
+      ],
+      "alteration": "None; byte-identical authorized original."
+    },
+    {
+      "path": "assets/slotzilla/SlotZilla-05.jpg",
+      "source_filename": "SlotZilla-05.jpg",
+      "source_part": 3,
+      "sha256": "5dd86394e20a6ffe8a9ba2f0220743e0046757849ad758e60dbee0e257df558f",
+      "dimensions": [
+        2000,
+        1600
+      ],
+      "alteration": "None; byte-identical authorized original."
+    },
+    {
+      "path": "assets/slotzilla/SlotZilla-06.jpg",
+      "source_filename": "SlotZilla-06.jpg",
+      "source_part": 2,
+      "sha256": "478688c5984df8567a2c297fb6004355d1f0255e072c344db1f31a27f5736104",
+      "dimensions": [
+        2000,
+        1600
+      ],
+      "alteration": "None; byte-identical authorized original."
+    }
+  ],
+  "scoped_organic_sharing_intent": {
+    "assets_only": [],
+    "scope": "Ordinary article links and the original written link-sharing captions only; no downloadable graphic or photograph is licensed."
+  },
+  "outputs": [],
+  "official_source": {
+    "url": "https://fremontstreetexperience.com/slotzilla-zip-line/",
+    "checked": "2026-10-27",
+    "supported_facts": [
+      "Zoom Line is the superhero-style ride",
+      "Five-block route"
+    ]
+  }
+}

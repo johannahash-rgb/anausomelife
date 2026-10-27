@@ -2479,6 +2479,21 @@
         "docs/rmv-dance-provenance.json"
       ],
       "selection_reason": "Owner-authorized documentary photograph extracted from the supplied screenshot, with an additional owner-approved 70-pixel bottom crop on 2026-10-27 to remove the mute icon. Every retained pixel is unchanged; both people remain intact. Personal social interface excluded."
+    },
+    "slotzilla-fremont-street-bucket-list-self-care.html": {
+      "image": "/assets/slotzilla/SlotZilla-13.jpg",
+      "alt": "The author flying belly-down on SlotZilla with her arms extended beneath the illuminated Fremont Street canopy.",
+      "width": 2700,
+      "height": 1800,
+      "mime": "image/jpeg",
+      "sha256": "6c358dfa436b48d5b4f3b33249f6642edb8f942dff5dd23253059bec3ea98b63",
+      "card": "summary_large_image",
+      "type": "article",
+      "kind": "photograph",
+      "provenance": [
+        "docs/slotzilla-publication-rights-2026-10-27.json"
+      ],
+      "selection_reason": "Authorized original SlotZilla night-flight photograph for the story and its ordinary editorial link preview. Visually reviewed; no crop, retouching or synthesis."
     }
   },
   "pending": {
