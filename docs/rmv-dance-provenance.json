@@ -7,78 +7,162 @@
       "path": "assets/rmv-dance/rmv-dance-01.png",
       "source_filename": "IMG_0402.jpeg",
       "source_sha256": "48d548923140ef4739e18dfaf8833c981234729ef2c6329be763ad30d2e24ada",
-      "sha256": "cbebd0724d5e874c59ce01b385f3f265751ff764ad14ebabd980af7e4bc2cf8a",
+      "sha256": "25acc5b104b7b5a35b5b6d7cd227997e4ae550538b44028ea03c63b9fd982f3f",
       "dimensions": [
         709,
-        885
+        815
       ],
-      "basis": "Owner-uploaded family photograph in a social screenshot; explicitly authorized for this story publication. Extracted only the photograph rectangle x=0,y=438,w=709,h=885, removing personal social-interface identifiers. Original photograph pixels and full photographic frame preserved; no face/body edits, invented content, or AI transformations. Other parties are not identified. No blanket third-party photo redistribution license."
+      "basis": "Owner-uploaded family photograph in a social screenshot; explicitly authorized for this story publication. Initially extracted only the photograph rectangle x=0,y=438,w=709,h=885, removing personal social-interface identifiers. On 2026-10-27, the owner approved an additional bottom-only crop of 70 pixels to remove the mute icon; retained rectangle x=0,y=0,w=709,h=815 of the prior published photograph. Every retained pixel is identical to the prior image. Both people remain intact; no face/body edits, resampling, color changes, invented content, or AI transformations. Other parties are not identified. No blanket third-party photo redistribution license.",
+      "pre_icon_removal_sha256": "cbebd0724d5e874c59ce01b385f3f265751ff764ad14ebabd980af7e4bc2cf8a",
+      "icon_removal_crop": {
+        "approved": "2026-10-27",
+        "rectangle_in_prior_image": [
+          0,
+          0,
+          709,
+          815
+        ],
+        "removed_bottom_pixels": 70,
+        "retained_pixels_identical": true
+      }
     },
     {
       "path": "assets/rmv-dance/rmv-dance-02.png",
       "source_filename": "IMG_0401.jpeg",
       "source_sha256": "28db7b796c4095f8070e97dc8ebde58a571380d50620dbc41d8dac4dcdd60725",
-      "sha256": "96a5febfaf1631603d77a18bbb8d81ba07c58042f99b1f6e0704ccf0206278ed",
+      "sha256": "6fec060f7e586aa5d1482afa1f03904deab934f644fb90b30c40cd41241509e1",
       "dimensions": [
         709,
-        885
+        815
       ],
-      "basis": "Owner-uploaded family photograph in a social screenshot; explicitly authorized for this story publication. Extracted only the photograph rectangle x=0,y=438,w=709,h=885, removing personal social-interface identifiers. Original photograph pixels and full photographic frame preserved; no face/body edits, invented content, or AI transformations. Other parties are not identified. No blanket third-party photo redistribution license."
+      "basis": "Owner-uploaded family photograph in a social screenshot; explicitly authorized for this story publication. Initially extracted only the photograph rectangle x=0,y=438,w=709,h=885, removing personal social-interface identifiers. On 2026-10-27, the owner approved an additional bottom-only crop of 70 pixels to remove the mute icon; retained rectangle x=0,y=0,w=709,h=815 of the prior published photograph. Every retained pixel is identical to the prior image. Both people remain intact; no face/body edits, resampling, color changes, invented content, or AI transformations. Other parties are not identified. No blanket third-party photo redistribution license.",
+      "pre_icon_removal_sha256": "96a5febfaf1631603d77a18bbb8d81ba07c58042f99b1f6e0704ccf0206278ed",
+      "icon_removal_crop": {
+        "approved": "2026-10-27",
+        "rectangle_in_prior_image": [
+          0,
+          0,
+          709,
+          815
+        ],
+        "removed_bottom_pixels": 70,
+        "retained_pixels_identical": true
+      }
     },
     {
       "path": "assets/rmv-dance/rmv-dance-03.png",
       "source_filename": "IMG_0400.jpeg",
       "source_sha256": "a2b2bc854e7cc49d13d13eae71a95d2f7805297e5f29fae370685f51f291c160",
-      "sha256": "d3fb161e10b788a1e04da1830d3b46c6ad38a3404748bad36c51dc12d3350380",
+      "sha256": "6ad2d3cb3d1b7ebde3a69412b2cb84079a17525e99898409667471a88f685fac",
       "dimensions": [
         709,
-        885
+        815
       ],
-      "basis": "Owner-uploaded family photograph in a social screenshot; explicitly authorized for this story publication. Extracted only the photograph rectangle x=0,y=438,w=709,h=885, removing personal social-interface identifiers. Original photograph pixels and full photographic frame preserved; no face/body edits, invented content, or AI transformations. Other parties are not identified. No blanket third-party photo redistribution license."
+      "basis": "Owner-uploaded family photograph in a social screenshot; explicitly authorized for this story publication. Initially extracted only the photograph rectangle x=0,y=438,w=709,h=885, removing personal social-interface identifiers. On 2026-10-27, the owner approved an additional bottom-only crop of 70 pixels to remove the mute icon; retained rectangle x=0,y=0,w=709,h=815 of the prior published photograph. Every retained pixel is identical to the prior image. Both people remain intact; no face/body edits, resampling, color changes, invented content, or AI transformations. Other parties are not identified. No blanket third-party photo redistribution license.",
+      "pre_icon_removal_sha256": "d3fb161e10b788a1e04da1830d3b46c6ad38a3404748bad36c51dc12d3350380",
+      "icon_removal_crop": {
+        "approved": "2026-10-27",
+        "rectangle_in_prior_image": [
+          0,
+          0,
+          709,
+          815
+        ],
+        "removed_bottom_pixels": 70,
+        "retained_pixels_identical": true
+      }
     },
     {
       "path": "assets/rmv-dance/rmv-dance-04.png",
       "source_filename": "IMG_0399.jpeg",
       "source_sha256": "cd9acbd61395a9f1420b0f9a90c27cabb34219de8a0a1fa46dcb965e4d61495c",
-      "sha256": "51f30e6a20a742d76578d13e276140c460581b17dc14d3ad03658484eebce0ff",
+      "sha256": "aee867ebc61450d57359561a735380ce6b3f928ac58bcf05d9046d51efadfb27",
       "dimensions": [
         709,
-        885
+        815
       ],
-      "basis": "Owner-uploaded family photograph in a social screenshot; explicitly authorized for this story publication. Extracted only the photograph rectangle x=0,y=438,w=709,h=885, removing personal social-interface identifiers. Original photograph pixels and full photographic frame preserved; no face/body edits, invented content, or AI transformations. Other parties are not identified. No blanket third-party photo redistribution license."
+      "basis": "Owner-uploaded family photograph in a social screenshot; explicitly authorized for this story publication. Initially extracted only the photograph rectangle x=0,y=438,w=709,h=885, removing personal social-interface identifiers. On 2026-10-27, the owner approved an additional bottom-only crop of 70 pixels to remove the mute icon; retained rectangle x=0,y=0,w=709,h=815 of the prior published photograph. Every retained pixel is identical to the prior image. Both people remain intact; no face/body edits, resampling, color changes, invented content, or AI transformations. Other parties are not identified. No blanket third-party photo redistribution license.",
+      "pre_icon_removal_sha256": "51f30e6a20a742d76578d13e276140c460581b17dc14d3ad03658484eebce0ff",
+      "icon_removal_crop": {
+        "approved": "2026-10-27",
+        "rectangle_in_prior_image": [
+          0,
+          0,
+          709,
+          815
+        ],
+        "removed_bottom_pixels": 70,
+        "retained_pixels_identical": true
+      }
     },
     {
       "path": "assets/rmv-dance/rmv-dance-05.png",
       "source_filename": "IMG_0398.jpeg",
       "source_sha256": "94d40768763b14fe6494a6ed0250fddc1183f71a397f7432cc47e1560eb97a99",
-      "sha256": "4400df85825c162660c7f5847c704ffa1f0a184bb194dde98044f9c70b3a7758",
+      "sha256": "98947370382604659f3dad1ff3ce1deb1d79b05f1a6d8d40c7eee944528a6a8b",
       "dimensions": [
         709,
-        885
+        815
       ],
-      "basis": "Owner-uploaded family photograph in a social screenshot; explicitly authorized for this story publication. Extracted only the photograph rectangle x=0,y=438,w=709,h=885, removing personal social-interface identifiers. Original photograph pixels and full photographic frame preserved; no face/body edits, invented content, or AI transformations. Other parties are not identified. No blanket third-party photo redistribution license."
+      "basis": "Owner-uploaded family photograph in a social screenshot; explicitly authorized for this story publication. Initially extracted only the photograph rectangle x=0,y=438,w=709,h=885, removing personal social-interface identifiers. On 2026-10-27, the owner approved an additional bottom-only crop of 70 pixels to remove the mute icon; retained rectangle x=0,y=0,w=709,h=815 of the prior published photograph. Every retained pixel is identical to the prior image. Both people remain intact; no face/body edits, resampling, color changes, invented content, or AI transformations. Other parties are not identified. No blanket third-party photo redistribution license.",
+      "pre_icon_removal_sha256": "4400df85825c162660c7f5847c704ffa1f0a184bb194dde98044f9c70b3a7758",
+      "icon_removal_crop": {
+        "approved": "2026-10-27",
+        "rectangle_in_prior_image": [
+          0,
+          0,
+          709,
+          815
+        ],
+        "removed_bottom_pixels": 70,
+        "retained_pixels_identical": true
+      }
     },
     {
       "path": "assets/rmv-dance/rmv-dance-06.png",
       "source_filename": "IMG_0397.jpeg",
       "source_sha256": "7e2ef42a777323ed4d4177492eb0b01bd7c7f0c0982b7ca81b1087183ac69471",
-      "sha256": "1371657a4bc9ebb6f14ff85b4ef66169961cdcbf989db524961181f1e82ee3ea",
+      "sha256": "37fdce9adc902ca03b5976a9818c7ebdec46b1a6cddee6cd3cd17f8cce4ac60a",
       "dimensions": [
         709,
-        885
+        815
       ],
-      "basis": "Owner-uploaded family photograph in a social screenshot; explicitly authorized for this story publication. Extracted only the photograph rectangle x=0,y=438,w=709,h=885, removing personal social-interface identifiers. Original photograph pixels and full photographic frame preserved; no face/body edits, invented content, or AI transformations. Other parties are not identified. No blanket third-party photo redistribution license."
+      "basis": "Owner-uploaded family photograph in a social screenshot; explicitly authorized for this story publication. Initially extracted only the photograph rectangle x=0,y=438,w=709,h=885, removing personal social-interface identifiers. On 2026-10-27, the owner approved an additional bottom-only crop of 70 pixels to remove the mute icon; retained rectangle x=0,y=0,w=709,h=815 of the prior published photograph. Every retained pixel is identical to the prior image. Both people remain intact; no face/body edits, resampling, color changes, invented content, or AI transformations. Other parties are not identified. No blanket third-party photo redistribution license.",
+      "pre_icon_removal_sha256": "1371657a4bc9ebb6f14ff85b4ef66169961cdcbf989db524961181f1e82ee3ea",
+      "icon_removal_crop": {
+        "approved": "2026-10-27",
+        "rectangle_in_prior_image": [
+          0,
+          0,
+          709,
+          815
+        ],
+        "removed_bottom_pixels": 70,
+        "retained_pixels_identical": true
+      }
     },
     {
       "path": "assets/rmv-dance/rmv-dance-07.png",
       "source_filename": "IMG_0396.jpeg",
       "source_sha256": "d1fab9b00d20d6085e793b8744e3e1d8d2564f4ea37aaaa63fb926b15dd4d25f",
-      "sha256": "ba30ac45ba795039120466c1f6673ed01ec7aedabeb995d65db77202917c58fd",
+      "sha256": "0c5e27374fc59d5c24a7df8e483a2fb44c6b74642d3353b60c5253eb99ede6a4",
       "dimensions": [
         709,
-        885
+        815
       ],
-      "basis": "Owner-uploaded family photograph in a social screenshot; explicitly authorized for this story publication. Extracted only the photograph rectangle x=0,y=438,w=709,h=885, removing personal social-interface identifiers. Original photograph pixels and full photographic frame preserved; no face/body edits, invented content, or AI transformations. Other parties are not identified. No blanket third-party photo redistribution license."
+      "basis": "Owner-uploaded family photograph in a social screenshot; explicitly authorized for this story publication. Initially extracted only the photograph rectangle x=0,y=438,w=709,h=885, removing personal social-interface identifiers. On 2026-10-27, the owner approved an additional bottom-only crop of 70 pixels to remove the mute icon; retained rectangle x=0,y=0,w=709,h=815 of the prior published photograph. Every retained pixel is identical to the prior image. Both people remain intact; no face/body edits, resampling, color changes, invented content, or AI transformations. Other parties are not identified. No blanket third-party photo redistribution license.",
+      "pre_icon_removal_sha256": "ba30ac45ba795039120466c1f6673ed01ec7aedabeb995d65db77202917c58fd",
+      "icon_removal_crop": {
+        "approved": "2026-10-27",
+        "rectangle_in_prior_image": [
+          0,
+          0,
+          709,
+          815
+        ],
+        "removed_bottom_pixels": 70,
+        "retained_pixels_identical": true
+      }
     }
   ],
   "scoped_organic_sharing_intent": {
@@ -91,6 +175,10 @@
     {
       "date": "2026-10-27",
       "basis": "Owner requested brief family health context and gratitude, then directed greater privacy and no pity framing. The final passage keeps only the broad timing, current seizure control and thanks to Mass General; it centers James’s participation and the shared dance. More detailed health history and dramatic before-and-after framing are omitted."
+    },
+    {
+      "date": "2026-10-27",
+      "basis": "Owner requested removal of the music icon from the bottoms of the seven photos and explicitly approved a simple bottom crop. Removed 70 bottom pixels only, with all retained pixels unchanged. Existing top-right carousel counters remain. Original source screenshots and prior image hashes retained in the provenance record."
     }
   ]
 }

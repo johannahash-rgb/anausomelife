@@ -2469,16 +2469,16 @@
       "image": "/assets/rmv-dance/rmv-dance-01.png",
       "alt": "James and a security guard dance with raised arms in a Massachusetts RMV waiting room.",
       "width": 709,
-      "height": 885,
+      "height": 815,
       "mime": "image/png",
-      "sha256": "cbebd0724d5e874c59ce01b385f3f265751ff764ad14ebabd980af7e4bc2cf8a",
+      "sha256": "25acc5b104b7b5a35b5b6d7cd227997e4ae550538b44028ea03c63b9fd982f3f",
       "card": "summary_large_image",
       "type": "article",
       "kind": "photograph",
       "provenance": [
         "docs/rmv-dance-provenance.json"
       ],
-      "selection_reason": "Owner-authorized documentary photograph extracted from the supplied screenshot; full photographic frame and pixels preserved, personal social interface excluded."
+      "selection_reason": "Owner-authorized documentary photograph extracted from the supplied screenshot, with an additional owner-approved 70-pixel bottom crop on 2026-10-27 to remove the mute icon. Every retained pixel is unchanged; both people remain intact. Personal social interface excluded."
     }
   },
   "pending": {
