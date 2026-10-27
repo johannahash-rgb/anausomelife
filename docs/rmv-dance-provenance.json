@@ -1,0 +1,90 @@
+{
+  "story": "thirty-nine-minutes-of-ausome-massachusetts-rmv.html",
+  "reviewed": "2026-10-26",
+  "editorial_basis": "Owner recollection and explicit publication/outreach authorization. Massachusetts RMV specified. Exact branch, event date, guard identity and whether music played remain unknown; no policy violation or causal therapeutic benefit claimed.",
+  "sources": [
+    {
+      "path": "assets/rmv-dance/rmv-dance-01.png",
+      "source_filename": "IMG_0402.jpeg",
+      "source_sha256": "48d548923140ef4739e18dfaf8833c981234729ef2c6329be763ad30d2e24ada",
+      "sha256": "cbebd0724d5e874c59ce01b385f3f265751ff764ad14ebabd980af7e4bc2cf8a",
+      "dimensions": [
+        709,
+        885
+      ],
+      "basis": "Owner-uploaded family photograph in a social screenshot; explicitly authorized for this story publication. Extracted only the photograph rectangle x=0,y=438,w=709,h=885, removing personal social-interface identifiers. Original photograph pixels and full photographic frame preserved; no face/body edits, invented content, or AI transformations. Other parties are not identified. No blanket third-party photo redistribution license."
+    },
+    {
+      "path": "assets/rmv-dance/rmv-dance-02.png",
+      "source_filename": "IMG_0401.jpeg",
+      "source_sha256": "28db7b796c4095f8070e97dc8ebde58a571380d50620dbc41d8dac4dcdd60725",
+      "sha256": "96a5febfaf1631603d77a18bbb8d81ba07c58042f99b1f6e0704ccf0206278ed",
+      "dimensions": [
+        709,
+        885
+      ],
+      "basis": "Owner-uploaded family photograph in a social screenshot; explicitly authorized for this story publication. Extracted only the photograph rectangle x=0,y=438,w=709,h=885, removing personal social-interface identifiers. Original photograph pixels and full photographic frame preserved; no face/body edits, invented content, or AI transformations. Other parties are not identified. No blanket third-party photo redistribution license."
+    },
+    {
+      "path": "assets/rmv-dance/rmv-dance-03.png",
+      "source_filename": "IMG_0400.jpeg",
+      "source_sha256": "a2b2bc854e7cc49d13d13eae71a95d2f7805297e5f29fae370685f51f291c160",
+      "sha256": "d3fb161e10b788a1e04da1830d3b46c6ad38a3404748bad36c51dc12d3350380",
+      "dimensions": [
+        709,
+        885
+      ],
+      "basis": "Owner-uploaded family photograph in a social screenshot; explicitly authorized for this story publication. Extracted only the photograph rectangle x=0,y=438,w=709,h=885, removing personal social-interface identifiers. Original photograph pixels and full photographic frame preserved; no face/body edits, invented content, or AI transformations. Other parties are not identified. No blanket third-party photo redistribution license."
+    },
+    {
+      "path": "assets/rmv-dance/rmv-dance-04.png",
+      "source_filename": "IMG_0399.jpeg",
+      "source_sha256": "cd9acbd61395a9f1420b0f9a90c27cabb34219de8a0a1fa46dcb965e4d61495c",
+      "sha256": "51f30e6a20a742d76578d13e276140c460581b17dc14d3ad03658484eebce0ff",
+      "dimensions": [
+        709,
+        885
+      ],
+      "basis": "Owner-uploaded family photograph in a social screenshot; explicitly authorized for this story publication. Extracted only the photograph rectangle x=0,y=438,w=709,h=885, removing personal social-interface identifiers. Original photograph pixels and full photographic frame preserved; no face/body edits, invented content, or AI transformations. Other parties are not identified. No blanket third-party photo redistribution license."
+    },
+    {
+      "path": "assets/rmv-dance/rmv-dance-05.png",
+      "source_filename": "IMG_0398.jpeg",
+      "source_sha256": "94d40768763b14fe6494a6ed0250fddc1183f71a397f7432cc47e1560eb97a99",
+      "sha256": "4400df85825c162660c7f5847c704ffa1f0a184bb194dde98044f9c70b3a7758",
+      "dimensions": [
+        709,
+        885
+      ],
+      "basis": "Owner-uploaded family photograph in a social screenshot; explicitly authorized for this story publication. Extracted only the photograph rectangle x=0,y=438,w=709,h=885, removing personal social-interface identifiers. Original photograph pixels and full photographic frame preserved; no face/body edits, invented content, or AI transformations. Other parties are not identified. No blanket third-party photo redistribution license."
+    },
+    {
+      "path": "assets/rmv-dance/rmv-dance-06.png",
+      "source_filename": "IMG_0397.jpeg",
+      "source_sha256": "7e2ef42a777323ed4d4177492eb0b01bd7c7f0c0982b7ca81b1087183ac69471",
+      "sha256": "1371657a4bc9ebb6f14ff85b4ef66169961cdcbf989db524961181f1e82ee3ea",
+      "dimensions": [
+        709,
+        885
+      ],
+      "basis": "Owner-uploaded family photograph in a social screenshot; explicitly authorized for this story publication. Extracted only the photograph rectangle x=0,y=438,w=709,h=885, removing personal social-interface identifiers. Original photograph pixels and full photographic frame preserved; no face/body edits, invented content, or AI transformations. Other parties are not identified. No blanket third-party photo redistribution license."
+    },
+    {
+      "path": "assets/rmv-dance/rmv-dance-07.png",
+      "source_filename": "IMG_0396.jpeg",
+      "source_sha256": "d1fab9b00d20d6085e793b8744e3e1d8d2564f4ea37aaaa63fb926b15dd4d25f",
+      "sha256": "ba30ac45ba795039120466c1f6673ed01ec7aedabeb995d65db77202917c58fd",
+      "dimensions": [
+        709,
+        885
+      ],
+      "basis": "Owner-uploaded family photograph in a social screenshot; explicitly authorized for this story publication. Extracted only the photograph rectangle x=0,y=438,w=709,h=885, removing personal social-interface identifiers. Original photograph pixels and full photographic frame preserved; no face/body edits, invented content, or AI transformations. Other parties are not identified. No blanket third-party photo redistribution license."
+    }
+  ],
+  "scoped_organic_sharing_intent": {
+    "assets_only": [],
+    "scope": "Article-link and supplied-caption sharing with An AUsome Life credit; photo reuse and full republication by arrangement. No paid-media or blanket family-photo license."
+  },
+  "outputs": [],
+  "package_scope": "Personal reflection with seven documentary photographs and authored text sharing package."
+}

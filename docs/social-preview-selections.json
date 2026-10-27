@@ -2464,6 +2464,21 @@
         "docs/beach-gratitude-provenance.json"
       ],
       "selection_reason": "Unchanged owner-supplied photograph from the beach moment in the story; whole documentary image, with no retouching, synthesis or third-party photo-reuse permission."
+    },
+    "thirty-nine-minutes-of-ausome-massachusetts-rmv.html": {
+      "image": "/assets/rmv-dance/rmv-dance-01.png",
+      "alt": "James and a security guard dance with raised arms in a Massachusetts RMV waiting room.",
+      "width": 709,
+      "height": 885,
+      "mime": "image/png",
+      "sha256": "cbebd0724d5e874c59ce01b385f3f265751ff764ad14ebabd980af7e4bc2cf8a",
+      "card": "summary_large_image",
+      "type": "article",
+      "kind": "photograph",
+      "provenance": [
+        "docs/rmv-dance-provenance.json"
+      ],
+      "selection_reason": "Owner-authorized documentary photograph extracted from the supplied screenshot; full photographic frame and pixels preserved, personal social interface excluded."
     }
   },
   "pending": {
