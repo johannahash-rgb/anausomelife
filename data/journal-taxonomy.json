@@ -651,6 +651,17 @@
       "topics": [
         "places"
       ]
+    },
+    "/the-beautiful-art-of-going-to-the-mall.html": {
+      "formats": [
+        "journal-posts",
+        "reflections"
+      ],
+      "topics": [
+        "places",
+        "family-life",
+        "communication"
+      ]
     }
   }
 }
