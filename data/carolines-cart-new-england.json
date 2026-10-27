@@ -1,45 +1,48 @@
 {
-  "updated": "2026-10-15",
-  "scope": "165 selected New England locations. Retailer-wide policies and historical reports are leads, not live inventory or verified branch availability; no branch was contacted for this directory.",
+  "updated": "2026-10-27",
+  "scope": "175 selected New England locations. Official store addresses and phone numbers checked October 27, 2026. Retailer-wide policies and historical reports are leads, not live inventory or verified branch availability; no branch was contacted for this directory.",
   "sources": {
     "walmart": {
       "title": "Walmart: accessible shopping",
       "url": "https://corporate.walmart.com/purpose/making-shopping-more-accessible-for-everyone",
       "date": null,
       "summary": "Walmart says all its U.S. stores provide Caroline’s Carts. These listings combine that chain-wide policy with official store contact details; no branch has been called for this edition.",
-      "checked": "2026-10-09"
+      "checked": "2026-10-27"
     },
     "wegmans": {
       "title": "Wegmans: specialized services",
       "url": "https://www.wegmans.com/service/specialized-services-at-wegmans",
       "date": null,
       "summary": "Wegmans lists Caroline’s Carts among the specialized shopping carts provided at all its stores. This retailer-wide statement does not confirm same-day availability, position or condition at an individual location.",
-      "checked": "2026-10-09"
+      "checked": "2026-10-27"
     },
     "bigy": {
       "title": "I-95: Connecticut cart locations",
       "url": "https://i95rock.com/carolines-cart-makes-shopping-easier-for-kids-with-special-needs-video/",
       "date": "2016-06-04",
-      "summary": "A June 2016 local report names five Big Y towns. Current Big Y contact listings identify the branches below. Cart availability needs a fresh check."
+      "summary": "A June 2016 local report names five Big Y towns. Current Big Y contact listings identify the branches below. Cart availability needs a fresh check.",
+      "checked": "2026-10-27"
     },
     "wilmington": {
       "title": "Wilmington Apple: Target cart rollout",
       "url": "https://wilmingtonapple.com/2016/02/06/target-to-offer-carolines-carts-designed-for-special-needs-shoppers/",
       "date": "2016-02-06",
-      "summary": "A February 2016 report specifically includes Wilmington in the planned Target rollout. This is historical evidence, not current cart inventory."
+      "summary": "A February 2016 report specifically includes Wilmington in the planned Target rollout. This is historical evidence, not current cart inventory.",
+      "checked": "2026-10-27"
     },
     "ansonia": {
       "title": "Lawrence Berliner: Ansonia Target cart report",
       "url": "https://www.berlinerspecialedlaw.com/news-you-can-use/conn-stores-using-carolines-cart-cart-designed-children-and-adults-special-needs/",
       "date": "2016",
-      "summary": "This resource points to April 2016 coverage of a cart at Ansonia Target and the former Caroline’s Cart Connecticut directory. Reconfirmation is needed."
+      "summary": "This resource points to April 2016 coverage of a cart at Ansonia Target and the former Caroline’s Cart Connecticut directory. Reconfirmation is needed.",
+      "checked": "2026-10-27"
     },
     "target-chain": {
       "title": "Target: chain report and rollout context",
       "url": "https://idrpp.usu.edu/uatp/blog/2025/carolines-cart",
       "date": "2025-04-14",
       "supporting_url": "https://corporate.target.com/news-features/article/2016/02/carolines-cart",
-      "checked": "2026-10-05",
+      "checked": "2026-10-27",
       "summary": "Utah State University names Target as a retailer carrying Caroline’s Cart in April 2025, without identifying branches. Target’s 2016 rollout excluded some small stores. These ten additional locations are call-ahead leads with current store contact details, not confirmed cart locations."
     },
     "shoprite-chain": {
@@ -47,7 +50,7 @@
       "url": "https://www.prweb.com/releases/shoprite_unveils_caroline_s_carts_in_more_than_250_stores/prweb11907119.htm",
       "date": "2014",
       "supporting_url": "https://cingarifamilymarkets.com/locations/",
-      "checked": "2026-10-15",
+      "checked": "2026-10-27",
       "summary": "ShopRite announced a rollout to more than 250 stores in 2014. These ten current Cingari Family Markets branches are call-ahead leads, not individually confirmed cart locations; some may have opened after the rollout. The current official directory verifies store contacts only. Ask the branch whether a Caroline’s Cart is present, working and available."
     }
   },
@@ -66,7 +69,8 @@
       "store_contacted": null,
       "cart_location": null,
       "cart_count": null,
-      "availability": "Not confirmed with this branch"
+      "availability": "Not confirmed with this branch",
+      "contact_checked": "2026-10-27"
     },
     {
       "id": "walmart-2899",
@@ -82,7 +86,8 @@
       "store_contacted": null,
       "cart_location": null,
       "cart_count": null,
-      "availability": "Not confirmed with this branch"
+      "availability": "Not confirmed with this branch",
+      "contact_checked": "2026-10-27"
     },
     {
       "id": "bigy-bethel",
@@ -91,14 +96,15 @@
       "state": "CT",
       "address": "83 Stony Hill Road, Bethel, CT 06801",
       "phone": "203-791-8589",
-      "store_url": "https://www.bigy.com/store-locator",
+      "store_url": "https://www.bigy.com/store-locator/83-stony-hill-road-82",
       "evidence": "bigy",
       "status": "historical",
       "source_checked": "2026-10-04",
       "store_contacted": null,
       "cart_location": null,
       "cart_count": null,
-      "availability": "Not confirmed with this branch"
+      "availability": "Not confirmed with this branch",
+      "contact_checked": "2026-10-27"
     },
     {
       "id": "walmart-2232",
@@ -114,7 +120,8 @@
       "store_contacted": null,
       "cart_location": null,
       "cart_count": null,
-      "availability": "Not confirmed with this branch"
+      "availability": "Not confirmed with this branch",
+      "contact_checked": "2026-10-27"
     },
     {
       "id": "walmart-2719",
@@ -130,7 +137,8 @@
       "store_contacted": null,
       "cart_location": null,
       "cart_count": null,
-      "availability": "Not confirmed with this branch"
+      "availability": "Not confirmed with this branch",
+      "contact_checked": "2026-10-27"
     },
     {
       "id": "walmart-5777",
@@ -146,7 +154,8 @@
       "store_contacted": null,
       "cart_location": null,
       "cart_count": null,
-      "availability": "Not confirmed with this branch"
+      "availability": "Not confirmed with this branch",
+      "contact_checked": "2026-10-27"
     },
     {
       "id": "walmart-2299",
@@ -162,7 +171,8 @@
       "store_contacted": null,
       "cart_location": null,
       "cart_count": null,
-      "availability": "Not confirmed with this branch"
+      "availability": "Not confirmed with this branch",
+      "contact_checked": "2026-10-27"
     },
     {
       "id": "walmart-3543",
@@ -178,7 +188,8 @@
       "store_contacted": null,
       "cart_location": null,
       "cart_count": null,
-      "availability": "Not confirmed with this branch"
+      "availability": "Not confirmed with this branch",
+      "contact_checked": "2026-10-27"
     },
     {
       "id": "walmart-2282",
@@ -194,7 +205,8 @@
       "store_contacted": null,
       "cart_location": null,
       "cart_count": null,
-      "availability": "Not confirmed with this branch"
+      "availability": "Not confirmed with this branch",
+      "contact_checked": "2026-10-27"
     },
     {
       "id": "walmart-2200",
@@ -210,7 +222,8 @@
       "store_contacted": null,
       "cart_location": null,
       "cart_count": null,
-      "availability": "Not confirmed with this branch"
+      "availability": "Not confirmed with this branch",
+      "contact_checked": "2026-10-27"
     },
     {
       "id": "walmart-3545",
@@ -226,7 +239,8 @@
       "store_contacted": null,
       "cart_location": null,
       "cart_count": null,
-      "availability": "Not confirmed with this branch"
+      "availability": "Not confirmed with this branch",
+      "contact_checked": "2026-10-27"
     },
     {
       "id": "walmart-5095",
@@ -242,7 +256,8 @@
       "store_contacted": null,
       "cart_location": null,
       "cart_count": null,
-      "availability": "Not confirmed with this branch"
+      "availability": "Not confirmed with this branch",
+      "contact_checked": "2026-10-27"
     },
     {
       "id": "walmart-2854",
@@ -258,7 +273,8 @@
       "store_contacted": null,
       "cart_location": null,
       "cart_count": null,
-      "availability": "Not confirmed with this branch"
+      "availability": "Not confirmed with this branch",
+      "contact_checked": "2026-10-27"
     },
     {
       "id": "target-1249",
@@ -274,7 +290,8 @@
       "store_contacted": null,
       "cart_location": null,
       "cart_count": null,
-      "availability": "Not confirmed with this branch"
+      "availability": "Not confirmed with this branch",
+      "contact_checked": "2026-10-27"
     },
     {
       "id": "walmart-1891",
@@ -290,7 +307,8 @@
       "store_contacted": null,
       "cart_location": null,
       "cart_count": null,
-      "availability": "Not confirmed with this branch"
+      "availability": "Not confirmed with this branch",
+      "contact_checked": "2026-10-27"
     },
     {
       "id": "walmart-5294",
@@ -306,7 +324,8 @@
       "store_contacted": null,
       "cart_location": null,
       "cart_count": null,
-      "availability": "Not confirmed with this branch"
+      "availability": "Not confirmed with this branch",
+      "contact_checked": "2026-10-27"
     },
     {
       "id": "bigy-monroe",
@@ -322,7 +341,8 @@
       "store_contacted": null,
       "cart_location": null,
       "cart_count": null,
-      "availability": "Not confirmed with this branch"
+      "availability": "Not confirmed with this branch",
+      "contact_checked": "2026-10-27"
     },
     {
       "id": "bigy-naugatuck",
@@ -338,7 +358,8 @@
       "store_contacted": null,
       "cart_location": null,
       "cart_count": null,
-      "availability": "Not confirmed with this branch"
+      "availability": "Not confirmed with this branch",
+      "contact_checked": "2026-10-27"
     },
     {
       "id": "walmart-2284",
@@ -354,7 +375,8 @@
       "store_contacted": null,
       "cart_location": null,
       "cart_count": null,
-      "availability": "Not confirmed with this branch"
+      "availability": "Not confirmed with this branch",
+      "contact_checked": "2026-10-27"
     },
     {
       "id": "walmart-5439",
@@ -370,7 +392,8 @@
       "store_contacted": null,
       "cart_location": null,
       "cart_count": null,
-      "availability": "Not confirmed with this branch"
+      "availability": "Not confirmed with this branch",
+      "contact_checked": "2026-10-27"
     },
     {
       "id": "bigy-new-milford",
@@ -386,7 +409,8 @@
       "store_contacted": null,
       "cart_location": null,
       "cart_count": null,
-      "availability": "Not confirmed with this branch"
+      "availability": "Not confirmed with this branch",
+      "contact_checked": "2026-10-27"
     },
     {
       "id": "walmart-3546",
@@ -402,7 +426,8 @@
       "store_contacted": null,
       "cart_location": null,
       "cart_count": null,
-      "availability": "Not confirmed with this branch"
+      "availability": "Not confirmed with this branch",
+      "contact_checked": "2026-10-27"
     },
     {
       "id": "walmart-2965",
@@ -418,7 +443,8 @@
       "store_contacted": null,
       "cart_location": null,
       "cart_count": null,
-      "availability": "Not confirmed with this branch"
+      "availability": "Not confirmed with this branch",
+      "contact_checked": "2026-10-27"
     },
     {
       "id": "bigy-newtown",
@@ -427,14 +453,15 @@
       "state": "CT",
       "address": "6 Queen Street, Newtown, CT 06470",
       "phone": "203-270-7838",
-      "store_url": "https://www.bigy.com/store-locator",
+      "store_url": "https://www.bigy.com/store-locator/6-queen-street-49",
       "evidence": "bigy",
       "status": "historical",
       "source_checked": "2026-10-04",
       "store_contacted": null,
       "cart_location": null,
       "cart_count": null,
-      "availability": "Not confirmed with this branch"
+      "availability": "Not confirmed with this branch",
+      "contact_checked": "2026-10-27"
     },
     {
       "id": "walmart-2022",
@@ -450,7 +477,8 @@
       "store_contacted": null,
       "cart_location": null,
       "cart_count": null,
-      "availability": "Not confirmed with this branch"
+      "availability": "Not confirmed with this branch",
+      "contact_checked": "2026-10-27"
     },
     {
       "id": "walmart-2954",
@@ -466,7 +494,8 @@
       "store_contacted": null,
       "cart_location": null,
       "cart_count": null,
-      "availability": "Not confirmed with this branch"
+      "availability": "Not confirmed with this branch",
+      "contact_checked": "2026-10-27"
     },
     {
       "id": "wegmans-norwalk",
@@ -482,7 +511,8 @@
       "store_contacted": null,
       "cart_location": null,
       "cart_count": null,
-      "availability": "Not confirmed with this branch"
+      "availability": "Not confirmed with this branch",
+      "contact_checked": "2026-10-27"
     },
     {
       "id": "walmart-2170",
@@ -498,7 +528,8 @@
       "store_contacted": null,
       "cart_location": null,
       "cart_count": null,
-      "availability": "Not confirmed with this branch"
+      "availability": "Not confirmed with this branch",
+      "contact_checked": "2026-10-27"
     },
     {
       "id": "walmart-2898",
@@ -514,7 +545,8 @@
       "store_contacted": null,
       "cart_location": null,
       "cart_count": null,
-      "availability": "Not confirmed with this branch"
+      "availability": "Not confirmed with this branch",
+      "contact_checked": "2026-10-27"
     },
     {
       "id": "walmart-1980",
@@ -530,7 +562,8 @@
       "store_contacted": null,
       "cart_location": null,
       "cart_count": null,
-      "availability": "Not confirmed with this branch"
+      "availability": "Not confirmed with this branch",
+      "contact_checked": "2026-10-27"
     },
     {
       "id": "walmart-2900",
@@ -546,7 +579,8 @@
       "store_contacted": null,
       "cart_location": null,
       "cart_count": null,
-      "availability": "Not confirmed with this branch"
+      "availability": "Not confirmed with this branch",
+      "contact_checked": "2026-10-27"
     },
     {
       "id": "walmart-2163",
@@ -562,7 +596,8 @@
       "store_contacted": null,
       "cart_location": null,
       "cart_count": null,
-      "availability": "Not confirmed with this branch"
+      "availability": "Not confirmed with this branch",
+      "contact_checked": "2026-10-27"
     },
     {
       "id": "walmart-2897",
@@ -578,7 +613,8 @@
       "store_contacted": null,
       "cart_location": null,
       "cart_count": null,
-      "availability": "Not confirmed with this branch"
+      "availability": "Not confirmed with this branch",
+      "contact_checked": "2026-10-27"
     },
     {
       "id": "walmart-2585",
@@ -594,7 +630,8 @@
       "store_contacted": null,
       "cart_location": null,
       "cart_count": null,
-      "availability": "Not confirmed with this branch"
+      "availability": "Not confirmed with this branch",
+      "contact_checked": "2026-10-27"
     },
     {
       "id": "walmart-2144",
@@ -610,7 +647,8 @@
       "store_contacted": null,
       "cart_location": null,
       "cart_count": null,
-      "availability": "Not confirmed with this branch"
+      "availability": "Not confirmed with this branch",
+      "contact_checked": "2026-10-27"
     },
     {
       "id": "walmart-2371",
@@ -626,7 +664,8 @@
       "store_contacted": null,
       "cart_location": null,
       "cart_count": null,
-      "availability": "Not confirmed with this branch"
+      "availability": "Not confirmed with this branch",
+      "contact_checked": "2026-10-27"
     },
     {
       "id": "walmart-3548",
@@ -642,7 +681,8 @@
       "store_contacted": null,
       "cart_location": null,
       "cart_count": null,
-      "availability": "Not confirmed with this branch"
+      "availability": "Not confirmed with this branch",
+      "contact_checked": "2026-10-27"
     },
     {
       "id": "walmart-2331",
@@ -658,7 +698,8 @@
       "store_contacted": null,
       "cart_location": null,
       "cart_count": null,
-      "availability": "Not confirmed with this branch"
+      "availability": "Not confirmed with this branch",
+      "contact_checked": "2026-10-27"
     },
     {
       "id": "walmart-3803",
@@ -674,7 +715,8 @@
       "store_contacted": null,
       "cart_location": null,
       "cart_count": null,
-      "availability": "Not confirmed with this branch"
+      "availability": "Not confirmed with this branch",
+      "contact_checked": "2026-10-27"
     },
     {
       "id": "walmart-1868",
@@ -690,7 +732,8 @@
       "store_contacted": null,
       "cart_location": null,
       "cart_count": null,
-      "availability": "Not confirmed with this branch"
+      "availability": "Not confirmed with this branch",
+      "contact_checked": "2026-10-27"
     },
     {
       "id": "walmart-2046",
@@ -706,7 +749,8 @@
       "store_contacted": null,
       "cart_location": null,
       "cart_count": null,
-      "availability": "Not confirmed with this branch"
+      "availability": "Not confirmed with this branch",
+      "contact_checked": "2026-10-27"
     },
     {
       "id": "walmart-1856",
@@ -722,7 +766,8 @@
       "store_contacted": null,
       "cart_location": null,
       "cart_count": null,
-      "availability": "Not confirmed with this branch"
+      "availability": "Not confirmed with this branch",
+      "contact_checked": "2026-10-27"
     },
     {
       "id": "walmart-2153",
@@ -738,7 +783,8 @@
       "store_contacted": null,
       "cart_location": null,
       "cart_count": null,
-      "availability": "Not confirmed with this branch"
+      "availability": "Not confirmed with this branch",
+      "contact_checked": "2026-10-27"
     },
     {
       "id": "walmart-5076",
@@ -754,7 +800,8 @@
       "store_contacted": null,
       "cart_location": null,
       "cart_count": null,
-      "availability": "Not confirmed with this branch"
+      "availability": "Not confirmed with this branch",
+      "contact_checked": "2026-10-27"
     },
     {
       "id": "walmart-1939",
@@ -770,7 +817,8 @@
       "store_contacted": null,
       "cart_location": null,
       "cart_count": null,
-      "availability": "Not confirmed with this branch"
+      "availability": "Not confirmed with this branch",
+      "contact_checked": "2026-10-27"
     },
     {
       "id": "walmart-2178",
@@ -786,7 +834,8 @@
       "store_contacted": null,
       "cart_location": null,
       "cart_count": null,
-      "availability": "Not confirmed with this branch"
+      "availability": "Not confirmed with this branch",
+      "contact_checked": "2026-10-27"
     },
     {
       "id": "walmart-1932",
@@ -802,7 +851,8 @@
       "store_contacted": null,
       "cart_location": null,
       "cart_count": null,
-      "availability": "Not confirmed with this branch"
+      "availability": "Not confirmed with this branch",
+      "contact_checked": "2026-10-27"
     },
     {
       "id": "walmart-2659",
@@ -818,7 +868,8 @@
       "store_contacted": null,
       "cart_location": null,
       "cart_count": null,
-      "availability": "Not confirmed with this branch"
+      "availability": "Not confirmed with this branch",
+      "contact_checked": "2026-10-27"
     },
     {
       "id": "walmart-1866",
@@ -834,7 +885,8 @@
       "store_contacted": null,
       "cart_location": null,
       "cart_count": null,
-      "availability": "Not confirmed with this branch"
+      "availability": "Not confirmed with this branch",
+      "contact_checked": "2026-10-27"
     },
     {
       "id": "walmart-1974",
@@ -850,7 +902,8 @@
       "store_contacted": null,
       "cart_location": null,
       "cart_count": null,
-      "availability": "Not confirmed with this branch"
+      "availability": "Not confirmed with this branch",
+      "contact_checked": "2026-10-27"
     },
     {
       "id": "walmart-1919",
@@ -866,7 +919,8 @@
       "store_contacted": null,
       "cart_location": null,
       "cart_count": null,
-      "availability": "Not confirmed with this branch"
+      "availability": "Not confirmed with this branch",
+      "contact_checked": "2026-10-27"
     },
     {
       "id": "walmart-3269",
@@ -882,7 +936,8 @@
       "store_contacted": null,
       "cart_location": null,
       "cart_count": null,
-      "availability": "Not confirmed with this branch"
+      "availability": "Not confirmed with this branch",
+      "contact_checked": "2026-10-27"
     },
     {
       "id": "walmart-2183",
@@ -898,7 +953,8 @@
       "store_contacted": null,
       "cart_location": null,
       "cart_count": null,
-      "availability": "Not confirmed with this branch"
+      "availability": "Not confirmed with this branch",
+      "contact_checked": "2026-10-27"
     },
     {
       "id": "walmart-2047",
@@ -914,7 +970,8 @@
       "store_contacted": null,
       "cart_location": null,
       "cart_count": null,
-      "availability": "Not confirmed with this branch"
+      "availability": "Not confirmed with this branch",
+      "contact_checked": "2026-10-27"
     },
     {
       "id": "walmart-1924",
@@ -930,7 +987,8 @@
       "store_contacted": null,
       "cart_location": null,
       "cart_count": null,
-      "availability": "Not confirmed with this branch"
+      "availability": "Not confirmed with this branch",
+      "contact_checked": "2026-10-27"
     },
     {
       "id": "walmart-1954",
@@ -946,7 +1004,8 @@
       "store_contacted": null,
       "cart_location": null,
       "cart_count": null,
-      "availability": "Not confirmed with this branch"
+      "availability": "Not confirmed with this branch",
+      "contact_checked": "2026-10-27"
     },
     {
       "id": "walmart-1788",
@@ -962,7 +1021,8 @@
       "store_contacted": null,
       "cart_location": null,
       "cart_count": null,
-      "availability": "Not confirmed with this branch"
+      "availability": "Not confirmed with this branch",
+      "contact_checked": "2026-10-27"
     },
     {
       "id": "walmart-2143",
@@ -978,7 +1038,8 @@
       "store_contacted": null,
       "cart_location": null,
       "cart_count": null,
-      "availability": "Not confirmed with this branch"
+      "availability": "Not confirmed with this branch",
+      "contact_checked": "2026-10-27"
     },
     {
       "id": "target-1338",
@@ -994,7 +1055,8 @@
       "store_contacted": null,
       "cart_location": null,
       "cart_count": null,
-      "availability": "Not confirmed with this branch"
+      "availability": "Not confirmed with this branch",
+      "contact_checked": "2026-10-27"
     },
     {
       "id": "walmart-1797",
@@ -1010,7 +1072,8 @@
       "store_contacted": null,
       "cart_location": null,
       "cart_count": null,
-      "availability": "Not confirmed with this branch"
+      "availability": "Not confirmed with this branch",
+      "contact_checked": "2026-10-27"
     },
     {
       "id": "walmart-2013",
@@ -1026,7 +1089,8 @@
       "store_contacted": null,
       "cart_location": null,
       "cart_count": null,
-      "availability": "Not confirmed with this branch"
+      "availability": "Not confirmed with this branch",
+      "contact_checked": "2026-10-27"
     },
     {
       "id": "walmart-2202",
@@ -1042,7 +1106,8 @@
       "store_contacted": null,
       "cart_location": null,
       "cart_count": null,
-      "availability": "Not confirmed with this branch"
+      "availability": "Not confirmed with this branch",
+      "contact_checked": "2026-10-27"
     },
     {
       "id": "walmart-2227",
@@ -1058,7 +1123,8 @@
       "store_contacted": null,
       "cart_location": null,
       "cart_count": null,
-      "availability": "Not confirmed with this branch"
+      "availability": "Not confirmed with this branch",
+      "contact_checked": "2026-10-27"
     },
     {
       "id": "walmart-2122",
@@ -1074,7 +1140,8 @@
       "store_contacted": null,
       "cart_location": null,
       "cart_count": null,
-      "availability": "Not confirmed with this branch"
+      "availability": "Not confirmed with this branch",
+      "contact_checked": "2026-10-27"
     },
     {
       "id": "walmart-1918",
@@ -1090,7 +1157,8 @@
       "store_contacted": null,
       "cart_location": null,
       "cart_count": null,
-      "availability": "Not confirmed with this branch"
+      "availability": "Not confirmed with this branch",
+      "contact_checked": "2026-10-27"
     },
     {
       "id": "walmart-2904",
@@ -1106,7 +1174,8 @@
       "store_contacted": null,
       "cart_location": null,
       "cart_count": null,
-      "availability": "Not confirmed with this branch"
+      "availability": "Not confirmed with this branch",
+      "contact_checked": "2026-10-27"
     },
     {
       "id": "wegmans-burlington",
@@ -1122,7 +1191,8 @@
       "store_contacted": null,
       "cart_location": null,
       "cart_count": null,
-      "availability": "Not confirmed with this branch"
+      "availability": "Not confirmed with this branch",
+      "contact_checked": "2026-10-27"
     },
     {
       "id": "walmart-2903",
@@ -1138,7 +1208,8 @@
       "store_contacted": null,
       "cart_location": null,
       "cart_count": null,
-      "availability": "Not confirmed with this branch"
+      "availability": "Not confirmed with this branch",
+      "contact_checked": "2026-10-27"
     },
     {
       "id": "wegmans-chestnut-hill",
@@ -1154,7 +1225,8 @@
       "store_contacted": null,
       "cart_location": null,
       "cart_count": null,
-      "availability": "Not confirmed with this branch"
+      "availability": "Not confirmed with this branch",
+      "contact_checked": "2026-10-27"
     },
     {
       "id": "walmart-5278",
@@ -1170,7 +1242,8 @@
       "store_contacted": null,
       "cart_location": null,
       "cart_count": null,
-      "availability": "Not confirmed with this branch"
+      "availability": "Not confirmed with this branch",
+      "contact_checked": "2026-10-27"
     },
     {
       "id": "walmart-2180",
@@ -1186,7 +1259,8 @@
       "store_contacted": null,
       "cart_location": null,
       "cart_count": null,
-      "availability": "Not confirmed with this branch"
+      "availability": "Not confirmed with this branch",
+      "contact_checked": "2026-10-27"
     },
     {
       "id": "walmart-1906",
@@ -1202,7 +1276,8 @@
       "store_contacted": null,
       "cart_location": null,
       "cart_count": null,
-      "availability": "Not confirmed with this branch"
+      "availability": "Not confirmed with this branch",
+      "contact_checked": "2026-10-27"
     },
     {
       "id": "walmart-3560",
@@ -1218,7 +1293,8 @@
       "store_contacted": null,
       "cart_location": null,
       "cart_count": null,
-      "availability": "Not confirmed with this branch"
+      "availability": "Not confirmed with this branch",
+      "contact_checked": "2026-10-27"
     },
     {
       "id": "target-1308",
@@ -1234,7 +1310,8 @@
       "store_contacted": null,
       "cart_location": null,
       "cart_count": null,
-      "availability": "Not confirmed with this branch"
+      "availability": "Not confirmed with this branch",
+      "contact_checked": "2026-10-27"
     },
     {
       "id": "walmart-2902",
@@ -1250,7 +1327,8 @@
       "store_contacted": null,
       "cart_location": null,
       "cart_count": null,
-      "availability": "Not confirmed with this branch"
+      "availability": "Not confirmed with this branch",
+      "contact_checked": "2026-10-27"
     },
     {
       "id": "walmart-2155",
@@ -1266,7 +1344,8 @@
       "store_contacted": null,
       "cart_location": null,
       "cart_count": null,
-      "availability": "Not confirmed with this branch"
+      "availability": "Not confirmed with this branch",
+      "contact_checked": "2026-10-27"
     },
     {
       "id": "walmart-2683",
@@ -1282,7 +1361,8 @@
       "store_contacted": null,
       "cart_location": null,
       "cart_count": null,
-      "availability": "Not confirmed with this branch"
+      "availability": "Not confirmed with this branch",
+      "contact_checked": "2026-10-27"
     },
     {
       "id": "walmart-2128",
@@ -1298,7 +1378,8 @@
       "store_contacted": null,
       "cart_location": null,
       "cart_count": null,
-      "availability": "Not confirmed with this branch"
+      "availability": "Not confirmed with this branch",
+      "contact_checked": "2026-10-27"
     },
     {
       "id": "walmart-1970",
@@ -1314,7 +1395,8 @@
       "store_contacted": null,
       "cart_location": null,
       "cart_count": null,
-      "availability": "Not confirmed with this branch"
+      "availability": "Not confirmed with this branch",
+      "contact_checked": "2026-10-27"
     },
     {
       "id": "walmart-3409",
@@ -1330,7 +1412,8 @@
       "store_contacted": null,
       "cart_location": null,
       "cart_count": null,
-      "availability": "Not confirmed with this branch"
+      "availability": "Not confirmed with this branch",
+      "contact_checked": "2026-10-27"
     },
     {
       "id": "walmart-2964",
@@ -1346,7 +1429,8 @@
       "store_contacted": null,
       "cart_location": null,
       "cart_count": null,
-      "availability": "Not confirmed with this branch"
+      "availability": "Not confirmed with this branch",
+      "contact_checked": "2026-10-27"
     },
     {
       "id": "walmart-2118",
@@ -1362,7 +1446,8 @@
       "store_contacted": null,
       "cart_location": null,
       "cart_count": null,
-      "availability": "Not confirmed with this branch"
+      "availability": "Not confirmed with this branch",
+      "contact_checked": "2026-10-27"
     },
     {
       "id": "walmart-2139",
@@ -1378,7 +1463,8 @@
       "store_contacted": null,
       "cart_location": null,
       "cart_count": null,
-      "availability": "Not confirmed with this branch"
+      "availability": "Not confirmed with this branch",
+      "contact_checked": "2026-10-27"
     },
     {
       "id": "target-1516",
@@ -1394,7 +1480,8 @@
       "store_contacted": null,
       "cart_location": null,
       "cart_count": null,
-      "availability": "Not confirmed with this branch"
+      "availability": "Not confirmed with this branch",
+      "contact_checked": "2026-10-27"
     },
     {
       "id": "wegmans-medford",
@@ -1410,7 +1497,8 @@
       "store_contacted": null,
       "cart_location": null,
       "cart_count": null,
-      "availability": "Not confirmed with this branch"
+      "availability": "Not confirmed with this branch",
+      "contact_checked": "2026-10-27"
     },
     {
       "id": "walmart-3491",
@@ -1426,7 +1514,8 @@
       "store_contacted": null,
       "cart_location": null,
       "cart_count": null,
-      "availability": "Not confirmed with this branch"
+      "availability": "Not confirmed with this branch",
+      "contact_checked": "2026-10-27"
     },
     {
       "id": "walmart-1984",
@@ -1442,7 +1531,8 @@
       "store_contacted": null,
       "cart_location": null,
       "cart_count": null,
-      "availability": "Not confirmed with this branch"
+      "availability": "Not confirmed with this branch",
+      "contact_checked": "2026-10-27"
     },
     {
       "id": "walmart-2366",
@@ -1458,7 +1548,8 @@
       "store_contacted": null,
       "cart_location": null,
       "cart_count": null,
-      "availability": "Not confirmed with this branch"
+      "availability": "Not confirmed with this branch",
+      "contact_checked": "2026-10-27"
     },
     {
       "id": "walmart-2157",
@@ -1474,7 +1565,8 @@
       "store_contacted": null,
       "cart_location": null,
       "cart_count": null,
-      "availability": "Not confirmed with this branch"
+      "availability": "Not confirmed with this branch",
+      "contact_checked": "2026-10-27"
     },
     {
       "id": "walmart-2012",
@@ -1490,7 +1582,8 @@
       "store_contacted": null,
       "cart_location": null,
       "cart_count": null,
-      "availability": "Not confirmed with this branch"
+      "availability": "Not confirmed with this branch",
+      "contact_checked": "2026-10-27"
     },
     {
       "id": "walmart-2660",
@@ -1506,7 +1599,8 @@
       "store_contacted": null,
       "cart_location": null,
       "cart_count": null,
-      "availability": "Not confirmed with this branch"
+      "availability": "Not confirmed with this branch",
+      "contact_checked": "2026-10-27"
     },
     {
       "id": "walmart-2901",
@@ -1522,7 +1616,8 @@
       "store_contacted": null,
       "cart_location": null,
       "cart_count": null,
-      "availability": "Not confirmed with this branch"
+      "availability": "Not confirmed with this branch",
+      "contact_checked": "2026-10-27"
     },
     {
       "id": "walmart-2158",
@@ -1538,7 +1633,8 @@
       "store_contacted": null,
       "cart_location": null,
       "cart_count": null,
-      "availability": "Not confirmed with this branch"
+      "availability": "Not confirmed with this branch",
+      "contact_checked": "2026-10-27"
     },
     {
       "id": "wegmans-northborough",
@@ -1554,7 +1650,8 @@
       "store_contacted": null,
       "cart_location": null,
       "cart_count": null,
-      "availability": "Not confirmed with this branch"
+      "availability": "Not confirmed with this branch",
+      "contact_checked": "2026-10-27"
     },
     {
       "id": "walmart-2329",
@@ -1570,7 +1667,8 @@
       "store_contacted": null,
       "cart_location": null,
       "cart_count": null,
-      "availability": "Not confirmed with this branch"
+      "availability": "Not confirmed with this branch",
+      "contact_checked": "2026-10-27"
     },
     {
       "id": "walmart-2228",
@@ -1586,7 +1684,8 @@
       "store_contacted": null,
       "cart_location": null,
       "cart_count": null,
-      "availability": "Not confirmed with this branch"
+      "availability": "Not confirmed with this branch",
+      "contact_checked": "2026-10-27"
     },
     {
       "id": "walmart-2336",
@@ -1602,7 +1701,8 @@
       "store_contacted": null,
       "cart_location": null,
       "cart_count": null,
-      "availability": "Not confirmed with this branch"
+      "availability": "Not confirmed with this branch",
+      "contact_checked": "2026-10-27"
     },
     {
       "id": "walmart-2341",
@@ -1618,7 +1718,8 @@
       "store_contacted": null,
       "cart_location": null,
       "cart_count": null,
-      "availability": "Not confirmed with this branch"
+      "availability": "Not confirmed with this branch",
+      "contact_checked": "2026-10-27"
     },
     {
       "id": "walmart-5448",
@@ -1634,7 +1735,8 @@
       "store_contacted": null,
       "cart_location": null,
       "cart_count": null,
-      "availability": "Not confirmed with this branch"
+      "availability": "Not confirmed with this branch",
+      "contact_checked": "2026-10-27"
     },
     {
       "id": "walmart-2021",
@@ -1650,7 +1752,8 @@
       "store_contacted": null,
       "cart_location": null,
       "cart_count": null,
-      "availability": "Not confirmed with this branch"
+      "availability": "Not confirmed with this branch",
+      "contact_checked": "2026-10-27"
     },
     {
       "id": "walmart-2640",
@@ -1666,7 +1769,8 @@
       "store_contacted": null,
       "cart_location": null,
       "cart_count": null,
-      "availability": "Not confirmed with this branch"
+      "availability": "Not confirmed with this branch",
+      "contact_checked": "2026-10-27"
     },
     {
       "id": "walmart-3114",
@@ -1682,7 +1786,8 @@
       "store_contacted": null,
       "cart_location": null,
       "cart_count": null,
-      "availability": "Not confirmed with this branch"
+      "availability": "Not confirmed with this branch",
+      "contact_checked": "2026-10-27"
     },
     {
       "id": "walmart-2184",
@@ -1698,7 +1803,8 @@
       "store_contacted": null,
       "cart_location": null,
       "cart_count": null,
-      "availability": "Not confirmed with this branch"
+      "availability": "Not confirmed with this branch",
+      "contact_checked": "2026-10-27"
     },
     {
       "id": "walmart-1967",
@@ -1714,7 +1820,8 @@
       "store_contacted": null,
       "cart_location": null,
       "cart_count": null,
-      "availability": "Not confirmed with this branch"
+      "availability": "Not confirmed with this branch",
+      "contact_checked": "2026-10-27"
     },
     {
       "id": "walmart-2797",
@@ -1730,7 +1837,8 @@
       "store_contacted": null,
       "cart_location": null,
       "cart_count": null,
-      "availability": "Not confirmed with this branch"
+      "availability": "Not confirmed with this branch",
+      "contact_checked": "2026-10-27"
     },
     {
       "id": "walmart-2953",
@@ -1746,7 +1854,8 @@
       "store_contacted": null,
       "cart_location": null,
       "cart_count": null,
-      "availability": "Not confirmed with this branch"
+      "availability": "Not confirmed with this branch",
+      "contact_checked": "2026-10-27"
     },
     {
       "id": "walmart-3561",
@@ -1762,7 +1871,8 @@
       "store_contacted": null,
       "cart_location": null,
       "cart_count": null,
-      "availability": "Not confirmed with this branch"
+      "availability": "Not confirmed with this branch",
+      "contact_checked": "2026-10-27"
     },
     {
       "id": "walmart-2222",
@@ -1778,7 +1888,8 @@
       "store_contacted": null,
       "cart_location": null,
       "cart_count": null,
-      "availability": "Not confirmed with this branch"
+      "availability": "Not confirmed with this branch",
+      "contact_checked": "2026-10-27"
     },
     {
       "id": "walmart-2103",
@@ -1794,7 +1905,8 @@
       "store_contacted": null,
       "cart_location": null,
       "cart_count": null,
-      "availability": "Not confirmed with this branch"
+      "availability": "Not confirmed with this branch",
+      "contact_checked": "2026-10-27"
     },
     {
       "id": "walmart-2386",
@@ -1810,7 +1922,8 @@
       "store_contacted": null,
       "cart_location": null,
       "cart_count": null,
-      "availability": "Not confirmed with this branch"
+      "availability": "Not confirmed with this branch",
+      "contact_checked": "2026-10-27"
     },
     {
       "id": "walmart-2095",
@@ -1826,7 +1939,8 @@
       "store_contacted": null,
       "cart_location": null,
       "cart_count": null,
-      "availability": "Not confirmed with this branch"
+      "availability": "Not confirmed with this branch",
+      "contact_checked": "2026-10-27"
     },
     {
       "id": "target-1442",
@@ -1842,7 +1956,8 @@
       "store_contacted": null,
       "cart_location": null,
       "cart_count": null,
-      "availability": "Not confirmed with this branch"
+      "availability": "Not confirmed with this branch",
+      "contact_checked": "2026-10-27"
     },
     {
       "id": "walmart-2267",
@@ -1858,7 +1973,8 @@
       "store_contacted": null,
       "cart_location": null,
       "cart_count": null,
-      "availability": "Not confirmed with this branch"
+      "availability": "Not confirmed with this branch",
+      "contact_checked": "2026-10-27"
     },
     {
       "id": "walmart-2174",
@@ -1874,7 +1990,8 @@
       "store_contacted": null,
       "cart_location": null,
       "cart_count": null,
-      "availability": "Not confirmed with this branch"
+      "availability": "Not confirmed with this branch",
+      "contact_checked": "2026-10-27"
     },
     {
       "id": "wegmans-westwood",
@@ -1890,7 +2007,8 @@
       "store_contacted": null,
       "cart_location": null,
       "cart_count": null,
-      "availability": "Not confirmed with this branch"
+      "availability": "Not confirmed with this branch",
+      "contact_checked": "2026-10-27"
     },
     {
       "id": "walmart-3200",
@@ -1906,7 +2024,8 @@
       "store_contacted": null,
       "cart_location": null,
       "cart_count": null,
-      "availability": "Not confirmed with this branch"
+      "availability": "Not confirmed with this branch",
+      "contact_checked": "2026-10-27"
     },
     {
       "id": "walmart-2629",
@@ -1922,7 +2041,8 @@
       "store_contacted": null,
       "cart_location": null,
       "cart_count": null,
-      "availability": "Not confirmed with this branch"
+      "availability": "Not confirmed with this branch",
+      "contact_checked": "2026-10-27"
     },
     {
       "id": "target-2729",
@@ -1938,7 +2058,8 @@
       "store_contacted": null,
       "cart_location": null,
       "cart_count": null,
-      "availability": "Not confirmed with this branch"
+      "availability": "Not confirmed with this branch",
+      "contact_checked": "2026-10-27"
     },
     {
       "id": "target-1266",
@@ -1954,7 +2075,8 @@
       "store_contacted": null,
       "cart_location": null,
       "cart_count": null,
-      "availability": "Not confirmed with this branch"
+      "availability": "Not confirmed with this branch",
+      "contact_checked": "2026-10-27"
     },
     {
       "id": "walmart-4387",
@@ -1970,7 +2092,8 @@
       "store_contacted": null,
       "cart_location": null,
       "cart_count": null,
-      "availability": "Not confirmed with this branch"
+      "availability": "Not confirmed with this branch",
+      "contact_checked": "2026-10-27"
     },
     {
       "id": "walmart-1796",
@@ -1986,7 +2109,8 @@
       "store_contacted": null,
       "cart_location": null,
       "cart_count": null,
-      "availability": "Not confirmed with this branch"
+      "availability": "Not confirmed with this branch",
+      "contact_checked": "2026-10-27"
     },
     {
       "id": "walmart-1975",
@@ -2002,7 +2126,8 @@
       "store_contacted": null,
       "cart_location": null,
       "cart_count": null,
-      "availability": "Not confirmed with this branch"
+      "availability": "Not confirmed with this branch",
+      "contact_checked": "2026-10-27"
     },
     {
       "id": "walmart-2055",
@@ -2018,7 +2143,8 @@
       "store_contacted": null,
       "cart_location": null,
       "cart_count": null,
-      "availability": "Not confirmed with this branch"
+      "availability": "Not confirmed with this branch",
+      "contact_checked": "2026-10-27"
     },
     {
       "id": "walmart-1753",
@@ -2034,7 +2160,8 @@
       "store_contacted": null,
       "cart_location": null,
       "cart_count": null,
-      "availability": "Not confirmed with this branch"
+      "availability": "Not confirmed with this branch",
+      "contact_checked": "2026-10-27"
     },
     {
       "id": "walmart-3535",
@@ -2050,7 +2177,8 @@
       "store_contacted": null,
       "cart_location": null,
       "cart_count": null,
-      "availability": "Not confirmed with this branch"
+      "availability": "Not confirmed with this branch",
+      "contact_checked": "2026-10-27"
     },
     {
       "id": "walmart-2639",
@@ -2066,7 +2194,8 @@
       "store_contacted": null,
       "cart_location": null,
       "cart_count": null,
-      "availability": "Not confirmed with this branch"
+      "availability": "Not confirmed with this branch",
+      "contact_checked": "2026-10-27"
     },
     {
       "id": "walmart-2634",
@@ -2082,7 +2211,8 @@
       "store_contacted": null,
       "cart_location": null,
       "cart_count": null,
-      "availability": "Not confirmed with this branch"
+      "availability": "Not confirmed with this branch",
+      "contact_checked": "2026-10-27"
     },
     {
       "id": "walmart-1907",
@@ -2098,7 +2228,8 @@
       "store_contacted": null,
       "cart_location": null,
       "cart_count": null,
-      "availability": "Not confirmed with this branch"
+      "availability": "Not confirmed with this branch",
+      "contact_checked": "2026-10-27"
     },
     {
       "id": "walmart-1698",
@@ -2114,7 +2245,8 @@
       "store_contacted": null,
       "cart_location": null,
       "cart_count": null,
-      "availability": "Not confirmed with this branch"
+      "availability": "Not confirmed with this branch",
+      "contact_checked": "2026-10-27"
     },
     {
       "id": "walmart-1785",
@@ -2130,7 +2262,8 @@
       "store_contacted": null,
       "cart_location": null,
       "cart_count": null,
-      "availability": "Not confirmed with this branch"
+      "availability": "Not confirmed with this branch",
+      "contact_checked": "2026-10-27"
     },
     {
       "id": "walmart-3549",
@@ -2146,7 +2279,8 @@
       "store_contacted": null,
       "cart_location": null,
       "cart_count": null,
-      "availability": "Not confirmed with this branch"
+      "availability": "Not confirmed with this branch",
+      "contact_checked": "2026-10-27"
     },
     {
       "id": "walmart-2681",
@@ -2162,7 +2296,8 @@
       "store_contacted": null,
       "cart_location": null,
       "cart_count": null,
-      "availability": "Not confirmed with this branch"
+      "availability": "Not confirmed with this branch",
+      "contact_checked": "2026-10-27"
     },
     {
       "id": "walmart-2399",
@@ -2178,7 +2313,8 @@
       "store_contacted": null,
       "cart_location": null,
       "cart_count": null,
-      "availability": "Not confirmed with this branch"
+      "availability": "Not confirmed with this branch",
+      "contact_checked": "2026-10-27"
     },
     {
       "id": "target-1532",
@@ -2194,7 +2330,8 @@
       "store_contacted": null,
       "cart_location": null,
       "cart_count": null,
-      "availability": "Not confirmed with this branch"
+      "availability": "Not confirmed with this branch",
+      "contact_checked": "2026-10-27"
     },
     {
       "id": "walmart-2398",
@@ -2210,7 +2347,8 @@
       "store_contacted": null,
       "cart_location": null,
       "cart_count": null,
-      "availability": "Not confirmed with this branch"
+      "availability": "Not confirmed with this branch",
+      "contact_checked": "2026-10-27"
     },
     {
       "id": "walmart-2140",
@@ -2226,7 +2364,8 @@
       "store_contacted": null,
       "cart_location": null,
       "cart_count": null,
-      "availability": "Not confirmed with this branch"
+      "availability": "Not confirmed with this branch",
+      "contact_checked": "2026-10-27"
     },
     {
       "id": "walmart-1930",
@@ -2242,7 +2381,8 @@
       "store_contacted": null,
       "cart_location": null,
       "cart_count": null,
-      "availability": "Not confirmed with this branch"
+      "availability": "Not confirmed with this branch",
+      "contact_checked": "2026-10-27"
     },
     {
       "id": "walmart-2758",
@@ -2258,7 +2398,8 @@
       "store_contacted": null,
       "cart_location": null,
       "cart_count": null,
-      "availability": "Not confirmed with this branch"
+      "availability": "Not confirmed with this branch",
+      "contact_checked": "2026-10-27"
     },
     {
       "id": "walmart-2130",
@@ -2274,7 +2415,8 @@
       "store_contacted": null,
       "cart_location": null,
       "cart_count": null,
-      "availability": "Not confirmed with this branch"
+      "availability": "Not confirmed with this branch",
+      "contact_checked": "2026-10-27"
     },
     {
       "id": "walmart-2057",
@@ -2290,7 +2432,8 @@
       "store_contacted": null,
       "cart_location": null,
       "cart_count": null,
-      "availability": "Not confirmed with this branch"
+      "availability": "Not confirmed with this branch",
+      "contact_checked": "2026-10-27"
     },
     {
       "id": "walmart-2330",
@@ -2306,7 +2449,8 @@
       "store_contacted": null,
       "cart_location": null,
       "cart_count": null,
-      "availability": "Not confirmed with this branch"
+      "availability": "Not confirmed with this branch",
+      "contact_checked": "2026-10-27"
     },
     {
       "id": "walmart-2142",
@@ -2322,7 +2466,8 @@
       "store_contacted": null,
       "cart_location": null,
       "cart_count": null,
-      "availability": "Not confirmed with this branch"
+      "availability": "Not confirmed with this branch",
+      "contact_checked": "2026-10-27"
     },
     {
       "id": "walmart-1762",
@@ -2338,7 +2483,8 @@
       "store_contacted": null,
       "cart_location": null,
       "cart_count": null,
-      "availability": "Not confirmed with this branch"
+      "availability": "Not confirmed with this branch",
+      "contact_checked": "2026-10-27"
     },
     {
       "id": "walmart-1749",
@@ -2354,7 +2500,8 @@
       "store_contacted": null,
       "cart_location": null,
       "cart_count": null,
-      "availability": "Not confirmed with this branch"
+      "availability": "Not confirmed with this branch",
+      "contact_checked": "2026-10-27"
     },
     {
       "id": "walmart-2369",
@@ -2370,7 +2517,8 @@
       "store_contacted": null,
       "cart_location": null,
       "cart_count": null,
-      "availability": "Not confirmed with this branch"
+      "availability": "Not confirmed with this branch",
+      "contact_checked": "2026-10-27"
     },
     {
       "id": "walmart-2138",
@@ -2386,7 +2534,8 @@
       "store_contacted": null,
       "cart_location": null,
       "cart_count": null,
-      "availability": "Not confirmed with this branch"
+      "availability": "Not confirmed with this branch",
+      "contact_checked": "2026-10-27"
     },
     {
       "id": "walmart-4389",
@@ -2402,7 +2551,8 @@
       "store_contacted": null,
       "cart_location": null,
       "cart_count": null,
-      "availability": "Not confirmed with this branch"
+      "availability": "Not confirmed with this branch",
+      "contact_checked": "2026-10-27"
     },
     {
       "id": "walmart-2283",
@@ -2418,7 +2568,8 @@
       "store_contacted": null,
       "cart_location": null,
       "cart_count": null,
-      "availability": "Not confirmed with this branch"
+      "availability": "Not confirmed with this branch",
+      "contact_checked": "2026-10-27"
     },
     {
       "id": "walmart-1873",
@@ -2434,7 +2585,8 @@
       "store_contacted": null,
       "cart_location": null,
       "cart_count": null,
-      "availability": "Not confirmed with this branch"
+      "availability": "Not confirmed with this branch",
+      "contact_checked": "2026-10-27"
     },
     {
       "id": "target-2073",
@@ -2450,7 +2602,8 @@
       "store_contacted": null,
       "cart_location": null,
       "cart_count": null,
-      "availability": "Not confirmed with this branch"
+      "availability": "Not confirmed with this branch",
+      "contact_checked": "2026-10-27"
     },
     {
       "id": "walmart-2885",
@@ -2466,7 +2619,8 @@
       "store_contacted": null,
       "cart_location": null,
       "cart_count": null,
-      "availability": "Not confirmed with this branch"
+      "availability": "Not confirmed with this branch",
+      "contact_checked": "2026-10-27"
     },
     {
       "id": "walmart-2261",
@@ -2482,7 +2636,8 @@
       "store_contacted": null,
       "cart_location": null,
       "cart_count": null,
-      "availability": "Not confirmed with this branch"
+      "availability": "Not confirmed with this branch",
+      "contact_checked": "2026-10-27"
     },
     {
       "id": "walmart-2225",
@@ -2498,7 +2653,8 @@
       "store_contacted": null,
       "cart_location": null,
       "cart_count": null,
-      "availability": "Not confirmed with this branch"
+      "availability": "Not confirmed with this branch",
+      "contact_checked": "2026-10-27"
     },
     {
       "id": "walmart-3301",
@@ -2514,7 +2670,8 @@
       "store_contacted": null,
       "cart_location": null,
       "cart_count": null,
-      "availability": "Not confirmed with this branch"
+      "availability": "Not confirmed with this branch",
+      "contact_checked": "2026-10-27"
     },
     {
       "id": "target-1188",
@@ -2530,7 +2687,8 @@
       "store_contacted": null,
       "cart_location": null,
       "cart_count": null,
-      "availability": "Not confirmed with this branch"
+      "availability": "Not confirmed with this branch",
+      "contact_checked": "2026-10-27"
     },
     {
       "id": "walmart-2747",
@@ -2546,7 +2704,8 @@
       "store_contacted": null,
       "cart_location": null,
       "cart_count": null,
-      "availability": "Not confirmed with this branch"
+      "availability": "Not confirmed with this branch",
+      "contact_checked": "2026-10-27"
     },
     {
       "id": "walmart-2373",
@@ -2562,7 +2721,8 @@
       "store_contacted": null,
       "cart_location": null,
       "cart_count": null,
-      "availability": "Not confirmed with this branch"
+      "availability": "Not confirmed with this branch",
+      "contact_checked": "2026-10-27"
     },
     {
       "id": "walmart-1964",
@@ -2578,7 +2738,8 @@
       "store_contacted": null,
       "cart_location": null,
       "cart_count": null,
-      "availability": "Not confirmed with this branch"
+      "availability": "Not confirmed with this branch",
+      "contact_checked": "2026-10-27"
     },
     {
       "id": "walmart-2289",
@@ -2594,7 +2755,8 @@
       "store_contacted": null,
       "cart_location": null,
       "cart_count": null,
-      "availability": "Not confirmed with this branch"
+      "availability": "Not confirmed with this branch",
+      "contact_checked": "2026-10-27"
     },
     {
       "id": "walmart-2682",
@@ -2610,7 +2772,8 @@
       "store_contacted": null,
       "cart_location": null,
       "cart_count": null,
-      "availability": "Not confirmed with this branch"
+      "availability": "Not confirmed with this branch",
+      "contact_checked": "2026-10-27"
     },
     {
       "id": "walmart-4156",
@@ -2626,7 +2789,8 @@
       "store_contacted": null,
       "cart_location": null,
       "cart_count": null,
-      "availability": "Not confirmed with this branch"
+      "availability": "Not confirmed with this branch",
+      "contact_checked": "2026-10-27"
     },
     {
       "id": "walmart-2530",
@@ -2642,7 +2806,8 @@
       "store_contacted": null,
       "cart_location": null,
       "cart_count": null,
-      "availability": "Not confirmed with this branch"
+      "availability": "Not confirmed with this branch",
+      "contact_checked": "2026-10-27"
     },
     {
       "id": "target-3306",
@@ -2658,7 +2823,8 @@
       "store_contacted": null,
       "cart_location": null,
       "cart_count": null,
-      "availability": "Not confirmed with this branch"
+      "availability": "Not confirmed with this branch",
+      "contact_checked": "2026-10-27"
     },
     {
       "id": "walmart-2332",
@@ -2674,7 +2840,8 @@
       "store_contacted": null,
       "cart_location": null,
       "cart_count": null,
-      "availability": "Not confirmed with this branch"
+      "availability": "Not confirmed with this branch",
+      "contact_checked": "2026-10-27"
     },
     {
       "id": "walmart-2224",
@@ -2690,7 +2857,8 @@
       "store_contacted": null,
       "cart_location": null,
       "cart_count": null,
-      "availability": "Not confirmed with this branch"
+      "availability": "Not confirmed with this branch",
+      "contact_checked": "2026-10-27"
     },
     {
       "id": "shoprite-bristol-farmington",
@@ -2706,7 +2874,8 @@
       "store_contacted": null,
       "cart_location": null,
       "cart_count": null,
-      "availability": "Unconfirmed call-ahead lead; 2014 chain rollout does not verify this branch"
+      "availability": "Unconfirmed call-ahead lead; 2014 chain rollout does not verify this branch",
+      "contact_checked": "2026-10-27"
     },
     {
       "id": "shoprite-brookfield",
@@ -2722,7 +2891,8 @@
       "store_contacted": null,
       "cart_location": null,
       "cart_count": null,
-      "availability": "Unconfirmed call-ahead lead; 2014 chain rollout does not verify this branch"
+      "availability": "Unconfirmed call-ahead lead; 2014 chain rollout does not verify this branch",
+      "contact_checked": "2026-10-27"
     },
     {
       "id": "shoprite-danbury",
@@ -2738,7 +2908,8 @@
       "store_contacted": null,
       "cart_location": null,
       "cart_count": null,
-      "availability": "Unconfirmed call-ahead lead; 2014 chain rollout does not verify this branch"
+      "availability": "Unconfirmed call-ahead lead; 2014 chain rollout does not verify this branch",
+      "contact_checked": "2026-10-27"
     },
     {
       "id": "shoprite-derby",
@@ -2754,7 +2925,8 @@
       "store_contacted": null,
       "cart_location": null,
       "cart_count": null,
-      "availability": "Unconfirmed call-ahead lead; 2014 chain rollout does not verify this branch"
+      "availability": "Unconfirmed call-ahead lead; 2014 chain rollout does not verify this branch",
+      "contact_checked": "2026-10-27"
     },
     {
       "id": "shoprite-fairfield",
@@ -2770,7 +2942,8 @@
       "store_contacted": null,
       "cart_location": null,
       "cart_count": null,
-      "availability": "Unconfirmed call-ahead lead; 2014 chain rollout does not verify this branch"
+      "availability": "Unconfirmed call-ahead lead; 2014 chain rollout does not verify this branch",
+      "contact_checked": "2026-10-27"
     },
     {
       "id": "shoprite-norwalk",
@@ -2786,7 +2959,8 @@
       "store_contacted": null,
       "cart_location": null,
       "cart_count": null,
-      "availability": "Unconfirmed call-ahead lead; 2014 chain rollout does not verify this branch"
+      "availability": "Unconfirmed call-ahead lead; 2014 chain rollout does not verify this branch",
+      "contact_checked": "2026-10-27"
     },
     {
       "id": "shoprite-shelton",
@@ -2802,7 +2976,8 @@
       "store_contacted": null,
       "cart_location": null,
       "cart_count": null,
-      "availability": "Unconfirmed call-ahead lead; 2014 chain rollout does not verify this branch"
+      "availability": "Unconfirmed call-ahead lead; 2014 chain rollout does not verify this branch",
+      "contact_checked": "2026-10-27"
     },
     {
       "id": "shoprite-southbury",
@@ -2818,7 +2993,8 @@
       "store_contacted": null,
       "cart_location": null,
       "cart_count": null,
-      "availability": "Unconfirmed call-ahead lead; 2014 chain rollout does not verify this branch"
+      "availability": "Unconfirmed call-ahead lead; 2014 chain rollout does not verify this branch",
+      "contact_checked": "2026-10-27"
     },
     {
       "id": "shoprite-stamford-commerce",
@@ -2834,7 +3010,8 @@
       "store_contacted": null,
       "cart_location": null,
       "cart_count": null,
-      "availability": "Unconfirmed call-ahead lead; 2014 chain rollout does not verify this branch"
+      "availability": "Unconfirmed call-ahead lead; 2014 chain rollout does not verify this branch",
+      "contact_checked": "2026-10-27"
     },
     {
       "id": "shoprite-stamford-shippan",
@@ -2850,7 +3027,8 @@
       "store_contacted": null,
       "cart_location": null,
       "cart_count": null,
-      "availability": "Unconfirmed call-ahead lead; 2014 chain rollout does not verify this branch"
+      "availability": "Unconfirmed call-ahead lead; 2014 chain rollout does not verify this branch",
+      "contact_checked": "2026-10-27"
     }
   ]
 }

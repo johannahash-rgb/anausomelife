@@ -35,7 +35,7 @@ async function copy(text,button,message){try{await navigator.clipboard.writeText
 $('cart-share').addEventListener('click',event=>copy(location.href,event.currentTarget,'Search link copied.'));
 $('cart-copy-script').addEventListener('click',event=>copy($('cart-call-script').textContent,event.currentTarget,'Call-ahead script copied.'));
 $('cart-download').addEventListener('click',()=>{
- const fields=['Store','Town and state','Address','Phone','Evidence','Source checked / confirmation','Store details','Directions'];
+ const fields=['Store','Town and state','Address','Phone','Evidence','Store details checked / cart availability','Store details','Directions'];
  const records=current.map(r=>[r.querySelector('h3').textContent,r.querySelector('.cart-town').textContent,r.querySelector('.cart-address').textContent,r.querySelector('a[href^="tel:"]').textContent.replace(/^Call /,''),r.querySelector('.cart-label').textContent,r.querySelector('.cart-evidence .cart-small').innerText||r.querySelector('.cart-evidence .cart-small').textContent,r.querySelector('.cart-actions a:nth-child(3)').href,r.querySelector('.cart-actions a:nth-child(2)').href]);
  const cell=v=>'"'+String(v).replace(/"/g,'""')+'"',csv=[fields,...records].map(r=>r.map(cell).join(',')).join('\r\n');
  const url=URL.createObjectURL(new Blob(['\uFEFF'+csv],{type:'text/csv;charset=utf-8'})),a=document.createElement('a');a.href=url;a.download='carolines-cart-'+(value('state')||'new-england').toLowerCase()+'-results.csv';document.body.append(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),1000);$('cart-feedback').textContent=current.length+' listings downloaded. Call ahead to confirm availability.';
