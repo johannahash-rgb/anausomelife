@@ -8792,6 +8792,47 @@
           "url": "https://www.mfa.org/programs/access-programs/beyond-the-spectrum"
         }
       }
+    },
+    "franklin-sensory-sunday-2026-11-29": {
+      "ageGroups": [
+        "children",
+        "families"
+      ],
+      "accessFeatures": [
+        "sensory-friendly"
+      ],
+      "ageEvidence": {
+        "children": {
+          "evidenceId": "franklin-sensory-sunday-2026-11-29-audience",
+          "url": "https://www.childrensmuseumfranklin.org/events/sensory-sunday-bcdss"
+        },
+        "families": {
+          "evidenceId": "franklin-sensory-sunday-2026-11-29-audience",
+          "url": "https://www.childrensmuseumfranklin.org/events/sensory-sunday-bcdss"
+        }
+      },
+      "accessEvidence": {
+        "sensory-friendly": {
+          "evidenceId": "franklin-sensory-sunday-2026-11-29-access",
+          "url": "https://www.childrensmuseumfranklin.org/events/sensory-sunday-bcdss"
+        }
+      },
+      "checkedAt": "2026-10-27",
+      "ageRange": {
+        "min": null,
+        "max": null,
+        "kind": "not-stated"
+      },
+      "sensory": {
+        "level": "unknown",
+        "note": "The organizer describes sensory-friendly adjustments. Review the specific supports below; individual preferences and conditions vary.",
+        "sourceUrl": "https://www.childrensmuseumfranklin.org/events/sensory-sunday-bcdss",
+        "checkedAt": "2026-10-27",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-27"
+      },
+      "holidays": [],
+      "holidayEvidence": {}
     }
   },
   "sensoryMethod": "Sensory levels are editorial planning estimates based on the specific published conditions, not medical ratings or promises. Low means reduced stimulation, moderate means some ongoing music or activity, high means a likely stimulating mix, variable means conditions or parts of the visit differ, and unknown means evidence is insufficient. Sensory-friendly and disability-inclusive are not automatic low-sensory ratings. Earlier event verification dates remain visible."

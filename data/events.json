@@ -123,20 +123,20 @@
     {
       "id": "see",
       "name": "SEE Science Center",
-      "url": "https://see-sciencecenter.org/",
+      "url": "https://see-sciencecenter.org/sensory-friendly-fun-night/",
       "state": "NH",
       "mode": "manual",
       "enabled": false,
-      "note": "November 6 sensory-friendly event announced, but time and price not independently confirmed for that date.",
+      "note": "November 6, 2026, 5–7 p.m. and free admission confirmed on the official event page. January 29 and April 30, 2027 are also announced; session times and booking details for those dates still need confirmation.",
       "timezone": "America/New_York",
       "allowedHosts": [
         "see-sciencecenter.org"
       ],
       "autoPublish": false,
       "feedVerified": false,
-      "sourceCheckedAt": "2026-10-03T02:31:26Z",
+      "sourceCheckedAt": "2026-10-27T12:58:52Z",
       "status": "manually-checked",
-      "lastChecked": "2026-10-03T02:31:26Z"
+      "lastChecked": "2026-10-27T12:58:52Z"
     },
     {
       "id": "sunmoonstars",
@@ -1340,7 +1340,7 @@
     {
       "id": "franklin-museum",
       "name": "Children’s Museum of Franklin",
-      "url": "https://www.childrensmuseumfranklin.org/events/sensory-sunday",
+      "url": "https://www.childrensmuseumfranklin.org/events/sensory-sunday-bcdss",
       "state": "MA",
       "mode": "manual",
       "enabled": false,
@@ -1350,9 +1350,9 @@
       ],
       "autoPublish": false,
       "feedVerified": false,
-      "sourceCheckedAt": "2026-10-16T01:20:00Z",
+      "sourceCheckedAt": "2026-10-27T12:58:52Z",
       "status": "manually-checked",
-      "lastChecked": "2026-10-16T01:20:00Z"
+      "lastChecked": "2026-10-27T12:58:52Z"
     },
     {
       "id": "playhouse-on-park",
@@ -4509,8 +4509,8 @@
       "ticketUrl": "https://www.eventbrite.com/e/sensory-friendly-fun-night-tickets-1999614379437",
       "cancellationPolicy": "Not stated in the checked listing; confirm with the organizer.",
       "notes": [],
-      "lastVerified": "2026-10-03T11:04:00Z",
-      "verificationMethod": "Official organizer/event page reviewed",
+      "lastVerified": "2026-10-27T12:58:52Z",
+      "verificationMethod": "Official organizer event information and available linked booking information reviewed.",
       "reviewRequired": false,
       "status": "scheduled",
       "format": "In person",
@@ -4531,11 +4531,14 @@
         "Elevator to exhibit levels",
         "Accessible restroom stalls",
         "Sensory materials, sensory story and map",
-        "Break room"
+        "Break room",
+        "Limited attendance and reduced bright lighting",
+        "Several loud exhibits are unavailable during this session",
+        "Visitors may bring sensory materials and noise-canceling headphones"
       ],
       "sourceId": "see",
-      "sourceUrl": "https://see-sciencecenter.org/",
-      "registration": "Advance registration required; organizer says registration opens one month before.",
+      "sourceUrl": "https://see-sciencecenter.org/sensory-friendly-fun-night/",
+      "registration": "Advance registration required for all attendees; places are first come, first served. Confirm remaining availability with the organizer.",
       "visualStory": {
         "arrival": "We can enter using the ramp or push-button entrance and take the elevator if we need it.",
         "activity": "We can explore exhibits, watch a demonstration or make something. This is a lower-stimulation evening.",
@@ -4908,13 +4911,13 @@
     },
     {
       "timezone": "America/New_York",
-      "ticketUrl": "https://childrens-museum.org/programs/exploring-our-way/",
+      "ticketUrl": "https://71233.blackbaudhosting.com/71233/tickets?tab=2&txobjid=aeff1db9-100b-4df6-bb0e-6ac8835a09d5",
       "cancellationPolicy": "Not stated in the checked listing; confirm with the organizer.",
       "notes": [
         "Optional costumed Pete the Cat meeting from 5–5:30 p.m.; ask staff how to bypass the character activity."
       ],
-      "lastVerified": "2026-10-06T16:29:41Z",
-      "verificationMethod": "Official organizer/event page reviewed",
+      "lastVerified": "2026-10-27T12:58:52Z",
+      "verificationMethod": "Official organizer event information and available linked booking information reviewed.",
       "reviewRequired": false,
       "status": "scheduled",
       "format": "In person",
@@ -4926,7 +4929,7 @@
       "city": "Dover",
       "venue": "Children’s Museum of New Hampshire",
       "address": "6 Washington Street, Dover, NH 03820",
-      "cost": "$3.50 per person; free for members",
+      "cost": "$3.50 per person; free for members and one-on-one aides",
       "ages": "Families of children with special needs, including autism or sensory processing needs",
       "summary": "A reduced-admission, low-sensory museum session with an optional Pete the Cat character meet during part of the evening.",
       "accessibility": [
@@ -4938,7 +4941,7 @@
       ],
       "sourceId": "cmnh",
       "sourceUrl": "https://childrens-museum.org/programs/exploring-our-way/",
-      "registration": "Online reservations required.",
+      "registration": "Online reservations required for every attendee. The November 13 booking page is available; confirm remaining spaces before visiting.",
       "category": "Sensory-friendly"
     },
     {
@@ -5205,11 +5208,11 @@
     },
     {
       "timezone": "America/New_York",
-      "ticketUrl": null,
+      "ticketUrl": "https://carroll.org/technology-fair-registration/",
       "cancellationPolicy": "Not stated in the checked listing; confirm with the organizer.",
       "notes": [],
-      "lastVerified": "2026-10-04T00:00:00Z",
-      "verificationMethod": "Official organizer/event page reviewed",
+      "lastVerified": "2026-10-27T12:58:52Z",
+      "verificationMethod": "Official organizer event information and available linked booking information reviewed.",
       "reviewRequired": false,
       "status": "scheduled",
       "format": "Virtual",
@@ -5223,7 +5226,7 @@
       "address": "",
       "cost": "Free",
       "ages": "Blind and visually impaired people, families and anyone interested in accessible technology",
-      "summary": "A virtual fair with sessions on technology, tools and innovations for people experiencing vision loss, plus live Q&A.",
+      "summary": "A free online afternoon about accessible technology, with sessions on VoiceOver, screen-reader tools, remote technical support and GPS, plus live Q&A.",
       "accessibility": [
         "Blind/low-vision-centered technology content",
         "Virtual attendance",
@@ -5232,7 +5235,7 @@
       ],
       "sourceId": "carroll",
       "sourceUrl": "https://carroll.org/events/virtual-technology-fair/",
-      "registration": "Registration and further details are coming soon; a Zoom link will be provided after registration.",
+      "registration": "The organizer has posted its registration link. Register in advance to receive the Zoom link.",
       "category": "Blind & low vision",
       "costCategory": "free"
     },
@@ -5766,25 +5769,25 @@
       "city": "West Hartford",
       "venue": "Hoffman Auditorium, University of Saint Joseph",
       "address": "1678 Asylum Avenue, West Hartford, CT 06117",
-      "cost": "Ticket prices not yet published on the checked page",
+      "cost": "Confirm ticket prices with the organizer.",
       "ages": "Age range not specified; ask the organizer",
       "summary": "A Hartford holiday ballet with a designated sensory-friendly Saturday matinee; published running time is approximately 75 minutes.",
       "sourceId": "toyshop-sensory",
       "sourceUrl": "https://www.neballettheatre.com/fts",
-      "ticketUrl": null,
+      "ticketUrl": "https://events.levitate.ai/#/049egY6C9y/landing",
       "category": "Accessible arts",
       "format": "In person",
       "accessibility": [
         "Organizer-designated sensory-friendly performance"
       ],
-      "registration": "Organizer says tickets are on sale soon; check its page for booking.",
+      "registration": "The organizer now links to its ticketing page. Select the December 5, 2 p.m. sensory-friendly performance; confirm price and availability before booking.",
       "cancellationPolicy": "Confirm current cancellation and refund terms with the organizer.",
       "notes": [
         "The 3:15 p.m. finish is approximate, calculated from the published 75-minute running time.",
         "Use the West Entrance and Lot J. Ask about sound, lighting, breaks and step-free seating before booking."
       ],
-      "lastVerified": "2026-10-06T16:29:41Z",
-      "verificationMethod": "Official organizer event information reviewed.",
+      "lastVerified": "2026-10-27T12:58:52Z",
+      "verificationMethod": "Official organizer event information and available linked booking information reviewed.",
       "reviewRequired": false,
       "status": "scheduled",
       "endApproximate": true
@@ -9448,6 +9451,38 @@
       "sourceUrl": "https://www.mfa.org/programs/access-programs/beyond-the-spectrum",
       "registration": "Sold out on the MFA program page when checked October 22. Check with MFA about any returns before making plans.",
       "category": "Accessible arts"
+    },
+    {
+      "timezone": "America/New_York",
+      "state": "MA",
+      "cancellationPolicy": "Confirm cancellation and refund terms with the organizer.",
+      "lastVerified": "2026-10-27T12:58:52Z",
+      "verificationMethod": "Official dated event page and linked registration page reviewed.",
+      "reviewRequired": false,
+      "status": "scheduled",
+      "category": "Sensory-friendly",
+      "format": "In person",
+      "id": "franklin-sensory-sunday-2026-11-29",
+      "title": "Sensory Sunday",
+      "start": "2026-11-29T08:00:00-05:00",
+      "end": "2026-11-29T09:00:00-05:00",
+      "city": "Franklin",
+      "venue": "Children’s Museum of Franklin",
+      "address": "157 Cottage Street, Franklin, MA 02038",
+      "cost": "Price not stated in the checked listing; confirm with the organizer.",
+      "ages": "Children and their families; confirm individual suitability with the organizer.",
+      "summary": "An early museum hour with reduced stimulation and a limited number of visitors.",
+      "accessibility": [
+        "Attendance capped at 50 people.",
+        "Quieter sound and reduced stimulation."
+      ],
+      "sourceId": "franklin-museum",
+      "sourceUrl": "https://www.childrensmuseumfranklin.org/events/sensory-sunday-bcdss",
+      "ticketUrl": "https://www.childrensmuseumfranklin.org/events/sensory-sunday-bcdss",
+      "registration": "Preregistration is required; use the museum’s event page and confirm November 29, price and remaining spaces before booking.",
+      "notes": [
+        "Specific mobility, restroom and changing facilities are not confirmed in this event listing. Contact the venue about individual access needs."
+      ]
     }
   ],
   "accessibilityStandard": {
