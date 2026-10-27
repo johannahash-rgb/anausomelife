@@ -4157,7 +4157,7 @@
       "address": "177 Main Street, Acton, MA 01720",
       "cost": "Free",
       "ages": "Children, adults, and families who benefit from an accessible visit",
-      "summary": "A sensory-friendly Halloween evening with dinner included. Registration was reported full; check with the museum before planning a visit.",
+      "summary": "A sensory-friendly Halloween evening with limited attendance and dinner included. Advance registration is required.",
       "accessibility": [
         "Limited attendance",
         "Noise-reducing headphones available",
@@ -4165,16 +4165,16 @@
         "ASL may be requested during registration"
       ],
       "sourceId": "discovery",
-      "sourceUrl": "https://www.discoveryacton.org/news/schedule-free-events-visitors-disabilities-announced",
-      "ticketUrl": "https://www.discoveryacton.org/visit/especially-me",
-      "registration": "Registration full in the museum’s October 13 update. Check the organizer for any reopened places; advance registration is required.",
+      "sourceUrl": "https://www.discoveryacton.org/events-programs/sensory-friendly-halloween-1",
+      "ticketUrl": "https://26033.blackbaudhosting.com/26033/Especially-for-Me-Sensory-Friendly-Halloween-30Oct2026",
+      "registration": "Advance registration required. Registration is available again as of October 27; confirm current availability with the organizer.",
       "cancellationPolicy": "Not stated in the checked listing; confirm with the organizer.",
       "notes": [
         "A medical diagnosis is not required.",
         "Dinner includes a gluten-free option."
       ],
-      "lastVerified": "2026-10-22T10:40:00Z",
-      "verificationMethod": "Official organizer page reviewed",
+      "lastVerified": "2026-10-27T12:39:47Z",
+      "verificationMethod": "Official dated event page and linked registration page reviewed",
       "reviewRequired": false,
       "status": "scheduled",
       "category": "Halloween",
