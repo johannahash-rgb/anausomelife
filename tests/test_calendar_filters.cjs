@@ -1,4 +1,8 @@
 const fs=require('fs'),vm=require('vm'),assert=require('assert'),crypto=require('node:crypto');
+// Exercise the reviewed October 2026 fixtures at a fixed pre-expiry instant.
+// Keep every state/filter coverage assertion intact as real event dates pass.
+const NativeDate=globalThis.Date,fixtureNow=NativeDate.parse('2026-10-26T12:00:00Z');
+class Date extends NativeDate {constructor(...args){super(...(args.length?args:[fixtureNow]))}static now(){return fixtureNow}}
 class Node { constructor(tag='div'){this.tagName=tag;this.children=[];this.listeners={};this.dataset={};this.classList={add(){},toggle(){}};this.elements={};this.attributes={};this.hidden=false;this.value='';this.style={};}append(...n){this.children.push(...n)}prepend(...n){this.children.unshift(...n)}replaceChildren(...n){this.children=n}setAttribute(k,v){this.attributes[k]=v}addEventListener(k,f){this.listeners[k]=f}querySelector(){return null}querySelectorAll(){return []}scrollIntoView(){}focus(){} }
 const form=new Node('form');for(let n of ['q','state','from','month','category','age','access','format','cost','dateRange','sensory','holiday'])form.elements[n]=new Node('select');const keys=['.event-list','.event-month-view','.event-summary','.event-empty','.event-error','[data-event-watchlist]','[data-organizer-directory]','[data-refresh-note]'];const map=Object.fromEntries(keys.map(x=>[x,new Node()]));map['form']=form;
 const root=new Node();root.querySelector=s=>map[s]||null;const stateBox=new Node();const doc={querySelector:s=>s==='[data-events]'?root:s==='[data-state-index]'?stateBox:null,createElement:s=>new Node(s),createElementNS:(ns,s)=>{const n=new Node(s);n.namespaceURI=ns;return n},getElementById:()=>null};
