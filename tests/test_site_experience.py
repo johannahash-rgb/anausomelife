@@ -66,6 +66,10 @@ class SiteExperience(unittest.TestCase):
         care=json.loads((ROOT/'data/caregiver-taxonomy.json').read_text())
         food='/kohinoor-indian-restaurant-mashpee.html'
         beach='/menauhant-beach-the-art-of-letting-go.html'
+        journal_cards=document('blog.html').xpath('//*[@data-collection-card]/@data-url')
+        self.assertEqual(journal_cards[3:5],[food,beach], 'Both new dad stories belong in the first visible journal batch, after the three standing pins')
+        support_cards=document('family-roles.html').xpath('//*[@data-collection-card]/@data-url')
+        self.assertEqual(support_cards[:2],[food,beach], 'Do not bury Michael’s stories after the shared-role guides')
         for url in [food,beach]:
             self.assertIn('paternal-insights',journal['entries'][url]['topics'])
             self.assertIn('places',journal['entries'][url]['topics'])

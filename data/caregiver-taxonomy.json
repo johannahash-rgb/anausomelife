@@ -19,6 +19,28 @@
     "paternal-insights": "Paternal insights"
   },
   "entries": {
+    "/kohinoor-indian-restaurant-mashpee.html": {
+      "roles": [
+        "fathers"
+      ],
+      "topics": [
+        "paternal-insights",
+        "outings",
+        "communication"
+      ],
+      "byline": "Michael, James’s dad"
+    },
+    "/menauhant-beach-the-art-of-letting-go.html": {
+      "roles": [
+        "fathers"
+      ],
+      "topics": [
+        "paternal-insights",
+        "outings",
+        "self-care"
+      ],
+      "byline": "Michael, James’s dad"
+    },
     "/what-i-understood-at-the-beach.html": {
       "roles": [],
       "topics": [
@@ -342,28 +364,6 @@
       "topics": [
         "communication"
       ]
-    },
-    "/kohinoor-indian-restaurant-mashpee.html": {
-      "roles": [
-        "fathers"
-      ],
-      "topics": [
-        "paternal-insights",
-        "outings",
-        "communication"
-      ],
-      "byline": "Michael, James’s dad"
-    },
-    "/menauhant-beach-the-art-of-letting-go.html": {
-      "roles": [
-        "fathers"
-      ],
-      "topics": [
-        "paternal-insights",
-        "outings",
-        "self-care"
-      ],
-      "byline": "Michael, James’s dad"
     }
   }
 }
