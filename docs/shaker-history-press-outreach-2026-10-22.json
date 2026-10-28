@@ -43,8 +43,8 @@
       "lastCheckedAtUTC": "2026-10-27T14:49:47Z",
       "lastDeferral": {
         "reason": "daily_cap",
-        "checkedAtUTC": "2026-10-27T14:49:47Z",
-        "nextReviewDateEastern": "2026-10-28"
+        "checkedAtUTC": "2026-10-28T14:53:40Z",
+        "nextReviewDateEastern": "2026-10-29"
       }
     },
     {
@@ -63,8 +63,8 @@
       "lastCheckedAtUTC": "2026-10-27T14:49:47Z",
       "lastDeferral": {
         "reason": "daily_cap",
-        "checkedAtUTC": "2026-10-27T14:49:47Z",
-        "nextReviewDateEastern": "2026-10-28"
+        "checkedAtUTC": "2026-10-28T14:53:40Z",
+        "nextReviewDateEastern": "2026-10-29"
       }
     },
     {
@@ -85,8 +85,8 @@
       "lastCheckedAtUTC": "2026-10-27T14:49:47Z",
       "lastDeferral": {
         "reason": "daily_cap",
-        "checkedAtUTC": "2026-10-27T14:49:47Z",
-        "nextReviewDateEastern": "2026-10-28"
+        "checkedAtUTC": "2026-10-28T14:53:40Z",
+        "nextReviewDateEastern": "2026-10-29"
       }
     },
     {
@@ -105,8 +105,8 @@
       "lastCheckedAtUTC": "2026-10-27T14:49:47Z",
       "lastDeferral": {
         "reason": "daily_cap",
-        "checkedAtUTC": "2026-10-27T14:49:47Z",
-        "nextReviewDateEastern": "2026-10-28"
+        "checkedAtUTC": "2026-10-28T14:53:40Z",
+        "nextReviewDateEastern": "2026-10-29"
       }
     },
     {
@@ -126,8 +126,8 @@
       "lastCheckedAtUTC": "2026-10-27T14:49:47Z",
       "lastDeferral": {
         "reason": "daily_cap",
-        "checkedAtUTC": "2026-10-27T14:49:47Z",
-        "nextReviewDateEastern": "2026-10-28"
+        "checkedAtUTC": "2026-10-28T14:53:40Z",
+        "nextReviewDateEastern": "2026-10-29"
       }
     },
     {
@@ -146,8 +146,8 @@
       "lastCheckedAtUTC": "2026-10-27T14:49:47Z",
       "lastDeferral": {
         "reason": "daily_cap",
-        "checkedAtUTC": "2026-10-27T14:49:47Z",
-        "nextReviewDateEastern": "2026-10-28"
+        "checkedAtUTC": "2026-10-28T14:53:40Z",
+        "nextReviewDateEastern": "2026-10-29"
       }
     },
     {
@@ -209,15 +209,15 @@
   },
   "scheduling": {
     "taskId": "6ada8c2bf77481918a810e302c45b6b3",
-    "dateEastern": "2026-10-28",
+    "dateEastern": "2026-10-29",
     "windowEastern": "09:00–11:00",
     "timingMode": "flexible_schedule",
     "confirmedCreated": true,
-    "delivery": "Harvard Press delivered; seven messages not submitted. Next review October28; Fruitlands November2 earliest subject to later-contact checks.",
+    "delivery": "Harvard Press previously confirmed delivered; seven messages not submitted. Next review October29; Fruitlands November2 earliest subject to later-contact checks.",
     "expansionTaskUpdate": "confirmed",
     "expandedRecipientCount": 8,
     "expansionConfirmedAt": "2026-10-22",
-    "lastRescheduledAtUTC": "2026-10-27T14:49:55.840598Z"
+    "lastRescheduledAtUTC": "2026-10-28T14:53:40Z"
   },
   "prospects": [
     {
@@ -233,49 +233,45 @@
     }
   ],
   "lastRun": {
-    "runId": "shaker-story-press-2026-10-27",
-    "dateEastern": "2026-10-27",
-    "checkedAtUTC": "2026-10-27T14:49:47Z",
+    "runId": "shaker-story-press-2026-10-28",
+    "dateEastern": "2026-10-28",
+    "checkedAtUTC": "2026-10-28T14:53:40Z",
     "sentThisRun": 0,
     "acceptedThisRun": 0,
     "deliveredConfirmedTotal": 1,
     "remainingUnsent": 7,
     "status": "held_daily_cap",
     "dailyCap": 3,
-    "verifiedResendMessagesTodayAtLeast": 60,
+    "verifiedResendMessagesTodayAtLeast": 14,
     "verifiedInitialOutreachTodayAtLeast": 3,
     "exactDailyTotalKnown": false,
     "capEvidence": [
       {
-        "recipient": "editorial@abilitymagazine.com",
-        "providerEmailId": "01a17be2-b072-700f-9f8d-c981b715b98d",
-        "sentAtUTC": "2026-10-27T05:43:36.504Z",
-        "status": "delivered",
-        "kind": "initial_editorial_pitch"
+        "recipient": "pr@seekandswoon.com",
+        "providerEmailId": "01a181cf-6204-74c4-b889-de342925c6b5",
+        "sentAtUTC": "2026-10-28T09:20:14.538Z",
+        "status": "delivered"
       },
       {
-        "recipient": "emily@doinggoodtogether.org",
-        "providerEmailId": "01a17be2-b072-7afd-8201-94d4c209e64a",
-        "sentAtUTC": "2026-10-27T05:43:36.500Z",
-        "status": "delivered",
-        "kind": "initial_community_pitch"
+        "recipient": "press@benchmademodern.com",
+        "providerEmailId": "01a181cf-6204-74a6-8dcd-e12cc354442f",
+        "sentAtUTC": "2026-10-28T09:20:14.528Z",
+        "status": "delivered"
       },
       {
-        "recipient": "info@bostonparent.com",
-        "providerEmailId": "01a17be2-b072-711a-b9b5-9edc4a774cc2",
-        "sentAtUTC": "2026-10-27T05:43:36.496Z",
-        "status": "delivered",
-        "kind": "initial_editorial_pitch"
+        "recipient": "hello@bownoflondon.com",
+        "providerEmailId": "01a181cf-6204-74b6-80cf-fe9e944eac3b",
+        "sentAtUTC": "2026-10-28T09:20:14.527Z",
+        "status": "delivered"
       }
     ],
-    "reason": "Shared daily initial-pitch cap already exhausted by actual sends from other workflows. No send or provider scheduling attempted.",
-    "recipientChecks": "Current main, queue, AGENTS, full-plan monitor constraints and master log v53 reviewed. Both Gmail accounts searched for initial Harvard domains and story URL with no matches. Current original Harvard Press provider receipt confirms delivered with actual From/recipient/body. Latest100 provider metadata establishes cap exhaustion. Send-time official-source, suppression and publication rechecks deferred until capacity allows.",
-    "nextReviewDateEastern": "2026-10-28",
+    "reason": "Shared daily cap exhausted by external-workflow initial editorial outreach. No send or provider scheduling attempted.",
+    "recipientChecks": "Current main, queue, AGENTS, full-plan monitor constraints and current master log v55 reviewed. Both Gmail accounts searched for initial Harvard domains and story URL; no matches. Latest100 provider metadata spans Eastern midnight and corroborates current master-log cap hold. Send-time recipient-source, suppression and publication checks deferred because capacity blocks sending.",
+    "nextReviewDateEastern": "2026-10-29",
     "nextReviewWindowEastern": "09:00–11:00",
     "rescheduledTaskConfirmed": true,
     "taskId": "6ada8c2bf77481918a810e302c45b6b3",
-    "fruitlands": "Preserve November2 earliest and recheck later Trustees contact before release.",
-    "coverage": "No coverage or repost confirmed.",
+    "coverage": "No new coverage or repost confirmed.",
     "requiresUserAction": false
   },
   "runHistory": [
@@ -386,6 +382,48 @@
       "taskId": "6ada8c2bf77481918a810e302c45b6b3",
       "fruitlands": "Preserve November2 earliest and recheck later Trustees contact before release.",
       "coverage": "No coverage or repost confirmed.",
+      "requiresUserAction": false
+    },
+    {
+      "runId": "shaker-story-press-2026-10-28",
+      "dateEastern": "2026-10-28",
+      "checkedAtUTC": "2026-10-28T14:53:40Z",
+      "sentThisRun": 0,
+      "acceptedThisRun": 0,
+      "deliveredConfirmedTotal": 1,
+      "remainingUnsent": 7,
+      "status": "held_daily_cap",
+      "dailyCap": 3,
+      "verifiedResendMessagesTodayAtLeast": 14,
+      "verifiedInitialOutreachTodayAtLeast": 3,
+      "exactDailyTotalKnown": false,
+      "capEvidence": [
+        {
+          "recipient": "pr@seekandswoon.com",
+          "providerEmailId": "01a181cf-6204-74c4-b889-de342925c6b5",
+          "sentAtUTC": "2026-10-28T09:20:14.538Z",
+          "status": "delivered"
+        },
+        {
+          "recipient": "press@benchmademodern.com",
+          "providerEmailId": "01a181cf-6204-74a6-8dcd-e12cc354442f",
+          "sentAtUTC": "2026-10-28T09:20:14.528Z",
+          "status": "delivered"
+        },
+        {
+          "recipient": "hello@bownoflondon.com",
+          "providerEmailId": "01a181cf-6204-74b6-80cf-fe9e944eac3b",
+          "sentAtUTC": "2026-10-28T09:20:14.527Z",
+          "status": "delivered"
+        }
+      ],
+      "reason": "Shared daily cap exhausted by external-workflow initial editorial outreach. No send or provider scheduling attempted.",
+      "recipientChecks": "Current main, queue, AGENTS, full-plan monitor constraints and current master log v55 reviewed. Both Gmail accounts searched for initial Harvard domains and story URL; no matches. Latest100 provider metadata spans Eastern midnight and corroborates current master-log cap hold. Send-time recipient-source, suppression and publication checks deferred because capacity blocks sending.",
+      "nextReviewDateEastern": "2026-10-29",
+      "nextReviewWindowEastern": "09:00–11:00",
+      "rescheduledTaskConfirmed": true,
+      "taskId": "6ada8c2bf77481918a810e302c45b6b3",
+      "coverage": "No new coverage or repost confirmed.",
       "requiresUserAction": false
     }
   ]
