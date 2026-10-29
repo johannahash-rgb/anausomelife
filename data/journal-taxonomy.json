@@ -51,6 +51,18 @@
       ],
       "byline": "Michael, James’s dad"
     },
+    "/the-beautiful-art-of-going-to-the-mall.html": {
+      "formats": [
+        "journal-posts",
+        "reflections",
+        "photo-essays"
+      ],
+      "topics": [
+        "places",
+        "family-life",
+        "communication"
+      ]
+    },
     "/slotzilla-fremont-street-bucket-list-self-care.html": {
       "formats": [
         "journal-posts",
@@ -650,18 +662,6 @@
       ],
       "topics": [
         "places"
-      ]
-    },
-    "/the-beautiful-art-of-going-to-the-mall.html": {
-      "formats": [
-        "journal-posts",
-        "reflections",
-        "photo-essays"
-      ],
-      "topics": [
-        "places",
-        "family-life",
-        "communication"
       ]
     }
   }
