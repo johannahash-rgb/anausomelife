@@ -1,0 +1,64 @@
+{
+  "created": "2026-10-29",
+  "canonical_story": "https://anausomelife.com/the-beautiful-art-of-going-to-the-mall.html",
+  "authorization_basis": "The owner supplied these family photographs in this conversation and repeatedly explicitly requested their publication in this mall article with a note that they span different malls and years.",
+  "sources": [
+    {
+      "path": "assets/mall-over-the-years/whitney-field-community.jpeg",
+      "source_filename": "IMG_1547.jpeg",
+      "sha256": "2c645fbc0b57edf551de9da6aac1dd8a4614459b6f4061fbc45e476206e5c490",
+      "dimensions": [
+        1152,
+        1536
+      ],
+      "alt": "James holding his blue tablet case beside the Leominster community mural.",
+      "alteration": "None; uploaded JPEG bytes preserved."
+    },
+    {
+      "path": "assets/mall-over-the-years/mall-pause-together.jpeg",
+      "source_filename": "IMG_9519(1).jpeg",
+      "sha256": "be6d0ee98b08ef6ce036bbce4780d0f8409f912a5e283bd2d1ec55723f931bb1",
+      "dimensions": [
+        1152,
+        1536
+      ],
+      "alt": "A mother and son, seen from behind, pausing together beside a recessed opening in a marble mall wall.",
+      "alteration": "None; uploaded JPEG bytes preserved."
+    },
+    {
+      "path": "assets/mall-over-the-years/holiday-mall-afternoon.jpeg",
+      "source_filename": "IMG_0188.jpeg",
+      "sha256": "cf46d5d5a45c3e96a712742a4b4028a2bfec9c931dac784003b65ab522cd8496",
+      "dimensions": [
+        1152,
+        1536
+      ],
+      "alt": "James seated at a mall food-court table with holiday decorations behind him.",
+      "alteration": "None; uploaded JPEG bytes preserved."
+    },
+    {
+      "path": "assets/mall-over-the-years/easter-bunny-2024.jpeg",
+      "source_filename": "IMG_5570.jpeg",
+      "sha256": "7cffed99fd8d4870fe52584ae0dc2089e2c086a6a9f1b2c35f9557c955b9bef6",
+      "dimensions": [
+        1152,
+        1536
+      ],
+      "alt": "A printed 2024 portrait of James smiling beside the Easter Bunny.",
+      "alteration": "None; uploaded JPEG bytes preserved."
+    },
+    {
+      "path": "assets/mall-over-the-years/carousel-with-dad.jpeg",
+      "source_filename": "IMG_0927.jpeg",
+      "sha256": "aa1e0167c93b528be2e5b20361583691178e8b9df63b95a4e5e2416ab68294eb",
+      "dimensions": [
+        1152,
+        1536
+      ],
+      "alt": "Michael and James seated together in a carousel carriage beneath strings of lights.",
+      "alteration": "None; uploaded JPEG bytes preserved."
+    }
+  ],
+  "photo_rights": "Owner-authorized publication on the original An AUsome Life article and its ordinary on-site listing. No third-party family-media redistribution license.",
+  "excluded": "IMG_5289.png is a ride-pickup screenshot, not a family mall photograph; it contains unrelated driver and vehicle details and was not uploaded to the public website."
+}
