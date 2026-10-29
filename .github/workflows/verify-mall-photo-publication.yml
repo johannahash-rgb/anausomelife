@@ -1,0 +1,82 @@
+name: Verify published mall photo gallery
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/verify-mall-photo-publication.yml']
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v6
+      - name: Install browser verification package
+        run: python -m pip install --quiet playwright==1.56.0
+      - name: Check the live page, original image bytes and responsive gallery
+        run: |
+          python - <<'PY'
+          import hashlib, json, time, urllib.request
+          from pathlib import Path
+          from playwright.sync_api import sync_playwright
+          out=Path('mall-publication-proof');out.mkdir(exist_ok=True)
+          base='https://anausomelife.com'
+          slug='/the-beautiful-art-of-going-to-the-mall.html'
+          expected=json.loads(Path('docs/mall-photos-provenance.json').read_text())['sources']
+          def get(url):
+              req=urllib.request.Request(url,headers={'User-Agent':'An-AUsome-Life-publication-check','Cache-Control':'no-cache'})
+              with urllib.request.urlopen(req,timeout=40) as r:return r.read(),r.status,r.geturl()
+          for attempt in range(20):
+              try:
+                  page,status,final_url=get(base+slug+'?gallery-check='+str(int(time.time())))
+                  assert b'id="mall-photo-gallery"' in page or b'id=mall-photo-gallery' in page
+                  checks=[]
+                  for photo in expected:
+                      data,code,target=get(base+'/'+photo['path'])
+                      actual=hashlib.sha256(data).hexdigest()
+                      assert actual==photo['sha256'],photo['path']
+                      checks.append({'url':target,'status':code,'bytes':len(data),'original_sha256_matches':True})
+                  print('LIVE_PHOTO_BYTES_VERIFIED',json.dumps(checks),flush=True)
+                  break
+              except Exception as exc:
+                  print('Publication not verified yet:',type(exc).__name__,str(exc),flush=True)
+                  if attempt==19:raise
+                  time.sleep(12)
+          (out/'live-article.html').write_bytes(page)
+          report={'url':base+slug,'http_status':status,'images':checks,'viewports':[]}
+          with sync_playwright() as p:
+              browser=p.chromium.launch(channel='chrome',headless=True,args=['--no-sandbox'])
+              for name,width,height in [('desktop',1280,900),('mobile',390,844)]:
+                  context=browser.new_context(viewport={'width':width,'height':height},device_scale_factor=1)
+                  tab=context.new_page()
+                  response=tab.goto(base+slug+'?photo-layout='+str(int(time.time())),wait_until='networkidle',timeout=60000)
+                  images=tab.locator('figure.mall-family-photo img')
+                  assert images.count()==5, 'Expected five original article photographs'
+                  for image in images.all():
+                      image.scroll_into_view_if_needed()
+                      image.evaluate('(img)=>img.loading="eager"')
+                  tab.wait_for_function('Array.from(document.querySelectorAll("figure.mall-family-photo img")).every(i=>i.complete&&i.naturalWidth>0)')
+                  result=images.evaluate_all('(imgs)=>imgs.map(i=>({src:i.currentSrc,alt:i.alt,naturalWidth:i.naturalWidth,naturalHeight:i.naturalHeight,renderedWidth:i.getBoundingClientRect().width,renderedHeight:i.getBoundingClientRect().height}))')
+                  overflow=tab.evaluate('document.documentElement.scrollWidth > window.innerWidth + 1')
+                  note=tab.locator('.mall-album-note').inner_text()
+                  assert 'different malls and different years' in note
+                  assert not overflow, 'Horizontal overflow in '+name
+                  for item in result:
+                      assert item['naturalWidth']==1152 and item['naturalHeight']==1536
+                      assert abs(item['renderedWidth']/item['renderedHeight']-0.75)<0.02,'A photograph is cropped or distorted'
+                  tab.locator('#mall-photo-gallery').screenshot(path=str(out/(name+'-gallery.png')))
+                  tab.evaluate('window.scrollTo(0,0)')
+                  tab.screenshot(path=str(out/(name+'-article.png')),full_page=True)
+                  report['viewports'].append({'name':name,'width':width,'photos_loaded':len(result),'horizontal_overflow':overflow,'note':note,'photos':result})
+                  context.close()
+              browser.close()
+          (out/'verification.json').write_text(json.dumps(report,indent=2))
+          print('MALL_LIVE_QA_PASS '+json.dumps(report),flush=True)
+          PY
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: mall-publication-proof
+          path: mall-publication-proof/
+          retention-days: 7
