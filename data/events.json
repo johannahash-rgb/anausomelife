@@ -1711,6 +1711,23 @@
       "sourceCheckedAt": "2026-10-22T11:44:46Z",
       "status": "manually-checked",
       "lastChecked": "2026-10-22T11:44:46Z"
+    },
+    {
+      "id": "autism-eats",
+      "name": "Autism Eats",
+      "url": "https://www.autismeats.org/EVENTS.HTML",
+      "state": "MA",
+      "mode": "manual",
+      "enabled": false,
+      "timezone": "America/New_York",
+      "allowedHosts": [
+        "www.autismeats.org"
+      ],
+      "autoPublish": false,
+      "feedVerified": false,
+      "sourceCheckedAt": "2026-10-30T14:40:00Z",
+      "status": "manually-checked",
+      "lastChecked": "2026-10-30T14:40:00Z"
     }
   ],
   "events": [
@@ -9525,6 +9542,39 @@
       "notes": [
         "Specific mobility, restroom and changing facilities are not confirmed in this event listing. Contact the venue about individual access needs."
       ]
+    },
+    {
+      "id": "autism-eats-friendsgiving-2026-11-13",
+      "title": "Autism Eats Friendsgiving Dinner — Sold Out / Waitlist",
+      "start": "2026-11-13T18:00:00-05:00",
+      "end": "2026-11-13T20:00:00-05:00",
+      "timezone": "America/New_York",
+      "state": "MA",
+      "city": "Newburyport",
+      "venue": "Michael’s Harborside",
+      "address": "1 Tournament Wharf, Newburyport, MA 01950",
+      "cost": "Price not stated in the checked event page or organizer invitation; confirm with Autism Eats if offered a waitlist place.",
+      "ages": "Autism families; all behaviors and abilities welcome",
+      "summary": "An autism-friendly Friendsgiving buffet dinner in a private room, with time for families to dine and socialize.",
+      "sourceId": "autism-eats",
+      "sourceUrl": "https://www.autismeats.org/EVENTS.HTML",
+      "ticketUrl": "https://www.autismeats.org/wait-list-form",
+      "category": "Holiday social",
+      "format": "In person",
+      "accessibility": [
+        "Private dining room for the Autism Eats group",
+        "All behaviors and abilities welcome"
+      ],
+      "registration": "Sold out when checked October 30, 2026. Join the organizer’s waitlist; a waitlist request does not confirm a reservation.",
+      "cancellationPolicy": "Confirm cancellation and refund terms with the organizer.",
+      "notes": [
+        "Reservations required.",
+        "Specific dietary accommodations, mobility access, restroom facilities and mask requirements are not stated in the checked invitation; confirm individual needs with the organizer."
+      ],
+      "lastVerified": "2026-10-30T14:40:00Z",
+      "verificationMethod": "Official Autism Eats event page and sold-out/waitlist status checked October 30; time and address verified against the organizer’s October 17, 2026 event invitation.",
+      "reviewRequired": false,
+      "status": "scheduled"
     }
   ],
   "accessibilityStandard": {

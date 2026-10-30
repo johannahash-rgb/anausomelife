@@ -8870,6 +8870,36 @@
       },
       "checkedAt": "2026-10-30",
       "holidays": []
+    },
+    "autism-eats-friendsgiving-2026-11-13": {
+      "ageGroups": [
+        "families"
+      ],
+      "accessFeatures": [],
+      "ageEvidence": {
+        "families": {
+          "url": "https://www.autismeats.org/EVENTS.HTML",
+          "summary": "Autism-friendly family dinner; all behaviors and abilities welcome."
+        }
+      },
+      "accessEvidence": {},
+      "checkedAt": "2026-10-30",
+      "holidays": [
+        "holiday-social"
+      ],
+      "holidayEvidence": {
+        "holiday-social": {
+          "url": "https://www.autismeats.org/EVENTS.HTML",
+          "summary": "Friendsgiving Dinner on November 13, 2026."
+        }
+      },
+      "sensory": {
+        "level": "unknown",
+        "note": "Private group dining room; specific sound and lighting adjustments are not described.",
+        "sourceUrl": "https://www.autismeats.org/EVENTS.HTML",
+        "checkedAt": "2026-10-30",
+        "basis": "Published organizer details; sensory conditions not confirmed"
+      }
     }
   },
   "sensoryMethod": "Sensory levels are editorial planning estimates based on the specific published conditions, not medical ratings or promises. Low means reduced stimulation, moderate means some ongoing music or activity, high means a likely stimulating mix, variable means conditions or parts of the visit differ, and unknown means evidence is insufficient. Sensory-friendly and disability-inclusive are not automatic low-sensory ratings. Earlier event verification dates remain visible."
