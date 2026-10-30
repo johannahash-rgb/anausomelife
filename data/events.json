@@ -4171,10 +4171,11 @@
       "cancellationPolicy": "Not stated in the checked listing; confirm with the organizer.",
       "notes": [
         "A medical diagnosis is not required.",
-        "Dinner includes a gluten-free option."
+        "Dinner includes a gluten-free option.",
+        "Access update, October 30, 2026: the third-floor Ship Room is currently accessible only by stairs while its elevator is repaired and upgraded. The main elevator remains operational for the two main floors. Confirm the repair status before your visit."
       ],
-      "lastVerified": "2026-10-27T12:39:47Z",
-      "verificationMethod": "Official dated event page and linked registration page reviewed",
+      "lastVerified": "2026-10-30T12:14:12.290884Z",
+      "verificationMethod": "Official program/calendar and registration pages reviewed; access update from museum newsletter dated October 30, 2026",
       "reviewRequired": false,
       "status": "scheduled",
       "category": "Halloween",
@@ -5141,9 +5142,11 @@
       "timezone": "America/New_York",
       "ticketUrl": "https://www.discoveryacton.org/visit/especially-me",
       "cancellationPolicy": "Not stated in the checked listing; confirm with the organizer.",
-      "notes": [],
-      "lastVerified": "2026-10-22T10:40:00Z",
-      "verificationMethod": "Official organizer/event page reviewed",
+      "notes": [
+        "Access update, October 30, 2026: the third-floor Ship Room is currently accessible only by stairs while its elevator is repaired and upgraded. The main elevator remains operational for the two main floors. Confirm the repair status before your visit."
+      ],
+      "lastVerified": "2026-10-30T12:14:12.290907Z",
+      "verificationMethod": "Official program/calendar and registration pages reviewed; access update from museum newsletter dated October 30, 2026",
       "reviewRequired": false,
       "status": "scheduled",
       "format": "In person",
@@ -5160,7 +5163,7 @@
       "ages": "Any family or group that would benefit from an accessible, lower-visitation museum visit",
       "summary": "Explore during regular opening hours with no scheduled group visits, reducing crowding. Admission through this program is free with advance registration.",
       "accessibility": [
-        "ADA-compliant museum and Discovery Woods",
+        "Main museum floors and Discovery Woods wheelchair accessible; Ship Room currently stairs only",
         "Noise-reducing headphones",
         "Sensory map and Social Story",
         "Take a Break space"
@@ -5320,7 +5323,7 @@
       "accessibility": [
         "ASL interpreter available",
         "Designated Take-A-Break Space",
-        "Wheelchair-accessible museum",
+        "Main museum floors wheelchair accessible; Ship Room currently stairs only",
         "Pre-visit sensory map and Social Story available"
       ],
       "sourceId": "discovery",
@@ -5330,10 +5333,11 @@
       "cancellationPolicy": "Not stated in the checked listing; confirm with the organizer.",
       "notes": [
         "Part of the Especially for Me series.",
-        "The series welcomes families who benefit from a sensory-friendly visit; a medical diagnosis is not required."
+        "The series welcomes families who benefit from a sensory-friendly visit; a medical diagnosis is not required.",
+        "Access update, October 30, 2026: the third-floor Ship Room is currently accessible only by stairs while its elevator is repaired and upgraded. The main elevator remains operational for the two main floors. Confirm the repair status before your visit."
       ],
-      "lastVerified": "2026-10-22T10:40:00Z",
-      "verificationMethod": "Official dated event page and linked registration page reviewed",
+      "lastVerified": "2026-10-30T12:14:12.290914Z",
+      "verificationMethod": "Official program/calendar and registration pages reviewed; access update from museum newsletter dated October 30, 2026",
       "reviewRequired": false,
       "status": "scheduled",
       "category": "Inclusive access",
@@ -5522,9 +5526,11 @@
       "timezone": "America/New_York",
       "ticketUrl": "https://www.discoveryacton.org/visit/especially-me",
       "cancellationPolicy": "Not stated in the checked listing; confirm with the organizer.",
-      "notes": [],
-      "lastVerified": "2026-10-25T12:09:19Z",
-      "verificationMethod": "Official dated event page, museum calendar and linked registration destination reviewed",
+      "notes": [
+        "Access update, October 30, 2026: the third-floor Ship Room is currently accessible only by stairs while its elevator is repaired and upgraded. The main elevator remains operational for the two main floors. Confirm the repair status before your visit."
+      ],
+      "lastVerified": "2026-10-30T12:14:12.290919Z",
+      "verificationMethod": "Official program/calendar and registration pages reviewed; access update from museum newsletter dated October 30, 2026",
       "reviewRequired": false,
       "status": "scheduled",
       "format": "In person",
@@ -5541,7 +5547,7 @@
       "ages": "Any family or group that would benefit from an accessible, lower-visitation museum visit",
       "summary": "Explore during regular opening hours with no scheduled group visits, reducing crowding. Admission through this program is free with advance registration.",
       "accessibility": [
-        "ADA-compliant museum and Discovery Woods",
+        "Main museum floors and Discovery Woods wheelchair accessible; Ship Room currently stairs only",
         "Noise-reducing headphones",
         "Sensory map and Social Story",
         "Take a Break space"
@@ -5986,10 +5992,11 @@
       "cancellationPolicy": "Not stated in the checked listing; confirm with the organizer.",
       "notes": [
         "A medical diagnosis is not required.",
-        "Dinner includes a gluten-free option."
+        "Dinner includes a gluten-free option.",
+        "Access update, October 30, 2026: the third-floor Ship Room is currently accessible only by stairs while its elevator is repaired and upgraded. The main elevator remains operational for the two main floors. Confirm the repair status before your visit."
       ],
-      "lastVerified": "2026-10-25T12:09:19Z",
-      "verificationMethod": "Official dated event page, museum calendar and linked registration page reviewed",
+      "lastVerified": "2026-10-30T12:14:12.290925Z",
+      "verificationMethod": "Official program/calendar and registration pages reviewed; access update from museum newsletter dated October 30, 2026",
       "reviewRequired": false,
       "status": "scheduled",
       "category": "Sensory-friendly",
@@ -9513,7 +9520,7 @@
       "accessibilityUrl": "https://bostonchildrensmuseum.org/visit/accessibility/"
     },
     "Discovery Museum": {
-      "mobility": "Museum building, exhibits, Discovery Woods and Treehouse are wheelchair accessible; two elevators serve the museum.",
+      "mobility": "The main elevator serves the two main museum floors. As reported October 30, 2026, the third-floor Ship Room is accessible only by stairs while its elevator is repaired and upgraded. Discovery Woods and Treehouse have wheelchair-accessible routes. Confirm repair status before visiting.",
       "terrain": "Discovery Woods has an accessible pathway. Snow or ice can affect the outdoor path in winter.",
       "sensory": "Noise-reducing headphones, sunglasses, sensory map, multilingual Social Story and a Take a Break space are available.",
       "visionHearing": "ASL interpretation can be requested with at least two weeks’ notice, subject to availability. Especially for Me includes Deaf, Blind and DeafBlind programming.",
@@ -9521,7 +9528,7 @@
       "changing": "All five restrooms have changing tables. Adult-size changing equipment was not confirmed in the current public information reviewed.",
       "parking": "Accessible parking spaces are near the rear of the building.",
       "weather": "Outdoor Discovery Woods is weather-sensitive and closes at sunset.",
-      "evidence": "Organizer accessibility and plan-your-visit pages checked Oct 3, 2026.",
+      "evidence": "Organizer accessibility page reviewed and current elevator limitation confirmed in the museum's October 30, 2026 newsletter.",
       "accessibilityUrl": "https://www.discoveryacton.org/visit/accessibility"
     },
     "Montshire Museum of Science": {

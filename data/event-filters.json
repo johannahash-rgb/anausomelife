@@ -1018,7 +1018,10 @@
         },
         "wheelchair-step-free": {
           "evidenceId": "discovery-dates",
-          "url": "https://www.discoveryacton.org/news/schedule-free-events-visitors-disabilities-announced"
+          "url": "https://www.discoveryacton.org/news/schedule-free-events-visitors-disabilities-announced",
+          "summary": "Access update, October 30, 2026: the third-floor Ship Room is currently accessible only by stairs while its elevator is repaired and upgraded. The main elevator remains operational for the two main floors. Confirm the repair status before your visit.",
+          "checkedAt": "2026-10-30",
+          "sourceNote": "Discovery Museum newsletter dated October 30, 2026; current limitation supersedes general elevator description."
         },
         "hearing-support": {
           "url": "https://www.discoveryacton.org/news/schedule-free-events-visitors-disabilities-announced",
@@ -1223,7 +1226,10 @@
         },
         "wheelchair-step-free": {
           "evidenceId": "discovery-dates",
-          "url": "https://www.discoveryacton.org/news/schedule-free-events-visitors-disabilities-announced"
+          "url": "https://www.discoveryacton.org/news/schedule-free-events-visitors-disabilities-announced",
+          "summary": "Access update, October 30, 2026: the third-floor Ship Room is currently accessible only by stairs while its elevator is repaired and upgraded. The main elevator remains operational for the two main floors. Confirm the repair status before your visit.",
+          "checkedAt": "2026-10-30",
+          "sourceNote": "Discovery Museum newsletter dated October 30, 2026; current limitation supersedes general elevator description."
         }
       },
       "checkedAt": "2026-10-04",
@@ -3136,7 +3142,10 @@
         },
         "wheelchair-step-free": {
           "evidenceId": "discovery-dates",
-          "url": "https://www.discoveryacton.org/news/schedule-free-events-visitors-disabilities-announced"
+          "url": "https://www.discoveryacton.org/news/schedule-free-events-visitors-disabilities-announced",
+          "summary": "Access update, October 30, 2026: the third-floor Ship Room is currently accessible only by stairs while its elevator is repaired and upgraded. The main elevator remains operational for the two main floors. Confirm the repair status before your visit.",
+          "checkedAt": "2026-10-30",
+          "sourceNote": "Discovery Museum newsletter dated October 30, 2026; current limitation supersedes general elevator description."
         }
       },
       "checkedAt": "2026-10-05",
@@ -3171,7 +3180,10 @@
           "url": "https://www.discoveryacton.org/news/schedule-free-events-visitors-disabilities-announced"
         },
         "wheelchair-step-free": {
-          "url": "https://www.discoveryacton.org/news/schedule-free-events-visitors-disabilities-announced"
+          "url": "https://www.discoveryacton.org/news/schedule-free-events-visitors-disabilities-announced",
+          "summary": "Access update, October 30, 2026: the third-floor Ship Room is currently accessible only by stairs while its elevator is repaired and upgraded. The main elevator remains operational for the two main floors. Confirm the repair status before your visit.",
+          "checkedAt": "2026-10-30",
+          "sourceNote": "Discovery Museum newsletter dated October 30, 2026; current limitation supersedes general elevator description."
         },
         "hearing-support": {
           "url": "https://www.discoveryacton.org/news/schedule-free-events-visitors-disabilities-announced"
@@ -7979,7 +7991,10 @@
           "url": "https://www.discoveryacton.org/visit/especially-me"
         },
         "wheelchair-step-free": {
-          "url": "https://www.discoveryacton.org/visit/especially-me"
+          "url": "https://www.discoveryacton.org/visit/especially-me",
+          "summary": "Access update, October 30, 2026: the third-floor Ship Room is currently accessible only by stairs while its elevator is repaired and upgraded. The main elevator remains operational for the two main floors. Confirm the repair status before your visit.",
+          "checkedAt": "2026-10-30",
+          "sourceNote": "Discovery Museum newsletter dated October 30, 2026; current limitation supersedes general elevator description."
         },
         "hearing-support": {
           "url": "https://www.discoveryacton.org/events-programs/morning-deafhard-hearing-visitors-2"
