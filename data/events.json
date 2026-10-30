@@ -5307,6 +5307,41 @@
       "format": "In person"
     },
     {
+      "id": "discovery-foster-2026-11-21",
+      "title": "Foster Family Evening",
+      "start": "2026-11-21T17:00:00-05:00",
+      "end": "2026-11-21T20:00:00-05:00",
+      "timezone": "America/New_York",
+      "state": "MA",
+      "city": "Acton",
+      "venue": "Discovery Museum",
+      "address": "177 Main Street, Acton, MA 01720",
+      "cost": "Free",
+      "ages": "Foster and kinship families",
+      "summary": "A dedicated evening for foster and kinship families, with the museum closed to the general public. Dinner, including a gluten-free option, is provided.",
+      "accessibility": [
+        "Limited attendance",
+        "Designated Take-A-Break Space",
+        "Main floors served by elevator; Ship Room currently stairs only"
+      ],
+      "sourceId": "discovery",
+      "sourceUrl": "https://www.discoveryacton.org/events-programs/foster-family-evening-3",
+      "ticketUrl": "https://26033.blackbaudhosting.com/26033/Especially-for-Me---Foster-Family-Evening",
+      "registration": "Advance registration required; space is limited. Confirm current availability with the organizer.",
+      "cancellationPolicy": "Not stated in the checked listing; confirm with the organizer.",
+      "notes": [
+        "For foster and kinship families.",
+        "Access update, October 30, 2026: the third-floor Ship Room is currently accessible only by stairs while its elevator is repaired and upgraded. The main elevator remains operational for the two main floors. Confirm the repair status before your visit."
+      ],
+      "lastVerified": "2026-10-30T15:22:09.459052+00:00",
+      "verificationMethod": "Official dated event page and October 30 museum newsletter reviewed",
+      "reviewRequired": false,
+      "status": "scheduled",
+      "category": "Inclusive access",
+      "format": "In person",
+      "costCategory": "free"
+    },
+    {
       "id": "discovery-deaf-morning-2026-11-23",
       "title": "Morning for Deaf/Hard of Hearing Visitors",
       "start": "2026-11-23T09:30:00-05:00",

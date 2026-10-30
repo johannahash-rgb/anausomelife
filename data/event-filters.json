@@ -8848,6 +8848,28 @@
       },
       "holidays": [],
       "holidayEvidence": {}
+    },
+    "discovery-foster-2026-11-21": {
+      "ageGroups": [
+        "families"
+      ],
+      "accessFeatures": [
+        "wheelchair-step-free"
+      ],
+      "ageEvidence": {
+        "families": {
+          "url": "https://www.discoveryacton.org/events-programs/foster-family-evening-3",
+          "summary": "For foster and kinship families"
+        }
+      },
+      "accessEvidence": {
+        "wheelchair-step-free": {
+          "url": "https://www.discoveryacton.org/visit/accessibility",
+          "summary": "Access update, October 30, 2026: the third-floor Ship Room is currently accessible only by stairs while its elevator is repaired and upgraded. The main elevator remains operational for the two main floors. Confirm the repair status before your visit."
+        }
+      },
+      "checkedAt": "2026-10-30",
+      "holidays": []
     }
   },
   "sensoryMethod": "Sensory levels are editorial planning estimates based on the specific published conditions, not medical ratings or promises. Low means reduced stimulation, moderate means some ongoing music or activity, high means a likely stimulating mix, variable means conditions or parts of the visit differ, and unknown means evidence is insufficient. Sensory-friendly and disability-inclusive are not automatic low-sensory ratings. Earlier event verification dates remain visible."
