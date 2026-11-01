@@ -2540,6 +2540,1546 @@
       "venue": "Discovery Museum",
       "start": "2026-11-21T17:00:00-05:00",
       "reusedFrom": "/assets/event-sketches/discovery-evening.webp"
+    },
+    "brookline-sensory-storytime-2026-11-14": {
+      "src": "/assets/event-sketches/westport-early-opening.webp",
+      "alt": "An open storybook and brass reading lamp in quiet morning light.",
+      "width": 720,
+      "height": 480,
+      "title": "Sensory Storytime",
+      "venue": "Public Library of Brookline — Hunneman Hall",
+      "start": "2026-11-14T14:00:00-05:00",
+      "reusedFromEvent": "westport-early-2026-10-04"
+    },
+    "brookline-sensory-storytime-2026-12-05": {
+      "src": "/assets/event-sketches/westport-early-opening.webp",
+      "alt": "An open storybook and brass reading lamp in quiet morning light.",
+      "width": 720,
+      "height": 480,
+      "title": "Sensory Storytime",
+      "venue": "Public Library of Brookline — Hunneman Hall",
+      "start": "2026-12-05T14:00:00-05:00",
+      "reusedFromEvent": "westport-early-2026-10-04"
+    },
+    "waltham-sensory-storytime-2026-11-07": {
+      "src": "/assets/event-sketches/westport-early-opening.webp",
+      "alt": "An open storybook and brass reading lamp in quiet morning light.",
+      "width": 720,
+      "height": 480,
+      "title": "Sensory Storytime",
+      "venue": "Waltham Public Library — Lecture Hall",
+      "start": "2026-11-07T10:00:00-05:00",
+      "reusedFromEvent": "westport-early-2026-10-04"
+    },
+    "waltham-sensory-storytime-2026-12-05": {
+      "src": "/assets/event-sketches/westport-early-opening.webp",
+      "alt": "An open storybook and brass reading lamp in quiet morning light.",
+      "width": 720,
+      "height": 480,
+      "title": "Sensory Storytime",
+      "venue": "Waltham Public Library — Lecture Hall",
+      "start": "2026-12-05T10:00:00-05:00",
+      "reusedFromEvent": "westport-early-2026-10-04"
+    },
+    "long-hill-sensory-santa-2026-12-06": {
+      "src": "/assets/event-sketches/santa-visit.webp",
+      "alt": "Original ink-and-watercolor study of a cranberry Santa hat, brass bell and a warm wooden armchair.",
+      "width": 1536,
+      "height": 1024,
+      "title": "Sensory-Friendly Photos with Santa",
+      "venue": "Long Hill",
+      "start": "2026-12-06T11:00:00-05:00",
+      "reusedFromEvent": "northshore-santa-2026-12-06"
+    },
+    "aa-turkey-time-2026-11-04": {
+      "src": "/assets/event-sketches/storytime-smiles.webp",
+      "alt": "A storybook, colored pencils, paper crafts and apple slices sketched in watercolor.",
+      "width": 720,
+      "height": 480,
+      "title": "Turkey Time Drop-In Program",
+      "venue": "Autism Welcoming Center at Natick Mall",
+      "start": "2026-11-04T14:00:00-05:00",
+      "reusedFromEvent": "autism-alliance-storytime-2026-10-03"
+    },
+    "aa-turkey-time-2026-11-11": {
+      "src": "/assets/event-sketches/storytime-smiles.webp",
+      "alt": "A storybook, colored pencils, paper crafts and apple slices sketched in watercolor.",
+      "width": 720,
+      "height": 480,
+      "title": "Turkey Time Drop-In Program",
+      "venue": "Autism Welcoming Center at Natick Mall",
+      "start": "2026-11-11T14:00:00-05:00",
+      "reusedFromEvent": "autism-alliance-storytime-2026-10-03"
+    },
+    "aa-turkey-time-2026-11-18": {
+      "src": "/assets/event-sketches/storytime-smiles.webp",
+      "alt": "A storybook, colored pencils, paper crafts and apple slices sketched in watercolor.",
+      "width": 720,
+      "height": 480,
+      "title": "Turkey Time Drop-In Program",
+      "venue": "Autism Welcoming Center at Natick Mall",
+      "start": "2026-11-18T14:00:00-05:00",
+      "reusedFromEvent": "autism-alliance-storytime-2026-10-03"
+    },
+    "aa-turkey-time-2026-11-25": {
+      "src": "/assets/event-sketches/storytime-smiles.webp",
+      "alt": "A storybook, colored pencils, paper crafts and apple slices sketched in watercolor.",
+      "width": 720,
+      "height": 480,
+      "title": "Turkey Time Drop-In Program",
+      "venue": "Autism Welcoming Center at Natick Mall",
+      "start": "2026-11-25T14:00:00-05:00",
+      "reusedFromEvent": "autism-alliance-storytime-2026-10-03"
+    },
+    "aa-sensory-santa-2026-11-21": {
+      "src": "/assets/event-sketches/santa-visit.webp",
+      "alt": "Original ink-and-watercolor study of a cranberry Santa hat, brass bell and a warm wooden armchair.",
+      "width": 1536,
+      "height": 1024,
+      "title": "Autism Welcoming Sensory Santa Experience",
+      "venue": "Autism Welcoming Center at Natick Mall",
+      "start": "2026-11-21T10:00:00-05:00",
+      "reusedFromEvent": "northshore-santa-2026-12-06"
+    },
+    "uss-sensory-sunday-2026-11-15": {
+      "src": "/assets/event-sketches/history-morning.webp",
+      "alt": "Original ink-and-watercolor study of a quill, inkpot, old brass keys and parchment beside a red-brick detail.",
+      "width": 1536,
+      "height": 1024,
+      "title": "Sensory-Friendly Sunday at USS Constitution Museum",
+      "venue": "USS Constitution Museum",
+      "start": "2026-11-15T09:00:00-05:00",
+      "reusedFromEvent": "old-state-house-2026-10-12"
+    },
+    "uss-sensory-sunday-2026-12-20": {
+      "src": "/assets/event-sketches/history-morning.webp",
+      "alt": "Original ink-and-watercolor study of a quill, inkpot, old brass keys and parchment beside a red-brick detail.",
+      "width": 1536,
+      "height": 1024,
+      "title": "Sensory-Friendly Sunday at USS Constitution Museum",
+      "venue": "USS Constitution Museum",
+      "start": "2026-12-20T09:00:00-05:00",
+      "reusedFromEvent": "old-state-house-2026-10-12"
+    },
+    "medford-adaptive-gingerbread-2026-12-17": {
+      "src": "/assets/event-sketches/holiday-gift-making.webp",
+      "alt": "Original watercolor study of a handmade gift, ribbon, tea, stationery and a small box on a cream tabletop.",
+      "width": 1536,
+      "height": 1024,
+      "title": "Adaptive Gingerbread Cookie Decorating for Teens",
+      "venue": "Charlotte & William Bloomberg Medford Public Library — Bonsignore Hall",
+      "start": "2026-12-17T18:00:00-05:00",
+      "reusedFromEvent": "car-holiday-bazaar-2026-11-14"
+    },
+    "bci-new-bedford-winter-2026-12-03": {
+      "src": "/assets/event-sketches/holiday-gift-making.webp",
+      "alt": "Original watercolor study of a handmade gift, ribbon, tea, stationery and a small box on a cream tabletop.",
+      "width": 1536,
+      "height": 1024,
+      "title": "Sensory-Friendly Winter Wonderland",
+      "venue": "BCI New Bedford Learning Center",
+      "start": "2026-12-03T16:00:00-05:00",
+      "reusedFromEvent": "car-holiday-bazaar-2026-11-14"
+    },
+    "wistariahurst-sensory-2026-11-15": {
+      "src": "/assets/event-sketches/morningstar-museum.webp",
+      "alt": "Ink-and-watercolor study of wooden building forms and a prism in morning light.",
+      "width": 720,
+      "height": 480,
+      "title": "Sensory Friendly Sunday Funday",
+      "venue": "Wistariahurst Museum",
+      "start": "2026-11-15T12:00:00-05:00",
+      "reusedFromEvent": "bcm-2026-10-03"
+    },
+    "wistariahurst-sensory-2026-12-13": {
+      "src": "/assets/event-sketches/morningstar-museum.webp",
+      "alt": "Ink-and-watercolor study of wooden building forms and a prism in morning light.",
+      "width": 720,
+      "height": 480,
+      "title": "Sensory Friendly Sunday Funday",
+      "venue": "Wistariahurst Museum",
+      "start": "2026-12-13T12:00:00-05:00",
+      "reusedFromEvent": "bcm-2026-10-03"
+    },
+    "arc-south-shore-holiday-2026-12-06": {
+      "src": "/assets/event-sketches/holiday-gift-making.webp",
+      "alt": "Original watercolor study of a handmade gift, ribbon, tea, stationery and a small box on a cream tabletop.",
+      "width": 1536,
+      "height": 1024,
+      "title": "The Arc of the South Shore Holiday Festival",
+      "venue": "The Arc of the South Shore / Webb State Park",
+      "start": "2026-12-06T11:00:00-05:00",
+      "reusedFromEvent": "car-holiday-bazaar-2026-11-14"
+    },
+    "providence-place-sensory-santa-2026-12-06": {
+      "src": "/assets/event-sketches/santa-visit.webp",
+      "alt": "Original ink-and-watercolor study of a cranberry Santa hat, brass bell and a warm wooden armchair.",
+      "width": 1536,
+      "height": 1024,
+      "title": "Sensory-Friendly Santa Cares Morning",
+      "venue": "Providence Place — Santa’s Arctic Clipper, Level 1 Garden",
+      "start": "2026-12-06T09:30:00-05:00",
+      "reusedFromEvent": "northshore-santa-2026-12-06"
+    },
+    "warwick-sensory-saturday-2026-11-21": {
+      "src": "/assets/event-sketches/morningstar-museum.webp",
+      "alt": "Ink-and-watercolor study of wooden building forms and a prism in morning light.",
+      "width": 720,
+      "height": 480,
+      "title": "Sensory Saturday Play",
+      "venue": "Warwick Public Library — Central Library Children’s Program Room",
+      "start": "2026-11-21T10:00:00-05:00",
+      "reusedFromEvent": "bcm-2026-10-03"
+    },
+    "pawtucket-sensory-lego-2026-11-14": {
+      "src": "/assets/event-sketches/westport-early-opening.webp",
+      "alt": "An open storybook and brass reading lamp in quiet morning light.",
+      "width": 720,
+      "height": 480,
+      "title": "Sensory Friendly LEGO Club",
+      "venue": "Pawtucket Public Library — Caidin Room",
+      "start": "2026-11-14T11:00:00-05:00",
+      "reusedFromEvent": "westport-early-2026-10-04"
+    },
+    "pawtucket-sensory-lego-2026-12-12": {
+      "src": "/assets/event-sketches/westport-early-opening.webp",
+      "alt": "An open storybook and brass reading lamp in quiet morning light.",
+      "width": 720,
+      "height": 480,
+      "title": "Sensory Friendly LEGO Club",
+      "venue": "Pawtucket Public Library — Caidin Room",
+      "start": "2026-12-12T11:00:00-05:00",
+      "reusedFromEvent": "westport-early-2026-10-04"
+    },
+    "mt-pleasant-sensory-story-2026-11-03": {
+      "src": "/assets/event-sketches/westport-early-opening.webp",
+      "alt": "An open storybook and brass reading lamp in quiet morning light.",
+      "width": 720,
+      "height": 480,
+      "title": "Sensory Friendly Storytime",
+      "venue": "Mt. Pleasant Library — Children’s Area",
+      "start": "2026-11-03T10:30:00-05:00",
+      "reusedFromEvent": "westport-early-2026-10-04"
+    },
+    "mt-pleasant-sensory-story-2026-11-10": {
+      "src": "/assets/event-sketches/westport-early-opening.webp",
+      "alt": "An open storybook and brass reading lamp in quiet morning light.",
+      "width": 720,
+      "height": 480,
+      "title": "Sensory Friendly Storytime",
+      "venue": "Mt. Pleasant Library — Children’s Area",
+      "start": "2026-11-10T10:30:00-05:00",
+      "reusedFromEvent": "westport-early-2026-10-04"
+    },
+    "mt-pleasant-sensory-story-2026-11-17": {
+      "src": "/assets/event-sketches/westport-early-opening.webp",
+      "alt": "An open storybook and brass reading lamp in quiet morning light.",
+      "width": 720,
+      "height": 480,
+      "title": "Sensory Friendly Storytime",
+      "venue": "Mt. Pleasant Library — Children’s Area",
+      "start": "2026-11-17T10:30:00-05:00",
+      "reusedFromEvent": "westport-early-2026-10-04"
+    },
+    "mt-pleasant-sensory-story-2026-11-24": {
+      "src": "/assets/event-sketches/westport-early-opening.webp",
+      "alt": "An open storybook and brass reading lamp in quiet morning light.",
+      "width": 720,
+      "height": 480,
+      "title": "Sensory Friendly Storytime",
+      "venue": "Mt. Pleasant Library — Children’s Area",
+      "start": "2026-11-24T10:30:00-05:00",
+      "reusedFromEvent": "westport-early-2026-10-04"
+    },
+    "weaver-inclusive-play-2026-11-14": {
+      "src": "/assets/event-sketches/morningstar-museum.webp",
+      "alt": "Ink-and-watercolor study of wooden building forms and a prism in morning light.",
+      "width": 720,
+      "height": 480,
+      "title": "Inclusive Playtime at Weaver",
+      "venue": "Weaver Library — Program Room",
+      "start": "2026-11-14T10:00:00-05:00",
+      "reusedFromEvent": "bcm-2026-10-03"
+    },
+    "auburn-caring-santa-2026-12-06": {
+      "src": "/assets/event-sketches/santa-visit.webp",
+      "alt": "Original ink-and-watercolor study of a cranberry Santa hat, brass bell and a warm wooden armchair.",
+      "width": 1536,
+      "height": 1024,
+      "title": "Caring Santa at Auburn Mall",
+      "venue": "Auburn Mall",
+      "start": "2026-12-06T09:00:00-05:00",
+      "reusedFromEvent": "northshore-santa-2026-12-06"
+    },
+    "the-shops-at-chestnut-hill-caring-santa-2026-12-06": {
+      "src": "/assets/event-sketches/santa-visit.webp",
+      "alt": "Original ink-and-watercolor study of a cranberry Santa hat, brass bell and a warm wooden armchair.",
+      "width": 1536,
+      "height": 1024,
+      "title": "Caring Santa at The Shops at Chestnut Hill",
+      "venue": "The Shops at Chestnut Hill",
+      "start": "2026-12-06T09:00:00-05:00",
+      "reusedFromEvent": "northshore-santa-2026-12-06"
+    },
+    "south-shore-plaza-caring-santa-2026-12-06": {
+      "src": "/assets/event-sketches/santa-visit.webp",
+      "alt": "Original ink-and-watercolor study of a cranberry Santa hat, brass bell and a warm wooden armchair.",
+      "width": 1536,
+      "height": 1024,
+      "title": "Caring Santa at South Shore Plaza",
+      "venue": "South Shore Plaza",
+      "start": "2026-12-06T09:00:00-05:00",
+      "reusedFromEvent": "northshore-santa-2026-12-06"
+    },
+    "woonsocket-autism-play-2026-11-02": {
+      "src": "/assets/event-sketches/morningstar-museum.webp",
+      "alt": "Ink-and-watercolor study of wooden building forms and a prism in morning light.",
+      "width": 720,
+      "height": 480,
+      "title": "Monday Sensory Play and Autism Project Resource Table",
+      "venue": "Woonsocket Harris Public Library — Children’s Program Room",
+      "start": "2026-11-02T10:00:00-05:00",
+      "reusedFromEvent": "bcm-2026-10-03"
+    },
+    "woonsocket-autism-play-2026-11-09": {
+      "src": "/assets/event-sketches/morningstar-museum.webp",
+      "alt": "Ink-and-watercolor study of wooden building forms and a prism in morning light.",
+      "width": 720,
+      "height": 480,
+      "title": "Monday Sensory Play and Autism Project Resource Table",
+      "venue": "Woonsocket Harris Public Library — Children’s Program Room",
+      "start": "2026-11-09T10:00:00-05:00",
+      "reusedFromEvent": "bcm-2026-10-03"
+    },
+    "woonsocket-autism-play-2026-11-16": {
+      "src": "/assets/event-sketches/morningstar-museum.webp",
+      "alt": "Ink-and-watercolor study of wooden building forms and a prism in morning light.",
+      "width": 720,
+      "height": 480,
+      "title": "Monday Sensory Play and Autism Project Resource Table",
+      "venue": "Woonsocket Harris Public Library — Children’s Program Room",
+      "start": "2026-11-16T10:00:00-05:00",
+      "reusedFromEvent": "bcm-2026-10-03"
+    },
+    "woonsocket-autism-play-2026-11-23": {
+      "src": "/assets/event-sketches/morningstar-museum.webp",
+      "alt": "Ink-and-watercolor study of wooden building forms and a prism in morning light.",
+      "width": 720,
+      "height": 480,
+      "title": "Monday Sensory Play and Autism Project Resource Table",
+      "venue": "Woonsocket Harris Public Library — Children’s Program Room",
+      "start": "2026-11-23T10:00:00-05:00",
+      "reusedFromEvent": "bcm-2026-10-03"
+    },
+    "woonsocket-autism-play-2026-11-30": {
+      "src": "/assets/event-sketches/morningstar-museum.webp",
+      "alt": "Ink-and-watercolor study of wooden building forms and a prism in morning light.",
+      "width": 720,
+      "height": 480,
+      "title": "Monday Sensory Play and Autism Project Resource Table",
+      "venue": "Woonsocket Harris Public Library — Children’s Program Room",
+      "start": "2026-11-30T10:00:00-05:00",
+      "reusedFromEvent": "bcm-2026-10-03"
+    },
+    "trinity-sensory-carol-2026-11-21": {
+      "src": "/assets/event-sketches/morningstar-museum.webp",
+      "alt": "Ink-and-watercolor study of wooden building forms and a prism in morning light.",
+      "width": 720,
+      "height": 480,
+      "title": "A Christmas Carol — Sensory-Friendly Plus!",
+      "venue": "Trinity Repertory Company — Dowling Theater",
+      "start": "2026-11-21T12:00:00-05:00",
+      "reusedFromEvent": "bcm-2026-10-03"
+    },
+    "nearc-assistive-tech-morning-2026-11-19": {
+      "src": "/assets/event-sketches/morningstar-museum.webp",
+      "alt": "Ink-and-watercolor study of wooden building forms and a prism in morning light.",
+      "width": 720,
+      "height": 480,
+      "title": "Assistive Technology Open House — Morning",
+      "venue": "Northeast Arc — Center for Linking Lives, Liberty Tree Mall",
+      "start": "2026-11-19T09:00:00-05:00",
+      "reusedFromEvent": "bcm-2026-10-03"
+    },
+    "nearc-assistive-tech-afternoon-2026-11-19": {
+      "src": "/assets/event-sketches/morningstar-museum.webp",
+      "alt": "Ink-and-watercolor study of wooden building forms and a prism in morning light.",
+      "width": 720,
+      "height": 480,
+      "title": "Assistive Technology Open House — Afternoon",
+      "venue": "Northeast Arc — Center for Linking Lives, Liberty Tree Mall",
+      "start": "2026-11-19T15:00:00-05:00",
+      "reusedFromEvent": "bcm-2026-10-03"
+    },
+    "nearc-assistive-tech-morning-2026-12-15": {
+      "src": "/assets/event-sketches/morningstar-museum.webp",
+      "alt": "Ink-and-watercolor study of wooden building forms and a prism in morning light.",
+      "width": 720,
+      "height": 480,
+      "title": "Assistive Technology Open House — Morning",
+      "venue": "Northeast Arc — Center for Linking Lives, Liberty Tree Mall",
+      "start": "2026-12-15T09:00:00-05:00",
+      "reusedFromEvent": "bcm-2026-10-03"
+    },
+    "nearc-assistive-tech-afternoon-2026-12-15": {
+      "src": "/assets/event-sketches/morningstar-museum.webp",
+      "alt": "Ink-and-watercolor study of wooden building forms and a prism in morning light.",
+      "width": 720,
+      "height": 480,
+      "title": "Assistive Technology Open House — Afternoon",
+      "venue": "Northeast Arc — Center for Linking Lives, Liberty Tree Mall",
+      "start": "2026-12-15T15:00:00-05:00",
+      "reusedFromEvent": "bcm-2026-10-03"
+    },
+    "bierman-lincoln-santa-2026-12-05": {
+      "src": "/assets/event-sketches/santa-visit.webp",
+      "alt": "Original ink-and-watercolor study of a cranberry Santa hat, brass bell and a warm wooden armchair.",
+      "width": 1536,
+      "height": 1024,
+      "title": "Free Sensory Santa at Bierman Lincoln",
+      "venue": "Bierman Autism Centers — Lincoln",
+      "start": "2026-12-05T10:00:00-05:00",
+      "reusedFromEvent": "northshore-santa-2026-12-06"
+    },
+    "bci-wilmington-winter-2026-12-03": {
+      "src": "/assets/event-sketches/holiday-gift-making.webp",
+      "alt": "Original watercolor study of a handmade gift, ribbon, tea, stationery and a small box on a cream tabletop.",
+      "width": 1536,
+      "height": 1024,
+      "title": "Sensory-Friendly Winter Wonderland",
+      "venue": "BCI Wilmington Learning Center",
+      "start": "2026-12-03T15:00:00-05:00",
+      "reusedFromEvent": "car-holiday-bazaar-2026-11-14"
+    },
+    "avon-sensory-2026-11-17": {
+      "src": "/assets/event-sketches/westport-early-opening.webp",
+      "alt": "An open storybook and brass reading lamp in quiet morning light.",
+      "width": 720,
+      "height": 480,
+      "title": "Sensory Storytime — small-group adapted session",
+      "venue": "Avon Free Public Library",
+      "start": "2026-11-17T18:30:00-05:00",
+      "reusedFromEvent": "westport-early-2026-10-04"
+    },
+    "avon-sensory-2026-12-08": {
+      "src": "/assets/event-sketches/westport-early-opening.webp",
+      "alt": "An open storybook and brass reading lamp in quiet morning light.",
+      "width": 720,
+      "height": 480,
+      "title": "Sensory Storytime — small-group adapted session",
+      "venue": "Avon Free Public Library",
+      "start": "2026-12-08T18:30:00-05:00",
+      "reusedFromEvent": "westport-early-2026-10-04"
+    },
+    "meriden-sensory-2026-11-03": {
+      "src": "/assets/event-sketches/morningstar-museum.webp",
+      "alt": "Ink-and-watercolor study of wooden building forms and a prism in morning light.",
+      "width": 720,
+      "height": 480,
+      "title": "Sensory-friendly Playtime",
+      "venue": "Meriden Public Library",
+      "start": "2026-11-03T17:00:00-05:00",
+      "reusedFromEvent": "bcm-2026-10-03"
+    },
+    "meriden-sensory-2026-11-17": {
+      "src": "/assets/event-sketches/morningstar-museum.webp",
+      "alt": "Ink-and-watercolor study of wooden building forms and a prism in morning light.",
+      "width": 720,
+      "height": 480,
+      "title": "Sensory-friendly Playtime",
+      "venue": "Meriden Public Library",
+      "start": "2026-11-17T17:00:00-05:00",
+      "reusedFromEvent": "bcm-2026-10-03"
+    },
+    "rmne-autism-santa-2026-11-29": {
+      "src": "/assets/event-sketches/santa-visit.webp",
+      "alt": "Original ink-and-watercolor study of a cranberry Santa hat, brass bell and a warm wooden armchair.",
+      "width": 1536,
+      "height": 1024,
+      "title": "Autism-Friendly Santa Express",
+      "venue": "Railroad Museum of New England — Thomaston Station",
+      "start": "2026-11-29T12:00:00-05:00",
+      "reusedFromEvent": "northshore-santa-2026-12-06"
+    },
+    "westfarms-caring-santa-2026-12-06": {
+      "src": "/assets/event-sketches/santa-visit.webp",
+      "alt": "Original ink-and-watercolor study of a cranberry Santa hat, brass bell and a warm wooden armchair.",
+      "width": 1536,
+      "height": 1024,
+      "title": "Sensory-friendly Santa — Westfarms",
+      "venue": "Westfarms",
+      "start": "2026-12-06T09:00:00-05:00",
+      "reusedFromEvent": "northshore-santa-2026-12-06"
+    },
+    "trumbull-sensory-santa-2026-12-06": {
+      "src": "/assets/event-sketches/santa-visit.webp",
+      "alt": "Original ink-and-watercolor study of a cranberry Santa hat, brass bell and a warm wooden armchair.",
+      "width": 1536,
+      "height": 1024,
+      "title": "Sensory-friendly Santa — Trumbull Mall",
+      "venue": "Trumbull Mall — former Lord & Taylor Court, upper level",
+      "start": "2026-12-06T09:30:00-05:00",
+      "reusedFromEvent": "northshore-santa-2026-12-06"
+    },
+    "ctpost-sensory-santa-2026-12-06": {
+      "src": "/assets/event-sketches/santa-visit.webp",
+      "alt": "Original ink-and-watercolor study of a cranberry Santa hat, brass bell and a warm wooden armchair.",
+      "width": 1536,
+      "height": 1024,
+      "title": "Sensory-friendly Santa — Connecticut Post Mall",
+      "venue": "Connecticut Post Mall",
+      "start": "2026-12-06T09:30:00-05:00",
+      "reusedFromEvent": "northshore-santa-2026-12-06"
+    },
+    "manchester-caring-santa-2026-12-06": {
+      "src": "/assets/event-sketches/santa-visit.webp",
+      "alt": "Original ink-and-watercolor study of a cranberry Santa hat, brass bell and a warm wooden armchair.",
+      "width": 1536,
+      "height": 1024,
+      "title": "Sensory-friendly Santa — The Mall of New Hampshire",
+      "venue": "The Mall of New Hampshire — JCPenney Court",
+      "start": "2026-12-06T09:00:00-05:00",
+      "reusedFromEvent": "northshore-santa-2026-12-06"
+    },
+    "nashua-caring-santa-2026-12-06": {
+      "src": "/assets/event-sketches/santa-visit.webp",
+      "alt": "Original ink-and-watercolor study of a cranberry Santa hat, brass bell and a warm wooden armchair.",
+      "width": 1536,
+      "height": 1024,
+      "title": "Sensory-friendly Santa — Pheasant Lane Mall",
+      "venue": "Pheasant Lane Mall — lower level near Dick’s Sporting Goods",
+      "start": "2026-12-06T09:30:00-05:00",
+      "reusedFromEvent": "northshore-santa-2026-12-06"
+    },
+    "warner-santa-clause-2026-12-06": {
+      "src": "/assets/event-sketches/santa-visit.webp",
+      "alt": "Original ink-and-watercolor study of a cranberry Santa hat, brass bell and a warm wooden armchair.",
+      "width": 1536,
+      "height": 1024,
+      "title": "The Santa Clause — sensory-friendly screening and holiday open house",
+      "venue": "Warner Theatre — Nancy Marine Studio Theatre",
+      "start": "2026-12-06T13:00:00-05:00",
+      "reusedFromEvent": "northshore-santa-2026-12-06"
+    },
+    "trinity-sensory-worship-2026-11-08": {
+      "src": "/assets/event-sketches/westport-early-opening.webp",
+      "alt": "An open storybook and brass reading lamp in quiet morning light.",
+      "width": 720,
+      "height": 480,
+      "title": "Sensory-friendly Christian worship — Trinity Trumbull",
+      "venue": "Trinity Episcopal Church",
+      "start": "2026-11-08T07:30:00-05:00",
+      "reusedFromEvent": "westport-early-2026-10-04"
+    },
+    "trinity-sensory-worship-2026-11-15": {
+      "src": "/assets/event-sketches/westport-early-opening.webp",
+      "alt": "An open storybook and brass reading lamp in quiet morning light.",
+      "width": 720,
+      "height": 480,
+      "title": "Sensory-friendly Christian worship — Trinity Trumbull",
+      "venue": "Trinity Episcopal Church",
+      "start": "2026-11-15T07:30:00-05:00",
+      "reusedFromEvent": "westport-early-2026-10-04"
+    },
+    "trinity-sensory-worship-2026-11-22": {
+      "src": "/assets/event-sketches/westport-early-opening.webp",
+      "alt": "An open storybook and brass reading lamp in quiet morning light.",
+      "width": 720,
+      "height": 480,
+      "title": "Sensory-friendly Christian worship — Trinity Trumbull",
+      "venue": "Trinity Episcopal Church",
+      "start": "2026-11-22T07:30:00-05:00",
+      "reusedFromEvent": "westport-early-2026-10-04"
+    },
+    "trinity-sensory-worship-2026-11-29": {
+      "src": "/assets/event-sketches/westport-early-opening.webp",
+      "alt": "An open storybook and brass reading lamp in quiet morning light.",
+      "width": 720,
+      "height": 480,
+      "title": "Sensory-friendly Christian worship — Trinity Trumbull",
+      "venue": "Trinity Episcopal Church",
+      "start": "2026-11-29T07:30:00-05:00",
+      "reusedFromEvent": "westport-early-2026-10-04"
+    },
+    "trinity-sensory-worship-2026-12-06": {
+      "src": "/assets/event-sketches/westport-early-opening.webp",
+      "alt": "An open storybook and brass reading lamp in quiet morning light.",
+      "width": 720,
+      "height": 480,
+      "title": "Sensory-friendly Christian worship — Trinity Trumbull",
+      "venue": "Trinity Episcopal Church",
+      "start": "2026-12-06T07:30:00-05:00",
+      "reusedFromEvent": "westport-early-2026-10-04"
+    },
+    "trinity-sensory-worship-2026-12-13": {
+      "src": "/assets/event-sketches/westport-early-opening.webp",
+      "alt": "An open storybook and brass reading lamp in quiet morning light.",
+      "width": 720,
+      "height": 480,
+      "title": "Sensory-friendly Christian worship — Trinity Trumbull",
+      "venue": "Trinity Episcopal Church",
+      "start": "2026-12-13T07:30:00-05:00",
+      "reusedFromEvent": "westport-early-2026-10-04"
+    },
+    "trinity-sensory-worship-2026-12-20": {
+      "src": "/assets/event-sketches/westport-early-opening.webp",
+      "alt": "An open storybook and brass reading lamp in quiet morning light.",
+      "width": 720,
+      "height": 480,
+      "title": "Sensory-friendly Christian worship — Trinity Trumbull",
+      "venue": "Trinity Episcopal Church",
+      "start": "2026-12-20T07:30:00-05:00",
+      "reusedFromEvent": "westport-early-2026-10-04"
+    },
+    "trinity-sensory-worship-2026-12-27": {
+      "src": "/assets/event-sketches/westport-early-opening.webp",
+      "alt": "An open storybook and brass reading lamp in quiet morning light.",
+      "width": 720,
+      "height": 480,
+      "title": "Sensory-friendly Christian worship — Trinity Trumbull",
+      "venue": "Trinity Episcopal Church",
+      "start": "2026-12-27T07:30:00-05:00",
+      "reusedFromEvent": "westport-early-2026-10-04"
+    },
+    "durham-frostfest-calm-2026-12-05": {
+      "src": "/assets/event-sketches/holiday-gift-making.webp",
+      "alt": "Original watercolor study of a handmade gift, ribbon, tea, stationery and a small box on a cream tabletop.",
+      "width": 1536,
+      "height": 1024,
+      "title": "Frost Fest — calm room and sensory supports",
+      "venue": "The Beauty Room / Durham Frost Fest",
+      "start": "2026-12-05T18:00:00-05:00",
+      "reusedFromEvent": "car-holiday-bazaar-2026-11-14"
+    },
+    "exeter-parade-quiet-2026-12-05": {
+      "src": "/assets/event-sketches/shelburne-winter-lights.webp",
+      "alt": "Warm white lights on winter trees beside a winding gravel path at blue dusk.",
+      "width": 720,
+      "height": 480,
+      "title": "Exeter Holiday Parade — quieter viewing zone",
+      "venue": "Exeter Holiday Parade route",
+      "start": "2026-12-05T17:30:00-05:00",
+      "reusedFromEvent": "shelburne-2026-11-30"
+    },
+    "nehsa-open-house-2026-11-14": {
+      "src": "/assets/event-sketches/some-workout-2026-10-06.webp",
+      "alt": "A navy exercise mat, wooden step, towel and cranberry resistance band in autumn window light.",
+      "width": 720,
+      "height": 480,
+      "title": "NEHSA adaptive-sports open house",
+      "venue": "NEHSA Lodge at Mount Sunapee Resort",
+      "start": "2026-11-14T10:00:00-05:00",
+      "reusedFromEvent": "some-workout-2026-10-06"
+    },
+    "marc-rec-2026-11-03": {
+      "src": "/assets/event-sketches/westport-early-opening.webp",
+      "alt": "An open storybook and brass reading lamp in quiet morning light.",
+      "width": 720,
+      "height": 480,
+      "title": "MARC supported recreation — Pottery Painting at Firestone Cafe : Event Calendar : News & Events : MARC Inc. of Manchester Skip to main content MARC Winter Coat Drive : October 19 - November 30, accepting all winter jackets & coats! alert close search Home Who We Are Mission & History Leadership Advocacy FAQ's Contact Us What We Do Supportive Technology Day Services Employment Residential Recreation Transportation Vocational Enhanced Transition Program Ways to Support Donate Volunteer Apparel Store Join Our Team Work at MARC Benefits Staff Testimonials News & Events Join Our Mailing List Event Calendar Links and Resources Fundraisers Employee Portal Portal Login Donate MENU News & Events Event Calendar Just bookmark this page and check back often for the latest programs and events. REC Activity - Pottery Painting at Firestone Cafe",
+      "venue": "MARC, Inc. — participant drop-off",
+      "start": "2026-11-03T14:30:00-05:00",
+      "reusedFromEvent": "westport-early-2026-10-04"
+    },
+    "marc-rec-2026-11-06": {
+      "src": "/assets/event-sketches/westport-early-opening.webp",
+      "alt": "An open storybook and brass reading lamp in quiet morning light.",
+      "width": 720,
+      "height": 480,
+      "title": "MARC supported recreation — Paint Night at MARC : Event Calendar : News & Events : MARC Inc. of Manchester Skip to main content MARC Winter Coat Drive : October 19 - November 30, accepting all winter jackets & coats! alert close search Home Who We Are Mission & History Leadership Advocacy FAQ's Contact Us What We Do Supportive Technology Day Services Employment Residential Recreation Transportation Vocational Enhanced Transition Program Ways to Support Donate Volunteer Apparel Store Join Our Team Work at MARC Benefits Staff Testimonials News & Events Join Our Mailing List Event Calendar Links and Resources Fundraisers Employee Portal Portal Login Donate MENU News & Events Event Calendar Just bookmark this page and check back often for the latest programs and events. REC Activity - Paint Night at MARC",
+      "venue": "MARC, Inc. — participant drop-off",
+      "start": "2026-11-06T14:30:00-05:00",
+      "reusedFromEvent": "westport-early-2026-10-04"
+    },
+    "marc-rec-2026-11-08": {
+      "src": "/assets/event-sketches/westport-early-opening.webp",
+      "alt": "An open storybook and brass reading lamp in quiet morning light.",
+      "width": 720,
+      "height": 480,
+      "title": "MARC supported recreation — Science Center : Event Calendar : News & Events : MARC Inc. of Manchester Skip to main content MARC Winter Coat Drive : October 19 - November 30, accepting all winter jackets & coats! alert close search Home Who We Are Mission & History Leadership Advocacy FAQ's Contact Us What We Do Supportive Technology Day Services Employment Residential Recreation Transportation Vocational Enhanced Transition Program Ways to Support Donate Volunteer Apparel Store Join Our Team Work at MARC Benefits Staff Testimonials News & Events Join Our Mailing List Event Calendar Links and Resources Fundraisers Employee Portal Portal Login Donate MENU News & Events Event Calendar Just bookmark this page and check back often for the latest programs and events. REC Activity - Science Center",
+      "venue": "MARC, Inc. — participant drop-off",
+      "start": "2026-11-08T09:30:00-05:00",
+      "reusedFromEvent": "westport-early-2026-10-04"
+    },
+    "marc-rec-2026-11-09": {
+      "src": "/assets/event-sketches/westport-early-opening.webp",
+      "alt": "An open storybook and brass reading lamp in quiet morning light.",
+      "width": 720,
+      "height": 480,
+      "title": "MARC supported recreation — Dave & Busters : Event Calendar : News & Events : MARC Inc. of Manchester Skip to main content MARC Winter Coat Drive : October 19 - November 30, accepting all winter jackets & coats! alert close search Home Who We Are Mission & History Leadership Advocacy FAQ's Contact Us What We Do Supportive Technology Day Services Employment Residential Recreation Transportation Vocational Enhanced Transition Program Ways to Support Donate Volunteer Apparel Store Join Our Team Work at MARC Benefits Staff Testimonials News & Events Join Our Mailing List Event Calendar Links and Resources Fundraisers Employee Portal Portal Login Donate MENU News & Events Event Calendar Just bookmark this page and check back often for the latest programs and events. REC Activity - Dave & Busters",
+      "venue": "MARC, Inc. — participant drop-off",
+      "start": "2026-11-09T14:30:00-05:00",
+      "reusedFromEvent": "westport-early-2026-10-04"
+    },
+    "marc-rec-2026-11-13": {
+      "src": "/assets/event-sketches/westport-early-opening.webp",
+      "alt": "An open storybook and brass reading lamp in quiet morning light.",
+      "width": 720,
+      "height": 480,
+      "title": "MARC supported recreation — Game Night at MARC : Event Calendar : News & Events : MARC Inc. of Manchester Skip to main content MARC Winter Coat Drive : October 19 - November 30, accepting all winter jackets & coats! alert close search Home Who We Are Mission & History Leadership Advocacy FAQ's Contact Us What We Do Supportive Technology Day Services Employment Residential Recreation Transportation Vocational Enhanced Transition Program Ways to Support Donate Volunteer Apparel Store Join Our Team Work at MARC Benefits Staff Testimonials News & Events Join Our Mailing List Event Calendar Links and Resources Fundraisers Employee Portal Portal Login Donate MENU News & Events Event Calendar Just bookmark this page and check back often for the latest programs and events. REC Activity - Game Night at MARC",
+      "venue": "MARC, Inc. — participant drop-off",
+      "start": "2026-11-13T14:30:00-05:00",
+      "reusedFromEvent": "westport-early-2026-10-04"
+    },
+    "marc-rec-2026-11-15": {
+      "src": "/assets/event-sketches/westport-early-opening.webp",
+      "alt": "An open storybook and brass reading lamp in quiet morning light.",
+      "width": 720,
+      "height": 480,
+      "title": "MARC supported recreation — Annie @ The Goodspeed : Event Calendar : News & Events : MARC Inc. of Manchester Skip to main content MARC Winter Coat Drive : October 19 - November 30, accepting all winter jackets & coats! alert close search Home Who We Are Mission & History Leadership Advocacy FAQ's Contact Us What We Do Supportive Technology Day Services Employment Residential Recreation Transportation Vocational Enhanced Transition Program Ways to Support Donate Volunteer Apparel Store Join Our Team Work at MARC Benefits Staff Testimonials News & Events Join Our Mailing List Event Calendar Links and Resources Fundraisers Employee Portal Portal Login Donate MENU News & Events Event Calendar Just bookmark this page and check back often for the latest programs and events. REC Activity - Annie @ The Goodspeed",
+      "venue": "MARC, Inc. — participant drop-off",
+      "start": "2026-11-15T15:30:00-05:00",
+      "reusedFromEvent": "westport-early-2026-10-04"
+    },
+    "marc-rec-2026-11-17": {
+      "src": "/assets/event-sketches/westport-early-opening.webp",
+      "alt": "An open storybook and brass reading lamp in quiet morning light.",
+      "width": 720,
+      "height": 480,
+      "title": "MARC supported recreation — Movies at Cinemark : Event Calendar : News & Events : MARC Inc. of Manchester Skip to main content MARC Winter Coat Drive : October 19 - November 30, accepting all winter jackets & coats! alert close search Home Who We Are Mission & History Leadership Advocacy FAQ's Contact Us What We Do Supportive Technology Day Services Employment Residential Recreation Transportation Vocational Enhanced Transition Program Ways to Support Donate Volunteer Apparel Store Join Our Team Work at MARC Benefits Staff Testimonials News & Events Join Our Mailing List Event Calendar Links and Resources Fundraisers Employee Portal Portal Login Donate MENU News & Events Event Calendar Just bookmark this page and check back often for the latest programs and events. REC Activity - Movies at Cinemark",
+      "venue": "MARC, Inc. — participant drop-off",
+      "start": "2026-11-17T14:30:00-05:00",
+      "reusedFromEvent": "westport-early-2026-10-04"
+    },
+    "marc-rec-2026-11-19": {
+      "src": "/assets/event-sketches/westport-early-opening.webp",
+      "alt": "An open storybook and brass reading lamp in quiet morning light.",
+      "width": 720,
+      "height": 480,
+      "title": "MARC supported recreation — Pottery Painting at MARC : Event Calendar : News & Events : MARC Inc. of Manchester Skip to main content MARC Winter Coat Drive : October 19 - November 30, accepting all winter jackets & coats! alert close search Home Who We Are Mission & History Leadership Advocacy FAQ's Contact Us What We Do Supportive Technology Day Services Employment Residential Recreation Transportation Vocational Enhanced Transition Program Ways to Support Donate Volunteer Apparel Store Join Our Team Work at MARC Benefits Staff Testimonials News & Events Join Our Mailing List Event Calendar Links and Resources Fundraisers Employee Portal Portal Login Donate MENU News & Events Event Calendar Just bookmark this page and check back often for the latest programs and events. REC Activity - Pottery Painting at MARC",
+      "venue": "MARC, Inc. — participant drop-off",
+      "start": "2026-11-19T14:30:00-05:00",
+      "reusedFromEvent": "westport-early-2026-10-04"
+    },
+    "marc-rec-2026-11-21": {
+      "src": "/assets/event-sketches/westport-early-opening.webp",
+      "alt": "An open storybook and brass reading lamp in quiet morning light.",
+      "width": 720,
+      "height": 480,
+      "title": "MARC supported recreation — Wolf Pack Game : Event Calendar : News & Events : MARC Inc. of Manchester Skip to main content MARC Winter Coat Drive : October 19 - November 30, accepting all winter jackets & coats! alert close search Home Who We Are Mission & History Leadership Advocacy FAQ's Contact Us What We Do Supportive Technology Day Services Employment Residential Recreation Transportation Vocational Enhanced Transition Program Ways to Support Donate Volunteer Apparel Store Join Our Team Work at MARC Benefits Staff Testimonials News & Events Join Our Mailing List Event Calendar Links and Resources Fundraisers Employee Portal Portal Login Donate MENU News & Events Event Calendar Just bookmark this page and check back often for the latest programs and events. REC Activity - Wolf Pack Game",
+      "venue": "MARC, Inc. — participant drop-off",
+      "start": "2026-11-21T14:30:00-05:00",
+      "reusedFromEvent": "westport-early-2026-10-04"
+    },
+    "marc-rec-2026-11-23": {
+      "src": "/assets/event-sketches/westport-early-opening.webp",
+      "alt": "An open storybook and brass reading lamp in quiet morning light.",
+      "width": 720,
+      "height": 480,
+      "title": "MARC supported recreation — Bowling at Spare Time : Event Calendar : News & Events : MARC Inc. of Manchester Skip to main content MARC Winter Coat Drive : October 19 - November 30, accepting all winter jackets & coats! alert close search Home Who We Are Mission & History Leadership Advocacy FAQ's Contact Us What We Do Supportive Technology Day Services Employment Residential Recreation Transportation Vocational Enhanced Transition Program Ways to Support Donate Volunteer Apparel Store Join Our Team Work at MARC Benefits Staff Testimonials News & Events Join Our Mailing List Event Calendar Links and Resources Fundraisers Employee Portal Portal Login Donate MENU News & Events Event Calendar Just bookmark this page and check back often for the latest programs and events. REC Activity - Bowling at Spare Time",
+      "venue": "MARC, Inc. — participant drop-off",
+      "start": "2026-11-23T14:30:00-05:00",
+      "reusedFromEvent": "westport-early-2026-10-04"
+    },
+    "marc-rec-2026-11-30": {
+      "src": "/assets/event-sketches/westport-early-opening.webp",
+      "alt": "An open storybook and brass reading lamp in quiet morning light.",
+      "width": 720,
+      "height": 480,
+      "title": "MARC supported recreation — Craft Night at MARC : Event Calendar : News & Events : MARC Inc. of Manchester Skip to main content MARC Winter Coat Drive : October 19 - November 30, accepting all winter jackets & coats! alert close search Home Who We Are Mission & History Leadership Advocacy FAQ's Contact Us What We Do Supportive Technology Day Services Employment Residential Recreation Transportation Vocational Enhanced Transition Program Ways to Support Donate Volunteer Apparel Store Join Our Team Work at MARC Benefits Staff Testimonials News & Events Join Our Mailing List Event Calendar Links and Resources Fundraisers Employee Portal Portal Login Donate MENU News & Events Event Calendar Just bookmark this page and check back often for the latest programs and events. REC Activity - Craft Night at MARC",
+      "venue": "MARC, Inc. — participant drop-off",
+      "start": "2026-11-30T14:30:00-05:00",
+      "reusedFromEvent": "westport-early-2026-10-04"
+    },
+    "simsbury-sensory-2026-11-17": {
+      "src": "/assets/event-sketches/westport-early-opening.webp",
+      "alt": "An open storybook and brass reading lamp in quiet morning light.",
+      "width": 720,
+      "height": 480,
+      "title": "Sensory Friendly Storytime",
+      "venue": "Simsbury Public Library — Discovery Center",
+      "start": "2026-11-17T10:30:00-05:00",
+      "reusedFromEvent": "westport-early-2026-10-04"
+    },
+    "rodgers-winter-wonder-2026-12-08": {
+      "src": "/assets/event-sketches/storytime-smiles.webp",
+      "alt": "A storybook, colored pencils, paper crafts and apple slices sketched in watercolor.",
+      "width": 720,
+      "height": 480,
+      "title": "A Winter of Wonder — sensory-friendly crafts",
+      "venue": "Rodgers Memorial Library — Children’s Programming Room",
+      "start": "2026-12-08T16:30:00-05:00",
+      "reusedFromEvent": "autism-alliance-storytime-2026-10-03"
+    },
+    "chunkys-cat-hat-2026-11-17-1130": {
+      "src": "/assets/event-sketches/morningstar-museum.webp",
+      "alt": "Ink-and-watercolor study of wooden building forms and a prism in morning light.",
+      "width": 720,
+      "height": 480,
+      "title": "The Cat in the Hat — sensory-friendly movie",
+      "venue": "Chunky’s Cinema Pub",
+      "start": "2026-11-17T11:30:00-05:00",
+      "reusedFromEvent": "bcm-2026-10-03"
+    },
+    "chunkys-cat-hat-2026-11-17-1630": {
+      "src": "/assets/event-sketches/morningstar-museum.webp",
+      "alt": "Ink-and-watercolor study of wooden building forms and a prism in morning light.",
+      "width": 720,
+      "height": 480,
+      "title": "The Cat in the Hat — sensory-friendly movie",
+      "venue": "Chunky’s Cinema Pub",
+      "start": "2026-11-17T16:30:00-05:00",
+      "reusedFromEvent": "bcm-2026-10-03"
+    },
+    "chunkys-cat-hat-2026-11-17-1800": {
+      "src": "/assets/event-sketches/morningstar-museum.webp",
+      "alt": "Ink-and-watercolor study of wooden building forms and a prism in morning light.",
+      "width": 720,
+      "height": 480,
+      "title": "The Cat in the Hat — sensory-friendly movie",
+      "venue": "Chunky’s Cinema Pub",
+      "start": "2026-11-17T18:00:00-05:00",
+      "reusedFromEvent": "bcm-2026-10-03"
+    },
+    "nashua-all-abilities-2026-11-24": {
+      "src": "/assets/event-sketches/morningstar-museum.webp",
+      "alt": "Ink-and-watercolor study of wooden building forms and a prism in morning light.",
+      "width": 720,
+      "height": 480,
+      "title": "All Abilities Club — adult I/DD social morning",
+      "venue": "Nashua Public Library — Theater",
+      "start": "2026-11-24T10:00:00-05:00",
+      "reusedFromEvent": "bcm-2026-10-03"
+    },
+    "nashua-all-abilities-2026-12-29": {
+      "src": "/assets/event-sketches/morningstar-museum.webp",
+      "alt": "Ink-and-watercolor study of wooden building forms and a prism in morning light.",
+      "width": 720,
+      "height": 480,
+      "title": "All Abilities Club — adult I/DD social morning",
+      "venue": "Nashua Public Library — Theater",
+      "start": "2026-12-29T10:00:00-05:00",
+      "reusedFromEvent": "bcm-2026-10-03"
+    },
+    "dover-all-abilities-2026-11-04": {
+      "src": "/assets/event-sketches/morningstar-museum.webp",
+      "alt": "Ink-and-watercolor study of wooden building forms and a prism in morning light.",
+      "width": 720,
+      "height": 480,
+      "title": "All Abilities Club — Bingo",
+      "venue": "Dover Public Library — Community Room",
+      "start": "2026-11-04T11:00:00-05:00",
+      "reusedFromEvent": "bcm-2026-10-03"
+    },
+    "dover-all-abilities-2026-11-18": {
+      "src": "/assets/event-sketches/westport-early-opening.webp",
+      "alt": "An open storybook and brass reading lamp in quiet morning light.",
+      "width": 720,
+      "height": 480,
+      "title": "All Abilities Club — Lego building",
+      "venue": "Dover Public Library — Community Room",
+      "start": "2026-11-18T11:00:00-05:00",
+      "reusedFromEvent": "westport-early-2026-10-04"
+    },
+    "dover-all-abilities-2026-11-25": {
+      "src": "/assets/event-sketches/morningstar-museum.webp",
+      "alt": "Ink-and-watercolor study of wooden building forms and a prism in morning light.",
+      "width": 720,
+      "height": 480,
+      "title": "All Abilities Club — Music sing-along",
+      "venue": "Dover Public Library — Community Room",
+      "start": "2026-11-25T11:00:00-05:00",
+      "reusedFromEvent": "bcm-2026-10-03"
+    },
+    "afc-berlin-3-6-2026-11-08": {
+      "src": "/assets/event-sketches/morningstar-museum.webp",
+      "alt": "Ink-and-watercolor study of wooden building forms and a prism in morning light.",
+      "width": 720,
+      "height": 480,
+      "title": "Playing on the Spectrum — ages 3–6",
+      "venue": "Prism Academy",
+      "start": "2026-11-08T10:00:00-05:00",
+      "reusedFromEvent": "bcm-2026-10-03"
+    },
+    "afc-berlin-7-10-2026-11-08": {
+      "src": "/assets/event-sketches/morningstar-museum.webp",
+      "alt": "Ink-and-watercolor study of wooden building forms and a prism in morning light.",
+      "width": 720,
+      "height": 480,
+      "title": "Playing on the Spectrum — ages 7–10",
+      "venue": "Prism Academy",
+      "start": "2026-11-08T11:00:00-05:00",
+      "reusedFromEvent": "bcm-2026-10-03"
+    },
+    "afc-berlin-11-16-2026-11-08": {
+      "src": "/assets/event-sketches/morningstar-museum.webp",
+      "alt": "Ink-and-watercolor study of wooden building forms and a prism in morning light.",
+      "width": 720,
+      "height": 480,
+      "title": "Leisure Explorers — ages 11–16",
+      "venue": "Prism Academy",
+      "start": "2026-11-08T12:00:00-05:00",
+      "reusedFromEvent": "bcm-2026-10-03"
+    },
+    "afc-berlin-3-6-2026-11-15": {
+      "src": "/assets/event-sketches/morningstar-museum.webp",
+      "alt": "Ink-and-watercolor study of wooden building forms and a prism in morning light.",
+      "width": 720,
+      "height": 480,
+      "title": "Playing on the Spectrum — ages 3–6",
+      "venue": "Prism Academy",
+      "start": "2026-11-15T10:00:00-05:00",
+      "reusedFromEvent": "bcm-2026-10-03"
+    },
+    "afc-berlin-7-10-2026-11-15": {
+      "src": "/assets/event-sketches/morningstar-museum.webp",
+      "alt": "Ink-and-watercolor study of wooden building forms and a prism in morning light.",
+      "width": 720,
+      "height": 480,
+      "title": "Playing on the Spectrum — ages 7–10",
+      "venue": "Prism Academy",
+      "start": "2026-11-15T11:00:00-05:00",
+      "reusedFromEvent": "bcm-2026-10-03"
+    },
+    "afc-berlin-11-16-2026-11-15": {
+      "src": "/assets/event-sketches/morningstar-museum.webp",
+      "alt": "Ink-and-watercolor study of wooden building forms and a prism in morning light.",
+      "width": 720,
+      "height": 480,
+      "title": "Leisure Explorers — ages 11–16",
+      "venue": "Prism Academy",
+      "start": "2026-11-15T12:00:00-05:00",
+      "reusedFromEvent": "bcm-2026-10-03"
+    },
+    "afc-berlin-3-6-2026-11-22": {
+      "src": "/assets/event-sketches/morningstar-museum.webp",
+      "alt": "Ink-and-watercolor study of wooden building forms and a prism in morning light.",
+      "width": 720,
+      "height": 480,
+      "title": "Playing on the Spectrum — ages 3–6",
+      "venue": "Prism Academy",
+      "start": "2026-11-22T10:00:00-05:00",
+      "reusedFromEvent": "bcm-2026-10-03"
+    },
+    "afc-berlin-7-10-2026-11-22": {
+      "src": "/assets/event-sketches/morningstar-museum.webp",
+      "alt": "Ink-and-watercolor study of wooden building forms and a prism in morning light.",
+      "width": 720,
+      "height": 480,
+      "title": "Playing on the Spectrum — ages 7–10",
+      "venue": "Prism Academy",
+      "start": "2026-11-22T11:00:00-05:00",
+      "reusedFromEvent": "bcm-2026-10-03"
+    },
+    "afc-berlin-11-16-2026-11-22": {
+      "src": "/assets/event-sketches/morningstar-museum.webp",
+      "alt": "Ink-and-watercolor study of wooden building forms and a prism in morning light.",
+      "width": 720,
+      "height": 480,
+      "title": "Leisure Explorers — ages 11–16",
+      "venue": "Prism Academy",
+      "start": "2026-11-22T12:00:00-05:00",
+      "reusedFromEvent": "bcm-2026-10-03"
+    },
+    "milford-maps-world-2026-11-30": {
+      "src": "/assets/event-sketches/morningstar-museum.webp",
+      "alt": "Ink-and-watercolor study of wooden building forms and a prism in morning light.",
+      "width": 720,
+      "height": 480,
+      "title": "Milford Adaptive Programs — Christmas Around the World",
+      "venue": "Fannie Beach Neighborhood Center",
+      "start": "2026-11-30T17:30:00-05:00",
+      "reusedFromEvent": "bcm-2026-10-03"
+    },
+    "milford-maps-world-2026-12-07": {
+      "src": "/assets/event-sketches/morningstar-museum.webp",
+      "alt": "Ink-and-watercolor study of wooden building forms and a prism in morning light.",
+      "width": 720,
+      "height": 480,
+      "title": "Milford Adaptive Programs — Christmas Around the World",
+      "venue": "Fannie Beach Neighborhood Center",
+      "start": "2026-12-07T17:30:00-05:00",
+      "reusedFromEvent": "bcm-2026-10-03"
+    },
+    "milford-maps-world-2026-12-14": {
+      "src": "/assets/event-sketches/morningstar-museum.webp",
+      "alt": "Ink-and-watercolor study of wooden building forms and a prism in morning light.",
+      "width": 720,
+      "height": 480,
+      "title": "Milford Adaptive Programs — Christmas Around the World",
+      "venue": "Fannie Beach Neighborhood Center",
+      "start": "2026-12-14T17:30:00-05:00",
+      "reusedFromEvent": "bcm-2026-10-03"
+    },
+    "milford-maps-world-2026-12-21": {
+      "src": "/assets/event-sketches/morningstar-museum.webp",
+      "alt": "Ink-and-watercolor study of wooden building forms and a prism in morning light.",
+      "width": 720,
+      "height": 480,
+      "title": "Milford Adaptive Programs — Christmas Around the World",
+      "venue": "Fannie Beach Neighborhood Center",
+      "start": "2026-12-21T17:30:00-05:00",
+      "reusedFromEvent": "bcm-2026-10-03"
+    },
+    "milford-maps-yoga-2026-11-30": {
+      "src": "/assets/event-sketches/some-workout-2026-10-06.webp",
+      "alt": "A navy exercise mat, wooden step, towel and cranberry resistance band in autumn window light.",
+      "width": 720,
+      "height": 480,
+      "title": "Milford Adaptive Programs — Merry & Mindful Holiday Yoga",
+      "venue": "Fannie Beach Neighborhood Center",
+      "start": "2026-11-30T18:45:00-05:00",
+      "reusedFromEvent": "some-workout-2026-10-06"
+    },
+    "milford-maps-yoga-2026-12-07": {
+      "src": "/assets/event-sketches/some-workout-2026-10-06.webp",
+      "alt": "A navy exercise mat, wooden step, towel and cranberry resistance band in autumn window light.",
+      "width": 720,
+      "height": 480,
+      "title": "Milford Adaptive Programs — Merry & Mindful Holiday Yoga",
+      "venue": "Fannie Beach Neighborhood Center",
+      "start": "2026-12-07T18:45:00-05:00",
+      "reusedFromEvent": "some-workout-2026-10-06"
+    },
+    "milford-maps-yoga-2026-12-14": {
+      "src": "/assets/event-sketches/some-workout-2026-10-06.webp",
+      "alt": "A navy exercise mat, wooden step, towel and cranberry resistance band in autumn window light.",
+      "width": 720,
+      "height": 480,
+      "title": "Milford Adaptive Programs — Merry & Mindful Holiday Yoga",
+      "venue": "Fannie Beach Neighborhood Center",
+      "start": "2026-12-14T18:45:00-05:00",
+      "reusedFromEvent": "some-workout-2026-10-06"
+    },
+    "milford-maps-yoga-2026-12-21": {
+      "src": "/assets/event-sketches/some-workout-2026-10-06.webp",
+      "alt": "A navy exercise mat, wooden step, towel and cranberry resistance band in autumn window light.",
+      "width": 720,
+      "height": 480,
+      "title": "Milford Adaptive Programs — Merry & Mindful Holiday Yoga",
+      "venue": "Fannie Beach Neighborhood Center",
+      "start": "2026-12-21T18:45:00-05:00",
+      "reusedFromEvent": "some-workout-2026-10-06"
+    },
+    "milford-maps-movies-2026-12-01": {
+      "src": "/assets/event-sketches/morningstar-museum.webp",
+      "alt": "Ink-and-watercolor study of wooden building forms and a prism in morning light.",
+      "width": 720,
+      "height": 480,
+      "title": "Milford Adaptive Programs — Holiday Movie Magic",
+      "venue": "Fannie Beach Neighborhood Center",
+      "start": "2026-12-01T17:30:00-05:00",
+      "reusedFromEvent": "bcm-2026-10-03"
+    },
+    "milford-maps-movies-2026-12-08": {
+      "src": "/assets/event-sketches/morningstar-museum.webp",
+      "alt": "Ink-and-watercolor study of wooden building forms and a prism in morning light.",
+      "width": 720,
+      "height": 480,
+      "title": "Milford Adaptive Programs — Holiday Movie Magic",
+      "venue": "Fannie Beach Neighborhood Center",
+      "start": "2026-12-08T17:30:00-05:00",
+      "reusedFromEvent": "bcm-2026-10-03"
+    },
+    "milford-maps-movies-2026-12-15": {
+      "src": "/assets/event-sketches/morningstar-museum.webp",
+      "alt": "Ink-and-watercolor study of wooden building forms and a prism in morning light.",
+      "width": 720,
+      "height": 480,
+      "title": "Milford Adaptive Programs — Holiday Movie Magic",
+      "venue": "Fannie Beach Neighborhood Center",
+      "start": "2026-12-15T17:30:00-05:00",
+      "reusedFromEvent": "bcm-2026-10-03"
+    },
+    "milford-maps-movies-2026-12-22": {
+      "src": "/assets/event-sketches/morningstar-museum.webp",
+      "alt": "Ink-and-watercolor study of wooden building forms and a prism in morning light.",
+      "width": 720,
+      "height": 480,
+      "title": "Milford Adaptive Programs — Holiday Movie Magic",
+      "venue": "Fannie Beach Neighborhood Center",
+      "start": "2026-12-22T17:30:00-05:00",
+      "reusedFromEvent": "bcm-2026-10-03"
+    },
+    "milford-maps-karaoke-2026-12-01": {
+      "src": "/assets/event-sketches/morningstar-museum.webp",
+      "alt": "Ink-and-watercolor study of wooden building forms and a prism in morning light.",
+      "width": 720,
+      "height": 480,
+      "title": "Milford Adaptive Programs — Christmas Karaoke Club",
+      "venue": "Fannie Beach Neighborhood Center",
+      "start": "2026-12-01T19:30:00-05:00",
+      "reusedFromEvent": "bcm-2026-10-03"
+    },
+    "milford-maps-karaoke-2026-12-08": {
+      "src": "/assets/event-sketches/morningstar-museum.webp",
+      "alt": "Ink-and-watercolor study of wooden building forms and a prism in morning light.",
+      "width": 720,
+      "height": 480,
+      "title": "Milford Adaptive Programs — Christmas Karaoke Club",
+      "venue": "Fannie Beach Neighborhood Center",
+      "start": "2026-12-08T19:30:00-05:00",
+      "reusedFromEvent": "bcm-2026-10-03"
+    },
+    "milford-maps-karaoke-2026-12-15": {
+      "src": "/assets/event-sketches/morningstar-museum.webp",
+      "alt": "Ink-and-watercolor study of wooden building forms and a prism in morning light.",
+      "width": 720,
+      "height": 480,
+      "title": "Milford Adaptive Programs — Christmas Karaoke Club",
+      "venue": "Fannie Beach Neighborhood Center",
+      "start": "2026-12-15T19:30:00-05:00",
+      "reusedFromEvent": "bcm-2026-10-03"
+    },
+    "milford-maps-karaoke-2026-12-22": {
+      "src": "/assets/event-sketches/morningstar-museum.webp",
+      "alt": "Ink-and-watercolor study of wooden building forms and a prism in morning light.",
+      "width": 720,
+      "height": 480,
+      "title": "Milford Adaptive Programs — Christmas Karaoke Club",
+      "venue": "Fannie Beach Neighborhood Center",
+      "start": "2026-12-22T19:30:00-05:00",
+      "reusedFromEvent": "bcm-2026-10-03"
+    },
+    "milford-maps-tgif-2026-12-04": {
+      "src": "/assets/event-sketches/morningstar-museum.webp",
+      "alt": "Ink-and-watercolor study of wooden building forms and a prism in morning light.",
+      "width": 720,
+      "height": 480,
+      "title": "Milford Adaptive Programs — Holiday TGIF",
+      "venue": "Fannie Beach Neighborhood Center",
+      "start": "2026-12-04T18:30:00-05:00",
+      "reusedFromEvent": "bcm-2026-10-03"
+    },
+    "milford-maps-tgif-2026-12-11": {
+      "src": "/assets/event-sketches/morningstar-museum.webp",
+      "alt": "Ink-and-watercolor study of wooden building forms and a prism in morning light.",
+      "width": 720,
+      "height": 480,
+      "title": "Milford Adaptive Programs — Holiday TGIF",
+      "venue": "Fannie Beach Neighborhood Center",
+      "start": "2026-12-11T18:30:00-05:00",
+      "reusedFromEvent": "bcm-2026-10-03"
+    },
+    "milford-maps-tgif-2026-12-18": {
+      "src": "/assets/event-sketches/morningstar-museum.webp",
+      "alt": "Ink-and-watercolor study of wooden building forms and a prism in morning light.",
+      "width": 720,
+      "height": 480,
+      "title": "Milford Adaptive Programs — Holiday TGIF",
+      "venue": "Fannie Beach Neighborhood Center",
+      "start": "2026-12-18T18:30:00-05:00",
+      "reusedFromEvent": "bcm-2026-10-03"
+    },
+    "groton-season-chill-2026-12-04": {
+      "src": "/assets/event-sketches/santa-visit.webp",
+      "alt": "Original ink-and-watercolor study of a cranberry Santa hat, brass bell and a warm wooden armchair.",
+      "width": 1536,
+      "height": 1024,
+      "title": "Season of Celebrations — sensory-friendly chill room and Santa",
+      "venue": "Thrive55+ Senior Center",
+      "start": "2026-12-04T18:00:00-05:00",
+      "reusedFromEvent": "northshore-santa-2026-12-06"
+    },
+    "rockingham-caring-santa-2026-12-06": {
+      "src": "/assets/event-sketches/santa-visit.webp",
+      "alt": "Original ink-and-watercolor study of a cranberry Santa hat, brass bell and a warm wooden armchair.",
+      "width": 1536,
+      "height": 1024,
+      "title": "Sensory-friendly Caring Santa — Rockingham Park",
+      "venue": "The Mall at Rockingham Park",
+      "start": "2026-12-06T08:30:00-05:00",
+      "reusedFromEvent": "northshore-santa-2026-12-06"
+    },
+    "springvale-sensory-storytime-2026-11-05": {
+      "src": "/assets/event-sketches/westport-early-opening.webp",
+      "alt": "An open storybook and brass reading lamp in quiet morning light.",
+      "width": 720,
+      "height": 480,
+      "title": "Sensory Story Time",
+      "venue": "Springvale Public Library",
+      "start": "2026-11-05T10:00:00-05:00",
+      "reusedFromEvent": "westport-early-2026-10-04"
+    },
+    "springvale-sensory-storytime-2026-11-12": {
+      "src": "/assets/event-sketches/westport-early-opening.webp",
+      "alt": "An open storybook and brass reading lamp in quiet morning light.",
+      "width": 720,
+      "height": 480,
+      "title": "Sensory Story Time",
+      "venue": "Springvale Public Library",
+      "start": "2026-11-12T10:00:00-05:00",
+      "reusedFromEvent": "westport-early-2026-10-04"
+    },
+    "springvale-sensory-storytime-2026-11-19": {
+      "src": "/assets/event-sketches/westport-early-opening.webp",
+      "alt": "An open storybook and brass reading lamp in quiet morning light.",
+      "width": 720,
+      "height": 480,
+      "title": "Sensory Story Time",
+      "venue": "Springvale Public Library",
+      "start": "2026-11-19T10:00:00-05:00",
+      "reusedFromEvent": "westport-early-2026-10-04"
+    },
+    "springvale-sensory-storytime-2026-12-03": {
+      "src": "/assets/event-sketches/westport-early-opening.webp",
+      "alt": "An open storybook and brass reading lamp in quiet morning light.",
+      "width": 720,
+      "height": 480,
+      "title": "Sensory Story Time",
+      "venue": "Springvale Public Library",
+      "start": "2026-12-03T10:00:00-05:00",
+      "reusedFromEvent": "westport-early-2026-10-04"
+    },
+    "springvale-sensory-storytime-2026-12-10": {
+      "src": "/assets/event-sketches/westport-early-opening.webp",
+      "alt": "An open storybook and brass reading lamp in quiet morning light.",
+      "width": 720,
+      "height": 480,
+      "title": "Sensory Story Time",
+      "venue": "Springvale Public Library",
+      "start": "2026-12-10T10:00:00-05:00",
+      "reusedFromEvent": "westport-early-2026-10-04"
+    },
+    "york-sensory-hours-2026-11-05": {
+      "src": "/assets/event-sketches/westport-early-opening.webp",
+      "alt": "An open storybook and brass reading lamp in quiet morning light.",
+      "width": 720,
+      "height": 480,
+      "title": "Sensory-Friendly Hours in Youth Services",
+      "venue": "York Public Library",
+      "start": "2026-11-05T12:00:00-05:00",
+      "reusedFromEvent": "york-sensory-hours-2026-10-22"
+    },
+    "york-sensory-hours-2026-11-12": {
+      "src": "/assets/event-sketches/westport-early-opening.webp",
+      "alt": "An open storybook and brass reading lamp in quiet morning light.",
+      "width": 720,
+      "height": 480,
+      "title": "Sensory-Friendly Hours in Youth Services",
+      "venue": "York Public Library",
+      "start": "2026-11-12T12:00:00-05:00",
+      "reusedFromEvent": "york-sensory-hours-2026-10-22"
+    },
+    "york-sensory-hours-2026-11-19": {
+      "src": "/assets/event-sketches/westport-early-opening.webp",
+      "alt": "An open storybook and brass reading lamp in quiet morning light.",
+      "width": 720,
+      "height": 480,
+      "title": "Sensory-Friendly Hours in Youth Services",
+      "venue": "York Public Library",
+      "start": "2026-11-19T12:00:00-05:00",
+      "reusedFromEvent": "york-sensory-hours-2026-10-22"
+    },
+    "york-sensory-hours-2026-12-03": {
+      "src": "/assets/event-sketches/westport-early-opening.webp",
+      "alt": "An open storybook and brass reading lamp in quiet morning light.",
+      "width": 720,
+      "height": 480,
+      "title": "Sensory-Friendly Hours in Youth Services",
+      "venue": "York Public Library",
+      "start": "2026-12-03T12:00:00-05:00",
+      "reusedFromEvent": "york-sensory-hours-2026-10-22"
+    },
+    "york-sensory-hours-2026-12-10": {
+      "src": "/assets/event-sketches/westport-early-opening.webp",
+      "alt": "An open storybook and brass reading lamp in quiet morning light.",
+      "width": 720,
+      "height": 480,
+      "title": "Sensory-Friendly Hours in Youth Services",
+      "venue": "York Public Library",
+      "start": "2026-12-10T12:00:00-05:00",
+      "reusedFromEvent": "york-sensory-hours-2026-10-22"
+    },
+    "york-sensory-hours-2026-12-17": {
+      "src": "/assets/event-sketches/westport-early-opening.webp",
+      "alt": "An open storybook and brass reading lamp in quiet morning light.",
+      "width": 720,
+      "height": 480,
+      "title": "Sensory-Friendly Hours in Youth Services",
+      "venue": "York Public Library",
+      "start": "2026-12-17T12:00:00-05:00",
+      "reusedFromEvent": "york-sensory-hours-2026-10-22"
+    },
+    "york-sensory-hours-2026-12-24": {
+      "src": "/assets/event-sketches/westport-early-opening.webp",
+      "alt": "An open storybook and brass reading lamp in quiet morning light.",
+      "width": 720,
+      "height": 480,
+      "title": "Sensory-Friendly Hours in Youth Services",
+      "venue": "York Public Library",
+      "start": "2026-12-24T12:00:00-05:00",
+      "reusedFromEvent": "york-sensory-hours-2026-10-22"
+    },
+    "york-sensory-hours-2026-12-31": {
+      "src": "/assets/event-sketches/westport-early-opening.webp",
+      "alt": "An open storybook and brass reading lamp in quiet morning light.",
+      "width": 720,
+      "height": 480,
+      "title": "Sensory-Friendly Hours in Youth Services",
+      "venue": "York Public Library",
+      "start": "2026-12-31T12:00:00-05:00",
+      "reusedFromEvent": "york-sensory-hours-2026-10-22"
+    },
+    "bixby-low-stimulation-2026-11-21": {
+      "src": "/assets/event-sketches/westport-early-opening.webp",
+      "alt": "An open storybook and brass reading lamp in quiet morning light.",
+      "width": 720,
+      "height": 480,
+      "title": "Low Stimulation Library",
+      "venue": "Bixby Memorial Free Library",
+      "start": "2026-11-21T09:00:00-05:00",
+      "reusedFromEvent": "westport-early-2026-10-04"
+    },
+    "bixby-low-stimulation-2026-12-19": {
+      "src": "/assets/event-sketches/westport-early-opening.webp",
+      "alt": "An open storybook and brass reading lamp in quiet morning light.",
+      "width": 720,
+      "height": 480,
+      "title": "Low Stimulation Library",
+      "venue": "Bixby Memorial Free Library",
+      "start": "2026-12-19T09:00:00-05:00",
+      "reusedFromEvent": "westport-early-2026-10-04"
+    },
+    "asm-midweek-mingle-augusta-2026-11-10": {
+      "src": "/assets/event-sketches/morningstar-museum.webp",
+      "alt": "Ink-and-watercolor study of wooden building forms and a prism in morning light.",
+      "width": 720,
+      "height": 480,
+      "title": "ASM Midweek Mingle — Augusta",
+      "venue": "Lithgow Public Library",
+      "start": "2026-11-10T15:00:00-05:00",
+      "reusedFromEvent": "bcm-2026-10-03"
+    },
+    "asm-midweek-mingle-caribou-2026-11-10": {
+      "src": "/assets/event-sketches/morningstar-museum.webp",
+      "alt": "Ink-and-watercolor study of wooden building forms and a prism in morning light.",
+      "width": 720,
+      "height": 480,
+      "title": "ASM Midweek Mingle — Caribou",
+      "venue": "Caribou Public Library",
+      "start": "2026-11-10T15:00:00-05:00",
+      "reusedFromEvent": "bcm-2026-10-03"
+    },
+    "asm-midweek-mingle-orono-2026-11-10": {
+      "src": "/assets/event-sketches/morningstar-museum.webp",
+      "alt": "Ink-and-watercolor study of wooden building forms and a prism in morning light.",
+      "width": 720,
+      "height": 480,
+      "title": "ASM Midweek Mingle — Orono",
+      "venue": "Wilson Center",
+      "start": "2026-11-10T15:00:00-05:00",
+      "reusedFromEvent": "bcm-2026-10-03"
+    },
+    "asm-midweek-mingle-augusta-2026-12-08": {
+      "src": "/assets/event-sketches/morningstar-museum.webp",
+      "alt": "Ink-and-watercolor study of wooden building forms and a prism in morning light.",
+      "width": 720,
+      "height": 480,
+      "title": "ASM Midweek Mingle — Augusta",
+      "venue": "Lithgow Public Library",
+      "start": "2026-12-08T15:00:00-05:00",
+      "reusedFromEvent": "bcm-2026-10-03"
+    },
+    "asm-midweek-mingle-caribou-2026-12-08": {
+      "src": "/assets/event-sketches/morningstar-museum.webp",
+      "alt": "Ink-and-watercolor study of wooden building forms and a prism in morning light.",
+      "width": 720,
+      "height": 480,
+      "title": "ASM Midweek Mingle — Caribou",
+      "venue": "Caribou Public Library",
+      "start": "2026-12-08T15:00:00-05:00",
+      "reusedFromEvent": "bcm-2026-10-03"
+    },
+    "asm-midweek-mingle-orono-2026-12-08": {
+      "src": "/assets/event-sketches/morningstar-museum.webp",
+      "alt": "Ink-and-watercolor study of wooden building forms and a prism in morning light.",
+      "width": 720,
+      "height": 480,
+      "title": "ASM Midweek Mingle — Orono",
+      "venue": "Wilson Center",
+      "start": "2026-12-08T15:00:00-05:00",
+      "reusedFromEvent": "bcm-2026-10-03"
+    },
+    "aoec-afterschool-2026-11-06": {
+      "src": "/assets/event-sketches/storytime-smiles.webp",
+      "alt": "A storybook, colored pencils, paper crafts and apple slices sketched in watercolor.",
+      "width": 720,
+      "height": 480,
+      "title": "After-School Art with John Nordell",
+      "venue": "AOEC Horizons Center",
+      "start": "2026-11-06T16:00:00-05:00",
+      "reusedFromEvent": "autism-alliance-storytime-2026-10-03"
+    },
+    "aoec-afterschool-2026-11-20": {
+      "src": "/assets/event-sketches/holiday-silent-disco.webp",
+      "alt": "Original ink-and-watercolor study of navy music headphones with cranberry ribbon and pine.",
+      "width": 1536,
+      "height": 1024,
+      "title": "After-School Music & Dance",
+      "venue": "AOEC Horizons Center",
+      "start": "2026-11-20T16:00:00-05:00",
+      "reusedFromEvent": "bridge-disco-2026-12-04"
+    },
+    "aoec-afterschool-2026-12-04": {
+      "src": "/assets/event-sketches/holiday-gift-making.webp",
+      "alt": "Original watercolor study of a handmade gift, ribbon, tea, stationery and a small box on a cream tabletop.",
+      "width": 1536,
+      "height": 1024,
+      "title": "After-School Holiday Cookie Decorating",
+      "venue": "AOEC Horizons Center",
+      "start": "2026-12-04T16:00:00-05:00",
+      "reusedFromEvent": "car-holiday-bazaar-2026-11-14"
+    },
+    "dyer-sensory-festival-trees-2026-12-06": {
+      "src": "/assets/event-sketches/morningstar-museum.webp",
+      "alt": "Ink-and-watercolor study of wooden building forms and a prism in morning light.",
+      "width": 720,
+      "height": 480,
+      "title": "Sensory-Friendly Festival of Trees",
+      "venue": "Saco Museum",
+      "start": "2026-12-06T10:00:00-05:00",
+      "reusedFromEvent": "bcm-2026-10-03"
+    },
+    "edd-adaptive-chair-yoga-2026-11-08": {
+      "src": "/assets/event-sketches/some-workout-2026-10-06.webp",
+      "alt": "A navy exercise mat, wooden step, towel and cranberry resistance band in autumn window light.",
+      "width": 720,
+      "height": 480,
+      "title": "Adaptive Chair Yoga",
+      "venue": "Sangha Studio — Williston",
+      "start": "2026-11-08T15:00:00-05:00",
+      "reusedFromEvent": "some-workout-2026-10-06"
+    },
+    "edd-adaptive-chair-yoga-2026-11-15": {
+      "src": "/assets/event-sketches/some-workout-2026-10-06.webp",
+      "alt": "A navy exercise mat, wooden step, towel and cranberry resistance band in autumn window light.",
+      "width": 720,
+      "height": 480,
+      "title": "Adaptive Chair Yoga",
+      "venue": "Sangha Studio — Williston",
+      "start": "2026-11-15T15:00:00-05:00",
+      "reusedFromEvent": "some-workout-2026-10-06"
+    },
+    "edd-adaptive-chair-yoga-2026-11-22": {
+      "src": "/assets/event-sketches/some-workout-2026-10-06.webp",
+      "alt": "A navy exercise mat, wooden step, towel and cranberry resistance band in autumn window light.",
+      "width": 720,
+      "height": 480,
+      "title": "Adaptive Chair Yoga",
+      "venue": "Sangha Studio — Williston",
+      "start": "2026-11-22T15:00:00-05:00",
+      "reusedFromEvent": "some-workout-2026-10-06"
+    },
+    "asm-adult-tabletop-games-2026-12-06": {
+      "src": "/assets/event-sketches/westport-early-opening.webp",
+      "alt": "An open storybook and brass reading lamp in quiet morning light.",
+      "width": 720,
+      "height": 480,
+      "title": "Tabletop Role-Playing Games for Adults",
+      "venue": "Wilson Center",
+      "start": "2026-12-06T17:00:00-05:00",
+      "reusedFromEvent": "westport-early-2026-10-04"
+    },
+    "aroostook-all-2026-11-07": {
+      "src": "/assets/event-sketches/morningstar-museum.webp",
+      "alt": "Ink-and-watercolor study of wooden building forms and a prism in morning light.",
+      "width": 720,
+      "height": 480,
+      "title": "Aroostook A.L.L. — Alternative Language Learners & Allies",
+      "venue": "Mark & Emily Turner Memorial Library — Akley Gallery",
+      "start": "2026-11-07T12:30:00-05:00",
+      "reusedFromEvent": "bcm-2026-10-03"
+    },
+    "aroostook-all-2026-12-05": {
+      "src": "/assets/event-sketches/morningstar-museum.webp",
+      "alt": "Ink-and-watercolor study of wooden building forms and a prism in morning light.",
+      "width": 720,
+      "height": 480,
+      "title": "Aroostook A.L.L. — Alternative Language Learners & Allies",
+      "venue": "Mark & Emily Turner Memorial Library — Akley Gallery",
+      "start": "2026-12-05T12:30:00-05:00",
+      "reusedFromEvent": "bcm-2026-10-03"
+    },
+    "maine-mall-santa-cares-2026-12-06": {
+      "src": "/assets/event-sketches/santa-visit.webp",
+      "alt": "Original ink-and-watercolor study of a cranberry Santa hat, brass bell and a warm wooden armchair.",
+      "width": 1536,
+      "height": 1024,
+      "title": "Santa Cares — Maine Mall",
+      "venue": "The Maine Mall",
+      "start": "2026-12-06T09:30:00-05:00",
+      "reusedFromEvent": "northshore-santa-2026-12-06"
+    },
+    "vermont-public-curious-kids-0900-2026-11-07": {
+      "src": "/assets/event-sketches/morningstar-museum.webp",
+      "alt": "Ink-and-watercolor study of wooden building forms and a prism in morning light.",
+      "width": 720,
+      "height": 480,
+      "title": "Curious Kids Day — 9 AM Session",
+      "venue": "Vermont Public Studios",
+      "start": "2026-11-07T09:00:00-05:00",
+      "reusedFromEvent": "bcm-2026-10-03"
+    },
+    "vermont-public-curious-kids-1100-2026-11-07": {
+      "src": "/assets/event-sketches/morningstar-museum.webp",
+      "alt": "Ink-and-watercolor study of wooden building forms and a prism in morning light.",
+      "width": 720,
+      "height": 480,
+      "title": "Curious Kids Day — 11 AM Session",
+      "venue": "Vermont Public Studios",
+      "start": "2026-11-07T11:00:00-05:00",
+      "reusedFromEvent": "bcm-2026-10-03"
+    },
+    "vermont-public-curious-kids-1300-2026-11-07": {
+      "src": "/assets/event-sketches/morningstar-museum.webp",
+      "alt": "Ink-and-watercolor study of wooden building forms and a prism in morning light.",
+      "width": 720,
+      "height": 480,
+      "title": "Curious Kids Day — 1 PM Session",
+      "venue": "Vermont Public Studios",
+      "start": "2026-11-07T13:00:00-05:00",
+      "reusedFromEvent": "bcm-2026-10-03"
+    },
+    "zacks-place-turkey-trot-2026-11-26": {
+      "src": "/assets/event-sketches/morningstar-museum.webp",
+      "alt": "Ink-and-watercolor study of wooden building forms and a prism in morning light.",
+      "width": 720,
+      "height": 480,
+      "title": "Zack’s Place Turkey Trot — Wheelchair-Accessible 5K",
+      "venue": "Woodstock Elementary School",
+      "start": "2026-11-26T10:00:00-05:00",
+      "reusedFromEvent": "bcm-2026-10-03"
+    },
+    "zacks-dancing-stars-2026-12-09": {
+      "src": "/assets/event-sketches/morningstar-museum.webp",
+      "alt": "Ink-and-watercolor study of wooden building forms and a prism in morning light.",
+      "width": 720,
+      "height": 480,
+      "title": "Dancing with Z Stars",
+      "venue": "Pentangle Town Hall Theater",
+      "start": "2026-12-09T17:30:00-05:00",
+      "reusedFromEvent": "bcm-2026-10-03"
+    },
+    "brownell-kingston-swagger-2026-11-18": {
+      "src": "/assets/event-sketches/morningstar-museum.webp",
+      "alt": "Ink-and-watercolor study of wooden building forms and a prism in morning light.",
+      "width": 720,
+      "height": 480,
+      "title": "Kingston’s Autism Swagger Studio",
+      "venue": "Brownell Library",
+      "start": "2026-11-18T15:45:00-05:00",
+      "reusedFromEvent": "bcm-2026-10-03"
+    },
+    "some-unified-train-2026-11-16": {
+      "src": "/assets/event-sketches/santa-visit.webp",
+      "alt": "Original ink-and-watercolor study of a cranberry Santa hat, brass bell and a warm wooden armchair.",
+      "width": 1536,
+      "height": 1024,
+      "title": "Unified Athletes — Train Together",
+      "venue": "Johnston Gymnasium, Eastern Maine Community College",
+      "start": "2026-11-16T17:45:00-05:00",
+      "reusedFromEvent": "northshore-santa-2026-12-06"
+    },
+    "portland-hadestown-asl-2026-11-19": {
+      "src": "/assets/event-sketches/holiday-concert.webp",
+      "alt": "Original ink-and-watercolor study of a brass French horn, music pages, cranberry ribbon and pine.",
+      "width": 1536,
+      "height": 1024,
+      "title": "Hadestown — ASL-interpreted performance",
+      "venue": "Merrill Auditorium",
+      "start": "2026-11-19T19:00:00-05:00",
+      "reusedFromEvent": "bso-holiday-2026-12-05"
     }
   },
   "watchlist": {
@@ -2701,5 +4241,5 @@
       "reusedFrom": "/assets/event-sketches/holiday-concert.webp"
     }
   },
-  "updated": "2026-10-22"
+  "updated": "2026-11-01"
 }
