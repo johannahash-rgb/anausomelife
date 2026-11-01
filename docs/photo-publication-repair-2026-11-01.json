@@ -1,0 +1,78 @@
+{
+  "date": "2026-11-01",
+  "assets": [
+    {
+      "path": "assets/mall-over-the-years/burlington-mall-holiday-ornament.jpeg",
+      "source": "Owner-provided Burlington Mall photographs in prepared burlington-mall-blog-update.zip, Library version 1",
+      "rights_basis": "Owner requested these three photographs be added to existing public mall article; Owner explicitly approved public publication of these family photographs, including James, to johannahash-rgb/anausomelife and anausomelife.com on 2026-11-01",
+      "sha256": "f6cde5f06c10d9985801c7f13df2e1d0c39e71d01de30d73ea701faf5cda9605",
+      "treatment": "Original JPEG bytes unchanged",
+      "use": "Existing mall article only; no blanket third-party reuse license"
+    },
+    {
+      "path": "assets/mall-over-the-years/burlington-mall-verizon-stop.jpeg",
+      "source": "Owner-provided Burlington Mall photographs in prepared burlington-mall-blog-update.zip, Library version 1",
+      "rights_basis": "Owner requested these three photographs be added to existing public mall article; Owner explicitly approved public publication of these family photographs, including James, to johannahash-rgb/anausomelife and anausomelife.com on 2026-11-01",
+      "sha256": "0d3d7e81d17624b0540c1c38bd7ffc37f3b28d01b890177784c9405a0ee6c9fc",
+      "treatment": "Original JPEG bytes unchanged",
+      "use": "Existing mall article only; no blanket third-party reuse license"
+    },
+    {
+      "path": "assets/mall-over-the-years/burlington-mall-milkshake-lovers.jpeg",
+      "source": "Owner-provided Burlington Mall photographs in prepared burlington-mall-blog-update.zip, Library version 1",
+      "rights_basis": "Owner requested these three photographs be added to existing public mall article; Owner explicitly approved public publication of these family photographs, including James, to johannahash-rgb/anausomelife and anausomelife.com on 2026-11-01",
+      "sha256": "08fb27ea918b8151f466e00af6873a744bf964e965285f2fb77bbd59c308c022",
+      "treatment": "Original JPEG bytes unchanged",
+      "use": "Existing mall article only; no blanket third-party reuse license"
+    },
+    {
+      "path": "assets/codman-massachusetts/james-reflecting-pool.webp",
+      "source": "Owner-provided photographs; prepared codman_photos_web_ready.zip, Library version 3",
+      "rights_basis": "Owner requested best relevant photographs added to public Codman/Massachusetts essay; Owner explicitly approved public publication of these family photographs, including James, to johannahash-rgb/anausomelife and anausomelife.com on 2026-11-01",
+      "sha256": "fa43359f3a5b080cb497880f6a4fee3f473c1ef999a8fab2da41c1475655dc75",
+      "treatment": "Prepared WebP bytes unchanged",
+      "use": "Codman/Massachusetts essay only; no blanket third-party reuse license"
+    },
+    {
+      "path": "assets/codman-massachusetts/family-boston-history.webp",
+      "source": "Owner-provided photographs; prepared codman_photos_web_ready.zip, Library version 3",
+      "rights_basis": "Owner requested best relevant photographs added to public Codman/Massachusetts essay; Owner explicitly approved public publication of these family photographs, including James, to johannahash-rgb/anausomelife and anausomelife.com on 2026-11-01",
+      "sha256": "d6294e22a8d3a3ec5e25a069271435c9ef217f9787c3a1e7cda30e014cdcfaba",
+      "treatment": "Prepared WebP bytes unchanged",
+      "use": "Codman/Massachusetts essay only; no blanket third-party reuse license"
+    },
+    {
+      "path": "assets/codman-massachusetts/james-photographing-garden.webp",
+      "source": "Owner-provided photographs; prepared codman_photos_web_ready.zip, Library version 3",
+      "rights_basis": "Owner requested best relevant photographs added to public Codman/Massachusetts essay; Owner explicitly approved public publication of these family photographs, including James, to johannahash-rgb/anausomelife and anausomelife.com on 2026-11-01",
+      "sha256": "b7ee12dfba33a0c4b294eaa814d0cd2d8de904cb0b63d40a3967d8eb2dfa4514",
+      "treatment": "Prepared WebP bytes unchanged",
+      "use": "Codman/Massachusetts essay only; no blanket third-party reuse license"
+    },
+    {
+      "path": "assets/codman-massachusetts/james-boston-common-frog-pond.webp",
+      "source": "Owner-provided photographs; prepared codman_photos_web_ready.zip, Library version 3",
+      "rights_basis": "Owner requested best relevant photographs added to public Codman/Massachusetts essay; Owner explicitly approved public publication of these family photographs, including James, to johannahash-rgb/anausomelife and anausomelife.com on 2026-11-01",
+      "sha256": "3143afb3f2ac9ea02d63903d7538f5c3d9f21bab4e3fe961e8767231256fcd54",
+      "treatment": "Prepared WebP bytes unchanged",
+      "use": "Codman/Massachusetts essay only; no blanket third-party reuse license"
+    },
+    {
+      "path": "assets/codman-massachusetts/codman-estate-james-hero.webp",
+      "source": "Owner-provided photographs; prepared codman_photos_web_ready.zip, Library version 3",
+      "rights_basis": "Owner requested best relevant photographs added to public Codman/Massachusetts essay; Owner explicitly approved public publication of these family photographs, including James, to johannahash-rgb/anausomelife and anausomelife.com on 2026-11-01",
+      "sha256": "8b1381b5f9c83b79fba5a0fdba6275c7c04e2b58a4120a6eca5c97522c0cfa11",
+      "treatment": "Prepared WebP bytes unchanged",
+      "use": "Codman/Massachusetts essay only; no blanket third-party reuse license"
+    }
+  ],
+  "excluded": [
+    "james-codman-garden-2025.webp: screenshot displays owner username and platform UI"
+  ],
+  "song_reference": {
+    "title": "A New England",
+    "artist": "Billy Bragg",
+    "source": "https://billybragg.bandcamp.com/album/life-s-a-riot-with-spy-vs-spy-30th-anniversary-edition",
+    "treatment": "Title-only attributed allusion requested by owner; no lyric quotation"
+  }
+}
