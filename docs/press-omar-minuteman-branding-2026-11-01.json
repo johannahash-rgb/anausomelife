@@ -1,0 +1,20 @@
+{
+  "captured": "2026-11-01",
+  "assets": [
+    {
+      "path": "assets/press/logos/omars-world-of-comics.webp",
+      "source": "https://omarsworldofcomics.com/",
+      "asset": "https://omarsworldofcomics.com/wp-content/uploads/2025/09/BIZ-BAR-LOGO-Omars-World-Comics.webp",
+      "method": "Official logo, optimized without redrawing"
+    },
+    {
+      "path": "assets/press/logos/friends-of-minute-man-masthead.webp",
+      "source": "https://friendsofminuteman.org/",
+      "method": "Cropped screenshot of official website masthead, not a fabricated logo",
+      "dimensions": [
+        900,
+        295
+      ]
+    }
+  ]
+}
