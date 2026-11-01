@@ -1,0 +1,14 @@
+name: Calendar editorial content
+on:
+  push:
+    branches: [main]
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  clean-headings:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Reject scraped navigation and unreviewed long titles
+        run: python -m unittest discover -s tests -p 'test_calendar_editorial_content.py'
