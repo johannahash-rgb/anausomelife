@@ -1,0 +1,40 @@
+{
+  "article": "he-deserved-a-graduation-all-along.html",
+  "confirmed_on": "2026-11-01",
+  "basis": "Owner confirmed website publication permission from Pamela Christine Photography (Rhode Island) for the four kindergarten photographs and approved the supplied eighth-grade photograph with a standard non-AI privacy crop.",
+  "scope": "Website editorial use; no third-party photo reuse license granted.",
+  "crop": {
+    "source": "IMG_1634.jpeg",
+    "box": [
+      365,
+      595,
+      700,
+      850
+    ],
+    "output": "assets/graduation/eighth-grade-james.png",
+    "method": "Lossless PNG export of rectangular source-pixel crop; no generation, face alteration or retouching. Uncropped source excluded from repository."
+  },
+  "assets": [
+    {
+      "path": "assets/graduation/kindergarten-0833.jpeg",
+      "sha256": "bdf7149bbb0cec32e8d9b8b33ee6cedaa5b522d76f9b822da6df95554eff9c62"
+    },
+    {
+      "path": "assets/graduation/kindergarten-0828.jpeg",
+      "sha256": "88a88dcaa127fb66ed19a01c5783b1df9628569eb8612f9bb4e9776d67026cca"
+    },
+    {
+      "path": "assets/graduation/kindergarten-0826.jpeg",
+      "sha256": "4c864fa7f90826a889649a6063d57b10765f9a91b0e69b4f6f4c36f4127e0548"
+    },
+    {
+      "path": "assets/graduation/kindergarten-0829.jpeg",
+      "sha256": "479a379a448bd40ce26245319404562f34b8b72487d542890258e3c5a8176a57"
+    },
+    {
+      "path": "assets/graduation/eighth-grade-james.png",
+      "sha256": "818cca765adcc2b79333e848c5878758004ce3608c170211cac8dce54f99acf7"
+    }
+  ],
+  "photographer_credit": "Pamela Christine Photography (Rhode Island), kindergarten photographs only"
+}
