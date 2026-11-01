@@ -99,7 +99,7 @@ jobs:
               "slug": story["slug"],
               "url": story["url"],
               "title": story["title"],
-              "summary": story["sumary"],
+              "summary": story["summary"],
               "category": story["category"],
               "format": story["format"],
               "minutes": story["minutes"],
@@ -124,7 +124,7 @@ jobs:
       - name: Validate the generated publication
         run: |
           python tools/check_editorial_rights.py
-          python tests/site_experience.py
+          python tests/test_site_experience.py
           python tests/test_page_simplicity.py
           python .github/scripts/site_audit.py --root . --external-limit 0 --strict
 
