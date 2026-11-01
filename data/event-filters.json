@@ -8869,7 +8869,15 @@
         }
       },
       "checkedAt": "2026-10-30",
-      "holidays": []
+      "holidays": [],
+      "sensory": {
+        "level": "unknown",
+        "note": "A dedicated family evening; specific sound and lighting adjustments are not confirmed.",
+        "sourceUrl": "https://www.discoveryacton.org/events-programs/foster-family-evening-3",
+        "checkedAt": "2026-11-01",
+        "basis": "Organizer details do not establish a sensory rating."
+      },
+      "holidayEvidence": {}
     },
     "autism-eats-friendsgiving-2026-11-13": {
       "ageGroups": [
@@ -8900,6 +8908,1574 @@
         "checkedAt": "2026-10-30",
         "basis": "Published organizer details; sensory conditions not confirmed"
       }
+    },
+    "maine-discovery-mdtp-2026-11-08": {
+      "ageGroups": [
+        "children",
+        "families"
+      ],
+      "accessFeatures": [
+        "sensory-friendly",
+        "wheelchair-step-free"
+      ],
+      "ageEvidence": {
+        "children": {
+          "evidenceId": "maine-discovery-mdtp",
+          "url": "https://www.mainediscoverymuseum.org/mdtp"
+        },
+        "families": {
+          "evidenceId": "maine-discovery-mdtp",
+          "url": "https://www.mainediscoverymuseum.org/mdtp"
+        }
+      },
+      "accessEvidence": {
+        "sensory-friendly": {
+          "evidenceId": "maine-discovery-mdtp",
+          "url": "https://www.mainediscoverymuseum.org/mdtp"
+        },
+        "wheelchair-step-free": {
+          "evidenceId": "maine-discovery-mdtp",
+          "url": "https://www.mainediscoverymuseum.org/faq"
+        }
+      },
+      "ageRange": {
+        "min": null,
+        "max": null,
+        "kind": "not-stated"
+      },
+      "holidays": [],
+      "holidayEvidence": {},
+      "sensory": {
+        "level": "variable",
+        "note": "Reserved for participating families, but specific lighting and sound adjustments are not published.",
+        "sourceUrl": "https://www.mainediscoverymuseum.org/mdtp",
+        "checkedAt": "2026-11-01",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-11-01"
+      },
+      "checkedAt": "2026-11-01"
+    },
+    "maine-discovery-mdtp-2026-11-15": {
+      "ageGroups": [
+        "children",
+        "families"
+      ],
+      "accessFeatures": [
+        "sensory-friendly",
+        "wheelchair-step-free"
+      ],
+      "ageEvidence": {
+        "children": {
+          "evidenceId": "maine-discovery-mdtp",
+          "url": "https://www.mainediscoverymuseum.org/mdtp"
+        },
+        "families": {
+          "evidenceId": "maine-discovery-mdtp",
+          "url": "https://www.mainediscoverymuseum.org/mdtp"
+        }
+      },
+      "accessEvidence": {
+        "sensory-friendly": {
+          "evidenceId": "maine-discovery-mdtp",
+          "url": "https://www.mainediscoverymuseum.org/mdtp"
+        },
+        "wheelchair-step-free": {
+          "evidenceId": "maine-discovery-mdtp",
+          "url": "https://www.mainediscoverymuseum.org/faq"
+        }
+      },
+      "ageRange": {
+        "min": null,
+        "max": null,
+        "kind": "not-stated"
+      },
+      "holidays": [],
+      "holidayEvidence": {},
+      "sensory": {
+        "level": "variable",
+        "note": "Reserved for participating families, but specific lighting and sound adjustments are not published.",
+        "sourceUrl": "https://www.mainediscoverymuseum.org/mdtp",
+        "checkedAt": "2026-11-01",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-11-01"
+      },
+      "checkedAt": "2026-11-01"
+    },
+    "maine-discovery-mdtp-2026-11-22": {
+      "ageGroups": [
+        "children",
+        "families"
+      ],
+      "accessFeatures": [
+        "sensory-friendly",
+        "wheelchair-step-free"
+      ],
+      "ageEvidence": {
+        "children": {
+          "evidenceId": "maine-discovery-mdtp",
+          "url": "https://www.mainediscoverymuseum.org/mdtp"
+        },
+        "families": {
+          "evidenceId": "maine-discovery-mdtp",
+          "url": "https://www.mainediscoverymuseum.org/mdtp"
+        }
+      },
+      "accessEvidence": {
+        "sensory-friendly": {
+          "evidenceId": "maine-discovery-mdtp",
+          "url": "https://www.mainediscoverymuseum.org/mdtp"
+        },
+        "wheelchair-step-free": {
+          "evidenceId": "maine-discovery-mdtp",
+          "url": "https://www.mainediscoverymuseum.org/faq"
+        }
+      },
+      "ageRange": {
+        "min": null,
+        "max": null,
+        "kind": "not-stated"
+      },
+      "holidays": [],
+      "holidayEvidence": {},
+      "sensory": {
+        "level": "variable",
+        "note": "Reserved for participating families, but specific lighting and sound adjustments are not published.",
+        "sourceUrl": "https://www.mainediscoverymuseum.org/mdtp",
+        "checkedAt": "2026-11-01",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-11-01"
+      },
+      "checkedAt": "2026-11-01"
+    },
+    "maine-discovery-mdtp-2026-11-29": {
+      "ageGroups": [
+        "children",
+        "families"
+      ],
+      "accessFeatures": [
+        "sensory-friendly",
+        "wheelchair-step-free"
+      ],
+      "ageEvidence": {
+        "children": {
+          "evidenceId": "maine-discovery-mdtp",
+          "url": "https://www.mainediscoverymuseum.org/mdtp"
+        },
+        "families": {
+          "evidenceId": "maine-discovery-mdtp",
+          "url": "https://www.mainediscoverymuseum.org/mdtp"
+        }
+      },
+      "accessEvidence": {
+        "sensory-friendly": {
+          "evidenceId": "maine-discovery-mdtp",
+          "url": "https://www.mainediscoverymuseum.org/mdtp"
+        },
+        "wheelchair-step-free": {
+          "evidenceId": "maine-discovery-mdtp",
+          "url": "https://www.mainediscoverymuseum.org/faq"
+        }
+      },
+      "ageRange": {
+        "min": null,
+        "max": null,
+        "kind": "not-stated"
+      },
+      "holidays": [],
+      "holidayEvidence": {},
+      "sensory": {
+        "level": "variable",
+        "note": "Reserved for participating families, but specific lighting and sound adjustments are not published.",
+        "sourceUrl": "https://www.mainediscoverymuseum.org/mdtp",
+        "checkedAt": "2026-11-01",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-11-01"
+      },
+      "checkedAt": "2026-11-01"
+    },
+    "maine-discovery-mdtp-2026-12-06": {
+      "ageGroups": [
+        "children",
+        "families"
+      ],
+      "accessFeatures": [
+        "sensory-friendly",
+        "wheelchair-step-free"
+      ],
+      "ageEvidence": {
+        "children": {
+          "evidenceId": "maine-discovery-mdtp",
+          "url": "https://www.mainediscoverymuseum.org/mdtp"
+        },
+        "families": {
+          "evidenceId": "maine-discovery-mdtp",
+          "url": "https://www.mainediscoverymuseum.org/mdtp"
+        }
+      },
+      "accessEvidence": {
+        "sensory-friendly": {
+          "evidenceId": "maine-discovery-mdtp",
+          "url": "https://www.mainediscoverymuseum.org/mdtp"
+        },
+        "wheelchair-step-free": {
+          "evidenceId": "maine-discovery-mdtp",
+          "url": "https://www.mainediscoverymuseum.org/faq"
+        }
+      },
+      "ageRange": {
+        "min": null,
+        "max": null,
+        "kind": "not-stated"
+      },
+      "holidays": [],
+      "holidayEvidence": {},
+      "sensory": {
+        "level": "variable",
+        "note": "Reserved for participating families, but specific lighting and sound adjustments are not published.",
+        "sourceUrl": "https://www.mainediscoverymuseum.org/mdtp",
+        "checkedAt": "2026-11-01",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-11-01"
+      },
+      "checkedAt": "2026-11-01"
+    },
+    "maine-discovery-mdtp-2026-12-13": {
+      "ageGroups": [
+        "children",
+        "families"
+      ],
+      "accessFeatures": [
+        "sensory-friendly",
+        "wheelchair-step-free"
+      ],
+      "ageEvidence": {
+        "children": {
+          "evidenceId": "maine-discovery-mdtp",
+          "url": "https://www.mainediscoverymuseum.org/mdtp"
+        },
+        "families": {
+          "evidenceId": "maine-discovery-mdtp",
+          "url": "https://www.mainediscoverymuseum.org/mdtp"
+        }
+      },
+      "accessEvidence": {
+        "sensory-friendly": {
+          "evidenceId": "maine-discovery-mdtp",
+          "url": "https://www.mainediscoverymuseum.org/mdtp"
+        },
+        "wheelchair-step-free": {
+          "evidenceId": "maine-discovery-mdtp",
+          "url": "https://www.mainediscoverymuseum.org/faq"
+        }
+      },
+      "ageRange": {
+        "min": null,
+        "max": null,
+        "kind": "not-stated"
+      },
+      "holidays": [],
+      "holidayEvidence": {},
+      "sensory": {
+        "level": "variable",
+        "note": "Reserved for participating families, but specific lighting and sound adjustments are not published.",
+        "sourceUrl": "https://www.mainediscoverymuseum.org/mdtp",
+        "checkedAt": "2026-11-01",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-11-01"
+      },
+      "checkedAt": "2026-11-01"
+    },
+    "maine-discovery-mdtp-2026-12-20": {
+      "ageGroups": [
+        "children",
+        "families"
+      ],
+      "accessFeatures": [
+        "sensory-friendly",
+        "wheelchair-step-free"
+      ],
+      "ageEvidence": {
+        "children": {
+          "evidenceId": "maine-discovery-mdtp",
+          "url": "https://www.mainediscoverymuseum.org/mdtp"
+        },
+        "families": {
+          "evidenceId": "maine-discovery-mdtp",
+          "url": "https://www.mainediscoverymuseum.org/mdtp"
+        }
+      },
+      "accessEvidence": {
+        "sensory-friendly": {
+          "evidenceId": "maine-discovery-mdtp",
+          "url": "https://www.mainediscoverymuseum.org/mdtp"
+        },
+        "wheelchair-step-free": {
+          "evidenceId": "maine-discovery-mdtp",
+          "url": "https://www.mainediscoverymuseum.org/faq"
+        }
+      },
+      "ageRange": {
+        "min": null,
+        "max": null,
+        "kind": "not-stated"
+      },
+      "holidays": [],
+      "holidayEvidence": {},
+      "sensory": {
+        "level": "variable",
+        "note": "Reserved for participating families, but specific lighting and sound adjustments are not published.",
+        "sourceUrl": "https://www.mainediscoverymuseum.org/mdtp",
+        "checkedAt": "2026-11-01",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-11-01"
+      },
+      "checkedAt": "2026-11-01"
+    },
+    "maine-discovery-mdtp-2026-12-27": {
+      "ageGroups": [
+        "children",
+        "families"
+      ],
+      "accessFeatures": [
+        "sensory-friendly",
+        "wheelchair-step-free"
+      ],
+      "ageEvidence": {
+        "children": {
+          "evidenceId": "maine-discovery-mdtp",
+          "url": "https://www.mainediscoverymuseum.org/mdtp"
+        },
+        "families": {
+          "evidenceId": "maine-discovery-mdtp",
+          "url": "https://www.mainediscoverymuseum.org/mdtp"
+        }
+      },
+      "accessEvidence": {
+        "sensory-friendly": {
+          "evidenceId": "maine-discovery-mdtp",
+          "url": "https://www.mainediscoverymuseum.org/mdtp"
+        },
+        "wheelchair-step-free": {
+          "evidenceId": "maine-discovery-mdtp",
+          "url": "https://www.mainediscoverymuseum.org/faq"
+        }
+      },
+      "ageRange": {
+        "min": null,
+        "max": null,
+        "kind": "not-stated"
+      },
+      "holidays": [],
+      "holidayEvidence": {},
+      "sensory": {
+        "level": "variable",
+        "note": "Reserved for participating families, but specific lighting and sound adjustments are not published.",
+        "sourceUrl": "https://www.mainediscoverymuseum.org/mdtp",
+        "checkedAt": "2026-11-01",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-11-01"
+      },
+      "checkedAt": "2026-11-01"
+    },
+    "maine-discovery-mdtp-2027-01-03": {
+      "ageGroups": [
+        "children",
+        "families"
+      ],
+      "accessFeatures": [
+        "sensory-friendly",
+        "wheelchair-step-free"
+      ],
+      "ageEvidence": {
+        "children": {
+          "evidenceId": "maine-discovery-mdtp",
+          "url": "https://www.mainediscoverymuseum.org/mdtp"
+        },
+        "families": {
+          "evidenceId": "maine-discovery-mdtp",
+          "url": "https://www.mainediscoverymuseum.org/mdtp"
+        }
+      },
+      "accessEvidence": {
+        "sensory-friendly": {
+          "evidenceId": "maine-discovery-mdtp",
+          "url": "https://www.mainediscoverymuseum.org/mdtp"
+        },
+        "wheelchair-step-free": {
+          "evidenceId": "maine-discovery-mdtp",
+          "url": "https://www.mainediscoverymuseum.org/faq"
+        }
+      },
+      "ageRange": {
+        "min": null,
+        "max": null,
+        "kind": "not-stated"
+      },
+      "holidays": [],
+      "holidayEvidence": {},
+      "sensory": {
+        "level": "variable",
+        "note": "Reserved for participating families, but specific lighting and sound adjustments are not published.",
+        "sourceUrl": "https://www.mainediscoverymuseum.org/mdtp",
+        "checkedAt": "2026-11-01",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-11-01"
+      },
+      "checkedAt": "2026-11-01"
+    },
+    "maine-discovery-mdtp-2027-01-10": {
+      "ageGroups": [
+        "children",
+        "families"
+      ],
+      "accessFeatures": [
+        "sensory-friendly",
+        "wheelchair-step-free"
+      ],
+      "ageEvidence": {
+        "children": {
+          "evidenceId": "maine-discovery-mdtp",
+          "url": "https://www.mainediscoverymuseum.org/mdtp"
+        },
+        "families": {
+          "evidenceId": "maine-discovery-mdtp",
+          "url": "https://www.mainediscoverymuseum.org/mdtp"
+        }
+      },
+      "accessEvidence": {
+        "sensory-friendly": {
+          "evidenceId": "maine-discovery-mdtp",
+          "url": "https://www.mainediscoverymuseum.org/mdtp"
+        },
+        "wheelchair-step-free": {
+          "evidenceId": "maine-discovery-mdtp",
+          "url": "https://www.mainediscoverymuseum.org/faq"
+        }
+      },
+      "ageRange": {
+        "min": null,
+        "max": null,
+        "kind": "not-stated"
+      },
+      "holidays": [],
+      "holidayEvidence": {},
+      "sensory": {
+        "level": "variable",
+        "note": "Reserved for participating families, but specific lighting and sound adjustments are not published.",
+        "sourceUrl": "https://www.mainediscoverymuseum.org/mdtp",
+        "checkedAt": "2026-11-01",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-11-01"
+      },
+      "checkedAt": "2026-11-01"
+    },
+    "maine-discovery-mdtp-2027-01-17": {
+      "ageGroups": [
+        "children",
+        "families"
+      ],
+      "accessFeatures": [
+        "sensory-friendly",
+        "wheelchair-step-free"
+      ],
+      "ageEvidence": {
+        "children": {
+          "evidenceId": "maine-discovery-mdtp",
+          "url": "https://www.mainediscoverymuseum.org/mdtp"
+        },
+        "families": {
+          "evidenceId": "maine-discovery-mdtp",
+          "url": "https://www.mainediscoverymuseum.org/mdtp"
+        }
+      },
+      "accessEvidence": {
+        "sensory-friendly": {
+          "evidenceId": "maine-discovery-mdtp",
+          "url": "https://www.mainediscoverymuseum.org/mdtp"
+        },
+        "wheelchair-step-free": {
+          "evidenceId": "maine-discovery-mdtp",
+          "url": "https://www.mainediscoverymuseum.org/faq"
+        }
+      },
+      "ageRange": {
+        "min": null,
+        "max": null,
+        "kind": "not-stated"
+      },
+      "holidays": [],
+      "holidayEvidence": {},
+      "sensory": {
+        "level": "variable",
+        "note": "Reserved for participating families, but specific lighting and sound adjustments are not published.",
+        "sourceUrl": "https://www.mainediscoverymuseum.org/mdtp",
+        "checkedAt": "2026-11-01",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-11-01"
+      },
+      "checkedAt": "2026-11-01"
+    },
+    "maine-discovery-mdtp-2027-01-24": {
+      "ageGroups": [
+        "children",
+        "families"
+      ],
+      "accessFeatures": [
+        "sensory-friendly",
+        "wheelchair-step-free"
+      ],
+      "ageEvidence": {
+        "children": {
+          "evidenceId": "maine-discovery-mdtp",
+          "url": "https://www.mainediscoverymuseum.org/mdtp"
+        },
+        "families": {
+          "evidenceId": "maine-discovery-mdtp",
+          "url": "https://www.mainediscoverymuseum.org/mdtp"
+        }
+      },
+      "accessEvidence": {
+        "sensory-friendly": {
+          "evidenceId": "maine-discovery-mdtp",
+          "url": "https://www.mainediscoverymuseum.org/mdtp"
+        },
+        "wheelchair-step-free": {
+          "evidenceId": "maine-discovery-mdtp",
+          "url": "https://www.mainediscoverymuseum.org/faq"
+        }
+      },
+      "ageRange": {
+        "min": null,
+        "max": null,
+        "kind": "not-stated"
+      },
+      "holidays": [],
+      "holidayEvidence": {},
+      "sensory": {
+        "level": "variable",
+        "note": "Reserved for participating families, but specific lighting and sound adjustments are not published.",
+        "sourceUrl": "https://www.mainediscoverymuseum.org/mdtp",
+        "checkedAt": "2026-11-01",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-11-01"
+      },
+      "checkedAt": "2026-11-01"
+    },
+    "maine-discovery-mdtp-evening-2027-01-08": {
+      "ageGroups": [
+        "children",
+        "families"
+      ],
+      "accessFeatures": [
+        "sensory-friendly",
+        "wheelchair-step-free"
+      ],
+      "ageEvidence": {
+        "children": {
+          "evidenceId": "maine-discovery-mdtp",
+          "url": "https://www.mainediscoverymuseum.org/mdtp"
+        },
+        "families": {
+          "evidenceId": "maine-discovery-mdtp",
+          "url": "https://www.mainediscoverymuseum.org/mdtp"
+        }
+      },
+      "accessEvidence": {
+        "sensory-friendly": {
+          "evidenceId": "maine-discovery-mdtp",
+          "url": "https://www.mainediscoverymuseum.org/mdtp"
+        },
+        "wheelchair-step-free": {
+          "evidenceId": "maine-discovery-mdtp",
+          "url": "https://www.mainediscoverymuseum.org/faq"
+        }
+      },
+      "ageRange": {
+        "min": null,
+        "max": null,
+        "kind": "not-stated"
+      },
+      "holidays": [],
+      "holidayEvidence": {},
+      "sensory": {
+        "level": "variable",
+        "note": "Reserved for participating families, but specific lighting and sound adjustments are not published.",
+        "sourceUrl": "https://www.mainediscoverymuseum.org/mdtp",
+        "checkedAt": "2026-11-01",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-11-01"
+      },
+      "checkedAt": "2026-11-01"
+    },
+    "montshire-2027-01-16": {
+      "ageGroups": [
+        "children",
+        "teens",
+        "adults",
+        "families"
+      ],
+      "accessFeatures": [
+        "sensory-friendly",
+        "wheelchair-step-free"
+      ],
+      "ageEvidence": {
+        "children": {
+          "evidenceId": "montshire-program",
+          "url": "https://montshire.org/event/montshh-montshire-sensory-hour-10/2026-12-19/"
+        },
+        "teens": {
+          "evidenceId": "montshire-program",
+          "url": "https://montshire.org/event/montshh-montshire-sensory-hour-10/2026-12-19/"
+        },
+        "adults": {
+          "evidenceId": "montshire-program",
+          "url": "https://montshire.org/event/montshh-montshire-sensory-hour-10/2026-12-19/"
+        },
+        "families": {
+          "evidenceId": "montshire-program",
+          "url": "https://montshire.org/event/montshh-montshire-sensory-hour-10/2026-12-19/"
+        }
+      },
+      "accessEvidence": {
+        "sensory-friendly": {
+          "evidenceId": "montshire-program",
+          "url": "https://montshire.org/event/montshh-montshire-sensory-hour-10/2026-12-19/"
+        },
+        "wheelchair-step-free": {
+          "evidenceId": "montshire-access",
+          "url": "https://montshire.org/visit/museum-faqs/",
+          "qualification": "Indoor route confirmed; outdoor areas may require assistance."
+        }
+      },
+      "checkedAt": "2026-11-01",
+      "sensory": {
+        "level": "low",
+        "note": "Fewer visitors and lower sound on selected exhibits, with a quiet break space and sensory supplies.",
+        "sourceUrl": "https://montshire.org/event/montshh-montshire-sensory-hour-10/2026-12-19/",
+        "checkedAt": "2026-10-06",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-10-03"
+      },
+      "holidays": [],
+      "holidayEvidence": {}
+    },
+    "hartford-stage-carol-sensory-2026-12-05": {
+      "ageGroups": [
+        "families"
+      ],
+      "accessFeatures": [
+        "sensory-friendly"
+      ],
+      "ageEvidence": {
+        "families": {
+          "evidenceId": "hartford-stage",
+          "url": "https://www.hartfordstage.org/sensory-friendly"
+        }
+      },
+      "accessEvidence": {
+        "sensory-friendly": {
+          "evidenceId": "hartford-stage",
+          "url": "https://www.hartfordstage.org/sensory-friendly"
+        }
+      },
+      "ageRange": {
+        "min": 9,
+        "max": null,
+        "kind": "recommendation"
+      },
+      "holidays": [
+        "winter-holidays",
+        "holiday-performance",
+        "christmas"
+      ],
+      "holidayEvidence": {
+        "winter-holidays": {
+          "evidenceId": "hartford-stage",
+          "url": "https://www.hartfordstage.org/sensory-friendly"
+        },
+        "holiday-performance": {
+          "evidenceId": "hartford-stage",
+          "url": "https://www.hartfordstage.org/sensory-friendly"
+        },
+        "christmas": {
+          "evidenceId": "hartford-stage",
+          "url": "https://www.hartfordstage.org/sensory-friendly"
+        }
+      },
+      "sensory": {
+        "level": "moderate",
+        "note": "Reduced sound and lighting effects and a quiet area support attendance, but this remains a live theatrical performance.",
+        "sourceUrl": "https://www.hartfordstage.org/sensory-friendly",
+        "checkedAt": "2026-11-01",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-11-01"
+      },
+      "checkedAt": "2026-11-01"
+    },
+    "goodspeed-annie-sensory-2026-12-13": {
+      "ageGroups": [
+        "all-ages",
+        "children",
+        "teens",
+        "adults",
+        "families"
+      ],
+      "accessFeatures": [
+        "sensory-friendly",
+        "wheelchair-step-free"
+      ],
+      "ageEvidence": {
+        "all-ages": {
+          "evidenceId": "goodspeed",
+          "url": "https://www.goodspeed.org/sensoryfriendly"
+        },
+        "children": {
+          "evidenceId": "goodspeed",
+          "url": "https://www.goodspeed.org/sensoryfriendly"
+        },
+        "teens": {
+          "evidenceId": "goodspeed",
+          "url": "https://www.goodspeed.org/sensoryfriendly"
+        },
+        "adults": {
+          "evidenceId": "goodspeed",
+          "url": "https://www.goodspeed.org/sensoryfriendly"
+        },
+        "families": {
+          "evidenceId": "goodspeed",
+          "url": "https://www.goodspeed.org/sensoryfriendly"
+        }
+      },
+      "accessEvidence": {
+        "sensory-friendly": {
+          "evidenceId": "goodspeed",
+          "url": "https://www.goodspeed.org/sensoryfriendly"
+        },
+        "wheelchair-step-free": {
+          "evidenceId": "goodspeed",
+          "url": "https://www.goodspeed.org/sensoryfriendly"
+        }
+      },
+      "ageRange": {
+        "min": null,
+        "max": null,
+        "kind": "not-stated"
+      },
+      "holidays": [
+        "winter-holidays",
+        "holiday-performance"
+      ],
+      "holidayEvidence": {
+        "winter-holidays": {
+          "evidenceId": "goodspeed",
+          "url": "https://www.goodspeed.org/sensoryfriendly"
+        },
+        "holiday-performance": {
+          "evidenceId": "goodspeed",
+          "url": "https://www.goodspeed.org/sensoryfriendly"
+        }
+      },
+      "sensory": {
+        "level": "moderate",
+        "note": "Reduced sound and lighting effects and a quiet area support attendance, but this remains a live theatrical performance.",
+        "sourceUrl": "https://www.goodspeed.org/sensoryfriendly",
+        "checkedAt": "2026-11-01",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-11-01"
+      },
+      "checkedAt": "2026-11-01"
+    },
+    "bristol-santa-public-2026-12-02": {
+      "ageGroups": [
+        "all-ages",
+        "children",
+        "teens",
+        "adults",
+        "families"
+      ],
+      "accessFeatures": [],
+      "ageEvidence": {
+        "all-ages": {
+          "evidenceId": "bristol-santa-house",
+          "url": "https://www.bristolsantahouse.org/schedule/"
+        },
+        "children": {
+          "evidenceId": "bristol-santa-house",
+          "url": "https://www.bristolsantahouse.org/schedule/"
+        },
+        "teens": {
+          "evidenceId": "bristol-santa-house",
+          "url": "https://www.bristolsantahouse.org/schedule/"
+        },
+        "adults": {
+          "evidenceId": "bristol-santa-house",
+          "url": "https://www.bristolsantahouse.org/schedule/"
+        },
+        "families": {
+          "evidenceId": "bristol-santa-house",
+          "url": "https://www.bristolsantahouse.org/schedule/"
+        }
+      },
+      "accessEvidence": {},
+      "ageRange": {
+        "min": null,
+        "max": null,
+        "kind": "not-stated"
+      },
+      "holidays": [
+        "christmas",
+        "santa",
+        "winter-holidays"
+      ],
+      "holidayEvidence": {
+        "christmas": {
+          "evidenceId": "bristol-santa-house",
+          "url": "https://www.bristolsantahouse.org/schedule/"
+        },
+        "santa": {
+          "evidenceId": "bristol-santa-house",
+          "url": "https://www.bristolsantahouse.org/schedule/"
+        },
+        "winter-holidays": {
+          "evidenceId": "bristol-santa-house",
+          "url": "https://www.bristolsantahouse.org/schedule/"
+        }
+      },
+      "sensory": {
+        "level": "variable",
+        "note": "Public visiting hours can involve crowds and waiting. These are not private sensory-friendly appointments.",
+        "sourceUrl": "https://www.bristolsantahouse.org/schedule/",
+        "checkedAt": "2026-11-01",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-11-01"
+      },
+      "checkedAt": "2026-11-01"
+    },
+    "bristol-santa-public-2026-12-04": {
+      "ageGroups": [
+        "all-ages",
+        "children",
+        "teens",
+        "adults",
+        "families"
+      ],
+      "accessFeatures": [],
+      "ageEvidence": {
+        "all-ages": {
+          "evidenceId": "bristol-santa-house",
+          "url": "https://www.bristolsantahouse.org/schedule/"
+        },
+        "children": {
+          "evidenceId": "bristol-santa-house",
+          "url": "https://www.bristolsantahouse.org/schedule/"
+        },
+        "teens": {
+          "evidenceId": "bristol-santa-house",
+          "url": "https://www.bristolsantahouse.org/schedule/"
+        },
+        "adults": {
+          "evidenceId": "bristol-santa-house",
+          "url": "https://www.bristolsantahouse.org/schedule/"
+        },
+        "families": {
+          "evidenceId": "bristol-santa-house",
+          "url": "https://www.bristolsantahouse.org/schedule/"
+        }
+      },
+      "accessEvidence": {},
+      "ageRange": {
+        "min": null,
+        "max": null,
+        "kind": "not-stated"
+      },
+      "holidays": [
+        "christmas",
+        "santa",
+        "winter-holidays"
+      ],
+      "holidayEvidence": {
+        "christmas": {
+          "evidenceId": "bristol-santa-house",
+          "url": "https://www.bristolsantahouse.org/schedule/"
+        },
+        "santa": {
+          "evidenceId": "bristol-santa-house",
+          "url": "https://www.bristolsantahouse.org/schedule/"
+        },
+        "winter-holidays": {
+          "evidenceId": "bristol-santa-house",
+          "url": "https://www.bristolsantahouse.org/schedule/"
+        }
+      },
+      "sensory": {
+        "level": "variable",
+        "note": "Public visiting hours can involve crowds and waiting. These are not private sensory-friendly appointments.",
+        "sourceUrl": "https://www.bristolsantahouse.org/schedule/",
+        "checkedAt": "2026-11-01",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-11-01"
+      },
+      "checkedAt": "2026-11-01"
+    },
+    "bristol-santa-public-2026-12-05": {
+      "ageGroups": [
+        "all-ages",
+        "children",
+        "teens",
+        "adults",
+        "families"
+      ],
+      "accessFeatures": [],
+      "ageEvidence": {
+        "all-ages": {
+          "evidenceId": "bristol-santa-house",
+          "url": "https://www.bristolsantahouse.org/schedule/"
+        },
+        "children": {
+          "evidenceId": "bristol-santa-house",
+          "url": "https://www.bristolsantahouse.org/schedule/"
+        },
+        "teens": {
+          "evidenceId": "bristol-santa-house",
+          "url": "https://www.bristolsantahouse.org/schedule/"
+        },
+        "adults": {
+          "evidenceId": "bristol-santa-house",
+          "url": "https://www.bristolsantahouse.org/schedule/"
+        },
+        "families": {
+          "evidenceId": "bristol-santa-house",
+          "url": "https://www.bristolsantahouse.org/schedule/"
+        }
+      },
+      "accessEvidence": {},
+      "ageRange": {
+        "min": null,
+        "max": null,
+        "kind": "not-stated"
+      },
+      "holidays": [
+        "christmas",
+        "santa",
+        "winter-holidays"
+      ],
+      "holidayEvidence": {
+        "christmas": {
+          "evidenceId": "bristol-santa-house",
+          "url": "https://www.bristolsantahouse.org/schedule/"
+        },
+        "santa": {
+          "evidenceId": "bristol-santa-house",
+          "url": "https://www.bristolsantahouse.org/schedule/"
+        },
+        "winter-holidays": {
+          "evidenceId": "bristol-santa-house",
+          "url": "https://www.bristolsantahouse.org/schedule/"
+        }
+      },
+      "sensory": {
+        "level": "variable",
+        "note": "Public visiting hours can involve crowds and waiting. These are not private sensory-friendly appointments.",
+        "sourceUrl": "https://www.bristolsantahouse.org/schedule/",
+        "checkedAt": "2026-11-01",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-11-01"
+      },
+      "checkedAt": "2026-11-01"
+    },
+    "bristol-santa-public-2026-12-06": {
+      "ageGroups": [
+        "all-ages",
+        "children",
+        "teens",
+        "adults",
+        "families"
+      ],
+      "accessFeatures": [],
+      "ageEvidence": {
+        "all-ages": {
+          "evidenceId": "bristol-santa-house",
+          "url": "https://www.bristolsantahouse.org/schedule/"
+        },
+        "children": {
+          "evidenceId": "bristol-santa-house",
+          "url": "https://www.bristolsantahouse.org/schedule/"
+        },
+        "teens": {
+          "evidenceId": "bristol-santa-house",
+          "url": "https://www.bristolsantahouse.org/schedule/"
+        },
+        "adults": {
+          "evidenceId": "bristol-santa-house",
+          "url": "https://www.bristolsantahouse.org/schedule/"
+        },
+        "families": {
+          "evidenceId": "bristol-santa-house",
+          "url": "https://www.bristolsantahouse.org/schedule/"
+        }
+      },
+      "accessEvidence": {},
+      "ageRange": {
+        "min": null,
+        "max": null,
+        "kind": "not-stated"
+      },
+      "holidays": [
+        "christmas",
+        "santa",
+        "winter-holidays"
+      ],
+      "holidayEvidence": {
+        "christmas": {
+          "evidenceId": "bristol-santa-house",
+          "url": "https://www.bristolsantahouse.org/schedule/"
+        },
+        "santa": {
+          "evidenceId": "bristol-santa-house",
+          "url": "https://www.bristolsantahouse.org/schedule/"
+        },
+        "winter-holidays": {
+          "evidenceId": "bristol-santa-house",
+          "url": "https://www.bristolsantahouse.org/schedule/"
+        }
+      },
+      "sensory": {
+        "level": "variable",
+        "note": "Public visiting hours can involve crowds and waiting. These are not private sensory-friendly appointments.",
+        "sourceUrl": "https://www.bristolsantahouse.org/schedule/",
+        "checkedAt": "2026-11-01",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-11-01"
+      },
+      "checkedAt": "2026-11-01"
+    },
+    "bristol-santa-public-2026-12-11": {
+      "ageGroups": [
+        "all-ages",
+        "children",
+        "teens",
+        "adults",
+        "families"
+      ],
+      "accessFeatures": [],
+      "ageEvidence": {
+        "all-ages": {
+          "evidenceId": "bristol-santa-house",
+          "url": "https://www.bristolsantahouse.org/schedule/"
+        },
+        "children": {
+          "evidenceId": "bristol-santa-house",
+          "url": "https://www.bristolsantahouse.org/schedule/"
+        },
+        "teens": {
+          "evidenceId": "bristol-santa-house",
+          "url": "https://www.bristolsantahouse.org/schedule/"
+        },
+        "adults": {
+          "evidenceId": "bristol-santa-house",
+          "url": "https://www.bristolsantahouse.org/schedule/"
+        },
+        "families": {
+          "evidenceId": "bristol-santa-house",
+          "url": "https://www.bristolsantahouse.org/schedule/"
+        }
+      },
+      "accessEvidence": {},
+      "ageRange": {
+        "min": null,
+        "max": null,
+        "kind": "not-stated"
+      },
+      "holidays": [
+        "christmas",
+        "santa",
+        "winter-holidays"
+      ],
+      "holidayEvidence": {
+        "christmas": {
+          "evidenceId": "bristol-santa-house",
+          "url": "https://www.bristolsantahouse.org/schedule/"
+        },
+        "santa": {
+          "evidenceId": "bristol-santa-house",
+          "url": "https://www.bristolsantahouse.org/schedule/"
+        },
+        "winter-holidays": {
+          "evidenceId": "bristol-santa-house",
+          "url": "https://www.bristolsantahouse.org/schedule/"
+        }
+      },
+      "sensory": {
+        "level": "variable",
+        "note": "Public visiting hours can involve crowds and waiting. These are not private sensory-friendly appointments.",
+        "sourceUrl": "https://www.bristolsantahouse.org/schedule/",
+        "checkedAt": "2026-11-01",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-11-01"
+      },
+      "checkedAt": "2026-11-01"
+    },
+    "bristol-santa-public-2026-12-12": {
+      "ageGroups": [
+        "all-ages",
+        "children",
+        "teens",
+        "adults",
+        "families"
+      ],
+      "accessFeatures": [],
+      "ageEvidence": {
+        "all-ages": {
+          "evidenceId": "bristol-santa-house",
+          "url": "https://www.bristolsantahouse.org/schedule/"
+        },
+        "children": {
+          "evidenceId": "bristol-santa-house",
+          "url": "https://www.bristolsantahouse.org/schedule/"
+        },
+        "teens": {
+          "evidenceId": "bristol-santa-house",
+          "url": "https://www.bristolsantahouse.org/schedule/"
+        },
+        "adults": {
+          "evidenceId": "bristol-santa-house",
+          "url": "https://www.bristolsantahouse.org/schedule/"
+        },
+        "families": {
+          "evidenceId": "bristol-santa-house",
+          "url": "https://www.bristolsantahouse.org/schedule/"
+        }
+      },
+      "accessEvidence": {},
+      "ageRange": {
+        "min": null,
+        "max": null,
+        "kind": "not-stated"
+      },
+      "holidays": [
+        "christmas",
+        "santa",
+        "winter-holidays"
+      ],
+      "holidayEvidence": {
+        "christmas": {
+          "evidenceId": "bristol-santa-house",
+          "url": "https://www.bristolsantahouse.org/schedule/"
+        },
+        "santa": {
+          "evidenceId": "bristol-santa-house",
+          "url": "https://www.bristolsantahouse.org/schedule/"
+        },
+        "winter-holidays": {
+          "evidenceId": "bristol-santa-house",
+          "url": "https://www.bristolsantahouse.org/schedule/"
+        }
+      },
+      "sensory": {
+        "level": "variable",
+        "note": "Public visiting hours can involve crowds and waiting. These are not private sensory-friendly appointments.",
+        "sourceUrl": "https://www.bristolsantahouse.org/schedule/",
+        "checkedAt": "2026-11-01",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-11-01"
+      },
+      "checkedAt": "2026-11-01"
+    },
+    "bristol-santa-public-2026-12-16": {
+      "ageGroups": [
+        "all-ages",
+        "children",
+        "teens",
+        "adults",
+        "families"
+      ],
+      "accessFeatures": [],
+      "ageEvidence": {
+        "all-ages": {
+          "evidenceId": "bristol-santa-house",
+          "url": "https://www.bristolsantahouse.org/schedule/"
+        },
+        "children": {
+          "evidenceId": "bristol-santa-house",
+          "url": "https://www.bristolsantahouse.org/schedule/"
+        },
+        "teens": {
+          "evidenceId": "bristol-santa-house",
+          "url": "https://www.bristolsantahouse.org/schedule/"
+        },
+        "adults": {
+          "evidenceId": "bristol-santa-house",
+          "url": "https://www.bristolsantahouse.org/schedule/"
+        },
+        "families": {
+          "evidenceId": "bristol-santa-house",
+          "url": "https://www.bristolsantahouse.org/schedule/"
+        }
+      },
+      "accessEvidence": {},
+      "ageRange": {
+        "min": null,
+        "max": null,
+        "kind": "not-stated"
+      },
+      "holidays": [
+        "christmas",
+        "santa",
+        "winter-holidays"
+      ],
+      "holidayEvidence": {
+        "christmas": {
+          "evidenceId": "bristol-santa-house",
+          "url": "https://www.bristolsantahouse.org/schedule/"
+        },
+        "santa": {
+          "evidenceId": "bristol-santa-house",
+          "url": "https://www.bristolsantahouse.org/schedule/"
+        },
+        "winter-holidays": {
+          "evidenceId": "bristol-santa-house",
+          "url": "https://www.bristolsantahouse.org/schedule/"
+        }
+      },
+      "sensory": {
+        "level": "variable",
+        "note": "Public visiting hours can involve crowds and waiting. These are not private sensory-friendly appointments.",
+        "sourceUrl": "https://www.bristolsantahouse.org/schedule/",
+        "checkedAt": "2026-11-01",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-11-01"
+      },
+      "checkedAt": "2026-11-01"
+    },
+    "bristol-santa-public-2026-12-18": {
+      "ageGroups": [
+        "all-ages",
+        "children",
+        "teens",
+        "adults",
+        "families"
+      ],
+      "accessFeatures": [],
+      "ageEvidence": {
+        "all-ages": {
+          "evidenceId": "bristol-santa-house",
+          "url": "https://www.bristolsantahouse.org/schedule/"
+        },
+        "children": {
+          "evidenceId": "bristol-santa-house",
+          "url": "https://www.bristolsantahouse.org/schedule/"
+        },
+        "teens": {
+          "evidenceId": "bristol-santa-house",
+          "url": "https://www.bristolsantahouse.org/schedule/"
+        },
+        "adults": {
+          "evidenceId": "bristol-santa-house",
+          "url": "https://www.bristolsantahouse.org/schedule/"
+        },
+        "families": {
+          "evidenceId": "bristol-santa-house",
+          "url": "https://www.bristolsantahouse.org/schedule/"
+        }
+      },
+      "accessEvidence": {},
+      "ageRange": {
+        "min": null,
+        "max": null,
+        "kind": "not-stated"
+      },
+      "holidays": [
+        "christmas",
+        "santa",
+        "winter-holidays"
+      ],
+      "holidayEvidence": {
+        "christmas": {
+          "evidenceId": "bristol-santa-house",
+          "url": "https://www.bristolsantahouse.org/schedule/"
+        },
+        "santa": {
+          "evidenceId": "bristol-santa-house",
+          "url": "https://www.bristolsantahouse.org/schedule/"
+        },
+        "winter-holidays": {
+          "evidenceId": "bristol-santa-house",
+          "url": "https://www.bristolsantahouse.org/schedule/"
+        }
+      },
+      "sensory": {
+        "level": "variable",
+        "note": "Public visiting hours can involve crowds and waiting. These are not private sensory-friendly appointments.",
+        "sourceUrl": "https://www.bristolsantahouse.org/schedule/",
+        "checkedAt": "2026-11-01",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-11-01"
+      },
+      "checkedAt": "2026-11-01"
+    },
+    "bristol-santa-public-2026-12-19": {
+      "ageGroups": [
+        "all-ages",
+        "children",
+        "teens",
+        "adults",
+        "families"
+      ],
+      "accessFeatures": [],
+      "ageEvidence": {
+        "all-ages": {
+          "evidenceId": "bristol-santa-house",
+          "url": "https://www.bristolsantahouse.org/schedule/"
+        },
+        "children": {
+          "evidenceId": "bristol-santa-house",
+          "url": "https://www.bristolsantahouse.org/schedule/"
+        },
+        "teens": {
+          "evidenceId": "bristol-santa-house",
+          "url": "https://www.bristolsantahouse.org/schedule/"
+        },
+        "adults": {
+          "evidenceId": "bristol-santa-house",
+          "url": "https://www.bristolsantahouse.org/schedule/"
+        },
+        "families": {
+          "evidenceId": "bristol-santa-house",
+          "url": "https://www.bristolsantahouse.org/schedule/"
+        }
+      },
+      "accessEvidence": {},
+      "ageRange": {
+        "min": null,
+        "max": null,
+        "kind": "not-stated"
+      },
+      "holidays": [
+        "christmas",
+        "santa",
+        "winter-holidays"
+      ],
+      "holidayEvidence": {
+        "christmas": {
+          "evidenceId": "bristol-santa-house",
+          "url": "https://www.bristolsantahouse.org/schedule/"
+        },
+        "santa": {
+          "evidenceId": "bristol-santa-house",
+          "url": "https://www.bristolsantahouse.org/schedule/"
+        },
+        "winter-holidays": {
+          "evidenceId": "bristol-santa-house",
+          "url": "https://www.bristolsantahouse.org/schedule/"
+        }
+      },
+      "sensory": {
+        "level": "variable",
+        "note": "Public visiting hours can involve crowds and waiting. These are not private sensory-friendly appointments.",
+        "sourceUrl": "https://www.bristolsantahouse.org/schedule/",
+        "checkedAt": "2026-11-01",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-11-01"
+      },
+      "checkedAt": "2026-11-01"
+    },
+    "bristol-santa-public-2026-12-20": {
+      "ageGroups": [
+        "all-ages",
+        "children",
+        "teens",
+        "adults",
+        "families"
+      ],
+      "accessFeatures": [],
+      "ageEvidence": {
+        "all-ages": {
+          "evidenceId": "bristol-santa-house",
+          "url": "https://www.bristolsantahouse.org/schedule/"
+        },
+        "children": {
+          "evidenceId": "bristol-santa-house",
+          "url": "https://www.bristolsantahouse.org/schedule/"
+        },
+        "teens": {
+          "evidenceId": "bristol-santa-house",
+          "url": "https://www.bristolsantahouse.org/schedule/"
+        },
+        "adults": {
+          "evidenceId": "bristol-santa-house",
+          "url": "https://www.bristolsantahouse.org/schedule/"
+        },
+        "families": {
+          "evidenceId": "bristol-santa-house",
+          "url": "https://www.bristolsantahouse.org/schedule/"
+        }
+      },
+      "accessEvidence": {},
+      "ageRange": {
+        "min": null,
+        "max": null,
+        "kind": "not-stated"
+      },
+      "holidays": [
+        "christmas",
+        "santa",
+        "winter-holidays"
+      ],
+      "holidayEvidence": {
+        "christmas": {
+          "evidenceId": "bristol-santa-house",
+          "url": "https://www.bristolsantahouse.org/schedule/"
+        },
+        "santa": {
+          "evidenceId": "bristol-santa-house",
+          "url": "https://www.bristolsantahouse.org/schedule/"
+        },
+        "winter-holidays": {
+          "evidenceId": "bristol-santa-house",
+          "url": "https://www.bristolsantahouse.org/schedule/"
+        }
+      },
+      "sensory": {
+        "level": "variable",
+        "note": "Public visiting hours can involve crowds and waiting. These are not private sensory-friendly appointments.",
+        "sourceUrl": "https://www.bristolsantahouse.org/schedule/",
+        "checkedAt": "2026-11-01",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-11-01"
+      },
+      "checkedAt": "2026-11-01"
+    },
+    "bristol-santa-public-2026-12-22": {
+      "ageGroups": [
+        "all-ages",
+        "children",
+        "teens",
+        "adults",
+        "families"
+      ],
+      "accessFeatures": [],
+      "ageEvidence": {
+        "all-ages": {
+          "evidenceId": "bristol-santa-house",
+          "url": "https://www.bristolsantahouse.org/schedule/"
+        },
+        "children": {
+          "evidenceId": "bristol-santa-house",
+          "url": "https://www.bristolsantahouse.org/schedule/"
+        },
+        "teens": {
+          "evidenceId": "bristol-santa-house",
+          "url": "https://www.bristolsantahouse.org/schedule/"
+        },
+        "adults": {
+          "evidenceId": "bristol-santa-house",
+          "url": "https://www.bristolsantahouse.org/schedule/"
+        },
+        "families": {
+          "evidenceId": "bristol-santa-house",
+          "url": "https://www.bristolsantahouse.org/schedule/"
+        }
+      },
+      "accessEvidence": {},
+      "ageRange": {
+        "min": null,
+        "max": null,
+        "kind": "not-stated"
+      },
+      "holidays": [
+        "christmas",
+        "santa",
+        "winter-holidays"
+      ],
+      "holidayEvidence": {
+        "christmas": {
+          "evidenceId": "bristol-santa-house",
+          "url": "https://www.bristolsantahouse.org/schedule/"
+        },
+        "santa": {
+          "evidenceId": "bristol-santa-house",
+          "url": "https://www.bristolsantahouse.org/schedule/"
+        },
+        "winter-holidays": {
+          "evidenceId": "bristol-santa-house",
+          "url": "https://www.bristolsantahouse.org/schedule/"
+        }
+      },
+      "sensory": {
+        "level": "variable",
+        "note": "Public visiting hours can involve crowds and waiting. These are not private sensory-friendly appointments.",
+        "sourceUrl": "https://www.bristolsantahouse.org/schedule/",
+        "checkedAt": "2026-11-01",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-11-01"
+      },
+      "checkedAt": "2026-11-01"
+    },
+    "bristol-santa-public-2026-12-23": {
+      "ageGroups": [
+        "all-ages",
+        "children",
+        "teens",
+        "adults",
+        "families"
+      ],
+      "accessFeatures": [],
+      "ageEvidence": {
+        "all-ages": {
+          "evidenceId": "bristol-santa-house",
+          "url": "https://www.bristolsantahouse.org/schedule/"
+        },
+        "children": {
+          "evidenceId": "bristol-santa-house",
+          "url": "https://www.bristolsantahouse.org/schedule/"
+        },
+        "teens": {
+          "evidenceId": "bristol-santa-house",
+          "url": "https://www.bristolsantahouse.org/schedule/"
+        },
+        "adults": {
+          "evidenceId": "bristol-santa-house",
+          "url": "https://www.bristolsantahouse.org/schedule/"
+        },
+        "families": {
+          "evidenceId": "bristol-santa-house",
+          "url": "https://www.bristolsantahouse.org/schedule/"
+        }
+      },
+      "accessEvidence": {},
+      "ageRange": {
+        "min": null,
+        "max": null,
+        "kind": "not-stated"
+      },
+      "holidays": [
+        "christmas",
+        "santa",
+        "winter-holidays"
+      ],
+      "holidayEvidence": {
+        "christmas": {
+          "evidenceId": "bristol-santa-house",
+          "url": "https://www.bristolsantahouse.org/schedule/"
+        },
+        "santa": {
+          "evidenceId": "bristol-santa-house",
+          "url": "https://www.bristolsantahouse.org/schedule/"
+        },
+        "winter-holidays": {
+          "evidenceId": "bristol-santa-house",
+          "url": "https://www.bristolsantahouse.org/schedule/"
+        }
+      },
+      "sensory": {
+        "level": "variable",
+        "note": "Public visiting hours can involve crowds and waiting. These are not private sensory-friendly appointments.",
+        "sourceUrl": "https://www.bristolsantahouse.org/schedule/",
+        "checkedAt": "2026-11-01",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-11-01"
+      },
+      "checkedAt": "2026-11-01"
     }
   },
   "sensoryMethod": "Sensory levels are editorial planning estimates based on the specific published conditions, not medical ratings or promises. Low means reduced stimulation, moderate means some ongoing music or activity, high means a likely stimulating mix, variable means conditions or parts of the visit differ, and unknown means evidence is insufficient. Sensory-friendly and disability-inclusive are not automatic low-sensory ratings. Earlier event verification dates remain visible."

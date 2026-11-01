@@ -1653,7 +1653,7 @@
       "alt": "Detailed watercolor of professional brushes, paint palette, abstract sketchbook, and tactile ceramic sculpture on a sunlit worktable.",
       "width": 720,
       "height": 480,
-      "title": "Beyond the Spectrum Kids",
+      "title": "Beyond the Spectrum Kids — Sold Out",
       "venue": "Museum of Fine Arts, Boston",
       "start": "2026-11-07T10:30:00-05:00",
       "studyId": "mfa-spectrum-art-20261019"
@@ -1663,7 +1663,7 @@
       "alt": "Detailed watercolor of professional brushes, paint palette, abstract sketchbook, and tactile ceramic sculpture on a sunlit worktable.",
       "width": 720,
       "height": 480,
-      "title": "Beyond the Spectrum Teen Studio",
+      "title": "Beyond the Spectrum Teen Studio — Sold Out",
       "venue": "Museum of Fine Arts, Boston",
       "start": "2026-11-21T10:30:00-05:00",
       "studyId": "mfa-spectrum-art-20261019",
@@ -2240,6 +2240,306 @@
       "venue": "Children’s Museum of Franklin",
       "start": "2026-11-29T08:00:00-05:00",
       "reusedFromEvent": "franklin-sensory-sunday-2026-10-25"
+    },
+    "maine-discovery-mdtp-2026-11-08": {
+      "src": "/assets/event-sketches/morningstar-museum.webp",
+      "alt": "Ink-and-watercolor study of wooden building forms and a prism in morning light.",
+      "width": 720,
+      "height": 480,
+      "title": "My Day to Play",
+      "venue": "Maine Discovery Museum",
+      "start": "2026-11-08T10:00:00-05:00",
+      "reusedFrom": "/assets/event-sketches/morningstar-museum.webp"
+    },
+    "maine-discovery-mdtp-2026-11-15": {
+      "src": "/assets/event-sketches/morningstar-museum.webp",
+      "alt": "Ink-and-watercolor study of wooden building forms and a prism in morning light.",
+      "width": 720,
+      "height": 480,
+      "title": "My Day to Play",
+      "venue": "Maine Discovery Museum",
+      "start": "2026-11-15T10:00:00-05:00",
+      "reusedFrom": "/assets/event-sketches/morningstar-museum.webp"
+    },
+    "maine-discovery-mdtp-2026-11-22": {
+      "src": "/assets/event-sketches/morningstar-museum.webp",
+      "alt": "Ink-and-watercolor study of wooden building forms and a prism in morning light.",
+      "width": 720,
+      "height": 480,
+      "title": "My Day to Play",
+      "venue": "Maine Discovery Museum",
+      "start": "2026-11-22T10:00:00-05:00",
+      "reusedFrom": "/assets/event-sketches/morningstar-museum.webp"
+    },
+    "maine-discovery-mdtp-2026-11-29": {
+      "src": "/assets/event-sketches/morningstar-museum.webp",
+      "alt": "Ink-and-watercolor study of wooden building forms and a prism in morning light.",
+      "width": 720,
+      "height": 480,
+      "title": "My Day to Play",
+      "venue": "Maine Discovery Museum",
+      "start": "2026-11-29T10:00:00-05:00",
+      "reusedFrom": "/assets/event-sketches/morningstar-museum.webp"
+    },
+    "maine-discovery-mdtp-2026-12-06": {
+      "src": "/assets/event-sketches/morningstar-museum.webp",
+      "alt": "Ink-and-watercolor study of wooden building forms and a prism in morning light.",
+      "width": 720,
+      "height": 480,
+      "title": "My Day to Play",
+      "venue": "Maine Discovery Museum",
+      "start": "2026-12-06T10:00:00-05:00",
+      "reusedFrom": "/assets/event-sketches/morningstar-museum.webp"
+    },
+    "maine-discovery-mdtp-2026-12-13": {
+      "src": "/assets/event-sketches/morningstar-museum.webp",
+      "alt": "Ink-and-watercolor study of wooden building forms and a prism in morning light.",
+      "width": 720,
+      "height": 480,
+      "title": "My Day to Play",
+      "venue": "Maine Discovery Museum",
+      "start": "2026-12-13T10:00:00-05:00",
+      "reusedFrom": "/assets/event-sketches/morningstar-museum.webp"
+    },
+    "maine-discovery-mdtp-2026-12-20": {
+      "src": "/assets/event-sketches/morningstar-museum.webp",
+      "alt": "Ink-and-watercolor study of wooden building forms and a prism in morning light.",
+      "width": 720,
+      "height": 480,
+      "title": "My Day to Play",
+      "venue": "Maine Discovery Museum",
+      "start": "2026-12-20T10:00:00-05:00",
+      "reusedFrom": "/assets/event-sketches/morningstar-museum.webp"
+    },
+    "maine-discovery-mdtp-2026-12-27": {
+      "src": "/assets/event-sketches/morningstar-museum.webp",
+      "alt": "Ink-and-watercolor study of wooden building forms and a prism in morning light.",
+      "width": 720,
+      "height": 480,
+      "title": "My Day to Play",
+      "venue": "Maine Discovery Museum",
+      "start": "2026-12-27T10:00:00-05:00",
+      "reusedFrom": "/assets/event-sketches/morningstar-museum.webp"
+    },
+    "maine-discovery-mdtp-2027-01-03": {
+      "src": "/assets/event-sketches/morningstar-museum.webp",
+      "alt": "Ink-and-watercolor study of wooden building forms and a prism in morning light.",
+      "width": 720,
+      "height": 480,
+      "title": "My Day to Play",
+      "venue": "Maine Discovery Museum",
+      "start": "2027-01-03T10:00:00-05:00",
+      "reusedFrom": "/assets/event-sketches/morningstar-museum.webp"
+    },
+    "maine-discovery-mdtp-2027-01-10": {
+      "src": "/assets/event-sketches/morningstar-museum.webp",
+      "alt": "Ink-and-watercolor study of wooden building forms and a prism in morning light.",
+      "width": 720,
+      "height": 480,
+      "title": "My Day to Play",
+      "venue": "Maine Discovery Museum",
+      "start": "2027-01-10T10:00:00-05:00",
+      "reusedFrom": "/assets/event-sketches/morningstar-museum.webp"
+    },
+    "maine-discovery-mdtp-2027-01-17": {
+      "src": "/assets/event-sketches/morningstar-museum.webp",
+      "alt": "Ink-and-watercolor study of wooden building forms and a prism in morning light.",
+      "width": 720,
+      "height": 480,
+      "title": "My Day to Play",
+      "venue": "Maine Discovery Museum",
+      "start": "2027-01-17T10:00:00-05:00",
+      "reusedFrom": "/assets/event-sketches/morningstar-museum.webp"
+    },
+    "maine-discovery-mdtp-2027-01-24": {
+      "src": "/assets/event-sketches/morningstar-museum.webp",
+      "alt": "Ink-and-watercolor study of wooden building forms and a prism in morning light.",
+      "width": 720,
+      "height": 480,
+      "title": "My Day to Play",
+      "venue": "Maine Discovery Museum",
+      "start": "2027-01-24T10:00:00-05:00",
+      "reusedFrom": "/assets/event-sketches/morningstar-museum.webp"
+    },
+    "maine-discovery-mdtp-evening-2027-01-08": {
+      "src": "/assets/event-sketches/morningstar-museum.webp",
+      "alt": "Ink-and-watercolor study of wooden building forms and a prism in morning light.",
+      "width": 720,
+      "height": 480,
+      "title": "My Day to Play — after-hours session",
+      "venue": "Maine Discovery Museum",
+      "start": "2027-01-08T16:00:00-05:00",
+      "reusedFrom": "/assets/event-sketches/morningstar-museum.webp"
+    },
+    "montshire-2027-01-16": {
+      "src": "/assets/event-sketches/montshire-2026-12-19.webp",
+      "alt": "A prism and mirror cast colored light across paper snowflakes beside a wooden balancing toy.",
+      "width": 720,
+      "height": 480,
+      "title": "Montshh… Montshire Sensory Hour",
+      "venue": "Montshire Museum of Science",
+      "start": "2027-01-16T09:00:00-05:00",
+      "reusedFrom": "/assets/event-sketches/montshire-2026-12-19.webp"
+    },
+    "hartford-stage-carol-sensory-2026-12-05": {
+      "src": "/assets/event-sketches/holiday-concert.webp",
+      "alt": "Original ink-and-watercolor study of a brass French horn, music pages, cranberry ribbon and pine.",
+      "width": 1536,
+      "height": 1024,
+      "title": "A Christmas Carol — Sensory-Friendly Performance",
+      "venue": "Hartford Stage",
+      "start": "2026-12-05T14:00:00-05:00",
+      "reusedFrom": "/assets/event-sketches/holiday-concert.webp"
+    },
+    "goodspeed-annie-sensory-2026-12-13": {
+      "src": "/assets/event-sketches/holiday-concert.webp",
+      "alt": "Original ink-and-watercolor study of a brass French horn, music pages, cranberry ribbon and pine.",
+      "width": 1536,
+      "height": 1024,
+      "title": "Annie — Sensory-Friendly Performance",
+      "venue": "The Goodspeed",
+      "start": "2026-12-13T18:30:00-05:00",
+      "reusedFrom": "/assets/event-sketches/holiday-concert.webp"
+    },
+    "bristol-santa-public-2026-12-02": {
+      "src": "/assets/event-sketches/santa-visit.webp",
+      "alt": "Original ink-and-watercolor study of a cranberry Santa hat, brass bell and a warm wooden armchair.",
+      "width": 1536,
+      "height": 1024,
+      "title": "Bristol Santa House — Inclusive Public Visits",
+      "venue": "Bristol Santa House",
+      "start": "2026-12-02T17:00:00-05:00",
+      "reusedFrom": "/assets/event-sketches/santa-visit.webp"
+    },
+    "bristol-santa-public-2026-12-04": {
+      "src": "/assets/event-sketches/santa-visit.webp",
+      "alt": "Original ink-and-watercolor study of a cranberry Santa hat, brass bell and a warm wooden armchair.",
+      "width": 1536,
+      "height": 1024,
+      "title": "Bristol Santa House — Inclusive Public Visits",
+      "venue": "Bristol Santa House",
+      "start": "2026-12-04T17:00:00-05:00",
+      "reusedFrom": "/assets/event-sketches/santa-visit.webp"
+    },
+    "bristol-santa-public-2026-12-05": {
+      "src": "/assets/event-sketches/santa-visit.webp",
+      "alt": "Original ink-and-watercolor study of a cranberry Santa hat, brass bell and a warm wooden armchair.",
+      "width": 1536,
+      "height": 1024,
+      "title": "Bristol Santa House — Inclusive Public Visits",
+      "venue": "Bristol Santa House",
+      "start": "2026-12-05T12:00:00-05:00",
+      "reusedFrom": "/assets/event-sketches/santa-visit.webp"
+    },
+    "bristol-santa-public-2026-12-06": {
+      "src": "/assets/event-sketches/santa-visit.webp",
+      "alt": "Original ink-and-watercolor study of a cranberry Santa hat, brass bell and a warm wooden armchair.",
+      "width": 1536,
+      "height": 1024,
+      "title": "Bristol Santa House — Inclusive Public Visits",
+      "venue": "Bristol Santa House",
+      "start": "2026-12-06T16:00:00-05:00",
+      "reusedFrom": "/assets/event-sketches/santa-visit.webp"
+    },
+    "bristol-santa-public-2026-12-11": {
+      "src": "/assets/event-sketches/santa-visit.webp",
+      "alt": "Original ink-and-watercolor study of a cranberry Santa hat, brass bell and a warm wooden armchair.",
+      "width": 1536,
+      "height": 1024,
+      "title": "Bristol Santa House — Inclusive Public Visits",
+      "venue": "Bristol Santa House",
+      "start": "2026-12-11T17:00:00-05:00",
+      "reusedFrom": "/assets/event-sketches/santa-visit.webp"
+    },
+    "bristol-santa-public-2026-12-12": {
+      "src": "/assets/event-sketches/santa-visit.webp",
+      "alt": "Original ink-and-watercolor study of a cranberry Santa hat, brass bell and a warm wooden armchair.",
+      "width": 1536,
+      "height": 1024,
+      "title": "Bristol Santa House — Inclusive Public Visits",
+      "venue": "Bristol Santa House",
+      "start": "2026-12-12T17:00:00-05:00",
+      "reusedFrom": "/assets/event-sketches/santa-visit.webp"
+    },
+    "bristol-santa-public-2026-12-16": {
+      "src": "/assets/event-sketches/santa-visit.webp",
+      "alt": "Original ink-and-watercolor study of a cranberry Santa hat, brass bell and a warm wooden armchair.",
+      "width": 1536,
+      "height": 1024,
+      "title": "Bristol Santa House — Inclusive Public Visits",
+      "venue": "Bristol Santa House",
+      "start": "2026-12-16T17:00:00-05:00",
+      "reusedFrom": "/assets/event-sketches/santa-visit.webp"
+    },
+    "bristol-santa-public-2026-12-18": {
+      "src": "/assets/event-sketches/santa-visit.webp",
+      "alt": "Original ink-and-watercolor study of a cranberry Santa hat, brass bell and a warm wooden armchair.",
+      "width": 1536,
+      "height": 1024,
+      "title": "Bristol Santa House — Inclusive Public Visits",
+      "venue": "Bristol Santa House",
+      "start": "2026-12-18T17:00:00-05:00",
+      "reusedFrom": "/assets/event-sketches/santa-visit.webp"
+    },
+    "bristol-santa-public-2026-12-19": {
+      "src": "/assets/event-sketches/santa-visit.webp",
+      "alt": "Original ink-and-watercolor study of a cranberry Santa hat, brass bell and a warm wooden armchair.",
+      "width": 1536,
+      "height": 1024,
+      "title": "Bristol Santa House — Inclusive Public Visits",
+      "venue": "Bristol Santa House",
+      "start": "2026-12-19T17:00:00-05:00",
+      "reusedFrom": "/assets/event-sketches/santa-visit.webp"
+    },
+    "bristol-santa-public-2026-12-20": {
+      "src": "/assets/event-sketches/santa-visit.webp",
+      "alt": "Original ink-and-watercolor study of a cranberry Santa hat, brass bell and a warm wooden armchair.",
+      "width": 1536,
+      "height": 1024,
+      "title": "Bristol Santa House — Inclusive Public Visits",
+      "venue": "Bristol Santa House",
+      "start": "2026-12-20T16:00:00-05:00",
+      "reusedFrom": "/assets/event-sketches/santa-visit.webp"
+    },
+    "bristol-santa-public-2026-12-22": {
+      "src": "/assets/event-sketches/santa-visit.webp",
+      "alt": "Original ink-and-watercolor study of a cranberry Santa hat, brass bell and a warm wooden armchair.",
+      "width": 1536,
+      "height": 1024,
+      "title": "Bristol Santa House — Inclusive Public Visits",
+      "venue": "Bristol Santa House",
+      "start": "2026-12-22T17:00:00-05:00",
+      "reusedFrom": "/assets/event-sketches/santa-visit.webp"
+    },
+    "bristol-santa-public-2026-12-23": {
+      "src": "/assets/event-sketches/santa-visit.webp",
+      "alt": "Original ink-and-watercolor study of a cranberry Santa hat, brass bell and a warm wooden armchair.",
+      "width": 1536,
+      "height": 1024,
+      "title": "Bristol Santa House — Inclusive Public Visits",
+      "venue": "Bristol Santa House",
+      "start": "2026-12-23T17:00:00-05:00",
+      "reusedFrom": "/assets/event-sketches/santa-visit.webp"
+    },
+    "autism-eats-friendsgiving-2026-11-13": {
+      "src": "/assets/event-sketches/carroll-90th-2026-11-07.webp",
+      "alt": "Watercolor open-house table with a tactile globe, closed keepsake album, tea service and autumn flowers.",
+      "width": 720,
+      "height": 480,
+      "title": "Autism Eats Friendsgiving Dinner — Sold Out / Waitlist",
+      "venue": "Michael’s Harborside",
+      "start": "2026-11-13T18:00:00-05:00",
+      "reusedFrom": "/assets/event-sketches/carroll-90th-2026-11-07.webp"
+    },
+    "discovery-foster-2026-11-21": {
+      "src": "/assets/event-sketches/discovery-evening.webp",
+      "alt": "Hands-on wooden gears and a balancing sculpture in evening light.",
+      "width": 720,
+      "height": 480,
+      "title": "Foster Family Evening",
+      "venue": "Discovery Museum",
+      "start": "2026-11-21T17:00:00-05:00",
+      "reusedFrom": "/assets/event-sketches/discovery-evening.webp"
     }
   },
   "watchlist": {
@@ -2367,6 +2667,38 @@
       "venue": "Altitude Trampoline Park Billerica",
       "start": "2026-10-10T09:00:00-04:00",
       "reusedFromEvent": "altitude-billerica-2026-10-10"
+    },
+    "ri-statehouse-sensory-tours": {
+      "src": "/assets/event-sketches/history-morning.webp",
+      "alt": "Original ink-and-watercolor study of a quill, inkpot, old brass keys and parchment beside a red-brick detail.",
+      "width": 1536,
+      "height": 1024,
+      "title": "Rhode Island State House sensory-friendly tours",
+      "reusedFrom": "/assets/event-sketches/history-morning.webp"
+    },
+    "bristol-santa-private-2026": {
+      "src": "/assets/event-sketches/santa-visit.webp",
+      "alt": "Original ink-and-watercolor study of a cranberry Santa hat, brass bell and a warm wooden armchair.",
+      "width": 1536,
+      "height": 1024,
+      "title": "Bristol Santa House private appointments",
+      "reusedFrom": "/assets/event-sketches/santa-visit.webp"
+    },
+    "mos-boston-sensory-future": {
+      "src": "/assets/event-sketches/morningstar-museum.webp",
+      "alt": "Ink-and-watercolor study of wooden building forms and a prism in morning light.",
+      "width": 720,
+      "height": 480,
+      "title": "Museum of Science, Boston — sensory events",
+      "reusedFrom": "/assets/event-sketches/morningstar-museum.webp"
+    },
+    "autism-eats-holidays-2026": {
+      "src": "/assets/event-sketches/holiday-concert.webp",
+      "alt": "Original ink-and-watercolor study of a brass French horn, music pages, cranberry ribbon and pine.",
+      "width": 1536,
+      "height": 1024,
+      "title": "Autism Eats — additional holiday dinners",
+      "reusedFrom": "/assets/event-sketches/holiday-concert.webp"
     }
   },
   "updated": "2026-10-22"
