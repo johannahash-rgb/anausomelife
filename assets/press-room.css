@@ -67,3 +67,28 @@
 @media(max-width:740px){.press-room .press-hero{grid-template-columns:1fr;padding-top:30px;padding-bottom:30px}.press-room .press-hero h1{font-size:clamp(2.75rem,10vw,4.1rem)}.press-room .press-desk{max-width:540px}.press-room .press-layout{padding-top:38px;padding-bottom:44px}.press-room .press-feature{grid-template-columns:1fr}.press-room .press-feature-visual img{height:auto;min-height:0;max-height:none;aspect-ratio:16/10;object-fit:cover}.press-room .press-community{padding-top:45px}.press-room .press-discovery{grid-template-columns:1fr;gap:13px}.press-room .press-contact-band{grid-template-columns:1fr;gap:25px}.press-room .press-contact-actions{gap:13px}}
 @media(max-width:570px){.press-room .press-index{gap:0 20px}.press-room .press-index a{font-size:.78rem}.press-room .press-community-grid{grid-template-columns:1fr;gap:14px}.press-room .press-share-card{padding:22px}.press-room .press-feature-copy{padding:23px}.press-room .press-group-heading h2{font-size:2.15rem}.press-room .press-contact-band{padding:30px 22px}.press-room .press-quote p{font-size:1.2rem}}
 @media print{.press-room .press-hero,.press-room .press-feature,.press-room .press-community-grid,.press-room .press-contact-band{display:block}.press-room .press-feature-visual img{max-height:230px;object-fit:contain}.press-room .press-contact-band{color:#000;background:#fff;border:1px solid #999}.press-room .press-contact-band p,.press-room .press-contact-band h2,.press-room .press-contact-actions a{color:#000}.press-room .press-index{display:none}}
+
+
+/* Verified-source identity and evidence treatment · November 2026. */
+.press-room .press-community-grid{align-items:start;gap:24px}
+.press-room .press-share-card{box-shadow:0 8px 24px rgba(25,53,42,.035);border-top:3px solid #6e8774;border-radius:2px;overflow-wrap:anywhere}
+.press-room .press-publisher-mark{height:78px;display:flex;align-items:center;justify-content:flex-start;margin:0 0 22px;padding-bottom:16px;border-bottom:1px solid #e1e5dc}
+.press-room .press-publisher-mark img{display:block;width:auto;max-width:min(230px,100%);height:auto;max-height:62px;object-fit:contain}
+.press-room .press-share-card .press-card-meta{font:700 .7rem/1.55 Arial,sans-serif;letter-spacing:.06em;color:#426052;gap:8px 12px;align-items:center}
+.press-room .press-card-meta>span:first-child{padding:4px 8px;background:#eef2eb;border:1px solid #dce4d7;border-radius:3px}
+.press-room .press-card-meta time{font-size:.75rem;white-space:normal}
+.press-room #upcoming-shares .press-share-card{border-top-color:#b59864;background:#fdfbf5}
+.press-room #upcoming-shares .press-card-meta>span:first-child{background:#f5efdf;border-color:#e8ddc3;color:#675637}
+.press-room .press-evidence{margin:8px 0 22px;padding:14px;background:#f0f1eb;border:1px solid #dde2d8}
+.press-room .press-evidence a{display:block}
+.press-room .press-evidence-image{display:block;width:100%;height:300px;object-fit:contain;object-position:center}
+.press-room .press-evidence figcaption{font:.74rem/1.5 Arial,sans-serif;color:#526158;margin:10px 0 0}
+.press-room .press-evidence-disclosure{margin:0 0 14px}
+.press-room .press-evidence-disclosure summary{font:700 .82rem/1.5 Arial,sans-serif;cursor:pointer;padding:10px 0;color:#315b50}
+.press-room .press-card-note{padding-top:13px;border-top:1px solid #e5e8e0;font-size:.8rem!important;line-height:1.6!important}
+.press-room .press-card-link,.press-room .press-action-links a{min-height:44px}
+.press-room #republications .press-share-card{margin-bottom:24px}
+.press-room #featured-coverage,.press-room #republications,.press-room #community-shares{scroll-margin-top:120px}
+@media(max-width:570px){.press-room .press-community-grid{gap:18px}.press-room .press-publisher-mark{margin-bottom:18px}.press-room .press-evidence-image{height:280px}.press-room .press-share-card{padding:22px 19px}.press-room .press-card-meta{flex-direction:column;align-items:flex-start!important}}
+@media(prefers-reduced-motion:no-preference){.press-room .press-card-link:hover,.press-room .press-action-links a:hover{color:#8b422c}}
+@media print{.press-room .press-share-card{break-inside:avoid;box-shadow:none}.press-room .press-evidence-image{height:180px}}

@@ -1,0 +1,57 @@
+[
+  {
+    "slug": "nh-family-voices",
+    "path": "/workspace/scratch/e9c2fe35193a/dayafterday-press-update/logos/nh-family-voices.webp",
+    "source_page": "https://nhfv.org/",
+    "asset_url": "https://nhfv.org/wp-content/themes/nhfv-2024/assets/logo.png",
+    "width": 517,
+    "height": 140,
+    "original_dimensions": [
+      517,
+      140
+    ],
+    "bytes": 9590
+  },
+  {
+    "slug": "maine-parent-federation",
+    "path": "/workspace/scratch/e9c2fe35193a/dayafterday-press-update/logos/maine-parent-federation.webp",
+    "source_page": "https://www.mpf.org/",
+    "asset_url": "https://www.mpf.org/wp-content/uploads/maine-parent-federation-600-color.png",
+    "width": 600,
+    "height": 197,
+    "original_dimensions": [
+      600,
+      197
+    ],
+    "bytes": 10622
+  },
+  {
+    "slug": "lincoln-land-conservation-trust",
+    "path": "/workspace/scratch/e9c2fe35193a/dayafterday-press-update/logos/lincoln-land-conservation-trust.webp",
+    "source_page": "https://lincolnconservation.org/",
+    "asset_url": "https://lincolnconservation.org/wp-content/uploads/2017/06/LLCTlogo-300x300.png",
+    "width": 220,
+    "height": 220,
+    "original_dimensions": [
+      300,
+      300
+    ],
+    "bytes": 25402
+  },
+  {
+    "slug": "visit-lexington",
+    "path": "/workspace/scratch/e9c2fe35193a/dayafterday-press-update/logos/visit-lexington.svg",
+    "source_page": "https://www.tourlexington.us/listing/ranctores-ice-cream/",
+    "asset_url": "https://www.tourlexington.us/wp-content/themes/lexington-travel/img/logo.svg",
+    "width": 376,
+    "height": 75
+  },
+  {
+    "slug": "aphrodite-reimagined",
+    "path": "/workspace/scratch/e9c2fe35193a/dayafterday-press-update/logos/aphrodite-reimagined.webp",
+    "source_page": "https://aphroditereimagined.com/aphrodite-takes-flight-zipline-adventure-self-care/",
+    "asset_url": "https://aphroditereimagined.com/wp-content/uploads/2026/02/aphroditereimagined-tealor.png",
+    "width": 222,
+    "height": 220
+  }
+]
