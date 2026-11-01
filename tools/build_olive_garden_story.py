@@ -7,8 +7,8 @@ ROOT = Path(__file__).resolve().parents[1]
 SOURCE = ROOT.parent
 PAGE = 'olive-garden-rigatoni-choice-board.html'
 URL = 'https://anausomelife.com/' + PAGE
-TITLE = 'James wanted rigatoni. His parents stand corrected.'
-DEK = 'An Olive Garden dinner that left us proud of James—and honest about ourselves.'
+TITLE = 'We made our son a choice board. Then we answered for him.'
+DEK = 'At Olive Garden, James reminded us that communication access isn’t the same as being heard—and that changing your mind is part of having a choice.'
 ALT = 'James looks toward the camera at Olive Garden, with his blue AAC communication device in front of him.'
 ASSET = ROOT / 'assets/olive-garden'
 ASSET.mkdir(exist_ok=True)
@@ -48,7 +48,7 @@ def figure(file,alt,caption,eager=False):
     with Image.open(ROOT/file) as img: w,h=img.size
     return f'<figure class="og-photo"><img src="/{file}" alt="{html.escape(alt,quote=True)}" width="{w}" height="{h}" loading="{"eager" if eager else "lazy"}" decoding="async"><figcaption>{caption}</figcaption></figure>'
 
-story = ["James chose angel hair, then changed his mind. Like all of us.","We ordered for him. He was frustrated. He wanted rigatoni—and ordered it himself.","We were proud of him. We should have let him show the choice board directly to the server.","We can love James completely and still have parenting habits—and ableism—to unlearn.","We need help, too. Pictures of pasta are concrete; making pictures of abstract emotions useful remains elusive for us.","In the waiting area, a fellow disabled teenager connected with James over Lilo & Stitch. They explored his AAC together. A new friend before dinner.","We love the food and quick, friendly service. Three more reasons we return:"]
+story = []
 
 sample=(ROOT/'congdons-doughnuts-wells-maine.html').read_text()
 masthead=re.search(r'<header class="mag-masthead">.*?</header>',sample,re.S)[0]
@@ -57,16 +57,84 @@ css='''.og-photo{margin:24px auto;max-width:620px}.og-photo img{display:block;wi
 head=f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{TITLE} | An AUsome Life</title><meta name="description" content="{DEK}"><link rel="canonical" href="{URL}"><link rel="icon" href="/favicon.ico">'''
 for name in ['site','magazine','editorial','illustrated-navigation','family-field-notes']:
     head+=f'<link rel="stylesheet" href="/assets/{name}.css">'
-head+=f'<style>{css}</style><script src="/assets/global-nav.js?v=20261021-glossary-links" data-aal-global-nav="true" defer></script><meta property="article:published_time" content="2026-10-25"><script type="application/ld+json">'+json.dumps({'@context':'https://schema.org','@type':'BlogPosting','headline':TITLE,'description':DEK,'datePublished':'2026-10-25','dateModified':'2026-10-25','image':['https://anausomelife.com/assets/olive-garden/james-with-aac.jpeg'],'author':{'@type':'Organization','name':'An AUsome Life'},'mainEntityOfPage':URL})+'</script></head>'
+head+=f'<style>{css}</style><script src="/assets/global-nav.js?v=20261021-glossary-links" data-aal-global-nav="true" defer></script><meta property="article:published_time" content="2026-10-25"><script type="application/ld+json">'+json.dumps({'@context':'https://schema.org','@type':'BlogPosting','headline':TITLE,'description':DEK,'datePublished':'2026-10-25','dateModified':'2026-11-01','image':['https://anausomelife.com/assets/olive-garden/james-with-aac.jpeg'],'author':{'@type':'Organization','name':'An AUsome Life'},'mainEntityOfPage':URL})+'</script></head>'
 body=f'''<body class="magazine-shell fn-page"><a class="skip" href="#main">Skip to content</a><div class="edition-line"><span>New England &amp; the everyday</span><span>A family-life field guide</span></div>{masthead}<main id="main"><nav class="wrap fn-breadcrumb" aria-label="Breadcrumb"><a href="/blog.html">The journal</a> / Dining together</nav><header class="wrap fn-cover"><div class="fn-cover-copy"><p class="fn-kicker">Olive Garden · Dinner &amp; communication</p><h1>{TITLE}</h1><p class="fn-dek">{DEK}</p><p class="fn-byline"><time datetime="2026-10-25">October 25, 2026</time> · An AUsome Life</p><a href="#choice-board">Get the free pasta choice board ↓</a></div>{figure('assets/olive-garden/james-with-aac.jpeg',ALT,'James, with his AAC at the table.',True)}</header><article class="fn-story" id="story">'''
-body+=''.join('<p>'+html.escape(p)+'</p>' for p in story)
-body+='''<ul><li><strong>Join the waitlist online</strong> before arriving, then check in with the host.</li><li><strong>Ask about bar-area tables.</strong> We’ve enjoyed them on other visits, though not this time.</li><li><strong>Pay at the table</strong> when you’re ready to leave.</li></ul><p><a href="https://www.olivegarden.com/app" target="_blank" rel="noopener noreferrer">Olive Garden’s waitlist instructions</a> · Checked October 25, 2026. Availability and wait times vary; this is our family’s experience.</p>'''
-body+=figure('assets/olive-garden/james-reading-menu.jpeg','James looks at the pasta menu with his blue AAC device beside him.','His menu. His choice.')
-body+=f'''<section id="choice-board" aria-labelledby="board-title"><h2 id="board-title">The pasta choice board</h2><p>I use ChatGPT on my phone to make choice boards in real time. We haven’t yet found software for James’s AAC device that offers this. We did it for <a href="/ai-ice-cream-choice-board-rancatores-lexington.html">ice cream at Ranc’s</a>, too.</p><a class="og-download" href="/{board}" download>Download the pasta choice board (PNG)</a>{figure(board,'Picture choice board with four large labeled generated food illustrations: fettuccine, spaghetti, angel hair, and rigatoni.','Fettuccine, spaghetti, angel hair, rigatoni.')}<p>Independent board with AI-generated food illustrations, based on the menu during our visit. It is not an official Olive Garden menu. Check current choices with your server.</p><p>Keep familiar AAC available, including ways to say no, ask for help, or choose something else.</p></section><p><strong>His right to choose includes his right to change his mind.</strong></p>'''
+body+=r'''<p><strong>James chose angel hair. Then he changed his mind.</strong></p>
+<p>That should have been completely unremarkable. People change their minds in restaurants every day.</p>
+<p>But James is disabled and uses AAC, and sometimes the people who love him most—including us—can become so accustomed to helping that we forget something important: <strong>helping can become speaking for him.</strong></p>
+<p>At Olive Garden, we had made James a simple pasta choice board on my phone. His familiar AAC was there, too.</p>
+<p>He chose angel hair. So we ordered angel hair.</p>
+<p>And then James became frustrated.</p>
+<p>At first, we were trying to figure out what was wrong. But James knew what was wrong.</p>
+<p><strong>He wanted rigatoni.</strong></p>
+<p>His answer had changed.</p>
+<p>The problem wasn’t that James couldn’t make a choice. He had made one.</p>
+<p>The problem wasn’t that he couldn’t communicate. He was communicating.</p>
+<p><strong>The problem was that we had already decided his first answer was the final answer and moved on.</strong></p>
+<p>When we stopped, gave him the board again and actually left room for his response, he showed us what he wanted.</p>
+<p>Rigatoni.</p>
+<p>And this time, James showed the server himself.</p>
+<p>He ordered his own dinner.</p>
+<p>I was enormously proud of him.</p>
+<p>I was also uncomfortable with myself.</p>
+<h2>A choice board doesn’t create autonomy</h2>
+<p>We made the choice board because we wanted James to have more control over his dinner.</p>
+<p>And then we answered for him anyway.</p>
+<p>That contradiction has stayed with me.</p>
+<p>It is very easy, especially as a parent or caregiver, to believe that because we’ve provided an accommodation, we’ve provided autonomy.</p>
+<p><strong>Those aren’t the same thing.</strong></p>
+<p>A communication device can be sitting right in front of someone while everyone else talks around them.</p>
+<p>A picture board can offer four beautiful choices while another person still decides which answer counts.</p>
+<p>A child can communicate clearly and still be unheard because the adults nearby are moving faster than he is.</p>
+<p>We love James completely.</p>
+<p>And we can love James completely while still having parenting habits—and ableism—to unlearn.</p>
+<p>That is uncomfortable to write.</p>
+<p>It is also true.</p>
+<h2>“I changed my mind” is communication, too</h2>
+<p>There is another part of this that sounds small but isn’t: <strong>James was allowed to change his mind.</strong></p>
+<p>His first answer wasn’t wrong. He wanted angel hair when he chose angel hair. Then he wanted rigatoni.</p>
+<p>Communication isn’t a test where the first answer gets recorded and everyone moves on.</p>
+<p>Choice has to include yes. No. Something else. Help me. And: <strong>I changed my mind.</strong></p>
+<p>For people who communicate differently, I think we sometimes unintentionally demand a level of consistency we would never expect from ourselves.</p>
+<p>I can look at a menu, order one thing, notice something else and say, “Actually, can I change that?”</p>
+<p>James deserves exactly the same freedom.</p>
+<p><strong>His right to choose includes his right to change his mind.</strong></p>
+<h2>The bigger lesson wasn’t about pasta</h2>
+<p>What James did that night was bigger than choosing rigatoni.</p>
+<p>He objected. He persisted. He made us realize we had misunderstood him.</p>
+<p>And when we finally gave him the space, <strong>he made sure the person who actually needed his answer—the server—got it from him.</strong></p>
+<p>That’s self-advocacy.</p>
+<p>Not perfectly packaged. Not necessarily quiet. Not always convenient.</p>
+<p>Sometimes self-advocacy looks like frustration because the people around you haven’t understood the first several ways you’ve tried to tell them something.</p>
+<p>Our job isn’t simply to give James tools to communicate.</p>
+<p><strong>Our job is to become better communication partners.</strong></p>
+<p>That means slowing down. Waiting. Not jumping in because we can answer faster. Letting him show the server. Checking again. Accepting “no.” Accepting a different answer.</p>
+<p>And remembering that communication belongs to the person communicating—not to the person interpreting it.</p>
+<h2>And we’re still figuring things out</h2>
+<p>Pasta is concrete. A picture of rigatoni looks like rigatoni.</p>
+<p>Other communication needs are much harder. We are still trying to find better ways for James to communicate things like frustration, discomfort and more abstract emotions in ways that are actually meaningful to him.</p>
+<p>We don’t have that solved.</p>
+<p>But this dinner reminded me that the answer isn’t only to keep building better tools for James.</p>
+<p><strong>We have to keep becoming better listeners, too.</strong></p>
+<h2>One lovely moment before dinner</h2>
+<p>There was another part of the evening I don’t want to forget.</p>
+<p>While we waited, James connected with another disabled teenager over <em>Lilo &amp; Stitch</em>. They explored his AAC together.</p>
+<p>A new friend before dinner.</p>
+<p>It was one of those small moments that can make an ordinary family outing feel especially good.</p>
+<figure class="og-photo"><img src="/assets/olive-garden/james-reading-menu.jpeg" alt="James looks at the pasta menu with his blue AAC device beside him." width="1152" height="1536" loading="lazy" decoding="async"><figcaption>His menu. His choice.</figcaption></figure>
+<section id="choice-board" aria-labelledby="board-title"><h2 id="board-title">The pasta choice board</h2><p>I use ChatGPT on my phone to make quick, concrete choice boards for James while we’re out. We’ve done this with <a href="/ai-ice-cream-choice-board-rancatores-lexington.html">ice cream at Ranc’s</a>, too.</p><a class="og-download" href="/downloads/pasta-shape-choice-board.png" download>Download the pasta choice board (PNG)</a><figure class="og-photo"><img src="/downloads/pasta-shape-choice-board.png" alt="Picture choice board with four large labeled generated food illustrations: fettuccine, spaghetti, angel hair, and rigatoni." width="1254" height="1254" loading="lazy" decoding="async"><figcaption>Fettuccine, spaghetti, angel hair, rigatoni.</figcaption></figure><p>It is an independent visual aid with AI-generated food illustrations, based on the options we saw during our visit. It is not an official Olive Garden menu, so check current choices with your server.</p><p>Keep familiar AAC available alongside any temporary board—including ways to say <strong>no</strong>, <strong>help</strong>, or <strong>something else</strong>.</p><p>A board can make the choices visible.</p><p><strong>But the board can’t do the most important part for us. We still have to wait for the answer.</strong></p></section>
+<h2>A few practical Olive Garden notes from our family</h2>
+<p>We like Olive Garden because the food is familiar and we’ve generally found the service quick and friendly.</p>
+<ul><li><strong>Join the waitlist online</strong> before arriving, then check in with the host.</li><li><strong>Ask about bar-area tables</strong> if that setup works better for your family; we’ve enjoyed them on other visits.</li><li><strong>Pay at the table</strong> when you’re ready to leave.</li></ul>
+<p><a href="https://www.olivegarden.com/app" target="_blank" rel="noopener noreferrer">Olive Garden’s waitlist instructions</a> · Availability and wait times vary; these are simply our family’s experiences.</p>
+<p>But the thing I’ll remember from this particular dinner has nothing to do with the waitlist.</p>
+<p>James wanted rigatoni.</p>
+<p>He told us.</p>
+<p><strong>We just needed to stop answering long enough to hear him.</strong></p>'''
 
 sharealt='Cream graphic headed A dinner at Olive Garden. Navy text reads: James wanted rigatoni. His parents stand corrected. Room to choose. Time to change his mind. A free pasta picture choice board. Read the story and get the board at anausomelife.com/olive-garden/. Credit: An AUsome Life / @anausomelife.'
-caption=f'James changed his pasta order, and his parents learned to leave more room for his own answer. An AUsome Life shares a family dinner at Olive Garden, reflections on communication and ableism, and a free four-shape pasta choice board.\nRead the story and get the board: {URL}\nCredit: An AUsome Life / @anausomelife'
-body+=f'''<section class="aal-story-share" id="share-this-story" aria-labelledby="aal-share-title" data-share-summary="An Olive Garden dinner and a free pasta choice board, with room to change your mind."><h2 id="aal-share-title">Share the story and the resource</h2><div class="aal-story-actions"><button type="button" data-share-native hidden>Share story</button><button type="button" data-copy-link hidden>Copy story link</button><button type="button" data-copy-caption hidden>Copy suggested caption &amp; credit</button><a href="{URL}">Open the story</a></div><p class="aal-share-status" role="status"></p><div data-share-fallback hidden><label for="og-share-copy">Select and copy this text</label><textarea id="og-share-copy" readonly></textarea></div><details class="aal-share-package"><summary>Sharing graphics, captions and image descriptions</summary>'''
+caption=f'We made James a choice board—and then realized we were still answering for him. Our Olive Garden dinner became a lesson about AAC, autonomy, changing your mind, and the work of becoming better listeners.\nRead the story and get the board: {URL}\nCredit: An AUsome Life / @anausomelife'
+body+=f'''<section class="aal-story-share" id="share-this-story" aria-labelledby="aal-share-title" data-share-summary="A family dinner about AAC, autonomy, and leaving room for the answer."><h2 id="aal-share-title">Share the story and the resource</h2><div class="aal-story-actions"><button type="button" data-share-native hidden>Share story</button><button type="button" data-copy-link hidden>Copy story link</button><button type="button" data-copy-caption hidden>Copy suggested caption &amp; credit</button><a href="{URL}">Open the story</a></div><p class="aal-share-status" role="status"></p><div data-share-fallback hidden><label for="og-share-copy">Select and copy this text</label><textarea id="og-share-copy" readonly></textarea></div><details class="aal-share-package"><summary>Sharing graphics, captions and image descriptions</summary>'''
 for output in outputs:
     name='Feed' if 'feed' in output['path'] else 'Story'
     body+=figure(output['path'],sharealt,f'{name} graphic · {output["dimensions"][0]} × {output["dimensions"][1]} pixels')+f'<a href="/{output["path"]}" download>Download the {name.lower()} graphic</a>'
@@ -76,7 +144,7 @@ body+=f'''<p class="aal-share-permission">You may share only these two named gra
 (ROOT/'olive-garden/index.html').write_text(f'<!doctype html><html lang="en"><head><meta charset="utf-8"><title>Olive Garden story | An AUsome Life</title><meta http-equiv="refresh" content="0; url=/{PAGE}"><link rel="canonical" href="{URL}"></head><body><p><a href="/{PAGE}">Read the Olive Garden story and get the choice board.</a></p></body></html>')
 
 blog=(ROOT/'blog.html').read_text()
-card=f'''<li><article class="journal-recent-story"><a class="journal-recent-link" href="/{PAGE}" aria-labelledby="recent-story-olive"><figure class="journal-recent-photo"><img src="/assets/olive-garden/james-with-aac.jpeg" alt="{ALT}" width="1152" height="1536" loading="lazy" style="object-fit:contain"></figure><div class="journal-recent-copy"><p class="journal-recent-place">Olive Garden · Dinner &amp; communication</p><h3 id="recent-story-olive">{TITLE}</h3><p class="journal-recent-description">A new friend, a last-minute pasta change, and a free picture choice board. James ordered for himself; his parents learned a lesson.</p><span class="journal-recent-read">Read the story →</span></div></a></article></li>'''
+card=f'''<li><article class="journal-recent-story"><a class="journal-recent-link" href="/{PAGE}" aria-labelledby="recent-story-olive"><figure class="journal-recent-photo"><img src="/assets/olive-garden/james-with-aac.jpeg" alt="{ALT}" width="1152" height="1536" loading="lazy" style="object-fit:contain"></figure><div class="journal-recent-copy"><p class="journal-recent-place">Olive Garden · Dinner &amp; communication</p><h3 id="recent-story-olive">{TITLE}</h3><p class="journal-recent-description">James changed his mind about pasta. We learned that giving him a communication tool was not the same as leaving enough room for his answer.</p><span class="journal-recent-read">Read the story →</span></div></a></article></li>'''
 if PAGE not in blog:
     marker='<li><article class="journal-recent-story"><a class="journal-recent-link" href="/snowshoeing-with-james-right-outside-home.html"'
     assert marker in blog
