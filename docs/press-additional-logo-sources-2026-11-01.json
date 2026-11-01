@@ -1,0 +1,93 @@
+[
+  {
+    "slug": "wayne-newton",
+    "path": "/assets/press/logos/wayne-newton.webp",
+    "source_page": "https://www.waynenewton.com/",
+    "asset_url": "https://static.wixstatic.com/media/18d278_12f222cbbc5f40009cb443c3a9937ba8~mv2.png",
+    "width": 280,
+    "height": 68,
+    "note": "Official masthead wordmark; displayed on dark background for contrast."
+  },
+  {
+    "slug": "las-vegas-advisor",
+    "path": "/assets/press/logos/las-vegas-advisor.webp",
+    "source_page": "https://www.lasvegasadvisor.com/",
+    "asset_url": "https://res.cloudinary.com/vartistry/image/upload/h_80,w_542/lva-logo-2017",
+    "width": 542,
+    "height": 80,
+    "note": "Official masthead logo."
+  },
+  {
+    "slug": "autismdad-wordmark",
+    "path": "/assets/press/logos/autismdad-wordmark.webp",
+    "source_page": "https://www.autismdad.net/",
+    "asset_url": "https://www.autismdad.net/wp-content/uploads/2013/06/ADheader3.jpg",
+    "width": 192,
+    "height": 80,
+    "note": "Cropped original masthead to its wordmark; no reconstructed lettering."
+  },
+  {
+    "slug": "glazed-and-amused",
+    "path": "/assets/press/logos/glazed-and-amused.webp",
+    "source_page": "https://glazedandamused.food/trails/everyone",
+    "asset_url": "https://glazedandamused.food/__l5e/assets-v1/7918d60e-a268-425a-9eb9-b41825448f82/doughie-head.png",
+    "width": 220,
+    "height": 220,
+    "note": "Official Doughie brand mark from the navigation header."
+  },
+  {
+    "slug": "spicy-food-reviews",
+    "path": "/assets/press/logos/spicy-food-reviews.webp",
+    "source_page": "https://spicyfoodreviews.com/",
+    "asset_url": "https://i0.wp.com/spicyfoodreviews.com/wp-content/uploads/2021/01/cropped-chili-pepper-clipart-red.jpg?fit=192%2C192&ssl=1",
+    "width": 192,
+    "height": 192,
+    "note": "Official site icon; Bluesky profile explicitly links this website."
+  },
+  {
+    "slug": "massachusetts-developmental-disabilities-council",
+    "path": "/assets/press/logos/massachusetts-developmental-disabilities-council.webp",
+    "source_page": "https://www.mass.gov/orgs/massachusetts-developmental-disabilities-council",
+    "asset_url": "https://www.mass.gov/files/styles/organization_logo/public/2024-08/MDDC-Logo_2.jpg?itok=KvjEU4u1",
+    "width": 230,
+    "height": 141,
+    "original_dimensions": [
+      230,
+      141
+    ],
+    "bytes": 25610
+  },
+  {
+    "slug": "domain-arrivals",
+    "path": "/assets/press/logos/domain-arrivals.webp",
+    "source_page": "https://domainarrivals.com/",
+    "asset_url": "https://domainarrivals.com/static/icons/apple-touch-icon.png?v=20260821",
+    "width": 180,
+    "height": 180,
+    "original_dimensions": [
+      180,
+      180
+    ],
+    "bytes": 11226
+  },
+  {
+    "slug": "swim-angelfish",
+    "path": "/assets/press/logos/swim-angelfish.webp",
+    "source_page": "https://swimangelfish.com/",
+    "asset_url": "https://swimangelfish.com/wp-content/uploads/2023/09/SwimAngelfish-logo@large-300x119.png",
+    "width": 161,
+    "height": 64,
+    "bytes": 17560,
+    "method": "Unaltered crop of official website header logo from live browser screenshot, captured 2026-11-01. Not redrawn or AI generated."
+  },
+  {
+    "slug": "charles-river-center",
+    "path": "/assets/press/logos/charles-river-center.webp",
+    "source_page": "https://www.charlesrivercenter.org/",
+    "asset_url": "https://www.charlesrivercenter.org/wp-content/uploads/2026/01/CRC_70th_Logo_RGB.png",
+    "width": 147,
+    "height": 96,
+    "bytes": 18754,
+    "method": "Unaltered crop of official website header logo from live browser screenshot, captured 2026-11-01. Not redrawn or AI generated."
+  }
+]
