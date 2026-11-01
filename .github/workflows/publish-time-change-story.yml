@@ -1,0 +1,208 @@
+name: Publish the time-change story
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "content/publish-time-change-story.json"
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: publish-time-change-story
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: Check out the latest main branch
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - name: Install the publication dependencies
+        run: python -m pip install --quiet Pillow lxml
+
+      - name: Reconstruct the approved story and images
+        run: |
+          python - <<'PY'
+          import base64
+          import shutil
+          from pathlib import Path
+
+          root = Path('.')
+          payload = root / 'content/time-change-payload'
+          files = {
+              'article': root / 'we-dont-fall-back-overnight.html',
+              'hero': root / 'assets/time-change/bedroom-time-change.webp',
+              'social': root / 'assets/time-change/bedroom-time-change-social.webp',
+          }
+          for prefix, target in files.items():
+              parts = sorted(payload.glob(prefix + '.part*'))
+              if not parts:
+                  raise SystemExit(f'Missing payload parts for {prefix}')
+              encoded = ''.join(part.read_text(encoding='utf-8').strip() for part in parts)
+              target.parent.mkdir(parents=True, exist_ok=True)
+              target.write_bytes(base64.b64decode(encoded, validate=True))
+          shutil.rmtree(payload)
+          PY
+
+      - name: Register the story in the journal and library
+        run: |
+          python - <<'PY'
+          import json
+          from collections import OrderedDict
+          from pathlib import Path
+
+          root = Path(".")
+          marker_path = root / "content/publish-time-change-story.json"
+          story = json.loads(marker_path.read_text(encoding="utf-8"))
+
+          taxonomy_path = root / "data/journal-taxonomy.json"
+          taxonomy = json.loads(taxonomy_path.read_text(encoding="utf-8"))
+          entry = {
+              "formats": story["formats"],
+              "topics": story["topics"],
+          }
+          existing = taxonomy["entries"]
+          ordered = OrderedDict()
+          inserted = False
+          anchor = "/menauhant-beach-the-art-of-letting-go.html"
+          for url, value in existing.items():
+              if url == story["url"]:
+                  continue
+              ordered[url] = value
+              if url == anchor:
+                  ordered[story["url"]] = entry
+                  inserted = True
+          if not inserted:
+              ordered[story["url"]] = entry
+          taxonomy["entries"] = ordered
+          taxonomy_path.write_text(
+              json.dumps(taxonomy, ensure_ascii=False, indent=2) + "\n",
+              encoding="utf-8",
+          )
+
+          library_path = root / "data/library.json"
+          library = json.loads(library_path.read_text(encoding="utf-8"))
+          row = {
+              "slug": story["slug"],
+              "url": story["url"],
+              "title": story["title"],
+              "summary": story["sumary"],
+              "category": story["category"],
+              "format": story["format"],
+              "minutes": story["minutes"],
+              "image": story["image"],
+              "search": story["search"],
+          }
+          library = [item for item in library if item.get("url") != story["url"]]
+          library.insert(0, row)
+          library_path.write_text(
+              json.dumps(library, ensure_ascii=False, indent=2) + "\n",
+              encoding="utf-8",
+          )
+          PY
+
+      - name: Generate the journal, library, navigation and search
+        run: |
+          python .github/scripts/site_experience.py --root .
+          python .github/scripts/enrich_social_meta.py --root .
+          python .github/scripts/enrich_social_meta.py --root . --check
+          python tools/build_site_index.py
+
+      - name: Validate the generated publication
+        run: |
+          python tools/check_editorial_rights.py
+          python tests/site_experience.py
+          python tests/test_page_simplicity.py
+          python .github/scripts/site_audit.py --root . --external-limit 0 --strict
+
+      - name: Commit the finished source edition
+        run: |
+          rm -f content/publish-time-change-story.json
+          git config user.name "An AUsome Life publisher"
+          git config user.email "actions@users.noreply.github.com"
+          git add -A
+          if ! git diff --cached --quiet; then
+            git commit -m "Publish disability time-change story"
+            git push origin HEAD:main
+          fi
+
+      - name: Wait for the ordinary Pages run for the trigger commit
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPOSITORY: ${{ github.repository }}
+          TRIGGER_SHA: ${{ github.sha }}
+        run: |
+          python - <<'PY'
+          import json
+          import os
+          import time
+          import urllib.request
+
+          endpoint = (
+              "https://api.github.com/repos/"
+              + os.environ["REPOSITORY"]
+              + "/actions/runs?head_sha="
+              + os.environ["TRIGGER_SHA"]
+              + "&per_page=100"
+          )
+          headers = {
+              "Accept": "application/vnd.github+json",
+              "Authorization": "Bearer " + os.environ["GH_TOKEN"],
+              "User-Agent": "An-AUsome-Life-publisher",
+          }
+          for _ in range(90):
+              request = urllib.request.Request(endpoint, headers=headers)
+              with urllib.request.urlopen(request, timeout=30) as response:
+                  runs = json.load(response)["workflow_runs"]
+              pages = [
+                  run for run in runs
+                  if run["name"] == "Deploy An AUsome Life to GitHub Pages"
+              ]
+              if pages and all(run["status"] == "completed" for run in pages):
+                  print("The trigger commit's ordinary Pages run has finished.")
+                  break
+              time.sleep(10)
+          else:
+              raise SystemExit("The ordinary Pages run did not finish in time.")
+          PY
+
+      - name: Prepare the finished public edition
+        run: |
+          rm -rf _site
+          mkdir -p _site
+          rsync -a --exclude='.git/' --exclude='.github/' --exclude='_site/' --exclude='*.md' --exclude='docs/' --exclude='tools/' --exclude='tests/' --exclude='scripts/' --exclude='services/' --exclude='*.py' --exclude='*.cjs' --exclude='*.example' --exclude='site-audit-report.json' ./ _site/
+          python .github/scripts/prepare_curated_edition.py --root _site
+          python .github/scripts/reader_growth.py --root _site
+          python .github/scripts/site_experience.py --root _site
+          python .github/scripts/enrich_social_meta.py --root _site
+          python .github/scripts/enrich_social_meta.py --root _site --check
+          python tools/build_site_index.py --root _site
+          python .github/scripts/site_audit.py --root _site --external-limit 0 --strict
+
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload the generated site
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: "_site"
+          name: time-change-story-${{ github.run_id }}-${{ github.run_attempt }}
+
+      - name: Deploy the generated site
+        id: deployment
+        uses: actions/deploy-pages@v4
+        with:
+          artifact_name: time-change-story-${{ github.run_id }}-${{ github.run_attempt }}
