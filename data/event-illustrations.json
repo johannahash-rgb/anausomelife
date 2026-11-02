@@ -5650,6 +5650,376 @@
       "venue": "Connexion",
       "start": "2027-02-13T18:00:00-05:00",
       "reusedFromEvent": "autism-eats-friendsgiving-2026-11-13"
+    },
+    "raisingharts-social-2026-11-03": {
+      "src": "/assets/event-sketches/aa-halloween-dance-2026-10-16.webp",
+      "alt": "Navy dancing sneakers, cranberry ribbons and a carved pumpkin in warm stage light.",
+      "width": 720,
+      "height": 480,
+      "title": "Social Time Tuesdays 6+ — Raising Harts",
+      "venue": "Raising Harts",
+      "start": "2026-11-03T16:30:00-05:00",
+      "reusedFromEvent": "aa-halloween-dance-2026-10-16"
+    },
+    "raisingharts-social-2026-11-10": {
+      "src": "/assets/event-sketches/aa-halloween-dance-2026-10-16.webp",
+      "alt": "Navy dancing sneakers, cranberry ribbons and a carved pumpkin in warm stage light.",
+      "width": 720,
+      "height": 480,
+      "title": "Social Time Tuesdays 6+ — Raising Harts",
+      "venue": "Raising Harts",
+      "start": "2026-11-10T16:30:00-05:00",
+      "reusedFromEvent": "aa-halloween-dance-2026-10-16"
+    },
+    "raisingharts-social-2026-11-17": {
+      "src": "/assets/event-sketches/aa-halloween-dance-2026-10-16.webp",
+      "alt": "Navy dancing sneakers, cranberry ribbons and a carved pumpkin in warm stage light.",
+      "width": 720,
+      "height": 480,
+      "title": "Social Time Tuesdays 6+ — Raising Harts",
+      "venue": "Raising Harts",
+      "start": "2026-11-17T16:30:00-05:00",
+      "reusedFromEvent": "aa-halloween-dance-2026-10-16"
+    },
+    "autism-blue-envelope-2026-11-04": {
+      "src": "/assets/event-sketches/aa-provider-2026-11-17.webp",
+      "alt": "A laptop, neatly tabbed folders, open notebook and green mug on a quiet home planning desk.",
+      "width": 720,
+      "height": 480,
+      "title": "Sandi / Blue Envelope Workshop",
+      "venue": "Autism Resource Central — Zoom",
+      "start": "2026-11-04T18:30:00-05:00",
+      "reusedFromEvent": "aa-provider-2026-11-17"
+    },
+    "railers-autism-game-2026-11-08": {
+      "src": "/assets/event-sketches/soma-flag-state-2026-11-14.webp",
+      "alt": "A football, navy belt with cranberry flags, whistle and cheer pompom beside an autumn playing field.",
+      "width": 720,
+      "height": 480,
+      "title": "Worcester Railers Autism Awareness Day",
+      "venue": "DCU Center",
+      "start": "2026-11-08T15:05:00-05:00",
+      "reusedFromEvent": "soma-flag-state-2026-11-14"
+    },
+    "arc-sibshop-2026-11-13": {
+      "src": "/assets/event-sketches/storytime-smiles.webp",
+      "alt": "A storybook, colored pencils, paper crafts and apple slices sketched in watercolor.",
+      "width": 720,
+      "height": 480,
+      "title": "SIBSHOP — Siblings Ages 7–12",
+      "venue": "Autism Resource Central",
+      "start": "2026-11-13T17:00:00-05:00",
+      "reusedFromEvent": "autism-alliance-storytime-2026-10-03"
+    },
+    "raisingharts-siblings-2026-11-15": {
+      "src": "/assets/event-sketches/storytime-smiles.webp",
+      "alt": "A storybook, colored pencils, paper crafts and apple slices sketched in watercolor.",
+      "width": 720,
+      "height": 480,
+      "title": "Super Siblings — Raising Harts",
+      "venue": "Raising Harts",
+      "start": "2026-11-15T09:00:00-05:00",
+      "reusedFromEvent": "autism-alliance-storytime-2026-10-03"
+    },
+    "raisingharts-siblings-2026-12-06": {
+      "src": "/assets/event-sketches/storytime-smiles.webp",
+      "alt": "A storybook, colored pencils, paper crafts and apple slices sketched in watercolor.",
+      "width": 720,
+      "height": 480,
+      "title": "Super Siblings — Raising Harts",
+      "venue": "Raising Harts",
+      "start": "2026-12-06T09:00:00-05:00",
+      "reusedFromEvent": "autism-alliance-storytime-2026-10-03"
+    },
+    "raisingharts-siblings-2026-12-20": {
+      "src": "/assets/event-sketches/storytime-smiles.webp",
+      "alt": "A storybook, colored pencils, paper crafts and apple slices sketched in watercolor.",
+      "width": 720,
+      "height": 480,
+      "title": "Super Siblings — Raising Harts",
+      "venue": "Raising Harts",
+      "start": "2026-12-20T09:00:00-05:00",
+      "reusedFromEvent": "autism-alliance-storytime-2026-10-03"
+    },
+    "arc-dino-man-2026-11-22": {
+      "src": "/assets/event-sketches/vins-nature-hour.webp",
+      "alt": "A barred owl, autumn branches and a woodland trail in ink and watercolor.",
+      "width": 720,
+      "height": 480,
+      "title": "Dino Man — Ages 12 and Under",
+      "venue": "Autism Resource Central / Unitarian Universalist Church (confirm venue)",
+      "start": "2026-11-22T14:00:00-05:00",
+      "reusedFromEvent": "vins-2026-10-03"
+    },
+    "raisingharts-sensory-play-2026-11-22": {
+      "src": "/assets/event-sketches/some-workout-2026-10-06.webp",
+      "alt": "A navy exercise mat, wooden step, towel and cranberry resistance band in autumn window light.",
+      "width": 720,
+      "height": 480,
+      "title": "Raising Harts Sensory Play Sunday",
+      "venue": "CheerFactor Hanover",
+      "start": "2026-11-22T09:30:00-05:00",
+      "reusedFromEvent": "raisingharts-sensory-play-2026-10-11"
+    },
+    "raisingharts-sensory-play-2026-12-13": {
+      "src": "/assets/event-sketches/some-workout-2026-10-06.webp",
+      "alt": "A navy exercise mat, wooden step, towel and cranberry resistance band in autumn window light.",
+      "width": 720,
+      "height": 480,
+      "title": "Raising Harts Sensory Play Sunday",
+      "venue": "CheerFactor Hanover",
+      "start": "2026-12-13T09:30:00-05:00",
+      "reusedFromEvent": "raisingharts-sensory-play-2026-10-11"
+    },
+    "arc-adult-holiday-treats-2026-11-24": {
+      "src": "/assets/event-sketches/pizza-making.webp",
+      "alt": "Original ink-and-watercolor study of pizza dough, a wooden peel, rolling pin, tomatoes and basil.",
+      "width": 1536,
+      "height": 1024,
+      "title": "ASD Adult Holiday Treat Making",
+      "venue": "Autism Resource Central",
+      "start": "2026-11-24T14:00:00-05:00",
+      "reusedFromEvent": "bridge-pizza-2026-11-01"
+    },
+    "franklin-museum-sensory-2026-11-29": {
+      "src": "/assets/event-sketches/bcm-2026-11-07.webp",
+      "alt": "A wooden building bridge, winding ball track and colored window panes in morning light.",
+      "width": 720,
+      "height": 480,
+      "title": "Sensory Sunday — Children's Museum of Franklin",
+      "venue": "Children's Museum of Franklin",
+      "start": "2026-11-29T08:00:00-05:00",
+      "reusedFromEvent": "bcm-2026-11-07"
+    },
+    "jfcs-chanukah-2026-12-01": {
+      "src": "/assets/event-sketches/holiday-gift-making.webp",
+      "alt": "Original watercolor study of a handmade gift, ribbon, tea, stationery and a small box on a cream tabletop.",
+      "width": 1536,
+      "height": 1024,
+      "title": "Free Chanukah Party — Adults with Diverse Needs",
+      "venue": "Yachad Community Center",
+      "start": "2026-12-01T16:00:00-05:00",
+      "reusedFromEvent": "car-holiday-bazaar-2026-11-14"
+    },
+    "aoec-social-dnd-2026-11-03": {
+      "src": "/assets/event-sketches/trivia-night.webp",
+      "alt": "Original ink-and-watercolor study of a brass quiz bell, pencils and blank scorecards.",
+      "width": 1536,
+      "height": 1024,
+      "title": "AOEC Social Circle — Dungeons & Dragons",
+      "venue": "AOEC Brunswick",
+      "start": "2026-11-03T17:30:00-05:00",
+      "reusedFromEvent": "carroll-alumni-trivia-2026-10-16"
+    },
+    "aoec-social-cabaret-2026-11-07": {
+      "src": "/assets/event-sketches/aa-halloween-dance-2026-10-16.webp",
+      "alt": "Navy dancing sneakers, cranberry ribbons and a carved pumpkin in warm stage light.",
+      "width": 720,
+      "height": 480,
+      "title": "AOEC Social Circle — Accessible Stages Cabaret",
+      "venue": "Gorham Middle School",
+      "start": "2026-11-07T16:00:00-05:00",
+      "reusedFromEvent": "aa-halloween-dance-2026-10-16"
+    },
+    "aoec-parents-night-2026-11-14": {
+      "src": "/assets/event-sketches/carroll-movie-2026-12-11.webp",
+      "alt": "An audio headset and receiver rest on a navy cinema chair beside popcorn and a cranberry throw.",
+      "width": 720,
+      "height": 480,
+      "title": "AOEC Parents' Night Out — Inclusive Activities",
+      "venue": "Dragon Fire Martial Arts",
+      "start": "2026-11-14T17:00:00-05:00",
+      "reusedFromEvent": "carroll-movie-2026-12-11"
+    },
+    "aoec-social-friendsgiving-2026-11-21": {
+      "src": "/assets/event-sketches/carroll-90th-2026-11-07.webp",
+      "alt": "Watercolor open-house table with a tactile globe, closed keepsake album, tea service and autumn flowers.",
+      "width": 720,
+      "height": 480,
+      "title": "AOEC Social Circle — Friendsgiving",
+      "venue": "AOEC Brunswick",
+      "start": "2026-11-21T17:30:00-05:00",
+      "reusedFromEvent": "autism-eats-friendsgiving-2026-11-13"
+    },
+    "newport-sailing-sensory-2026-11-03": {
+      "src": "/assets/event-sketches/bcm-2026-11-07.webp",
+      "alt": "A wooden building bridge, winding ball track and colored window panes in morning light.",
+      "width": 720,
+      "height": 480,
+      "title": "Sensory-Friendly Hour — The Sailing Museum",
+      "venue": "The Sailing Museum & National Sailing Hall of Fame",
+      "start": "2026-11-03T10:00:00-05:00",
+      "reusedFromEvent": "bcm-2026-11-07"
+    },
+    "perspectives-walking-2026-11-09": {
+      "src": "/assets/event-sketches/uap-hike-carlisle-2026-11-14.webp",
+      "alt": "A woodland trail curves beside a pond, with trekking poles, a navy pack and scarf by a stone wall.",
+      "width": 720,
+      "height": 480,
+      "title": "Walking Club Led by Special Olympics Athlete Leader",
+      "venue": "Wilson Park",
+      "start": "2026-11-09T12:30:00-05:00",
+      "reusedFromEvent": "uap-hike-carlisle-2026-11-14"
+    },
+    "avatar-stroll-2026-11-20": {
+      "src": "/assets/event-sketches/uap-hike-carlisle-2026-11-14.webp",
+      "alt": "A woodland trail curves beside a pond, with trekking poles, a navy pack and scarf by a stone wall.",
+      "width": 720,
+      "height": 480,
+      "title": "Avatar's Walking and Strolling Club",
+      "venue": "Johnston Memorial Park",
+      "start": "2026-11-20T10:30:00-05:00",
+      "reusedFromEvent": "uap-hike-carlisle-2026-11-14"
+    },
+    "avatar-stroll-2026-12-18": {
+      "src": "/assets/event-sketches/uap-hike-carlisle-2026-11-14.webp",
+      "alt": "A woodland trail curves beside a pond, with trekking poles, a navy pack and scarf by a stone wall.",
+      "width": 720,
+      "height": 480,
+      "title": "Avatar's Walking and Strolling Club",
+      "venue": "Johnston Memorial Park",
+      "start": "2026-12-18T10:30:00-05:00",
+      "reusedFromEvent": "uap-hike-carlisle-2026-11-14"
+    },
+    "avatar-stroll-2027-01-15": {
+      "src": "/assets/event-sketches/uap-hike-carlisle-2026-11-14.webp",
+      "alt": "A woodland trail curves beside a pond, with trekking poles, a navy pack and scarf by a stone wall.",
+      "width": 720,
+      "height": 480,
+      "title": "Avatar's Walking and Strolling Club",
+      "venue": "Johnston Memorial Park",
+      "start": "2027-01-15T10:30:00-05:00",
+      "reusedFromEvent": "uap-hike-carlisle-2026-11-14"
+    },
+    "lydia-starr-warwick-2026-11-20": {
+      "src": "/assets/event-sketches/aa-halloween-dance-2026-10-16.webp",
+      "alt": "Navy dancing sneakers, cranberry ribbons and a carved pumpkin in warm stage light.",
+      "width": 720,
+      "height": 480,
+      "title": "Lydia Starr — Free Community Concert",
+      "venue": "Red, White & Brew",
+      "start": "2026-11-20T12:30:00-05:00",
+      "reusedFromEvent": "aa-halloween-dance-2026-10-16"
+    },
+    "ppac-ocean-blue-2027-04-03": {
+      "src": "/assets/event-sketches/carroll-movie-2026-12-11.webp",
+      "alt": "An audio headset and receiver rest on a navy cinema chair beside popcorn and a cranberry throw.",
+      "width": 720,
+      "height": 480,
+      "title": "Ocean Blue — Sensory-Friendly Performance",
+      "venue": "Providence Performing Arts Center",
+      "start": "2027-04-03T14:00:00-04:00",
+      "reusedFromEvent": "carroll-movie-2026-12-11"
+    },
+    "bridge-karaoke-2026-11-20": {
+      "src": "/assets/event-sketches/aa-halloween-dance-2026-10-16.webp",
+      "alt": "Navy dancing sneakers, cranberry ribbons and a carved pumpkin in warm stage light.",
+      "width": 720,
+      "height": 480,
+      "title": "Bridge The Spectrum — Karaoke, All Ages",
+      "venue": "Cheshire Craft Brewing",
+      "start": "2026-11-20T19:00:00-05:00",
+      "reusedFromEvent": "aa-halloween-dance-2026-10-16"
+    },
+    "bridge-wolf-pack-2026-11-29": {
+      "src": "/assets/event-sketches/soma-flag-state-2026-11-14.webp",
+      "alt": "A football, navy belt with cranberry flags, whistle and cheer pompom beside an autumn playing field.",
+      "width": 720,
+      "height": 480,
+      "title": "Bridge The Spectrum — Wolf Pack Sensory Inclusivity Game",
+      "venue": "PeoplesBank Arena",
+      "start": "2026-11-29T15:00:00-05:00",
+      "reusedFromEvent": "soma-flag-state-2026-11-14"
+    },
+    "bridge-gamerz-2026-12-11": {
+      "src": "/assets/event-sketches/trivia-night.webp",
+      "alt": "Original ink-and-watercolor study of a brass quiz bell, pencils and blank scorecards.",
+      "width": 1536,
+      "height": 1024,
+      "title": "Bridge The Spectrum — JT Gamerz Lounge, 18+",
+      "venue": "JT Gamerz Lounge LLC",
+      "start": "2026-12-11T19:00:00-05:00",
+      "reusedFromEvent": "carroll-alumni-trivia-2026-10-16"
+    },
+    "bridge-trivia-2026-12-14": {
+      "src": "/assets/event-sketches/trivia-night.webp",
+      "alt": "Original ink-and-watercolor study of a brass quiz bell, pencils and blank scorecards.",
+      "width": 1536,
+      "height": 1024,
+      "title": "Bridge The Spectrum — Free Holiday Trivia, 18+",
+      "venue": "David J. Doherty Municipal Building",
+      "start": "2026-12-14T18:00:00-05:00",
+      "reusedFromEvent": "bridge-trivia-2026-10-21"
+    },
+    "bridge-3dprinting-2027-01-23": {
+      "src": "/assets/event-sketches/aldrich-sensory-art.webp",
+      "alt": "Watercolor paints, brushes, abstract shapes and a small wood sculpture.",
+      "width": 720,
+      "height": 480,
+      "title": "Bridge The Spectrum — 3D Printing Workshop",
+      "venue": "Helping People Excel, Inc.",
+      "start": "2027-01-23T09:00:00-05:00",
+      "reusedFromEvent": "aldrich-2026-10-24"
+    },
+    "hill-sensory-play-2026-11-12": {
+      "src": "/assets/event-sketches/storytime-smiles.webp",
+      "alt": "A storybook, colored pencils, paper crafts and apple slices sketched in watercolor.",
+      "width": 720,
+      "height": 480,
+      "title": "Hill Library Sensory Playtime",
+      "venue": "Hill Library",
+      "start": "2026-11-12T10:00:00-05:00",
+      "reusedFromEvent": "autism-alliance-storytime-2026-10-03"
+    },
+    "rye-sensory-play-2026-11-17": {
+      "src": "/assets/event-sketches/storytime-smiles.webp",
+      "alt": "A storybook, colored pencils, paper crafts and apple slices sketched in watercolor.",
+      "width": 720,
+      "height": 480,
+      "title": "Sensory Play, Ages 2–4 — Rye Public Library",
+      "venue": "Rye Public Library",
+      "start": "2026-11-17T10:30:00-05:00",
+      "reusedFromEvent": "autism-alliance-storytime-2026-10-03"
+    },
+    "vfn-ai-2026-11-05": {
+      "src": "/assets/event-sketches/aa-provider-2026-11-17.webp",
+      "alt": "A laptop, neatly tabbed folders, open notebook and green mug on a quiet home planning desk.",
+      "width": 720,
+      "height": 480,
+      "title": "Vermont Family Network — AI in School & Healthcare",
+      "venue": "Vermont Family Network — Zoom",
+      "start": "2026-11-05T10:00:00-05:00",
+      "reusedFromEvent": "aa-provider-2026-11-17"
+    },
+    "echo-frog-toad-sensory-2026-11-14": {
+      "src": "/assets/event-sketches/bcm-2026-11-07.webp",
+      "alt": "A wooden building bridge, winding ball track and colored window panes in morning light.",
+      "width": 720,
+      "height": 480,
+      "title": "Frog & Toad Are Friends — Early Sensory Hour",
+      "venue": "ECHO, Leahy Center for Lake Champlain",
+      "start": "2026-11-14T09:00:00-05:00",
+      "reusedFromEvent": "bcm-2026-11-07"
+    },
+    "vfn-special-ed-team-2026-11-19": {
+      "src": "/assets/event-sketches/aa-provider-2026-11-17.webp",
+      "alt": "A laptop, neatly tabbed folders, open notebook and green mug on a quiet home planning desk.",
+      "width": 720,
+      "height": 480,
+      "title": "Vermont Family Network — Be Active in Your Child's IEP Team",
+      "venue": "Vermont Family Network — Zoom",
+      "start": "2026-11-19T10:00:00-05:00",
+      "reusedFromEvent": "aa-provider-2026-11-17"
+    },
+    "vfn-adaptive-rec-2026-12-10": {
+      "src": "/assets/event-sketches/aa-provider-2026-11-17.webp",
+      "alt": "A laptop, neatly tabbed folders, open notebook and green mug on a quiet home planning desk.",
+      "width": 720,
+      "height": 480,
+      "title": "Stronger Together — Inclusive Adaptive Recreation",
+      "venue": "Vermont Family Network — Zoom",
+      "start": "2026-12-10T13:00:00-05:00",
+      "reusedFromEvent": "aa-provider-2026-11-17"
     }
   },
   "watchlist": {
