@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-11-02T00:51:00Z",
-  "lastEditorialReview": "2026-11-02T00:51:00Z",
+  "generatedAt": "2026-11-02T18:00:00Z",
+  "lastEditorialReview": "2026-11-02T18:00:00Z",
   "timezone": "America/New_York",
   "coverage": "Selected New England adaptive and sensory-friendly events, with a verified free-admission filter and free-program directory. Not exhaustive.",
   "refresh": {
@@ -4159,6 +4159,60 @@
       "sourceCheckedAt": "2026-11-02T00:52:00Z",
       "lastChecked": "2026-11-02T00:52:00Z",
       "status": "manually-checked"
+    },
+    {
+      "id": "best-buddies-mari",
+      "name": "Best Buddies — Massachusetts & Rhode Island",
+      "url": "https://www.bestbuddies.org/mari/events/",
+      "state": "MA",
+      "mode": "check",
+      "enabled": true,
+      "timezone": "America/New_York",
+      "allowedHosts": [
+        "www.bestbuddies.org",
+        "bestbuddies.org"
+      ],
+      "autoPublish": false,
+      "feedVerified": false,
+      "sourceCheckedAt": "2026-11-02T18:00:00Z",
+      "lastChecked": "2026-11-02T18:00:00Z",
+      "status": "manually-checked"
+    },
+    {
+      "id": "autism-resource-central",
+      "name": "Autism Resource Central",
+      "url": "https://www.autismresourcecentral.org/events/",
+      "state": "MA",
+      "mode": "check",
+      "enabled": true,
+      "timezone": "America/New_York",
+      "allowedHosts": [
+        "www.autismresourcecentral.org",
+        "autismresourcecentral.org"
+      ],
+      "autoPublish": false,
+      "feedVerified": false,
+      "sourceCheckedAt": "2026-11-02T18:00:00Z",
+      "lastChecked": "2026-11-02T18:00:00Z",
+      "status": "manually-checked"
+    },
+    {
+      "id": "a2cf",
+      "name": "Access 2 Community and Friendship",
+      "url": "https://access2communityandfriendship.com/",
+      "state": "MA",
+      "mode": "check",
+      "enabled": true,
+      "timezone": "America/New_York",
+      "allowedHosts": [
+        "access2communityandfriendship.com",
+        "www.access2communityandfriendship.com"
+      ],
+      "autoPublish": false,
+      "feedVerified": false,
+      "sourceCheckedAt": "2026-11-02T18:00:00Z",
+      "lastChecked": "2026-11-02T18:00:00Z",
+      "status": "manually-checked"
     }
   ],
   "events": [
@@ -8216,6 +8270,38 @@
       "costCategory": "free"
     },
     {
+      "id": "best-buddies-plan-housing-2026-11-03",
+      "title": "PLAN / Best Buddies — Special Needs Housing in Massachusetts",
+      "start": "2026-11-03T18:00:00-05:00",
+      "end": "2026-11-03T19:00:00-05:00",
+      "timezone": "America/New_York",
+      "state": "MA",
+      "city": "Virtual",
+      "venue": "Online — Zoom webinar",
+      "address": "",
+      "sourceId": "best-buddies-mari",
+      "sourceUrl": "https://www.bestbuddies.org/mari/plan-webinars",
+      "ticketUrl": "https://www.bestbuddies.org/mari/plan-webinars",
+      "status": "scheduled",
+      "reviewRequired": false,
+      "category": "Caregiver support",
+      "format": "Virtual",
+      "cancellationPolicy": "Check the organizer's cancellation, ticket and attendance terms before registering.",
+      "notes": [
+        "Online session; details for captions, interpretation and recording not published on the checked page."
+      ],
+      "cost": "Free (confirmed by organizer).",
+      "ages": "Parents, caregivers, families and adults planning disability-related housing and financial supports.",
+      "summary": "Free PLAN of MA & RI webinar with Road to Responsibility's Christopher T. White about special-needs housing and the role of trusts in future planning.",
+      "accessibility": [
+        "Participate from home through Zoom."
+      ],
+      "registration": "Register using the Zoom link on Best Buddies' official event page; a joining link is supplied after registration.",
+      "lastVerified": "2026-11-02T18:00:00Z",
+      "verificationMethod": "Official organizer dated event and eligibility details reviewed November 2, 2026.",
+      "costCategory": "free"
+    },
+    {
       "id": "pineland-vast-2026-11-04-0900",
       "title": "Veterans Adaptive Sports & Training",
       "start": "2026-11-04T09:00:00-05:00",
@@ -10682,6 +10768,37 @@
       "costCategory": "unknown"
     },
     {
+      "id": "autism-resource-adult-tree-craft-2026-11-10",
+      "title": "ASD Adult Winter Tree Craft",
+      "start": "2026-11-10T16:00:00-05:00",
+      "end": "2026-11-10T17:30:00-05:00",
+      "timezone": "America/New_York",
+      "state": "MA",
+      "city": "Worcester",
+      "venue": "Autism Resource Central",
+      "address": "712 Plantation Street, Worcester, MA 01605",
+      "sourceId": "autism-resource-central",
+      "sourceUrl": "https://www.autismresourcecentral.org/event/asd-adult-winter-tree-craft/",
+      "ticketUrl": "https://lp.constantcontactpages.com/ev/reg/w4b3tzx",
+      "status": "scheduled",
+      "reviewRequired": false,
+      "category": "Inclusive recreation",
+      "format": "In person",
+      "cancellationPolicy": "Check the organizer's cancellation, ticket and attendance terms before registering.",
+      "notes": [
+        "Craft materials, group size, room acoustics and physical-access details were not published in the checked listing."
+      ],
+      "cost": "Event fee not stated in checked organizer listing; ask before registering.",
+      "ages": "Autistic adults; confirm enrollment requirements.",
+      "summary": "An autism-community winter tree art project for adults at Autism Resource Central in Worcester.",
+      "accessibility": [
+        "Activity organized specifically for autistic adults."
+      ],
+      "registration": "Advance registration link available on the organizer's event page. Confirm places and individual support arrangements.",
+      "lastVerified": "2026-11-02T18:00:00Z",
+      "verificationMethod": "Official organizer dated event and eligibility details reviewed November 2, 2026."
+    },
+    {
       "id": "sevenhills-talent-showcase-2026-11-10",
       "title": "Show & Talent Music Showcase",
       "start": "2026-11-10T17:30:00-05:00",
@@ -12042,6 +12159,37 @@
       "category": "Inclusive community",
       "format": "In person",
       "costCategory": "unknown"
+    },
+    {
+      "id": "autism-resource-cat-hat-movie-2026-11-15",
+      "title": "Cat in the Hat — Autism Resource Central Family Movie",
+      "start": "2026-11-15T10:00:00-05:00",
+      "end": "2026-11-15T12:00:00-05:00",
+      "timezone": "America/New_York",
+      "state": "MA",
+      "city": "Leominster",
+      "venue": "Entertainment Cinema",
+      "address": "45 Sack Boulevard, Leominster, MA 01453",
+      "sourceId": "autism-resource-central",
+      "sourceUrl": "https://www.autismresourcecentral.org/event/cat-in-the-hat-family-movie/",
+      "ticketUrl": "https://lp.constantcontactpages.com/ev/reg/6rnaafu",
+      "status": "scheduled",
+      "reviewRequired": false,
+      "category": "Inclusive recreation",
+      "format": "In person",
+      "cancellationPolicy": "Check the organizer's cancellation, ticket and attendance terms before registering.",
+      "notes": [
+        "Not verified as a sensory-adjusted movie screening. Ask about film volume, auditorium lighting, seating and re-entry before visiting."
+      ],
+      "cost": "Price not stated in the checked organizer listing; verify when registering.",
+      "ages": "All ages welcome; families, children, teens and adults.",
+      "summary": "Community family movie gathering organized by Autism Resource Central; official listing says all ages are welcome.",
+      "accessibility": [
+        "Organizer specifically welcomes all ages."
+      ],
+      "registration": "Use the organizer's event registration link; ask about seat capacity and support arrangements.",
+      "lastVerified": "2026-11-02T18:00:00Z",
+      "verificationMethod": "Official organizer dated event and eligibility details reviewed November 2, 2026."
     },
     {
       "timezone": "America/New_York",
@@ -13448,6 +13596,37 @@
       "costCategory": "unknown"
     },
     {
+      "id": "autism-resource-caregiver-support-2026-11-18",
+      "title": "Autism Resource Central — Virtual Caregiver Support Group",
+      "start": "2026-11-18T19:00:00-05:00",
+      "end": "2026-11-18T21:00:00-05:00",
+      "timezone": "America/New_York",
+      "state": "MA",
+      "city": "Virtual",
+      "venue": "Autism Resource Central — online",
+      "address": "",
+      "sourceId": "autism-resource-central",
+      "sourceUrl": "https://www.autismresourcecentral.org/events/list/?tribe-bar-date=2026-11-18",
+      "ticketUrl": null,
+      "status": "scheduled",
+      "reviewRequired": false,
+      "category": "Caregiver support",
+      "format": "Virtual",
+      "cancellationPolicy": "Check the organizer's cancellation, ticket and attendance terms before registering.",
+      "notes": [
+        "Virtual meeting platform, captions and participation requirements not specified."
+      ],
+      "cost": "Fee, if any, not stated on the official date listing; ask organizer.",
+      "ages": "All caregivers are welcome, according to organizer.",
+      "summary": "Online caregiver support group through Autism Resource Central, open to caregivers seeking connection and support.",
+      "accessibility": [
+        "Attend virtually; physical travel is not needed."
+      ],
+      "registration": "Contact the organizer about a meeting link, registration and privacy expectations; details not published on the checked date listing.",
+      "lastVerified": "2026-11-02T18:00:00Z",
+      "verificationMethod": "Official organizer dated event and eligibility details reviewed November 2, 2026."
+    },
+    {
       "id": "nearc-assistive-tech-morning-2026-11-19",
       "title": "Assistive Technology Open House — Morning",
       "start": "2026-11-19T09:00:00-05:00",
@@ -13708,6 +13887,40 @@
       "category": "Social & dance"
     },
     {
+      "id": "best-buddies-party-purpose-2026-11-19",
+      "title": "Best Buddies MA & RI — Party for a Purpose",
+      "start": "2026-11-19T18:30:00-05:00",
+      "end": "2026-11-19T21:30:00-05:00",
+      "timezone": "America/New_York",
+      "state": "MA",
+      "city": "Medford",
+      "venue": "The Great American Beer Hall",
+      "address": "142 Mystic Avenue, Medford, MA 02155",
+      "sourceId": "best-buddies-mari",
+      "sourceUrl": "https://www.bestbuddies.org/mari/party-for-a-purpose",
+      "ticketUrl": "https://e.givesmart.com/events/ODl/",
+      "status": "scheduled",
+      "reviewRequired": false,
+      "category": "Community celebration",
+      "format": "In person",
+      "cancellationPolicy": "Check the organizer's cancellation, ticket and attendance terms before registering.",
+      "notes": [
+        "Check-in 6:30 p.m.; awards begin 7:30 p.m.; silent auction closes 8 p.m.",
+        "Lively music, DJ, guests and bar environment; do not assume reduced sound or a quiet room.",
+        "Organizer recommends rideshare, carpools or transit. Step-free routes, accessible restrooms and age restrictions should be confirmed directly."
+      ],
+      "cost": "Paid fundraiser; ticket and table prices vary. Review organizer's checkout before purchase.",
+      "ages": "Community supporters, families and Best Buddies participants; event-specific minimum age not stated—ask before bringing minors.",
+      "summary": "A Best Buddies fundraising celebration with an awards program, appetizers, an open bar, music and a silent auction; ticket purchase required to attend.",
+      "accessibility": [
+        "Organizers identify ADA-accessible parking in front of the venue.",
+        "Public transit via MBTA Route 95 is described by organizer."
+      ],
+      "registration": "Buy a ticket or table through the official GiveSmart page. Joining the silent auction online does not necessarily include event admission.",
+      "lastVerified": "2026-11-02T18:00:00Z",
+      "verificationMethod": "Official organizer dated event and eligibility details reviewed November 2, 2026."
+    },
+    {
       "id": "portland-hadestown-asl-2026-11-19",
       "title": "Hadestown — ASL-interpreted performance",
       "start": "2026-11-19T19:00:00-05:00",
@@ -13874,6 +14087,37 @@
       "lastVerified": "2026-11-01T22:44:00Z",
       "verificationMethod": "Official organizer 2026 event information checked November 1, 2026.",
       "costCategory": "unknown"
+    },
+    {
+      "id": "autism-resource-adult-game-night-2026-11-20",
+      "title": "ASD Adult Game Night — Board Games & Pizza",
+      "start": "2026-11-20T16:00:00-05:00",
+      "end": "2026-11-20T18:30:00-05:00",
+      "timezone": "America/New_York",
+      "state": "MA",
+      "city": "Worcester",
+      "venue": "Autism Resource Central",
+      "address": "712 Plantation Street, Worcester, MA 01605",
+      "sourceId": "autism-resource-central",
+      "sourceUrl": "https://www.autismresourcecentral.org/event/asd-adult-game-night/",
+      "ticketUrl": "https://lp.constantcontactpages.com/ev/reg/qkx4552",
+      "status": "scheduled",
+      "reviewRequired": false,
+      "category": "Social activities",
+      "format": "In person",
+      "cancellationPolicy": "Check the organizer's cancellation, ticket and attendance terms before registering.",
+      "notes": [
+        "Noise levels, table accessibility and quiet-space availability not specifically published."
+      ],
+      "cost": "Event fee not listed in the official calendar; verify at registration.",
+      "ages": "Autistic adults; check program eligibility.",
+      "summary": "A board-game and pizza social evening for autistic adults at Autism Resource Central.",
+      "accessibility": [
+        "Event designed for autistic adult participants."
+      ],
+      "registration": "Register through the organizer's linked form; confirm dietary needs, support arrangements and spaces.",
+      "lastVerified": "2026-11-02T18:00:00Z",
+      "verificationMethod": "Official organizer dated event and eligibility details reviewed November 2, 2026."
     },
     {
       "id": "bcm-2026-11-20",
@@ -14344,6 +14588,37 @@
       "category": "Inclusive access",
       "format": "In person",
       "costCategory": "free"
+    },
+    {
+      "id": "a2cf-friendsgiving-2026-11-21",
+      "title": "Access 2 Community & Friendship — Friendsgiving",
+      "start": "2026-11-21T18:00:00-05:00",
+      "end": "2026-11-21T21:00:00-05:00",
+      "timezone": "America/New_York",
+      "state": "MA",
+      "city": "Somerville",
+      "venue": "Connexion",
+      "address": "149 Broadway, Somerville, MA 02145",
+      "sourceId": "a2cf",
+      "sourceUrl": "https://access2communityandfriendship.com/event/friendsgiving/",
+      "ticketUrl": null,
+      "status": "scheduled",
+      "reviewRequired": false,
+      "category": "Holiday social",
+      "format": "In person",
+      "cancellationPolicy": "Check the organizer's cancellation, ticket and attendance terms before registering.",
+      "notes": [
+        "Meal details, dietary options, step-free access, restroom facilities and a separate quiet space were not published in the checked listing."
+      ],
+      "cost": "Specific event fee not posted; A2CF activities may be free or carry a modest fee. Confirm directly.",
+      "ages": "Adults 22+ with and without intellectual or developmental disabilities, per A2CF program.",
+      "summary": "A community Friendsgiving gathering from Access 2 Community and Friendship, an inclusive adult social organization.",
+      "accessibility": [
+        "Organized by an adult-focused inclusive community group."
+      ],
+      "registration": "Check with A2CF for RSVP, membership, seating and support arrangements; the event page does not specify a ticket process.",
+      "lastVerified": "2026-11-02T18:00:00Z",
+      "verificationMethod": "Official organizer dated event and eligibility details reviewed November 2, 2026."
     },
     {
       "id": "trinity-sensory-worship-2026-11-22",
@@ -19639,6 +19914,37 @@
       "costCategory": "free"
     },
     {
+      "id": "a2cf-holiday-festivities-2026-12-12",
+      "title": "Access 2 Community & Friendship — Holiday Festivities",
+      "start": "2026-12-12T18:00:00-05:00",
+      "end": "2026-12-12T21:00:00-05:00",
+      "timezone": "America/New_York",
+      "state": "MA",
+      "city": "Somerville",
+      "venue": "Connexion",
+      "address": "149 Broadway, Somerville, MA 02145",
+      "sourceId": "a2cf",
+      "sourceUrl": "https://access2communityandfriendship.com/event/holiday-festivities/",
+      "ticketUrl": null,
+      "status": "scheduled",
+      "reviewRequired": false,
+      "category": "Holiday social",
+      "format": "In person",
+      "cancellationPolicy": "Check the organizer's cancellation, ticket and attendance terms before registering.",
+      "notes": [
+        "Event program, refreshments, cost, sound levels and quiet-space details are not confirmed."
+      ],
+      "cost": "Specific event fee not stated; check with A2CF.",
+      "ages": "Adults 22+ with and without intellectual or developmental disabilities, per A2CF program.",
+      "summary": "An inclusive holiday get-together for adults through Access 2 Community and Friendship.",
+      "accessibility": [
+        "Adult-inclusive social group."
+      ],
+      "registration": "Contact A2CF to ask about RSVP, accessibility and support-person arrangements.",
+      "lastVerified": "2026-11-02T18:00:00Z",
+      "verificationMethod": "Official organizer dated event and eligibility details reviewed November 2, 2026."
+    },
+    {
       "id": "trinity-sensory-worship-2026-12-13",
       "title": "Sensory-friendly Christian worship — Trinity Trumbull",
       "start": "2026-12-13T07:30:00-05:00",
@@ -22612,6 +22918,37 @@
       "category": "Accessible arts"
     },
     {
+      "id": "a2cf-paint-night-2027-01-16",
+      "title": "Access 2 Community & Friendship — Return of Paint Night",
+      "start": "2027-01-16T18:00:00-05:00",
+      "end": "2027-01-16T21:00:00-05:00",
+      "timezone": "America/New_York",
+      "state": "MA",
+      "city": "Somerville",
+      "venue": "Connexion",
+      "address": "149 Broadway, Somerville, MA 02145",
+      "sourceId": "a2cf",
+      "sourceUrl": "https://access2communityandfriendship.com/event/return-of-paint-night/",
+      "ticketUrl": null,
+      "status": "scheduled",
+      "reviewRequired": false,
+      "category": "Inclusive recreation",
+      "format": "In person",
+      "cancellationPolicy": "Check the organizer's cancellation, ticket and attendance terms before registering.",
+      "notes": [
+        "Supplies, adaptive art supports, step-free access and sensory accommodations are not published on event page."
+      ],
+      "cost": "Fee and materials charges not stated; check with organizer.",
+      "ages": "Adults 22+ with and without intellectual or developmental disabilities, per A2CF program.",
+      "summary": "An inclusive adult paint-night get-together at Connexion in Somerville.",
+      "accessibility": [
+        "Adult-inclusive social program."
+      ],
+      "registration": "Confirm RSVP requirements, cost, and assistance for art activities directly with A2CF.",
+      "lastVerified": "2026-11-02T18:00:00Z",
+      "verificationMethod": "Official organizer dated event and eligibility details reviewed November 2, 2026."
+    },
+    {
       "timezone": "America/New_York",
       "ticketUrl": null,
       "cancellationPolicy": "Not stated in the checked listing; confirm with the organizer.",
@@ -22651,6 +22988,39 @@
       "title": "My Day to Play",
       "start": "2027-01-17T10:00:00-05:00",
       "end": "2027-01-17T12:00:00-05:00"
+    },
+    {
+      "id": "best-buddies-celtics-2027-01-20",
+      "title": "Best Buddies Night at the Boston Celtics",
+      "start": "2027-01-20T19:30:00-05:00",
+      "end": "2027-01-20T23:30:00-05:00",
+      "timezone": "America/New_York",
+      "state": "MA",
+      "city": "Boston",
+      "venue": "TD Garden",
+      "address": "100 Legends Way, Boston, MA 02114",
+      "sourceId": "best-buddies-mari",
+      "sourceUrl": "https://www.bestbuddies.org/mari/celtics",
+      "ticketUrl": "https://www.bestbuddies.org/mari/celtics",
+      "status": "scheduled",
+      "reviewRequired": false,
+      "category": "Inclusive sports",
+      "format": "In person",
+      "cancellationPolicy": "Check the organizer's cancellation, ticket and attendance terms before registering.",
+      "notes": [
+        "Game starts at 7:30 p.m. on January 20, 2027; published event has no end time.",
+        "A busy arena can have loud music, cheering, announcements and crowds; request accessibility and sensory support directly from TD Garden."
+      ],
+      "cost": "Paid game tickets; exact price and availability vary. Check organizer's ticket link.",
+      "ages": "Basketball fans, Best Buddies participants and supporters; use ticket vendor's child/age rules.",
+      "summary": "Watch the Celtics alongside Best Buddies supporters during a basketball night celebrating inclusion at TD Garden.",
+      "accessibility": [
+        "TD Garden venue accessibility information should be checked for the ticket section purchased."
+      ],
+      "registration": "Purchase game tickets using the official Best Buddies event page, first come, first served. Volunteers selling raffle tickets are not given game admission.",
+      "lastVerified": "2026-11-02T18:00:00Z",
+      "verificationMethod": "Official organizer dated event and eligibility details reviewed November 2, 2026.",
+      "endTimeUnconfirmed": true
     },
     {
       "timezone": "America/New_York",
@@ -22789,6 +23159,37 @@
       "sourceUrl": "https://www.bushnell.org/events/detail/sensory-friendly-relaxed-discover-the-sound-with-the-hartford-symphony-orchestra-session-1-workshops-sfhso1",
       "registration": "Tickets are scheduled to go on sale November 20 at 10 a.m.",
       "category": "Accessible arts"
+    },
+    {
+      "id": "a2cf-valentine-party-2027-02-13",
+      "title": "Access 2 Community & Friendship — Valentine's Day Party",
+      "start": "2027-02-13T18:00:00-05:00",
+      "end": "2027-02-13T21:00:00-05:00",
+      "timezone": "America/New_York",
+      "state": "MA",
+      "city": "Somerville",
+      "venue": "Connexion",
+      "address": "149 Broadway, Somerville, MA 02145",
+      "sourceId": "a2cf",
+      "sourceUrl": "https://access2communityandfriendship.com/event/valentines-day-party/",
+      "ticketUrl": null,
+      "status": "scheduled",
+      "reviewRequired": false,
+      "category": "Social activities",
+      "format": "In person",
+      "cancellationPolicy": "Check the organizer's cancellation, ticket and attendance terms before registering.",
+      "notes": [
+        "Music, refreshments, quiet areas and other event details were not published."
+      ],
+      "cost": "Event cost not published; ask A2CF before attending.",
+      "ages": "Adults 22+ with and without intellectual or developmental disabilities, per A2CF program.",
+      "summary": "A Valentine's-season community party hosted by Access 2 Community and Friendship for adults.",
+      "accessibility": [
+        "Adult-inclusive social program."
+      ],
+      "registration": "Contact organizer to confirm RSVP, cost, participant support and access needs.",
+      "lastVerified": "2026-11-02T18:00:00Z",
+      "verificationMethod": "Official organizer dated event and eligibility details reviewed November 2, 2026."
     },
     {
       "id": "springfield-sensory-2027-02-14",
@@ -23467,6 +23868,28 @@
       "lastKnown": "Additional holiday dates checked November 1, 2026; current event page could not be freshly retrieved",
       "sourceUrl": "https://www.autismeats.org/EVENTS.HTML",
       "organizerUrl": "https://www.autismeats.org/EVENTS.HTML"
+    },
+    {
+      "id": "best-buddies-citizens-nov-2026",
+      "title": "Best Buddies Citizens — November member-only social gatherings",
+      "state": "MA / RI",
+      "city": "Multiple locations and virtual",
+      "status": "November 2026 member schedule; attendance requires approved Citizens membership",
+      "lastKnown": "Organizer's November 2026 MA/RI Citizens social calendar image plus official membership policy, checked November 2, 2026.",
+      "note": "The organizer's November post lists a Nov 5 virtual Buddy Network; Nov 12 Friendsgivings in Boston, Worcester and Western MA; Nov 14 Rhode Island farmers market; and Nov 18 virtual Lunch Bunch. Exact times, venues, costs and attendance requirements per session are not public. These are not open drop-in events: adults 18+ must have an active, approved Best Buddies Citizens membership and background check; apply and ask for the complete schedule at bestbuddies.org/join. The public Nov 19 Party for a Purpose is a separate dated calendar listing.",
+      "sourceUrl": "https://www.bestbuddies.org/mari/citizens",
+      "organizerUrl": "https://www.bestbuddies.org/mari/events/"
+    },
+    {
+      "id": "best-buddies-friendship-walks-2027",
+      "title": "Best Buddies Friendship Walks — Massachusetts & Rhode Island 2027",
+      "state": "MA / RI",
+      "city": "Statewide",
+      "status": "Spring and fall 2027 — individual dates and routes not yet confirmed",
+      "lastKnown": "Best Buddies MA/RI public events page checked November 2, 2026.",
+      "note": "Public community fundraising walks supporting inclusion; official listing says Spring and Fall 2027 but local walk dates, routes and registration details have not yet been confirmed. Keep on watchlist until the organizer announces each dated event.",
+      "sourceUrl": "https://www.bestbuddies.org/mari/events/",
+      "organizerUrl": "https://www.bestbuddies.org/mari/events/"
     }
   ],
   "freePrograms": [
