@@ -1465,14 +1465,14 @@
           "summary": "ASL ushers/interpreted announcements"
         }
       },
-      "checkedAt": "2026-10-04",
+      "checkedAt": "2026-11-02",
       "sensory": {
         "level": "moderate",
         "note": "A live ballet with restricted stage noise, partly lit seating and no strobes. Music and audience sounds remain; quiet spaces are available.",
         "sourceUrl": "https://www.bostonballet.org/performances/sensory-friendly-nutcracker/",
         "checkedAt": "2026-10-06",
         "basis": "Editorial planning estimate from organizer details",
-        "sourceDetailsCheckedAt": "2026-10-03"
+        "sourceDetailsCheckedAt": "2026-11-02"
       },
       "holidays": [
         "christmas",
@@ -22537,6 +22537,40 @@
         "min": null,
         "max": null,
         "kind": "not-stated"
+      }
+    },
+    "patriot-small-singers-2026-11-17": {
+      "ageGroups": [
+        "children",
+        "families"
+      ],
+      "ageRange": {
+        "min": 0,
+        "max": 5,
+        "kind": "recommended"
+      },
+      "ageEvidence": {
+        "children": {
+          "url": "https://www.patriot-place.com/events/slices-with-miss-stacy-small-singers-shakers/",
+          "summary": "Activity designed for ages 0–5; all ages welcome with adult accompaniment."
+        },
+        "families": {
+          "url": "https://www.patriot-place.com/events/slices-with-miss-stacy-small-singers-shakers/",
+          "summary": "Activity designed for ages 0–5; all ages welcome with adult accompaniment."
+        }
+      },
+      "accessFeatures": [],
+      "accessEvidence": {},
+      "holidays": [],
+      "holidayEvidence": {},
+      "checkedAt": "2026-11-02",
+      "sensory": {
+        "level": "unknown",
+        "note": "General family music with bells, shakers and guitar; no sensory adjustments published. Not a designated sensory-friendly event.",
+        "sourceUrl": "https://www.patriot-place.com/events/slices-with-miss-stacy-small-singers-shakers/",
+        "checkedAt": "2026-11-02",
+        "sourceDetailsCheckedAt": "2026-11-02",
+        "basis": "Organizer describes music and movement; sound levels and lighting are not specified."
       }
     }
   },

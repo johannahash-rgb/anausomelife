@@ -288,8 +288,8 @@
       "alt": "A traditional wooden nutcracker, ballet slippers, pine and a velvet curtain.",
       "width": 720,
       "height": 480,
-      "title": "Sensory Friendly Nutcracker",
-      "venue": "Citizens Bank Opera House",
+      "title": "Boston Ballet’s Sensory Friendly Nutcracker",
+      "venue": "Citizens Opera House",
       "start": "2026-12-04T13:30:00-05:00"
     },
     "bcm-2026-12-05": {
@@ -5529,6 +5529,16 @@
       "title": "National Lampoon's Christmas Vacation — Open-captioned screening",
       "venue": "Prospector Theater",
       "start": "2026-12-16T19:00:00-05:00",
+      "reusedFromEvent": "bcm-2026-10-03"
+    },
+    "patriot-small-singers-2026-11-17": {
+      "src": "/assets/event-sketches/morningstar-museum.webp",
+      "alt": "Ink-and-watercolor study of wooden building forms and a prism in morning light.",
+      "width": 720,
+      "height": 480,
+      "title": "Small Singers & Shakers with Miss Stacy",
+      "venue": "Citizen Crust at Patriot Place",
+      "start": "2026-11-17T10:30:00-05:00",
       "reusedFromEvent": "bcm-2026-10-03"
     }
   },

@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-11-02T00:12:00Z",
-  "lastEditorialReview": "2026-11-02T00:12:00Z",
+  "generatedAt": "2026-11-02T00:51:00Z",
+  "lastEditorialReview": "2026-11-02T00:51:00Z",
   "timezone": "America/New_York",
   "coverage": "Selected New England adaptive and sensory-friendly events, with a verified free-admission filter and free-program directory. Not exhaustive.",
   "refresh": {
@@ -4141,6 +4141,23 @@
       "feedVerified": false,
       "sourceCheckedAt": "2026-11-02T00:10:00Z",
       "lastChecked": "2026-11-02T00:10:00Z",
+      "status": "manually-checked"
+    },
+    {
+      "id": "patriot-place-small-singers",
+      "name": "Patriot Place — Small Singers & Shakers",
+      "state": "MA",
+      "url": "https://www.patriot-place.com/events/slices-with-miss-stacy-small-singers-shakers/",
+      "mode": "check",
+      "enabled": true,
+      "timezone": "America/New_York",
+      "allowedHosts": [
+        "www.patriot-place.com"
+      ],
+      "autoPublish": false,
+      "feedVerified": false,
+      "sourceCheckedAt": "2026-11-02T00:52:00Z",
+      "lastChecked": "2026-11-02T00:52:00Z",
       "status": "manually-checked"
     }
   ],
@@ -12729,6 +12746,39 @@
       "costCategory": "unknown"
     },
     {
+      "id": "patriot-small-singers-2026-11-17",
+      "title": "Small Singers & Shakers with Miss Stacy",
+      "start": "2026-11-17T10:30:00-05:00",
+      "end": "2026-11-17T11:30:00-05:00",
+      "timezone": "America/New_York",
+      "state": "MA",
+      "city": "Foxborough",
+      "venue": "Citizen Crust at Patriot Place",
+      "address": "229 Patriot Place, Foxborough, MA 02035",
+      "sourceId": "patriot-place-small-singers",
+      "sourceUrl": "https://www.patriot-place.com/events/slices-with-miss-stacy-small-singers-shakers/",
+      "ticketUrl": null,
+      "status": "scheduled",
+      "reviewRequired": false,
+      "category": "General family event — not designated sensory-friendly",
+      "format": "In person",
+      "cancellationPolicy": "Confirm changes with Patriot Place before traveling.",
+      "cost": "Free; optional food purchases are separate.",
+      "costCategory": "free",
+      "ages": "Music and movement designed for ages 0–5; organizer welcomes all ages. Children must be accompanied by an adult.",
+      "summary": "General family music and movement, not a designated sensory-friendly session. Miss Stacy leads guitar songs, dancing and activities with bells, shaker eggs and scarves for ages 0–5. Timing conflict: the official website lists 10:30–11:30 a.m.; a promotional image says 11 a.m. Confirm the start time before attending.",
+      "accessibility": [
+        "No specific sensory modifications or disability-access arrangements are published for this session.",
+        "Expect participatory music, bells, shakers and movement."
+      ],
+      "registration": "The official event page does not specify registration or capacity. Confirm timing and any reservation requirements with Patriot Place at 508-203-2100.",
+      "notes": [
+        "The date is Tuesday, November 17, 2026. Calendar uses the official event page’s 10:30 a.m. start; promotional artwork differs."
+      ],
+      "lastVerified": "2026-11-02T00:52:00Z",
+      "verificationMethod": "Official Patriot Place dated event page and user-provided promotional image reviewed."
+    },
+    {
       "id": "simsbury-sensory-2026-11-17",
       "title": "Sensory Friendly Storytime",
       "start": "2026-11-17T10:30:00-05:00",
@@ -16432,20 +16482,24 @@
       "timezone": "America/New_York",
       "ticketUrl": "https://www.bostonballet.org/performances/sensory-friendly-nutcracker/",
       "cancellationPolicy": "Not stated in the checked listing; confirm with the organizer.",
-      "notes": [],
-      "lastVerified": "2026-10-03T11:04:00Z",
-      "verificationMethod": "Official organizer/event page reviewed",
+      "notes": [
+        "Pre-show children’s lobby activities begin at noon. The 80-minute performance includes a 20-minute intermission.",
+        "Quiet spaces are in the lower-lobby VIP lounge. Soothing devices, including iPads, are permitted.",
+        "The official ticket link was published when checked; live prices and remaining seats could not be verified because the ticket site required a security check."
+      ],
+      "lastVerified": "2026-11-02T00:51:00Z",
+      "verificationMethod": "Official 2026 event page reviewed in the browser; ticket inventory not verified.",
       "reviewRequired": false,
       "status": "scheduled",
       "format": "In person",
       "category": "Accessible arts",
       "id": "boston-ballet-2026-12-04",
-      "title": "Sensory Friendly Nutcracker",
+      "title": "Boston Ballet’s Sensory Friendly Nutcracker",
       "start": "2026-12-04T13:30:00-05:00",
       "end": "2026-12-04T14:50:00-05:00",
       "state": "MA",
       "city": "Boston",
-      "venue": "Citizens Bank Opera House",
+      "venue": "Citizens Opera House",
       "address": "539 Washington Street, Boston, MA 02111",
       "cost": "Ticketed; check current seat availability/pricing",
       "ages": "Neurodiverse guests, people with sensory sensitivities, and anyone needing additional accessibility accommodations",
@@ -16461,7 +16515,7 @@
       ],
       "sourceId": "boston-ballet",
       "sourceUrl": "https://www.bostonballet.org/performances/sensory-friendly-nutcracker/",
-      "registration": "Tickets required.",
+      "registration": "Tickets required. Select the December 4, 1:30 p.m. sensory-friendly performance. For ASL interpretation, choose Orchestra front-left seats. Request audio-description headsets in advance from tickets@bostonballet.org, stating the number needed. Current prices and remaining seats must be confirmed with the box office.",
       "visualStory": {
         "arrival": "We can enter the Opera House and ask an usher for the elevator, accessible seating or other help.",
         "activity": "The ballet lasts about 80 minutes including intermission. Lights will not go completely dark and loud/strobe effects are reduced.",
