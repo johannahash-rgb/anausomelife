@@ -20272,6 +20272,1209 @@
         "max": null,
         "kind": "not-stated"
       }
+    },
+    "amc-147928921": {
+      "ageGroups": [
+        "children",
+        "teens",
+        "adults",
+        "families"
+      ],
+      "ageRange": {
+        "min": null,
+        "max": null,
+        "kind": "not-stated"
+      },
+      "accessFeatures": [
+        "sensory-friendly",
+        "hearing-support",
+        "vision-support"
+      ],
+      "holidays": [],
+      "sensory": {
+        "level": "low",
+        "basis": "Organizer-designated sensory screening with raised lighting and reduced sound; film content may still be intense.",
+        "note": "Organizer-designated sensory screening with raised lighting and reduced sound; film content may still be intense.",
+        "sourceUrl": "https://www.amctheatres.com/movie-theatres/danbury/amc-danbury-16/showtimes?date=2026-11-14",
+        "checkedAt": "2026-11-01",
+        "sourceDetailsCheckedAt": "2026-11-01"
+      },
+      "ageEvidence": {
+        "children": {
+          "url": "https://www.amctheatres.com/movie-theatres/danbury/amc-danbury-16/showtimes?date=2026-11-14",
+          "evidenceId": "amc-danbury-sensory"
+        },
+        "teens": {
+          "url": "https://www.amctheatres.com/movie-theatres/danbury/amc-danbury-16/showtimes?date=2026-11-14",
+          "evidenceId": "amc-danbury-sensory"
+        },
+        "adults": {
+          "url": "https://www.amctheatres.com/movie-theatres/danbury/amc-danbury-16/showtimes?date=2026-11-14",
+          "evidenceId": "amc-danbury-sensory"
+        },
+        "families": {
+          "url": "https://www.amctheatres.com/movie-theatres/danbury/amc-danbury-16/showtimes?date=2026-11-14",
+          "evidenceId": "amc-danbury-sensory"
+        }
+      },
+      "accessEvidence": {
+        "sensory-friendly": {
+          "url": "https://www.amctheatres.com/movie-theatres/danbury/amc-danbury-16/showtimes?date=2026-11-14",
+          "evidenceId": "amc-danbury-sensory"
+        },
+        "hearing-support": {
+          "url": "https://www.amctheatres.com/movie-theatres/danbury/amc-danbury-16/showtimes?date=2026-11-14",
+          "evidenceId": "amc-danbury-sensory"
+        },
+        "vision-support": {
+          "url": "https://www.amctheatres.com/movie-theatres/danbury/amc-danbury-16/showtimes?date=2026-11-14",
+          "evidenceId": "amc-danbury-sensory"
+        }
+      },
+      "holidayEvidence": {},
+      "checkedAt": "2026-11-01"
+    },
+    "amc-147913171": {
+      "ageGroups": [
+        "children",
+        "teens",
+        "adults",
+        "families"
+      ],
+      "ageRange": {
+        "min": null,
+        "max": null,
+        "kind": "not-stated"
+      },
+      "accessFeatures": [
+        "sensory-friendly",
+        "hearing-support",
+        "vision-support"
+      ],
+      "holidays": [],
+      "sensory": {
+        "level": "low",
+        "basis": "Organizer-designated sensory screening with raised lighting and reduced sound; film content may still be intense.",
+        "note": "Organizer-designated sensory screening with raised lighting and reduced sound; film content may still be intense.",
+        "sourceUrl": "https://www.amctheatres.com/movie-theatres/new-york-city/amc-sono-8/showtimes?date=2026-11-14",
+        "checkedAt": "2026-11-01",
+        "sourceDetailsCheckedAt": "2026-11-01"
+      },
+      "ageEvidence": {
+        "children": {
+          "url": "https://www.amctheatres.com/movie-theatres/new-york-city/amc-sono-8/showtimes?date=2026-11-14",
+          "evidenceId": "amc-norwalk-sensory"
+        },
+        "teens": {
+          "url": "https://www.amctheatres.com/movie-theatres/new-york-city/amc-sono-8/showtimes?date=2026-11-14",
+          "evidenceId": "amc-norwalk-sensory"
+        },
+        "adults": {
+          "url": "https://www.amctheatres.com/movie-theatres/new-york-city/amc-sono-8/showtimes?date=2026-11-14",
+          "evidenceId": "amc-norwalk-sensory"
+        },
+        "families": {
+          "url": "https://www.amctheatres.com/movie-theatres/new-york-city/amc-sono-8/showtimes?date=2026-11-14",
+          "evidenceId": "amc-norwalk-sensory"
+        }
+      },
+      "accessEvidence": {
+        "sensory-friendly": {
+          "url": "https://www.amctheatres.com/movie-theatres/new-york-city/amc-sono-8/showtimes?date=2026-11-14",
+          "evidenceId": "amc-norwalk-sensory"
+        },
+        "hearing-support": {
+          "url": "https://www.amctheatres.com/movie-theatres/new-york-city/amc-sono-8/showtimes?date=2026-11-14",
+          "evidenceId": "amc-norwalk-sensory"
+        },
+        "vision-support": {
+          "url": "https://www.amctheatres.com/movie-theatres/new-york-city/amc-sono-8/showtimes?date=2026-11-14",
+          "evidenceId": "amc-norwalk-sensory"
+        }
+      },
+      "holidayEvidence": {},
+      "checkedAt": "2026-11-01"
+    },
+    "amc-147913175": {
+      "ageGroups": [
+        "adults"
+      ],
+      "ageRange": {
+        "min": null,
+        "max": null,
+        "kind": "not-stated"
+      },
+      "accessFeatures": [
+        "sensory-friendly"
+      ],
+      "holidays": [],
+      "sensory": {
+        "level": "variable",
+        "basis": "Organizer-designated sensory screening with raised lighting and reduced sound; film content may still be intense.",
+        "note": "Organizer-designated sensory screening with raised lighting and reduced sound; film content may still be intense.",
+        "sourceUrl": "https://www.amctheatres.com/movie-theatres/new-york-city/amc-sono-8/showtimes?date=2026-11-11",
+        "checkedAt": "2026-11-01",
+        "sourceDetailsCheckedAt": "2026-11-01"
+      },
+      "ageEvidence": {
+        "adults": {
+          "url": "https://www.amctheatres.com/movie-theatres/new-york-city/amc-sono-8/showtimes?date=2026-11-11",
+          "evidenceId": "amc-norwalk-sensory"
+        }
+      },
+      "accessEvidence": {
+        "sensory-friendly": {
+          "url": "https://www.amctheatres.com/movie-theatres/new-york-city/amc-sono-8/showtimes?date=2026-11-11",
+          "evidenceId": "amc-norwalk-sensory"
+        }
+      },
+      "holidayEvidence": {},
+      "checkedAt": "2026-11-01"
+    },
+    "amc-147913172": {
+      "ageGroups": [
+        "children",
+        "teens",
+        "adults",
+        "families"
+      ],
+      "ageRange": {
+        "min": null,
+        "max": null,
+        "kind": "not-stated"
+      },
+      "accessFeatures": [
+        "sensory-friendly",
+        "hearing-support",
+        "vision-support"
+      ],
+      "holidays": [],
+      "sensory": {
+        "level": "low",
+        "basis": "Organizer-designated sensory screening with raised lighting and reduced sound; film content may still be intense.",
+        "note": "Organizer-designated sensory screening with raised lighting and reduced sound; film content may still be intense.",
+        "sourceUrl": "https://www.amctheatres.com/movie-theatres/new-york-city/amc-sono-8/showtimes?date=2026-12-12",
+        "checkedAt": "2026-11-01",
+        "sourceDetailsCheckedAt": "2026-11-01"
+      },
+      "ageEvidence": {
+        "children": {
+          "url": "https://www.amctheatres.com/movie-theatres/new-york-city/amc-sono-8/showtimes?date=2026-12-12",
+          "evidenceId": "amc-norwalk-sensory"
+        },
+        "teens": {
+          "url": "https://www.amctheatres.com/movie-theatres/new-york-city/amc-sono-8/showtimes?date=2026-12-12",
+          "evidenceId": "amc-norwalk-sensory"
+        },
+        "adults": {
+          "url": "https://www.amctheatres.com/movie-theatres/new-york-city/amc-sono-8/showtimes?date=2026-12-12",
+          "evidenceId": "amc-norwalk-sensory"
+        },
+        "families": {
+          "url": "https://www.amctheatres.com/movie-theatres/new-york-city/amc-sono-8/showtimes?date=2026-12-12",
+          "evidenceId": "amc-norwalk-sensory"
+        }
+      },
+      "accessEvidence": {
+        "sensory-friendly": {
+          "url": "https://www.amctheatres.com/movie-theatres/new-york-city/amc-sono-8/showtimes?date=2026-12-12",
+          "evidenceId": "amc-norwalk-sensory"
+        },
+        "hearing-support": {
+          "url": "https://www.amctheatres.com/movie-theatres/new-york-city/amc-sono-8/showtimes?date=2026-12-12",
+          "evidenceId": "amc-norwalk-sensory"
+        },
+        "vision-support": {
+          "url": "https://www.amctheatres.com/movie-theatres/new-york-city/amc-sono-8/showtimes?date=2026-12-12",
+          "evidenceId": "amc-norwalk-sensory"
+        }
+      },
+      "holidayEvidence": {},
+      "checkedAt": "2026-11-01"
+    },
+    "amc-147928922": {
+      "ageGroups": [
+        "children",
+        "teens",
+        "adults",
+        "families"
+      ],
+      "ageRange": {
+        "min": null,
+        "max": null,
+        "kind": "not-stated"
+      },
+      "accessFeatures": [
+        "sensory-friendly",
+        "hearing-support",
+        "vision-support"
+      ],
+      "holidays": [],
+      "sensory": {
+        "level": "low",
+        "basis": "Organizer-designated sensory screening with raised lighting and reduced sound; film content may still be intense.",
+        "note": "Organizer-designated sensory screening with raised lighting and reduced sound; film content may still be intense.",
+        "sourceUrl": "https://www.amctheatres.com/movie-theatres/danbury/amc-danbury-16/showtimes?date=2026-12-12",
+        "checkedAt": "2026-11-01",
+        "sourceDetailsCheckedAt": "2026-11-01"
+      },
+      "ageEvidence": {
+        "children": {
+          "url": "https://www.amctheatres.com/movie-theatres/danbury/amc-danbury-16/showtimes?date=2026-12-12",
+          "evidenceId": "amc-danbury-sensory"
+        },
+        "teens": {
+          "url": "https://www.amctheatres.com/movie-theatres/danbury/amc-danbury-16/showtimes?date=2026-12-12",
+          "evidenceId": "amc-danbury-sensory"
+        },
+        "adults": {
+          "url": "https://www.amctheatres.com/movie-theatres/danbury/amc-danbury-16/showtimes?date=2026-12-12",
+          "evidenceId": "amc-danbury-sensory"
+        },
+        "families": {
+          "url": "https://www.amctheatres.com/movie-theatres/danbury/amc-danbury-16/showtimes?date=2026-12-12",
+          "evidenceId": "amc-danbury-sensory"
+        }
+      },
+      "accessEvidence": {
+        "sensory-friendly": {
+          "url": "https://www.amctheatres.com/movie-theatres/danbury/amc-danbury-16/showtimes?date=2026-12-12",
+          "evidenceId": "amc-danbury-sensory"
+        },
+        "hearing-support": {
+          "url": "https://www.amctheatres.com/movie-theatres/danbury/amc-danbury-16/showtimes?date=2026-12-12",
+          "evidenceId": "amc-danbury-sensory"
+        },
+        "vision-support": {
+          "url": "https://www.amctheatres.com/movie-theatres/danbury/amc-danbury-16/showtimes?date=2026-12-12",
+          "evidenceId": "amc-danbury-sensory"
+        }
+      },
+      "holidayEvidence": {},
+      "checkedAt": "2026-11-01"
+    },
+    "amc-147497089": {
+      "ageGroups": [
+        "adults"
+      ],
+      "ageRange": {
+        "min": null,
+        "max": null,
+        "kind": "not-stated"
+      },
+      "accessFeatures": [
+        "sensory-friendly"
+      ],
+      "holidays": [],
+      "sensory": {
+        "level": "variable",
+        "basis": "Organizer-designated sensory screening with raised lighting and reduced sound; film content may still be intense.",
+        "note": "Organizer-designated sensory screening with raised lighting and reduced sound; film content may still be intense.",
+        "sourceUrl": "https://www.amctheatres.com/movie-theatres/danbury/amc-danbury-16/showtimes?date=2026-11-11",
+        "checkedAt": "2026-11-01",
+        "sourceDetailsCheckedAt": "2026-11-01"
+      },
+      "ageEvidence": {
+        "adults": {
+          "url": "https://www.amctheatres.com/movie-theatres/danbury/amc-danbury-16/showtimes?date=2026-11-11",
+          "evidenceId": "amc-danbury-sensory"
+        }
+      },
+      "accessEvidence": {
+        "sensory-friendly": {
+          "url": "https://www.amctheatres.com/movie-theatres/danbury/amc-danbury-16/showtimes?date=2026-11-11",
+          "evidenceId": "amc-danbury-sensory"
+        }
+      },
+      "holidayEvidence": {},
+      "checkedAt": "2026-11-01"
+    },
+    "amc-148077404": {
+      "ageGroups": [
+        "teens",
+        "adults"
+      ],
+      "ageRange": {
+        "min": null,
+        "max": null,
+        "kind": "not-stated"
+      },
+      "accessFeatures": [
+        "sensory-friendly",
+        "hearing-support",
+        "vision-support"
+      ],
+      "holidays": [],
+      "sensory": {
+        "level": "variable",
+        "basis": "Organizer-designated sensory screening with raised lighting and reduced sound; film content may still be intense.",
+        "note": "Organizer-designated sensory screening with raised lighting and reduced sound; film content may still be intense.",
+        "sourceUrl": "https://www.amctheatres.com/movie-theatres/danbury/amc-danbury-16/showtimes?date=2026-11-25",
+        "checkedAt": "2026-11-01",
+        "sourceDetailsCheckedAt": "2026-11-01"
+      },
+      "ageEvidence": {
+        "teens": {
+          "url": "https://www.amctheatres.com/movie-theatres/danbury/amc-danbury-16/showtimes?date=2026-11-25",
+          "evidenceId": "amc-danbury-sensory"
+        },
+        "adults": {
+          "url": "https://www.amctheatres.com/movie-theatres/danbury/amc-danbury-16/showtimes?date=2026-11-25",
+          "evidenceId": "amc-danbury-sensory"
+        }
+      },
+      "accessEvidence": {
+        "sensory-friendly": {
+          "url": "https://www.amctheatres.com/movie-theatres/danbury/amc-danbury-16/showtimes?date=2026-11-25",
+          "evidenceId": "amc-danbury-sensory"
+        },
+        "hearing-support": {
+          "url": "https://www.amctheatres.com/movie-theatres/danbury/amc-danbury-16/showtimes?date=2026-11-25",
+          "evidenceId": "amc-danbury-sensory"
+        },
+        "vision-support": {
+          "url": "https://www.amctheatres.com/movie-theatres/danbury/amc-danbury-16/showtimes?date=2026-11-25",
+          "evidenceId": "amc-danbury-sensory"
+        }
+      },
+      "holidayEvidence": {},
+      "checkedAt": "2026-11-01"
+    },
+    "amc-147840657": {
+      "ageGroups": [
+        "children",
+        "teens",
+        "adults",
+        "families"
+      ],
+      "ageRange": {
+        "min": null,
+        "max": null,
+        "kind": "not-stated"
+      },
+      "accessFeatures": [
+        "sensory-friendly",
+        "hearing-support",
+        "vision-support"
+      ],
+      "holidays": [],
+      "sensory": {
+        "level": "low",
+        "basis": "Organizer-designated sensory screening with raised lighting and reduced sound; film content may still be intense.",
+        "note": "Organizer-designated sensory screening with raised lighting and reduced sound; film content may still be intense.",
+        "sourceUrl": "https://www.amctheatres.com/movie-theatres/plainville/amc-plainville-20/showtimes?date=2026-12-12",
+        "checkedAt": "2026-11-01",
+        "sourceDetailsCheckedAt": "2026-11-01"
+      },
+      "ageEvidence": {
+        "children": {
+          "url": "https://www.amctheatres.com/movie-theatres/plainville/amc-plainville-20/showtimes?date=2026-12-12",
+          "evidenceId": "amc-plainville-sensory"
+        },
+        "teens": {
+          "url": "https://www.amctheatres.com/movie-theatres/plainville/amc-plainville-20/showtimes?date=2026-12-12",
+          "evidenceId": "amc-plainville-sensory"
+        },
+        "adults": {
+          "url": "https://www.amctheatres.com/movie-theatres/plainville/amc-plainville-20/showtimes?date=2026-12-12",
+          "evidenceId": "amc-plainville-sensory"
+        },
+        "families": {
+          "url": "https://www.amctheatres.com/movie-theatres/plainville/amc-plainville-20/showtimes?date=2026-12-12",
+          "evidenceId": "amc-plainville-sensory"
+        }
+      },
+      "accessEvidence": {
+        "sensory-friendly": {
+          "url": "https://www.amctheatres.com/movie-theatres/plainville/amc-plainville-20/showtimes?date=2026-12-12",
+          "evidenceId": "amc-plainville-sensory"
+        },
+        "hearing-support": {
+          "url": "https://www.amctheatres.com/movie-theatres/plainville/amc-plainville-20/showtimes?date=2026-12-12",
+          "evidenceId": "amc-plainville-sensory"
+        },
+        "vision-support": {
+          "url": "https://www.amctheatres.com/movie-theatres/plainville/amc-plainville-20/showtimes?date=2026-12-12",
+          "evidenceId": "amc-plainville-sensory"
+        }
+      },
+      "holidayEvidence": {},
+      "checkedAt": "2026-11-01"
+    },
+    "amc-147475855": {
+      "ageGroups": [
+        "adults"
+      ],
+      "ageRange": {
+        "min": null,
+        "max": null,
+        "kind": "not-stated"
+      },
+      "accessFeatures": [
+        "sensory-friendly"
+      ],
+      "holidays": [],
+      "sensory": {
+        "level": "variable",
+        "basis": "Organizer-designated sensory screening with raised lighting and reduced sound; film content may still be intense.",
+        "note": "Organizer-designated sensory screening with raised lighting and reduced sound; film content may still be intense.",
+        "sourceUrl": "https://www.amctheatres.com/movie-theatres/plainville/amc-plainville-20/showtimes?date=2026-11-11",
+        "checkedAt": "2026-11-01",
+        "sourceDetailsCheckedAt": "2026-11-01"
+      },
+      "ageEvidence": {
+        "adults": {
+          "url": "https://www.amctheatres.com/movie-theatres/plainville/amc-plainville-20/showtimes?date=2026-11-11",
+          "evidenceId": "amc-plainville-sensory"
+        }
+      },
+      "accessEvidence": {
+        "sensory-friendly": {
+          "url": "https://www.amctheatres.com/movie-theatres/plainville/amc-plainville-20/showtimes?date=2026-11-11",
+          "evidenceId": "amc-plainville-sensory"
+        }
+      },
+      "holidayEvidence": {},
+      "checkedAt": "2026-11-01"
+    },
+    "amc-147840494": {
+      "ageGroups": [
+        "children",
+        "teens",
+        "adults",
+        "families"
+      ],
+      "ageRange": {
+        "min": null,
+        "max": null,
+        "kind": "not-stated"
+      },
+      "accessFeatures": [
+        "sensory-friendly",
+        "hearing-support",
+        "vision-support"
+      ],
+      "holidays": [],
+      "sensory": {
+        "level": "low",
+        "basis": "Organizer-designated sensory screening with raised lighting and reduced sound; film content may still be intense.",
+        "note": "Organizer-designated sensory screening with raised lighting and reduced sound; film content may still be intense.",
+        "sourceUrl": "https://www.amctheatres.com/movie-theatres/plainville/amc-plainville-20/showtimes?date=2026-11-14",
+        "checkedAt": "2026-11-01",
+        "sourceDetailsCheckedAt": "2026-11-01"
+      },
+      "ageEvidence": {
+        "children": {
+          "url": "https://www.amctheatres.com/movie-theatres/plainville/amc-plainville-20/showtimes?date=2026-11-14",
+          "evidenceId": "amc-plainville-sensory"
+        },
+        "teens": {
+          "url": "https://www.amctheatres.com/movie-theatres/plainville/amc-plainville-20/showtimes?date=2026-11-14",
+          "evidenceId": "amc-plainville-sensory"
+        },
+        "adults": {
+          "url": "https://www.amctheatres.com/movie-theatres/plainville/amc-plainville-20/showtimes?date=2026-11-14",
+          "evidenceId": "amc-plainville-sensory"
+        },
+        "families": {
+          "url": "https://www.amctheatres.com/movie-theatres/plainville/amc-plainville-20/showtimes?date=2026-11-14",
+          "evidenceId": "amc-plainville-sensory"
+        }
+      },
+      "accessEvidence": {
+        "sensory-friendly": {
+          "url": "https://www.amctheatres.com/movie-theatres/plainville/amc-plainville-20/showtimes?date=2026-11-14",
+          "evidenceId": "amc-plainville-sensory"
+        },
+        "hearing-support": {
+          "url": "https://www.amctheatres.com/movie-theatres/plainville/amc-plainville-20/showtimes?date=2026-11-14",
+          "evidenceId": "amc-plainville-sensory"
+        },
+        "vision-support": {
+          "url": "https://www.amctheatres.com/movie-theatres/plainville/amc-plainville-20/showtimes?date=2026-11-14",
+          "evidenceId": "amc-plainville-sensory"
+        }
+      },
+      "holidayEvidence": {},
+      "checkedAt": "2026-11-01"
+    },
+    "amc-148059022": {
+      "ageGroups": [
+        "teens",
+        "adults"
+      ],
+      "ageRange": {
+        "min": null,
+        "max": null,
+        "kind": "not-stated"
+      },
+      "accessFeatures": [
+        "sensory-friendly",
+        "hearing-support",
+        "vision-support"
+      ],
+      "holidays": [],
+      "sensory": {
+        "level": "variable",
+        "basis": "Organizer-designated sensory screening with raised lighting and reduced sound; film content may still be intense.",
+        "note": "Organizer-designated sensory screening with raised lighting and reduced sound; film content may still be intense.",
+        "sourceUrl": "https://www.amctheatres.com/movie-theatres/hartford-new-haven/amc-classic-lisbon-12/showtimes?date=2026-11-25",
+        "checkedAt": "2026-11-01",
+        "sourceDetailsCheckedAt": "2026-11-01"
+      },
+      "ageEvidence": {
+        "teens": {
+          "url": "https://www.amctheatres.com/movie-theatres/hartford-new-haven/amc-classic-lisbon-12/showtimes?date=2026-11-25",
+          "evidenceId": "amc-lisbon-sensory"
+        },
+        "adults": {
+          "url": "https://www.amctheatres.com/movie-theatres/hartford-new-haven/amc-classic-lisbon-12/showtimes?date=2026-11-25",
+          "evidenceId": "amc-lisbon-sensory"
+        }
+      },
+      "accessEvidence": {
+        "sensory-friendly": {
+          "url": "https://www.amctheatres.com/movie-theatres/hartford-new-haven/amc-classic-lisbon-12/showtimes?date=2026-11-25",
+          "evidenceId": "amc-lisbon-sensory"
+        },
+        "hearing-support": {
+          "url": "https://www.amctheatres.com/movie-theatres/hartford-new-haven/amc-classic-lisbon-12/showtimes?date=2026-11-25",
+          "evidenceId": "amc-lisbon-sensory"
+        },
+        "vision-support": {
+          "url": "https://www.amctheatres.com/movie-theatres/hartford-new-haven/amc-classic-lisbon-12/showtimes?date=2026-11-25",
+          "evidenceId": "amc-lisbon-sensory"
+        }
+      },
+      "holidayEvidence": {},
+      "checkedAt": "2026-11-01"
+    },
+    "music-hall-mary-poppins-asl-2026-12-11": {
+      "ageGroups": [
+        "all-ages"
+      ],
+      "accessFeatures": [
+        "hearing-support"
+      ],
+      "holidays": [],
+      "sensory": {
+        "level": "unknown",
+        "basis": "Deaf-accessible community event; reduced sound and lighting are not advertised.",
+        "note": "Deaf-accessible community event; reduced sound and lighting are not advertised.",
+        "sourceUrl": "https://www.themusichall.org/marypoppins/",
+        "checkedAt": "2026-11-01",
+        "sourceDetailsCheckedAt": "2026-11-01"
+      },
+      "ageRange": {
+        "min": null,
+        "max": null,
+        "kind": "unspecified"
+      },
+      "ageEvidence": {
+        "all-ages": {
+          "url": "https://www.themusichall.org/marypoppins/",
+          "evidenceId": "music-hall-mary-poppins-asl"
+        }
+      },
+      "accessEvidence": {
+        "hearing-support": {
+          "url": "https://www.themusichall.org/marypoppins/",
+          "evidenceId": "music-hall-mary-poppins-asl"
+        }
+      },
+      "holidayEvidence": {},
+      "checkedAt": "2026-11-01"
+    },
+    "gibsons-braided-river-asl-2026-12-01": {
+      "ageGroups": [
+        "all-ages"
+      ],
+      "accessFeatures": [
+        "hearing-support"
+      ],
+      "holidays": [],
+      "sensory": {
+        "level": "unknown",
+        "basis": "Deaf-accessible community event; reduced sound and lighting are not advertised.",
+        "note": "Deaf-accessible community event; reduced sound and lighting are not advertised.",
+        "sourceUrl": "https://gibsonsbookstore.com/event/braided-river",
+        "checkedAt": "2026-11-01",
+        "sourceDetailsCheckedAt": "2026-11-01"
+      },
+      "ageRange": {
+        "min": null,
+        "max": null,
+        "kind": "unspecified"
+      },
+      "ageEvidence": {
+        "all-ages": {
+          "url": "https://gibsonsbookstore.com/event/braided-river",
+          "evidenceId": "gibsons-braided-river-asl"
+        }
+      },
+      "accessEvidence": {
+        "hearing-support": {
+          "url": "https://gibsonsbookstore.com/event/braided-river",
+          "evidenceId": "gibsons-braided-river-asl"
+        }
+      },
+      "holidayEvidence": {},
+      "checkedAt": "2026-11-01"
+    },
+    "nhad-coffee-chat-2026-11-07": {
+      "ageGroups": [
+        "all-ages"
+      ],
+      "accessFeatures": [],
+      "holidays": [],
+      "sensory": {
+        "level": "unknown",
+        "basis": "Deaf-accessible community event; reduced sound and lighting are not advertised.",
+        "note": "Deaf-accessible community event; reduced sound and lighting are not advertised.",
+        "sourceUrl": "https://nhadinc.org/2026/09/17/nhad-coffee-chat-at-pressed-cafe-nov-7/",
+        "checkedAt": "2026-11-01",
+        "sourceDetailsCheckedAt": "2026-11-01"
+      },
+      "ageRange": {
+        "min": null,
+        "max": null,
+        "kind": "unspecified"
+      },
+      "ageEvidence": {
+        "all-ages": {
+          "url": "https://nhadinc.org/2026/09/17/nhad-coffee-chat-at-pressed-cafe-nov-7/",
+          "evidenceId": "nhad-coffee-chat"
+        }
+      },
+      "accessEvidence": {},
+      "holidayEvidence": {},
+      "checkedAt": "2026-11-01"
+    },
+    "nhad-deaf-santa-party-2026-12-19": {
+      "ageGroups": [
+        "all-ages"
+      ],
+      "accessFeatures": [],
+      "holidays": [
+        "christmas",
+        "santa",
+        "winter-holidays"
+      ],
+      "sensory": {
+        "level": "unknown",
+        "basis": "Deaf-accessible community event; reduced sound and lighting are not advertised.",
+        "note": "Deaf-accessible community event; reduced sound and lighting are not advertised.",
+        "sourceUrl": "https://nhadinc.org/2026/08/22/holiday-party-2/",
+        "checkedAt": "2026-11-01",
+        "sourceDetailsCheckedAt": "2026-11-01"
+      },
+      "ageRange": {
+        "min": null,
+        "max": null,
+        "kind": "unspecified"
+      },
+      "ageEvidence": {
+        "all-ages": {
+          "url": "https://nhadinc.org/2026/08/22/holiday-party-2/",
+          "evidenceId": "nhad-deaf-santa-party"
+        }
+      },
+      "accessEvidence": {},
+      "holidayEvidence": {
+        "christmas": {
+          "url": "https://nhadinc.org/2026/08/22/holiday-party-2/",
+          "evidenceId": "nhad-deaf-santa-party"
+        },
+        "santa": {
+          "url": "https://nhadinc.org/2026/08/22/holiday-party-2/",
+          "evidenceId": "nhad-deaf-santa-party"
+        },
+        "winter-holidays": {
+          "url": "https://nhadinc.org/2026/08/22/holiday-party-2/",
+          "evidenceId": "nhad-deaf-santa-party"
+        }
+      },
+      "checkedAt": "2026-11-01"
+    },
+    "bushnell-boop-the-musical-11-13": {
+      "ageGroups": [
+        "children",
+        "teens",
+        "adults",
+        "families"
+      ],
+      "accessFeatures": [
+        "hearing-support"
+      ],
+      "holidays": [],
+      "sensory": {
+        "level": "unknown",
+        "note": "Inclusive program; specific sound and lighting conditions are not confirmed.",
+        "sourceUrl": "https://www.bushnell.org/events/detail/boop-the-musical",
+        "checkedAt": "2026-11-01",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-11-01"
+      },
+      "ageEvidence": {
+        "children": {
+          "url": "https://www.bushnell.org/events/detail/boop-the-musical",
+          "evidenceId": "bushnell-boop-the-musical"
+        },
+        "teens": {
+          "url": "https://www.bushnell.org/events/detail/boop-the-musical",
+          "evidenceId": "bushnell-boop-the-musical"
+        },
+        "adults": {
+          "url": "https://www.bushnell.org/events/detail/boop-the-musical",
+          "evidenceId": "bushnell-boop-the-musical"
+        },
+        "families": {
+          "url": "https://www.bushnell.org/events/detail/boop-the-musical",
+          "evidenceId": "bushnell-boop-the-musical"
+        }
+      },
+      "accessEvidence": {
+        "hearing-support": {
+          "url": "https://www.bushnell.org/events/detail/boop-the-musical",
+          "evidenceId": "bushnell-boop-the-musical"
+        }
+      },
+      "holidayEvidence": {},
+      "checkedAt": "2026-11-01",
+      "ageRange": {
+        "min": null,
+        "max": null,
+        "kind": "not-stated"
+      }
+    },
+    "bushnell-boop-the-musical-11-15": {
+      "ageGroups": [
+        "children",
+        "teens",
+        "adults",
+        "families"
+      ],
+      "accessFeatures": [
+        "vision-support",
+        "hearing-support"
+      ],
+      "holidays": [],
+      "sensory": {
+        "level": "unknown",
+        "note": "Inclusive program; specific sound and lighting conditions are not confirmed.",
+        "sourceUrl": "https://www.bushnell.org/events/detail/boop-the-musical",
+        "checkedAt": "2026-11-01",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-11-01"
+      },
+      "ageEvidence": {
+        "children": {
+          "url": "https://www.bushnell.org/events/detail/boop-the-musical",
+          "evidenceId": "bushnell-boop-the-musical"
+        },
+        "teens": {
+          "url": "https://www.bushnell.org/events/detail/boop-the-musical",
+          "evidenceId": "bushnell-boop-the-musical"
+        },
+        "adults": {
+          "url": "https://www.bushnell.org/events/detail/boop-the-musical",
+          "evidenceId": "bushnell-boop-the-musical"
+        },
+        "families": {
+          "url": "https://www.bushnell.org/events/detail/boop-the-musical",
+          "evidenceId": "bushnell-boop-the-musical"
+        }
+      },
+      "accessEvidence": {
+        "vision-support": {
+          "url": "https://www.bushnell.org/events/detail/boop-the-musical",
+          "evidenceId": "bushnell-boop-the-musical"
+        },
+        "hearing-support": {
+          "url": "https://www.bushnell.org/events/detail/boop-the-musical",
+          "evidenceId": "bushnell-boop-the-musical"
+        }
+      },
+      "holidayEvidence": {},
+      "checkedAt": "2026-11-01",
+      "ageRange": {
+        "min": null,
+        "max": null,
+        "kind": "not-stated"
+      }
+    },
+    "bushnell-alicia-keys-hells-kitchen-12-11": {
+      "ageGroups": [
+        "children",
+        "teens",
+        "adults",
+        "families"
+      ],
+      "accessFeatures": [
+        "hearing-support"
+      ],
+      "holidays": [],
+      "sensory": {
+        "level": "unknown",
+        "note": "Inclusive program; specific sound and lighting conditions are not confirmed.",
+        "sourceUrl": "https://www.bushnell.org/events/detail/alicia-keys-hells-kitchen",
+        "checkedAt": "2026-11-01",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-11-01"
+      },
+      "ageEvidence": {
+        "children": {
+          "url": "https://www.bushnell.org/events/detail/alicia-keys-hells-kitchen",
+          "evidenceId": "bushnell-alicia-keys-hells-kitchen"
+        },
+        "teens": {
+          "url": "https://www.bushnell.org/events/detail/alicia-keys-hells-kitchen",
+          "evidenceId": "bushnell-alicia-keys-hells-kitchen"
+        },
+        "adults": {
+          "url": "https://www.bushnell.org/events/detail/alicia-keys-hells-kitchen",
+          "evidenceId": "bushnell-alicia-keys-hells-kitchen"
+        },
+        "families": {
+          "url": "https://www.bushnell.org/events/detail/alicia-keys-hells-kitchen",
+          "evidenceId": "bushnell-alicia-keys-hells-kitchen"
+        }
+      },
+      "accessEvidence": {
+        "hearing-support": {
+          "url": "https://www.bushnell.org/events/detail/alicia-keys-hells-kitchen",
+          "evidenceId": "bushnell-alicia-keys-hells-kitchen"
+        }
+      },
+      "holidayEvidence": {},
+      "checkedAt": "2026-11-01",
+      "ageRange": {
+        "min": null,
+        "max": null,
+        "kind": "not-stated"
+      }
+    },
+    "bushnell-alicia-keys-hells-kitchen-12-13": {
+      "ageGroups": [
+        "children",
+        "teens",
+        "adults",
+        "families"
+      ],
+      "accessFeatures": [
+        "vision-support",
+        "hearing-support"
+      ],
+      "holidays": [],
+      "sensory": {
+        "level": "unknown",
+        "note": "Inclusive program; specific sound and lighting conditions are not confirmed.",
+        "sourceUrl": "https://www.bushnell.org/events/detail/alicia-keys-hells-kitchen",
+        "checkedAt": "2026-11-01",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-11-01"
+      },
+      "ageEvidence": {
+        "children": {
+          "url": "https://www.bushnell.org/events/detail/alicia-keys-hells-kitchen",
+          "evidenceId": "bushnell-alicia-keys-hells-kitchen"
+        },
+        "teens": {
+          "url": "https://www.bushnell.org/events/detail/alicia-keys-hells-kitchen",
+          "evidenceId": "bushnell-alicia-keys-hells-kitchen"
+        },
+        "adults": {
+          "url": "https://www.bushnell.org/events/detail/alicia-keys-hells-kitchen",
+          "evidenceId": "bushnell-alicia-keys-hells-kitchen"
+        },
+        "families": {
+          "url": "https://www.bushnell.org/events/detail/alicia-keys-hells-kitchen",
+          "evidenceId": "bushnell-alicia-keys-hells-kitchen"
+        }
+      },
+      "accessEvidence": {
+        "vision-support": {
+          "url": "https://www.bushnell.org/events/detail/alicia-keys-hells-kitchen",
+          "evidenceId": "bushnell-alicia-keys-hells-kitchen"
+        },
+        "hearing-support": {
+          "url": "https://www.bushnell.org/events/detail/alicia-keys-hells-kitchen",
+          "evidenceId": "bushnell-alicia-keys-hells-kitchen"
+        }
+      },
+      "holidayEvidence": {},
+      "checkedAt": "2026-11-01",
+      "ageRange": {
+        "min": null,
+        "max": null,
+        "kind": "not-stated"
+      }
+    },
+    "hartford-stage-carol-access-12-06": {
+      "ageGroups": [
+        "children",
+        "teens",
+        "adults",
+        "families"
+      ],
+      "accessFeatures": [
+        "hearing-support"
+      ],
+      "holidays": [],
+      "sensory": {
+        "level": "unknown",
+        "note": "Inclusive program; specific sound and lighting conditions are not confirmed.",
+        "sourceUrl": "https://www.hartfordstage.org/2026-2027/a-christmas-carol/",
+        "checkedAt": "2026-11-01",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-11-01"
+      },
+      "ageEvidence": {
+        "children": {
+          "url": "https://www.hartfordstage.org/2026-2027/a-christmas-carol/",
+          "evidenceId": "hartford-stage-carol-access"
+        },
+        "teens": {
+          "url": "https://www.hartfordstage.org/2026-2027/a-christmas-carol/",
+          "evidenceId": "hartford-stage-carol-access"
+        },
+        "adults": {
+          "url": "https://www.hartfordstage.org/2026-2027/a-christmas-carol/",
+          "evidenceId": "hartford-stage-carol-access"
+        },
+        "families": {
+          "url": "https://www.hartfordstage.org/2026-2027/a-christmas-carol/",
+          "evidenceId": "hartford-stage-carol-access"
+        }
+      },
+      "accessEvidence": {
+        "hearing-support": {
+          "url": "https://www.hartfordstage.org/2026-2027/a-christmas-carol/",
+          "evidenceId": "hartford-stage-carol-access"
+        }
+      },
+      "holidayEvidence": {},
+      "checkedAt": "2026-11-01",
+      "ageRange": {
+        "min": null,
+        "max": null,
+        "kind": "not-stated"
+      }
+    },
+    "hartford-stage-carol-access-12-12": {
+      "ageGroups": [
+        "children",
+        "teens",
+        "adults",
+        "families"
+      ],
+      "accessFeatures": [
+        "vision-support"
+      ],
+      "holidays": [],
+      "sensory": {
+        "level": "unknown",
+        "note": "Inclusive program; specific sound and lighting conditions are not confirmed.",
+        "sourceUrl": "https://www.hartfordstage.org/2026-2027/a-christmas-carol/",
+        "checkedAt": "2026-11-01",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-11-01"
+      },
+      "ageEvidence": {
+        "children": {
+          "url": "https://www.hartfordstage.org/2026-2027/a-christmas-carol/",
+          "evidenceId": "hartford-stage-carol-access"
+        },
+        "teens": {
+          "url": "https://www.hartfordstage.org/2026-2027/a-christmas-carol/",
+          "evidenceId": "hartford-stage-carol-access"
+        },
+        "adults": {
+          "url": "https://www.hartfordstage.org/2026-2027/a-christmas-carol/",
+          "evidenceId": "hartford-stage-carol-access"
+        },
+        "families": {
+          "url": "https://www.hartfordstage.org/2026-2027/a-christmas-carol/",
+          "evidenceId": "hartford-stage-carol-access"
+        }
+      },
+      "accessEvidence": {
+        "vision-support": {
+          "url": "https://www.hartfordstage.org/2026-2027/a-christmas-carol/",
+          "evidenceId": "hartford-stage-carol-access"
+        }
+      },
+      "holidayEvidence": {},
+      "checkedAt": "2026-11-01",
+      "ageRange": {
+        "min": null,
+        "max": null,
+        "kind": "not-stated"
+      }
+    },
+    "southbury-captioned-movie-11-18": {
+      "ageGroups": [
+        "adults"
+      ],
+      "accessFeatures": [
+        "hearing-support"
+      ],
+      "holidays": [],
+      "sensory": {
+        "level": "unknown",
+        "note": "Inclusive program; specific sound and lighting conditions are not confirmed.",
+        "sourceUrl": "https://www.southburylibrary.org/event/wednesday-movies-48673",
+        "checkedAt": "2026-11-01",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-11-01"
+      },
+      "ageEvidence": {
+        "adults": {
+          "url": "https://www.southburylibrary.org/event/wednesday-movies-48673",
+          "evidenceId": "southbury-captioned-movies"
+        }
+      },
+      "accessEvidence": {
+        "hearing-support": {
+          "url": "https://www.southburylibrary.org/event/wednesday-movies-48673",
+          "evidenceId": "southbury-captioned-movies"
+        }
+      },
+      "holidayEvidence": {},
+      "checkedAt": "2026-11-01",
+      "ageRange": {
+        "min": null,
+        "max": null,
+        "kind": "not-stated"
+      }
+    },
+    "southbury-captioned-movie-11-25": {
+      "ageGroups": [
+        "adults"
+      ],
+      "accessFeatures": [
+        "hearing-support"
+      ],
+      "holidays": [],
+      "sensory": {
+        "level": "unknown",
+        "note": "Inclusive program; specific sound and lighting conditions are not confirmed.",
+        "sourceUrl": "https://www.southburylibrary.org/event/wednesday-movies-48674",
+        "checkedAt": "2026-11-01",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-11-01"
+      },
+      "ageEvidence": {
+        "adults": {
+          "url": "https://www.southburylibrary.org/event/wednesday-movies-48674",
+          "evidenceId": "southbury-captioned-movies"
+        }
+      },
+      "accessEvidence": {
+        "hearing-support": {
+          "url": "https://www.southburylibrary.org/event/wednesday-movies-48674",
+          "evidenceId": "southbury-captioned-movies"
+        }
+      },
+      "holidayEvidence": {},
+      "checkedAt": "2026-11-01",
+      "ageRange": {
+        "min": null,
+        "max": null,
+        "kind": "not-stated"
+      }
+    },
+    "southworth-audio-universe-2026-11-06": {
+      "ageGroups": [
+        "children",
+        "adults"
+      ],
+      "accessFeatures": [
+        "vision-support"
+      ],
+      "sensory": {
+        "level": "variable",
+        "note": "Immersive sound-led planetarium film; no reduced volume, altered lighting or reduced crowds promised.",
+        "sourceUrl": "https://www.audiouniverse.org/education-and-communication/educational-shows/tour-of-the-solar-system",
+        "checkedAt": "2026-11-01",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-11-01"
+      },
+      "holidays": [],
+      "proofUrls": [
+        "https://usm.maine.edu/calendar-of-events/event/audio-universe-solar-system-tour/2026-11-06/",
+        "https://events.ticketleap.com/tickets/southworth/audio-universe-tour-of-the-solar-system-241909918",
+        "https://www.audiouniverse.org/education-and-communication/educational-shows/tour-of-the-solar-system"
+      ],
+      "ageEvidence": {
+        "children": {
+          "url": "https://usm.maine.edu/calendar-of-events/event/audio-universe-solar-system-tour/2026-11-06/",
+          "evidenceId": "southworth-audio-universe"
+        },
+        "adults": {
+          "url": "https://usm.maine.edu/calendar-of-events/event/audio-universe-solar-system-tour/2026-11-06/",
+          "evidenceId": "southworth-audio-universe"
+        }
+      },
+      "accessEvidence": {
+        "vision-support": {
+          "url": "https://usm.maine.edu/calendar-of-events/event/audio-universe-solar-system-tour/2026-11-06/",
+          "evidenceId": "southworth-audio-universe"
+        }
+      },
+      "holidayEvidence": {},
+      "checkedAt": "2026-11-01",
+      "ageRange": {
+        "min": null,
+        "max": null,
+        "kind": "not-stated"
+      }
+    },
+    "southworth-audio-universe-2026-11-10": {
+      "ageGroups": [
+        "children",
+        "adults"
+      ],
+      "accessFeatures": [
+        "vision-support"
+      ],
+      "sensory": {
+        "level": "variable",
+        "note": "Immersive sound-led planetarium film; no reduced volume, altered lighting or reduced crowds promised.",
+        "sourceUrl": "https://www.audiouniverse.org/education-and-communication/educational-shows/tour-of-the-solar-system",
+        "checkedAt": "2026-11-01",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-11-01"
+      },
+      "holidays": [],
+      "proofUrls": [
+        "https://usm.maine.edu/calendar-of-events/event/audio-universe-solar-system-tour/2026-11-10/",
+        "https://events.ticketleap.com/tickets/southworth/audio-universe-tour-of-the-solar-system-241909918",
+        "https://www.audiouniverse.org/education-and-communication/educational-shows/tour-of-the-solar-system"
+      ],
+      "ageEvidence": {
+        "children": {
+          "url": "https://usm.maine.edu/calendar-of-events/event/audio-universe-solar-system-tour/2026-11-10/",
+          "evidenceId": "southworth-audio-universe"
+        },
+        "adults": {
+          "url": "https://usm.maine.edu/calendar-of-events/event/audio-universe-solar-system-tour/2026-11-10/",
+          "evidenceId": "southworth-audio-universe"
+        }
+      },
+      "accessEvidence": {
+        "vision-support": {
+          "url": "https://usm.maine.edu/calendar-of-events/event/audio-universe-solar-system-tour/2026-11-10/",
+          "evidenceId": "southworth-audio-universe"
+        }
+      },
+      "holidayEvidence": {},
+      "checkedAt": "2026-11-01",
+      "ageRange": {
+        "min": null,
+        "max": null,
+        "kind": "not-stated"
+      }
     }
   },
   "sensoryMethod": "Sensory levels are editorial planning estimates based on the specific published conditions, not medical ratings or promises. Low means reduced stimulation, moderate means some ongoing music or activity, high means a likely stimulating mix, variable means conditions or parts of the visit differ, and unknown means evidence is insufficient. Sensory-friendly and disability-inclusive are not automatic low-sensory ratings. Earlier event verification dates remain visible."

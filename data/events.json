@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-11-01T23:55:00Z",
-  "lastEditorialReview": "2026-11-01T23:55:00Z",
+  "generatedAt": "2026-11-02T00:05:00Z",
+  "lastEditorialReview": "2026-11-02T00:05:00Z",
   "timezone": "America/New_York",
   "coverage": "Selected New England adaptive and sensory-friendly events, with a verified free-admission filter and free-program directory. Not exhaustive.",
   "refresh": {
@@ -3665,6 +3665,227 @@
       "feedVerified": false,
       "sourceCheckedAt": "2026-11-01T23:47:00Z",
       "lastChecked": "2026-11-01T23:47:00Z",
+      "status": "manually-checked"
+    },
+    {
+      "id": "amc-danbury-sensory",
+      "name": "AMC Danbury 16",
+      "state": "CT",
+      "url": "https://www.amctheatres.com/movie-theatres/danbury/amc-danbury-16/showtimes?date=2026-11-14",
+      "mode": "check",
+      "enabled": true,
+      "timezone": "America/New_York",
+      "allowedHosts": [
+        "www.amctheatres.com"
+      ],
+      "autoPublish": false,
+      "feedVerified": false,
+      "sourceCheckedAt": "2026-11-02T00:03:00Z",
+      "lastChecked": "2026-11-02T00:03:00Z",
+      "status": "manually-checked"
+    },
+    {
+      "id": "amc-norwalk-sensory",
+      "name": "AMC SoNo8",
+      "state": "CT",
+      "url": "https://www.amctheatres.com/movie-theatres/new-york-city/amc-sono-8/showtimes?date=2026-11-14",
+      "mode": "check",
+      "enabled": true,
+      "timezone": "America/New_York",
+      "allowedHosts": [
+        "www.amctheatres.com"
+      ],
+      "autoPublish": false,
+      "feedVerified": false,
+      "sourceCheckedAt": "2026-11-02T00:03:00Z",
+      "lastChecked": "2026-11-02T00:03:00Z",
+      "status": "manually-checked"
+    },
+    {
+      "id": "amc-plainville-sensory",
+      "name": "AMC Plainville 20",
+      "state": "CT",
+      "url": "https://www.amctheatres.com/movie-theatres/plainville/amc-plainville-20/showtimes?date=2026-12-12",
+      "mode": "check",
+      "enabled": true,
+      "timezone": "America/New_York",
+      "allowedHosts": [
+        "www.amctheatres.com"
+      ],
+      "autoPublish": false,
+      "feedVerified": false,
+      "sourceCheckedAt": "2026-11-02T00:03:00Z",
+      "lastChecked": "2026-11-02T00:03:00Z",
+      "status": "manually-checked"
+    },
+    {
+      "id": "amc-lisbon-sensory",
+      "name": "AMC CLASSIC Lisbon 12",
+      "state": "CT",
+      "url": "https://www.amctheatres.com/movie-theatres/hartford-new-haven/amc-classic-lisbon-12/showtimes?date=2026-11-25",
+      "mode": "check",
+      "enabled": true,
+      "timezone": "America/New_York",
+      "allowedHosts": [
+        "www.amctheatres.com"
+      ],
+      "autoPublish": false,
+      "feedVerified": false,
+      "sourceCheckedAt": "2026-11-02T00:03:00Z",
+      "lastChecked": "2026-11-02T00:03:00Z",
+      "status": "manually-checked"
+    },
+    {
+      "id": "music-hall-mary-poppins-asl",
+      "name": "The Music Hall — Historic Theater",
+      "state": "NH",
+      "url": "https://www.themusichall.org/marypoppins/",
+      "mode": "check",
+      "enabled": true,
+      "timezone": "America/New_York",
+      "allowedHosts": [
+        "www.themusichall.org"
+      ],
+      "autoPublish": false,
+      "feedVerified": false,
+      "sourceCheckedAt": "2026-11-02T00:01:00Z",
+      "lastChecked": "2026-11-02T00:01:00Z",
+      "status": "manually-checked"
+    },
+    {
+      "id": "gibsons-braided-river-asl",
+      "name": "Gibson’s Bookstore",
+      "state": "NH",
+      "url": "https://gibsonsbookstore.com/event/braided-river",
+      "mode": "check",
+      "enabled": true,
+      "timezone": "America/New_York",
+      "allowedHosts": [
+        "gibsonsbookstore.com"
+      ],
+      "autoPublish": false,
+      "feedVerified": false,
+      "sourceCheckedAt": "2026-11-02T00:01:00Z",
+      "lastChecked": "2026-11-02T00:01:00Z",
+      "status": "manually-checked"
+    },
+    {
+      "id": "nhad-coffee-chat",
+      "name": "Pressed Cafe",
+      "state": "NH",
+      "url": "https://nhadinc.org/2026/09/17/nhad-coffee-chat-at-pressed-cafe-nov-7/",
+      "mode": "check",
+      "enabled": true,
+      "timezone": "America/New_York",
+      "allowedHosts": [
+        "nhadinc.org"
+      ],
+      "autoPublish": false,
+      "feedVerified": false,
+      "sourceCheckedAt": "2026-11-02T00:01:00Z",
+      "lastChecked": "2026-11-02T00:01:00Z",
+      "status": "manually-checked"
+    },
+    {
+      "id": "nhad-deaf-santa-party",
+      "name": "Peterborough Community Center",
+      "state": "NH",
+      "url": "https://nhadinc.org/2026/08/22/holiday-party-2/",
+      "mode": "check",
+      "enabled": true,
+      "timezone": "America/New_York",
+      "allowedHosts": [
+        "nhadinc.org"
+      ],
+      "autoPublish": false,
+      "feedVerified": false,
+      "sourceCheckedAt": "2026-11-02T00:01:00Z",
+      "lastChecked": "2026-11-02T00:01:00Z",
+      "status": "manually-checked"
+    },
+    {
+      "id": "bushnell-boop-the-musical",
+      "name": "The Bushnell — Mortensen Hall",
+      "state": "CT",
+      "url": "https://www.bushnell.org/events/detail/boop-the-musical",
+      "mode": "check",
+      "enabled": true,
+      "timezone": "America/New_York",
+      "allowedHosts": [
+        "www.bushnell.org"
+      ],
+      "autoPublish": false,
+      "feedVerified": false,
+      "sourceCheckedAt": "2026-11-01T23:59:00Z",
+      "lastChecked": "2026-11-01T23:59:00Z",
+      "status": "manually-checked"
+    },
+    {
+      "id": "bushnell-alicia-keys-hells-kitchen",
+      "name": "The Bushnell — Mortensen Hall",
+      "state": "CT",
+      "url": "https://www.bushnell.org/events/detail/alicia-keys-hells-kitchen",
+      "mode": "check",
+      "enabled": true,
+      "timezone": "America/New_York",
+      "allowedHosts": [
+        "www.bushnell.org"
+      ],
+      "autoPublish": false,
+      "feedVerified": false,
+      "sourceCheckedAt": "2026-11-01T23:59:00Z",
+      "lastChecked": "2026-11-01T23:59:00Z",
+      "status": "manually-checked"
+    },
+    {
+      "id": "hartford-stage-carol-access",
+      "name": "Hartford Stage",
+      "state": "CT",
+      "url": "https://www.hartfordstage.org/2026-2027/a-christmas-carol/",
+      "mode": "check",
+      "enabled": true,
+      "timezone": "America/New_York",
+      "allowedHosts": [
+        "www.hartfordstage.org"
+      ],
+      "autoPublish": false,
+      "feedVerified": false,
+      "sourceCheckedAt": "2026-11-01T23:59:00Z",
+      "lastChecked": "2026-11-01T23:59:00Z",
+      "status": "manually-checked"
+    },
+    {
+      "id": "southbury-captioned-movies",
+      "name": "Southbury Public Library — Kingsley Room A/B",
+      "state": "CT",
+      "url": "https://www.southburylibrary.org/event/wednesday-movies-48673",
+      "mode": "check",
+      "enabled": true,
+      "timezone": "America/New_York",
+      "allowedHosts": [
+        "www.southburylibrary.org"
+      ],
+      "autoPublish": false,
+      "feedVerified": false,
+      "sourceCheckedAt": "2026-11-01T23:59:00Z",
+      "lastChecked": "2026-11-01T23:59:00Z",
+      "status": "manually-checked"
+    },
+    {
+      "id": "southworth-audio-universe",
+      "name": "Southworth Planetarium — Science Building",
+      "state": "ME",
+      "url": "https://usm.maine.edu/calendar-of-events/event/audio-universe-solar-system-tour/2026-11-06/",
+      "mode": "check",
+      "enabled": true,
+      "timezone": "America/New_York",
+      "allowedHosts": [
+        "usm.maine.edu"
+      ],
+      "autoPublish": false,
+      "feedVerified": false,
+      "sourceCheckedAt": "2026-11-02T00:04:00Z",
+      "lastChecked": "2026-11-02T00:04:00Z",
       "status": "manually-checked"
     }
   ],
@@ -8212,6 +8433,40 @@
       "category": "Adaptive recreation"
     },
     {
+      "id": "southworth-audio-universe-2026-11-06",
+      "title": "Audio Universe: Tour of the Solar System",
+      "start": "2026-11-06T13:00:00-05:00",
+      "end": "2026-11-06T14:00:00-05:00",
+      "timezone": "America/New_York",
+      "state": "ME",
+      "city": "Portland",
+      "venue": "Southworth Planetarium — Science Building",
+      "address": "70 Falmouth Street, Portland, ME 04103",
+      "sourceId": "southworth-audio-universe",
+      "sourceUrl": "https://usm.maine.edu/calendar-of-events/event/audio-universe-solar-system-tour/2026-11-06/",
+      "ticketUrl": "https://events.ticketleap.com/tickets/southworth/audio-universe-tour-of-the-solar-system-241909918",
+      "status": "scheduled",
+      "reviewRequired": false,
+      "category": "Movie",
+      "format": "In person",
+      "cancellationPolicy": "Confirm cancellations and any refund terms with the organizer.",
+      "cost": "Adults $9.50; children and seniors $9. Ticketing adds $1.19/$1.18 service fees and a 3% online transaction fee. Free ticket categories include valid library-pass holders, members, USM students/staff and teachers; bring the required pass or ID.",
+      "ages": "Child, adult and senior tickets offered; minimum age and recommended age band are not stated.",
+      "summary": "An immersive planetarium film that represents space through sound as well as visuals, designed with blind and vision-impaired collaborators.",
+      "accessibility": [
+        "Soundtrack-led film designed to be enjoyed irrespective of level of vision"
+      ],
+      "registration": "Choose November 6 on the official ticket calendar. Tickets were offered when checked; availability may change.",
+      "notes": [
+        "Vision-accessible film, not an advertised sensory-friendly screening; immersive surround sound is part of the experience.",
+        "Check physical access and individual accommodation needs with Southworth Planetarium before visiting."
+      ],
+      "lastVerified": "2026-11-02T00:04:00Z",
+      "verificationMethod": "Official USM dated listing and ticket calendar cross-checked; film accessibility confirmed by its producing team.",
+      "endTimeUnconfirmed": false,
+      "costCategory": "paid"
+    },
+    {
       "id": "marc-rec-2026-11-06",
       "title": "Paint Night at MARC",
       "start": "2026-11-06T14:30:00-05:00",
@@ -8441,8 +8696,8 @@
       "accessibility": [
         "Separate sensory-friendly room available."
       ],
-      "registration": "Reserve tickets for every attendee and the preferred session; walk-ins only if space permits.",
-      "lastVerified": "2026-11-01T22:44:00Z",
+      "registration": "Sold out when checked; the organizer offers a waitlist. Do not travel without confirmed admission.",
+      "lastVerified": "2026-11-02T00:02:00Z",
       "verificationMethod": "Official organizer 2026 event information checked November 1, 2026.",
       "costCategory": "unknown"
     },
@@ -8521,6 +8776,38 @@
       "format": "In person",
       "cancellationPolicy": "Check the organizer for cancellation and refund terms.",
       "ticketUrl": "https://runsignup.com/Race/NH/Keene/11thAnnualMDSRunWalkSmile"
+    },
+    {
+      "timezone": "America/New_York",
+      "state": "NH",
+      "status": "scheduled",
+      "reviewRequired": false,
+      "format": "In person",
+      "lastVerified": "2026-11-02T00:01:00Z",
+      "verificationMethod": "Official organizer information reviewed; event-specific accessibility checked",
+      "cancellationPolicy": "Confirm changes with the organizer before travel.",
+      "id": "nhad-coffee-chat-2026-11-07",
+      "title": "NHAD Coffee Chat",
+      "start": "2026-11-07T10:00:00-05:00",
+      "end": "2026-11-07T13:00:00-05:00",
+      "city": "Nashua",
+      "venue": "Pressed Cafe",
+      "address": "108 Spit Brook Road, Suite 7, Nashua, NH 03062",
+      "sourceId": "nhad-coffee-chat",
+      "sourceUrl": "https://nhadinc.org/2026/09/17/nhad-coffee-chat-at-pressed-cafe-nov-7/",
+      "ticketUrl": "https://nhadinc.org/2026/09/17/nhad-coffee-chat-at-pressed-cafe-nov-7/",
+      "cost": "No event admission price stated; cafe purchases are separate.",
+      "ages": "Everyone welcome, including Deaf, DeafBlind and hard-of-hearing people, families, friends and allies.",
+      "summary": "An informal Deaf-community gathering for conversation, ASL practice and connection. This is not a quiet or sensory-adjusted cafe session.",
+      "registration": "No registration requirement published; confirm any access needs with NHAD.",
+      "accessibility": [
+        "Deaf-community gathering"
+      ],
+      "notes": [
+        "Exact address corroborated by the NDHHS event listing."
+      ],
+      "category": "Deaf & hard of hearing",
+      "costCategory": "unknown"
     },
     {
       "timezone": "America/New_York",
@@ -8647,8 +8934,8 @@
       "accessibility": [
         "Separate sensory-friendly room available."
       ],
-      "registration": "Reserve tickets for every attendee and the preferred session; walk-ins only if space permits.",
-      "lastVerified": "2026-11-01T22:44:00Z",
+      "registration": "Sold out when checked; the organizer offers a waitlist. Do not travel without confirmed admission.",
+      "lastVerified": "2026-11-02T00:02:00Z",
       "verificationMethod": "Official organizer 2026 event information checked November 1, 2026.",
       "costCategory": "unknown"
     },
@@ -8776,8 +9063,8 @@
       "accessibility": [
         "Separate sensory-friendly room available."
       ],
-      "registration": "Reserve tickets for every attendee and the preferred session; walk-ins only if space permits.",
-      "lastVerified": "2026-11-01T22:44:00Z",
+      "registration": "Sold out when checked; the organizer offers a waitlist. Do not travel without confirmed admission.",
+      "lastVerified": "2026-11-02T00:02:00Z",
       "verificationMethod": "Official organizer 2026 event information checked November 1, 2026.",
       "costCategory": "unknown"
     },
@@ -9460,6 +9747,40 @@
       "costCategory": "free"
     },
     {
+      "id": "southworth-audio-universe-2026-11-10",
+      "title": "Audio Universe: Tour of the Solar System",
+      "start": "2026-11-10T10:00:00-05:00",
+      "end": "2026-11-10T11:00:00-05:00",
+      "timezone": "America/New_York",
+      "state": "ME",
+      "city": "Portland",
+      "venue": "Southworth Planetarium — Science Building",
+      "address": "70 Falmouth Street, Portland, ME 04103",
+      "sourceId": "southworth-audio-universe",
+      "sourceUrl": "https://usm.maine.edu/calendar-of-events/event/audio-universe-solar-system-tour/2026-11-10/",
+      "ticketUrl": "https://events.ticketleap.com/tickets/southworth/audio-universe-tour-of-the-solar-system-241909918",
+      "status": "scheduled",
+      "reviewRequired": false,
+      "category": "Movie",
+      "format": "In person",
+      "cancellationPolicy": "Confirm cancellations and any refund terms with the organizer.",
+      "cost": "Adults $9.50; children and seniors $9. Ticketing adds $1.19/$1.18 service fees and a 3% online transaction fee. Free ticket categories include valid library-pass holders, members, USM students/staff and teachers; bring the required pass or ID.",
+      "ages": "Child, adult and senior tickets offered; minimum age and recommended age band are not stated.",
+      "summary": "An immersive planetarium film that represents space through sound as well as visuals, designed with blind and vision-impaired collaborators.",
+      "accessibility": [
+        "Soundtrack-led film designed to be enjoyed irrespective of level of vision"
+      ],
+      "registration": "Choose November 10 on the official ticket calendar. Tickets were offered when checked; availability may change.",
+      "notes": [
+        "Vision-accessible film, not an advertised sensory-friendly screening; immersive surround sound is part of the experience.",
+        "Check physical access and individual accommodation needs with Southworth Planetarium before visiting."
+      ],
+      "lastVerified": "2026-11-02T00:04:00Z",
+      "verificationMethod": "Official USM dated listing and ticket calendar cross-checked; film accessibility confirmed by its producing team.",
+      "endTimeUnconfirmed": false,
+      "costCategory": "paid"
+    },
+    {
       "id": "mt-pleasant-sensory-story-2026-11-10",
       "title": "Sensory Friendly Storytime",
       "start": "2026-11-10T10:30:00-05:00",
@@ -9784,6 +10105,111 @@
       "lastVerified": "2026-11-01T22:43:00Z",
       "verificationMethod": "Official organizer dated event or registration page checked November 1, 2026.",
       "costCategory": "unknown"
+    },
+    {
+      "id": "amc-147475855",
+      "title": "Godzilla Minus Zero — Sensory-friendly screening",
+      "start": "2026-11-11T19:00:00-05:00",
+      "end": "2026-11-11T21:15:00-05:00",
+      "endApproximate": true,
+      "timezone": "America/New_York",
+      "state": "CT",
+      "city": "Plainville",
+      "venue": "AMC Plainville 20",
+      "address": "220 New Britain Avenue, Plainville, CT 06062",
+      "cost": "Paid tickets; current ticket price and booking fees are shown during ticket selection and were not confirmed.",
+      "costCategory": "paid",
+      "ages": "Rated R. Mature-audience screening, not a children’s event. Under 17s need an accompanying adult; confirm theatre age policy.",
+      "summary": "Rated R; for mature audiences, not a children’s screening. A designated AMC sensory-friendly film screening with adjusted sound and lighting. Japanese dialogue with English subtitles. Check the film rating and content before choosing this screening.",
+      "accessibility": [
+        "Lights raised and sound reduced; movement and vocalizing welcome",
+        "No trailers; arrive by the listed time"
+      ],
+      "sourceId": "amc-plainville-sensory",
+      "sourceUrl": "https://www.amctheatres.com/movie-theatres/plainville/amc-plainville-20/showtimes?date=2026-11-11",
+      "ticketUrl": "https://www.amctheatres.com/showtimes/147475855",
+      "registration": "A ticket link is published for this specific session. Confirm remaining seats and final price before planning travel.",
+      "cancellationPolicy": "Confirm refund and exchange terms with AMC before buying.",
+      "notes": [
+        "End time estimated from AMC’s listed film runtime.",
+        "AMC sensory program: https://www.amctheatres.com/programs/sensory-friendly-films"
+      ],
+      "lastVerified": "2026-11-02T00:03:00Z",
+      "verificationMethod": "Live official theatre date selector and designated sensory movie listing checked",
+      "reviewRequired": false,
+      "status": "scheduled",
+      "category": "Sensory-friendly film",
+      "format": "In person"
+    },
+    {
+      "id": "amc-147497089",
+      "title": "Godzilla Minus Zero — Sensory-friendly screening",
+      "start": "2026-11-11T19:00:00-05:00",
+      "end": "2026-11-11T21:15:00-05:00",
+      "endApproximate": true,
+      "timezone": "America/New_York",
+      "state": "CT",
+      "city": "Danbury",
+      "venue": "AMC Danbury 16",
+      "address": "61 Eagle Road, Danbury, CT 06810",
+      "cost": "Paid tickets; current ticket price and booking fees are shown during ticket selection and were not confirmed.",
+      "costCategory": "paid",
+      "ages": "Rated R. Mature-audience screening, not a children’s event. Under 17s need an accompanying adult; confirm theatre age policy.",
+      "summary": "Rated R; for mature audiences, not a children’s screening. A designated AMC sensory-friendly film screening with adjusted sound and lighting. Japanese dialogue with English subtitles. Check the film rating and content before choosing this screening.",
+      "accessibility": [
+        "Lights raised and sound reduced; movement and vocalizing welcome",
+        "No trailers; arrive by the listed time"
+      ],
+      "sourceId": "amc-danbury-sensory",
+      "sourceUrl": "https://www.amctheatres.com/movie-theatres/danbury/amc-danbury-16/showtimes?date=2026-11-11",
+      "ticketUrl": "https://www.amctheatres.com/showtimes/147497089",
+      "registration": "A ticket link is published for this specific session. Confirm remaining seats and final price before planning travel.",
+      "cancellationPolicy": "Confirm refund and exchange terms with AMC before buying.",
+      "notes": [
+        "End time estimated from AMC’s listed film runtime.",
+        "AMC sensory program: https://www.amctheatres.com/programs/sensory-friendly-films"
+      ],
+      "lastVerified": "2026-11-02T00:03:00Z",
+      "verificationMethod": "Live official theatre date selector and designated sensory movie listing checked",
+      "reviewRequired": false,
+      "status": "scheduled",
+      "category": "Sensory-friendly film",
+      "format": "In person"
+    },
+    {
+      "id": "amc-147913175",
+      "title": "Godzilla Minus Zero — Sensory-friendly screening",
+      "start": "2026-11-11T19:00:00-05:00",
+      "end": "2026-11-11T21:15:00-05:00",
+      "endApproximate": true,
+      "timezone": "America/New_York",
+      "state": "CT",
+      "city": "Norwalk",
+      "venue": "AMC SoNo8",
+      "address": "64 N Main Street, Norwalk, CT 06854",
+      "cost": "Paid tickets; current ticket price and booking fees are shown during ticket selection and were not confirmed.",
+      "costCategory": "paid",
+      "ages": "Rated R. Mature-audience screening, not a children’s event. Under 17s need an accompanying adult; confirm theatre age policy.",
+      "summary": "Rated R; for mature audiences, not a children’s screening. A designated AMC sensory-friendly film screening with adjusted sound and lighting. Japanese dialogue with English subtitles. Check the film rating and content before choosing this screening.",
+      "accessibility": [
+        "Lights raised and sound reduced; movement and vocalizing welcome",
+        "No trailers; arrive by the listed time"
+      ],
+      "sourceId": "amc-norwalk-sensory",
+      "sourceUrl": "https://www.amctheatres.com/movie-theatres/new-york-city/amc-sono-8/showtimes?date=2026-11-11",
+      "ticketUrl": "https://www.amctheatres.com/showtimes/147913175",
+      "registration": "A ticket link is published for this specific session. Confirm remaining seats and final price before planning travel.",
+      "cancellationPolicy": "Confirm refund and exchange terms with AMC before buying.",
+      "notes": [
+        "End time estimated from AMC’s listed film runtime.",
+        "AMC sensory program: https://www.amctheatres.com/programs/sensory-friendly-films"
+      ],
+      "lastVerified": "2026-11-02T00:03:00Z",
+      "verificationMethod": "Live official theatre date selector and designated sensory movie listing checked",
+      "reviewRequired": false,
+      "status": "scheduled",
+      "category": "Sensory-friendly film",
+      "format": "In person"
     },
     {
       "timezone": "America/New_York",
@@ -10216,6 +10642,39 @@
       "costCategory": "free"
     },
     {
+      "id": "bushnell-boop-the-musical-11-13",
+      "title": "Boop! The Musical — Open-captioned performance",
+      "start": "2026-11-13T19:30:00-05:00",
+      "end": "2026-11-13T22:00:00-05:00",
+      "timezone": "America/New_York",
+      "state": "CT",
+      "city": "Hartford",
+      "venue": "The Bushnell — Mortensen Hall",
+      "address": "166 Capitol Avenue, Hartford, CT 06106",
+      "cost": "From $46.50; confirm current seat price and any applicable fees.",
+      "ages": "Organizer describes the show as suitable for all ages; confirm admission policy for young children.",
+      "summary": "A ticketed musical with on-screen captions. This is not advertised as a sensory-friendly or relaxed performance.",
+      "accessibility": [
+        "Open captions"
+      ],
+      "sourceId": "bushnell-boop-the-musical",
+      "sourceUrl": "https://www.bushnell.org/events/detail/boop-the-musical",
+      "ticketUrl": "https://www.bushnell.org/events/detail/boop-the-musical",
+      "registration": "Buy through the official show page. For ASL-view seating or access services, contact 860-987-5900 or info@bushnell.org. Availability varies.",
+      "cancellationPolicy": "Not stated in the newsletter; confirm with organizer.",
+      "notes": [
+        "End time estimated from the production’s published runtime: https://boopthemusical.com/tickets"
+      ],
+      "lastVerified": "2026-11-01T23:59:00Z",
+      "verificationMethod": "Official organizer event and accessibility pages reviewed",
+      "reviewRequired": false,
+      "status": "scheduled",
+      "category": "Accessible performance",
+      "format": "In person",
+      "costCategory": "paid",
+      "endApproximate": true
+    },
+    {
       "timezone": "America/New_York",
       "ticketUrl": null,
       "cancellationPolicy": "Not stated in the checked listing; confirm with the organizer.",
@@ -10439,6 +10898,80 @@
       "category": "Sensory-friendly"
     },
     {
+      "id": "amc-147840494",
+      "title": "The Cat in the Hat — Sensory-friendly screening",
+      "start": "2026-11-14T11:00:00-05:00",
+      "end": "2026-11-14T12:54:00-05:00",
+      "endApproximate": true,
+      "timezone": "America/New_York",
+      "state": "CT",
+      "city": "Plainville",
+      "venue": "AMC Plainville 20",
+      "address": "220 New Britain Avenue, Plainville, CT 06062",
+      "cost": "Paid tickets; current ticket price and booking fees are shown during ticket selection and were not confirmed.",
+      "costCategory": "paid",
+      "ages": "Rated PG. Parental guidance advised.",
+      "summary": "A designated AMC sensory-friendly film screening with adjusted sound and lighting. Check the film rating and content before choosing this screening.",
+      "accessibility": [
+        "Lights raised and sound reduced; movement and vocalizing welcome",
+        "No trailers; arrive by the listed time",
+        "Closed-caption device listed; confirm device availability",
+        "Audio-description device listed; confirm device availability"
+      ],
+      "sourceId": "amc-plainville-sensory",
+      "sourceUrl": "https://www.amctheatres.com/movie-theatres/plainville/amc-plainville-20/showtimes?date=2026-11-14",
+      "ticketUrl": "https://www.amctheatres.com/showtimes/147840494",
+      "registration": "Unoccupied seats were visible on the official seat map when checked; no seats were selected. Confirm availability and final price before buying.",
+      "cancellationPolicy": "Confirm refund and exchange terms with AMC before buying.",
+      "notes": [
+        "End time estimated from AMC’s listed film runtime.",
+        "AMC sensory program: https://www.amctheatres.com/programs/sensory-friendly-films"
+      ],
+      "lastVerified": "2026-11-02T00:03:00Z",
+      "verificationMethod": "Live official theatre date selector and designated sensory movie listing checked",
+      "reviewRequired": false,
+      "status": "scheduled",
+      "category": "Sensory-friendly film",
+      "format": "In person"
+    },
+    {
+      "id": "amc-147928921",
+      "title": "The Cat in the Hat — Sensory-friendly screening",
+      "start": "2026-11-14T11:00:00-05:00",
+      "end": "2026-11-14T12:54:00-05:00",
+      "endApproximate": true,
+      "timezone": "America/New_York",
+      "state": "CT",
+      "city": "Danbury",
+      "venue": "AMC Danbury 16",
+      "address": "61 Eagle Road, Danbury, CT 06810",
+      "cost": "Paid tickets; current ticket price and booking fees are shown during ticket selection and were not confirmed.",
+      "costCategory": "paid",
+      "ages": "Rated PG. Parental guidance advised.",
+      "summary": "A designated AMC sensory-friendly film screening with adjusted sound and lighting. Check the film rating and content before choosing this screening.",
+      "accessibility": [
+        "Lights raised and sound reduced; movement and vocalizing welcome",
+        "No trailers; arrive by the listed time",
+        "Closed-caption device listed; confirm device availability",
+        "Audio-description device listed; confirm device availability"
+      ],
+      "sourceId": "amc-danbury-sensory",
+      "sourceUrl": "https://www.amctheatres.com/movie-theatres/danbury/amc-danbury-16/showtimes?date=2026-11-14",
+      "ticketUrl": "https://www.amctheatres.com/showtimes/147928921",
+      "registration": "A ticket link is published for this specific session. Confirm remaining seats and final price before planning travel.",
+      "cancellationPolicy": "Confirm refund and exchange terms with AMC before buying.",
+      "notes": [
+        "End time estimated from AMC’s listed film runtime.",
+        "AMC sensory program: https://www.amctheatres.com/programs/sensory-friendly-films"
+      ],
+      "lastVerified": "2026-11-02T00:03:00Z",
+      "verificationMethod": "Live official theatre date selector and designated sensory movie listing checked",
+      "reviewRequired": false,
+      "status": "scheduled",
+      "category": "Sensory-friendly film",
+      "format": "In person"
+    },
+    {
       "id": "pawtucket-sensory-lego-2026-11-14",
       "title": "Sensory Friendly LEGO Club",
       "start": "2026-11-14T11:00:00-05:00",
@@ -10467,6 +11000,43 @@
       "lastVerified": "2026-11-01T22:43:00Z",
       "verificationMethod": "Official organizer dated event or registration page checked November 1, 2026.",
       "costCategory": "free"
+    },
+    {
+      "id": "amc-147913171",
+      "title": "The Cat in the Hat — Sensory-friendly screening",
+      "start": "2026-11-14T11:30:00-05:00",
+      "end": "2026-11-14T13:24:00-05:00",
+      "endApproximate": true,
+      "timezone": "America/New_York",
+      "state": "CT",
+      "city": "Norwalk",
+      "venue": "AMC SoNo8",
+      "address": "64 N Main Street, Norwalk, CT 06854",
+      "cost": "Paid tickets; current ticket price and booking fees are shown during ticket selection and were not confirmed.",
+      "costCategory": "paid",
+      "ages": "Rated PG. Parental guidance advised.",
+      "summary": "A designated AMC sensory-friendly film screening with adjusted sound and lighting. Check the film rating and content before choosing this screening.",
+      "accessibility": [
+        "Lights raised and sound reduced; movement and vocalizing welcome",
+        "No trailers; arrive by the listed time",
+        "Closed-caption device listed; confirm device availability",
+        "Audio-description device listed; confirm device availability"
+      ],
+      "sourceId": "amc-norwalk-sensory",
+      "sourceUrl": "https://www.amctheatres.com/movie-theatres/new-york-city/amc-sono-8/showtimes?date=2026-11-14",
+      "ticketUrl": "https://www.amctheatres.com/showtimes/147913171",
+      "registration": "A ticket link is published for this specific session. Confirm remaining seats and final price before planning travel.",
+      "cancellationPolicy": "Confirm refund and exchange terms with AMC before buying.",
+      "notes": [
+        "End time estimated from AMC’s listed film runtime.",
+        "AMC sensory program: https://www.amctheatres.com/programs/sensory-friendly-films"
+      ],
+      "lastVerified": "2026-11-02T00:03:00Z",
+      "verificationMethod": "Live official theatre date selector and designated sensory movie listing checked",
+      "reviewRequired": false,
+      "status": "scheduled",
+      "category": "Sensory-friendly film",
+      "format": "In person"
     },
     {
       "id": "buddyup-uppervalley-2026-11-14-1300",
@@ -11109,6 +11679,41 @@
       "lastVerified": "2026-11-01T23:47:00Z",
       "verificationMethod": "Official current program and dated calendar reviewed; published exceptions honored.",
       "costCategory": "unknown"
+    },
+    {
+      "id": "bushnell-boop-the-musical-11-15",
+      "title": "Boop! The Musical — ASL-interpreted and audio-described performance",
+      "start": "2026-11-15T18:30:00-05:00",
+      "end": "2026-11-15T21:00:00-05:00",
+      "timezone": "America/New_York",
+      "state": "CT",
+      "city": "Hartford",
+      "venue": "The Bushnell — Mortensen Hall",
+      "address": "166 Capitol Avenue, Hartford, CT 06106",
+      "cost": "From $46.50; confirm current seat price and any applicable fees.",
+      "ages": "Organizer describes the show as suitable for all ages; confirm admission policy for young children.",
+      "summary": "A ticketed musical with scheduled ASL interpretation and audio description. This is not advertised as a sensory-friendly or relaxed performance.",
+      "accessibility": [
+        "ASL interpretation",
+        "Audio description"
+      ],
+      "sourceId": "bushnell-boop-the-musical",
+      "sourceUrl": "https://www.bushnell.org/events/detail/boop-the-musical",
+      "ticketUrl": "https://www.bushnell.org/events/detail/boop-the-musical",
+      "registration": "Buy through the official show page. For ASL-view seating or access services, contact 860-987-5900 or info@bushnell.org. Availability varies.",
+      "cancellationPolicy": "Not stated in the newsletter; confirm with organizer.",
+      "notes": [
+        "End time estimated from the production’s published runtime: https://boopthemusical.com/tickets",
+        "Audio-description devices are first come, first served and require photo ID; discuss seating and support with the venue."
+      ],
+      "lastVerified": "2026-11-01T23:59:00Z",
+      "verificationMethod": "Official organizer event and accessibility pages reviewed",
+      "reviewRequired": false,
+      "status": "scheduled",
+      "category": "Accessible performance",
+      "format": "In person",
+      "costCategory": "paid",
+      "endApproximate": true
     },
     {
       "timezone": "America/New_York",
@@ -11874,6 +12479,37 @@
       "category": "Inclusive community",
       "format": "In person",
       "costCategory": "unknown"
+    },
+    {
+      "id": "southbury-captioned-movie-11-18",
+      "title": "The Devil Wears Prada 2 — captioned library screening",
+      "start": "2026-11-18T13:00:00-05:00",
+      "end": "2026-11-18T15:00:00-05:00",
+      "timezone": "America/New_York",
+      "state": "CT",
+      "city": "Southbury",
+      "venue": "Southbury Public Library — Kingsley Room A/B",
+      "address": "100 Poverty Road, Southbury, CT 06488",
+      "cost": "Free; the official registration listing shows a $0 price.",
+      "ages": "Adult library program; film rated PG-13.",
+      "summary": "An adult film screening with closed captions available. Not advertised as a low-sensory screening; confirm any additional accommodations with the library.",
+      "accessibility": [
+        "Closed captions available"
+      ],
+      "sourceId": "southbury-captioned-movies",
+      "sourceUrl": "https://www.southburylibrary.org/event/wednesday-movies-48673",
+      "ticketUrl": "https://www.southburylibrary.org/event/wednesday-movies-48673",
+      "registration": "Advance registration required through the event page; confirm remaining spaces. Registration closes at the screening start.",
+      "cancellationPolicy": "Not stated in the newsletter; confirm with organizer.",
+      "notes": [],
+      "lastVerified": "2026-11-01T23:59:00Z",
+      "verificationMethod": "Official organizer event and accessibility pages reviewed",
+      "reviewRequired": false,
+      "status": "scheduled",
+      "category": "Accessible performance",
+      "format": "In person",
+      "costCategory": "free",
+      "endApproximate": false
     },
     {
       "id": "aa-turkey-time-2026-11-18",
@@ -13512,6 +14148,37 @@
       "costCategory": "unknown"
     },
     {
+      "id": "southbury-captioned-movie-11-25",
+      "title": "White Christmas — captioned library screening",
+      "start": "2026-11-25T13:00:00-05:00",
+      "end": "2026-11-25T15:00:00-05:00",
+      "timezone": "America/New_York",
+      "state": "CT",
+      "city": "Southbury",
+      "venue": "Southbury Public Library — Kingsley Room A/B",
+      "address": "100 Poverty Road, Southbury, CT 06488",
+      "cost": "Free; the official registration listing shows a $0 price.",
+      "ages": "Adult library program; film is not rated.",
+      "summary": "An adult film screening with closed captions available. Not advertised as a low-sensory screening; confirm any additional accommodations with the library.",
+      "accessibility": [
+        "Closed captions available"
+      ],
+      "sourceId": "southbury-captioned-movies",
+      "sourceUrl": "https://www.southburylibrary.org/event/wednesday-movies-48674",
+      "ticketUrl": "https://www.southburylibrary.org/event/wednesday-movies-48674",
+      "registration": "Advance registration required through the event page; confirm remaining spaces. Registration closes at the screening start.",
+      "cancellationPolicy": "Not stated in the newsletter; confirm with organizer.",
+      "notes": [],
+      "lastVerified": "2026-11-01T23:59:00Z",
+      "verificationMethod": "Official organizer event and accessibility pages reviewed",
+      "reviewRequired": false,
+      "status": "scheduled",
+      "category": "Accessible performance",
+      "format": "In person",
+      "costCategory": "free",
+      "endApproximate": false
+    },
+    {
       "id": "aa-turkey-time-2026-11-25",
       "title": "Turkey Time Drop-In Program",
       "start": "2026-11-25T14:00:00-05:00",
@@ -13542,6 +14209,80 @@
       "lastVerified": "2026-11-01T22:43:00Z",
       "verificationMethod": "Official organizer dated event or registration page checked November 1, 2026.",
       "costCategory": "unknown"
+    },
+    {
+      "id": "amc-148059022",
+      "title": "Hunger Games: Sunrise on the Reaping — Sensory-friendly screening",
+      "start": "2026-11-25T19:00:00-05:00",
+      "end": "2026-11-25T21:38:00-05:00",
+      "endApproximate": true,
+      "timezone": "America/New_York",
+      "state": "CT",
+      "city": "Lisbon",
+      "venue": "AMC CLASSIC Lisbon 12",
+      "address": "Lisbon, CT; see official theatre directions",
+      "cost": "Paid tickets; current ticket price and booking fees are shown during ticket selection and were not confirmed.",
+      "costCategory": "paid",
+      "ages": "Rated PG13. Some material may be inappropriate for children under 13.",
+      "summary": "Rated PG-13; consider film content carefully. A designated AMC sensory-friendly film screening with adjusted sound and lighting. Check the film rating and content before choosing this screening.",
+      "accessibility": [
+        "Lights raised and sound reduced; movement and vocalizing welcome",
+        "No trailers; arrive by the listed time",
+        "Closed-caption device listed; confirm device availability",
+        "Audio-description device listed; confirm device availability"
+      ],
+      "sourceId": "amc-lisbon-sensory",
+      "sourceUrl": "https://www.amctheatres.com/movie-theatres/hartford-new-haven/amc-classic-lisbon-12/showtimes?date=2026-11-25",
+      "ticketUrl": "https://www.amctheatres.com/showtimes/148059022",
+      "registration": "A ticket link is published for this specific session. Confirm remaining seats and final price before planning travel.",
+      "cancellationPolicy": "Confirm refund and exchange terms with AMC before buying.",
+      "notes": [
+        "End time estimated from AMC’s listed film runtime.",
+        "AMC sensory program: https://www.amctheatres.com/programs/sensory-friendly-films"
+      ],
+      "lastVerified": "2026-11-02T00:03:00Z",
+      "verificationMethod": "Live official theatre date selector and designated sensory movie listing checked",
+      "reviewRequired": false,
+      "status": "scheduled",
+      "category": "Sensory-friendly film",
+      "format": "In person"
+    },
+    {
+      "id": "amc-148077404",
+      "title": "Hunger Games: Sunrise on the Reaping — Sensory-friendly screening",
+      "start": "2026-11-25T19:00:00-05:00",
+      "end": "2026-11-25T21:38:00-05:00",
+      "endApproximate": true,
+      "timezone": "America/New_York",
+      "state": "CT",
+      "city": "Danbury",
+      "venue": "AMC Danbury 16",
+      "address": "61 Eagle Road, Danbury, CT 06810",
+      "cost": "Paid tickets; current ticket price and booking fees are shown during ticket selection and were not confirmed.",
+      "costCategory": "paid",
+      "ages": "Rated PG13. Some material may be inappropriate for children under 13.",
+      "summary": "Rated PG-13; consider film content carefully. A designated AMC sensory-friendly film screening with adjusted sound and lighting. Check the film rating and content before choosing this screening.",
+      "accessibility": [
+        "Lights raised and sound reduced; movement and vocalizing welcome",
+        "No trailers; arrive by the listed time",
+        "Closed-caption device listed; confirm device availability",
+        "Audio-description device listed; confirm device availability"
+      ],
+      "sourceId": "amc-danbury-sensory",
+      "sourceUrl": "https://www.amctheatres.com/movie-theatres/danbury/amc-danbury-16/showtimes?date=2026-11-25",
+      "ticketUrl": "https://www.amctheatres.com/showtimes/148077404",
+      "registration": "A ticket link is published for this specific session. Confirm remaining seats and final price before planning travel.",
+      "cancellationPolicy": "Confirm refund and exchange terms with AMC before buying.",
+      "notes": [
+        "End time estimated from AMC’s listed film runtime.",
+        "AMC sensory program: https://www.amctheatres.com/programs/sensory-friendly-films"
+      ],
+      "lastVerified": "2026-11-02T00:03:00Z",
+      "verificationMethod": "Live official theatre date selector and designated sensory movie listing checked",
+      "reviewRequired": false,
+      "status": "scheduled",
+      "category": "Sensory-friendly film",
+      "format": "In person"
     },
     {
       "id": "zacks-place-turkey-trot-2026-11-26",
@@ -14265,6 +15006,38 @@
       "status": "scheduled",
       "category": "Inclusive community",
       "format": "In person",
+      "costCategory": "free"
+    },
+    {
+      "timezone": "America/New_York",
+      "state": "NH",
+      "status": "scheduled",
+      "reviewRequired": false,
+      "format": "In person",
+      "lastVerified": "2026-11-02T00:01:00Z",
+      "verificationMethod": "Official organizer information reviewed; event-specific accessibility checked",
+      "cancellationPolicy": "Confirm changes with the organizer before travel.",
+      "id": "gibsons-braided-river-asl-2026-12-01",
+      "title": "Down the Braided River — ASL-Interpreted Author Event",
+      "start": "2026-12-01T18:30:00-05:00",
+      "end": "2026-12-01T20:00:00-05:00",
+      "city": "Concord",
+      "venue": "Gibson’s Bookstore",
+      "address": "45 South Main Street, Concord, NH 03301",
+      "sourceId": "gibsons-braided-river-asl",
+      "sourceUrl": "https://gibsonsbookstore.com/event/braided-river",
+      "ticketUrl": "https://gibsonsbookstore.com/event/braided-river",
+      "cost": "Free event according to NDHHS; book purchase is separate.",
+      "ages": "Public author event; no age limit stated.",
+      "summary": "Bhawani Prasad Dangal and Julia Freeman-Woolpert discuss a memoir about Deaf refugee experience and community. ASL interpretation is listed by Northeast Deaf & Hard of Hearing Services.",
+      "registration": "RSVP through the bookstore’s event page.",
+      "accessibility": [
+        "ASL interpretation"
+      ],
+      "notes": [
+        "Organizer confirms exact date, time and location; NDHHS confirms ASL interpretation and free admission."
+      ],
+      "category": "Deaf & hard of hearing",
       "costCategory": "free"
     },
     {
@@ -16104,6 +16877,40 @@
       "costCategory": "unknown"
     },
     {
+      "id": "hartford-stage-carol-access-12-06",
+      "title": "A Christmas Carol — Open-captioned performance",
+      "start": "2026-12-06T14:00:00-05:00",
+      "end": "2026-12-06T16:00:00-05:00",
+      "timezone": "America/New_York",
+      "state": "CT",
+      "city": "Hartford",
+      "venue": "Hartford Stage",
+      "address": "50 Church Street, Hartford, CT 06103",
+      "cost": "Ticketed; confirm current prices and available seats.",
+      "ages": "Current production content guide recommends ages 8+; spooky scenes may frighten younger viewers.",
+      "summary": "A specifically accessible performance of A Christmas Carol: A Ghost Story of Christmas. Unlike the December 5 sensory-friendly show, this date is not advertised as sensory-reduced.",
+      "accessibility": [
+        "Open captions"
+      ],
+      "sourceId": "hartford-stage-carol-access",
+      "sourceUrl": "https://www.hartfordstage.org/2026-2027/a-christmas-carol/",
+      "ticketUrl": "https://www.hartfordstage.org/2026-2027/a-christmas-carol/",
+      "registration": "Book through the official performance calendar or box office at 860-527-5151; confirm access seating/services.",
+      "cancellationPolicy": "Not stated in the newsletter; confirm with organizer.",
+      "notes": [
+        "Approximately two hours including intermission; end time is an estimate.",
+        "Age/content guide: https://www.hartfordstage.org/content-warnings"
+      ],
+      "lastVerified": "2026-11-01T23:59:00Z",
+      "verificationMethod": "Official organizer event and accessibility pages reviewed",
+      "reviewRequired": false,
+      "status": "scheduled",
+      "category": "Accessible performance",
+      "format": "In person",
+      "costCategory": "paid",
+      "endApproximate": true
+    },
+    {
       "timezone": "America/New_York",
       "ticketUrl": "https://explore.thetrustees.org/winterlights-at-the-bradley-estate?c_src=ACMEWEB",
       "cancellationPolicy": "Tickets are nonrefundable and cannot transfer across dates. If the organizer cancels for unsafe weather, it will email refund or transfer information.",
@@ -17232,6 +18039,73 @@
       "costCategory": "unknown"
     },
     {
+      "timezone": "America/New_York",
+      "state": "NH",
+      "status": "scheduled",
+      "reviewRequired": false,
+      "format": "In person",
+      "lastVerified": "2026-11-02T00:01:00Z",
+      "verificationMethod": "Official organizer information reviewed; event-specific accessibility checked",
+      "cancellationPolicy": "Confirm changes with the organizer before travel.",
+      "id": "music-hall-mary-poppins-asl-2026-12-11",
+      "title": "Mary Poppins — ASL-Interpreted Performance",
+      "start": "2026-12-11T19:00:00-05:00",
+      "end": "2026-12-11T22:30:00-05:00",
+      "city": "Portsmouth",
+      "venue": "The Music Hall — Historic Theater",
+      "address": "28 Chestnut Street, Portsmouth, NH 03801",
+      "sourceId": "music-hall-mary-poppins-asl",
+      "sourceUrl": "https://www.themusichall.org/marypoppins/",
+      "ticketUrl": "https://themusichall.my.salesforce-sites.com/ticket/#/instances/a0FTS00000AW6J32AL/sectionGroups/a0bTS00000AK7IvYAL",
+      "cost": "$43.75–$143.75 shown on the checked seat map; prices include applicable fees and vary by seat/ticket type.",
+      "ages": "Advertised as a family musical for all ages.",
+      "summary": "A live stage musical presented with American Sign Language interpretation. This is not a sensory-adjusted film screening.",
+      "registration": "Advance tickets available when checked; choose seats with a suitable view of the interpreter and confirm access needs with Patron Services.",
+      "accessibility": [
+        "ASL interpretation",
+        "Staffed elevator to orchestra level; balcony requires stairs"
+      ],
+      "notes": [
+        "NDHHS lists a 10:30 p.m. end; confirm actual running time.",
+        "Refunds only if canceled; ticketing fees are nonrefundable under the venue policy."
+      ],
+      "category": "Deaf & hard of hearing",
+      "costCategory": "unknown"
+    },
+    {
+      "id": "bushnell-alicia-keys-hells-kitchen-12-11",
+      "title": "Hell’s Kitchen — Open-captioned performance",
+      "start": "2026-12-11T19:30:00-05:00",
+      "end": "2026-12-11T22:05:00-05:00",
+      "timezone": "America/New_York",
+      "state": "CT",
+      "city": "Hartford",
+      "venue": "The Bushnell — Mortensen Hall",
+      "address": "166 Capitol Avenue, Hartford, CT 06106",
+      "cost": "From $49.50; confirm current seat price and any applicable fees.",
+      "ages": "Recommended ages 8+; strong language and mature themes.",
+      "summary": "A ticketed musical with on-screen captions. This is not advertised as a sensory-friendly or relaxed performance.",
+      "accessibility": [
+        "Open captions"
+      ],
+      "sourceId": "bushnell-alicia-keys-hells-kitchen",
+      "sourceUrl": "https://www.bushnell.org/events/detail/alicia-keys-hells-kitchen",
+      "ticketUrl": "https://www.bushnell.org/events/detail/alicia-keys-hells-kitchen",
+      "registration": "Buy through the official show page. For ASL-view seating or access services, contact 860-987-5900 or info@bushnell.org. Availability varies.",
+      "cancellationPolicy": "Not stated in the newsletter; confirm with organizer.",
+      "notes": [
+        "End time estimated from the production’s published runtime: https://hellskitchen.com/tour/about"
+      ],
+      "lastVerified": "2026-11-01T23:59:00Z",
+      "verificationMethod": "Official organizer event and accessibility pages reviewed",
+      "reviewRequired": false,
+      "status": "scheduled",
+      "category": "Accessible performance",
+      "format": "In person",
+      "costCategory": "paid",
+      "endApproximate": true
+    },
+    {
       "id": "communityhouse-santa-2026-12-12",
       "title": "Breakfast with Santa — Sensory-Friendly Hour",
       "start": "2026-12-12T08:00:00-05:00",
@@ -17460,6 +18334,117 @@
       "costCategory": "free"
     },
     {
+      "id": "amc-147928922",
+      "title": "Disney's Hexed — Sensory-friendly screening",
+      "start": "2026-12-12T11:30:00-05:00",
+      "end": "2026-12-12T13:09:00-05:00",
+      "endApproximate": true,
+      "timezone": "America/New_York",
+      "state": "CT",
+      "city": "Danbury",
+      "venue": "AMC Danbury 16",
+      "address": "61 Eagle Road, Danbury, CT 06810",
+      "cost": "Paid tickets; current ticket price and booking fees are shown during ticket selection and were not confirmed.",
+      "costCategory": "paid",
+      "ages": "Rated PG. Parental guidance advised.",
+      "summary": "A designated AMC sensory-friendly film screening with adjusted sound and lighting. Check the film rating and content before choosing this screening.",
+      "accessibility": [
+        "Lights raised and sound reduced; movement and vocalizing welcome",
+        "No trailers; arrive by the listed time",
+        "Closed-caption device listed; confirm device availability",
+        "Audio-description device listed; confirm device availability"
+      ],
+      "sourceId": "amc-danbury-sensory",
+      "sourceUrl": "https://www.amctheatres.com/movie-theatres/danbury/amc-danbury-16/showtimes?date=2026-12-12",
+      "ticketUrl": "https://www.amctheatres.com/showtimes/147928922",
+      "registration": "A ticket link is published for this specific session. Confirm remaining seats and final price before planning travel.",
+      "cancellationPolicy": "Confirm refund and exchange terms with AMC before buying.",
+      "notes": [
+        "End time estimated from AMC’s listed film runtime.",
+        "AMC sensory program: https://www.amctheatres.com/programs/sensory-friendly-films"
+      ],
+      "lastVerified": "2026-11-02T00:03:00Z",
+      "verificationMethod": "Live official theatre date selector and designated sensory movie listing checked",
+      "reviewRequired": false,
+      "status": "scheduled",
+      "category": "Sensory-friendly film",
+      "format": "In person"
+    },
+    {
+      "id": "amc-147840657",
+      "title": "Disney's Hexed — Sensory-friendly screening",
+      "start": "2026-12-12T12:00:00-05:00",
+      "end": "2026-12-12T13:39:00-05:00",
+      "endApproximate": true,
+      "timezone": "America/New_York",
+      "state": "CT",
+      "city": "Plainville",
+      "venue": "AMC Plainville 20",
+      "address": "220 New Britain Avenue, Plainville, CT 06062",
+      "cost": "Paid tickets; current ticket price and booking fees are shown during ticket selection and were not confirmed.",
+      "costCategory": "paid",
+      "ages": "Rated PG. Parental guidance advised.",
+      "summary": "A designated AMC sensory-friendly film screening with adjusted sound and lighting. Check the film rating and content before choosing this screening.",
+      "accessibility": [
+        "Lights raised and sound reduced; movement and vocalizing welcome",
+        "No trailers; arrive by the listed time",
+        "Closed-caption device listed; confirm device availability",
+        "Audio-description device listed; confirm device availability"
+      ],
+      "sourceId": "amc-plainville-sensory",
+      "sourceUrl": "https://www.amctheatres.com/movie-theatres/plainville/amc-plainville-20/showtimes?date=2026-12-12",
+      "ticketUrl": "https://www.amctheatres.com/showtimes/147840657",
+      "registration": "A ticket link is published for this specific session. Confirm remaining seats and final price before planning travel.",
+      "cancellationPolicy": "Confirm refund and exchange terms with AMC before buying.",
+      "notes": [
+        "End time estimated from AMC’s listed film runtime.",
+        "AMC sensory program: https://www.amctheatres.com/programs/sensory-friendly-films"
+      ],
+      "lastVerified": "2026-11-02T00:03:00Z",
+      "verificationMethod": "Live official theatre date selector and designated sensory movie listing checked",
+      "reviewRequired": false,
+      "status": "scheduled",
+      "category": "Sensory-friendly film",
+      "format": "In person"
+    },
+    {
+      "id": "amc-147913172",
+      "title": "Disney's Hexed — Sensory-friendly screening",
+      "start": "2026-12-12T12:00:00-05:00",
+      "end": "2026-12-12T13:39:00-05:00",
+      "endApproximate": true,
+      "timezone": "America/New_York",
+      "state": "CT",
+      "city": "Norwalk",
+      "venue": "AMC SoNo8",
+      "address": "64 N Main Street, Norwalk, CT 06854",
+      "cost": "Paid tickets; current ticket price and booking fees are shown during ticket selection and were not confirmed.",
+      "costCategory": "paid",
+      "ages": "Rated PG. Parental guidance advised.",
+      "summary": "A designated AMC sensory-friendly film screening with adjusted sound and lighting. Check the film rating and content before choosing this screening.",
+      "accessibility": [
+        "Lights raised and sound reduced; movement and vocalizing welcome",
+        "No trailers; arrive by the listed time",
+        "Closed-caption device listed; confirm device availability",
+        "Audio-description device listed; confirm device availability"
+      ],
+      "sourceId": "amc-norwalk-sensory",
+      "sourceUrl": "https://www.amctheatres.com/movie-theatres/new-york-city/amc-sono-8/showtimes?date=2026-12-12",
+      "ticketUrl": "https://www.amctheatres.com/showtimes/147913172",
+      "registration": "A ticket link is published for this specific session. Confirm remaining seats and final price before planning travel.",
+      "cancellationPolicy": "Confirm refund and exchange terms with AMC before buying.",
+      "notes": [
+        "End time estimated from AMC’s listed film runtime.",
+        "AMC sensory program: https://www.amctheatres.com/programs/sensory-friendly-films"
+      ],
+      "lastVerified": "2026-11-02T00:03:00Z",
+      "verificationMethod": "Live official theatre date selector and designated sensory movie listing checked",
+      "reviewRequired": false,
+      "status": "scheduled",
+      "category": "Sensory-friendly film",
+      "format": "In person"
+    },
+    {
       "timezone": "America/New_York",
       "ticketUrl": null,
       "cancellationPolicy": "Not stated in the checked listing; confirm with the organizer.",
@@ -17492,6 +18477,40 @@
       "sourceUrl": "https://www.ccanh.com/show-details/gile-series-dan-claudia-zanes-holiday-sing-a-long",
       "registration": "Free ticket links are now posted on the official venue page; check remaining availability before traveling.",
       "category": "Holiday"
+    },
+    {
+      "id": "hartford-stage-carol-access-12-12",
+      "title": "A Christmas Carol — Audio-described performance",
+      "start": "2026-12-12T14:00:00-05:00",
+      "end": "2026-12-12T16:00:00-05:00",
+      "timezone": "America/New_York",
+      "state": "CT",
+      "city": "Hartford",
+      "venue": "Hartford Stage",
+      "address": "50 Church Street, Hartford, CT 06103",
+      "cost": "Ticketed; confirm current prices and available seats.",
+      "ages": "Current production content guide recommends ages 8+; spooky scenes may frighten younger viewers.",
+      "summary": "A specifically accessible performance of A Christmas Carol: A Ghost Story of Christmas. Unlike the December 5 sensory-friendly show, this date is not advertised as sensory-reduced.",
+      "accessibility": [
+        "Audio description"
+      ],
+      "sourceId": "hartford-stage-carol-access",
+      "sourceUrl": "https://www.hartfordstage.org/2026-2027/a-christmas-carol/",
+      "ticketUrl": "https://www.hartfordstage.org/2026-2027/a-christmas-carol/",
+      "registration": "Book through the official performance calendar or box office at 860-527-5151; confirm access seating/services.",
+      "cancellationPolicy": "Not stated in the newsletter; confirm with organizer.",
+      "notes": [
+        "Approximately two hours including intermission; end time is an estimate.",
+        "Age/content guide: https://www.hartfordstage.org/content-warnings"
+      ],
+      "lastVerified": "2026-11-01T23:59:00Z",
+      "verificationMethod": "Official organizer event and accessibility pages reviewed",
+      "reviewRequired": false,
+      "status": "scheduled",
+      "category": "Accessible performance",
+      "format": "In person",
+      "costCategory": "paid",
+      "endApproximate": true
     },
     {
       "timezone": "America/New_York",
@@ -17940,6 +18959,41 @@
       "registration": "Advance timed tickets required for every person; no on-site sales. Select the sensory hour.",
       "category": "Holiday",
       "costCategory": "paid"
+    },
+    {
+      "id": "bushnell-alicia-keys-hells-kitchen-12-13",
+      "title": "Hell’s Kitchen — ASL-interpreted and audio-described performance",
+      "start": "2026-12-13T18:30:00-05:00",
+      "end": "2026-12-13T21:05:00-05:00",
+      "timezone": "America/New_York",
+      "state": "CT",
+      "city": "Hartford",
+      "venue": "The Bushnell — Mortensen Hall",
+      "address": "166 Capitol Avenue, Hartford, CT 06106",
+      "cost": "From $49.50; confirm current seat price and any applicable fees.",
+      "ages": "Recommended ages 8+; strong language and mature themes.",
+      "summary": "A ticketed musical with scheduled ASL interpretation and audio description. This is not advertised as a sensory-friendly or relaxed performance.",
+      "accessibility": [
+        "ASL interpretation",
+        "Audio description"
+      ],
+      "sourceId": "bushnell-alicia-keys-hells-kitchen",
+      "sourceUrl": "https://www.bushnell.org/events/detail/alicia-keys-hells-kitchen",
+      "ticketUrl": "https://www.bushnell.org/events/detail/alicia-keys-hells-kitchen",
+      "registration": "Buy through the official show page. For ASL-view seating or access services, contact 860-987-5900 or info@bushnell.org. Availability varies.",
+      "cancellationPolicy": "Not stated in the newsletter; confirm with organizer.",
+      "notes": [
+        "End time estimated from the production’s published runtime: https://hellskitchen.com/tour/about",
+        "Audio-description devices are first come, first served and require photo ID; discuss seating and support with the venue."
+      ],
+      "lastVerified": "2026-11-01T23:59:00Z",
+      "verificationMethod": "Official organizer event and accessibility pages reviewed",
+      "reviewRequired": false,
+      "status": "scheduled",
+      "category": "Accessible performance",
+      "format": "In person",
+      "costCategory": "paid",
+      "endApproximate": true
     },
     {
       "timezone": "America/New_York",
@@ -18907,6 +19961,39 @@
       "sourceUrl": "https://www.mfa.org/programs/access-programs/beyond-the-spectrum",
       "registration": "Sold out on the MFA program page when checked October 22. Check with MFA about any returns before making plans.",
       "category": "Accessible arts"
+    },
+    {
+      "timezone": "America/New_York",
+      "state": "NH",
+      "status": "scheduled",
+      "reviewRequired": false,
+      "format": "In person",
+      "lastVerified": "2026-11-02T00:01:00Z",
+      "verificationMethod": "Official organizer information reviewed; event-specific accessibility checked",
+      "cancellationPolicy": "Confirm changes with the organizer before travel.",
+      "id": "nhad-deaf-santa-party-2026-12-19",
+      "title": "NHAD Holiday Party with Deaf Santa",
+      "start": "2026-12-19T14:00:00-05:00",
+      "end": "2026-12-19T18:00:00-05:00",
+      "city": "Peterborough",
+      "venue": "Peterborough Community Center",
+      "address": "25 Elm Street, Peterborough, NH 03458",
+      "sourceId": "nhad-deaf-santa-party",
+      "sourceUrl": "https://nhadinc.org/2026/08/22/holiday-party-2/",
+      "ticketUrl": "https://nhadinc.org/2026/08/22/holiday-party-2/",
+      "cost": "Members $12; nonmembers $14; families $25; seniors $10.",
+      "ages": "Deaf community and families; children welcome.",
+      "summary": "A holiday dinner and social gathering featuring Deaf Santa, a Santa booth and a gift swap. Not advertised as sensory-adjusted.",
+      "registration": "Parents should contact NHAD by December 5 to put children on Santa’s gift list. General attendance booking details are not stated; confirm with organizer.",
+      "accessibility": [
+        "Deaf Santa"
+      ],
+      "notes": [
+        "Holiday dinner provided; organizer asks attendees to bring an appetizer or dessert to share.",
+        "Family-ticket composition and senior age cutoff are not specified."
+      ],
+      "category": "Deaf & hard of hearing",
+      "costCategory": "unknown"
     },
     {
       "timezone": "America/New_York",

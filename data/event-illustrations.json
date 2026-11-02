@@ -5040,6 +5040,256 @@
       "venue": "Waterville Opera House",
       "start": "2026-11-15T14:00:00-05:00",
       "reusedFromEvent": "bcm-2026-10-03"
+    },
+    "amc-147928921": {
+      "src": "/assets/event-sketches/morningstar-museum.webp",
+      "alt": "Ink-and-watercolor study of wooden building forms and a prism in morning light.",
+      "width": 720,
+      "height": 480,
+      "title": "The Cat in the Hat — Sensory-friendly screening",
+      "venue": "AMC Danbury 16",
+      "start": "2026-11-14T11:00:00-05:00",
+      "reusedFromEvent": "bcm-2026-10-03"
+    },
+    "amc-147913171": {
+      "src": "/assets/event-sketches/morningstar-museum.webp",
+      "alt": "Ink-and-watercolor study of wooden building forms and a prism in morning light.",
+      "width": 720,
+      "height": 480,
+      "title": "The Cat in the Hat — Sensory-friendly screening",
+      "venue": "AMC SoNo8",
+      "start": "2026-11-14T11:30:00-05:00",
+      "reusedFromEvent": "bcm-2026-10-03"
+    },
+    "amc-147913175": {
+      "src": "/assets/event-sketches/morningstar-museum.webp",
+      "alt": "Ink-and-watercolor study of wooden building forms and a prism in morning light.",
+      "width": 720,
+      "height": 480,
+      "title": "Godzilla Minus Zero — Sensory-friendly screening",
+      "venue": "AMC SoNo8",
+      "start": "2026-11-11T19:00:00-05:00",
+      "reusedFromEvent": "bcm-2026-10-03"
+    },
+    "amc-147913172": {
+      "src": "/assets/event-sketches/morningstar-museum.webp",
+      "alt": "Ink-and-watercolor study of wooden building forms and a prism in morning light.",
+      "width": 720,
+      "height": 480,
+      "title": "Disney's Hexed — Sensory-friendly screening",
+      "venue": "AMC SoNo8",
+      "start": "2026-12-12T12:00:00-05:00",
+      "reusedFromEvent": "bcm-2026-10-03"
+    },
+    "amc-147928922": {
+      "src": "/assets/event-sketches/morningstar-museum.webp",
+      "alt": "Ink-and-watercolor study of wooden building forms and a prism in morning light.",
+      "width": 720,
+      "height": 480,
+      "title": "Disney's Hexed — Sensory-friendly screening",
+      "venue": "AMC Danbury 16",
+      "start": "2026-12-12T11:30:00-05:00",
+      "reusedFromEvent": "bcm-2026-10-03"
+    },
+    "amc-147497089": {
+      "src": "/assets/event-sketches/morningstar-museum.webp",
+      "alt": "Ink-and-watercolor study of wooden building forms and a prism in morning light.",
+      "width": 720,
+      "height": 480,
+      "title": "Godzilla Minus Zero — Sensory-friendly screening",
+      "venue": "AMC Danbury 16",
+      "start": "2026-11-11T19:00:00-05:00",
+      "reusedFromEvent": "bcm-2026-10-03"
+    },
+    "amc-148077404": {
+      "src": "/assets/event-sketches/westport-early-opening.webp",
+      "alt": "An open storybook and brass reading lamp in quiet morning light.",
+      "width": 720,
+      "height": 480,
+      "title": "Hunger Games: Sunrise on the Reaping — Sensory-friendly screening",
+      "venue": "AMC Danbury 16",
+      "start": "2026-11-25T19:00:00-05:00",
+      "reusedFromEvent": "westport-early-2026-10-04"
+    },
+    "amc-147840657": {
+      "src": "/assets/event-sketches/morningstar-museum.webp",
+      "alt": "Ink-and-watercolor study of wooden building forms and a prism in morning light.",
+      "width": 720,
+      "height": 480,
+      "title": "Disney's Hexed — Sensory-friendly screening",
+      "venue": "AMC Plainville 20",
+      "start": "2026-12-12T12:00:00-05:00",
+      "reusedFromEvent": "bcm-2026-10-03"
+    },
+    "amc-147475855": {
+      "src": "/assets/event-sketches/morningstar-museum.webp",
+      "alt": "Ink-and-watercolor study of wooden building forms and a prism in morning light.",
+      "width": 720,
+      "height": 480,
+      "title": "Godzilla Minus Zero — Sensory-friendly screening",
+      "venue": "AMC Plainville 20",
+      "start": "2026-11-11T19:00:00-05:00",
+      "reusedFromEvent": "bcm-2026-10-03"
+    },
+    "amc-147840494": {
+      "src": "/assets/event-sketches/morningstar-museum.webp",
+      "alt": "Ink-and-watercolor study of wooden building forms and a prism in morning light.",
+      "width": 720,
+      "height": 480,
+      "title": "The Cat in the Hat — Sensory-friendly screening",
+      "venue": "AMC Plainville 20",
+      "start": "2026-11-14T11:00:00-05:00",
+      "reusedFromEvent": "bcm-2026-10-03"
+    },
+    "amc-148059022": {
+      "src": "/assets/event-sketches/westport-early-opening.webp",
+      "alt": "An open storybook and brass reading lamp in quiet morning light.",
+      "width": 720,
+      "height": 480,
+      "title": "Hunger Games: Sunrise on the Reaping — Sensory-friendly screening",
+      "venue": "AMC CLASSIC Lisbon 12",
+      "start": "2026-11-25T19:00:00-05:00",
+      "reusedFromEvent": "westport-early-2026-10-04"
+    },
+    "music-hall-mary-poppins-asl-2026-12-11": {
+      "src": "/assets/event-sketches/morningstar-museum.webp",
+      "alt": "Ink-and-watercolor study of wooden building forms and a prism in morning light.",
+      "width": 720,
+      "height": 480,
+      "title": "Mary Poppins — ASL-Interpreted Performance",
+      "venue": "The Music Hall — Historic Theater",
+      "start": "2026-12-11T19:00:00-05:00",
+      "reusedFromEvent": "bcm-2026-10-03"
+    },
+    "gibsons-braided-river-asl-2026-12-01": {
+      "src": "/assets/event-sketches/morningstar-museum.webp",
+      "alt": "Ink-and-watercolor study of wooden building forms and a prism in morning light.",
+      "width": 720,
+      "height": 480,
+      "title": "Down the Braided River — ASL-Interpreted Author Event",
+      "venue": "Gibson’s Bookstore",
+      "start": "2026-12-01T18:30:00-05:00",
+      "reusedFromEvent": "bcm-2026-10-03"
+    },
+    "nhad-coffee-chat-2026-11-07": {
+      "src": "/assets/event-sketches/morningstar-museum.webp",
+      "alt": "Ink-and-watercolor study of wooden building forms and a prism in morning light.",
+      "width": 720,
+      "height": 480,
+      "title": "NHAD Coffee Chat",
+      "venue": "Pressed Cafe",
+      "start": "2026-11-07T10:00:00-05:00",
+      "reusedFromEvent": "bcm-2026-10-03"
+    },
+    "nhad-deaf-santa-party-2026-12-19": {
+      "src": "/assets/event-sketches/santa-visit.webp",
+      "alt": "Original ink-and-watercolor study of a cranberry Santa hat, brass bell and a warm wooden armchair.",
+      "width": 1536,
+      "height": 1024,
+      "title": "NHAD Holiday Party with Deaf Santa",
+      "venue": "Peterborough Community Center",
+      "start": "2026-12-19T14:00:00-05:00",
+      "reusedFromEvent": "northshore-santa-2026-12-06"
+    },
+    "bushnell-boop-the-musical-11-13": {
+      "src": "/assets/event-sketches/holiday-concert.webp",
+      "alt": "Original ink-and-watercolor study of a brass French horn, music pages, cranberry ribbon and pine.",
+      "width": 1536,
+      "height": 1024,
+      "title": "Boop! The Musical — Open-captioned performance",
+      "venue": "The Bushnell — Mortensen Hall",
+      "start": "2026-11-13T19:30:00-05:00",
+      "reusedFromEvent": "bso-holiday-2026-12-05"
+    },
+    "bushnell-boop-the-musical-11-15": {
+      "src": "/assets/event-sketches/holiday-concert.webp",
+      "alt": "Original ink-and-watercolor study of a brass French horn, music pages, cranberry ribbon and pine.",
+      "width": 1536,
+      "height": 1024,
+      "title": "Boop! The Musical — ASL-interpreted and audio-described performance",
+      "venue": "The Bushnell — Mortensen Hall",
+      "start": "2026-11-15T18:30:00-05:00",
+      "reusedFromEvent": "bso-holiday-2026-12-05"
+    },
+    "bushnell-alicia-keys-hells-kitchen-12-11": {
+      "src": "/assets/event-sketches/morningstar-museum.webp",
+      "alt": "Ink-and-watercolor study of wooden building forms and a prism in morning light.",
+      "width": 720,
+      "height": 480,
+      "title": "Hell’s Kitchen — Open-captioned performance",
+      "venue": "The Bushnell — Mortensen Hall",
+      "start": "2026-12-11T19:30:00-05:00",
+      "reusedFromEvent": "bcm-2026-10-03"
+    },
+    "bushnell-alicia-keys-hells-kitchen-12-13": {
+      "src": "/assets/event-sketches/morningstar-museum.webp",
+      "alt": "Ink-and-watercolor study of wooden building forms and a prism in morning light.",
+      "width": 720,
+      "height": 480,
+      "title": "Hell’s Kitchen — ASL-interpreted and audio-described performance",
+      "venue": "The Bushnell — Mortensen Hall",
+      "start": "2026-12-13T18:30:00-05:00",
+      "reusedFromEvent": "bcm-2026-10-03"
+    },
+    "hartford-stage-carol-access-12-06": {
+      "src": "/assets/event-sketches/storytime-smiles.webp",
+      "alt": "A storybook, colored pencils, paper crafts and apple slices sketched in watercolor.",
+      "width": 720,
+      "height": 480,
+      "title": "A Christmas Carol — Open-captioned performance",
+      "venue": "Hartford Stage",
+      "start": "2026-12-06T14:00:00-05:00",
+      "reusedFromEvent": "autism-alliance-storytime-2026-10-03"
+    },
+    "hartford-stage-carol-access-12-12": {
+      "src": "/assets/event-sketches/storytime-smiles.webp",
+      "alt": "A storybook, colored pencils, paper crafts and apple slices sketched in watercolor.",
+      "width": 720,
+      "height": 480,
+      "title": "A Christmas Carol — Audio-described performance",
+      "venue": "Hartford Stage",
+      "start": "2026-12-12T14:00:00-05:00",
+      "reusedFromEvent": "autism-alliance-storytime-2026-10-03"
+    },
+    "southbury-captioned-movie-11-18": {
+      "src": "/assets/event-sketches/westport-early-opening.webp",
+      "alt": "An open storybook and brass reading lamp in quiet morning light.",
+      "width": 720,
+      "height": 480,
+      "title": "The Devil Wears Prada 2 — captioned library screening",
+      "venue": "Southbury Public Library — Kingsley Room A/B",
+      "start": "2026-11-18T13:00:00-05:00",
+      "reusedFromEvent": "westport-early-2026-10-04"
+    },
+    "southbury-captioned-movie-11-25": {
+      "src": "/assets/event-sketches/westport-early-opening.webp",
+      "alt": "An open storybook and brass reading lamp in quiet morning light.",
+      "width": 720,
+      "height": 480,
+      "title": "White Christmas — captioned library screening",
+      "venue": "Southbury Public Library — Kingsley Room A/B",
+      "start": "2026-11-25T13:00:00-05:00",
+      "reusedFromEvent": "westport-early-2026-10-04"
+    },
+    "southworth-audio-universe-2026-11-06": {
+      "src": "/assets/event-sketches/morningstar-museum.webp",
+      "alt": "Ink-and-watercolor study of wooden building forms and a prism in morning light.",
+      "width": 720,
+      "height": 480,
+      "title": "Audio Universe: Tour of the Solar System",
+      "venue": "Southworth Planetarium — Science Building",
+      "start": "2026-11-06T13:00:00-05:00",
+      "reusedFromEvent": "bcm-2026-10-03"
+    },
+    "southworth-audio-universe-2026-11-10": {
+      "src": "/assets/event-sketches/morningstar-museum.webp",
+      "alt": "Ink-and-watercolor study of wooden building forms and a prism in morning light.",
+      "width": 720,
+      "height": 480,
+      "title": "Audio Universe: Tour of the Solar System",
+      "venue": "Southworth Planetarium — Science Building",
+      "start": "2026-11-10T10:00:00-05:00",
+      "reusedFromEvent": "bcm-2026-10-03"
     }
   },
   "watchlist": {
