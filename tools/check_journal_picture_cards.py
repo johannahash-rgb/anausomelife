@@ -11,6 +11,19 @@ assert len(catalog)==len(by_id), 'Duplicate picture-card IDs'
 assert 'tulip' in by_id and 'tulip-farm' in by_id
 assert all(face not in by_id for face in ('happy','sad','tired','hurt'))
 assert sum(bool(card.get('photoRealistic')) for card in catalog)==448
+# Pixel-reviewed sprite mappings: retain stable card IDs, not erroneous sheet numbers.
+# These two cards also appear as static sprites in the time-change article.
+article=(ROOT/'we-dont-fall-back-overnight.html').read_text()
+for card_id, sheet, cell, label, position in (
+    ('photo-08-dinner-plate', '07', 0, 'dinner plate', '0 0'),
+    ('photo-15-pill-organizer', '14', 15, 'pill organizer', '100% 100%'),
+):
+    card=by_id[card_id]
+    image=f'/assets/card-collection/photoreal/set-{sheet}.webp'
+    assert (card['image'], card['cell'], card['label']) == (image, cell, label), card_id
+    expected=(f'aria-label="A {label} on a plain background" '
+              f'style="background-image:url(\'{image}\');background-position:{position}"')
+    assert expected in article, (card_id, 'article sprite differs from reviewed mapping')
 manifest=json.loads((ROOT/'data/journal-picture-cards.json').read_text())
 class Page(HTMLParser):
     def __init__(self):
