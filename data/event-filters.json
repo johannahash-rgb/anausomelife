@@ -22953,6 +22953,1333 @@
         "max": null,
         "kind": "minimum-age"
       }
+    },
+    "raisingharts-social-2026-11-03": {
+      "ageGroups": [
+        "children",
+        "teens",
+        "families"
+      ],
+      "accessFeatures": [],
+      "ageEvidence": {
+        "children": {
+          "url": "https://www.raisingharts.org/events-at-raising-harts",
+          "summary": "6+"
+        },
+        "teens": {
+          "url": "https://www.raisingharts.org/events-at-raising-harts",
+          "summary": "6+"
+        },
+        "families": {
+          "url": "https://www.raisingharts.org/events-at-raising-harts",
+          "summary": "6+"
+        }
+      },
+      "accessEvidence": {},
+      "holidays": [],
+      "holidayEvidence": {},
+      "checkedAt": "2026-11-02",
+      "ageRange": {
+        "min": 6,
+        "max": null,
+        "kind": "explicit"
+      },
+      "sensory": {
+        "level": "unknown",
+        "note": "Group setting; exact sound and quiet-space accommodations are not published.",
+        "sourceUrl": "https://www.raisingharts.org/events-at-raising-harts",
+        "checkedAt": "2026-11-02",
+        "sourceDetailsCheckedAt": "2026-11-02",
+        "basis": "Editorial planning estimate, not a measured sensory score, based on event-level details."
+      }
+    },
+    "raisingharts-social-2026-11-10": {
+      "ageGroups": [
+        "children",
+        "teens",
+        "families"
+      ],
+      "accessFeatures": [],
+      "ageEvidence": {
+        "children": {
+          "url": "https://www.raisingharts.org/events-at-raising-harts",
+          "summary": "6+"
+        },
+        "teens": {
+          "url": "https://www.raisingharts.org/events-at-raising-harts",
+          "summary": "6+"
+        },
+        "families": {
+          "url": "https://www.raisingharts.org/events-at-raising-harts",
+          "summary": "6+"
+        }
+      },
+      "accessEvidence": {},
+      "holidays": [],
+      "holidayEvidence": {},
+      "checkedAt": "2026-11-02",
+      "ageRange": {
+        "min": 6,
+        "max": null,
+        "kind": "explicit"
+      },
+      "sensory": {
+        "level": "unknown",
+        "note": "Group setting; exact sound and quiet-space accommodations are not published.",
+        "sourceUrl": "https://www.raisingharts.org/events-at-raising-harts",
+        "checkedAt": "2026-11-02",
+        "sourceDetailsCheckedAt": "2026-11-02",
+        "basis": "Editorial planning estimate, not a measured sensory score, based on event-level details."
+      }
+    },
+    "raisingharts-social-2026-11-17": {
+      "ageGroups": [
+        "children",
+        "teens",
+        "families"
+      ],
+      "accessFeatures": [],
+      "ageEvidence": {
+        "children": {
+          "url": "https://www.raisingharts.org/events-at-raising-harts",
+          "summary": "6+"
+        },
+        "teens": {
+          "url": "https://www.raisingharts.org/events-at-raising-harts",
+          "summary": "6+"
+        },
+        "families": {
+          "url": "https://www.raisingharts.org/events-at-raising-harts",
+          "summary": "6+"
+        }
+      },
+      "accessEvidence": {},
+      "holidays": [],
+      "holidayEvidence": {},
+      "checkedAt": "2026-11-02",
+      "ageRange": {
+        "min": 6,
+        "max": null,
+        "kind": "explicit"
+      },
+      "sensory": {
+        "level": "unknown",
+        "note": "Group setting; exact sound and quiet-space accommodations are not published.",
+        "sourceUrl": "https://www.raisingharts.org/events-at-raising-harts",
+        "checkedAt": "2026-11-02",
+        "sourceDetailsCheckedAt": "2026-11-02",
+        "basis": "Editorial planning estimate, not a measured sensory score, based on event-level details."
+      }
+    },
+    "autism-blue-envelope-2026-11-04": {
+      "ageGroups": [
+        "teens",
+        "adults",
+        "families"
+      ],
+      "accessFeatures": [],
+      "ageEvidence": {
+        "teens": {
+          "url": "https://www.autismresourcecentral.org/event/sandi-blue-envelope-workshop/",
+          "summary": "Drivers, permit holders, teenagers and parents."
+        },
+        "adults": {
+          "url": "https://www.autismresourcecentral.org/event/sandi-blue-envelope-workshop/",
+          "summary": "Drivers, permit holders, teenagers and parents."
+        },
+        "families": {
+          "url": "https://www.autismresourcecentral.org/event/sandi-blue-envelope-workshop/",
+          "summary": "Drivers, permit holders, teenagers and parents."
+        }
+      },
+      "accessEvidence": {},
+      "holidays": [],
+      "holidayEvidence": {},
+      "checkedAt": "2026-11-02",
+      "ageRange": {
+        "min": null,
+        "max": null,
+        "kind": "not-stated"
+      },
+      "sensory": {
+        "level": "low",
+        "note": "Virtual session; control your own lighting and sound.",
+        "sourceUrl": "https://www.autismresourcecentral.org/event/sandi-blue-envelope-workshop/",
+        "checkedAt": "2026-11-02",
+        "sourceDetailsCheckedAt": "2026-11-02",
+        "basis": "Editorial planning estimate, not a measured sensory score, based on event-level details."
+      }
+    },
+    "railers-autism-game-2026-11-08": {
+      "ageGroups": [
+        "children",
+        "teens",
+        "adults",
+        "families"
+      ],
+      "accessFeatures": [],
+      "ageEvidence": {
+        "children": {
+          "url": "https://railershc.com/games/2026/11/08/autism-awareness-day",
+          "summary": "Fans and families; ticket policies vary."
+        },
+        "teens": {
+          "url": "https://railershc.com/games/2026/11/08/autism-awareness-day",
+          "summary": "Fans and families; ticket policies vary."
+        },
+        "adults": {
+          "url": "https://railershc.com/games/2026/11/08/autism-awareness-day",
+          "summary": "Fans and families; ticket policies vary."
+        },
+        "families": {
+          "url": "https://railershc.com/games/2026/11/08/autism-awareness-day",
+          "summary": "Fans and families; ticket policies vary."
+        }
+      },
+      "accessEvidence": {},
+      "holidays": [],
+      "holidayEvidence": {},
+      "checkedAt": "2026-11-02",
+      "ageRange": {
+        "min": null,
+        "max": null,
+        "kind": "not-stated"
+      },
+      "sensory": {
+        "level": "high",
+        "note": "Arena cheering and amplified music can be loud despite confirmed quiet rooms.",
+        "sourceUrl": "https://railershc.com/games/2026/11/08/autism-awareness-day",
+        "checkedAt": "2026-11-02",
+        "sourceDetailsCheckedAt": "2026-11-02",
+        "basis": "Editorial planning estimate, not a measured sensory score, based on event-level details."
+      }
+    },
+    "arc-sibshop-2026-11-13": {
+      "ageGroups": [
+        "children",
+        "families"
+      ],
+      "accessFeatures": [],
+      "ageEvidence": {
+        "children": {
+          "url": "https://www.autismresourcecentral.org/event/sibshop-13/",
+          "summary": "Siblings ages 7–12."
+        },
+        "families": {
+          "url": "https://www.autismresourcecentral.org/event/sibshop-13/",
+          "summary": "Siblings ages 7–12."
+        }
+      },
+      "accessEvidence": {},
+      "holidays": [],
+      "holidayEvidence": {},
+      "checkedAt": "2026-11-02",
+      "ageRange": {
+        "min": 7,
+        "max": 12,
+        "kind": "explicit"
+      },
+      "sensory": {
+        "level": "unknown",
+        "note": "Specific sensory conditions are not confirmed by the organizer.",
+        "sourceUrl": "https://www.autismresourcecentral.org/event/sibshop-13/",
+        "checkedAt": "2026-11-02",
+        "sourceDetailsCheckedAt": "2026-11-02",
+        "basis": "Editorial planning estimate, not a measured sensory score, based on event-level details."
+      }
+    },
+    "raisingharts-siblings-2026-11-15": {
+      "ageGroups": [
+        "children",
+        "families"
+      ],
+      "accessFeatures": [],
+      "ageEvidence": {
+        "children": {
+          "url": "https://www.raisingharts.org/events-at-raising-harts",
+          "summary": "Siblings ages 5–6 or 7–9; grouped separately."
+        },
+        "families": {
+          "url": "https://www.raisingharts.org/events-at-raising-harts",
+          "summary": "Siblings ages 5–6 or 7–9; grouped separately."
+        }
+      },
+      "accessEvidence": {},
+      "holidays": [],
+      "holidayEvidence": {},
+      "checkedAt": "2026-11-02",
+      "ageRange": {
+        "min": 5,
+        "max": 9,
+        "kind": "explicit"
+      },
+      "sensory": {
+        "level": "variable",
+        "note": "Specific sensory conditions are not confirmed by the organizer.",
+        "sourceUrl": "https://www.raisingharts.org/events-at-raising-harts",
+        "checkedAt": "2026-11-02",
+        "sourceDetailsCheckedAt": "2026-11-02",
+        "basis": "Editorial planning estimate, not a measured sensory score, based on event-level details."
+      }
+    },
+    "raisingharts-siblings-2026-12-06": {
+      "ageGroups": [
+        "children",
+        "families"
+      ],
+      "accessFeatures": [],
+      "ageEvidence": {
+        "children": {
+          "url": "https://www.raisingharts.org/events-at-raising-harts",
+          "summary": "Siblings ages 5–6 or 7–9; grouped separately."
+        },
+        "families": {
+          "url": "https://www.raisingharts.org/events-at-raising-harts",
+          "summary": "Siblings ages 5–6 or 7–9; grouped separately."
+        }
+      },
+      "accessEvidence": {},
+      "holidays": [],
+      "holidayEvidence": {},
+      "checkedAt": "2026-11-02",
+      "ageRange": {
+        "min": 5,
+        "max": 9,
+        "kind": "explicit"
+      },
+      "sensory": {
+        "level": "variable",
+        "note": "Specific sensory conditions are not confirmed by the organizer.",
+        "sourceUrl": "https://www.raisingharts.org/events-at-raising-harts",
+        "checkedAt": "2026-11-02",
+        "sourceDetailsCheckedAt": "2026-11-02",
+        "basis": "Editorial planning estimate, not a measured sensory score, based on event-level details."
+      }
+    },
+    "raisingharts-siblings-2026-12-20": {
+      "ageGroups": [
+        "children",
+        "families"
+      ],
+      "accessFeatures": [],
+      "ageEvidence": {
+        "children": {
+          "url": "https://www.raisingharts.org/events-at-raising-harts",
+          "summary": "Siblings ages 5–6 or 7–9; grouped separately."
+        },
+        "families": {
+          "url": "https://www.raisingharts.org/events-at-raising-harts",
+          "summary": "Siblings ages 5–6 or 7–9; grouped separately."
+        }
+      },
+      "accessEvidence": {},
+      "holidays": [],
+      "holidayEvidence": {},
+      "checkedAt": "2026-11-02",
+      "ageRange": {
+        "min": 5,
+        "max": 9,
+        "kind": "explicit"
+      },
+      "sensory": {
+        "level": "variable",
+        "note": "Specific sensory conditions are not confirmed by the organizer.",
+        "sourceUrl": "https://www.raisingharts.org/events-at-raising-harts",
+        "checkedAt": "2026-11-02",
+        "sourceDetailsCheckedAt": "2026-11-02",
+        "basis": "Editorial planning estimate, not a measured sensory score, based on event-level details."
+      }
+    },
+    "arc-dino-man-2026-11-22": {
+      "ageGroups": [
+        "children",
+        "families"
+      ],
+      "accessFeatures": [],
+      "ageEvidence": {
+        "children": {
+          "url": "https://www.autismresourcecentral.org/event/dino-man-ages-12-and-under/",
+          "summary": "Ages 12 and under, with families."
+        },
+        "families": {
+          "url": "https://www.autismresourcecentral.org/event/dino-man-ages-12-and-under/",
+          "summary": "Ages 12 and under, with families."
+        }
+      },
+      "accessEvidence": {},
+      "holidays": [],
+      "holidayEvidence": {},
+      "checkedAt": "2026-11-02",
+      "ageRange": {
+        "min": null,
+        "max": 12,
+        "kind": "explicit"
+      },
+      "sensory": {
+        "level": "unknown",
+        "note": "Specific sensory conditions are not confirmed by the organizer.",
+        "sourceUrl": "https://www.autismresourcecentral.org/event/dino-man-ages-12-and-under/",
+        "checkedAt": "2026-11-02",
+        "sourceDetailsCheckedAt": "2026-11-02",
+        "basis": "Editorial planning estimate, not a measured sensory score, based on event-level details."
+      }
+    },
+    "raisingharts-sensory-play-2026-11-22": {
+      "ageGroups": [
+        "children",
+        "families"
+      ],
+      "accessFeatures": [],
+      "ageEvidence": {
+        "children": {
+          "url": "https://www.raisingharts.org/events-at-raising-harts",
+          "summary": "Children of all abilities, including autistic children and those with sensory needs."
+        },
+        "families": {
+          "url": "https://www.raisingharts.org/events-at-raising-harts",
+          "summary": "Children of all abilities, including autistic children and those with sensory needs."
+        }
+      },
+      "accessEvidence": {},
+      "holidays": [],
+      "holidayEvidence": {},
+      "checkedAt": "2026-11-02",
+      "ageRange": {
+        "min": null,
+        "max": null,
+        "kind": "not-stated"
+      },
+      "sensory": {
+        "level": "variable",
+        "note": "Music and movement are part of the program; not a guaranteed quiet session.",
+        "sourceUrl": "https://www.raisingharts.org/events-at-raising-harts",
+        "checkedAt": "2026-11-02",
+        "sourceDetailsCheckedAt": "2026-11-02",
+        "basis": "Editorial planning estimate, not a measured sensory score, based on event-level details."
+      }
+    },
+    "raisingharts-sensory-play-2026-12-13": {
+      "ageGroups": [
+        "children",
+        "families"
+      ],
+      "accessFeatures": [],
+      "ageEvidence": {
+        "children": {
+          "url": "https://www.raisingharts.org/events-at-raising-harts",
+          "summary": "Children of all abilities, including autistic children and those with sensory needs."
+        },
+        "families": {
+          "url": "https://www.raisingharts.org/events-at-raising-harts",
+          "summary": "Children of all abilities, including autistic children and those with sensory needs."
+        }
+      },
+      "accessEvidence": {},
+      "holidays": [],
+      "holidayEvidence": {},
+      "checkedAt": "2026-11-02",
+      "ageRange": {
+        "min": null,
+        "max": null,
+        "kind": "not-stated"
+      },
+      "sensory": {
+        "level": "variable",
+        "note": "Music and movement are part of the program; not a guaranteed quiet session.",
+        "sourceUrl": "https://www.raisingharts.org/events-at-raising-harts",
+        "checkedAt": "2026-11-02",
+        "sourceDetailsCheckedAt": "2026-11-02",
+        "basis": "Editorial planning estimate, not a measured sensory score, based on event-level details."
+      }
+    },
+    "arc-adult-holiday-treats-2026-11-24": {
+      "ageGroups": [
+        "adults"
+      ],
+      "accessFeatures": [],
+      "ageEvidence": {
+        "adults": {
+          "url": "https://www.autismresourcecentral.org/event/holiday-treat-making/",
+          "summary": "Autistic adults."
+        }
+      },
+      "accessEvidence": {},
+      "holidays": [],
+      "holidayEvidence": {},
+      "checkedAt": "2026-11-02",
+      "ageRange": {
+        "min": null,
+        "max": null,
+        "kind": "not-stated"
+      },
+      "sensory": {
+        "level": "variable",
+        "note": "Food smells, textures and group activity may vary; quiet space not confirmed.",
+        "sourceUrl": "https://www.autismresourcecentral.org/event/holiday-treat-making/",
+        "checkedAt": "2026-11-02",
+        "sourceDetailsCheckedAt": "2026-11-02",
+        "basis": "Editorial planning estimate, not a measured sensory score, based on event-level details."
+      }
+    },
+    "franklin-museum-sensory-2026-11-29": {
+      "ageGroups": [
+        "children",
+        "families"
+      ],
+      "accessFeatures": [
+        "sensory-friendly"
+      ],
+      "ageEvidence": {
+        "children": {
+          "url": "https://www.childrensmuseumfranklin.org/events/sensory-sunday-bcdss",
+          "summary": "Children and families needing quieter admission; all welcome."
+        },
+        "families": {
+          "url": "https://www.childrensmuseumfranklin.org/events/sensory-sunday-bcdss",
+          "summary": "Children and families needing quieter admission; all welcome."
+        }
+      },
+      "accessEvidence": {
+        "sensory-friendly": {
+          "url": "https://www.childrensmuseumfranklin.org/events/sensory-sunday-bcdss",
+          "summary": "Reduced noise and stimulation. Limited museum capacity."
+        }
+      },
+      "holidays": [],
+      "holidayEvidence": {},
+      "checkedAt": "2026-11-02",
+      "ageRange": {
+        "min": null,
+        "max": null,
+        "kind": "not-stated"
+      },
+      "sensory": {
+        "level": "low",
+        "note": "Confirmed low-stimulation hour and 50-person cap; visitor activity may still vary.",
+        "sourceUrl": "https://www.childrensmuseumfranklin.org/events/sensory-sunday-bcdss",
+        "checkedAt": "2026-11-02",
+        "sourceDetailsCheckedAt": "2026-11-02",
+        "basis": "Editorial planning estimate, not a measured sensory score, based on event-level details."
+      }
+    },
+    "jfcs-chanukah-2026-12-01": {
+      "ageGroups": [
+        "adults"
+      ],
+      "accessFeatures": [],
+      "ageEvidence": {
+        "adults": {
+          "url": "https://www.jewishboston.com/events/chanukah-party-for-adults-with-diverse-needs-and-abilities/",
+          "summary": "Adults with disabilities or mental-health challenges; all backgrounds welcome."
+        }
+      },
+      "accessEvidence": {},
+      "holidays": [
+        "hanukkah",
+        "holiday-social"
+      ],
+      "holidayEvidence": {
+        "hanukkah": {
+          "url": "https://www.jewishboston.com/events/chanukah-party-for-adults-with-diverse-needs-and-abilities/",
+          "summary": "JF&CS and Yachad inclusive adult holiday social with kosher refreshments; Jewish affiliation not required."
+        },
+        "holiday-social": {
+          "url": "https://www.jewishboston.com/events/chanukah-party-for-adults-with-diverse-needs-and-abilities/",
+          "summary": "JF&CS and Yachad inclusive adult holiday social with kosher refreshments; Jewish affiliation not required."
+        }
+      },
+      "checkedAt": "2026-11-02",
+      "ageRange": {
+        "min": null,
+        "max": null,
+        "kind": "not-stated"
+      },
+      "sensory": {
+        "level": "variable",
+        "note": "Social conversations and crowd noise; sensory adjustments not published.",
+        "sourceUrl": "https://www.jewishboston.com/events/chanukah-party-for-adults-with-diverse-needs-and-abilities/",
+        "checkedAt": "2026-11-02",
+        "sourceDetailsCheckedAt": "2026-11-02",
+        "basis": "Editorial planning estimate, not a measured sensory score, based on event-level details."
+      }
+    },
+    "aoec-social-dnd-2026-11-03": {
+      "ageGroups": [
+        "teens",
+        "adults"
+      ],
+      "accessFeatures": [],
+      "ageEvidence": {
+        "teens": {
+          "url": "https://www.adaptiveoutdooreducationcenter.org/socialcircle",
+          "summary": "Young adults with varying abilities, generally 17+; younger people may inquire."
+        },
+        "adults": {
+          "url": "https://www.adaptiveoutdooreducationcenter.org/socialcircle",
+          "summary": "Young adults with varying abilities, generally 17+; younger people may inquire."
+        }
+      },
+      "accessEvidence": {},
+      "holidays": [],
+      "holidayEvidence": {},
+      "checkedAt": "2026-11-02",
+      "ageRange": {
+        "min": 17,
+        "max": null,
+        "kind": "explicit"
+      },
+      "sensory": {
+        "level": "variable",
+        "note": "Group gaming voices and activity; quiet room not documented.",
+        "sourceUrl": "https://www.adaptiveoutdooreducationcenter.org/socialcircle",
+        "checkedAt": "2026-11-02",
+        "sourceDetailsCheckedAt": "2026-11-02",
+        "basis": "Editorial planning estimate, not a measured sensory score, based on event-level details."
+      }
+    },
+    "aoec-social-cabaret-2026-11-07": {
+      "ageGroups": [
+        "teens",
+        "adults"
+      ],
+      "accessFeatures": [],
+      "ageEvidence": {
+        "teens": {
+          "url": "https://www.adaptiveoutdooreducationcenter.org/socialcircle",
+          "summary": "Social Circle young adults, generally 17+."
+        },
+        "adults": {
+          "url": "https://www.adaptiveoutdooreducationcenter.org/socialcircle",
+          "summary": "Social Circle young adults, generally 17+."
+        }
+      },
+      "accessEvidence": {},
+      "holidays": [],
+      "holidayEvidence": {},
+      "checkedAt": "2026-11-02",
+      "ageRange": {
+        "min": 17,
+        "max": null,
+        "kind": "explicit"
+      },
+      "sensory": {
+        "level": "high",
+        "note": "Live musical/theatrical event may be loud; adjustments not published.",
+        "sourceUrl": "https://www.adaptiveoutdooreducationcenter.org/socialcircle",
+        "checkedAt": "2026-11-02",
+        "sourceDetailsCheckedAt": "2026-11-02",
+        "basis": "Editorial planning estimate, not a measured sensory score, based on event-level details."
+      }
+    },
+    "aoec-parents-night-2026-11-14": {
+      "ageGroups": [
+        "children",
+        "families"
+      ],
+      "accessFeatures": [],
+      "ageEvidence": {
+        "children": {
+          "url": "https://www.adaptiveoutdooreducationcenter.org/brunswickprograms",
+          "summary": "Children with disabilities and siblings; ask about ages/support needs."
+        },
+        "families": {
+          "url": "https://www.adaptiveoutdooreducationcenter.org/brunswickprograms",
+          "summary": "Children with disabilities and siblings; ask about ages/support needs."
+        }
+      },
+      "accessEvidence": {},
+      "holidays": [],
+      "holidayEvidence": {},
+      "checkedAt": "2026-11-02",
+      "ageRange": {
+        "min": null,
+        "max": null,
+        "kind": "not-stated"
+      },
+      "sensory": {
+        "level": "variable",
+        "note": "Films, play and group activities may produce noise; no special quiet-room policy confirmed.",
+        "sourceUrl": "https://www.adaptiveoutdooreducationcenter.org/brunswickprograms",
+        "checkedAt": "2026-11-02",
+        "sourceDetailsCheckedAt": "2026-11-02",
+        "basis": "Editorial planning estimate, not a measured sensory score, based on event-level details."
+      }
+    },
+    "aoec-social-friendsgiving-2026-11-21": {
+      "ageGroups": [
+        "teens",
+        "adults"
+      ],
+      "accessFeatures": [],
+      "ageEvidence": {
+        "teens": {
+          "url": "https://www.adaptiveoutdooreducationcenter.org/socialcircle",
+          "summary": "Young adults 17+ with varying abilities; inquire about younger participants."
+        },
+        "adults": {
+          "url": "https://www.adaptiveoutdooreducationcenter.org/socialcircle",
+          "summary": "Young adults 17+ with varying abilities; inquire about younger participants."
+        }
+      },
+      "accessEvidence": {},
+      "holidays": [
+        "thanksgiving",
+        "holiday-social"
+      ],
+      "holidayEvidence": {
+        "thanksgiving": {
+          "url": "https://www.adaptiveoutdooreducationcenter.org/socialcircle",
+          "summary": "Older-teen and adult-inclusive Friendsgiving: make a main dish together; optionally bring a side dish."
+        },
+        "holiday-social": {
+          "url": "https://www.adaptiveoutdooreducationcenter.org/socialcircle",
+          "summary": "Older-teen and adult-inclusive Friendsgiving: make a main dish together; optionally bring a side dish."
+        }
+      },
+      "checkedAt": "2026-11-02",
+      "ageRange": {
+        "min": 17,
+        "max": null,
+        "kind": "explicit"
+      },
+      "sensory": {
+        "level": "variable",
+        "note": "Cooking smells, food textures and conversation may be stimulating.",
+        "sourceUrl": "https://www.adaptiveoutdooreducationcenter.org/socialcircle",
+        "checkedAt": "2026-11-02",
+        "sourceDetailsCheckedAt": "2026-11-02",
+        "basis": "Editorial planning estimate, not a measured sensory score, based on event-level details."
+      }
+    },
+    "newport-sailing-sensory-2026-11-03": {
+      "ageGroups": [
+        "all-ages",
+        "children",
+        "teens",
+        "adults",
+        "families"
+      ],
+      "accessFeatures": [
+        "sensory-friendly"
+      ],
+      "ageEvidence": {
+        "all-ages": {
+          "url": "https://thesailingmuseum.org/event/sensory-friendly-hour-at-the-sailing-museum/2026-11-03/",
+          "summary": "All ages; designed for sensory sensitivities."
+        },
+        "children": {
+          "url": "https://thesailingmuseum.org/event/sensory-friendly-hour-at-the-sailing-museum/2026-11-03/",
+          "summary": "All ages; designed for sensory sensitivities."
+        },
+        "teens": {
+          "url": "https://thesailingmuseum.org/event/sensory-friendly-hour-at-the-sailing-museum/2026-11-03/",
+          "summary": "All ages; designed for sensory sensitivities."
+        },
+        "adults": {
+          "url": "https://thesailingmuseum.org/event/sensory-friendly-hour-at-the-sailing-museum/2026-11-03/",
+          "summary": "All ages; designed for sensory sensitivities."
+        },
+        "families": {
+          "url": "https://thesailingmuseum.org/event/sensory-friendly-hour-at-the-sailing-museum/2026-11-03/",
+          "summary": "All ages; designed for sensory sensitivities."
+        }
+      },
+      "accessEvidence": {
+        "sensory-friendly": {
+          "url": "https://thesailingmuseum.org/event/sensory-friendly-hour-at-the-sailing-museum/2026-11-03/",
+          "summary": "Adjusted lighting. Reduced screen sound."
+        }
+      },
+      "holidays": [],
+      "holidayEvidence": {},
+      "checkedAt": "2026-11-02",
+      "ageRange": {
+        "min": null,
+        "max": null,
+        "kind": "not-stated"
+      },
+      "sensory": {
+        "level": "low",
+        "note": "Museum confirms lighting and screen-sound adjustments.",
+        "sourceUrl": "https://thesailingmuseum.org/event/sensory-friendly-hour-at-the-sailing-museum/2026-11-03/",
+        "checkedAt": "2026-11-02",
+        "sourceDetailsCheckedAt": "2026-11-02",
+        "basis": "Editorial planning estimate, not a measured sensory score, based on event-level details."
+      }
+    },
+    "perspectives-walking-2026-11-09": {
+      "ageGroups": [],
+      "accessFeatures": [],
+      "ageEvidence": {},
+      "accessEvidence": {},
+      "holidays": [],
+      "holidayEvidence": {},
+      "checkedAt": "2026-11-02",
+      "ageRange": {
+        "min": null,
+        "max": null,
+        "kind": "not-stated"
+      },
+      "sensory": {
+        "level": "variable",
+        "note": "Specific sensory conditions are not confirmed by the organizer.",
+        "sourceUrl": "https://cpnri.org/event/walking-club-led-by-a-special-olympics-athlete-leader/2026-11-09/",
+        "checkedAt": "2026-11-02",
+        "sourceDetailsCheckedAt": "2026-11-02",
+        "basis": "Editorial planning estimate, not a measured sensory score, based on event-level details."
+      }
+    },
+    "avatar-stroll-2026-11-20": {
+      "ageGroups": [],
+      "accessFeatures": [],
+      "ageEvidence": {},
+      "accessEvidence": {},
+      "holidays": [],
+      "holidayEvidence": {},
+      "checkedAt": "2026-11-02",
+      "ageRange": {
+        "min": null,
+        "max": null,
+        "kind": "not-stated"
+      },
+      "sensory": {
+        "level": "variable",
+        "note": "Specific sensory conditions are not confirmed by the organizer.",
+        "sourceUrl": "https://cpnri.org/event/avatars-walking-and-strolling-club/2026-11-20/",
+        "checkedAt": "2026-11-02",
+        "sourceDetailsCheckedAt": "2026-11-02",
+        "basis": "Editorial planning estimate, not a measured sensory score, based on event-level details."
+      }
+    },
+    "avatar-stroll-2026-12-18": {
+      "ageGroups": [],
+      "accessFeatures": [],
+      "ageEvidence": {},
+      "accessEvidence": {},
+      "holidays": [],
+      "holidayEvidence": {},
+      "checkedAt": "2026-11-02",
+      "ageRange": {
+        "min": null,
+        "max": null,
+        "kind": "not-stated"
+      },
+      "sensory": {
+        "level": "variable",
+        "note": "Specific sensory conditions are not confirmed by the organizer.",
+        "sourceUrl": "https://cpnri.org/event/avatars-walking-and-strolling-club/2026-12-18/",
+        "checkedAt": "2026-11-02",
+        "sourceDetailsCheckedAt": "2026-11-02",
+        "basis": "Editorial planning estimate, not a measured sensory score, based on event-level details."
+      }
+    },
+    "avatar-stroll-2027-01-15": {
+      "ageGroups": [],
+      "accessFeatures": [],
+      "ageEvidence": {},
+      "accessEvidence": {},
+      "holidays": [],
+      "holidayEvidence": {},
+      "checkedAt": "2026-11-02",
+      "ageRange": {
+        "min": null,
+        "max": null,
+        "kind": "not-stated"
+      },
+      "sensory": {
+        "level": "variable",
+        "note": "Specific sensory conditions are not confirmed by the organizer.",
+        "sourceUrl": "https://cpnri.org/event/avatars-walking-and-strolling-club/2027-01-15/",
+        "checkedAt": "2026-11-02",
+        "sourceDetailsCheckedAt": "2026-11-02",
+        "basis": "Editorial planning estimate, not a measured sensory score, based on event-level details."
+      }
+    },
+    "lydia-starr-warwick-2026-11-20": {
+      "ageGroups": [
+        "all-ages",
+        "children",
+        "teens",
+        "adults",
+        "families"
+      ],
+      "accessFeatures": [],
+      "ageEvidence": {
+        "all-ages": {
+          "url": "https://cpnri.org/event/lydia-starr-in-concert/",
+          "summary": "All ages; open to the public."
+        },
+        "children": {
+          "url": "https://cpnri.org/event/lydia-starr-in-concert/",
+          "summary": "All ages; open to the public."
+        },
+        "teens": {
+          "url": "https://cpnri.org/event/lydia-starr-in-concert/",
+          "summary": "All ages; open to the public."
+        },
+        "adults": {
+          "url": "https://cpnri.org/event/lydia-starr-in-concert/",
+          "summary": "All ages; open to the public."
+        },
+        "families": {
+          "url": "https://cpnri.org/event/lydia-starr-in-concert/",
+          "summary": "All ages; open to the public."
+        }
+      },
+      "accessEvidence": {},
+      "holidays": [],
+      "holidayEvidence": {},
+      "checkedAt": "2026-11-02",
+      "ageRange": {
+        "min": null,
+        "max": null,
+        "kind": "not-stated"
+      },
+      "sensory": {
+        "level": "high",
+        "note": "Live music and people may be loud; event is not advertised as low sensory.",
+        "sourceUrl": "https://cpnri.org/event/lydia-starr-in-concert/",
+        "checkedAt": "2026-11-02",
+        "sourceDetailsCheckedAt": "2026-11-02",
+        "basis": "Editorial planning estimate, not a measured sensory score, based on event-level details."
+      }
+    },
+    "ppac-ocean-blue-2027-04-03": {
+      "ageGroups": [
+        "children",
+        "teens",
+        "adults",
+        "families"
+      ],
+      "accessFeatures": [
+        "sensory-friendly",
+        "wheelchair-step-free"
+      ],
+      "ageEvidence": {
+        "children": {
+          "url": "https://www.ppacri.org/events/detail/ocean-blue",
+          "summary": "All welcome; recommended for approximately ages five and up."
+        },
+        "teens": {
+          "url": "https://www.ppacri.org/events/detail/ocean-blue",
+          "summary": "All welcome; recommended for approximately ages five and up."
+        },
+        "adults": {
+          "url": "https://www.ppacri.org/events/detail/ocean-blue",
+          "summary": "All welcome; recommended for approximately ages five and up."
+        },
+        "families": {
+          "url": "https://www.ppacri.org/events/detail/ocean-blue",
+          "summary": "All welcome; recommended for approximately ages five and up."
+        }
+      },
+      "accessEvidence": {
+        "sensory-friendly": {
+          "url": "https://www.ppacri.org/events/detail/ocean-blue",
+          "summary": "Lowered house lights and adjusted sound. Quiet area in lobby. Movement, blankets, fidgets and headphones permitted. Wheelchair seating ticket option."
+        },
+        "wheelchair-step-free": {
+          "url": "https://www.ppacri.org/events/detail/ocean-blue",
+          "summary": "Lowered house lights and adjusted sound. Quiet area in lobby. Movement, blankets, fidgets and headphones permitted. Wheelchair seating ticket option."
+        }
+      },
+      "holidays": [],
+      "holidayEvidence": {},
+      "checkedAt": "2026-11-02",
+      "ageRange": {
+        "min": 5,
+        "max": null,
+        "kind": "recommended-minimum"
+      },
+      "sensory": {
+        "level": "low",
+        "note": "Organizer confirms reduced sound, partial lighting and quiet area, but music remains.",
+        "sourceUrl": "https://www.ppacri.org/events/detail/ocean-blue",
+        "checkedAt": "2026-11-02",
+        "sourceDetailsCheckedAt": "2026-11-02",
+        "basis": "Editorial planning estimate, not a measured sensory score, based on event-level details."
+      }
+    },
+    "bridge-karaoke-2026-11-20": {
+      "ageGroups": [
+        "all-ages",
+        "children",
+        "teens",
+        "adults",
+        "families"
+      ],
+      "accessFeatures": [],
+      "ageEvidence": {
+        "all-ages": {
+          "url": "https://www.bridgethespectrumct.com/event-details/karaoke-night-is-back-all-ages-open-to-public",
+          "summary": "All ages welcome."
+        },
+        "children": {
+          "url": "https://www.bridgethespectrumct.com/event-details/karaoke-night-is-back-all-ages-open-to-public",
+          "summary": "All ages welcome."
+        },
+        "teens": {
+          "url": "https://www.bridgethespectrumct.com/event-details/karaoke-night-is-back-all-ages-open-to-public",
+          "summary": "All ages welcome."
+        },
+        "adults": {
+          "url": "https://www.bridgethespectrumct.com/event-details/karaoke-night-is-back-all-ages-open-to-public",
+          "summary": "All ages welcome."
+        },
+        "families": {
+          "url": "https://www.bridgethespectrumct.com/event-details/karaoke-night-is-back-all-ages-open-to-public",
+          "summary": "All ages welcome."
+        }
+      },
+      "accessEvidence": {},
+      "holidays": [],
+      "holidayEvidence": {},
+      "checkedAt": "2026-11-02",
+      "ageRange": {
+        "min": null,
+        "max": null,
+        "kind": "not-stated"
+      },
+      "sensory": {
+        "level": "high",
+        "note": "Amplified singing/music and a busy public venue can be very loud.",
+        "sourceUrl": "https://www.bridgethespectrumct.com/event-details/karaoke-night-is-back-all-ages-open-to-public",
+        "checkedAt": "2026-11-02",
+        "sourceDetailsCheckedAt": "2026-11-02",
+        "basis": "Editorial planning estimate, not a measured sensory score, based on event-level details."
+      }
+    },
+    "bridge-wolf-pack-2026-11-29": {
+      "ageGroups": [
+        "adults"
+      ],
+      "accessFeatures": [],
+      "ageEvidence": {
+        "adults": {
+          "url": "https://www.bridgethespectrumct.com/event-details/hartford-wolf-pack-hockey-outing-sensory-inclusivity-game",
+          "summary": "Bridge The Spectrum participants; confirm outing age rules."
+        }
+      },
+      "accessEvidence": {},
+      "holidays": [],
+      "holidayEvidence": {},
+      "checkedAt": "2026-11-02",
+      "ageRange": {
+        "min": null,
+        "max": null,
+        "kind": "not-stated"
+      },
+      "sensory": {
+        "level": "high",
+        "note": "Hockey arena sound and crowd can be intense; ask about any quiet spaces.",
+        "sourceUrl": "https://www.bridgethespectrumct.com/event-details/hartford-wolf-pack-hockey-outing-sensory-inclusivity-game",
+        "checkedAt": "2026-11-02",
+        "sourceDetailsCheckedAt": "2026-11-02",
+        "basis": "Editorial planning estimate, not a measured sensory score, based on event-level details."
+      }
+    },
+    "bridge-gamerz-2026-12-11": {
+      "ageGroups": [
+        "adults"
+      ],
+      "accessFeatures": [],
+      "ageEvidence": {
+        "adults": {
+          "url": "https://www.bridgethespectrumct.com/event-details/jt-gamerz-lounge-back-by-popular-demand-18",
+          "summary": "Adults 18+."
+        }
+      },
+      "accessEvidence": {},
+      "holidays": [],
+      "holidayEvidence": {},
+      "checkedAt": "2026-11-02",
+      "ageRange": {
+        "min": 18,
+        "max": null,
+        "kind": "explicit"
+      },
+      "sensory": {
+        "level": "variable",
+        "note": "Screen light, video-game sound and room noise may vary.",
+        "sourceUrl": "https://www.bridgethespectrumct.com/event-details/jt-gamerz-lounge-back-by-popular-demand-18",
+        "checkedAt": "2026-11-02",
+        "sourceDetailsCheckedAt": "2026-11-02",
+        "basis": "Editorial planning estimate, not a measured sensory score, based on event-level details."
+      }
+    },
+    "bridge-trivia-2026-12-14": {
+      "ageGroups": [
+        "adults"
+      ],
+      "accessFeatures": [],
+      "ageEvidence": {
+        "adults": {
+          "url": "https://www.bridgethespectrumct.com/event-details/holiday-trivia-night-18",
+          "summary": "Adults 18+."
+        }
+      },
+      "accessEvidence": {},
+      "holidays": [
+        "holiday-social",
+        "winter-holidays"
+      ],
+      "holidayEvidence": {
+        "holiday-social": {
+          "url": "https://www.bridgethespectrumct.com/event-details/holiday-trivia-night-18",
+          "summary": "Free holiday trivia and social connection for neurodivergent and disabled adults."
+        },
+        "winter-holidays": {
+          "url": "https://www.bridgethespectrumct.com/event-details/holiday-trivia-night-18",
+          "summary": "Free holiday trivia and social connection for neurodivergent and disabled adults."
+        }
+      },
+      "checkedAt": "2026-11-02",
+      "ageRange": {
+        "min": 18,
+        "max": null,
+        "kind": "explicit"
+      },
+      "sensory": {
+        "level": "variable",
+        "note": "Group conversation and excitement can be noisy; no quiet zone confirmed.",
+        "sourceUrl": "https://www.bridgethespectrumct.com/event-details/holiday-trivia-night-18",
+        "checkedAt": "2026-11-02",
+        "sourceDetailsCheckedAt": "2026-11-02",
+        "basis": "Editorial planning estimate, not a measured sensory score, based on event-level details."
+      }
+    },
+    "bridge-3dprinting-2027-01-23": {
+      "ageGroups": [],
+      "accessFeatures": [],
+      "ageEvidence": {},
+      "accessEvidence": {},
+      "holidays": [],
+      "holidayEvidence": {},
+      "checkedAt": "2026-11-02",
+      "ageRange": {
+        "min": null,
+        "max": null,
+        "kind": "not-stated"
+      },
+      "sensory": {
+        "level": "variable",
+        "note": "Machine and screen sounds, and group activity, may vary.",
+        "sourceUrl": "https://www.bridgethespectrumct.com/event-details/3d-printing-class",
+        "checkedAt": "2026-11-02",
+        "sourceDetailsCheckedAt": "2026-11-02",
+        "basis": "Editorial planning estimate, not a measured sensory score, based on event-level details."
+      }
+    },
+    "hill-sensory-play-2026-11-12": {
+      "ageGroups": [
+        "children",
+        "families"
+      ],
+      "accessFeatures": [],
+      "ageEvidence": {
+        "children": {
+          "url": "https://hilllibrary.org/events/month/2026-11/",
+          "summary": "Children and caregivers; age band not specified."
+        },
+        "families": {
+          "url": "https://hilllibrary.org/events/month/2026-11/",
+          "summary": "Children and caregivers; age band not specified."
+        }
+      },
+      "accessEvidence": {},
+      "holidays": [],
+      "holidayEvidence": {},
+      "checkedAt": "2026-11-02",
+      "ageRange": {
+        "min": null,
+        "max": null,
+        "kind": "not-stated"
+      },
+      "sensory": {
+        "level": "variable",
+        "note": "Sensory materials offered, but noise/lighting reduction not promised.",
+        "sourceUrl": "https://hilllibrary.org/events/month/2026-11/",
+        "checkedAt": "2026-11-02",
+        "sourceDetailsCheckedAt": "2026-11-02",
+        "basis": "Editorial planning estimate, not a measured sensory score, based on event-level details."
+      }
+    },
+    "rye-sensory-play-2026-11-17": {
+      "ageGroups": [
+        "children",
+        "families"
+      ],
+      "accessFeatures": [],
+      "ageEvidence": {
+        "children": {
+          "url": "https://www.seacoastkidscalendar.com/calendar/sensory-play/2026-11-17/",
+          "summary": "Children ages 2–4 with caregivers."
+        },
+        "families": {
+          "url": "https://www.seacoastkidscalendar.com/calendar/sensory-play/2026-11-17/",
+          "summary": "Children ages 2–4 with caregivers."
+        }
+      },
+      "accessEvidence": {},
+      "holidays": [],
+      "holidayEvidence": {},
+      "checkedAt": "2026-11-02",
+      "ageRange": {
+        "min": 2,
+        "max": 4,
+        "kind": "explicit"
+      },
+      "sensory": {
+        "level": "variable",
+        "note": "Tactile play program; no specific room-sound accommodations claimed.",
+        "sourceUrl": "https://www.seacoastkidscalendar.com/calendar/sensory-play/2026-11-17/",
+        "checkedAt": "2026-11-02",
+        "sourceDetailsCheckedAt": "2026-11-02",
+        "basis": "Editorial planning estimate, not a measured sensory score, based on event-level details."
+      }
+    },
+    "vfn-ai-2026-11-05": {
+      "ageGroups": [
+        "adults",
+        "families"
+      ],
+      "accessFeatures": [],
+      "ageEvidence": {
+        "adults": {
+          "url": "https://www.vermontfamilynetwork.org/event/register-for-11-5-from-homework-to-healthcare-what-families-need-to-know-about-ai/",
+          "summary": "Families, caregivers and educators."
+        },
+        "families": {
+          "url": "https://www.vermontfamilynetwork.org/event/register-for-11-5-from-homework-to-healthcare-what-families-need-to-know-about-ai/",
+          "summary": "Families, caregivers and educators."
+        }
+      },
+      "accessEvidence": {},
+      "holidays": [],
+      "holidayEvidence": {},
+      "checkedAt": "2026-11-02",
+      "ageRange": {
+        "min": null,
+        "max": null,
+        "kind": "not-stated"
+      },
+      "sensory": {
+        "level": "low",
+        "note": "Virtual setting permits control of volume and light.",
+        "sourceUrl": "https://www.vermontfamilynetwork.org/event/register-for-11-5-from-homework-to-healthcare-what-families-need-to-know-about-ai/",
+        "checkedAt": "2026-11-02",
+        "sourceDetailsCheckedAt": "2026-11-02",
+        "basis": "Editorial planning estimate, not a measured sensory score, based on event-level details."
+      }
+    },
+    "echo-frog-toad-sensory-2026-11-14": {
+      "ageGroups": [
+        "children",
+        "families"
+      ],
+      "accessFeatures": [
+        "sensory-friendly"
+      ],
+      "ageEvidence": {
+        "children": {
+          "url": "https://www.echovermont.org/",
+          "summary": "Families and children who benefit from sensory-friendly museum visits."
+        },
+        "families": {
+          "url": "https://www.echovermont.org/",
+          "summary": "Families and children who benefit from sensory-friendly museum visits."
+        }
+      },
+      "accessEvidence": {
+        "sensory-friendly": {
+          "url": "https://www.echovermont.org/",
+          "summary": "Dedicated early sensory hour."
+        }
+      },
+      "holidays": [],
+      "holidayEvidence": {},
+      "checkedAt": "2026-11-02",
+      "ageRange": {
+        "min": null,
+        "max": null,
+        "kind": "not-stated"
+      },
+      "sensory": {
+        "level": "low",
+        "note": "Organized as a sensory hour, though exact audio/light adjustments are not stated.",
+        "sourceUrl": "https://www.echovermont.org/",
+        "checkedAt": "2026-11-02",
+        "sourceDetailsCheckedAt": "2026-11-02",
+        "basis": "Editorial planning estimate, not a measured sensory score, based on event-level details."
+      }
+    },
+    "vfn-special-ed-team-2026-11-19": {
+      "ageGroups": [
+        "adults",
+        "families"
+      ],
+      "accessFeatures": [],
+      "ageEvidence": {
+        "adults": {
+          "url": "https://www.vermontfamilynetwork.org/event/register-for-11-19-being-an-active-member-of-your-childs-special-education-team/",
+          "summary": "Parents and caregivers of children receiving special education."
+        },
+        "families": {
+          "url": "https://www.vermontfamilynetwork.org/event/register-for-11-19-being-an-active-member-of-your-childs-special-education-team/",
+          "summary": "Parents and caregivers of children receiving special education."
+        }
+      },
+      "accessEvidence": {},
+      "holidays": [],
+      "holidayEvidence": {},
+      "checkedAt": "2026-11-02",
+      "ageRange": {
+        "min": null,
+        "max": null,
+        "kind": "not-stated"
+      },
+      "sensory": {
+        "level": "low",
+        "note": "Home participation with control of your own environment.",
+        "sourceUrl": "https://www.vermontfamilynetwork.org/event/register-for-11-19-being-an-active-member-of-your-childs-special-education-team/",
+        "checkedAt": "2026-11-02",
+        "sourceDetailsCheckedAt": "2026-11-02",
+        "basis": "Editorial planning estimate, not a measured sensory score, based on event-level details."
+      }
+    },
+    "vfn-adaptive-rec-2026-12-10": {
+      "ageGroups": [
+        "adults",
+        "families"
+      ],
+      "accessFeatures": [],
+      "ageEvidence": {
+        "adults": {
+          "url": "https://www.vermontfamilynetwork.org/event/register-for-12-10-stronger-together-expanding-adaptive-recreation-through-community-connections/",
+          "summary": "Families, disability advocates and recreation providers."
+        },
+        "families": {
+          "url": "https://www.vermontfamilynetwork.org/event/register-for-12-10-stronger-together-expanding-adaptive-recreation-through-community-connections/",
+          "summary": "Families, disability advocates and recreation providers."
+        }
+      },
+      "accessEvidence": {},
+      "holidays": [],
+      "holidayEvidence": {},
+      "checkedAt": "2026-11-02",
+      "ageRange": {
+        "min": null,
+        "max": null,
+        "kind": "not-stated"
+      },
+      "sensory": {
+        "level": "low",
+        "note": "Virtual participation allows personal sound and lighting control.",
+        "sourceUrl": "https://www.vermontfamilynetwork.org/event/register-for-12-10-stronger-together-expanding-adaptive-recreation-through-community-connections/",
+        "checkedAt": "2026-11-02",
+        "sourceDetailsCheckedAt": "2026-11-02",
+        "basis": "Editorial planning estimate, not a measured sensory score, based on event-level details."
+      }
     }
   },
   "sensoryMethod": "Sensory levels are editorial planning estimates based on the specific published conditions, not medical ratings or promises. Low means reduced stimulation, moderate means some ongoing music or activity, high means a likely stimulating mix, variable means conditions or parts of the visit differ, and unknown means evidence is insufficient. Sensory-friendly and disability-inclusive are not automatic low-sensory ratings. Earlier event verification dates remain visible."
