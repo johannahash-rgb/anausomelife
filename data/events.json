@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-11-02T00:05:00Z",
-  "lastEditorialReview": "2026-11-02T00:05:00Z",
+  "generatedAt": "2026-11-02T00:12:00Z",
+  "lastEditorialReview": "2026-11-02T00:12:00Z",
   "timezone": "America/New_York",
   "coverage": "Selected New England adaptive and sensory-friendly events, with a verified free-admission filter and free-program directory. Not exhaustive.",
   "refresh": {
@@ -3886,6 +3886,261 @@
       "feedVerified": false,
       "sourceCheckedAt": "2026-11-02T00:04:00Z",
       "lastChecked": "2026-11-02T00:04:00Z",
+      "status": "manually-checked"
+    },
+    {
+      "id": "bilt-harry-potter-movie-night",
+      "name": "BILT Innovation Center",
+      "state": "MA",
+      "url": "https://biltne.org/_event/harry-potter-movie-night/",
+      "mode": "check",
+      "enabled": true,
+      "timezone": "America/New_York",
+      "allowedHosts": [
+        "biltne.org"
+      ],
+      "autoPublish": false,
+      "feedVerified": false,
+      "sourceCheckedAt": "2026-11-02T00:09:00Z",
+      "lastChecked": "2026-11-02T00:09:00Z",
+      "status": "manually-checked"
+    },
+    {
+      "id": "bilt-friendsgiving-friday-night-drop-off",
+      "name": "BILT Innovation Center",
+      "state": "MA",
+      "url": "https://biltne.org/_event/friendsgiving-friday-night-drop-off/",
+      "mode": "check",
+      "enabled": true,
+      "timezone": "America/New_York",
+      "allowedHosts": [
+        "biltne.org"
+      ],
+      "autoPublish": false,
+      "feedVerified": false,
+      "sourceCheckedAt": "2026-11-02T00:09:00Z",
+      "lastChecked": "2026-11-02T00:09:00Z",
+      "status": "manually-checked"
+    },
+    {
+      "id": "bilt-holiday-bingo",
+      "name": "BILT Innovation Center",
+      "state": "MA",
+      "url": "https://biltne.org/_event/holiday-bingo/",
+      "mode": "check",
+      "enabled": true,
+      "timezone": "America/New_York",
+      "allowedHosts": [
+        "biltne.org"
+      ],
+      "autoPublish": false,
+      "feedVerified": false,
+      "sourceCheckedAt": "2026-11-02T00:09:00Z",
+      "lastChecked": "2026-11-02T00:09:00Z",
+      "status": "manually-checked"
+    },
+    {
+      "id": "bilt-polar-express-night",
+      "name": "BILT Innovation Center",
+      "state": "MA",
+      "url": "https://biltne.org/_event/polar-express-night/",
+      "mode": "check",
+      "enabled": true,
+      "timezone": "America/New_York",
+      "allowedHosts": [
+        "biltne.org"
+      ],
+      "autoPublish": false,
+      "feedVerified": false,
+      "sourceCheckedAt": "2026-11-02T00:09:00Z",
+      "lastChecked": "2026-11-02T00:09:00Z",
+      "status": "manually-checked"
+    },
+    {
+      "id": "bilt-sensory-friendly-boston-pops",
+      "name": "BILT Woburn departure — Symphony Hall outing",
+      "state": "MA",
+      "url": "https://biltne.org/_event/sensory-friendly-boston-pops/",
+      "mode": "check",
+      "enabled": true,
+      "timezone": "America/New_York",
+      "allowedHosts": [
+        "biltne.org"
+      ],
+      "autoPublish": false,
+      "feedVerified": false,
+      "sourceCheckedAt": "2026-11-02T00:09:00Z",
+      "lastChecked": "2026-11-02T00:09:00Z",
+      "status": "manually-checked"
+    },
+    {
+      "id": "bilt-holiday-singalong-lunch-craft",
+      "name": "BILT Innovation Center",
+      "state": "MA",
+      "url": "https://biltne.org/_event/holiday-singalong-lunch-craft/",
+      "mode": "check",
+      "enabled": true,
+      "timezone": "America/New_York",
+      "allowedHosts": [
+        "biltne.org"
+      ],
+      "autoPublish": false,
+      "feedVerified": false,
+      "sourceCheckedAt": "2026-11-02T00:09:00Z",
+      "lastChecked": "2026-11-02T00:09:00Z",
+      "status": "manually-checked"
+    },
+    {
+      "id": "bilt-holiday-movie-night",
+      "name": "BILT Innovation Center",
+      "state": "MA",
+      "url": "https://biltne.org/_event/holiday-movie-night/",
+      "mode": "check",
+      "enabled": true,
+      "timezone": "America/New_York",
+      "allowedHosts": [
+        "biltne.org"
+      ],
+      "autoPublish": false,
+      "feedVerified": false,
+      "sourceCheckedAt": "2026-11-02T00:09:00Z",
+      "lastChecked": "2026-11-02T00:09:00Z",
+      "status": "manually-checked"
+    },
+    {
+      "id": "bierman-danvers-sensory-santa",
+      "name": "Bierman Autism Centers – Danvers",
+      "state": "MA",
+      "url": "https://www.eventbrite.com/e/free-annual-sensory-santa-in-danvers-tickets-2002892949729",
+      "mode": "check",
+      "enabled": true,
+      "timezone": "America/New_York",
+      "allowedHosts": [
+        "www.eventbrite.com"
+      ],
+      "autoPublish": false,
+      "feedVerified": false,
+      "sourceCheckedAt": "2026-11-02T00:07:00Z",
+      "lastChecked": "2026-11-02T00:07:00Z",
+      "status": "manually-checked"
+    },
+    {
+      "id": "prospector-open-caption-the-only-living-pickpocket-in-new-york",
+      "name": "Prospector Theater",
+      "state": "CT",
+      "url": "https://www.showtimes.prospectortheater.org/open-caption-showtimes/",
+      "mode": "check",
+      "enabled": true,
+      "timezone": "America/New_York",
+      "allowedHosts": [
+        "www.showtimes.prospectortheater.org"
+      ],
+      "autoPublish": false,
+      "feedVerified": false,
+      "sourceCheckedAt": "2026-11-02T00:10:00Z",
+      "lastChecked": "2026-11-02T00:10:00Z",
+      "status": "manually-checked"
+    },
+    {
+      "id": "prospector-open-caption-wildwood",
+      "name": "Prospector Theater",
+      "state": "CT",
+      "url": "https://www.showtimes.prospectortheater.org/open-caption-showtimes/",
+      "mode": "check",
+      "enabled": true,
+      "timezone": "America/New_York",
+      "allowedHosts": [
+        "www.showtimes.prospectortheater.org"
+      ],
+      "autoPublish": false,
+      "feedVerified": false,
+      "sourceCheckedAt": "2026-11-02T00:10:00Z",
+      "lastChecked": "2026-11-02T00:10:00Z",
+      "status": "manually-checked"
+    },
+    {
+      "id": "prospector-open-caption-sense-and-sensibility",
+      "name": "Prospector Theater",
+      "state": "CT",
+      "url": "https://www.showtimes.prospectortheater.org/open-caption-showtimes/",
+      "mode": "check",
+      "enabled": true,
+      "timezone": "America/New_York",
+      "allowedHosts": [
+        "www.showtimes.prospectortheater.org"
+      ],
+      "autoPublish": false,
+      "feedVerified": false,
+      "sourceCheckedAt": "2026-11-02T00:10:00Z",
+      "lastChecked": "2026-11-02T00:10:00Z",
+      "status": "manually-checked"
+    },
+    {
+      "id": "prospector-open-caption-you-can-see-everything",
+      "name": "Prospector Theater",
+      "state": "CT",
+      "url": "https://www.showtimes.prospectortheater.org/open-caption-showtimes/",
+      "mode": "check",
+      "enabled": true,
+      "timezone": "America/New_York",
+      "allowedHosts": [
+        "www.showtimes.prospectortheater.org"
+      ],
+      "autoPublish": false,
+      "feedVerified": false,
+      "sourceCheckedAt": "2026-11-02T00:10:00Z",
+      "lastChecked": "2026-11-02T00:10:00Z",
+      "status": "manually-checked"
+    },
+    {
+      "id": "prospector-open-caption-being-heumann",
+      "name": "Prospector Theater",
+      "state": "CT",
+      "url": "https://www.showtimes.prospectortheater.org/open-caption-showtimes/",
+      "mode": "check",
+      "enabled": true,
+      "timezone": "America/New_York",
+      "allowedHosts": [
+        "www.showtimes.prospectortheater.org"
+      ],
+      "autoPublish": false,
+      "feedVerified": false,
+      "sourceCheckedAt": "2026-11-02T00:10:00Z",
+      "lastChecked": "2026-11-02T00:10:00Z",
+      "status": "manually-checked"
+    },
+    {
+      "id": "prospector-open-caption-disney-s-hexed",
+      "name": "Prospector Theater",
+      "state": "CT",
+      "url": "https://www.showtimes.prospectortheater.org/open-caption-showtimes/",
+      "mode": "check",
+      "enabled": true,
+      "timezone": "America/New_York",
+      "allowedHosts": [
+        "www.showtimes.prospectortheater.org"
+      ],
+      "autoPublish": false,
+      "feedVerified": false,
+      "sourceCheckedAt": "2026-11-02T00:10:00Z",
+      "lastChecked": "2026-11-02T00:10:00Z",
+      "status": "manually-checked"
+    },
+    {
+      "id": "prospector-open-caption-national-lampoon-s-christmas-vacation",
+      "name": "Prospector Theater",
+      "state": "CT",
+      "url": "https://www.showtimes.prospectortheater.org/open-caption-showtimes/",
+      "mode": "check",
+      "enabled": true,
+      "timezone": "America/New_York",
+      "allowedHosts": [
+        "www.showtimes.prospectortheater.org"
+      ],
+      "autoPublish": false,
+      "feedVerified": false,
+      "sourceCheckedAt": "2026-11-02T00:10:00Z",
+      "lastChecked": "2026-11-02T00:10:00Z",
       "status": "manually-checked"
     }
   ],
@@ -8142,6 +8397,150 @@
       "costCategory": "free"
     },
     {
+      "id": "prospector-you-can-see-everything-2026-11-04-1200",
+      "title": "You Can See Everything — Open-captioned screening",
+      "start": "2026-11-04T12:00:00-05:00",
+      "end": "2026-11-04T14:54:00-05:00",
+      "timezone": "America/New_York",
+      "state": "CT",
+      "city": "Ridgefield",
+      "venue": "Prospector Theater",
+      "address": "25 Prospect Street, Ridgefield, CT 06877",
+      "cost": "Paid tickets; check the official booking page for current prices and any fees.",
+      "ages": "Rated R. Mature-content film. Under-17 admission requires a parent or adult age 21+ to give permission in person at the box office.",
+      "summary": "Rated R. Designated open-captioned film screening with audio description listed. This is not a sensory-friendly screening: the theater describes normal theatrical sound and lights off.",
+      "accessibility": [
+        "Open captions on screen",
+        "Audio description listed; request equipment from the theater"
+      ],
+      "sourceId": "prospector-open-caption-you-can-see-everything",
+      "sourceUrl": "https://www.showtimes.prospectortheater.org/open-caption-showtimes/",
+      "ticketUrl": "https://booking.prospectortheater.org/launch/ticketing/f029741c-6459-5cb5-bd96-b5e291e9f23d",
+      "registration": "Tickets offered through the official theater booking link; check current remaining seats and prices. The theater recommends arriving 30 minutes before showtime.",
+      "cancellationPolicy": "Showtimes and theaters are subject to change; review ticket terms before purchase.",
+      "notes": [
+        "Accessibility details: https://www.prospectortheater.org/accessible-moviegoing",
+        "Admission policy: https://www.prospectortheater.org/about",
+        "End time estimated from the published 174-minute film runtime; trailers and other pre-show material may extend the visit."
+      ],
+      "lastVerified": "2026-11-02T00:10:00Z",
+      "verificationMethod": "Official live open-caption showtime page browser snapshot; official accessibility and admission policies",
+      "reviewRequired": false,
+      "status": "scheduled",
+      "category": "Accessible film",
+      "format": "In person",
+      "costCategory": "paid",
+      "endApproximate": true
+    },
+    {
+      "id": "prospector-sense-and-sensibility-2026-11-04-1300",
+      "title": "Sense and Sensibility — Open-captioned screening",
+      "start": "2026-11-04T13:00:00-05:00",
+      "end": "2026-11-04T15:12:00-05:00",
+      "timezone": "America/New_York",
+      "state": "CT",
+      "city": "Ridgefield",
+      "venue": "Prospector Theater",
+      "address": "25 Prospect Street, Ridgefield, CT 06877",
+      "cost": "Paid tickets; check the official booking page for current prices and any fees.",
+      "ages": "Rated PG. Parental guidance suggested; not an assurance of suitability for every child.",
+      "summary": "Rated PG. Designated open-captioned film screening with audio description listed. This is not a sensory-friendly screening: the theater describes normal theatrical sound and lights off.",
+      "accessibility": [
+        "Open captions on screen",
+        "Audio description listed; request equipment from the theater"
+      ],
+      "sourceId": "prospector-open-caption-sense-and-sensibility",
+      "sourceUrl": "https://www.showtimes.prospectortheater.org/open-caption-showtimes/",
+      "ticketUrl": "https://booking.prospectortheater.org/launch/ticketing/a5ad10b2-ea16-53df-bf3f-2e54da912fa2",
+      "registration": "Tickets offered through the official theater booking link; check current remaining seats and prices. The theater recommends arriving 30 minutes before showtime.",
+      "cancellationPolicy": "Showtimes and theaters are subject to change; review ticket terms before purchase.",
+      "notes": [
+        "Accessibility details: https://www.prospectortheater.org/accessible-moviegoing",
+        "Admission policy: https://www.prospectortheater.org/about",
+        "End time estimated from the published 132-minute film runtime; trailers and other pre-show material may extend the visit."
+      ],
+      "lastVerified": "2026-11-02T00:10:00Z",
+      "verificationMethod": "Official live open-caption showtime page browser snapshot; official accessibility and admission policies",
+      "reviewRequired": false,
+      "status": "scheduled",
+      "category": "Accessible film",
+      "format": "In person",
+      "costCategory": "paid",
+      "endApproximate": true
+    },
+    {
+      "id": "prospector-wildwood-2026-11-04-1300",
+      "title": "Wildwood — Open-captioned screening",
+      "start": "2026-11-04T13:00:00-05:00",
+      "end": "2026-11-04T15:11:00-05:00",
+      "timezone": "America/New_York",
+      "state": "CT",
+      "city": "Ridgefield",
+      "venue": "Prospector Theater",
+      "address": "25 Prospect Street, Ridgefield, CT 06877",
+      "cost": "Paid tickets; check the official booking page for current prices and any fees.",
+      "ages": "Rated PG-13. Parents strongly cautioned; some material may be inappropriate for children under 13.",
+      "summary": "Rated PG-13. Designated open-captioned film screening with audio description listed. This is not a sensory-friendly screening: the theater describes normal theatrical sound and lights off.",
+      "accessibility": [
+        "Open captions on screen",
+        "Audio description listed; request equipment from the theater"
+      ],
+      "sourceId": "prospector-open-caption-wildwood",
+      "sourceUrl": "https://www.showtimes.prospectortheater.org/open-caption-showtimes/",
+      "ticketUrl": "https://booking.prospectortheater.org/launch/ticketing/549a1ff1-f445-5191-9089-c4c513e35aff",
+      "registration": "Tickets offered through the official theater booking link; check current remaining seats and prices. The theater recommends arriving 30 minutes before showtime.",
+      "cancellationPolicy": "Showtimes and theaters are subject to change; review ticket terms before purchase.",
+      "notes": [
+        "Accessibility details: https://www.prospectortheater.org/accessible-moviegoing",
+        "Admission policy: https://www.prospectortheater.org/about",
+        "End time estimated from the published 131-minute film runtime; trailers and other pre-show material may extend the visit."
+      ],
+      "lastVerified": "2026-11-02T00:10:00Z",
+      "verificationMethod": "Official live open-caption showtime page browser snapshot; official accessibility and admission policies",
+      "reviewRequired": false,
+      "status": "scheduled",
+      "category": "Accessible film",
+      "format": "In person",
+      "costCategory": "paid",
+      "endApproximate": true
+    },
+    {
+      "id": "prospector-the-only-living-pickpocket-in-new-york-2026-11-04-1315",
+      "title": "The Only Living Pickpocket In New York — Open-captioned screening",
+      "start": "2026-11-04T13:15:00-05:00",
+      "end": "2026-11-04T14:43:00-05:00",
+      "timezone": "America/New_York",
+      "state": "CT",
+      "city": "Ridgefield",
+      "venue": "Prospector Theater",
+      "address": "25 Prospect Street, Ridgefield, CT 06877",
+      "cost": "Paid tickets; check the official booking page for current prices and any fees.",
+      "ages": "Rated R. Mature-content film. Under-17 admission requires a parent or adult age 21+ to give permission in person at the box office.",
+      "summary": "Rated R. Designated open-captioned film screening with audio description listed. This is not a sensory-friendly screening: the theater describes normal theatrical sound and lights off.",
+      "accessibility": [
+        "Open captions on screen",
+        "Audio description listed; request equipment from the theater"
+      ],
+      "sourceId": "prospector-open-caption-the-only-living-pickpocket-in-new-york",
+      "sourceUrl": "https://www.showtimes.prospectortheater.org/open-caption-showtimes/",
+      "ticketUrl": "https://booking.prospectortheater.org/launch/ticketing/3d03724c-99c6-57a4-9093-0bb7b92bf86a",
+      "registration": "Tickets offered through the official theater booking link; check current remaining seats and prices. The theater recommends arriving 30 minutes before showtime.",
+      "cancellationPolicy": "Showtimes and theaters are subject to change; review ticket terms before purchase.",
+      "notes": [
+        "Accessibility details: https://www.prospectortheater.org/accessible-moviegoing",
+        "Admission policy: https://www.prospectortheater.org/about",
+        "End time estimated from the published 88-minute film runtime; trailers and other pre-show material may extend the visit."
+      ],
+      "lastVerified": "2026-11-02T00:10:00Z",
+      "verificationMethod": "Official live open-caption showtime page browser snapshot; official accessibility and admission policies",
+      "reviewRequired": false,
+      "status": "scheduled",
+      "category": "Accessible film",
+      "format": "In person",
+      "costCategory": "paid",
+      "endApproximate": true
+    },
+    {
       "id": "aa-turkey-time-2026-11-04",
       "title": "Turkey Time Drop-In Program",
       "start": "2026-11-04T14:00:00-05:00",
@@ -8204,6 +8603,294 @@
       "lastVerified": "2026-11-01T23:48:00Z",
       "verificationMethod": "Official event page or dated library newsletter reviewed",
       "costCategory": "unknown"
+    },
+    {
+      "id": "prospector-you-can-see-everything-2026-11-04-1530",
+      "title": "You Can See Everything — Open-captioned screening",
+      "start": "2026-11-04T15:30:00-05:00",
+      "end": "2026-11-04T18:24:00-05:00",
+      "timezone": "America/New_York",
+      "state": "CT",
+      "city": "Ridgefield",
+      "venue": "Prospector Theater",
+      "address": "25 Prospect Street, Ridgefield, CT 06877",
+      "cost": "Paid tickets; check the official booking page for current prices and any fees.",
+      "ages": "Rated R. Mature-content film. Under-17 admission requires a parent or adult age 21+ to give permission in person at the box office.",
+      "summary": "Rated R. Designated open-captioned film screening with audio description listed. This is not a sensory-friendly screening: the theater describes normal theatrical sound and lights off.",
+      "accessibility": [
+        "Open captions on screen",
+        "Audio description listed; request equipment from the theater"
+      ],
+      "sourceId": "prospector-open-caption-you-can-see-everything",
+      "sourceUrl": "https://www.showtimes.prospectortheater.org/open-caption-showtimes/",
+      "ticketUrl": "https://booking.prospectortheater.org/launch/ticketing/bddca86a-d9d3-5147-a87c-665aa17cfb4b",
+      "registration": "Tickets offered through the official theater booking link; check current remaining seats and prices. The theater recommends arriving 30 minutes before showtime.",
+      "cancellationPolicy": "Showtimes and theaters are subject to change; review ticket terms before purchase.",
+      "notes": [
+        "Accessibility details: https://www.prospectortheater.org/accessible-moviegoing",
+        "Admission policy: https://www.prospectortheater.org/about",
+        "End time estimated from the published 174-minute film runtime; trailers and other pre-show material may extend the visit."
+      ],
+      "lastVerified": "2026-11-02T00:10:00Z",
+      "verificationMethod": "Official live open-caption showtime page browser snapshot; official accessibility and admission policies",
+      "reviewRequired": false,
+      "status": "scheduled",
+      "category": "Accessible film",
+      "format": "In person",
+      "costCategory": "paid",
+      "endApproximate": true
+    },
+    {
+      "id": "prospector-sense-and-sensibility-2026-11-04-1600",
+      "title": "Sense and Sensibility — Open-captioned screening",
+      "start": "2026-11-04T16:00:00-05:00",
+      "end": "2026-11-04T18:12:00-05:00",
+      "timezone": "America/New_York",
+      "state": "CT",
+      "city": "Ridgefield",
+      "venue": "Prospector Theater",
+      "address": "25 Prospect Street, Ridgefield, CT 06877",
+      "cost": "Paid tickets; check the official booking page for current prices and any fees.",
+      "ages": "Rated PG. Parental guidance suggested; not an assurance of suitability for every child.",
+      "summary": "Rated PG. Designated open-captioned film screening with audio description listed. This is not a sensory-friendly screening: the theater describes normal theatrical sound and lights off.",
+      "accessibility": [
+        "Open captions on screen",
+        "Audio description listed; request equipment from the theater"
+      ],
+      "sourceId": "prospector-open-caption-sense-and-sensibility",
+      "sourceUrl": "https://www.showtimes.prospectortheater.org/open-caption-showtimes/",
+      "ticketUrl": "https://booking.prospectortheater.org/launch/ticketing/5c243920-00de-5687-b98a-89d2736dfdb2",
+      "registration": "Tickets offered through the official theater booking link; check current remaining seats and prices. The theater recommends arriving 30 minutes before showtime.",
+      "cancellationPolicy": "Showtimes and theaters are subject to change; review ticket terms before purchase.",
+      "notes": [
+        "Accessibility details: https://www.prospectortheater.org/accessible-moviegoing",
+        "Admission policy: https://www.prospectortheater.org/about",
+        "End time estimated from the published 132-minute film runtime; trailers and other pre-show material may extend the visit."
+      ],
+      "lastVerified": "2026-11-02T00:10:00Z",
+      "verificationMethod": "Official live open-caption showtime page browser snapshot; official accessibility and admission policies",
+      "reviewRequired": false,
+      "status": "scheduled",
+      "category": "Accessible film",
+      "format": "In person",
+      "costCategory": "paid",
+      "endApproximate": true
+    },
+    {
+      "id": "prospector-wildwood-2026-11-04-1600",
+      "title": "Wildwood — Open-captioned screening",
+      "start": "2026-11-04T16:00:00-05:00",
+      "end": "2026-11-04T18:11:00-05:00",
+      "timezone": "America/New_York",
+      "state": "CT",
+      "city": "Ridgefield",
+      "venue": "Prospector Theater",
+      "address": "25 Prospect Street, Ridgefield, CT 06877",
+      "cost": "Paid tickets; check the official booking page for current prices and any fees.",
+      "ages": "Rated PG-13. Parents strongly cautioned; some material may be inappropriate for children under 13.",
+      "summary": "Rated PG-13. Designated open-captioned film screening with audio description listed. This is not a sensory-friendly screening: the theater describes normal theatrical sound and lights off.",
+      "accessibility": [
+        "Open captions on screen",
+        "Audio description listed; request equipment from the theater"
+      ],
+      "sourceId": "prospector-open-caption-wildwood",
+      "sourceUrl": "https://www.showtimes.prospectortheater.org/open-caption-showtimes/",
+      "ticketUrl": "https://booking.prospectortheater.org/launch/ticketing/e8ca81e0-e99b-509f-8d3e-8981fee57455",
+      "registration": "Tickets offered through the official theater booking link; check current remaining seats and prices. The theater recommends arriving 30 minutes before showtime.",
+      "cancellationPolicy": "Showtimes and theaters are subject to change; review ticket terms before purchase.",
+      "notes": [
+        "Accessibility details: https://www.prospectortheater.org/accessible-moviegoing",
+        "Admission policy: https://www.prospectortheater.org/about",
+        "End time estimated from the published 131-minute film runtime; trailers and other pre-show material may extend the visit."
+      ],
+      "lastVerified": "2026-11-02T00:10:00Z",
+      "verificationMethod": "Official live open-caption showtime page browser snapshot; official accessibility and admission policies",
+      "reviewRequired": false,
+      "status": "scheduled",
+      "category": "Accessible film",
+      "format": "In person",
+      "costCategory": "paid",
+      "endApproximate": true
+    },
+    {
+      "id": "prospector-the-only-living-pickpocket-in-new-york-2026-11-04-1630",
+      "title": "The Only Living Pickpocket In New York — Open-captioned screening",
+      "start": "2026-11-04T16:30:00-05:00",
+      "end": "2026-11-04T17:58:00-05:00",
+      "timezone": "America/New_York",
+      "state": "CT",
+      "city": "Ridgefield",
+      "venue": "Prospector Theater",
+      "address": "25 Prospect Street, Ridgefield, CT 06877",
+      "cost": "Paid tickets; check the official booking page for current prices and any fees.",
+      "ages": "Rated R. Mature-content film. Under-17 admission requires a parent or adult age 21+ to give permission in person at the box office.",
+      "summary": "Rated R. Designated open-captioned film screening with audio description listed. This is not a sensory-friendly screening: the theater describes normal theatrical sound and lights off.",
+      "accessibility": [
+        "Open captions on screen",
+        "Audio description listed; request equipment from the theater"
+      ],
+      "sourceId": "prospector-open-caption-the-only-living-pickpocket-in-new-york",
+      "sourceUrl": "https://www.showtimes.prospectortheater.org/open-caption-showtimes/",
+      "ticketUrl": "https://booking.prospectortheater.org/launch/ticketing/6dadf3e7-292c-5bfe-9364-7ced3d275663",
+      "registration": "Tickets offered through the official theater booking link; check current remaining seats and prices. The theater recommends arriving 30 minutes before showtime.",
+      "cancellationPolicy": "Showtimes and theaters are subject to change; review ticket terms before purchase.",
+      "notes": [
+        "Accessibility details: https://www.prospectortheater.org/accessible-moviegoing",
+        "Admission policy: https://www.prospectortheater.org/about",
+        "End time estimated from the published 88-minute film runtime; trailers and other pre-show material may extend the visit."
+      ],
+      "lastVerified": "2026-11-02T00:10:00Z",
+      "verificationMethod": "Official live open-caption showtime page browser snapshot; official accessibility and admission policies",
+      "reviewRequired": false,
+      "status": "scheduled",
+      "category": "Accessible film",
+      "format": "In person",
+      "costCategory": "paid",
+      "endApproximate": true
+    },
+    {
+      "id": "prospector-wildwood-2026-11-04-1900",
+      "title": "Wildwood — Open-captioned screening",
+      "start": "2026-11-04T19:00:00-05:00",
+      "end": "2026-11-04T21:11:00-05:00",
+      "timezone": "America/New_York",
+      "state": "CT",
+      "city": "Ridgefield",
+      "venue": "Prospector Theater",
+      "address": "25 Prospect Street, Ridgefield, CT 06877",
+      "cost": "Paid tickets; check the official booking page for current prices and any fees.",
+      "ages": "Rated PG-13. Parents strongly cautioned; some material may be inappropriate for children under 13.",
+      "summary": "Rated PG-13. Designated open-captioned film screening with audio description listed. This is not a sensory-friendly screening: the theater describes normal theatrical sound and lights off.",
+      "accessibility": [
+        "Open captions on screen",
+        "Audio description listed; request equipment from the theater"
+      ],
+      "sourceId": "prospector-open-caption-wildwood",
+      "sourceUrl": "https://www.showtimes.prospectortheater.org/open-caption-showtimes/",
+      "ticketUrl": "https://booking.prospectortheater.org/launch/ticketing/7a3a78de-00f7-5343-ba24-035aee82b149",
+      "registration": "Tickets offered through the official theater booking link; check current remaining seats and prices. The theater recommends arriving 30 minutes before showtime.",
+      "cancellationPolicy": "Showtimes and theaters are subject to change; review ticket terms before purchase.",
+      "notes": [
+        "Accessibility details: https://www.prospectortheater.org/accessible-moviegoing",
+        "Admission policy: https://www.prospectortheater.org/about",
+        "End time estimated from the published 131-minute film runtime; trailers and other pre-show material may extend the visit."
+      ],
+      "lastVerified": "2026-11-02T00:10:00Z",
+      "verificationMethod": "Official live open-caption showtime page browser snapshot; official accessibility and admission policies",
+      "reviewRequired": false,
+      "status": "scheduled",
+      "category": "Accessible film",
+      "format": "In person",
+      "costCategory": "paid",
+      "endApproximate": true
+    },
+    {
+      "id": "prospector-you-can-see-everything-2026-11-04-1900",
+      "title": "You Can See Everything — Open-captioned screening",
+      "start": "2026-11-04T19:00:00-05:00",
+      "end": "2026-11-04T21:54:00-05:00",
+      "timezone": "America/New_York",
+      "state": "CT",
+      "city": "Ridgefield",
+      "venue": "Prospector Theater",
+      "address": "25 Prospect Street, Ridgefield, CT 06877",
+      "cost": "Paid tickets; check the official booking page for current prices and any fees.",
+      "ages": "Rated R. Mature-content film. Under-17 admission requires a parent or adult age 21+ to give permission in person at the box office.",
+      "summary": "Rated R. Designated open-captioned film screening with audio description listed. This is not a sensory-friendly screening: the theater describes normal theatrical sound and lights off.",
+      "accessibility": [
+        "Open captions on screen",
+        "Audio description listed; request equipment from the theater"
+      ],
+      "sourceId": "prospector-open-caption-you-can-see-everything",
+      "sourceUrl": "https://www.showtimes.prospectortheater.org/open-caption-showtimes/",
+      "ticketUrl": "https://booking.prospectortheater.org/launch/ticketing/8480f9ee-0af3-52cd-bf8a-0a2abade3d25",
+      "registration": "Tickets offered through the official theater booking link; check current remaining seats and prices. The theater recommends arriving 30 minutes before showtime.",
+      "cancellationPolicy": "Showtimes and theaters are subject to change; review ticket terms before purchase.",
+      "notes": [
+        "Accessibility details: https://www.prospectortheater.org/accessible-moviegoing",
+        "Admission policy: https://www.prospectortheater.org/about",
+        "End time estimated from the published 174-minute film runtime; trailers and other pre-show material may extend the visit."
+      ],
+      "lastVerified": "2026-11-02T00:10:00Z",
+      "verificationMethod": "Official live open-caption showtime page browser snapshot; official accessibility and admission policies",
+      "reviewRequired": false,
+      "status": "scheduled",
+      "category": "Accessible film",
+      "format": "In person",
+      "costCategory": "paid",
+      "endApproximate": true
+    },
+    {
+      "id": "prospector-sense-and-sensibility-2026-11-04-1915",
+      "title": "Sense and Sensibility — Open-captioned screening",
+      "start": "2026-11-04T19:15:00-05:00",
+      "end": "2026-11-04T21:27:00-05:00",
+      "timezone": "America/New_York",
+      "state": "CT",
+      "city": "Ridgefield",
+      "venue": "Prospector Theater",
+      "address": "25 Prospect Street, Ridgefield, CT 06877",
+      "cost": "Paid tickets; check the official booking page for current prices and any fees.",
+      "ages": "Rated PG. Parental guidance suggested; not an assurance of suitability for every child.",
+      "summary": "Rated PG. Designated open-captioned film screening with audio description listed. This is not a sensory-friendly screening: the theater describes normal theatrical sound and lights off.",
+      "accessibility": [
+        "Open captions on screen",
+        "Audio description listed; request equipment from the theater"
+      ],
+      "sourceId": "prospector-open-caption-sense-and-sensibility",
+      "sourceUrl": "https://www.showtimes.prospectortheater.org/open-caption-showtimes/",
+      "ticketUrl": "https://booking.prospectortheater.org/launch/ticketing/6a95f30e-3d67-5673-a805-1583424e8932",
+      "registration": "Tickets offered through the official theater booking link; check current remaining seats and prices. The theater recommends arriving 30 minutes before showtime.",
+      "cancellationPolicy": "Showtimes and theaters are subject to change; review ticket terms before purchase.",
+      "notes": [
+        "Accessibility details: https://www.prospectortheater.org/accessible-moviegoing",
+        "Admission policy: https://www.prospectortheater.org/about",
+        "End time estimated from the published 132-minute film runtime; trailers and other pre-show material may extend the visit."
+      ],
+      "lastVerified": "2026-11-02T00:10:00Z",
+      "verificationMethod": "Official live open-caption showtime page browser snapshot; official accessibility and admission policies",
+      "reviewRequired": false,
+      "status": "scheduled",
+      "category": "Accessible film",
+      "format": "In person",
+      "costCategory": "paid",
+      "endApproximate": true
+    },
+    {
+      "id": "prospector-the-only-living-pickpocket-in-new-york-2026-11-04-1930",
+      "title": "The Only Living Pickpocket In New York — Open-captioned screening",
+      "start": "2026-11-04T19:30:00-05:00",
+      "end": "2026-11-04T20:58:00-05:00",
+      "timezone": "America/New_York",
+      "state": "CT",
+      "city": "Ridgefield",
+      "venue": "Prospector Theater",
+      "address": "25 Prospect Street, Ridgefield, CT 06877",
+      "cost": "Paid tickets; check the official booking page for current prices and any fees.",
+      "ages": "Rated R. Mature-content film. Under-17 admission requires a parent or adult age 21+ to give permission in person at the box office.",
+      "summary": "Rated R. Designated open-captioned film screening with audio description listed. This is not a sensory-friendly screening: the theater describes normal theatrical sound and lights off.",
+      "accessibility": [
+        "Open captions on screen",
+        "Audio description listed; request equipment from the theater"
+      ],
+      "sourceId": "prospector-open-caption-the-only-living-pickpocket-in-new-york",
+      "sourceUrl": "https://www.showtimes.prospectortheater.org/open-caption-showtimes/",
+      "ticketUrl": "https://booking.prospectortheater.org/launch/ticketing/4facda36-77b2-587d-9f9a-09c299f054bd",
+      "registration": "Tickets offered through the official theater booking link; check current remaining seats and prices. The theater recommends arriving 30 minutes before showtime.",
+      "cancellationPolicy": "Showtimes and theaters are subject to change; review ticket terms before purchase.",
+      "notes": [
+        "Accessibility details: https://www.prospectortheater.org/accessible-moviegoing",
+        "Admission policy: https://www.prospectortheater.org/about",
+        "End time estimated from the published 88-minute film runtime; trailers and other pre-show material may extend the visit."
+      ],
+      "lastVerified": "2026-11-02T00:10:00Z",
+      "verificationMethod": "Official live open-caption showtime page browser snapshot; official accessibility and admission policies",
+      "reviewRequired": false,
+      "status": "scheduled",
+      "category": "Accessible film",
+      "format": "In person",
+      "costCategory": "paid",
+      "endApproximate": true
     },
     {
       "id": "springvale-sensory-storytime-2026-11-05",
@@ -8302,6 +8989,40 @@
       "lastVerified": "2026-11-01T22:44:00Z",
       "verificationMethod": "Official organizer 2026 event information checked November 1, 2026.",
       "costCategory": "unknown"
+    },
+    {
+      "timezone": "America/New_York",
+      "state": "MA",
+      "status": "scheduled",
+      "reviewRequired": false,
+      "format": "In person",
+      "lastVerified": "2026-11-02T00:09:00Z",
+      "verificationMethod": "Official live organizer calendar and event ticket inventory reviewed in browser; account eligibility verified.",
+      "cancellationPolicy": "Confirm cancellation and refund terms with BILT before registering.",
+      "id": "bilt-harry-potter-movie-night-2026-11-05",
+      "title": "Harry Potter Movie Night",
+      "start": "2026-11-05T15:30:00-05:00",
+      "end": "2026-11-05T18:30:00-05:00",
+      "city": "Woburn",
+      "venue": "BILT Innovation Center",
+      "address": "215 Lexington Street, Floor 1, Woburn, MA 01801",
+      "sourceId": "bilt-harry-potter-movie-night",
+      "sourceUrl": "https://biltne.org/_event/harry-potter-movie-night/",
+      "ticketUrl": "https://biltne.org/_event/harry-potter-movie-night/",
+      "cost": "$85 listed event price. New participants may also owe a one-time intake fee; amount not published. Confirm any additional support charges with BILT.",
+      "ages": "Exact event age limits are not published; eligibility and support needs must be approved by BILT before booking.",
+      "summary": "BILT intake and approval required; this is not a public drop-in event. A Harry Potter film with themed food, decorations and activities. The exact film is not specified.",
+      "registration": "For approved participants only: complete BILT intake/consents and receive approval before using an account to book. 9 tickets were shown available when checked; capacity can change. New applicants should allow time for the intake review, not assume immediate access.",
+      "accessibility": [
+        "Supported social recreation for participants with disabilities; individual eligibility determined by BILT."
+      ],
+      "notes": [
+        "Event account eligibility: https://biltne.org/register/",
+        "Intake and fee policy: https://biltne.org/about/faqs/",
+        "BILT uses event photos for advocacy/fundraising; review its photo-consent policy before registering."
+      ],
+      "category": "Inclusive recreation",
+      "costCategory": "paid"
     },
     {
       "id": "sevenhills-stem-2026-11-05",
@@ -10507,6 +11228,40 @@
       "sourceUrl": "https://autismalliance.org/events/after-school-zoo-club-ages-5-12?instance=2",
       "registration": "Registration required to receive the Zoom link.",
       "category": "Autism community"
+    },
+    {
+      "timezone": "America/New_York",
+      "state": "MA",
+      "status": "scheduled",
+      "reviewRequired": false,
+      "format": "In person",
+      "lastVerified": "2026-11-02T00:09:00Z",
+      "verificationMethod": "Official live organizer calendar and event ticket inventory reviewed in browser; account eligibility verified.",
+      "cancellationPolicy": "Confirm cancellation and refund terms with BILT before registering.",
+      "id": "bilt-friendsgiving-friday-night-drop-off-2026-11-13",
+      "title": "Friendsgiving — Friday Night Drop Off",
+      "start": "2026-11-13T16:00:00-05:00",
+      "end": "2026-11-13T19:00:00-05:00",
+      "city": "Woburn",
+      "venue": "BILT Innovation Center",
+      "address": "215 Lexington Street, Floor 1, Woburn, MA 01801",
+      "sourceId": "bilt-friendsgiving-friday-night-drop-off",
+      "sourceUrl": "https://biltne.org/_event/friendsgiving-friday-night-drop-off/",
+      "ticketUrl": "https://biltne.org/_event/friendsgiving-friday-night-drop-off/",
+      "cost": "$100 listed event price. New participants may also owe a one-time intake fee; amount not published. Confirm any additional support charges with BILT.",
+      "ages": "Exact event age limits are not published; eligibility and support needs must be approved by BILT before booking.",
+      "summary": "BILT intake and approval required; this is not a public drop-in event. Thanksgiving-inspired movie, crafts, games and dinner. Food is included; the organizer offers pizza as an alternative to the Thanksgiving meal.",
+      "registration": "For approved participants only: complete BILT intake/consents and receive approval before using an account to book. 8 tickets were shown available when checked; capacity can change. New applicants should allow time for the intake review, not assume immediate access.",
+      "accessibility": [
+        "Supported social recreation for participants with disabilities; individual eligibility determined by BILT."
+      ],
+      "notes": [
+        "Event account eligibility: https://biltne.org/register/",
+        "Intake and fee policy: https://biltne.org/about/faqs/",
+        "BILT uses event photos for advocacy/fundraising; review its photo-consent policy before registering."
+      ],
+      "category": "Inclusive recreation",
+      "costCategory": "paid"
     },
     {
       "timezone": "America/New_York",
@@ -12941,6 +13696,42 @@
       "verificationMethod": "Official dated event and venue-access pages checked November 1, 2026."
     },
     {
+      "id": "prospector-being-heumann-2026-11-19-1900",
+      "title": "Being Heumann — Open-captioned screening",
+      "start": "2026-11-19T19:00:00-05:00",
+      "end": "2026-11-19T21:07:00-05:00",
+      "timezone": "America/New_York",
+      "state": "CT",
+      "city": "Ridgefield",
+      "venue": "Prospector Theater",
+      "address": "25 Prospect Street, Ridgefield, CT 06877",
+      "cost": "Paid tickets; check the official booking page for current prices and any fees.",
+      "ages": "Rated R. Mature-content film. Under-17 admission requires a parent or adult age 21+ to give permission in person at the box office; check the theater’s ID requirements.",
+      "summary": "Rated R. Designated open-captioned film screening with audio description listed. This is not a sensory-friendly screening: the theater describes normal theatrical sound and lights off.",
+      "accessibility": [
+        "Open captions on screen",
+        "Audio description listed; request equipment from the theater"
+      ],
+      "sourceId": "prospector-open-caption-being-heumann",
+      "sourceUrl": "https://www.showtimes.prospectortheater.org/open-caption-showtimes/",
+      "ticketUrl": "https://booking.prospectortheater.org/launch/ticketing/ff2543e4-55e3-5045-be2b-3dd3f7381126",
+      "registration": "Tickets offered through the official theater booking link; check current remaining seats and prices. The theater recommends arriving 30 minutes before showtime.",
+      "cancellationPolicy": "Showtimes and theaters are subject to change; review ticket terms before purchase.",
+      "notes": [
+        "Accessibility details: https://www.prospectortheater.org/accessible-moviegoing",
+        "Admission policy: https://www.prospectortheater.org/about",
+        "End time estimated from the published 127-minute film runtime; trailers and other pre-show material may extend the visit."
+      ],
+      "lastVerified": "2026-11-02T00:10:00Z",
+      "verificationMethod": "Official live open-caption showtime page browser snapshot; official accessibility and admission policies",
+      "reviewRequired": false,
+      "status": "scheduled",
+      "category": "Accessible film",
+      "format": "In person",
+      "costCategory": "paid",
+      "endApproximate": true
+    },
+    {
       "timezone": "America/New_York",
       "ticketUrl": "https://carroll.org/technology-fair-registration/",
       "cancellationPolicy": "Not stated in the checked listing; confirm with the organizer.",
@@ -14179,6 +14970,42 @@
       "endApproximate": false
     },
     {
+      "id": "prospector-disney-s-hexed-2026-11-25-1330",
+      "title": "Disney's Hexed — Open-captioned screening",
+      "start": "2026-11-25T13:30:00-05:00",
+      "end": "2026-11-25T15:19:00-05:00",
+      "timezone": "America/New_York",
+      "state": "CT",
+      "city": "Ridgefield",
+      "venue": "Prospector Theater",
+      "address": "25 Prospect Street, Ridgefield, CT 06877",
+      "cost": "Adult $15; child age 11 and under $13; senior $6. Confirm any booking fees and eligibility on the ticket page.",
+      "ages": "Rated PG. Parental guidance suggested; not an assurance of suitability for every child.",
+      "summary": "Rated PG. Designated open-captioned film screening with audio description listed. This is not a sensory-friendly screening: the theater describes normal theatrical sound and lights off.",
+      "accessibility": [
+        "Open captions on screen",
+        "Audio description listed; request equipment from the theater"
+      ],
+      "sourceId": "prospector-open-caption-disney-s-hexed",
+      "sourceUrl": "https://www.showtimes.prospectortheater.org/open-caption-showtimes/",
+      "ticketUrl": "https://booking.prospectortheater.org/launch/ticketing/6199501a-c8ab-5db6-94e7-03b6d7518f18",
+      "registration": "Tickets offered through the official theater booking link; check current remaining seats and prices. The theater recommends arriving 30 minutes before showtime.",
+      "cancellationPolicy": "Showtimes and theaters are subject to change; review ticket terms before purchase.",
+      "notes": [
+        "Accessibility details: https://www.prospectortheater.org/accessible-moviegoing",
+        "Admission policy: https://www.prospectortheater.org/about",
+        "End time estimated from the published 109-minute film runtime; trailers and other pre-show material may extend the visit."
+      ],
+      "lastVerified": "2026-11-02T00:10:00Z",
+      "verificationMethod": "Official live open-caption showtime page browser snapshot; official accessibility and admission policies",
+      "reviewRequired": false,
+      "status": "scheduled",
+      "category": "Accessible film",
+      "format": "In person",
+      "costCategory": "paid",
+      "endApproximate": true
+    },
+    {
       "id": "aa-turkey-time-2026-11-25",
       "title": "Turkey Time Drop-In Program",
       "start": "2026-11-25T14:00:00-05:00",
@@ -14209,6 +15036,42 @@
       "lastVerified": "2026-11-01T22:43:00Z",
       "verificationMethod": "Official organizer dated event or registration page checked November 1, 2026.",
       "costCategory": "unknown"
+    },
+    {
+      "id": "prospector-disney-s-hexed-2026-11-25-1615",
+      "title": "Disney's Hexed — Open-captioned screening",
+      "start": "2026-11-25T16:15:00-05:00",
+      "end": "2026-11-25T18:04:00-05:00",
+      "timezone": "America/New_York",
+      "state": "CT",
+      "city": "Ridgefield",
+      "venue": "Prospector Theater",
+      "address": "25 Prospect Street, Ridgefield, CT 06877",
+      "cost": "Paid tickets; check the official booking page for current prices and any fees.",
+      "ages": "Rated PG. Parental guidance suggested; not an assurance of suitability for every child.",
+      "summary": "Rated PG. Designated open-captioned film screening with audio description listed. This is not a sensory-friendly screening: the theater describes normal theatrical sound and lights off.",
+      "accessibility": [
+        "Open captions on screen",
+        "Audio description listed; request equipment from the theater"
+      ],
+      "sourceId": "prospector-open-caption-disney-s-hexed",
+      "sourceUrl": "https://www.showtimes.prospectortheater.org/open-caption-showtimes/",
+      "ticketUrl": "https://booking.prospectortheater.org/launch/ticketing/35a64554-bdf0-54de-ae08-7c89ae523afe",
+      "registration": "Tickets offered through the official theater booking link; check current remaining seats and prices. The theater recommends arriving 30 minutes before showtime.",
+      "cancellationPolicy": "Showtimes and theaters are subject to change; review ticket terms before purchase.",
+      "notes": [
+        "Accessibility details: https://www.prospectortheater.org/accessible-moviegoing",
+        "Admission policy: https://www.prospectortheater.org/about",
+        "End time estimated from the published 109-minute film runtime; trailers and other pre-show material may extend the visit."
+      ],
+      "lastVerified": "2026-11-02T00:10:00Z",
+      "verificationMethod": "Official live open-caption showtime page browser snapshot; official accessibility and admission policies",
+      "reviewRequired": false,
+      "status": "scheduled",
+      "category": "Accessible film",
+      "format": "In person",
+      "costCategory": "paid",
+      "endApproximate": true
     },
     {
       "id": "amc-148059022",
@@ -15403,6 +16266,41 @@
       "costCategory": "free"
     },
     {
+      "timezone": "America/New_York",
+      "state": "MA",
+      "status": "scheduled",
+      "reviewRequired": false,
+      "format": "In person",
+      "lastVerified": "2026-11-02T00:09:00Z",
+      "verificationMethod": "Official live organizer calendar and event ticket inventory reviewed in browser; account eligibility verified.",
+      "cancellationPolicy": "Confirm cancellation and refund terms with BILT before registering.",
+      "id": "bilt-holiday-bingo-2026-12-03",
+      "title": "Holiday Bingo",
+      "start": "2026-12-03T15:30:00-05:00",
+      "end": "2026-12-03T17:30:00-05:00",
+      "city": "Woburn",
+      "venue": "BILT Innovation Center",
+      "address": "215 Lexington Street, Floor 1, Woburn, MA 01801",
+      "sourceId": "bilt-holiday-bingo",
+      "sourceUrl": "https://biltne.org/_event/holiday-bingo/",
+      "ticketUrl": "https://biltne.org/_event/holiday-bingo/",
+      "cost": "$55 listed event price. New participants may also owe a one-time intake fee; amount not published. Confirm any additional support charges with BILT.",
+      "ages": "Exact event age limits are not published; eligibility and support needs must be approved by BILT before booking.",
+      "summary": "BILT intake and approval required; this is not a public drop-in event. Bingo with prizes, snacks and alternative game stations. A participant may attend with their 1:1 support person.",
+      "registration": "For approved participants only: complete BILT intake/consents and receive approval before using an account to book. 10 tickets were shown available when checked; capacity can change. New applicants should allow time for the intake review, not assume immediate access.",
+      "accessibility": [
+        "Supported social recreation for participants with disabilities; individual eligibility determined by BILT."
+      ],
+      "notes": [
+        "Event account eligibility: https://biltne.org/register/",
+        "Intake and fee policy: https://biltne.org/about/faqs/",
+        "BILT uses event photos for advocacy/fundraising; review its photo-consent policy before registering.",
+        "The event heading/date confirm December Holiday Bingo; some description text still mentions Halloween. Confirm the theme with BILT."
+      ],
+      "category": "Inclusive recreation",
+      "costCategory": "paid"
+    },
+    {
       "id": "bci-new-bedford-winter-2026-12-03",
       "title": "Sensory-Friendly Winter Wonderland",
       "start": "2026-12-03T16:00:00-05:00",
@@ -15602,6 +16500,40 @@
     },
     {
       "timezone": "America/New_York",
+      "state": "MA",
+      "status": "scheduled",
+      "reviewRequired": false,
+      "format": "In person",
+      "lastVerified": "2026-11-02T00:09:00Z",
+      "verificationMethod": "Official live organizer calendar and event ticket inventory reviewed in browser; account eligibility verified.",
+      "cancellationPolicy": "Confirm cancellation and refund terms with BILT before registering.",
+      "id": "bilt-polar-express-night-2026-12-04",
+      "title": "Polar Express Night",
+      "start": "2026-12-04T16:00:00-05:00",
+      "end": "2026-12-04T19:00:00-05:00",
+      "city": "Woburn",
+      "venue": "BILT Innovation Center",
+      "address": "215 Lexington Street, Floor 1, Woburn, MA 01801",
+      "sourceId": "bilt-polar-express-night",
+      "sourceUrl": "https://biltne.org/_event/polar-express-night/",
+      "ticketUrl": "https://biltne.org/_event/polar-express-night/",
+      "cost": "$100 listed event price. New participants may also owe a one-time intake fee; amount not published. Confirm any additional support charges with BILT.",
+      "ages": "Exact event age limits are not published; eligibility and support needs must be approved by BILT before booking.",
+      "summary": "BILT intake and approval required; this is not a public drop-in event. The Polar Express movie with pancakes, hot cocoa and cookies; food is included. Craft and game stations offer alternatives to watching the film. Pajamas welcome.",
+      "registration": "For approved participants only: complete BILT intake/consents and receive approval before using an account to book. 10 tickets were shown available when checked; capacity can change. New applicants should allow time for the intake review, not assume immediate access.",
+      "accessibility": [
+        "Supported social recreation for participants with disabilities; individual eligibility determined by BILT."
+      ],
+      "notes": [
+        "Event account eligibility: https://biltne.org/register/",
+        "Intake and fee policy: https://biltne.org/about/faqs/",
+        "BILT uses event photos for advocacy/fundraising; review its photo-consent policy before registering."
+      ],
+      "category": "Inclusive recreation",
+      "costCategory": "paid"
+    },
+    {
+      "timezone": "America/New_York",
       "lastVerified": "2026-11-01T20:39:00Z",
       "verificationMethod": "Official organizer pages reviewed November 1, 2026.",
       "reviewRequired": false,
@@ -15794,6 +16726,42 @@
       "sourceUrl": "https://fundraise.specialolympicsma.org/events/1044",
       "registration": "Register through the official event page; check current availability and participation details.",
       "category": "Disability community",
+      "costCategory": "paid"
+    },
+    {
+      "timezone": "America/New_York",
+      "state": "MA",
+      "status": "scheduled",
+      "reviewRequired": false,
+      "format": "In person",
+      "lastVerified": "2026-11-02T00:09:00Z",
+      "verificationMethod": "Official live organizer calendar and event ticket inventory reviewed in browser; account eligibility verified.",
+      "cancellationPolicy": "Confirm cancellation and refund terms with BILT before registering.",
+      "id": "bilt-sensory-friendly-boston-pops-2026-12-05",
+      "title": "Boston Pops — BILT Supported Group Outing",
+      "start": "2026-12-05T09:30:00-05:00",
+      "end": "2026-12-05T13:30:00-05:00",
+      "city": "Woburn",
+      "venue": "BILT Woburn departure — Symphony Hall outing",
+      "address": "215 Lexington Street, Floor 1, Woburn, MA 01801",
+      "sourceId": "bilt-sensory-friendly-boston-pops",
+      "sourceUrl": "https://biltne.org/_event/sensory-friendly-boston-pops/",
+      "ticketUrl": "https://biltne.org/_event/sensory-friendly-boston-pops/",
+      "cost": "$215 per person, including lunch. Accompanying 1:1 support has an additional unspecified fee. A new-participant intake fee may also apply; confirm total before booking.",
+      "ages": "Exact event age limits are not published; eligibility and support needs must be approved by BILT before booking.",
+      "summary": "BILT intake and approval required; this is not a public drop-in event. Supported trip from Woburn to the sensory-friendly Holiday Pops concert at Symphony Hall, followed by lunch. The concert itself starts at 10:30 a.m.; this listing is the separate BILT outing package.",
+      "registration": "For approved participants only: complete BILT intake/consents and receive approval before using an account to book. 11 tickets were shown available when checked; capacity can change. New applicants should allow time for the intake review, not assume immediate access.",
+      "accessibility": [
+        "Supported social recreation for participants with disabilities; individual eligibility determined by BILT.",
+        "Organizer identifies the concert as sensory-friendly."
+      ],
+      "notes": [
+        "Event account eligibility: https://biltne.org/register/",
+        "Intake and fee policy: https://biltne.org/about/faqs/",
+        "BILT uses event photos for advocacy/fundraising; review its photo-consent policy before registering.",
+        "Meet at Woburn at 9:30 a.m.; return approximately 1–1:30 p.m. Boston drop-off/pick-up is also offered. Separate from direct BSO concert admission."
+      ],
+      "category": "Inclusive recreation",
       "costCategory": "paid"
     },
     {
@@ -18271,6 +19239,40 @@
     },
     {
       "timezone": "America/New_York",
+      "state": "MA",
+      "status": "scheduled",
+      "reviewRequired": false,
+      "format": "In person",
+      "lastVerified": "2026-11-02T00:09:00Z",
+      "verificationMethod": "Official live organizer calendar and event ticket inventory reviewed in browser; account eligibility verified.",
+      "cancellationPolicy": "Confirm cancellation and refund terms with BILT before registering.",
+      "id": "bilt-holiday-singalong-lunch-craft-2026-12-12",
+      "title": "Holiday Singalong, Lunch & Craft",
+      "start": "2026-12-12T11:00:00-05:00",
+      "end": "2026-12-12T13:00:00-05:00",
+      "city": "Woburn",
+      "venue": "BILT Innovation Center",
+      "address": "215 Lexington Street, Floor 1, Woburn, MA 01801",
+      "sourceId": "bilt-holiday-singalong-lunch-craft",
+      "sourceUrl": "https://biltne.org/_event/holiday-singalong-lunch-craft/",
+      "ticketUrl": "https://biltne.org/_event/holiday-singalong-lunch-craft/",
+      "cost": "$100 listed event price. New participants may also owe a one-time intake fee; amount not published. Confirm any additional support charges with BILT.",
+      "ages": "Exact event age limits are not published; eligibility and support needs must be approved by BILT before booking.",
+      "summary": "BILT intake and approval required; this is not a public drop-in event. Live holiday music, crafts, pizza lunch and a Santa visit during the final half hour. Price includes lunch, craft and Santa gift; request gluten-free lunch ahead.",
+      "registration": "For approved participants only: complete BILT intake/consents and receive approval before using an account to book. 10 tickets were shown available when checked; capacity can change. New applicants should allow time for the intake review, not assume immediate access.",
+      "accessibility": [
+        "Supported social recreation for participants with disabilities; individual eligibility determined by BILT."
+      ],
+      "notes": [
+        "Event account eligibility: https://biltne.org/register/",
+        "Intake and fee policy: https://biltne.org/about/faqs/",
+        "BILT uses event photos for advocacy/fundraising; review its photo-consent policy before registering."
+      ],
+      "category": "Inclusive recreation",
+      "costCategory": "paid"
+    },
+    {
+      "timezone": "America/New_York",
       "ticketUrl": null,
       "cancellationPolicy": "Not stated in the checked listing; confirm with the organizer.",
       "notes": [
@@ -19635,6 +20637,42 @@
       "registration": "Walk-in; arrive at least 45 minutes before closing."
     },
     {
+      "id": "prospector-national-lampoon-s-christmas-vacation-2026-12-16-1900",
+      "title": "National Lampoon's Christmas Vacation — Open-captioned screening",
+      "start": "2026-12-16T19:00:00-05:00",
+      "end": "2026-12-16T20:37:00-05:00",
+      "timezone": "America/New_York",
+      "state": "CT",
+      "city": "Ridgefield",
+      "venue": "Prospector Theater",
+      "address": "25 Prospect Street, Ridgefield, CT 06877",
+      "cost": "Paid tickets; check the official booking page for current prices and any fees.",
+      "ages": "Rated PG-13. Parents strongly cautioned; some material may be inappropriate for children under 13.",
+      "summary": "Rated PG-13. Designated open-captioned film screening with audio description listed. This is not a sensory-friendly screening: the theater describes normal theatrical sound and lights off.",
+      "accessibility": [
+        "Open captions on screen",
+        "Audio description listed; request equipment from the theater"
+      ],
+      "sourceId": "prospector-open-caption-national-lampoon-s-christmas-vacation",
+      "sourceUrl": "https://www.showtimes.prospectortheater.org/open-caption-showtimes/",
+      "ticketUrl": "https://booking.prospectortheater.org/launch/ticketing/c49a8a59-8964-5143-9cac-6dce2c04c22e",
+      "registration": "Tickets offered through the official theater booking link; check current remaining seats and prices. The theater recommends arriving 30 minutes before showtime.",
+      "cancellationPolicy": "Showtimes and theaters are subject to change; review ticket terms before purchase.",
+      "notes": [
+        "Accessibility details: https://www.prospectortheater.org/accessible-moviegoing",
+        "Admission policy: https://www.prospectortheater.org/about",
+        "End time estimated from the published 97-minute film runtime; trailers and other pre-show material may extend the visit."
+      ],
+      "lastVerified": "2026-11-02T00:10:00Z",
+      "verificationMethod": "Official live open-caption showtime page browser snapshot; official accessibility and admission policies",
+      "reviewRequired": false,
+      "status": "scheduled",
+      "category": "Accessible film",
+      "format": "In person",
+      "costCategory": "paid",
+      "endApproximate": true
+    },
+    {
       "id": "sevenhills-social-squad-2026-12-17",
       "title": "Social Squad",
       "start": "2026-12-17T11:00:00-05:00",
@@ -19697,6 +20735,40 @@
       "lastVerified": "2026-11-01T22:44:00Z",
       "verificationMethod": "Official organizer 2026 event information checked November 1, 2026.",
       "costCategory": "unknown"
+    },
+    {
+      "timezone": "America/New_York",
+      "state": "MA",
+      "status": "scheduled",
+      "reviewRequired": false,
+      "format": "In person",
+      "lastVerified": "2026-11-02T00:09:00Z",
+      "verificationMethod": "Official live organizer calendar and event ticket inventory reviewed in browser; account eligibility verified.",
+      "cancellationPolicy": "Confirm cancellation and refund terms with BILT before registering.",
+      "id": "bilt-holiday-movie-night-2026-12-17",
+      "title": "Holiday Movie Night",
+      "start": "2026-12-17T15:30:00-05:00",
+      "end": "2026-12-17T18:00:00-05:00",
+      "city": "Woburn",
+      "venue": "BILT Innovation Center",
+      "address": "215 Lexington Street, Floor 1, Woburn, MA 01801",
+      "sourceId": "bilt-holiday-movie-night",
+      "sourceUrl": "https://biltne.org/_event/holiday-movie-night/",
+      "ticketUrl": "https://biltne.org/_event/holiday-movie-night/",
+      "cost": "$85 listed event price. New participants may also owe a one-time intake fee; amount not published. Confirm any additional support charges with BILT.",
+      "ages": "Exact event age limits are not published; eligibility and support needs must be approved by BILT before booking.",
+      "summary": "BILT intake and approval required; this is not a public drop-in event. Participants vote on the movie. Pizza dinner and refreshments are served; no particular film is announced.",
+      "registration": "For approved participants only: complete BILT intake/consents and receive approval before using an account to book. 10 tickets were shown available when checked; capacity can change. New applicants should allow time for the intake review, not assume immediate access.",
+      "accessibility": [
+        "Supported social recreation for participants with disabilities; individual eligibility determined by BILT."
+      ],
+      "notes": [
+        "Event account eligibility: https://biltne.org/register/",
+        "Intake and fee policy: https://biltne.org/about/faqs/",
+        "BILT uses event photos for advocacy/fundraising; review its photo-consent policy before registering."
+      ],
+      "category": "Inclusive recreation",
+      "costCategory": "paid"
     },
     {
       "id": "sevenhills-music-2026-12-17",
@@ -19830,6 +20902,40 @@
       "category": "Inclusive community",
       "format": "In person",
       "costCategory": "unknown"
+    },
+    {
+      "id": "bierman-danvers-sensory-santa-2026-12-19",
+      "title": "Free Sensory Santa at Bierman Danvers",
+      "start": "2026-12-19T09:00:00-05:00",
+      "end": "2026-12-19T11:00:00-05:00",
+      "timezone": "America/New_York",
+      "state": "MA",
+      "city": "Danvers",
+      "venue": "Bierman Autism Centers – Danvers",
+      "address": "75 Sylvan Street, C105, Danvers, MA 01923",
+      "cost": "Free; RSVP required",
+      "ages": "Families in the special-needs community, including new and existing families. Games are designed for children ages 2–9 with autism in mind.",
+      "summary": "A sensory-friendly holiday morning with Santa photos, snacks, winter games and creative activities, plus a quiet corner for breaks.",
+      "accessibility": [
+        "Organizer advertises a calm, sensory-friendly setting.",
+        "Quiet corner available throughout the morning."
+      ],
+      "sourceId": "bierman-danvers-sensory-santa",
+      "sourceUrl": "https://www.eventbrite.com/e/free-annual-sensory-santa-in-danvers-tickets-2002892949729",
+      "ticketUrl": "https://www.eventbrite.com/e/free-annual-sensory-santa-in-danvers-tickets-2002892949729",
+      "registration": "Reserve free tickets through the organizer’s Eventbrite page. Tickets listed as available when checked; availability can change.",
+      "cancellationPolicy": "Cancellation policy not stated; check with the organizer.",
+      "notes": [
+        "Community celebration welcoming new and existing families; not a treatment appointment.",
+        "Registration includes the organizer’s photo/video permission terms. Review these before registering, particularly if you do not want photographs or recordings published."
+      ],
+      "lastVerified": "2026-11-02T00:07:00Z",
+      "verificationMethod": "Official Bierman current event listing and organizer Eventbrite description/structured event data; browser cross-check",
+      "reviewRequired": false,
+      "status": "scheduled",
+      "category": "Sensory-friendly",
+      "format": "In person",
+      "costCategory": "free"
     },
     {
       "id": "bixby-low-stimulation-2026-12-19",

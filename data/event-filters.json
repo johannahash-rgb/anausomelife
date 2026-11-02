@@ -21475,6 +21475,1069 @@
         "max": null,
         "kind": "not-stated"
       }
+    },
+    "bilt-harry-potter-movie-night-2026-11-05": {
+      "ageGroups": [],
+      "accessFeatures": [],
+      "holidays": [],
+      "sensory": {
+        "level": "unknown",
+        "basis": "Supported recreation; no reduced sound, lighting or crowd conditions are advertised.",
+        "note": "Supported recreation; no reduced sound, lighting or crowd conditions are advertised.",
+        "sourceUrl": "https://biltne.org/_event/harry-potter-movie-night/",
+        "checkedAt": "2026-11-01",
+        "sourceDetailsCheckedAt": "2026-11-01"
+      },
+      "ageRange": {
+        "min": null,
+        "max": null,
+        "kind": "unspecified"
+      },
+      "ageEvidence": {},
+      "accessEvidence": {},
+      "holidayEvidence": {},
+      "checkedAt": "2026-11-01"
+    },
+    "bilt-friendsgiving-friday-night-drop-off-2026-11-13": {
+      "ageGroups": [],
+      "accessFeatures": [],
+      "holidays": [
+        "thanksgiving"
+      ],
+      "sensory": {
+        "level": "unknown",
+        "basis": "Supported recreation; no reduced sound, lighting or crowd conditions are advertised.",
+        "note": "Supported recreation; no reduced sound, lighting or crowd conditions are advertised.",
+        "sourceUrl": "https://biltne.org/_event/friendsgiving-friday-night-drop-off/",
+        "checkedAt": "2026-11-01",
+        "sourceDetailsCheckedAt": "2026-11-01"
+      },
+      "ageRange": {
+        "min": null,
+        "max": null,
+        "kind": "unspecified"
+      },
+      "ageEvidence": {},
+      "accessEvidence": {},
+      "holidayEvidence": {
+        "thanksgiving": {
+          "url": "https://biltne.org/_event/friendsgiving-friday-night-drop-off/",
+          "evidenceId": "bilt-friendsgiving-friday-night-drop-off"
+        }
+      },
+      "checkedAt": "2026-11-01"
+    },
+    "bilt-holiday-bingo-2026-12-03": {
+      "ageGroups": [],
+      "accessFeatures": [],
+      "holidays": [],
+      "sensory": {
+        "level": "unknown",
+        "basis": "Supported recreation; no reduced sound, lighting or crowd conditions are advertised.",
+        "note": "Supported recreation; no reduced sound, lighting or crowd conditions are advertised.",
+        "sourceUrl": "https://biltne.org/_event/holiday-bingo/",
+        "checkedAt": "2026-11-01",
+        "sourceDetailsCheckedAt": "2026-11-01"
+      },
+      "ageRange": {
+        "min": null,
+        "max": null,
+        "kind": "unspecified"
+      },
+      "ageEvidence": {},
+      "accessEvidence": {},
+      "holidayEvidence": {},
+      "checkedAt": "2026-11-01"
+    },
+    "bilt-polar-express-night-2026-12-04": {
+      "ageGroups": [],
+      "accessFeatures": [],
+      "holidays": [
+        "christmas",
+        "winter-holidays"
+      ],
+      "sensory": {
+        "level": "unknown",
+        "basis": "Supported recreation; no reduced sound, lighting or crowd conditions are advertised.",
+        "note": "Supported recreation; no reduced sound, lighting or crowd conditions are advertised.",
+        "sourceUrl": "https://biltne.org/_event/polar-express-night/",
+        "checkedAt": "2026-11-01",
+        "sourceDetailsCheckedAt": "2026-11-01"
+      },
+      "ageRange": {
+        "min": null,
+        "max": null,
+        "kind": "unspecified"
+      },
+      "ageEvidence": {},
+      "accessEvidence": {},
+      "holidayEvidence": {
+        "christmas": {
+          "url": "https://biltne.org/_event/polar-express-night/",
+          "evidenceId": "bilt-polar-express-night"
+        },
+        "winter-holidays": {
+          "url": "https://biltne.org/_event/polar-express-night/"
+        }
+      },
+      "checkedAt": "2026-11-01"
+    },
+    "bilt-sensory-friendly-boston-pops-2026-12-05": {
+      "ageGroups": [],
+      "accessFeatures": [
+        "sensory-friendly"
+      ],
+      "holidays": [
+        "christmas",
+        "winter-holidays"
+      ],
+      "sensory": {
+        "level": "unknown",
+        "basis": "BILT explicitly identifies the Boston Pops performance as sensory-friendly; transport and restaurant conditions are not specified.",
+        "note": "BILT explicitly identifies the Boston Pops performance as sensory-friendly; transport and restaurant conditions are not specified.",
+        "sourceUrl": "https://biltne.org/_event/sensory-friendly-boston-pops/",
+        "checkedAt": "2026-11-01",
+        "sourceDetailsCheckedAt": "2026-11-01"
+      },
+      "ageRange": {
+        "min": null,
+        "max": null,
+        "kind": "unspecified"
+      },
+      "ageEvidence": {},
+      "accessEvidence": {
+        "sensory-friendly": {
+          "url": "https://biltne.org/_event/sensory-friendly-boston-pops/",
+          "evidenceId": "bilt-sensory-friendly-boston-pops"
+        }
+      },
+      "holidayEvidence": {
+        "christmas": {
+          "url": "https://biltne.org/_event/sensory-friendly-boston-pops/",
+          "evidenceId": "bilt-sensory-friendly-boston-pops"
+        },
+        "winter-holidays": {
+          "url": "https://biltne.org/_event/sensory-friendly-boston-pops/"
+        }
+      },
+      "checkedAt": "2026-11-01"
+    },
+    "bilt-holiday-singalong-lunch-craft-2026-12-12": {
+      "ageGroups": [],
+      "accessFeatures": [],
+      "holidays": [
+        "christmas",
+        "santa",
+        "winter-holidays"
+      ],
+      "sensory": {
+        "level": "unknown",
+        "basis": "Supported recreation; no reduced sound, lighting or crowd conditions are advertised.",
+        "note": "Supported recreation; no reduced sound, lighting or crowd conditions are advertised.",
+        "sourceUrl": "https://biltne.org/_event/holiday-singalong-lunch-craft/",
+        "checkedAt": "2026-11-01",
+        "sourceDetailsCheckedAt": "2026-11-01"
+      },
+      "ageRange": {
+        "min": null,
+        "max": null,
+        "kind": "unspecified"
+      },
+      "ageEvidence": {},
+      "accessEvidence": {},
+      "holidayEvidence": {
+        "christmas": {
+          "url": "https://biltne.org/_event/holiday-singalong-lunch-craft/",
+          "evidenceId": "bilt-holiday-singalong-lunch-craft"
+        },
+        "santa": {
+          "url": "https://biltne.org/_event/holiday-singalong-lunch-craft/",
+          "evidenceId": "bilt-holiday-singalong-lunch-craft"
+        },
+        "winter-holidays": {
+          "url": "https://biltne.org/_event/holiday-singalong-lunch-craft/",
+          "evidenceId": "bilt-holiday-singalong-lunch-craft"
+        }
+      },
+      "checkedAt": "2026-11-01"
+    },
+    "bilt-holiday-movie-night-2026-12-17": {
+      "ageGroups": [],
+      "accessFeatures": [],
+      "holidays": [],
+      "sensory": {
+        "level": "unknown",
+        "basis": "Supported recreation; no reduced sound, lighting or crowd conditions are advertised.",
+        "note": "Supported recreation; no reduced sound, lighting or crowd conditions are advertised.",
+        "sourceUrl": "https://biltne.org/_event/holiday-movie-night/",
+        "checkedAt": "2026-11-01",
+        "sourceDetailsCheckedAt": "2026-11-01"
+      },
+      "ageRange": {
+        "min": null,
+        "max": null,
+        "kind": "unspecified"
+      },
+      "ageEvidence": {},
+      "accessEvidence": {},
+      "holidayEvidence": {},
+      "checkedAt": "2026-11-01"
+    },
+    "bierman-danvers-sensory-santa-2026-12-19": {
+      "ageGroups": [
+        "children",
+        "families"
+      ],
+      "accessFeatures": [
+        "sensory-friendly",
+        "sensory-friendly"
+      ],
+      "holidays": [
+        "christmas",
+        "santa",
+        "winter-holidays"
+      ],
+      "sensory": {
+        "level": "low",
+        "note": "Inclusive program; specific sound and lighting conditions are not confirmed.",
+        "sourceUrl": "https://www.eventbrite.com/e/free-annual-sensory-santa-in-danvers-tickets-2002892949729",
+        "checkedAt": "2026-11-01",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-11-01"
+      },
+      "ageEvidence": {
+        "children": {
+          "url": "https://www.eventbrite.com/e/free-annual-sensory-santa-in-danvers-tickets-2002892949729",
+          "evidenceId": "bierman-danvers-sensory-santa"
+        },
+        "families": {
+          "url": "https://www.eventbrite.com/e/free-annual-sensory-santa-in-danvers-tickets-2002892949729",
+          "evidenceId": "bierman-danvers-sensory-santa"
+        }
+      },
+      "accessEvidence": {
+        "sensory-friendly": {
+          "url": "https://www.eventbrite.com/e/free-annual-sensory-santa-in-danvers-tickets-2002892949729",
+          "evidenceId": "bierman-danvers-sensory-santa"
+        }
+      },
+      "holidayEvidence": {
+        "christmas": {
+          "url": "https://www.eventbrite.com/e/free-annual-sensory-santa-in-danvers-tickets-2002892949729",
+          "evidenceId": "bierman-danvers-sensory-santa"
+        },
+        "santa": {
+          "url": "https://www.eventbrite.com/e/free-annual-sensory-santa-in-danvers-tickets-2002892949729",
+          "evidenceId": "bierman-danvers-sensory-santa"
+        },
+        "winter-holidays": {
+          "url": "https://www.eventbrite.com/e/free-annual-sensory-santa-in-danvers-tickets-2002892949729",
+          "evidenceId": "bierman-danvers-sensory-santa"
+        }
+      },
+      "checkedAt": "2026-11-01",
+      "ageRange": {
+        "min": null,
+        "max": null,
+        "kind": "not-stated"
+      }
+    },
+    "prospector-the-only-living-pickpocket-in-new-york-2026-11-04-1315": {
+      "ageGroups": [
+        "teens",
+        "adults"
+      ],
+      "accessFeatures": [
+        "hearing-support",
+        "vision-support"
+      ],
+      "holidays": [],
+      "sensory": {
+        "level": "unknown",
+        "note": "Inclusive program; specific sound and lighting conditions are not confirmed.",
+        "sourceUrl": "https://www.showtimes.prospectortheater.org/open-caption-showtimes/",
+        "checkedAt": "2026-11-01",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-11-01"
+      },
+      "ageEvidence": {
+        "teens": {
+          "url": "https://www.showtimes.prospectortheater.org/open-caption-showtimes/",
+          "evidenceId": "prospector-open-caption-the-only-living-pickpocket-in-new-york"
+        },
+        "adults": {
+          "url": "https://www.showtimes.prospectortheater.org/open-caption-showtimes/",
+          "evidenceId": "prospector-open-caption-the-only-living-pickpocket-in-new-york"
+        }
+      },
+      "accessEvidence": {
+        "hearing-support": {
+          "url": "https://www.showtimes.prospectortheater.org/open-caption-showtimes/",
+          "evidenceId": "prospector-open-caption-the-only-living-pickpocket-in-new-york"
+        },
+        "vision-support": {
+          "url": "https://www.showtimes.prospectortheater.org/open-caption-showtimes/",
+          "evidenceId": "prospector-open-caption-the-only-living-pickpocket-in-new-york"
+        }
+      },
+      "holidayEvidence": {},
+      "checkedAt": "2026-11-01",
+      "ageRange": {
+        "min": null,
+        "max": null,
+        "kind": "not-stated"
+      }
+    },
+    "prospector-the-only-living-pickpocket-in-new-york-2026-11-04-1630": {
+      "ageGroups": [
+        "teens",
+        "adults"
+      ],
+      "accessFeatures": [
+        "hearing-support",
+        "vision-support"
+      ],
+      "holidays": [],
+      "sensory": {
+        "level": "unknown",
+        "note": "Inclusive program; specific sound and lighting conditions are not confirmed.",
+        "sourceUrl": "https://www.showtimes.prospectortheater.org/open-caption-showtimes/",
+        "checkedAt": "2026-11-01",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-11-01"
+      },
+      "ageEvidence": {
+        "teens": {
+          "url": "https://www.showtimes.prospectortheater.org/open-caption-showtimes/",
+          "evidenceId": "prospector-open-caption-the-only-living-pickpocket-in-new-york"
+        },
+        "adults": {
+          "url": "https://www.showtimes.prospectortheater.org/open-caption-showtimes/",
+          "evidenceId": "prospector-open-caption-the-only-living-pickpocket-in-new-york"
+        }
+      },
+      "accessEvidence": {
+        "hearing-support": {
+          "url": "https://www.showtimes.prospectortheater.org/open-caption-showtimes/",
+          "evidenceId": "prospector-open-caption-the-only-living-pickpocket-in-new-york"
+        },
+        "vision-support": {
+          "url": "https://www.showtimes.prospectortheater.org/open-caption-showtimes/",
+          "evidenceId": "prospector-open-caption-the-only-living-pickpocket-in-new-york"
+        }
+      },
+      "holidayEvidence": {},
+      "checkedAt": "2026-11-01",
+      "ageRange": {
+        "min": null,
+        "max": null,
+        "kind": "not-stated"
+      }
+    },
+    "prospector-the-only-living-pickpocket-in-new-york-2026-11-04-1930": {
+      "ageGroups": [
+        "teens",
+        "adults"
+      ],
+      "accessFeatures": [
+        "hearing-support",
+        "vision-support"
+      ],
+      "holidays": [],
+      "sensory": {
+        "level": "unknown",
+        "note": "Inclusive program; specific sound and lighting conditions are not confirmed.",
+        "sourceUrl": "https://www.showtimes.prospectortheater.org/open-caption-showtimes/",
+        "checkedAt": "2026-11-01",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-11-01"
+      },
+      "ageEvidence": {
+        "teens": {
+          "url": "https://www.showtimes.prospectortheater.org/open-caption-showtimes/",
+          "evidenceId": "prospector-open-caption-the-only-living-pickpocket-in-new-york"
+        },
+        "adults": {
+          "url": "https://www.showtimes.prospectortheater.org/open-caption-showtimes/",
+          "evidenceId": "prospector-open-caption-the-only-living-pickpocket-in-new-york"
+        }
+      },
+      "accessEvidence": {
+        "hearing-support": {
+          "url": "https://www.showtimes.prospectortheater.org/open-caption-showtimes/",
+          "evidenceId": "prospector-open-caption-the-only-living-pickpocket-in-new-york"
+        },
+        "vision-support": {
+          "url": "https://www.showtimes.prospectortheater.org/open-caption-showtimes/",
+          "evidenceId": "prospector-open-caption-the-only-living-pickpocket-in-new-york"
+        }
+      },
+      "holidayEvidence": {},
+      "checkedAt": "2026-11-01",
+      "ageRange": {
+        "min": null,
+        "max": null,
+        "kind": "not-stated"
+      }
+    },
+    "prospector-wildwood-2026-11-04-1300": {
+      "ageGroups": [
+        "teens",
+        "adults"
+      ],
+      "accessFeatures": [
+        "hearing-support",
+        "vision-support"
+      ],
+      "holidays": [],
+      "sensory": {
+        "level": "unknown",
+        "note": "Inclusive program; specific sound and lighting conditions are not confirmed.",
+        "sourceUrl": "https://www.showtimes.prospectortheater.org/open-caption-showtimes/",
+        "checkedAt": "2026-11-01",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-11-01"
+      },
+      "ageEvidence": {
+        "teens": {
+          "url": "https://www.showtimes.prospectortheater.org/open-caption-showtimes/",
+          "evidenceId": "prospector-open-caption-wildwood"
+        },
+        "adults": {
+          "url": "https://www.showtimes.prospectortheater.org/open-caption-showtimes/",
+          "evidenceId": "prospector-open-caption-wildwood"
+        }
+      },
+      "accessEvidence": {
+        "hearing-support": {
+          "url": "https://www.showtimes.prospectortheater.org/open-caption-showtimes/",
+          "evidenceId": "prospector-open-caption-wildwood"
+        },
+        "vision-support": {
+          "url": "https://www.showtimes.prospectortheater.org/open-caption-showtimes/",
+          "evidenceId": "prospector-open-caption-wildwood"
+        }
+      },
+      "holidayEvidence": {},
+      "checkedAt": "2026-11-01",
+      "ageRange": {
+        "min": null,
+        "max": null,
+        "kind": "not-stated"
+      }
+    },
+    "prospector-wildwood-2026-11-04-1600": {
+      "ageGroups": [
+        "teens",
+        "adults"
+      ],
+      "accessFeatures": [
+        "hearing-support",
+        "vision-support"
+      ],
+      "holidays": [],
+      "sensory": {
+        "level": "unknown",
+        "note": "Inclusive program; specific sound and lighting conditions are not confirmed.",
+        "sourceUrl": "https://www.showtimes.prospectortheater.org/open-caption-showtimes/",
+        "checkedAt": "2026-11-01",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-11-01"
+      },
+      "ageEvidence": {
+        "teens": {
+          "url": "https://www.showtimes.prospectortheater.org/open-caption-showtimes/",
+          "evidenceId": "prospector-open-caption-wildwood"
+        },
+        "adults": {
+          "url": "https://www.showtimes.prospectortheater.org/open-caption-showtimes/",
+          "evidenceId": "prospector-open-caption-wildwood"
+        }
+      },
+      "accessEvidence": {
+        "hearing-support": {
+          "url": "https://www.showtimes.prospectortheater.org/open-caption-showtimes/",
+          "evidenceId": "prospector-open-caption-wildwood"
+        },
+        "vision-support": {
+          "url": "https://www.showtimes.prospectortheater.org/open-caption-showtimes/",
+          "evidenceId": "prospector-open-caption-wildwood"
+        }
+      },
+      "holidayEvidence": {},
+      "checkedAt": "2026-11-01",
+      "ageRange": {
+        "min": null,
+        "max": null,
+        "kind": "not-stated"
+      }
+    },
+    "prospector-wildwood-2026-11-04-1900": {
+      "ageGroups": [
+        "teens",
+        "adults"
+      ],
+      "accessFeatures": [
+        "hearing-support",
+        "vision-support"
+      ],
+      "holidays": [],
+      "sensory": {
+        "level": "unknown",
+        "note": "Inclusive program; specific sound and lighting conditions are not confirmed.",
+        "sourceUrl": "https://www.showtimes.prospectortheater.org/open-caption-showtimes/",
+        "checkedAt": "2026-11-01",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-11-01"
+      },
+      "ageEvidence": {
+        "teens": {
+          "url": "https://www.showtimes.prospectortheater.org/open-caption-showtimes/",
+          "evidenceId": "prospector-open-caption-wildwood"
+        },
+        "adults": {
+          "url": "https://www.showtimes.prospectortheater.org/open-caption-showtimes/",
+          "evidenceId": "prospector-open-caption-wildwood"
+        }
+      },
+      "accessEvidence": {
+        "hearing-support": {
+          "url": "https://www.showtimes.prospectortheater.org/open-caption-showtimes/",
+          "evidenceId": "prospector-open-caption-wildwood"
+        },
+        "vision-support": {
+          "url": "https://www.showtimes.prospectortheater.org/open-caption-showtimes/",
+          "evidenceId": "prospector-open-caption-wildwood"
+        }
+      },
+      "holidayEvidence": {},
+      "checkedAt": "2026-11-01",
+      "ageRange": {
+        "min": null,
+        "max": null,
+        "kind": "not-stated"
+      }
+    },
+    "prospector-sense-and-sensibility-2026-11-04-1300": {
+      "ageGroups": [
+        "children",
+        "teens",
+        "adults",
+        "families"
+      ],
+      "accessFeatures": [
+        "hearing-support",
+        "vision-support"
+      ],
+      "holidays": [],
+      "sensory": {
+        "level": "unknown",
+        "note": "Inclusive program; specific sound and lighting conditions are not confirmed.",
+        "sourceUrl": "https://www.showtimes.prospectortheater.org/open-caption-showtimes/",
+        "checkedAt": "2026-11-01",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-11-01"
+      },
+      "ageEvidence": {
+        "children": {
+          "url": "https://www.showtimes.prospectortheater.org/open-caption-showtimes/",
+          "evidenceId": "prospector-open-caption-sense-and-sensibility"
+        },
+        "teens": {
+          "url": "https://www.showtimes.prospectortheater.org/open-caption-showtimes/",
+          "evidenceId": "prospector-open-caption-sense-and-sensibility"
+        },
+        "adults": {
+          "url": "https://www.showtimes.prospectortheater.org/open-caption-showtimes/",
+          "evidenceId": "prospector-open-caption-sense-and-sensibility"
+        },
+        "families": {
+          "url": "https://www.showtimes.prospectortheater.org/open-caption-showtimes/",
+          "evidenceId": "prospector-open-caption-sense-and-sensibility"
+        }
+      },
+      "accessEvidence": {
+        "hearing-support": {
+          "url": "https://www.showtimes.prospectortheater.org/open-caption-showtimes/",
+          "evidenceId": "prospector-open-caption-sense-and-sensibility"
+        },
+        "vision-support": {
+          "url": "https://www.showtimes.prospectortheater.org/open-caption-showtimes/",
+          "evidenceId": "prospector-open-caption-sense-and-sensibility"
+        }
+      },
+      "holidayEvidence": {},
+      "checkedAt": "2026-11-01",
+      "ageRange": {
+        "min": null,
+        "max": null,
+        "kind": "not-stated"
+      }
+    },
+    "prospector-sense-and-sensibility-2026-11-04-1600": {
+      "ageGroups": [
+        "children",
+        "teens",
+        "adults",
+        "families"
+      ],
+      "accessFeatures": [
+        "hearing-support",
+        "vision-support"
+      ],
+      "holidays": [],
+      "sensory": {
+        "level": "unknown",
+        "note": "Inclusive program; specific sound and lighting conditions are not confirmed.",
+        "sourceUrl": "https://www.showtimes.prospectortheater.org/open-caption-showtimes/",
+        "checkedAt": "2026-11-01",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-11-01"
+      },
+      "ageEvidence": {
+        "children": {
+          "url": "https://www.showtimes.prospectortheater.org/open-caption-showtimes/",
+          "evidenceId": "prospector-open-caption-sense-and-sensibility"
+        },
+        "teens": {
+          "url": "https://www.showtimes.prospectortheater.org/open-caption-showtimes/",
+          "evidenceId": "prospector-open-caption-sense-and-sensibility"
+        },
+        "adults": {
+          "url": "https://www.showtimes.prospectortheater.org/open-caption-showtimes/",
+          "evidenceId": "prospector-open-caption-sense-and-sensibility"
+        },
+        "families": {
+          "url": "https://www.showtimes.prospectortheater.org/open-caption-showtimes/",
+          "evidenceId": "prospector-open-caption-sense-and-sensibility"
+        }
+      },
+      "accessEvidence": {
+        "hearing-support": {
+          "url": "https://www.showtimes.prospectortheater.org/open-caption-showtimes/",
+          "evidenceId": "prospector-open-caption-sense-and-sensibility"
+        },
+        "vision-support": {
+          "url": "https://www.showtimes.prospectortheater.org/open-caption-showtimes/",
+          "evidenceId": "prospector-open-caption-sense-and-sensibility"
+        }
+      },
+      "holidayEvidence": {},
+      "checkedAt": "2026-11-01",
+      "ageRange": {
+        "min": null,
+        "max": null,
+        "kind": "not-stated"
+      }
+    },
+    "prospector-sense-and-sensibility-2026-11-04-1915": {
+      "ageGroups": [
+        "children",
+        "teens",
+        "adults",
+        "families"
+      ],
+      "accessFeatures": [
+        "hearing-support",
+        "vision-support"
+      ],
+      "holidays": [],
+      "sensory": {
+        "level": "unknown",
+        "note": "Inclusive program; specific sound and lighting conditions are not confirmed.",
+        "sourceUrl": "https://www.showtimes.prospectortheater.org/open-caption-showtimes/",
+        "checkedAt": "2026-11-01",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-11-01"
+      },
+      "ageEvidence": {
+        "children": {
+          "url": "https://www.showtimes.prospectortheater.org/open-caption-showtimes/",
+          "evidenceId": "prospector-open-caption-sense-and-sensibility"
+        },
+        "teens": {
+          "url": "https://www.showtimes.prospectortheater.org/open-caption-showtimes/",
+          "evidenceId": "prospector-open-caption-sense-and-sensibility"
+        },
+        "adults": {
+          "url": "https://www.showtimes.prospectortheater.org/open-caption-showtimes/",
+          "evidenceId": "prospector-open-caption-sense-and-sensibility"
+        },
+        "families": {
+          "url": "https://www.showtimes.prospectortheater.org/open-caption-showtimes/",
+          "evidenceId": "prospector-open-caption-sense-and-sensibility"
+        }
+      },
+      "accessEvidence": {
+        "hearing-support": {
+          "url": "https://www.showtimes.prospectortheater.org/open-caption-showtimes/",
+          "evidenceId": "prospector-open-caption-sense-and-sensibility"
+        },
+        "vision-support": {
+          "url": "https://www.showtimes.prospectortheater.org/open-caption-showtimes/",
+          "evidenceId": "prospector-open-caption-sense-and-sensibility"
+        }
+      },
+      "holidayEvidence": {},
+      "checkedAt": "2026-11-01",
+      "ageRange": {
+        "min": null,
+        "max": null,
+        "kind": "not-stated"
+      }
+    },
+    "prospector-you-can-see-everything-2026-11-04-1200": {
+      "ageGroups": [
+        "teens",
+        "adults"
+      ],
+      "accessFeatures": [
+        "hearing-support",
+        "vision-support"
+      ],
+      "holidays": [],
+      "sensory": {
+        "level": "unknown",
+        "note": "Inclusive program; specific sound and lighting conditions are not confirmed.",
+        "sourceUrl": "https://www.showtimes.prospectortheater.org/open-caption-showtimes/",
+        "checkedAt": "2026-11-01",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-11-01"
+      },
+      "ageEvidence": {
+        "teens": {
+          "url": "https://www.showtimes.prospectortheater.org/open-caption-showtimes/",
+          "evidenceId": "prospector-open-caption-you-can-see-everything"
+        },
+        "adults": {
+          "url": "https://www.showtimes.prospectortheater.org/open-caption-showtimes/",
+          "evidenceId": "prospector-open-caption-you-can-see-everything"
+        }
+      },
+      "accessEvidence": {
+        "hearing-support": {
+          "url": "https://www.showtimes.prospectortheater.org/open-caption-showtimes/",
+          "evidenceId": "prospector-open-caption-you-can-see-everything"
+        },
+        "vision-support": {
+          "url": "https://www.showtimes.prospectortheater.org/open-caption-showtimes/",
+          "evidenceId": "prospector-open-caption-you-can-see-everything"
+        }
+      },
+      "holidayEvidence": {},
+      "checkedAt": "2026-11-01",
+      "ageRange": {
+        "min": null,
+        "max": null,
+        "kind": "not-stated"
+      }
+    },
+    "prospector-you-can-see-everything-2026-11-04-1530": {
+      "ageGroups": [
+        "teens",
+        "adults"
+      ],
+      "accessFeatures": [
+        "hearing-support",
+        "vision-support"
+      ],
+      "holidays": [],
+      "sensory": {
+        "level": "unknown",
+        "note": "Inclusive program; specific sound and lighting conditions are not confirmed.",
+        "sourceUrl": "https://www.showtimes.prospectortheater.org/open-caption-showtimes/",
+        "checkedAt": "2026-11-01",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-11-01"
+      },
+      "ageEvidence": {
+        "teens": {
+          "url": "https://www.showtimes.prospectortheater.org/open-caption-showtimes/",
+          "evidenceId": "prospector-open-caption-you-can-see-everything"
+        },
+        "adults": {
+          "url": "https://www.showtimes.prospectortheater.org/open-caption-showtimes/",
+          "evidenceId": "prospector-open-caption-you-can-see-everything"
+        }
+      },
+      "accessEvidence": {
+        "hearing-support": {
+          "url": "https://www.showtimes.prospectortheater.org/open-caption-showtimes/",
+          "evidenceId": "prospector-open-caption-you-can-see-everything"
+        },
+        "vision-support": {
+          "url": "https://www.showtimes.prospectortheater.org/open-caption-showtimes/",
+          "evidenceId": "prospector-open-caption-you-can-see-everything"
+        }
+      },
+      "holidayEvidence": {},
+      "checkedAt": "2026-11-01",
+      "ageRange": {
+        "min": null,
+        "max": null,
+        "kind": "not-stated"
+      }
+    },
+    "prospector-you-can-see-everything-2026-11-04-1900": {
+      "ageGroups": [
+        "teens",
+        "adults"
+      ],
+      "accessFeatures": [
+        "hearing-support",
+        "vision-support"
+      ],
+      "holidays": [],
+      "sensory": {
+        "level": "unknown",
+        "note": "Inclusive program; specific sound and lighting conditions are not confirmed.",
+        "sourceUrl": "https://www.showtimes.prospectortheater.org/open-caption-showtimes/",
+        "checkedAt": "2026-11-01",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-11-01"
+      },
+      "ageEvidence": {
+        "teens": {
+          "url": "https://www.showtimes.prospectortheater.org/open-caption-showtimes/",
+          "evidenceId": "prospector-open-caption-you-can-see-everything"
+        },
+        "adults": {
+          "url": "https://www.showtimes.prospectortheater.org/open-caption-showtimes/",
+          "evidenceId": "prospector-open-caption-you-can-see-everything"
+        }
+      },
+      "accessEvidence": {
+        "hearing-support": {
+          "url": "https://www.showtimes.prospectortheater.org/open-caption-showtimes/",
+          "evidenceId": "prospector-open-caption-you-can-see-everything"
+        },
+        "vision-support": {
+          "url": "https://www.showtimes.prospectortheater.org/open-caption-showtimes/",
+          "evidenceId": "prospector-open-caption-you-can-see-everything"
+        }
+      },
+      "holidayEvidence": {},
+      "checkedAt": "2026-11-01",
+      "ageRange": {
+        "min": null,
+        "max": null,
+        "kind": "not-stated"
+      }
+    },
+    "prospector-being-heumann-2026-11-19-1900": {
+      "ageGroups": [
+        "teens",
+        "adults"
+      ],
+      "accessFeatures": [
+        "hearing-support",
+        "vision-support"
+      ],
+      "holidays": [],
+      "sensory": {
+        "level": "unknown",
+        "note": "Inclusive program; specific sound and lighting conditions are not confirmed.",
+        "sourceUrl": "https://www.showtimes.prospectortheater.org/open-caption-showtimes/",
+        "checkedAt": "2026-11-01",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-11-01"
+      },
+      "ageEvidence": {
+        "teens": {
+          "url": "https://www.showtimes.prospectortheater.org/open-caption-showtimes/",
+          "evidenceId": "prospector-open-caption-being-heumann"
+        },
+        "adults": {
+          "url": "https://www.showtimes.prospectortheater.org/open-caption-showtimes/",
+          "evidenceId": "prospector-open-caption-being-heumann"
+        }
+      },
+      "accessEvidence": {
+        "hearing-support": {
+          "url": "https://www.showtimes.prospectortheater.org/open-caption-showtimes/",
+          "evidenceId": "prospector-open-caption-being-heumann"
+        },
+        "vision-support": {
+          "url": "https://www.showtimes.prospectortheater.org/open-caption-showtimes/",
+          "evidenceId": "prospector-open-caption-being-heumann"
+        }
+      },
+      "holidayEvidence": {},
+      "checkedAt": "2026-11-01",
+      "ageRange": {
+        "min": null,
+        "max": null,
+        "kind": "not-stated"
+      }
+    },
+    "prospector-disney-s-hexed-2026-11-25-1330": {
+      "ageGroups": [
+        "children",
+        "teens",
+        "adults",
+        "families"
+      ],
+      "accessFeatures": [
+        "hearing-support",
+        "vision-support"
+      ],
+      "holidays": [],
+      "sensory": {
+        "level": "unknown",
+        "note": "Inclusive program; specific sound and lighting conditions are not confirmed.",
+        "sourceUrl": "https://www.showtimes.prospectortheater.org/open-caption-showtimes/",
+        "checkedAt": "2026-11-01",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-11-01"
+      },
+      "ageEvidence": {
+        "children": {
+          "url": "https://www.showtimes.prospectortheater.org/open-caption-showtimes/",
+          "evidenceId": "prospector-open-caption-disney-s-hexed"
+        },
+        "teens": {
+          "url": "https://www.showtimes.prospectortheater.org/open-caption-showtimes/",
+          "evidenceId": "prospector-open-caption-disney-s-hexed"
+        },
+        "adults": {
+          "url": "https://www.showtimes.prospectortheater.org/open-caption-showtimes/",
+          "evidenceId": "prospector-open-caption-disney-s-hexed"
+        },
+        "families": {
+          "url": "https://www.showtimes.prospectortheater.org/open-caption-showtimes/",
+          "evidenceId": "prospector-open-caption-disney-s-hexed"
+        }
+      },
+      "accessEvidence": {
+        "hearing-support": {
+          "url": "https://www.showtimes.prospectortheater.org/open-caption-showtimes/",
+          "evidenceId": "prospector-open-caption-disney-s-hexed"
+        },
+        "vision-support": {
+          "url": "https://www.showtimes.prospectortheater.org/open-caption-showtimes/",
+          "evidenceId": "prospector-open-caption-disney-s-hexed"
+        }
+      },
+      "holidayEvidence": {},
+      "checkedAt": "2026-11-01",
+      "ageRange": {
+        "min": null,
+        "max": null,
+        "kind": "not-stated"
+      }
+    },
+    "prospector-disney-s-hexed-2026-11-25-1615": {
+      "ageGroups": [
+        "children",
+        "teens",
+        "adults",
+        "families"
+      ],
+      "accessFeatures": [
+        "hearing-support",
+        "vision-support"
+      ],
+      "holidays": [],
+      "sensory": {
+        "level": "unknown",
+        "note": "Inclusive program; specific sound and lighting conditions are not confirmed.",
+        "sourceUrl": "https://www.showtimes.prospectortheater.org/open-caption-showtimes/",
+        "checkedAt": "2026-11-01",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-11-01"
+      },
+      "ageEvidence": {
+        "children": {
+          "url": "https://www.showtimes.prospectortheater.org/open-caption-showtimes/",
+          "evidenceId": "prospector-open-caption-disney-s-hexed"
+        },
+        "teens": {
+          "url": "https://www.showtimes.prospectortheater.org/open-caption-showtimes/",
+          "evidenceId": "prospector-open-caption-disney-s-hexed"
+        },
+        "adults": {
+          "url": "https://www.showtimes.prospectortheater.org/open-caption-showtimes/",
+          "evidenceId": "prospector-open-caption-disney-s-hexed"
+        },
+        "families": {
+          "url": "https://www.showtimes.prospectortheater.org/open-caption-showtimes/",
+          "evidenceId": "prospector-open-caption-disney-s-hexed"
+        }
+      },
+      "accessEvidence": {
+        "hearing-support": {
+          "url": "https://www.showtimes.prospectortheater.org/open-caption-showtimes/",
+          "evidenceId": "prospector-open-caption-disney-s-hexed"
+        },
+        "vision-support": {
+          "url": "https://www.showtimes.prospectortheater.org/open-caption-showtimes/",
+          "evidenceId": "prospector-open-caption-disney-s-hexed"
+        }
+      },
+      "holidayEvidence": {},
+      "checkedAt": "2026-11-01",
+      "ageRange": {
+        "min": null,
+        "max": null,
+        "kind": "not-stated"
+      }
+    },
+    "prospector-national-lampoon-s-christmas-vacation-2026-12-16-1900": {
+      "ageGroups": [
+        "teens",
+        "adults"
+      ],
+      "accessFeatures": [
+        "hearing-support",
+        "vision-support"
+      ],
+      "holidays": [
+        "christmas",
+        "winter-holidays"
+      ],
+      "sensory": {
+        "level": "unknown",
+        "note": "Inclusive program; specific sound and lighting conditions are not confirmed.",
+        "sourceUrl": "https://www.showtimes.prospectortheater.org/open-caption-showtimes/",
+        "checkedAt": "2026-11-01",
+        "basis": "Editorial planning estimate from organizer details",
+        "sourceDetailsCheckedAt": "2026-11-01"
+      },
+      "ageEvidence": {
+        "teens": {
+          "url": "https://www.showtimes.prospectortheater.org/open-caption-showtimes/",
+          "evidenceId": "prospector-open-caption-national-lampoon-s-christmas-vacation"
+        },
+        "adults": {
+          "url": "https://www.showtimes.prospectortheater.org/open-caption-showtimes/",
+          "evidenceId": "prospector-open-caption-national-lampoon-s-christmas-vacation"
+        }
+      },
+      "accessEvidence": {
+        "hearing-support": {
+          "url": "https://www.showtimes.prospectortheater.org/open-caption-showtimes/",
+          "evidenceId": "prospector-open-caption-national-lampoon-s-christmas-vacation"
+        },
+        "vision-support": {
+          "url": "https://www.showtimes.prospectortheater.org/open-caption-showtimes/",
+          "evidenceId": "prospector-open-caption-national-lampoon-s-christmas-vacation"
+        }
+      },
+      "holidayEvidence": {
+        "christmas": {
+          "url": "https://www.showtimes.prospectortheater.org/open-caption-showtimes/",
+          "evidenceId": "prospector-open-caption-national-lampoon-s-christmas-vacation"
+        },
+        "winter-holidays": {
+          "url": "https://www.showtimes.prospectortheater.org/open-caption-showtimes/"
+        }
+      },
+      "checkedAt": "2026-11-01",
+      "ageRange": {
+        "min": null,
+        "max": null,
+        "kind": "not-stated"
+      }
     }
   },
   "sensoryMethod": "Sensory levels are editorial planning estimates based on the specific published conditions, not medical ratings or promises. Low means reduced stimulation, moderate means some ongoing music or activity, high means a likely stimulating mix, variable means conditions or parts of the visit differ, and unknown means evidence is insufficient. Sensory-friendly and disability-inclusive are not automatic low-sensory ratings. Earlier event verification dates remain visible."

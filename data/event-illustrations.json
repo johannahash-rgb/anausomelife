@@ -5290,6 +5290,246 @@
       "venue": "Southworth Planetarium — Science Building",
       "start": "2026-11-10T10:00:00-05:00",
       "reusedFromEvent": "bcm-2026-10-03"
+    },
+    "bilt-harry-potter-movie-night-2026-11-05": {
+      "src": "/assets/event-sketches/morningstar-museum.webp",
+      "alt": "Ink-and-watercolor study of wooden building forms and a prism in morning light.",
+      "width": 720,
+      "height": 480,
+      "title": "Harry Potter Movie Night",
+      "venue": "BILT Innovation Center",
+      "start": "2026-11-05T15:30:00-05:00",
+      "reusedFromEvent": "bcm-2026-10-03"
+    },
+    "bilt-friendsgiving-friday-night-drop-off-2026-11-13": {
+      "src": "/assets/event-sketches/morningstar-museum.webp",
+      "alt": "Ink-and-watercolor study of wooden building forms and a prism in morning light.",
+      "width": 720,
+      "height": 480,
+      "title": "Friendsgiving — Friday Night Drop Off",
+      "venue": "BILT Innovation Center",
+      "start": "2026-11-13T16:00:00-05:00",
+      "reusedFromEvent": "bcm-2026-10-03"
+    },
+    "bilt-holiday-bingo-2026-12-03": {
+      "src": "/assets/event-sketches/morningstar-museum.webp",
+      "alt": "Ink-and-watercolor study of wooden building forms and a prism in morning light.",
+      "width": 720,
+      "height": 480,
+      "title": "Holiday Bingo",
+      "venue": "BILT Innovation Center",
+      "start": "2026-12-03T15:30:00-05:00",
+      "reusedFromEvent": "bcm-2026-10-03"
+    },
+    "bilt-polar-express-night-2026-12-04": {
+      "src": "/assets/event-sketches/santa-visit.webp",
+      "alt": "Original ink-and-watercolor study of a cranberry Santa hat, brass bell and a warm wooden armchair.",
+      "width": 1536,
+      "height": 1024,
+      "title": "Polar Express Night",
+      "venue": "BILT Innovation Center",
+      "start": "2026-12-04T16:00:00-05:00",
+      "reusedFromEvent": "northshore-santa-2026-12-06"
+    },
+    "bilt-sensory-friendly-boston-pops-2026-12-05": {
+      "src": "/assets/event-sketches/morningstar-museum.webp",
+      "alt": "Ink-and-watercolor study of wooden building forms and a prism in morning light.",
+      "width": 720,
+      "height": 480,
+      "title": "Boston Pops — BILT Supported Group Outing",
+      "venue": "BILT Woburn departure — Symphony Hall outing",
+      "start": "2026-12-05T09:30:00-05:00",
+      "reusedFromEvent": "bcm-2026-10-03"
+    },
+    "bilt-holiday-singalong-lunch-craft-2026-12-12": {
+      "src": "/assets/event-sketches/morningstar-museum.webp",
+      "alt": "Ink-and-watercolor study of wooden building forms and a prism in morning light.",
+      "width": 720,
+      "height": 480,
+      "title": "Holiday Singalong, Lunch & Craft",
+      "venue": "BILT Innovation Center",
+      "start": "2026-12-12T11:00:00-05:00",
+      "reusedFromEvent": "bcm-2026-10-03"
+    },
+    "bilt-holiday-movie-night-2026-12-17": {
+      "src": "/assets/event-sketches/morningstar-museum.webp",
+      "alt": "Ink-and-watercolor study of wooden building forms and a prism in morning light.",
+      "width": 720,
+      "height": 480,
+      "title": "Holiday Movie Night",
+      "venue": "BILT Innovation Center",
+      "start": "2026-12-17T15:30:00-05:00",
+      "reusedFromEvent": "bcm-2026-10-03"
+    },
+    "bierman-danvers-sensory-santa-2026-12-19": {
+      "src": "/assets/event-sketches/santa-visit.webp",
+      "alt": "Original ink-and-watercolor study of a cranberry Santa hat, brass bell and a warm wooden armchair.",
+      "width": 1536,
+      "height": 1024,
+      "title": "Free Sensory Santa at Bierman Danvers",
+      "venue": "Bierman Autism Centers – Danvers",
+      "start": "2026-12-19T09:00:00-05:00",
+      "reusedFromEvent": "northshore-santa-2026-12-06"
+    },
+    "prospector-the-only-living-pickpocket-in-new-york-2026-11-04-1315": {
+      "src": "/assets/event-sketches/morningstar-museum.webp",
+      "alt": "Ink-and-watercolor study of wooden building forms and a prism in morning light.",
+      "width": 720,
+      "height": 480,
+      "title": "The Only Living Pickpocket In New York — Open-captioned screening",
+      "venue": "Prospector Theater",
+      "start": "2026-11-04T13:15:00-05:00",
+      "reusedFromEvent": "bcm-2026-10-03"
+    },
+    "prospector-the-only-living-pickpocket-in-new-york-2026-11-04-1630": {
+      "src": "/assets/event-sketches/morningstar-museum.webp",
+      "alt": "Ink-and-watercolor study of wooden building forms and a prism in morning light.",
+      "width": 720,
+      "height": 480,
+      "title": "The Only Living Pickpocket In New York — Open-captioned screening",
+      "venue": "Prospector Theater",
+      "start": "2026-11-04T16:30:00-05:00",
+      "reusedFromEvent": "bcm-2026-10-03"
+    },
+    "prospector-the-only-living-pickpocket-in-new-york-2026-11-04-1930": {
+      "src": "/assets/event-sketches/morningstar-museum.webp",
+      "alt": "Ink-and-watercolor study of wooden building forms and a prism in morning light.",
+      "width": 720,
+      "height": 480,
+      "title": "The Only Living Pickpocket In New York — Open-captioned screening",
+      "venue": "Prospector Theater",
+      "start": "2026-11-04T19:30:00-05:00",
+      "reusedFromEvent": "bcm-2026-10-03"
+    },
+    "prospector-wildwood-2026-11-04-1300": {
+      "src": "/assets/event-sketches/morningstar-museum.webp",
+      "alt": "Ink-and-watercolor study of wooden building forms and a prism in morning light.",
+      "width": 720,
+      "height": 480,
+      "title": "Wildwood — Open-captioned screening",
+      "venue": "Prospector Theater",
+      "start": "2026-11-04T13:00:00-05:00",
+      "reusedFromEvent": "bcm-2026-10-03"
+    },
+    "prospector-wildwood-2026-11-04-1600": {
+      "src": "/assets/event-sketches/morningstar-museum.webp",
+      "alt": "Ink-and-watercolor study of wooden building forms and a prism in morning light.",
+      "width": 720,
+      "height": 480,
+      "title": "Wildwood — Open-captioned screening",
+      "venue": "Prospector Theater",
+      "start": "2026-11-04T16:00:00-05:00",
+      "reusedFromEvent": "bcm-2026-10-03"
+    },
+    "prospector-wildwood-2026-11-04-1900": {
+      "src": "/assets/event-sketches/morningstar-museum.webp",
+      "alt": "Ink-and-watercolor study of wooden building forms and a prism in morning light.",
+      "width": 720,
+      "height": 480,
+      "title": "Wildwood — Open-captioned screening",
+      "venue": "Prospector Theater",
+      "start": "2026-11-04T19:00:00-05:00",
+      "reusedFromEvent": "bcm-2026-10-03"
+    },
+    "prospector-sense-and-sensibility-2026-11-04-1300": {
+      "src": "/assets/event-sketches/morningstar-museum.webp",
+      "alt": "Ink-and-watercolor study of wooden building forms and a prism in morning light.",
+      "width": 720,
+      "height": 480,
+      "title": "Sense and Sensibility — Open-captioned screening",
+      "venue": "Prospector Theater",
+      "start": "2026-11-04T13:00:00-05:00",
+      "reusedFromEvent": "bcm-2026-10-03"
+    },
+    "prospector-sense-and-sensibility-2026-11-04-1600": {
+      "src": "/assets/event-sketches/morningstar-museum.webp",
+      "alt": "Ink-and-watercolor study of wooden building forms and a prism in morning light.",
+      "width": 720,
+      "height": 480,
+      "title": "Sense and Sensibility — Open-captioned screening",
+      "venue": "Prospector Theater",
+      "start": "2026-11-04T16:00:00-05:00",
+      "reusedFromEvent": "bcm-2026-10-03"
+    },
+    "prospector-sense-and-sensibility-2026-11-04-1915": {
+      "src": "/assets/event-sketches/morningstar-museum.webp",
+      "alt": "Ink-and-watercolor study of wooden building forms and a prism in morning light.",
+      "width": 720,
+      "height": 480,
+      "title": "Sense and Sensibility — Open-captioned screening",
+      "venue": "Prospector Theater",
+      "start": "2026-11-04T19:15:00-05:00",
+      "reusedFromEvent": "bcm-2026-10-03"
+    },
+    "prospector-you-can-see-everything-2026-11-04-1200": {
+      "src": "/assets/event-sketches/morningstar-museum.webp",
+      "alt": "Ink-and-watercolor study of wooden building forms and a prism in morning light.",
+      "width": 720,
+      "height": 480,
+      "title": "You Can See Everything — Open-captioned screening",
+      "venue": "Prospector Theater",
+      "start": "2026-11-04T12:00:00-05:00",
+      "reusedFromEvent": "bcm-2026-10-03"
+    },
+    "prospector-you-can-see-everything-2026-11-04-1530": {
+      "src": "/assets/event-sketches/morningstar-museum.webp",
+      "alt": "Ink-and-watercolor study of wooden building forms and a prism in morning light.",
+      "width": 720,
+      "height": 480,
+      "title": "You Can See Everything — Open-captioned screening",
+      "venue": "Prospector Theater",
+      "start": "2026-11-04T15:30:00-05:00",
+      "reusedFromEvent": "bcm-2026-10-03"
+    },
+    "prospector-you-can-see-everything-2026-11-04-1900": {
+      "src": "/assets/event-sketches/morningstar-museum.webp",
+      "alt": "Ink-and-watercolor study of wooden building forms and a prism in morning light.",
+      "width": 720,
+      "height": 480,
+      "title": "You Can See Everything — Open-captioned screening",
+      "venue": "Prospector Theater",
+      "start": "2026-11-04T19:00:00-05:00",
+      "reusedFromEvent": "bcm-2026-10-03"
+    },
+    "prospector-being-heumann-2026-11-19-1900": {
+      "src": "/assets/event-sketches/morningstar-museum.webp",
+      "alt": "Ink-and-watercolor study of wooden building forms and a prism in morning light.",
+      "width": 720,
+      "height": 480,
+      "title": "Being Heumann — Open-captioned screening",
+      "venue": "Prospector Theater",
+      "start": "2026-11-19T19:00:00-05:00",
+      "reusedFromEvent": "bcm-2026-10-03"
+    },
+    "prospector-disney-s-hexed-2026-11-25-1330": {
+      "src": "/assets/event-sketches/morningstar-museum.webp",
+      "alt": "Ink-and-watercolor study of wooden building forms and a prism in morning light.",
+      "width": 720,
+      "height": 480,
+      "title": "Disney's Hexed — Open-captioned screening",
+      "venue": "Prospector Theater",
+      "start": "2026-11-25T13:30:00-05:00",
+      "reusedFromEvent": "bcm-2026-10-03"
+    },
+    "prospector-disney-s-hexed-2026-11-25-1615": {
+      "src": "/assets/event-sketches/morningstar-museum.webp",
+      "alt": "Ink-and-watercolor study of wooden building forms and a prism in morning light.",
+      "width": 720,
+      "height": 480,
+      "title": "Disney's Hexed — Open-captioned screening",
+      "venue": "Prospector Theater",
+      "start": "2026-11-25T16:15:00-05:00",
+      "reusedFromEvent": "bcm-2026-10-03"
+    },
+    "prospector-national-lampoon-s-christmas-vacation-2026-12-16-1900": {
+      "src": "/assets/event-sketches/morningstar-museum.webp",
+      "alt": "Ink-and-watercolor study of wooden building forms and a prism in morning light.",
+      "width": 720,
+      "height": 480,
+      "title": "National Lampoon's Christmas Vacation — Open-captioned screening",
+      "venue": "Prospector Theater",
+      "start": "2026-12-16T19:00:00-05:00",
+      "reusedFromEvent": "bcm-2026-10-03"
     }
   },
   "watchlist": {
