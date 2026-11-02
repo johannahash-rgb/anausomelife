@@ -5540,6 +5540,116 @@
       "venue": "Citizen Crust at Patriot Place",
       "start": "2026-11-17T10:30:00-05:00",
       "reusedFromEvent": "bcm-2026-10-03"
+    },
+    "best-buddies-plan-housing-2026-11-03": {
+      "src": "/assets/event-sketches/aa-provider-2026-11-17.webp",
+      "alt": "A laptop, neatly tabbed folders, open notebook and green mug on a quiet home planning desk.",
+      "width": 720,
+      "height": 480,
+      "title": "PLAN / Best Buddies — Special Needs Housing in Massachusetts",
+      "venue": "Online — Zoom webinar",
+      "start": "2026-11-03T18:00:00-05:00",
+      "reusedFromEvent": "aa-provider-2026-11-17"
+    },
+    "autism-resource-adult-tree-craft-2026-11-10": {
+      "src": "/assets/event-sketches/aldrich-sensory-art.webp",
+      "alt": "Watercolor paints, brushes, abstract shapes and a small wood sculpture.",
+      "width": 720,
+      "height": 480,
+      "title": "ASD Adult Winter Tree Craft",
+      "venue": "Autism Resource Central",
+      "start": "2026-11-10T16:00:00-05:00",
+      "reusedFromEvent": "aldrich-2026-10-24"
+    },
+    "autism-resource-cat-hat-movie-2026-11-15": {
+      "src": "/assets/event-sketches/carroll-movie-2026-12-11.webp",
+      "alt": "An audio headset and receiver rest on a navy cinema chair beside popcorn and a cranberry throw.",
+      "width": 720,
+      "height": 480,
+      "title": "Cat in the Hat — Autism Resource Central Family Movie",
+      "venue": "Entertainment Cinema",
+      "start": "2026-11-15T10:00:00-05:00",
+      "reusedFromEvent": "carroll-movie-2026-12-11"
+    },
+    "autism-resource-caregiver-support-2026-11-18": {
+      "src": "/assets/event-sketches/aa-provider-2026-11-17.webp",
+      "alt": "A laptop, neatly tabbed folders, open notebook and green mug on a quiet home planning desk.",
+      "width": 720,
+      "height": 480,
+      "title": "Autism Resource Central — Virtual Caregiver Support Group",
+      "venue": "Autism Resource Central — online",
+      "start": "2026-11-18T19:00:00-05:00",
+      "reusedFromEvent": "aa-provider-2026-11-17"
+    },
+    "best-buddies-party-purpose-2026-11-19": {
+      "src": "/assets/event-sketches/aa-halloween-dance-2026-10-16.webp",
+      "alt": "Navy dancing sneakers, cranberry ribbons and a carved pumpkin in warm stage light.",
+      "width": 720,
+      "height": 480,
+      "title": "Best Buddies MA & RI — Party for a Purpose",
+      "venue": "The Great American Beer Hall",
+      "start": "2026-11-19T18:30:00-05:00",
+      "reusedFromEvent": "aa-halloween-dance-2026-10-16"
+    },
+    "autism-resource-adult-game-night-2026-11-20": {
+      "src": "/assets/event-sketches/trivia-night.webp",
+      "alt": "Original ink-and-watercolor study of a brass quiz bell, pencils and blank scorecards.",
+      "width": 1536,
+      "height": 1024,
+      "title": "ASD Adult Game Night — Board Games & Pizza",
+      "venue": "Autism Resource Central",
+      "start": "2026-11-20T16:00:00-05:00",
+      "reusedFromEvent": "carroll-alumni-trivia-2026-10-16"
+    },
+    "a2cf-friendsgiving-2026-11-21": {
+      "src": "/assets/event-sketches/carroll-90th-2026-11-07.webp",
+      "alt": "Watercolor open-house table with a tactile globe, closed keepsake album, tea service and autumn flowers.",
+      "width": 720,
+      "height": 480,
+      "title": "Access 2 Community & Friendship — Friendsgiving",
+      "venue": "Connexion",
+      "start": "2026-11-21T18:00:00-05:00",
+      "reusedFromEvent": "autism-eats-friendsgiving-2026-11-13"
+    },
+    "a2cf-holiday-festivities-2026-12-12": {
+      "src": "/assets/event-sketches/holiday-gift-making.webp",
+      "alt": "Original watercolor study of a handmade gift, ribbon, tea, stationery and a small box on a cream tabletop.",
+      "width": 1536,
+      "height": 1024,
+      "title": "Access 2 Community & Friendship — Holiday Festivities",
+      "venue": "Connexion",
+      "start": "2026-12-12T18:00:00-05:00",
+      "reusedFromEvent": "car-holiday-bazaar-2026-11-14"
+    },
+    "a2cf-paint-night-2027-01-16": {
+      "src": "/assets/event-sketches/aldrich-sensory-art.webp",
+      "alt": "Watercolor paints, brushes, abstract shapes and a small wood sculpture.",
+      "width": 720,
+      "height": 480,
+      "title": "Access 2 Community & Friendship — Return of Paint Night",
+      "venue": "Connexion",
+      "start": "2027-01-16T18:00:00-05:00",
+      "reusedFromEvent": "aldrich-2026-10-24"
+    },
+    "best-buddies-celtics-2027-01-20": {
+      "src": "/assets/event-sketches/soma-flag-state-2026-11-14.webp",
+      "alt": "A football, navy belt with cranberry flags, whistle and cheer pompom beside an autumn playing field.",
+      "width": 720,
+      "height": 480,
+      "title": "Best Buddies Night at the Boston Celtics",
+      "venue": "TD Garden",
+      "start": "2027-01-20T19:30:00-05:00",
+      "reusedFromEvent": "soma-flag-state-2026-11-14"
+    },
+    "a2cf-valentine-party-2027-02-13": {
+      "src": "/assets/event-sketches/carroll-90th-2026-11-07.webp",
+      "alt": "Watercolor open-house table with a tactile globe, closed keepsake album, tea service and autumn flowers.",
+      "width": 720,
+      "height": 480,
+      "title": "Access 2 Community & Friendship — Valentine's Day Party",
+      "venue": "Connexion",
+      "start": "2027-02-13T18:00:00-05:00",
+      "reusedFromEvent": "autism-eats-friendsgiving-2026-11-13"
     }
   },
   "watchlist": {

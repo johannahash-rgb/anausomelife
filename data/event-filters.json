@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-11-01",
+  "checkedAt": "2026-11-02",
   "method": "Positive organizer evidence only. Missing categories mean not confirmed, never that attendance is prohibited. Read the exact audience, eligibility and route details. Accompanying an eligible participant does not imply an independent adult programme.",
   "events": {
     "bcm-2026-10-03": {
@@ -22571,6 +22571,387 @@
         "checkedAt": "2026-11-02",
         "sourceDetailsCheckedAt": "2026-11-02",
         "basis": "Organizer describes music and movement; sound levels and lighting are not specified."
+      }
+    },
+    "best-buddies-plan-housing-2026-11-03": {
+      "ageGroups": [
+        "adults",
+        "families"
+      ],
+      "accessFeatures": [],
+      "ageEvidence": {
+        "adults": {
+          "url": "https://www.bestbuddies.org/mari/plan-webinars",
+          "summary": "Parents, caregivers, families and adults planning disability-related housing and financial supports."
+        },
+        "families": {
+          "url": "https://www.bestbuddies.org/mari/plan-webinars",
+          "summary": "Parents, caregivers, families and adults planning disability-related housing and financial supports."
+        }
+      },
+      "accessEvidence": {},
+      "holidays": [],
+      "holidayEvidence": {},
+      "sensory": {
+        "level": "low",
+        "note": "Virtual setting permits control of your own room and device volume; meeting audio and specific access accommodations are not confirmed.",
+        "sourceUrl": "https://www.bestbuddies.org/mari/plan-webinars",
+        "checkedAt": "2026-11-02",
+        "sourceDetailsCheckedAt": "2026-11-02",
+        "basis": "Editorial planning estimate from official organizer event details, not an independently verified sensory assessment."
+      },
+      "checkedAt": "2026-11-02",
+      "ageRange": {
+        "min": null,
+        "max": null,
+        "kind": "not-stated"
+      }
+    },
+    "autism-resource-adult-tree-craft-2026-11-10": {
+      "ageGroups": [
+        "adults"
+      ],
+      "accessFeatures": [],
+      "ageEvidence": {
+        "adults": {
+          "url": "https://www.autismresourcecentral.org/event/asd-adult-winter-tree-craft/",
+          "summary": "Autistic adults; confirm enrollment requirements."
+        }
+      },
+      "accessEvidence": {},
+      "holidays": [],
+      "holidayEvidence": {},
+      "sensory": {
+        "level": "unknown",
+        "note": "Art activity for autistic adults; exact lighting, sound levels and quiet-space availability not published.",
+        "sourceUrl": "https://www.autismresourcecentral.org/event/asd-adult-winter-tree-craft/",
+        "checkedAt": "2026-11-02",
+        "sourceDetailsCheckedAt": "2026-11-02",
+        "basis": "Editorial planning estimate from official organizer event details, not an independently verified sensory assessment."
+      },
+      "checkedAt": "2026-11-02",
+      "ageRange": {
+        "min": null,
+        "max": null,
+        "kind": "not-stated"
+      }
+    },
+    "autism-resource-cat-hat-movie-2026-11-15": {
+      "ageGroups": [
+        "all-ages",
+        "children",
+        "teens",
+        "adults",
+        "families"
+      ],
+      "accessFeatures": [],
+      "ageEvidence": {
+        "all-ages": {
+          "url": "https://www.autismresourcecentral.org/event/cat-in-the-hat-family-movie/",
+          "summary": "All ages welcome; families, children, teens and adults."
+        },
+        "children": {
+          "url": "https://www.autismresourcecentral.org/event/cat-in-the-hat-family-movie/",
+          "summary": "All ages welcome; families, children, teens and adults."
+        },
+        "teens": {
+          "url": "https://www.autismresourcecentral.org/event/cat-in-the-hat-family-movie/",
+          "summary": "All ages welcome; families, children, teens and adults."
+        },
+        "adults": {
+          "url": "https://www.autismresourcecentral.org/event/cat-in-the-hat-family-movie/",
+          "summary": "All ages welcome; families, children, teens and adults."
+        },
+        "families": {
+          "url": "https://www.autismresourcecentral.org/event/cat-in-the-hat-family-movie/",
+          "summary": "All ages welcome; families, children, teens and adults."
+        }
+      },
+      "accessEvidence": {},
+      "holidays": [],
+      "holidayEvidence": {},
+      "sensory": {
+        "level": "unknown",
+        "note": "The event is inclusive, but sound, light and other sensory modifications were not announced.",
+        "sourceUrl": "https://www.autismresourcecentral.org/event/cat-in-the-hat-family-movie/",
+        "checkedAt": "2026-11-02",
+        "sourceDetailsCheckedAt": "2026-11-02",
+        "basis": "Editorial planning estimate from official organizer event details, not an independently verified sensory assessment."
+      },
+      "checkedAt": "2026-11-02",
+      "ageRange": {
+        "min": null,
+        "max": null,
+        "kind": "not-stated"
+      }
+    },
+    "autism-resource-caregiver-support-2026-11-18": {
+      "ageGroups": [
+        "adults",
+        "families"
+      ],
+      "accessFeatures": [],
+      "ageEvidence": {
+        "adults": {
+          "url": "https://www.autismresourcecentral.org/events/list/?tribe-bar-date=2026-11-18",
+          "summary": "All caregivers are welcome, according to organizer."
+        },
+        "families": {
+          "url": "https://www.autismresourcecentral.org/events/list/?tribe-bar-date=2026-11-18",
+          "summary": "All caregivers are welcome, according to organizer."
+        }
+      },
+      "accessEvidence": {},
+      "holidays": [],
+      "holidayEvidence": {},
+      "sensory": {
+        "level": "unknown",
+        "note": "Virtual attendance lets participants adjust their environment; the organizer did not publish meeting-specific sensory or communication supports.",
+        "sourceUrl": "https://www.autismresourcecentral.org/events/list/?tribe-bar-date=2026-11-18",
+        "checkedAt": "2026-11-02",
+        "sourceDetailsCheckedAt": "2026-11-02",
+        "basis": "Editorial planning estimate from official organizer event details, not an independently verified sensory assessment."
+      },
+      "checkedAt": "2026-11-02",
+      "ageRange": {
+        "min": null,
+        "max": null,
+        "kind": "not-stated"
+      }
+    },
+    "best-buddies-party-purpose-2026-11-19": {
+      "ageGroups": [],
+      "accessFeatures": [],
+      "ageEvidence": {},
+      "accessEvidence": {},
+      "holidays": [],
+      "holidayEvidence": {},
+      "sensory": {
+        "level": "high",
+        "note": "The organizer advertises a DJ, live entertainment and a reception; plan for potentially loud music and a busy social setting. A quiet zone is not confirmed.",
+        "sourceUrl": "https://www.bestbuddies.org/mari/party-for-a-purpose",
+        "checkedAt": "2026-11-02",
+        "sourceDetailsCheckedAt": "2026-11-02",
+        "basis": "Editorial planning estimate from official organizer event details, not an independently verified sensory assessment."
+      },
+      "checkedAt": "2026-11-02",
+      "ageRange": {
+        "min": null,
+        "max": null,
+        "kind": "not-stated"
+      }
+    },
+    "autism-resource-adult-game-night-2026-11-20": {
+      "ageGroups": [
+        "adults"
+      ],
+      "accessFeatures": [],
+      "ageEvidence": {
+        "adults": {
+          "url": "https://www.autismresourcecentral.org/event/asd-adult-game-night/",
+          "summary": "Autistic adults; check program eligibility."
+        }
+      },
+      "accessEvidence": {},
+      "holidays": [],
+      "holidayEvidence": {},
+      "sensory": {
+        "level": "variable",
+        "note": "Board games and conversations may be social and noisy. No published quiet-room or volume policy was verified.",
+        "sourceUrl": "https://www.autismresourcecentral.org/event/asd-adult-game-night/",
+        "checkedAt": "2026-11-02",
+        "sourceDetailsCheckedAt": "2026-11-02",
+        "basis": "Editorial planning estimate from official organizer event details, not an independently verified sensory assessment."
+      },
+      "checkedAt": "2026-11-02",
+      "ageRange": {
+        "min": null,
+        "max": null,
+        "kind": "not-stated"
+      }
+    },
+    "a2cf-friendsgiving-2026-11-21": {
+      "ageGroups": [
+        "adults"
+      ],
+      "accessFeatures": [],
+      "ageEvidence": {
+        "adults": {
+          "url": "https://access2communityandfriendship.com/event/friendsgiving/",
+          "summary": "Adults 22+ with and without intellectual or developmental disabilities, per A2CF program."
+        }
+      },
+      "accessEvidence": {},
+      "holidays": [
+        "thanksgiving",
+        "holiday-social"
+      ],
+      "holidayEvidence": {
+        "thanksgiving": {
+          "url": "https://access2communityandfriendship.com/event/friendsgiving/",
+          "summary": "A community Friendsgiving gathering from Access 2 Community and Friendship, an inclusive adult social organization."
+        },
+        "holiday-social": {
+          "url": "https://access2communityandfriendship.com/event/friendsgiving/",
+          "summary": "A community Friendsgiving gathering from Access 2 Community and Friendship, an inclusive adult social organization."
+        }
+      },
+      "sensory": {
+        "level": "unknown",
+        "note": "Community meal/social gathering; music, room volume, crowd size and breaks are not described by the organizer.",
+        "sourceUrl": "https://access2communityandfriendship.com/event/friendsgiving/",
+        "checkedAt": "2026-11-02",
+        "sourceDetailsCheckedAt": "2026-11-02",
+        "basis": "Editorial planning estimate from official organizer event details, not an independently verified sensory assessment."
+      },
+      "checkedAt": "2026-11-02",
+      "ageRange": {
+        "min": 22,
+        "max": null,
+        "kind": "minimum-age"
+      }
+    },
+    "a2cf-holiday-festivities-2026-12-12": {
+      "ageGroups": [
+        "adults"
+      ],
+      "accessFeatures": [],
+      "ageEvidence": {
+        "adults": {
+          "url": "https://access2communityandfriendship.com/event/holiday-festivities/",
+          "summary": "Adults 22+ with and without intellectual or developmental disabilities, per A2CF program."
+        }
+      },
+      "accessEvidence": {},
+      "holidays": [
+        "winter-holidays",
+        "holiday-social"
+      ],
+      "holidayEvidence": {
+        "winter-holidays": {
+          "url": "https://access2communityandfriendship.com/event/holiday-festivities/",
+          "summary": "An inclusive holiday get-together for adults through Access 2 Community and Friendship."
+        },
+        "holiday-social": {
+          "url": "https://access2communityandfriendship.com/event/holiday-festivities/",
+          "summary": "An inclusive holiday get-together for adults through Access 2 Community and Friendship."
+        }
+      },
+      "sensory": {
+        "level": "unknown",
+        "note": "Holiday social setting; any music, crowd levels and low-sensory accommodations are unconfirmed.",
+        "sourceUrl": "https://access2communityandfriendship.com/event/holiday-festivities/",
+        "checkedAt": "2026-11-02",
+        "sourceDetailsCheckedAt": "2026-11-02",
+        "basis": "Editorial planning estimate from official organizer event details, not an independently verified sensory assessment."
+      },
+      "checkedAt": "2026-11-02",
+      "ageRange": {
+        "min": 22,
+        "max": null,
+        "kind": "minimum-age"
+      }
+    },
+    "a2cf-paint-night-2027-01-16": {
+      "ageGroups": [
+        "adults"
+      ],
+      "accessFeatures": [],
+      "ageEvidence": {
+        "adults": {
+          "url": "https://access2communityandfriendship.com/event/return-of-paint-night/",
+          "summary": "Adults 22+ with and without intellectual or developmental disabilities, per A2CF program."
+        }
+      },
+      "accessEvidence": {},
+      "holidays": [],
+      "holidayEvidence": {},
+      "sensory": {
+        "level": "unknown",
+        "note": "Art activity in a group setting; music, room noise and available breaks are not confirmed.",
+        "sourceUrl": "https://access2communityandfriendship.com/event/return-of-paint-night/",
+        "checkedAt": "2026-11-02",
+        "sourceDetailsCheckedAt": "2026-11-02",
+        "basis": "Editorial planning estimate from official organizer event details, not an independently verified sensory assessment."
+      },
+      "checkedAt": "2026-11-02",
+      "ageRange": {
+        "min": 22,
+        "max": null,
+        "kind": "minimum-age"
+      }
+    },
+    "best-buddies-celtics-2027-01-20": {
+      "ageGroups": [
+        "children",
+        "teens",
+        "adults",
+        "families"
+      ],
+      "accessFeatures": [],
+      "ageEvidence": {
+        "children": {
+          "url": "https://www.bestbuddies.org/mari/celtics",
+          "summary": "Basketball fans, Best Buddies participants and supporters; use ticket vendor's child/age rules."
+        },
+        "teens": {
+          "url": "https://www.bestbuddies.org/mari/celtics",
+          "summary": "Basketball fans, Best Buddies participants and supporters; use ticket vendor's child/age rules."
+        },
+        "adults": {
+          "url": "https://www.bestbuddies.org/mari/celtics",
+          "summary": "Basketball fans, Best Buddies participants and supporters; use ticket vendor's child/age rules."
+        },
+        "families": {
+          "url": "https://www.bestbuddies.org/mari/celtics",
+          "summary": "Basketball fans, Best Buddies participants and supporters; use ticket vendor's child/age rules."
+        }
+      },
+      "accessEvidence": {},
+      "holidays": [],
+      "holidayEvidence": {},
+      "sensory": {
+        "level": "high",
+        "note": "A professional basketball game is typically loud and crowded. No event-specific low-sensory modifications were verified.",
+        "sourceUrl": "https://www.bestbuddies.org/mari/celtics",
+        "checkedAt": "2026-11-02",
+        "sourceDetailsCheckedAt": "2026-11-02",
+        "basis": "Editorial planning estimate from official organizer event details, not an independently verified sensory assessment."
+      },
+      "checkedAt": "2026-11-02",
+      "ageRange": {
+        "min": null,
+        "max": null,
+        "kind": "not-stated"
+      }
+    },
+    "a2cf-valentine-party-2027-02-13": {
+      "ageGroups": [
+        "adults"
+      ],
+      "accessFeatures": [],
+      "ageEvidence": {
+        "adults": {
+          "url": "https://access2communityandfriendship.com/event/valentines-day-party/",
+          "summary": "Adults 22+ with and without intellectual or developmental disabilities, per A2CF program."
+        }
+      },
+      "accessEvidence": {},
+      "holidays": [],
+      "holidayEvidence": {},
+      "sensory": {
+        "level": "unknown",
+        "note": "Social party setting; details on sound and other sensory conditions have not been published.",
+        "sourceUrl": "https://access2communityandfriendship.com/event/valentines-day-party/",
+        "checkedAt": "2026-11-02",
+        "sourceDetailsCheckedAt": "2026-11-02",
+        "basis": "Editorial planning estimate from official organizer event details, not an independently verified sensory assessment."
+      },
+      "checkedAt": "2026-11-02",
+      "ageRange": {
+        "min": 22,
+        "max": null,
+        "kind": "minimum-age"
       }
     }
   },
