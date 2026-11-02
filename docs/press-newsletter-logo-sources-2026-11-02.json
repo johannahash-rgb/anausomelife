@@ -1,0 +1,27 @@
+{
+  "checked_at": "2026-11-02",
+  "purpose": "Owner-requested authentic publisher marks beside verified press mentions. Limited source identification, not sponsorship or endorsement; no general reuse or commercial licensing permission claimed.",
+  "rights_basis": "Editorial identification of the publishers whose documented mentions appear on this page. Official public masthead assets; owner requested this limited display. No blanket third-party license asserted. Do not reuse in advertising, merchandise or partner rosters.",
+  "assets": [
+    {
+      "path": "/assets/press/logos/burlington-buzz.png",
+      "source_page": "https://www.burlington.buzz/",
+      "source_asset": "https://storage.ghost.io/c/89/1b/891bed41-677e-47b6-a5ba-e713ca546cbf/content/images/2024/10/bbuzz-logo-full-color-rgb-562px@72ppi.png",
+      "provider": "burlington-buzz",
+      "method": "Original PNG bytes downloaded unchanged; proportional contained display, no AI recreation or cropping.",
+      "sha256": "60e6d9fec90ca744c18176096c3901a696df5e29f02f05e5d67910059690570d",
+      "creation_date": "Not independently known; source URL date is not treated as creation proof."
+    },
+    {
+      "path": "/assets/press/logos/day-after-day-productions.png",
+      "source_page": "https://www.dayafterdaymusic.com/artists/wayne-newton/",
+      "source_asset": "https://www.dayafterdaymusic.com/wp-content/uploads/2026/09/DADP5-Logo.png",
+      "provider": "day-after-day-productions",
+      "method": "Original PNG bytes downloaded unchanged; proportional contained display, no AI recreation or cropping.",
+      "sha256": "3f8b756f5ad6baf70b2d4605c31affc7a689e9a18618e007f59a20bde7e1673a",
+      "creation_date": "Not independently known; source URL date is not treated as creation proof."
+    }
+  ],
+  "retained_crc": "Existing Charles River Center 70th anniversary mark retained; official asset source documented in docs/press-additional-logo-sources-2026-11-01.json. Verified rendered November2.",
+  "text_only_entries": "Unlearning Life With Luke, Lexington Parents and Family Connections of Maine remain ordinary-text credits; no independently verified authentic mark was available in their existing supplied evidence."
+}

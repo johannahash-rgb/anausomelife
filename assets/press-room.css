@@ -104,3 +104,7 @@
 .press-room .press-source-masthead{margin:0 0 22px;border:1px solid #dce2d7;background:#f0f2eb}
 .press-room .press-source-masthead img{display:block;width:100%;height:auto}
 .press-room .press-source-masthead figcaption{padding:8px 11px;font:.72rem/1.5 Arial,sans-serif;color:#526158}
+
+/* Preserve the official anniversary mark in full, with contrast for white lettering. */
+.press-room .press-publisher-mark-day-after-day{height:154px}
+.press-room .press-publisher-mark-day-after-day img{max-height:130px;max-width:min(230px,100%)}
