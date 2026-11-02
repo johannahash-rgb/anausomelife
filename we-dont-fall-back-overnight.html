@@ -66,41 +66,39 @@
     .time-tools>summary:focus-visible,.print-supports:focus-visible{outline:4px solid var(--tc-gold);outline-offset:4px}
     .time-tools-inner{border-top:1px solid var(--tc-line);padding:1.25rem}
     .support-note{font-size:.98rem;line-height:1.65;background:#fff;border-left:4px solid var(--tc-pine);padding:.85rem 1rem}
-    .print-supports{appearance:none;border:0;background:var(--tc-navy);color:white;font:inherit;font-weight:800;padding:.8rem 1rem;cursor:pointer;margin:.35rem 0 1.25rem}
-    .picture-card-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(145px,1fr));gap:.85rem;list-style:none;padding:0;margin:1rem 0 1.8rem}
-    .picture-card{background:white;border:2px solid var(--tc-navy);min-height:165px;padding:.8rem;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;break-inside:avoid}
-    .picture-card svg{width:76px;height:76px;stroke:var(--tc-navy);fill:none;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;margin-bottom:.65rem}
-    .picture-card .filled{fill:var(--tc-gold);stroke:var(--tc-navy)}
-    .picture-card strong{display:block;font-size:1rem;line-height:1.25;color:var(--tc-navy)}
-    .picture-card small{display:block;font-size:.78rem;line-height:1.3;color:#5a6862;margin-top:.2rem}
-    .sequence{display:grid;grid-template-columns:1fr auto 1fr;gap:.65rem;align-items:stretch;margin:1rem 0}
-    .sequence-box{border:2px solid var(--tc-pine);background:white;padding:1rem;text-align:center;font-weight:800;color:var(--tc-navy)}
-    .sequence-arrow{align-self:center;font-size:1.6rem;color:var(--tc-pine)}
-    .shift-table{width:100%;border-collapse:collapse;margin:1rem 0 1.5rem;font-size:.98rem}
-    .shift-table th,.shift-table td{border:1px solid var(--tc-line);padding:.65rem;text-align:left}
-    .shift-table th{background:var(--tc-blue);color:var(--tc-navy)}
-    .social-story{counter-reset:story;list-style:none;padding:0;margin:1rem 0}
-    .social-story li{counter-increment:story;background:white;border:1px solid var(--tc-line);padding:.8rem .9rem .8rem 3.1rem;margin:.55rem 0;position:relative}
-    .social-story li::before{content:counter(story);position:absolute;left:.9rem;top:.72rem;width:1.55rem;height:1.55rem;border-radius:50%;background:var(--tc-navy);color:white;display:grid;place-items:center;font-weight:800;font-size:.85rem}
+    .print-supports{appearance:none;border:0;background:var(--tc-navy);color:white;font:inherit;font-weight:800;padding:.78rem 1rem;cursor:pointer;margin:.25rem .45rem 1rem 0}
+    .card-set-link{display:inline-block;background:white;color:var(--tc-navy);border:2px solid var(--tc-navy);font-weight:800;padding:.68rem .9rem;margin:.25rem 0 1rem;text-decoration:none}
+    .picture-card-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1rem;list-style:none;padding:0;margin:1rem 0 1.25rem}
+    .picture-card{background:#fff;border:3px solid var(--tc-navy);padding:.5rem;display:flex;flex-direction:column;break-inside:avoid;box-shadow:0 4px 0 rgba(23,60,76,.08)}
+    .picture-card:nth-child(3n+2){border-color:var(--tc-pine)}
+    .pc-photo{display:block;width:100%;aspect-ratio:1/1;background-color:#fff;background-repeat:no-repeat;background-size:400% 400%;border-bottom:1px solid #d5ded9}
+    .pc-symbol{display:grid;place-items:center;width:100%;aspect-ratio:1/1;background:#fff;border-bottom:1px solid #d5ded9}
+    .pc-symbol img{width:68%;height:68%;object-fit:contain}
+    .picture-card strong{display:block;padding:.72rem .3rem .55rem;text-align:center;font:800 1.08rem/1.1 Arial,sans-serif;letter-spacing:.035em;color:var(--tc-navy);text-transform:uppercase}
+    .support-row{display:flex;flex-wrap:wrap;gap:.7rem;margin:.85rem 0 1.35rem}
+    .support-chip{display:flex;align-items:center;gap:.55rem;background:#fff;border:2px solid var(--tc-pine);padding:.55rem .8rem;font-weight:800;color:var(--tc-navy)}
+    .support-chip img{width:34px;height:34px;object-fit:contain}
+    .prep-note{background:#fff;border-left:4px solid var(--tc-gold);padding:.85rem 1rem;margin:1rem 0;font-size:.98rem;line-height:1.6}
+    .mini-script{margin:.8rem 0 1.25rem;padding:0;list-style:none;counter-reset:tcstep}
+    .mini-script li{counter-increment:tcstep;padding:.65rem .7rem .65rem 2.7rem;border-top:1px solid var(--tc-line);position:relative}
+    .mini-script li::before{content:counter(tcstep);position:absolute;left:.55rem;top:.55rem;width:1.55rem;height:1.55rem;border-radius:50%;display:grid;place-items:center;background:var(--tc-navy);color:white;font-size:.82rem;font-weight:800}
     .tc-end{border-top:1px solid #cbd3cf;margin-top:3rem;padding-top:1.5rem}
     @media(max-width:620px){
       .tc-page{padding:1.75rem 18px 3rem}
-      .picture-card-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
-      .picture-card{min-height:145px;padding:.65rem}
-      .picture-card svg{width:64px;height:64px}
-      .sequence{grid-template-columns:1fr}
-      .sequence-arrow{transform:rotate(90deg);justify-self:center}
-      .shift-table{font-size:.9rem}
+      .picture-card-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:.7rem}
+      .picture-card{padding:.38rem}
+      .picture-card strong{font-size:.95rem;padding:.58rem .2rem .45rem}
+      .support-chip{flex:1 1 30%}
     }
     @media print{
-      header,footer,.reader-breadcrumb,.aal-on-this-page,.aal-article-topics,.print-supports{display:none!important}
+      header,footer,.reader-breadcrumb,.aal-on-this-page,.aal-article-topics,.print-supports,.card-set-link{display:none!important}
       body{background:white;color:black}
       .tc-page{max-width:none;padding:0}
       .time-tools{border:0;background:white}
       .time-tools>summary{display:none}
       .time-tools:not([open])>.time-tools-inner{display:block!important}
-      .picture-card-grid{grid-template-columns:repeat(4,1fr);gap:.35in}
-      .picture-card{min-height:1.75in}
+      .picture-card-grid{grid-template-columns:repeat(3,1fr);gap:.3in}
+      .picture-card{box-shadow:none;min-height:2.2in}
       a[href]::after{content:""}
     }
   </style>
@@ -174,92 +172,58 @@
 
       <h2 id="section-free-time-change-visual-supports">Free time-change visual supports</h2>
       <details class="time-tools" id="visual-supports">
-        <summary>Open the picture cards, seven-day example and social story</summary>
+        <summary>Open the useful time-change picture cards</summary>
         <div class="time-tools-inner">
-          <p class="support-note"><strong>About these supports:</strong> These are original picture supports inspired by common visual-communication practices. They are not official PECS materials and are not affiliated with the Picture Exchange Communication System or its publisher. Use the words, symbols and amount of information that work for the person you support, and keep their usual AAC available.</p>
-          <button class="print-supports" type="button" data-print-supports>Print or save the visual supports</button>
+          <p class="support-note"><strong>Keep the set small.</strong> Start with two to four cards the person actually needs today. The pictures below use the same clear, age-respectful visual style as our main picture-card collection.</p>
+          <button class="print-supports" type="button" data-print-supports>Print these cards</button>
+          <a class="card-set-link" href="/picture-card-library.html?cards=photo-16-alarm-clock,photo-04-breakfast-cereal,photo-08-dinner-plate,photo-15-pill-organizer,photo-16-bed,wait,help,all-done#cc-sheet">Open, edit or print the set →</a>
 
-          <svg width="0" height="0" style="position:absolute;overflow:hidden" aria-hidden="true" focusable="false">
-            <symbol id="i-sun" viewbox="0 0 64 64"><circle class="filled" cx="32" cy="32" r="11"></circle><path d="M32 5v9M32 50v9M5 32h9M50 32h9M13 13l7 7M44 44l7 7M51 13l-7 7M20 44l-7 7"></path></symbol>
-            <symbol id="i-moon" viewbox="0 0 64 64"><path class="filled" d="M43 9c-4 3-7 9-7 15 0 11 9 20 20 20-5 8-14 13-24 11C19 53 10 42 10 29 10 17 20 7 32 7c4 0 8 1 11 2z"></path></symbol>
-            <symbol id="i-alarm" viewbox="0 0 64 64"><circle cx="32" cy="34" r="18"></circle><path d="M32 34V22M32 34l9 5M20 10l-8 8M44 10l8 8M18 54l-5 6M46 54l5 6"></path><path class="filled" d="M12 15c5-6 10-8 15-4l-11 11c-4-1-6-3-4-7zM52 15c-5-6-10-8-15-4l11 11c4-1 6-3 4-7z"></path></symbol>
-            <symbol id="i-back" viewbox="0 0 64 64"><circle cx="33" cy="34" r="18"></circle><path d="M33 34V22M33 34l-8 6M19 10l-9 9 11 2M11 19c6-10 18-15 29-11"></path></symbol>
-            <symbol id="i-forward" viewbox="0 0 64 64"><circle cx="31" cy="34" r="18"></circle><path d="M31 34V22M31 34l8 6M45 10l9 9-11 2M53 19C47 9 35 4 24 8"></path></symbol>
-            <symbol id="i-slow" viewbox="0 0 64 64"><circle class="filled" cx="12" cy="32" r="5"></circle><circle class="filled" cx="29" cy="32" r="5"></circle><circle class="filled" cx="46" cy="32" r="5"></circle><path d="M6 49h46M46 42l8 7-8 7"></path></symbol>
-            <symbol id="i-morning" viewbox="0 0 64 64"><path d="M8 48h48M18 48a14 14 0 0 1 28 0"></path><path d="M32 10v11M12 28l8 5M52 28l-8 5M17 15l7 8M47 15l-7 8"></path></symbol>
-            <symbol id="i-bowl" viewbox="0 0 64 64"><path class="filled" d="M11 30h42c0 14-9 23-21 23S11 44 11 30z"></path><path d="M15 56h34M49 12L36 31"></path></symbol>
-            <symbol id="i-school" viewbox="0 0 64 64"><path class="filled" d="M9 28l23-16 23 16v27H9z"></path><path d="M25 55V39h14v16M16 34h6M42 34h6M32 12V5M32 5h14l-5 6 5 6H32"></path></symbol>
-            <symbol id="i-plate" viewbox="0 0 64 64"><circle class="filled" cx="32" cy="32" r="17"></circle><circle cx="32" cy="32" r="10"></circle><path d="M8 13v38M4 13v12M12 13v12M56 13v38M52 13h8"></path></symbol>
-            <symbol id="i-medicine" viewbox="0 0 64 64"><path class="filled" d="M20 20h24v35H20z"></path><path d="M18 12h28v8H18zM26 33h12M32 27v12"></path><path d="M47 43c5-4 10 2 6 6l-5 5-8-8z"></path></symbol>
-            <symbol id="i-calm" viewbox="0 0 64 64"><path d="M12 36v-6a20 20 0 0 1 40 0v6"></path><rect class="filled" x="8" y="33" width="12" height="20" rx="5"></rect><rect class="filled" x="44" y="33" width="12" height="20" rx="5"></rect><path d="M44 54c-3 4-7 6-12 6"></path></symbol>
-            <symbol id="i-bed" viewbox="0 0 64 64"><path class="filled" d="M8 34h48v18H8z"></path><path d="M8 52v7M56 52v7M8 18v34M8 28h18c5 0 8 3 8 6H8zM38 20h14l-5-4"></path></symbol>
-            <symbol id="i-wake" viewbox="0 0 64 64"><path d="M7 34s9-14 25-14 25 14 25 14-9 14-25 14S7 34 7 34z"></path><circle class="filled" cx="32" cy="34" r="7"></circle><path d="M32 5v8M12 11l6 6M52 11l-6 6"></path></symbol>
-            <symbol id="i-help" viewbox="0 0 64 64"><path class="filled" d="M9 10h46v35H31L18 56V45H9z"></path><path d="M25 25c1-7 14-8 15 0 1 6-8 6-8 12M32 43h.1"></path></symbol>
-            <symbol id="i-done" viewbox="0 0 64 64"><rect class="filled" x="10" y="10" width="44" height="44" rx="5"></rect><path d="M20 33l8 8 17-19"></path></symbol>
-          </svg>
-
-          <h3>Picture cards</h3>
-          <ul class="picture-card-grid" aria-label="Time-change picture supports">
-            <li class="picture-card"><svg aria-hidden="true"><use href="#i-sun"></use></svg><strong>Daytime</strong><small>The sun is up.</small></li>
-            <li class="picture-card"><svg aria-hidden="true"><use href="#i-moon"></use></svg><strong>Nighttime</strong><small>The moon is out.</small></li>
-            <li class="picture-card"><svg aria-hidden="true"><use href="#i-alarm"></use></svg><strong>Alarm clock</strong><small>The clock tells the new time.</small></li>
-            <li class="picture-card"><svg aria-hidden="true"><use href="#i-back"></use></svg><strong>Clocks go back</strong><small>Fall: one hour earlier.</small></li>
-            <li class="picture-card"><svg aria-hidden="true"><use href="#i-forward"></use></svg><strong>Clocks go forward</strong><small>Spring: one hour later.</small></li>
-            <li class="picture-card"><svg aria-hidden="true"><use href="#i-slow"></use></svg><strong>We change slowly</strong><small>A little bit each day.</small></li>
-            <li class="picture-card"><svg aria-hidden="true"><use href="#i-morning"></use></svg><strong>Morning</strong><small>Start the day.</small></li>
-            <li class="picture-card"><svg aria-hidden="true"><use href="#i-bowl"></use></svg><strong>Breakfast</strong><small>Eat and drink.</small></li>
-            <li class="picture-card"><svg aria-hidden="true"><use href="#i-school"></use></svg><strong>School or appointment</strong><small>This follows the new clock.</small></li>
-            <li class="picture-card"><svg aria-hidden="true"><use href="#i-plate"></use></svg><strong>Dinner</strong><small>Mealtime moves slowly.</small></li>
-            <li class="picture-card"><svg aria-hidden="true"><use href="#i-medicine"></use></svg><strong>Medicine time</strong><small>Follow the medical plan.</small></li>
-            <li class="picture-card"><svg aria-hidden="true"><use href="#i-calm"></use></svg><strong>Calm time</strong><small>Quiet, music or a break.</small></li>
-            <li class="picture-card"><svg aria-hidden="true"><use href="#i-bed"></use></svg><strong>Bedtime</strong><small>Same routine, changing time.</small></li>
-            <li class="picture-card"><svg aria-hidden="true"><use href="#i-wake"></use></svg><strong>Wake up</strong><small>Morning may feel early.</small></li>
-            <li class="picture-card"><svg aria-hidden="true"><use href="#i-help"></use></svg><strong>Help</strong><small>I need support.</small></li>
-            <li class="picture-card"><svg aria-hidden="true"><use href="#i-done"></use></svg><strong>All done</strong><small>The change is finished.</small></li>
+          <ul class="picture-card-grid" aria-label="Core time-change picture cards">
+            <li class="picture-card">
+              <span class="pc-photo" role="img" aria-label="A clear alarm clock on a plain background" style="background-image:url('/assets/card-collection/photoreal/set-16.webp');background-position:100% 33.333%"></span>
+              <strong>New time</strong>
+            </li>
+            <li class="picture-card">
+              <span class="pc-photo" role="img" aria-label="A bowl of breakfast cereal on a plain background" style="background-image:url('/assets/card-collection/photoreal/set-04.webp');background-position:33.333% 0"></span>
+              <strong>Breakfast</strong>
+            </li>
+            <li class="picture-card">
+              <span class="pc-photo" role="img" aria-label="A dinner plate on a plain background" style="background-image:url('/assets/card-collection/photoreal/set-08.webp');background-position:0 0"></span>
+              <strong>Dinner</strong>
+            </li>
+            <li class="picture-card">
+              <span class="pc-photo" role="img" aria-label="A pill organizer on a plain background" style="background-image:url('/assets/card-collection/photoreal/set-15.webp');background-position:100% 100%"></span>
+              <strong>Medicine</strong>
+            </li>
+            <li class="picture-card">
+              <span class="pc-photo" role="img" aria-label="A bed on a plain background" style="background-image:url('/assets/card-collection/photoreal/set-16.webp');background-position:0 0"></span>
+              <strong>Bedtime</strong>
+            </li>
+            <li class="picture-card">
+              <span class="pc-symbol"><img src="/assets/card-collection/wait.svg" alt="Pause symbol"></span>
+              <strong>Wait</strong>
+            </li>
           </ul>
 
-          <h3>Simple first/then strips</h3>
-          <div class="sequence" aria-label="First alarm clock, then get up">
-            <div class="sequence-box">FIRST<br>Alarm clock</div><div class="sequence-arrow" aria-hidden="true">→</div><div class="sequence-box">THEN<br>Get up</div>
-          </div>
-          <div class="sequence" aria-label="First dinner, then calm time">
-            <div class="sequence-box">FIRST<br>Dinner</div><div class="sequence-arrow" aria-hidden="true">→</div><div class="sequence-box">THEN<br>Calm time</div>
-          </div>
-          <div class="sequence" aria-label="First calm time, then bedtime">
-            <div class="sequence-box">FIRST<br>Calm time</div><div class="sequence-arrow" aria-hidden="true">→</div><div class="sequence-box">THEN<br>Bedtime</div>
+          <div class="support-row" aria-label="Communication cards to keep available">
+            <span class="support-chip"><img src="/assets/card-collection/help.svg" alt="">Help</span>
+            <span class="support-chip"><img src="/assets/card-collection/all-done.svg" alt="">All done</span>
           </div>
 
-          <h3>A seven-day fall-back example</h3>
-          <p>This example assumes bedtime was 9:00 before the clocks moved back. On the first evening, the body may feel ready when the new clock says 8:00. We move only 10 minutes a day. Use a different pace—or stop for a day—when that is what the person needs.</p>
-          <table class="shift-table">
-            <thead><tr><th>Day</th><th>Bedtime on the new clock</th><th>Plain-language cue</th></tr></thead>
-            <tbody>
-              <tr><td>1</td><td>8:00</td><td>Bedtime is early today.</td></tr>
-              <tr><td>2</td><td>8:10</td><td>Ten minutes later.</td></tr>
-              <tr><td>3</td><td>8:20</td><td>A little later again.</td></tr>
-              <tr><td>4</td><td>8:30</td><td>Halfway to the new time.</td></tr>
-              <tr><td>5</td><td>8:40</td><td>We keep the same bedtime steps.</td></tr>
-              <tr><td>6</td><td>8:50</td><td>Almost there.</td></tr>
-              <tr><td>7</td><td>9:00</td><td>This is the new bedtime.</td></tr>
-            </tbody>
-          </table>
+          <div class="prep-note"><strong>How we use them:</strong> put <em>New time</em> beside the actual clock, then show only the next routine card. If dinner or bedtime is not yet happening, pair that card with <em>Wait</em>. Keep <em>Help</em> and <em>All done</em> available rather than turning the cards into a compliance chart.</div>
 
-          <h3>Plain-language social story: The clock changed</h3>
-          <ol class="social-story">
-            <li>Sometimes the clocks change. In fall, the clock goes back one hour.</li>
-            <li>The clock may show a different number, even when my body feels the same.</li>
-            <li>Morning may feel earlier. It may get dark earlier in the evening.</li>
-            <li>School, work and appointments use the new clock.</li>
-            <li>At home, we can move meals and bedtime a little bit at a time.</li>
-            <li>My familiar routine can stay in the same order.</li>
-            <li>I can ask for help, food, water, the bathroom, quiet, medicine according to my plan, or a break.</li>
-            <li>I do not have to feel comfortable with the new time all at once.</li>
-            <li>The new time will become more familiar. We will do it together.</li>
+          <h3>A very short time-change script</h3>
+          <ol class="mini-script">
+            <li>The clock changed.</li>
+            <li>My body may still feel the old time.</li>
+            <li>At home, meals and bedtime can move a little at a time.</li>
+            <li>I can use Wait, Help or All done.</li>
           </ol>
-          <p class="support-note"><strong>Keep it individual:</strong> Remove cards that are not relevant. Use photographs or the person’s established symbols when those are more meaningful. Visual supports should add access and choice, not become a demand for compliance.</p>
+
+          <p class="support-note">Medicine timing follows the person’s actual medical plan. Do not move a prescription schedule just to match the household clock without guidance from the prescriber or pharmacist.</p>
+          <p class="support-note">These are picture communication supports, not official PECS® materials. Use the person’s established AAC, photographs or familiar symbols whenever those work better.</p>
         </div>
       </details>
-
       <h2 id="section-flexibility-can-look-gradual">Flexibility can look gradual</h2>
       <p>I think we sometimes mistake abruptness for strength.</p>
       <p>If someone can tolerate a sudden change without showing distress, we call that flexible. If someone needs preparation, visual information, smaller steps or more recovery, we can be tempted to treat the accommodation as avoidance.</p>
