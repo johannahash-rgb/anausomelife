@@ -1,0 +1,46 @@
+{
+  "recordType": "append_only_provider_verified_organizational_cooldown_correction",
+  "dateEastern": "2026-11-03",
+  "sourcePolicy": "An AUsome Life press editorial workflow; 14-calendar-day organization-wide cooldown and a single follow-up only after 8 business days with no reply, after fresh checks",
+  "organization": "Fruitlands Museum / The Trustees",
+  "deliveredMessages": [
+    {
+      "provider": "Resend",
+      "providerEmailId": "01a19918-61c7-7b63-9ec6-8f9f11d5ca93",
+      "dateUTC": "2026-11-01T21:51:14.524Z",
+      "recipient": "media@thetrustees.org",
+      "sender": "hello@anausomelife.com",
+      "subject": "Story to consider: Massachusetts, Codman Estate and finding belonging",
+      "status": "delivered",
+      "kind": "new story-share pitch"
+    },
+    {
+      "provider": "Resend",
+      "providerEmailId": "01a1a218-aed7-7919-a11d-d47c7848d226",
+      "dateUTC": "2026-11-03T15:48:09.198Z",
+      "recipient": "mdettloff@thetrustees.org",
+      "sender": "hello@anausomelife.com",
+      "subject": "Fruitlands Shaker history: a Harvard family story and map to share",
+      "status": "delivered",
+      "kind": "new story-share pitch"
+    }
+  ],
+  "conflictResolution": {
+    "priorLog": "log-mall-round2-merged.json recorded a November 2 hold because November 1 Trustees outreach restarted organization cooldown through November 16",
+    "laterLog": "An_AUsome_Life_Press_Backlog_Delta_2026-11-03.json and docs/shaker-history-press-outreach-2026-11-03-delta.json recorded November 3 as a verified eighth delivered Shaker pitch but considered only an October 17 same-recipient contact",
+    "reconciledConclusion": "Both provider receipts are genuine. November 3 outreach occurred during the same-organization 14-day cooling period created by the November 1 message; the fact that it was delivered does not make it policy-compliant. Neither message proves republication or a public share.",
+    "preservation": "Do not delete, overwrite, or change either provider receipt or historical log; keep this record as a cross-workflow correction."
+  },
+  "publicPressStatus": "no_fruitlands_publication_or_share_independently_verified_as_of_review",
+  "latestOutreachAtUTC": "2026-11-03T15:48:09.198Z",
+  "earliestCooldownBoundaryEastern": "2026-11-17T10:48:09-05:00",
+  "furtherAction": "HOLD all new Trustees/Fruitlands outreach, pitches, follow-ups, acknowledgments and other automated sends until at least the stated boundary and only after a new organization-wide send/reply/suppression check, applicable editorial fit, and any current user approval; do not use alternate contacts to bypass. No duplicate Shaker story pitches.",
+  "photoRights": "No family photo republication licensed.",
+  "verifiedChecks": [
+    "Resend get_email for both provider IDs November 3",
+    "Gmail primary and forwarded publication inbox targeted searches November 3",
+    "GitHub Shaker original and completion delta",
+    "Library aggregate press log and November 3 press backlog delta",
+    "Targeted public web search (no independently verified publisher share returned)"
+  ]
+}
