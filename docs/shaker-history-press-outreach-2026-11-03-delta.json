@@ -1,0 +1,23 @@
+{
+  "recordType": "append_only_verified_delivery_delta",
+  "dateEastern": "2026-11-03",
+  "sourceRecord": "docs/shaker-history-press-outreach-2026-10-22.json",
+  "repositoryStatusBefore": "seven_submitted_fruitlands_held",
+  "newVerifiedDelivery": {
+    "organization": "Fruitlands Museum / The Trustees",
+    "recipient": "mdettloff@thetrustees.org",
+    "from": "JoHannah Ash | An AUsome Life <hello@anausomelife.com>",
+    "subject": "Fruitlands Shaker history: a Harvard family story and map to share",
+    "idempotencyKey": "aal-press-backlog-fruitlands-shaker-20261103-v1",
+    "providerEmailId": "01a1a218-aed7-7919-a11d-d47c7848d226",
+    "providerMessageId": "<010001a1a218b00d-270fdbfa-2f8b-45c1-bf72-0cdfa445ee86-000000@email.amazonses.com>",
+    "createdUTC": "2026-11-03T15:48:09.198Z",
+    "verifiedStatus": "delivered",
+    "storyUrl": "https://anausomelife.com/shaker-history-harvard-family-gift.html",
+    "photoReusePermission": "not_granted"
+  },
+  "totalShakerOrganizationsNowDelivered": 8,
+  "unsentShakerPitchesRemaining": 0,
+  "noResend": "All eight Shaker organizations now contacted; do not retry or send a second pitch to Fruitlands.",
+  "sourceRecordsPreserved": true
+}
