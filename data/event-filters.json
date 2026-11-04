@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-11-02",
+  "checkedAt": "2026-11-03",
   "method": "Positive organizer evidence only. Missing categories mean not confirmed, never that attendance is prohibited. Read the exact audience, eligibility and route details. Accompanying an eligible participant does not imply an independent adult programme.",
   "events": {
     "bcm-2026-10-03": {
@@ -17351,88 +17351,109 @@
       "ageGroups": [
         "adults"
       ],
-      "accessFeatures": [],
-      "holidays": [],
-      "sensory": {
-        "level": "unknown",
-        "basis": "Inclusive arts or disability-family resource programming; reduced sound and lighting are not advertised.",
-        "note": "Inclusive arts or disability-family resource programming; reduced sound and lighting are not advertised.",
-        "sourceUrl": "https://uwriweb.org/comm/SinglePageRegEvent.jsp?EventKeyHex=3137393838",
-        "checkedAt": "2026-11-01",
-        "sourceDetailsCheckedAt": "2026-11-01"
-      },
-      "ageRange": {
-        "min": null,
-        "max": null,
-        "kind": "unspecified"
-      },
+      "accessFeatures": [
+        "caregiver-support"
+      ],
       "ageEvidence": {
         "adults": {
           "url": "https://uwriweb.org/comm/SinglePageRegEvent.jsp?EventKeyHex=3137393838",
-          "evidenceId": "uwri-family-caregivers"
+          "summary": "Family caregivers"
         }
       },
-      "accessEvidence": {},
+      "accessEvidence": {
+        "caregiver-support": {
+          "url": "https://uwriweb.org/comm/SinglePageRegEvent.jsp?EventKeyHex=3137393838",
+          "summary": "A day of information and resources for family caregivers. Breakfast and lunch are provided; ask about respite availability before making plans."
+        }
+      },
+      "holidays": [],
       "holidayEvidence": {},
-      "checkedAt": "2026-11-01"
+      "checkedAt": "2026-11-03",
+      "ageRange": {
+        "min": null,
+        "max": null,
+        "kind": "not-stated"
+      },
+      "sensory": {
+        "level": "unknown",
+        "note": "Organizer has not published enough session-specific sensory information to rate this meeting.",
+        "sourceUrl": "https://uwriweb.org/comm/SinglePageRegEvent.jsp?EventKeyHex=3137393838",
+        "checkedAt": "2026-11-03",
+        "sourceDetailsCheckedAt": "2026-11-03",
+        "basis": "Editorial planning estimate from official organizer details."
+      }
     },
     "ripin-self-direction-meeting-2026-11-16": {
       "ageGroups": [
         "adults"
       ],
-      "accessFeatures": [],
-      "holidays": [],
-      "sensory": {
-        "level": "unknown",
-        "basis": "Inclusive arts or disability-family resource programming; reduced sound and lighting are not advertised.",
-        "note": "Inclusive arts or disability-family resource programming; reduced sound and lighting are not advertised.",
-        "sourceUrl": "https://ripin.org/selfdirectedsupport/",
-        "checkedAt": "2026-11-01",
-        "sourceDetailsCheckedAt": "2026-11-01"
-      },
-      "ageRange": {
-        "min": null,
-        "max": null,
-        "kind": "unspecified"
-      },
+      "accessFeatures": [
+        "caregiver-support"
+      ],
       "ageEvidence": {
         "adults": {
           "url": "https://ripin.org/selfdirectedsupport/",
-          "evidenceId": "ripin-self-directed"
+          "summary": "People self-directing I/DD services and their supporters"
         }
       },
-      "accessEvidence": {},
+      "accessEvidence": {
+        "caregiver-support": {
+          "url": "https://ripin.org/selfdirectedsupport/",
+          "summary": "A community meeting for Rhode Islanders self-directing I/DD services and their supporters. Check registration availability before making plans."
+        }
+      },
+      "holidays": [],
       "holidayEvidence": {},
-      "checkedAt": "2026-11-01"
+      "checkedAt": "2026-11-03",
+      "ageRange": {
+        "min": null,
+        "max": null,
+        "kind": "not-stated"
+      },
+      "sensory": {
+        "level": "unknown",
+        "note": "Organizer has not published enough session-specific sensory information to rate this meeting.",
+        "sourceUrl": "https://ripin.org/selfdirectedsupport/",
+        "checkedAt": "2026-11-03",
+        "sourceDetailsCheckedAt": "2026-11-03",
+        "basis": "Editorial planning estimate from official organizer details."
+      }
     },
     "ripin-accessible-travel-2026-12-08": {
       "ageGroups": [
         "adults"
       ],
-      "accessFeatures": [],
-      "holidays": [],
-      "sensory": {
-        "level": "unknown",
-        "basis": "Inclusive arts or disability-family resource programming; reduced sound and lighting are not advertised.",
-        "note": "Inclusive arts or disability-family resource programming; reduced sound and lighting are not advertised.",
-        "sourceUrl": "https://ripin.org/selfdirectedsupport/",
-        "checkedAt": "2026-11-01",
-        "sourceDetailsCheckedAt": "2026-11-01"
-      },
-      "ageRange": {
-        "min": null,
-        "max": null,
-        "kind": "unspecified"
-      },
+      "accessFeatures": [
+        "caregiver-support"
+      ],
       "ageEvidence": {
         "adults": {
           "url": "https://ripin.org/selfdirectedsupport/",
-          "evidenceId": "ripin-self-directed"
+          "summary": "People using RI self-directed I/DD services, families and trusted supporters"
         }
       },
-      "accessEvidence": {},
+      "accessEvidence": {
+        "caregiver-support": {
+          "url": "https://ripin.org/selfdirectedsupport/",
+          "summary": "An online self-directed-support session about accessible travel and transportation for people using Rhode Island I/DD services and their supporters."
+        }
+      },
+      "holidays": [],
       "holidayEvidence": {},
-      "checkedAt": "2026-11-01"
+      "checkedAt": "2026-11-03",
+      "ageRange": {
+        "min": null,
+        "max": null,
+        "kind": "not-stated"
+      },
+      "sensory": {
+        "level": "unknown",
+        "note": "Organizer has not published enough session-specific sensory information to rate this meeting.",
+        "sourceUrl": "https://ripin.org/selfdirectedsupport/",
+        "checkedAt": "2026-11-03",
+        "sourceDetailsCheckedAt": "2026-11-03",
+        "basis": "Editorial planning estimate from official organizer details."
+      }
     },
     "same-thing-project-2026-11-03": {
       "ageGroups": [
@@ -22690,7 +22711,9 @@
         "adults",
         "families"
       ],
-      "accessFeatures": [],
+      "accessFeatures": [
+        "caregiver-support"
+      ],
       "ageEvidence": {
         "adults": {
           "url": "https://www.autismresourcecentral.org/events/list/?tribe-bar-date=2026-11-18",
@@ -22701,7 +22724,12 @@
           "summary": "All caregivers are welcome, according to organizer."
         }
       },
-      "accessEvidence": {},
+      "accessEvidence": {
+        "caregiver-support": {
+          "url": "https://www.autismresourcecentral.org/events/list/?tribe-bar-date=2026-11-18",
+          "summary": "Online caregiver support group through Autism Resource Central, open to caregivers seeking connection and support."
+        }
+      },
       "holidays": [],
       "holidayEvidence": {},
       "sensory": {
@@ -24140,36 +24168,38 @@
     },
     "vfn-ai-2026-11-05": {
       "ageGroups": [
-        "adults",
-        "families"
+        "adults"
       ],
-      "accessFeatures": [],
+      "accessFeatures": [
+        "caregiver-support"
+      ],
       "ageEvidence": {
         "adults": {
           "url": "https://www.vermontfamilynetwork.org/event/register-for-11-5-from-homework-to-healthcare-what-families-need-to-know-about-ai/",
-          "summary": "Families, caregivers and educators."
-        },
-        "families": {
-          "url": "https://www.vermontfamilynetwork.org/event/register-for-11-5-from-homework-to-healthcare-what-families-need-to-know-about-ai/",
-          "summary": "Families, caregivers and educators."
+          "summary": "Families; beginner-friendly, no AI experience needed"
         }
       },
-      "accessEvidence": {},
+      "accessEvidence": {
+        "caregiver-support": {
+          "url": "https://www.vermontfamilynetwork.org/event/register-for-11-5-from-homework-to-healthcare-what-families-need-to-know-about-ai/",
+          "summary": "A beginner-friendly online workshop about AI in family life, from homework to health care. No AI experience is needed."
+        }
+      },
       "holidays": [],
       "holidayEvidence": {},
-      "checkedAt": "2026-11-02",
+      "checkedAt": "2026-11-03",
       "ageRange": {
         "min": null,
         "max": null,
         "kind": "not-stated"
       },
       "sensory": {
-        "level": "low",
-        "note": "Virtual setting permits control of volume and light.",
+        "level": "unknown",
+        "note": "Organizer has not published enough session-specific sensory information to rate this meeting.",
         "sourceUrl": "https://www.vermontfamilynetwork.org/event/register-for-11-5-from-homework-to-healthcare-what-families-need-to-know-about-ai/",
-        "checkedAt": "2026-11-02",
-        "sourceDetailsCheckedAt": "2026-11-02",
-        "basis": "Editorial planning estimate, not a measured sensory score, based on event-level details."
+        "checkedAt": "2026-11-03",
+        "sourceDetailsCheckedAt": "2026-11-03",
+        "basis": "Editorial planning estimate from official organizer details."
       }
     },
     "echo-frog-toad-sensory-2026-11-14": {
@@ -24279,6 +24309,942 @@
         "checkedAt": "2026-11-02",
         "sourceDetailsCheckedAt": "2026-11-02",
         "basis": "Editorial planning estimate, not a measured sensory score, based on event-level details."
+      }
+    },
+    "autism-alliance-moms-2026-11-04": {
+      "ageGroups": [
+        "adults"
+      ],
+      "accessFeatures": [
+        "caregiver-support"
+      ],
+      "ageEvidence": {
+        "adults": {
+          "url": "https://autismalliance.org/events/lets-build-village-support-group-moms?instance=1",
+          "summary": "Mothers raising autistic children and young adults; all ages, abilities and support needs welcome"
+        }
+      },
+      "accessEvidence": {
+        "caregiver-support": {
+          "url": "https://autismalliance.org/events/lets-build-village-support-group-moms?instance=1",
+          "summary": "A monthly online peer-support group for mothers raising autistic children and young adults. Registration is required for the meeting link."
+        }
+      },
+      "holidays": [],
+      "holidayEvidence": {},
+      "checkedAt": "2026-11-03",
+      "ageRange": {
+        "min": null,
+        "max": null,
+        "kind": "not-stated"
+      },
+      "sensory": {
+        "level": "unknown",
+        "note": "Organizer has not published enough session-specific sensory information to rate this meeting.",
+        "sourceUrl": "https://autismalliance.org/events/lets-build-village-support-group-moms?instance=1",
+        "checkedAt": "2026-11-03",
+        "sourceDetailsCheckedAt": "2026-11-03",
+        "basis": "Editorial planning estimate from official organizer details."
+      }
+    },
+    "autism-alliance-moms-2026-12-02": {
+      "ageGroups": [
+        "adults"
+      ],
+      "accessFeatures": [
+        "caregiver-support"
+      ],
+      "ageEvidence": {
+        "adults": {
+          "url": "https://autismalliance.org/events/lets-build-village-support-group-moms?instance=1",
+          "summary": "Mothers raising autistic children and young adults; all ages, abilities and support needs welcome"
+        }
+      },
+      "accessEvidence": {
+        "caregiver-support": {
+          "url": "https://autismalliance.org/events/lets-build-village-support-group-moms?instance=1",
+          "summary": "A monthly online peer-support group for mothers raising autistic children and young adults. Registration is required for the meeting link."
+        }
+      },
+      "holidays": [],
+      "holidayEvidence": {},
+      "checkedAt": "2026-11-03",
+      "ageRange": {
+        "min": null,
+        "max": null,
+        "kind": "not-stated"
+      },
+      "sensory": {
+        "level": "unknown",
+        "note": "Organizer has not published enough session-specific sensory information to rate this meeting.",
+        "sourceUrl": "https://autismalliance.org/events/lets-build-village-support-group-moms?instance=1",
+        "checkedAt": "2026-11-03",
+        "sourceDetailsCheckedAt": "2026-11-03",
+        "basis": "Editorial planning estimate from official organizer details."
+      }
+    },
+    "autism-alliance-dads-2026-11-04": {
+      "ageGroups": [
+        "adults"
+      ],
+      "accessFeatures": [
+        "caregiver-support"
+      ],
+      "ageEvidence": {
+        "adults": {
+          "url": "https://autismalliance.org/events/just-dads-support-group-2026-2027?instance=1",
+          "summary": "Fathers raising children with autism"
+        }
+      },
+      "accessEvidence": {
+        "caregiver-support": {
+          "url": "https://autismalliance.org/events/just-dads-support-group-2026-2027?instance=1",
+          "summary": "An Autism Alliance group for fathers raising children with autism, meeting at the Morse Institute Library. Join the mailing list before attending."
+        }
+      },
+      "holidays": [],
+      "holidayEvidence": {},
+      "checkedAt": "2026-11-03",
+      "ageRange": {
+        "min": null,
+        "max": null,
+        "kind": "not-stated"
+      },
+      "sensory": {
+        "level": "unknown",
+        "note": "Organizer has not published enough session-specific sensory information to rate this meeting.",
+        "sourceUrl": "https://autismalliance.org/events/just-dads-support-group-2026-2027?instance=1",
+        "checkedAt": "2026-11-03",
+        "sourceDetailsCheckedAt": "2026-11-03",
+        "basis": "Editorial planning estimate from official organizer details."
+      }
+    },
+    "autism-alliance-dads-2026-12-02": {
+      "ageGroups": [
+        "adults"
+      ],
+      "accessFeatures": [
+        "caregiver-support"
+      ],
+      "ageEvidence": {
+        "adults": {
+          "url": "https://autismalliance.org/events/just-dads-support-group-2026-2027?instance=1",
+          "summary": "Fathers raising children with autism"
+        }
+      },
+      "accessEvidence": {
+        "caregiver-support": {
+          "url": "https://autismalliance.org/events/just-dads-support-group-2026-2027?instance=1",
+          "summary": "An Autism Alliance group for fathers raising children with autism, meeting at the Morse Institute Library. Join the mailing list before attending."
+        }
+      },
+      "holidays": [],
+      "holidayEvidence": {},
+      "checkedAt": "2026-11-03",
+      "ageRange": {
+        "min": null,
+        "max": null,
+        "kind": "not-stated"
+      },
+      "sensory": {
+        "level": "unknown",
+        "note": "Organizer has not published enough session-specific sensory information to rate this meeting.",
+        "sourceUrl": "https://autismalliance.org/events/just-dads-support-group-2026-2027?instance=1",
+        "checkedAt": "2026-11-03",
+        "sourceDetailsCheckedAt": "2026-11-03",
+        "basis": "Editorial planning estimate from official organizer details."
+      }
+    },
+    "sunmoonstars-cares-2026-11-20": {
+      "ageGroups": [
+        "adults"
+      ],
+      "accessFeatures": [
+        "caregiver-support"
+      ],
+      "ageEvidence": {
+        "adults": {
+          "url": "https://www.sunmoonandstars.org/support-groups",
+          "summary": "Autism-connected families/caregivers; closed kid-free group"
+        }
+      },
+      "accessEvidence": {
+        "caregiver-support": {
+          "url": "https://www.sunmoonandstars.org/support-groups",
+          "summary": "A kid-free parent and caregiver group discussing support, services and resources with ASRC at Clifford Beers. This is a closed membership group, not an open drop-in."
+        }
+      },
+      "holidays": [],
+      "holidayEvidence": {},
+      "checkedAt": "2026-11-03",
+      "ageRange": {
+        "min": null,
+        "max": null,
+        "kind": "not-stated"
+      },
+      "sensory": {
+        "level": "unknown",
+        "note": "Organizer has not published enough session-specific sensory information to rate this meeting.",
+        "sourceUrl": "https://www.sunmoonandstars.org/support-groups",
+        "checkedAt": "2026-11-03",
+        "sourceDetailsCheckedAt": "2026-11-03",
+        "basis": "Editorial planning estimate from official organizer details."
+      }
+    },
+    "waypoint-pasta-2026-11-09": {
+      "ageGroups": [
+        "adults"
+      ],
+      "accessFeatures": [
+        "caregiver-support"
+      ],
+      "ageEvidence": {
+        "adults": {
+          "url": "https://waypointnh.org/programs/kinship-navigation-grandparenting-resources/",
+          "summary": "Grandparents and other kinship caregivers raising children 18 and under"
+        }
+      },
+      "accessEvidence": {
+        "caregiver-support": {
+          "url": "https://waypointnh.org/programs/kinship-navigation-grandparenting-resources/",
+          "summary": "A support group for grandparents and other kinship caregivers raising children. Dinner and YMCA childcare are included; register and confirm childcare needs."
+        }
+      },
+      "holidays": [],
+      "holidayEvidence": {},
+      "checkedAt": "2026-11-03",
+      "ageRange": {
+        "min": null,
+        "max": null,
+        "kind": "not-stated"
+      },
+      "sensory": {
+        "level": "unknown",
+        "note": "Organizer has not published enough session-specific sensory information to rate this meeting.",
+        "sourceUrl": "https://waypointnh.org/programs/kinship-navigation-grandparenting-resources/",
+        "checkedAt": "2026-11-03",
+        "sourceDetailsCheckedAt": "2026-11-03",
+        "basis": "Editorial planning estimate from official organizer details."
+      }
+    },
+    "waypoint-pasta-2026-12-14": {
+      "ageGroups": [
+        "adults"
+      ],
+      "accessFeatures": [
+        "caregiver-support"
+      ],
+      "ageEvidence": {
+        "adults": {
+          "url": "https://waypointnh.org/programs/kinship-navigation-grandparenting-resources/",
+          "summary": "Grandparents and other kinship caregivers raising children 18 and under"
+        }
+      },
+      "accessEvidence": {
+        "caregiver-support": {
+          "url": "https://waypointnh.org/programs/kinship-navigation-grandparenting-resources/",
+          "summary": "A support group for grandparents and other kinship caregivers raising children. Dinner and YMCA childcare are included; register and confirm childcare needs."
+        }
+      },
+      "holidays": [],
+      "holidayEvidence": {},
+      "checkedAt": "2026-11-03",
+      "ageRange": {
+        "min": null,
+        "max": null,
+        "kind": "not-stated"
+      },
+      "sensory": {
+        "level": "unknown",
+        "note": "Organizer has not published enough session-specific sensory information to rate this meeting.",
+        "sourceUrl": "https://waypointnh.org/programs/kinship-navigation-grandparenting-resources/",
+        "checkedAt": "2026-11-03",
+        "sourceDetailsCheckedAt": "2026-11-03",
+        "basis": "Editorial planning estimate from official organizer details."
+      }
+    },
+    "mwv-caregiver-expo-2026-11-07": {
+      "ageGroups": [
+        "adults"
+      ],
+      "accessFeatures": [
+        "caregiver-support"
+      ],
+      "ageEvidence": {
+        "adults": {
+          "url": "https://vnhch.org/2026/10/10/free-2026-caregiver-expo-offers-practical-help-for-families-caring-for-loved-ones-in-mt-washington-valley/",
+          "summary": "Current/future caregivers of a spouse,parent,relative or friend; eldercare-focused program"
+        }
+      },
+      "accessEvidence": {
+        "caregiver-support": {
+          "url": "https://vnhch.org/2026/10/10/free-2026-caregiver-expo-offers-practical-help-for-families-caring-for-loved-ones-in-mt-washington-valley/",
+          "summary": "A practical caregiver expo focused on caring for older loved ones. Doors open at 8:30 a.m.; registration is required and supervised adult care must be reserved separately."
+        }
+      },
+      "holidays": [],
+      "holidayEvidence": {},
+      "checkedAt": "2026-11-03",
+      "ageRange": {
+        "min": null,
+        "max": null,
+        "kind": "not-stated"
+      },
+      "sensory": {
+        "level": "unknown",
+        "note": "Organizer has not published enough session-specific sensory information to rate this meeting.",
+        "sourceUrl": "https://vnhch.org/2026/10/10/free-2026-caregiver-expo-offers-practical-help-for-families-caring-for-loved-ones-in-mt-washington-valley/",
+        "checkedAt": "2026-11-03",
+        "sourceDetailsCheckedAt": "2026-11-03",
+        "basis": "Editorial planning estimate from official organizer details."
+      }
+    },
+    "agewell-huntington-2026-11-18": {
+      "ageGroups": [
+        "adults"
+      ],
+      "accessFeatures": [
+        "caregiver-support"
+      ],
+      "ageEvidence": {
+        "adults": {
+          "url": "https://www.agewellvt.org/event/caregiver-support-group-huntington/2026-11-18/",
+          "summary": "Anyone caring for a family member or loved one, regardless of needs or diagnosis"
+        }
+      },
+      "accessEvidence": {
+        "caregiver-support": {
+          "url": "https://www.agewellvt.org/event/caregiver-support-group-huntington/2026-11-18/",
+          "summary": "A free local support group welcoming anyone caring for a loved one, regardless of needs or diagnosis. Preregistration is appreciated but not required."
+        }
+      },
+      "holidays": [],
+      "holidayEvidence": {},
+      "checkedAt": "2026-11-03",
+      "ageRange": {
+        "min": null,
+        "max": null,
+        "kind": "not-stated"
+      },
+      "sensory": {
+        "level": "unknown",
+        "note": "Organizer has not published enough session-specific sensory information to rate this meeting.",
+        "sourceUrl": "https://www.agewellvt.org/event/caregiver-support-group-huntington/2026-11-18/",
+        "checkedAt": "2026-11-03",
+        "sourceDetailsCheckedAt": "2026-11-03",
+        "basis": "Editorial planning estimate from official organizer details."
+      }
+    },
+    "agewell-huntington-2026-12-16": {
+      "ageGroups": [
+        "adults"
+      ],
+      "accessFeatures": [
+        "caregiver-support"
+      ],
+      "ageEvidence": {
+        "adults": {
+          "url": "https://www.agewellvt.org/event/caregiver-support-group-huntington/2026-11-18/",
+          "summary": "Anyone caring for a family member or loved one, regardless of needs or diagnosis"
+        }
+      },
+      "accessEvidence": {
+        "caregiver-support": {
+          "url": "https://www.agewellvt.org/event/caregiver-support-group-huntington/2026-11-18/",
+          "summary": "A free local support group welcoming anyone caring for a loved one, regardless of needs or diagnosis. Preregistration is appreciated but not required."
+        }
+      },
+      "holidays": [],
+      "holidayEvidence": {},
+      "checkedAt": "2026-11-03",
+      "ageRange": {
+        "min": null,
+        "max": null,
+        "kind": "not-stated"
+      },
+      "sensory": {
+        "level": "unknown",
+        "note": "Organizer has not published enough session-specific sensory information to rate this meeting.",
+        "sourceUrl": "https://www.agewellvt.org/event/caregiver-support-group-huntington/2026-11-18/",
+        "checkedAt": "2026-11-03",
+        "sourceDetailsCheckedAt": "2026-11-03",
+        "basis": "Editorial planning estimate from official organizer details."
+      }
+    },
+    "dempsey-care-partners-2026-11-12": {
+      "ageGroups": [
+        "adults"
+      ],
+      "accessFeatures": [
+        "caregiver-support"
+      ],
+      "ageEvidence": {
+        "adults": {
+          "url": "https://www.dempseycenter.org/event/care-partner-support-group-series-dempsey-connects/2026-11-12/",
+          "summary": "Maine residents who are Dempsey Center clients caring for a loved one with cancer"
+        }
+      },
+      "accessEvidence": {
+        "caregiver-support": {
+          "url": "https://www.dempseycenter.org/event/care-partner-support-group-series-dempsey-connects/2026-11-12/",
+          "summary": "An online cancer care-partner support group for eligible Maine-resident Dempsey Center clients. Contact the organizer to establish eligibility and register."
+        }
+      },
+      "holidays": [],
+      "holidayEvidence": {},
+      "checkedAt": "2026-11-03",
+      "ageRange": {
+        "min": null,
+        "max": null,
+        "kind": "not-stated"
+      },
+      "sensory": {
+        "level": "unknown",
+        "note": "Organizer has not published enough session-specific sensory information to rate this meeting.",
+        "sourceUrl": "https://www.dempseycenter.org/event/care-partner-support-group-series-dempsey-connects/2026-11-12/",
+        "checkedAt": "2026-11-03",
+        "sourceDetailsCheckedAt": "2026-11-03",
+        "basis": "Editorial planning estimate from official organizer details."
+      }
+    },
+    "caregiver-profound-autism-parent-support-group-merrimack-valley-2026-11-18": {
+      "ageGroups": [
+        "adults"
+      ],
+      "accessFeatures": [
+        "caregiver-support"
+      ],
+      "ageEvidence": {
+        "adults": {
+          "url": "https://ne-arc.org/ht/event/profound-autism-parent-support-group-merrimack-valley/2026-11-18/",
+          "summary": "Parents of children with profound autism"
+        }
+      },
+      "accessEvidence": {
+        "caregiver-support": {
+          "url": "https://ne-arc.org/ht/event/profound-autism-parent-support-group-merrimack-valley/2026-11-18/",
+          "summary": "Peer support for parents of children with profound autism, hosted by Northeast Arc. Contact the organizer before attending."
+        }
+      },
+      "holidays": [],
+      "holidayEvidence": {},
+      "checkedAt": "2026-11-03",
+      "ageRange": {
+        "min": null,
+        "max": null,
+        "kind": "not-stated"
+      },
+      "sensory": {
+        "level": "unknown",
+        "note": "Organizer has not published enough session-specific sensory information to rate this meeting.",
+        "sourceUrl": "https://ne-arc.org/ht/event/profound-autism-parent-support-group-merrimack-valley/2026-11-18/",
+        "checkedAt": "2026-11-03",
+        "sourceDetailsCheckedAt": "2026-11-03",
+        "basis": "Editorial planning estimate from official organizer details."
+      }
+    },
+    "caregiver-virtual-support-group-for-parents-of-children-with-autism-2026-11-12": {
+      "ageGroups": [
+        "adults"
+      ],
+      "accessFeatures": [
+        "caregiver-support"
+      ],
+      "ageEvidence": {
+        "adults": {
+          "url": "https://ne-arc.org/event/virtual-support-group-for-parents-of-children-with-autism/2026-11-12/",
+          "summary": "Parents of autistic children"
+        }
+      },
+      "accessEvidence": {
+        "caregiver-support": {
+          "url": "https://ne-arc.org/event/virtual-support-group-for-parents-of-children-with-autism/2026-11-12/",
+          "summary": "Online peer support for parents of autistic children. Ask the organizer for the Microsoft Teams meeting link."
+        }
+      },
+      "holidays": [],
+      "holidayEvidence": {},
+      "checkedAt": "2026-11-03",
+      "ageRange": {
+        "min": null,
+        "max": null,
+        "kind": "not-stated"
+      },
+      "sensory": {
+        "level": "unknown",
+        "note": "Organizer has not published enough session-specific sensory information to rate this meeting.",
+        "sourceUrl": "https://ne-arc.org/event/virtual-support-group-for-parents-of-children-with-autism/2026-11-12/",
+        "checkedAt": "2026-11-03",
+        "sourceDetailsCheckedAt": "2026-11-03",
+        "basis": "Editorial planning estimate from official organizer details."
+      }
+    },
+    "caregiver-virtual-support-group-for-parents-of-children-with-autism-2026-12-10": {
+      "ageGroups": [
+        "adults"
+      ],
+      "accessFeatures": [
+        "caregiver-support"
+      ],
+      "ageEvidence": {
+        "adults": {
+          "url": "https://ne-arc.org/event/virtual-support-group-for-parents-of-children-with-autism/2026-11-12/",
+          "summary": "Parents of autistic children"
+        }
+      },
+      "accessEvidence": {
+        "caregiver-support": {
+          "url": "https://ne-arc.org/event/virtual-support-group-for-parents-of-children-with-autism/2026-11-12/",
+          "summary": "Online peer support for parents of autistic children. Ask the organizer for the Microsoft Teams meeting link."
+        }
+      },
+      "holidays": [],
+      "holidayEvidence": {},
+      "checkedAt": "2026-11-03",
+      "ageRange": {
+        "min": null,
+        "max": null,
+        "kind": "not-stated"
+      },
+      "sensory": {
+        "level": "unknown",
+        "note": "Organizer has not published enough session-specific sensory information to rate this meeting.",
+        "sourceUrl": "https://ne-arc.org/event/virtual-support-group-for-parents-of-children-with-autism/2026-11-12/",
+        "checkedAt": "2026-11-03",
+        "sourceDetailsCheckedAt": "2026-11-03",
+        "basis": "Editorial planning estimate from official organizer details."
+      }
+    },
+    "caregiver-connecticut-profound-autism-state-advocacy-2026-11-10": {
+      "ageGroups": [
+        "adults"
+      ],
+      "accessFeatures": [
+        "caregiver-support"
+      ],
+      "ageEvidence": {
+        "adults": {
+          "url": "https://www.profoundautism.org/events/community-calendar/connecticut-profound-autism-alliance-advocacy-november/",
+          "summary": "Connecticut members of Profound Autism Alliance"
+        }
+      },
+      "accessEvidence": {
+        "caregiver-support": {
+          "url": "https://www.profoundautism.org/events/community-calendar/connecticut-profound-autism-alliance-advocacy-november/",
+          "summary": "A state advocacy meeting for Connecticut members of Profound Autism Alliance. This is an advocacy gathering, not a therapy group."
+        }
+      },
+      "holidays": [],
+      "holidayEvidence": {},
+      "checkedAt": "2026-11-03",
+      "ageRange": {
+        "min": null,
+        "max": null,
+        "kind": "not-stated"
+      },
+      "sensory": {
+        "level": "unknown",
+        "note": "Organizer has not published enough session-specific sensory information to rate this meeting.",
+        "sourceUrl": "https://www.profoundautism.org/events/community-calendar/connecticut-profound-autism-alliance-advocacy-november/",
+        "checkedAt": "2026-11-03",
+        "sourceDetailsCheckedAt": "2026-11-03",
+        "basis": "Editorial planning estimate from official organizer details."
+      }
+    },
+    "caregiver-connecticut-profound-autism-state-advocacy-2026-12-08": {
+      "ageGroups": [
+        "adults"
+      ],
+      "accessFeatures": [
+        "caregiver-support"
+      ],
+      "ageEvidence": {
+        "adults": {
+          "url": "https://www.profoundautism.org/events/community-calendar/connecticut-profound-autism-alliance-advocacy-november/",
+          "summary": "Connecticut members of Profound Autism Alliance"
+        }
+      },
+      "accessEvidence": {
+        "caregiver-support": {
+          "url": "https://www.profoundautism.org/events/community-calendar/connecticut-profound-autism-alliance-advocacy-november/",
+          "summary": "A state advocacy meeting for Connecticut members of Profound Autism Alliance. This is an advocacy gathering, not a therapy group."
+        }
+      },
+      "holidays": [],
+      "holidayEvidence": {},
+      "checkedAt": "2026-11-03",
+      "ageRange": {
+        "min": null,
+        "max": null,
+        "kind": "not-stated"
+      },
+      "sensory": {
+        "level": "unknown",
+        "note": "Organizer has not published enough session-specific sensory information to rate this meeting.",
+        "sourceUrl": "https://www.profoundautism.org/events/community-calendar/connecticut-profound-autism-alliance-advocacy-november/",
+        "checkedAt": "2026-11-03",
+        "sourceDetailsCheckedAt": "2026-11-03",
+        "basis": "Editorial planning estimate from official organizer details."
+      }
+    },
+    "caregiver-being-an-active-member-of-your-child-s-special-education-team-2026-11-19": {
+      "ageGroups": [
+        "adults"
+      ],
+      "accessFeatures": [
+        "caregiver-support"
+      ],
+      "ageEvidence": {
+        "adults": {
+          "url": "https://www.vermontfamilynetwork.org/events/2026-11-19/",
+          "summary": "Parents and caregivers navigating special education"
+        }
+      },
+      "accessEvidence": {
+        "caregiver-support": {
+          "url": "https://www.vermontfamilynetwork.org/events/2026-11-19/",
+          "summary": "A practical online workshop for parents and caregivers participating in their child’s special education team."
+        }
+      },
+      "holidays": [],
+      "holidayEvidence": {},
+      "checkedAt": "2026-11-03",
+      "ageRange": {
+        "min": null,
+        "max": null,
+        "kind": "not-stated"
+      },
+      "sensory": {
+        "level": "unknown",
+        "note": "Organizer has not published enough session-specific sensory information to rate this meeting.",
+        "sourceUrl": "https://www.vermontfamilynetwork.org/events/2026-11-19/",
+        "checkedAt": "2026-11-03",
+        "sourceDetailsCheckedAt": "2026-11-03",
+        "basis": "Editorial planning estimate from official organizer details."
+      }
+    },
+    "caregiver-hands-on-caregiver-training-2026-11-05": {
+      "ageGroups": [
+        "adults"
+      ],
+      "accessFeatures": [
+        "caregiver-support"
+      ],
+      "ageEvidence": {
+        "adults": {
+          "url": "https://cornerstonevna.org/event/caregiver-training-2/",
+          "summary": "Family caregivers; personal care and understanding behaviors"
+        }
+      },
+      "accessEvidence": {
+        "caregiver-support": {
+          "url": "https://cornerstonevna.org/event/caregiver-training-2/",
+          "summary": "Hands-on training for family caregivers covering personal care and understanding behaviors. Advance registration is required."
+        }
+      },
+      "holidays": [],
+      "holidayEvidence": {},
+      "checkedAt": "2026-11-03",
+      "ageRange": {
+        "min": null,
+        "max": null,
+        "kind": "not-stated"
+      },
+      "sensory": {
+        "level": "unknown",
+        "note": "Organizer has not published enough session-specific sensory information to rate this meeting.",
+        "sourceUrl": "https://cornerstonevna.org/event/caregiver-training-2/",
+        "checkedAt": "2026-11-03",
+        "sourceDetailsCheckedAt": "2026-11-03",
+        "basis": "Editorial planning estimate from official organizer details."
+      }
+    },
+    "caregiver-stroke-support-group-for-survivors-and-caregivers-2026-12-10": {
+      "ageGroups": [
+        "adults"
+      ],
+      "accessFeatures": [
+        "caregiver-support"
+      ],
+      "ageEvidence": {
+        "adults": {
+          "url": "https://northernlighthealth.org/Our-System/Eastern-Maine-Medical-Center/News-Events/Events-(1)/2023-Events/Stroke-Support-Group-(36)",
+          "summary": "Stroke survivors, caregivers and family members"
+        }
+      },
+      "accessEvidence": {
+        "caregiver-support": {
+          "url": "https://northernlighthealth.org/Our-System/Eastern-Maine-Medical-Center/News-Events/Events-(1)/2023-Events/Stroke-Support-Group-(36)",
+          "summary": "A hybrid support group for stroke survivors, caregivers and family members, with in-person and Zoom options."
+        }
+      },
+      "holidays": [],
+      "holidayEvidence": {},
+      "checkedAt": "2026-11-03",
+      "ageRange": {
+        "min": null,
+        "max": null,
+        "kind": "not-stated"
+      },
+      "sensory": {
+        "level": "unknown",
+        "note": "Organizer has not published enough session-specific sensory information to rate this meeting.",
+        "sourceUrl": "https://northernlighthealth.org/Our-System/Eastern-Maine-Medical-Center/News-Events/Events-(1)/2023-Events/Stroke-Support-Group-(36)",
+        "checkedAt": "2026-11-03",
+        "sourceDetailsCheckedAt": "2026-11-03",
+        "basis": "Editorial planning estimate from official organizer details."
+      }
+    },
+    "caregiver-caregiving-with-a-cultural-lens-2026-11-04": {
+      "ageGroups": [
+        "adults"
+      ],
+      "accessFeatures": [
+        "caregiver-support"
+      ],
+      "ageEvidence": {
+        "adults": {
+          "url": "https://www.alz.org/manh/events/family-caregiver-month",
+          "summary": "Family caregivers; Alzheimer's Association MA/NH and AARP MA series, with dementia-specific sessions clearly labeled"
+        }
+      },
+      "accessEvidence": {
+        "caregiver-support": {
+          "url": "https://www.alz.org/manh/events/family-caregiver-month",
+          "summary": "A free online family-caregiver workshop from the Alzheimer’s Association MA/NH and AARP Massachusetts. Register for this session through the organizer’s series page."
+        }
+      },
+      "holidays": [],
+      "holidayEvidence": {},
+      "checkedAt": "2026-11-03",
+      "ageRange": {
+        "min": null,
+        "max": null,
+        "kind": "not-stated"
+      },
+      "sensory": {
+        "level": "unknown",
+        "note": "Organizer has not published enough session-specific sensory information to rate this meeting.",
+        "sourceUrl": "https://www.alz.org/manh/events/family-caregiver-month",
+        "checkedAt": "2026-11-03",
+        "sourceDetailsCheckedAt": "2026-11-03",
+        "basis": "Editorial planning estimate from official organizer details."
+      }
+    },
+    "caregiver-free-tools-to-plan-your-health-care-2026-11-05": {
+      "ageGroups": [
+        "adults"
+      ],
+      "accessFeatures": [
+        "caregiver-support"
+      ],
+      "ageEvidence": {
+        "adults": {
+          "url": "https://www.alz.org/manh/events/family-caregiver-month",
+          "summary": "Family caregivers; Alzheimer's Association MA/NH and AARP MA series, with dementia-specific sessions clearly labeled"
+        }
+      },
+      "accessEvidence": {
+        "caregiver-support": {
+          "url": "https://www.alz.org/manh/events/family-caregiver-month",
+          "summary": "A free online family-caregiver workshop from the Alzheimer’s Association MA/NH and AARP Massachusetts. Register for this session through the organizer’s series page."
+        }
+      },
+      "holidays": [],
+      "holidayEvidence": {},
+      "checkedAt": "2026-11-03",
+      "ageRange": {
+        "min": null,
+        "max": null,
+        "kind": "not-stated"
+      },
+      "sensory": {
+        "level": "unknown",
+        "note": "Organizer has not published enough session-specific sensory information to rate this meeting.",
+        "sourceUrl": "https://www.alz.org/manh/events/family-caregiver-month",
+        "checkedAt": "2026-11-03",
+        "sourceDetailsCheckedAt": "2026-11-03",
+        "basis": "Editorial planning estimate from official organizer details."
+      }
+    },
+    "caregiver-simplify-caregiving-with-technology-2026-11-10": {
+      "ageGroups": [
+        "adults"
+      ],
+      "accessFeatures": [
+        "caregiver-support"
+      ],
+      "ageEvidence": {
+        "adults": {
+          "url": "https://www.alz.org/manh/events/family-caregiver-month",
+          "summary": "Family caregivers; Alzheimer's Association MA/NH and AARP MA series, with dementia-specific sessions clearly labeled"
+        }
+      },
+      "accessEvidence": {
+        "caregiver-support": {
+          "url": "https://www.alz.org/manh/events/family-caregiver-month",
+          "summary": "A free online family-caregiver workshop from the Alzheimer’s Association MA/NH and AARP Massachusetts. Register for this session through the organizer’s series page."
+        }
+      },
+      "holidays": [],
+      "holidayEvidence": {},
+      "checkedAt": "2026-11-03",
+      "ageRange": {
+        "min": null,
+        "max": null,
+        "kind": "not-stated"
+      },
+      "sensory": {
+        "level": "unknown",
+        "note": "Organizer has not published enough session-specific sensory information to rate this meeting.",
+        "sourceUrl": "https://www.alz.org/manh/events/family-caregiver-month",
+        "checkedAt": "2026-11-03",
+        "sourceDetailsCheckedAt": "2026-11-03",
+        "basis": "Editorial planning estimate from official organizer details."
+      }
+    },
+    "caregiver-building-foundations-of-caregiving-2026-11-11": {
+      "ageGroups": [
+        "adults"
+      ],
+      "accessFeatures": [
+        "caregiver-support"
+      ],
+      "ageEvidence": {
+        "adults": {
+          "url": "https://www.alz.org/manh/events/family-caregiver-month",
+          "summary": "Family caregivers; Alzheimer's Association MA/NH and AARP MA series, with dementia-specific sessions clearly labeled"
+        }
+      },
+      "accessEvidence": {
+        "caregiver-support": {
+          "url": "https://www.alz.org/manh/events/family-caregiver-month",
+          "summary": "A free online family-caregiver workshop from the Alzheimer’s Association MA/NH and AARP Massachusetts. Register for this session through the organizer’s series page."
+        }
+      },
+      "holidays": [],
+      "holidayEvidence": {},
+      "checkedAt": "2026-11-03",
+      "ageRange": {
+        "min": null,
+        "max": null,
+        "kind": "not-stated"
+      },
+      "sensory": {
+        "level": "unknown",
+        "note": "Organizer has not published enough session-specific sensory information to rate this meeting.",
+        "sourceUrl": "https://www.alz.org/manh/events/family-caregiver-month",
+        "checkedAt": "2026-11-03",
+        "sourceDetailsCheckedAt": "2026-11-03",
+        "basis": "Editorial planning estimate from official organizer details."
+      }
+    },
+    "caregiver-communicating-effectively-and-responding-to-dementia-related-behaviors-2026-11-17": {
+      "ageGroups": [
+        "adults"
+      ],
+      "accessFeatures": [
+        "caregiver-support"
+      ],
+      "ageEvidence": {
+        "adults": {
+          "url": "https://www.alz.org/manh/events/family-caregiver-month",
+          "summary": "Family caregivers; Alzheimer's Association MA/NH and AARP MA series, with dementia-specific sessions clearly labeled"
+        }
+      },
+      "accessEvidence": {
+        "caregiver-support": {
+          "url": "https://www.alz.org/manh/events/family-caregiver-month",
+          "summary": "A free online family-caregiver workshop from the Alzheimer’s Association MA/NH and AARP Massachusetts. Register for this session through the organizer’s series page."
+        }
+      },
+      "holidays": [],
+      "holidayEvidence": {},
+      "checkedAt": "2026-11-03",
+      "ageRange": {
+        "min": null,
+        "max": null,
+        "kind": "not-stated"
+      },
+      "sensory": {
+        "level": "unknown",
+        "note": "Organizer has not published enough session-specific sensory information to rate this meeting.",
+        "sourceUrl": "https://www.alz.org/manh/events/family-caregiver-month",
+        "checkedAt": "2026-11-03",
+        "sourceDetailsCheckedAt": "2026-11-03",
+        "basis": "Editorial planning estimate from official organizer details."
+      }
+    },
+    "caregiver-the-financial-impact-of-dementia-steps-to-building-financial-literacy-2026-11-18": {
+      "ageGroups": [
+        "adults"
+      ],
+      "accessFeatures": [
+        "caregiver-support"
+      ],
+      "ageEvidence": {
+        "adults": {
+          "url": "https://www.alz.org/manh/events/family-caregiver-month",
+          "summary": "Family caregivers; Alzheimer's Association MA/NH and AARP MA series, with dementia-specific sessions clearly labeled"
+        }
+      },
+      "accessEvidence": {
+        "caregiver-support": {
+          "url": "https://www.alz.org/manh/events/family-caregiver-month",
+          "summary": "A free online family-caregiver workshop from the Alzheimer’s Association MA/NH and AARP Massachusetts. Register for this session through the organizer’s series page."
+        }
+      },
+      "holidays": [],
+      "holidayEvidence": {},
+      "checkedAt": "2026-11-03",
+      "ageRange": {
+        "min": null,
+        "max": null,
+        "kind": "not-stated"
+      },
+      "sensory": {
+        "level": "unknown",
+        "note": "Organizer has not published enough session-specific sensory information to rate this meeting.",
+        "sourceUrl": "https://www.alz.org/manh/events/family-caregiver-month",
+        "checkedAt": "2026-11-03",
+        "sourceDetailsCheckedAt": "2026-11-03",
+        "basis": "Editorial planning estimate from official organizer details."
+      }
+    },
+    "caregiver-exploring-care-and-support-services-2026-11-24": {
+      "ageGroups": [
+        "adults"
+      ],
+      "accessFeatures": [
+        "caregiver-support"
+      ],
+      "ageEvidence": {
+        "adults": {
+          "url": "https://www.alz.org/manh/events/family-caregiver-month",
+          "summary": "Family caregivers; Alzheimer's Association MA/NH and AARP MA series, with dementia-specific sessions clearly labeled"
+        }
+      },
+      "accessEvidence": {
+        "caregiver-support": {
+          "url": "https://www.alz.org/manh/events/family-caregiver-month",
+          "summary": "A free online family-caregiver workshop from the Alzheimer’s Association MA/NH and AARP Massachusetts. Register for this session through the organizer’s series page."
+        }
+      },
+      "holidays": [],
+      "holidayEvidence": {},
+      "checkedAt": "2026-11-03",
+      "ageRange": {
+        "min": null,
+        "max": null,
+        "kind": "not-stated"
+      },
+      "sensory": {
+        "level": "unknown",
+        "note": "Organizer has not published enough session-specific sensory information to rate this meeting.",
+        "sourceUrl": "https://www.alz.org/manh/events/family-caregiver-month",
+        "checkedAt": "2026-11-03",
+        "sourceDetailsCheckedAt": "2026-11-03",
+        "basis": "Editorial planning estimate from official organizer details."
       }
     }
   },
