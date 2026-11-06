@@ -1,0 +1,33 @@
+{
+  "dateEastern": "2026-11-06",
+  "recordType": "append_only_verified_press_delivery_delta",
+  "sender": "hello@anausomelife.com",
+  "newDelivery": {
+    "organization": "Lincoln Squirrel",
+    "editor": "Alice Waugh",
+    "to": "lincolnsquirrelnews@gmail.com",
+    "subject": "Lincoln story idea: what public land gives a family beyond the trails",
+    "storyUrl": "https://anausomelife.com/we-didnt-move-far-massachusetts-codman-estate.html",
+    "providerEmailId": "01a1b18f-e68d-71ec-9574-4b2c069dff8e",
+    "createdUTC": "2026-11-06T15:52:40.495Z",
+    "status": "delivered",
+    "idempotencyKey": "aal-press-lincoln-squirrel-codman-local-20261106-v1",
+    "photoReusePermission": false,
+    "coverageUnconfirmed": true
+  },
+  "otherSameDayProviderVerifiedInitial": {
+    "to": "Molly.R.Evans@mass.gov",
+    "subject": "A practical outing resource for your caregiver newsletter",
+    "providerEmailId": "01a1b18f-5d09-7355-b86f-6132f99b101b",
+    "createdUTC": "2026-11-06T15:52:05.292Z",
+    "status": "delivered",
+    "sentByOtherWorkflow": true
+  },
+  "confirmedDayCount": 2,
+  "sharedDailyMaximum": 3,
+  "shakerContactsAllDelivered": 8,
+  "fruitlandsHoldThrough": "2026-11-17T10:48:09-05:00",
+  "exceptionalParentManuscriptDeadline": "2026-11-10",
+  "noVerifiedPressCoverage": true,
+  "sourceLogPolicy": "Original source logs preserved; no duplicate sends or licensed family images."
+}
