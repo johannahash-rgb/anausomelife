@@ -1,0 +1,91 @@
+{
+  "dateEastern": "2026-11-09",
+  "recordType": "append_only_press_backlog_no_send_audit",
+  "sender": "hello@anausomelife.com",
+  "sendWindowEastern": "09:00–11:00",
+  "dailyInitialPitchCap": 3,
+  "checks": {
+    "resend": "Paged verified Resend sent history: newest message at 2026-11-06T15:52:40.495Z; no November 9 sends observed as of ~10:54 EST. Historical October 30 organization message also verified by get_email.",
+    "gmail": [
+      "johannahash@gmail.com",
+      "pinsharelike@gmail.com"
+    ],
+    "library": [
+      "An_AUsome_Life_Press_Plan_and_Queue.json",
+      "An_AUsome_Life_Collaboration_Declines_2026-10-27.json",
+      "An_AUsome_Life_50_Press_Outreach_Audit_2026-10-30.md"
+    ],
+    "missingMaster": "Exact named Library file aal-log-20261027.json not found by targeted Library search and indexed file listing; current master cannot be certified as fully reconciled.",
+    "repository": [
+      "docs/shaker-history-press-outreach-2026-11-03-delta.json",
+      "docs/press-outreach-2026-11-06-lincoln-squirrel.json",
+      "docs/fruitlands-trustees-cooldown-reconciliation-2026-11-03.json"
+    ],
+    "web": "Official Historic New England and Lincoln Land Conservation Trust public site and current An AUsome Life site checked"
+  },
+  "outbound": {
+    "newInitialPitches": 0,
+    "followups": 0,
+    "courtesyReplies": 0,
+    "otherSends": 0,
+    "reasons": [
+      "No eligible fully verified queue entry suitable for immediate sending after organization history, editorial submission requirements and other holds were considered",
+      "Existing Shaker campaign all eight organizations already delivered; no resends",
+      "Exact master log unavailable, so do not assume unsent status in prior queue authorizes a new send"
+    ]
+  },
+  "findings": [
+    {
+      "kind": "time_sensitive_original_manuscript",
+      "organization": "Exceptional Parent",
+      "deadlineEastern": "2026-11-10",
+      "editor": "Faye Simon",
+      "status": "No approved Word attachment submission verified in reviewed connected Gmail or accessible Library search",
+      "requirements": "500–1500 words, original informative nonpromotional article, single-spaced Word document, references with full web addresses, author bio <100 words; separate image files only with full permissions; no unreviewed draft or photos sent",
+      "provider": "Faye email 2026-10-25"
+    },
+    {
+      "kind": "meaningful_human_reply",
+      "organization": "The New Savant",
+      "from": "erica@thenewsavant.com",
+      "received": "2026-11-06T16:41:30Z",
+      "messageId": "1a1b1bcd0ca43c8a",
+      "subject": "Re: The New Savant | 12 Candles in 12 Days — your dedicated holiday article",
+      "status": "Requested a publication date, product receipt confirmation and one additional unclear item. No reply sent; cannot assert product received or invent publication schedule."
+    },
+    {
+      "kind": "existing_positive_reply_not_confirmed_publication",
+      "organization": "Lincoln Land Conservation Trust",
+      "received": "2026-10-22T14:10:39Z",
+      "messageId": "1a163f38576757c9",
+      "summary": "Outreach coordinator Danielle Proulx said 'We’d be happy to include this in our next newsletter!' for Great-Aunt Susan article. This is intent to share, not independent evidence of publication. Avoid another pitch while the exchange remains open."
+    },
+    {
+      "kind": "prior_contact_prevents_new_pitch",
+      "organization": "Historic New England",
+      "recipient": "Marketing@HistoricNewEngland.org",
+      "providerEmailId": "01a18dc8-5e27-7a88-acac-c497295215f5",
+      "sentUTC": "2026-10-30T17:08:01.422Z",
+      "status": "delivered",
+      "article": "https://anausomelife.com/shaker-history-harvard-family-gift.html",
+      "hold": "Organization contact on October 30 means do not immediately approach different staff about newer Codman story. Respect organization-wide 14-day cooldown and new checks."
+    },
+    {
+      "kind": "shaker_complete",
+      "organization": "Fruitlands Museum / The Trustees",
+      "lastDeliveredUTC": "2026-11-03T15:48:09.198Z",
+      "earliestReviewEastern": "2026-11-17T10:48:09-05:00",
+      "noResend": true
+    },
+    {
+      "kind": "editorial_holds",
+      "source": "October 30 audit",
+      "detail": "Eight editorial submissions and five form/contact opportunities held; not automatically send-authorized. Respect original-essay, originality, and contact-route requirements."
+    }
+  ],
+  "pressCoverage": {
+    "newConfirmedPublications": 0,
+    "notes": "No new verified publication or public share established in current checks. Prior LLCT promise is not coverage."
+  },
+  "nextAction": "Next recurring audit should review new verified provider activity and replies; only send during weekday window after complete organization preflight and current daily cap check. Protect November 10 original manuscript deadline. Do not invent or resend."
+}
