@@ -1,0 +1,97 @@
+{
+  "dateEastern": "2026-11-10",
+  "recordType": "append_only_press_backlog_run_audit_no_send",
+  "account": "An AUsome Life",
+  "sender": "hello@anausomelife.com",
+  "sendPolicy": {
+    "weekdayWindowEastern": "09:00-11:00",
+    "maxNewInitialMediaPitchesPerEasternDay": 3,
+    "organizationCooldownCalendarDays": 14,
+    "followupMinimumBusinessDays": 8,
+    "oneFollowupMaximum": true,
+    "noUnlicensedFamilyPhotographs": true
+  },
+  "checks": {
+    "resend": "Latest provider list-emails displayed November 6 2026 15:52:40Z at newest position; no Nov 10 2026 transactional sends observed before this run's action. No mail was sent by this run.",
+    "gmailAccounts": [
+      "johannahash@gmail.com",
+      "pinsharelike@gmail.com"
+    ],
+    "gmailMethods": "Recent inbox, targeted senders and recipients, substantive editorial threads, prior submission history and original EP editorial chain reviewed; no November 10 EP submission verified.",
+    "library": [
+      "An_AUsome_Life_Press_Plan_and_Queue.json",
+      "An_AUsome_Life_Collaboration_Declines_2026-10-27.json",
+      "An_AUsome_Life_50_Press_Outreach_Audit_2026-10-30.md"
+    ],
+    "missingMaster": "aal-log-20261027.json not returned by exact-title and topical Library search, including checked on November 9; cannot certify all historical contacts. No send based only on old queue.",
+    "repository": [
+      "docs/press-backlog-reconciliation-2026-11-09.json",
+      "docs/shaker-history-press-outreach-2026-11-03-delta.json",
+      "docs/fruitlands-trustees-cooldown-reconciliation-2026-11-03.json"
+    ],
+    "web": "Current EP Magazine author guidelines, An AUsome Life media and story search, and targeted public searches for New Savant/LLCT shares; no new external share confirmed"
+  },
+  "outreach": {
+    "initialPitchesSent": 0,
+    "followupsSent": 0,
+    "courtesyAcknowledgmentsSent": 0,
+    "uncertainSendsToRetry": 0,
+    "notes": "The October 30 ledger's eight editorial holds require author-written manuscripts, original research, submission formats or AI-use restrictions; five others require contact forms or verified routes. No eligible authorized new cold pitch established by current source checks. Existing Shaker campaign delivered all eight; no duplicates or resends."
+  },
+  "materialFindings": [
+    {
+      "type": "new_substantive_editorial_reply",
+      "organization": "The New Savant",
+      "sender": "erica@thenewsavant.com",
+      "observedMailDateEastern": "2026-11-09T13:12:11-05:00",
+      "gmailMessageId": "1a1c182f1c4ca986",
+      "gmailAccount": "pinsharelike@gmail.com",
+      "context": "Five written maker Q&A answers provided by cofounder, to be attributed to Ingrid Nilsen, co-founder and Chief Creative. Topics: candle-making origin, Girl in a Sweater inspiration, development time, buying scents online, small evening ritual.",
+      "productReceipt": "Prior October 21 sent email in the same thread explicitly confirmed Girl in a Sweater arrived.",
+      "publicationDate": "Not confirmed; old October 26-November 1 plan no longer current. Do not promise a new date without owner/editorial review.",
+      "imageRights": "No licensed maker or family photographs provided with the new response.",
+      "action": "Record positive substantive editorial participation and alert user; no additional ask or acknowledgement sent."
+    },
+    {
+      "type": "hard_deadline_today",
+      "organization": "Exceptional Parent Magazine",
+      "editor": "Faye Simon",
+      "emailThreadDate": "2026-10-25",
+      "followupConfirmation": "2026-10-25T22:04:17-04:00",
+      "emailThreadSubject": "Re: James ordered rigatoni: a parent reflection for EP",
+      "deadlineEastern": "2026-11-10",
+      "destinationIssue": "December 2026 consideration only, not guaranteed publication",
+      "originalManuscriptRequirements": "500-1500 words, informative noncommercial, single-spaced original Word attachment, full URLs for references, biography under 100 words. Child photographs not mandatory and require appropriate permissions.",
+      "status": "No reviewed approved Word document or confirmed submission located in accessible Library, sent Resend ledger, or connected Gmail check. No unreviewed submission or photos sent.",
+      "action": "Notify user of same-day deadline, avoid claiming acceptance, and do not submit unreviewed material."
+    }
+  ],
+  "holds": [
+    {
+      "org": "Fruitlands Museum / The Trustees",
+      "reason": "recent organizational sends",
+      "earliestReviewEastern": "2026-11-17T10:48:09-05:00"
+    },
+    {
+      "org": "Harvard Press and all eight Shaker campaign contacts",
+      "reason": "previously delivered; no repeat"
+    },
+    {
+      "org": "New Savant",
+      "reason": "active positive editorial conversation; do not cold pitch again"
+    },
+    {
+      "org": "All October 27 collaboration declines",
+      "reason": "24 courtesy thanks already sent; no repeat; respect all scope-specific noes and permissions"
+    },
+    {
+      "org": "Eight October 30 editorial holds; five route holds",
+      "reason": "not authorized or ready from queue alone"
+    }
+  ],
+  "publications": {
+    "newVerifiedPublications": 0,
+    "notes": "LLCT's historical newsletter invitation remains not equivalent to evidence of actual share or publication."
+  },
+  "unchangedOriginals": true
+}
