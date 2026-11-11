@@ -1,0 +1,65 @@
+{
+  "dateEastern": "2026-11-11",
+  "recordType": "append_only_press_backlog_run_audit_no_send",
+  "sender": "hello@anausomelife.com",
+  "reviewWindowEastern": "10:47 AM EST; send policy weekdays 09:00–11:00",
+  "policy": {
+    "maxNewInitialMediaPitchesPerDayAcrossWorkflows": 3,
+    "orgCooldownDays": 14,
+    "followupMinimumBusinessDays": 8,
+    "oneFollowupMaximum": true,
+    "neverPersonalGmail": true,
+    "photoRightsRequireSeparatePermission": true
+  },
+  "verifiedChecks": {
+    "resend": "Resend list_emails (most recent 100 transaction emails) returned 2026-11-06T15:52:40.495Z as newest entry; no November 11 transactional sends observed. No sends attempted by this run.",
+    "gmail": [
+      "johannahash@gmail.com recent primary mail, topical/reply queries and EP queries after November 9",
+      "pinsharelike@gmail.com forwarded publication mail, targeted sender/reply and EP queries after November 9"
+    ],
+    "library": [
+      "An_AUsome_Life_Press_Plan_and_Queue.json (dated October 8; staged, unsent)",
+      "An_AUsome_Life_Collaboration_Declines_2026-10-27.json (24 courtesy acknowledgments delivered; do not repeat)",
+      "An_AUsome_Life_50_Press_Outreach_Audit_2026-10-30.md (34 deliveries, eight editorial holds, five route holds; older independent sending activity)"
+    ],
+    "missingMaster": "aal-log-20261027.json still not returned by Library exact-name and topical searches or browse of /An AUsome Life; do not assume old queued recipients clear without complete cross-workflow ledger.",
+    "repository": [
+      "docs/press-backlog-reconciliation-2026-11-10.json",
+      "docs/fruitlands-trustees-cooldown-reconciliation-2026-11-03.json",
+      "docs/shaker-history-press-outreach-2026-11-03-delta.json"
+    ],
+    "publicSite": "Reviewed latest indexed An AUsome Life site/press searches and social-share discovery: no newly independently confirmed third-party article share or publication."
+  },
+  "verifiedNewHumanReply": {
+    "category": "brand_collaboration_decline_not_editorial_acceptance",
+    "organization": "Silverton Casino",
+    "sourceGmailAccount": "johannahash@gmail.com",
+    "gmailId": "1a1c6ad99aef4ae1",
+    "timestampUTC": "2026-11-10T18:17:05Z",
+    "subject": "Message From Silverton Casino",
+    "proposition": "October 16 hosted one- or two-night family editorial proposal from personal Gmail",
+    "response": "Marketing team declined to proceed at this time; may keep details on file for unspecified future campaigns.",
+    "action": "Close current hosted-stay proposal without further pitch or follow-up. No courtesy reply sent: response is a general marketing decline, not an invitation or new opportunity; user requires no unnecessary acknowledgments and never personal Gmail outbound."
+  },
+  "pastDeadline": {
+    "organization": "Exceptional Parent Magazine",
+    "dueDateEastern": "2026-11-10",
+    "status": "Deadline passed; no reviewed final Word article or verified submission found in connected Gmail, Resend, or accessible Library. Draft remains unapproved. Do not submit it or family photos.",
+    "nextAction": "No unsolicited late manuscript or inaccurate claim of December publication."
+  },
+  "existingHolds": [
+    "All eight Shaker campaign organizations already contacted; never repitch Harvard Press.",
+    "Fruitlands / The Trustees organization-wide cooldown: no new approach before 2026-11-17T10:48:09-05:00 and then only after fresh organization preflight.",
+    "October 30 eight editorial holds require original completed writing/reporting and/or no generative-AI work. Do not repurpose as cold email.",
+    "Five October 30 form/contact holds lack valid routes; no suppression bypass.",
+    "All October 27 declines, noes, bounces, 24 acknowledged courtesies, existing active editorial threads and photo/privacy restrictions."
+  ],
+  "outcome": {
+    "newInitialMediaPitches": 0,
+    "followups": 0,
+    "acknowledgments": 0,
+    "newVerifiedPublications": 0,
+    "unverifiedSendsRetried": 0
+  },
+  "originalsPreserved": true
+}
