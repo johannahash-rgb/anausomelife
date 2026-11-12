@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-11-03",
+  "checkedAt": "2026-11-12",
   "method": "Positive organizer evidence only. Missing categories mean not confirmed, never that attendance is prohibited. Read the exact audience, eligibility and route details. Accompanying an eligible participant does not imply an independent adult programme.",
   "events": {
     "bcm-2026-10-03": {
@@ -25244,6 +25244,150 @@
         "sourceUrl": "https://www.alz.org/manh/events/family-caregiver-month",
         "checkedAt": "2026-11-03",
         "sourceDetailsCheckedAt": "2026-11-03",
+        "basis": "Editorial planning estimate from official organizer details."
+      }
+    },
+    "ma-profound-autism-listening-2026-11-12": {
+      "ageGroups": [
+        "families"
+      ],
+      "accessFeatures": [
+        "caregiver-support"
+      ],
+      "ageEvidence": {
+        "families": {
+          "url": "https://www.mass.gov/event/profound-autism-advisory-council-listening-session-11-12-2026",
+          "summary": "People with lived experience, families and caregivers; focused on profound autism and Massachusetts services."
+        }
+      },
+      "accessEvidence": {
+        "caregiver-support": {
+          "url": "https://www.mass.gov/event/profound-autism-advisory-council-listening-session-11-12-2026",
+          "summary": "Share experiences of Massachusetts services and supports with the Profound Autism Advisory Council. The same listening session is offered at two times."
+        }
+      },
+      "holidays": [],
+      "holidayEvidence": {},
+      "checkedAt": "2026-11-12",
+      "ageRange": {
+        "min": null,
+        "max": null,
+        "kind": "not-stated"
+      },
+      "sensory": {
+        "level": "unknown",
+        "note": "Organizer has not published enough session-specific sensory information to rate this meeting.",
+        "sourceUrl": "https://www.mass.gov/event/profound-autism-advisory-council-listening-session-11-12-2026",
+        "checkedAt": "2026-11-12",
+        "sourceDetailsCheckedAt": "2026-11-12",
+        "basis": "Editorial planning estimate from official organizer details."
+      }
+    },
+    "ma-profound-autism-listening-2026-11-16": {
+      "ageGroups": [
+        "families"
+      ],
+      "accessFeatures": [
+        "caregiver-support"
+      ],
+      "ageEvidence": {
+        "families": {
+          "url": "https://www.mass.gov/event/profound-autism-advisory-council-listening-session-11-16-2026",
+          "summary": "People with lived experience, families and caregivers; focused on profound autism and Massachusetts services."
+        }
+      },
+      "accessEvidence": {
+        "caregiver-support": {
+          "url": "https://www.mass.gov/event/profound-autism-advisory-council-listening-session-11-16-2026",
+          "summary": "Share experiences of Massachusetts services and supports with the Profound Autism Advisory Council. The same listening session is offered at two times."
+        }
+      },
+      "holidays": [],
+      "holidayEvidence": {},
+      "checkedAt": "2026-11-12",
+      "ageRange": {
+        "min": null,
+        "max": null,
+        "kind": "not-stated"
+      },
+      "sensory": {
+        "level": "unknown",
+        "note": "Organizer has not published enough session-specific sensory information to rate this meeting.",
+        "sourceUrl": "https://www.mass.gov/event/profound-autism-advisory-council-listening-session-11-16-2026",
+        "checkedAt": "2026-11-12",
+        "sourceDetailsCheckedAt": "2026-11-12",
+        "basis": "Editorial planning estimate from official organizer details."
+      }
+    },
+    "biama-caregiver-support-2026-11-24": {
+      "ageGroups": [
+        "adults"
+      ],
+      "accessFeatures": [
+        "caregiver-support"
+      ],
+      "ageEvidence": {
+        "adults": {
+          "url": "https://biama.org/event/virtual-caregivers-support-group-meeting-for-caregivers/2026-11-24/",
+          "summary": "Caregivers; confirm with BIA-MA whether the brain-injury support group fits your situation."
+        }
+      },
+      "accessEvidence": {
+        "caregiver-support": {
+          "url": "https://biama.org/event/virtual-caregivers-support-group-meeting-for-caregivers/2026-11-24/",
+          "summary": "A virtual caregiver support group hosted by the Brain Injury Association of Massachusetts. This is brain-injury caregiver support, not an autism-specific group."
+        }
+      },
+      "holidays": [],
+      "holidayEvidence": {},
+      "checkedAt": "2026-11-12",
+      "ageRange": {
+        "min": null,
+        "max": null,
+        "kind": "not-stated"
+      },
+      "sensory": {
+        "level": "unknown",
+        "note": "Organizer has not published enough session-specific sensory information to rate this meeting.",
+        "sourceUrl": "https://biama.org/event/virtual-caregivers-support-group-meeting-for-caregivers/2026-11-24/",
+        "checkedAt": "2026-11-12",
+        "sourceDetailsCheckedAt": "2026-11-12",
+        "basis": "Editorial planning estimate from official organizer details."
+      }
+    },
+    "biama-caregiver-support-2026-12-22": {
+      "ageGroups": [
+        "adults"
+      ],
+      "accessFeatures": [
+        "caregiver-support"
+      ],
+      "ageEvidence": {
+        "adults": {
+          "url": "https://biama.org/event/virtual-caregivers-support-group-meeting-for-caregivers/2026-12-22/",
+          "summary": "Caregivers; confirm with BIA-MA whether the brain-injury support group fits your situation."
+        }
+      },
+      "accessEvidence": {
+        "caregiver-support": {
+          "url": "https://biama.org/event/virtual-caregivers-support-group-meeting-for-caregivers/2026-12-22/",
+          "summary": "A virtual caregiver support group hosted by the Brain Injury Association of Massachusetts. This is brain-injury caregiver support, not an autism-specific group."
+        }
+      },
+      "holidays": [],
+      "holidayEvidence": {},
+      "checkedAt": "2026-11-12",
+      "ageRange": {
+        "min": null,
+        "max": null,
+        "kind": "not-stated"
+      },
+      "sensory": {
+        "level": "unknown",
+        "note": "Organizer has not published enough session-specific sensory information to rate this meeting.",
+        "sourceUrl": "https://biama.org/event/virtual-caregivers-support-group-meeting-for-caregivers/2026-12-22/",
+        "checkedAt": "2026-11-12",
+        "sourceDetailsCheckedAt": "2026-11-12",
         "basis": "Editorial planning estimate from official organizer details."
       }
     }

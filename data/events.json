@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "generatedAt": "2026-11-02T18:00:00Z",
-  "lastEditorialReview": "2026-11-03T23:25:00Z",
+  "lastEditorialReview": "2026-11-12T12:16:00Z",
   "timezone": "America/New_York",
   "coverage": "Selected New England adaptive and sensory-friendly events, with a verified free-admission filter and free-program directory. Not exhaustive.",
   "refresh": {
@@ -4650,6 +4650,34 @@
       "feedVerified": false,
       "sourceCheckedAt": "2026-11-03T23:25:00Z",
       "lastChecked": "2026-11-03T23:25:00Z",
+      "status": "manually-checked"
+    },
+    {
+      "id": "ma-profound-autism-council",
+      "name": "Massachusetts Profound Autism Advisory Council",
+      "url": "https://www.mass.gov/profound-autism-advisory-council",
+      "state": "MA",
+      "mode": "check",
+      "enabled": true,
+      "timezone": "America/New_York",
+      "autoPublish": false,
+      "feedVerified": false,
+      "sourceCheckedAt": "2026-11-12T12:16:00Z",
+      "lastChecked": "2026-11-12T12:16:00Z",
+      "status": "manually-checked"
+    },
+    {
+      "id": "biama-caregiver-support",
+      "name": "Brain Injury Association of Massachusetts caregiver support",
+      "url": "https://biama.org/series/virtual-caregivers-support-group-meeting-for-caregivers/",
+      "state": "MA",
+      "mode": "check",
+      "enabled": true,
+      "timezone": "America/New_York",
+      "autoPublish": false,
+      "feedVerified": false,
+      "sourceCheckedAt": "2026-11-12T12:16:00Z",
+      "lastChecked": "2026-11-12T12:16:00Z",
       "status": "manually-checked"
     }
   ],
@@ -25713,6 +25741,136 @@
       "registration": "The event page does not specify a reservation process. Ask Family Programs at 413-314-6489 about early admission and tickets.",
       "lastVerified": "2026-10-22T11:44:46Z",
       "verificationMethod": "Official organizer event and booking information reviewed October 22, 2026."
+    },
+    {
+      "id": "ma-profound-autism-listening-2026-11-12",
+      "title": "Massachusetts Profound Autism Advisory Council: listening session",
+      "start": "2026-11-12T12:30:00-05:00",
+      "end": "2026-11-12T14:00:00-05:00",
+      "timezone": "America/New_York",
+      "state": "MA",
+      "city": "Virtual",
+      "venue": "Massachusetts EOHHS — online via Zoom",
+      "address": "",
+      "category": "Caregiver support",
+      "format": "Virtual",
+      "status": "scheduled",
+      "reviewRequired": false,
+      "sourceId": "ma-profound-autism-council",
+      "sourceUrl": "https://www.mass.gov/event/profound-autism-advisory-council-listening-session-11-12-2026",
+      "ticketUrl": "https://www.mass.gov/event/profound-autism-advisory-council-listening-session-11-12-2026",
+      "cost": "Cost not stated on the checked organizer page; confirm before registering.",
+      "ages": "People with lived experience, families and caregivers; focused on profound autism and Massachusetts services.",
+      "summary": "Share experiences of Massachusetts services and supports with the Profound Autism Advisory Council. The same listening session is offered at two times.",
+      "accessibility": [
+        "Virtual participation through Zoom.",
+        "Request accommodations or language assistance as early as possible through the official notice. Last-minute requests may not be possible to fulfill."
+      ],
+      "registration": "Register through the official event notice to receive Zoom information. Speaking is optional and is not guaranteed; remarks are limited to four minutes. Written comments are also accepted.",
+      "cancellationPolicy": "Not stated in the checked listing; confirm changes and attendance terms with the organizer.",
+      "notes": [
+        "A listening session, not a therapy or treatment group."
+      ],
+      "lastVerified": "2026-11-12T12:16:00Z",
+      "verificationMethod": "Official Mass.gov public meeting notice and council listing checked November 12, 2026."
+    },
+    {
+      "id": "ma-profound-autism-listening-2026-11-16",
+      "title": "Massachusetts Profound Autism Advisory Council: listening session",
+      "start": "2026-11-16T19:30:00-05:00",
+      "end": "2026-11-16T21:00:00-05:00",
+      "timezone": "America/New_York",
+      "state": "MA",
+      "city": "Virtual",
+      "venue": "Massachusetts EOHHS — online via Zoom",
+      "address": "",
+      "category": "Caregiver support",
+      "format": "Virtual",
+      "status": "scheduled",
+      "reviewRequired": false,
+      "sourceId": "ma-profound-autism-council",
+      "sourceUrl": "https://www.mass.gov/event/profound-autism-advisory-council-listening-session-11-16-2026",
+      "ticketUrl": "https://www.mass.gov/event/profound-autism-advisory-council-listening-session-11-16-2026",
+      "cost": "Cost not stated on the checked organizer page; confirm before registering.",
+      "ages": "People with lived experience, families and caregivers; focused on profound autism and Massachusetts services.",
+      "summary": "Share experiences of Massachusetts services and supports with the Profound Autism Advisory Council. The same listening session is offered at two times.",
+      "accessibility": [
+        "Virtual participation through Zoom.",
+        "Request accommodations or language assistance as early as possible through the official notice. Last-minute requests may not be possible to fulfill."
+      ],
+      "registration": "Register through the official event notice to receive Zoom information. Speaking is optional and is not guaranteed; remarks are limited to four minutes. Written comments are also accepted.",
+      "cancellationPolicy": "Not stated in the checked listing; confirm changes and attendance terms with the organizer.",
+      "notes": [
+        "A listening session, not a therapy or treatment group."
+      ],
+      "lastVerified": "2026-11-12T12:16:00Z",
+      "verificationMethod": "Official Mass.gov public meeting notice and council listing checked November 12, 2026."
+    },
+    {
+      "id": "biama-caregiver-support-2026-11-24",
+      "title": "Brain Injury Association of Massachusetts: caregiver support group",
+      "start": "2026-11-24T13:00:00-05:00",
+      "end": "2026-11-24T14:30:00-05:00",
+      "timezone": "America/New_York",
+      "state": "MA",
+      "city": "Virtual",
+      "venue": "Brain Injury Association of Massachusetts — online via Zoom",
+      "address": "",
+      "category": "Caregiver support",
+      "format": "Virtual",
+      "status": "scheduled",
+      "reviewRequired": false,
+      "sourceId": "biama-caregiver-support",
+      "sourceUrl": "https://biama.org/event/virtual-caregivers-support-group-meeting-for-caregivers/2026-11-24/",
+      "ticketUrl": "https://biama.org/event/virtual-caregivers-support-group-meeting-for-caregivers/2026-11-24/",
+      "cost": "Cost not stated on the checked organizer page; confirm before registering.",
+      "ages": "Caregivers; confirm with BIA-MA whether the brain-injury support group fits your situation.",
+      "summary": "A virtual caregiver support group hosted by the Brain Injury Association of Massachusetts. This is brain-injury caregiver support, not an autism-specific group.",
+      "accessibility": [
+        "Virtual participation through Zoom.",
+        "Ask BIA-MA about captions and any participation support you need; these details are not stated on the checked page."
+      ],
+      "registration": "Use the REGISTER NOW link on the official dated event page for Zoom access.",
+      "cancellationPolicy": "Not stated in the checked listing; confirm changes and attendance terms with the organizer.",
+      "notes": [
+        "Time shown in Eastern Time based on the Massachusetts organizer; confirm with BIA-MA.",
+        "The organizer lists this dated meeting as part of its fourth-Tuesday series."
+      ],
+      "lastVerified": "2026-11-12T12:16:00Z",
+      "verificationMethod": "Official dated BIA-MA organizer event page checked November 12, 2026."
+    },
+    {
+      "id": "biama-caregiver-support-2026-12-22",
+      "title": "Brain Injury Association of Massachusetts: caregiver support group",
+      "start": "2026-12-22T13:00:00-05:00",
+      "end": "2026-12-22T14:30:00-05:00",
+      "timezone": "America/New_York",
+      "state": "MA",
+      "city": "Virtual",
+      "venue": "Brain Injury Association of Massachusetts — online via Zoom",
+      "address": "",
+      "category": "Caregiver support",
+      "format": "Virtual",
+      "status": "scheduled",
+      "reviewRequired": false,
+      "sourceId": "biama-caregiver-support",
+      "sourceUrl": "https://biama.org/event/virtual-caregivers-support-group-meeting-for-caregivers/2026-12-22/",
+      "ticketUrl": "https://biama.org/event/virtual-caregivers-support-group-meeting-for-caregivers/2026-12-22/",
+      "cost": "Cost not stated on the checked organizer page; confirm before registering.",
+      "ages": "Caregivers; confirm with BIA-MA whether the brain-injury support group fits your situation.",
+      "summary": "A virtual caregiver support group hosted by the Brain Injury Association of Massachusetts. This is brain-injury caregiver support, not an autism-specific group.",
+      "accessibility": [
+        "Virtual participation through Zoom.",
+        "Ask BIA-MA about captions and any participation support you need; these details are not stated on the checked page."
+      ],
+      "registration": "Use the REGISTER NOW link on the official dated event page for Zoom access.",
+      "cancellationPolicy": "Not stated in the checked listing; confirm changes and attendance terms with the organizer.",
+      "notes": [
+        "Time shown in Eastern Time based on the Massachusetts organizer; confirm with BIA-MA.",
+        "The organizer lists this dated meeting as part of its fourth-Tuesday series."
+      ],
+      "lastVerified": "2026-11-12T12:16:00Z",
+      "verificationMethod": "Official dated BIA-MA organizer event page checked November 12, 2026."
     }
   ],
   "accessibilityStandard": {

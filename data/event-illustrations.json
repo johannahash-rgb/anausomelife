@@ -6280,6 +6280,46 @@
       "venue": "Virtual",
       "start": "2026-11-24T12:00:00-05:00",
       "reusedFromEvent": "aa-provider-2026-11-17"
+    },
+    "ma-profound-autism-listening-2026-11-12": {
+      "src": "/assets/event-sketches/aa-provider-2026-11-17.webp",
+      "alt": "Original editorial illustration of a laptop, notebook, tabbed folders and green mug on a home desk.",
+      "width": 720,
+      "height": 480,
+      "title": "Massachusetts Profound Autism Advisory Council: listening session",
+      "venue": "Massachusetts EOHHS — online via Zoom",
+      "start": "2026-11-12T12:30:00-05:00",
+      "reusedFromEvent": "aa-provider-2026-11-17"
+    },
+    "ma-profound-autism-listening-2026-11-16": {
+      "src": "/assets/event-sketches/aa-provider-2026-11-17.webp",
+      "alt": "Original editorial illustration of a laptop, notebook, tabbed folders and green mug on a home desk.",
+      "width": 720,
+      "height": 480,
+      "title": "Massachusetts Profound Autism Advisory Council: listening session",
+      "venue": "Massachusetts EOHHS — online via Zoom",
+      "start": "2026-11-16T19:30:00-05:00",
+      "reusedFromEvent": "aa-provider-2026-11-17"
+    },
+    "biama-caregiver-support-2026-11-24": {
+      "src": "/assets/event-sketches/aa-provider-2026-11-17.webp",
+      "alt": "Original editorial illustration of a laptop, notebook, tabbed folders and green mug on a home desk.",
+      "width": 720,
+      "height": 480,
+      "title": "Brain Injury Association of Massachusetts: caregiver support group",
+      "venue": "Brain Injury Association of Massachusetts — online via Zoom",
+      "start": "2026-11-24T13:00:00-05:00",
+      "reusedFromEvent": "aa-provider-2026-11-17"
+    },
+    "biama-caregiver-support-2026-12-22": {
+      "src": "/assets/event-sketches/aa-provider-2026-11-17.webp",
+      "alt": "Original editorial illustration of a laptop, notebook, tabbed folders and green mug on a home desk.",
+      "width": 720,
+      "height": 480,
+      "title": "Brain Injury Association of Massachusetts: caregiver support group",
+      "venue": "Brain Injury Association of Massachusetts — online via Zoom",
+      "start": "2026-12-22T13:00:00-05:00",
+      "reusedFromEvent": "aa-provider-2026-11-17"
     }
   },
   "watchlist": {
@@ -6441,5 +6481,5 @@
       "reusedFrom": "/assets/event-sketches/holiday-concert.webp"
     }
   },
-  "updated": "2026-11-01"
+  "updated": "2026-11-11"
 }
