@@ -1,0 +1,84 @@
+{
+  "dateEastern": "2026-11-13",
+  "reviewTimeEastern": "approximately 10:43-10:47 EST",
+  "recordType": "append_only_press_backlog_run_audit_no_send",
+  "senderAndSafetyPolicy": "Only hello@anausomelife.com, weekdays 09:00-11:00 Eastern, <=3 total initial pitches across workflows, >=14 calendar days organization-wide cooldown, <=1 follow-up after >=8 business days and no prior response; respect opt-outs, editorial submissions, no AI-written original work restrictions, child/privacy and photo rights",
+  "preActionChecks": {
+    "resend": {
+      "source": "Resend list_emails latest 100 sent messages plus full bodies for two November 12 replies",
+      "latestObservedSentAtUTC": "2026-11-12T18:48:19.373Z",
+      "newInitialMediaPitchesNov13Observed": 0,
+      "otherNov13TransactionalSendsObserved": 0,
+      "notes": "No Nov13 sends visible in latest 100 at review time; recent Nov11 existing-conversation replies and Nov12 follow-up/courtesy responses distinguished from initial media pitches."
+    },
+    "gmail": [
+      {
+        "account": "johannahash@gmail.com",
+        "queries": "Nov11 onward and press-specific targeted reply searches",
+        "relevantNewReplySinceNov12Morning": null
+      },
+      {
+        "account": "pinsharelike@gmail.com forwarded publication inbox",
+        "queries": "Nov11 onward and targeted correspondent searches",
+        "relevantNewReplySinceNov12Morning": {
+          "from": "chris@gnomesurf.org",
+          "receivedEastern": "2026-11-12 13:35:37",
+          "messageId": "1a1d10be8b069b61",
+          "disposition": "human_acceptance_of_interview_conversation",
+          "quote": "I would love to speak with you. Let me know what you were thinking.",
+          "url": "https://mail.google.com/mail/u/?authuser=pinsharelike%40gmail.com#all/1a1d10be8b069b61"
+        }
+      }
+    ],
+    "otherInboxChannels": {
+      "resendInboxes": "No Resend inboxes found",
+      "resendReceivedEmails": "No received emails found; does not establish that Gmail is complete"
+    },
+    "library": {
+      "read": "An_AUsome_Life_Press_Plan_and_Queue.json (staged not automatically cleared); An_AUsome_Life_Collaboration_Declines_2026-10-27.json (all 24 acknowledgments already sent); An_AUsome_Life_50_Press_Outreach_Audit_2026-10-30.md (34 delivered, 8 editorial holds and 5 route/form holds)",
+      "unavailable": "aal-log-20261027.json not located through Library search and folder listing returned internal error; exact historic master cross-check incomplete",
+      "editorialHolds": "Ability Toolbox; National PTA Our Children; Christian Science Monitor Home Forum; Reasons to Be Cheerful; Green Child; Northern Woodlands; Literary Hub; Strong Towns. Each held for its own original work, disclosure, reporting, completed manuscript or AI-authoring condition; do not send unprepared materials.",
+      "contactRouteHolds": "PrAACtical AAC; Family Voices national; Dads Supporting Dads; CT Examiner; Travel Thru History. Submission route, not ordinary verified direct contact, required."
+    },
+    "repository": "Read docs/press-backlog-reconciliation-2026-11-12.json, docs/shaker-history-press-outreach-2026-10-22.json, provider-completion and Fruitlands cooldown correction from prior reconciliation. One-off Shaker task is unavailable for direct peek; source delivery receipts and deltas govern."
+  },
+  "verifiedRecentHumanEditorialActivity": [
+    {
+      "organization": "Gnome Surf",
+      "incoming": "Nov12 13:35 EST personal positive invitation to talk",
+      "outgoing": {
+        "provider": "Resend",
+        "sentAtUTC": "2026-11-12T18:48:19.373Z",
+        "status": "delivered",
+        "id": "01a1d116-de1d-78fa-aec0-afddefdc478c",
+        "contentSummary": "Warmly offered 20–30 minute interview or email Q&A; asked for suitable times and format"
+      },
+      "status": "await_response_no_followup_now"
+    },
+    {
+      "organization": "Old Sturbridge Village",
+      "outgoing": {
+        "provider": "Resend",
+        "sentAtUTC": "2026-11-12T18:39:03.383Z",
+        "status": "delivered",
+        "id": "01a1d10e-6266-7d35-a9ae-c3c96ec3dbce",
+        "contentSummary": "Thanked existing correspondent for confirming admission for three, suggesting quieter dates and earlier arrival; stated visit date not chosen"
+      },
+      "caveat": "The original inbound confirmation was not retrieved in connected Gmail/Resend during this audit; do not claim a booked visit or independent confirmation of an exact date.",
+      "status": "visit_date_not_selected_no_press_followup_due"
+    }
+  ],
+  "shakers": "Eight delivered Shaker organization contacts previously verified. October 28 one-off task ID could not be accessed in automation lookup; preserve source outcome. No new Shaker pitch. Fruitlands/The Trustees organization-wide hold through at least November 17 10:48 Eastern; no contact bypass.",
+  "passedDeadline": "Exceptional Parent original Word manuscript for December issue due November 10; no verified approved submission. Do not submit unreviewed or late manuscript or unlicensed family photos.",
+  "coverage": "Public search for An AUsome Life/Fruitlands/Shaker did not verify a new third-party share or placement. Index absence is not proof of nonpublication.",
+  "todayActions": {
+    "newInitialPitches": 0,
+    "followups": 0,
+    "courtesyAcknowledgments": 0,
+    "originalSubmissions": 0,
+    "photographsSent": 0
+  },
+  "whyNoSend": "No verified new candidate cleared all historical cross-workflow duplication and individual editorial/route requirements; do not send to fill quota. Positive Gnome Surf reply has already received a business-sender response. Active pipeline remains, but no chase due.",
+  "notificationRecommendation": "Meaningful new Gnome Surf human interest since prior Nov12 morning audit; user may be informed with confirmation that answer was already sent. Old Sturbridge visit admission appears in acknowledged delivered correspondence, without verified booked date.",
+  "originalsUnchanged": true
+}
