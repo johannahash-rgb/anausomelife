@@ -1,0 +1,90 @@
+{
+  "recordType": "append_only_press_backlog_run_audit_no_send",
+  "dateEastern": "2026-11-16",
+  "reviewWindowEastern": "weekday morning, 09:00–11:00 EST",
+  "senderPolicy": "Use only verified hello@anausomelife.com; no personal Gmail sends; max 3 initial media pitches across workflows daily; organization-wide cooldown 14 calendar days; at most 1 follow-up >=8 business days only without reply; respect all opt-outs, bounces, deadline and rights holds.",
+  "preflight": {
+    "resend": {
+      "source": "Resend list_emails latest 100 messages",
+      "latestOutgoingAtUTC": "2026-11-12T18:48:19.373Z",
+      "observedNewInitialPitchesToday": 0,
+      "observedOtherTransactionalSendsToday": 0,
+      "note": "Latest 100 list has no sends dated Nov 13–16. Provider list is paginated, not an exhaustive historical ledger; no send was attempted."
+    },
+    "gmail": {
+      "accounts": [
+        "johannahash@gmail.com",
+        "pinsharelike@gmail.com forwarded hello@anausomelife.com"
+      ],
+      "range": "November 12–16 2026 inclusive, broad current mail and targeted editorial/recipient searches",
+      "outcome": "No newly received editor acceptance/publication confirmation; meaningful Nov 13 community question and Nov 15 seasonal resort reply noted."
+    },
+    "library": {
+      "reviewed": [
+        "log-updated.json, as of 2026-11-13T15:24:53Z; current 26,852-line historical press log",
+        "An_AUsome_Life_Press_Plan_and_Queue.json, prepared October 8, with fourteen staged queues",
+        "An_AUsome_Life_Collaboration_Declines_2026-10-27.json, including confirmed prior courtesy deliveries and suppression/fit rules",
+        "Earlier append-only dated press deltas"
+      ],
+      "unavailable": "Exact original aal-log-20261027.json was not returned; accessible later master log and repo evidence used rather than interpreting missing source as no contact."
+    },
+    "repository": {
+      "reviewed": [
+        "docs/press-backlog-reconciliation-2026-11-13.json",
+        "docs/shaker-history-press-outreach-2026-11-03-delta.json",
+        "docs/fruitlands-trustees-cooldown-reconciliation-2026-11-03.json"
+      ],
+      "shakerContactsVerifiedDelivered": 8,
+      "shakerRemainingUnsent": 0,
+      "fruitlandsEarliestBoundaryEastern": "2026-11-17T10:48:09-05:00"
+    },
+    "publication": {
+      "journal": "https://anausomelife.com/blog.html",
+      "notes": "Reviewed current journal and searched public indexed mention of Fruitlands/Shaker/press coverage; no independently confirmed new placement. Current journal alone doesn't establish a truly new post relative to all cross-workflow histories; no speculative pitch."
+    }
+  },
+  "newInbound": [
+    {
+      "organization": "ABA Centers of Connecticut",
+      "dateEastern": "2026-11-13 11:28:25 EST",
+      "sender": "griley@abacenters.com",
+      "gmailMessageId": "1a1d5c08b22aa956",
+      "url": "https://mail.google.com/mail/u/?authuser=pinsharelike%40gmail.com#all/1a1d5c08b22aa956",
+      "disposition": "Genuine human question asking whether recipient may send events worthy of attendance, collaboration or sponsorship; not a confirmed sponsorship/partnership or press placement.",
+      "outboundAction": "None; avoid making unapproved sponsorship commitments and no generic courtesy/repitch."
+    },
+    {
+      "organization": "Cape Cod Family Resort and Parks",
+      "dateEastern": "2026-11-15 08:52:40 EST",
+      "gmailMessageId": "1a1df7bb330c2a4e",
+      "disposition": "Seasonal-closure apology and polite suggestion to consider ordinary future visit; not an offer of hosted stay or invitation to repeat the expired Oct24-25 ask.",
+      "outboundAction": "None; no chase/ack required."
+    }
+  ],
+  "held": {
+    "stagedQueuedMessages": "October 8 staged queue contains fourteen, but already-sent items, editorial constraints and outdated seasonal pitches make status stale; no queued item was assumed eligible without fresh cross-workflow contact and source checks.",
+    "previousEditorialHolds": [
+      "Ability Toolbox",
+      "National PTA Our Children",
+      "Christian Science Monitor Home Forum",
+      "Reasons to Be Cheerful",
+      "Green Child",
+      "Northern Woodlands",
+      "Literary Hub",
+      "Strong Towns"
+    ],
+    "nov10ExceptionalParent": "Passed deadline; no verified final approved original Word submission; do not send late/unreviewed copy or photos.",
+    "shaker": "All eight already delivered; Harvard Press do-not-duplicate; Fruitlands/The Trustees no contact before Nov 17 10:48 EST at earliest, pending rechecks.",
+    "allDeclinesAndBounces": "Keep all existing suppressions, outlet-specific restrictions and previously delivered courtesies."
+  },
+  "actions": {
+    "initialEditorialPitchesSent": 0,
+    "followupsSent": 0,
+    "courtesyAcknowledgmentsSent": 0,
+    "originalArticlesSubmitted": 0,
+    "photosSent": 0,
+    "filesOverwritten": 0
+  },
+  "result": "No pitch cleared all contact/editorial timing checks. Meaningful inbound from ABA Centers is actionable as a relationship question but not an authorized new sponsorship. No verified new publication. Preserve holds and monitor for authentic new editorial openings.",
+  "notificationDecision": "Notify user about newly discovered community-representative reply; do not imply accepted coverage or a collaboration."
+}
