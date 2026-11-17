@@ -1,0 +1,87 @@
+{
+  "recordType": "append_only_press_backlog_run_audit_new_inbound_and_cross_workflow_delivery",
+  "dateEastern": "2026-11-17",
+  "verifiedWindow": "2026-11-17 10:42 onward EST (weekday permitted 09:00-11:00)",
+  "authoritativeSender": "hello@anausomelife.com",
+  "preflight": {
+    "resend": "Read latest 100 outgoing provider records and full provider receipt of current-day New Bedford Light follow-up",
+    "newInitialMediaPitchesTodayObserved": 0,
+    "otherFollowupsTodayObserved": 1,
+    "observedSend": {
+      "recipient": "tips@newbedfordlight.org",
+      "organization": "The New Bedford Light",
+      "subject": "Re: Fort Taber winter story: snowshoes, a sled and one New Bedford afternoon",
+      "from": "JoHannah Ash | An AUsome Life <hello@anausomelife.com>",
+      "status": "delivered",
+      "sentUTC": "2026-11-17T15:36:45.064Z",
+      "providerEmailId": "01a1ea27-4667-7eb6-810b-54fc5486e32f",
+      "kind": "single follow-up to November 3 initial",
+      "thisAuditSend": false,
+      "canonicalUrl": "https://anausomelife.com/fort-taber-snowshoes-field-note.html",
+      "doNotRepeat": true
+    },
+    "gmail": "Searched latest Gmail both johannahash@gmail.com and pinsharelike@gmail.com, including all messages addressed to hello@anausomelife.com since Nov 12, and read full bodies/replies of three substantive messages.",
+    "library": [
+      "log-next.json updated 2026-11-17T15:37:05.097455+00:00 (new authoritative later master, provider-ID reconciliation crosschecked)",
+      "An_AUsome_Life_Press_Plan_and_Queue.json prepared October 8; staged queue not safe without fresh checks",
+      "An_AUsome_Life_Collaboration_Declines_2026-10-27.json Oct 27 original with 24 courtesy deliveries; later version has 26; never resend",
+      "Historical dated Library backlog deltas"
+    ],
+    "originalMasterFileNote": "Exact original aal-log-20261027.json not found; current later master log-next.json is available; missing original not interpreted as absence of prior contact",
+    "repository": [
+      "docs/press-backlog-reconciliation-2026-11-16.json",
+      "docs/shaker-history-press-outreach-2026-11-03-delta.json",
+      "docs/fruitlands-trustees-cooldown-reconciliation-2026-11-03.json"
+    ],
+    "shaker": "All 8 earlier Shaker contacts delivered, 0 unsent. No Harvard Press duplicate. Fruitlands/The Trustees earliest cooldown boundary Nov 17 10:48:09 EST only if fresh rechecks; no further Shaker contact without independent editorial fit and compliance."
+  },
+  "newSubstantiveInbound": [
+    {
+      "organization": "The Dance Enthusiast",
+      "contact": "Christine M. Jowers",
+      "from": "christinemoves@gmail.com",
+      "receivedEastern": "2026-11-17 08:56:53 EST",
+      "gmailMessageId": "1a1e9cd14fe8d0d8",
+      "url": "https://mail.google.com/mail/u/?authuser=pinsharelike%40gmail.com#all/1a1e9cd14fe8d0d8",
+      "disposition": "Editor requested photos and text submitted to cjchiefeditor@dance-enthusiast.com in response to Oct 27 RMV dance Postcard pitch. Meaningful submission invitation, not accepted publication.",
+      "hold": "No unreviewed text, family/child photos, third-party staff photos, or licensing sent. Requires careful editorial/photo/privacy and reuse-rights review before any submission."
+    },
+    {
+      "organization": "Massachusetts Department of Transportation",
+      "contact": "Amelia Aubourg (Chief Communications Officer)",
+      "from": "amelia.s.aubourg@dot.state.ma.us",
+      "receivedEastern": "2026-11-16 17:20:22 EST",
+      "gmailMessageId": "1a1e673d9abd76fa",
+      "url": "https://mail.google.com/mail/u/?authuser=pinsharelike%40gmail.com#all/1a1e673d9abd76fa",
+      "disposition": "Requested a phone call Nov 17 about same family's RMV story. Time-sensitive human agency inquiry, purpose not established. No assumption of endorsement or publication.",
+      "hold": "No telephone contact, no identity/child details supplied, no new outgoing response from automation; user should see time-sensitive request."
+    },
+    {
+      "organization": "Turk's Seafood",
+      "contact": "Kaylen Duquette",
+      "from": "turksseafood89@gmail.com",
+      "receivedEastern": "2026-11-16 21:35:56 EST",
+      "gmailMessageId": "1a1e75d2d06ae43d",
+      "url": "https://mail.google.com/mail/u/?authuser=pinsharelike%40gmail.com#all/1a1e75d2d06ae43d",
+      "disposition": "Responded positively to future family visit concept, offered 50% off tab, brief fish-market visit, suggested 11:30 AM in April/May 2027, asks which social accounts are official; no reservation/commitment/coverage agreement.",
+      "hold": "No dates agreed, no implied sponsored review or photography rights, no reply sent."
+    }
+  ],
+  "priorItemsUnchanged": [
+    "November 13 ABA Centers of Connecticut asked whether it may propose events/collaboration; not confirmed commitment",
+    "November 15 Cape Cod Family Resort seasonal reply not a new hosted stay",
+    "Exceptional Parent Nov 10 original Word article deadline passed; no unreviewed submission",
+    "Clear declines/suppressions, mismatches, delivered courtesies, photo rights, child privacy and old seasonal asks remain held."
+  ],
+  "publicationCheck": "Public search and An AUsome Life official press page showed no newly independently verified placement attributable to this review; editorial inquiries are not coverage.",
+  "actionsThisAudit": {
+    "initialPitchesSent": 0,
+    "followupsSent": 0,
+    "courtesyAcknowledgmentsSent": 0,
+    "originalArticlesSubmitted": 0,
+    "photographsSent": 0,
+    "sourceFilesOverwritten": 0
+  },
+  "notificationDecision": "Notify on newly received editor submission invitation, urgent agency call request, and specific positive visit terms. Avoid implying permission for family photographs or accepted publication.",
+  "nextReview": "Check later incoming communications and full organization-wide history before any future outreach. Do not duplicate the Nov17 Fort Taber follow-up. If no eligible safe send, hold rather than fill cap."
+}
