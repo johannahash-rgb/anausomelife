@@ -1,0 +1,81 @@
+{
+  "recordType": "append_only_press_backlog_audit",
+  "dateEastern": "2026-11-18",
+  "verifiedAtEastern": "2026-11-18 10:41-10:50 EST",
+  "sendWindow": "Weekdays 09:00-11:00 America/New_York",
+  "sender": "hello@anausomelife.com",
+  "sourcesChecked": [
+    "Resend latest 100 and recency recheck latest 15, including shared daily media cap",
+    "Gmail pinsharelike@gmail.com forwarded hello@anausomelife.com mailbox, new inbox Nov16-18 and full threads",
+    "Gmail johannahash@gmail.com, new inbox and publication-themed search",
+    "Library later master log-next.json modified Nov17 15:37 UTC; original aal-log-20261027.json not retrievable",
+    "Library original October 8 press plan/queue; earlier editorial/same-organization status verified against later master",
+    "Library October 27 Collaboration Declines register, 26 verified delivered courtesies in its current snapshot; never re-send original 24",
+    "GitHub 2026-11-17 press audit and 2026-11-03 Shaker completion",
+    "Accessible Travel Press official author guidelines and current An AUsome Life journal; public query for independent coverage"
+  ],
+  "outboundObservedToday": {
+    "newInitialMediaPitches": 0,
+    "otherResendOutbound": 0,
+    "lastKnownResendSend": {
+      "dateEastern": "2026-11-17",
+      "recipient": "tips@newbedfordlight.org",
+      "kind": "single follow-up",
+      "status": "delivered",
+      "providerEmailId": "01a1ea27-4667-7eb6-810b-54fc5486e32f",
+      "doNotRepeat": true
+    }
+  },
+  "newHumanRepliesSincePriorAudit": [
+    {
+      "organization": "Smugglers' Notch Resort",
+      "contact": "Matt McCawley",
+      "receivedUTC": "2026-11-17T19:40:55Z",
+      "gmailId": "1a1eb077dafacc1d",
+      "url": "https://mail.google.com/mail/u/?authuser=pinsharelike%40gmail.com#all/1a1eb077dafacc1d",
+      "status": "active hosted-stay collaboration discussion",
+      "details": "Asks if family still interested in January, not urgent. Earlier offered up to two fully hosted nights, with accommodation/activities under negotiation; January 9-10 was the family's preferred option, not a reservation; draft contract, actual dates, access and deliverables pending.",
+      "action": "No new pitch or unilateral commitment; awaiting owner decision and terms."
+    },
+    {
+      "organization": "Accessible Travel Press",
+      "contact": "Marlies van Sint Annaland",
+      "receivedUTC": "2026-11-17T18:24:06Z",
+      "gmailId": "1a1eac135003d76f",
+      "url": "https://mail.google.com/mail/u/?authuser=pinsharelike%40gmail.com#all/1a1eac135003d76f",
+      "status": "human editorial author invitation, not confirmed publication",
+      "details": "Offers free writer/storyteller space and asks for story ideas/drafts; distinguishes optional €119/year commercial partner tier. Official author page notes 300-900 words, copyright and image permissions for submitted content; no photos or manuscripts authorized.",
+      "action": "Hold draft/rights/republication submission; original parking-guide pitch Oct19 already delivered, do not resend same story."
+    },
+    {
+      "organization": "Bierman Autism Centers",
+      "contact": "Thomas Carr",
+      "receivedUTC": "2026-11-17T18:28:38Z",
+      "gmailId": "1a1eac54abc47f7c",
+      "url": "https://mail.google.com/mail/u/?authuser=pinsharelike%40gmail.com#all/1a1eac54abc47f7c",
+      "status": "positive personal acknowledgement",
+      "details": "Appreciated family self-advocacy story and said he would pass the link and thanks to the team; no confirmed newsletter placement.",
+      "action": "No repeat thank-you or new pitch."
+    }
+  ],
+  "editorialHold": [
+    "The Dance Enthusiast requested RMV dance story text and photographs Nov17, but child and third-party image rights, permission and reviewed editorial draft remain unresolved; no submission",
+    "MassDOT Nov16 agency phone inquiry not treated as approval, press or coverage; Nov17 requested date past",
+    "Exceptional Parent Nov10 Word manuscript deadline expired without verified reviewed manuscript submission",
+    "Accessible Travel Press image-reuse licensing and draft review pending",
+    "Parenting Special Needs has Oct12 Halloween and Oct27 RMV outreach; do not push third initial just because 14-day cooldown elapsed",
+    "Remaining October 8 placements had prior owner contacts, declines or stale season-specific angles; not automatically authorized",
+    "All eight Shaker organizations were previously contacted. Fruitlands initial delivered Nov3; Trustees/Fruitlands org cooldown earliest Nov17 at 10:48:09 ET but not permission to repitch",
+    "Declines, no-contact, prior bounces, opt-outs, photo-rights and child privacy restrictions unchanged"
+  ],
+  "activityThisAudit": {
+    "newInitialPitchesSent": 0,
+    "followupsSent": 0,
+    "courtesiesSent": 0,
+    "originalSubmissions": 0,
+    "photosSent": 0,
+    "existingFilesOverwritten": 0
+  },
+  "publicationFinding": "No newly independently confirmed public editorial placement identified in the public checks; positive replies are not coverage.",
+  "status": "Review complete; hold unsafe or repetitive sends. Notify about three new relevant replies, especially direct author invitation and resort collaboration interest."
+}
