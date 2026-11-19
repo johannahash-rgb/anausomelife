@@ -1,0 +1,77 @@
+{
+  "recordType": "append_only_press_backlog_audit",
+  "dateEastern": "2026-11-19",
+  "checkedAtEastern": "2026-11-19 10:45-10:52 EST",
+  "sender": "hello@anausomelife.com",
+  "sourcesReviewed": [
+    "Resend 100 recent transactional messages and pre/post-send newest 15/5; November19 new initial pitch count verified as zero at this review",
+    "Gmail pinsharelike@gmail.com forwards publication inbox; newest messages and Gnome Surf and Bath Life complete reply threads",
+    "Gmail johannahash@gmail.com targeted recent publication-themed mail",
+    "Library log-next.json, updated 2026-11-18T15:51:55Z; original aal-log-20261027.json not retrievable",
+    "Library An_AUsome_Life_Press_Plan_and_Queue.json dated October8, current staged-queue statuses",
+    "Library An_AUsome_Life_Collaboration_Declines_2026-10-27.json; all 26 courtesy entries delivered, including original user's 24, none re-sent",
+    "GitHub Shaker history outreach source and November18 press audit",
+    "Current automation roster checked for possible duplicate reply watchers; no active matching courtesy watcher",
+    "Public An AUsome Life site, current web-search checks for new articles and independent coverage"
+  ],
+  "currentDayInitialMediaPitchesObserved": 0,
+  "sendsThisRun": {
+    "initialMediaPitches": 0,
+    "followups": 0,
+    "courtesies": 1,
+    "originalEditorialSubmissions": 0,
+    "photographs": 0,
+    "message": {
+      "type": "one_time_gracious_acknowledgment_of_editorial_decline_with_referrals",
+      "organization": "Bath Life / MediaClash",
+      "contact": "Sarah Moolla",
+      "recipient": "sarah.moolla@mediaclash.co.uk",
+      "sender": "JoHannah Ash | An AUsome Life <hello@anausomelife.com>",
+      "subject": "Re: A Bath shop's welcome, seen from across the Atlantic",
+      "sentUTC": "2026-11-19T15:50:30.097Z",
+      "sentEastern": "2026-11-19T10:50:30.097-05:00",
+      "provider": "Resend",
+      "providerEmailId": "01a1f480-953a-75e6-9ec8-da7223cf101a",
+      "providerStatus": "delivered",
+      "idempotencyKey": "aal-bathlife-sarah-gracious-ack-20261119-v1",
+      "body": "Hi Sarah,\n\nThank you for taking the time to consider the story and for kindly sharing those local press contacts. I really appreciate the guidance.\n\nWarm wishes to you and the Bath Life team,\n\nJoHannah Ash\nAn AUsome Life\nhello@anausomelife.com",
+      "statusCheck": "Resend get_email queued immediately after acceptance; subsequent Resend list_emails explicitly confirmed delivered. No retry.",
+      "safeguards": "No renewed pitch, no attachments, no photographs, suppressed-address lookup returned not_found, full inbound and prior sends verified, no previous acknowledgement."
+    }
+  },
+  "newHumanResponses": [
+    {
+      "organization": "Gnome Surf",
+      "contact": "Christopher Antao",
+      "receivedEastern": "2026-11-19 10:14:36 EST",
+      "gmailId": "1a1f46057af81d8c",
+      "url": "https://mail.google.com/mail/u/?authuser=pinsharelike%40gmail.com#all/1a1f46057af81d8c",
+      "classification": "substantive positive interview opportunity",
+      "detail": "Available some time Friday November20 without specifying exact time. Alternately invites email questions and would welcome meeting in person later regarding collaboration.",
+      "action": "Do not select a Friday time, commit a meeting or send unreviewed interview questions on user's behalf; user can reply with availability or choose email Q&A."
+    },
+    {
+      "organization": "Bath Life / MediaClash",
+      "contact": "Sarah Moolla",
+      "receivedUTC": "2026-11-18T16:07:05Z",
+      "gmailId": "1a1ef69f75c8a5fd",
+      "url": "https://mail.google.com/mail/u/?authuser=pinsharelike%40gmail.com#all/1a1ef69f75c8a5fd",
+      "classification": "editorial decline with six local press referrals",
+      "detail": "Original My Small World story was not suitable for Bath Life. Editor volunteered six local press contact addresses, which are not invitations or pre-cleared new pitch authorizations.",
+      "action": "Treat Bath Life pitch and follow-up as closed; one gracious acknowledgment delivered November19. Never send second courtesy or repeat same story."
+    }
+  ],
+  "queuedPlacementsDisposition": "No additional initial or follow-up cleared fresh contact, same-organization, editorial fit, prior thread, decline and duplicate-history checks. Original October8 queue is staged and largely obsolete; latest master preparedQueue is delivered/held/closed. New referrals require independently verified editorial fit and contacts before any approach.",
+  "editorialHolds": [
+    "The Dance Enthusiast November17 invitation requests RMV text and photos; holds for review, child and third-party image rights",
+    "Accessible Travel Press November17 writer invitation requires approved original copy and photo rights; free creator opportunity is not guaranteed publication",
+    "Exceptional Parent November10 deadline passed; no verified approved Word submission",
+    "MassDOT November17 phone inquiry needs user handling; no unilateral calls, claims of endorsement or confirmed press",
+    "Eight Shaker outlets including Harvard Press, Fruitlands were previously contacted; no duplicate sends or repeat image permissions",
+    "Previously declined or bounced contacts and all October27 courtesies remain restricted",
+    "Smugglers' Notch resort January stay awaits owner agreement on terms; not an editorial placement"
+  ],
+  "publicationResult": "No newly independently confirmed third-party publication identified in this review",
+  "guardrails": "Weekdays 09:00–11:00 America/New_York; shared maximum 3 new initial media pitches; 14-day organization cooldown; one follow-up only after at least 8 business days and no reply; no photo rights assumed; no personal Gmail sending.",
+  "sourceLimitation": "Exact original Library master aal-log-20261027.json remains undiscoverable. Later 2.26MB master log-next.json and provider/Gmail evidence reconciled; do not overwrite originals."
+}
