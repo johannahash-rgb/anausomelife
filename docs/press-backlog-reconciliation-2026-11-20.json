@@ -1,0 +1,55 @@
+{
+  "recordType": "append_only_press_backlog_audit",
+  "dateEastern": "2026-11-20",
+  "timezone": "America/New_York",
+  "checkedDuringWindow": "weekday 09:00-11:00",
+  "publicationSender": "hello@anausomelife.com",
+  "sourcesReviewed": [
+    "Resend list_emails latest 100 and final latest 30; as of final check newest delivered message was November 19 2026, 10:50:30 Eastern, a previously audited Bath Life courtesy acknowledgment; no November 20 outbound present",
+    "Gmail pinsharelike@gmail.com: all messages to hello@anausomelife.com since Nov18; all nonpromotional since Nov19; complete News Link Live and Gnome Surf threads",
+    "Gmail johannahash@gmail.com: recent publication-themed search and recent nonpromotional messages",
+    "Library accessible log-next.json (updated 2026-11-18 15:51:55 UTC), October 8 original press plan, October 27 26-entry decline/courtesy register",
+    "GitHub 2026-11-19 and 2026-11-18 press audits and Shaker outreach source 2026-10-22",
+    "Public An AUsome Life press and media pages, web searches for fresh stories and third-party publication"
+  ],
+  "currentDayProviderInitialPitchesObserved": 0,
+  "activityThisRun": {
+    "newInitialEditorialCommunityPitches": 0,
+    "followups": 0,
+    "courtesyAcknowledgments": 0,
+    "originalEditorialSubmissions": 0,
+    "photoAttachments": 0,
+    "scheduledEmails": 0,
+    "sourceFilesOverwritten": 0
+  },
+  "newHumanReplies": [
+    {
+      "organization": "News Link Live",
+      "contact": "Genevieve DiNatale",
+      "receivedEastern": "2026-11-20T10:34:57-05:00",
+      "gmailMessageId": "1a1f99934c7fa6b9",
+      "gmailUrl": "https://mail.google.com/mail/u/?authuser=pinsharelike%40gmail.com#all/1a1f99934c7fa6b9",
+      "subject": "Re: Searstown memories—and why we still go to the mall",
+      "classification": "paid_feature_offer_not_earned_editorial_acceptance",
+      "terms": "Editor says feature stories of this kind cost $80 and provides payment/submission form.",
+      "disposition": "Hold. No payment authorized, no story submission, no renewed pitch, no courtesy required. Do not claim press coverage."
+    }
+  ],
+  "activePriorOpportunity": {
+    "organization": "Gnome Surf",
+    "latestReplyEastern": "2026-11-19T10:14:36-05:00",
+    "disposition": "Chris offered unspecified availability Friday Nov20 or email Q&A, and interest in later in-person discussion. Do not invent time or send unreviewed questions; no reply sent this run."
+  },
+  "preflightResult": "No new candidate cleared both current-story and recipient/outlet eligibility, current reply and complete prior sender-history checks. Earlier eight Shaker contacts including Harvard Press/Fruitlands are already addressed. October8 plan is staged and stale, current master prepared queue is delivered/held/closed. Follow-ups and community pitches withheld where editorial fit, organization cooldown, reply status or current reuse permissions are not safely established.",
+  "continuingHolds": [
+    "The Dance Enthusiast's RMV story and photographs are on hold for reviewed text plus parent/third-party image permission",
+    "Accessible Travel Press contributor invitation requires approved original copy and image rights",
+    "Exceptional Parent November10 original Word manuscript deadline elapsed without verified reviewed submission",
+    "MassDOT Nov17 request is not confirmation of endorsement, coverage, or meeting",
+    "Bath Life declined My Small World as poor fit; single gracious acknowledgment already delivered Nov19; no second thank-you",
+    "All prior declines, bounces, unsubscribe requests, suppression, privacy and organization cooling-off restrictions remain"
+  ],
+  "publicationStatus": "No newly confirmed public third-party placement verified in this check.",
+  "limitations": "Named original Library aal-log-20261027.json remains undiscoverable. Accessible later log-next.json and original October8 plan, live provider history, current Gmail, declines register, and repository audits checked; no original source overwritten.",
+  "status": "review_complete_paid_feature_offer_held_no_sends"
+}
