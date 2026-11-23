@@ -1,0 +1,88 @@
+{
+  "recordType": "append_only_press_backlog_audit",
+  "dateEastern": "2026-11-23",
+  "timezone": "America/New_York",
+  "checkedDuringWindow": "Monday 09:00–11:00 EST",
+  "publicationSender": "hello@anausomelife.com",
+  "sourcesReviewed": [
+    "Resend latest 100 sent messages and second latest 15; exact get_email checks for today's existing Huntington Press reply and this run's WestfordCAT response",
+    "Connected Gmail pinsharelike@gmail.com forwarding hello@anausomelife.com, targeted recent inbound, full WestfordCAT and Huntington Press threads, reply-to check",
+    "Connected Gmail johannahash@gmail.com, current mail and targeted publication-related search",
+    "Library original 2026-10-08 An_AUsome_Life_Press_Plan_and_Queue.json; accessible later log-next.json updated November 18, 2026",
+    "Library An_AUsome_Life_Collaboration_Declines_2026-10-27.json with 26 already delivered courtesy acknowledgments, including original 24",
+    "Repository prior dated audits and docs/shaker-history-press-outreach-2026-10-22.json",
+    "WestfordCAT's current calendar entry for local inclusive-family programming",
+    "Las Vegas Advisor first-party indexed November 22, 2026 Question of the Day article"
+  ],
+  "newInitialMediaPitchesObservedToday": 0,
+  "previouslySentTodayByOtherWorkflow": {
+    "organization": "Huntington Press / Las Vegas Advisor",
+    "to": "editor@huntingtonpress.com",
+    "subject": "Re: trying again",
+    "type": "existing-editorial-thread courteous clarification; not new initial pitch",
+    "sentUTC": "2026-11-23T14:52:13.098Z",
+    "sentEastern": "2026-11-23T09:52:13.098-05:00",
+    "provider": "Resend",
+    "providerEmailId": "01a208e4-a935-7453-a2ba-826ce65ef245",
+    "status": "delivered",
+    "action": "Verified already delivered; no duplicate."
+  },
+  "activityThisRun": {
+    "newInitialMediaPitches": 0,
+    "singleEditorInvitedEditorialAngleResponse": 1,
+    "noReplyFollowups": 0,
+    "courtesyDeclineAcknowledgments": 0,
+    "manuscriptSubmissions": 0,
+    "photoAttachments": 0,
+    "scheduledMessages": 0,
+    "existingSourceFilesOverwritten": 0
+  },
+  "deliveredMessage": {
+    "organization": "WestfordCAT / The Westford Villager",
+    "recipient": "kveth@westfordcat.org",
+    "sender": "JoHannah Ash | An AUsome Life <hello@anausomelife.com>",
+    "subject": "Re: For Westford families: a free guide to sensory-friendly and adaptive outings",
+    "kind": "substantive_response_to_editor_request_for_a_locally_relevant_angle",
+    "sentUTC": "2026-11-23T15:51:36.029Z",
+    "sentEastern": "2026-11-23T10:51:36.029-05:00",
+    "provider": "Resend",
+    "providerEmailId": "01a2091b-06e5-7527-b93c-599bb9d18c23",
+    "providerMessageId": "<010001a2091b07d4-622552f5-6c9f-4eec-a479-769e21a1f4b2-000000@email.amazonses.com>",
+    "providerStatus": "delivered",
+    "idempotencyKey": "aal-westfordcat-kathleen-specific-editorial-response-20261123-v1",
+    "editorRequest": "Editor asked for Westford-only article or event/venue idea in reply to original November 2 outreach.",
+    "exactBody": "Hi Kathleen,\n\nThank you for such a thoughtful reply. You’re right: a general New England calendar link isn’t a Westford story.\n\nA more useful angle for Westford readers might be a short, practical local service piece: what families should ask before choosing an inclusive or sensory-aware activity in town. For example, WestfordCAT’s calendar lists a “Lunch Bunch” program at We Rock the Spectrum in Westford beginning December 1, subject to sufficient enrollment. Rather than repeat the event listing, the piece could explain how families check age eligibility, cost, registration, quiet-break options and the support available before they make the trip.\n\nI would verify the current program details with the organizer, distinguish confirmed accommodations from questions still to ask, and keep the focus on Westford families—not promote An AUsome Life or imply I have personally tested the program.\n\nWould that be closer to the kind of reader-service piece The Westford Villager could consider? I’m happy to shape a locally reported draft for editorial review if it fits.\n\nThank you again for being so welcoming.\n\nWarmly,\nJoHannah Ash\nAn AUsome Life\nhello@anausomelife.com",
+    "safeguards": "Resend suppression lookup returned not_found; earlier thread and Gmail sent and Resend history checked; no new cold pitch, rights grant, visit claim, photographs, or unreviewed manuscript. No assertion of editorial acceptance.",
+    "followup": "Do not send more until editor replies; no presumed acceptance."
+  },
+  "inboundNewHumanEditorialReply": {
+    "organization": "WestfordCAT / The Westford Villager",
+    "contact": "Kathleen",
+    "receivedEastern": "2026-11-21T13:11:48-05:00",
+    "gmailMessageId": "1a1ff4f2b9c4642b",
+    "gmailUrl": "https://mail.google.com/mail/u/?authuser=pinsharelike%40gmail.com#all/1a1ff4f2b9c4642b",
+    "classification": "editorial-fit request for locally specific article, not commission or publication",
+    "response": "Verified delivered above; no subsequent contact authorized without editor feedback."
+  },
+  "newPublicEditorialPlacement": {
+    "outlet": "Las Vegas Advisor — Question of the Day",
+    "publicationDate": "2026-11-22",
+    "title": "What Were the Wayne Newton Show and VIP Experience Like Firsthand?",
+    "url": "https://www.lasvegasadvisor.com/question/wayne-vip-experience-firsthand/",
+    "type": "third-party published editorial Q&A using An AUsome Life founder's first-person answers with publication backlink",
+    "verification": "Published dated November 22, 2026 in first-party publisher indexed search result; automated direct page fetch returned HTTP 403. Publication confirmed; no photo permissions presumed.",
+    "relatedEditorThread": "Deke's November 20 note indicated Sunday publication; November 23 delivered reply already sent by another workflow."
+  },
+  "holds": [
+    "No further Shaker outreach; existing eight Shaker contacts including Harvard Press and Fruitlands already delivered, original October 28 task and repository history consulted",
+    "Eight October 8 queued placements remain stale and require current recipient, story, and provider-history checking; no automatic outreach",
+    "The Dance Enthusiast RMV story submission and photographs await reviewed text and explicit family and third-party image rights",
+    "Accessible Travel Press contributor invitation awaits reviewed submission and reuse rights",
+    "Exceptional Parent original Word article November 10 deadline elapsed without verified reviewed authorized submission",
+    "News Link Live $80 placement remains paid offer not earned editorial; no payment authorized",
+    "No contact after declines, bounces, suppression, lack-of-fit or 24-plus delivered courtesy acknowledgments",
+    "Gnome Surf, Smugglers' Notch and other open collaborations not to be mistaken for earned placements"
+  ],
+  "sourceLimitation": "The exact original Library aal-log-20261027.json could not be found; later log-next.json, historical plan, 26-entry declines register, live Resend/Gmail and repository sources reconciled. No original source overwritten.",
+  "status": "one_newly_confirmed_third_party_publication_one_verified_delivered_editor_requested_response_zero_new_initial_pitches"
+}
