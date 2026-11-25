@@ -1,0 +1,22 @@
+{
+  "dateEastern": "2026-11-25",
+  "recordType": "append_only_press_backlog_audit",
+  "sources": [
+    "Resend latest 100",
+    "Both connected Gmail accounts",
+    "October 27 decline register",
+    "October 8 plan, all 14 scheduled pitches",
+    "November 18 log-next.json, 622 sent entries and 114 holds",
+    "Shaker campaign repository and prior reconciliation",
+    "Public article and placement searches"
+  ],
+  "newInitialPitchesObservedToday": 0,
+  "outboundThisRun": 0,
+  "followupsThisRun": 0,
+  "courtesyAcknowledgmentsThisRun": 0,
+  "newPublicPlacementsVerified": 0,
+  "newInbound": "A museum confirmed media access and provided visit and photography guidelines; private logistics omitted from repository audit.",
+  "queue": "All eight Shaker initial messages previously submitted. Remaining older queued pitches not cleared because of seasonality, existing contact/thread or decline, duplication, or missing authorization. No manuscripts or images submitted. No new rejection requiring courtesy response identified.",
+  "limitations": "Exact October 27 master and original one-off task unavailable directly; later master and repository evidence used. No source overwritten. Private detailed audit upload to Library failed.",
+  "status": "review_complete_no_new_outbound_one_substantive_inbound_confirmation"
+}
